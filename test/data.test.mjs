@@ -225,3 +225,26 @@ test("Jungle Tour preserves the WR exchange, previous-best evidence, and first-r
   assert.deepEqual(c.current.laps, ["21.27", "20.80"]);
   assert(!c.records.some(r => r.time === "0:42.00"), "best-lap sum is not a completed run");
 });
+
+test("Marine Tour preserves ties, intermediate records and rejects a mismatched example video", () => {
+  const mc = courses.find(c => c.id === "3ds-mario-circuit");
+  const tie = mc.records.filter(r => r.time === "1:35.95");
+  assert.deepEqual(tie.map(r => r.playerId).sort(), ["phillish", "superfx"]);
+  assert.deepEqual(tie.find(r => r.playerId === "superfx").laps, ["47.77", "48.18"]);
+  assert.equal(mc.records.filter(r => r.time === "1:36.16").length, 1, "repeat self-tie is not another record");
+  const last = mc.records.find(r => r.time === "1:35.47");
+  assert.equal(last.recordDate, "2020-07-04");
+  assert.deepEqual(last.laps, ["47.74", "47.73"]);
+  const ci = courses.find(c => c.id === "rmx-choco-island-1");
+  const middle = ci.records.find(r => r.time === "1:12.71");
+  assert.equal(middle.playerId, "nu11");
+  assert.equal(middle.submittedAt, "2020-07-05T08:40:03.608Z");
+  assert.deepEqual(middle.laps, ["36.36", "36.35"]);
+  assert.equal(middle.proofField, "leaderboard");
+  assert(middle.proofImageLocal);
+  const kaz = ci.records.find(r => r.time === "1:12.36");
+  assert.equal(kaz.recordDate, "2020-07-06");
+  assert.equal(kaz.video, null, "linked 1:12.42 example is not proof of 1:12.36");
+  assert.deepEqual(kaz.laps, ["36.29", "36.07"]);
+  assert(!ci.records.some(r => r.time === "1:12.42"));
+});
