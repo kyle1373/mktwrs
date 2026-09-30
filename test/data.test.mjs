@@ -338,6 +338,25 @@ test("Wild West keeps the recovered WR exchanges and leaves delayed reigns unres
   assert.equal(last.at(-1).video, null, "the unavailable video is retained as a reference, not a working proof link");
 });
 
+test("Super Mario Kart Tour separates WR exchanges from slower submissions and mismatched videos", () => {
+  const rr = courses.find(c => c.id === "n64-royal-raceway");
+  const gv = courses.find(c => c.id === "snes-ghost-valley-1r");
+  assert(!rr.records.some(r => ["1:36.68", "1:36.04", "1:35.84", "1:34.38"].includes(r.time)));
+  assert.deepEqual(rr.records.filter(r => r.time === "1:34.92").map(r => r.playerId), ["nu11", "superfx"]);
+  const final = rr.records.find(r => r.time === "1:34.04");
+  assert.equal(final.submittedAt, "2020-09-14T11:22:15.610Z");
+  assert.deepEqual(final.laps, ["47.11", "46.93"]);
+  assert.equal(final.video, null, "the 1:34.55 video must not remain linked to 1:34.04");
+  assert(final.proofImageLocal);
+  assert(!gv.records.some(r => ["0:41.56", "0:41.43", "0:41.28"].includes(r.time)));
+  assert(gv.records.find(r => r.time === "0:41.66").identityUnresolved);
+  assert.equal(gv.records.find(r => r.time === "0:40.85").recordDate, null);
+  const fx = gv.records.find(r => r.time === "0:40.59" && r.playerId === "superfx");
+  assert.equal(fx.durationDays, 2);
+  assert.equal(fx.video, "https://mktwrs.com/assets/proof/superfx-gv1r-4059-20200910.mp4");
+  assert.equal(gv.records.find(r => r.time === "0:40.52").recordDate, "2020-09-12");
+});
+
 test("Pirate Tour restores exchanges, ties and original dates without accepting mismatched proofs", () => {
   const mc = courses.find(c => c.id === "snes-mario-circuit-1");
   const bc = courses.find(c => c.id === "gba-bowser-s-castle-1r");
