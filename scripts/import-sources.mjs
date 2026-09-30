@@ -503,6 +503,15 @@ export function importSources(courses, players) {
         } else {
           r.proofImage ||= s.proofImage;
         }
+        const rejectedProof = matches.flatMap((m) => m.rejectedProofImages || [])
+          .find((proof) => proof.url === r.proofImage);
+        if (rejectedProof) {
+          r.proofImageReference = r.proofImage;
+          r.proofImage = null;
+          r.proofUploadedAt = null;
+          r.proofImageRejection = rejectedProof;
+          r.notes.push(rejectedProof.reason);
+        }
         r.additionalSources = [...new Map([
           ...(r.additionalSources || []),
           ...matches.flatMap((m) => [m.source, ...(m.additionalSources || [])]),

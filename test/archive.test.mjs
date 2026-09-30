@@ -24,3 +24,13 @@ test('Halloween 2020 restores dated exchanges while excluding later PBs and unda
  assert.deepEqual(bc.find(r=>r.time==='1:19.48'&&r.playerId==='nu11').laps,['39.54','39.94']);
  for(const r of [...af,...bc]) assert(fs.existsSync('public'+r.proofImageLocal));
 });
+test('current Airship WR uses original May 6 result and mismatched BC2R image is excluded',()=>{
+ const af=courses.find(c=>c.id==='ds-airship-fortress').current;
+ assert.equal(af.recordDate,'2021-05-06');
+ assert.deepEqual(af.laps,['45.24','44.71']);
+ assert(fs.existsSync('public'+af.proofImageLocal));
+ const bc=courses.find(c=>c.id==='gba-bowser-s-castle-2r').current;
+ assert.equal(bc.proofImage,null);
+ assert.match(bc.proofImageRejection.reason,/Tome/);
+ assert.equal(bc.recordDate,null);
+});
