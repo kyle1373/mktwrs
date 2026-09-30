@@ -226,6 +226,8 @@ for (const m of sourceMessages.values()) {
 }
 const imported = importSources(courses, players);
 const videoBackups = JSON.parse(fs.readFileSync("archive/video-backups.json", "utf8"));
+const videoAvailability = fs.existsSync("archive/video-availability.json")
+  ? JSON.parse(fs.readFileSync("archive/video-availability.json", "utf8")) : {};
 const visuallyVerifiedVideos = new Set(JSON.parse(fs.readFileSync("archive/curated-runs.json", "utf8"))
   .filter(r => r.videoVerified && r.video)
   .map(r => `${r.courseId}:${centiseconds(r.time)}:${videoKey(r.video)}`));
@@ -259,6 +261,8 @@ for (const c of courses) {
     if (visuallyVerifiedVideos.has(`${c.id}:${r.timeCs}:${videoKey(r.video)}`)) r.videoVerified = true;
     const backup = videoBackups[videoKey(r.video)];
     if (backup?.status === "available") r.videoBackup = backup;
+    const availability = videoAvailability[videoKey(r.video)];
+    if (availability) r.videoAvailability = availability.status;
     const metadata = videoMetadata[r.video];
     if (!metadata) continue;
     const times = [

@@ -12,3 +12,15 @@ test('Anniversary 2020 restores the WR exchange with original dates, splits and 
  for (const r of runs) assert(fs.existsSync('public'+r.proofImageLocal));
  assert(!c.records.some(r=>['1:04.26','1:04.12','1:04.16'].includes(r.time)));
 });
+test('Halloween 2020 restores dated exchanges while excluding later PBs and undated candidates',()=>{
+ const runs=id=>courses.find(c=>c.id===id).records.filter(r=>r.recordDate>='2020-10-21'&&r.recordDate<'2020-11-04');
+ const af=runs('ds-airship-fortress');
+ assert.deepEqual(af.map(r=>r.time),['1:31.67','1:31.38','1:30.96','1:30.92','1:30.75','1:30.72','1:30.67','1:30.42','1:30.25','1:30.20','1:30.07']);
+ assert.deepEqual(af.find(r=>r.time==='1:30.75').laps,['45.30','45.45']);
+ assert.deepEqual(af.at(-1).laps,['45.47','44.60']);
+ assert.equal(af.at(-1).recordDate,'2020-11-01');
+ const bc=runs('gba-bowser-s-castle-2r');
+ assert.deepEqual(bc.map(r=>r.time),['1:20.82','1:20.31','1:20.20','1:20.15','1:20.08','1:20.06','1:19.89','1:19.83','1:19.81','1:19.69','1:19.54','1:19.48','1:19.48','1:19.29']);
+ assert.deepEqual(bc.find(r=>r.time==='1:19.48'&&r.playerId==='nu11').laps,['39.54','39.94']);
+ for(const r of [...af,...bc]) assert(fs.existsSync('public'+r.proofImageLocal));
+});
