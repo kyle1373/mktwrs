@@ -255,3 +255,23 @@ test('Mario Tour restores short WR exchanges and validates shorthand against ori
  assert(tb.submissions.some(r=>r.time==='0:47.48'&&r.identityUnresolved&&r.includeInProgression===false));
  for(const r of [...lm.records,...tb.records.slice(0,7)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Yoshi Tour restores dated exchanges and separates each player’s proof',()=>{
+ const tb=courses.find(c=>c.id==='tokyo-blur-4r');
+ assert.deepEqual(tb.records.map(r=>r.time),['0:48.82','0:47.46','0:47.39','0:47.09','0:46.91','0:46.82','0:46.74','0:46.57','0:46.51','0:46.47','0:46.47']);
+ const troy=tb.records.find(r=>r.time==='0:47.39');
+ assert.equal(troy.playerId,'troy');assert.equal(troy.submittedAt,'2021-03-24T06:34:41.049Z');
+ assert.deepEqual(tb.records.find(r=>r.time==='0:47.09').laps,['24.66','22.43']);
+ const tie=tb.records.find(r=>r.playerId==='tomegome'&&r.time==='0:46.47');
+ assert.equal(tie.video,null);assert.deepEqual(tie.laps,['24.36','22.11']);
+ assert.equal(tie.recordDate,'2021-04-05');
+ assert(tb.submissions.some(r=>r.time==='0:47.39'&&r.identityUnresolved&&r.includeInProgression===false));
+ assert.equal(fastestVideo(tb).time,'0:46.51');assert.match(fastestVideo(tb).videoBackup.url,/7kZiQ4ck8y0/);
+ const wp=courses.find(c=>c.id==='ds-waluigi-pinball');
+ assert.deepEqual(wp.records.map(r=>r.time),['1:47.31','1:46.91','1:46.83','1:46.75','1:46.73','1:46.68','1:46.53','1:46.53','1:46.46','1:46.21']);
+ assert.equal(wp.current.recordDate,'2021-04-05');
+ assert(!wp.records.some(r=>['1:47.68','1:46.72','1:46.33'].includes(r.time)));
+ const footage=fastestVideo(wp);assert.equal(footage.time,'1:46.72');assert.equal(footage.isCurrent,false);
+ assert.deepEqual(footage.laps,['53.34','53.38']);assert.match(footage.videoBackup.url,/MYuFsJdIxiA/);
+ for(const r of [...tb.records,...wp.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
