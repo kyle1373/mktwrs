@@ -1,4 +1,14 @@
 // Durations are the union of playable intervals intersecting a record's reign.
+export function timestampWithinTour(value, range) {
+  if (!value) return false;
+  if (!range) return true;
+  const timestamp = Date.parse(value);
+  const start = Date.parse(`${range.start}T06:00:00Z`);
+  // Announcement labels name the final full day; play continues until reset.
+  const end = Date.parse(`${range.end}T06:00:00Z`) + 86400000;
+  return timestamp >= start && timestamp < end;
+}
+
 export function playableDays(start, end, windows) {
   const a = +new Date(start),
     b = +new Date(end);

@@ -8,7 +8,7 @@ import {
   mediaKind,
   attachmentDate,
 } from "./import-sources.mjs";
-import { playableDays } from "../public/history.mjs";
+import { playableDays, timestampWithinTour } from "../public/history.mjs";
 import * as cheerio from "cheerio";
 const root = "archive/raw";
 const out = "public/data";
@@ -297,11 +297,7 @@ for (const c of courses) {
           end: `20${range[6]}-${range[5].padStart(2, "0")}-${range[4].padStart(2, "0")}`,
         }
       : null;
-    const inRecordTour = (value) =>
-      value &&
-      (!r.tourDateRange ||
-        (value.slice(0, 10) >= r.tourDateRange.start &&
-          value.slice(0, 10) <= r.tourDateRange.end));
+    const inRecordTour = (value) => timestampWithinTour(value, r.tourDateRange);
     const submissionDate = inRecordTour(r.submittedAt)
       ? r.submittedAt?.slice(0, 10)
       : null;

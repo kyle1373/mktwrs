@@ -4,7 +4,16 @@ import {
   playableDays,
   recordDuration,
   progression,
+  timestampWithinTour,
 } from "../public/history.mjs";
+test("tour labels include the final morning until the 06:00 UTC reset", () => {
+  const range = { start: "2020-07-15", end: "2020-07-28" };
+  assert(timestampWithinTour("2020-07-29T03:09:09.289Z", range));
+  assert(timestampWithinTour("2020-07-29T05:59:59.999Z", range));
+  assert(!timestampWithinTour("2020-07-29T06:00:00.000Z", range));
+  assert(!timestampWithinTour("2020-07-15T05:59:59.999Z", range));
+  assert(!timestampWithinTour("2021-10-09T09:46:51.688Z", range));
+});
 test("record clock pauses between tours and resumes on return", () => {
   assert.equal(
     playableDays("2024-02-24", "2024-10-12", [

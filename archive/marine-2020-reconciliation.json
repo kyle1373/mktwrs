@@ -58,5 +58,23 @@
     "time": "1:12.71",
     "sourceMessageId": "729255263005310987",
     "reason": "Discord embed retains exact 36.36/36.35 splits, independently confirmed by July5 leaderboard. X reports post unavailable."
-  }
+  },
+  "linkCapture": {
+    "query": "in:tt-discussion has:link after:2020-06-30 before:2020-07-16",
+    "expectedResults": 33,
+    "capturedUniqueMessages": 33,
+    "files": [
+      "marine2020-link-search-001",
+      "marine2020-link-early-001",
+      "marine2020-link-overlap-001"
+    ],
+    "note": "The second broad-search page failed to advance; overlapping date searches recovered the missing eight messages."
+  },
+  "unavailableAdditionalVideos": [
+    {
+      "url": "https://youtu.be/nZQY0H3bhs0",
+      "sourceMessageId": "728904046949433376",
+      "status": "YouTube reports unavailable; original run not visually verified."
+    }
+  ]
 }

@@ -119,9 +119,10 @@ test("public WR history never promotes an inferred contender or ordinary submiss
     assert(c.currentHolders.every((r) => c.records.some((n) => n.id === r.id)));
     for (const r of c.records)
       if (r.recordDate && r.tourDateRange && !r.achievedAt) {
+        const proofTime = Date.parse(r.dateBasis === "submission-date" ? r.submittedAt : r.proofUploadedAt);
         assert(
-          r.recordDate >= r.tourDateRange.start &&
-            r.recordDate <= r.tourDateRange.end,
+          proofTime >= Date.parse(`${r.tourDateRange.start}T06:00:00Z`) &&
+            proofTime < Date.parse(`${r.tourDateRange.end}T06:00:00Z`) + 86400000,
         );
       }
   }
@@ -247,4 +248,26 @@ test("Marine Tour preserves ties, intermediate records and rejects a mismatched 
   assert.equal(kaz.video, null, "linked 1:12.42 example is not proof of 1:12.36");
   assert.deepEqual(kaz.laps, ["36.29", "36.07"]);
   assert(!ci.records.some(r => r.time === "1:12.42"));
+});
+
+test("Exploration Tour keeps both records in a paired post and the final morning exchange", () => {
+  const ddj = courses.find(c => c.id === "gcn-dino-dino-jungle");
+  const vl = courses.find(c => c.id === "snes-vanilla-lake-1r");
+  const paired = [ddj.records.find(r => r.time === "1:33.66"), vl.records.find(r => r.time === "0:34.45")];
+  assert.deepEqual(paired.map(r => r.laps), [["46.97", "46.69"], ["17.48", "16.97"]]);
+  assert(paired.every(r => r.submittedAt === "2020-07-22T12:25:17.814Z"));
+  assert.notEqual(paired[0].proofImageLocal, paired[1].proofImageLocal);
+  const middle = ddj.records.find(r => r.time === "1:33.79");
+  assert.equal(middle.proofField, "previous-best");
+  assert.equal(middle.submittedAt, null);
+  assert.deepEqual(middle.laps, [null, null]);
+  const wins = vl.records.find(r => r.playerId === "wins" && r.time === "0:34.44");
+  assert.equal(wins.recordDate, "2020-07-28");
+  assert.deepEqual(wins.laps, ["17.37", "17.07"]);
+  assert.equal(wins.durationDays, 1);
+  assert.equal(vl.current.recordDate, "2020-07-29");
+  assert.equal(vl.current.submittedAt, "2020-07-29T03:09:09.289Z");
+  assert.deepEqual(vl.current.laps, ["17.28", "17.10"]);
+  assert(!vl.records.some(r => r.time === "0:33.87"), "corrected lap typo is not a record");
+  assert(!ddj.records.some(r => r.time === "1:33.91" || r.time === "1:33.99"), "slower video runs are not new records");
 });
