@@ -145,10 +145,12 @@ export function historyEvents(course, tours, asOf) {
       });
   }
   const order = { "tour-end": 0, "tour-start": 1, record: 2 };
+  const resetDates = new Set(events.filter(e => e.type !== "record").map(e => e.date.slice(0, 10)));
   const eventOrder = (event) => {
     const timestamp = event.record?.submittedAt;
     // The final tour morning is still playable until the 06:00 UTC reset.
-    if (timestamp?.slice(0, 10) === event.date.slice(0, 10) &&
+    if (resetDates.has(event.date.slice(0, 10)) &&
+        timestamp?.slice(0, 10) === event.date.slice(0, 10) &&
         timestamp.slice(11, 19) < "06:00:00") return -1;
     return order[event.type];
   };

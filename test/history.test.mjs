@@ -132,3 +132,15 @@ test("records before the UTC reset precede same-day tour boundary markers", asyn
   assert.deepEqual(events.filter((e) => e.date === "2020-06-17").map((e) => e.id),
     ["before", "old-end", "new-start", "after"]);
 });
+
+test("early-morning submissions do not precede their undated-in-day predecessors on ordinary tour days", async () => {
+  const { historyEvents } = await import("../public/history.mjs");
+  const events = historyEvents({
+    records: [
+      { id: "later", status: "community-wr", recordDate: "2020-08-13", submittedAt: "2020-08-13T04:01:38Z", timeCs: 6056 },
+      { id: "earlier", status: "community-wr", recordDate: "2020-08-13", submittedAt: null, timeCs: 6063 },
+    ],
+    appearances: [],
+  }, [], "2020-08-26");
+  assert.deepEqual(events.map(e => e.id), ["earlier", "later"]);
+});
