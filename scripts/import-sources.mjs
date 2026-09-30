@@ -480,7 +480,12 @@ export function importSources(courses, players) {
         r.datePrecision = s.datePrecision;
         r.submittedAt = s.submittedAt;
         if (s.delayedSubmission) r.delayedSubmission = true;
-        r.proofUploadedAt = s.proofUploadedAt || attachmentDate(r.proofImage);
+        // A recovered repost can replace an expired image without moving the
+        // earliest surviving evidence of the same run to the repost's date.
+        r.proofUploadedAt = s.preserveEarlierProofDate
+          ? [s.proofUploadedAt, attachmentDate(r.proofImage)]
+              .filter(Boolean).sort()[0] || null
+          : s.proofUploadedAt || attachmentDate(r.proofImage);
         r.video ||= s.video;
         const rejectedVideo = matches
           .flatMap((m) => m.rejectedVideos || [])
