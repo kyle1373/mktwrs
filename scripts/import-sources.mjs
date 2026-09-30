@@ -34,6 +34,17 @@ export function centiseconds(v) {
 }
 export const formatTime = (cs) =>
   `${Math.floor(cs / 6000)}:${String(Math.floor(cs / 100) % 60).padStart(2, "0")}.${String(cs % 100).padStart(2, "0")}`;
+export function completeTwoLapSplit(totalCs, laps) {
+  if (!Number.isInteger(totalCs) || !Array.isArray(laps) || laps.length !== 2) return null;
+  const values = laps.map(centiseconds);
+  if (values.filter(v => v === null).length !== 1) return null;
+  const index = values[0] === null ? 0 : 1;
+  const missing = totalCs - values[1 - index];
+  if (values[1 - index] <= 0 || missing <= 0) return null;
+  const completed = [...laps];
+  completed[index] = (missing / 100).toFixed(2);
+  return { laps: completed, derivedLap: index + 1 };
+}
 export function mediaKind(value) {
   let u;
   try {
@@ -430,6 +441,13 @@ export function importSources(courses, players) {
   }
   let enriched = 0;
   for (const c of courses) {
+    for (const s of c.submissions) {
+      const completed = completeTwoLapSplit(s.timeCs, s.laps);
+      if (!completed) continue;
+      s.laps = completed.laps;
+      s.derivedLap = completed.derivedLap;
+      s.notes.push(`Lap ${completed.derivedLap} calculated as total minus the other recorded lap.`);
+    }
     for (const r of c.records) {
       const matches = c.submissions.filter(
         (s) => s.playerId === r.playerId && s.timeCs === r.timeCs,
@@ -452,6 +470,10 @@ export function importSources(courses, players) {
         r.laps = s.notes.some((n) => n.includes("do not sum")) ? null : s.laps;
         r.lapSource = s.source;
         r.lapMatchBasis = "same player and total time; see linked submission";
+        if (s.derivedLap) {
+          r.derivedLap = s.derivedLap;
+          r.lapMatchBasis += `; lap ${s.derivedLap} calculated from total minus the other lap`;
+        }
         r.achievedAt = s.achievedAt;
         r.datePrecision = s.datePrecision;
         r.submittedAt = s.submittedAt;

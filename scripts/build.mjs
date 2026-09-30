@@ -308,11 +308,11 @@ for (const c of courses) {
     const uploadDate = inRecordTour(r.proofUploadedAt)
       ? r.proofUploadedAt?.slice(0, 10)
       : null;
-    r.recordDate = r.achievedAt || submissionDate || uploadDate || null;
-    r.dateBasis = r.achievedAt
-      ? "source-date"
-      : submissionDate
-        ? "submission-date"
+    r.recordDate = submissionDate || r.achievedAt || uploadDate || null;
+    r.dateBasis = submissionDate
+      ? "submission-date"
+      : r.achievedAt
+        ? "source-date"
         : uploadDate
           ? "proof-upload-date"
           : null;
@@ -383,7 +383,7 @@ const manifest = {
   sourceMessageCount: sourceMessages.size,
   unmatchedCount: unmatched.length,
   coverageNote:
-    "Research in progress. WR announcements are preserved; dates, lap splits, mushrooms and intermediate records are still being reconciled against submissions. These are best archived times, not a claim of complete history.",
+    "Research in progress. WR announcements are preserved; dates, lap splits and intermediate records are still being reconciled against submissions. These are best archived times, not a claim of complete history.",
   sources: [
     {
       name: "Mario Kart Tour Course Leaderboard workbook",
@@ -406,15 +406,29 @@ const manifest = {
 const assetMap = fs.existsSync("archive/assets-manifest.json")
   ? JSON.parse(fs.readFileSync("archive/assets-manifest.json"))
   : {};
+// Discord rotates signed query parameters. A preserved original attachment is
+// still the same proof when a different capture has a renewed download URL.
+const attachmentKey = (url) => {
+  try {
+    const parsed = new URL(url);
+    return ["cdn.discordapp.com", "media.discordapp.net"].includes(parsed.hostname)
+      ? parsed.pathname.match(/^\/attachments\/\d+\/(\d+)\//)?.[1]
+      : null;
+  } catch { return null; }
+};
+const attachmentAssets = new Map(Object.entries(assetMap)
+  .filter(([url, asset]) => attachmentKey(url) && asset.path)
+  .map(([url, asset]) => [attachmentKey(url), asset.path]));
 for (const c of courses) {
   if (assetMap[c.image]?.error && c.fallbackImage) c.image = c.fallbackImage;
   if (assetMap[c.image]?.path) {
     c.imageSource = c.image;
     c.image = assetMap[c.image].path;
   }
-  for (const r of [...c.records, ...c.submissions])
-    if (assetMap[r.proofImage]?.path)
-      r.proofImageLocal = assetMap[r.proofImage].path;
+  for (const r of [...c.records, ...c.submissions]) {
+    const path = assetMap[r.proofImage]?.path || attachmentAssets.get(attachmentKey(r.proofImage));
+    if (path) r.proofImageLocal = path;
+  }
 }
 for (const p of players.values())
   if (assetMap[p.avatar]?.path) {

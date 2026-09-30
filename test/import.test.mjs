@@ -5,7 +5,15 @@ import {
   centiseconds,
   mediaKind,
   attachmentDate,
+  completeTwoLapSplit,
 } from "../scripts/import-sources.mjs";
+test("missing lap is derived with centisecond arithmetic only for unambiguous two-lap runs", () => {
+  assert.deepEqual(completeTwoLapSplit(6997, ["34.98", null]), {laps:["34.98","34.99"],derivedLap:2});
+  assert.deepEqual(completeTwoLapSplit(6997, [null, "34.99"]), {laps:["34.98","34.99"],derivedLap:1});
+  assert.equal(completeTwoLapSplit(6997, [null, null]), null);
+  assert.equal(completeTwoLapSplit(6997, ["70.00", null]), null);
+  assert.equal(completeTwoLapSplit(11949, ["33.77", null, "36.55"]), null);
+});
 test("Rainbow Road variants from different games never collapse together", () => {
   const courses = [
     { name: "SNES Rainbow Road R" },

@@ -23,7 +23,7 @@ function RecordDate({ r }) {
     <span
       title={
         r.dateBasis === "submission-date"
-          ? "Original submission date; achievement date unconfirmed"
+          ? "Date posted in the original submission"
           : r.dateBasis === "proof-upload-date"
             ? "Proof upload date within the recorded tour; achievement date unconfirmed"
             : r.tourDateRange
@@ -32,11 +32,7 @@ function RecordDate({ r }) {
       }
     >
       {date(r.recordDate || r.achievedAt)}
-      {r.dateBasis === "submission-date"
-        ? "†"
-        : r.dateBasis === "proof-upload-date"
-          ? "‡"
-          : ""}
+
     </span>
   );
 }
@@ -46,13 +42,12 @@ function Duration({ r }) {
       title={
         r.durationDays == null
           ? "The preserved evidence does not establish a duration"
-          : "Provisional playable days. The clock pauses outside the course’s Time Trial tours."
+          : "Playable days from the recorded dates. The clock pauses outside the course’s Time Trial tours."
       }
     >
       {r.durationDays == null
         ? "—"
-        : "~" +
-          (r.durationDays > 0 && r.durationDays < 1
+        : (r.durationDays > 0 && r.durationDays < 1
             ? "<1"
             : Math.floor(r.durationDays))}
     </span>
@@ -133,8 +128,8 @@ function Notice() {
 function DateKey() {
   return (
     <p className="table-note">
-      Days count only playable Time Trial tours. ~ provisional duration; †
-      submission date; ‡ proof upload date; — unknown. Times link to videos;{" "}
+      Dates use original submissions (UTC) where available. Days count only playable
+      Time Trial tours. — unknown. Times link to videos;{" "}
       <svg viewBox="0 0 20 16" width="13" height="11" aria-hidden="true">
         <rect
           x="1"
@@ -227,10 +222,6 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
             <th title="Playable days">Days</th>
             <th>Lap 1</th>
             <th>Lap 2</th>
-            <th>
-              <img className="item-icon" src="/assets/ui/mushroom.png" alt="" />
-              Shrooms
-            </th>
             <th className="proof-column" aria-label="Image proof" />
           </tr>
         </thead>
@@ -239,7 +230,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
             e.type !== "record" ? (
               <tr className="tour-event" key={e.id}>
                 <td>{date(e.date)}</td>
-                <td colSpan={8}>
+                <td colSpan={7}>
                   <a href={e.source}>{e.name}</a>{" "}
                   {e.type === "tour-end" ? "ended" : "started"}
                   <span className="event-detail">
@@ -290,7 +281,6 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                     >
                       {r.laps?.[1] || "—"}
                     </td>
-                    <td className="center">{r.mushrooms?.join("-") || "—"}</td>
                     <td className="proof-column">
                       <Proof r={r} />
                     </td>
@@ -301,7 +291,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
           )}
           {!entries.length && (
             <tr>
-              <td colSpan={showCourse ? 10 : 9}>
+              <td colSpan={showCourse ? 9 : 8}>
                 No confirmed WR has been recovered yet.
               </td>
             </tr>
@@ -315,7 +305,7 @@ function StatDuration({ row }) {
   return (
     <span title="Sum of documented playable durations; incomplete dates are excluded">
       {row.durationCount
-        ? `~${Math.floor(row.days)}${row.missingDays ? "+" : ""}`
+        ? `${Math.floor(row.days)}${row.missingDays ? "+" : ""}`
         : "—"}
     </span>
   );
@@ -874,10 +864,10 @@ function About({ manifest: m, tours }) {
           Research is incomplete. The history channel was read back to its
           beginning, including migrated records from 2019. The dedicated
           submission channel was captured back to its August 13, 2021 beginning.
-          Earlier discussions, mushroom allocations and missing achievement
+          Screenshot totals, lap splits and missing submission
           dates still need reconciliation. WR tables and rankings include only
-          records announced in wr-history or individually confirmed as a WR in
-          the discussion. Ordinary submissions and inferred contenders remain in
+          records announced in wr-history or supported by reviewed community WR
+          evidence. Ordinary submissions and inferred contenders remain in
           the downloadable evidence, outside WR statistics.
         </p>
         <h2>Dates and playable-day durations</h2>
@@ -894,21 +884,20 @@ function About({ manifest: m, tours }) {
           windows count once. A tie keeps the original record’s reign intact.
         </p>
         <p>
-          Where the achievement date is absent, a known original submission date
-          is marked †. A proof image upload date decoded from its Discord
-          attachment ID is marked ‡; it establishes when the proof was uploaded,
-          which may be later than the run. Provisional playable-day totals are
-          marked ~ and use the documented calendar dates. Totals stay blank when
-          a faster archived record has no known date; incomplete intermediate
-          chronology may still change provisional totals. The calendar uses the
-          wiki’s dates for Time Trial bonus challenges rather than ordinary race
-          availability.
+          The displayed date uses the original tt-submission post when available.
+          This is the archive’s dating convention; a run may have been played
+          before it was posted. Older records without a recovered submission use
+          their documented source date or proof upload date, identified in the
+          date tooltip. Missing dates stay blank. Duration totals use these
+          calendar dates and can change as missing records are recovered. The
+          calendar follows Time Trial bonus challenges, not ordinary races.
         </p>
         <h2>Proof and splits</h2>
         <p>
           Only video proof is linked from the displayed time. A small image icon
-          at the right of each record opens its screenshot proof. Missing splits
-          and mushrooms are unknown, never zero. A warning beside source splits
+          at the right of each record opens its screenshot proof. When a two-lap run
+          has a total and one known lap, the other lap is calculated by subtraction.
+          Missing splits remain blank. A warning beside source splits
           means they do not sum to the total; inconsistent splits are not
           promoted to a WR row. Video links whose titles name a different time
           are withheld pending verification; their original references and audit
