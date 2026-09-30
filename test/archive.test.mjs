@@ -201,6 +201,34 @@ test('Peach vs Daisy restores dated exchanges and separates later tied footage',
  assert.deepEqual(cm.records.find(r=>r.time==='1:18.27').laps,['39.09','39.18']);
  const fallback=fastestVideo(cm);assert.equal(fallback.time,'1:17.95');assert.equal(fallback.playerId,'kazuo');assert.equal(fallback.isCurrent,false);
  assert.match(fallback.video,/1362916914759159808/);assert.match(fallback.videoBackup.url,/kxAngKdbpcA/);
- assert.equal(cm.current.time,'1:17.87');assert.equal(cm.current.recordDate,null);
+ assert.equal(cm.current.time,'1:17.87');assert.equal(cm.current.recordDate,'2021-02-19');
+ assert.equal(cm.current.delayedSubmission,true);assert.equal(cm.current.durationDays,null);
+ for(const time of ['1:18.25','1:18.21','1:17.95']) {
+  assert(!cm.records.some(r=>r.time===time));
+  assert(cm.submissions.some(r=>r.time===time&&r.includeInProgression===false));
+ }
+ assert.match(sw.records.find(r=>r.time==='1:10.53').video,/aNjiaWm-h9Y/);
+ assert.match(sw.records.find(r=>r.time==='1:10.53').videoBackup.url,/0h2DWfWN24Y/);
  assert(cm.submissions.some(r=>r.time==='1:18.05'&&r.dateUnresolved&&r.includeInProgression===false));
+});
+
+test('Snow Tour restores consecutive breaks, adjacent replies, and separate surviving videos',()=>{
+ const riw=courses.find(c=>c.id==='3ds-rosalina-s-ice-world');
+ assert.deepEqual(riw.records.slice(0,8).map(r=>r.time),['1:30.56','1:30.35','1:30.23','1:30.19','1:30.12','1:30.11','1:29.91','1:29.87']);
+ assert.equal(riw.records.find(r=>r.time==='1:29.91').recordDate,'2021-02-28');
+ assert.equal(riw.records.find(r=>r.time==='1:29.91').videoAvailability,'unavailable');
+ assert.deepEqual(riw.records.find(r=>r.time==='1:29.87').laps,['45.03','44.84']);
+ assert(!riw.records.some(r=>r.time==='1:30.26'||r.time==='1:30.04'));
+ const speedy=riw.submissions.find(r=>r.playerId==='nhspeedy'&&r.videoVerified&&r.includeInProgression===false);
+ assert.equal(speedy.time,'1:30.26');assert.deepEqual(speedy.laps,['45.36','44.90']);assert.equal(speedy.includeInProgression,false);
+ const rr=courses.find(c=>c.id==='rmx-rainbow-road-1r');
+ assert.deepEqual(rr.records.slice(0,12).map(r=>r.time),['1:30.30','1:20.90','1:19.89','1:19.47','1:18.93','1:18.83','1:18.42','1:18.36','1:18.22','1:18.14','1:17.27','1:17.13']);
+ assert.equal(rr.records[0].submittedAt,'2021-02-24T11:41:33.837Z');
+ assert.deepEqual(rr.records.find(r=>r.time==='1:18.36').laps,['38.90','39.46']);
+ assert.deepEqual(rr.records.find(r=>r.time==='1:18.14').laps,['38.89','39.25']);
+ assert.equal(rr.records.find(r=>r.time==='1:17.13').recordDate,'2021-03-01');
+ assert(!rr.records.some(r=>r.time==='1:17.96'||r.time==='1:17.17'));
+ const sparta=rr.submissions.find(r=>r.playerId==='spartacurtyt'&&r.videoVerified);
+ assert.equal(sparta.time,'1:17.96');assert.equal(sparta.includeInProgression,false);assert.match(sparta.videoBackup.url,/qWAjvYamrKE/);
+ for(const r of [...riw.records.slice(0,8),...rr.records.slice(0,12)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
