@@ -237,7 +237,7 @@ for (const c of courses) {
   );
   const distinct = new Map();
   for (const r of c.records.sort((a, b) =>
-    a.announcedAt.localeCompare(b.announcedAt),
+    (a.announcedAt || a.achievedAt || a.submittedAt || "9999").localeCompare(b.announcedAt || b.achievedAt || b.submittedAt || "9999"),
   )) {
     const key = `${r.playerId}:${r.timeCs}`;
     const previous = distinct.get(key);
@@ -279,7 +279,7 @@ for (const c of courses) {
       videoTitleMismatches++;
     }
   }
-  c.records.sort((a, b) => a.announcedAt.localeCompare(b.announcedAt));
+  c.records.sort((a, b) => (a.announcedAt || a.achievedAt || a.submittedAt || "9999").localeCompare(b.announcedAt || b.achievedAt || b.submittedAt || "9999"));
   c.appearances.sort((a, b) => a.startDate.localeCompare(b.startDate));
   for (const r of c.records) {
     if (r.video && mediaKind(r.video) !== "video") {

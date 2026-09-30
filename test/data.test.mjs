@@ -96,3 +96,20 @@ test("published player portraits exist locally and refreshed identities match Di
     }
   }
 });
+
+test("Halloween 2019 table retains credited players and achievement days rather than repost date", () => {
+  for (const [courseId, playerId, time, date] of [
+    ["3ds-toad-circuit", "yersoncz", "1:04.85", "2019-10-25"],
+    ["3ds-neo-bowser-city", "unreal91", "1:26.08", "2019-10-24"],
+    ["gcn-dino-dino-jungle", "sonicpacker", "1:35.70", "2019-10-25"],
+  ]) {
+    const r = courses.find(c => c.id === courseId).records.find(r => r.playerId === playerId && r.time === time);
+    assert(r);
+    assert.equal(r.recordDate, date);
+    assert.equal(r.dateBasis, "source-date");
+    assert.equal(r.observedAt, "2019-10-26T02:37:11.857Z");
+    assert(!r.video || !/\.(png|jpe?g)(\?|$)/i.test(r.video));
+    assert(r.proofImageLocal.startsWith("/assets/proof/"));
+    assert(fs.existsSync(new URL("../public" + r.proofImageLocal, import.meta.url)));
+  }
+});

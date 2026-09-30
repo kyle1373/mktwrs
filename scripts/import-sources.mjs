@@ -409,7 +409,9 @@ export function importSources(courses, players) {
   const curated = fs.existsSync("archive/curated-runs.json")
     ? JSON.parse(fs.readFileSync("archive/curated-runs.json"))
     : [];
-  for (const entry of curated) {
+  const reviewed = fs.existsSync("archive/reviewed-submissions.json")
+    ? JSON.parse(fs.readFileSync("archive/reviewed-submissions.json")) : [];
+  for (const entry of [...curated, ...reviewed]) {
     const c = courses.find((c) => c.id === entry.courseId);
     if (!c) throw Error("Unknown curated course: " + entry.courseId);
     const p = person(entry.player);
@@ -418,8 +420,8 @@ export function importSources(courses, players) {
       id: "curated-" + entry.messageId,
       playerId: p.id,
       timeCs: centiseconds(entry.time),
-      achievedAt: null,
-      datePrecision: "unknown",
+      achievedAt: entry.achievedAt || null,
+      datePrecision: entry.achievedAt ? (entry.datePrecision || "day") : "unknown",
       video: entry.video || null,
       proofUploadedAt: attachmentDate(entry.proofImage),
     };
@@ -483,6 +485,10 @@ export function importSources(courses, players) {
         r.additionalSources = matches.map((m) => m.source);
         r.notes = [...r.notes, ...s.notes];
         enriched++;
+      }
+      if (r.dateOverride) {
+        r.achievedAt = r.dateOverride.date;
+        r.datePrecision = "day";
       }
     }
     const evidenceDate = (r) =>
