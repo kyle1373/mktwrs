@@ -34,3 +34,21 @@ test('current Airship WR uses original May 6 result and mismatched BC2R image is
  assert.match(bc.proofImageRejection.reason,/Tome/);
  assert.equal(bc.recordDate,null);
 });
+test('Sunset restores the Saki–Nu–Kazuo exchange and keeps undated previous bests out of WR history',()=>{
+ const c=courses.find(c=>c.id==='3ds-neo-bowser-city');
+ const runs=c.records.filter(r=>r.recordDate>='2020-11-04'&&r.recordDate<'2020-11-18');
+ assert.deepEqual(runs.map(r=>[r.playerId,r.time]),[
+  ['saki7','1:25.53'],['saki7','1:25.51'],['nu11','1:25.14'],['kazuo','1:25.13'],
+  ['kazuo','1:24.93'],['kazuo','1:24.88'],['kazuo','1:24.83'],['kazuo','1:24.70'],
+ ]);
+ assert.deepEqual(runs.find(r=>r.time==='1:24.93').laps,['42.49','42.44']);
+ assert.equal(c.current.recordDate,'2020-11-10');
+ assert.equal(c.current.durationDays,8);
+ assert.match(c.current.videoBackup.url,/KYMlINbVzB0/);
+ assert(!c.records.some(r=>r.time==='1:25.40'));
+ assert(c.submissions.some(r=>r.time==='1:25.40'&&r.dateUnresolved));
+ for(const r of runs)assert(fs.existsSync('public'+r.proofImageLocal));
+ const rr=courses.find(c=>c.id==='n64-royal-raceway').records.find(r=>r.time==='1:33.97');
+ assert.equal(rr.recordDate,'2020-11-08');
+ assert.deepEqual(rr.laps,['46.90','47.07']);
+});
