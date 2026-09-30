@@ -291,3 +291,32 @@ test("Paris 2019 preserves the original Mario Circuit exchange instead of dating
   assert.equal(r("0:48.29").video, null);
   assert(!r("0:48.66"), "this Discord submission is slower than the already established Tomegome record");
 });
+
+test("Wild West keeps the recovered WR exchanges and leaves delayed reigns unresolved", () => {
+  const bc = courses.find(c => c.id === "gba-bowser-s-castle-2");
+  const dp = courses.find(c => c.id === "snes-donut-plains-1r");
+  assert(!bc.records.some(r => ["1:21.49", "1:20.95", "1:18.51"].includes(r.time)),
+    "earlier text records disqualify the later personal bests, and the edited image is excluded");
+  assert.equal(bc.records.find(r => r.time === "1:20.88").submittedAt, "2020-07-29T06:25:37.618Z");
+  assert.equal(bc.current.recordDate, "2020-08-09");
+  assert.equal(bc.current.delayedSubmission, true);
+  assert.equal(bc.current.durationDays, null);
+  assert.equal(bc.records.find(r => r.time === "1:19.66").durationDays, null,
+    "the posting date of a delayed successor cannot establish the preceding reign length");
+  const player = dp.records.find(r => r.time === "0:51.54");
+  assert.equal(player.player, "Player->1.13");
+  assert.deepEqual(player.laps, ["25.76", "25.78"]);
+  assert(player.proofImageLocal);
+  for (const time of ["0:50.01", "0:49.85"]) {
+    const previous = dp.records.find(r => r.time === time);
+    assert.equal(previous.proofField, "previous-best");
+    assert.equal(previous.recordDate, null, "later proof upload is not the earlier run's achievement date");
+    assert(previous.proofImageLocal);
+  }
+  assert.equal(dp.records.find(r => r.time === "0:49.91").durationDays, null);
+  const last = dp.records.filter(r => ["0:49.91", "0:49.84", "0:49.77", "0:49.69"].includes(r.time));
+  assert.deepEqual(last.map(r => r.playerId), ["nu11", "kazuo", "saki7", "nu11"]);
+  assert.deepEqual(last.at(-1).laps, ["24.85", "24.84"]);
+  assert.equal(last.at(-1).submittedAt, "2020-08-07T16:01:01.896Z");
+  assert.equal(last.at(-1).video, null, "the unavailable video is retained as a reference, not a working proof link");
+});

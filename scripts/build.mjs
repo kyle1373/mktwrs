@@ -304,8 +304,8 @@ for (const c of courses) {
     const uploadDate = inRecordTour(r.proofUploadedAt)
       ? r.proofUploadedAt?.slice(0, 10)
       : null;
-    r.recordDate = submissionDate || r.achievedAt || uploadDate || null;
-    r.dateBasis = submissionDate
+    r.recordDate = r.dateUnresolved ? null : submissionDate || r.achievedAt || uploadDate || null;
+    r.dateBasis = r.dateUnresolved ? null : submissionDate
       ? "submission-date"
       : r.achievedAt
         ? "source-date"
@@ -323,7 +323,7 @@ for (const c of courses) {
         .filter(Boolean)
         .sort()[0] || new Date().toISOString().slice(0, 10);
     r.durationDays =
-      r.recordDate && nextRecords.every((n) => n.recordDate)
+      r.recordDate && !r.delayedSubmission && nextRecords.every((n) => n.recordDate && !n.delayedSubmission)
         ? playableDays(
             r.recordDate,
             nextRecords.map((n) => n.recordDate).sort()[0] ||
@@ -333,7 +333,9 @@ for (const c of courses) {
         : null;
     r.durationBasis =
       r.durationDays === null
-        ? null
+        ? (r.delayedSubmission || nextRecords.some((n) => n.delayedSubmission)
+          ? "Achievement date is unknown for a delayed submission; reign duration is unresolved."
+          : null)
         : "documented dates; chronology incomplete";
     r.durationIntervals =
       r.durationDays === null
@@ -357,8 +359,8 @@ for (const c of courses) {
   );
   c.records.sort(
     (a, b) =>
-      (a.recordDate || a.tourDateRange?.end || a.announcedAt).localeCompare(
-        b.recordDate || b.tourDateRange?.end || b.announcedAt,
+      (a.recordDate || a.tourDateRange?.end || a.announcedAt).slice(0, 10).localeCompare(
+        (b.recordDate || b.tourDateRange?.end || b.announcedAt).slice(0, 10),
       ) || b.timeCs - a.timeCs,
   );
 }

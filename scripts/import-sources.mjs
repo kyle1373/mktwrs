@@ -479,6 +479,7 @@ export function importSources(courses, players) {
         r.achievedAt = s.achievedAt;
         r.datePrecision = s.datePrecision;
         r.submittedAt = s.submittedAt;
+        if (s.delayedSubmission) r.delayedSubmission = true;
         r.proofUploadedAt = s.proofUploadedAt || attachmentDate(r.proofImage);
         r.video ||= s.video;
         const rejectedVideo = matches
