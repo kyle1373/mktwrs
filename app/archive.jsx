@@ -82,7 +82,23 @@ function Time({ record: r }) {
       {r?.time || "—"}
     </span>
   );
-  return <>{original}{r?.videoBackup?.url && <a className="video-backup" href={r.videoBackup.url} target="_blank" rel="noopener noreferrer" title="Unlisted preservation copy on SuperFX64">backup</a>}</>;
+  return original;
+}
+function BackupIcon() {
+  return <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">
+    <rect x="1" y="1" width="18" height="14" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" />
+    <path d="m8 4 6 4-6 4Z" fill="currentColor" />
+  </svg>;
+}
+function BackupProof({ r }) {
+  return r?.videoBackup?.url ? <a
+    className="proof-icon"
+    href={r.videoBackup.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`Watch backup video for ${r.time}`}
+    title="Watch unlisted video backup on SuperFX64"
+  ><BackupIcon /></a> : null;
 }
 function Player({ id, players }) {
   const p = players.find((p) => p.id === id);
@@ -148,7 +164,7 @@ function DateKey() {
         />
         <path d="M2 13 7 6l4 5 2-2 5 4" fill="none" stroke="currentColor" />
       </svg>{" "}
-      opens image proof.
+      opens image proof; <BackupIcon /> opens the unlisted video backup.
     </p>
   );
 }
@@ -230,6 +246,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
             <th>Lap 1</th>
             <th>Lap 2</th>
             <th className="proof-column" aria-label="Image proof" />
+            <th className="proof-column" aria-label="Backup video" />
           </tr>
         </thead>
         <tbody>
@@ -237,7 +254,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
             e.type !== "record" ? (
               <tr className="tour-event" key={e.id}>
                 <td>{date(e.date)}</td>
-                <td colSpan={7}>
+                <td colSpan={showCourse ? 9 : 8}>
                   <a href={e.source}>{e.name}</a>{" "}
                   {e.type === "tour-end" ? "ended" : "started"}
                   <span className="event-detail">
@@ -289,6 +306,9 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                     <td className="proof-column">
                       <Proof r={r} />
                     </td>
+                    <td className="proof-column">
+                      <BackupProof r={r} />
+                    </td>
                   </tr>
                 );
               })()
@@ -296,7 +316,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
           )}
           {!entries.length && (
             <tr>
-              <td colSpan={showCourse ? 9 : 8}>
+              <td colSpan={showCourse ? 10 : 9}>
                 No confirmed WR has been recovered yet.
               </td>
             </tr>
@@ -576,6 +596,7 @@ function Home({ data, players }) {
               <th>Days</th>
               <th>WRs</th>
               <th aria-label="Image proof" />
+              <th className="proof-column" aria-label="Backup video" />
             </tr>
           </thead>
           <tbody>
@@ -613,6 +634,9 @@ function Home({ data, players }) {
                   )}
                   <td className="proof-column">
                     <Proof r={r} />
+                  </td>
+                  <td className="proof-column">
+                    <BackupProof r={r} />
                   </td>
                 </tr>
               )),
