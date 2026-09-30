@@ -1,5 +1,9 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
+function SiteLink(props) {
+  return <Link prefetch={false} {...props} />;
+}
 import { courseStatistics, historyEvents } from "../public/history.mjs";
 const date = (s) => (s ? s.slice(0, 10) : "—");
 const flag = (c) =>
@@ -81,7 +85,7 @@ function Time({ record: r }) {
 }
 function Player({ id, players }) {
   const p = players.find((p) => p.id === id);
-  return p ? <a href={`/player/${p.id}`}>{p.name}</a> : "—";
+  return p ? <SiteLink href={`/player/${p.id}`}>{p.name}</SiteLink> : "—";
 }
 function Proof({ r }) {
   const url = r.proofImageLocal || r.proofImage;
@@ -117,13 +121,13 @@ function Proof({ r }) {
   ) : null;
 }
 function Course({ c }) {
-  return <a href={`/course/${c.id}`}>{c.name}</a>;
+  return <SiteLink href={`/course/${c.id}`}>{c.name}</SiteLink>;
 }
 function Notice() {
   return (
     <p className="notice">
       History reconstruction in progress. Only confirmed WRs are listed.{" "}
-      <a href="/archive">Source coverage</a>.
+      <SiteLink href="/archive">Source coverage</SiteLink>.
     </p>
   );
 }
@@ -152,20 +156,20 @@ function Sidebar({ index }) {
   let letter = "";
   return (
     <aside id="sidebar">
-      <a
+      <SiteLink
         className="brand"
         href="/"
         aria-label="Mario Kart Tour World Records home"
       >
         <img src="/assets/ui/mkt-logo.png" alt="Mario Kart Tour" />
         <span>World Record History</span>
-      </a>
+      </SiteLink>
       <nav className="navbox" aria-label="Statistics">
         <strong>Stats</strong>
-        <a href="/">Current WRs</a>
-        <a href="/rankings">Player Rankings</a>
-        <a href="/players">Player Profiles</a>
-        <a href="/tours">Tour Calendar</a>
+        <SiteLink href="/">Current WRs</SiteLink>
+        <SiteLink href="/rankings">Player Rankings</SiteLink>
+        <SiteLink href="/players">Player Profiles</SiteLink>
+        <SiteLink href="/tours">Tour Calendar</SiteLink>
       </nav>
       <div className="navbox courses-nav">
         <strong>WR History</strong>
@@ -188,7 +192,7 @@ function Sidebar({ index }) {
                   key={c.id}
                   className={separator ? "course-group" : undefined}
                 >
-                  <a href={`/course/${c.id}`}>{c.name}</a>
+                  <SiteLink href={`/course/${c.id}`}>{c.name}</SiteLink>
                 </div>
               );
             })}
@@ -196,7 +200,7 @@ function Sidebar({ index }) {
       </div>
       <nav className="navbox" aria-label="Archive">
         <strong>Other</strong>
-        <a href="/archive">About this Archive</a>
+        <SiteLink href="/archive">About this Archive</SiteLink>
         <a href="/data/courses.json" download>
           Download WR Data (JSON)
         </a>
@@ -253,7 +257,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                     <td><RecordDate r={r} /></td>
                     {showCourse && (
                       <td>
-                        <a href={`/course/${r.courseId}`}>{r.courseName}</a>
+                        <SiteLink href={`/course/${r.courseId}`}>{r.courseName}</SiteLink>
                       </td>
                     )}
                     <td>
@@ -709,7 +713,7 @@ function PlayersPage({ data }) {
     <>
       <h1>Player Profiles</h1>
       <div className="toolbar">
-        <a href="/rankings">View Player Rankings</a>
+        <SiteLink href="/rankings">View Player Rankings</SiteLink>
         <input
           type="search"
           aria-label="Search players"
@@ -734,7 +738,7 @@ function PlayersPage({ data }) {
               .map((p) => (
                 <tr key={p.id}>
                   <td>
-                    <a href={`/player/${p.id}`}>{p.name}</a>
+                    <SiteLink href={`/player/${p.id}`}>{p.name}</SiteLink>
                   </td>
                   <td className="center">
                     <Nation country={p.country} />
@@ -796,8 +800,8 @@ function PlayerPage({ data: p, players }) {
       <RecordTable records={p.records} players={players} showCourse />
       <DateKey />
       <p>
-        <a href="/rankings">Player Rankings</a> ·{" "}
-        <a href="/players">All Players</a>
+        <SiteLink href="/rankings">Player Rankings</SiteLink> ·{" "}
+        <SiteLink href="/players">All Players</SiteLink>
       </p>
     </>
   );
@@ -831,7 +835,7 @@ function ToursPage({ data }) {
                     {t.courses.map((c, i) => (
                       <span key={c.id}>
                         {i ? " · " : ""}
-                        <a href={`/course/${c.id}`}>{c.name}</a>
+                        <SiteLink href={`/course/${c.id}`}>{c.name}</SiteLink>
                       </span>
                     ))}
                   </td>
@@ -979,8 +983,8 @@ export default function Archive(props) {
       </a>
       <Sidebar index={props.index} />
       <header className="topbar">
-        [ <a href="/">MKTour</a> | <a href="/rankings">Player Rankings</a> |{" "}
-        <a href="/tours">Tours</a> | <a href="/archive">Archive</a> ]
+        [ <SiteLink href="/">MKTour</SiteLink> | <SiteLink href="/rankings">Player Rankings</SiteLink> |{" "}
+        <SiteLink href="/tours">Tours</SiteLink> | <SiteLink href="/archive">Archive</SiteLink> ]
       </header>
       <main id="main">
         <View {...props} />
