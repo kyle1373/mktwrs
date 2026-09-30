@@ -776,10 +776,9 @@
     "sha256": "092ec2f3115d78c4d5aeb962f0fc11fb9afbfb11615158d2817c71b5a8a8a690"
   },
   "youtube:J6qWL0dDQC0": {
-    "originalUrl": "https://www.youtube.com/watch?v=J6qWL0dDQC0",
     "status": "unavailable",
-    "checkedAt": "2026-09-30T18:22:15.618Z",
-    "reason": "The source did not provide an available video."
+    "reason": "Original video unavailable in the signed-in YouTube browser and downloader. Result image remains preserved.",
+    "checkedAt": "2026-09-30T23:12:33.989714+00:00"
   },
   "youtube:JgZabnRTpV4": {
     "originalUrl": "https://youtu.be/JgZabnRTpV4?si=sKnQ9gkDBuy_-UGA",
@@ -1335,5 +1334,10 @@
     "status": "unavailable",
     "checkedAt": "2026-09-30T22:56:35.206836+00:00",
     "reason": "Original signed-in YouTube page displays: This video is not available anymore."
+  },
+  "x:1384673291856609281": {
+    "status": "unavailable",
+    "reason": "Protected Twitter post; the signed-in browser explicitly says the account owner limits access. Not confirmed deleted.",
+    "checkedAt": "2026-09-30T23:12:33.989719+00:00"
   }
 }

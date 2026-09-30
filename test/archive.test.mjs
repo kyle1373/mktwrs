@@ -275,3 +275,25 @@ test('Yoshi Tour restores dated exchanges and separates each player’s proof',(
  assert.deepEqual(footage.laps,['53.34','53.38']);assert.match(footage.videoBackup.url,/MYuFsJdIxiA/);
  for(const r of [...tb.records,...wp.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Ninja Tour restores exchanges, correct ties, and lap shorthand from adjacent replies',()=>{
+ const mc=courses.find(c=>c.id==='3ds-mario-circuit-r');
+ assert.deepEqual(mc.records.map(r=>r.time),['1:38.04','1:37.91','1:37.77','1:37.60','1:37.48','1:37.46','1:37.19','1:36.81','1:36.63','1:36.26','1:36.23','1:36.14','1:36.14','1:36.11','1:35.92','1:35.84']);
+ assert.deepEqual(mc.records.find(r=>r.time==='1:37.77').laps,['48.77','49.00']);
+ assert.deepEqual(mc.records.find(r=>r.time==='1:36.23').laps,['48.19','48.04']);
+ assert.deepEqual(mc.records.find(r=>r.time==='1:35.92').laps,['47.82','48.10']);
+ assert.deepEqual(mc.current.laps,['47.94','47.90']);assert.equal(mc.current.recordDate,'2021-04-16');
+ assert.deepEqual(mc.records.filter(r=>r.time==='1:36.14').map(r=>r.playerId),['superfx','wins']);
+ assert.match(mc.current.video,/O_ByD9fz4tU/);assert.match(mc.current.videoBackup.url,/guLRQ3rL1ys/);
+ assert.match(mc.records.find(r=>r.time==='1:36.81').videoBackup.url,/wDYz3h05dYI/);
+ assert.match(mc.records.find(r=>r.playerId==='wins'&&r.time==='1:36.14').videoBackup.url,/qrQ528UaAM4/);
+ for(const time of ['1:36.40','1:36.24','1:35.89']) {
+  assert(!mc.records.some(r=>r.time===time));assert(mc.submissions.some(r=>r.time===time&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
+ }
+ const rr=courses.find(c=>c.id==='snes-rainbow-road');
+ assert.deepEqual(rr.records.map(r=>r.time),['0:59.94','0:59.58','0:59.28','0:59.25','0:59.20','0:58.99']);
+ assert.deepEqual(rr.records.find(r=>r.time==='0:59.20').laps,['29.32','29.88']);
+ assert.equal(rr.current.recordDate,'2021-04-18');assert.equal(rr.current.videoAvailability,'unavailable');
+ const footage=fastestVideo(rr);assert.equal(footage.time,'0:59.49');assert.equal(footage.isCurrent,false);assert.match(footage.videoBackup.url,/b9a68GD9Gyw/);
+ for(const r of [...mc.records,...rr.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
