@@ -164,3 +164,24 @@ test("Flower Tour retains the shared record and each subsequent improvement with
   }
   assert(!c.records.some(r => r.time === "1:38.94"), "best individual laps are not a completed run");
 });
+
+test("Jungle Tour preserves the WR exchange, previous-best evidence, and first-run splits", () => {
+  const c = courses.find(c => c.id === "snes-mario-circuit-1r");
+  const tie = c.records.filter(r => r.time === "0:42.69");
+  assert.deepEqual(tie.map(r => r.playerId).sort(), ["brandon", "nu11"]);
+  const previous = c.records.find(r => r.time === "0:42.54");
+  assert.equal(previous.playerId, "nu11");
+  assert.equal(previous.recordDate, "2020-05-20");
+  assert.equal(previous.dateBasis, "source-date");
+  assert.equal(previous.proofField, "previous-best");
+  assert.equal(previous.submittedAt, null);
+  assert.deepEqual(previous.laps, [null, null]);
+  assert.deepEqual(c.records.find(r => r.time === "0:42.75").laps, ["21.49", "21.26"]);
+  assert.deepEqual(c.records.find(r => r.time === "0:42.17").laps, ["21.37", "20.80"]);
+  assert.equal(c.records.filter(r => r.time === "0:42.17").length, 1);
+  assert.equal(c.records.find(r => r.time === "0:42.29").playerId, "kazuo");
+  assert(!c.records.find(r => r.time === "0:42.29").video, "Kaguya's later 42.29 video is a different run");
+  assert.equal(c.current.recordDate, "2020-05-26");
+  assert.deepEqual(c.current.laps, ["21.27", "20.80"]);
+  assert(!c.records.some(r => r.time === "0:42.00"), "best-lap sum is not a completed run");
+});
