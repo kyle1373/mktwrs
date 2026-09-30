@@ -111,3 +111,21 @@ test('Rosalina restores intermediate WRs, corrects repost dates, and keeps uncer
  const fallback=fastestVideo(cm);assert.equal(fallback.playerId,'superfx');assert.equal(fallback.time,'1:18.93');assert.equal(fallback.isCurrent,false);assert.match(fallback.video,/aKBh5R2tbTQ/);assert.match(fallback.videoBackup.url,/QqsQhQPtolU/);
  for(const r of [...sw.records,...cm.records].filter(r=>r.recordDate>='2020-12-16'&&r.recordDate<'2020-12-30'&&r.time!=='1:18.51'))assert(fs.existsSync('public'+r.proofImageLocal));
 });
+test('New Year 2021 restores Access and Wins exchanges with original dates and excludes later PBs',()=>{
+ const af=courses.find(c=>c.id==='ds-airship-fortress-r');
+ assert.deepEqual(af.records.slice(0,9).map(r=>[r.playerId,r.time]),[
+  ['nu11','1:37.98'],['access','1:37.72'],['access','1:37.69'],['access','1:37.61'],['access','1:37.57'],['access','1:37.46'],['access','1:37.38'],['nu11','1:37.21'],['wins','1:37.11'],
+ ]);
+ const recovered=af.records.find(r=>r.time==='1:36.66');
+ assert.equal(recovered.submittedAt,'2021-01-08T01:22:20.493Z');assert.deepEqual(recovered.laps,['48.44','48.22']);
+ assert.equal(af.current.recordDate,'2021-01-12');assert.deepEqual(af.current.laps,['48.26','48.18']);
+ assert.equal(af.current.videoAvailability,'unavailable');
+ const fallback=fastestVideo(af);assert.equal(fallback.playerId,'wins');assert.equal(fallback.time,'1:36.91');assert.equal(fallback.isCurrent,false);assert.match(fallback.video,/6dLatix8LUs/);
+ assert(!af.records.some(r=>['1:37.55','1:36.91','1:36.51'].includes(r.time)));
+ const ktb=courses.find(c=>c.id==='snes-koopa-troopa-beach-2');
+ assert.equal(ktb.records.find(r=>r.time==='0:57.59').recordDate,'2020-12-31');
+ assert.equal(ktb.current.recordDate,'2021-11-17');assert.match(ktb.current.videoBackup.url,/HngDnzsFz3c/);assert.equal(fastestVideo(ktb).isCurrent,true);
+ assert(!ktb.records.some(r=>r.time==='0:57.99'||r.time==='0:59.06'));
+ assert(ktb.submissions.some(r=>r.time==='1:02.39'&&r.identityUnresolved&&r.includeInProgression===false));
+ for(const r of [...af.records,...ktb.records.filter(r=>r.recordDate)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
