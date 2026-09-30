@@ -319,16 +319,18 @@ for (const c of courses) {
   }
   for (const r of c.records) {
     const later = c.records.filter((n) => n.timeCs < r.timeCs);
+    const nextTime = Math.max(...later.map((n) => n.timeCs));
+    const nextRecords = later.filter((n) => n.timeCs === nextTime);
     r.durationEnd =
-      later
+      nextRecords
         .map((n) => n.recordDate)
         .filter(Boolean)
         .sort()[0] || new Date().toISOString().slice(0, 10);
     r.durationDays =
-      r.recordDate && later.every((n) => n.recordDate)
+      r.recordDate && nextRecords.every((n) => n.recordDate)
         ? playableDays(
             r.recordDate,
-            later.map((n) => n.recordDate).sort()[0] ||
+            nextRecords.map((n) => n.recordDate).sort()[0] ||
               new Date().toISOString().slice(0, 10),
             c.appearances.map((a) => ({ start: a.startDate, end: a.endDate })),
           )

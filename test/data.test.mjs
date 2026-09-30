@@ -20,6 +20,10 @@ test("Cooking Tour preserves WR exchanges, original splits and verified proof da
   assert.equal(record("0:49.77", "kazuo").recordDate, "2020-06-09");
   assert.equal(record("0:49.77", "kazuo").video, null);
   assert(record("0:49.77", "kazuo").videoRejection);
+  assert.equal(record("0:50.59", "nu11").durationDays, 1,
+    "an undated record from a later tour cannot erase a fully dated earlier reign");
+  assert.equal(record("0:49.77", "kazuo").durationDays, null,
+    "the reign ending at the undated next improvement stays unknown");
   assert(!record("0:49.97", "nu11"), "a later PB slower than the standing WR is excluded");
   const wp = courses.find((c) => c.id === "ds-waluigi-pinball-r");
   const finish = wp.records.find((r) => r.time === "1:45.91");

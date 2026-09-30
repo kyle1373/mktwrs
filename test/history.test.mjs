@@ -107,3 +107,19 @@ test("course history inserts tour boundaries, avoids duplicate cups and omits un
   );
   assert.equal(events.at(-1).date, "2024-02-27");
 });
+
+test("records before the UTC reset precede same-day tour boundary markers", async () => {
+  const { historyEvents } = await import("../public/history.mjs");
+  const events = historyEvents({
+    appearances: [
+      { tourId: "old", startDate: "2020-06-03", endDate: "2020-06-17" },
+      { tourId: "new", startDate: "2020-06-17", endDate: "2020-07-01" },
+    ],
+    records: [
+      { id: "before", status: "community-wr", recordDate: "2020-06-17", submittedAt: "2020-06-17T05:01:18.072Z", timeCs: 10591 },
+      { id: "after", status: "community-wr", recordDate: "2020-06-17", submittedAt: "2020-06-17T06:01:00.000Z", timeCs: 10590 },
+    ],
+  }, [{ id: "old", name: "Old Tour" }, { id: "new", name: "New Tour" }], "2020-06-18");
+  assert.deepEqual(events.filter((e) => e.date === "2020-06-17").map((e) => e.id),
+    ["before", "old-end", "new-start", "after"]);
+});

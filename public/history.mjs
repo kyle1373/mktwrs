@@ -135,10 +135,17 @@ export function historyEvents(course, tours, asOf) {
       });
   }
   const order = { "tour-end": 0, "tour-start": 1, record: 2 };
+  const eventOrder = (event) => {
+    const timestamp = event.record?.submittedAt;
+    // The final tour morning is still playable until the 06:00 UTC reset.
+    if (timestamp?.slice(0, 10) === event.date.slice(0, 10) &&
+        timestamp.slice(11, 19) < "06:00:00") return -1;
+    return order[event.type];
+  };
   return events.sort(
     (a, b) =>
       a.date.slice(0, 10).localeCompare(b.date.slice(0, 10)) ||
-      order[a.type] - order[b.type] ||
+      eventOrder(a) - eventOrder(b) ||
       (b.record?.timeCs || 0) - (a.record?.timeCs || 0),
   );
 }
