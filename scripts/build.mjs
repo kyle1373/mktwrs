@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { videoKey } from "../lib/video.mjs";
 import {
   importSources,
   norm,
@@ -224,6 +225,10 @@ for (const m of sourceMessages.values()) {
   }
 }
 const imported = importSources(courses, players);
+const videoBackups = JSON.parse(fs.readFileSync("archive/video-backups.json", "utf8"));
+const visuallyVerifiedVideos = new Set(JSON.parse(fs.readFileSync("archive/curated-runs.json", "utf8"))
+  .filter(r => r.videoVerified && r.video)
+  .map(r => `${r.courseId}:${centiseconds(r.time)}:${videoKey(r.video)}`));
 const videoMetadata = fs.existsSync("archive/video-metadata.json")
   ? JSON.parse(fs.readFileSync("archive/video-metadata.json"))
   : {};
@@ -251,6 +256,9 @@ for (const c of courses) {
   }
   c.records = [...distinct.values()];
   for (const r of [...c.records, ...c.submissions]) {
+    if (visuallyVerifiedVideos.has(`${c.id}:${r.timeCs}:${videoKey(r.video)}`)) r.videoVerified = true;
+    const backup = videoBackups[videoKey(r.video)];
+    if (backup?.status === "available") r.videoBackup = backup;
     const metadata = videoMetadata[r.video];
     if (!metadata) continue;
     const times = [

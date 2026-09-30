@@ -60,7 +60,7 @@ function Duration({ r }) {
   );
 }
 function Time({ record: r }) {
-  return r?.video ? (
+  const original = r?.video ? (
     <a
       className="time"
       href={r.video}
@@ -82,6 +82,7 @@ function Time({ record: r }) {
       {r?.time || "—"}
     </span>
   );
+  return <>{original}{r?.videoBackup?.url && <a className="video-backup" href={r.videoBackup.url} target="_blank" rel="noopener noreferrer" title="Unlisted preservation copy on SuperFX64">backup</a>}</>;
 }
 function Player({ id, players }) {
   const p = players.find((p) => p.id === id);
@@ -468,6 +469,20 @@ function CourseStats({ c, players }) {
     </>
   );
 }
+function FastestVideo({ course: c, players }) {
+  const r = c.fastestVideo;
+  return <section className="fastest-video">
+    <h2>Fastest available video</h2>
+    {r ? <>
+      <p><strong>{r.time}</strong> · <Player id={r.playerId} players={players} /> · {r.isCurrent ? "Current world record" : "Fastest documented run with available footage"}</p>
+      <p className="video-links">
+        {r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}
+        {r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video (SuperFX64 · unlisted)</a></>}
+      </p>
+      {!r.isCurrent && <p className="table-note">The current WR has no verified available video in the archive. This footage shows the time above.</p>}
+    </> : <p className="table-note">No available video has been verified for this course yet.</p>}
+  </section>;
+}
 function CoursePage({ data: c, players, tours, manifest }) {
   const events = historyEvents(c, tours, manifest.updatedAt);
   return (
@@ -476,6 +491,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <h2>Current WR:</h2>
       <RecordTable records={c.currentHolders} players={players} />
       <CourseStats c={c} players={players} />
+      <FastestVideo course={c} players={players} />
       <h2>History</h2>
       <RecordTable records={c.records} events={events} players={players} />
       <DateKey />
