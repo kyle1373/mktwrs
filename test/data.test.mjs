@@ -237,6 +237,9 @@ test("Marine Tour preserves ties, intermediate records and rejects a mismatched 
   assert.equal(last.recordDate, "2020-07-04");
   assert.deepEqual(last.laps, ["47.74", "47.73"]);
   const ci = courses.find(c => c.id === "rmx-choco-island-1");
+  assert.deepEqual(ci.records.filter(r => ["1:13.88", "1:13.83"].includes(r.time)).map(r => [r.playerId, r.recordDate]),
+    [["kazuo", "2020-07-03"], ["kazuo", "2020-07-03"]]);
+  assert(!ci.records.some(r => r.time === "1:14.63"), "the recovered earlier Kazuo records make this later run a personal best");
   const middle = ci.records.find(r => r.time === "1:12.71");
   assert.equal(middle.playerId, "nu11");
   assert.equal(middle.submittedAt, "2020-07-05T08:40:03.608Z");
