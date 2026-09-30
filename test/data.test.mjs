@@ -10,6 +10,23 @@ const read = (name) =>
 const courses = read("courses"),
   players = read("players"),
   tours = read("tours");
+test("2019 documentary records retain provenance and unknown intermediate dates", () => {
+  const toad = courses.find(c => c.id === "3ds-toad-circuit").records;
+  const nova = toad.find(r => r.playerId === "nova" && r.time === "1:05.33");
+  assert.equal(nova.recordDate, "2019-10-23");
+  assert.equal(nova.evidenceBasis, "contemporary-wr-history");
+  assert.equal(nova.proofImage, null);
+  assert.deepEqual(nova.laps, ["32.92", "32.41"]);
+  const kaguya = toad.find(r => r.playerId === "nu11" && r.time === "1:04.54");
+  assert(kaguya.additionalSources.some(s => s.messageId === "638150966474178570"));
+  const nbc = courses.find(c => c.id === "3ds-neo-bowser-city").records;
+  assert.equal(nbc.find(r => r.time === "1:25.80").recordDate, null);
+  assert.equal(nbc.find(r => r.time === "1:25.80").durationDays, null);
+  assert.equal(nbc.find(r => r.time === "1:25.70").recordDate, "2019-11-05");
+  const jungle = courses.find(c => c.id === "gcn-dino-dino-jungle").records;
+  assert.equal(jungle.find(r => r.time === "1:34.43").recordDate, "2019-10-31");
+  assert.deepEqual(jungle.find(r => r.time === "1:35.69").laps, ["47.85", "47.84"]);
+});
 test("Cooking Tour preserves WR exchanges, original splits and verified proof dates", () => {
   const dp = courses.find((c) => c.id === "snes-donut-plains-1");
   const record = (time, player) => dp.records.find((r) => r.time === time && r.playerId === player);

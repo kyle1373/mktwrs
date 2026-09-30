@@ -26,6 +26,8 @@ function RecordDate({ r }) {
           ? "Date posted in the original submission"
           : r.dateBasis === "proof-upload-date"
             ? "Proof upload date within the recorded tour; achievement date unconfirmed"
+            : r.dateBasis === "source-date"
+              ? "Date documented in the linked historical source"
             : r.tourDateRange
               ? `Set during ${r.tourDateRange.start} – ${r.tourDateRange.end}; exact day unknown`
               : undefined
@@ -486,6 +488,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
                 {r.time} · {players.find((p) => p.id === r.playerId)?.name}
               </a>
               {r.tourLabel ? ` — ${r.tourLabel}` : ""}
+              {r.evidenceNote ? <div>{r.evidenceNote}</div> : null}
             </li>
           ))}
         </ul>
@@ -874,6 +877,13 @@ function About({ manifest: m, tours }) {
           records announced in wr-history or supported by reviewed community WR
           evidence. Ordinary submissions and inferred contenders remain in
           the downloadable evidence, outside WR statistics.
+        </p>
+        <p>
+          Contemporary WR histories can document a record even when its original
+          image or video has disappeared. Those entries retain the historical
+          source, date and available splits. The course’s record sources identify
+          this evidence limitation; unavailable media is not presented as verified
+          image or video proof.
         </p>
         <h2>Dates and playable-day durations</h2>
         <p>

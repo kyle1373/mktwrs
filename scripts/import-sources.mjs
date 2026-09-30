@@ -503,7 +503,10 @@ export function importSources(courses, players) {
         } else {
           r.proofImage ||= s.proofImage;
         }
-        r.additionalSources = matches.map((m) => m.source);
+        r.additionalSources = [...new Map([
+          ...(r.additionalSources || []),
+          ...matches.flatMap((m) => [m.source, ...(m.additionalSources || [])]),
+        ].filter(Boolean).map((source) => [source.url, source])).values()];
         r.notes = [...r.notes, ...s.notes];
         enriched++;
       }
