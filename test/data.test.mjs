@@ -10,6 +10,27 @@ const read = (name) =>
 const courses = read("courses"),
   players = read("players"),
   tours = read("tours");
+test("Winter 2019 uses original post dates and keeps unconfirmed runs out of WR history", () => {
+  const mountain = courses.find(c => c.id === "3ds-rock-rock-mountain");
+  const final = mountain.records.find(r => r.time === "1:47.53");
+  assert.equal(final.recordDate, "2019-12-02");
+  assert.equal(final.submittedAt, "2019-12-02T10:22:52.000Z");
+  assert(final.additionalSources.some(s => s.url.endsWith("1201446628642541569")));
+  const mario = courses.find(c => c.id === "snes-mario-circuit-3");
+  const record = mario.records.find(r => r.time === "1:07.37");
+  assert.equal(record.recordDate, "2019-11-23", "use the original image, not the later video date");
+  assert.deepEqual(record.laps, ["33.61", "33.76"]);
+  assert.equal(record.video, "https://x.com/tomegome_g/status/1198954478734458880");
+  assert.equal(record.durationDays, null, "the next record's date remains unknown");
+  for (const time of ["1:07.98", "1:07.62", "1:07.49"])
+    assert(!mario.records.some(r => r.time === time), "a verified run alone does not establish WR status");
+  const choco = courses.find(c => c.id === "snes-choco-island-2");
+  const candidate = choco.submissions.find(r => r.time === "0:49.72" && r.id.startsWith("curated-winter-2019-original-"));
+  assert.equal(candidate.submittedAt, "2019-11-20T10:32:52.000Z");
+  assert.deepEqual(candidate.laps, ["25.12", "24.60"]);
+  assert.equal(candidate.includeInProgression, false);
+  assert(!choco.records.some(r => r.time === "0:49.72"));
+});
 test("2019 documentary records retain provenance and unknown intermediate dates", () => {
   const toad = courses.find(c => c.id === "3ds-toad-circuit").records;
   const nova = toad.find(r => r.playerId === "nova" && r.time === "1:05.33");
