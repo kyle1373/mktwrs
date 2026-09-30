@@ -55,6 +55,20 @@ test("Daisy Hills R retains the April 2020 WR tie with each player's own laps", 
   }
 });
 
+test("Trick Tour keeps original WR attempts distinct from later self-ties", () => {
+  const nbc = courses.find((c) => c.id === "3ds-neo-bowser-city-r");
+  const first = nbc.records.find((r) => r.time === "1:24.18");
+  assert.deepEqual(first.laps, ["42.08", "42.10"]);
+  assert.equal(nbc.records.filter((r) => r.time === "1:24.18").length, 1);
+  const tied = nbc.records.filter((r) => r.time === "1:23.88");
+  assert.equal(tied.find((r) => r.playerId === "nu11").recordDate, "2020-05-01");
+  assert.equal(tied.find((r) => r.playerId === "kazuo").recordDate, "2020-05-03");
+  const vl = courses.find((c) => c.id === "snes-vanilla-lake-1");
+  assert.deepEqual(vl.records.find((r) => r.time === "0:34.64").laps, ["16.77", "17.87"]);
+  assert.deepEqual(vl.records.find((r) => r.time === "0:34.62").laps, ["17.32", "17.30"]);
+  assert.equal(vl.records.find((r) => r.time === "0:34.62").recordDate, "2020-05-03");
+});
+
 test("public WR history never promotes an inferred contender or ordinary submission", () => {
   for (const c of courses) {
     assert(
