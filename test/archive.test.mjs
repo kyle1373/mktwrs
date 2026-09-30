@@ -297,3 +297,19 @@ test('Ninja Tour restores exchanges, correct ties, and lap shorthand from adjace
  const footage=fastestVideo(rr);assert.equal(footage.time,'0:59.49');assert.equal(footage.isCurrent,false);assert.match(footage.videoBackup.url,/b9a68GD9Gyw/);
  for(const r of [...mc.records,...rr.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Sydney April restores dated records and separates video runs from adjacent screenshots',()=>{
+ const nbc=courses.find(c=>c.id==='3ds-neo-bowser-city-r');
+ const recent=nbc.records.filter(r=>r.recordDate>='2021-04-21');
+ assert.deepEqual(recent.map(r=>r.time),['1:23.82','1:23.77','1:23.75','1:23.70','1:23.68']);
+ assert.deepEqual(recent.map(r=>r.laps),[['42.00','41.82'],['41.93','41.84'],['41.97','41.78'],['41.97','41.73'],['41.94','41.74']]);
+ assert.equal(nbc.current.recordDate,'2021-04-28');assert.match(nbc.current.video,/1388610850978779138/);assert.match(nbc.current.videoBackup.url,/xyqVdSQXoMM/);
+ const ci=courses.find(c=>c.id==='rmx-choco-island-2');
+ assert.deepEqual(ci.records.map(r=>r.time),['1:03.53','1:02.78','1:02.64','1:02.47','1:02.41']);
+ assert.deepEqual(ci.records.find(r=>r.time==='1:02.64').laps,['31.42','31.22']);assert.equal(ci.current.recordDate,'2021-04-29');assert.deepEqual(ci.current.laps,['31.17','31.24']);assert.match(ci.current.videoBackup.url,/t0jKgJvyjL8/);
+ assert.equal(fastestVideo(ci).time,'1:02.41');
+ const tome=ci.submissions.find(r=>r.playerId==='tomegome'&&r.videoVerified&&r.time==='1:02.83');assert(tome);assert.equal(tome.includeInProgression,false);assert.deepEqual(tome.laps,['31.39','31.44']);
+ assert(ci.submissions.some(r=>r.time==='1:03.05'&&r.identityUnresolved&&r.includeInProgression===false));
+ assert(ci.submissions.some(r=>r.time==='1:03.54'&&r.dateUnresolved));
+ for(const r of [...recent,...ci.records])assert(fs.existsSync('public'+r.proofImageLocal));
+});
