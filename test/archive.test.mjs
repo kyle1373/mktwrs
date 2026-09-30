@@ -129,3 +129,21 @@ test('New Year 2021 restores Access and Wins exchanges with original dates and e
  assert(ktb.submissions.some(r=>r.time==='1:02.39'&&r.identityUnresolved&&r.includeInProgression===false));
  for(const r of [...af.records,...ktb.records.filter(r=>r.recordDate)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+test('Berlin distinguishes original WR images, delayed evidence, and slower surviving footage',()=>{
+ const kd=courses.find(c=>c.id==='n64-kalimari-desert-2');
+ const recovered=kd.records.find(r=>r.time==='1:03.84');
+ assert.equal(recovered.playerId,'astre');assert.equal(recovered.recordDate,'2021-01-13');
+ assert.deepEqual(recovered.laps,['29.69','34.15']);assert(fs.existsSync('public'+recovered.proofImageLocal));
+ assert(!kd.records.some(r=>r.playerId==='wins'&&['1:03.86','1:03.84'].includes(r.time)));
+ assert(!kd.records.some(r=>r.time==='1:03.49'||r.time==='1:03.59'));
+ const delayed=kd.records.find(r=>r.time==='1:03.62');assert.equal(delayed.recordDate,null);assert.equal(delayed.durationDays,null);
+ assert.equal(kd.records.find(r=>r.time==='1:03.66').durationDays,null);
+ const preserved=kd.submissions.find(r=>r.video?.includes('dXCC3NPM8CQ'));assert.equal(preserved.videoVerified,true);assert.match(preserved.videoBackup.url,/O7DSlxI9PQ0/);
+ const fallback=fastestVideo(kd);assert.equal(fallback.time,'1:03.36');assert.equal(fallback.isCurrent,false);
+ const rrm=courses.find(c=>c.id==='3ds-rock-rock-mountain-r');
+ assert.deepEqual(rrm.records.find(r=>r.time==='1:43.37').laps,['51.67','51.70']);
+ assert.deepEqual(rrm.records.find(r=>r.time==='1:42.87').laps,['51.52','51.35']);
+ const deleted=rrm.records.find(r=>r.playerId==='baseball-club'&&r.time==='1:43.40');assert.equal(deleted.recordDate,null);assert.equal(deleted.durationDays,null);
+ assert.equal(rrm.records.find(r=>r.time==='1:43.64').durationDays,null);
+ assert.equal(rrm.current.recordDate,'2021-01-18');assert.equal(fastestVideo(rrm).isCurrent,true);assert.match(rrm.current.videoBackup.url,/15haxitqJnY/);
+});
