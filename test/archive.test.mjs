@@ -52,3 +52,25 @@ test('Sunset restores the Saki–Nu–Kazuo exchange and keeps undated previous 
  assert.equal(rr.recordDate,'2020-11-08');
  assert.deepEqual(rr.laps,['46.90','47.07']);
 });
+test('Mario vs. Luigi restores both exchanges, preserves three sections, and excludes disputed runs',()=>{
+ const mc=courses.find(c=>c.id==='snes-mario-circuit-2');
+ const runs=mc.records.filter(r=>r.recordDate>='2020-11-18'&&r.recordDate<'2020-12-02');
+ assert.deepEqual(runs.map(r=>r.time),['0:59.08','0:58.75','0:57.95','0:57.91','0:57.72','0:57.67','0:57.56','0:57.50','0:57.40','0:57.28']);
+ assert(!runs[0].laps?.some(Boolean));
+ assert.deepEqual(mc.current.laps,['28.52','28.76']);
+ assert.equal(mc.current.recordDate,'2020-11-24');
+ assert.match(mc.current.videoBackup.url,/tEgE_32WBrU/);
+ const rr=courses.find(c=>c.id==='3ds-rainbow-road');
+ assert.deepEqual(rr.records.slice(7).map(r=>[r.playerId,r.time]),[
+  ['nu11','1:59.26'],['nu11','1:59.24'],['kazuo','1:59.21'],['astre','1:59.09'],['kazuo','1:59.01'],['kazuo','1:58.96'],['kazuo','1:58.93'],['kazuo','1:58.81'],['kazuo','1:58.80'],
+ ]);
+ assert.deepEqual(rr.current.laps,['33.75','48.80','36.25']);
+ assert.equal(rr.current.recordDate,'2020-11-26');
+ assert.match(rr.current.videoBackup.url,/l-7sVtTwQ-0/);
+ assert(!rr.records.some(r=>r.playerId==='kazuo'&&r.time==='1:59.26'));
+ assert.equal(rr.submissions.filter(r=>r.identityUnresolved).length,3);
+ for(const r of [...runs,...rr.records])assert(fs.existsSync('public'+r.proofImageLocal));
+ const fragment=rr.records.find(r=>r.time==='1:59.01');
+ assert(!fragment.video);
+ assert.match(fragment.videoFragments[0].description,/does not show the finish/);
+});

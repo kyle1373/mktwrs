@@ -485,6 +485,7 @@ function FastestVideo({ course: c, players }) {
 }
 function CoursePage({ data: c, players, tours, manifest }) {
   const events = historyEvents(c, tours, manifest.updatedAt);
+  const fragments = c.records.flatMap(r => (r.videoFragments || []).map(fragment => ({ record: r, ...fragment })));
   return (
     <>
       <h1>{c.name}</h1>
@@ -492,6 +493,16 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <RecordTable records={c.currentHolders} players={players} />
       <CourseStats c={c} players={players} />
       <FastestVideo course={c} players={players} />
+      {fragments.length > 0 && <section className="fastest-video">
+        <h2>Preserved video fragments</h2>
+        {fragments.map(f => <div key={f.originalUrl}>
+          <p><strong>{f.record.time}</strong> · <Player id={f.record.playerId} players={players} /> · {f.description}</p>
+          <p className="video-links">
+            <a href={f.originalUrl} target="_blank" rel="noopener noreferrer">Original fragment</a>
+            {f.backupUrl && <> · <a href={f.backupUrl} target="_blank" rel="noopener noreferrer">Backup fragment (SuperFX64 · unlisted)</a></>}
+          </p>
+        </div>)}
+      </section>}
       <h2>History</h2>
       <RecordTable records={c.records} events={events} players={players} />
       <DateKey />
