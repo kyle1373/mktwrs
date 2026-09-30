@@ -320,3 +320,27 @@ test("Wild West keeps the recovered WR exchanges and leaves delayed reigns unres
   assert.equal(last.at(-1).submittedAt, "2020-08-07T16:01:01.896Z");
   assert.equal(last.at(-1).video, null, "the unavailable video is retained as a reference, not a working proof link");
 });
+
+test("Pirate Tour restores exchanges, ties and original dates without accepting mismatched proofs", () => {
+  const mc = courses.find(c => c.id === "snes-mario-circuit-1");
+  const bc = courses.find(c => c.id === "gba-bowser-s-castle-1r");
+  const exchanges = mc.records.filter(r => ["0:42.13", "0:42.12", "0:42.09", "0:42.04", "0:41.94"].includes(r.time));
+  assert.deepEqual(exchanges.map(r => r.playerId), ["nu11", "wins", "nu11", "wins", "nu11"]);
+  assert.equal(mc.current.recordDate, "2020-08-17");
+  assert.equal(mc.current.durationDays, 9);
+  assert.deepEqual(mc.records.find(r => r.time === "0:42.92").laps, [null, null], "inconsistent message splits must not be silently corrected");
+  assert.equal(mc.records.find(r => r.time === "0:42.12").video, "https://www.youtube.com/watch?v=v3PoyZBWaXs");
+  assert(!bc.records.some(r => ["1:00.71", "1:00.76", "1:00.62"].includes(r.time)), "later personal bests and contradictory images do not establish WRs");
+  const ties = bc.records.filter(r => r.time === "1:00.63");
+  assert.deepEqual(ties.map(r => [r.playerId, r.recordDate]), [["tomegome", "2020-08-12"], ["nu11", "2020-08-13"]]);
+  const intermediate = bc.records.find(r => r.time === "1:00.44");
+  assert.equal(intermediate.recordDate, null);
+  assert.equal(intermediate.proofField, "previous-best");
+  assert(intermediate.proofImageLocal);
+  const tome = bc.records.find(r => r.time === "1:00.31");
+  assert.equal(tome.submittedAt, "2020-08-13T17:38:14.000Z");
+  assert.equal(tome.video, "https://www.youtube.com/watch?v=gMlt02DTps8");
+  assert.equal(bc.current.recordDate, "2020-08-21");
+  assert.deepEqual(bc.current.laps, ["30.11", "30.18"]);
+  assert.equal(bc.current.video, null, "the linked 1:00.30 non-PB is not proof of 1:00.29");
+});
