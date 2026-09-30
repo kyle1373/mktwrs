@@ -110,6 +110,27 @@ export function importSources(courses, players) {
       players.delete(p.id);
     }
   }
+  const championFile = "archive/raw/champion-profile-embeds.json";
+  if (fs.existsSync(championFile)) {
+    for (const profile of JSON.parse(fs.readFileSync(championFile)).profiles) {
+      const p = person(profile.title);
+      const avatar = profile.links.find((l) =>
+        /cdn\.discordapp\.com\/avatars\//.test(l.href),
+      )?.href;
+      if (avatar) {
+        p.avatar = avatar;
+        p.discordId = avatar.match(/\/avatars\/(\d+)\//)?.[1] || p.discordId;
+      }
+      p.profileSource = {
+        channel: "world-champions-profiles",
+        messageId: profile.messageId.split("-").at(-1),
+      };
+      for (const link of profile.links) {
+        if (["Twitter", "YouTube", "Twitch"].includes(link.text))
+          p.socials[link.text.toLowerCase()] = link.href;
+      }
+    }
+  }
   const errors = [];
   let count = 0;
   for (const course of courses) course.submissions = [];
@@ -158,10 +179,16 @@ export function importSources(courses, players) {
           ? rawDate.slice(0, 10)
           : null;
       const media = get("Media:");
+      const mediaIsImage =
+        typeof media === "string" &&
+        /\.(png|jpe?g|webp|gif)(?:\?|$)/i.test(media);
       const video =
-        typeof media === "string" && /^https?:\/\//.test(media) ? media : null;
+        typeof media === "string" && /^https?:\/\//.test(media) && !mediaIsImage
+          ? media
+          : null;
       const rawImage =
         get("Screenshot") ||
+        (mediaIsImage ? media : null) ||
         (typeof rawDate === "string" && /^https?:\/\//.test(rawDate)
           ? rawDate
           : null);
@@ -196,8 +223,54 @@ export function importSources(courses, players) {
   for (const file of fs
     .readdirSync("archive/raw")
     .filter((x) => /^tt-submission-\d+\.json$/.test(x)))
-    for (const m of JSON.parse(fs.readFileSync("archive/raw/" + file)).messages)
+    for (const m of JSON.parse(fs.readFileSync("archive/raw/" + file))
+      .messages) {
+      const previous = messages.get(m.id);
+      if (previous) {
+        m.links = [
+          ...new Map(
+            [...previous.links, ...m.links].map((l) => [l.href, l]),
+          ).values(),
+        ];
+        m.images = [
+          ...new Map(
+            [...previous.images, ...m.images].map((i) => [i.src, i]),
+          ).values(),
+        ];
+      }
       messages.set(m.id, m);
+    }
+  const attachmentKey = (url) =>
+    String(url || "").match(/\/attachments\/(\d+\/\d+)\//)?.[1];
+  const attachments = new Map();
+  for (const m of [...messages.values()].sort((a, b) =>
+    a.datetime.localeCompare(b.datetime),
+  )) {
+    for (const link of m.links) {
+      const key = attachmentKey(link.href);
+      if (key && !attachments.has(key))
+        attachments.set(key, { message: m, url: link.href });
+    }
+  }
+  let attachmentMatches = 0;
+  for (const c of courses)
+    for (const s of c.submissions) {
+      const match = attachments.get(attachmentKey(s.proofImage));
+      if (!match) continue;
+      s.submittedAt = match.message.datetime;
+      s.proofImage = match.url;
+      s.additionalSources = [s.source];
+      const messageId = match.message.id.split("-").at(-1);
+      s.source = {
+        url:
+          "https://discord.com/channels/629221606064914442/875784780573184010/" +
+          messageId,
+        channel: "tt-submission",
+        messageId,
+      };
+      s.status = "matched-sheet-submission";
+      attachmentMatches++;
+    }
   let botCount = 0;
   for (const m of messages.values()) {
     const body = m.embeds?.map((e) => e.text).join("\n") || "";
@@ -304,12 +377,22 @@ export function importSources(courses, players) {
         enriched++;
       }
     }
-    const min = Math.min(...c.records.map((r) => r.timeCs));
     const accepted = c.submissions
-      .filter((s) => s.status === "accepted-submission" && s.timeCs <= min)
+      .filter(
+        (s) =>
+          ["accepted-submission", "matched-sheet-submission"].includes(
+            s.status,
+          ) && s.submittedAt,
+      )
       .sort((a, b) => a.submittedAt.localeCompare(b.submittedAt));
-    let best = min;
     for (const s of accepted) {
+      const knownBefore = c.records.filter((r) =>
+        [r.achievedAt, r.submittedAt, r.announcedAt]
+          .filter(Boolean)
+          .some((date) => date <= s.submittedAt),
+      );
+      if (!knownBefore.length) continue;
+      const best = Math.min(...knownBefore.map((r) => r.timeCs));
       if (s.timeCs > best) continue;
       if (
         !c.records.some(
@@ -320,14 +403,13 @@ export function importSources(courses, players) {
           ...s,
           announcedAt: s.submittedAt,
           tourLabel: "Submission verified by an updater",
-          status: "accepted-submission",
+          status: "reconstructed-contender",
           notes: [
-            "Record candidate relative to the archived baseline. Earlier submissions are still being reconciled.",
+            "Accepted submission matching or improving the best record documented before its submission date. This is a reconstructed contender; incomplete chronology may change its WR status.",
           ],
         });
         person(players.get(s.playerId).name).records.push(s.id);
       }
-      best = Math.min(best, s.timeCs);
     }
   }
   fs.writeFileSync(
@@ -338,6 +420,7 @@ export function importSources(courses, players) {
     submissionCount: count,
     acceptedDiscordSubmissions: botCount,
     submissionMessagesCaptured: messages.size,
+    attachmentDateMatches: attachmentMatches,
     enrichedRecords: enriched,
     importIssueCount: errors.length,
   };

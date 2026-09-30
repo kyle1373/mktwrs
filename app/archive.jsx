@@ -154,7 +154,9 @@ function Home({ data, players }) {
     (
       c.name +
       " " +
-      (players.find((p) => p.id === c.current?.playerId)?.name || "")
+      c.currentHolders
+        .map((r) => players.find((p) => p.id === r.playerId)?.name || "")
+        .join(" ")
     )
       .toLowerCase()
       .includes(q.toLowerCase()),
@@ -208,16 +210,32 @@ function Home({ data, players }) {
                   </div>
                 </td>
                 <td className="number">
-                  <Time record={c.current} />
+                  {c.currentHolders.map((r) => (
+                    <div key={r.id}>
+                      <Time record={r} />
+                    </div>
+                  ))}
                 </td>
                 <td>
-                  <Player id={c.current?.playerId} players={players} />
+                  {c.currentHolders.map((r) => (
+                    <div key={r.id}>
+                      <Player id={r.playerId} players={players} />
+                    </div>
+                  ))}
                 </td>
                 <td>
-                  <RecordDate r={c.current} />
+                  {c.currentHolders.map((r) => (
+                    <div key={r.id}>
+                      <RecordDate r={r} />
+                    </div>
+                  ))}
                 </td>
                 <td className="number">
-                  <Duration r={c.current} />
+                  {c.currentHolders.map((r) => (
+                    <div key={r.id}>
+                      <Duration r={r} />
+                    </div>
+                  ))}
                 </td>
                 <td>
                   <a href={`/course/${c.id}`}>
@@ -369,9 +387,13 @@ function CoursePage({ data: c, players, tours }) {
           </div>
           <div>
             <strong>
-              <Player id={c.current.playerId} players={players} />
+              {c.currentHolders.map((r) => (
+                <div key={r.id}>
+                  <Player id={r.playerId} players={players} />
+                </div>
+              ))}
             </strong>
-            <span>Archived record holder</span>
+            <span>Archived record holders</span>
           </div>
           <div>
             <strong>{c.submissions.length}</strong>
@@ -382,8 +404,10 @@ function CoursePage({ data: c, players, tours }) {
       <Notice />
       <h2>World record history</h2>
       <p className="meta">
-        WR announcements and accepted record candidates. Ordered by announcement
-        until achievement dates are verified.
+        WR announcements and reconstructed contenders. Contenders match or beat
+        the best record documented before their submission; their WR status
+        remains provisional. Ordered by source posting until achievement dates
+        are verified.
       </p>
       <div className="table-wrap">
         <table>
@@ -397,6 +421,7 @@ function CoursePage({ data: c, players, tours }) {
               <th>Date</th>
               <th>Playable days</th>
               <th>Source posted</th>
+              <th>Evidence</th>
             </tr>
           </thead>
           <tbody>
@@ -426,11 +451,14 @@ function CoursePage({ data: c, players, tours }) {
                     {date(r.announcedAt)}
                   </a>
                 </td>
+                <td>
+                  {r.status === "announced" ? "WR announcement" : "Contender"}
+                </td>
               </tr>
             ))}
             {!c.records.length && (
               <tr>
-                <td colSpan={8} className="empty-state">
+                <td colSpan={9} className="empty-state">
                   No WR announcement imported yet. Preserved submission evidence
                   is available below.
                 </td>

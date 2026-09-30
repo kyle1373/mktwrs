@@ -245,6 +245,13 @@ for (const c of courses) {
   c.current = c.records.length
     ? c.records.reduce((a, b) => (a.timeCs <= b.timeCs ? a : b))
     : null;
+  c.currentHolders = c.records.filter(
+    (r, i, all) =>
+      r.timeCs === c.current?.timeCs &&
+      all.findIndex(
+        (n) => n.timeCs === r.timeCs && n.playerId === r.playerId,
+      ) === i,
+  );
 }
 courses.sort((a, b) =>
   a.sortName.localeCompare(b.sortName, "en", { numeric: true }),
