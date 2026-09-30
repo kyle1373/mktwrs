@@ -1,0 +1,25 @@
+{
+  "name": "mktwrs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "start": "next start --hostname 0.0.0.0",
+    "build": "node scripts/build.mjs && next build",
+    "test": "node --test test/*.test.mjs",
+    "capture": "node scripts/ingest-server.mjs",
+    "data": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "1.1.2"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "next": "^16.3.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

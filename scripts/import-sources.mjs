@@ -1,0 +1,344 @@
+import fs from "node:fs";
+export const slug = (s) =>
+  String(s)
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+export const norm = (s) =>
+  String(s)
+    .replace(/ Reverse$/, " R")
+    .replace(/Wario's Shipyard/, "Wario Shipyard")
+    .replace(/^(SNES|N64|GBA|GCN|DS|Wii|3DS) /, "")
+    .replace(/[’'\s-]/g, "")
+    .toLowerCase();
+export function findCourse(courses, title) {
+  const platform = String(title).match(/^(SNES|N64|GBA|GCN|DS|Wii|3DS) /)?.[1];
+  const matches = courses.filter(
+    (c) =>
+      norm(c.name) === norm(title) &&
+      (!platform || c.name.startsWith(platform + " ")),
+  );
+  return matches.length === 1 ? matches[0] : null;
+}
+export function centiseconds(v) {
+  if (typeof v === "number") return Math.round(v * 100);
+  let s = String(v ?? "").trim();
+  if (/^\d{1,2}[.;:]\d{2}[.:]\d{2}$/.test(s)) {
+    const p = s.split(/[.;:]/);
+    return +p[0] * 6000 + +p[1] * 100 + +p[2];
+  }
+  if (/^\d{1,3}\.\d{1,2}$/.test(s)) return Math.round(+s * 100);
+  return null;
+}
+export const formatTime = (cs) =>
+  `${Math.floor(cs / 6000)}:${String(Math.floor(cs / 100) % 60).padStart(2, "0")}.${String(cs % 100).padStart(2, "0")}`;
+export function importSources(courses, players) {
+  const file = "archive/raw/workbook-extracted.json";
+  if (!fs.existsSync(file)) return { submissionCount: 0 };
+  const w = JSON.parse(fs.readFileSync(file));
+  const aliases = new Map(),
+    profiles = new Map();
+  for (const row of w.sheets["Player Names"]) {
+    const names = row.filter((v) => v !== null && String(v).trim()).map(String);
+    for (const a of names) aliases.set(a.toLowerCase(), names[0]);
+  }
+  for (const row of w.sheets["Player Profiles"].slice(1)) {
+    if (row[0])
+      profiles.set(String(row[0]).toLowerCase(), {
+        name: String(row[0]),
+        country: row[1],
+        discordId: row[2] || null,
+        socials: {
+          twitter: row[3] || null,
+          youtube: row[4] || null,
+          twitch: row[5] || null,
+        },
+      });
+  }
+  for (const row of w.sheets["Player Flags"])
+    if (row[0]) {
+      const name = aliases.get(String(row[0]).toLowerCase()) || String(row[0]);
+      if (!profiles.has(name.toLowerCase()))
+        profiles.set(name.toLowerCase(), { name, country: row[1] });
+    }
+  for (const profile of profiles.values()) {
+    if (!profile.socials) continue;
+    const root = aliases.get(profile.name.toLowerCase());
+    if (root) {
+      for (const [key, value] of aliases)
+        if (value === root) aliases.set(key, profile.name);
+    }
+  }
+  function person(name) {
+    name = String(name).trim();
+    name = aliases.get(name.toLowerCase()) || name;
+    const profile = profiles.get(name.toLowerCase());
+    if (profile) name = profile.name;
+    let id = slug(name);
+    if (!id) id = "player-" + Buffer.from(name).toString("hex");
+    let p = players.get(id);
+    if (!p) {
+      p = {
+        id,
+        name,
+        country: profile?.country || null,
+        discordId: profile?.discordId || null,
+        avatar: null,
+        records: [],
+        socials: profile?.socials || {},
+        aliases: [],
+      };
+      players.set(id, p);
+    } else if (profile)
+      Object.assign(p, {
+        country: profile.country || p.country,
+        discordId: profile.discordId || p.discordId,
+        socials: profile.socials || {},
+      });
+    return p;
+  }
+  for (const p of [...players.values()]) {
+    const canonical = person(p.name);
+    if (canonical.id !== p.id) {
+      for (const c of courses)
+        for (const r of c.records)
+          if (r.playerId === p.id) r.playerId = canonical.id;
+      canonical.avatar ||= p.avatar;
+      canonical.records.push(...p.records);
+      players.delete(p.id);
+    }
+  }
+  const errors = [];
+  let count = 0;
+  for (const course of courses) course.submissions = [];
+  for (const b of w.blocks) {
+    let title = b.course;
+    if (!title && b.column === 3) title = "Kalimari Desert";
+    if (!title && b.column === 11) title = "Daisy Hills R";
+    let c = findCourse(courses, title);
+    if (!c) {
+      if (b.rows.length)
+        errors.push({
+          type: "unmapped-course",
+          course: title,
+          column: b.column,
+          rows: b.rows.length,
+        });
+      continue;
+    }
+    for (const row of b.rows) {
+      const get = (label) => row.cells[b.labels.indexOf(label)]?.value;
+      let timeCs = centiseconds(get("Time:"));
+      if (!timeCs || timeCs < 1000 || timeCs > 60000) {
+        errors.push({
+          type: "invalid-time",
+          course: title,
+          cell: row.cells[0].cell,
+          value: get("Time:"),
+        });
+        continue;
+      }
+      const p = person(get("Player:"));
+      const lapCells = ["Lap 1", "Lap 2", "Lap 3"]
+        .filter((x) => b.labels.includes(x))
+        .map(get);
+      let splits = lapCells.map((v) => centiseconds(v));
+      const notes = [];
+      if (
+        splits.every((x) => x !== null) &&
+        splits.reduce((a, b) => a + b, 0) !== timeCs
+      ) {
+        notes.push("Source lap splits do not sum to the total.");
+      }
+      const rawDate = get("Date:");
+      const explicitDate =
+        typeof rawDate === "string" && /^\d{4}-\d{2}-\d{2}T/.test(rawDate)
+          ? rawDate.slice(0, 10)
+          : null;
+      const media = get("Media:");
+      const video =
+        typeof media === "string" && /^https?:\/\//.test(media) ? media : null;
+      const rawImage =
+        get("Screenshot") ||
+        (typeof rawDate === "string" && /^https?:\/\//.test(rawDate)
+          ? rawDate
+          : null);
+      const id = "sheet-" + row.cells[0].cell;
+      const r = {
+        id,
+        courseId: c.id,
+        playerId: p.id,
+        time: formatTime(timeCs),
+        timeCs,
+        laps: splits.map((x) => (x === null ? null : (x / 100).toFixed(2))),
+        mushrooms: null,
+        achievedAt: explicitDate,
+        datePrecision: explicitDate ? "day" : "unknown",
+        dateBasis: explicitDate ? "spreadsheet-date" : null,
+        submittedAt: null,
+        video,
+        proofImage: rawImage || null,
+        source: {
+          url: w.source + "#gid=876753249&range=" + row.cells[0].cell,
+          sheet: "Admin Panel",
+          range: row.cells[0].cell + ":" + row.cells.at(-1).cell,
+        },
+        status: "sheet-submission",
+        notes,
+      };
+      c.submissions.push(r);
+      count++;
+    }
+  }
+  const messages = new Map();
+  for (const file of fs
+    .readdirSync("archive/raw")
+    .filter((x) => /^tt-submission-\d+\.json$/.test(x)))
+    for (const m of JSON.parse(fs.readFileSync("archive/raw/" + file)).messages)
+      messages.set(m.id, m);
+  let botCount = 0;
+  for (const m of messages.values()) {
+    const body = m.embeds?.map((e) => e.text).join("\n") || "";
+    if (!/Status: Updated by/.test(body)) continue;
+    const line = body
+      .split("\n")
+      .find((x) => /\|.*\|.*\|/.test(x) && !x.startsWith("Submission"));
+    if (!line) continue;
+    const parts = line.split("|").map((s) => s.trim());
+    if (parts.length < 5) continue;
+    const c = findCourse(courses, parts[1]);
+    let cs = centiseconds(parts[2]);
+    if (!c || !cs) {
+      errors.push({ type: "unmapped-bot", messageId: m.id, line });
+      continue;
+    }
+    const p = person(parts[0]);
+    const source = m.links.find((l) => l.text === "Submission")?.href;
+    const sid = source?.split("/").at(-1);
+    let original = messages.get("chat-messages-875784780573184010-" + sid);
+    const submittedAt =
+      original?.datetime ||
+      (sid
+        ? new Date(Number((BigInt(sid) >> 22n) + 1420070400000n)).toISOString()
+        : m.datetime);
+    const avatar = m.links.find((l) => /\/avatars\//.test(l.href))?.href;
+    if (avatar) {
+      p.avatar = avatar;
+      p.discordId = avatar.match(/\/avatars\/(\d+)/)?.[1] || p.discordId;
+    }
+    const proof = m.links.find((l) => /\/attachments\//.test(l.href))?.href;
+    const video = m.links.find((l) =>
+      /youtu|twitter\.com|x\.com|twitch\.tv/.test(l.href),
+    )?.href;
+    let r = c.submissions.find(
+      (r) =>
+        r.timeCs === cs &&
+        r.playerId === p.id &&
+        proof &&
+        r.proofImage?.split("?")[0] === proof.split("?")[0],
+    );
+    if (!r) {
+      r = {
+        id: "discord-" + m.id.split("-").at(-1),
+        courseId: c.id,
+        playerId: p.id,
+        time: formatTime(cs),
+        timeCs: cs,
+        laps: parts
+          .slice(3, 5)
+          .map((x) =>
+            centiseconds(x) === null
+              ? null
+              : (centiseconds(x) / 100).toFixed(2),
+          ),
+        mushrooms: null,
+        achievedAt: null,
+        datePrecision: "unknown",
+        status: "accepted-submission",
+        notes: [],
+      };
+      c.submissions.push(r);
+    }
+    Object.assign(r, {
+      submittedAt,
+      video: video || r.video || null,
+      proofImage: proof || r.proofImage || null,
+      source: {
+        url:
+          source ||
+          "https://discord.com/channels/629221606064914442/875784780573184010/" +
+            m.id.split("-").at(-1),
+        channel: "tt-submission",
+        messageId: sid || m.id.split("-").at(-1),
+      },
+      status: "accepted-submission",
+    });
+    botCount++;
+  }
+  let enriched = 0;
+  for (const c of courses) {
+    for (const r of c.records) {
+      const matches = c.submissions.filter(
+        (s) => s.playerId === r.playerId && s.timeCs === r.timeCs,
+      );
+      matches.sort((a, b) =>
+        (a.achievedAt || a.submittedAt || "9999").localeCompare(
+          b.achievedAt || b.submittedAt || "9999",
+        ),
+      );
+      let s =
+        matches.find((x) => x.achievedAt) ||
+        matches.find((x) => x.submittedAt) ||
+        matches.find((x) => x.laps.some((l) => l !== null));
+      if (s) {
+        r.laps = s.notes.some((n) => n.includes("do not sum")) ? null : s.laps;
+        r.achievedAt = s.achievedAt;
+        r.datePrecision = s.datePrecision;
+        r.submittedAt = s.submittedAt;
+        r.video ||= s.video;
+        r.proofImage ||= s.proofImage;
+        r.additionalSources = matches.map((m) => m.source);
+        r.notes = [...r.notes, ...s.notes];
+        enriched++;
+      }
+    }
+    const min = Math.min(...c.records.map((r) => r.timeCs));
+    const accepted = c.submissions
+      .filter((s) => s.status === "accepted-submission" && s.timeCs <= min)
+      .sort((a, b) => a.submittedAt.localeCompare(b.submittedAt));
+    let best = min;
+    for (const s of accepted) {
+      if (s.timeCs > best) continue;
+      if (
+        !c.records.some(
+          (r) => r.timeCs === s.timeCs && r.playerId === s.playerId,
+        )
+      ) {
+        c.records.push({
+          ...s,
+          announcedAt: s.submittedAt,
+          tourLabel: "Submission verified by an updater",
+          status: "accepted-submission",
+          notes: [
+            "Record candidate relative to the archived baseline. Earlier submissions are still being reconciled.",
+          ],
+        });
+        person(players.get(s.playerId).name).records.push(s.id);
+      }
+      best = Math.min(best, s.timeCs);
+    }
+  }
+  fs.writeFileSync(
+    "archive/import-issues.json",
+    JSON.stringify(errors, null, 2),
+  );
+  return {
+    submissionCount: count,
+    acceptedDiscordSubmissions: botCount,
+    submissionMessagesCaptured: messages.size,
+    enrichedRecords: enriched,
+    importIssueCount: errors.length,
+  };
+}
