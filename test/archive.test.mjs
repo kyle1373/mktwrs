@@ -232,3 +232,26 @@ test('Snow Tour restores consecutive breaks, adjacent replies, and separate surv
  assert.equal(sparta.time,'1:17.96');assert.equal(sparta.includeInProgression,false);assert.match(sparta.videoBackup.url,/qWAjvYamrKE/);
  for(const r of [...riw.records.slice(0,8),...rr.records.slice(0,12)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Mario Tour restores short WR exchanges and validates shorthand against original totals',()=>{
+ const lm=courses.find(c=>c.id==='ds-luigi-s-mansion-r');
+ assert.deepEqual(lm.records.map(r=>r.time),['1:28.93','1:25.45','1:25.43','1:24.69','1:24.64','1:23.62','1:23.60','1:23.43','1:23.39','1:23.29','1:23.23','1:23.21','1:23.19','1:23.09','1:22.96','1:22.89','1:22.84','1:22.75']);
+ assert.equal(lm.records.find(r=>r.time==='1:25.43').playerId,'marumo');
+ assert.equal(lm.records.find(r=>r.time==='1:25.43').submittedAt,'2021-03-10T07:16:09.543Z');
+ assert.deepEqual(lm.records.find(r=>r.time==='1:23.39').laps,[null,null]);
+ assert.deepEqual(lm.records.find(r=>r.time==='1:23.29').laps,['41.56','41.73']);
+ assert.equal(lm.current.recordDate,'2021-03-18');
+ const footage=fastestVideo(lm);assert.equal(footage.time,'1:22.79');assert.equal(footage.isCurrent,false);assert.equal(footage.dateUnresolved,true);assert.equal(footage.submittedAt,null);
+ assert.deepEqual(footage.laps,['41.41','41.38']);assert.match(footage.video,/1372898731717189632/);assert.match(footage.videoBackup.url,/Dutdl5C_HpI/);
+ assert(!lm.records.some(r=>r.time==='1:22.79'||r.time==='1:22.83'));
+ const bc=courses.find(c=>c.id==='gba-bowser-s-castle-1');
+ assert.deepEqual(bc.records.filter(r=>r.recordDate>='2021-03-10'&&r.recordDate<'2021-03-24').map(r=>r.time),['0:59.88','0:59.82','0:59.82','0:59.72','0:59.68','0:59.63','0:59.59','0:59.55']);
+ assert.deepEqual(bc.records.find(r=>r.playerId==='nu11'&&r.time==='0:59.82').laps,['29.62','30.20']);
+ assert.equal(bc.current.recordDate,'2021-03-22');assert(!bc.records.some(r=>r.time==='0:59.58'));
+ const tb=courses.find(c=>c.id==='tokyo-blur-4');
+ assert.deepEqual(tb.records.slice(0,7).map(r=>r.time),['0:47.64','0:47.26','0:46.92','0:46.84','0:46.57','0:46.35','0:46.31']);
+ assert.deepEqual(tb.records.find(r=>r.time==='0:46.84').laps,['21.67','25.17']);
+ assert.equal(tb.records.find(r=>r.time==='0:46.31').recordDate,'2021-03-23');
+ assert(tb.submissions.some(r=>r.time==='0:47.48'&&r.identityUnresolved&&r.includeInProgression===false));
+ for(const r of [...lm.records,...tb.records.slice(0,7)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
