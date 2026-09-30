@@ -313,3 +313,25 @@ test('Sydney April restores dated records and separates video runs from adjacent
  assert(ci.submissions.some(r=>r.time==='1:03.54'&&r.dateUnresolved));
  for(const r of [...recent,...ci.records])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+
+test('Bowser vs DK restores record exchanges, same-player reties, and corrected video splits',()=>{
+ const kd=courses.find(c=>c.id==='n64-kalimari-desert-2r');
+ const recent=kd.records.filter(r=>r.recordDate>='2021-05-05'&&r.recordDate<'2021-05-19');
+ assert.deepEqual(recent.map(r=>r.time),['1:05.72','1:05.56','1:05.30','1:05.23','1:05.18','1:05.12','1:04.97','1:04.94','1:04.88','1:04.88','1:04.77','1:04.74','1:04.71','1:04.68','1:04.62','1:04.56','1:04.50','1:04.47','1:04.43','1:04.35','1:04.30']);
+ assert.deepEqual(recent.filter(r=>r.time==='1:04.88').map(r=>r.playerId),['n','kazuo']);
+ assert.deepEqual(recent.find(r=>r.time==='1:04.47').laps,['29.10','35.37']);
+ assert.deepEqual(recent.find(r=>r.time==='1:04.43').laps,['29.12','35.31']);
+ assert.deepEqual(recent.at(-1).laps,['29.05','35.25']);
+ assert.equal(recent.at(-1).recordDate,'2021-05-14');
+ assert.match(recent.at(-1).videoBackup.url,/YY07Osa5iU4/);
+ assert(kd.submissions.some(r=>r.time==='1:04.47'&&r.includeInProgression===false&&r.laps[0]==='29.17'));
+ assert(kd.submissions.some(r=>r.time==='1:04.35'&&r.includeInProgression===false&&r.laps[0]==='29.09'));
+ const riw=courses.find(c=>c.id==='3ds-rosalina-s-ice-world-r');
+ assert.deepEqual(riw.records.filter(r=>r.recordDate<'2021-05-19').map(r=>r.time),['1:31.87','1:31.83','1:31.57','1:30.19','1:30.01','1:29.85','1:29.62']);
+ const kaz=riw.records.find(r=>r.time==='1:29.62');assert.equal(kaz.recordDate,'2021-05-09');assert.deepEqual(kaz.laps,['44.93','44.69']);assert.match(kaz.videoBackup.url,/zYkLiT9qYSY/);
+ assert.equal(riw.records.find(r=>r.time==='1:29.85').videoAvailability,'unavailable');
+ for(const t of ['1:30.73','1:30.17'])assert(riw.submissions.some(r=>r.time===t&&r.dateUnresolved&&r.submittedAt===null));
+ const af=courses.find(c=>c.id==='ds-airship-fortress');assert(!af.records.some(r=>r.time==='1:29.34'));assert.equal(af.current.submittedAt,'2021-05-06T21:38:36.939Z');
+ for(const r of [...recent,kaz,af.current])assert(fs.existsSync('public'+r.proofImageLocal));
+});
