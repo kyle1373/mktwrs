@@ -35,6 +35,26 @@ test("same-time ties retain independent player identities", () => {
   assert(ties.some((r) => r.playerId === "nekozuki"));
 });
 
+test("Daisy Hills R retains the April 2020 WR tie with each player's own laps", () => {
+  const course = courses.find((c) => c.id === "3ds-daisy-hills-r");
+  const tied = course.records.filter((r) => r.time === "1:21.28");
+  const kaguya = tied.find((r) => r.playerId === "nu11");
+  const kazuo = tied.find((r) => r.playerId === "kazuo");
+  assert.deepEqual(kaguya.laps, ["40.59", "40.69"]);
+  assert.deepEqual(kazuo.laps, ["40.60", "40.68"]);
+  assert.equal(kaguya.recordDate, "2020-04-14");
+  assert.equal(kazuo.recordDate, "2020-04-14");
+  assert.equal(kazuo.video, "https://youtu.be/Z5zwcLad-Fo");
+  const next = course.records.find((r) => r.time === "1:20.94");
+  assert.equal(next.playerId, "nu11");
+  assert.equal(next.recordDate, "2020-04-15");
+  assert.deepEqual(next.laps, ["40.46", "40.48"]);
+  assert.equal(next.video, null, "the later demonstration video has a corrected title and is a different run");
+  for (const r of [kaguya, kazuo, next]) {
+    assert(r.proofImageLocal && fs.existsSync(new URL("../public" + r.proofImageLocal, import.meta.url)));
+  }
+});
+
 test("public WR history never promotes an inferred contender or ordinary submission", () => {
   for (const c of courses) {
     assert(

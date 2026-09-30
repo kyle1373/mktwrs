@@ -481,7 +481,17 @@ export function importSources(courses, players) {
         r.submittedAt = s.submittedAt;
         r.proofUploadedAt = s.proofUploadedAt || attachmentDate(r.proofImage);
         r.video ||= s.video;
-        r.proofImage ||= s.proofImage;
+        const verifiedProof = matches.find((m) => m.proofImageVerified && m.proofImage);
+        if (verifiedProof) {
+          if (r.proofImage && r.proofImage !== verifiedProof.proofImage) {
+            r.additionalProofImages = [...new Set([
+              ...(r.additionalProofImages || []), r.proofImage,
+            ])];
+          }
+          r.proofImage = verifiedProof.proofImage;
+        } else {
+          r.proofImage ||= s.proofImage;
+        }
         r.additionalSources = matches.map((m) => m.source);
         r.notes = [...r.notes, ...s.notes];
         enriched++;
