@@ -274,3 +274,20 @@ test("Exploration Tour keeps both records in a paired post and the final morning
   assert(!vl.records.some(r => r.time === "0:33.87"), "corrected lap typo is not a record");
   assert(!ddj.records.some(r => r.time === "1:33.91" || r.time === "1:33.99"), "slower video runs are not new records");
 });
+
+test("Paris 2019 preserves the original Mario Circuit exchange instead of dating later reposts", () => {
+  const mc = courses.find(c => c.id === "snes-mario-circuit-1");
+  const r = time => mc.records.find(r => r.time === time);
+  assert.equal(r("0:48.67").recordDate, "2019-11-06");
+  assert.equal(r("0:48.44").submittedAt, "2019-11-07T15:29:09.000Z");
+  assert.equal(r("0:48.39").submittedAt, "2019-11-07T15:48:39.036Z");
+  assert.equal(r("0:48.39").observedAt, "2019-11-09T22:44:31.896Z");
+  assert.deepEqual(r("0:48.39").laps, ["24.27", "24.12"]);
+  assert.equal(r("0:48.39").video, null, "unavailable original video is not claimed as verified proof");
+  assert.equal(r("0:48.36").recordDate, "2019-11-14");
+  assert.equal(r("0:48.29").recordDate, "2019-11-14");
+  assert.deepEqual(r("0:48.29").laps, ["24.19", "24.10"]);
+  assert(r("0:48.29").proofImageLocal);
+  assert.equal(r("0:48.29").video, null);
+  assert(!r("0:48.66"), "this Discord submission is slower than the already established Tomegome record");
+});
