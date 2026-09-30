@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { fastestVideo } from '../lib/video.mjs';
 const courses=JSON.parse(fs.readFileSync('public/data/courses.json'));
 test('Anniversary 2020 restores the WR exchange with original dates, splits and preserved images',()=>{
  const c=courses.find(c=>c.id==='3ds-toad-circuit');
@@ -73,4 +74,23 @@ test('Mario vs. Luigi restores both exchanges, preserves three sections, and exc
  const fragment=rr.records.find(r=>r.time==='1:59.01');
  assert(!fragment.video);
  assert.match(fragment.videoFragments[0].description,/does not show the finish/);
+});
+test('Winter 2020 restores both exchanges and attributes tied footage to its actual runner',()=>{
+ const ci=courses.find(c=>c.id==='snes-choco-island-1');
+ assert.deepEqual(ci.records.map(r=>r.time),['0:41.43','0:40.68','0:40.68','0:40.36','0:40.30','0:40.29','0:40.07','0:39.92','0:39.87','0:39.81','0:39.76','0:39.76']);
+ const nu=ci.records.find(r=>r.playerId==='nu11'&&r.time==='0:39.76');
+ const fx=ci.records.find(r=>r.playerId==='superfx');
+ assert.equal(nu.recordDate,'2020-12-06');assert.equal(nu.video,null);assert.equal(nu.videoBackup,undefined);
+ assert.equal(fx.recordDate,'2020-12-15');assert.deepEqual(fx.laps,['20.04','19.72']);
+ assert.match(fx.video,/kdfx2c/);assert.match(fx.videoBackup.url,/9ZHoPbG1evM/);
+ const wk=ci.records.find(r=>r.playerId==='wakinyo');assert(!wk.proofImage);assert.deepEqual(wk.laps,['20.30','19.99']);
+ const mt=courses.find(c=>c.id==='wii-maple-treeway');
+ const dated=mt.records.filter(r=>r.recordDate);
+ assert.deepEqual(dated.map(r=>r.time),['1:48.66','1:47.67','1:47.57','1:47.57','1:47.09','1:47.08','1:47.02','1:46.73','1:46.64','1:46.62','1:46.16']);
+ assert.equal(dated.at(-1).recordDate,'2020-12-08');assert.deepEqual(dated.at(-1).laps,['52.99','53.17']);
+ assert(!mt.records.some(r=>r.time==='1:47.07'));
+ const fallback=fastestVideo(mt);assert.equal(fallback.playerId,'wins');assert.equal(fallback.time,'1:46.16');assert.equal(fallback.isCurrent,false);assert.match(fallback.videoBackup.url,/vElKKGJkqsc/);
+ assert.equal(fastestVideo(ci).playerId,'superfx');
+ const ids=[...ci.records,...mt.records].map(r=>r.id);assert.equal(new Set(ids).size,ids.length);
+ for(const r of [...ci.records,...dated].filter(r=>r.playerId!=='wakinyo'))assert(fs.existsSync('public'+r.proofImageLocal));
 });
