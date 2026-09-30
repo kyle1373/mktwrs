@@ -7,12 +7,13 @@ fs.mkdirSync(dir,{recursive:true});
 const manifestFile='archive/early-image-downloads.json';
 const saved=fs.existsSync(manifestFile)?JSON.parse(fs.readFileSync(manifestFile)):{};
 function index(){
- const pages=new Map(), messages=new Map();
- for(const file of fs.readdirSync('archive/raw').filter(f=>/^early-tt-images-\d+-\d+\.json$/.test(f)).sort()){
+ const pages=new Map(), windows=new Map(), messages=new Map();
+ for(const file of fs.readdirSync('archive/raw').filter(f=>/^early-tt-(?:images-\d+-\d+|month-\d{6}-\d+)\.json$/.test(f)).sort()){
   for(const p of JSON.parse(fs.readFileSync('archive/raw/'+file)).pages||[]){
    if(!p.messages?.length)continue;
-   const prev=pages.get(p.page);
-   pages.set(p.page,{page:p.page,imageSweep:!!(p.imageSweep||prev?.imageSweep)});
+   const collection=p.window?windows:pages,key=p.window?`${p.window}:${p.page}`:p.page;
+   const prev=collection.get(key);
+   collection.set(key,{page:p.page,window:p.window,imageSweep:!!(p.imageSweep||prev?.imageSweep)});
    for(const m of p.messages){
     const old=messages.get(m.id);
     messages.set(m.id,{...m,page:p.page,capture:file,
@@ -33,7 +34,7 @@ function index(){
    else if(score>old.urlScore)images.set(id,{...old,url,urlScore:score});
   }
  }
- const result={pages:[...pages.keys()].sort((a,b)=>a-b),sweptPages:[...pages.values()].filter(p=>p.imageSweep).map(p=>p.page).sort((a,b)=>a-b),messageCount:messages.size,images:[...images.values()]};
+ const result={pages:[...pages.keys()].sort((a,b)=>a-b),sweptPages:[...pages.values()].filter(p=>p.imageSweep).map(p=>p.page).sort((a,b)=>a-b),windowPages:[...windows.values()],messageCount:messages.size,images:[...images.values()]};
  fs.writeFileSync('archive/early-image-index.json',JSON.stringify(result,null,2));return result;
 }
 while(true){

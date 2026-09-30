@@ -147,3 +147,20 @@ test("Halloween 2019 table retains credited players and achievement days rather 
     assert(fs.existsSync(new URL("../public" + r.proofImageLocal, import.meta.url)));
   }
 });
+
+test("Flower Tour retains the shared record and each subsequent improvement with actual run splits", () => {
+  const c = courses.find(c => c.id === "3ds-shy-guy-bazaar-r");
+  for (const [playerId, time, date, laps] of [
+    ["nu11", "1:39.10", "2020-05-08", ["49.67", "49.43"]],
+    ["kazuo", "1:39.10", "2020-05-09", ["49.72", "49.38"]],
+    ["kazuo", "1:39.08", "2020-05-09", ["49.50", "49.58"]],
+    ["kazuo", "1:39.00", "2020-05-10", ["49.77", "49.23"]],
+  ]) {
+    const matches = c.records.filter(r => r.playerId === playerId && r.time === time);
+    assert.equal(matches.length, 1);
+    assert.equal(matches[0].recordDate, date);
+    assert.deepEqual(matches[0].laps, laps);
+    assert(matches[0].proofImageLocal);
+  }
+  assert(!c.records.some(r => r.time === "1:38.94"), "best individual laps are not a completed run");
+});
