@@ -37,7 +37,7 @@ for aid,player,course,time,laps in rows:
     if time=='1:03.57':r['additionalSources']=[{'url':'https://twitter.com/Astre_HD/status/1350941292990259201','kind':'original-result'}]
     if time=='1:03.39':r['additionalSources']=[{'url':'https://twitter.com/Astre_HD/status/1353610052515602434','kind':'original-result'}]
     if course=='kd' and time=='1:03.92':r['video']='https://www.youtube.com/watch?v=9EbXaIeSJO8'
-    if time=='1:03.66':r['video']='https://www.youtube.com/watch?v=QALze8wNxBk'
+    if time=='1:03.66':r.update(video='https://www.youtube.com/watch?v=QALze8wNxBk',videoVerified=True)
     if time=='1:42.43':r.update(video='https://twitter.com/KazuoMKT/status/1351224583848927237',videoVerified=True)
     new.append(r);review[aid]['classification']='confirmed-world-record'
 # Multiple contemporary witnesses identify this deleted submission and its time.

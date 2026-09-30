@@ -147,3 +147,35 @@ test('Berlin distinguishes original WR images, delayed evidence, and slower surv
  assert.equal(rrm.records.find(r=>r.time==='1:43.64').durationDays,null);
  assert.equal(rrm.current.recordDate,'2021-01-18');assert.equal(fastestVideo(rrm).isCurrent,true);assert.match(rrm.current.videoBackup.url,/15haxitqJnY/);
 });
+test('Cat Tour combines text-only WRs with original posts and preserves unresolved previous bests',()=>{
+ const mt=courses.find(c=>c.id==='wii-maple-treeway-r');
+ assert.deepEqual(mt.records.slice(0,12).map(r=>[r.playerId,r.time]),[
+  ['romain','1:53.15'],['troy','1:53.07'],['romain','1:51.95'],['nu11','1:51.41'],
+  ['astre','1:50.92'],['saki7','1:50.74'],['astre','1:50.59'],['nu11','1:50.57'],
+  ['nu11','1:50.43'],['astre','1:50.35'],['nu11','1:50.09'],['dit','1:49.98'],
+ ]);
+ assert(mt.records.find(r=>r.time==='1:50.92').submittedAt<'2021-01-27T11:25:59Z');
+ assert(mt.records.find(r=>r.time==='1:50.59').submittedAt<'2021-01-27T14:18:18Z');
+ assert(!mt.records.some(r=>['1:51.39','1:50.68','1:50.01'].includes(r.time)));
+ assert.equal(mt.records.find(r=>r.time==='1:49.98').recordDate,'2021-02-06');
+ assert.deepEqual(mt.records.find(r=>r.time==='1:50.35').laps,['55.20','55.15']);
+ const rr=courses.find(c=>c.id==='rmx-rainbow-road-1');
+ assert.deepEqual(rr.records.slice(0,16).map(r=>r.time),['1:20.32','1:20.20','1:20.13','1:19.84','1:19.83','1:19.36','1:19.34','1:19.21','1:19.14','1:19.09','1:19.02','1:19.01','1:19.01','1:18.97','1:18.96','1:18.95']);
+ const first=rr.records[0];assert.equal(first.playerId,'superfx');assert.equal(first.submittedAt,'2021-01-27T06:39:19.851Z');assert.match(first.source.url,/803876780800475166/);assert(!first.proofImage);
+ assert(!rr.records.some(r=>['1:22.29','1:20.74','1:20.38','1:19.43'].includes(r.time)));
+ assert.deepEqual(rr.records.find(r=>r.time==='1:19.21').laps,['39.65','39.56']);
+ assert.equal(rr.records.find(r=>r.time==='1:18.95').recordDate,'2021-02-07');
+ assert(rr.submissions.some(r=>r.time==='1:19.48'&&r.dateUnresolved&&r.includeInProgression===false));
+ assert(mt.submissions.some(r=>r.time==='1:50.18'&&r.dateUnresolved&&r.includeInProgression===false));
+ for(const r of [...mt.records.slice(0,12),...rr.records.slice(1,16)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
+test('rescued recordings keep original and backup links without inventing WRs or race dates',()=>{
+ const kd=courses.find(c=>c.id==='n64-kalimari-desert-2');
+ const wins=kd.records.find(r=>r.playerId==='wins'&&r.time==='1:03.66');
+ assert.equal(wins.videoVerified,true);assert.match(wins.video,/QALze8wNxBk/);assert.match(wins.videoBackup.url,/mcwXzeV-D_0/);
+ assert.match(fastestVideo(kd).videoBackup.url,/nXG20w4hZa8/);
+ const mc=courses.find(c=>c.id==='3ds-mario-circuit');
+ assert(!mc.records.some(r=>r.playerId==='superfx'&&r.time==='1:35.60'));
+ const rescued=mc.submissions.find(r=>r.playerId==='superfx'&&r.time==='1:35.60');
+ assert.equal(rescued.videoVerified,true);assert.equal(rescued.dateUnresolved,true);assert.match(rescued.video,/805034592993935360\/video0.mov/);assert.match(rescued.videoBackup.url,/pzyYSJ0WVI0/);
+});
