@@ -32,6 +32,24 @@ test("Cooking Tour preserves WR exchanges, original splits and verified proof da
   assert.equal(wp.records.find((r) => r.time === "1:46.00").laps, null);
   assert(!wp.records.some((r) => ["1:46.15", "1:46.05"].includes(r.time)));
 });
+test("Peach Tour preserves WR ties, text-only improvements and evidence-based splits", () => {
+  const rmx = courses.find(c => c.id === "rmx-mario-circuit-1").records;
+  const at = time => rmx.find(r => r.time === time);
+  assert.equal(at("1:32.16").playerId, "access");
+  assert.deepEqual(at("1:32.16").laps, ["46.07", "46.09"]);
+  assert.equal(at("1:31.42").proofField, "previous-best");
+  assert.equal(at("1:31.12").recordDate, "2020-06-17");
+  assert.deepEqual(at("1:31.15").laps, ["45.44", "45.71"]);
+  assert.deepEqual(rmx.filter(r => r.time === "1:30.79").map(r => r.playerId).sort(), ["nu11", "superfx"]);
+  assert.deepEqual(at("1:30.50").laps, ["45.18", "45.32"]);
+  assert.equal(at("1:30.38").recordDate, "2020-06-21");
+  assert.equal(at("1:30.38").durationDays, 10);
+  assert(!rmx.some(r => r.playerId === "tomegome" && r.time === "1:31.04"));
+  const frappe = courses.find(c => c.id === "n64-frappe-snowland-r").records;
+  assert.deepEqual(frappe.filter(r => r.time === "1:21.92").map(r => r.playerId).sort(), ["phillish", "troy"]);
+  assert.equal(frappe.find(r => r.time === "1:21.05").laps, null);
+  assert.equal(frappe.find(r => r.time === "1:20.85").recordDate, "2020-06-29");
+});
 test("every course record and submission has valid references and integer time units", () => {
   const ids = new Set(players.map((p) => p.id));
   const tourIds = new Set(tours.map((t) => t.id));
