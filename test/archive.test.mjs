@@ -179,3 +179,28 @@ test('rescued recordings keep original and backup links without inventing WRs or
  const rescued=mc.submissions.find(r=>r.playerId==='superfx'&&r.time==='1:35.60');
  assert.equal(rescued.videoVerified,true);assert.equal(rescued.dateUnresolved,true);assert.match(rescued.video,/805034592993935360\/video0.mov/);assert.match(rescued.videoBackup.url,/pzyYSJ0WVI0/);
 });
+test('Peach vs Daisy restores dated exchanges and separates later tied footage',()=>{
+ const dp=courses.find(c=>c.id==='snes-donut-plains-2');
+ assert.deepEqual(dp.records.slice(0,5).map(r=>r.time),['1:01.72','1:01.42','1:01.40','1:00.99','1:00.73']);
+ assert.equal(dp.records[0].submittedAt,'2021-02-10T06:48:52.636Z');
+ assert(!dp.records.some(r=>['1:05.44','1:02.02','1:01.80'].includes(r.time)));
+ assert.equal(dp.records.find(r=>r.time==='1:00.73').recordDate,'2021-02-11');
+ const sw=courses.find(c=>c.id==='gba-sunset-wilds-r');
+ assert.deepEqual(sw.records.find(r=>r.time==='1:10.67').laps,['35.39','35.28']);
+ assert.deepEqual(sw.records.find(r=>r.time==='1:10.56').laps,['35.10','35.46']);
+ assert.deepEqual(sw.records.find(r=>r.time==='1:10.53').laps,['35.28','35.25']);
+ assert.equal(sw.records.find(r=>r.time==='1:10.87').recordDate,null);
+ assert.equal(sw.records.find(r=>r.time==='1:10.90').durationDays,null);
+ const tied=sw.submissions.find(r=>r.video?.includes('812244311521230898'));
+ assert.deepEqual(tied.laps,[null,null]);assert.equal(tied.includeInProgression,false);
+ assert.match(tied.videoBackup.url,/k3K1pZS4ahs/);assert.equal(sw.records.filter(r=>r.time==='1:10.53').length,1);
+ const cm=courses.find(c=>c.id==='n64-choco-mountain-r');
+ assert.equal(cm.records.filter(r=>r.time==='1:19.29').length,2);
+ assert(!cm.records.some(r=>['1:18.72','1:18.15','1:18.11'].includes(r.time)));
+ assert.equal(cm.records.find(r=>r.time==='1:18.27').derivedLap,2);
+ assert.deepEqual(cm.records.find(r=>r.time==='1:18.27').laps,['39.09','39.18']);
+ const fallback=fastestVideo(cm);assert.equal(fallback.time,'1:17.95');assert.equal(fallback.playerId,'kazuo');assert.equal(fallback.isCurrent,false);
+ assert.match(fallback.video,/1362916914759159808/);assert.match(fallback.videoBackup.url,/kxAngKdbpcA/);
+ assert.equal(cm.current.time,'1:17.87');assert.equal(cm.current.recordDate,null);
+ assert(cm.submissions.some(r=>r.time==='1:18.05'&&r.dateUnresolved&&r.includeInProgression===false));
+});
