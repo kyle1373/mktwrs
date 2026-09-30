@@ -10,6 +10,24 @@ const read = (name) =>
 const courses = read("courses"),
   players = read("players"),
   tours = read("tours");
+test("Cooking Tour preserves WR exchanges, original splits and verified proof dates", () => {
+  const dp = courses.find((c) => c.id === "snes-donut-plains-1");
+  const record = (time, player) => dp.records.find((r) => r.time === time && r.playerId === player);
+  assert.equal(record("0:51.42", "brandon").video, "https://youtu.be/9Q3Czv54-jo");
+  assert.equal(record("0:51.22", "nu11").proofField, "previous-best");
+  assert.deepEqual(record("0:50.30", "kazuo").laps, ["25.24", "25.06"]);
+  assert.deepEqual(record("0:50.08", "kazuo").laps, ["25.23", "24.85"]);
+  assert.equal(record("0:49.77", "kazuo").recordDate, "2020-06-09");
+  assert.equal(record("0:49.77", "kazuo").video, null);
+  assert(record("0:49.77", "kazuo").videoRejection);
+  assert(!record("0:49.97", "nu11"), "a later PB slower than the standing WR is excluded");
+  const wp = courses.find((c) => c.id === "ds-waluigi-pinball-r");
+  const finish = wp.records.find((r) => r.time === "1:45.91");
+  assert.equal(finish.recordDate, "2020-06-17");
+  assert.deepEqual(finish.laps, ["52.87", "53.04"]);
+  assert.equal(wp.records.find((r) => r.time === "1:46.00").laps, null);
+  assert(!wp.records.some((r) => ["1:46.15", "1:46.05"].includes(r.time)));
+});
 test("every course record and submission has valid references and integer time units", () => {
   const ids = new Set(players.map((p) => p.id));
   const tourIds = new Set(tours.map((t) => t.id));

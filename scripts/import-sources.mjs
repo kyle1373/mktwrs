@@ -481,6 +481,16 @@ export function importSources(courses, players) {
         r.submittedAt = s.submittedAt;
         r.proofUploadedAt = s.proofUploadedAt || attachmentDate(r.proofImage);
         r.video ||= s.video;
+        const rejectedVideo = matches
+          .flatMap((m) => m.rejectedVideos || [])
+          .find((evidence) => evidence.url === r.video ||
+            (!r.video && matches.some((m) => m.video === evidence.url)));
+        if (rejectedVideo) {
+          r.videoReference = rejectedVideo.url;
+          r.video = null;
+          r.videoRejection = rejectedVideo;
+          r.notes.push(rejectedVideo.reason);
+        }
         const verifiedProof = matches.find((m) => m.proofImageVerified && m.proofImage);
         if (verifiedProof) {
           if (r.proofImage && r.proofImage !== verifiedProof.proofImage) {
