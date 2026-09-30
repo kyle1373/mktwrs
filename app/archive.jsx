@@ -1,41 +1,7 @@
 "use client";
 import { useState } from "react";
-const date = (s) =>
-  s
-    ? new Date(s).toLocaleDateString("en-GB", {
-        day: "2-digit",
-        month: "short",
-        year: "numeric",
-        timeZone: "UTC",
-      })
-    : "—";
-function RecordDate({ r }) {
-  return (
-    <span
-      title={
-        r?.dateBasis === "submission-date"
-          ? "Original Discord submission date; actual achievement date not documented"
-          : undefined
-      }
-    >
-      {date(r?.recordDate || r?.achievedAt)}
-      {r?.dateBasis === "submission-date" ? "†" : ""}
-    </span>
-  );
-}
-function Duration({ r }) {
-  return (
-    <span
-      title={
-        r?.durationDays == null
-          ? "Missing dates or intervening record chronology"
-          : "Playable calendar days using documented dates; intermediate chronology is incomplete"
-      }
-    >
-      {r?.durationDays == null ? "—" : "~" + r.durationDays.toFixed(0)}
-    </span>
-  );
-}
+import { courseStatistics, historyEvents } from "../public/history.mjs";
+const date = (s) => (s ? s.slice(0, 10) : "—");
 const flag = (c) =>
   c && /^[a-z]{2}$/i.test(c)
     ? String.fromCodePoint(
@@ -44,52 +10,144 @@ const flag = (c) =>
           .split("")
           .map((x) => 127397 + x.charCodeAt(0)),
       )
-    : "";
-function Time({ record }) {
-  return record?.video ? (
+    : "—";
+function Nation({ country }) {
+  return (
+    <span className="nation" title={country || "Unknown nation"}>
+      {flag(country)}
+    </span>
+  );
+}
+function RecordDate({ r }) {
+  return (
+    <span
+      title={
+        r.dateBasis === "submission-date"
+          ? "Original submission date; achievement date unconfirmed"
+          : r.dateBasis === "proof-upload-date"
+            ? "Proof upload date within the recorded tour; achievement date unconfirmed"
+            : r.tourDateRange
+              ? `Set during ${r.tourDateRange.start} – ${r.tourDateRange.end}; exact day unknown`
+              : undefined
+      }
+    >
+      {date(r.recordDate || r.achievedAt)}
+      {r.dateBasis === "submission-date"
+        ? "†"
+        : r.dateBasis === "proof-upload-date"
+          ? "‡"
+          : ""}
+    </span>
+  );
+}
+function Duration({ r }) {
+  return (
+    <span
+      title={
+        r.durationDays == null
+          ? "The preserved evidence does not establish a duration"
+          : "Provisional playable days. The clock pauses outside the course’s Time Trial tours."
+      }
+    >
+      {r.durationDays == null
+        ? "—"
+        : "~" +
+          (r.durationDays > 0 && r.durationDays < 1
+            ? "<1"
+            : Math.floor(r.durationDays))}
+    </span>
+  );
+}
+function Time({ record: r }) {
+  return r?.video ? (
     <a
       className="time"
-      href={record.video}
+      href={r.video}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`Watch video proof for ${record.time}`}
+      aria-label={`Watch video proof for ${r.time}`}
     >
-      {record.time}
+      {r.time}
     </a>
   ) : (
-    <span className={record ? "time" : "empty"}>{record?.time || "—"}</span>
+    <span
+      className="time"
+      title={
+        r?.videoAudit?.status === "title-time-mismatch"
+          ? "Video title conflicts with this time; link awaiting verification"
+          : undefined
+      }
+    >
+      {r?.time || "—"}
+    </span>
   );
 }
 function Player({ id, players }) {
   const p = players.find((p) => p.id === id);
-  return p ? (
-    <a href={`/player/${p.id}`}>
-      <span className="flag">{flag(p.country)}</span>
-      {p.name}
+  return p ? <a href={`/player/${p.id}`}>{p.name}</a> : "—";
+}
+function Proof({ r }) {
+  const url = r.proofImageLocal || r.proofImage;
+  return url ? (
+    <a
+      className="proof-icon"
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`View image proof for ${r.time}`}
+      title="View image proof"
+    >
+      <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">
+        <rect
+          x="1"
+          y="1"
+          width="18"
+          height="14"
+          rx="1"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <circle cx="14" cy="5" r="2" fill="currentColor" />
+        <path
+          d="M2 13 7 6l4 5 2-2 5 4"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+      </svg>
     </a>
-  ) : (
-    <span className="empty">Not yet archived</span>
-  );
+  ) : null;
 }
 function Course({ c }) {
-  const short =
-    c.sortName || c.name.replace(/^(SNES|N64|GBA|GCN|DS|Wii|3DS) /, "");
-  return (
-    <>
-      <a href={`/course/${c.id}`}>{short}</a>
-      {short !== c.name && (
-        <span className="platform">{c.name.split(" ")[0]}</span>
-      )}
-    </>
-  );
+  return <a href={`/course/${c.id}`}>{c.name}</a>;
 }
 function Notice() {
   return (
-    <div className="notice">
-      <strong>Archive in progress.</strong> Submission evidence is being
-      reconciled. Unknown dates and mushrooms are shown as —.{" "}
-      <a href="/archive">Coverage & methodology</a>
-    </div>
+    <p className="notice">
+      History reconstruction in progress. Only confirmed WRs are listed.{" "}
+      <a href="/archive">Source coverage</a>.
+    </p>
+  );
+}
+function DateKey() {
+  return (
+    <p className="table-note">
+      Days count only playable Time Trial tours. ~ provisional duration; †
+      submission date; ‡ proof upload date; — unknown. Times link to videos;{" "}
+      <svg viewBox="0 0 20 16" width="13" height="11" aria-hidden="true">
+        <rect
+          x="1"
+          y="1"
+          width="18"
+          height="14"
+          fill="none"
+          stroke="currentColor"
+        />
+        <path d="M2 13 7 6l4 5 2-2 5 4" fill="none" stroke="currentColor" />
+      </svg>{" "}
+      opens image proof.
+    </p>
   );
 }
 function Sidebar({ index }) {
@@ -102,21 +160,21 @@ function Sidebar({ index }) {
         href="/"
         aria-label="Mario Kart Tour World Records home"
       >
-        <span>MARIO KART</span>
-        <strong>TOUR</strong>
-        <small>WORLD RECORDS</small>
+        <img src="/assets/ui/mkt-logo.png" alt="Mario Kart Tour" />
+        <span>World Record History</span>
       </a>
-      <nav className="navbox">
-        <a href="/">World Records</a>
+      <nav className="navbox" aria-label="Statistics">
+        <strong>Stats</strong>
+        <a href="/">Current WRs</a>
+        <a href="/rankings">Player Rankings</a>
         <a href="/players">Player Profiles</a>
         <a href="/tours">Tour Calendar</a>
-        <a href="/archive">About the Archive</a>
       </nav>
       <div className="navbox courses-nav">
-        <label htmlFor="course-search">Time Trial courses</label>
+        <strong>WR History</strong>
         <input
-          id="course-search"
           type="search"
+          aria-label="Find a course"
           placeholder="Find a course…"
           value={q}
           onChange={(e) => setQ(e.target.value)}
@@ -126,26 +184,335 @@ function Sidebar({ index }) {
             .filter((c) => c.name.toLowerCase().includes(q.toLowerCase()))
             .map((c) => {
               const l = c.sortName[0].toUpperCase(),
-                header = l !== letter;
+                separator = l !== letter;
               letter = l;
               return (
-                <div key={c.id}>
-                  {header && <div className="letter">{l}</div>}
-                  <a href={`/course/${c.id}`}>
-                    {c.sortName}
-                    {c.name !== c.sortName && (
-                      <span className="full-name">
-                        {" "}
-                        ({c.name.split(" ")[0]})
-                      </span>
-                    )}
-                  </a>
+                <div
+                  key={c.id}
+                  className={separator ? "course-group" : undefined}
+                >
+                  <a href={`/course/${c.id}`}>{c.name}</a>
                 </div>
               );
             })}
         </nav>
       </div>
+      <nav className="navbox" aria-label="Archive">
+        <strong>Other</strong>
+        <a href="/archive">About this Archive</a>
+        <a href="/data/courses.json" download>
+          Download WR Data (JSON)
+        </a>
+        <a href="https://discord.com/channels/629221606064914442/896050730216095765">
+          MKCentral Time Trials
+        </a>
+      </nav>
     </aside>
+  );
+}
+function RecordTable({ records, players, events = [], showCourse = false }) {
+  const entries = events.length
+    ? events
+    : records.map((r) => ({ type: "record", record: r, id: r.id }));
+  return (
+    <div className="table-wrap">
+      <table className="wr-table">
+        <thead>
+          <tr>
+            {showCourse && <th>Course</th>}
+            <th>Date</th>
+            <th>Time</th>
+            <th>Player</th>
+            <th>Nation</th>
+            <th title="Playable days">Days</th>
+            <th>Lap 1</th>
+            <th>Lap 2</th>
+            <th>
+              <img className="item-icon" src="/assets/ui/mushroom.png" alt="" />
+              Shrooms
+            </th>
+            <th className="proof-column" aria-label="Image proof" />
+          </tr>
+        </thead>
+        <tbody>
+          {entries.map((e) =>
+            e.type !== "record" ? (
+              <tr className="tour-event" key={e.id}>
+                <td>{date(e.date)}</td>
+                <td colSpan={8}>
+                  <a href={e.source}>{e.name}</a>{" "}
+                  {e.type === "tour-end" ? "ended" : "started"}
+                  <span className="event-detail">
+                    {" "}
+                    ·{" "}
+                    {e.type === "tour-end"
+                      ? "record clock paused"
+                      : "record clock running"}
+                  </span>
+                </td>
+              </tr>
+            ) : (
+              (() => {
+                const r = e.record,
+                  p = players.find((p) => p.id === r.playerId);
+                return (
+                  <tr key={r.id}>
+                    {showCourse && (
+                      <td>
+                        <a href={`/course/${r.courseId}`}>{r.courseName}</a>
+                      </td>
+                    )}
+                    <td>
+                      <RecordDate r={r} />
+                    </td>
+                    <td>
+                      <Time record={r} />
+                    </td>
+                    <td>
+                      <Player id={r.playerId} players={players} />
+                    </td>
+                    <td className="center">
+                      <Nation country={p?.country} />
+                    </td>
+                    <td className="center">
+                      <Duration r={r} />
+                    </td>
+                    <td className="split" title={r.lapMatchBasis}>
+                      {r.laps?.[0] || "—"}
+                    </td>
+                    <td
+                      className="split"
+                      title={
+                        r.laps?.[2]
+                          ? `Third section: ${r.laps[2]}; all splits preserved in course JSON`
+                          : r.lapMatchBasis
+                      }
+                    >
+                      {r.laps?.[1] || "—"}
+                    </td>
+                    <td className="center">{r.mushrooms?.join("-") || "—"}</td>
+                    <td className="proof-column">
+                      <Proof r={r} />
+                    </td>
+                  </tr>
+                );
+              })()
+            ),
+          )}
+          {!entries.length && (
+            <tr>
+              <td colSpan={showCourse ? 10 : 9}>
+                No confirmed WR has been recovered yet.
+              </td>
+            </tr>
+          )}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+function StatDuration({ row }) {
+  return (
+    <span title="Sum of documented playable durations; incomplete dates are excluded">
+      {row.durationCount
+        ? `~${Math.floor(row.days)}${row.missingDays ? "+" : ""}`
+        : "—"}
+    </span>
+  );
+}
+function CourseStats({ c, players }) {
+  const s = courseStatistics(c.records, players),
+    duration = [...s.players].sort((a, b) => b.days - a.days),
+    counts = [...s.players].sort((a, b) => b.count - a.count);
+  return (
+    <>
+      <h2>Course Stats</h2>
+      <div className="course-stats">
+        <div className="stat-cell">
+          <table>
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>
+                  Total
+                  <br />
+                  Duration
+                </th>
+                <th>%</th>
+              </tr>
+            </thead>
+            <tbody>
+              {duration.slice(0, 5).map((p) => (
+                <tr key={p.id}>
+                  <td>
+                    <Player id={p.id} players={players} />
+                  </td>
+                  <td>
+                    <StatDuration row={p} />
+                  </td>
+                  <td>
+                    {s.complete && s.days
+                      ? ((p.days / s.days) * 100).toFixed(2)
+                      : "—"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="stat-cell">
+          <table>
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>
+                  Number
+                  <br />
+                  of WRs
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {counts.slice(0, 5).map((p) => (
+                <tr key={p.id}>
+                  <td>
+                    <Player id={p.id} players={players} />
+                  </td>
+                  <td>{p.count}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="stat-cell">
+          <table>
+            <thead>
+              <tr>
+                <th>Nation</th>
+                <th>
+                  Total
+                  <br />
+                  Duration
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {[...s.nations]
+                .sort((a, b) => b.days - a.days)
+                .slice(0, 5)
+                .map((n) => (
+                  <tr key={n.id}>
+                    <td className="center">
+                      <Nation country={n.id} />
+                    </td>
+                    <td>
+                      <StatDuration row={n} />
+                    </td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="stat-cell">
+          <table>
+            <thead>
+              <tr>
+                <th>Nation</th>
+                <th>
+                  Number
+                  <br />
+                  of WRs
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {[...s.nations]
+                .sort((a, b) => b.count - a.count)
+                .slice(0, 5)
+                .map((n) => (
+                  <tr key={n.id}>
+                    <td className="center">
+                      <Nation country={n.id} />
+                    </td>
+                    <td>{n.count}</td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="stat-cell totals">
+          <table>
+            <tbody>
+              <tr>
+                <td>Total WRs: {c.records.length}</td>
+              </tr>
+              <tr>
+                <td>Unique Players: {s.players.length}</td>
+              </tr>
+              <tr>
+                <td>Unique Nations: {s.nations.filter((n) => n.id).length}</td>
+              </tr>
+              <tr>
+                <td>
+                  Tour Appearances:{" "}
+                  {new Set(c.appearances.map((a) => a.tourId)).size}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="stat-cell course-art">
+          {c.image && <img src={c.image} alt={c.name} />}
+        </div>
+      </div>
+      {!s.complete && (
+        <p className="table-note">
+          Duration totals are partial where record dates are missing (+).
+          Percentages remain blank until the chronology is established.
+        </p>
+      )}
+    </>
+  );
+}
+function CoursePage({ data: c, players, tours, manifest }) {
+  const events = historyEvents(c, tours, manifest.updatedAt);
+  return (
+    <>
+      <h1>{c.name}</h1>
+      <h2>Current WR:</h2>
+      <RecordTable records={c.currentHolders} players={players} />
+      <CourseStats c={c} players={players} />
+      <h2>History</h2>
+      <RecordTable records={c.records} events={events} players={players} />
+      <DateKey />
+      <p className="table-note">
+        Records are confirmed by WR announcements or explicit community WR
+        confirmation. Exact dates remain unknown for some migrated records.
+      </p>
+      <details className="sources">
+        <summary>Record sources &amp; archive data</summary>
+        <ul>
+          {c.records.map((r) => (
+            <li key={r.id}>
+              <a href={r.source.url}>
+                {r.time} · {players.find((p) => p.id === r.playerId)?.name}
+              </a>
+              {r.tourLabel ? ` — ${r.tourLabel}` : ""}
+            </li>
+          ))}
+        </ul>
+        <p>
+          <a href={`/data/courses/${c.id}.json`} download>
+            Download course JSON
+          </a>{" "}
+          · <a href={c.wiki}>Course reference</a>
+        </p>
+        <p>
+          Other submissions are preserved for research. They are excluded from
+          WR history and rankings until their WR status is confirmed.
+        </p>
+      </details>
+    </>
   );
 }
 function Home({ data, players }) {
@@ -155,7 +522,7 @@ function Home({ data, players }) {
       c.name +
       " " +
       c.currentHolders
-        .map((r) => players.find((p) => p.id === r.playerId)?.name || "")
+        .map((r) => players.find((p) => p.id === r.playerId)?.name)
         .join(" ")
     )
       .toLowerCase()
@@ -164,375 +531,198 @@ function Home({ data, players }) {
   return (
     <>
       <h1>Mario Kart Tour World Records</h1>
-      <p>Time Trial records, course histories and the players behind them.</p>
       <Notice />
       <div className="toolbar">
-        <div>
-          <strong>Best archived records</strong>{" "}
-          <span className="meta">· Alphabetical by course</span>
-        </div>
+        <h2>Current WRs</h2>
         <input
           type="search"
           aria-label="Search records"
-          placeholder="Search courses or players…"
+          placeholder="Course or player…"
           value={q}
           onChange={(e) => setQ(e.target.value)}
         />
       </div>
       <div className="table-wrap">
-        <table className="records-table">
+        <table className="wr-table">
           <thead>
             <tr>
               <th>Course</th>
-              <th className="number">Time</th>
-              <th>Player</th>
               <th>Date</th>
-              <th className="number">Playable days</th>
-              <th>History</th>
+              <th>Time</th>
+              <th>Player</th>
+              <th>Nation</th>
+              <th>Days</th>
+              <th>WRs</th>
+              <th aria-label="Image proof" />
             </tr>
           </thead>
           <tbody>
-            {filtered.map((c) => (
-              <tr key={c.id}>
-                <td>
-                  <div className="course-cell">
-                    {c.image && (
-                      <img
-                        className="course-thumb"
-                        src={c.image}
-                        alt=""
-                        loading="lazy"
-                      />
-                    )}
-                    <span>
+            {filtered.flatMap((c) =>
+              c.currentHolders.map((r, i) => (
+                <tr key={c.id + r.id}>
+                  {!i && (
+                    <td rowSpan={c.currentHolders.length}>
                       <Course c={c} />
-                    </span>
-                  </div>
-                </td>
-                <td className="number">
-                  {c.currentHolders.map((r) => (
-                    <div key={r.id}>
-                      <Time record={r} />
-                    </div>
-                  ))}
-                </td>
-                <td>
-                  {c.currentHolders.map((r) => (
-                    <div key={r.id}>
-                      <Player id={r.playerId} players={players} />
-                    </div>
-                  ))}
-                </td>
-                <td>
-                  {c.currentHolders.map((r) => (
-                    <div key={r.id}>
-                      <RecordDate r={r} />
-                    </div>
-                  ))}
-                </td>
-                <td className="number">
-                  {c.currentHolders.map((r) => (
-                    <div key={r.id}>
-                      <Duration r={r} />
-                    </div>
-                  ))}
-                </td>
-                <td>
-                  <a href={`/course/${c.id}`}>
-                    {c.recordCount ? `${c.recordCount} records` : "View course"}
-                  </a>
-                </td>
-              </tr>
-            ))}
+                    </td>
+                  )}
+                  <td>
+                    <RecordDate r={r} />
+                  </td>
+                  <td>
+                    <Time record={r} />
+                  </td>
+                  <td>
+                    <Player id={r.playerId} players={players} />
+                  </td>
+                  <td className="center">
+                    <Nation
+                      country={
+                        players.find((p) => p.id === r.playerId)?.country
+                      }
+                    />
+                  </td>
+                  <td className="center">
+                    <Duration r={r} />
+                  </td>
+                  {!i && (
+                    <td className="center" rowSpan={c.currentHolders.length}>
+                      {c.recordCount}
+                    </td>
+                  )}
+                  <td className="proof-column">
+                    <Proof r={r} />
+                  </td>
+                </tr>
+              )),
+            )}
           </tbody>
         </table>
       </div>
-      <p className="meta">
-        {filtered.length} courses · Times link to video proof. † Submission
-        date. ~ Provisional playable days.
-      </p>
+      <DateKey />
     </>
   );
 }
-function Submissions({ rows, players, showCourse = false }) {
-  const [q, setQ] = useState(""),
-    [page, setPage] = useState(0);
-  const filtered = rows.filter((r) =>
-    (
-      players.find((p) => p.id === r.playerId)?.name +
-      " " +
-      r.time +
-      " " +
-      (r.courseName || "")
-    )
-      .toLowerCase()
-      .includes(q.toLowerCase()),
-  );
-  const shown = filtered.slice(page * 50, (page + 1) * 50);
+function Rankings({ data, players }) {
+  const [sort, setSort] = useState("current"),
+    [q, setQ] = useState("");
+  const ranked = [...data]
+    .filter((p) => p.wrCount)
+    .sort((a, b) =>
+      sort === "current"
+        ? b.bestCount - a.bestCount ||
+          b.wrCount - a.wrCount ||
+          a.name.localeCompare(b.name)
+        : sort === "total"
+          ? b.wrCount - a.wrCount ||
+            b.bestCount - a.bestCount ||
+            a.name.localeCompare(b.name)
+          : b.days - a.days ||
+            b.wrCount - a.wrCount ||
+            a.name.localeCompare(b.name),
+    );
+  let previous = null,
+    rank = 0;
+  const rows = ranked
+    .map((p, i) => {
+      const score =
+        sort === "current"
+          ? p.bestCount
+          : sort === "total"
+            ? p.wrCount
+            : p.days;
+      if (score !== previous) rank = i + 1;
+      previous = score;
+      return { ...p, rank };
+    })
+    .filter((p) => p.name.toLowerCase().includes(q.toLowerCase()));
   return (
     <>
+      <h1>Player Rankings</h1>
+      <p className="ranking-tabs">
+        [{" "}
+        <button
+          className={sort === "current" ? "selected" : ""}
+          onClick={() => setSort("current")}
+        >
+          Current WRs
+        </button>{" "}
+        |{" "}
+        <button
+          className={sort === "total" ? "selected" : ""}
+          onClick={() => setSort("total")}
+        >
+          Total WRs
+        </button>{" "}
+        |{" "}
+        <button
+          className={sort === "duration" ? "selected" : ""}
+          onClick={() => setSort("duration")}
+        >
+          Total Duration
+        </button>{" "}
+        ]
+      </p>
       <div className="toolbar">
-        <span className="meta">{filtered.length} archived submissions</span>
+        <span>Confirmed world records only</span>
         <input
           type="search"
-          aria-label="Search submissions"
-          placeholder="Find a player or time…"
+          aria-label="Search rankings"
+          placeholder="Player…"
           value={q}
-          onChange={(e) => {
-            setQ(e.target.value);
-            setPage(0);
-          }}
+          onChange={(e) => setQ(e.target.value)}
         />
       </div>
       <div className="table-wrap">
         <table>
           <thead>
             <tr>
-              {showCourse && <th>Course</th>}
+              <th>Rank</th>
               <th>Player</th>
-              <th className="number">Time</th>
-              <th>Splits</th>
-              <th>Shrooms</th>
-              <th>Record date</th>
-              <th>Submitted</th>
-              <th>Source</th>
+              <th>Nation</th>
+              <th>Current WRs</th>
+              <th>Total WRs</th>
+              <th>Total Duration</th>
             </tr>
           </thead>
           <tbody>
-            {shown.map((r) => (
-              <tr key={r.id}>
-                {showCourse && (
-                  <td>
-                    <a href={`/course/${r.courseId}`}>{r.courseName}</a>
-                  </td>
-                )}
+            {rows.map((p) => (
+              <tr key={p.id}>
+                <td>{p.rank}</td>
                 <td>
-                  <Player id={r.playerId} players={players} />
+                  <Player id={p.id} players={players} />
                 </td>
-                <td className="number">
-                  <Time record={r} />
+                <td className="center">
+                  <Nation country={p.country} />
                 </td>
-                <td title={r.notes?.join(" ")}>
-                  {r.laps?.map((l) => l ?? "—").join(" / ") || "—"}
-                  {r.notes?.some((n) => n.includes("do not sum")) ? " ⚠" : ""}
-                </td>
-                <td>{r.mushrooms?.join(" / ") || "—"}</td>
-                <td>{date(r.achievedAt)}</td>
-                <td>{date(r.submittedAt)}</td>
+                <td>{p.bestCount}</td>
+                <td>{p.wrCount}</td>
                 <td>
-                  <a
-                    href={r.source.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {r.source.range || "Discord"}
-                  </a>
+                  <StatDuration row={p} />
                 </td>
               </tr>
             ))}
-            {!shown.length && (
-              <tr>
-                <td colSpan={8} className="empty-state">
-                  No matching submissions.
-                </td>
-              </tr>
-            )}
           </tbody>
         </table>
       </div>
-      {filtered.length > 50 && (
-        <div className="pagination">
-          <button disabled={!page} onClick={() => setPage(page - 1)}>
-            Previous
-          </button>
-          <span>
-            Page {page + 1} of {Math.ceil(filtered.length / 50)}
-          </span>
-          <button
-            disabled={(page + 1) * 50 >= filtered.length}
-            onClick={() => setPage(page + 1)}
-          >
-            Next
-          </button>
-        </div>
-      )}
-    </>
-  );
-}
-function CoursePage({ data: c, players, tours }) {
-  return (
-    <>
-      <p className="breadcrumb">
-        <a href="/">All courses</a> / {c.name}
-      </p>
-      <div className="course-head">
-        {c.image && <img src={c.image} alt={c.name} />}
-        <div>
-          <h1>{c.name}</h1>
-          <p>
-            Time Trial · {c.driver} · {c.kart}
-          </p>
-          <div className="meta">
-            {c.appearances.length} documented tour appearances
-          </div>
-        </div>
-      </div>
-      {c.current && (
-        <div className="stats">
-          <div>
-            <strong>
-              <Time record={c.current} />
-            </strong>
-            <span>Best archived time</span>
-          </div>
-          <div>
-            <strong>
-              {c.currentHolders.map((r) => (
-                <div key={r.id}>
-                  <Player id={r.playerId} players={players} />
-                </div>
-              ))}
-            </strong>
-            <span>Archived record holders</span>
-          </div>
-          <div>
-            <strong>{c.submissions.length}</strong>
-            <span>Archived submissions</span>
-          </div>
-        </div>
-      )}
-      <Notice />
-      <h2>World record history</h2>
-      <p className="meta">
-        WR announcements and reconstructed contenders. Contenders match or beat
-        the best record documented before their submission; their WR status
-        remains provisional. Ordered by source posting until achievement dates
-        are verified.
-      </p>
-      <div className="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th className="number">Time</th>
-              <th>Player</th>
-              <th>Splits</th>
-              <th>Shrooms</th>
-              <th>Date</th>
-              <th>Playable days</th>
-              <th>Source posted</th>
-              <th>Evidence</th>
-            </tr>
-          </thead>
-          <tbody>
-            {[...c.records].reverse().map((r, i) => (
-              <tr key={r.id}>
-                <td className="number">{c.records.length - i}</td>
-                <td className="number">
-                  <Time record={r} />
-                </td>
-                <td>
-                  <Player id={r.playerId} players={players} />
-                </td>
-                <td>{r.laps?.map((l) => l ?? "—").join(" / ") || "—"}</td>
-                <td>{r.mushrooms?.join(" / ") || "—"}</td>
-                <td>
-                  <RecordDate r={r} />
-                </td>
-                <td className="number">
-                  <Duration r={r} />
-                </td>
-                <td>
-                  <a
-                    href={r.source.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {date(r.announcedAt)}
-                  </a>
-                </td>
-                <td>
-                  {r.status === "announced" ? "WR announcement" : "Contender"}
-                </td>
-              </tr>
-            ))}
-            {!c.records.length && (
-              <tr>
-                <td colSpan={9} className="empty-state">
-                  No WR announcement imported yet. Preserved submission evidence
-                  is available below.
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-      </div>
-      <h2>All archived submissions</h2>
-      <p className="meta">
-        These include personal bests and possible intermediate records. A
-        missing date is not inferred from row order. ⚠ marks source splits that
-        do not add up to the total.
-      </p>
-      <Submissions rows={c.submissions} players={players} />
-      <h2>When this Time Trial was playable</h2>
-      <p className="meta">
-        Tour end dates are exclusive. The record clock pauses between
-        appearances.
-      </p>
-      <div className="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Tour</th>
-              <th>From</th>
-              <th>Until</th>
-              <th>Cup</th>
-            </tr>
-          </thead>
-          <tbody>
-            {c.appearances.map((a) => {
-              const t = tours.find((t) => t.id === a.tourId);
-              return (
-                <tr key={a.tourId + "-" + a.cup}>
-                  <td>
-                    <a href={t.source}>
-                      {t.name} · {t.startDate.slice(0, 4)}
-                    </a>
-                  </td>
-                  <td>{date(a.startDate)}</td>
-                  <td>{date(a.endDate)}</td>
-                  <td>{a.cup}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-      <p className="meta">
-        <a className="download" href={`/data/courses/${c.id}.json`} download>
-          Download course JSON
-        </a>
-        <a href={c.wiki}>Course reference</a>
+      <p className="table-note">
+        Tied WRs count for each holder. Duration rankings use recovered
+        playable-day totals; + marks incomplete totals. Missing historical
+        records can change these rankings.
       </p>
     </>
   );
 }
 function PlayersPage({ data }) {
   const [q, setQ] = useState("");
-  const filtered = data.filter((p) =>
-    p.name.toLowerCase().includes(q.toLowerCase()),
-  );
   return (
     <>
       <h1>Player Profiles</h1>
-      <p>Players represented in the archived records and submissions.</p>
-      <Notice />
       <div className="toolbar">
-        <span className="meta">{filtered.length} players</span>
+        <a href="/rankings">View Player Rankings</a>
         <input
           type="search"
           aria-label="Search players"
-          placeholder="Find a player…"
+          placeholder="Player…"
           value={q}
           onChange={(e) => setQ(e.target.value)}
         />
@@ -542,25 +732,26 @@ function PlayersPage({ data }) {
           <thead>
             <tr>
               <th>Player</th>
-              <th className="number">Best archived records</th>
-              <th className="number">Courses</th>
-              <th className="number">Submissions</th>
+              <th>Nation</th>
+              <th>Current WRs</th>
+              <th>Total WRs</th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((p) => (
-              <tr key={p.id}>
-                <td>
-                  <a href={`/player/${p.id}`}>
-                    <span className="flag">{flag(p.country)}</span>
-                    {p.name}
-                  </a>
-                </td>
-                <td className="number">{p.bestCount}</td>
-                <td className="number">{p.courseCount}</td>
-                <td className="number">{p.submissionCount}</td>
-              </tr>
-            ))}
+            {data
+              .filter((p) => p.name.toLowerCase().includes(q.toLowerCase()))
+              .map((p) => (
+                <tr key={p.id}>
+                  <td>
+                    <a href={`/player/${p.id}`}>{p.name}</a>
+                  </td>
+                  <td className="center">
+                    <Nation country={p.country} />
+                  </td>
+                  <td>{p.bestCount}</td>
+                  <td>{p.wrCount}</td>
+                </tr>
+              ))}
           </tbody>
         </table>
       </div>
@@ -570,112 +761,55 @@ function PlayersPage({ data }) {
 function PlayerPage({ data: p, players }) {
   return (
     <>
-      <p className="breadcrumb">
-        <a href="/players">All players</a> / {p.name}
-      </p>
       <div className="profile-head">
-        {p.avatar ? (
-          <img className="avatar" src={p.avatar} alt="" />
-        ) : (
-          <div className="avatar" aria-hidden="true">
-            {p.name[0]}
-          </div>
-        )}
+        {p.avatar && <img className="avatar" src={p.avatar} alt="" />}
         <div>
           <h1>{p.name}</h1>
-          <p>{flag(p.country)} Mario Kart Tour Time Trial player</p>
-          {p.socials && (
-            <p>
-              {Object.entries(p.socials)
-                .filter(([, url]) => url)
-                .map(([name, url]) => (
-                  <a
-                    key={name}
-                    className="download"
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {name[0].toUpperCase() + name.slice(1)}
-                  </a>
-                ))}
-            </p>
-          )}
+          <Nation country={p.country} />
+          {Object.entries(p.socials || {})
+            .filter(([, url]) => url)
+            .map(([name, url]) => (
+              <a className="social" key={name} href={url}>
+                {name}
+              </a>
+            ))}
         </div>
       </div>
-      <div className="stats">
-        <div>
-          <strong>{p.records.length}</strong>
-          <span>Archived WR observations</span>
-        </div>
-        <div>
-          <strong>
-            {
-              new Set([...p.records, ...p.submissions].map((r) => r.courseId))
-                .size
-            }
-          </strong>
-          <span>Courses</span>
-        </div>
-        <div>
-          <strong>{p.submissions.length}</strong>
-          <span>Submissions</span>
-        </div>
-      </div>
-      <Notice />
-      <h2>World record history</h2>
-      <div className="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Course</th>
-              <th className="number">Time</th>
-              <th>Splits</th>
-              <th>Date</th>
-              <th>Source posted</th>
-            </tr>
-          </thead>
-          <tbody>
-            {[...p.records]
-              .sort((a, b) => b.announcedAt.localeCompare(a.announcedAt))
-              .map((r) => (
-                <tr key={r.id}>
-                  <td>
-                    <a href={`/course/${r.courseId}`}>{r.courseName}</a>
-                  </td>
-                  <td className="number">
-                    <Time record={r} />
-                  </td>
-                  <td>{r.laps?.map((l) => l ?? "—").join(" / ") || "—"}</td>
-                  <td>{date(r.achievedAt)}</td>
-                  <td>
-                    <a href={r.source.url}>{date(r.announcedAt)}</a>
-                  </td>
-                </tr>
-              ))}
-            {!p.records.length && (
-              <tr>
-                <td className="empty-state" colSpan={5}>
-                  No WR announcement is currently attributed to this player.
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-      </div>
-      <h2>Submission history</h2>
-      <Submissions rows={p.submissions} players={players} showCourse />
+      <h2>Player Stats</h2>
+      <table className="profile-stats">
+        <thead>
+          <tr>
+            <th>Current WRs</th>
+            <th>Total WRs</th>
+            <th>Total Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{p.bestCount}</td>
+            <td>{p.records.length}</td>
+            <td>
+              <StatDuration row={p} />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>WR History</h2>
+      <RecordTable records={p.records} players={players} showCourse />
+      <DateKey />
+      <p>
+        <a href="/rankings">Player Rankings</a> ·{" "}
+        <a href="/players">All Players</a>
+      </p>
     </>
   );
 }
 function ToursPage({ data }) {
   return (
     <>
-      <h1>Time Trial Tour Calendar</h1>
-      <p>Documented tours and their Time Trial bonus challenges.</p>
-      <p className="meta">
-        End dates are exclusive. Reruns inherit the Time Trial lineup listed for
-        their original tour.
+      <h1>Tour Calendar</h1>
+      <p className="table-note">
+        Time Trial bonus challenges. The WR clock pauses at the end date shown.
       </p>
       <div className="table-wrap">
         <table className="tour-list">
@@ -683,8 +817,8 @@ function ToursPage({ data }) {
             <tr>
               <th>Tour</th>
               <th>Time Trial courses</th>
-              <th>From</th>
-              <th>Until</th>
+              <th>Start</th>
+              <th>End (exclusive)</th>
             </tr>
           </thead>
           <tbody>
@@ -703,8 +837,8 @@ function ToursPage({ data }) {
                       </span>
                     ))}
                   </td>
-                  <td>{date(t.startDate)}</td>
-                  <td>{date(t.endDate)}</td>
+                  <td>{t.startDate}</td>
+                  <td>{t.endDate}</td>
                 </tr>
               ))}
           </tbody>
@@ -738,11 +872,13 @@ function About({ manifest: m, tours }) {
         </p>
         <p>
           Research is incomplete. The history channel was read back to its
-          beginning, including migrated records from 2019. Older individual
-          submissions, discussions, mushroom allocations and missing achievement
-          dates still need reconciliation. “Best archived” means the fastest WR
-          observation currently preserved, not a guarantee of exhaustive
-          history.
+          beginning, including migrated records from 2019. The dedicated
+          submission channel was captured back to its August 13, 2021 beginning.
+          Earlier discussions, mushroom allocations and missing achievement
+          dates still need reconciliation. WR tables and rankings include only
+          records announced in wr-history or individually confirmed as a WR in
+          the discussion. Ordinary submissions and inferred contenders remain in
+          the downloadable evidence, outside WR statistics.
         </p>
         <h2>Dates and playable-day durations</h2>
         <p>
@@ -759,18 +895,24 @@ function About({ manifest: m, tours }) {
         </p>
         <p>
           Where the achievement date is absent, a known original submission date
-          is marked †. Provisional playable-day totals are marked ~ and use the
-          documented calendar dates. Totals stay blank when a faster archived
-          record has no known date; incomplete intermediate chronology may still
-          change provisional totals. The calendar uses the wiki’s dates for Time
-          Trial bonus challenges rather than ordinary race availability.
+          is marked †. A proof image upload date decoded from its Discord
+          attachment ID is marked ‡; it establishes when the proof was uploaded,
+          which may be later than the run. Provisional playable-day totals are
+          marked ~ and use the documented calendar dates. Totals stay blank when
+          a faster archived record has no known date; incomplete intermediate
+          chronology may still change provisional totals. The calendar uses the
+          wiki’s dates for Time Trial bonus challenges rather than ordinary race
+          availability.
         </p>
         <h2>Proof and splits</h2>
         <p>
-          Only video proof is linked from the displayed time. Screenshot
-          references remain in the JSON data. Missing splits and mushrooms are
-          unknown, never zero. A warning beside source splits means they do not
-          sum to the total; inconsistent splits are not promoted to a WR row.
+          Only video proof is linked from the displayed time. A small image icon
+          at the right of each record opens its screenshot proof. Missing splits
+          and mushrooms are unknown, never zero. A warning beside source splits
+          means they do not sum to the total; inconsistent splits are not
+          promoted to a WR row. Video links whose titles name a different time
+          are withheld pending verification; their original references and audit
+          results remain in the JSON.
         </p>
         <h2>Download the static archive</h2>
         <p>
@@ -815,39 +957,37 @@ function About({ manifest: m, tours }) {
     </>
   );
 }
+
 export default function Archive(props) {
-  const views = {
+  const View = {
     home: Home,
     course: CoursePage,
     players: PlayersPage,
     player: PlayerPage,
+    rankings: Rankings,
     tours: ToursPage,
     archive: About,
-  };
-  const View = views[props.view];
+  }[props.view];
   return (
     <>
       <a className="skip" href="#main">
         Skip to records
       </a>
       <Sidebar index={props.index} />
+      <header className="topbar">
+        [ <a href="/">MKTour</a> | <a href="/rankings">Player Rankings</a> |{" "}
+        <a href="/tours">Tours</a> | <a href="/archive">Archive</a> ]
+      </header>
       <main id="main">
-        <header className="topbar">
-          <span>Mario Kart Tour</span>
-          <nav>
-            <a href="/">[ Records ]</a> <a href="/players">[ Players ]</a>{" "}
-            <a href="/archive">[ Archive ]</a>
-          </nav>
-        </header>
         <View {...props} />
         <footer>
           Mario Kart Tour World Records · Independent community archive
           <br />
-          Mario Kart and course artwork © Nintendo. Tour reference data:{" "}
+          Game logo, item icons and course artwork © Nintendo ·{" "}
           <a href="https://www.mariowiki.com/Time_Trial_(Mario_Kart_Tour)">
             Super Mario Wiki
-          </a>
-          .
+          </a>{" "}
+          · Layout reference: <a href="https://mkwrs.com/mkworld/">MKWRS</a>
         </footer>
       </main>
     </>

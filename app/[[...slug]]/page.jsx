@@ -7,6 +7,7 @@ export function generateStaticParams() {
   return [
     { slug: [] },
     { slug: ["players"] },
+    { slug: ["rankings"] },
     { slug: ["tours"] },
     { slug: ["archive"] },
     ...a.courses.map((c) => ({ slug: ["course", c.id] })),
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }) {
   const titles = {
     home: "Mario Kart Tour World Records",
     players: "Player Profiles",
+    rankings: "Player Rankings",
     tours: "Time Trial Tour Calendar",
     archive: "Archive Coverage",
   };

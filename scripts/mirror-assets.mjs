@@ -21,6 +21,10 @@ let successes = 0,
 async function worker() {
   while (queue.length) {
     const [url, kind] = queue.shift();
+    if (manifest[url]?.error && !process.argv.includes("--retry-failed")) {
+      failures++;
+      continue;
+    }
     if (manifest[url]?.path && fs.existsSync("public" + manifest[url].path)) {
       successes++;
       continue;

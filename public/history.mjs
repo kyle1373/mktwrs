@@ -44,3 +44,101 @@ export function progression(submissions) {
       return true;
     });
 }
+
+export function courseStatistics(records, players) {
+  const people = new Map(),
+    nations = new Map();
+  for (const r of records) {
+    if (!["announced", "community-wr", "leaderboard-wr"].includes(r.status))
+      continue;
+    const p = players.find((p) => p.id === r.playerId);
+    for (const [map, id] of [
+      [people, r.playerId],
+      [nations, p?.country || ""],
+    ]) {
+      if (!map.has(id))
+        map.set(id, {
+          id,
+          count: 0,
+          days: 0,
+          durationCount: 0,
+          missingDays: 0,
+          intervals: {},
+        });
+      const row = map.get(id);
+      row.count++;
+      if (r.durationDays == null) row.missingDays++;
+      else {
+        if (r.durationIntervals) {
+          (row.intervals[r.courseId || "course"] ||= []).push(
+            ...r.durationIntervals,
+          );
+        } else row.days += r.durationDays;
+        row.durationCount++;
+      }
+    }
+  }
+  for (const row of [...people.values(), ...nations.values()]) {
+    for (const windows of Object.values(row.intervals)) {
+      if (windows.length)
+        row.days += playableDays(
+          windows.map((w) => w.start).sort()[0],
+          windows
+            .map((w) => w.end)
+            .sort()
+            .at(-1),
+          windows,
+        );
+    }
+    delete row.intervals;
+  }
+  const list = [...people.values()];
+  return {
+    players: list,
+    nations: [...nations.values()],
+    days: list.reduce((s, p) => s + p.days, 0),
+    complete: list.every((p) => !p.missingDays),
+  };
+}
+
+export function historyEvents(course, tours, asOf) {
+  const records = course.records.filter((r) =>
+    ["announced", "community-wr", "leaderboard-wr"].includes(r.status),
+  );
+  const events = records.map((r) => ({
+    type: "record",
+    id: r.id,
+    date: r.recordDate || r.tourDateRange?.end || r.announcedAt,
+    record: r,
+  }));
+  const seen = new Set();
+  for (const a of course.appearances) {
+    if (seen.has(a.tourId)) continue;
+    seen.add(a.tourId);
+    const t = tours.find((t) => t.id === a.tourId);
+    if (!t) continue;
+    if (a.startDate <= asOf.slice(0, 10))
+      events.push({
+        type: "tour-start",
+        id: `${a.tourId}-start`,
+        date: a.startDate,
+        name: t.name,
+        source: t.source,
+      });
+    if (a.endDate <= asOf.slice(0, 10))
+      events.push({
+        type: "tour-end",
+        id: `${a.tourId}-end`,
+        date: a.endDate,
+        name: t.name,
+        source: t.source,
+      });
+  }
+  const order = { "tour-end": 0, "tour-start": 1, record: 2 };
+  return events.sort(
+    (a, b) =>
+      a.date.slice(0, 10).localeCompare(b.date.slice(0, 10)) ||
+      order[a.type] - order[b.type] ||
+      (b.record?.timeCs || 0) - (a.record?.timeCs || 0),
+  );
+}

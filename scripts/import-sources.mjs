@@ -34,6 +34,43 @@ export function centiseconds(v) {
 }
 export const formatTime = (cs) =>
   `${Math.floor(cs / 6000)}:${String(Math.floor(cs / 100) % 60).padStart(2, "0")}.${String(cs % 100).padStart(2, "0")}`;
+export function mediaKind(value) {
+  let u;
+  try {
+    u = new URL(value);
+  } catch {
+    return "reference";
+  }
+  if (!/^https?:$/.test(u.protocol)) return "reference";
+  if (
+    /\.(png|jpe?g|webp|gif)$/i.test(u.pathname) ||
+    u.hostname === "pbs.twimg.com"
+  )
+    return "image";
+  if (/\.(mp4|mov|webm)$/i.test(u.pathname)) return "video";
+  if (
+    /(^|\.)(youtube\.com|youtu\.be|twitch\.tv|twitter\.com|x\.com|reddit\.com)$/.test(
+      u.hostname,
+    )
+  )
+    return "video";
+  return "reference";
+}
+export function attachmentDate(value) {
+  let u;
+  try {
+    u = new URL(value);
+  } catch {
+    return null;
+  }
+  if (!/(^|\.)(discordapp\.com|discordapp\.net)$/.test(u.hostname)) return null;
+  const id = u.pathname.match(/^\/attachments\/\d+\/(\d+)\//)?.[1];
+  if (!id) return null;
+  const date = new Date(Number((BigInt(id) >> 22n) + 1420070400000n));
+  return date >= new Date("2019-09-25") && date <= new Date()
+    ? date.toISOString()
+    : null;
+}
 export function importSources(courses, players) {
   const file = "archive/raw/workbook-extracted.json";
   if (!fs.existsSync(file)) return { submissionCount: 0 };
@@ -179,13 +216,8 @@ export function importSources(courses, players) {
           ? rawDate.slice(0, 10)
           : null;
       const media = get("Media:");
-      const mediaIsImage =
-        typeof media === "string" &&
-        /\.(png|jpe?g|webp|gif)(?:\?|$)/i.test(media);
-      const video =
-        typeof media === "string" && /^https?:\/\//.test(media) && !mediaIsImage
-          ? media
-          : null;
+      const mediaIsImage = mediaKind(media) === "image";
+      const video = mediaKind(media) === "video" ? media : null;
       const rawImage =
         get("Screenshot") ||
         (mediaIsImage ? media : null) ||
@@ -207,6 +239,11 @@ export function importSources(courses, players) {
         submittedAt: null,
         video,
         proofImage: rawImage || null,
+        proofUploadedAt: attachmentDate(rawImage),
+        mediaReference:
+          mediaKind(media) === "reference" && /^https?:\/\//.test(media || "")
+            ? media
+            : null,
         source: {
           url: w.source + "#gid=876753249&range=" + row.cells[0].cell,
           sheet: "Admin Panel",
@@ -302,9 +339,7 @@ export function importSources(courses, players) {
       p.discordId = avatar.match(/\/avatars\/(\d+)/)?.[1] || p.discordId;
     }
     const proof = m.links.find((l) => /\/attachments\//.test(l.href))?.href;
-    const video = m.links.find((l) =>
-      /youtu|twitter\.com|x\.com|twitch\.tv/.test(l.href),
-    )?.href;
+    const video = m.links.find((l) => mediaKind(l.href) === "video")?.href;
     let r = c.submissions.find(
       (r) =>
         r.timeCs === cs &&
@@ -320,7 +355,7 @@ export function importSources(courses, players) {
         time: formatTime(cs),
         timeCs: cs,
         laps: parts
-          .slice(3, 5)
+          .slice(3, -1)
           .map((x) =>
             centiseconds(x) === null
               ? null
@@ -334,8 +369,18 @@ export function importSources(courses, players) {
       };
       c.submissions.push(r);
     }
+    const lapTimes = r.laps.map(centiseconds);
+    if (
+      lapTimes.length &&
+      lapTimes.every((v) => v !== null) &&
+      lapTimes.reduce((a, b) => a + b, 0) !== r.timeCs &&
+      !r.notes.some((n) => n.includes("do not sum"))
+    ) {
+      r.notes.push("Source lap splits do not sum to the total.");
+    }
     Object.assign(r, {
       submittedAt,
+      proofUploadedAt: attachmentDate(proof || r.proofImage),
       video: video || r.video || null,
       proofImage: proof || r.proofImage || null,
       source: {
@@ -350,6 +395,39 @@ export function importSources(courses, players) {
     });
     botCount++;
   }
+  const curated = fs.existsSync("archive/curated-runs.json")
+    ? JSON.parse(fs.readFileSync("archive/curated-runs.json"))
+    : [];
+  for (const entry of curated) {
+    const c = courses.find((c) => c.id === entry.courseId);
+    if (!c) throw Error("Unknown curated course: " + entry.courseId);
+    const p = person(entry.player);
+    const r = {
+      ...entry,
+      id: "curated-" + entry.messageId,
+      playerId: p.id,
+      timeCs: centiseconds(entry.time),
+      achievedAt: null,
+      datePrecision: "unknown",
+      video: entry.video || null,
+      proofUploadedAt: attachmentDate(entry.proofImage),
+    };
+    c.submissions.push(r);
+    if (
+      ["community-wr", "leaderboard-wr"].includes(entry.status) &&
+      !c.records.some((n) => n.playerId === p.id && n.timeCs === r.timeCs)
+    ) {
+      c.records.push({
+        ...r,
+        announcedAt: r.observedAt || r.submittedAt,
+        tourLabel:
+          entry.status === "leaderboard-wr"
+            ? "Current community leaderboard confirmation"
+            : "Community WR confirmation",
+      });
+      p.records.push(r.id);
+    }
+  }
   let enriched = 0;
   for (const c of courses) {
     for (const r of c.records) {
@@ -357,19 +435,27 @@ export function importSources(courses, players) {
         (s) => s.playerId === r.playerId && s.timeCs === r.timeCs,
       );
       matches.sort((a, b) =>
-        (a.achievedAt || a.submittedAt || "9999").localeCompare(
-          b.achievedAt || b.submittedAt || "9999",
+        (
+          a.achievedAt ||
+          a.submittedAt ||
+          a.proofUploadedAt ||
+          "9999"
+        ).localeCompare(
+          b.achievedAt || b.submittedAt || b.proofUploadedAt || "9999",
         ),
       );
       let s =
-        matches.find((x) => x.achievedAt) ||
-        matches.find((x) => x.submittedAt) ||
-        matches.find((x) => x.laps.some((l) => l !== null));
+        matches.find(
+          (x) => x.achievedAt || x.submittedAt || x.proofUploadedAt,
+        ) || matches.find((x) => x.laps.some((l) => l !== null));
       if (s) {
         r.laps = s.notes.some((n) => n.includes("do not sum")) ? null : s.laps;
+        r.lapSource = s.source;
+        r.lapMatchBasis = "same player and total time; see linked submission";
         r.achievedAt = s.achievedAt;
         r.datePrecision = s.datePrecision;
         r.submittedAt = s.submittedAt;
+        r.proofUploadedAt = s.proofUploadedAt || attachmentDate(r.proofImage);
         r.video ||= s.video;
         r.proofImage ||= s.proofImage;
         r.additionalSources = matches.map((m) => m.source);
@@ -377,21 +463,17 @@ export function importSources(courses, players) {
         enriched++;
       }
     }
+    const evidenceDate = (r) =>
+      r.achievedAt || r.submittedAt || r.proofUploadedAt;
     const accepted = c.submissions
-      .filter(
-        (s) =>
-          ["accepted-submission", "matched-sheet-submission"].includes(
-            s.status,
-          ) && s.submittedAt,
-      )
-      .sort((a, b) => a.submittedAt.localeCompare(b.submittedAt));
+      .filter((r) => r.includeInProgression !== false && evidenceDate(r))
+      .sort((a, b) => evidenceDate(a).localeCompare(evidenceDate(b)));
     for (const s of accepted) {
       const knownBefore = c.records.filter((r) =>
-        [r.achievedAt, r.submittedAt, r.announcedAt]
+        [r.achievedAt, r.submittedAt, r.proofUploadedAt, r.announcedAt]
           .filter(Boolean)
-          .some((date) => date <= s.submittedAt),
+          .some((date) => date <= evidenceDate(s)),
       );
-      if (!knownBefore.length) continue;
       const best = Math.min(...knownBefore.map((r) => r.timeCs));
       if (s.timeCs > best) continue;
       if (
@@ -401,11 +483,11 @@ export function importSources(courses, players) {
       ) {
         c.records.push({
           ...s,
-          announcedAt: s.submittedAt,
-          tourLabel: "Submission verified by an updater",
+          announcedAt: evidenceDate(s),
+          tourLabel: "Reconstructed from submission evidence",
           status: "reconstructed-contender",
           notes: [
-            "Accepted submission matching or improving the best record documented before its submission date. This is a reconstructed contender; incomplete chronology may change its WR status.",
+            "Listed submission matching or improving the best record documented before its evidence date. This is a reconstructed contender; incomplete chronology may change its WR status.",
           ],
         });
         person(players.get(s.playerId).name).records.push(s.id);

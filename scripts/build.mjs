@@ -5,13 +5,20 @@ import {
   findCourse,
   centiseconds,
   formatTime,
+  mediaKind,
+  attachmentDate,
 } from "./import-sources.mjs";
 import { playableDays } from "../public/history.mjs";
 import * as cheerio from "cheerio";
 const root = "archive/raw";
 const out = "public/data";
 fs.mkdirSync(out, { recursive: true });
-const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
+const clean = (s) =>
+  (s || "")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
 const slug = (s) =>
   s
     .normalize("NFKD")
@@ -152,7 +159,9 @@ for (const m of sourceMessages.values()) {
     unmatched.push({ id: m.id, title, reason: "No WR time" });
     continue;
   }
-  let playerNames = clean(m.description.split("\n")[0]).split(/\s+&\s+/);
+  let playerNames = clean(m.description.split("\n")[0]).split(
+    /\s+&\s+|\s*\/\s*/,
+  );
   for (let playerName of playerNames) {
     if (playerName.toLowerCase() === "nekozuki") playerName = "nekozuki";
     const pid = slug(playerName) || "unresolved-" + m.id.split("-").at(-1);
@@ -215,19 +224,106 @@ for (const m of sourceMessages.values()) {
   }
 }
 const imported = importSources(courses, players);
+const videoMetadata = fs.existsSync("archive/video-metadata.json")
+  ? JSON.parse(fs.readFileSync("archive/video-metadata.json"))
+  : {};
+let videoTitleMismatches = 0;
 for (const c of courses) {
+  c.candidates = c.records.filter(
+    (r) => !["announced", "community-wr", "leaderboard-wr"].includes(r.status),
+  );
+  c.records = c.records.filter((r) =>
+    ["announced", "community-wr", "leaderboard-wr"].includes(r.status),
+  );
+  const distinct = new Map();
+  for (const r of c.records.sort((a, b) =>
+    a.announcedAt.localeCompare(b.announcedAt),
+  )) {
+    const key = `${r.playerId}:${r.timeCs}`;
+    const previous = distinct.get(key);
+    if (previous)
+      previous.additionalSources = [
+        ...(previous.additionalSources || []),
+        r.source,
+        ...(r.additionalSources || []),
+      ];
+    else distinct.set(key, r);
+  }
+  c.records = [...distinct.values()];
+  for (const r of [...c.records, ...c.submissions]) {
+    const metadata = videoMetadata[r.video];
+    if (!metadata) continue;
+    const times = [
+      ...(metadata.title || "").matchAll(
+        /(?<!\d)(\d{1,2}[:'’]\d{2}[.,:]\d{2})(?!\d)/g,
+      ),
+    ].map((m) => centiseconds(m[1].replace(/['’]/g, ":").replace(",", ".")));
+    r.videoAudit = {
+      title: metadata.title || null,
+      status: metadata.error
+        ? "metadata-unavailable"
+        : times.length
+          ? times.includes(r.timeCs)
+            ? "title-time-matches"
+            : "title-time-mismatch"
+          : "title-has-no-time",
+    };
+    if (r.videoAudit.status === "title-time-mismatch") {
+      r.videoReference = r.video;
+      r.video = null;
+      r.notes.push(
+        "Linked video title gives a different time: " +
+          metadata.title +
+          ". Link withheld pending visual verification.",
+      );
+      videoTitleMismatches++;
+    }
+  }
   c.records.sort((a, b) => a.announcedAt.localeCompare(b.announcedAt));
   c.appearances.sort((a, b) => a.startDate.localeCompare(b.startDate));
   for (const r of c.records) {
-    r.recordDate = r.achievedAt || r.submittedAt?.slice(0, 10) || null;
+    if (r.video && mediaKind(r.video) !== "video") {
+      if (mediaKind(r.video) === "image") r.proofImage ||= r.video;
+      else r.mediaReference = r.video;
+      r.video = null;
+    }
+    r.proofUploadedAt ||= attachmentDate(r.proofImage);
+    const range = r.tourLabel?.match(
+      /\[(\d{1,2})\/(\d{1,2})\/(\d{2}) - (\d{1,2})\/(\d{1,2})\/(\d{2})\]/,
+    );
+    r.tourDateRange = range
+      ? {
+          start: `20${range[3]}-${range[2].padStart(2, "0")}-${range[1].padStart(2, "0")}`,
+          end: `20${range[6]}-${range[5].padStart(2, "0")}-${range[4].padStart(2, "0")}`,
+        }
+      : null;
+    const inRecordTour = (value) =>
+      value &&
+      (!r.tourDateRange ||
+        (value.slice(0, 10) >= r.tourDateRange.start &&
+          value.slice(0, 10) <= r.tourDateRange.end));
+    const submissionDate = inRecordTour(r.submittedAt)
+      ? r.submittedAt?.slice(0, 10)
+      : null;
+    const uploadDate = inRecordTour(r.proofUploadedAt)
+      ? r.proofUploadedAt?.slice(0, 10)
+      : null;
+    r.recordDate = r.achievedAt || submissionDate || uploadDate || null;
     r.dateBasis = r.achievedAt
       ? "source-date"
-      : r.submittedAt
+      : submissionDate
         ? "submission-date"
-        : null;
+        : uploadDate
+          ? "proof-upload-date"
+          : null;
   }
   for (const r of c.records) {
     const later = c.records.filter((n) => n.timeCs < r.timeCs);
+    r.durationEnd =
+      later
+        .map((n) => n.recordDate)
+        .filter(Boolean)
+        .sort()[0] || new Date().toISOString().slice(0, 10);
     r.durationDays =
       r.recordDate && later.every((n) => n.recordDate)
         ? playableDays(
@@ -241,6 +337,15 @@ for (const c of courses) {
       r.durationDays === null
         ? null
         : "documented dates; chronology incomplete";
+    r.durationIntervals =
+      r.durationDays === null
+        ? null
+        : c.appearances
+            .map((a) => ({
+              start: a.startDate > r.recordDate ? a.startDate : r.recordDate,
+              end: a.endDate < r.durationEnd ? a.endDate : r.durationEnd,
+            }))
+            .filter((a) => a.start < a.end);
   }
   c.current = c.records.length
     ? c.records.reduce((a, b) => (a.timeCs <= b.timeCs ? a : b))
@@ -252,13 +357,24 @@ for (const c of courses) {
         (n) => n.timeCs === r.timeCs && n.playerId === r.playerId,
       ) === i,
   );
+  c.records.sort(
+    (a, b) =>
+      (a.recordDate || a.tourDateRange?.end || a.announcedAt).localeCompare(
+        b.recordDate || b.tourDateRange?.end || b.announcedAt,
+      ) || b.timeCs - a.timeCs,
+  );
 }
+for (const p of players.values())
+  p.records = courses.flatMap((c) =>
+    c.records.filter((r) => r.playerId === p.id).map((r) => r.id),
+  );
 courses.sort((a, b) =>
   a.sortName.localeCompare(b.sortName, "en", { numeric: true }),
 );
 const manifest = {
   schemaVersion: 1,
   ...imported,
+  videoTitleMismatches,
   updatedAt: new Date().toISOString(),
   status: "in-progress",
   courseCount: courses.length,
@@ -269,6 +385,10 @@ const manifest = {
   coverageNote:
     "Research in progress. WR announcements are preserved; dates, lap splits, mushrooms and intermediate records are still being reconciled against submissions. These are best archived times, not a claim of complete history.",
   sources: [
+    {
+      name: "Mario Kart Tour Course Leaderboard workbook",
+      url: "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249",
+    },
     {
       name: "MKCentral Discord",
       url: "https://discord.com/channels/629221606064914442/896050730216095765",
@@ -292,7 +412,7 @@ for (const c of courses) {
     c.imageSource = c.image;
     c.image = assetMap[c.image].path;
   }
-  for (const r of c.records)
+  for (const r of [...c.records, ...c.submissions])
     if (assetMap[r.proofImage]?.path)
       r.proofImageLocal = assetMap[r.proofImage].path;
 }

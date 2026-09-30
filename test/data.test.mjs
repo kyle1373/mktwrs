@@ -29,8 +29,38 @@ test("every course record and submission has valid references and integer time u
   }
 });
 test("same-time ties retain independent player identities", () => {
-  const c = courses.find((c) => c.id === "athens-dash-3");
-  const ties = c.records.filter((r) => r.time === "1:11.66");
+  const c = courses.find((c) => c.id === "snes-vanilla-lake-1");
+  const ties = c.records.filter((r) => r.time === "0:34.20");
   assert(ties.some((r) => r.playerId === "dit"));
   assert(ties.some((r) => r.playerId === "nekozuki"));
+});
+
+test("public WR history never promotes an inferred contender or ordinary submission", () => {
+  for (const c of courses) {
+    assert(
+      c.records.every((r) =>
+        ["announced", "community-wr", "leaderboard-wr"].includes(r.status),
+      ),
+    );
+    assert(c.currentHolders.every((r) => c.records.some((n) => n.id === r.id)));
+    for (const r of c.records)
+      if (r.recordDate && r.tourDateRange && !r.achievedAt) {
+        assert(
+          r.recordDate >= r.tourDateRange.start &&
+            r.recordDate <= r.tourDateRange.end,
+        );
+      }
+  }
+});
+
+test("slash-separated WR ties resolve to separate players without counting repeated announcements twice", () => {
+  const course = courses.find((c) => c.id === "piranha-plant-cove-2");
+  assert(course.currentHolders.some((r) => r.playerId === "mb3"));
+  assert(course.currentHolders.some((r) => r.playerId === "nekozuki"));
+  assert.equal(
+    course.records.filter((r) => r.playerId === "mb3" && r.time === "1:29.34")
+      .length,
+    1,
+  );
+  assert(!players.some((p) => p.id === "mb3-nekozuki"));
 });
