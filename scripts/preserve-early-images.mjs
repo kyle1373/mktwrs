@@ -24,7 +24,7 @@ function index(){
  const images=new Map();
  for(const m of [...messages.values()].sort((a,b)=>a.datetime.localeCompare(b.datetime))){
   for(const rawUrl of [...m.links.map(l=>l.href),...m.images.map(i=>i.src)]){
-   if(!/^https?:/.test(rawUrl)||!/(\/attachments\/|pbs\.twimg\.com)/.test(rawUrl)||!/\.(png|jpe?g|webp|gif)(\?|$)/i.test(rawUrl))continue;
+   if(!/^https?:/.test(rawUrl)||!/(\/attachments\/|pbs\.twimg\.com)/.test(rawUrl)||!/\.(png|jpe?g|webp|gif)(?::(?:large|orig))?(\?|$)/i.test(rawUrl))continue;
    const u=new URL(rawUrl);
    if(u.hostname==='media.discordapp.net')for(const key of ['width','height','format','quality'])u.searchParams.delete(key);
    const url=u.toString(),id=url.match(/\/attachments\/\d+\/(\d+)\//)?.[1]||crypto.createHash('sha256').update(url.split('?')[0]).digest('hex').slice(0,24);
