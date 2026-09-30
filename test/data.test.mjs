@@ -64,3 +64,35 @@ test("slash-separated WR ties resolve to separate players without counting repea
   );
   assert(!players.some((p) => p.id === "mb3-nekozuki"));
 });
+
+
+test("Anniversary 2026 retains intermediate WRs, exact submission dates and the Athens tie", () => {
+  for (const [courseId, expected] of [
+    ["madrid-drive-3", [["1:19.44", "2026-09-20"], ["1:19.42", "2026-09-27"], ["1:19.39", "2026-09-27"]]],
+    ["rome-avanti-3", [["1:16.92", "2026-09-25"], ["1:16.82", "2026-09-27"]]],
+  ]) {
+    const c = courses.find(c => c.id === courseId);
+    for (const [time, date] of expected) {
+      const r = c.records.find(r => r.time === time);
+      assert(r, `${courseId} ${time}`);
+      assert.equal(r.recordDate, date);
+      assert(r.proofImageLocal);
+      assert.equal(r.laps.reduce((sum, lap) => sum + Math.round(Number(lap) * 100), 0), r.timeCs);
+    }
+  }
+  const athens = courses.find(c => c.id === "athens-dash-3");
+  assert.deepEqual(athens.currentHolders.map(r => r.playerId).sort(), ["dit", "nekozuki"]);
+});
+
+test("published player portraits exist locally and refreshed identities match Discord IDs", () => {
+  const portraits = JSON.parse(fs.readFileSync(new URL("../archive/player-portraits.json", import.meta.url)));
+  for (const p of players) {
+    if (!p.avatar) continue;
+    assert(p.avatar.startsWith("/assets/players/"));
+    assert(fs.existsSync(new URL("../public" + p.avatar, import.meta.url)));
+    if (portraits[p.id]?.path === p.avatar) {
+      assert.equal(portraits[p.id].discordId, p.discordId);
+      assert(portraits[p.id].url.includes(`/avatars/${p.discordId}/`));
+    }
+  }
+});

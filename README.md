@@ -39,6 +39,8 @@ This is an archive in progress, not a claim of complete historical reconstructio
 
 ## Railway
 
-Connect this repository's `main` branch to a Railway service in the personal Hobby workspace. `railway.json` supplies build, start and health-check settings. Railway should deploy on each push. Add `mktwrs.com` as a custom domain and apply the exact DNS records Railway provides in Cloudflare. No credentials belong in this repository.
+Live at **https://mktwrs.com**. Railway deploys the private `kyle1373/mktwrs` repository's `main` branch automatically in the personal Hobby workspace.
 
-Prepared project: `mktwrs.com` (`80b026c9-fa2d-4e7d-9b01-657a2f631ff0`), production environment `95b0853a-b78e-4a2d-b302-ab2e97e82e7d`, personal Hobby workspace. GitHub authentication is complete; adding mktwrs to the Railway App’s repository access is awaiting confirmation. No deployment or DNS change is complete yet.
+Project: `mktwrs.com` (`80b026c9-fa2d-4e7d-9b01-657a2f631ff0`); production service: `mktwrs` (`dc662fe0-1295-439f-ba7f-d957436f93c5`). The service UI sets build command `npm run build` and health check `/health`; Railpack uses `npm start`. New Railway services no longer opt into the deprecated config-as-code feature, so the retained `railway.json` is not the active service configuration. Cloudflare's root CNAME points to Railway; HTTPS is active. No credentials belong in this repository.
+
+Player portraits are refreshed from captured tt-submission avatars by matching Discord user IDs, then stored locally using `node scripts/refresh-player-avatars.mjs`. Unavailable or mismatched portraits use a neutral initial, never another player's image. `archive/player-portraits.json` retains identity and capture provenance.

@@ -214,8 +214,8 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
       <table className="wr-table">
         <thead>
           <tr>
-            {showCourse && <th>Course</th>}
             <th>Date</th>
+            {showCourse && <th>Course</th>}
             <th>Time</th>
             <th>Player</th>
             <th>Nation</th>
@@ -247,15 +247,13 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                 const r = e.record,
                   p = players.find((p) => p.id === r.playerId);
                 return (
-                  <tr key={r.id}>
+                  <tr key={r.id} className={showCourse && r.isCurrent ? "current-wr" : undefined}>
+                    <td><RecordDate r={r} /></td>
                     {showCourse && (
                       <td>
                         <a href={`/course/${r.courseId}`}>{r.courseName}</a>
                       </td>
                     )}
-                    <td>
-                      <RecordDate r={r} />
-                    </td>
                     <td>
                       <Time record={r} />
                     </td>
@@ -748,11 +746,17 @@ function PlayersPage({ data }) {
     </>
   );
 }
+function Avatar({ player: p }) {
+  const [failed, setFailed] = useState(false);
+  return p.avatar && !failed ? (
+    <img className="avatar" src={p.avatar} alt={`${p.name} Discord avatar`} width="80" height="80" onError={() => setFailed(true)} />
+  ) : <span className="avatar avatar-placeholder" aria-label={`${p.name}: portrait unavailable`}>{Array.from(p.name)[0]}</span>;
+}
 function PlayerPage({ data: p, players }) {
   return (
     <>
       <div className="profile-head">
-        {p.avatar && <img className="avatar" src={p.avatar} alt="" />}
+        <Avatar key={p.id} player={p} />
         <div>
           <h1>{p.name}</h1>
           <Nation country={p.country} />
@@ -785,6 +789,7 @@ function PlayerPage({ data: p, players }) {
         </tbody>
       </table>
       <h2>WR History</h2>
+      <p className="table-note">Current world records are shown in <strong>bold</strong>.</p>
       <RecordTable records={p.records} players={players} showCourse />
       <DateKey />
       <p>

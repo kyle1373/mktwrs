@@ -430,11 +430,29 @@ for (const c of courses) {
     if (path) r.proofImageLocal = path;
   }
 }
+const portraits = fs.existsSync("archive/player-portraits.json")
+  ? JSON.parse(fs.readFileSync("archive/player-portraits.json")) : {};
+for (const p of players.values()) {
+  const portrait = portraits[p.id];
+  if (portrait?.path && portrait.discordId === p.discordId) {
+    p.avatarSource = portrait.url;
+    p.avatar = portrait.path;
+  } else if (p.avatar && p.discordId && !p.avatar.includes(`/avatars/${p.discordId}/`)) {
+    // An alias alone cannot establish ownership of a different Discord account.
+    p.avatar = null;
+  }
+}
 for (const p of players.values())
   if (assetMap[p.avatar]?.path) {
     p.avatarSource = p.avatar;
     p.avatar = assetMap[p.avatar].path;
   }
+for (const p of players.values()) {
+  if (p.avatar && !p.avatar.startsWith("/assets/players/")) {
+    p.avatarSource = p.avatar;
+    p.avatar = null;
+  }
+}
 for (const [name, data] of Object.entries({
   manifest,
   courses,
