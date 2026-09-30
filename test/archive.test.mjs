@@ -94,3 +94,20 @@ test('Winter 2020 restores both exchanges and attributes tied footage to its act
  const ids=[...ci.records,...mt.records].map(r=>r.id);assert.equal(new Set(ids).size,ids.length);
  for(const r of [...ci.records,...dated].filter(r=>r.playerId!=='wakinyo'))assert(fs.existsSync('public'+r.proofImageLocal));
 });
+test('Rosalina restores intermediate WRs, corrects repost dates, and keeps uncertain runs out of progression',()=>{
+ const sw=courses.find(c=>c.id==='gba-sunset-wilds');
+ const missing=sw.records.find(r=>r.playerId==='wins'&&r.time==='1:11.19');
+ assert.equal(missing.recordDate,'2020-12-18');assert.deepEqual(missing.laps,['35.67','35.52']);
+ assert(sw.records.findIndex(r=>r.time==='1:11.19')<sw.records.findIndex(r=>r.time==='1:11.11'));
+ const kaz=sw.records.find(r=>r.time==='1:10.30');assert.equal(kaz.recordDate,'2020-12-28');
+ assert.equal(kaz.durationDays,11);assert.match(kaz.videoBackup.url,/ItlthLSPRpg/);
+ assert(!sw.records.some(r=>r.time==='1:10.81'));
+ assert(sw.submissions.some(r=>r.time==='1:10.81'&&r.dateUnresolved&&r.includeInProgression===false));
+ const cm=courses.find(c=>c.id==='n64-choco-mountain');
+ const tome=cm.records.find(r=>r.time==='1:19.29');assert.equal(tome.submittedAt,'2020-12-16T08:42:24.000Z');
+ assert(!cm.records.some(r=>r.time==='1:19.33'||r.time==='1:19.47'));
+ assert.deepEqual(cm.records.find(r=>r.playerId==='zxflare').laps,['40.05','39.86']);
+ const last2020=cm.records.find(r=>r.time==='1:18.51');assert.equal(last2020.video,null);assert.match(last2020.videoRejection.reason,/predates/);
+ const fallback=fastestVideo(cm);assert.equal(fallback.playerId,'superfx');assert.equal(fallback.time,'1:18.93');assert.equal(fallback.isCurrent,false);assert.match(fallback.video,/aKBh5R2tbTQ/);assert.match(fallback.videoBackup.url,/QqsQhQPtolU/);
+ for(const r of [...sw.records,...cm.records].filter(r=>r.recordDate>='2020-12-16'&&r.recordDate<'2020-12-30'&&r.time!=='1:18.51'))assert(fs.existsSync('public'+r.proofImageLocal));
+});
