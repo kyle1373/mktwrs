@@ -226,6 +226,7 @@ for (const m of sourceMessages.values()) {
 }
 const imported = importSources(courses, players);
 const videoBackups = JSON.parse(fs.readFileSync("archive/video-backups.json", "utf8"));
+const videoAttribution = JSON.parse(fs.readFileSync("archive/video-attribution.json", "utf8"));
 const videoAvailability = fs.existsSync("archive/video-availability.json")
   ? JSON.parse(fs.readFileSync("archive/video-availability.json", "utf8")) : {};
 const visuallyVerifiedVideos = new Set(JSON.parse(fs.readFileSync("archive/curated-runs.json", "utf8"))
@@ -258,6 +259,15 @@ for (const c of courses) {
   }
   c.records = [...distinct.values()];
   for (const r of [...c.records, ...c.submissions]) {
+    const attribution = videoAttribution[videoKey(r.video)];
+    if (attribution && !attribution.playerIds.includes(r.playerId)) {
+      r.videoReference = r.video;
+      r.videoRejection = { url: r.video, reason: attribution.reason, source: attribution.source };
+      r.video = null;
+      delete r.videoVerified;
+      delete r.videoBackup;
+      r.notes = [...(r.notes || []), attribution.reason];
+    }
     if (visuallyVerifiedVideos.has(`${c.id}:${r.timeCs}:${videoKey(r.video)}`)) r.videoVerified = true;
     const backup = videoBackups[videoKey(r.video)];
     if (backup?.status === "available") r.videoBackup = backup;

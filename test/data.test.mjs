@@ -10,6 +10,22 @@ const read = (name) =>
 const courses = read("courses"),
   players = read("players"),
   tours = read("tours");
+test("tied announcements never attach another player's identified recording", () => {
+  for (const [courseId, time, owner, other, videoId] of [
+    ["wii-daisy-circuit", "1:18.00", "kuri", "p-en", "dqJkcwUDDKk"],
+    ["los-angeles-laps-2", "1:13.30", "kuri", "remon", "BZoBMMbmeiw"],
+    ["3ds-neo-bowser-city-r", "1:23.88", "kazuo", "nu11", "KZpAAQrVVYE"],
+    ["squeaky-clean-sprint", "1:21.62", "phillish", "sasakikojiro", "JHVX8Yw56X4"],
+  ]) {
+    const course = courses.find(c => c.id === courseId);
+    const recorded = course.records.find(r => r.playerId === owner && r.time === time);
+    const tied = course.records.find(r => r.playerId === other && r.time === time);
+    assert(recorded.video.includes(videoId));
+    assert.equal(tied.video, null);
+    assert(!tied.videoBackup);
+    assert(tied.videoReference.includes(videoId));
+  }
+});
 test("Halloween uses original submission chronology and surviving video fallback", async () => {
   const { fastestVideo } = await import("../lib/video.mjs");
   const jungle = courses.find(c => c.id === "gcn-dino-dino-jungle-r");
@@ -586,4 +602,33 @@ test("Doctor Tour restores the Daisy Hills exchanges without backdating an undis
   assert.deepEqual(cheep.records.filter(r => r.recordDate >= "2022-05-04").map(r => r.time), ["1:11.75"]);
   assert.deepEqual(cheep.current.laps, ["35.92", "35.83"]);
   assert.equal(cheep.current.submittedAt, "2022-05-05T05:03:04.671Z");
+});
+
+test("Ice Tour uses original Dino Dino Jungle R evidence and keeps slower videos separate", () => {
+  const course = courses.find(c => c.id === "gcn-dino-dino-jungle-r");
+  const early = course.records.filter(r => r.recordDate < "2021-01-01");
+  assert.deepEqual(early.map(r => r.time), ["1:40.46", "1:40.18"]);
+  assert.equal(early[0].submittedAt, "2020-01-24T22:56:56.000Z");
+  assert.equal(early[1].submittedAt, "2020-01-24T23:08:40.000Z");
+  assert.deepEqual(early[1].laps, ["50.14", "50.04"]);
+  assert(early.every(r => r.proofImageLocal?.startsWith("/assets/proof/ice-2020-")));
+  assert(early.every(r => !r.video));
+  assert(!course.records.some(r => ["1:40.32", "1:40.56", "1:40.74", "1:40.80"].includes(r.time)));
+  const slower = course.submissions.find(r => r.time === "1:40.32" && r.videoVerified);
+  assert(slower);
+  assert.equal(slower.includeInProgression, false);
+  assert.match(slower.video, /1221415967315709952/);
+  const audit = JSON.parse(fs.readFileSync("archive/ice-2020-reconciliation.json", "utf8"));
+  assert.equal(audit.historyComplete, false);
+  assert.equal(audit.previousBestLeads.length, 2);
+  assert.equal(audit.coverage.originalServerAttachmentImagesVisuallyReviewed, 181);
+  const castle = courses.find(c => c.id === "gba-bowser-s-castle-1");
+  const tomegome = castle.records.find(r => r.playerId === "tomegome" && r.time === "0:59.96");
+  const kaguya = castle.records.find(r => r.playerId === "nu11" && r.time === "0:59.96");
+  assert.equal(tomegome.submittedAt, "2020-01-15T19:20:10.000Z");
+  assert.deepEqual(tomegome.laps, ["30.16", "29.80"]);
+  assert.equal(tomegome.videoVerified, true);
+  assert.equal(kaguya.video, null);
+  assert.equal(kaguya.recordDate, null);
+  assert.deepEqual(kaguya.laps, [null, null]);
 });
