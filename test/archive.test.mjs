@@ -335,3 +335,28 @@ test('Bowser vs DK restores record exchanges, same-player reties, and corrected 
  const af=courses.find(c=>c.id==='ds-airship-fortress');assert(!af.records.some(r=>r.time==='1:29.34'));assert.equal(af.current.submittedAt,'2021-05-06T21:38:36.939Z');
  for(const r of [...recent,kaz,af.current])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Trick Tour restores dated exchanges and separates recorded PBs from faster WRs',()=>{
+ const ktb=courses.find(c=>c.id==='n64-koopa-troopa-beach-r');
+ const early=ktb.records.filter(r=>r.recordDate<'2021-06-02');
+ assert.deepEqual(early.map(r=>r.time),['1:18.01','1:15.95','1:15.64','1:15.48','1:15.48','1:15.47','1:15.33']);
+ assert.deepEqual(early.filter(r=>r.time==='1:15.48').map(r=>r.playerId),['nu11','nhspeedy']);
+ assert.deepEqual(early.find(r=>r.time==='1:15.47').laps,['37.69','37.78']);
+ assert.equal(early.at(-1).submittedAt,'2021-06-01T13:17:13.309Z');
+ assert.deepEqual(early.at(-1).laps,['37.67','37.66']);
+ assert(ktb.submissions.some(r=>r.time==='1:15.37'&&r.dateUnresolved&&r.submittedAt===null));
+ assert(ktb.submissions.some(r=>r.time==='1:15.99'&&r.identityUnresolved&&r.includeInProgression===false));
+ const nh=ktb.submissions.find(r=>r.time==='1:15.55'&&r.videoVerified);assert.equal(nh.includeInProgression,false);assert.match(nh.videoBackup.url,/Fuery1J_MTM/);
+ const rr=courses.find(c=>c.id==='3ds-rainbow-road-r');
+ assert.deepEqual(rr.records.map(r=>r.time),['1:57.87','1:56.56','1:56.05','1:55.54','1:54.80','1:54.62','1:54.48','1:54.05','1:54.00','1:53.82','1:53.79','1:53.70','1:53.60','1:53.39','1:53.33','1:53.24','1:53.16','1:52.96','1:52.88','1:52.69']);
+ assert.deepEqual(rr.records.find(r=>r.time==='1:53.79').laps,['36.37',null,null]);
+ assert.deepEqual(rr.current.laps,['36.82','41.93','33.94']);assert.equal(rr.current.recordDate,'2021-05-29');
+ assert.equal(fastestVideo(rr).time,'1:53.83');assert.equal(fastestVideo(rr).isCurrent,false);assert.match(fastestVideo(rr).videoBackup.url,/zml1t0PMQSg/);
+ assert(!rr.records.some(r=>['1:51.98','1:52.93','1:53.55','1:54.66','1:55.63'].includes(r.time)));
+ const gv=courses.find(c=>c.id==='snes-ghost-valley-1');
+ assert.deepEqual(gv.records.map(r=>r.time),['0:39.93','0:39.92','0:39.88','0:39.88','0:39.87','0:39.76']);
+ assert.equal(gv.current.submittedAt,'2021-06-01T14:37:08.850Z');assert.deepEqual(gv.current.laps,['19.96','19.80']);
+ assert.equal(fastestVideo(gv).time,'0:39.82');assert.equal(fastestVideo(gv).playerId,'10mp');assert.equal(fastestVideo(gv).isCurrent,false);assert.deepEqual(fastestVideo(gv).laps,['19.96','19.86']);assert.match(fastestVideo(gv).videoBackup.url,/UapqsqI7oHE/);
+ const kno=gv.submissions.find(r=>r.time==='0:39.83'&&r.videoVerified);assert.equal(kno.includeInProgression,false);assert.match(kno.videoBackup.url,/dIffIKUOYMg/);
+ for(const r of [...early,...rr.records,...gv.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
