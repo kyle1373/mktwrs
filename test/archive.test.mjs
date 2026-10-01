@@ -504,7 +504,7 @@ test('Holiday restores the DIT exchange from surviving text and dates NHSpeedy o
  assert.deepEqual(late.map(r=>r.time),['1:45.92','1:45.88','1:45.75']);
  assert.deepEqual(late.map(r=>r.playerId),['nhspeedy','dit','nhspeedy']);
  assert.deepEqual(late.map(r=>r.durationDays),[1,8,4]);
- assert.deepEqual(late[1].laps,['52.78','53.10']);assert.equal(late[1].submittedAt,'2021-12-03T08:59:23.267Z');assert(!late[1].proofImageLocal);assert(late[1].notes.some(n=>n.includes('HTTP 404')));
+ assert.deepEqual(late[1].laps,['52.78','53.10']);assert.equal(late[1].submittedAt,'2021-12-03T08:59:23.267Z');assert(fs.existsSync('public'+late[1].proofImageLocal));assert(late[1].notes.some(n=>n.includes('HTTP 404')));assert(late[1].notes.some(n=>n.includes('final leaderboard')));
  assert.equal(late[2].submittedAt,'2021-12-11T16:15:12.935Z');assert.deepEqual(late[2].laps,['52.92','52.83']);
  const nita=mt.submissions.find(r=>r.video?.includes('Udm4G22UIJY')&&r.videoVerified);assert.equal(nita.includeInProgression,false);assert.deepEqual(nita.laps,['53.92','53.87']);
  const cm=courses.find(c=>c.id==='n64-choco-mountain-r');assert(!cm.records.some(r=>r.recordDate>='2021-12-01'));
