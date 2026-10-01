@@ -28,3 +28,14 @@ runs=[final,kaguya]+other;ids={r['messageId'] for r in runs}
 save('archive/curated-runs.json',[r for r in read('archive/curated-runs.json') if r.get('messageId') not in ids]+runs);save('archive/assets-manifest.json',assets)
 save('archive/vancouver-2020-context-reconciliation.json',{'tour':'Vancouver Tour','historyComplete':False,'confirmedChanges':[kaguya,final],'additionalDocumentedRuns':other,'coverage':{'discussionMessagesWithBoundaries':len(read('archive/vancouver-2020-discussion-census.json')),'indexedOriginalImagesVisuallyReviewed':24,'originalPlayerTimelinesRead':['Astre_HD','tomegome_g']},'openLeads':[{'courseId':'snes-choco-island-2r','player':'Nu11','time':'0:49.56','issue':'Original screenshot/video, record date and splits unresolved.'},{'courseId':'snes-choco-island-2r','player':'Astre','time':'0:49.65','issue':'Original February 15 image and splits recovered, but historical WR status unestablished.'},{'courseId':'snes-rainbow-road','player':'Nu11','time':'0:59.94','issue':'Original full-race proof and exact date still unresolved; February references establish a sub-minute time but do not identify the final total.'}],'limitations':['Server-wide images outside the TT channel are not yet fully audited for Vancouver Tour.','Deleted messages and original social posts cannot be certified recovered.']})
 print({'restoredIntermediateWr':1,'resolvedFinalWrDate':1,'otherRunsPreserved':len(other)})
+
+# Extend the evidence census when the separately reviewed source ledgers exist.
+server_review=R/'archive/vancouver-2020-server-image-review.json'
+reply_review=R/'archive/vancouver-2020-official-reply-review.json'
+if server_review.exists() and reply_review.exists():
+ report=read('archive/vancouver-2020-context-reconciliation.json')
+ server=json.loads(server_review.read_text());replies=json.loads(reply_review.read_text())
+ assert server['uniqueAttachmentImages']==server['imagesVisuallyReviewed'] and not server['missingAttachmentIds']
+ report['coverage'].update(serverImageSearchResultMessages=server['searchResultMessages'],serverAttachmentImagesVisuallyReviewed=server['imagesVisuallyReviewed'],serverImageSearchPagesCaptured=server['pagesCaptured'],officialReplyImagesVisuallyReviewed=replies['imagesPreservedAndVisuallyReviewed'])
+ report['limitations']=['All 406 unique attachments from 409 returned server-wide has:image results were preserved and visually reviewed. This does not cover every text/video message or deleted source.','Deleted messages and original social posts cannot be certified recovered.']
+ save('archive/vancouver-2020-context-reconciliation.json',report)
