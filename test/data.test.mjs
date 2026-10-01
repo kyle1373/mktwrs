@@ -21,6 +21,12 @@ test("migrated tour labels reject later proof uploads and preserve reviewed tour
   const former = records.find(r => r.playerId === "astre" && r.time === "1:02.74");
   assert.deepEqual(former.tourDateRange, { start: "2021-08-11", end: "2021-08-24" });
   assert.equal(former.recordDate, null, "known tour bounds do not establish a specific day");
+  assert.equal(former.chronologyDate, "2021-08-16", "an ordering anchor must not become the displayed record date");
+  const tc = courses.find(c => c.id === "3ds-toad-circuit-r");
+  assert(!tc.records.some(r => r.time === "1:03.16"));
+  const footage = tc.submissions.find(r => r.id === "curated-valentines-2020-tome-video-10316");
+  assert.deepEqual(footage.laps, ["31.56", "31.60"]);
+  assert.match(footage.videoBackup.url, /XVFgHPQWQeA/);
 });
 test("Winter 2019 uses original post dates and keeps unconfirmed runs out of WR history", () => {
   const mountain = courses.find(c => c.id === "3ds-rock-rock-mountain");
