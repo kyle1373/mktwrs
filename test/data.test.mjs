@@ -111,8 +111,8 @@ test("Cooking Tour preserves WR exchanges, original splits and verified proof da
   assert(record("0:49.77", "kazuo").videoRejection);
   assert.equal(record("0:50.59", "nu11").durationDays, 1,
     "an undated record from a later tour cannot erase a fully dated earlier reign");
-  assert.equal(record("0:49.77", "kazuo").durationDays, null,
-    "the reign ending at the undated next improvement stays unknown");
+  assert.equal(record("0:49.77", "kazuo").durationDays, 9,
+    "the recovered November 4 successor resolves eight Cooking Tour days plus one return-tour day");
   assert(!record("0:49.97", "nu11"), "a later PB slower than the standing WR is excluded");
   const wp = courses.find((c) => c.id === "ds-waluigi-pinball-r");
   const finish = wp.records.find((r) => r.time === "1:45.91");
@@ -451,4 +451,22 @@ test("Pirate Tour restores exchanges, ties and original dates without accepting 
   assert.equal(bc.current.recordDate, "2020-08-21");
   assert.deepEqual(bc.current.laps, ["30.11", "30.18"]);
   assert.equal(bc.current.video, null, "the linked 1:00.30 non-PB is not proof of 1:00.29");
+});
+
+test("Toad vs Toadette restores exchanges while excluding PBs and post-tour dates", () => {
+  const dp = courses.find(c => c.id === "snes-donut-plains-1");
+  assert.deepEqual(dp.records.filter(r => ["0:49.67", "0:49.65", "0:49.62", "0:49.57"].includes(r.time)).map(r => [r.playerId, r.recordDate]), [
+    ["n", "2021-11-04"], ["player-e382bce38389", "2021-11-12"], ["aki", "2021-11-13"], ["aki", "2021-11-15"],
+  ]);
+  const kd = courses.find(c => c.id === "n64-kalimari-desert-2");
+  const tie = kd.records.find(r => r.playerId === "nhspeedy" && r.time === "1:03.39");
+  assert.equal(tie.recordDate, "2021-11-16");
+  assert.deepEqual(tie.laps, ["29.53", "33.86"]);
+  assert(!kd.records.some(r => r.recordDate?.startsWith("2021-11") && ["1:03.48", "1:03.46", "1:03.45"].includes(r.time)));
+  const rc = courses.find(c => c.id === "rmx-choco-island-1r");
+  assert.deepEqual(rc.records.map(r => r.time), ["1:13.05", "1:12.50", "1:12.48", "1:12.34", "1:12.21", "1:12.19", "1:12.03"]);
+  assert.equal(rc.current.recordDate, null, "post-reset publication cannot establish race date");
+  assert.equal(rc.records.find(r => r.time === "1:12.19").videoCoverage, "partial");
+  assert(rc.records.slice(0, 6).every(r => r.proofImageLocal));
+  assert(!rc.records.some(r => ["1:12.18", "1:52.83"].includes(r.time)));
 });
