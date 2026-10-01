@@ -481,8 +481,8 @@ export function importSources(courses, players) {
       }
       if (s) {
         r.laps = s.notes.some((n) => n.includes("do not sum")) ? null : s.laps;
-        r.lapSource = s.source;
-        r.lapMatchBasis = "same player and total time; see linked submission";
+        r.lapSource = s.lapSource || s.source;
+        r.lapMatchBasis = s.lapMatchBasis || "same player and total time; see linked submission";
         if (s.derivedLap) {
           r.derivedLap = s.derivedLap;
           r.lapMatchBasis += `; lap ${s.derivedLap} calculated from total minus the other lap`;
