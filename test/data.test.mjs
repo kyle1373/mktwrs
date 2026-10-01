@@ -490,3 +490,20 @@ test("Sky 2022 restores exchanges without withdrawn input errors, duplicate play
   assert(!course.records.some(r => ["1:01.47", "1:00.80", "1:01.67", "1:01.59", "1:01.54"].includes(r.time)));
   assert(course.records.every(r => r.proofImageLocal?.startsWith("/assets/proof/")));
 });
+
+test("Mii Tour respects prior all-time records and restores the intervening Wakinyo record", () => {
+  const rainbow = courses.find(c => c.id === "rmx-rainbow-road-1");
+  assert.deepEqual(rainbow.records.filter(r => r.recordDate >= "2022-03-09").map(r => [r.playerId,r.time,r.recordDate]), [
+    ["wakinyo","1:18.94","2022-03-15"], ["nu11","1:18.82","2022-03-21"],
+  ]);
+  assert.equal(rainbow.current.submittedAt, "2022-03-21T02:16:18Z");
+  assert.deepEqual(rainbow.current.laps,["39.64","39.18"]);
+  assert.match(rainbow.current.video,/OFFJGT-J0w4/);
+  assert(!rainbow.records.some(r => ["1:22.25","1:21.40","1:21.31","1:20.95","1:20.12","1:19.05","1:18.84"].includes(r.time)));
+  const desert = courses.find(c => c.id === "n64-kalimari-desert-2r");
+  assert.deepEqual(desert.records.filter(r => r.recordDate >= "2022-03-09").map(r => [r.playerId,r.time]),[["hilton","1:04.30"]]);
+  const hilton=desert.records.find(r=>r.playerId==="hilton");
+  assert.equal(hilton.submittedAt,"2022-03-16T21:37:18.218Z");
+  assert.deepEqual(hilton.laps,["29.07","35.23"]);
+  assert(hilton.proofImageLocal?.startsWith("/assets/proof/"));
+});
