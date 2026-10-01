@@ -470,7 +470,8 @@ test('Frost restores opening records, a deleted holder, the Kura exchange, and s
 
 test('Kamek restores exchanges, attributes the reposted sub-minute run, and never dates late footage as a race',()=>{
  const vl=courses.find(c=>c.id==='rmx-vanilla-lake-1');
- assert.deepEqual(vl.records.map(r=>r.time),['1:03.12','1:03.02','1:02.91','1:02.79','1:02.72','1:02.67','1:02.66','1:02.64','1:02.59','1:02.54','1:02.52','1:02.44','1:02.22']);
+ const kamek=vl.records.filter(r=>!r.recordDate || r.recordDate<'2022-01-01');
+ assert.deepEqual(kamek.map(r=>r.time),['1:03.12','1:03.02','1:02.91','1:02.79','1:02.72','1:02.67','1:02.66','1:02.64','1:02.59','1:02.54','1:02.52','1:02.44']);
  assert.deepEqual(vl.records.find(r=>r.time==='1:02.52').laps,['31.38','31.14']);
  const late=vl.records.find(r=>r.time==='1:02.44');assert.equal(late.recordDate,null);assert.deepEqual(late.laps,['31.31','31.13']);assert.equal(late.durationDays,null);
  assert(!vl.records.some(r=>r.time==='1:02.58'));
@@ -480,7 +481,7 @@ test('Kamek restores exchanges, attributes the reposted sub-minute run, and neve
  assert.equal(rr.records.find(r=>r.time==='1:00.06').durationDays,null);
  assert(rr.submissions.some(r=>r.time==='0:59.96'&&r.dateUnresolved&&r.includeInProgression===false));
  assert(!rr.records.some(r=>r.playerId==='n'));
- for(const r of [...vl.records.slice(0,-1),...rr.records])assert(fs.existsSync('public'+r.proofImageLocal));
+ for(const r of [...kamek,...rr.records])assert(fs.existsSync('public'+r.proofImageLocal));
 });
 
 test('Space restores original exchanges and ties without turning a repost or slower PB into a WR',()=>{

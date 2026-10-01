@@ -1,0 +1,45 @@
+"""Reconcile Samurai Tour results from original images, messages and footage."""
+import hashlib,json
+from datetime import datetime,timezone
+from pathlib import Path
+from PIL import Image
+ROOT=Path(__file__).resolve().parents[1]
+def read(p):return json.loads((ROOT/p).read_text())
+def save(p,r):(ROOT/p).write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+def stamp(mid):return datetime.fromtimestamp(((int(mid)>>22)+1420070400000)/1000,timezone.utc).isoformat(timespec='milliseconds').replace('+00:00','Z')
+def source(mid,ch='875784780573184010'):return {'url':f'https://discord.com/channels/629221606064914442/{ch}/{mid}','channel':{'875784780573184010':'tt-submission','896050730216095765':'wr-history'}.get(ch,'tt-discussion'),'messageId':mid}
+review=read('archive/submission-visual-review.json');idx={r['index']:aid for aid,r in review.items()};queue={r['attachmentId']:r for r in read('archive/submission-image-map.json')['images']};downloads=read('archive/submission-image-downloads.json');assets=read('archive/assets-manifest.json')
+spec=[(1783,'Nu11',['49.17','49.14']),(1784,'saki7',['49.12','48.80']),(1786,'Nu11',['48.86','48.83']),(1813,'Sucha',['48.75','48.80']),(1812,'Nu11',['48.76','48.73']),(1827,'Sucha',None),(1836,'Sucha',['48.61','48.76']),(1844,'Nu11',['48.69','48.67']),(1800,'Wins',None),(1801,'Wins',None),(1803,'Wins',None),(1804,'Wins',['31.29','30.93'])]
+rows=[]
+for index,player,laps in spec:
+ aid=idx[index];r=review[aid];assert r['reviewStatus']=='visually-reviewed';url=queue[aid]['imageUrl'];im=Image.open(ROOT/downloads[aid]['path']).convert('RGB')
+ if index==1827:im=im.crop((68,56,203,358))
+ if index==1836:im=im.crop((129,128,543,1025))
+ dst=ROOT/f'public/assets/proof/samurai-2022-{aid}.webp';im.save(dst,'WEBP',lossless=True)
+ assets[url]={'path':'/'+str(dst.relative_to(ROOT/'public')),'sha256':hashlib.sha256(dst.read_bytes()).hexdigest(),'bytes':dst.stat().st_size,'contentType':'image/webp'}
+ rows.append({'messageId':'samurai-2022-'+aid,'player':player,'courseId':r['courseId'],'time':r['time'],'laps':laps or [None,None],'mushrooms':None,'status':'community-wr','submittedAt':stamp(r['messageId']),'source':source(r['messageId']),'proofImage':url,'proofImageVerified':True,'notes':['Original result image visually read and compared with prior all-time WRs, overlapping submissions and surrounding discussion. Dates document original publication in UTC, not an asserted race-completion instant.']})
+by={(r['player'],r['time']):r for r in rows}
+r=by['Sucha','1:37.55'];r['additionalSources']=[r['source'],source('957293947967918121')];r['source']=source('957293911376806018');r['submittedAt']=stamp('957293911376806018');r['notes'].append('The earlier March 26 repost identifies Sucha and the immediately following .75/.80 reply gives 48.75/48.80. The later higher-resolution game-only image is served as proof. This is Sucha’s run, not the submitting intermediary’s run.')
+by['Sucha','1:37.44']['additionalSources']=[source('959922194782244914','636461740162416640')]
+by['Sucha','1:37.37']['additionalSources']=[source('960535995508457482','636461740162416640')]
+for t in ['1:37.44','1:37.37']:by['Sucha',t]['notes'].append('Submitted on Sucha’s behalf. Public proof is cropped to the game image; the source archive retains the attribution and surrounding lap context.')
+r=by['Wins','1:02.22'];r.update(video='https://twitter.com/winsmkt/status/1511617819779207176?s=21',videoVerified=True,additionalSources=[source('961177122238517308','636461740162416640'),source('966556094317072384','896050730216095765')]);r['notes'].append('Full original Twitter recording visually checked: first-lap crossing31.29 and finish1:02.22, so lap2=30.93. Earlier March25 result determines the date. The later best splits31.11/30.86 describe separate laps and are not this run’s splits.')
+r=by['Nu11','1:37.36'];meta=read('archive/video-backup-files/933acc7cd89dd980c0fc/original.info.json');published=datetime.fromtimestamp(meta['timestamp'],timezone.utc).isoformat().replace('+00:00','Z');r['additionalSources']=[r['source'],source('966547618807316551','896050730216095765'),source('961177746527109150','636461740162416640')];r.update(video='https://www.youtube.com/watch?v=TV9Eybyk4ck',videoVerified=True,source={'url':'https://www.youtube.com/watch?v=TV9Eybyk4ck','channel':'original-video','publishedAt':published},submittedAt=published);r['notes'].append('Original video first-lap crossing48.69 and finish1:37.36 visually checked. Publication precedes the Discord submission by about two minutes. The phone overlay shows March31; that suggests earlier private completion but does not establish earlier public WR recognition, so the history uses verified publication.')
+held=[]
+for player,parent,t in [('Nu11','1:38.31','1:38.43'),('saki7','1:37.92','1:38.21'),('Nu11','1:37.69','1:37.84'),('Nu11','1:37.49','1:37.51'),('Sucha','1:37.44','1:37.50'),('Nu11','1:37.36','1:37.46')]:
+ p=by[player,parent];r={**p,'messageId':p['messageId']+'-previous-best','time':t,'laps':[None,None],'submittedAt':None,'observedAt':p['submittedAt'],'dateUnresolved':True,'status':'documented-submission','includeInProgression':False,'notes':['Visible previous best proves an earlier completed run but does not establish its publication date or place against competitors. Retained outside confirmed WR progression pending original dated evidence.']};r.pop('video',None);r.pop('videoVerified',None);held.append(r)
+for r in rows:
+ if all(v is not None for v in r['laps']):assert sum(round(float(v)*100) for v in r['laps'])==int(r['time'].split(':')[0])*6000+round(float(r['time'].split(':')[1])*100)
+ids={r['messageId'] for r in rows+held};save('archive/curated-runs.json',[r for r in read('archive/curated-runs.json') if r.get('messageId') not in ids]+rows+held);save('archive/assets-manifest.json',assets)
+confirmed={idx[i] for i,_,_ in spec}
+for aid,r in review.items():
+ if 1779<=r['index']<=1854 and r['reviewStatus']=='visually-reviewed':r.update(classification='reconciled-wr' if aid in confirmed else 'reviewed-non-wr-submission',reconciliation='archive/samurai-2022-reconciliation.json')
+review[idx[1810]]['classification']='earlier-source-for-reconciled-wr';save('archive/submission-visual-review.json',review)
+ledger=read('archive/video-backup-files/downloads.json');availability=read('archive/video-availability.json')
+for key,run in [('x:1511617819779207176',by['Wins','1:02.22']),('youtube:TV9Eybyk4ck',by['Nu11','1:37.36'])]:
+ item=ledger[key];f=ROOT/item['file'];item.update(reviewStatus='visually-reviewed',backupStatus='queued-daily-upload-limit',runs=[{'courseId':run['courseId'],'time':run['time'],'player':run['player'],'date':run['submittedAt'][:10],'laps':run['laps'],'source':run['source']['url']}]);availability[key]={'originalUrl':run['video'],'status':'available','checkedAt':'2026-10-01','sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size}
+f=ROOT/'archive/video-backup-files/samurai-2022-spart-comparison/original.mp4';ledger['youtube:Rbc1TBNz58s']={'key':'youtube:Rbc1TBNz58s','originalUrl':'https://www.youtube.com/watch?v=Rbc1TBNz58s','status':'downloaded','file':str(f.relative_to(ROOT)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size,'reviewStatus':'visually-reviewed','classification':'technique-comparison-only','notes':['5.7-second split-screen comparison. No completed overall run or record asserted.'],'runs':[],'backup':None}
+save('archive/video-backup-files/downloads.json',ledger);save('archive/video-availability.json',availability)
+audit=read('archive/samurai-2022-capture-audit.json')
+report={'tour':'Samurai Tour (2022)','status':'Surviving submissions and nearby discussion reconciled; archive remains incomplete.','coverage':{'submissionWindows':len(audit['windows']),'submissionMessagesIncludingBoundaryOverlap':audit['uniqueMessagesRecaptured'],'missingAttachmentsComparedWithOriginalIndex':len(audit['missingFromOriginalIndex']),'fullRaceVideosPreservedAndReviewed':2,'techniqueVideosPreservedAndReviewed':2,'newSuperFX64BackupsVerified':0},'confirmedChanges':rows,'previousBestLeads':held,'limitations':['Six visible previous-best runs lack independently established publication dates or competing-record order; they remain outside confirmed progression.','Two cancelled bot attachments were not independently read; corrected surviving submissions establish the same1:38.31 and1:02.24 results.','RMX Vanilla Lake1 already had Wins’s1:02.44 from Kamek Tour; slower Samurai tour-leading times do not become all-time WRs.','A repeated1:02.44 by the same holder does not count as a new distinct WR.','Nu11’s final video shows a March31 phone overlay but was published April6; private race-completion chronology and public-record chronology may differ.','Best isolated laps and brief technique clips are not completed overall WRs.','This review does not establish complete recovery of deleted sources or all years.','Unlisted copies remain queued after YouTube’s daily upload limit.']}
+save('archive/samurai-2022-reconciliation.json',report);print({'confirmedOrEnriched':len(rows),'held':len(held)})

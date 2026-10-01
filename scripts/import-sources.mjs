@@ -468,6 +468,17 @@ export function importSources(courses, players) {
         matches.find(
           (x) => x.achievedAt || x.submittedAt || x.proofUploadedAt,
         ) || matches.find((x) => x.laps.some((l) => l !== null));
+      // A bot may omit splits that were later verified from the same submission.
+      // Require the exact source, so an equal-time rerun cannot donate its laps.
+      if (s?.source?.url && s.laps?.every((lap) => lap === null)) {
+        s = matches.find((x) => {
+          if (x.source?.url !== s.source.url ||
+              !(x.videoVerified || x.proofImageVerified)) return false;
+          const laps = x.laps?.map(centiseconds);
+          return laps?.length === 2 && laps.every((lap) => lap > 0) &&
+            laps[0] + laps[1] === r.timeCs;
+        }) || s;
+      }
       if (s) {
         r.laps = s.notes.some((n) => n.includes("do not sum")) ? null : s.laps;
         r.lapSource = s.source;

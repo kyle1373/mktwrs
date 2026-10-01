@@ -507,3 +507,20 @@ test("Mii Tour respects prior all-time records and restores the intervening Waki
   assert.deepEqual(hilton.laps,["29.07","35.23"]);
   assert(hilton.proofImageLocal?.startsWith("/assets/proof/"));
 });
+
+test("Samurai Tour restores the Sucha/Nu11 exchange and keeps verified splits from the same source", () => {
+  const wario = courses.find(c => c.id === "3ds-wario-shipyard-r");
+  assert.deepEqual(wario.records.map(r => r.time), ["1:38.31","1:37.92","1:37.69","1:37.55","1:37.49","1:37.44","1:37.37","1:37.36"]);
+  const sucha=wario.records.find(r=>r.time==="1:37.55");
+  assert.equal(sucha.recordDate,"2022-03-26");
+  assert.equal(sucha.playerId,"player-e38199e38184e3819df09f90ba");
+  assert.deepEqual(sucha.laps,["48.75","48.80"]);
+  assert(wario.records.every(r=>r.proofImageLocal?.startsWith("/assets/proof/")));
+  assert.match(wario.current.video,/TV9Eybyk4ck/);
+  const vanilla=courses.find(c=>c.id==="rmx-vanilla-lake-1");
+  assert.deepEqual(vanilla.records.filter(r=>r.recordDate>="2022-03-23").map(r=>r.time),["1:02.42","1:02.36","1:02.24","1:02.22"]);
+  assert.deepEqual(vanilla.current.laps,["31.29","30.93"]);
+  assert.equal(vanilla.current.submittedAt,"2022-03-25T16:21:36.451Z");
+  assert.match(vanilla.current.video,/1511617819779207176/);
+  assert.equal(vanilla.records.filter(r=>r.time==="1:02.44").length,1);
+});
