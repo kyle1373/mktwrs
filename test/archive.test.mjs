@@ -482,3 +482,19 @@ test('Kamek restores exchanges, attributes the reposted sub-minute run, and neve
  assert(!rr.records.some(r=>r.playerId==='n'));
  for(const r of [...vl.records.slice(0,-1),...rr.records])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Space restores original exchanges and ties without turning a repost or slower PB into a WR',()=>{
+ const rr=courses.find(c=>c.id==='rmx-rainbow-road-2r');
+ const runs=rr.records.filter(r=>r.submittedAt?.startsWith('2021-11'));
+ assert.deepEqual(runs.map(r=>r.time),['1:23.95','1:23.65','1:23.45','1:23.44','1:23.15','1:23.02','1:23.02','1:23.01','1:22.86','1:22.85','1:22.70','1:22.69','1:22.58','1:22.51','1:22.33','1:22.30','1:22.22','1:22.14','1:22.03','1:21.96','1:21.91','1:21.84','1:21.75','1:21.75','1:21.71','1:21.71','1:21.69','1:21.60','1:21.57']);
+ assert.equal(runs.find(r=>r.time==='1:23.15').submittedAt,'2021-11-19T10:05:28.381Z');
+ const nh=runs.find(r=>r.time==='1:22.30');assert.deepEqual(nh.laps,['41.31','40.99']);assert.match(nh.video,/asfPB4daRsA/);
+ assert.equal(runs.find(r=>r.time==='1:21.84').submittedAt,'2021-11-21T13:57:38.467Z');
+ assert.deepEqual(runs.filter(r=>r.time==='1:21.71').map(r=>r.playerId),['superfx','nu11']);
+ assert.equal(runs.filter(r=>r.time==='1:21.60').length,1);assert.equal(runs.find(r=>r.time==='1:21.60').playerId,'n');
+ assert(!runs.find(r=>r.time==='1:21.69').video);assert(!runs.some(r=>r.time==='1:22.71'));
+ const pb=rr.submissions.find(r=>r.video?.includes('YWMZZBw137A')&&r.videoVerified);assert.equal(pb.includeInProgression,false);assert.deepEqual(pb.laps,['41.34','41.37']);
+ assert(rr.submissions.some(r=>r.time==='1:21.88'&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
+ const local=runs.find(r=>r.time==='1:21.91');assert(fs.existsSync('public'+new URL(local.video).pathname));assert(local.additionalSources.some(s=>s.url.includes('911957820411371550')));
+ const ktb=courses.find(c=>c.id==='snes-koopa-troopa-beach-2');const november=ktb.records.filter(r=>r.submittedAt?.startsWith('2021-11'));assert.deepEqual(november.map(r=>r.time),['0:57.51']);assert.deepEqual(november[0].laps,['28.88','28.63']);
+});
