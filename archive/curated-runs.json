@@ -42306,13 +42306,12 @@
     "courseId": "snes-ghost-valley-1",
     "time": "0:39.96",
     "laps": [
-      null,
-      null
+      "20.06",
+      "19.90"
     ],
     "mushrooms": null,
     "status": "community-wr",
-    "submittedAt": null,
-    "dateUnresolved": true,
+    "submittedAt": "2020-02-28T18:08:17.736Z",
     "observedAt": "2020-02-29T10:29:41.190Z",
     "tourDateRange": {
       "start": "2020-02-26",
@@ -42325,7 +42324,22 @@
     },
     "notes": [
       "Astre explicitly identifies the current WR as 39.96 by Adri59 in the original February 29 conversation.",
-      "The original race proof and exact achievement date remain unresolved. The report timestamp must not be presented as the record date."
+      "The neighboring social-media post preserves Adri’s original caption: 20.06 / 19.90, totaling 39.96. Both splits come from the same original post.",
+      "Date is the original Twitter post creation date decoded from its preserved Snowflake ID, not an asserted race-completion instant or the later Discord repost date.",
+      "Original image link was recovered but its download failed; no image has been marked verified."
+    ],
+    "dateEvidence": "Original Twitter post creation time decoded from its preserved Snowflake ID; exact achievement time is unknown.",
+    "additionalSources": [
+      {
+        "url": "https://twitter.com/adrishi4/status/1233453886805028864",
+        "channel": "original Twitter post preserved in Discord embed",
+        "messageId": "1233453886805028864"
+      },
+      {
+        "channel": "social-media",
+        "messageId": "683259731975995427",
+        "url": "https://discord.com/channels/629221606064914442/630524563335282689/683259731975995427"
+      }
     ]
   },
   {
@@ -42356,8 +42370,10 @@
     ],
     "notes": [
       "Original March 11, 2020 submission recovered with both final-tour screenshots. The 1:00.16 image is pixel-identical to the later repost explicitly credited to Adri. The paired 39.93 agrees with the archived Ghost Valley 1 WR attribution.",
-      "Date is the exact original Discord submission date in UTC. Earlier device dates/filenames are clues, not verified achievement dates. Splits remain unresolved."
-    ]
+      "Date is the exact original Discord submission date in UTC. Earlier device dates/filenames are clues, not verified achievement dates. Splits remain unresolved.",
+      "This is a delayed final-results post. Achievement dates and reign durations remain unresolved even though the submission timestamp is exact."
+    ],
+    "delayedSubmission": true
   },
   {
     "messageId": "mario-bros-2020-final-687162107929559060",
@@ -42387,7 +42403,9 @@
     ],
     "notes": [
       "Original March 11, 2020 submission recovered with both final-tour screenshots. The 1:00.16 image is pixel-identical to the later repost explicitly credited to Adri. The paired 39.93 agrees with the archived Ghost Valley 1 WR attribution.",
-      "Date is the exact original Discord submission date in UTC. Earlier device dates/filenames are clues, not verified achievement dates. Splits remain unresolved."
-    ]
+      "Date is the exact original Discord submission date in UTC. Earlier device dates/filenames are clues, not verified achievement dates. Splits remain unresolved.",
+      "This is a delayed final-results post. Achievement dates and reign durations remain unresolved even though the submission timestamp is exact."
+    ],
+    "delayedSubmission": true
   }
 ]

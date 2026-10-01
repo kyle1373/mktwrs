@@ -637,7 +637,9 @@ test("Mario Bros. restores the reported predecessor and original final submissio
   const ghost = courses.find(c => c.id === "snes-ghost-valley-1");
   const predecessor = ghost.records.find(r => r.playerId === "adrishi" && r.time === "0:39.96");
   assert(predecessor);
-  assert.equal(predecessor.recordDate, null);
+  assert.equal(predecessor.recordDate, "2020-02-28");
+  assert.equal(predecessor.submittedAt, "2020-02-28T18:08:17.736Z");
+  assert.deepEqual(predecessor.laps, ["20.06", "19.90"]);
   assert.equal(predecessor.durationDays, null);
   for (const [courseId, time] of [["snes-ghost-valley-1", "0:39.93"], ["snes-rainbow-road-r", "1:00.16"]]) {
     const course = courses.find(c => c.id === courseId);
@@ -645,6 +647,8 @@ test("Mario Bros. restores the reported predecessor and original final submissio
     assert.equal(final.submittedAt, "2020-03-11T04:56:53.458Z");
     assert.equal(final.recordDate, "2020-03-11");
     assert.deepEqual(final.laps, [null, null]);
+    assert.equal(final.delayedSubmission, true);
+    assert.equal(final.durationDays, null);
     assert(fs.existsSync("public" + final.proofImageLocal));
   }
   assert(!ghost.records.some(r => r.playerId === "astre" && r.time === "0:39.99"));
