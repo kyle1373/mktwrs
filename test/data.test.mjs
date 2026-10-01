@@ -472,3 +472,21 @@ test("Toad vs Toadette restores exchanges while excluding PBs and post-tour date
   assert(rc.records.slice(0, 6).every(r => r.proofImageLocal));
   assert(!rc.records.some(r => ["1:12.18", "1:52.83"].includes(r.time)));
 });
+
+test("Sky 2022 restores exchanges without withdrawn input errors, duplicate players or mismatched footage", () => {
+  const course = courses.find(c => c.id === "rmx-ghost-valley-1r");
+  assert.deepEqual(course.records.map(r => [r.playerId, r.time]), [
+    ["kmello", "1:01.99"], ["n", "1:01.85"], ["wins", "1:01.81"],
+    ["spartacurtyt", "1:01.78"], ["wins", "1:01.76"], ["wins", "1:01.69"],
+    ["spartacurtyt", "1:01.60"], ["spartacurtyt", "1:01.57"],
+    ["nu11", "1:01.53"], ["spartacurtyt", "1:01.50"],
+  ]);
+  assert.equal(course.current.submittedAt, "2022-02-28T12:23:49.312Z");
+  assert.deepEqual(course.current.laps, ["30.78", "30.72"]);
+  assert.match(course.current.video, /_oHloCNsZ2Y/);
+  const nu = course.records.find(r => r.playerId === "nu11");
+  assert.match(nu.video, /cNc8nLRaswU/);
+  assert.deepEqual(nu.laps, ["30.73", "30.80"]);
+  assert(!course.records.some(r => ["1:01.47", "1:00.80", "1:01.67", "1:01.59", "1:01.54"].includes(r.time)));
+  assert(course.records.every(r => r.proofImageLocal?.startsWith("/assets/proof/")));
+});
