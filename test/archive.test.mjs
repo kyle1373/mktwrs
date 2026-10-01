@@ -411,3 +411,16 @@ test('Summer Tour restores the original Twitter date and preserves the faster no
  const af=courses.find(c=>c.id==='ds-airship-fortress-r');assert.equal(af.current.recordDate,'2021-01-12');assert.equal(af.current.time,'1:36.44');
  for(const r of summer)assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Los Angeles Tour restores the video-dated WR between Nu11 and DIT and distinguishes adjacent footage',()=>{
+ const kd=courses.find(c=>c.id==='n64-kalimari-desert-r');
+ assert.deepEqual(kd.records.map(r=>r.time),['1:19.79','1:19.27','1:18.86','1:18.78','1:18.70','1:18.68','1:18.63','1:18.50','1:18.48','1:18.43','1:18.40','1:18.33']);
+ const n=kd.records.find(r=>r.time==='1:18.48');assert.equal(n.recordDate,'2021-07-22');assert.equal(n.playerId,'n');assert.deepEqual(n.laps,['40.05','38.43']);assert.equal(n.derivedLap,2);assert.match(n.videoBackup.url,/Run8VHVgXHY/);assert.equal(n.durationDays,2);
+ assert.equal(kd.current.submittedAt,'2021-07-28T05:07:15.639Z');assert.deepEqual(kd.current.laps,['39.87','38.46']);assert(!kd.current.video);assert.equal(fastestVideo(kd).time,'1:18.48');assert.equal(fastestVideo(kd).isCurrent,false);
+ const mc=courses.find(c=>c.id==='snes-mario-circuit-3');
+ assert.deepEqual(mc.records.map(r=>r.time),['1:07.37','1:07.18','1:07.11','1:07.03','1:06.59','1:06.53','1:06.44']);
+ assert.equal(mc.current.submittedAt,'2021-07-24T01:16:39.000Z');assert.equal(mc.current.playerId,'tomegome');assert.deepEqual(mc.current.laps,['33.21','33.23']);assert(!mc.current.video);
+ const tome=fastestVideo(mc);assert.equal(tome.time,'1:06.61');assert.deepEqual(tome.laps,['33.29','33.32']);assert.equal(tome.isCurrent,false);assert.match(tome.videoBackup.url,/A1T-uTgYl-k/);
+ for(const t of ['1:07.06','1:06.68'])assert(mc.submissions.some(r=>r.time===t&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
+ for(const r of [...kd.records,...mc.records.slice(2)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
