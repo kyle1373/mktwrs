@@ -424,3 +424,25 @@ test('Los Angeles Tour restores the video-dated WR between Nu11 and DIT and dist
  for(const t of ['1:07.06','1:06.68'])assert(mc.submissions.some(r=>r.time===t&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
  for(const r of [...kd.records,...mc.records.slice(2)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Mario vs Peach restores original posts and adjacent split replies without equating clips to complete runs',()=>{
+ const ci=courses.find(c=>c.id==='gba-cheep-cheep-island');
+ const early=ci.records.filter(r=>r.recordDate<'2021-08-11');
+ assert.deepEqual(early.map(r=>r.time),['1:13.09','1:12.27','1:12.00','1:11.88','1:11.79']);
+ assert.deepEqual(early.find(r=>r.time==='1:12.00').laps,['36.09','35.91']);
+ const phill=early.find(r=>r.time==='1:11.88');assert.deepEqual(phill.laps,['35.99','35.89']);assert.match(phill.videoBackup.url,/axMgNvtb5_s/);
+ const tome=early.at(-1);assert.equal(tome.submittedAt,'2021-08-04T07:17:10.000Z');assert.deepEqual(tome.laps,['35.94','35.85']);assert(!tome.video);assert(tome.additionalSources.some(s=>s.url.includes('1422818882364997633')));
+ assert(ci.submissions.some(r=>r.time==='1:11.84'&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
+ const cm=courses.find(c=>c.id==='n64-choco-mountain');const n=cm.records.find(r=>r.time==='1:18.43');assert.equal(n.submittedAt,'2021-08-03T00:24:46.915Z');assert.deepEqual(n.laps,['39.30','39.13']);
+ const dated=cm.records.find(r=>r.time==='1:18.38');assert.equal(dated.recordDate,'2021-08-08');assert.equal(dated.submittedAt,null);assert.deepEqual(dated.laps,[null,null]);assert(!cm.records.some(r=>r.time==='1:18.37'));
+ const pb=cm.submissions.find(r=>r.video?.includes('mE_v06fSxs4')&&r.videoVerified);assert.equal(pb.time,'1:19.16');assert.equal(pb.includeInProgression,false);assert.match(pb.videoBackup.url,/duJvSl_JVpk/);
+ for(const r of [...early,n])assert(fs.existsSync('public'+r.proofImageLocal));
+});
+
+
+test('Later Madrid Drive 3 video preserves the original result date and both evidence links',()=>{
+ const c=courses.find(c=>c.id==='madrid-drive-3');
+ assert.equal(c.current.time,'1:19.39');assert.equal(c.current.submittedAt,'2026-09-27T13:16:37.874Z');
+ assert.deepEqual(c.current.laps,['39.70','39.69']);assert.match(c.current.video,/y5e84zxS4lM/);assert.match(c.current.videoBackup.url,/mI1RpHqJ4So/);
+ assert.equal(fastestVideo(c).isCurrent,true);
+});
