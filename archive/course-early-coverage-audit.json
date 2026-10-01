@@ -2,8 +2,8 @@
   "scope": "All published courses. This checks early dated evidence only; it cannot certify that every intermediate record is captured. A tour ends at 06:00 UTC, so dates on the reset day need separate timestamp review.",
   "courseCount": 142,
   "counts": {
-    "first-tour-dated-evidence-missing": 37,
-    "first-tour-dated-evidence-present": 97,
+    "first-tour-dated-evidence-missing": 34,
+    "first-tour-dated-evidence-present": 100,
     "reset-day-timestamp-needs-review": 8
   },
   "courses": [
@@ -219,11 +219,11 @@
     {
       "courseId": "3ds-cheep-cheep-lagoon",
       "name": "3DS Cheep Cheep Lagoon",
-      "status": "first-tour-dated-evidence-missing",
+      "status": "first-tour-dated-evidence-present",
       "firstTourStart": "2019-12-18",
       "firstTourEnd": "2020-01-01",
-      "earliestDatedRecord": null,
-      "undatedRecords": 1,
+      "earliestDatedRecord": "2019-12-18",
+      "undatedRecords": 0,
       "recordCount": 1,
       "historyComplete": false
     },
@@ -351,12 +351,12 @@
     {
       "courseId": "3ds-daisy-hills",
       "name": "3DS Daisy Hills",
-      "status": "first-tour-dated-evidence-missing",
+      "status": "first-tour-dated-evidence-present",
       "firstTourStart": "2019-12-04",
       "firstTourEnd": "2019-12-18",
-      "earliestDatedRecord": null,
+      "earliestDatedRecord": "2019-12-05",
       "undatedRecords": 1,
-      "recordCount": 1,
+      "recordCount": 2,
       "historyComplete": false
     },
     {
@@ -1004,8 +1004,8 @@
       "firstTourStart": "2020-02-26",
       "firstTourEnd": "2020-03-11",
       "earliestDatedRecord": "2021-08-29",
-      "undatedRecords": 1,
-      "recordCount": 5,
+      "undatedRecords": 2,
+      "recordCount": 6,
       "historyComplete": false
     },
     {
@@ -1132,12 +1132,12 @@
     {
       "courseId": "rmx-vanilla-lake-1",
       "name": "RMX Vanilla Lake 1",
-      "status": "first-tour-dated-evidence-missing",
+      "status": "first-tour-dated-evidence-present",
       "firstTourStart": "2021-08-25",
       "firstTourEnd": "2021-09-08",
-      "earliestDatedRecord": "2022-03-25",
+      "earliestDatedRecord": "2021-08-25",
       "undatedRecords": 1,
-      "recordCount": 2,
+      "recordCount": 13,
       "historyComplete": false
     },
     {
