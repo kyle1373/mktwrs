@@ -524,3 +524,23 @@ test("Samurai Tour restores the Sucha/Nu11 exchange and keeps verified splits fr
   assert.match(vanilla.current.video,/1511617819779207176/);
   assert.equal(vanilla.records.filter(r=>r.time==="1:02.44").length,1);
 });
+
+test("Yoshi 2022 restores opening records and the distinct N/Nu11 exchange without accepting bot typos", () => {
+  const sky = courses.find(c => c.id === "gba-sky-garden");
+  const opening = sky.records.filter(r => r.recordDate?.startsWith("2022-04"));
+  assert.deepEqual(opening.map(r => r.time), ["1:04.98", "1:04.68", "1:04.44", "1:04.20", "1:04.13"]);
+  assert.equal(opening[3].recordDate, "2022-04-07");
+  assert.deepEqual(opening[4].laps, ["32.05", "32.08"]);
+  assert(!sky.records.some(r => ["1:02.68", "1:04.97", "1:04.41"].includes(r.time)));
+  const castle = courses.find(c => c.id === "3ds-bowser-s-castle-r");
+  const april = castle.records.filter(r => r.recordDate?.startsWith("2022-04"));
+  assert.deepEqual(april.map(r => r.time), ["1:39.89", "1:39.60", "1:39.53", "1:39.50", "1:39.38", "1:39.19", "1:39.12", "1:38.88", "1:38.87", "1:38.84", "1:38.72", "1:38.64", "1:38.59", "1:38.39"]);
+  assert.equal(april[7].playerId, "nu11");
+  assert.equal(april[8].playerId, "n");
+  assert.equal(april[8].recordDate, "2022-04-10");
+  assert.deepEqual(april[10].laps, ["49.29", "49.43"]);
+  assert.match(april[10].video, /963827033220206683/);
+  assert.equal(april[10].recordDate, "2022-04-11");
+  assert.match(april[12].video, /yHN3K-z03o0/);
+  assert([...opening, ...april].every(r => r.proofImageLocal?.startsWith("/assets/proof/")));
+});
