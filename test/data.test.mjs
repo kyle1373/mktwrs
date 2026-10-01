@@ -691,3 +691,21 @@ test("Valentine's Tour restores the earlier Beach record without inventing dates
     assert(!course.records.some(r => r.id === result.id));
   }
 });
+
+test("Baby Rosalina recovered footage supplies a fallback without creating a WR", async () => {
+  const { fastestVideo } = await import("../lib/video.mjs");
+  const course = courses.find(c => c.id === "snes-mario-circuit-2r");
+  const footage = fastestVideo(course);
+  assert.equal(course.current.time, "1:01.83");
+  assert.equal(course.current.videoAvailability, "unavailable");
+  assert.equal(footage.time, "1:02.80");
+  assert.equal(footage.playerId, "heria");
+  assert.equal(footage.isCurrent, false);
+  assert.equal(footage.includeInProgression, false);
+  assert.deepEqual(footage.laps, ["31.36", "31.44"]);
+  assert.equal(footage.derivedLap, 2);
+  assert.equal(footage.submittedAt, "2020-03-24T03:02:04.385Z");
+  assert.match(footage.video, /1242285007546150912/);
+  assert(!course.records.some(r => r.time === "1:02.80"));
+  assert(fs.existsSync("public" + footage.proofImage));
+});
