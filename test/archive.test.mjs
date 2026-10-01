@@ -360,3 +360,24 @@ test('Trick Tour restores dated exchanges and separates recorded PBs from faster
  const kno=gv.submissions.find(r=>r.time==='0:39.83'&&r.videoVerified);assert.equal(kno.includeInProgression,false);assert.match(kno.videoBackup.url,/dIffIKUOYMg/);
  for(const r of [...early,...rr.records,...gv.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Wedding Tour restores exchanges, adjacent lap shorthand, and the Twitter-only tie',()=>{
+ const mc=courses.find(c=>c.id==='3ds-mario-circuit');
+ const wedding=mc.records.filter(r=>r.recordDate>='2021-06-02'&&r.recordDate<'2021-06-17');
+ assert.deepEqual(wedding.map(r=>r.time),['1:35.42','1:35.31','1:35.23','1:35.17','1:35.12','1:35.11','1:34.99','1:34.85','1:34.76','1:34.55','1:34.50','1:34.44','1:34.35','1:34.35','1:33.94']);
+ assert.deepEqual(wedding.find(r=>r.time==='1:35.17').laps,['47.54','47.63']);
+ assert.deepEqual(wedding.find(r=>r.time==='1:34.76').laps,['47.02','47.74']);
+ assert.deepEqual(wedding.find(r=>r.time==='1:34.55').laps,[null,null]);
+ assert.deepEqual(wedding.find(r=>r.time==='1:34.50').laps,['47.14','47.36']);
+ assert.deepEqual(wedding.filter(r=>r.time==='1:34.35').map(r=>r.playerId),['superfx','tomegome']);
+ const tome=wedding.find(r=>r.playerId==='tomegome');assert.equal(tome.submittedAt,'2021-06-15T09:14:14.000Z');assert.deepEqual(tome.laps,['47.21','47.14']);assert.match(tome.video,/1404728947196055555/);assert.match(tome.videoBackup.url,/itx8KWMWtHI/);assert.equal(tome.durationDays,1);
+ assert.match(wedding.find(r=>r.time==='1:35.31').videoBackup.url,/pPek5tziViM/);assert.match(wedding.find(r=>r.time==='1:35.23').videoBackup.url,/XSOOFt2veI4/);assert.match(wedding.find(r=>r.time==='1:34.99').videoBackup.url,/sGUfz13K-0E/);
+ assert.equal(mc.current.recordDate,'2021-06-16');assert.equal(mc.current.videoAvailability,'unavailable');assert.equal(fastestVideo(mc).playerId,'tomegome');assert.equal(fastestVideo(mc).time,'1:34.35');assert.equal(fastestVideo(mc).isCurrent,false);
+ const rr=courses.find(c=>c.id==='rmx-rainbow-road-2');const early=rr.records.filter(r=>r.recordDate<'2021-06-17');
+ assert.deepEqual(early.map(r=>r.time),['1:22.37','1:22.17','1:22.10','1:22.10','1:22.09','1:22.05','1:21.95','1:21.74','1:21.69','1:21.65']);
+ assert.deepEqual(early.filter(r=>r.time==='1:22.10').map(r=>r.playerId),['phillish','dit']);assert.deepEqual(early.find(r=>r.time==='1:22.09').laps,['40.99','41.10']);assert.deepEqual(early.find(r=>r.time==='1:22.05').laps,['41.01','41.04']);assert.equal(early.at(-1).recordDate,'2021-06-16');assert.equal(early.at(-1).videoAvailability,'unavailable');
+ assert(!rr.records.some(r=>r.playerId==='timael'));
+ assert(rr.submissions.some(r=>r.time==='1:22.99'&&r.standingUnresolved&&r.includeInProgression===false));
+ for(const [c,t] of [[mc,'1:34.14'],[rr,'1:22.04']])assert(c.submissions.some(r=>r.time===t&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
+ for(const r of [...wedding,...early.slice(0,-1)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
