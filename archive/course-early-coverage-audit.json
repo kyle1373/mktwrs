@@ -2,8 +2,8 @@
   "scope": "All published courses. This checks early dated evidence only; it cannot certify that every intermediate record is captured. A tour ends at 06:00 UTC, so dates on the reset day need separate timestamp review.",
   "courseCount": 142,
   "counts": {
-    "first-tour-dated-evidence-missing": 29,
-    "first-tour-dated-evidence-present": 105,
+    "first-tour-dated-evidence-missing": 28,
+    "first-tour-dated-evidence-present": 106,
     "reset-day-timestamp-needs-review": 8
   },
   "courses": [
@@ -179,7 +179,7 @@
       "firstTourStart": "2020-10-21",
       "firstTourEnd": "2020-11-04",
       "earliestDatedRecord": "2020-10-21",
-      "undatedRecords": 1,
+      "undatedRecords": 0,
       "recordCount": 15,
       "historyComplete": false
     },
@@ -1462,12 +1462,12 @@
     {
       "courseId": "snes-vanilla-lake-2",
       "name": "SNES Vanilla Lake 2",
-      "status": "first-tour-dated-evidence-missing",
+      "status": "first-tour-dated-evidence-present",
       "firstTourStart": "2021-12-15",
       "firstTourEnd": "2021-12-29",
-      "earliestDatedRecord": null,
-      "undatedRecords": 1,
-      "recordCount": 1,
+      "earliestDatedRecord": "2021-12-15",
+      "undatedRecords": 0,
+      "recordCount": 7,
       "historyComplete": false
     },
     {

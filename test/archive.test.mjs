@@ -31,9 +31,9 @@ test('current Airship WR uses original May 6 result and mismatched BC2R image is
  assert.deepEqual(af.laps,['45.24','44.71']);
  assert(fs.existsSync('public'+af.proofImageLocal));
  const bc=courses.find(c=>c.id==='gba-bowser-s-castle-2r').current;
- assert.equal(bc.proofImage,null);
- assert.match(bc.proofImageRejection.reason,/Tome/);
- assert.equal(bc.recordDate,null);
+ assert.match(bc.proofImage,/925348370808197150/);
+ assert(fs.existsSync('public'+bc.proofImageLocal));
+ assert.equal(bc.recordDate,'2021-12-28');
 });
 test('Sunset restores the Saki–Nu–Kazuo exchange and keeps undated previous bests out of WR history',()=>{
  const c=courses.find(c=>c.id==='3ds-neo-bowser-city');
@@ -509,4 +509,24 @@ test('Holiday restores the DIT exchange from surviving text and dates NHSpeedy o
  const nita=mt.submissions.find(r=>r.video?.includes('Udm4G22UIJY')&&r.videoVerified);assert.equal(nita.includeInProgression,false);assert.deepEqual(nita.laps,['53.92','53.87']);
  const cm=courses.find(c=>c.id==='n64-choco-mountain-r');assert(!cm.records.some(r=>r.recordDate>='2021-12-01'));
  const pb=cm.submissions.find(r=>r.id?.startsWith('curated-')&&r.video?.includes('1468908639646019585')&&r.videoVerified);assert.equal(pb.time,'1:17.90');assert.equal(pb.includeInProgression,false);assert.deepEqual(pb.laps,['38.79','39.11']);assert.equal(pb.submittedAt.slice(0,10),'2021-12-09');assert(fs.existsSync('public'+pb.proofImageLocal));
+});
+
+test('Penguin restores opening WRs and exact original dates without promoting unsupported claims',()=>{
+ const vl=courses.find(c=>c.id==='snes-vanilla-lake-2');
+ assert.deepEqual(vl.records.map(r=>r.time),['0:33.93','0:33.59','0:32.69','0:32.28','0:32.24','0:31.52','0:31.22']);
+ assert.equal(vl.records[0].submittedAt,'2021-12-15T06:31:29.232Z');
+ assert.equal(vl.records.find(r=>r.time==='0:31.52').submittedAt,'2021-12-15T19:45:39.102Z');
+ assert.deepEqual(vl.records.find(r=>r.time==='0:31.52').laps,['15.97','15.55']);
+ assert.equal(vl.current.submittedAt,'2021-12-16T14:48:33.000Z');
+ assert.equal(vl.current.durationDays,13);assert.deepEqual(vl.current.laps,['15.66','15.56']);
+ assert(!vl.records.some(r=>['0:32.13','0:32.10','0:31.87','0:31.58','0:31.21'].includes(r.time)));
+ assert(vl.submissions.some(r=>r.time==='0:31.87'&&r.includeInProgression===false));
+ assert(vl.submissions.some(r=>r.time==='0:31.80'&&r.dateUnresolved&&r.submittedAt===null));
+ for(const r of vl.records)assert(fs.existsSync('public'+r.proofImageLocal));
+ const bc=courses.find(c=>c.id==='gba-bowser-s-castle-2r');const late=bc.records.filter(r=>r.recordDate>='2021-12-01');
+ assert.deepEqual(late.map(r=>r.time),['1:19.17']);assert.deepEqual(late[0].laps,['39.44','39.73']);
+ assert.equal(late[0].submittedAt,'2021-12-28T11:24:04.189Z');assert.equal(late[0].durationDays,1);assert.equal(late[0].videoAvailability,'unavailable');
+ assert(fs.existsSync('public'+late[0].proofImageLocal));
+ const pb=bc.submissions.find(r=>r.id.includes('penguin')&&r.time==='1:19.48');assert.equal(pb.includeInProgression,false);assert.deepEqual(pb.laps,['39.54','39.94']);
+ const fallback=fastestVideo(bc);assert(fallback);assert.notEqual(fallback.time,'1:19.17');
 });
