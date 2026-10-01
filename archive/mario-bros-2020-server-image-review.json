@@ -15,7 +15,8 @@
   "limitations": [
     "Two original Adri Twitter images no longer download; cached captions are preserved, but images are not marked visually verified.",
     "This census covers the stated date-filtered image search. It does not certify deleted messages, missing external media, or all historical WR contenders.",
-    "Intermediate 39.94, 1:00.19 and 1:00.17 images still require runner attribution and chronology confirmation."
+    "Intermediate 39.94, 1:00.19 and 1:00.17 images still require runner attribution and chronology confirmation.",
+    "Discord date filters follow local day boundaries. The additional reset-window audit covers the opening two UTC hours omitted by the primary query."
   ],
   "images": [
     {
@@ -2443,5 +2444,132 @@
       "classification": "not-time-trial-evidence",
       "sha256": "69242253a6a4145e6e1b0064f74fb9b7b7be244c69be8fb954c8efe952d59ee8"
     }
-  ]
+  ],
+  "openingBoundaryAudit": {
+    "query": "after:2020-02-24 before:2020-02-26 has:image",
+    "searchResultsCaptured": 38,
+    "utcWindowReviewed": {
+      "start": "2020-02-26T06:00:00Z",
+      "end": "2020-02-26T08:00:00Z"
+    },
+    "messagesInWindow": 16,
+    "additionalAttachmentsPreservedAndVisuallyReviewed": 19,
+    "timeTrialEvidenceFound": 0,
+    "images": [
+      {
+        "attachmentId": "682127579968307260",
+        "sha256": "8583cb344ec7e7d6bd2539d17d9852785141ed58302b03eeb898802616131f46",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682127406903066624",
+        "sha256": "72a9efbd698b23f4f6f28ece9b3f5462ff849c1b2f8b989d09b9392fe8b6e9dc",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682126275682500608",
+        "sha256": "c9daf04bc6ccf0e2c38d5fe5c803ff8558adaa6672eb24c0373704fd35c6d95a",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682126158883455008",
+        "sha256": "ada0aef97950acd04f821bc4448086e89e682aa7c36b90973b6c6ce37f2e44a9",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682124318079057948",
+        "sha256": "0484a61965dfdd0abb22ce24dadb39921240655c58f54537f218c7a9db406a83",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682123910757744767",
+        "sha256": "08a58e1f88c6ab86a81ff09ca1258131fd558d159488812ce6b58070d03a277b",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682123639600185374",
+        "sha256": "65cf77939f29b7800aaf0dc1046395de125f2d9f7f6a8f82600782ea21385777",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682121521849958410",
+        "sha256": "f895f5ca6214e1ecce0c786769af13a883f7ad27b15957cba24c2d1299a8bd81",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682119813228920840",
+        "sha256": "71a279563ec1e9817d00c923a64777d919fefaafd1899ee4a14d2702b3fb80eb",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682118830830649363",
+        "sha256": "39b89572afb757ba5a0a4764065a44869ef3828843eaee4c65e0d389cdc529f5",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682118483189694495",
+        "sha256": "1028783a320210616810fbc3f4b9c4777fc8bfb83760e34467824f8b93083de8",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682118484184137753",
+        "sha256": "f895f5ca6214e1ecce0c786769af13a883f7ad27b15957cba24c2d1299a8bd81",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682118066917867537",
+        "sha256": "1028783a320210616810fbc3f4b9c4777fc8bfb83760e34467824f8b93083de8",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682118067605602382",
+        "sha256": "f895f5ca6214e1ecce0c786769af13a883f7ad27b15957cba24c2d1299a8bd81",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682117999674654720",
+        "sha256": "969a76ae11030f85091c0236dd3ccc860c49742ef007a0edcaf62a8c69e5a0ed",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682118000463183880",
+        "sha256": "189220b8405d53a7b44f452faec04ffb6fff4ad20f5fd8c21c69e38eb5d42a1f",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682111603734347991",
+        "sha256": "0838110b50f3b1dc53aed76cef03ec72a89741bece3153d95ba56e027c06950f",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682108391799259160",
+        "sha256": "fc6c0c01b827e306314cfeac7192ddd25fe91cd5a54bcb7699924b85bc394feb",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      },
+      {
+        "attachmentId": "682107479454121997",
+        "sha256": "84b8f6d74140e454719b29282a29a1715e78525b24246118aee20a43e3ad4c1a",
+        "reviewStatus": "visually-reviewed",
+        "classification": "not-time-trial-evidence"
+      }
+    ]
+  }
 }
