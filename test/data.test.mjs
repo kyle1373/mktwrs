@@ -692,6 +692,25 @@ test("Valentine's Tour restores the earlier Beach record without inventing dates
   }
 });
 
+test("Hammer Bro split reports do not invent achievement dates or promote slower footage", async () => {
+  const { fastestVideo } = await import("../lib/video.mjs");
+  const frappe = courses.find(c => c.id === "n64-frappe-snowland");
+  assert.deepEqual(frappe.current.laps, ["40.99", "40.99"]);
+  assert.equal(frappe.current.recordDate, null);
+  assert.equal(frappe.current.durationDays, null);
+  for (const [id, time, splits] of [
+    ["n64-frappe-snowland", "1:23.53", ["41.67", "41.86"]],
+    ["gcn-yoshi-circuit-r", "1:33.26", ["46.62", "46.64"]],
+  ]) {
+    const course = courses.find(c => c.id === id);
+    const video = fastestVideo(course);
+    assert.equal(video.time, time);
+    assert.deepEqual(video.laps, splits);
+    assert.equal(video.isCurrent, false);
+    assert(!course.records.some(r => r.time === time));
+  }
+});
+
 test("Baby Rosalina recovered footage supplies a fallback without creating a WR", async () => {
   const { fastestVideo } = await import("../lib/video.mjs");
   const course = courses.find(c => c.id === "snes-mario-circuit-2r");
