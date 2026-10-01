@@ -10,6 +10,21 @@ const read = (name) =>
 const courses = read("courses"),
   players = read("players"),
   tours = read("tours");
+test("Halloween uses original submission chronology and surviving video fallback", async () => {
+  const { fastestVideo } = await import("../lib/video.mjs");
+  const jungle = courses.find(c => c.id === "gcn-dino-dino-jungle-r");
+  assert.deepEqual(jungle.records.filter(r => r.recordDate >= "2021-10-20").map(r => r.time), ["1:39.93", "1:39.72", "1:39.61", "1:39.53", "1:39.36", "1:39.32", "1:39.25"]);
+  assert.equal(jungle.current.recordDate, "2021-10-26");
+  assert(!jungle.records.some(r => ["1:40.16", "1:39.60", "1:40.32"].includes(r.time)), "unresolved earlier runs must not receive invented WR chronology");
+  const ice = courses.find(c => c.id === "3ds-rosalina-s-ice-world");
+  assert.deepEqual(ice.records.filter(r => r.recordDate >= "2021-10-20").map(r => [r.time,r.recordDate]), [["1:29.85","2021-11-02"],["1:29.83","2021-11-02"],["1:29.78","2021-11-02"]]);
+  const video = fastestVideo(ice);
+  assert.equal(video.time, "1:29.85");
+  assert.deepEqual(video.laps, ["44.95","44.90"]);
+  assert.equal(video.isCurrent, false);
+  assert.match(video.videoBackup.url, /XMeEhEvJGeA/);
+  assert(!ice.records.some(r => r.time === "1:30.05"));
+});
 test("Autumn original evidence separates personal bests and tied players' recordings", () => {
   const ghost = courses.find(c => c.id === "rmx-ghost-valley-1");
   assert.deepEqual(ghost.records.map(r => r.time), ["1:02.12", "1:01.87", "1:01.40", "1:01.38", "1:01.37", "1:01.35", "1:01.33", "1:01.33"]);
