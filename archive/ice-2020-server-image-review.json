@@ -1,10 +1,10 @@
 {
-  "query": "after:2020-01-14 before:2020-01-30 has:image",
+  "query": "after:2020-01-14 before:2020-01-30 has:image has:link",
   "searchResultMessages": 219,
   "searchPages": 9,
-  "attachmentImagesVisuallyReviewed": 181,
+  "attachmentImagesVisuallyReviewed": 184,
   "notes": [
-    "All 181 original attachment images downloaded through the browser and visually read in ten labeled contact sheets.",
+    "All 184 original attachment images were downloaded and visually read, including three opening-hour images that fall on the previous local calendar day.",
     "Remaining search results are embeds for official news, ranked races, pipe pulls, gliding and combo challenges; their linked titles and surrounding text were read.",
     "Reviewing the surviving search results does not establish recovery of deleted messages."
   ],
@@ -1860,6 +1860,47 @@
       "index": 180,
       "reviewStatus": "visually-reviewed",
       "classification": "not-a-time-trial-result"
+    },
+    {
+      "id": "666903593575776276",
+      "path": "archive/ice-2020-server-images/666903593575776276.image",
+      "sha256": "ecec4e3615088b60fac9777d21b5fe209ab1b5ec4bbf0307e8ef13d08a82c35e",
+      "channelId": "630496570869022740",
+      "reviewStatus": "visually-reviewed",
+      "classification": "not-a-time-trial-result",
+      "window": "opening-two-hours"
+    },
+    {
+      "id": "666886626042970113",
+      "path": "archive/ice-2020-server-images/666886626042970113.image",
+      "sha256": "d26069f6c5d97fecc87010b9169ee0b3553e9cd38fcd401f36b6504e8d01d523",
+      "channelId": "630496451491004475",
+      "reviewStatus": "visually-reviewed",
+      "classification": "not-a-time-trial-result",
+      "window": "opening-two-hours"
+    },
+    {
+      "id": "666885652918304842",
+      "path": "archive/ice-2020-server-images/666885652918304842.image",
+      "sha256": "936f255b4fc4518174fd0bf25989388ac67b5238b9b5f179e6a3bb9aff38bd79",
+      "channelId": "630496570869022740",
+      "reviewStatus": "visually-reviewed",
+      "classification": "not-a-time-trial-result",
+      "window": "opening-two-hours"
     }
-  ]
+  ],
+  "cleanImageOnlyCrossCheck": {
+    "query": "after:2020-01-14 before:2020-01-30 has:image",
+    "resultMessages": 188,
+    "pages": 8,
+    "attachmentImages": 181,
+    "additionalAttachmentsNotPreviouslyReviewed": 0
+  },
+  "openingHours": {
+    "query": "after:2020-01-13 before:2020-01-15 has:image",
+    "tourStartUtc": "2020-01-15T06:00:00Z",
+    "relevantMessages": 3,
+    "attachmentImagesReviewed": 3,
+    "timeTrialResults": 0
+  }
 }

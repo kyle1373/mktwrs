@@ -592,13 +592,12 @@ function Home({ data, players }) {
         <table className="wr-table">
           <thead>
             <tr>
-              <th>Course</th>
-              <th>Date</th>
-              <th>Time</th>
+              <th>Track</th>
+              <th>Time+Video</th>
               <th>Player</th>
               <th>Nation</th>
-              <th>Days</th>
-              <th>WRs</th>
+              <th>Date</th>
+              <th title="Playable days">Duration</th>
               <th aria-label="Image proof" />
               <th className="proof-column" aria-label="Backup video" />
             </tr>
@@ -613,9 +612,6 @@ function Home({ data, players }) {
                     </td>
                   )}
                   <td>
-                    <RecordDate r={r} />
-                  </td>
-                  <td>
                     <Time record={r} />
                   </td>
                   <td>
@@ -628,14 +624,12 @@ function Home({ data, players }) {
                       }
                     />
                   </td>
+                  <td>
+                    <RecordDate r={r} />
+                  </td>
                   <td className="center">
                     <Duration r={r} />
                   </td>
-                  {!i && (
-                    <td className="center" rowSpan={c.currentHolders.length}>
-                      {c.recordCount}
-                    </td>
-                  )}
                   <td className="proof-column">
                     <Proof r={r} />
                   </td>

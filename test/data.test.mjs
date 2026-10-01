@@ -67,7 +67,7 @@ test("migrated tour labels reject later proof uploads and preserve reviewed tour
   assert.deepEqual(original.tourDateRange, { start: "2020-01-29", end: "2020-02-11" });
   assert.equal(original.recordDate, "2020-02-02", "use the recovered original post, not the December migration upload");
   assert.equal(original.submittedAt, "2020-02-02T00:07:59.000Z");
-  const beach = courses.find(c => c.id === "n64-koopa-troopa-beach").records.find(r => r.playerId === "tomegome");
+  const beach = courses.find(c => c.id === "n64-koopa-troopa-beach").records.find(r => r.playerId === "tomegome" && r.time === "1:13.83");
   assert.equal(beach.recordDate, null, "the malformed tour label must still reject its later migration upload");
   const former = records.find(r => r.playerId === "astre" && r.time === "1:02.74");
   assert.deepEqual(former.tourDateRange, { start: "2021-08-11", end: "2021-08-24" });
@@ -621,7 +621,7 @@ test("Ice Tour uses original Dino Dino Jungle R evidence and keeps slower videos
   const audit = JSON.parse(fs.readFileSync("archive/ice-2020-reconciliation.json", "utf8"));
   assert.equal(audit.historyComplete, false);
   assert.equal(audit.previousBestLeads.length, 2);
-  assert.equal(audit.coverage.originalServerAttachmentImagesVisuallyReviewed, 181);
+  assert.equal(audit.coverage.originalServerAttachmentImagesVisuallyReviewed, 184);
   const castle = courses.find(c => c.id === "gba-bowser-s-castle-1");
   const tomegome = castle.records.find(r => r.playerId === "tomegome" && r.time === "0:59.96");
   const kaguya = castle.records.find(r => r.playerId === "nu11" && r.time === "0:59.96");
@@ -631,4 +631,25 @@ test("Ice Tour uses original Dino Dino Jungle R evidence and keeps slower videos
   assert.equal(kaguya.video, null);
   assert.equal(kaguya.recordDate, null);
   assert.deepEqual(kaguya.laps, [null, null]);
+});
+
+test("Valentine's Tour restores the earlier Beach record without inventing dates for later ties", () => {
+  const beach = courses.find(c => c.id === "n64-koopa-troopa-beach");
+  assert.deepEqual(beach.records.map(r => r.time), ["1:13.86", "1:13.83", "1:13.83"]);
+  const earlier = beach.records[0];
+  assert.equal(earlier.recordDate, "2020-01-29");
+  assert.deepEqual(earlier.laps, ["37.07", "36.79"]);
+  assert.match(earlier.video, /1222534288186298369/);
+  assert.match(earlier.videoBackup.url, /FvfL6hsVpiY/);
+  assert(earlier.additionalSources.some(s => s.messageId === "673024719955689472"));
+  assert.equal(earlier.durationDays, null);
+  assert(beach.records.slice(1).every(r => r.recordDate === null));
+  assert.deepEqual(beach.currentHolders.map(r => r.playerId).sort(), ["nu11", "tomegome"]);
+  for (const [courseId, time] of [["n64-koopa-troopa-beach", "1:14.72"], ["n64-koopa-troopa-beach", "1:14.17"], ["3ds-toad-circuit-r", "1:03.60"]]) {
+    const course = courses.find(c => c.id === courseId);
+    const result = course.submissions.find(r => r.time === time && r.playerId === "astre");
+    assert(result?.proofImageLocal);
+    assert.equal(result.includeInProgression, false);
+    assert(!course.records.some(r => r.id === result.id));
+  }
 });
