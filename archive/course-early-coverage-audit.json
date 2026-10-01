@@ -2,8 +2,8 @@
   "scope": "All published courses. This checks early dated evidence only; it cannot certify that every intermediate record is captured. A tour ends at 06:00 UTC, so dates on the reset day need separate timestamp review.",
   "courseCount": 142,
   "counts": {
-    "first-tour-dated-evidence-missing": 26,
-    "first-tour-dated-evidence-present": 108,
+    "first-tour-dated-evidence-missing": 24,
+    "first-tour-dated-evidence-present": 110,
     "reset-day-timestamp-needs-review": 8
   },
   "courses": [
@@ -417,12 +417,12 @@
     {
       "courseId": "wii-dk-summit-r",
       "name": "Wii DK Summit R",
-      "status": "first-tour-dated-evidence-missing",
+      "status": "first-tour-dated-evidence-present",
       "firstTourStart": "2022-02-09",
       "firstTourEnd": "2022-02-23",
-      "earliestDatedRecord": null,
-      "undatedRecords": 1,
-      "recordCount": 1,
+      "earliestDatedRecord": "2022-02-10",
+      "undatedRecords": 0,
+      "recordCount": 10,
       "historyComplete": false
     },
     {
@@ -1506,12 +1506,12 @@
     {
       "courseId": "3ds-wario-shipyard",
       "name": "3DS Wario Shipyard",
-      "status": "first-tour-dated-evidence-missing",
+      "status": "first-tour-dated-evidence-present",
       "firstTourStart": "2022-02-09",
       "firstTourEnd": "2022-02-23",
-      "earliestDatedRecord": "2023-04-03",
-      "undatedRecords": 3,
-      "recordCount": 4,
+      "earliestDatedRecord": "2022-02-09",
+      "undatedRecords": 2,
+      "recordCount": 19,
       "historyComplete": false
     },
     {
