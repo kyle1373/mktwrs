@@ -544,3 +544,25 @@ test("Yoshi 2022 restores opening records and the distinct N/Nu11 exchange witho
   assert.match(april[12].video, /yHN3K-z03o0/);
   assert([...opening, ...april].every(r => r.proofImageLocal?.startsWith("/assets/proof/")));
 });
+
+test("Amsterdam restores superseded records while respecting the prior all-time WR", () => {
+  const rainbow = courses.find(c => c.id === "rmx-rainbow-road-2");
+  const tour = rainbow.records.filter(r => r.recordDate >= "2022-04-20" && r.recordDate < "2022-05-04");
+  assert.deepEqual(tour.map(r => r.time), ["1:21.52", "1:21.43", "1:21.38", "1:21.37"]);
+  assert.equal(tour[0].submittedAt, "2022-04-23T12:06:48.908Z");
+  assert(!tour[0].proofImageLocal);
+  assert(tour[0].notes.some(n => n.includes("unavailable")));
+  assert.equal(tour[2].playerId, "player-e38199e38184e3819df09f90ba");
+  assert.deepEqual(tour[2].laps, ["40.73", "40.65"]);
+  assert.match(tour[2].source.url, /969894027648466944/);
+  assert(!tour.some(r => ["1:21.66", "1:21.57", "1:21.47"].includes(r.time)));
+  const choco = courses.find(c => c.id === "snes-choco-island-1r");
+  assert.deepEqual(choco.records.map(r => [r.playerId, r.time]), [
+    ["retro", "0:41.98"], ["nu11", "0:41.00"], ["nu11", "0:40.79"],
+    ["nu11", "0:40.69"], ["wins", "0:40.66"],
+  ]);
+  assert.equal(choco.current.recordDate, "2022-04-25");
+  assert.deepEqual(choco.current.laps, ["20.46", "20.20"]);
+  assert.match(choco.current.video, /1521752102640439298/);
+  assert(choco.records.every(r => r.proofImageLocal));
+});
