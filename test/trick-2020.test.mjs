@@ -16,3 +16,11 @@ test('retrospective Tomegome result disqualifies slower later Kazuo runs without
  assert(!c.records.some(r=>['0:34.79','0:34.75'].includes(r.time)));
  const video=c.submissions.find(r=>r.time==='0:34.75'&&r.playerId==='kazuo'&&r.messageId==='704306358438068365-verified');assert(video);assert.equal(video.includeInProgression,false);assert.equal(video.video,'https://www.youtube.com/watch?v=rSqe5vlbZy8');assert.equal(video.videoVerified,true);
 });
+test('opening Vanilla Lake exchange preserves original splits and separates reports from achievements',()=>{
+ const c=course('snes-vanilla-lake-1');
+ const astre=c.records.find(r=>r.messageId==='trick-2020-702434659526770758');
+ assert(astre);assert.equal(astre.time,'0:35.40');assert.deepEqual(astre.laps,['17.71','17.69']);assert(astre.proofImageLocal);
+ const milky=c.records.find(r=>r.messageId==='trick-2020-702437997290848306');
+ assert(milky);assert.equal(milky.time,'0:35.21');assert.equal(milky.recordDate,null);assert.equal(milky.durationDays,null);
+ assert.equal(milky.observedAt,'2020-04-22T08:37:49.221Z');
+});
