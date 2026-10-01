@@ -446,3 +446,21 @@ test('Later Madrid Drive 3 video preserves the original result date and both evi
  assert.deepEqual(c.current.laps,['39.70','39.69']);assert.match(c.current.video,/y5e84zxS4lM/);assert.match(c.current.videoBackup.url,/mI1RpHqJ4So/);
  assert.equal(fastestVideo(c).isCurrent,true);
 });
+
+
+test('Frost restores opening records, a deleted holder, the Kura exchange, and separately attributed recordings',()=>{
+ const dk=courses.find(c=>c.id==='wii-dk-summit');
+ assert.deepEqual(dk.records.map(r=>r.time),['1:35.93','1:35.51','1:34.99','1:34.40','1:34.28','1:33.94','1:33.79','1:33.64','1:33.57','1:33.37','1:33.22','1:33.09','1:32.97','1:32.90','1:32.81']);
+ const unknown=dk.records.find(r=>r.time==='1:35.51');assert(unknown.identityUnresolved);assert.equal(unknown.playerId,'unidentified-runner-frost-2021');assert.equal(unknown.submittedAt,'2021-08-11T06:18:51.388Z');
+ const video=dk.records.find(r=>r.time==='1:32.97');assert.deepEqual(video.laps,['46.44','46.53']);assert.equal(video.recordDate,'2021-08-17');assert.match(video.videoBackup.url,/F1bZ7b-Rk6w/);
+ assert(!dk.records.some(r=>r.time==='1:32.92'));assert(dk.submissions.some(r=>r.time==='1:32.91'&&r.dateUnresolved&&r.includeInProgression===false));
+ const tc=courses.find(c=>c.id==='3ds-toad-circuit-r');assert.deepEqual(tc.records.map(r=>r.time),['1:03.09','1:03.09','1:03.01','1:02.94','1:02.90','1:02.87','1:02.80','1:02.78','1:02.75','1:02.74','1:02.62']);
+ assert.deepEqual(tc.records.slice(0,2).map(r=>r.playerId),['tomegome','astre']);
+ assert.deepEqual(tc.records.find(r=>r.time==='1:03.01').laps,[null,null]);
+ const kura=tc.records.find(r=>r.time==='1:02.90');assert.equal(kura.playerId,'kura');assert.equal(kura.submittedAt,'2021-08-13T10:27:42.285Z');
+ const wins=tc.records.find(r=>r.time==='1:02.94');assert.deepEqual(wins.laps,['31.51','31.43']);assert.match(wins.videoBackup.url,/o4qnh0blS_E/);
+ const astre=tc.records.find(r=>r.time==='1:02.75');assert.equal(astre.recordDate,'2021-08-15');assert.match(astre.videoBackup.url,/l3-1c-8eZ5M/);
+ const former=tc.records.find(r=>r.time==='1:02.74');assert.equal(former.recordDate,null);assert.equal(former.submittedAt,null);assert.deepEqual(former.laps,['31.44','31.30']);assert.equal(fastestVideo(tc).time,'1:02.74');assert.equal(fastestVideo(tc).isCurrent,false);
+ assert(!tc.records.some(r=>r.time==='1:02.95'&&r.playerId==='phillish'));
+ for(const r of [...dk.records.slice(0,-1),...tc.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
+});
