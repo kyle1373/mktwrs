@@ -152,6 +152,14 @@ export function historyEvents(course, tours, asOf) {
     if (resetDates.has(event.date.slice(0, 10)) &&
         timestamp?.slice(0, 10) === event.date.slice(0, 10) &&
         timestamp.slice(11, 19) < "06:00:00") return -1;
+    // An undated predecessor anchored to a final-morning successor belongs
+    // before that successor and the tour end, while its displayed date stays unknown.
+    const record = event.record;
+    if (!record?.recordDate && record?.chronologyDate &&
+        resetDates.has(record.chronologyDate) && records.some(next =>
+          next.timeCs < record.timeCs && next.recordDate === record.chronologyDate &&
+          next.submittedAt?.slice(11, 19) < "06:00:00" &&
+          timestampWithinTour(next.submittedAt, record.tourDateRange))) return -1;
     return order[event.type];
   };
   return events.sort(

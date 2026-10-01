@@ -357,7 +357,7 @@ test('Trick Tour restores dated exchanges and separates recorded PBs from faster
  assert.equal(fastestVideo(rr).time,'1:53.83');assert.equal(fastestVideo(rr).isCurrent,false);assert.match(fastestVideo(rr).videoBackup.url,/zml1t0PMQSg/);
  assert(!rr.records.some(r=>['1:51.98','1:52.93','1:53.55','1:54.66','1:55.63'].includes(r.time)));
  const gv=courses.find(c=>c.id==='snes-ghost-valley-1');
- assert.deepEqual(gv.records.map(r=>r.time),['0:39.93','0:39.92','0:39.88','0:39.88','0:39.87','0:39.76']);
+ assert.deepEqual(gv.records.map(r=>r.time),['0:39.96','0:39.93','0:39.92','0:39.88','0:39.88','0:39.87','0:39.76']);
  assert.equal(gv.current.submittedAt,'2021-06-01T14:37:08.850Z');assert.deepEqual(gv.current.laps,['19.96','19.80']);
  assert.equal(fastestVideo(gv).time,'0:39.82');assert.equal(fastestVideo(gv).playerId,'10mp');assert.equal(fastestVideo(gv).isCurrent,false);assert.deepEqual(fastestVideo(gv).laps,['19.96','19.86']);assert.match(fastestVideo(gv).videoBackup.url,/UapqsqI7oHE/);
  const kno=gv.submissions.find(r=>r.time==='0:39.83'&&r.videoVerified);assert.equal(kno.includeInProgression,false);assert.match(kno.videoBackup.url,/dIffIKUOYMg/);

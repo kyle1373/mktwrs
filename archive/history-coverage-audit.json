@@ -8,9 +8,9 @@
     "unresolved-intermediate-record-leads": 65,
     "no-matched-reconciliation-report": 286,
     "record-evidence-needs-review": 126,
-    "reset-day-records-require-timestamp-check": 23,
+    "reset-day-records-require-timestamp-check": 25,
     "first-appearance-has-no-dated-wr": 27,
-    "undated-announced-wrs": 51
+    "undated-announced-wrs": 50
   },
   "appearances": [
     {
@@ -2475,12 +2475,13 @@
       "endDate": "2020-03-11",
       "datedRecordCount": 0,
       "undatedRecordCount": 1,
-      "resetDayRecordCount": 0,
+      "resetDayRecordCount": 1,
       "openLeadCount": 0,
       "relatedReports": [],
       "flags": [
         "first-appearance-has-no-dated-wr",
         "undated-announced-wrs",
+        "reset-day-records-require-timestamp-check",
         "record-evidence-needs-review",
         "no-matched-reconciliation-report"
       ],
@@ -4838,13 +4839,13 @@
       "startDate": "2020-02-26",
       "endDate": "2020-03-11",
       "datedRecordCount": 0,
-      "undatedRecordCount": 1,
-      "resetDayRecordCount": 0,
+      "undatedRecordCount": 0,
+      "resetDayRecordCount": 1,
       "openLeadCount": 0,
       "relatedReports": [],
       "flags": [
         "first-appearance-has-no-dated-wr",
-        "undated-announced-wrs",
+        "reset-day-records-require-timestamp-check",
         "no-matched-reconciliation-report"
       ],
       "historyComplete": false,

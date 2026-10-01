@@ -633,6 +633,23 @@ test("Ice Tour uses original Dino Dino Jungle R evidence and keeps slower videos
   assert.deepEqual(kaguya.laps, [null, null]);
 });
 
+test("Mario Bros. restores the reported predecessor and original final submissions", () => {
+  const ghost = courses.find(c => c.id === "snes-ghost-valley-1");
+  const predecessor = ghost.records.find(r => r.playerId === "adrishi" && r.time === "0:39.96");
+  assert(predecessor);
+  assert.equal(predecessor.recordDate, null);
+  assert.equal(predecessor.durationDays, null);
+  for (const [courseId, time] of [["snes-ghost-valley-1", "0:39.93"], ["snes-rainbow-road-r", "1:00.16"]]) {
+    const course = courses.find(c => c.id === courseId);
+    const final = course.records.find(r => r.playerId === "adrishi" && r.time === time);
+    assert.equal(final.submittedAt, "2020-03-11T04:56:53.458Z");
+    assert.equal(final.recordDate, "2020-03-11");
+    assert.deepEqual(final.laps, [null, null]);
+    assert(fs.existsSync("public" + final.proofImageLocal));
+  }
+  assert(!ghost.records.some(r => r.playerId === "astre" && r.time === "0:39.99"));
+});
+
 test("Vancouver restores the reported predecessor and original final screenshot without inventing splits", () => {
   const course = courses.find(c => c.id === "snes-choco-island-2r");
   assert.deepEqual(course.records.slice(0, 2).map(r => [r.playerId, r.time]), [["nu11", "0:49.56"], ["astre", "0:49.55"]]);

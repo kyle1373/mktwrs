@@ -5,6 +5,7 @@ import {
   recordDuration,
   progression,
   timestampWithinTour,
+  historyEvents,
 } from "../public/history.mjs";
 test("tour labels include the final morning until the 06:00 UTC reset", () => {
   const range = { start: "2020-07-15", end: "2020-07-28" };
@@ -143,4 +144,17 @@ test("early-morning submissions do not precede their undated-in-day predecessors
     appearances: [],
   }, [], "2020-08-26");
   assert.deepEqual(events.map(e => e.id), ["earlier", "later"]);
+});
+
+test("undated predecessors remain before a final-morning record and tour end", () => {
+  const earlier = { id: "earlier", status: "community-wr", recordDate: null,
+    chronologyDate: "2020-03-11", timeCs: 3996,
+    tourDateRange: { start: "2020-02-26", end: "2020-03-10" } };
+  const events = historyEvents({
+    records: [earlier, { id: "later", status: "community-wr", recordDate: "2020-03-11",
+      submittedAt: "2020-03-11T04:56:53.458Z", timeCs: 3993 }],
+    appearances: [{ tourId: "t", startDate: "2020-02-26", endDate: "2020-03-11" }],
+  }, [{ id: "t", name: "Mario Bros. Tour" }], "2020-03-12");
+  assert.deepEqual(events.map(e => e.id), ["t-start", "earlier", "later", "t-end"]);
+  assert.equal(earlier.recordDate, null);
 });
