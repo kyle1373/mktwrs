@@ -10,6 +10,18 @@ const read = (name) =>
 const courses = read("courses"),
   players = read("players"),
   tours = read("tours");
+test("migrated tour labels reject later proof uploads and preserve reviewed tour bounds", () => {
+  const records = courses.find(c => c.id === "3ds-toad-circuit-r").records;
+  const original = records.find(r => r.playerId === "tomegome" && r.time === "1:03.09");
+  assert.deepEqual(original.tourDateRange, { start: "2020-01-29", end: "2020-02-11" });
+  assert.equal(original.recordDate, "2020-02-02", "use the recovered original post, not the December migration upload");
+  assert.equal(original.submittedAt, "2020-02-02T00:07:59.000Z");
+  const beach = courses.find(c => c.id === "n64-koopa-troopa-beach").records.find(r => r.playerId === "tomegome");
+  assert.equal(beach.recordDate, null, "the malformed tour label must still reject its later migration upload");
+  const former = records.find(r => r.playerId === "astre" && r.time === "1:02.74");
+  assert.deepEqual(former.tourDateRange, { start: "2021-08-11", end: "2021-08-24" });
+  assert.equal(former.recordDate, null, "known tour bounds do not establish a specific day");
+});
 test("Winter 2019 uses original post dates and keeps unconfirmed runs out of WR history", () => {
   const mountain = courses.find(c => c.id === "3ds-rock-rock-mountain");
   const final = mountain.records.find(r => r.time === "1:47.53");

@@ -118,7 +118,7 @@ export function historyEvents(course, tours, asOf) {
   const events = records.map((r) => ({
     type: "record",
     id: r.id,
-    date: r.recordDate || r.tourDateRange?.end || r.announcedAt,
+    date: r.recordDate || r.chronologyDate || r.tourDateRange?.end || r.announcedAt,
     record: r,
   }));
   const seen = new Set();

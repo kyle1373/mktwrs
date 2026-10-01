@@ -301,14 +301,14 @@ for (const c of courses) {
     }
     r.proofUploadedAt ||= attachmentDate(r.proofImage);
     const range = r.tourLabel?.match(
-      /\[(\d{1,2})\/(\d{1,2})\/(\d{2}) - (\d{1,2})\/(\d{1,2})\/(\d{2})\]/,
+      /(\d{1,2})\/(\d{1,2})\/(\d{2})\s*-\s*(\d{1,2})\/(\d{1,2})\/(\d{2})/,
     );
     r.tourDateRange = range
       ? {
           start: `20${range[3]}-${range[2].padStart(2, "0")}-${range[1].padStart(2, "0")}`,
           end: `20${range[6]}-${range[5].padStart(2, "0")}-${range[4].padStart(2, "0")}`,
         }
-      : null;
+      : r.tourDateRange || null;
     const inRecordTour = (value) => timestampWithinTour(value, r.tourDateRange);
     const submissionDate = inRecordTour(r.submittedAt)
       ? r.submittedAt?.slice(0, 10)
@@ -327,6 +327,15 @@ for (const c of courses) {
   }
   for (const r of c.records) {
     const later = c.records.filter((n) => n.timeCs < r.timeCs);
+    // Position an undated intermediate WR before its dated successor in the
+    // same tour. This is an ordering anchor, never an achievement date.
+    delete r.chronologyDate;
+    if (!r.recordDate && r.tourDateRange) {
+      const nextDate = later.filter(n => n.recordDate && timestampWithinTour(
+        n.submittedAt || `${n.recordDate}T12:00:00Z`, r.tourDateRange,
+      )).map(n => n.recordDate).sort()[0];
+      if (nextDate) r.chronologyDate = nextDate;
+    }
     const nextTime = Math.max(...later.map((n) => n.timeCs));
     const nextRecords = later.filter((n) => n.timeCs === nextTime);
     r.durationEnd =
@@ -371,8 +380,8 @@ for (const c of courses) {
   );
   c.records.sort(
     (a, b) =>
-      (a.recordDate || a.tourDateRange?.end || a.announcedAt).slice(0, 10).localeCompare(
-        (b.recordDate || b.tourDateRange?.end || b.announcedAt).slice(0, 10),
+      (a.recordDate || a.chronologyDate || a.tourDateRange?.end || a.announcedAt).slice(0, 10).localeCompare(
+        (b.recordDate || b.chronologyDate || b.tourDateRange?.end || b.announcedAt).slice(0, 10),
       ) || b.timeCs - a.timeCs,
   );
 }

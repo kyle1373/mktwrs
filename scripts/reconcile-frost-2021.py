@@ -64,7 +64,7 @@ unknown.update(identityUnresolved=True)
 unknown['notes'].append('Deleted Discord account. Its immediately following message explicitly says New wr, between Y146’s 1:35.93 and 1:34.99. Preserve the record without guessing the runner’s identity or merging unrelated deleted accounts.')
 unknown['additionalSources'] = [{'url': base + '636461740162416640/874899685150720022', 'kind': 'adjacent-wr-confirmation'}]
 by[('3ds-toad-circuit-r', '1:03.01')]['notes'].append('Adjacent .67/.85 belongs to Whiplash’s separate 1:03.52, not this Wins result. Splits remain unknown.')
-by[('3ds-toad-circuit-r', '1:03.09')]['notes'].append('Runner explicitly says Old WR tie; this ties Tomegome’s December 2020 record.')
+by[('3ds-toad-circuit-r', '1:03.09')]['notes'].append('Runner explicitly says Old WR tie; this ties Tomegome’s Valentine’s Tour record.')
 by[('3ds-toad-circuit-r', '1:02.90')]['notes'].append('Original image precedes Astre’s 1:02.87. Astre congratulates Kura in the surrounding discussion. Previous-best 1:02.97 is slower than Wins’s already established 1:02.94 and is not another WR.')
 by[('3ds-toad-circuit-r', '1:02.87')]['additionalSources'] = [{'url': base + '875784780573184010/875846573328834591', 'kind': 'adjacent-lap-reply'}]
 videos = {
