@@ -566,3 +566,24 @@ test("Amsterdam restores superseded records while respecting the prior all-time 
   assert.match(choco.current.video, /1521752102640439298/);
   assert(choco.records.every(r => r.proofImageLocal));
 });
+
+test("Doctor Tour restores the Daisy Hills exchanges without backdating an undisclosed video", () => {
+  const daisy = courses.find(c => c.id === "3ds-daisy-hills-r");
+  const tour = daisy.records.filter(r => r.recordDate >= "2022-05-04" && r.recordDate <= "2022-05-18");
+  assert.deepEqual(tour.map(r => r.time), ["1:20.88", "1:20.82", "1:20.78", "1:20.60", "1:20.53", "1:20.38", "1:20.26", "1:20.21", "1:20.09", "1:19.95"]);
+  assert.equal(tour[3].playerId, "nu11");
+  assert.equal(tour[8].recordDate, "2022-05-17");
+  assert.deepEqual(tour[8].laps, ["40.08", "40.01"]);
+  assert.match(tour[8].video, /lmAiDVHqHwg/);
+  assert.equal(tour[9].submittedAt, "2022-05-18T05:55:34.604Z");
+  const report = JSON.parse(fs.readFileSync("archive/doctor-2022-reconciliation.json", "utf8"));
+  assert(report.confirmedChanges.find(r => r.player === "Fireball").notes.some(n => n.includes("May 13 upload timestamp")));
+  assert.match(tour[7].video, /1524705707051868161/);
+  assert.deepEqual(tour[7].laps, ["40.11", "40.10"]);
+  assert(tour.every(r => r.proofImageLocal?.startsWith("/assets/proof/")));
+  assert(!tour.some(r => ["1:20.75", "1:20.71", "1:20.36", "1:20.11"].includes(r.time)));
+  const cheep = courses.find(c => c.id === "gba-cheep-cheep-island");
+  assert.deepEqual(cheep.records.filter(r => r.recordDate >= "2022-05-04").map(r => r.time), ["1:11.75"]);
+  assert.deepEqual(cheep.current.laps, ["35.92", "35.83"]);
+  assert.equal(cheep.current.submittedAt, "2022-05-05T05:03:04.671Z");
+});
