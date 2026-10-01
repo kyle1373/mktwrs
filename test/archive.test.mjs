@@ -85,7 +85,7 @@ test('Winter 2020 restores both exchanges and attributes tied footage to its act
  assert.match(fx.video,/kdfx2c/);assert.match(fx.videoBackup.url,/9ZHoPbG1evM/);
  const wk=ci.records.find(r=>r.playerId==='wakinyo');assert(!wk.proofImage);assert.deepEqual(wk.laps,['20.30','19.99']);
  const mt=courses.find(c=>c.id==='wii-maple-treeway');
- const dated=mt.records.filter(r=>r.recordDate);
+ const dated=mt.records.filter(r=>r.recordDate?.startsWith("2020-"));
  assert.deepEqual(dated.map(r=>r.time),['1:48.66','1:47.67','1:47.57','1:47.57','1:47.09','1:47.08','1:47.02','1:46.73','1:46.64','1:46.62','1:46.16']);
  assert.equal(dated.at(-1).recordDate,'2020-12-08');assert.deepEqual(dated.at(-1).laps,['52.99','53.17']);
  assert(!mt.records.some(r=>r.time==='1:47.07'));
@@ -199,8 +199,8 @@ test('Peach vs Daisy restores dated exchanges and separates later tied footage',
  assert(!cm.records.some(r=>['1:18.72','1:18.15','1:18.11'].includes(r.time)));
  assert.equal(cm.records.find(r=>r.time==='1:18.27').derivedLap,2);
  assert.deepEqual(cm.records.find(r=>r.time==='1:18.27').laps,['39.09','39.18']);
- const fallback=fastestVideo(cm);assert.equal(fallback.time,'1:17.95');assert.equal(fallback.playerId,'kazuo');assert.equal(fallback.isCurrent,false);
- assert.match(fallback.video,/1362916914759159808/);assert.match(fallback.videoBackup.url,/kxAngKdbpcA/);
+ const fallback=fastestVideo(cm);assert.equal(fallback.time,'1:17.90');assert.equal(fallback.playerId,'nu11');assert.equal(fallback.isCurrent,false);
+ const kazuo=cm.submissions.find(r=>r.video?.includes('1362916914759159808')&&r.videoBackup);assert.match(kazuo.videoBackup.url,/kxAngKdbpcA/);
  assert.equal(cm.current.time,'1:17.87');assert.equal(cm.current.recordDate,'2021-02-19');
  assert.equal(cm.current.delayedSubmission,true);assert.equal(cm.current.durationDays,null);
  for(const time of ['1:18.25','1:18.21','1:17.95']) {
@@ -497,4 +497,16 @@ test('Space restores original exchanges and ties without turning a repost or slo
  assert(rr.submissions.some(r=>r.time==='1:21.88'&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
  const local=runs.find(r=>r.time==='1:21.91');assert(fs.existsSync('public'+new URL(local.video).pathname));assert(local.additionalSources.some(s=>s.url.includes('911957820411371550')));
  const ktb=courses.find(c=>c.id==='snes-koopa-troopa-beach-2');const november=ktb.records.filter(r=>r.submittedAt?.startsWith('2021-11'));assert.deepEqual(november.map(r=>r.time),['0:57.51']);assert.deepEqual(november[0].laps,['28.88','28.63']);
+});
+
+test('Holiday restores the DIT exchange from surviving text and dates NHSpeedy original results',()=>{
+ const mt=courses.find(c=>c.id==='wii-maple-treeway');const late=mt.records.filter(r=>r.recordDate>='2021-12-01');
+ assert.deepEqual(late.map(r=>r.time),['1:45.92','1:45.88','1:45.75']);
+ assert.deepEqual(late.map(r=>r.playerId),['nhspeedy','dit','nhspeedy']);
+ assert.deepEqual(late.map(r=>r.durationDays),[1,8,4]);
+ assert.deepEqual(late[1].laps,['52.78','53.10']);assert.equal(late[1].submittedAt,'2021-12-03T08:59:23.267Z');assert(!late[1].proofImageLocal);assert(late[1].notes.some(n=>n.includes('HTTP 404')));
+ assert.equal(late[2].submittedAt,'2021-12-11T16:15:12.935Z');assert.deepEqual(late[2].laps,['52.92','52.83']);
+ const nita=mt.submissions.find(r=>r.video?.includes('Udm4G22UIJY')&&r.videoVerified);assert.equal(nita.includeInProgression,false);assert.deepEqual(nita.laps,['53.92','53.87']);
+ const cm=courses.find(c=>c.id==='n64-choco-mountain-r');assert(!cm.records.some(r=>r.recordDate>='2021-12-01'));
+ const pb=cm.submissions.find(r=>r.id?.startsWith('curated-')&&r.video?.includes('1468908639646019585')&&r.videoVerified);assert.equal(pb.time,'1:17.90');assert.equal(pb.includeInProgression,false);assert.deepEqual(pb.laps,['38.79','39.11']);assert.equal(pb.submittedAt.slice(0,10),'2021-12-09');assert(fs.existsSync('public'+pb.proofImageLocal));
 });
