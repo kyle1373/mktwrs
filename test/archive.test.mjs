@@ -399,3 +399,15 @@ test('Paris Tour preserves record exchanges, delayed WR evidence, and player ide
  const phillVideo=rrm.submissions.find(r=>r.video?.includes('KvnCYsi8Ozg')&&r.videoVerified);assert.equal(phillVideo.time,'1:47.09');assert.deepEqual(phillVideo.laps,['53.69','53.40']);assert.equal(phillVideo.includeInProgression,false);assert(!rrm.records.some(r=>r.time==='1:47.06'));
  for(const r of [...rr.records,...dp.records.filter(r=>r.recordDate<'2021-07-01'),...rrm.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
+
+test('Summer Tour restores the original Twitter date and preserves the faster no-video result',()=>{
+ const ci=courses.find(c=>c.id==='rmx-choco-island-1');
+ const summer=ci.records.filter(r=>r.recordDate>='2021-06-30'&&r.recordDate<'2021-07-14');
+ assert.deepEqual(summer.map(r=>r.time),['1:12.32','1:12.28','1:12.24','1:12.08']);
+ assert.deepEqual(summer.map(r=>r.laps),[['36.38','35.94'],['36.25','36.03'],['36.17','36.07'],['36.05','36.03']]);
+ const tome=summer[2];assert.equal(tome.playerId,'tomegome');assert.equal(tome.submittedAt,'2021-07-06T12:00:05.000Z');assert.match(tome.source.url,/1412380830387773444/);assert.match(tome.video,/1412384717966508034/);assert.match(tome.videoBackup.url,/sWfK59GisAs/);
+ assert.equal(ci.current.submittedAt,'2021-07-13T15:00:30.792Z');assert(!ci.current.video);assert.equal(fastestVideo(ci).time,'1:12.24');assert.equal(fastestVideo(ci).isCurrent,false);
+ assert(!ci.records.some(r=>r.time==='1:12.23'));assert(ci.submissions.some(r=>r.time==='1:12.23'&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
+ const af=courses.find(c=>c.id==='ds-airship-fortress-r');assert.equal(af.current.recordDate,'2021-01-12');assert.equal(af.current.time,'1:36.44');
+ for(const r of summer)assert(fs.existsSync('public'+r.proofImageLocal));
+});
