@@ -208,7 +208,10 @@ test('Peach vs Daisy restores dated exchanges and separates later tied footage',
   assert(cm.submissions.some(r=>r.time===time&&r.includeInProgression===false));
  }
  assert.match(sw.records.find(r=>r.time==='1:10.53').video,/aNjiaWm-h9Y/);
- assert.match(sw.records.find(r=>r.time==='1:10.53').videoBackup.url,/0h2DWfWN24Y/);
+ const sunsetBackup=sw.records.find(r=>r.time==='1:10.53').videoBackup;
+ assert.match(sunsetBackup.url,/X9MTQhANIls/);
+ assert.equal(sunsetBackup.audio,'removed');
+ assert.match(sunsetBackup.blockedOriginalUpload,/0h2DWfWN24Y/);
  assert(cm.submissions.some(r=>r.time==='1:18.05'&&r.dateUnresolved&&r.includeInProgression===false));
 });
 

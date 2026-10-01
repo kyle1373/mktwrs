@@ -10,6 +10,24 @@ const read = (name) =>
 const courses = read("courses"),
   players = read("players"),
   tours = read("tours");
+test("Autumn original evidence separates personal bests and tied players' recordings", () => {
+  const ghost = courses.find(c => c.id === "rmx-ghost-valley-1");
+  assert.deepEqual(ghost.records.map(r => r.time), ["1:02.12", "1:01.87", "1:01.40", "1:01.38", "1:01.37", "1:01.35", "1:01.33", "1:01.33"]);
+  const kaguya = ghost.records.find(r => r.time === "1:01.40");
+  assert.equal(kaguya.submittedAt, "2021-10-06T09:36:26.000Z");
+  const dit = ghost.records.find(r => r.playerId === "dit" && r.time === "1:01.33");
+  const seboss = ghost.records.find(r => r.playerId === "seboss" && r.time === "1:01.33");
+  assert.equal(dit.recordDate, "2021-10-17");
+  assert.equal(dit.video, null, "Seboss's footage is not proof of DIT's tied run");
+  assert.deepEqual(dit.laps, ["30.70", "30.63"]);
+  assert.equal(seboss.submittedAt, "2021-10-20T05:47:51.251Z");
+  assert.deepEqual(seboss.laps, ["30.66", "30.67"]);
+  assert.match(seboss.video, /FhZOgmYkANs/);
+  assert.equal(seboss.durationDays, 0, "the tie was submitted shortly before reset");
+  const sunset = courses.find(c => c.id === "gba-sunset-wilds-r");
+  assert.deepEqual(sunset.records.filter(r => r.recordDate >= "2021-10-01").map(r => [r.time, r.recordDate]), [["1:10.50", "2021-10-10"], ["1:10.40", "2021-10-11"], ["1:10.24", "2021-10-17"]]);
+  assert(!sunset.records.some(r => ["wins", "nick", "haruru"].includes(r.playerId) && r.time === "1:10.53"), "reposts of the same image are not three WR ties");
+});
 test("migrated tour labels reject later proof uploads and preserve reviewed tour bounds", () => {
   const records = courses.find(c => c.id === "3ds-toad-circuit-r").records;
   const original = records.find(r => r.playerId === "tomegome" && r.time === "1:03.09");
