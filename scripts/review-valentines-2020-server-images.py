@@ -21,7 +21,7 @@ for im in images:
         im['messageText']=art['text']
         time,prev=times[index];im.update(time=time,previousBest=prev,classification='slower-than-already-documented-result')
         im['courseId']='3ds-toad-circuit-r' if index in [106,146,151,155,156,163] else 'n64-koopa-troopa-beach'
-        if index==10:im.update(courseId='3ds-toad-circuit',classification='next-tour-boundary-submission')
+        if index==10:im.update(courseId='snes-rainbow-road',classification='next-tour-boundary-submission')
         if index==266:im.update(courseId='gcn-dino-dino-jungle-r',classification='previous-tour-boundary-submission')
         if index in [163,247]:im['classification']='historical-wr-status-unresolved'
         if index==50:im['laps']=['37.14','37.82']

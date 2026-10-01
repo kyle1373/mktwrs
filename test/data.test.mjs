@@ -633,6 +633,23 @@ test("Ice Tour uses original Dino Dino Jungle R evidence and keeps slower videos
   assert.deepEqual(kaguya.laps, [null, null]);
 });
 
+test("Vancouver restores the reported predecessor and original final screenshot without inventing splits", () => {
+  const course = courses.find(c => c.id === "snes-choco-island-2r");
+  assert.deepEqual(course.records.slice(0, 2).map(r => [r.playerId, r.time]), [["nu11", "0:49.56"], ["astre", "0:49.55"]]);
+  const [earlier, final] = course.records;
+  assert.equal(earlier.recordDate, null);
+  assert.equal(earlier.durationDays, null);
+  assert.equal(final.submittedAt, "2020-02-25T23:13:51.000Z");
+  assert.deepEqual(final.laps, [null, null]);
+  assert(fs.existsSync("public" + final.proofImageLocal));
+  const slower = course.submissions.find(r => r.time === "0:49.65" && r.playerId === "astre");
+  assert.deepEqual(slower.laps, ["24.82", "24.83"]);
+  assert.equal(slower.includeInProgression, false);
+  assert(!course.records.some(r => r.time === "0:49.65"));
+  const rainbow = courses.find(c => c.id === "snes-rainbow-road");
+  assert.equal(rainbow.records.find(r => r.time === "0:59.94").recordDate, null);
+});
+
 test("Valentine's Tour restores the earlier Beach record without inventing dates for later ties", () => {
   const beach = courses.find(c => c.id === "n64-koopa-troopa-beach");
   assert.deepEqual(beach.records.map(r => r.time), ["1:13.86", "1:13.83", "1:13.83"]);
