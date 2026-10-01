@@ -97,7 +97,9 @@ function BackupProof({ r }) {
     target="_blank"
     rel="noopener noreferrer"
     aria-label={`Watch backup video for ${r.time}`}
-    title="Watch unlisted video backup on SuperFX64"
+    title={r.videoBackup.kind === "player-recovery"
+      ? `Watch recovered video supplied by ${r.videoBackup.channel}`
+      : `Watch ${r.videoBackup.visibility || "unlisted"} video backup on ${r.videoBackup.channel || "SuperFX64"}`}
   ><BackupIcon /></a> : null;
 }
 function Player({ id, players }) {
@@ -164,7 +166,7 @@ function DateKey() {
         />
         <path d="M2 13 7 6l4 5 2-2 5 4" fill="none" stroke="currentColor" />
       </svg>{" "}
-      opens image proof; <BackupIcon /> opens the unlisted video backup.
+      opens image proof; <BackupIcon /> opens a preserved video copy.
     </p>
   );
 }
@@ -497,7 +499,9 @@ function FastestVideo({ course: c, players }) {
       <p><strong>{r.time}</strong> · <Player id={r.playerId} players={players} /> · {r.isCurrent ? "Current world record" : "Fastest documented run with available footage"}</p>
       <p className="video-links">
         {r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}
-        {r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video (SuperFX64 · unlisted)</a></>}
+        {r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">{r.videoBackup.kind === "player-recovery"
+          ? `Recovered video (${r.videoBackup.channel})`
+          : `Backup video (${r.videoBackup.channel || "SuperFX64"} · ${r.videoBackup.visibility || "unlisted"})`}</a></>}
       </p>
       {!r.isCurrent && <p className="table-note">The current WR has no verified available video in the archive. This footage shows the time above.</p>}
     </> : <p className="table-note">No available video has been verified for this course yet.</p>}

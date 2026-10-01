@@ -19,10 +19,12 @@ test("Halloween uses original submission chronology and surviving video fallback
   const ice = courses.find(c => c.id === "3ds-rosalina-s-ice-world");
   assert.deepEqual(ice.records.filter(r => r.recordDate >= "2021-10-20").map(r => [r.time,r.recordDate]), [["1:29.85","2021-11-02"],["1:29.83","2021-11-02"],["1:29.78","2021-11-02"]]);
   const video = fastestVideo(ice);
-  assert.equal(video.time, "1:29.85");
-  assert.deepEqual(video.laps, ["44.95","44.90"]);
-  assert.equal(video.isCurrent, false);
-  assert.match(video.videoBackup.url, /XMeEhEvJGeA/);
+  assert.equal(video.time, "1:29.78");
+  assert.deepEqual(video.laps, ["44.84","44.94"]);
+  assert.equal(video.isCurrent, true);
+  assert.match(video.video, /1455900270009847813/);
+  assert.match(video.videoBackup.url, /cdvRa_5DaFw/);
+  assert.equal(video.videoBackup.channel, "DIT");
   assert(!ice.records.some(r => r.time === "1:30.05"));
 });
 test("Autumn original evidence separates personal bests and tied players' recordings", () => {
