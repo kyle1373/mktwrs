@@ -3,24 +3,39 @@
   "complete": false,
   "channel": "tt-discussion",
   "channelId": "636461740162416640",
-  "capturedPages": 72,
-  "capturedUniqueMessages": 1195,
+  "capturedPages": 124,
+  "capturedUniqueMessages": 2015,
   "firstCapturedAt": "2020-10-21T05:53:42.415Z",
-  "lastCapturedAt": "2020-10-26T10:29:18.048Z",
-  "lastCapturedMessageId": "770232583131758662",
-  "nextPage": 72,
-  "visuallyReviewedImages": 153,
+  "lastCapturedAt": "2020-11-04T06:10:58.621Z",
+  "lastCapturedMessageId": "773429064613494795",
+  "nextPage": 124,
+  "visuallyReviewedImages": 268,
   "imageHashFailures": [],
   "remaining": [
-    "Continue discussion cursor through 2020-11-04T06:00:00Z",
     "Cross-check tt-submission and other historical WR sources",
     "Verify and preserve external videos and Discord clips",
     "Resolve undated earlier personal-best screenshots before considering WR progression"
   ],
-  "connectionStatus": "Archive tab and fresh cursor tab reported unreachable during page 72.",
+  "connectionStatus": "Discord message DOM accessible; accessibility-tree unreachable response was not a login or content-access failure.",
   "pageContinuity": {
-    "consecutivePagePairs": 71,
+    "consecutivePagePairs": 123,
     "pairsWithoutSharedMessages": 0,
     "result": "Every captured adjacent page overlaps; no skipped page transition detected."
-  }
+  },
+  "supplementalImageReview": {
+    "source": "Previously captured early-image-index.json, visually rechecked against downloaded originals",
+    "lastImagePostedAt": "2020-11-04T05:59:52.736Z",
+    "additionalImagesReviewed": 112,
+    "doesNotExtendContinuousMessageCoverage": true,
+    "missingAssets": [
+      {
+        "id": "36f28b6cbd4bc04ab72fead3",
+        "messageId": "772405770238165002",
+        "url": "https://pbs.twimg.com/media/ElKISMaVgAIkk5s.jpg:large",
+        "status": "Previously known missing external image; matching Wakinyo 1:30.76 Discord result survives."
+      }
+    ]
+  },
+  "continuousDiscussionThroughTourEnd": true,
+  "coverageLimitation": "This certifies the captured tt-discussion interval and reviewed images, not completeness across all channels or all historical WRs."
 }
