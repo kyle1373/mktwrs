@@ -1,15 +1,17 @@
 {
   "tour": "Wild West Tour 2020",
   "complete": false,
-  "lastForwardPage": 84,
-  "uniqueMessagesCaptured": 1295,
-  "bodiesReadThrough": "2020-07-30T18:40:16.968Z",
-  "nextCursor": "738466010625081457",
+  "lastForwardPage": 111,
+  "uniqueMessagesCaptured": 1700,
+  "bodiesReadThrough": "2020-08-01T18:29:24.831Z",
+  "nextCursor": "739188051095322814",
   "note": "Opening context also preserved in Exploration census pages 170\u2013171. Image review and WR reconciliation pending.",
-  "preservedAttachmentsVisuallyRead": 152,
+  "preservedAttachmentsVisuallyRead": 209,
   "recoveredThisPass": [
     "SuperFX 1:20.10 laps 39.98/40.12 from adjacent message.",
-    "SuperFX 1:20.44 and Nu11 1:20.36 original text WR reports with exact submission timestamps."
+    "SuperFX 1:20.44 and Nu11 1:20.36 original text WR reports with exact submission timestamps.",
+    "Player->1.13 0:50.67 original Twitter video preserved and visually verified, supporting footage outside WR progression.",
+    "Nu11 0:50.24 missing laps restored from adjacent message: 25.26 / 24.98."
   ],
   "pendingReconciliation": [
     {
@@ -33,6 +35,13 @@
       "video": "https://twitter.com/Road2Gold2/status/1288904126902878208",
       "sourceMessage": "738462974834114630",
       "reason": "Recorded slower run mentioned at 18:06 and Twitter link shared at 18:28 on July30. Must visually verify before assigning as video proof or fastest available video; not a WR after Troy 0:50.30."
+    },
+    {
+      "courseId": "snes-donut-plains-1r",
+      "player": "Troy",
+      "time": "0:50.30",
+      "sourceMessage": "738454555372683374",
+      "reason": "Troy explicitly states he did not record because recording freezes his phone. This explains absent video for the current July30 WR; retain image proof."
     }
   ]
 }
