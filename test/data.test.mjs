@@ -156,7 +156,7 @@ test("Peach Tour preserves WR ties, text-only improvements and evidence-based sp
   assert(!rmx.some(r => r.playerId === "tomegome" && r.time === "1:31.04"));
   const frappe = courses.find(c => c.id === "n64-frappe-snowland-r").records;
   assert.deepEqual(frappe.filter(r => r.time === "1:21.92").map(r => r.playerId).sort(), ["phillish", "troy"]);
-  assert.equal(frappe.find(r => r.time === "1:21.05").laps, null);
+  assert.deepEqual(frappe.find(r => r.time === "1:21.05").laps, ["40.53", "40.52"]);
   assert.equal(frappe.find(r => r.time === "1:20.85").recordDate, "2020-06-29");
 });
 test("every course record and submission has valid references and integer time units", () => {
