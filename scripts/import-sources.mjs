@@ -497,7 +497,13 @@ export function importSources(courses, players) {
           ? [s.proofUploadedAt, attachmentDate(r.proofImage)]
               .filter(Boolean).sort()[0] || null
           : s.proofUploadedAt || attachmentDate(r.proofImage);
-        r.video ||= s.video;
+        // A later verified recording may augment an earlier submission whose
+        // bot entry omitted the video. Keep the earlier date and use exact
+        // source identity so equal-time reruns cannot donate unrelated proof.
+        const verifiedVideo = matches.find((m) =>
+          m.videoVerified && m.video && m.source?.url === s.source?.url,
+        );
+        r.video ||= s.video || verifiedVideo?.video || null;
         const rejectedVideo = matches
           .flatMap((m) => m.rejectedVideos || [])
           .find((evidence) => evidence.url === r.video ||
