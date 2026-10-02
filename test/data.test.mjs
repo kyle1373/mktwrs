@@ -127,8 +127,10 @@ test("Cooking Tour preserves WR exchanges, original splits and verified proof da
   assert.equal(record("0:49.77", "kazuo").recordDate, "2020-06-09");
   assert.equal(record("0:49.77", "kazuo").video, null);
   assert(record("0:49.77", "kazuo").videoRejection);
-  assert.equal(record("0:50.59", "nu11").durationDays, 1,
-    "an undated record from a later tour cannot erase a fully dated earlier reign");
+  assert.equal(record("0:50.59", "nu11").durationDays, 0,
+    "the recovered June 3 stream-backed 50.53 ends the 50.59 reign the same day");
+  assert.equal(record("0:50.53", "nu11").recordDate, "2020-06-03");
+  assert.equal(record("0:50.53", "kazuo").recordDate, "2020-06-04");
   assert.equal(record("0:49.77", "kazuo").durationDays, 9,
     "the recovered November 4 successor resolves eight Cooking Tour days plus one return-tour day");
   assert(!record("0:49.97", "nu11"), "a later PB slower than the standing WR is excluded");
