@@ -20,7 +20,9 @@
       "reviewStatus": "pending",
       "retrievalStatus": "pending",
       "attempt": "https://web.archive.org/web/20191123131116if_/https://pbs.twimg.com/media/EKB7tpiUYAApwAq.jpg",
-      "error": "<urlopen error [Errno 61] Connection refused>"
+      "error": "<urlopen error [Errno 61] Connection refused>",
+      "alternateAttempt": "https://web.archive.org/web/20191123131116im_/https://pbs.twimg.com/media/EKB7tpiUYAApwAq.jpg",
+      "alternateError": "HTTP Error 404: NOT FOUND"
     },
     {
       "sourcePost": {
@@ -208,7 +210,12 @@
       "time": "1:47.58",
       "previousBest": "1:47.78",
       "courseId": "3ds-rock-rock-mountain",
-      "decision": "Dated supporting result; WR status pending earlier rival chronology."
+      "decision": "Dated supporting result; WR status pending earlier rival chronology.",
+      "laps": [
+        "53.87",
+        "53.71"
+      ],
+      "lapSource": "https://x.com/_Kaguya_Games/status/1201348759277293568"
     }
   ]
 }
