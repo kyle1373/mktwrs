@@ -4,7 +4,7 @@
   "priorLedger": "archive/early-visual-review.json",
   "indexed": 311,
   "matchedPriorVisualReview": 6,
-  "requiresReview": 258,
+  "requiresReview": 256,
   "rows": [
     {
       "messageId": "661832001921220627",
@@ -721,7 +721,9 @@
         "657126875159724059"
       ],
       "priorVisualReviews": [],
-      "needsImageReview": true
+      "needsImageReview": false,
+      "currentDisposition": "non-time-trial-image",
+      "reviewBasis": "Original screenshot visually shows seven Koopa multiplayer placement/driver rows, no TT time."
     },
     {
       "messageId": "657124433353375746",
@@ -730,7 +732,9 @@
         "657124432707321856"
       ],
       "priorVisualReviews": [],
-      "needsImageReview": true
+      "needsImageReview": false,
+      "currentDisposition": "non-time-trial-image",
+      "reviewBasis": "Original screenshot visually shows King Boo Cup multiplayer random-match/create-lobby interface, not timed result."
     },
     {
       "messageId": "657118349486063619",
@@ -3196,7 +3200,7 @@
     }
   ],
   "note": "Matching a prior review is evidence coverage, not WR certification. Review unlinked images before declaring chronology complete.",
-  "newlyClassifiedNonRecords": 47,
+  "newlyClassifiedNonRecords": 49,
   "allReviewFileMatches": 6,
   "additionalSavedReviewMatchesAreNotAutomaticallyResolved": true,
   "dec18UtcPending": 0
