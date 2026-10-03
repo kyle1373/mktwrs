@@ -4,7 +4,7 @@
   "priorLedger": "archive/early-visual-review.json",
   "indexed": 311,
   "matchedPriorVisualReview": 6,
-  "requiresReview": 298,
+  "requiresReview": 294,
   "rows": [
     {
       "messageId": "661832001921220627",
@@ -252,7 +252,9 @@
         "656851996820897822"
       ],
       "priorVisualReviews": [],
-      "needsImageReview": true
+      "needsImageReview": false,
+      "currentDisposition": "player-level-reward",
+      "reviewBasis": "Congratulations player level 79 reward screen; no racing time."
     },
     {
       "messageId": "656848408933302272",
@@ -272,7 +274,9 @@
         "656848157837099051"
       ],
       "priorVisualReviews": [],
-      "needsImageReview": true
+      "needsImageReview": false,
+      "currentDisposition": "normal-race-player-banner",
+      "reviewBasis": "First-place Yoshi banner with player and equipment; no timer or TT result."
     },
     {
       "messageId": "656842046354489354",
@@ -282,7 +286,9 @@
         "656842045817880576"
       ],
       "priorVisualReviews": [],
-      "needsImageReview": true
+      "needsImageReview": false,
+      "currentDisposition": "ranked-score-boards",
+      "reviewBasis": "Two Japanese ranked cup scoreboards, not TT totals."
     },
     {
       "messageId": "656840504025153536",
@@ -292,7 +298,9 @@
         "656840503530094612"
       ],
       "priorVisualReviews": [],
-      "needsImageReview": true
+      "needsImageReview": false,
+      "currentDisposition": "ranked-score-boards",
+      "reviewBasis": "Both images visibly show ranked cup positions and scores."
     },
     {
       "messageId": "656827816490434560",
@@ -2982,5 +2990,5 @@
     }
   ],
   "note": "Matching a prior review is evidence coverage, not WR certification. Review unlinked images before declaring chronology complete.",
-  "newlyClassifiedNonRecords": 7
+  "newlyClassifiedNonRecords": 11
 }
