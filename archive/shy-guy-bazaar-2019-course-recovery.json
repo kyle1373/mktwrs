@@ -219,5 +219,44 @@
       }
     ],
     "limitation": "Search of saved text only. Image-only times, uncaptured messages and deleted posts are not covered."
+  },
+  "rivalPreviousBestRecheck": [
+    {
+      "player": "Nu11",
+      "currentTime": "1:41.58",
+      "previousBest": "1:42.86",
+      "messageId": "641955993789399043",
+      "attachmentId": "641955993789399040",
+      "originalFile": "archive/early-submission-images/641955993789399040.png",
+      "sha256": "00f6161e4d0e5086f7a2df3b74829e2176ba8966d5b7aabed5aa540893559d0f",
+      "status": "Visually confirmed prior personal best; exact achievement date and WR status unresolved."
+    },
+    {
+      "player": "Unreal91",
+      "currentTime": "1:41.55",
+      "previousBest": "1:41.93",
+      "messageId": "642770897517936672",
+      "attachmentId": "642770896473292801",
+      "originalFile": "archive/early-submission-images/642770896473292801.jpg",
+      "sha256": "d84ba194a07b2c75be2287da8ac3611546c060afbca427b4fc4c21875b80ec12",
+      "status": "Visually confirmed prior personal best; exact achievement date and WR status unresolved."
+    }
+  ],
+  "nativeServerRecheck": {
+    "verifiedResultCount": 212,
+    "verifiedResultScope": "after:2019-11-06 before:2019-11-20 has:image",
+    "earliestPageReached": 9,
+    "channelsObserved": [
+      "screenshots",
+      "chat",
+      "social-media",
+      "tt-discussion",
+      "twitter-feed"
+    ],
+    "limitations": [
+      "Some original images did not load in native Discord.",
+      "Input field changed to a malformed time query while results remained from the image query; time search is not recorded as completed.",
+      "Reached result page does not certify all images reviewed."
+    ]
   }
 }
