@@ -110,8 +110,13 @@ test("2019 documentary records retain provenance and unknown intermediate dates"
   const kaguya = toad.find(r => r.playerId === "nu11" && r.time === "1:04.54");
   assert(kaguya.additionalSources.some(s => s.messageId === "638150966474178570"));
   const nbc = courses.find(c => c.id === "3ds-neo-bowser-city").records;
-  assert.equal(nbc.find(r => r.time === "1:25.80").recordDate, null);
-  assert.equal(nbc.find(r => r.time === "1:25.80").durationDays, null);
+  const astre = nbc.find(r => r.time === "1:25.80");
+  assert.equal(astre.recordDate, "2019-11-05");
+  assert.equal(astre.durationDays, 0);
+  assert.deepEqual(astre.laps, ["42.84", "42.96"]);
+  assert.equal(astre.source.postId, "1191836098424639489");
+  assert(!astre.additionalSources.some(s => s.messageId === "773503398972489728"),
+    "equal-time 2020 rerun must not donate its source or laps to the 2019 WR");
   assert.equal(nbc.find(r => r.time === "1:25.70").recordDate, "2019-11-05");
   const jungle = courses.find(c => c.id === "gcn-dino-dino-jungle").records;
   assert.equal(jungle.find(r => r.time === "1:34.43").recordDate, "2019-10-31");

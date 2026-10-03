@@ -465,9 +465,20 @@ export function importSources(courses, players) {
       s.notes.push(`Lap ${completed.derivedLap} calculated as total minus the other recorded lap.`);
     }
     for (const r of c.records) {
-      const matches = c.submissions.filter(
-        (s) => s.playerId === r.playerId && s.timeCs === r.timeCs,
-      );
+      const recordDates = [r.achievedAt, r.submittedAt, r.observedAt,
+        r.announcedAt, r.tourDateRange?.start].filter(Boolean);
+      const recordAppearance = c.appearances?.find((appearance) =>
+        recordDates.some((date) => date.slice(0, 10) >= appearance.startDate &&
+          date.slice(0, 10) < appearance.endDate));
+      const matches = c.submissions.filter((s) => {
+        if (s.playerId !== r.playerId || s.timeCs !== r.timeCs) return false;
+        const submissionDate = s.achievedAt || s.submittedAt || s.observedAt;
+        // Equal totals can be reruns years apart. Keep their dates and splits
+        // inside the same playable tour instead of merging by total alone.
+        return !recordAppearance || !submissionDate ||
+          (submissionDate.slice(0, 10) >= recordAppearance.startDate &&
+           submissionDate.slice(0, 10) < recordAppearance.endDate);
+      });
       matches.sort((a, b) =>
         (
           a.achievedAt ||
