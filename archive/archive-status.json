@@ -1,0 +1,1079 @@
+{
+  "complete": false,
+  "scope": "Snapshot of existing local queues, not all Discord messages or all years. Separate tour/server-image searches are not added to these counts because their references may overlap.",
+  "tracking": {
+    "messageIdentity": "Discord channel ID + message ID; preserve original UTC timestamp and source URL.",
+    "imageIdentity": "Discord attachment ID (or source-derived ID for external images), plus local SHA-256 where available.",
+    "stages": [
+      "captured",
+      "media-preserved",
+      "visually-reviewed",
+      "context-and-chronology-reconciled",
+      "published",
+      "live-verified"
+    ],
+    "resumeRule": "Skip image IDs already reviewed unless unavailable, ambiguous, changed, or reopened by a new source. Read nearby messages for unresolved context; do not equate visual review with accepted WR status.",
+    "completionRule": "Neither a final WR, a reconciliation report nor a message count certifies exhaustive history. Every appearance remains unverified until source coverage, images, nearby context, competitors and open leads are reconciled."
+  },
+  "earlyImageQueue": [
+    {
+      "year": "2019",
+      "indexedImageReferences": 100,
+      "reviewStatuses": {
+        "visually-reviewed": 95,
+        "unresolved": 3,
+        "not-reviewed": 2
+      },
+      "imagesWithTranscribedTime": 90,
+      "referencesWithoutReviewEntry": [
+        {
+          "attachmentId": "f5d2f1b50cf71b7e4b1677fd",
+          "messageId": "642857081329680416",
+          "postedAt": "2019-11-09T22:44:31.896Z",
+          "sourceImage": "https://pbs.twimg.com/media/EIyAJLyU4AEq_0_.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "656956000146030602",
+          "messageId": "657099131810086912",
+          "postedAt": "2019-12-19T05:57:21.335Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/656795675077378059/656956000146030602/MKT_DKP_139.84.png?ex=6abd70f4&is=6abc1f74&hm=7ee2db955bfd3e4f7111fc27a279d11ad800130a15e1d3e7e6e40f3d3a5782e2&",
+          "localPath": null
+        }
+      ],
+      "historyComplete": false
+    },
+    {
+      "year": "2020",
+      "indexedImageReferences": 5385,
+      "reviewStatuses": {
+        "visually-reviewed": 5367,
+        "not-reviewed": 18
+      },
+      "imagesWithTranscribedTime": 4781,
+      "referencesWithoutReviewEntry": [
+        {
+          "attachmentId": "89c96ab28fef8b33bb37c8eb",
+          "messageId": "709093640709865503",
+          "postedAt": "2020-05-10T17:24:58.268Z",
+          "sourceImage": "https://pbs.twimg.com/media/EXrDx7cUwAA7thm.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "0d55a49b32ea53863581fd29",
+          "messageId": "709095109857378325",
+          "postedAt": "2020-05-10T17:30:48.540Z",
+          "sourceImage": "https://pbs.twimg.com/media/EXrFQqUVcAA68Vi.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "89303316327a9d278b861506",
+          "messageId": "722096292561551442",
+          "postedAt": "2020-06-15T14:32:52.047Z",
+          "sourceImage": "https://pbs.twimg.com/media/EaD1_veUYAEsb9S.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "dea26db1be31e2e3f15e05b6",
+          "messageId": "726066506928226358",
+          "postedAt": "2020-06-26T13:29:04.915Z",
+          "sourceImage": "https://pbs.twimg.com/media/Ebb8WTdXsAMKdJM.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "733252400219029594",
+          "messageId": "733252400730603560",
+          "postedAt": "2020-07-16T09:23:15.505Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/733252400219029594/image0.png?ex=6abd7dc3&is=6abc2c43&hm=fa809d3dabfd69a79e74b1ea7f47700d2192c820b42c4b7e228e1ccd0f93422b&",
+          "localPath": null
+        },
+        {
+          "attachmentId": "733258438372622436",
+          "messageId": "733258438276153386",
+          "postedAt": "2020-07-16T09:47:14.968Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/733258438372622436/image0.png?ex=6abd8362&is=6abc31e2&hm=e4c23952aa2a6f1e6ee0727ee1515d2005240aebbdd8e105061a2f0ee2da3def&",
+          "localPath": null
+        },
+        {
+          "attachmentId": "733263880276672592",
+          "messageId": "733263880758886404",
+          "postedAt": "2020-07-16T10:08:52.557Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/733263880276672592/image0.png?ex=6abd8874&is=6abc36f4&hm=323671fb801602f2d23f5841ee326efedfdd778e5f30cc9dc4259c6b174726be&",
+          "localPath": null
+        },
+        {
+          "attachmentId": "36f28b6cbd4bc04ab72fead3",
+          "messageId": "772405770238165002",
+          "postedAt": "2020-11-01T10:24:46.230Z",
+          "sourceImage": "https://pbs.twimg.com/media/ElKISMaVgAIkk5s.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "020a6dd9986159fc5383d324",
+          "messageId": "774550734951415831",
+          "postedAt": "2020-11-07T08:28:05.669Z",
+          "sourceImage": "https://pbs.twimg.com/media/EmM5IZ3VgAAUK0A.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "a413fa2b40ca2fc35fcb5af8",
+          "messageId": "778918899218776084",
+          "postedAt": "2020-11-19T09:45:37.187Z",
+          "sourceImage": "https://pbs.twimg.com/media/ELRYuQyUwAEr1JY.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "ce4516c036d974dd1dfdb995",
+          "messageId": "779277780080394260",
+          "postedAt": "2020-11-20T09:31:41.052Z",
+          "sourceImage": "https://pbs.twimg.com/media/EnQcGGmVoAEDASq.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "7a2fbebc54bdcec458af728b",
+          "messageId": "779706162396266546",
+          "postedAt": "2020-11-21T13:53:55.355Z",
+          "sourceImage": "https://pbs.twimg.com/media/EnURySSVEAAJWq2.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "9a10c5c473fea82583b93533",
+          "messageId": "782184626889555988",
+          "postedAt": "2020-11-28T10:02:27.338Z",
+          "sourceImage": "https://pbs.twimg.com/media/En3kMjRVEAE5rV9.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "cac062f09a314fb5c30fe485",
+          "messageId": "782184626889555988",
+          "postedAt": "2020-11-28T10:02:27.338Z",
+          "sourceImage": "https://pbs.twimg.com/media/En3kM0MUcAAirk4.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "16ec4d1b8fd95e611c1940db",
+          "messageId": "782184626889555988",
+          "postedAt": "2020-11-28T10:02:27.338Z",
+          "sourceImage": "https://pbs.twimg.com/media/En3kNHKUUAEmR42.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "cac6b459861871d69beabb0e",
+          "messageId": "783595591807533096",
+          "postedAt": "2020-12-02T07:29:07.589Z",
+          "sourceImage": "https://pbs.twimg.com/media/EoNzHqJUYAAQv2j.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "bceb13c4c0005726bb9ae174",
+          "messageId": "783993657039650827",
+          "postedAt": "2020-12-03T09:50:53.736Z",
+          "sourceImage": "https://pbs.twimg.com/media/EoTWs7NVoAABHW3.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "20a823710dde027288e95228",
+          "messageId": "784006967400202320",
+          "postedAt": "2020-12-03T10:43:47.173Z",
+          "sourceImage": "https://pbs.twimg.com/media/EoSkfjiUUAAcy3E.jpg:large",
+          "localPath": null
+        }
+      ],
+      "historyComplete": false
+    },
+    {
+      "year": "2021",
+      "indexedImageReferences": 3568,
+      "reviewStatuses": {
+        "visually-reviewed": 3531,
+        "not-reviewed": 36,
+        "media-unavailable": 1
+      },
+      "imagesWithTranscribedTime": 3268,
+      "referencesWithoutReviewEntry": [
+        {
+          "attachmentId": "448b30f1e77306d8637f96d6",
+          "messageId": "803020347820998718",
+          "postedAt": "2021-01-24T21:56:10.317Z",
+          "sourceImage": "https://pbs.twimg.com/media/EsP8dkDUYAAgFPM.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "2366b378eff1db7f2ad535d7",
+          "messageId": "803020347820998718",
+          "postedAt": "2021-01-24T21:56:10.317Z",
+          "sourceImage": "https://pbs.twimg.com/media/EsP8dkgVgAceOqo.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "f95f7d0bf834f533ba9ead5f",
+          "messageId": "814052287227625522",
+          "postedAt": "2021-02-24T08:33:09.635Z",
+          "sourceImage": "https://pbs.twimg.com/media/Eu-UQd2UYAUhImN.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "f27bdb9173b2f164b6e4d4cb",
+          "messageId": "863100486001098782",
+          "postedAt": "2021-07-09T16:53:11.494Z",
+          "sourceImage": "https://pbs.twimg.com/media/E53P3q2VoAc2WLQ.jpg:large",
+          "localPath": null
+        },
+        {
+          "attachmentId": "885980063982559312",
+          "messageId": "885980091371372545",
+          "postedAt": "2021-09-10T20:08:34.497Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980063982559312/Top10_TT_MC_Wedding_Tour_F.jpg?ex=6abebdbb&is=6abd6c3b&hm=4d98b4f0592d67cc76af4b5fa327b2d6197fb1dfe13cc0bc319b48ed905b64a4&",
+          "localPath": "archive/early-submission-images/885980063982559312.jpg"
+        },
+        {
+          "attachmentId": "885980064649461840",
+          "messageId": "885980091371372545",
+          "postedAt": "2021-09-10T20:08:34.497Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980064649461840/Top10_TT_RMXRR2_Wedding_Tour_F.jpg?ex=6abebdbc&is=6abd6c3c&hm=e38ef80a427f568528593d0d8749df4707f3d09dc692d87769bed8b1043a271e&",
+          "localPath": "archive/early-submission-images/885980064649461840.jpg"
+        },
+        {
+          "attachmentId": "885980065123401818",
+          "messageId": "885980091371372545",
+          "postedAt": "2021-09-10T20:08:34.497Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980065123401818/Top10_TT_RRyR_Paris_Tour_F.jpg?ex=6abebdbc&is=6abd6c3c&hm=9a8eb1db48cba86c315e619e350fa6417862ff9d84b7d375ba10132853f9b5d9&",
+          "localPath": "archive/early-submission-images/885980065123401818.jpg"
+        },
+        {
+          "attachmentId": "885980065601560576",
+          "messageId": "885980091371372545",
+          "postedAt": "2021-09-10T20:08:34.497Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980065601560576/Top10_TT_DP2R_Paris_Tour_F.jpg?ex=6abebdbc&is=6abd6c3c&hm=0cb5aaa57d88a54329ba47ebcdada33317825380d7646c188ab2215955488004&",
+          "localPath": "archive/early-submission-images/885980065601560576.jpg"
+        },
+        {
+          "attachmentId": "885980066134241290",
+          "messageId": "885980091371372545",
+          "postedAt": "2021-09-10T20:08:34.497Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980066134241290/Top10_TT_RRM_Paris_Tour_F.jpg?ex=6abebdbc&is=6abd6c3c&hm=21dc52292586a7ee09d85d5023c9788a6360e050fdb02ec8ffa4c06daf71ba14&",
+          "localPath": "archive/early-submission-images/885980066134241290.jpg"
+        },
+        {
+          "attachmentId": "885980066608205835",
+          "messageId": "885980091371372545",
+          "postedAt": "2021-09-10T20:08:34.497Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980066608205835/Top10_TT_RMXCI1_Summer_Tour.jpg?ex=6abebdbc&is=6abd6c3c&hm=666c520679a40a212cf650f6cf62b15e276d76a1c1251f2be4c58eae68d7a876&",
+          "localPath": "archive/early-submission-images/885980066608205835.jpg"
+        },
+        {
+          "attachmentId": "885980067086368828",
+          "messageId": "885980091371372545",
+          "postedAt": "2021-09-10T20:08:34.497Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980067086368828/Top10_TT_AF_Summer_Tour_F.jpg?ex=6abebdbc&is=6abd6c3c&hm=16b7daf562a3baa2a4e355d8495a330f07299400b8d70ca4b34728f9ec7a8234&",
+          "localPath": "archive/early-submission-images/885980067086368828.jpg"
+        },
+        {
+          "attachmentId": "885980120165281812",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980120165281812/Top10_TT_KDR_LA_Tour_F.jpg?ex=6abebdc9&is=6abd6c49&hm=d390b20ebadbb53d41db70e06d573bbb75acaa28cd8cd038a3563585f6a739fe&",
+          "localPath": "archive/early-submission-images/885980120165281812.jpg"
+        },
+        {
+          "attachmentId": "885980120635015198",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980120635015198/Top10_TT_MC3_LA_Tour_F.jpg?ex=6abebdc9&is=6abd6c49&hm=a7db0f25a02cf733ac2fa3454f99b084dfb94071ac23e49c50c7a20392a12d2e&",
+          "localPath": "archive/early-submission-images/885980120635015198.jpg"
+        },
+        {
+          "attachmentId": "885980121071247381",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980121071247381/Top10_TT_CM_MarioVsPeach_Tour_F.jpg?ex=6abebdc9&is=6abd6c49&hm=cb633cc2471c17c3933bc866dc14f9aa3b5af9144b2dc526e0a425ac51cce774&",
+          "localPath": "archive/early-submission-images/885980121071247381.jpg"
+        },
+        {
+          "attachmentId": "885980121641664582",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980121641664582/Top10_TT_CCI_MarioVsPeach_Tour_F.jpg?ex=6abebdc9&is=6abd6c49&hm=8ac321c731b80c85a05dc18a5f8852332ad20402306ad23bfc476add547a577e&",
+          "localPath": "archive/early-submission-images/885980121641664582.jpg"
+        },
+        {
+          "attachmentId": "885980122212098118",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980122212098118/Top10_TT_DKS_Frost_Tour_F.jpg?ex=6abebdc9&is=6abd6c49&hm=25f8edf7df3e19b85fbafd08f9e6d9014e0f663432c125432758a31a9aae4c05&",
+          "localPath": "archive/early-submission-images/885980122212098118.jpg"
+        },
+        {
+          "attachmentId": "885980122711224410",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980122711224410/Top10_TT_TCR_Frost_Tour_F.jpg?ex=6abebdc9&is=6abd6c49&hm=c96961d85f8ed2bcfcefa13fcf4ce9d1d39c91c5873cfb0880556c7898b2ff54&",
+          "localPath": "archive/early-submission-images/885980122711224410.jpg"
+        },
+        {
+          "attachmentId": "885980123227095090",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980123227095090/Top10_TT_RMXVL1_Kamek_Tour_F.jpg?ex=6abebdca&is=6abd6c4a&hm=1857a6ca6c880dcdee17fdaff2a0c556810143ce30f2f3a8a85330ae7ff3d29c&",
+          "localPath": "archive/early-submission-images/885980123227095090.jpg"
+        },
+        {
+          "attachmentId": "885980123667509309",
+          "messageId": "885980144588701706",
+          "postedAt": "2021-09-10T20:08:47.185Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885980123667509309/Top10_TT_RRR_Kamek_Tour_F-1.jpg?ex=6abebdca&is=6abd6c4a&hm=57cebe418eda9bdb69024c6a73fd1757d958be2e0b0064c97db804eadf2938aa&",
+          "localPath": "archive/early-submission-images/885980123667509309.jpg"
+        },
+        {
+          "attachmentId": "885985717472346192",
+          "messageId": "885985719737278465",
+          "postedAt": "2021-09-10T20:30:56.404Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/885985717472346192/Top10_TT.jpg?ex=6abec2ff&is=6abd717f&hm=90c103c916b5af49553769c748a4cf362b8ee8a349e3938a1df9bbe24fc59fa7&",
+          "localPath": "archive/early-submission-images/885985717472346192.jpg"
+        },
+        {
+          "attachmentId": "886388999265075211",
+          "messageId": "886389002847027231",
+          "postedAt": "2021-09-11T23:13:26.590Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/886388999265075211/Top10_TT_MC3_LA_Tour_F.jpg?ex=6abee915&is=6abd9795&hm=a7c3b5f3e3965eba5eb37416ae8d30c215c008071dd942024973a16814c8e1e2&",
+          "localPath": "archive/early-submission-images/886388999265075211.jpg"
+        },
+        {
+          "attachmentId": "886501373020102656",
+          "messageId": "886501375549243422",
+          "postedAt": "2021-09-12T06:39:58.330Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/886501373020102656/Screenshot_20210912-151312.png?ex=6abea8fd&is=6abd577d&hm=acbf6fb06907a038f60b72657a2f45bf791da273339a389c56d525739a018c38&",
+          "localPath": "archive/early-submission-images/886501373020102656.png"
+        },
+        {
+          "attachmentId": "890121793174638612",
+          "messageId": "890122322533568522",
+          "postedAt": "2021-09-22T06:28:19.365Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/654461601507966976/890121793174638612/Event1751_TimeAttack_Gmob_Berlin2.png?ex=6abea5c5&is=6abd5445&hm=05fb909efcdacb335719135ec21d471450ad74629e22d82338133b7fbbe0eef7&",
+          "localPath": "archive/early-submission-images/890121793174638612.png"
+        },
+        {
+          "attachmentId": "893155156093460610",
+          "messageId": "893155158912016495",
+          "postedAt": "2021-09-30T15:19:43.905Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/893155156093460610/unknown.png?ex=6abe7a0f&is=6abd288f&hm=9d6147d6d4135180ee52058275ed5dcceb0668ca893b704b22193bbf44a8dcca&",
+          "localPath": "archive/early-submission-images/893155156093460610.png"
+        },
+        {
+          "attachmentId": "893155280974659654",
+          "messageId": "893155283067609139",
+          "postedAt": "2021-09-30T15:20:13.506Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/893155280974659654/unknown.png?ex=6abe7a2d&is=6abd28ad&hm=1671c7ef67b15700f14b65948407bfb386c212c07846dc51be531aa1e7aed190&",
+          "localPath": "archive/early-submission-images/893155280974659654.png"
+        },
+        {
+          "attachmentId": "893155380711014410",
+          "messageId": "893155384871747635",
+          "postedAt": "2021-09-30T15:20:37.778Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/893155380711014410/unknown.png?ex=6abe7a44&is=6abd28c4&hm=f78e23f58061a6449e82e828759d4734aee37173c9c14f57caa64dddeda548be&",
+          "localPath": "archive/early-submission-images/893155380711014410.png"
+        },
+        {
+          "attachmentId": "895206625844027442",
+          "messageId": "895215756445368331",
+          "postedAt": "2021-10-06T07:47:48.641Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/654461601507966976/895206625844027442/Event1720_TimeAttack_Gagb_SunsetWildsR.png?ex=6abeb063&is=6abd5ee3&hm=4efb4d4aaee48cb4dfe30fe92e9a07dd81662b4832cd4cffcef2b046b6121c87&",
+          "localPath": "archive/early-submission-images/895206625844027442.png"
+        },
+        {
+          "attachmentId": "895216808825585664",
+          "messageId": "895217445562875924",
+          "postedAt": "2021-10-06T07:54:31.358Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/722755095665573928/895216808825585664/image2.png?ex=6abeb9df&is=6abd685f&hm=708a7837755a824bd766e545afa09804612b1c2622830b68d5c7e3ce2a169823&",
+          "localPath": "archive/early-submission-images/895216808825585664.png"
+        },
+        {
+          "attachmentId": "895274320589389905",
+          "messageId": "895274323244367884",
+          "postedAt": "2021-10-06T11:40:32.054Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895274320589389905/unknown.png?ex=6abeef6f&is=6abd9def&hm=157446a4f76f68c005a8b9d4b7980532423aa49cc1663afe9aa53c4cedf6e03e&",
+          "localPath": "archive/early-submission-images/895274320589389905.png"
+        },
+        {
+          "attachmentId": "895274459919945738",
+          "messageId": "895274461664800800",
+          "postedAt": "2021-10-06T11:41:05.056Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895274459919945738/unknown.png?ex=6abeef90&is=6abd9e10&hm=f74d4dfcc30a054f4cef88a3773b43fa19679764258f61d557cbdb55c0c1813e&",
+          "localPath": "archive/early-submission-images/895274459919945738.png"
+        },
+        {
+          "attachmentId": "895274729932472350",
+          "messageId": "895274732881055764",
+          "postedAt": "2021-10-06T11:42:09.719Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895274729932472350/unknown.png?ex=6abeefd1&is=6abd9e51&hm=94b146527b9821918f7e9b9dfbe00dccf5daa19fc930151239d13025c7edad93&",
+          "localPath": "archive/early-submission-images/895274729932472350.png"
+        },
+        {
+          "attachmentId": "895274872882737212",
+          "messageId": "895274879077720084",
+          "postedAt": "2021-10-06T11:42:44.575Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895274872882737212/unknown.png?ex=6abeeff3&is=6abd9e73&hm=0b308f58c973f02fb9258127ad08d695ac75e8a51d732d039a933a6a01e9af10&",
+          "localPath": "archive/early-submission-images/895274872882737212.png"
+        },
+        {
+          "attachmentId": "895301630881325096",
+          "messageId": "895301632974266440",
+          "postedAt": "2021-10-06T13:29:03.201Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895301630881325096/unknown.png?ex=6abf08de&is=6abdb75e&hm=faf4621a0b600f1ae4f67e5baf266e9bf2dcf764c572776720cfc39210b9442b&",
+          "localPath": "archive/early-submission-images/895301630881325096.png"
+        },
+        {
+          "attachmentId": "895332408612777994",
+          "messageId": "895332412328923177",
+          "postedAt": "2021-10-06T15:31:21.571Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895332408612777994/image0.png?ex=6abe7cc8&is=6abd2b48&hm=fef5b078e19d0598f6a00f45305168e88214f6dd28cfa56d0a9e355e0a3101c3&",
+          "localPath": "archive/early-submission-images/895332408612777994.png"
+        },
+        {
+          "attachmentId": "895332643212767272",
+          "messageId": "895332646668861480",
+          "postedAt": "2021-10-06T15:32:17.442Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895332643212767272/image0.png?ex=6abe7d00&is=6abd2b80&hm=e1d3c6be6bdf49ca6852cd9ae4cd28db82de4228254dc95c17c4f59d43038ce1&",
+          "localPath": "archive/early-submission-images/895332643212767272.png"
+        },
+        {
+          "attachmentId": "895370339561926676",
+          "messageId": "895370341382246420",
+          "postedAt": "2021-10-06T18:02:04.562Z",
+          "sourceImage": "https://cdn.discordapp.com/attachments/636461740162416640/895370339561926676/unknown.png?ex=6abea01c&is=6abd4e9c&hm=b038cd18d2e17c1592ab830e2622ff93fa4193ae49c18d7174e97e392a9ccec3&",
+          "localPath": "archive/early-submission-images/895370339561926676.png"
+        }
+      ],
+      "historyComplete": false
+    }
+  ],
+  "explicitEarlyUndatedCuratedLeads": [
+    {
+      "recordId": "739424124417605682-previous-05001-wildwest-verified",
+      "courseId": "snes-donut-plains-1r",
+      "player": "Nu11",
+      "time": "0:50.01",
+      "observedAt": "2020-08-02T10:07:29.097Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/739424124417605682",
+        "channel": "tt-discussion",
+        "messageId": "739424124417605682"
+      },
+      "notes": [
+        "The earlier run is visible in this screenshot previous-best field. It improved on the preceding documented WR.",
+        "Its exact date is unresolved. The later screenshot upload date is not assigned to this earlier performance."
+      ]
+    },
+    {
+      "recordId": "740675542801449045-previous-04985-wildwest-verified",
+      "courseId": "snes-donut-plains-1r",
+      "player": "Kazuo",
+      "time": "0:49.85",
+      "observedAt": "2020-08-05T21:00:10.490Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/740675542801449045",
+        "channel": "tt-discussion",
+        "messageId": "740675542801449045"
+      },
+      "notes": [
+        "The earlier run is visible in this screenshot previous-best field. It improved on the preceding documented WR.",
+        "Its exact date is unresolved. The later screenshot upload date is not assigned to this earlier performance."
+      ]
+    },
+    {
+      "recordId": "twitter-1293965096067059712-previous-10044-pirate-verified",
+      "courseId": "gba-bowser-s-castle-1r",
+      "player": "Tomegome",
+      "time": "1:00.44",
+      "observedAt": "2020-08-13T17:38:14.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1293965096067059712",
+        "platform": "Twitter"
+      },
+      "notes": [
+        "The previous-best field proves this intermediate improvement. It falls between the 1:00.63 and 1:00.31 posts, spanning August 12–13; the exact achievement date is unresolved."
+      ]
+    },
+    {
+      "recordId": "748476030485921822-previous-10680-summer-verified",
+      "courseId": "snes-mario-circuit-3r",
+      "player": "Nu11",
+      "time": "1:06.80",
+      "observedAt": "2020-08-27T09:36:31.680Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/748476030485921822",
+        "channel": "tt-discussion",
+        "messageId": "748476030485921822"
+      },
+      "notes": [
+        "Intermediate improvement visible in the original screenshot previous-best field. Exact time of day and lap splits are unresolved.",
+        "The earlier and later evidence span more than one UTC day, so the date remains unknown."
+      ]
+    },
+    {
+      "recordId": "750688716460261456-previous-04812-summer-verified",
+      "courseId": "snes-choco-island-2",
+      "player": "Nu11",
+      "time": "0:48.12",
+      "observedAt": "2020-09-02T12:08:57.126Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/750688716460261456",
+        "channel": "tt-discussion",
+        "messageId": "750688716460261456"
+      },
+      "notes": [
+        "Intermediate improvement visible in the original screenshot previous-best field. Exact time of day and lap splits are unresolved.",
+        "The earlier and later evidence span more than one UTC day, so the date remains unknown.",
+        "A contemporary message explicitly says the earlier 48.12 was withheld. Its achievement date and relationship to Phillish’s publicly submitted 48.16 are unresolved; no exact reign duration is asserted."
+      ]
+    },
+    {
+      "recordId": "twitter-1191841211063164929-previous-12580",
+      "courseId": "3ds-neo-bowser-city",
+      "player": "Astre",
+      "time": "1:25.80",
+      "observedAt": "2019-11-05T22:14:22.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://twitter.com/Astre_HD/status/1191841211063164929",
+        "kind": "original-player-post",
+        "postId": "1191841211063164929"
+      },
+      "notes": [
+        "Original1:25.70 video result screen visibly shows previous best1:25.80. This improves Astre’s documented1:25.95 record.",
+        "The original video post establishes only that this intermediate run existed by November5. No exact date or lap splits have been recovered. The later video’s publication date and splits are not assigned to this run."
+      ]
+    },
+    {
+      "recordId": "753522924769509396-previous-04085-super-mario-verified",
+      "courseId": "snes-ghost-valley-1r",
+      "player": "Nu11",
+      "time": "0:40.85",
+      "observedAt": "2020-09-10T07:51:05.044Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/753522924769509396",
+        "channel": "tt-discussion",
+        "messageId": "753522924769509396"
+      },
+      "notes": [
+        "Intermediate record visible in the original screenshot’s previous-best field. The individual submission and lap splits have not been recovered.",
+        "The previous-best evidence does not establish a unique date; it is not assigned the later screenshot’s submission date. Reign duration is unresolved."
+      ]
+    },
+    {
+      "recordId": "los-angeles-2020-previous-13281",
+      "courseId": "ds-dk-pass",
+      "player": "Tomegome",
+      "time": "1:32.81",
+      "observedAt": "2020-09-23T10:55:34.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1308721666344640514",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visible as previous best in a later original result screenshot. Separate achievement date and standalone proof have not yet been recovered; retained without assigning the later post date to this run."
+      ]
+    },
+    {
+      "recordId": "los-angeles-2020-previous-13216",
+      "courseId": "ds-dk-pass",
+      "player": "Tomegome",
+      "time": "1:32.16",
+      "observedAt": "2020-09-24T21:35:32.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1309245104079560704",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visible as previous best in a later original result screenshot. Separate achievement date and standalone proof have not yet been recovered; retained without assigning the later post date to this run."
+      ]
+    },
+    {
+      "recordId": "los-angeles-2020-previous-13173",
+      "courseId": "ds-dk-pass",
+      "player": "Tomegome",
+      "time": "1:31.73",
+      "observedAt": "2020-09-29T18:36:12.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1311011915187986433",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visible as previous best in a later original result screenshot. Separate achievement date and standalone proof have not yet been recovered; retained without assigning the later post date to this run."
+      ]
+    },
+    {
+      "recordId": "anniversary-2020-undated-10426",
+      "courseId": "3ds-toad-circuit",
+      "player": "Tomegome",
+      "time": "1:04.26",
+      "observedAt": "2020-10-11T08:28:57.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1315207750561849344",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visible previous best in a later result screenshot. Exact chronology and WR status remain unresolved; the later post date is not assigned to this earlier run."
+      ]
+    },
+    {
+      "recordId": "anniversary-2020-undated-10412",
+      "courseId": "3ds-toad-circuit",
+      "player": "Tomegome",
+      "time": "1:04.12",
+      "observedAt": "2020-10-12T12:08:47.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1315625458294165505",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visible previous best in a later result screenshot. Exact chronology and WR status remain unresolved; the later post date is not assigned to this earlier run."
+      ]
+    },
+    {
+      "recordId": "halloween-2020-undated-13166",
+      "courseId": "ds-airship-fortress",
+      "player": "Tomegome",
+      "time": "1:31.66",
+      "observedAt": "2020-10-21T12:28:20.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1318891868910874624",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visually read previous-best in a later original post. Exact chronology and WR status need reconciliation; the later publication date is not assigned to this earlier run."
+      ]
+    },
+    {
+      "recordId": "halloween-2020-undated-11961",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.61",
+      "observedAt": "2020-10-23T17:40:43.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1319695259182379008",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visually read previous-best in a later original post. Exact chronology and WR status need reconciliation; the later publication date is not assigned to this earlier run."
+      ]
+    },
+    {
+      "recordId": "halloween-2020-undated-11949",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.49",
+      "observedAt": "2020-10-23T21:42:37.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1319756135402930176",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visually read previous-best in a later original post. Exact chronology and WR status need reconciliation; the later publication date is not assigned to this earlier run."
+      ]
+    },
+    {
+      "recordId": "halloween-2020-undated-11944",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.44",
+      "observedAt": "2020-11-01T08:20:00.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1322815642815246336",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visually read earlier-result in a later original post. Exact chronology and WR status need reconciliation; the later publication date is not assigned to this earlier run."
+      ]
+    },
+    {
+      "recordId": "halloween-2020-undated-11933",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.33",
+      "observedAt": "2020-11-01T08:20:00.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1322815642815246336",
+        "platform": "Twitter/X"
+      },
+      "notes": [
+        "Visually read previous-best in a later original post. Exact chronology and WR status need reconciliation; the later publication date is not assigned to this earlier run."
+      ]
+    },
+    {
+      "recordId": "sunset-2020-nu11-undated-12540",
+      "courseId": "3ds-neo-bowser-city",
+      "player": "Nu11",
+      "time": "1:25.40",
+      "observedAt": "2020-11-04T09:36:32.469Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/773480796522414090",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Previous best 1:25.40 visually read in the later 1:25.14 result. Exact placement relative to Saki’s records is not proven; retained as evidence without inventing a date or WR status."
+      ]
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-778940939334582302",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Kazuo",
+      "time": "0:59.25",
+      "observedAt": "2020-11-19T11:13:12.044Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/778940939686772746",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Previous best visually read in a later result image. Retained as evidence; its completion date and place in the WR exchange are unresolved."
+      ]
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-779031583918915634",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Nu11",
+      "time": "0:58.33",
+      "observedAt": "2020-11-19T17:13:23.461Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/779031584539148288",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Previous best visually read in a later result image. Retained as evidence; its completion date and place in the WR exchange are unresolved."
+      ]
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-779174733312294912",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Nu11",
+      "time": "0:57.73",
+      "observedAt": "2020-11-20T02:42:12.926Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/779174733890977852",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Previous best visually read in a later result image. Retained as evidence; its completion date and place in the WR exchange are unresolved."
+      ]
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-779233783550574612",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Nu11",
+      "time": "0:57.68",
+      "observedAt": "2020-11-20T06:36:51.522Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/779233783802888213",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Previous best visually read in a later result image. Retained as evidence; its completion date and place in the WR exchange are unresolved."
+      ]
+    },
+    {
+      "recordId": "rosalina-held-788648339305660427",
+      "courseId": "gba-sunset-wilds",
+      "player": "Unidentified player",
+      "time": "1:14.55",
+      "observedAt": "2020-12-16T06:06:56.525Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/788648339545653258",
+        "channel": "tt-discussion",
+        "messageId": "788648339545653258"
+      },
+      "notes": [
+        "Opening 1:14.55 result posted by a deleted account; runner identity unresolved."
+      ]
+    },
+    {
+      "recordId": "rosalina-held-788688327615578122",
+      "courseId": "n64-choco-mountain",
+      "player": "SuperFX",
+      "time": "1:19.47",
+      "observedAt": "2020-12-16T08:45:50.534Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/788688328077475840",
+        "channel": "tt-discussion",
+        "messageId": "788688328077475840"
+      },
+      "notes": [
+        "1:19.47 repost is three minutes after Tome’s original 1:19.29. Wins says the result was from some time ago; exact original publication and precedence remain unresolved."
+      ]
+    },
+    {
+      "recordId": "rosalina-held-792521635663970314",
+      "courseId": "gba-sunset-wilds",
+      "player": "SuperFX",
+      "time": "1:10.81",
+      "observedAt": "2020-12-26T22:38:02.340Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/792521635906715658",
+        "channel": "tt-discussion",
+        "messageId": "792521635906715658"
+      },
+      "notes": [
+        "1:10.81 repost follows Kazuo’s faster 1:10.70 and 1:10.68. Original timing could place this earlier, but has not been recovered."
+      ]
+    },
+    {
+      "recordId": "valentines-2020-tome-previous-10351",
+      "courseId": "3ds-toad-circuit-r",
+      "player": "Tomegome",
+      "time": "1:03.51",
+      "observedAt": "2020-02-02T00:07:59.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1223759936540119040",
+        "channel": "original Twitter post"
+      },
+      "notes": [
+        "Previous-best 1:03.51 read from the 1:03.09 screenshot. Its original date and WR status remain unresolved."
+      ]
+    },
+    {
+      "recordId": "london-2019-652287242366091294-previous",
+      "courseId": "3ds-daisy-hills",
+      "player": "Nu11",
+      "time": "1:23.51",
+      "observedAt": "2019-12-05T23:16:37.491Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/652287242366091295",
+        "channel": "tt-discussion",
+        "messageId": "652287242366091295"
+      },
+      "notes": [
+        "Previous-best field in the later 1:23.03 screenshot. Original date and status against rivals are unresolved; do not promote solely from the previous-best field."
+      ]
+    },
+    {
+      "recordId": "ice-2020-tomegome-10056-previous-best",
+      "courseId": "gcn-dino-dino-jungle-r",
+      "player": "Tomegome",
+      "time": "1:40.56",
+      "observedAt": "2020-01-24T22:56:56.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1220842952085229569",
+        "channel": "original Twitter post",
+        "messageId": "1220842952085229569"
+      },
+      "notes": [
+        "Previous best visibly printed on the 1:40.46 screenshot. Original publication date and position against competitors are unresolved."
+      ]
+    },
+    {
+      "recordId": "ice-2020-kaguya-10074-report",
+      "courseId": "gcn-dino-dino-jungle-r",
+      "player": "Nu11",
+      "time": "1:40.74",
+      "observedAt": "2020-01-21T09:43:58.390Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/669114961556930570",
+        "channel": "tt-discussion",
+        "messageId": "669114961556930570"
+      },
+      "notes": [
+        "Astre reports Kaguya’s best as 1:40.74 in surrounding discussion. The original result and exact record date remain missing. Kaguya is the historical alias of Nu11. This report prevents treating Astre’s slower 1:40.80 as a WR."
+      ]
+    },
+    {
+      "recordId": "vancouver-2020-kaguya-4956-context",
+      "courseId": "snes-choco-island-2r",
+      "player": "Nu11",
+      "time": "0:49.56",
+      "observedAt": "2020-02-25T08:39:44.734Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/681782373448548387",
+        "channel": "tt-discussion",
+        "messageId": "681782373448548387"
+      },
+      "notes": [
+        "Asked whether his time is WR, Astre posts his 49.65 screenshot and identifies Kaguya’s faster 49.56. His original February 25 post separately states the goal of beating Kaguya on this course before the later 49.55.",
+        "This is a contemporaneously reported WR predecessor. Its original result proof, exact achievement/submission date and lap splits remain missing. The report timestamp must not become its displayed record date."
+      ]
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11583",
+      "courseId": "n64-kalimari-desert",
+      "player": "Nu11",
+      "time": "1:15.83",
+      "observedAt": "2020-04-08T09:16:58.992Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/697374422826221639",
+        "messageId": "697374422826221639",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Contemporary Astre report; original proof and achievement time not recovered.",
+        "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
+      ]
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11563",
+      "courseId": "n64-kalimari-desert",
+      "player": "Nu11",
+      "time": "1:15.63",
+      "observedAt": "2020-04-08T09:44:49.739Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/697381430447308847",
+        "messageId": "697381430447308847",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Contemporary report and nearby attribution; predates Astre 1:15.52.",
+        "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
+      ]
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11548",
+      "courseId": "n64-kalimari-desert",
+      "player": "Retort Curry",
+      "time": "1:15.48",
+      "observedAt": "2020-04-08T23:46:09.540Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/697593158078300273",
+        "messageId": "697593158078300273",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Contemporary WR report; original submission date unknown.",
+        "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
+      ]
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11536",
+      "courseId": "n64-kalimari-desert",
+      "player": "Nu11",
+      "time": "1:15.36",
+      "observedAt": "2020-04-11T11:47:56.969Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/698499578332184597",
+        "messageId": "698499578332184597",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Previous-best value in 1:15.29 screenshot; exact achievement date/order unknown.",
+        "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
+      ]
+    },
+    {
+      "recordId": "yoshi-2020-undated-3ds-daisy-hills-r-12118",
+      "courseId": "3ds-daisy-hills-r",
+      "player": "Nu11",
+      "time": "1:21.18",
+      "observedAt": "2020-04-15T05:33:04.238Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/699854788443111475",
+        "messageId": "699854788443111475",
+        "channel": "tt-discussion"
+      },
+      "notes": [
+        "Previous-best value in 1:20.94 screenshot; missing intermediate WR, exact achievement date unknown.",
+        "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
+      ]
+    },
+    {
+      "recordId": "tomegome-1191420102056402944-previous-13416",
+      "courseId": "gcn-dino-dino-jungle",
+      "player": "Tomegome",
+      "time": "1:34.16",
+      "observedAt": "2019-11-04T18:21:02.000Z",
+      "submittedAt": null,
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1191420102056402944",
+        "channel": "original-player-post"
+      },
+      "notes": [
+        "Original November 4, 2019 post image visually verified: current run 1:34.23, previous best 1:34.16. The 1:34.23 run is slower and is not a new WR.",
+        "The previous best improves on Tomegome’s documented October 31 1:34.43. Exact achievement date and lap splits for 1:34.16 remain unresolved; November 4 is the evidence publication date only.",
+        "The text gives fastest individual laps 47.11 and 46.77; these do not sum to this total and are not assigned as its splits."
+      ]
+    }
+  ],
+  "continuousDiscussionCheckpoint": {
+    "firstCapturedAt": "2020-12-02T06:10:27.770Z",
+    "lastCapturedAt": "2021-02-16T20:33:31.007Z",
+    "lastMessageId": "811334467875897364",
+    "uniqueMessageCount": 14558,
+    "pageCount": 707,
+    "allAdjacentPagesOverlap": true,
+    "complete": false
+  },
+  "currentSubmissionImagePass": {
+    "imagesReviewedThisPass": 628,
+    "remainingLocalImagesInMay2022OnwardQueue": 3842,
+    "nextLocalImage": {
+      "messageId": "1025302239675437107",
+      "attachmentId": "1025302239377629214",
+      "submittedAt": "2022-09-30T07:05:03.133Z",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1025302239675437107",
+      "imageUrl": "https://cdn.discordapp.com/attachments/875784780573184010/1025302239377629214/Screenshot_2022-09-30_16.03.43.png?ex=6abd5d5f&is=6abc0bdf&hm=6d78f03fe3c333e806846589fbe70ce6f3e0d02791123c20cc2c8ead42bfaf50&",
+      "localPath": null,
+      "tourCandidates": [
+        {
+          "id": "tour-79",
+          "name": "Anniversary Tour (2022)"
+        }
+      ],
+      "courseCandidates": [
+        "berlin-byways-3",
+        "singapore-speedway-2"
+      ],
+      "submissionMatches": [],
+      "reviewStatus": "needs-image-review",
+      "reviewedRuns": []
+    },
+    "complete": false
+  },
+  "courseTourAudit": {
+    "courseCount": 142,
+    "appearanceCount": 381,
+    "completeAppearances": 0,
+    "flagCounts": {
+      "unresolved-intermediate-record-leads": 65,
+      "no-matched-reconciliation-report": 286,
+      "record-evidence-needs-review": 126,
+      "reset-day-records-require-timestamp-check": 25,
+      "first-appearance-has-no-dated-wr": 27,
+      "undated-announced-wrs": 50
+    }
+  },
+  "limitations": [
+    "Image-filtered searches omit messages without images, deleted content, and some external embeds.",
+    "Publication timestamps do not automatically establish achievement dates. Unknown dates stay unknown.",
+    "Visual-review ledgers still contain chronology-pending entries. Missing rival runs can change WR classification.",
+    "No date through which the entire archive is certified complete has been established."
+  ]
+}
