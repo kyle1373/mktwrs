@@ -14283,7 +14283,7 @@
           "status": "community-wr",
           "submittedAt": null,
           "observedAt": "2020-04-08T09:16:58.992Z",
-          "dateUnresolved": true,
+          "dateUnresolved": false,
           "source": {
             "url": "https://discord.com/channels/629221606064914442/636461740162416640/697374422826221639",
             "messageId": "697374422826221639",
@@ -14291,8 +14291,21 @@
           },
           "notes": [
             "Contemporary Astre report; original proof and achievement time not recovered.",
-            "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
-          ]
+            "Preserved intermediate WR. Achievement day is now bounded to April8,2020 by first availability and opening-day report; exact finish timestamp and original run proof remain unknown.",
+            "Date recovery uses the intersection of first course TT availability and the original report, not an assumption that report time equals finish time. Source tour end corrected to April22 (YoshiTour2020). No lap splits or media invented."
+          ],
+          "achievedAt": "2020-04-08",
+          "datePrecision": "day",
+          "dateEvidence": "first-course-availability-and-contemporary-report",
+          "achievementDateBounds": {
+            "notBefore": "2020-04-08T06:00:00Z",
+            "notAfter": "2020-04-08T09:16:58.992Z",
+            "basis": "N64 Kalimari Desert first TT availability is YoshiTour2020; original contemporary report is on the opening UTC day."
+          },
+          "tourDateRange": {
+            "start": "2020-04-08",
+            "end": "2020-04-22"
+          }
         },
         {
           "messageId": "yoshi-2020-undated-n64-kalimari-desert-11563",
@@ -14305,7 +14318,7 @@
           "status": "community-wr",
           "submittedAt": null,
           "observedAt": "2020-04-08T09:44:49.739Z",
-          "dateUnresolved": true,
+          "dateUnresolved": false,
           "source": {
             "url": "https://discord.com/channels/629221606064914442/636461740162416640/697381430447308847",
             "messageId": "697381430447308847",
@@ -14313,8 +14326,21 @@
           },
           "notes": [
             "Contemporary report and nearby attribution; predates Astre 1:15.52.",
-            "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
-          ]
+            "Preserved intermediate WR. Achievement day is now bounded to April8,2020 by first availability and opening-day report; exact finish timestamp and original run proof remain unknown.",
+            "Date recovery uses the intersection of first course TT availability and the original report, not an assumption that report time equals finish time. Source tour end corrected to April22 (YoshiTour2020). No lap splits or media invented."
+          ],
+          "achievedAt": "2020-04-08",
+          "datePrecision": "day",
+          "dateEvidence": "first-course-availability-and-contemporary-report",
+          "achievementDateBounds": {
+            "notBefore": "2020-04-08T06:00:00Z",
+            "notAfter": "2020-04-08T09:44:49.739Z",
+            "basis": "N64 Kalimari Desert first TT availability is YoshiTour2020; original contemporary report is on the opening UTC day."
+          },
+          "tourDateRange": {
+            "start": "2020-04-08",
+            "end": "2020-04-22"
+          }
         },
         {
           "messageId": "697431204219322444-697431204219060234-2020-proof-review",
@@ -14585,7 +14611,7 @@
           "status": "community-wr",
           "submittedAt": null,
           "observedAt": "2020-04-08T23:46:09.540Z",
-          "dateUnresolved": true,
+          "dateUnresolved": false,
           "source": {
             "url": "https://discord.com/channels/629221606064914442/636461740162416640/697593158078300273",
             "messageId": "697593158078300273",
@@ -14593,8 +14619,21 @@
           },
           "notes": [
             "Contemporary WR report; original submission date unknown.",
-            "Preserved as an undated intermediate WR. The surrounding record chain establishes an improvement; no achievement date or reign duration is asserted."
-          ]
+            "Preserved intermediate WR. Achievement day is now bounded to April8,2020 by first availability and opening-day report; exact finish timestamp and original run proof remain unknown.",
+            "Date recovery uses the intersection of first course TT availability and the original report, not an assumption that report time equals finish time. Source tour end corrected to April22 (YoshiTour2020). No lap splits or media invented."
+          ],
+          "achievedAt": "2020-04-08",
+          "datePrecision": "day",
+          "dateEvidence": "first-course-availability-and-contemporary-report",
+          "achievementDateBounds": {
+            "notBefore": "2020-04-08T06:00:00Z",
+            "notAfter": "2020-04-08T23:46:09.540Z",
+            "basis": "N64 Kalimari Desert first TT availability is YoshiTour2020; original contemporary report is on the opening UTC day."
+          },
+          "tourDateRange": {
+            "start": "2020-04-08",
+            "end": "2020-04-22"
+          }
         },
         {
           "messageId": "697606320232202260-697606319816835154-2020-proof-review",
@@ -19855,8 +19894,22 @@
             }
           ],
           "notes": [
-            "HAYABUSA reports the fastest Japanese time as 35.21 and names Milky. Subsequent discussion explicitly recognizes 2AM 35.20 as the new WR and ranks Milky second. Original achievement date and proof have not been recovered; the report timestamp is retained as observation only."
-          ]
+            "HAYABUSA reports the fastest Japanese time as 35.21 and names Milky. Subsequent discussion explicitly recognizes 2AM 35.20 as the new WR and ranks Milky second. Original run media and exact finish timestamp have not been recovered; the report timestamp is retained as observation only.",
+            "Achievement day recovered as April22,2020 by intersecting first TT availability (Trick Tour start at06:00UTC) with the contemporary08:37:49UTC report. This establishes the day only, not a finish timestamp. The report remains observedAt; submittedAt remains null. No neighboring player laps or unverified media assigned."
+          ],
+          "achievedAt": "2020-04-22",
+          "datePrecision": "day",
+          "dateUnresolved": false,
+          "dateEvidence": "first-course-availability-and-contemporary-report",
+          "achievementDateBounds": {
+            "notBefore": "2020-04-22T06:00:00Z",
+            "notAfter": "2020-04-22T08:37:49.221Z",
+            "basis": "First documented TT availability of SNES Vanilla Lake1 begins with Trick Tour2020; HAYABUSA reports Milky35.21 that same opening day."
+          },
+          "tourDateRange": {
+            "start": "2020-04-22",
+            "end": "2020-05-06"
+          }
         },
         {
           "messageId": "702443786349051975-702443786030022656-2020-proof-review",
