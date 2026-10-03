@@ -11,6 +11,12 @@
           "url": "https://web.archive.org/web/20191106220804id_/https://twitter.com/_Kaguya_Games/status/1192200972388323328",
           "status": "failed",
           "error": "HTTP Error 404: NOT FOUND"
+        },
+        {
+          "at": "2026-10-03T15:40:05.067697+00:00",
+          "url": "https://web.archive.org/web/20191106220804id_/https://twitter.com/_Kaguya_Games/status/1192200972388323328",
+          "status": "failed",
+          "error": "HTTP Error 404: NOT FOUND"
         }
       ]
     },
@@ -1290,6 +1296,12 @@
       "attempts": [
         {
           "at": "2026-10-03T15:36:38.776395+00:00",
+          "url": "https://web.archive.org/web/20191110224555id_/https://twitter.com/_Kaguya_Games/status/1193659924640698368",
+          "status": "failed",
+          "error": "HTTP Error 404: NOT FOUND"
+        },
+        {
+          "at": "2026-10-03T15:40:05.621807+00:00",
           "url": "https://web.archive.org/web/20191110224555id_/https://twitter.com/_Kaguya_Games/status/1193659924640698368",
           "status": "failed",
           "error": "HTTP Error 404: NOT FOUND"
@@ -3013,34 +3025,85 @@
     {
       "id": "1196905865925627904",
       "archiveUrl": "https://web.archive.org/web/20191119215658id_/https://twitter.com/_Kaguya_Games/status/1196905865925627904",
-      "error": "<urlopen error [Errno 61] Connection refused>",
-      "retrievalStatus": "pending",
+      "retrievalStatus": "retrieved",
       "attempts": [
         {
           "at": "2026-10-03T15:39:35.418699+00:00",
           "url": "https://web.archive.org/web/20191119215658id_/https://twitter.com/_Kaguya_Games/status/1196905865925627904",
           "status": "failed",
           "error": "<urlopen error [Errno 61] Connection refused>"
+        },
+        {
+          "at": "2026-10-03T15:40:06.395086+00:00",
+          "url": "https://web.archive.org/web/20191119215658id_/https://twitter.com/_Kaguya_Games/status/1196905865925627904",
+          "status": "retrieved"
         }
-      ]
+      ],
+      "file": "archive/paris2019-unpreserved-original-pages/1196905865925627904.html",
+      "sha256": "1cba4abb4586a8073d79e2fbdcceebae356afae7e1ef521bffd4560540683296",
+      "posts": [
+        {
+          "id": "1196839992682696704",
+          "author": "tomegome_g",
+          "text": "ランク60記念\nベースポイントも1000にしてるリザルトが綺麗 pic.twitter.com/X1kzlGNkVv",
+          "postedAt": "2019-11-19T17:17:45+00:00",
+          "images": [
+            "https://pbs.twimg.com/media/EJwHoHFU4AE1eNs.jpg",
+            "https://pbs.twimg.com/media/EJwHoHGU4AAn6iN.jpg",
+            "https://pbs.twimg.com/media/EJwHoH_U0AAr8Pc.jpg",
+            "https://pbs.twimg.com/media/EJwHoKTVAAAmL46.jpg"
+          ],
+          "links": [
+            "https://t.co/X1kzlGNkVv"
+          ]
+        },
+        {
+          "id": "1196905865925627904",
+          "author": "_Kaguya_Games",
+          "text": "さすが調律師の方ですね。。()",
+          "postedAt": "2019-11-19T21:39:30+00:00",
+          "images": [],
+          "links": []
+        }
+      ],
+      "textReviewStatus": "reviewed",
+      "mediaReviewStatus": "pending"
     },
     {
       "id": "1196915339251970054",
       "archiveUrl": "https://web.archive.org/web/20191119222629id_/https://twitter.com/_Kaguya_Games/status/1196915339251970054",
-      "error": "<urlopen error [Errno 61] Connection refused>",
-      "retrievalStatus": "pending",
+      "retrievalStatus": "retrieved",
       "attempts": [
         {
           "at": "2026-10-03T15:39:35.444283+00:00",
           "url": "https://web.archive.org/web/20191119222629id_/https://twitter.com/_Kaguya_Games/status/1196915339251970054",
           "status": "failed",
           "error": "<urlopen error [Errno 61] Connection refused>"
+        },
+        {
+          "at": "2026-10-03T15:40:07.004688+00:00",
+          "url": "https://web.archive.org/web/20191119222629id_/https://twitter.com/_Kaguya_Games/status/1196915339251970054",
+          "status": "retrieved"
         }
-      ]
+      ],
+      "file": "archive/paris2019-unpreserved-original-pages/1196915339251970054.html",
+      "sha256": "48915d65249bd823d63c289de28cc8e68b16f2b82856773276d137a109ece3b6",
+      "posts": [
+        {
+          "id": "1196915339251970054",
+          "author": "_Kaguya_Games",
+          "text": "おはかぐやん",
+          "postedAt": "2019-11-19T22:17:09+00:00",
+          "images": [],
+          "links": []
+        }
+      ],
+      "textReviewStatus": "reviewed",
+      "mediaReviewStatus": "pending"
     }
   ],
   "complete": false,
   "scope": "Public indexed originals only; does not establish full account or server coverage.",
-  "retrievedPages": 55,
-  "pendingPages": 4
+  "retrievedPages": 57,
+  "pendingPages": 2
 }

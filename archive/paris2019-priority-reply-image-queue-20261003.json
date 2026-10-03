@@ -262,13 +262,25 @@
       },
       "url": "https://pbs.twimg.com/media/EJTfGQjUUAE0h6x.jpg",
       "capture": "20191114124342",
-      "retrievalStatus": "pending",
-      "reviewStatus": "pending",
+      "retrievalStatus": "retrieved",
+      "reviewStatus": "visually-reviewed",
       "alreadyReviewedInOtherQueue": false,
       "attempt": "https://web.archive.org/web/20191114124342im_/https://pbs.twimg.com/media/EJTfGQjUUAE0h6x.jpg",
       "error": "<urlopen error [Errno 61] Connection refused>",
       "alternateAttempt": "https://web.archive.org/web/20191114124342if_/https://pbs.twimg.com/media/EJTfGQjUUAE0h6x.jpg",
-      "alternateError": "<urlopen error [Errno 61] Connection refused>"
+      "alternateError": "<urlopen error [Errno 61] Connection refused>",
+      "attempts": [
+        {
+          "url": "https://web.archive.org/web/20191114124342im_/https://pbs.twimg.com/media/EJTfGQjUUAE0h6x.jpg",
+          "status": "retrieved"
+        }
+      ],
+      "file": "archive/paris2019-priority-reply-images/EJTfGQjUUAE0h6x.jpg",
+      "sha256": "20d50f02d6dcf3c9a0ea67cc8129af1f7f1550d97ae00a634f3faab27d066b21",
+      "courseId": "snes-mario-circuit-1",
+      "time": "0:48.36",
+      "previousBest": "0:48.42",
+      "decision": "Existing accepted Tomegome WR screenshot corroborated, phoneNovember14 matches originalpost. No duplicate."
     },
     {
       "sourcePost": {
@@ -288,6 +300,24 @@
       "retrievalStatus": "pending",
       "reviewStatus": "pending",
       "alreadyReviewedInOtherQueue": false
+    },
+    {
+      "sourcePost": {
+        "id": "1196744190199128064",
+        "author": "ooo7airi",
+        "text": "わー！びっくり！\n私さっきワルイージピンボール\nしてたんですけど、かぐやんさんと\n当たりましたw本物ですよね？\nまさかかぐやんさんのCPU？笑 pic.twitter.com/XAn46N61LZ",
+        "postedAt": "2019-11-19T10:57:04+00:00",
+        "images": [
+          "https://pbs.twimg.com/media/EJuwfnAUYAAcev0.jpg"
+        ],
+        "links": [
+          "https://t.co/XAn46N61LZ"
+        ]
+      },
+      "url": "https://pbs.twimg.com/media/EJuwfnAUYAAcev0.jpg",
+      "capture": "20191119120022",
+      "retrievalStatus": "pending",
+      "reviewStatus": "pending"
     }
   ]
 }
