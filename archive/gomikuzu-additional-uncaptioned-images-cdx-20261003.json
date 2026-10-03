@@ -103,7 +103,35 @@
     {
       "postId": "1193709221725884420",
       "request": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FEJDoMFZUwAA2FJN%2A&output=json&filter=statuscode%3A200&collapse=urlkey",
-      "error": "The read operation timed out"
+      "response": [
+        [
+          "urlkey",
+          "timestamp",
+          "original",
+          "mimetype",
+          "statuscode",
+          "digest",
+          "length"
+        ],
+        [
+          "com,twimg,pbs)/media/ejdomfzuwaa2fjn.jpg",
+          "20191111020247",
+          "https://pbs.twimg.com/media/EJDoMFZUwAA2FJN.jpg",
+          "image/jpeg",
+          "200",
+          "WOFE7T45YOSBDNZGGKH7MWA72M7ZNCCT",
+          "151923"
+        ],
+        [
+          "com,twimg,pbs)/media/ejdomfzuwaa2fjn.jpg:large",
+          "20191111020248",
+          "https://pbs.twimg.com/media/EJDoMFZUwAA2FJN.jpg:large",
+          "image/jpeg",
+          "200",
+          "VC6NUHL5AOONM3YIENU5REEH6AXQVKNG",
+          "177760"
+        ]
+      ]
     }
   ]
 }
