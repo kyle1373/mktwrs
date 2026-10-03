@@ -1,0 +1,33 @@
+{
+  "complete": false,
+  "scope": "Literal-time search of saved raw capture text for Ice Tour Nu11/Kaguya 1:40.74 and Tomegome 1:40.56; not a fresh Discord search or image pass.",
+  "dateBounds": [
+    "2020-01-15",
+    "2020-01-29"
+  ],
+  "pattern": "(?<!\\d)(?:1[:：]40[.,](?:74|56)|100[.,](?:74|56)|40[.,](?:74|56))(?!\\d)",
+  "filesExamined": 6158,
+  "matchingMessages": [
+    {
+      "message": {
+        "id": "669114961556930570",
+        "images": [],
+        "links": [],
+        "text": "[\n1:43 AM\n]\nTuesday, January 21, 2020 at 1:43 AM\nThe best time of Kaguya is 1:40.74",
+        "times": [
+          "2020-01-21T09:43:58.390Z"
+        ]
+      },
+      "capturePaths": [
+        "archive/raw/ice-2020-discussion-669110319821357076-669116885849079841.json",
+        "archive/raw/ice-2020-discussion-667286950704578567-669115094738665472.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "Text-only search cannot detect time shown only inside images or videos.",
+    "Saved raw captures cover only previously collected results, not every server message.",
+    "Matching report timestamps do not date the underlying achievement."
+  ],
+  "nextAction": "Recover original proof and date through player/course/media searches across server channels; inspect images and nearby context."
+}
