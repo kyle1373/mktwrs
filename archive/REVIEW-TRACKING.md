@@ -18,6 +18,7 @@ For unresolved leads, retain the channels and date ranges actually searched, que
 
 ## Saved checkpoints
 
+- `early-cross-channel-search-queue.json`: 62 saved early chronology leads requiring server-wide follow-up and four Halloween reposts needing verified message locations. Entries are pending searches, not evidence of absence; image-only sources need a separate pass.
 - `2019-image-to-curated-audit.json`: links for 90 transcribed 2019 images from one indexed queue.
 - `early-review-transfer-audit.json`: repeatable source/time/course matching for the saved pre-March-2020 image queue. This checks transfer into curated evidence, not WR completeness.
 - Held evidence has an explicit disposition report. The readable October 23, 2019 Dino Dino Jungle 1:45.50 cup overview is held for unknown runner identity, rather than treated as an unprocessed image. It remains unpublished.

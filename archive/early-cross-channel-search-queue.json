@@ -1,0 +1,1549 @@
+{
+  "complete": false,
+  "scope": "Cross-channel follow-up for the 62 saved early chronology leads; this is a bounded backlog, not all missing records.",
+  "sourceQueue": "archive/early-chronology-resume-queue.json",
+  "rules": [
+    "Search server-wide without an in: channel constraint; follow matching posts to nearby context and original media.",
+    "Inspect image-only posts: text queries cannot find times shown only inside images.",
+    "Search player and course aliases, video IDs, reposts and related tour dates when a literal time search fails.",
+    "Record each completed search with query, date bounds, capture path and result message/channel IDs. Pending entries are not proof of absent evidence.",
+    "Verify message channels from permalinks or full channel context, never attachment CDN paths."
+  ],
+  "relevantVisibleChannels": [
+    "tt-submission",
+    "tt-discussion",
+    "wr-history",
+    "course-leaderboard",
+    "tt-bot-commands",
+    "world-champions-profiles",
+    "screenshots",
+    "social-media",
+    "twitter-feed",
+    "chat",
+    "mkt-resources"
+  ],
+  "leads": [
+    {
+      "recordId": "739424124417605682-previous-05001-wildwest-verified",
+      "courseId": "snes-donut-plains-1r",
+      "player": "Nu11",
+      "time": "0:50.01",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/739424124417605682",
+        "channel": "tt-discussion",
+        "messageId": "739424124417605682"
+      },
+      "observedAt": "2020-08-02T10:07:29.097Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:50.01",
+        ":50.01",
+        "50.01"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-donut-plains-1r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "740675542801449045-previous-04985-wildwest-verified",
+      "courseId": "snes-donut-plains-1r",
+      "player": "Kazuo",
+      "time": "0:49.85",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/740675542801449045",
+        "channel": "tt-discussion",
+        "messageId": "740675542801449045"
+      },
+      "observedAt": "2020-08-05T21:00:10.490Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:49.85",
+        ":49.85",
+        "49.85"
+      ],
+      "additionalTerms": [
+        "Kazuo",
+        "snes-donut-plains-1r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "twitter-1293965096067059712-previous-10044-pirate-verified",
+      "courseId": "gba-bowser-s-castle-1r",
+      "player": "Tomegome",
+      "time": "1:00.44",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1293965096067059712",
+        "platform": "Twitter"
+      },
+      "observedAt": "2020-08-13T17:38:14.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:00.44",
+        "60.44"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "gba-bowser-s-castle-1r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "748476030485921822-previous-10680-summer-verified",
+      "courseId": "snes-mario-circuit-3r",
+      "player": "Nu11",
+      "time": "1:06.80",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/748476030485921822",
+        "channel": "tt-discussion",
+        "messageId": "748476030485921822"
+      },
+      "observedAt": "2020-08-27T09:36:31.680Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:06.80",
+        "66.80"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-mario-circuit-3r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "750688716460261456-previous-04812-summer-verified",
+      "courseId": "snes-choco-island-2",
+      "player": "Nu11",
+      "time": "0:48.12",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/750688716460261456",
+        "channel": "tt-discussion",
+        "messageId": "750688716460261456"
+      },
+      "observedAt": "2020-09-02T12:08:57.126Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:48.12",
+        ":48.12",
+        "48.12"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-choco-island-2"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "twitter-1191841211063164929-previous-12580",
+      "courseId": "3ds-neo-bowser-city",
+      "player": "Astre",
+      "time": "1:25.80",
+      "source": {
+        "url": "https://twitter.com/Astre_HD/status/1191841211063164929",
+        "kind": "original-player-post",
+        "postId": "1191841211063164929"
+      },
+      "observedAt": "2019-11-05T22:14:22.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:25.80",
+        "85.80"
+      ],
+      "additionalTerms": [
+        "Astre",
+        "3ds-neo-bowser-city"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "753522924769509396-previous-04085-super-mario-verified",
+      "courseId": "snes-ghost-valley-1r",
+      "player": "Nu11",
+      "time": "0:40.85",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/753522924769509396",
+        "channel": "tt-discussion",
+        "messageId": "753522924769509396"
+      },
+      "observedAt": "2020-09-10T07:51:05.044Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:40.85",
+        ":40.85",
+        "40.85"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-ghost-valley-1r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "los-angeles-2020-previous-13281",
+      "courseId": "ds-dk-pass",
+      "player": "Tomegome",
+      "time": "1:32.81",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1308721666344640514",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-09-23T10:55:34.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:32.81",
+        "92.81"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "ds-dk-pass"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "los-angeles-2020-previous-13216",
+      "courseId": "ds-dk-pass",
+      "player": "Tomegome",
+      "time": "1:32.16",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1309245104079560704",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-09-24T21:35:32.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:32.16",
+        "92.16"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "ds-dk-pass"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "los-angeles-2020-previous-13173",
+      "courseId": "ds-dk-pass",
+      "player": "Tomegome",
+      "time": "1:31.73",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1311011915187986433",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-09-29T18:36:12.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:31.73",
+        "91.73"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "ds-dk-pass"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "anniversary-2020-undated-10426",
+      "courseId": "3ds-toad-circuit",
+      "player": "Tomegome",
+      "time": "1:04.26",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1315207750561849344",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-10-11T08:28:57.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:04.26",
+        "64.26"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-toad-circuit"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "anniversary-2020-undated-10412",
+      "courseId": "3ds-toad-circuit",
+      "player": "Tomegome",
+      "time": "1:04.12",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1315625458294165505",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-10-12T12:08:47.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:04.12",
+        "64.12"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-toad-circuit"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "halloween-2020-undated-13166",
+      "courseId": "ds-airship-fortress",
+      "player": "Tomegome",
+      "time": "1:31.66",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1318891868910874624",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-10-21T12:28:20.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:31.66",
+        "91.66"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "ds-airship-fortress"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "halloween-2020-undated-11961",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.61",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1319695259182379008",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-10-23T17:40:43.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:19.61",
+        "79.61"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "gba-bowser-s-castle-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "halloween-2020-undated-11949",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.49",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1319756135402930176",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-10-23T21:42:37.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:19.49",
+        "79.49"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "gba-bowser-s-castle-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "halloween-2020-undated-11944",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.44",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1322815642815246336",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-11-01T08:20:00.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:19.44",
+        "79.44"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "gba-bowser-s-castle-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "halloween-2020-undated-11933",
+      "courseId": "gba-bowser-s-castle-2r",
+      "player": "Tomegome",
+      "time": "1:19.33",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1322815642815246336",
+        "platform": "Twitter/X"
+      },
+      "observedAt": "2020-11-01T08:20:00.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:19.33",
+        "79.33"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "gba-bowser-s-castle-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "sunset-2020-nu11-undated-12540",
+      "courseId": "3ds-neo-bowser-city",
+      "player": "Nu11",
+      "time": "1:25.40",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/773480796522414090",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-11-04T09:36:32.469Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:25.40",
+        "85.40"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "3ds-neo-bowser-city"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-778940939334582302",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Kazuo",
+      "time": "0:59.25",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/778940939686772746",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-11-19T11:13:12.044Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:59.25",
+        ":59.25",
+        "59.25"
+      ],
+      "additionalTerms": [
+        "Kazuo",
+        "snes-mario-circuit-2"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-779031583918915634",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Nu11",
+      "time": "0:58.33",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/779031584539148288",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-11-19T17:13:23.461Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:58.33",
+        ":58.33",
+        "58.33"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-mario-circuit-2"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-779174733312294912",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Nu11",
+      "time": "0:57.73",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/779174733890977852",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-11-20T02:42:12.926Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:57.73",
+        ":57.73",
+        "57.73"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-mario-circuit-2"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "mario-luigi-2020-previous-779233783550574612",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Nu11",
+      "time": "0:57.68",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/779233783802888213",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-11-20T06:36:51.522Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:57.68",
+        ":57.68",
+        "57.68"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-mario-circuit-2"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "rosalina-held-788648339305660427",
+      "courseId": "gba-sunset-wilds",
+      "player": "Unidentified player",
+      "time": "1:14.55",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/788648339545653258",
+        "channel": "tt-discussion",
+        "messageId": "788648339545653258"
+      },
+      "observedAt": "2020-12-16T06:06:56.525Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:14.55",
+        "74.55"
+      ],
+      "additionalTerms": [
+        "Unidentified player",
+        "gba-sunset-wilds"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "rosalina-held-788688327615578122",
+      "courseId": "n64-choco-mountain",
+      "player": "SuperFX",
+      "time": "1:19.47",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/788688328077475840",
+        "channel": "tt-discussion",
+        "messageId": "788688328077475840"
+      },
+      "observedAt": "2020-12-16T08:45:50.534Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:19.47",
+        "79.47"
+      ],
+      "additionalTerms": [
+        "SuperFX",
+        "n64-choco-mountain"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "rosalina-held-792521635663970314",
+      "courseId": "gba-sunset-wilds",
+      "player": "SuperFX",
+      "time": "1:10.81",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/792521635906715658",
+        "channel": "tt-discussion",
+        "messageId": "792521635906715658"
+      },
+      "observedAt": "2020-12-26T22:38:02.340Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:10.81",
+        "70.81"
+      ],
+      "additionalTerms": [
+        "SuperFX",
+        "gba-sunset-wilds"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "valentines-2020-tome-previous-10351",
+      "courseId": "3ds-toad-circuit-r",
+      "player": "Tomegome",
+      "time": "1:03.51",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1223759936540119040",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2020-02-02T00:07:59.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:03.51",
+        "63.51"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-toad-circuit-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "london-2019-652287242366091294-previous",
+      "courseId": "3ds-daisy-hills",
+      "player": "Nu11",
+      "time": "1:23.51",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/652287242366091295",
+        "channel": "tt-discussion",
+        "messageId": "652287242366091295"
+      },
+      "observedAt": "2019-12-05T23:16:37.491Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:23.51",
+        "83.51"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "3ds-daisy-hills"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "ice-2020-tomegome-10056-previous-best",
+      "courseId": "gcn-dino-dino-jungle-r",
+      "player": "Tomegome",
+      "time": "1:40.56",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1220842952085229569",
+        "channel": "original Twitter post",
+        "messageId": "1220842952085229569"
+      },
+      "observedAt": "2020-01-24T22:56:56.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:40.56",
+        "100.56"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "gcn-dino-dino-jungle-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "ice-2020-kaguya-10074-report",
+      "courseId": "gcn-dino-dino-jungle-r",
+      "player": "Nu11",
+      "time": "1:40.74",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/669114961556930570",
+        "channel": "tt-discussion",
+        "messageId": "669114961556930570"
+      },
+      "observedAt": "2020-01-21T09:43:58.390Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:40.74",
+        "100.74"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "gcn-dino-dino-jungle-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "vancouver-2020-kaguya-4956-context",
+      "courseId": "snes-choco-island-2r",
+      "player": "Nu11",
+      "time": "0:49.56",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/681782373448548387",
+        "channel": "tt-discussion",
+        "messageId": "681782373448548387"
+      },
+      "observedAt": "2020-02-25T08:39:44.734Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:49.56",
+        ":49.56",
+        "49.56"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-choco-island-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11583",
+      "courseId": "n64-kalimari-desert",
+      "player": "Nu11",
+      "time": "1:15.83",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/697374422826221639",
+        "messageId": "697374422826221639",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-04-08T09:16:58.992Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:15.83",
+        "75.83"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "n64-kalimari-desert"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11563",
+      "courseId": "n64-kalimari-desert",
+      "player": "Nu11",
+      "time": "1:15.63",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/697381430447308847",
+        "messageId": "697381430447308847",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-04-08T09:44:49.739Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:15.63",
+        "75.63"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "n64-kalimari-desert"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11548",
+      "courseId": "n64-kalimari-desert",
+      "player": "Retort Curry",
+      "time": "1:15.48",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/697593158078300273",
+        "messageId": "697593158078300273",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-04-08T23:46:09.540Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:15.48",
+        "75.48"
+      ],
+      "additionalTerms": [
+        "Retort Curry",
+        "n64-kalimari-desert"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "yoshi-2020-undated-n64-kalimari-desert-11536",
+      "courseId": "n64-kalimari-desert",
+      "player": "Nu11",
+      "time": "1:15.36",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/698499578332184597",
+        "messageId": "698499578332184597",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-04-11T11:47:56.969Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:15.36",
+        "75.36"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "n64-kalimari-desert"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "yoshi-2020-undated-3ds-daisy-hills-r-12118",
+      "courseId": "3ds-daisy-hills-r",
+      "player": "Nu11",
+      "time": "1:21.18",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/699854788443111475",
+        "messageId": "699854788443111475",
+        "channel": "tt-discussion"
+      },
+      "observedAt": "2020-04-15T05:33:04.238Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:21.18",
+        "81.18"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "3ds-daisy-hills-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "tomegome-1191420102056402944-previous-13416",
+      "courseId": "gcn-dino-dino-jungle",
+      "player": "Tomegome",
+      "time": "1:34.16",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1191420102056402944",
+        "channel": "original-player-post"
+      },
+      "observedAt": "2019-11-04T18:21:02.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:34.16",
+        "94.16"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "gcn-dino-dino-jungle"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-74e49db6716fc36d72da8246-previous",
+      "courseId": "3ds-rock-rock-mountain",
+      "player": "Tomegome",
+      "time": "1:50.11",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1197089631650471936",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-11-20T09:49:43.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:50.11",
+        "110.11"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-rock-rock-mountain"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-6287f1d90afa5ad4f8c97451-previous",
+      "courseId": "3ds-rock-rock-mountain",
+      "player": "Tomegome",
+      "time": "1:49.09",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1197565147578896384",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-11-21T17:19:15.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:49.09",
+        "109.09"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-rock-rock-mountain"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-55fd09e82796d06a40635a34-previous",
+      "courseId": "snes-mario-circuit-3",
+      "player": "Tomegome",
+      "time": "1:08.17",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1197799434039353346",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-11-22T08:50:13.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:08.17",
+        "68.17"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "snes-mario-circuit-3"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-9f6250e5b7bc099c9235eda0-previous",
+      "courseId": "snes-mario-circuit-3",
+      "player": "Tomegome",
+      "time": "1:07.93",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1197906566244163585",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-11-22T15:55:56.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:07.93",
+        "67.93"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "snes-mario-circuit-3"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-7862550249bb07147fc62e87-previous",
+      "courseId": "snes-choco-island-2",
+      "player": "Tomegome",
+      "time": "0:50.14",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1198263718708035585",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-11-23T15:35:07.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:50.14",
+        ":50.14",
+        "50.14"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "snes-choco-island-2"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-8b77dbe1db8b81d20bb3dfda-previous",
+      "courseId": "snes-mario-circuit-3",
+      "player": "Tomegome",
+      "time": "1:07.46",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1198263718708035585",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-11-23T15:35:07.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:07.46",
+        "67.46"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "snes-mario-circuit-3"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-ea316a42f4d1a1e2cb11b6d5-previous",
+      "courseId": "3ds-rock-rock-mountain",
+      "player": "Tomegome",
+      "time": "1:47.68",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1201446628642541569",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-12-02T10:22:52.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:47.68",
+        "107.68"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-rock-rock-mountain"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-99f3d840a5a3428af0c03d79-previous",
+      "courseId": "snes-mario-circuit-2",
+      "player": "Tomegome",
+      "time": "1:00.04",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1202169093559705600",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-12-04T10:13:41.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:00.04",
+        "60.04"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "snes-mario-circuit-2"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "early-chronology-7e22d454fcab70fd8ef6e9ae-previous",
+      "courseId": "3ds-daisy-hills",
+      "player": "Tomegome",
+      "time": "1:24.14",
+      "source": {
+        "url": "https://x.com/tomegome_g/status/1202169093559705600",
+        "channel": "original Twitter post"
+      },
+      "observedAt": "2019-12-04T10:13:41.000Z",
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:24.14",
+        "84.14"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-daisy-hills"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "636594497349877765-opening2019-proof-review",
+      "courseId": "3ds-neo-bowser-city",
+      "player": "Unreal91",
+      "time": "1:27.94",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/636594497349877765",
+        "channel": "tt-discussion",
+        "messageId": "636594497349877765"
+      },
+      "observedAt": null,
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:27.94",
+        "87.94"
+      ],
+      "additionalTerms": [
+        "Unreal91",
+        "3ds-neo-bowser-city"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "636940091843018752-opening2019-proof-review",
+      "courseId": "3ds-toad-circuit",
+      "player": "YersonCz",
+      "time": "1:05.12",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/636940091843018752",
+        "channel": "tt-discussion",
+        "messageId": "636940091843018752"
+      },
+      "observedAt": null,
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:05.12",
+        "65.12"
+      ],
+      "additionalTerms": [
+        "YersonCz",
+        "3ds-toad-circuit"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "636940437554462732-opening2019-proof-review",
+      "courseId": "3ds-toad-circuit",
+      "player": "YersonCz",
+      "time": "1:05.12",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/636940437554462732",
+        "channel": "tt-discussion",
+        "messageId": "636940437554462732"
+      },
+      "observedAt": null,
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:05.12",
+        "65.12"
+      ],
+      "additionalTerms": [
+        "YersonCz",
+        "3ds-toad-circuit"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "641922573646430228-paris2019-proof-review",
+      "courseId": "snes-mario-circuit-1",
+      "player": "YersonCz",
+      "time": "0:48.96",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/641922573646430228",
+        "channel": "tt-discussion",
+        "messageId": "641922573646430228"
+      },
+      "observedAt": null,
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:48.96",
+        ":48.96",
+        "48.96"
+      ],
+      "additionalTerms": [
+        "YersonCz",
+        "snes-mario-circuit-1"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "641922779003748362-paris2019-proof-review",
+      "courseId": "ds-luigi-s-mansion",
+      "player": "Unidentified player",
+      "time": "1:25.43",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/641922779003748362",
+        "channel": "tt-discussion",
+        "messageId": "641922779003748362"
+      },
+      "observedAt": null,
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:25.43",
+        "85.43"
+      ],
+      "additionalTerms": [
+        "Unidentified player",
+        "ds-luigi-s-mansion"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "681784286189322263-681784281638764544-2020-proof-review",
+      "courseId": "snes-choco-island-2r",
+      "player": "maa",
+      "time": "0:49.88",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/681784286189322263",
+        "channel": "tt-discussion",
+        "messageId": "681784286189322263"
+      },
+      "observedAt": null,
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:49.88",
+        ":49.88",
+        "49.88"
+      ],
+      "additionalTerms": [
+        "maa",
+        "snes-choco-island-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "681784632316002435-681784632169332775-2020-proof-review",
+      "courseId": "snes-choco-island-2r",
+      "player": "Gomikuzu_struck",
+      "time": "0:49.94",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/681784632316002435",
+        "channel": "tt-discussion",
+        "messageId": "681784632316002435"
+      },
+      "observedAt": null,
+      "requiredEvidence": "Original result or explicit dated contemporary report; compare rival progression before accepting a WR date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:49.94",
+        ":49.94",
+        "49.94"
+      ],
+      "additionalTerms": [
+        "Gomikuzu_struck",
+        "snes-choco-island-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "685954008447582234-685954007763517474-2020-proof-review",
+      "courseId": "snes-rainbow-road-r",
+      "player": "Deleted User",
+      "time": "1:00.19",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/685954008447582234",
+        "channel": "tt-discussion",
+        "messageId": "685954008447582234"
+      },
+      "observedAt": "2020-03-07T20:56:20.023Z",
+      "requiredEvidence": "Original dated result, runner attribution and rival chronology; delayed upload date is not achievement date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:00.19",
+        "60.19"
+      ],
+      "additionalTerms": [
+        "Deleted User",
+        "snes-rainbow-road-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "685954008447582234-685954008158044161-2020-proof-review",
+      "courseId": "snes-ghost-valley-1",
+      "player": "Deleted User",
+      "time": "0:39.94",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/685954008447582234",
+        "channel": "tt-discussion",
+        "messageId": "685954008447582234"
+      },
+      "observedAt": "2020-03-07T20:56:20.023Z",
+      "requiredEvidence": "Original dated result, runner attribution and rival chronology; delayed upload date is not achievement date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:39.94",
+        ":39.94",
+        "39.94"
+      ],
+      "additionalTerms": [
+        "Deleted User",
+        "snes-ghost-valley-1"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "baby-rosalina-2020-kaguya-10183-context",
+      "courseId": "snes-mario-circuit-2r",
+      "player": "Nu11",
+      "time": "1:01.83",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/689443354756645002",
+        "channel": "tt-discussion",
+        "messageId": "689443354756645002"
+      },
+      "observedAt": "2020-03-17T12:01:45.012Z",
+      "requiredEvidence": "Original achievement evidence and rival chronology; contemporary share establishes only latest known observation.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:01.83",
+        "61.83"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "snes-mario-circuit-2r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "hammer2020-rival-report-693034163694993478",
+      "courseId": "gcn-yoshi-circuit-r",
+      "player": "Nu11",
+      "time": "1:32.78",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/693034163694993478",
+        "channel": "tt-discussion",
+        "messageId": "693034163694993478"
+      },
+      "observedAt": "2020-03-27T09:50:20.577Z",
+      "requiredEvidence": "Original image/video and exact date; question-form rival report alone is insufficient for automatic WR acceptance.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:32.78",
+        "92.78"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "gcn-yoshi-circuit-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "693435096585338983-693435096610635806-2020-proof-review",
+      "courseId": "gcn-yoshi-circuit-r",
+      "player": "Nu11",
+      "time": "1:31.96",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/693435096585338983",
+        "channel": "tt-discussion",
+        "messageId": "693435096585338983"
+      },
+      "observedAt": "2020-03-28T12:23:30.427Z",
+      "requiredEvidence": "Original dated tweet and rival chronology. Screenshot relative age is insufficient for exact date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:31.96",
+        "91.96"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "gcn-yoshi-circuit-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "693534008126210168-693534007593533510-2020-proof-review",
+      "courseId": "gcn-yoshi-circuit-r",
+      "player": "タダ飯",
+      "time": "1:31.52",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/693534008126210168",
+        "channel": "tt-discussion",
+        "messageId": "693534008126210168"
+      },
+      "observedAt": "2020-03-28T18:56:32.776Z",
+      "requiredEvidence": "Original dated tweet and rival chronology. Screenshot relative age is insufficient for exact date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:31.52",
+        "91.52"
+      ],
+      "additionalTerms": [
+        "タダ飯",
+        "gcn-yoshi-circuit-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "hammer2020-kaguya-previous-13273-693435096610635806",
+      "courseId": "gcn-yoshi-circuit-r",
+      "player": "Nu11",
+      "time": "1:32.73",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/693435096585338983",
+        "channel": "tt-discussion",
+        "messageId": "693435096585338983"
+      },
+      "observedAt": "2020-03-28T12:23:30.427Z",
+      "requiredEvidence": "Original result date and comparison with other runners.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:32.73",
+        "92.73"
+      ],
+      "additionalTerms": [
+        "Nu11",
+        "gcn-yoshi-circuit-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "yoshi2020-tomegome-reported-11599-697374422826221639",
+      "courseId": "n64-kalimari-desert",
+      "player": "Tomegome",
+      "time": "1:15.99",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/697374422826221639",
+        "channel": "tt-discussion",
+        "messageId": "697374422826221639"
+      },
+      "observedAt": "2020-04-08T09:16:58.992Z",
+      "requiredEvidence": "Find original Tomegome post and establish whether 1:15.99 preceded the faster rival. Do not publish a WR or assign the report timestamp as the run date.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "1:15.99",
+        "75.99"
+      ],
+      "additionalTerms": [
+        "Tomegome",
+        "n64-kalimari-desert"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "yoshi2020-tomegome-reported-1218-698462540300156959",
+      "courseId": "3ds-daisy-hills-r",
+      "player": "Tomegome",
+      "time": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/698462540300156959",
+        "channel": "tt-discussion",
+        "messageId": "698462540300156959"
+      },
+      "observedAt": "2020-04-11T09:20:46.414Z",
+      "requiredEvidence": "Recover original Tomegome result; determine full hundredths, achievement date and order against Nu11 1:21.79.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [],
+      "additionalTerms": [
+        "Tomegome",
+        "3ds-daisy-hills-r"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    },
+    {
+      "recordId": "trick2020-baseball-reported-3542-702431398547685436",
+      "courseId": "snes-vanilla-lake-1",
+      "player": "Baseball",
+      "time": "0:35.42",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/702431398547685436",
+        "channel": "tt-discussion",
+        "messageId": "702431398547685436"
+      },
+      "observedAt": "2020-04-22T08:11:35.958Z",
+      "requiredEvidence": "OriginalBaseball result and time order againstAstre opening improvements; do not assign report timestamp as achievement.",
+      "searchStatus": "pending-not-exhaustively-searched",
+      "timeSearchVariants": [
+        "0:35.42",
+        ":35.42",
+        "35.42"
+      ],
+      "additionalTerms": [
+        "Baseball",
+        "snes-vanilla-lake-1"
+      ],
+      "dateBoundRule": "Use the tour window and contemporary context; observedAt is not an achievement date.",
+      "searchedSourceReferences": []
+    }
+  ],
+  "sourceLocationFollowUps": [
+    {
+      "messageId": "637261905559552019",
+      "attachmentId": "637261905559552013",
+      "time": "1:04.91",
+      "courseId": "3ds-toad-circuit",
+      "attachmentOriginChannelId": "630496451491004475",
+      "messageChannelId": null,
+      "status": "pending-message-location-verification",
+      "existingDisposition": "duplicate-proof-for-existing-world-record"
+    },
+    {
+      "messageId": "638495900309651466",
+      "attachmentId": "638495899164737551",
+      "time": "1:32.91",
+      "courseId": "3ds-neo-bowser-city",
+      "attachmentOriginChannelId": "630496570869022740",
+      "messageChannelId": null,
+      "status": "pending-message-location-verification",
+      "existingDisposition": "personal-best-overview-not-established-world-record"
+    },
+    {
+      "messageId": "641292865829470239",
+      "attachmentId": "641292865829470238",
+      "time": "1:47.34",
+      "courseId": "gcn-dino-dino-jungle",
+      "attachmentOriginChannelId": "630496570869022740",
+      "messageChannelId": null,
+      "status": "pending-message-location-verification",
+      "existingDisposition": "personal-best-overview-not-established-world-record"
+    },
+    {
+      "messageId": "641295432559099925",
+      "attachmentId": "641295432021966869",
+      "time": "1:39.66",
+      "courseId": "gcn-dino-dino-jungle",
+      "attachmentOriginChannelId": "630496570869022740",
+      "messageChannelId": null,
+      "status": "pending-message-location-verification",
+      "existingDisposition": "personal-best-overview-not-established-world-record"
+    }
+  ],
+  "currentNativeSearchAttempt": {
+    "query": "after:2020-04-21 before:2020-04-24 35.42",
+    "channelConstraint": null,
+    "status": "input-actions-did-not-produce-results-pane",
+    "conclusion": "No completed search or absence conclusion can be recorded.",
+    "observedFinalInput": "after:2020-04-21 before: 2020-04-24 35.4"
+  }
+}
