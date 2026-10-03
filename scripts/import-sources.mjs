@@ -536,6 +536,11 @@ export function importSources(courses, players) {
             ])];
           }
           r.proofImage = verifiedProof.proofImage;
+          // Keep the preserved file paired with the verified original image.
+          // A WR announcement may reference a different, expired attachment.
+          if (verifiedProof.proofImageLocal) {
+            r.proofImageLocal = verifiedProof.proofImageLocal;
+          }
         } else {
           r.proofImage ||= s.proofImage;
         }
