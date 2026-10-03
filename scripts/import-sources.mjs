@@ -505,6 +505,8 @@ export function importSources(courses, players) {
         r.datePrecision = s.datePrecision;
         r.submittedAt = s.submittedAt;
         if (s.delayedSubmission) r.delayedSubmission = true;
+        if (matches.some((m) => m.dateUnresolved &&
+            m.source?.url === s.source?.url)) r.dateUnresolved = true;
         // A recovered repost can replace an expired image without moving the
         // earliest surviving evidence of the same run to the repost's date.
         r.proofUploadedAt = s.preserveEarlierProofDate
