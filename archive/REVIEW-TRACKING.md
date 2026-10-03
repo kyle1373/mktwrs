@@ -8,6 +8,14 @@ Each source is identified by Discord channel and message ID. Images use attachme
 
 The stages are distinct: source captured, media preserved, image read, chronology reconciled, record published, live result verified. A screenshot showing a personal best does not establish a world record. A repost timestamp does not establish the date of the run. Missing original dates stay unresolved.
 
+## Unresolved evidence and search scope
+
+“Not located in the sources reviewed” is not evidence that a result, date, image or video is absent from the server. TT discussion and TT submissions are source channels, not an exhaustive boundary. A finished channel queue does not close a record lead or certify a tour.
+
+Keep separate the missing components: original achievement date, runner identity, readable result proof, lap splits, video availability, and position in the WR progression. A run can have strong result proof while its original date remains unresolved.
+
+For unresolved leads, retain the channels and date ranges actually searched, query terms, saved result captures, nearby-context coverage, and remaining searches. Search server-wide as well as in the TT channels, including player aliases, course aliases, total-time formats, and relevant media posts. Inspect nearby messages and follow reposts to their original source where possible. Zero search results, expired attachment URLs, and access failures do not certify missing or lost evidence. Unknown source channel IDs must remain unknown rather than being inferred from CDN attachment paths.
+
 ## Saved checkpoints
 
 - `2019-image-to-curated-audit.json`: links for 90 transcribed 2019 images from one indexed queue.
