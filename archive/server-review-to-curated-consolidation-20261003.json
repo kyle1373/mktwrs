@@ -3,9 +3,10 @@
   "scope": "Consolidation of the two existing visual-review ledgers, not an exhaustive server capture and not global WR certification. Stable source/message/attachment identity plus exact course/time required for transfer match. Unlinked rows may be rejected PBs or unresolved records; inspect disposition before promotion.",
   "indexedReviews": 12318,
   "stageCounts": {
-    "linked-to-curated": 2866,
+    "linked-to-curated": 2867,
     "no-transcribed-result": 865,
-    "unlinked-result-needs-reconciliation": 8587
+    "reviewed-excluded-slower-unidentified-result": 1,
+    "unlinked-result-needs-reconciliation": 8585
   },
   "yearCounts": {
     "2019": 100,
@@ -476,7 +477,8 @@
       "classification": "runner-and-chronology-unresolved",
       "curatedEvidenceIds": [],
       "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "stage": "reviewed-excluded-slower-unidentified-result",
+      "reconciliationNotes": "Preserved challenge overview shows 1:45.50; original runner unidentified, slower than contemporaneous accepted records. Not missing WR evidence."
     },
     {
       "attachmentId": "636654193431543818",
@@ -97357,9 +97359,14 @@
       "time": "0:46.57",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "yoshi-2021-02667544b861d893272e5949-04657"
+      ],
+      "curatedStatus": {
+        "yoshi-2021-02667544b861d893272e5949-04657": "community-wr"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationNotes": "Finish 0:46.57; separate previous best 0:46.72. Contemporary result source added to matching curated row."
     },
     {
       "attachmentId": "824644679097516042",
