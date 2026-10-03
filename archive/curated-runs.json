@@ -12618,8 +12618,8 @@
     "courseId": "3ds-rock-rock-mountain",
     "time": "1:47.53",
     "laps": [
-      null,
-      null
+      "53.84",
+      "53.69"
     ],
     "mushrooms": null,
     "status": "community-wr",
@@ -12634,16 +12634,30 @@
     "video": null,
     "notes": [
       "Original result image visually reviewed. Date is the original post date in UTC, not an exact race-completion timestamp.",
-      "Matches the migrated Winter Tour WR announcement. The old linked proof was unavailable; this original December2 screenshot supplies the exact publication date and a preserved image."
+      "Matches the migrated Winter Tour WR announcement. The old linked proof was unavailable; this original December2 screenshot supplies the exact publication date and a preserved image.",
+      "Tomegome supplied 33.84/33.69 in the adjacent December2 conversation, then explicitly corrected 30 to 50. Corrected laps are 53.84/53.69 and sum exactly to 1:47.53."
     ],
     "additionalSources": [
       {
         "url": "https://discord.com/channels/629221606064914442/896050730216095765/896332220334215188",
         "channel": "wr-history",
         "messageId": "896332220334215188"
+      },
+      {
+        "url": "https://x.com/tomegome_g/status/1201459206919983105",
+        "kind": "lap-breakdown"
+      },
+      {
+        "url": "https://x.com/tomegome_g/status/1201459529772191745",
+        "kind": "lap-prefix-correction"
       }
     ],
-    "proofImageLocal": "/assets/proof/early-chronology-ea316a42f4d1a1e2cb11b6d5.webp"
+    "proofImageLocal": "/assets/proof/early-chronology-ea316a42f4d1a1e2cb11b6d5.webp",
+    "lapSource": {
+      "url": "https://x.com/tomegome_g/status/1201459206919983105",
+      "correctionUrl": "https://x.com/tomegome_g/status/1201459529772191745",
+      "kind": "original-holder-lap-message-with-explicit-correction"
+    }
   },
   {
     "messageId": "winter-2019-original-8b77dbe1db8b81d20bb3dfda",
@@ -95276,5 +95290,31 @@
     "includeInProgression": false,
     "proofImageLocal": "/assets/proof/winter2019-a98306460-1200950292415565825.webp",
     "proofImageVerified": true
+  },
+  {
+    "messageId": "winter2019-nu11-1198379416239239169-14786",
+    "player": "Nu11",
+    "courseId": "3ds-rock-rock-mountain",
+    "time": "1:47.86",
+    "laps": [
+      null,
+      null
+    ],
+    "mushrooms": null,
+    "status": "documented-submission",
+    "includeInProgression": false,
+    "submittedAt": "2019-11-23T23:14:52+00:00",
+    "achievedAt": null,
+    "proofImage": "https://pbs.twimg.com/media/EKF_udfU8AAd5WB.jpg",
+    "proofImageLocal": "/assets/proof/winter2019-nu11-1198379416239239169-14786.webp",
+    "proofImageVerified": true,
+    "source": {
+      "url": "https://x.com/_Kaguya_Games/status/1198379416239239169",
+      "channel": "original-player-post",
+      "postId": "1198379416239239169"
+    },
+    "notes": [
+      "Original screenshot visually verifies Rock Rock Mountain 1:47.86, previous1:48.05. Original publication November23 23:14 UTC corresponds to phone November24 08:12 JST. Exact publication retained, race instant unknown; global WR status still being reconciled."
+    ]
   }
 ]
