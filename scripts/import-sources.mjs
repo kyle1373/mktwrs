@@ -319,6 +319,8 @@ export function importSources(courses, players) {
       s.status = "matched-sheet-submission";
       attachmentMatches++;
     }
+  const submissionCorrections = fs.existsSync("archive/submission-corrections.json")
+    ? JSON.parse(fs.readFileSync("archive/submission-corrections.json", "utf8")) : {};
   let botCount = 0;
   for (const m of messages.values()) {
     const body = m.embeds?.map((e) => e.text).join("\n") || "";
@@ -404,6 +406,18 @@ export function importSources(courses, players) {
       },
       status: "accepted-submission",
     });
+    const correction = submissionCorrections[r.source.messageId];
+    if (correction && correction.courseId === c.id && correction.originalTime === r.time) {
+      const correctedCs = centiseconds(correction.time);
+      if (!correctedCs) throw Error("Invalid corrected submission time: " + r.source.messageId);
+      r.originalReportedTime = r.time;
+      r.originalReportedLaps = r.laps;
+      r.time = formatTime(correctedCs);
+      r.timeCs = correctedCs;
+      r.laps = correction.laps;
+      r.notes.push(correction.reason);
+      r.additionalSources = [...(r.additionalSources || []), ...correction.sources];
+    }
     botCount++;
   }
   const curated = fs.existsSync("archive/curated-runs.json")
