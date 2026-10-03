@@ -3,6 +3,20 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { fastestVideo } from '../lib/video.mjs';
 const courses=JSON.parse(fs.readFileSync('public/data/courses.json'));
+test('Sunset Wilds restores Nu11’s May 2022 intermediate WR with exact source date and playable reign',()=>{
+ const c=courses.find(c=>c.id==='gba-sunset-wilds');
+ const index=c.records.findIndex(r=>r.time==='1:10.23'&&r.playerId==='nu11');
+ assert(index>0);
+ const r=c.records[index];
+ assert.equal(c.records[index-1].time,'1:10.30');
+ assert.equal(c.records[index+1].time,'1:10.10');
+ assert.equal(r.recordDate,'2022-05-18');
+ assert.equal(r.submittedAt,'2022-05-18T11:45:03.097Z');
+ assert.deepEqual(r.laps,['35.22','35.01']);
+ assert.equal(r.durationDays,9);
+ assert.match(r.video,/gizNrYVgWuM/);
+ assert(fs.existsSync('public'+r.proofImageLocal));
+});
 test('Anniversary 2020 restores the WR exchange with original dates, splits and preserved images',()=>{
  const c=courses.find(c=>c.id==='3ds-toad-circuit');
  const runs=c.records.filter(r=>r.recordDate>='2020-10-07'&&r.recordDate<'2020-10-21');

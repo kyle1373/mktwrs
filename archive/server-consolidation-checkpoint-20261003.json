@@ -20,17 +20,28 @@
     "617 matches to generated site layers do not represent new WRs; most are existing submissions.",
     "6369 visual-review entries still need source/chronology consolidation; 617 generated-site matches and1598 previously classified or rereviewed non-WR/context rows are separately accounted for.",
     "All30 requested early appearances remain incomplete; exact dates must not be invented.",
-    "GitHub pushes completed; live site deployment still being verified."
+    "Data changes verified live; complete server history remains unresolved."
   ],
   "next": [
     "Continue early course gaps and nearby discussion context; use saved IDs and dispositions to avoid rereading resolved evidence.",
     "Review unmatched opening submissions against prior standing all-time records."
   ],
   "deployment": {
-    "latestCommit": "869fb6a",
-    "railwayStatus": "Building",
+    "latestDataCommit": "869fb6a",
+    "liveVerified": true,
+    "course": "https://mktwrs.com/course/gba-sunset-wilds",
+    "newRow": {
+      "date": "2022-05-18",
+      "time": "1:10.23",
+      "player": "Nu11",
+      "laps": [
+        "35.22",
+        "35.01"
+      ],
+      "durationDays": 9
+    },
     "previousCorrectionLive": true,
-    "liveCheck": "Phillish40.68 confirmed via cache-bypassed JSON; Nu11Sunset1:10.23pendingdeployment."
+    "screenshot": "artifacts/sunset-nu11-recovered-live-20261003.png"
   },
   "parisDiscussionCensus": {
     "messagesIndexed": 69,
@@ -39,5 +50,23 @@
     "allSearchPagesRead": true,
     "historyComplete": false,
     "textOnlyClaimsSaved": 4
+  },
+  "validation": {
+    "isolatedDataBuild": "passed",
+    "targetedTests": [
+      "SunsetWilds2022",
+      "Winter2020",
+      "Yoshi2021"
+    ],
+    "passed": 3,
+    "failed": 0,
+    "fullSuite": "not certified; earlier unrelated failures remain"
+  },
+  "winterDiscussionCensus": {
+    "indexed": 98,
+    "withinTour": 85,
+    "allPagesRead": true,
+    "stableIdsMissing": 0,
+    "historyComplete": false
   }
 }
