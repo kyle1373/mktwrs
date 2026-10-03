@@ -10,5 +10,14 @@
   "april23AfternoonEvidencePresent": false,
   "complete": false,
   "finding": "Live endpoint is available and contains the first recently pushed batch, but later batches are not present at this check. Git push does not certify latest deployment.",
-  "latestDataCommit": "1e2e591"
+  "latestDataCommit": "1e2e591",
+  "recheck": {
+    "checkedAt": "2026-10-03T05:08:15.971192+00:00",
+    "httpStatus": 200,
+    "responseSeconds": 0.115255,
+    "responseSha256": "55639e112474d422de27eef5a4f0cc7b7b3f0fed03529f4572c24b78a5324e3f",
+    "submissionCount": 166,
+    "april23AfternoonEvidencePresent": false,
+    "finding": "Later GitHub batches remain absent in live response at this recheck. Latest deployment not certified."
+  }
 }
