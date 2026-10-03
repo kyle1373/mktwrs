@@ -66,6 +66,44 @@
           "103274"
         ]
       ]
+    },
+    {
+      "postId": "1193188592819957761",
+      "request": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FEI8OrsZU8AA-liN%2A&output=json&filter=statuscode%3A200&collapse=urlkey",
+      "response": [
+        [
+          "urlkey",
+          "timestamp",
+          "original",
+          "mimetype",
+          "statuscode",
+          "digest",
+          "length"
+        ],
+        [
+          "com,twimg,pbs)/media/ei8orszu8aa-lin.jpg",
+          "20191109153458",
+          "https://pbs.twimg.com/media/EI8OrsZU8AA-liN.jpg",
+          "image/jpeg",
+          "200",
+          "I3GWGU4W3MNLIRYK7FJAB4X2N4BY7DKP",
+          "131805"
+        ],
+        [
+          "com,twimg,pbs)/media/ei8orszu8aa-lin.jpg:large",
+          "20191109153459",
+          "https://pbs.twimg.com/media/EI8OrsZU8AA-liN.jpg:large",
+          "image/jpeg",
+          "200",
+          "I3GWGU4W3MNLIRYK7FJAB4X2N4BY7DKP",
+          "131832"
+        ]
+      ]
+    },
+    {
+      "postId": "1193709221725884420",
+      "request": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FEJDoMFZUwAA2FJN%2A&output=json&filter=statuscode%3A200&collapse=urlkey",
+      "error": "The read operation timed out"
     }
   ]
 }
