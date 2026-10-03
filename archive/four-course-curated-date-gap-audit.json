@@ -1,12 +1,13 @@
 {
   "complete": false,
-  "scope": "Curated source rows; announcements and missing originals also require audit",
+  "scope": "Committed curated source rows; count is not complete WR chronology or server coverage. Original date evidence and all competitors require reconciliation.",
+  "checkedCommit": "49f7be34aa941ff644fe711286683d6ba4738340",
   "courses": [
     {
       "courseId": "3ds-shy-guy-bazaar",
       "acceptedCuratedRecords": 1,
       "unresolvedDates": [],
-      "documentedSubmissionsNotPromoted": 9
+      "documentedSubmissionsNotPromoted": 13
     },
     {
       "courseId": "3ds-neo-bowser-city",
@@ -16,7 +17,7 @@
     },
     {
       "courseId": "gcn-dino-dino-jungle",
-      "acceptedCuratedRecords": 19,
+      "acceptedCuratedRecords": 26,
       "unresolvedDates": [
         {
           "messageId": "tomegome-1191420102056402944-previous-13416",
@@ -26,15 +27,46 @@
             "url": "https://x.com/tomegome_g/status/1191420102056402944",
             "channel": "original-player-post"
           }
+        },
+        {
+          "messageId": "tomegome-2019-1189952485982519297-previous-13518",
+          "player": "Tomegome",
+          "time": "1:35.18",
+          "source": {
+            "url": "https://twitter.com/tomegome_g/status/1189952485982519297",
+            "postId": "1189952485982519297",
+            "kind": "original-player-post"
+          }
+        },
+        {
+          "messageId": "tomegome-2019-1190007816288796673-previous-13463",
+          "player": "Tomegome",
+          "time": "1:34.63",
+          "source": {
+            "url": "https://x.com/tomegome_g/status/1190007816288796673",
+            "platform": "Twitter",
+            "postId": "1190007816288796673"
+          }
         }
       ],
-      "documentedSubmissionsNotPromoted": 15
+      "documentedSubmissionsNotPromoted": 10
     },
     {
       "courseId": "ds-luigi-s-mansion",
-      "acceptedCuratedRecords": 3,
-      "unresolvedDates": [],
-      "documentedSubmissionsNotPromoted": 29
+      "acceptedCuratedRecords": 9,
+      "unresolvedDates": [
+        {
+          "messageId": "luigi-mansion-2019-1193922281489043456-previous-image-reviewed",
+          "player": "Tomegome",
+          "time": "1:23.49",
+          "source": {
+            "url": "https://x.com/tomegome_g/status/1193922281489043456",
+            "platform": "Twitter",
+            "postId": "1193922281489043456"
+          }
+        }
+      ],
+      "documentedSubmissionsNotPromoted": 36
     }
   ]
 }
