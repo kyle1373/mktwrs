@@ -77,7 +77,11 @@ test('Mario vs. Luigi restores both exchanges, preserves three sections, and exc
 });
 test('Winter 2020 restores both exchanges and attributes tied footage to its actual runner',()=>{
  const ci=courses.find(c=>c.id==='snes-choco-island-1');
- assert.deepEqual(ci.records.map(r=>r.time),['0:41.43','0:40.68','0:40.58','0:40.36','0:40.30','0:40.29','0:40.07','0:39.92','0:39.87','0:39.81','0:39.76','0:39.76']);
+ assert.deepEqual(ci.records.map(r=>r.time),['0:41.43','0:40.68','0:40.68','0:40.36','0:40.30','0:40.29','0:40.07','0:39.92','0:39.87','0:39.81','0:39.76','0:39.76']);
+ const openingTie=ci.records.find(r=>r.source?.messageId==='783585869184761866');
+ assert.equal(openingTie.time,'0:40.68');assert.equal(openingTie.playerId,'phillish');
+ assert.equal(openingTie.submittedAt,'2020-12-02T06:50:29.535Z');
+ assert(openingTie.notes.some(n=>n.includes('783586140787572756')));
  const nu=ci.records.find(r=>r.playerId==='nu11'&&r.time==='0:39.76');
  const fx=ci.records.find(r=>r.playerId==='superfx');
  assert.equal(nu.recordDate,'2020-12-06');assert.equal(nu.video,null);assert.equal(nu.videoBackup,undefined);
