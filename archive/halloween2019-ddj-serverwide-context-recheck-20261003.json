@@ -1,0 +1,56 @@
+{
+  "complete": false,
+  "reviewDate": "2026-10-03",
+  "exactTimeQuery": {
+    "query": "before:2020-01-01 \"1:34.16\"",
+    "verifiedInput": true,
+    "results": 0,
+    "scope": "all searchable server channels",
+    "meaning": "No text match, not evidence that no image-only original exists."
+  },
+  "abbreviationQuery": {
+    "query": "after:2019-10-22 before:2019-11-06 DDJ",
+    "results": 5,
+    "messages": [
+      {
+        "id": "641427625775988752",
+        "timestamp": "2019-11-06T00:04:23.134Z",
+        "player": "Hugo",
+        "time": "1:36.98",
+        "decision": "Slower personal-best claim, not WR."
+      },
+      {
+        "id": "640546554632994826",
+        "timestamp": "2019-11-03T13:43:19.404Z",
+        "text": "This is regular DDJ by the way",
+        "decision": "Inspect nearby score context only if needed."
+      },
+      {
+        "id": "639765459633307668",
+        "timestamp": "2019-11-01T09:59:31.844Z",
+        "player": "Tomegome",
+        "time": "1:34.43",
+        "laps": [
+          "47.21",
+          "47.22"
+        ],
+        "video": "https://twitter.com/tomegome_g/status/1190016227671826433",
+        "decision": "Already preserved accepted record; original player post date October31 differs from later Discord repost."
+      },
+      {
+        "id": "639747640988401665",
+        "timestamp": "2019-11-01T08:48:43.548Z",
+        "text": "I need the DDJ WRs since Oct. 28 too",
+        "decision": "Contemporary admission that spreadsheet progression needed further data; no exhaustive guarantee."
+      },
+      {
+        "id": "639547777214578700",
+        "timestamp": "2019-10-31T19:34:32.311Z",
+        "edited": "2019-10-31T20:01:32.290Z",
+        "text": "Current BKTs: TC1:04.46 Kaguya NBC1:25.95 Astre DDJ1:35.46 Dark",
+        "decision": "Snapshot is already superseded by original player posts; do not infer missing record dates from it."
+      }
+    ]
+  },
+  "next": "Continue image and original-player evidence for 1:34.16/1:35.18 and early Paris chronology; no tours certified complete."
+}
