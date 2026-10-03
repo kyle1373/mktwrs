@@ -1,0 +1,101 @@
+{
+  "complete": false,
+  "recordId": "twitter-1191841211063164929-previous-12580",
+  "courseId": "3ds-neo-bowser-city",
+  "reviewedAt": "2026-10-02",
+  "originalPost": {
+    "id": "1191841211063164929",
+    "createdAt": "2019-11-05T22:14:22Z",
+    "replyingTo": null,
+    "verifiedTotal": "1:25.70",
+    "previousBest": "1:25.80",
+    "dateResolved": false
+  },
+  "replyChain": [
+    {
+      "id": "1191895494735171584",
+      "author": "Tomegome",
+      "createdAt": "2019-11-06T01:50:04Z",
+      "parent": "1191841211063164929",
+      "text": "You are amazing!! My best 1:28",
+      "finding": "Runner response concerns the later 1:25.70; does not date 1:25.80."
+    },
+    {
+      "id": "1191960862971637762",
+      "author": "Astre",
+      "createdAt": "2019-11-06T06:09:49Z",
+      "parent": "1191895494735171584",
+      "finding": "Thanks Tomegome for watching the video. No earlier achievement date."
+    }
+  ],
+  "distinctLaterRun": {
+    "messageId": "773503398972489728",
+    "postedAt": "2020-11-04T11:06:21.313Z",
+    "time": "1:25.80",
+    "laps": [
+      "42.74",
+      "43.06"
+    ],
+    "lapSourceMessageId": "773503425522565130",
+    "originalFile": "archive/early-submission-images/773503398788071434.png",
+    "originalSha256": "c36f4450a63123b25de89f7a69cf36f2e005c20a3ac9b4ce08ec3ea290f5ca11",
+    "classification": "slower-than-standing-world-record",
+    "finding": "Separate November 2020 run. Do not transfer its date or laps to the 2019 record."
+  },
+  "otherTextMatchChecks": [
+    {
+      "messageId": "778650735365193739",
+      "finding": "34.16 refers to a November 2020 Rainbow Road lap in surrounding messages, not DDJ 1:34.16."
+    },
+    {
+      "messageId": "703200041606840382",
+      "finding": "Following message .08 and adjacent discussion refer to Kazuo in April 2020. Not proof of Astre 2019 1:25.80."
+    }
+  ],
+  "remainingWork": "2019 exact achievement date unresolved. Need earlier original source or contemporary runner discussion. Saved-text search and original reply checks are bounded; not a complete Discord audit.",
+  "additionalOriginalChecks": [
+    {
+      "postId": "1191789895343202305",
+      "finding": "Tomegome November 5 avatar post. No record-time information."
+    },
+    {
+      "postId": "1191420102056402944",
+      "finding": "Original November 4 DDJ post is a standalone image post. Lists individual best laps 47.11 and 46.77; no earlier achievement date or combined-run lap proof."
+    },
+    {
+      "postId": "1188527578614652928",
+      "author": "Kaguya",
+      "retrievalStatus": "public metadata endpoint returned HTTP 404",
+      "finding": "Not evidence that no original existed; retain as unresolved recovery lead."
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "archive/halloween2019-astre-source-recovery/1191960862971637762.json",
+      "sha256": "b604090f0b0804985b2caa5174c1f56a7b666861562feadbbc7532ae5ff20a51"
+    },
+    {
+      "path": "archive/halloween2019-astre-source-recovery/1191895494735171584.json",
+      "sha256": "5f49491a1dd838b7b26cde45c6a7e5ed1bc292d52b9a5c250e830e8636269d6a"
+    },
+    {
+      "path": "archive/halloween2019-astre-source-recovery/1191789895343202305.json",
+      "sha256": "8fae3c44f53c51041f33fe05bb256e0a8d55f0064cabfb1fc7f7d526def8a77f"
+    },
+    {
+      "path": "archive/halloween2019-astre-source-recovery/1191841211063164929.json",
+      "sha256": "0ec2e86a3fa7f4186e51f868e472ca67ff1c11fa940034b87fde1aa8dc166eb5"
+    },
+    {
+      "path": "archive/halloween2019-astre-source-recovery/1191420102056402944.json",
+      "sha256": "1717113edfd2a8e2449c8527b7fa9d5c74de0f1850c972a46ab3a859dab8569f"
+    }
+  ],
+  "outsideServerLead": {
+    "sourceMessageId": "639551341081133066",
+    "sourceCapture": "archive/raw/early-context-20191031-0001.json",
+    "finding": "Contemporary record keeper says he joined Mario Kart Actu and had not added those times yet. Hugo supplies French records in surrounding messages. This identifies an additional community source; it does not certify all its records captured.",
+    "followingSourceMessageId": "639747640988401665",
+    "followingFinding": "On November 1 the keeper still asks for DDJ WRs since October 28."
+  }
+}
