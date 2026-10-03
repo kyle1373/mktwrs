@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "scope": "Disposition of one rejected screenshot; course history remains incomplete",
+  "sourceMessageId": "693534008126210168",
+  "attachmentId": "693534007593533510",
+  "courseId": "gcn-yoshi-circuit-r",
+  "displayedTime": "1:31.52",
+  "previousDisplayedTime": "1:33.63",
+  "sourcePostedAt": "2020-03-28T18:56:32.776Z",
+  "classification": "rejected-photoshopped-joke",
+  "curatedEvidenceId": "693534008126210168-693534007593533510-2020-proof-review",
+  "context": [
+    {
+      "messageId": "693534097343119520",
+      "postedAt": "2020-03-28T18:56:54.047Z",
+      "author": "LabatM",
+      "text": "That's a fake (photoshopped)"
+    },
+    {
+      "messageId": "693534150744997988",
+      "postedAt": "2020-03-28T18:57:06.779Z",
+      "author": "LabatM",
+      "text": "Look at the 1 from the 31"
+    },
+    {
+      "messageId": "693534221427540030",
+      "postedAt": "2020-03-28T18:57:23.631Z",
+      "author": "Colin",
+      "text": "That\u2019s terrible photoshopping"
+    },
+    {
+      "messageId": "693534227026804737",
+      "postedAt": "2020-03-28T18:57:24.966Z",
+      "author": "Whiplash",
+      "text": "Yes ahahah it was a joke"
+    }
+  ],
+  "historyComplete": false,
+  "notes": [
+    "Original attachment fully enlarged and read in Discord browser. Rejected disposition rests on explicit adjacent messages, not subjective visual assessment.",
+    "Remove former supporting-run interpretation; retain media and source IDs for audit."
+  ],
+  "priorRejectionAudits": [
+    "archive/hammer-bro-2020-server-image-review.json",
+    "archive/hammer-bro-2020-discussion-image-review.json"
+  ],
+  "rootCause": "Earlier rejection disposition did not propagate to the later curated supporting-submission import.",
+  "rejectionTransferCrosscheck": {
+    "scope": "Current archive top-level filenames matching *review*.json with rejection/fake/photoshop classifications, matched by stable source message or proof attachment ID against curated-runs.json",
+    "remainingConflicts": 0,
+    "limits": "Does not cover classifications outside those files or unreviewed evidence."
+  }
+}
