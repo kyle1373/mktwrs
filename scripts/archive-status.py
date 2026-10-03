@@ -55,6 +55,12 @@ report = {
     },
     'earlyImageQueue': years,
     'explicitEarlyUndatedCuratedLeads': early_leads,
+    'earlyChronologyWorkQueue': {
+        'path': 'archive/early-chronology-resume-queue.json',
+        'leadCount': len(read('early-chronology-resume-queue.json')['leads']),
+        'includesReportOnlyLeads': True,
+        'complete': False,
+    },
     'continuousDiscussionCheckpoint': {k: forward.get(k) for k in
         ('firstCapturedAt', 'lastCapturedAt', 'lastMessageId', 'uniqueMessageCount', 'pageCount', 'allAdjacentPagesOverlap', 'complete')},
     'currentSubmissionImagePass': {k: submission.get(k) for k in

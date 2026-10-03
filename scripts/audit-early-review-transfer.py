@@ -26,6 +26,11 @@ def centiseconds(value):
 
 reviews = read('early-visual-review.json')
 curated = read('curated-runs.json')
+# Readable evidence can be deliberately held outside publication while identity
+# or mode remains unresolved. Keep its review disposition so it is not mistaken
+# for an overlooked transcription on every resume.
+held_reports = ['halloween2019-dino-cup-overview-recovery.json']
+held = {read(name)['attachmentId']: name for name in held_reports}
 existing = {row['attachmentId']: row['curatedEvidenceIds']
             for row in read('2019-image-to-curated-audit.json')['images']}
 by_attachment = defaultdict(list)
@@ -61,7 +66,9 @@ for aid, image in sorted({i['id']: i for i in read('early-image-index.json')['im
         'curatedEvidenceIds': sorted(matches),
         'curatedClassifications': {key: run.get('status') for key, run in matches.items()},
         'stage': 'linked-to-curated-evidence' if matches else
+                 'held-unresolved-evidence' if aid in held else
                  'transcribed-not-linked' if review.get('time') else 'no-result-time-transcription',
+        **({'dispositionReport': held[aid]} if aid in held else {}),
         'sourceImage': image['url'],
     })
 report = {
