@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-04",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "fullMessageIndex": "archive/halloween2019-full-discussion-message-census-20261004.json",
+  "discussionSearchResults": 755,
+  "pagesRead": 31,
+  "uniqueMessagesPreserved": 755,
+  "scope": "All live tt-discussion search results after 2019-10-22 before 2019-11-06 read and preserved. Local-date search includes early Paris on November6 UTC. Deleted or unindexed messages cannot be certified by search. Other channel coverage and WR chronology remain distinct requirements.",
+  "legacyCensusCorrection": {
+    "path": "archive/halloween-discussion-census.json",
+    "actualYear": 2021,
+    "messageCount": 238,
+    "finding": "Stored timestamps show this is Halloween2021, not Halloween2019; clarified status to prevent misusing it as coverage evidence."
+  },
+  "attachmentReconciliation": {
+    "uniqueAttachmentUrls": 62,
+    "matchedPriorServerImageReview": 61,
+    "remainingAttachment": {
+      "messageId": "636494089780592650",
+      "attachmentId": "636494088866365440",
+      "path": "archive/early-submission-images/636494088866365440.gif",
+      "sha256": "b45d5046ef0adec99be2f007df2d5dc205800ffdaabfa6d1c876dce73c81d8bf",
+      "frames": 45,
+      "review": "Eight sampled frames visually inspected. Toad Circuit second-lap racing excerpt ends before finish; no result total or lap1 displayed. It cannot establish a new record total."
+    }
+  },
+  "changes": [
+    {
+      "record": "636867687091273739-opening2019-proof-review",
+      "time": "1:26.45",
+      "player": "Unreal91",
+      "laps": [
+        "42.97",
+        "43.48"
+      ],
+      "evidence": [
+        "636867687091273739",
+        "636867875193487370",
+        "636867805362257940"
+      ],
+      "finding": "Original screenshot reread; adjacent explicit lap1 added and lap2 calculated. Player states no recording. Supporting submission remains outside WR progression."
+    },
+    {
+      "record": "tomegome-halloween-2019-1187626117403824128-result",
+      "time": "1:04.96",
+      "finding": "Already recovered genuine WR; adjacent successor statement explicitly corroborates prior WR1:04.96. Added source rather than duplicate."
+    }
+  ],
+  "remaining": [
+    "Reconcile rivals and unavailable original image/video leads before certifying Halloween history.",
+    "Index completeness is not a certificate of genuine WR progression completeness."
+  ],
+  "serverWideScopeCheck": {
+    "query": "after:2019-10-22 before:2019-11-06",
+    "liveResultCount": 3757,
+    "allPagesRead": false,
+    "finding": "Full discussion index is a subset of the server date range. Existing server-wide image and link reviews are separate evidence filters, not full-message certification."
+  },
+  "additionalTextLead": {
+    "messageId": "636684082297831427",
+    "postedAt": "2019-10-23T21:55:14.238Z",
+    "text": "Someone have 1.05.25",
+    "courseCandidate": "3ds-toad-circuit",
+    "playerUnknown": true,
+    "status": "unresolved-context-only-lead",
+    "followupQuery": "after:2019-10-22 before:2019-11-06 \"1:05.25\"",
+    "followupResults": 0,
+    "finding": "Unattributed claim, no original result identified. Punctuation-specific search returned zero; that is not proof the run lacks evidence."
+  }
+}
