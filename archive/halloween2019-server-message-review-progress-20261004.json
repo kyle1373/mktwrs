@@ -66,11 +66,50 @@
     60,
     61,
     62,
-    63
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102
   ],
-  "capturedUniqueMessages": 1575,
+  "capturedUniqueMessages": 2550,
   "expectedResults": 3757,
-  "nextPage": 64,
+  "nextPage": 103,
   "classifications": [
     {
       "messageId": "641301459245334561",
@@ -186,9 +225,83 @@
       "titleAsPosted": "Koopa Troopa Beach T 20.1k",
       "classification": "score-run",
       "finding": "Original message/video preview explicitly concerns points and frenzies, not TT record."
+    },
+    {
+      "messageId": "638910471956594700",
+      "classification": "already-preserved-world-record",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:04.46",
+      "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+      "finding": "Original player posts matching Toad Circuit video. Added as a source to the existing visually verified result; video remains unavailable."
+    },
+    {
+      "messageId": "637857824130465801",
+      "classification": "already-preserved-world-record",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:04.73",
+      "laps": [
+        "32.44",
+        "32.29"
+      ],
+      "evidenceIds": [
+        "637857804476219433",
+        "637924013636583445"
+      ],
+      "finding": "Contemporary adjacent lap breakdown sums to the existing result; subsequent reply explicitly confirms WR. Added corroborating sources."
+    },
+    {
+      "messageId": "638150966474178570",
+      "classification": "already-preserved-world-record",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:04.54",
+      "video": "https://www.youtube.com/watch?v=5mQGD5k9V5k",
+      "finding": "Already linked to the curated result; no duplicate created."
+    },
+    {
+      "messageId": "638364828066512916",
+      "classification": "score-overview-video",
+      "evidenceIds": [
+        "638364751101034527",
+        "638364702434394123"
+      ],
+      "finding": "Author describes overview of cups and discussion concerns point totals; no TT WR inferred."
+    },
+    {
+      "messageId": "638853772797542402",
+      "classification": "score-run",
+      "video": "https://www.youtube.com/watch?v=JbeJ9uFvtfY",
+      "finding": "Preview explicitly describes Dino Dino Jungle T combo 138 and 23.5k points."
+    },
+    {
+      "messageId": "638757957760450580",
+      "classification": "score-run",
+      "video": "https://www.youtube.com/watch?v=aUZQb-DjNbc",
+      "finding": "Preview describes Mario Circuit T 28000 points with coin-box frenzy."
+    },
+    {
+      "messageId": "638020365012172830",
+      "classification": "score-highlights",
+      "video": "https://www.youtube.com/watch?v=uPL3e3iNkts",
+      "finding": "Preview explicitly describes 800000 points; not TT progression."
+    },
+    {
+      "messageId": "637594757937364992",
+      "classification": "score-stream",
+      "video": "https://www.youtube.com/watch?v=7Mwy4M3G-2M",
+      "finding": "Author discusses stream setup; title describes overall score ranking."
+    },
+    {
+      "messageId": "637476986331332618",
+      "classification": "disputed-time-rejected-by-contemporary-maintainer",
+      "courseId": "3ds-toad-circuit",
+      "evidenceIds": [
+        "637478216000602163",
+        "637478257712693252"
+      ],
+      "finding": "Maintainer removes an unsupported 1:01 claim; surrounding discussion identifies Yerson 1:04.85 as current WR. Do not add disputed claim to progression."
     }
   ],
-  "coverageNote": "1575 unique server messages preserved locally across pages 1–63. Full TT discussion index separately contains 755 messages. Capturing messages is not certification of complete WR history; media review, rival precedence and unresolved dates remain.",
+  "coverageNote": "2550 unique server messages preserved locally across pages 1–102. Full TT discussion index separately contains 755 messages. Search coverage is not certification of complete WR history; attachment review, rival precedence and unresolved dates remain.",
   "pendingMediaReview": [
     {
       "messageId": "639566857547808808",
@@ -207,6 +320,20 @@
       "attachmentId": "639505495543250985",
       "channelId": "630496451491004475",
       "status": "requires-context-and-video-inspection"
+    }
+  ],
+  "pendingChronologyReview": [
+    {
+      "messageId": "637455135382962186",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:05.28",
+      "finding": "Contemporary discussion reports two ties after Unreal. Original identities, timestamps and WR precedence must be reconciled before adding."
+    },
+    {
+      "messageId": "637458529694777344",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:04.91",
+      "finding": "Reports LewisB tweet 14 minutes later. Current canonical Unreal91 is LewisB; compare original posts to avoid duplicate identity."
     }
   ]
 }
