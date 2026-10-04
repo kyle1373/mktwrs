@@ -2128,10 +2128,16 @@
         "start": "2019-11-06",
         "end": "2019-11-20"
       },
-      "requiredEvidence": "Displayed date follows earliest verified screenshot publication. Continue searching for original race chronology, rival precedence, missing splits or videos.",
+      "requiredEvidence": "Exact earlier publication or race chronology and global rival precedence remain unresolved. Use preserved bounds; avoid repeating the original image review without new context.",
       "queueOrigin": "early30-current-source-timelines-20261003.json undatedEvidence",
       "displayedRecordDate": "2019-11-12",
-      "dateBasis": "first-screenshot-publication"
+      "dateBasis": "first-screenshot-publication",
+      "achievementDateBounds": {
+        "after": "2019-11-11T00:00:00Z",
+        "notAfter": "2019-11-12T17:43:00.000Z",
+        "basis": "Same-player1:23.44 has independently established achievement day2019-11-11;1:23.39 is faster and appears as previous best in later1:23.30 result publishedNovember12. Lower bound uses the day boundary, not the prior screenshot publication timestamp, because posting may lag the run.",
+        "timestampPrecision": "source-post timestamps; race timestamp unknown"
+      }
     },
     {
       "recordId": "nu11-2019-1194954705052434434-previous-12328",
@@ -2156,7 +2162,7 @@
         "start": "2019-11-06",
         "end": "2019-11-20"
       },
-      "requiredEvidence": "Displayed date follows earliest verified screenshot publication. Continue searching for original race chronology, rival precedence, missing splits or videos.",
+      "requiredEvidence": "Exact earlier publication or race chronology and global rival precedence remain unresolved. Use preserved bounds; avoid repeating the original image review without new context.",
       "queueOrigin": "early30-current-source-timelines-20261003.json undatedEvidence",
       "displayedRecordDate": "2019-11-14",
       "dateBasis": "first-screenshot-publication",
@@ -2164,6 +2170,12 @@
         "at": "2026-10-04",
         "audit": "archive/luigi2019-rival-reply-recheck-20261004.json",
         "finding": "OriginalNovember14reply thread shows earlier1:23.30range plateau; narrows interval but does not supply exact1:23.28publication."
+      },
+      "achievementDateBounds": {
+        "after": "2019-11-14T01:11:11.629Z",
+        "notAfter": "2019-11-14T12:26:17Z",
+        "basis": "Earlier same-player statement still describes being stuck in1:23.30range; later original1:23.14 screenshot shows previous1:23.28. Bounds already established by archived reply review.",
+        "timestampPrecision": "source-post timestamps; race timestamp unknown"
       }
     },
     {
@@ -8435,5 +8447,6 @@
       "resultCount": 0,
       "finding": "Exact-time search returned no matches. This is not evidence of absence: image-only submissions are not searched by their pixels."
     }
-  ]
+  ],
+  "latestLuigiBoundsReview": "archive/luigi2019-two-intermediate-chronology-bounds-20261004.json"
 }

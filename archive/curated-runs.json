@@ -92910,12 +92910,32 @@
     },
     "notes": [
       "Original preserved image visually reread and linked to its original public post. Rival WR chronology remains unresolved; preserve evidence without automatic WR promotion.",
-      "Previous-best field establishes the earlier time existed by the post timestamp; exact achievement date remains unresolved."
+      "Previous-best field establishes the earlier time existed by the post timestamp; exact achievement date remains unresolved.",
+      "2026-10-04 chronology reconciliation: earlier1:23.44 achievement day bounds1:23.39 no earlier thanNovember11; later1:23.30 publication bounds it byNovember12T17:43Z. Exact day and rival precedence unresolved. Screenshot posting can lag a run, so prior publication time is not used as an exact lower race bound."
     ],
     "submittedAt": null,
     "observedAt": "2019-11-12T17:43:00.000Z",
     "dateUnresolved": true,
-    "proofField": "previous-best"
+    "proofField": "previous-best",
+    "achievementDateBounds": {
+      "after": "2019-11-11T00:00:00Z",
+      "notAfter": "2019-11-12T17:43:00.000Z",
+      "basis": "Same-player1:23.44 has independently established achievement day2019-11-11;1:23.39 is faster and appears as previous best in later1:23.30 result publishedNovember12. Lower bound uses the day boundary, not the prior screenshot publication timestamp, because posting may lag the run.",
+      "timestampPrecision": "source-post timestamps; race timestamp unknown"
+    },
+    "chronologyUnresolved": true,
+    "additionalSources": [
+      {
+        "url": "https://twitter.com/tomegome_g/status/1193922281489043456",
+        "postId": "1193922281489043456",
+        "kind": "same-player-chronology-bound"
+      },
+      {
+        "url": "https://twitter.com/tomegome_g/status/1194309635135565825",
+        "postId": "1194309635135565825",
+        "kind": "same-player-chronology-bound"
+      }
+    ]
   },
   {
     "messageId": "773503398972489728",
@@ -93701,14 +93721,32 @@
         "url": "https://web.archive.org/web/20191114110938/https://twitter.com/_Kaguya_Games/status/1194932174895472640",
         "kind": "original-player-reply-context",
         "note": "Thread shows earlier Kaguya statement still stuck in1:23.30 range. This constrains race chronology; does not establish an exact1:23.28 publication timestamp."
+      },
+      {
+        "url": "https://twitter.com/_Kaguya_Games/status/1194784811006582784",
+        "postId": "1194784811006582784",
+        "kind": "same-player-chronology-bound"
+      },
+      {
+        "url": "https://twitter.com/_Kaguya_Games/status/1194954705052434434",
+        "postId": "1194954705052434434",
+        "kind": "same-player-chronology-bound"
       }
     ],
     "notes": [
       "Previous-best1:23.28 visually verified from original1:23.14 result; exact achievement date unresolved.",
-      "2026-10-04 original reply-thread recheck: earlier Kaguya statement still describes1:23.30 range;1:23.28 occurred after that statement and before1:23.14 result publication. Exacttimestamp and intervening rival order remain unresolved; retained outside WR progression."
+      "2026-10-04 original reply-thread recheck: earlier Kaguya statement still describes1:23.30 range;1:23.28 occurred after that statement and before1:23.14 result publication. Exacttimestamp and intervening rival order remain unresolved; retained outside WR progression.",
+      "2026-10-04 chronology reconciliation: source bounds are 2019-11-14T01:11:11.629Z to 2019-11-14T12:26:17Z. These constrain earlier performance chronology, not an exact race timestamp or independent global WR confirmation."
     ],
     "includeInProgression": false,
-    "observedAt": "2019-11-14T12:26:17Z"
+    "observedAt": "2019-11-14T12:26:17Z",
+    "achievementDateBounds": {
+      "after": "2019-11-14T01:11:11.629Z",
+      "notAfter": "2019-11-14T12:26:17Z",
+      "basis": "Earlier same-player statement still describes being stuck in1:23.30range; later original1:23.14 screenshot shows previous1:23.28. Bounds already established by archived reply review.",
+      "timestampPrecision": "source-post timestamps; race timestamp unknown"
+    },
+    "chronologyUnresolved": true
   },
   {
     "messageId": "tomegome-2019-1192486722568769538-mc1-pb",
