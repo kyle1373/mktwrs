@@ -105,7 +105,8 @@
     "savedRangeAfterUpdates": [
       "2021-08-13T16:58:46.420Z",
       "2026-10-04T16:23:24.333Z"
-    ]
+    ],
+    "year2021IdValidation": "archive/tt-submission-2021-id-coverage-validation-20261004.json"
   },
   "discussion": {
     "discordReportedMessages": 94460,
@@ -113,14 +114,14 @@
     "searchPageCap": 400,
     "requiredCaptureMethod": "Nonoverlapping datedpartitions below10000messages;stablemessageIDs and perpartitioncountvalidation.",
     "countFilterVerified": true,
-    "consolidatedSavedUniqueMessages": 52005,
+    "consolidatedSavedUniqueMessages": 72067,
     "consolidatedIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
-    "consolidationScope": "Recursive savedJSON scan using explicitchannelmessageIDs or inheritedchannelId and renderedtext. Countsrequirepartitionvalidation.",
+    "consolidationScope": "Saved JSON consolidation with explicit channel IDs plus named TT discussion message census exports. Numeric and search-result IDs normalized; source filenames retained. Exhaustive coverage still requires Discord partition validation.",
     "byMessageCreationYear": {
-      "2019": 118,
-      "2020": 46047,
-      "2021": 5825,
-      "2022": 2,
+      "2019": 900,
+      "2020": 61721,
+      "2021": 8161,
+      "2022": 1272,
       "2026": 13
     },
     "consolidationSummary": "archive/tt-discussion-source-consolidation-summary-20261004.json"
@@ -131,7 +132,7 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Reconcile82submissioncountdifference withdatedsearches andsavedIDs.",
+    "Reconcile remaining 78-message submission count discrepancy using matching timezone boundaries and stable IDs.",
     "BuilduniqueTTdiscussionindexfromsavedcaptures;validateeachdatedpartitionagainstDiscord.",
     "Processimageandvideoproofreviewbacklog2023-2026whilefillingoldergaps."
   ],
