@@ -20,7 +20,9 @@
       "source": "https://discord.com/channels/629221606064914442/636461740162416640/717632800265732126",
       "indexMessageId": "717632800265732126",
       "priorBestCs": 5323,
-      "decision": "pending-context-review"
+      "decision": "not-world-record",
+      "reason": "Originalauthorsays2ndtimeofworldandWR53.20;53.21isslower. Nearby52.53alsobeatsit.",
+      "reviewedAt": "2026-10-04"
     },
     {
       "id": "737917644941950986",
@@ -40,7 +42,10 @@
       "source": "https://discord.com/channels/629221606064914442/636461740162416640/737917645399261255",
       "indexMessageId": "737917645399261255",
       "priorBestCs": null,
-      "decision": "pending-context-review"
+      "decision": "not-world-record",
+      "correctedCourseId": "gba-bowser-s-castle-2",
+      "reason": "Kazuo1:21.30alreadyfaster14secondsbefore;Brandonexplicit2ndBKT.",
+      "audit": "archive/wildwest2020-brandon-and-edited-result-recheck-20261004.json"
     },
     {
       "id": "738211120740958228",
@@ -60,7 +65,9 @@
       "source": "https://discord.com/channels/629221606064914442/636461740162416640/738211121147674654",
       "indexMessageId": "738211121147674654",
       "priorBestCs": 7988,
-      "decision": "pending-context-review"
+      "decision": "reject-edited-result",
+      "reason": "Visiblepaintoverdigits;originalnearbyBrandonreplyexplicitlydescribeseditingthepicture.",
+      "audit": "archive/wildwest2020-brandon-and-edited-result-recheck-20261004.json"
     },
     {
       "id": "738300404403667014",
@@ -80,7 +87,9 @@
       "source": "https://discord.com/channels/629221606064914442/636461740162416640/738300404529365023",
       "indexMessageId": "738300404529365023",
       "priorBestCs": 5080,
-      "decision": "pending-context-review"
+      "decision": "reject-edited-result",
+      "reason": "Visiblepaintoverdigitsintheoriginalresult;cannotusealtered48.59asWRproof.",
+      "reviewedAt": "2026-10-04"
     },
     {
       "id": "762385319789592606",
@@ -100,7 +109,9 @@
       "source": "https://discord.com/channels/629221606064914442/636461740162416640/762385319948714025",
       "indexMessageId": "762385319948714025",
       "priorBestCs": 9156,
-      "decision": "pending-context-review"
+      "decision": "remain-unaccepted-claim",
+      "reason": "Laterdiscussion762416823903453218declarestimeinvalid;762417221346787369saysnottoacceptwithoutvideo.",
+      "reviewedAt": "2026-10-04"
     },
     {
       "id": "778503041480785960",
@@ -447,7 +458,9 @@
       "notes": "Result visually read. Compare dated submissions and prior tours; deleted-account attribution requires evidence.",
       "indexMessageId": "835101034665607199",
       "priorBestCs": 6353,
-      "decision": "pending-context-review"
+      "decision": "not-world-record",
+      "reason": "Restoredunknown-player1:03.05at08:13UTCbeatslater1:03.38/1:03.22/1:03.27.",
+      "audit": "archive/sydney2021-choco-island-unknown-wr-recheck-20261004.json"
     },
     {
       "id": "835103093498576966",
@@ -470,7 +483,9 @@
       "notes": "Result visually read. Compare dated submissions and prior tours; deleted-account attribution requires evidence.",
       "indexMessageId": "835103095666114590",
       "priorBestCs": 6353,
-      "decision": "pending-context-review"
+      "decision": "not-world-record",
+      "reason": "Restoredunknown-player1:03.05at08:13UTCbeatslater1:03.38/1:03.22/1:03.27.",
+      "audit": "archive/sydney2021-choco-island-unknown-wr-recheck-20261004.json"
     },
     {
       "id": "835107107560226886",
@@ -493,7 +508,9 @@
       "notes": "Result visually read. Compare dated submissions and prior tours; deleted-account attribution requires evidence.",
       "indexMessageId": "835107110164758538",
       "priorBestCs": 6353,
-      "decision": "pending-context-review"
+      "decision": "not-world-record",
+      "reason": "Restoredunknown-player1:03.05at08:13UTCbeatslater1:03.38/1:03.22/1:03.27.",
+      "audit": "archive/sydney2021-choco-island-unknown-wr-recheck-20261004.json"
     },
     {
       "id": "841415990852321300",
@@ -516,7 +533,9 @@
       "notes": "Runner explicitly says Just joking and posts the real1:31.34 immediately afterward. Exclude manipulated1:29.34 from WR history. Source reply841416518347915304.",
       "indexMessageId": "841415994689454110",
       "priorBestCs": 8995,
-      "decision": "pending-context-review"
+      "decision": "reject-retracted-joke",
+      "reason": "OriginalposterFlashGTIexplicitlystatesjustjokingandpoststherightresultimmediatelyafterward.",
+      "reviewedAt": "2026-10-04"
     },
     {
       "id": "844468587678138378",
@@ -755,5 +774,8 @@
       "reason": "DIT1:16.05published07:18UTC precedesandbeatsallofthese."
     }
   ],
-  "pendingCount": 9
+  "pendingCount": 0,
+  "queueReviewComplete": true,
+  "archiveComplete": false,
+  "reviewLimit": "32heuristiccandidatesnowhaveindividualdecisions;thisdoesnotcoverundiscoveredorunreviewedserverhistory."
 }
