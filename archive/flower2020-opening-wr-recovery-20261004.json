@@ -18,7 +18,6 @@
       "proofImageLocal": "/assets/proof/flower2020-707498245533990922.webp",
       "proofImageVerified": true,
       "proofField": "result",
-      "previousBest": "1:45.68",
       "source": {
         "url": "https://discord.com/channels/629221606064914442/636461740162416640/707498245831655504",
         "channel": "tt-discussion",
@@ -39,8 +38,51 @@
       "notes": [
         "Original result screenshot visually reread and course confirmed from Hammer Bro Cup discussion. The deleted account is explicitly called the WR holder; this opening improvement precedes Kazuo 1:41.10 at10:36UTC.",
         "Original runner name is unavailable after Discord account deletion. This source-specific unknown identity is retained instead of attributing the run to another player.",
-        "Displayed date follows original screenshot publication. Missing intermediate personal best and lap splits remain unresolved."
+        "Displayed date follows original screenshot publication. Missing intermediate personal best and lap splits remain unresolved.",
+        "2026-10-04 correction: the screenshot displays no previous-best field; remove unsupported1:45.68 transcription."
       ]
+    },
+    {
+      "messageId": "707501764987060265-flower-previous-14217",
+      "player": "Unknown (Flower Tour 2020)",
+      "courseId": "3ds-shy-guy-bazaar-r",
+      "time": "1:42.17",
+      "laps": [
+        null,
+        null
+      ],
+      "mushrooms": null,
+      "status": "community-wr",
+      "submittedAt": null,
+      "proofImageLocal": "/assets/proof/flower2020-707501764546527293.webp",
+      "proofImageVerified": true,
+      "proofField": "previous-best",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/707501764987060265",
+        "channel": "tt-discussion",
+        "messageId": "707501764987060265"
+      },
+      "additionalSources": [
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/707498326609756230",
+          "messageId": "707498326609756230",
+          "note": "Contemporary WR claim after first screenshot"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/707519824250535936",
+          "messageId": "707519824250535936",
+          "note": "Contemporary WR confirmation for same deleted account"
+        }
+      ],
+      "notes": [
+        "Previous-best1:42.17 visually read from the original1:41.81 screenshot. It improves the same account’s already confirmed1:42.78 opening WR and precedes1:41.81. Exact achievement timestamp remains unknown; displayed date follows first verified screenshot publication.",
+        "Same source-specific deleted account; original identity and lap splits unavailable. Rival events within the interval remain subject to further review; do not invent exact reign duration."
+      ],
+      "observedAt": "2020-05-06T07:59:25.520000+00:00",
+      "achievedAt": null,
+      "datePrecision": "unknown",
+      "dateUnresolved": true,
+      "includeInProgression": true
     },
     {
       "messageId": "707501764987060265-flower-opening-wr",
@@ -57,7 +99,7 @@
       "proofImageLocal": "/assets/proof/flower2020-707501764546527293.webp",
       "proofImageVerified": true,
       "proofField": "result",
-      "previousBest": "1:42.66",
+      "previousBest": "1:42.17",
       "source": {
         "url": "https://discord.com/channels/629221606064914442/636461740162416640/707501764987060265",
         "channel": "tt-discussion",
@@ -78,7 +120,8 @@
       "notes": [
         "Original result screenshot visually reread and course confirmed from Hammer Bro Cup discussion. The deleted account is explicitly called the WR holder; this opening improvement precedes Kazuo 1:41.10 at10:36UTC.",
         "Original runner name is unavailable after Discord account deletion. This source-specific unknown identity is retained instead of attributing the run to another player.",
-        "Displayed date follows original screenshot publication. Missing intermediate personal best and lap splits remain unresolved."
+        "Displayed date follows original screenshot publication. Missing intermediate personal best and lap splits remain unresolved.",
+        "2026-10-04 correction: visually reread previous best is1:42.17, not1:42.66."
       ]
     },
     {
@@ -113,15 +156,26 @@
       ]
     }
   ],
-  "supportingUnresolvedPreviousBests": [
-    "1:45.68",
-    "1:42.66"
-  ],
+  "supportingUnresolvedPreviousBests": [],
   "rivalAnchor": "Kazuo1:41.10 originalmessage707541270129803285 at2020-05-06T10:36:24.280Z",
   "finding": "Three missing opening WRs restored using visually read originals and direct contemporary WR confirmations. Identity remains unknown. Intermediate previous bests are not promoted solely because they appear on screenshots.",
   "remaining": [
     "Original deleted runner identity",
     "Earlier first-hour history and previous-best chronology",
     "Missing lap splits and videos"
-  ]
+  ],
+  "transcriptionCorrection": {
+    "reviewedAt": "2026-10-04",
+    "firstScreenshot": "No previous-best field visible; removed unsupported1:45.68.",
+    "secondScreenshot": "Previous best1:42.17, not1:42.66.",
+    "evidence": "Full preserved originals visually inspected again.",
+    "correctedOpeningSequence": [
+      "1:42.78",
+      "1:42.17",
+      "1:41.81",
+      "1:41.75",
+      "Kazuo1:41.10"
+    ],
+    "chronologyLimit": "1:42.17 achievement timestamp unresolved; first publication is1:41.81 screenshot."
+  }
 }
