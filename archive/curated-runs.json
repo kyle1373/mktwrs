@@ -96996,7 +96996,7 @@
     "status": "documented-submission",
     "submittedAt": "2019-11-25T12:17:37+00:00",
     "observedAt": "2019-11-25T12:17:37+00:00",
-    "achievedAt": null,
+    "achievedAt": "2019-11-25",
     "proofImage": "https://pbs.twimg.com/media/EKN8dvlU4AAlaiM.jpg",
     "source": {
       "url": "https://x.com/_Kaguya_Games/status/1198938790548492288",
@@ -97004,12 +97004,17 @@
       "postId": "1198938790548492288"
     },
     "notes": [
-      "Recovered original dated result screenshot verifies Mario Circuit 3 1:07.48, previous 1:07.63. Slower than existing Tomegome WR1:07.37; supporting personal result only."
+      "Recovered original dated result screenshot verifies Mario Circuit 3 1:07.48, previous 1:07.63. Slower than existing Tomegome WR1:07.37; supporting personal result only.",
+      "Ordered Winter audit: this row originated as previous-best evidence but an earlier original1:07.48 result screenshot was already recovered. Populate November25 from that direct original result publication, not from the later1:07.36 image. No WR promotion."
     ],
     "proofImageLocal": "/assets/proof/winter2019-nu11-1198938790548492288-10748.webp",
     "proofImageVerified": true,
     "includeInProgression": false,
-    "dateUnresolved": false
+    "dateUnresolved": false,
+    "datePrecision": "day",
+    "dateEvidence": "original-result-screenshot-publication",
+    "dateIsPublication": true,
+    "proofField": "result-total"
   },
   {
     "messageId": "winter2019-nu11-1201348324931948544-14758",
@@ -121415,5 +121420,33 @@
     ],
     "observedAt": "2019-11-13T19:45:03Z",
     "videoVerified": true
+  },
+  {
+    "messageId": "winter2019-nu11-1198983644041207808-10734",
+    "player": "Nu11",
+    "courseId": "snes-mario-circuit-3",
+    "time": "1:07.34",
+    "laps": [
+      null,
+      null
+    ],
+    "mushrooms": null,
+    "status": "documented-submission",
+    "includeInProgression": false,
+    "achievedAt": "2019-11-25",
+    "datePrecision": "day",
+    "dateEvidence": "original-player-run-publication",
+    "dateIsPublication": true,
+    "submittedAt": "2019-11-25T15:15:51+00:00",
+    "observedAt": "2019-11-25T15:15:51+00:00",
+    "source": {
+      "url": "https://x.com/_Kaguya_Games/status/1198983644041207808",
+      "postId": "1198983644041207808",
+      "kind": "original-run-demonstration-post"
+    },
+    "notes": [
+      "Original preserved player post explicitly identifies Mario Circuit3 demonstration time1:07.34, published November25 at15:15:51UTC. This distinct run was absent from curated evidence. It is faster than confirmed same-day1:07.36 and precedes the published1:07.24, but chronological rival precedence remains unresolved; preserve as supporting evidence pending WR reconciliation.",
+      "Original video asset identifier1198983421835350016 is preserved in the original page. Full video recovery is pending; do not mark a social post link as a verified playable video or infer laps from its thumbnail."
+    ]
   }
 ]
