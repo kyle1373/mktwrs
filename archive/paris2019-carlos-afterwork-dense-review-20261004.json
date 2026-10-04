@@ -32,10 +32,12 @@
     "localVideoClip": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/carlos85-sgb-14488-video-only.mp4",
     "clipSha256": "f4802d668b36a8e5eac1287417c374426950db7f12cfb58e1e77e146916739c8",
     "observedStreamReleaseAt": "2019-11-13T19:45:03Z",
-    "preciseRaceWallclockVerified": false
+    "preciseRaceWallclockVerified": false,
+    "localVideoClipWithAudio": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/carlos85-sgb-14488-with-audio.mp4",
+    "clipWithAudioSha256": "fb71f2b9d418d63688fbfda5908ad7ff601b5a1ccca36db6f596be46dfbc1e40"
   },
   "decision": "Import verified supporting14488run with originalvideo/laps/proof. No WR promotion. Previous14943first achieved date unresolved; keepdistinctfrom earlier14939text and14942cup sources.",
-  "limitations": "Samples are not continuous broadcast review. Clip preserves video only; audio unavailable in existing source download.",
+  "limitations": "Samples are not continuous broadcast review. Originalaudio nowpreserved; unlistedupload notpublished.",
   "candidateFrames": [
     {
       "frame": "frame-00540.jpg",
@@ -93,5 +95,48 @@
       "frame": "frame-00553.jpg",
       "seconds": 8287.5
     }
-  ]
+  ],
+  "audioRecovery": {
+    "videoId": "rHNIAA_jvxg",
+    "status": "locally-preserved-audio-and-video",
+    "file": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/preserved-with-audio.mp4",
+    "sha256": "10a53944905cf11ae7895a66c7570945b5817a557b2897eed6c55b286e12e3c5",
+    "bytes": 637193255,
+    "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/recovered-audio.m4a",
+    "audioSha256": "09bcb6a8c342743f9bf493b299b2d1c79144e64e69a986a1ccb89b62d6c783bb",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "duration": "9680.933333"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "duration": "9680.979592"
+      }
+    ],
+    "youtubeBackupStatus": "run-segment-uploaded-unlisted",
+    "continuousPlaybackReviewed": false,
+    "retryResult": "yt-dlp --js-runtimes node, format140 downloaded successfully; replaces priorfailedattempt."
+  },
+  "backup": {
+    "url": "https://www.youtube.com/watch?v=Js-_l7p695Y",
+    "originalUrl": "https://www.youtube.com/watch?v=rHNIAA_jvxg&t=8182s",
+    "channel": "SuperFX64",
+    "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+    "visibility": "unlisted",
+    "status": "available",
+    "uploadedAt": "2026-10-04T21:59:46.791164+00:00",
+    "sha256": "fb71f2b9d418d63688fbfda5908ad7ff601b5a1ccca36db6f596be46dfbc1e40",
+    "bytes": 7803462,
+    "credit": "Carlos85",
+    "checks": "Copyright and Community Guidelines checks complete, no issues found",
+    "playbackVerified": true,
+    "sourceSegmentSeconds": [
+      8182,
+      8294
+    ],
+    "preservationNote": "ArchivecopyisthisverifiedBazaar14488race segment,notentirebroadcast."
+  }
 }

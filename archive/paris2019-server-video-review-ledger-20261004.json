@@ -403,7 +403,7 @@
         7080,
         7740
       ],
-      "preservationLimitation": "Format134360p video-only; audio/unlisted upload pending.",
+      "preservationLimitation": "Originalaudio successfully recovered andmuxed withpreservedvideo. Unlistedupload andcontinuousreview pending.",
       "targetedReviewFindings": [
         {
           "timestampSeconds": 967,
@@ -436,8 +436,27 @@
       },
       "audioPreservation": {
         "videoId": "rHNIAA_jvxg",
-        "status": "failed",
-        "error": " No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
+        "status": "locally-preserved-audio-and-video",
+        "file": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/preserved-with-audio.mp4",
+        "sha256": "10a53944905cf11ae7895a66c7570945b5817a557b2897eed6c55b286e12e3c5",
+        "bytes": 637193255,
+        "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/recovered-audio.m4a",
+        "audioSha256": "09bcb6a8c342743f9bf493b299b2d1c79144e64e69a986a1ccb89b62d6c783bb",
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "duration": "9680.933333"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "duration": "9680.979592"
+          }
+        ],
+        "youtubeBackupStatus": "not-uploaded",
+        "continuousPlaybackReviewed": false,
+        "retryResult": "yt-dlp --js-runtimes node, format140 downloaded successfully; replaces priorfailedattempt."
       },
       "denserReviewReport": "archive/paris2019-carlos-afterwork-dense-review-20261004.json"
     },
@@ -564,7 +583,8 @@
         "sha256": "a7f6bf4aecae3ec24499b272a461e1cb06c23efff65d296e959cabcedbeec99a",
         "exactTimeOrTimeTrialTextMatches": 0,
         "note": "OCR is unverified search aid; empty match set does not prove no time trials or complete history."
-      }
+      },
+      "denseVisualReviewReport": "archive/paris2019-highry-nov9-dense-visual-review-20261004.json"
     },
     {
       "videoId": "rYl2Mzzv7FM",

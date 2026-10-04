@@ -73,12 +73,27 @@
     },
     {
       "videoId": "rHNIAA_jvxg",
-      "status": "failed",
-      "error": "Originalaudio downloadHTTP403; secondclientretry providesnoaudioformat.",
-      "retry": {
-        "playerClient": "ios",
-        "result": "Onlyimagesavailable,requestedformatunavailable; originalvideo-onlycopy remainspreserved."
-      }
+      "status": "locally-preserved-audio-and-video",
+      "file": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/preserved-with-audio.mp4",
+      "sha256": "10a53944905cf11ae7895a66c7570945b5817a557b2897eed6c55b286e12e3c5",
+      "bytes": 637193255,
+      "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/recovered-audio.m4a",
+      "audioSha256": "09bcb6a8c342743f9bf493b299b2d1c79144e64e69a986a1ccb89b62d6c783bb",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "9680.933333"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "9680.979592"
+        }
+      ],
+      "youtubeBackupStatus": "not-uploaded",
+      "continuousPlaybackReviewed": false,
+      "retryResult": "yt-dlp --js-runtimes node, format140 downloaded successfully; replaces priorfailedattempt."
     }
   ]
 }
