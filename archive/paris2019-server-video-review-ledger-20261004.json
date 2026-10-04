@@ -39,7 +39,7 @@
       "sampleIntervalSeconds": 60,
       "sampledFrames": 99,
       "decision": "Minute sheets plus15second OCRsearch inspected; two sampled cup bests visually recovered. Both slower than confirmed WRs. Continuous footage, audio and every tiny cup tile not fully reviewed.",
-      "preservationLimitation": "Local 360p format134 video-only copy; audio not yet preserved, no YouTube backup upload.",
+      "preservationLimitation": "Local360pvideo andoriginalaudio preserved/muxed; unlistedupload/fullcontinuousreview pending.",
       "denserSearch": {
         "sampleIntervalSeconds": 15,
         "frames": 397,
@@ -71,6 +71,29 @@
           "format": "1080p video-only",
           "confirmedTime": "0:54.76"
         }
+      },
+      "audioPreservation": {
+        "videoId": "dIajqgcAV5w",
+        "status": "locally-preserved-audio-and-video",
+        "file": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/preserved-with-audio.mp4",
+        "sha256": "fd3a62c2e68efa19b13f3836b4c60b483515064bf8f2b91d374485ddc937b7cc",
+        "bytes": 399345568,
+        "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/dIajqgcAV5w-audio.m4a",
+        "audioSha256": "a918d6f2695f2383abe43692b055662b5ac16cdb27149bd954cddf8737c64e63",
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "duration": "5953.966667"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "duration": "5954.037551"
+          }
+        ],
+        "youtubeBackupStatus": "not-uploaded",
+        "continuousPlaybackReviewed": false
       }
     },
     {
@@ -144,7 +167,7 @@
         14940,
         16200
       ],
-      "preservationLimitation": "Local format134360p video-only, audio and unlisted upload pending.",
+      "preservationLimitation": "Local360pvideo andoriginalaudio preserved/muxed; unlistedupload/fullcontinuousreview pending.",
       "targetedCupScreensReview": {
         "reviewedAt": "2026-10-04",
         "sourceTimestampsSeconds": [
@@ -169,6 +192,29 @@
           "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/large-targets-3.jpg"
         ],
         "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Baby Luigi Cup at6067s reads1:30.09, corroborating earlier recorded Carlos85 run; no duplicate WR. Remaining flagged frames are point races, settings and non-TT challenges.",
+        "continuousPlaybackReviewed": false
+      },
+      "audioPreservation": {
+        "videoId": "naCwscKSbGg",
+        "status": "locally-preserved-audio-and-video",
+        "file": "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/preserved-with-audio.mp4",
+        "sha256": "3e79a39519bd93850b58e408c0c79052998c7f5211b2509865392269de546b22",
+        "bytes": 1222702091,
+        "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/naCwscKSbGg-audio.m4a",
+        "audioSha256": "3effff0178e09c170be6228a75f29e8114210dc0ebea22fee2f7847440b737be",
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "duration": "16935.833333"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "duration": "16935.891882"
+          }
+        ],
+        "youtubeBackupStatus": "not-uploaded",
         "continuousPlaybackReviewed": false
       }
     },
@@ -229,7 +275,7 @@
         7140,
         7620
       ],
-      "preservationLimitation": "Local format134360p video-only; audio and unlisted upload pending.",
+      "preservationLimitation": "Local360pvideo andoriginalaudio preserved/muxed; unlistedupload/fullcontinuousreview pending.",
       "targetedCupScreensReview": {
         "reviewedAt": "2026-10-04",
         "sourceTimestampsSeconds": [
@@ -249,6 +295,29 @@
           "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/large-targets-2.jpg"
         ],
         "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Yoshi Cup Glider Challenge, Daisy Cup Ring Race and standard score races; no TT result in flagged screens.",
+        "continuousPlaybackReviewed": false
+      },
+      "audioPreservation": {
+        "videoId": "iFgSqkBbrNw",
+        "status": "locally-preserved-audio-and-video",
+        "file": "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/preserved-with-audio.mp4",
+        "sha256": "3332cd17a11a8053b0d9234c337964384143de3ac4fc0792b45df991f31cbc06",
+        "bytes": 623405045,
+        "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/iFgSqkBbrNw-audio.m4a",
+        "audioSha256": "2dd88fd3b294021363c9f0589216de3cd2576a46c2d3143bfb7b2c9b18cdd2a9",
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "duration": "8768.133333"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "duration": "8768.179955"
+          }
+        ],
+        "youtubeBackupStatus": "not-uploaded",
         "continuousPlaybackReviewed": false
       }
     },
@@ -362,6 +431,11 @@
         ],
         "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Peach Cup0:52.13 already retained; other flagged frames are standard point races, signal loss or Goomba Takedown.",
         "continuousPlaybackReviewed": false
+      },
+      "audioPreservation": {
+        "videoId": "rHNIAA_jvxg",
+        "status": "failed",
+        "error": " No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
       }
     },
     {
