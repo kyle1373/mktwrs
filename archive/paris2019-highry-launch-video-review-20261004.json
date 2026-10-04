@@ -36,6 +36,30 @@
       null
     ]
   },
-  "remainingWork": "Only chapter challenge segment visually checked; other portions remain unreviewed. No global WR claim in this segment.",
-  "sourceServerId": "629221606064914442"
+  "remainingWork": "Original full broadcast preserved,indexed and explicit TTsegments rereviewed in archive/paris2019-highry-launch-preserved-run-reconciliation-20261004.json. Full continuousplayback/audio review remains incomplete.",
+  "sourceServerId": "629221606064914442",
+  "correction": "Earlier25:27interpretationincorrect:0:55.70 is separate slower finished run, resultat1532s lists PreviousBest0:55.31. Earlier0:55.31actualresultat1442s. Later personalimprovement0:54.76actualresultat9352s.",
+  "audioAndVideoPreservation": {
+    "file": "archive/video-backup-files/paris2019-highry-launch/preserved-with-audio.mp4",
+    "sha256": "094f8c99aeae5feef34568225e5afd00250586a7294484af05f3933e05266783",
+    "bytes": 674530177,
+    "audioOriginal": "archive/video-backup-files/paris2019-highry-launch/-2mNF6DpKYQ-audio.m4a",
+    "audioSha256": "e4be4e2e7b03aead2a8e3cc4ecd85c2a564cac3396b870859e99fdc9e2642d4f",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "duration": "12140.306974"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "duration": "12140.506848"
+      }
+    ],
+    "status": "locally-preserved-audio-and-video",
+    "youtubeBackupStatus": "not-uploaded",
+    "reviewLimitation": "No full continuous playback/audio-transcript review; mux retains original downloaded tracks without re-encoding."
+  },
+  "preservationLimitation": "Audio/video now locally preserved; unlisted upload and full continuous audio/playback review still incomplete."
 }

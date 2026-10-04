@@ -1,0 +1,88 @@
+{
+  "reviewedAt": "2026-10-04",
+  "historyComplete": false,
+  "source": "https://www.youtube.com/watch?v=-2mNF6DpKYQ",
+  "localFile": "archive/video-backup-files/paris2019-highry-launch/-2mNF6DpKYQ.mp4",
+  "sha256": "a9fa198bfba77b6ac691b05ed870f8e8daff11da31caac5ae810ca06dc138381",
+  "bytes": 472504924,
+  "visualIndex": {
+    "intervalSeconds": 60,
+    "frames": 202,
+    "sheets": 6,
+    "allSheetsViewed": true,
+    "continuousPlaybackReviewed": false
+  },
+  "fineSegmentsReviewed": [
+    [
+      1440,
+      1560
+    ],
+    [
+      5160,
+      5400
+    ],
+    [
+      9240,
+      9420
+    ]
+  ],
+  "segmentSamplingSeconds": 5,
+  "verifiedResults": [
+    {
+      "courseId": "snes-mario-circuit-1",
+      "time": "0:55.31",
+      "resultTimestampSeconds": 1442,
+      "decision": "Actual finish/result, already retained."
+    },
+    {
+      "courseId": "snes-mario-circuit-1",
+      "time": "0:55.70",
+      "resultTimestampSeconds": 1532,
+      "previousBest": "0:55.31",
+      "decision": "Separate slower completed attempt, not WR; prior animation-only interpretation incorrect."
+    },
+    {
+      "courseId": "ds-luigi-s-mansion",
+      "time": "1:36.22",
+      "resultTimestampSeconds": 5367,
+      "decision": "Original finish mapped to existing later cup observation; no duplicate."
+    },
+    {
+      "courseId": "snes-mario-circuit-1",
+      "time": "0:54.76",
+      "resultTimestampSeconds": 9352,
+      "previousBest": "0:55.31",
+      "decision": "Personal improvement, slower than confirmed WRs; original video replaces misread later cup source."
+    }
+  ],
+  "preservationLimitation": "Audio/video now locally preserved; unlisted upload and full continuous audio/playback review still incomplete.",
+  "denserSearchFrames": 809,
+  "falsePositiveRejected": {
+    "frame": "00806.jpg",
+    "ocr": "1:30.22",
+    "visuallyRead": "1:36.22",
+    "decision": "No new run; repeated later cup screen."
+  },
+  "audioAndVideoPreservation": {
+    "file": "archive/video-backup-files/paris2019-highry-launch/preserved-with-audio.mp4",
+    "sha256": "094f8c99aeae5feef34568225e5afd00250586a7294484af05f3933e05266783",
+    "bytes": 674530177,
+    "audioOriginal": "archive/video-backup-files/paris2019-highry-launch/-2mNF6DpKYQ-audio.m4a",
+    "audioSha256": "e4be4e2e7b03aead2a8e3cc4ecd85c2a564cac3396b870859e99fdc9e2642d4f",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "duration": "12140.306974"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "duration": "12140.506848"
+      }
+    ],
+    "status": "locally-preserved-audio-and-video",
+    "youtubeBackupStatus": "not-uploaded",
+    "reviewLimitation": "No full continuous playback/audio-transcript review; mux retains original downloaded tracks without re-encoding."
+  }
+}

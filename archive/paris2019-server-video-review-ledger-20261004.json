@@ -49,9 +49,10 @@
           {
             "timestampSeconds": 532,
             "courseId": "snes-mario-circuit-1",
-            "time": "0:54.78",
+            "time": "0:54.76",
             "proofField": "cup-best",
-            "includeInProgression": false
+            "includeInProgression": false,
+            "correction": "360p digit misread corrected using1080p source and actual launch finish."
           },
           {
             "timestampSeconds": 5077,
@@ -60,7 +61,16 @@
             "proofField": "cup-best",
             "includeInProgression": false
           }
-        ]
+        ],
+        "highResolutionRecheck": {
+          "localFile": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/highres-cup.mp4",
+          "originalIntervalSeconds": [
+            525,
+            540
+          ],
+          "format": "1080p video-only",
+          "confirmedTime": "0:54.76"
+        }
       }
     },
     {
@@ -134,7 +144,33 @@
         14940,
         16200
       ],
-      "preservationLimitation": "Local format134360p video-only, audio and unlisted upload pending."
+      "preservationLimitation": "Local format134360p video-only, audio and unlisted upload pending.",
+      "targetedCupScreensReview": {
+        "reviewedAt": "2026-10-04",
+        "sourceTimestampsSeconds": [
+          1507,
+          4627,
+          5227,
+          6067,
+          7867,
+          8107,
+          10507,
+          10747,
+          10867,
+          14527,
+          14647,
+          14827,
+          14947,
+          16207
+        ],
+        "reviewSheets": [
+          "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/large-targets-1.jpg",
+          "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/large-targets-2.jpg",
+          "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/large-targets-3.jpg"
+        ],
+        "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Baby Luigi Cup at6067s reads1:30.09, corroborating earlier recorded Carlos85 run; no duplicate WR. Remaining flagged frames are point races, settings and non-TT challenges.",
+        "continuousPlaybackReviewed": false
+      }
     },
     {
       "videoId": "YxitwQsVblg",
@@ -193,7 +229,28 @@
         7140,
         7620
       ],
-      "preservationLimitation": "Local format134360p video-only; audio and unlisted upload pending."
+      "preservationLimitation": "Local format134360p video-only; audio and unlisted upload pending.",
+      "targetedCupScreensReview": {
+        "reviewedAt": "2026-10-04",
+        "sourceTimestampsSeconds": [
+          1747,
+          2227,
+          3247,
+          4267,
+          4567,
+          6967,
+          7027,
+          7087,
+          7147,
+          7627
+        ],
+        "reviewSheets": [
+          "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/large-targets-1.jpg",
+          "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/large-targets-2.jpg"
+        ],
+        "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Yoshi Cup Glider Challenge, Daisy Cup Ring Race and standard score races; no TT result in flagged screens.",
+        "continuousPlaybackReviewed": false
+      }
     },
     {
       "videoId": "bvVjkmyDqwg",
@@ -284,7 +341,28 @@
           "proofField": "cup-best",
           "includeInProgression": false
         }
-      ]
+      ],
+      "targetedCupScreensReview": {
+        "reviewedAt": "2026-10-04",
+        "sourceTimestampsSeconds": [
+          967,
+          2407,
+          2587,
+          4927,
+          5587,
+          5707,
+          5887,
+          6247,
+          7087,
+          7747
+        ],
+        "reviewSheets": [
+          "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/large-targets-1.jpg",
+          "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/large-targets-2.jpg"
+        ],
+        "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Peach Cup0:52.13 already retained; other flagged frames are standard point races, signal loss or Goomba Takedown.",
+        "continuousPlaybackReviewed": false
+      }
     },
     {
       "videoId": "Brj2XqzuqOA",
@@ -697,9 +775,91 @@
       "messageIds": [
         "641516799527223306"
       ],
-      "reviewStatus": "partially-reviewed",
+      "reviewStatus": "whole-broadcast-60second-index-and-TT-segment-review-not-continuous-playback",
       "historyComplete": false,
-      "reviewReport": "archive/paris2019-highry-launch-video-review-20261004.json"
+      "reviewReport": "archive/paris2019-highry-launch-video-review-20261004.json",
+      "localReviewFile": "archive/video-backup-files/paris2019-highry-launch/-2mNF6DpKYQ.mp4",
+      "sha256": "a9fa198bfba77b6ac691b05ed870f8e8daff11da31caac5ae810ca06dc138381",
+      "bytes": 472504924,
+      "reviewSheets": [
+        "archive/video-backup-files/paris2019-highry-launch/minute-01.jpg",
+        "archive/video-backup-files/paris2019-highry-launch/minute-02.jpg",
+        "archive/video-backup-files/paris2019-highry-launch/minute-03.jpg",
+        "archive/video-backup-files/paris2019-highry-launch/minute-04.jpg",
+        "archive/video-backup-files/paris2019-highry-launch/minute-05.jpg",
+        "archive/video-backup-files/paris2019-highry-launch/minute-06.jpg"
+      ],
+      "sampleIntervalSeconds": 60,
+      "sampledFrames": 202,
+      "fineSegmentsReviewedSeconds": [
+        [
+          1440,
+          1560
+        ],
+        [
+          5160,
+          5400
+        ],
+        [
+          9240,
+          9420
+        ]
+      ],
+      "fineSegmentIntervalSeconds": 5,
+      "denserSearch": {
+        "sampleIntervalSeconds": 15,
+        "frames": 809,
+        "ocrOutput": "archive/video-backup-files/paris2019-highry-launch/ocr-search.jsonl",
+        "role": "OCRsearchaidonly; identified timer samples inspected, no global absence proof."
+      },
+      "verifiedResults": [
+        {
+          "courseId": "snes-mario-circuit-1",
+          "time": "0:55.31",
+          "sourceTimestampSeconds": 1442
+        },
+        {
+          "courseId": "snes-mario-circuit-1",
+          "time": "0:55.70",
+          "sourceTimestampSeconds": 1532,
+          "previousBest": "0:55.31"
+        },
+        {
+          "courseId": "ds-luigi-s-mansion",
+          "time": "1:36.22",
+          "sourceTimestampSeconds": 5367
+        },
+        {
+          "courseId": "snes-mario-circuit-1",
+          "time": "0:54.76",
+          "sourceTimestampSeconds": 9352,
+          "previousBest": "0:55.31"
+        }
+      ],
+      "decision": "All6minute-indexsheets reviewed; three TTsegments5secondframes reviewed. Original finished slower runs mapped without WR promotion. Late LMcup again1:36.22; OCR1:30.22 false match rejected by image. No exact laps inferred from coarse frames.",
+      "preservationLimitation": "Local360p video and original audio preserved/muxed; unlisted upload/fullcontinuousreview pending.",
+      "audioAndVideoPreservation": {
+        "file": "archive/video-backup-files/paris2019-highry-launch/preserved-with-audio.mp4",
+        "sha256": "094f8c99aeae5feef34568225e5afd00250586a7294484af05f3933e05266783",
+        "bytes": 674530177,
+        "audioOriginal": "archive/video-backup-files/paris2019-highry-launch/-2mNF6DpKYQ-audio.m4a",
+        "audioSha256": "e4be4e2e7b03aead2a8e3cc4ecd85c2a564cac3396b870859e99fdc9e2642d4f",
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "duration": "12140.306974"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "duration": "12140.506848"
+          }
+        ],
+        "status": "locally-preserved-audio-and-video",
+        "youtubeBackupStatus": "not-uploaded",
+        "reviewLimitation": "No full continuous playback/audio-transcript review; mux retains original downloaded tracks without re-encoding."
+      }
     }
   ]
 }

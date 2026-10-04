@@ -3,7 +3,7 @@
   "historyComplete": false,
   "courseId": "snes-mario-circuit-1",
   "player": "HighRy",
-  "time": "0:54.78",
+  "time": "0:54.76",
   "source": "https://www.youtube.com/watch?v=dIajqgcAV5w&t=532s",
   "referringDiscordMessageId": "644106028748767232",
   "timestampSeconds": 532,
@@ -14,8 +14,10 @@
   "achievementDate": null,
   "status": "documented-submission",
   "includeInProgression": false,
-  "finding": "Visually reviewed cropped original frame: Paris Tour Peach Cup, Toadette Mario Circuit 1 TT tile reads0:54.78. Previous cup best, not an on-screen finish. No exact achievement date/laps or WR claim; slower than confirmed MC1 progression.",
+  "finding": "1080p source frame visually reads0:54.76. Same result now verified in November6 launch broadcast; this later cup screen corroborates it.",
   "preservationLimitation": "Review copy format134 360p video-only; audio and unlisted backup not yet preserved.",
   "exactTimestampFrame": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/exact-532.jpg",
-  "timestampVerification": "FFmpeg fps filter emits frame at interval midpoint; re-extracted exact source timestamp to verify cup tile rather than assuming frame number * interval."
+  "timestampVerification": "FFmpeg fps filter emits frame at interval midpoint; re-extracted exact source timestamp to verify cup tile rather than assuming frame number * interval.",
+  "correction": "Previously misread0:54.78 at360p;1080p later cup and original finish both read0:54.76. Corrected authority row and merged later observation.",
+  "highResolutionProof": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/highres-cup-frame.png"
 }
