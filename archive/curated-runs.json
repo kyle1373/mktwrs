@@ -96901,7 +96901,7 @@
     "status": "documented-submission",
     "submittedAt": null,
     "observedAt": "2019-11-25T15:54:30+00:00",
-    "achievedAt": null,
+    "achievedAt": "2019-11-25",
     "proofImage": "https://pbs.twimg.com/media/EKOuHMMVAAEK4JU.jpg",
     "source": {
       "url": "https://x.com/_Kaguya_Games/status/1198993372800638977",
@@ -96909,12 +96909,21 @@
       "postId": "1198993372800638977"
     },
     "notes": [
-      "Previous personal best shown in later 1:07.24 result screenshot. Date and global WR status unresolved."
+      "Previous personal best shown in later 1:07.24 result screenshot. Date and global WR status unresolved.",
+      "Ordered Winter audit resolves day precision: 1:07.26 follows Nu11\u2019s November25 13:00:43 result1:07.36 and precedes his15:54:30 result1:07.24, which displays1:07.26 as previous best. Exact instant and global WR status remain unresolved; no progression promotion."
     ],
     "includeInProgression": false,
     "proofImageLocal": "/assets/proof/winter2019-nu11-1198993372800638977-10724.webp",
     "proofImageVerified": true,
-    "dateUnresolved": true
+    "dateUnresolved": false,
+    "datePrecision": "day",
+    "dateEvidence": "bounded-between-same-runner-same-day-result-publications",
+    "dateIsPublication": false,
+    "dateBounds": {
+      "notBefore": "2019-11-25T13:00:43+00:00",
+      "notAfter": "2019-11-25T15:54:30+00:00",
+      "basis": "Same player first posts slower personal best1:07.36; later1:07.24 result shows intervening previous best1:07.26. Both bounds fall on November25 UTC."
+    }
   },
   {
     "messageId": "winter2019-nu11-1198949846784151552-10736",
