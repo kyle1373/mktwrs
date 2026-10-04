@@ -33,11 +33,44 @@
     27,
     28,
     29,
-    30
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
   ],
-  "capturedUniqueMessages": 750,
+  "capturedUniqueMessages": 1575,
   "expectedResults": 3757,
-  "nextPage": 31,
+  "nextPage": 64,
   "classifications": [
     {
       "messageId": "641301459245334561",
@@ -80,7 +113,100 @@
         "640961383277789184"
       ],
       "finding": "Original title and adjacent author message explicitly identify five-star challenge guide; noTT record claimed."
+    },
+    {
+      "messageId": "640583890297290763",
+      "video": "https://www.youtube.com/watch?v=qc7zKvXqgiQ",
+      "classification": "score-run",
+      "finding": "Discord video preview explicitly names Koopa City league track and 14169 points."
+    },
+    {
+      "messageId": "640546489848037396",
+      "classification": "score-run-context",
+      "evidenceIds": [
+        "640546554632994826",
+        "640547011178922025"
+      ],
+      "finding": "Regular DDJ image already visually reviewed as non-result context; adjacent reply gives 11.9k points, not a TT total."
+    },
+    {
+      "messageId": "639941460220706816",
+      "classification": "slower-personal-best",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:38.32",
+      "imageReviewId": "49b23d852b4a99e791bede61",
+      "evidenceIds": [
+        "639941528730468435"
+      ],
+      "finding": "Original result previously visually reviewed. Adjacent author aims for 1:35; slower than established WR, no progression entry."
+    },
+    {
+      "messageId": "639765459633307668",
+      "classification": "already-preserved-world-record",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:34.43",
+      "laps": [
+        "47.21",
+        "47.22"
+      ],
+      "video": "https://twitter.com/tomegome_g/status/1190016227671826433",
+      "finding": "Original video downloaded and visually verified in existing curated run; avoid duplicate."
+    },
+    {
+      "messageId": "640319474125373450",
+      "video": "https://www.youtube.com/watch?v=YaDYxd7zeVc",
+      "titleAsPosted": "Kalimari Desert T 21.7k",
+      "classification": "score-run",
+      "finding": "Original message/video preview explicitly concerns points and frenzies, not TT record."
+    },
+    {
+      "messageId": "639980159457296394",
+      "video": "https://www.youtube.com/watch?v=QB2nR1mjfCY",
+      "titleAsPosted": "Luigi’s Mansion 21.8k",
+      "classification": "score-run",
+      "finding": "Original message/video preview explicitly concerns points and frenzies, not TT record."
+    },
+    {
+      "messageId": "639961155569451049",
+      "video": "https://www.youtube.com/watch?v=ff5bm9JJr2Q",
+      "titleAsPosted": "Mario Circuit T 29.2k",
+      "classification": "score-run",
+      "finding": "Original message/video preview explicitly concerns points and frenzies, not TT record."
+    },
+    {
+      "messageId": "639732666698301445",
+      "video": "https://www.youtube.com/watch?v=2oZbnUzOgqs",
+      "titleAsPosted": "Neo Bowser City 20.5k",
+      "classification": "score-run",
+      "finding": "Original message/video preview explicitly concerns points and frenzies, not TT record."
+    },
+    {
+      "messageId": "639482582748102656",
+      "video": "https://www.youtube.com/watch?v=lT3Rx7fgN7k",
+      "titleAsPosted": "Koopa Troopa Beach T 20.1k",
+      "classification": "score-run",
+      "finding": "Original message/video preview explicitly concerns points and frenzies, not TT record."
     }
   ],
-  "coverageNote": "Raw full-message index saved locally with exact IDs, timestamps and resumable page cursor. Cross-channel audit ongoing; no claim of tour completion."
+  "coverageNote": "1575 unique server messages preserved locally across pages 1–63. Full TT discussion index separately contains 755 messages. Capturing messages is not certification of complete WR history; media review, rival precedence and unresolved dates remain.",
+  "pendingMediaReview": [
+    {
+      "messageId": "639566857547808808",
+      "attachmentId": "639566856583249950",
+      "channelId": "630524563335282689",
+      "status": "requires-context-and-video-inspection"
+    },
+    {
+      "messageId": "639565583846998036",
+      "attachmentId": "639565583184035871",
+      "channelId": "630524563335282689",
+      "status": "requires-context-and-video-inspection"
+    },
+    {
+      "messageId": "639505497627557900",
+      "attachmentId": "639505495543250985",
+      "channelId": "630496451491004475",
+      "status": "requires-context-and-video-inspection"
+    }
+  ]
 }
