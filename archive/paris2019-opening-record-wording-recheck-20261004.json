@@ -1,0 +1,30 @@
+{
+  "complete": false,
+  "reviewedAt": "2026-10-04",
+  "scope": "Fresh MKCentral server-wide text searches for Paris opening period; surrounding messages read for Dino Dino claim.",
+  "queries": [
+    {
+      "query": "after:2019-11-05 before:2019-11-10 wr",
+      "results": 1,
+      "finding": "Dino Dino record question in screenshots channel; no time or proof supplied."
+    },
+    {
+      "query": "after:2019-11-05 before:2019-11-20 \"world\"",
+      "results": 13,
+      "finding": "All visible results read. Existing MC1 video repost, generic game pages, score streams and unrelated Wii claims; no newly dated Bazaar or Luigi run."
+    },
+    {
+      "query": "after:2019-11-05 before:2019-11-10 \"39\"",
+      "results": 0,
+      "finding": "No matching indexed text; does not search numbers visible only inside images."
+    },
+    {
+      "query": "after:2019-11-05 before:2019-11-10 record",
+      "results": 3,
+      "finding": "Official TT tips, existing Dino Dino question, normal-race XP message; no new WR time."
+    }
+  ],
+  "contextFinding": "screenshots November7 Dino Dino question receives Carlos85 No idea. Nearby Shy Guy video3zXuJScXRqU is already tracked as normal-race route tutorial, not TT proof.",
+  "nextAction": "Return to course-specific original image/rival chronology leads; these text searches add no accepted WRs.",
+  "limit": "Search terms and visible accessible messages only, not exhaustive channel coverage."
+}
