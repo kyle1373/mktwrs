@@ -134,6 +134,20 @@ export function importSources(courses, players) {
       if (!profiles.has(name.toLowerCase()))
         profiles.set(name.toLowerCase(), { name, country: row[1] });
     }
+  // Identity links require reviewed source context, not matching display names.
+  if (fs.existsSync("archive/player-identities.json")) {
+    for (const identity of Object.values(JSON.parse(fs.readFileSync("archive/player-identities.json")))) {
+      const key = identity.name.toLowerCase();
+      const previous = profiles.get(key) || {};
+      profiles.set(key, {
+        ...previous,
+        ...identity,
+        socials: { ...previous.socials, ...identity.socials },
+      });
+      for (const alias of [identity.name, ...(identity.aliases || [])])
+        aliases.set(alias.toLowerCase(), identity.name);
+    }
+  }
   for (const profile of profiles.values()) {
     if (!profile.socials) continue;
     const root = aliases.get(profile.name.toLowerCase());
@@ -159,7 +173,7 @@ export function importSources(courses, players) {
         avatar: null,
         records: [],
         socials: profile?.socials || {},
-        aliases: [],
+        aliases: profile?.aliases || [],
       };
       players.set(id, p);
     } else if (profile)
@@ -167,6 +181,7 @@ export function importSources(courses, players) {
         country: profile.country || p.country,
         discordId: profile.discordId || p.discordId,
         socials: profile.socials || {},
+        aliases: profile.aliases || p.aliases || [],
       });
     return p;
   }
