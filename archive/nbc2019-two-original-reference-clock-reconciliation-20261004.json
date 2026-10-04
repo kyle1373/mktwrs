@@ -1,0 +1,130 @@
+{
+  "reviewedAt": "2026-10-04",
+  "historyComplete": false,
+  "scope": "Two missing original-proof chronology anchors for opening Neo Bowser City on October23,2019. This resolves reference-clock interpretation, not exhaustive progression or media availability.",
+  "items": [
+    {
+      "recordId": "original-2019-wr-row-30",
+      "player": "Nova",
+      "courseId": "3ds-neo-bowser-city",
+      "time": "1:27.85",
+      "referenceChronology": {
+        "timestamp": "2019-10-23T12:39:43.096Z",
+        "basis": "twitter-post-id",
+        "id": "1186985550814646273",
+        "url": "https://twitter.com/40pairs/status/1186985550814646273",
+        "referenceSource": {
+          "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A30:J30",
+          "sheet": "WR history",
+          "range": "A30:J30"
+        },
+        "verifiedMedia": false,
+        "raceTimestampEstablished": false,
+        "limitation": "Timestamp decoded from the original reference identifier recorded in the contemporary history. It dates creation of that reference, not the race, and does not prove the original media is currently available."
+      }
+    },
+    {
+      "recordId": "original-2019-wr-row-31",
+      "player": "up",
+      "courseId": "3ds-neo-bowser-city",
+      "time": "1:27.35",
+      "referenceChronology": {
+        "timestamp": "2019-10-23T12:58:32.051Z",
+        "basis": "discord-attachment-id",
+        "id": "636549016536088586",
+        "url": "https://cdn.discordapp.com/attachments/636531202534277140/636549016536088586/image0.png",
+        "referenceSource": {
+          "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A31:J31",
+          "sheet": "WR history",
+          "range": "A31:J31"
+        },
+        "verifiedMedia": false,
+        "raceTimestampEstablished": false,
+        "limitation": "Timestamp decoded from the original reference identifier recorded in the contemporary history. It dates creation of that reference, not the race, and does not prove the original media is currently available."
+      }
+    }
+  ],
+  "timestampFormula": {
+    "twitter": "(id >> 22) + 1288834974657 milliseconds since Unix epoch",
+    "discord": "(id >> 22) + 1420070400000 milliseconds since Unix epoch"
+  },
+  "sourceChecks": [
+    {
+      "url": "https://twitter.com/40pairs/status/1186985550814646273",
+      "method": "Exa fetch",
+      "result": "SOURCE_NOT_AVAILABLE"
+    },
+    {
+      "url": "https://api.fxtwitter.com/40pairs/status/1186985550814646273",
+      "method": "public post metadata",
+      "result": "HTTP404"
+    },
+    {
+      "url": "https://discord.com/channels/629221606064914442/636531202534277140/636549016536088586",
+      "method": "authenticated browser navigation",
+      "result": "Redirected to server-rules; referenced attachment channel not reached. No media recovered."
+    }
+  ],
+  "classification": "Existing contemporary-history WR classifications retained. No supporting PB promoted and no lap values invented.",
+  "nextActions": [
+    "Recover Nova original screenshot or same-run corroboration.",
+    "Recover up original attachment or repost with source-specific identity.",
+    "Reconcile public-reference ordering with nearby submissions; do not infer race ordering solely from screenshot publication."
+  ],
+  "nearbyBrowserContext": {
+    "channel": "tt-discussion",
+    "anchorMessageId": "636551042351235106",
+    "messages": [
+      {
+        "messageId": "636547330228748288",
+        "datetime": "2019-10-23T12:51:50.004Z",
+        "author": "Benny91",
+        "body": "Going for 1.27 on neo"
+      },
+      {
+        "messageId": "636551185725128724",
+        "datetime": "2019-10-23T13:07:09.226Z",
+        "author": "Benny91",
+        "body": "Thanks, 1.27 seems really hard"
+      },
+      {
+        "messageId": "636551471088926741",
+        "datetime": "2019-10-23T13:08:17.262Z",
+        "author": "Faw",
+        "body": "nice improve ahah"
+      }
+    ],
+    "finding": "The surrounding discussion supports a personal improvement context for Unreal91 1:28.40. No statement establishes it as a global WR. Earlier Nova/up reference timestamps reinforce retaining it as supporting evidence."
+  },
+  "laterImprovementContext": {
+    "anchorMessageId": "636555043658661946",
+    "time": "1:27.94",
+    "messages": [
+      {
+        "messageId": "636555082699374605",
+        "datetime": "2019-10-23T13:22:38.337Z",
+        "author": "YouHey",
+        "body": "The wild 27 has appeared"
+      },
+      {
+        "messageId": "636555177674932248",
+        "datetime": "2019-10-23T13:23:00.981Z",
+        "author": "Faw",
+        "body": "he improves his time every 3 minutes"
+      },
+      {
+        "messageId": "636555245455147028",
+        "datetime": "2019-10-23T13:23:17.141Z",
+        "author": "Benny91",
+        "body": "Lol its not optimized yet"
+      },
+      {
+        "messageId": "636555309372145696",
+        "datetime": "2019-10-23T13:23:32.380Z",
+        "author": "YouHey",
+        "body": "A WR is a 1 in a 100 tries if not more"
+      }
+    ],
+    "finding": "The WR mention is a general discussion of attempt counts, not an explicit certification of this run. Earlier contemporary-history Nova1:27.85/up1:27.35 references precede this screenshot. Retain supporting status."
+  }
+}
