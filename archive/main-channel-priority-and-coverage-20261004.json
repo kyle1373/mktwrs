@@ -114,7 +114,7 @@
     "searchPageCap": 400,
     "requiredCaptureMethod": "Nonoverlapping datedpartitions below10000messages;stablemessageIDs and perpartitioncountvalidation.",
     "countFilterVerified": true,
-    "consolidatedSavedUniqueMessages": 75166,
+    "consolidatedSavedUniqueMessages": 76935,
     "consolidatedIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
     "consolidationScope": "Saved JSON consolidation with explicit channel IDs plus named TT discussion message census exports. Numeric and search-result IDs normalized; source filenames retained. Exhaustive coverage still requires Discord partition validation.",
     "byMessageCreationYear": {
@@ -122,11 +122,12 @@
       "2020": 61721,
       "2021": 8161,
       "2022": 2798,
-      "2023": 1573,
+      "2023": 3342,
       "2026": 13
     },
     "consolidationSummary": "archive/tt-discussion-source-consolidation-summary-20261004.json",
-    "year2022QueryIdValidation": "archive/tt-discussion-2022-id-coverage-validation-20261004.json"
+    "year2022QueryIdValidation": "archive/tt-discussion-2022-id-coverage-validation-20261004.json",
+    "year2023QueryIdValidation": "archive/tt-discussion-2023-id-coverage-validation-20261004.json"
   },
   "review": {
     "orderedEarlyReconciliationCurrentTour": "WinterTour2019",
