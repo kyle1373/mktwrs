@@ -105,11 +105,60 @@
     99,
     100,
     101,
-    102
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151
   ],
-  "capturedUniqueMessages": 2550,
+  "capturedUniqueMessages": 3757,
   "expectedResults": 3757,
-  "nextPage": 103,
+  "nextPage": null,
   "classifications": [
     {
       "messageId": "641301459245334561",
@@ -117,17 +166,17 @@
       "classification": "different-game",
       "metadata": {
         "id": "o2G-6dSIaUk",
-        "title": "【世界１位】TA ヨッシーサーキット 1:48.433 【マリオカート８デラックス】　[Mario Kart 8 Deluxe yoshi  circuit World Record]",
+        "title": "\u3010\u4e16\u754c\uff11\u4f4d\u3011TA \u30e8\u30c3\u30b7\u30fc\u30b5\u30fc\u30ad\u30c3\u30c8 1:48.433 \u3010\u30de\u30ea\u30aa\u30ab\u30fc\u30c8\uff18\u30c7\u30e9\u30c3\u30af\u30b9\u3011\u3000[Mario Kart 8 Deluxe yoshi  circuit World Record]",
         "upload_date": "20170501",
         "duration": 172,
-        "channel": "Bosna ボスナ"
+        "channel": "Bosna \u30dc\u30b9\u30ca"
       },
       "finding": "Original full title explicitly says Mario Kart8Deluxe. May2017upload cannot be MKT2019history."
     },
     {
       "messageId": "641280111160721440",
       "video": "https://www.youtube.com/watch?v=lGFfKFCx3is",
-      "titleAsPosted": "Bowser’s Castle1T",
+      "titleAsPosted": "Bowser\u2019s Castle1T",
       "availability": "unavailable",
       "classification": "score-run-context",
       "evidenceIds": [
@@ -201,7 +250,7 @@
     {
       "messageId": "639980159457296394",
       "video": "https://www.youtube.com/watch?v=QB2nR1mjfCY",
-      "titleAsPosted": "Luigi’s Mansion 21.8k",
+      "titleAsPosted": "Luigi\u2019s Mansion 21.8k",
       "classification": "score-run",
       "finding": "Original message/video preview explicitly concerns points and frenzies, not TT record."
     },
@@ -299,41 +348,117 @@
         "637478257712693252"
       ],
       "finding": "Maintainer removes an unsupported 1:01 claim; surrounding discussion identifies Yerson 1:04.85 as current WR. Do not add disputed claim to progression."
-    }
-  ],
-  "coverageNote": "2550 unique server messages preserved locally across pages 1–102. Full TT discussion index separately contains 755 messages. Search coverage is not certification of complete WR history; attachment review, rival precedence and unresolved dates remain.",
-  "pendingMediaReview": [
+    },
     {
       "messageId": "639566857547808808",
       "attachmentId": "639566856583249950",
-      "channelId": "630524563335282689",
-      "status": "requires-context-and-video-inspection"
+      "classification": "channel-intro-animation",
+      "durationSeconds": 5.0,
+      "sha256": "0d26bc3c4b2db69f50b53efe662ffb3ba9e004c2ad939956f237aced0ce27b58",
+      "visuallyReviewed": true,
+      "finding": "Downloaded original clip and visually inspected sequential frames. No game footage, TT result or record evidence. Not included in public proof archive."
     },
     {
       "messageId": "639565583846998036",
       "attachmentId": "639565583184035871",
-      "channelId": "630524563335282689",
-      "status": "requires-context-and-video-inspection"
+      "classification": "channel-intro-animation",
+      "durationSeconds": 5.0,
+      "sha256": "adc975c252c0a2d738bf17b01ede1c3efc1a3cc016d68bea293b56c02ea704be",
+      "visuallyReviewed": true,
+      "finding": "Downloaded original clip and visually inspected sequential frames. No game footage, TT result or record evidence. Not included in public proof archive."
     },
     {
       "messageId": "639505497627557900",
       "attachmentId": "639505495543250985",
-      "channelId": "630496451491004475",
-      "status": "requires-context-and-video-inspection"
-    }
-  ],
-  "pendingChronologyReview": [
-    {
-      "messageId": "637455135382962186",
-      "courseId": "3ds-toad-circuit",
-      "time": "1:05.28",
-      "finding": "Contemporary discussion reports two ties after Unreal. Original identities, timestamps and WR precedence must be reconciled before adding."
+      "classification": "unrelated-personal-footage",
+      "durationSeconds": 24.6,
+      "sha256": "ac42483c39011fd29b2fcc46052c9b0c37f47fdabd08b13ed8f09e45821defb8",
+      "visuallyReviewed": true,
+      "finding": "Downloaded original clip and visually inspected sequential frames. No game footage, TT result or record evidence. Not included in public proof archive."
     },
     {
-      "messageId": "637458529694777344",
-      "courseId": "3ds-toad-circuit",
-      "time": "1:04.91",
-      "finding": "Reports LewisB tweet 14 minutes later. Current canonical Unreal91 is LewisB; compare original posts to avoid duplicate identity."
+      "messageId": "636959734876078090",
+      "video": "https://www.youtube.com/watch?v=_c4tv9vebsY",
+      "classification": "verified-supporting-tt-video",
+      "finding": "YersonCz Toad Circuit 1:05.12 visually verified with 32.50/32.62 splits; slower than contemporary Nova 1:05.11 before screenshot publication. Original downloaded and hashed; backup not yet uploaded.",
+      "report": "archive/halloween2019-yerson-10512-video-preservation-20261004.json"
+    },
+    {
+      "messageId": "636517413038325771",
+      "classification": "ordinary-race-experience-gain",
+      "sha256": "0bea577478a7bc667e9be57ca85c1e8e545dea6f9c098f020f68d4d5c117ff89",
+      "bytes": 1857101,
+      "finding": "Every frame in this short clip visually reviewed. Ordinary eight-player race result list and player-level XP gain, not a time-trial result. Adjacent author discussion explicitly concerns XP gain at 200cc."
+    },
+    {
+      "messageId": "636517403441889292",
+      "classification": "ordinary-race-experience-gain",
+      "sha256": "828ae25f89123b23dff75d494dc53bde2eda1c2fb0d1a12edc303ed6f005549c",
+      "bytes": 1065780,
+      "finding": "Every frame in this short clip visually reviewed. Ordinary eight-player race result list and player-level XP gain, not a time-trial result. Adjacent author discussion explicitly concerns XP gain at 200cc."
+    },
+    {
+      "messageId": "636517394571067402",
+      "classification": "ordinary-race-experience-gain",
+      "sha256": "d5a84db8c9cae1be51c46f9a188c8d52185648ee0d8c6b004350bc522a58293d",
+      "bytes": 1528138,
+      "finding": "Every frame in this short clip visually reviewed. Ordinary eight-player race result list and player-level XP gain, not a time-trial result. Adjacent author discussion explicitly concerns XP gain at 200cc."
+    },
+    {
+      "messageId": "636614789568659466",
+      "attachmentId": "636614788725735445",
+      "classification": "ordinary-race-lightning-challenge",
+      "durationSeconds": 3.055011,
+      "sha256": "6482d46122e97c7b76973a24374ac11c9e7e0630da63ccc404a8aa56eb647daa",
+      "bytes": 3543006,
+      "visuallyReviewed": true,
+      "finding": "Sequential frames show a regular race with opponents, positions and combo points while using lightning. Adjacent discussion concerns flattening opponents. No TT result or record evidence."
+    },
+    {
+      "messageId": "636455609603981312",
+      "attachmentId": "636455608538890253",
+      "classification": "friend-score-ranking",
+      "visuallyReviewed": true,
+      "finding": "Friend ranking point totals, not TT results."
+    },
+    {
+      "messageId": "636454749868392449",
+      "attachmentId": "636454749868392448",
+      "classification": "currency-counter",
+      "visuallyReviewed": true,
+      "finding": "Player level, coins and rubies; no TT time."
+    },
+    {
+      "messageId": "636454078519705610",
+      "attachmentId": "636454077240180736",
+      "classification": "friend-score-ranking",
+      "visuallyReviewed": true,
+      "finding": "Friend ranking point totals; no TT time."
+    },
+    {
+      "messageId": "636447808026705930",
+      "attachmentId": "636447807108284417",
+      "classification": "ordinary-race-opponents",
+      "visuallyReviewed": true,
+      "finding": "Eight-driver starting list; no TT result."
+    },
+    {
+      "messageId": "636444958408048641",
+      "attachmentId": "636444957292625930",
+      "classification": "daily-shop",
+      "visuallyReviewed": true,
+      "finding": "Daily Selects shop; no TT result."
     }
+  ],
+  "coverageNote": "151 pages / 3757 unique messages of the dated server-wide query reviewed. Separate descending boundary search reviewed through tour start: 52 launch-hour messages, plus preceding context. Five unmatched boundary screenshots visually classified as non-TT. Chronology and original-media reconciliation remain incomplete.",
+  "pendingMediaReview": [],
+  "pendingChronologyReview": [],
+  "indexComplete": true,
+  "boundaryReviewRequired": null,
+  "boundaryReviewReport": "archive/halloween2019-launch-hour-boundary-census-20261004.json",
+  "chronologyReconciliationReport": "archive/halloween2019-rival-chronology-reconciliation-20261004.json",
+  "remainingEvidenceWork": [
+    "Original media and course-by-course progression reconciliation remain incomplete.",
+    "Other original supporting tie images and the Lewis B cross-post URL still need source matching."
   ]
 }
