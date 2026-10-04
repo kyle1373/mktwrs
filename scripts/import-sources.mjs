@@ -45,6 +45,29 @@ export function completeTwoLapSplit(totalCs, laps) {
   completed[index] = (missing / 100).toFixed(2);
   return { laps: completed, derivedLap: index + 1 };
 }
+export function verifiedSplitEvidence(record, selected, matches) {
+  const sources = (entry) => [entry.source?.url, ...(entry.additionalSources || []).map(s => s?.url)].filter(Boolean);
+  const imageIdentity = (entry) => {
+    try {
+      const url = new URL(entry.proofImage);
+      if (/(^|\.)(discordapp\.com|discordapp\.net)$/.test(url.hostname))
+        return url.pathname.match(/\/attachments\/\d+\/\d+\/[^/]+$/)?.[0];
+    } catch {}
+    return null;
+  };
+  const selectedSources = sources(selected);
+  const selectedImage = imageIdentity(selected);
+  return matches.find(entry => {
+    if (!(entry.videoVerified || entry.proofImageVerified)) return false;
+    const sharedSource = sources(entry).some(url => selectedSources.includes(url));
+    const sharedImage = selectedImage && imageIdentity(entry) === selectedImage;
+    if (!sharedSource && !sharedImage) return false;
+    const laps = entry.laps?.map(centiseconds);
+    return laps?.length === 2 && laps.every(lap => lap > 0) &&
+      laps[0] + laps[1] === record.timeCs &&
+      !entry.notes?.some(note => note.includes("do not sum"));
+  }) || selected;
+}
 export function mediaKind(value) {
   let u;
   try {
@@ -521,12 +544,14 @@ export function importSources(courses, players) {
         }) || s;
       }
       if (s) {
-        r.laps = s.notes.some((n) => n.includes("do not sum")) ? null : s.laps;
-        r.lapSource = s.lapSource || s.source;
-        r.lapMatchBasis = s.lapMatchBasis || "same player and total time; see linked submission";
-        if (s.derivedLap) {
-          r.derivedLap = s.derivedLap;
-          r.lapMatchBasis += `; lap ${s.derivedLap} calculated from total minus the other lap`;
+        const splitEvidence = s.laps?.every(lap => lap === null)
+          ? verifiedSplitEvidence(r, s, matches) : s;
+        r.laps = splitEvidence.notes.some((n) => n.includes("do not sum")) ? null : splitEvidence.laps;
+        r.lapSource = splitEvidence.lapSource || splitEvidence.source;
+        r.lapMatchBasis = splitEvidence.lapMatchBasis || "same player and total time; see linked submission";
+        if (splitEvidence.derivedLap) {
+          r.derivedLap = splitEvidence.derivedLap;
+          r.lapMatchBasis += `; lap ${splitEvidence.derivedLap} calculated from total minus the other lap`;
         }
         r.achievedAt = s.achievedAt;
         r.datePrecision = s.datePrecision;

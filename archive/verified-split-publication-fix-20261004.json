@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-04",
+  "historyComplete": false,
+  "finding": "Older matching spreadsheet entries with blank laps could overwrite verified curated splits. Split selection now requires shared source URL or identical original Discord attachment, complete positive splits summing to the total, and prior visual verification. Date selection remains separate.",
+  "courses": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "path": "public/data/courses/3ds-toad-circuit.json",
+      "changes": [
+        {
+          "recordId": "curated-original-2019-wr-row-19",
+          "time": "1:04.91",
+          "oldLaps": [
+            null,
+            null
+          ],
+          "newLaps": [
+            "32.49",
+            "32.42"
+          ],
+          "source": {
+            "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A19:J19",
+            "sheet": "WR history",
+            "range": "A19:J19"
+          }
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "targetedImportTests": "6 passed",
+    "fullSuite": "91 passed, 19 failed",
+    "baselineComparison": "Same19 archive expectation failures also occur after rebuilding with HEAD importer. Baseline also has expected import-test module failure because the new regression imports an export absent in HEAD. No new archive-test failure from this fix."
+  }
+}

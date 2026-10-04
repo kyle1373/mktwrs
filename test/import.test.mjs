@@ -6,7 +6,17 @@ import {
   mediaKind,
   attachmentDate,
   completeTwoLapSplit,
+  verifiedSplitEvidence,
 } from "../scripts/import-sources.mjs";
+test("verified laps survive spreadsheet reposts of the same original image without transferring dates", () => {
+  const sheet = {source:{url:"https://docs.google.com/sheet"},proofImage:"https://cdn.discordapp.com/attachments/1/2/result.jpg?ex=old",laps:[null,null],achievedAt:"2019-10-25"};
+  const original = {source:{url:"https://discord.com/channels/1/3/4"},proofImage:"https://media.discordapp.net/attachments/1/2/result.jpg?width=500",laps:["32.49","32.42"],proofImageVerified:true,notes:[],achievedAt:"2019-10-26"};
+  assert.equal(verifiedSplitEvidence({timeCs:6491},sheet,[sheet,original]),original);
+  assert.equal(sheet.achievedAt,"2019-10-25");
+  const rerun = {...original,proofImage:"https://cdn.discordapp.com/attachments/1/9/result.jpg"};
+  assert.equal(verifiedSplitEvidence({timeCs:6491},sheet,[sheet,rerun]),sheet);
+  assert.equal(verifiedSplitEvidence({timeCs:6491},sheet,[{...original,laps:["32.49","32.43"]}]),sheet);
+});
 test("missing lap is derived with centisecond arithmetic only for unambiguous two-lap runs", () => {
   assert.deepEqual(completeTwoLapSplit(6997, ["34.98", null]), {laps:["34.98","34.99"],derivedLap:2});
   assert.deepEqual(completeTwoLapSplit(6997, [null, "34.99"]), {laps:["34.98","34.99"],derivedLap:1});
