@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-10-04",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "scope": "Opening Toad Circuit screenshot publication reconciliation; no claim of exhaustive tour coverage.",
+  "verifiedOriginals": [
+    {
+      "attachmentId": "636452817116332046",
+      "path": "archive/halloween2019-tour-audit-originals/636452817116332046.png",
+      "bytes": 1468654,
+      "sha256": "02b7735bc145b83708e61290fb617e27ae569af624bd1eab8280ead97d58ce88",
+      "reviewStatus": "visually-reviewed"
+    },
+    {
+      "attachmentId": "636454649926385685",
+      "path": "archive/halloween2019-tour-audit-originals/636454649926385685.png",
+      "bytes": 2486563,
+      "sha256": "b9004f22d645edaff8ce33fa46eecd2173898ab041150ce0c838123636c480f7",
+      "reviewStatus": "visually-reviewed"
+    }
+  ],
+  "corrections": [
+    {
+      "recordId": "original-2019-wr-row-5",
+      "time": "1:08.29",
+      "previousBest": "1:08.79",
+      "firstServerPublication": "2019-10-23T06:36:16.567Z",
+      "lap1": "33.91",
+      "lap2": "34.38",
+      "lapBasis": "Lap 1 in same message; lap 2 calculated from total."
+    },
+    {
+      "recordId": "original-2019-wr-row-6",
+      "time": "1:06.51",
+      "previousBest": "1:07.08",
+      "firstServerPublication": "2019-10-23T06:57:26.608Z",
+      "lapContextLimitation": "Following message says 32.92 / 1:06.02 / 32.79; these values do not sum to the screenshot result. Existing verified lap attribution from later TT discussion retained; ambiguous following text is not treated as another completed WR."
+    }
+  ],
+  "unresolvedLeads": [
+    {
+      "player": "SuperFX",
+      "time": "1:07.08",
+      "basis": "Previous best in original 1:06.51 screenshot. Earlier race ordering versus rival records unknown; do not promote to WR without evidence."
+    }
+  ],
+  "originalRecoveryChecks": [
+    {
+      "recordId": "original-2019-wr-row-31",
+      "url": "https://cdn.discordapp.com/attachments/636531202534277140/636549016536088586/image0.png",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "recordId": "original-2019-wr-row-33",
+      "url": "https://cdn.discordapp.com/attachments/636531202534277140/636847303931723776/image0.png",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "recordId": "original-2019-wr-row-41",
+      "url": "https://cdn.discordapp.com/attachments/626784935285620756/637280677330419722/Screenshot_20191025-062535_Mario_Kart.jpg",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "recordId": "original-2019-wr-row-49",
+      "url": "https://cdn.discordapp.com/attachments/622735978536370226/638395542811967521/Screenshot_20191028-161546_Mario_Kart.jpg",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "recordId": "original-2019-wr-row-50",
+      "url": "https://cdn.discordapp.com/attachments/622735978536370226/638400889966690332/Screenshot_20191028-163633_Mario_Kart.j",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "novaRecoveryCheck": {
+    "recordId": "original-2019-wr-row-11",
+    "originalUrl": "https://twitter.com/40pairs/status/1187010514271911937",
+    "ytDlp": "No video could be found in this tweet",
+    "publicPostMetadata": "HTTP 404",
+    "discordServerSearch": "40pairs with Halloween date bounds returned no results; search absence is not proof no other evidence exists."
+  },
+  "nonResultOriginals": [
+    {
+      "messageId": "636467283673219102",
+      "attachmentId": "636467283019038720",
+      "publishedAt": "2019-10-23T07:33:45.418Z",
+      "path": "archive/halloween2019-tour-audit-originals/636467283019038720.png",
+      "sha256": "70076592f2c3fbac88b0f96b928da41a706b97664547489918d2ba682fc6a5a9",
+      "reviewStatus": "visually-reviewed",
+      "finding": "Neo Bowser City challenge introduction with Bowser Jr. No completed time or lap splits; course availability context only."
+    }
+  ],
+  "neoBowserCityFocusedSearch": {
+    "query": "after:2019-10-22 before:2019-11-06 \"Neo\"",
+    "resultsRead": 14,
+    "relevantFindings": [
+      "Benny91/Unreal91 1:28.48 original video jeZCQCMQgPE, already archived.",
+      "Benny91/Unreal91 1:26.59 video KzDZ2O9_YZM, already visually reviewed and retained as supporting evidence because up had earlier faster records.",
+      "Other named-course matches concern ranked scores or availability; not TT WRs."
+    ],
+    "coverageLimitation": "Course-name search does not cover image-only or unnamed posts; prior image and discussion census must also be reconciled."
+  }
+}
