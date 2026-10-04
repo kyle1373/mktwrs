@@ -3,16 +3,20 @@
   "complete": false,
   "scope": "Attachment IDs observed in saved TT-submission index January25 06:00UTC toFebruary8 06:00UTC, reconciled against both image ledgers and explicit Winter result audits. Does not prove every live Discord attachment captured.",
   "indexedUniqueAttachments": 73,
-  "withRecordedReviewEvidence": 69,
-  "remainingReviewCount": 4,
+  "withRecordedReviewEvidence": 73,
+  "remainingReviewCount": 0,
   "attachments": [
     {
       "attachmentId": "1067685825640419338",
       "firstIndexedMessageId": "1067685825845927996",
       "firstIndexedPublication": "2023-01-25T06:02:17.525Z",
       "url": "https://cdn.discordapp.com/attachments/875784780573184010/1067685825640419338/Screenshot_20230125-144051_Mario_Kart.jpg?ex=6abd4ea9&is=6abbfd29&hm=590d23ae617cce542beff7100d1728be1d6a1903e0eacfe850b1f01bc72472a5&",
-      "reviewEvidence": null,
-      "reviewRequired": true
+      "reviewEvidence": {
+        "ledger": "early-visual-review.json",
+        "status": "visually-reviewed",
+        "messageId": "1067685825845927996"
+      },
+      "reviewRequired": false
     },
     {
       "attachmentId": "1067741089848623145",
@@ -115,8 +119,12 @@
       "firstIndexedMessageId": "1067991204106604625",
       "firstIndexedPublication": "2023-01-26T02:15:45.376Z",
       "url": "https://cdn.discordapp.com/attachments/875784780573184010/1067991203880128532/Screenshot_2023-01-26_11.13.46.png?ex=6abdc251&is=6abc70d1&hm=91e418f92d17e00f69fe0cae0feb163c1c924546acd825ebe992fc19d39c2644&",
-      "reviewEvidence": null,
-      "reviewRequired": true
+      "reviewEvidence": {
+        "ledger": "early-visual-review.json",
+        "status": "visually-reviewed",
+        "messageId": "1067991204106604625"
+      },
+      "reviewRequired": false
     },
     {
       "attachmentId": "1068105134267179041",
@@ -591,8 +599,12 @@
       "firstIndexedMessageId": "1071068353575256114",
       "firstIndexedPublication": "2023-02-03T14:03:14.980Z",
       "url": "https://cdn.discordapp.com/attachments/875784780573184010/1071068350958014505/IMG_1246.png?ex=6abdbf62&is=6abc6de2&hm=5dfeb7c15bd4118bb5e0773e6fc1ac0534900b4f72d4d59be98837a681a752ae&",
-      "reviewEvidence": null,
-      "reviewRequired": true
+      "reviewEvidence": {
+        "ledger": "early-visual-review.json",
+        "status": "visually-reviewed",
+        "messageId": "1071068351301951529"
+      },
+      "reviewRequired": false
     },
     {
       "attachmentId": "1071122891241951242",
@@ -623,8 +635,12 @@
       "firstIndexedMessageId": "1071454944743407746",
       "firstIndexedPublication": "2023-02-04T15:39:25.497Z",
       "url": "https://cdn.discordapp.com/attachments/875784780573184010/1071454942843392050/IMG_1264.png?ex=6abdd5ed&is=6abc846d&hm=012b5a066f0fc0b63e03d427d7aabc7fa3824719ad0600ad42bdd1e903d82283&",
-      "reviewEvidence": null,
-      "reviewRequired": true
+      "reviewEvidence": {
+        "ledger": "early-visual-review.json",
+        "status": "visually-reviewed",
+        "messageId": "1071454943145365635"
+      },
+      "reviewRequired": false
     },
     {
       "attachmentId": "1071600417009586217",
@@ -868,8 +884,9 @@
     }
   ],
   "nextActions": [
-    "Review remaining attachments in publication order with surrounding messages.",
-    "Search discussion around candidate WRs for video and rival acknowledgment.",
-    "Keep ambiguous course/time/identity evidence unresolved until corroborated."
-  ]
+    "Reconcile intermediate WR precedence with surrounding discussion, original videos and previous-best leads.",
+    "Continue chronological collection beyond Winter Tour and resolve early 2019–2020 gaps."
+  ],
+  "indexedAttachmentReviewComplete": true,
+  "limits": "All 73 indexed attachments now have recorded review evidence; this completes the bounded attachment list only. Not full source capture or complete Winter Tour WR history."
 }
