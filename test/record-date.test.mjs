@@ -14,3 +14,12 @@ test("text-only reports and undated screenshots remain undated", () => {
   assert.equal(screenshotPublicationDate({ observedAt: "2019-11-04" }), null);
   assert.equal(screenshotPublicationDate({ proofImageVerified: true, proofImage: "proof.webp" }), null);
 });
+test("later screenshot repost does not override a verified earlier achievement bound", () => {
+  assert.equal(screenshotPublicationDate({
+    proofImageVerified: true,
+    proofImageLocal: "/proof.webp",
+    proofField: "previous-best",
+    observedAt: "2019-10-31T20:01:22Z",
+    achievementDateBounds: { notBefore: "2019-10-28", notAfter: "2019-10-29" },
+  }), null);
+});
