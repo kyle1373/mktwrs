@@ -102632,5 +102632,75 @@
       "The result panel proves this earlier personal best. Its exact achievement date and global rival precedence are unresolved. The linked recording is of a different total; no run video or laps are assigned to this previous best."
     ],
     "dateEvidence": "Original Twitter source creation timestamp decoded from the preserved status ID; exact achievement timestamp is unknown."
+  },
+  {
+    "messageId": "686283184048308231-original-video-rainbow2020",
+    "player": "Astre",
+    "courseId": "snes-rainbow-road-r",
+    "time": "1:00.57",
+    "laps": [
+      "30.15",
+      "30.42"
+    ],
+    "status": "documented-submission",
+    "includeInProgression": false,
+    "submittedAt": "2020-03-08T13:17:20.234Z",
+    "observedAt": "2020-03-08T18:44:21.602Z",
+    "dateEvidence": "Original Twitter publication decoded from preserved status ID; actual race instant unknown.",
+    "video": "https://twitter.com/Astre_HD/status/1236642155524915203",
+    "videoVerified": true,
+    "proofImageLocal": "/assets/proof/rainbow2020-astre-video-10057-result.webp",
+    "proofImageVerified": true,
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/686283184048308231",
+      "channel": "tt-discussion",
+      "messageId": "686283184048308231"
+    },
+    "additionalSources": [
+      {
+        "url": "https://twitter.com/Astre_HD/status/1236642155524915203",
+        "messageId": "1236642155524915203",
+        "channel": "original Twitter video"
+      }
+    ],
+    "notes": [
+      "Original recording directly visually read: lap-one frozen timer30.15, final total1:00.57, previous best1:00.47. Lap two30.42 is total minus lap one.",
+      "Different run from March2 same-total screenshot, whose previous best is1:00.62. No video or lap transfer to that earlier run.",
+      "Slower than own previous best and original caption says trajectory weaker than Adri. Supporting route video, not WR."
+    ],
+    "videoArchive": {
+      "path": "archive/mario-bros-2020-original-media/astre-1236642155524915203.mp4",
+      "sha256": "9da0112764bfd6a46f9614df57c7d06a726da101cc8c33cbdeca92fde4aa1c7c"
+    },
+    "lapEvidence": {
+      "lapOneFrame": "/assets/proof/rainbow2020-astre-video-10057-lap1.webp",
+      "lapTwoMethod": "total minus verified frozen lap-one timer"
+    }
+  },
+  {
+    "messageId": "686283184048308231-original-video-rainbow2020-previous-best",
+    "player": "Astre",
+    "courseId": "snes-rainbow-road-r",
+    "time": "1:00.47",
+    "laps": [
+      null,
+      null
+    ],
+    "status": "documented-submission",
+    "includeInProgression": false,
+    "submittedAt": null,
+    "observedAt": "2020-03-08T13:17:20.234Z",
+    "dateUnresolved": true,
+    "proofField": "previous-best",
+    "proofImageLocal": "/assets/proof/rainbow2020-astre-video-10057-result.webp",
+    "proofImageVerified": true,
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/686283184048308231",
+      "channel": "tt-discussion",
+      "messageId": "686283184048308231"
+    },
+    "notes": [
+      "Result panel proves earlier personal performance. Exact achievement and rival chronology unresolved. This recording is of1:00.57, so no run video or laps assigned to previous1:00.47."
+    ]
   }
 ]
