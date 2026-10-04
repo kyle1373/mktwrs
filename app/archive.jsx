@@ -26,7 +26,9 @@ function RecordDate({ r }) {
   return (
     <span
       title={
-        r.dateBasis === "submission-date"
+        r.dateBasis === "first-screenshot-publication"
+          ? "Earliest known screenshot publication; race completion date unconfirmed"
+          : r.dateBasis === "submission-date"
           ? "Date posted in the original submission"
           : r.dateBasis === "proof-upload-date"
             ? "Proof upload date within the recorded tour; achievement date unconfirmed"

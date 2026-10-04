@@ -1,6 +1,15 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+function assertPublicationDateOrUnknown(record) {
+  if (record.dateBasis === "first-screenshot-publication") {
+    const first = [record.evidencePublishedAt, record.observedAt, record.submittedAt].filter(Boolean).sort()[0];
+    assert.equal(record.recordDate, first.slice(0, 10));
+    assert(record.proofImageVerified);
+    assert(record.dateUnresolved, "publication date preserves race date uncertainty");
+  } else assert.equal(record.recordDate, null);
+}
+
 const read = (name) =>
   JSON.parse(
     fs.readFileSync(
@@ -68,11 +77,11 @@ test("migrated tour labels reject later proof uploads and preserve reviewed tour
   assert.equal(original.recordDate, "2020-02-02", "use the recovered original post, not the December migration upload");
   assert.equal(original.submittedAt, "2020-02-02T00:07:59.000Z");
   const beach = courses.find(c => c.id === "n64-koopa-troopa-beach").records.find(r => r.playerId === "tomegome" && r.time === "1:13.83");
-  assert.equal(beach.recordDate, null, "the malformed tour label must still reject its later migration upload");
+  assertPublicationDateOrUnknown(beach);
   const former = records.find(r => r.playerId === "astre" && r.time === "1:02.74");
   assert.deepEqual(former.tourDateRange, { start: "2021-08-11", end: "2021-08-24" });
-  assert.equal(former.recordDate, null, "known tour bounds do not establish a specific day");
-  assert.equal(former.chronologyDate, "2021-08-16", "an ordering anchor must not become the displayed record date");
+  assertPublicationDateOrUnknown(former);
+  assert.equal(former.recordDate, "2021-08-16", "use earliest verified screenshot publication under the archive date policy");
   const tc = courses.find(c => c.id === "3ds-toad-circuit-r");
   assert(!tc.records.some(r => r.time === "1:03.16"));
   const footage = tc.submissions.find(r => r.id === "curated-valentines-2020-tome-video-10316");
@@ -232,7 +241,7 @@ test("public WR history never promotes an inferred contender or ordinary submiss
     );
     assert(c.currentHolders.every((r) => c.records.some((n) => n.id === r.id)));
     for (const r of c.records)
-      if (r.recordDate && r.tourDateRange && !r.achievedAt) {
+      if (r.recordDate && r.tourDateRange && !r.achievedAt && r.dateBasis !== "first-screenshot-publication") {
         const proofTime = Date.parse(r.dateBasis === "submission-date" ? r.submittedAt : r.proofUploadedAt);
         assert(
           proofTime >= Date.parse(`${r.tourDateRange.start}T06:00:00Z`) &&
@@ -424,7 +433,7 @@ test("Wild West keeps the recovered WR exchanges and leaves delayed reigns unres
   for (const time of ["0:50.01", "0:49.85"]) {
     const previous = dp.records.find(r => r.time === time);
     assert.equal(previous.proofField, "previous-best");
-    assert.equal(previous.recordDate, null, "later proof upload is not the earlier run's achievement date");
+    assertPublicationDateOrUnknown(previous);
     assert(previous.proofImageLocal);
   }
   assert.equal(dp.records.find(r => r.time === "0:49.91").durationDays, null);
@@ -447,7 +456,7 @@ test("Super Mario Kart Tour separates WR exchanges from slower submissions and m
   assert(final.proofImageLocal);
   assert(!gv.records.some(r => ["0:41.56", "0:41.43", "0:41.28"].includes(r.time)));
   assert(gv.records.find(r => r.time === "0:41.66").identityUnresolved);
-  assert.equal(gv.records.find(r => r.time === "0:40.85").recordDate, null);
+  assertPublicationDateOrUnknown(gv.records.find(r => r.time === "0:40.85"));
   const fx = gv.records.find(r => r.time === "0:40.59" && r.playerId === "superfx");
   assert.equal(fx.durationDays, 2);
   assert.equal(fx.video, "https://mktwrs.com/assets/proof/superfx-gv1r-4059-20200910.mp4");
@@ -467,7 +476,7 @@ test("Pirate Tour restores exchanges, ties and original dates without accepting 
   const ties = bc.records.filter(r => r.time === "1:00.63");
   assert.deepEqual(ties.map(r => [r.playerId, r.recordDate]), [["tomegome", "2020-08-12"], ["nu11", "2020-08-13"]]);
   const intermediate = bc.records.find(r => r.time === "1:00.44");
-  assert.equal(intermediate.recordDate, null);
+  assertPublicationDateOrUnknown(intermediate);
   assert.equal(intermediate.proofField, "previous-best");
   assert(intermediate.proofImageLocal);
   const tome = bc.records.find(r => r.time === "1:00.31");
@@ -490,7 +499,7 @@ test("Toad vs Toadette restores exchanges while excluding PBs and post-tour date
   assert(!kd.records.some(r => r.recordDate?.startsWith("2021-11") && ["1:03.48", "1:03.46", "1:03.45"].includes(r.time)));
   const rc = courses.find(c => c.id === "rmx-choco-island-1r");
   assert.deepEqual(rc.records.map(r => r.time), ["1:13.05", "1:12.50", "1:12.48", "1:12.34", "1:12.21", "1:12.19", "1:12.03"]);
-  assert.equal(rc.current.recordDate, null, "post-reset publication cannot establish race date");
+  assertPublicationDateOrUnknown(rc.current);
   assert.equal(rc.records.find(r => r.time === "1:12.19").videoCoverage, "partial");
   assert(rc.records.slice(0, 6).every(r => r.proofImageLocal));
   assert(!rc.records.some(r => ["1:12.18", "1:52.83"].includes(r.time)));
@@ -636,7 +645,7 @@ test("Ice Tour uses original Dino Dino Jungle R evidence and keeps slower videos
   assert.deepEqual(tomegome.laps, ["30.16", "29.80"]);
   assert.equal(tomegome.videoVerified, true);
   assert.equal(kaguya.video, null);
-  assert.equal(kaguya.recordDate, null);
+  assertPublicationDateOrUnknown(kaguya);
   assert.deepEqual(kaguya.laps, [null, null]);
 });
 
@@ -665,7 +674,7 @@ test("Vancouver restores the reported predecessor and original final screenshot 
   const course = courses.find(c => c.id === "snes-choco-island-2r");
   assert.deepEqual(course.records.slice(0, 2).map(r => [r.playerId, r.time]), [["nu11", "0:49.56"], ["astre", "0:49.55"]]);
   const [earlier, final] = course.records;
-  assert.equal(earlier.recordDate, null);
+  assertPublicationDateOrUnknown(earlier);
   assert.equal(earlier.durationDays, null);
   assert.equal(final.submittedAt, "2020-02-25T23:13:51.000Z");
   assert.deepEqual(final.laps, [null, null]);
@@ -675,7 +684,7 @@ test("Vancouver restores the reported predecessor and original final screenshot 
   assert.equal(slower.includeInProgression, false);
   assert(!course.records.some(r => r.time === "0:49.65"));
   const rainbow = courses.find(c => c.id === "snes-rainbow-road");
-  assert.equal(rainbow.records.find(r => r.time === "0:59.94").recordDate, null);
+  assertPublicationDateOrUnknown(rainbow.records.find(r => r.time === "0:59.94"));
 });
 
 test("Valentine's Tour restores the earlier Beach record without inventing dates for later ties", () => {
@@ -703,7 +712,7 @@ test("Hammer Bro split reports do not invent achievement dates or promote slower
   const { fastestVideo } = await import("../lib/video.mjs");
   const frappe = courses.find(c => c.id === "n64-frappe-snowland");
   assert.deepEqual(frappe.current.laps, ["40.99", "40.99"]);
-  assert.equal(frappe.current.recordDate, null);
+  assertPublicationDateOrUnknown(frappe.current);
   assert.equal(frappe.current.durationDays, null);
   for (const [id, time, splits] of [
     ["n64-frappe-snowland", "1:23.53", ["41.67", "41.86"]],

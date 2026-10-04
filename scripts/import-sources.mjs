@@ -492,7 +492,8 @@ export function importSources(courses, players) {
       let s =
         matches.find(
           (x) => x.achievedAt || x.submittedAt || x.proofUploadedAt,
-        ) || matches.find((x) => x.laps.some((l) => l !== null));
+        ) || matches.find((x) => x.laps.some((l) => l !== null))
+          || matches.find((x) => x.proofImageVerified && x.observedAt);
       // A bot may omit splits that were later verified from the same submission.
       // Require the exact source, so an equal-time rerun cannot donate its laps.
       if (s?.source?.url && s.laps?.every((lap) => lap === null)) {
@@ -543,6 +544,9 @@ export function importSources(courses, players) {
         }
         const verifiedProof = matches.find((m) => m.proofImageVerified && m.proofImage);
         if (verifiedProof) {
+          r.proofImageVerified = true;
+          r.evidencePublishedAt = verifiedProof.evidencePublishedAt || verifiedProof.observedAt || verifiedProof.submittedAt || null;
+          r.observedAt ||= r.evidencePublishedAt;
           if (r.proofImage && r.proofImage !== verifiedProof.proofImage) {
             r.additionalProofImages = [...new Set([
               ...(r.additionalProofImages || []), r.proofImage,
@@ -562,6 +566,8 @@ export function importSources(courses, players) {
         if (rejectedProof) {
           r.proofImageReference = r.proofImage;
           r.proofImage = null;
+          r.proofImageVerified = false;
+          r.evidencePublishedAt = null;
           r.proofUploadedAt = null;
           r.proofImageRejection = rejectedProof;
           r.notes.push(rejectedProof.reason);

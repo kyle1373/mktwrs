@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+function assertPublicationDateOrUnknown(record) {
+  if (record.dateBasis === "first-screenshot-publication") {
+    const first = [record.evidencePublishedAt, record.observedAt, record.submittedAt].filter(Boolean).sort()[0];
+    assert.equal(record.recordDate, first.slice(0, 10));
+    assert(record.proofImageVerified);
+    assert(record.dateUnresolved, "publication date preserves race date uncertainty");
+  } else assert.equal(record.recordDate, null);
+}
+
 import { fastestVideo } from '../lib/video.mjs';
 const courses=JSON.parse(fs.readFileSync('public/data/courses.json'));
 test('Sunset Wilds restores Nu11’s May 2022 intermediate WR with exact source date and playable reign',()=>{
@@ -154,14 +163,14 @@ test('Berlin distinguishes original WR images, delayed evidence, and slower surv
  assert.deepEqual(recovered.laps,['29.69','34.15']);assert(fs.existsSync('public'+recovered.proofImageLocal));
  assert(!kd.records.some(r=>r.playerId==='wins'&&['1:03.86','1:03.84'].includes(r.time)));
  assert(!kd.records.some(r=>r.time==='1:03.49'||r.time==='1:03.59'));
- const delayed=kd.records.find(r=>r.time==='1:03.62');assert.equal(delayed.recordDate,null);assert.equal(delayed.durationDays,null);
+ const delayed=kd.records.find(r=>r.time==='1:03.62');assertPublicationDateOrUnknown(delayed);assert.equal(delayed.durationDays,null);
  assert.equal(kd.records.find(r=>r.time==='1:03.66').durationDays,null);
  const preserved=kd.submissions.find(r=>r.video?.includes('dXCC3NPM8CQ'));assert.equal(preserved.videoVerified,true);assert.match(preserved.videoBackup.url,/O7DSlxI9PQ0/);
  const fallback=fastestVideo(kd);assert.equal(fallback.time,'1:03.36');assert.equal(fallback.isCurrent,false);
  const rrm=courses.find(c=>c.id==='3ds-rock-rock-mountain-r');
  assert.deepEqual(rrm.records.find(r=>r.time==='1:43.37').laps,['51.67','51.70']);
  assert.deepEqual(rrm.records.find(r=>r.time==='1:42.87').laps,['51.52','51.35']);
- const deleted=rrm.records.find(r=>r.playerId==='baseball-club'&&r.time==='1:43.40');assert.equal(deleted.recordDate,null);assert.equal(deleted.durationDays,null);
+ const deleted=rrm.records.find(r=>r.playerId==='baseball-club'&&r.time==='1:43.40');assertPublicationDateOrUnknown(deleted);assert.equal(deleted.durationDays,null);
  assert.equal(rrm.records.find(r=>r.time==='1:43.64').durationDays,null);
  assert.equal(rrm.current.recordDate,'2021-01-18');assert.equal(fastestVideo(rrm).isCurrent,true);assert.match(rrm.current.videoBackup.url,/15haxitqJnY/);
 });
@@ -207,7 +216,7 @@ test('Peach vs Daisy restores dated exchanges and separates later tied footage',
  assert.deepEqual(sw.records.find(r=>r.time==='1:10.67').laps,['35.39','35.28']);
  assert.deepEqual(sw.records.find(r=>r.time==='1:10.56').laps,['35.10','35.46']);
  assert.deepEqual(sw.records.find(r=>r.time==='1:10.53').laps,['35.28','35.25']);
- assert.equal(sw.records.find(r=>r.time==='1:10.87').recordDate,null);
+ assertPublicationDateOrUnknown(sw.records.find(r=>r.time==='1:10.87'));
  assert.equal(sw.records.find(r=>r.time==='1:10.90').durationDays,null);
  const tied=sw.submissions.find(r=>r.video?.includes('812244311521230898'));
  assert.deepEqual(tied.laps,[null,null]);assert.equal(tied.includeInProgression,false);
@@ -414,7 +423,7 @@ test('Paris Tour preserves record exchanges, delayed WR evidence, and player ide
  const nVideo=dp.submissions.find(r=>r.time==='1:00.45'&&r.videoVerified);assert(nVideo.dateUnresolved);assert.equal(nVideo.submittedAt,null);assert.deepEqual(nVideo.laps,['30.25','30.20']);assert.match(nVideo.videoBackup.url,/2TDtC0tSvOY/);assert(!dp.records.some(r=>r.time==='1:00.45'));
  const rrm=courses.find(c=>c.id==='3ds-rock-rock-mountain');
  assert.deepEqual(rrm.records.map(r=>r.time),['1:47.53','1:47.31','1:47.03','1:47.01','1:46.99']);
- const hidden=rrm.records.find(r=>r.time==='1:47.01');assert.equal(hidden.playerId,'phillish');assert.equal(hidden.recordDate,null);assert.equal(hidden.submittedAt,null);assert.equal(hidden.durationDays,null);assert(hidden.delayedSubmission);assert.deepEqual(hidden.laps,['53.58','53.43']);
+ const hidden=rrm.records.find(r=>r.time==='1:47.01');assert.equal(hidden.playerId,'phillish');assertPublicationDateOrUnknown(hidden);assert.equal(hidden.submittedAt,null);assert.equal(hidden.durationDays,null);assert(hidden.delayedSubmission);assert.deepEqual(hidden.laps,['53.58','53.43']);
  assert.equal(rrm.records.find(r=>r.time==='1:47.03').durationDays,null);
  assert.equal(rrm.current.recordDate,'2021-06-29');assert.deepEqual(rrm.current.laps,['53.72','53.27']);assert.match(rrm.current.videoBackup.url,/buJwlw5d8qU/);
  const phillVideo=rrm.submissions.find(r=>r.video?.includes('KvnCYsi8Ozg')&&r.videoVerified);assert.equal(phillVideo.time,'1:47.09');assert.deepEqual(phillVideo.laps,['53.69','53.40']);assert.equal(phillVideo.includeInProgression,false);assert(!rrm.records.some(r=>r.time==='1:47.06'));
@@ -481,7 +490,7 @@ test('Frost restores opening records, a deleted holder, the Kura exchange, and s
  const kura=tc.records.find(r=>r.time==='1:02.90');assert.equal(kura.playerId,'kura');assert.equal(kura.submittedAt,'2021-08-13T10:27:42.285Z');
  const wins=tc.records.find(r=>r.time==='1:02.94');assert.deepEqual(wins.laps,['31.51','31.43']);assert.match(wins.videoBackup.url,/o4qnh0blS_E/);
  const astre=tc.records.find(r=>r.time==='1:02.75');assert.equal(astre.recordDate,'2021-08-15');assert.match(astre.videoBackup.url,/l3-1c-8eZ5M/);
- const former=tc.records.find(r=>r.time==='1:02.74');assert.equal(former.recordDate,null);assert.equal(former.submittedAt,null);assert.deepEqual(former.laps,['31.44','31.30']);assert.equal(fastestVideo(tc).time,'1:02.74');assert.equal(fastestVideo(tc).isCurrent,false);
+ const former=tc.records.find(r=>r.time==='1:02.74');assertPublicationDateOrUnknown(former);assert.equal(former.submittedAt,null);assert.deepEqual(former.laps,['31.44','31.30']);assert.equal(fastestVideo(tc).time,'1:02.74');assert.equal(fastestVideo(tc).isCurrent,false);
  assert(!tc.records.some(r=>r.time==='1:02.95'&&r.playerId==='phillish'));
  for(const r of [...dk.records.slice(0,-1),...tc.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
@@ -491,11 +500,11 @@ test('Kamek restores exchanges, attributes the reposted sub-minute run, and neve
  const kamek=vl.records.filter(r=>!r.recordDate || r.recordDate<'2022-01-01');
  assert.deepEqual(kamek.map(r=>r.time),['1:03.12','1:03.02','1:02.91','1:02.79','1:02.72','1:02.67','1:02.66','1:02.64','1:02.59','1:02.54','1:02.52','1:02.44']);
  assert.deepEqual(vl.records.find(r=>r.time==='1:02.52').laps,['31.38','31.14']);
- const late=vl.records.find(r=>r.time==='1:02.44');assert.equal(late.recordDate,null);assert.deepEqual(late.laps,['31.31','31.13']);assert.equal(late.durationDays,null);
+ const late=vl.records.find(r=>r.time==='1:02.44');assertPublicationDateOrUnknown(late);assert.deepEqual(late.laps,['31.31','31.13']);assert.equal(late.durationDays,null);
  assert(!vl.records.some(r=>r.time==='1:02.58'));
  const rr=courses.find(c=>c.id==='snes-rainbow-road-r');
  assert.deepEqual(rr.records.map(r=>r.time),['1:00.16','1:00.10','1:00.09','1:00.06','0:59.99','0:59.94']);
- const repost=rr.records.find(r=>r.time==='0:59.99');assert.equal(repost.playerId,'nu11');assert.equal(repost.recordDate,null);assert.equal(repost.submittedAt,null);assert.equal(repost.observedAt,'2021-09-04T22:44:14.985Z');
+ const repost=rr.records.find(r=>r.time==='0:59.99');assert.equal(repost.playerId,'nu11');assertPublicationDateOrUnknown(repost);assert.equal(repost.submittedAt,null);assert.equal(repost.observedAt,'2021-09-04T22:44:14.985Z');
  assert.equal(rr.records.find(r=>r.time==='1:00.06').durationDays,null);
  assert(rr.submissions.some(r=>r.time==='0:59.96'&&r.dateUnresolved&&r.includeInProgression===false));
  assert(!rr.records.some(r=>r.playerId==='n'));

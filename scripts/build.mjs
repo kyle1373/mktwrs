@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { screenshotPublicationDate } from "./record-date.mjs";
 import { videoKey } from "../lib/video.mjs";
 import {
   importSources,
@@ -326,8 +327,9 @@ for (const c of courses) {
     const uploadDate = inRecordTour(r.proofUploadedAt)
       ? r.proofUploadedAt?.slice(0, 10)
       : null;
-    r.recordDate = r.dateUnresolved ? null : submissionDate || r.achievedAt || uploadDate || null;
-    r.dateBasis = r.dateUnresolved ? null : submissionDate
+    const screenshotDate = r.dateUnresolved ? screenshotPublicationDate(r) : null;
+    r.recordDate = screenshotDate || (r.dateUnresolved ? null : submissionDate || r.achievedAt || uploadDate || null);
+    r.dateBasis = screenshotDate ? "first-screenshot-publication" : r.dateUnresolved ? null : submissionDate
       ? "submission-date"
       : r.achievedAt
         ? "source-date"
@@ -354,7 +356,7 @@ for (const c of courses) {
         .filter(Boolean)
         .sort()[0] || new Date().toISOString().slice(0, 10);
     r.durationDays =
-      r.recordDate && !r.delayedSubmission && nextRecords.every((n) => n.recordDate && !n.delayedSubmission)
+      r.recordDate && !r.dateUnresolved && !r.delayedSubmission && nextRecords.every((n) => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
         ? playableDays(
             r.recordDate,
             nextRecords.map((n) => n.recordDate).sort()[0] ||
