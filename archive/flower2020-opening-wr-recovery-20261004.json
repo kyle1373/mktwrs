@@ -193,5 +193,30 @@
     ],
     "finding": "All visible result messages read. Linked videos concern ranked cups, inventory, pipe pulls or clan pool racing; no linked TT recording for restored opening runs. Nearby deleted runner says videos were sent by DM; no claim that private DM media was retrieved.",
     "limit": "Discord search coverage only; attachments elsewhere and unavailable/deleted messages may remain."
+  },
+  "additionalVisualChecks": [
+    {
+      "attachmentId": "707556142095794186",
+      "path": "archive/flower-2020-server-images/707556142095794186.png",
+      "decision": "Message asks Is this World Record but image is175combo challenge result (previous166), not a TT time; excluded."
+    },
+    {
+      "attachmentId": "707549793894793216",
+      "path": "archive/early-submission-images/707549793894793216.png",
+      "decision": "Hammer Bro Cup unlock screenshot with3daysleft and0quicktickets; confirms access gating discussion, no race time."
+    }
+  ],
+  "liveVerification": {
+    "checkedAt": "2026-10-04",
+    "url": "https://mktwrs.com/course/3ds-shy-guy-bazaar-r",
+    "observedRows": [
+      "2020-05-06 1:42.78 Unknown (Flower Tour 2020)",
+      "2020-05-06 1:42.17 Unknown (Flower Tour 2020)",
+      "2020-05-06 1:41.81 Unknown (Flower Tour 2020)",
+      "2020-05-06 1:41.75 Unknown (Flower Tour 2020)",
+      "2020-05-06 1:41.10 Kazuo"
+    ],
+    "durationLimit": "First two records correctly show unknown duration because exact intermediate race timestamps are unresolved.",
+    "result": "Corrected opening WR sequence visibly present on live public course page."
   }
 }
