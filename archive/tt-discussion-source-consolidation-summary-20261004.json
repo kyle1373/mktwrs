@@ -1,18 +1,18 @@
 {
   "checkedAt": "2026-10-04",
   "channelId": "636461740162416640",
-  "uniqueSavedMessageIds": 52006,
+  "uniqueSavedMessageIds": 52005,
   "sourceFilesCount": 3000,
   "byMessageCreationYear": {
-    "2019": 119,
+    "2019": 118,
     "2020": 46047,
     "2021": 5825,
     "2022": 2,
     "2026": 13
   },
   "messageIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
-  "uncompressedSha256": "72d17eabe2f1292fe7c6a9fff769bf709fa5ca8164579e8302275750583a6f69",
-  "compressedBytes": 2623054,
+  "uncompressedSha256": "8f823d3a523dd2fa9155f228d915faa69f3b1ceb02b1d4aed27dcb3268fd3147",
+  "compressedBytes": 2623084,
   "discordReportedMessages": 94460,
   "captureComplete": false,
   "limits": [
@@ -20,5 +20,11 @@
     "Discordsnowflakecreationtimestampsarenotruncompletiondates.",
     "Oldcapturesmayomitattachmentsornearbycontext.",
     "Mostidentifiedcapturesare2020;2022-2026discussionrequiresbroadercapturevalidation."
+  ],
+  "excludedSyntheticRows": [
+    {
+      "id": "636461740162416640",
+      "reason": "ChannelwelcomeplaceholderusesthechannelID,notanactualDiscordmessage."
+    }
   ]
 }
