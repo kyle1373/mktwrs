@@ -4,12 +4,12 @@
   "historyComplete": false,
   "submissions": {
     "discordReportedMessages": 11155,
-    "savedUniqueMessages": 11073,
+    "savedUniqueMessages": 11077,
     "savedRange": [
       "2021-08-13T16:58:46.420Z",
-      "2026-09-30T04:41:58.722Z"
+      "2026-10-04T16:23:24.333Z"
     ],
-    "countDifference": 82,
+    "countDifference": 78,
     "differenceMeaning": "Countdifference not yet reconciled to specificmissingIDs;search visibility/deletions/edits can affect count.",
     "newMessagesOnLatestPage": [
       {
@@ -114,7 +114,7 @@
     "searchPageCap": 400,
     "requiredCaptureMethod": "Nonoverlapping datedpartitions below10000messages;stablemessageIDs and perpartitioncountvalidation.",
     "countFilterVerified": true,
-    "consolidatedSavedUniqueMessages": 78200,
+    "consolidatedSavedUniqueMessages": 78855,
     "consolidatedIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
     "consolidationScope": "Saved JSON consolidation with explicit channel IDs plus named TT discussion message census exports. Numeric and search-result IDs normalized; source filenames retained. Exhaustive coverage still requires Discord partition validation.",
     "byMessageCreationYear": {
@@ -124,11 +124,14 @@
       "2022": 2798,
       "2023": 3342,
       "2024": 1265,
-      "2026": 13
+      "2025": 348,
+      "2026": 320
     },
     "consolidationSummary": "archive/tt-discussion-source-consolidation-summary-20261004.json",
     "year2022QueryIdValidation": "archive/tt-discussion-2022-id-coverage-validation-20261004.json",
-    "year2023QueryIdValidation": "archive/tt-discussion-2023-id-coverage-validation-20261004.json"
+    "year2023QueryIdValidation": "archive/tt-discussion-2023-id-coverage-validation-20261004.json",
+    "year2025QueryIdValidation": "archive/tt-discussion-2025-id-coverage-validation-20261004.json",
+    "year2026QueryIdValidation": "archive/tt-discussion-2026-id-coverage-validation-20261004.json"
   },
   "review": {
     "orderedEarlyReconciliationCurrentTour": "WinterTour2019",
@@ -136,9 +139,9 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Reconcile remaining 78-message submission count discrepancy using matching timezone boundaries and stable IDs.",
-    "BuilduniqueTTdiscussionindexfromsavedcaptures;validateeachdatedpartitionagainstDiscord.",
-    "Processimageandvideoproofreviewbacklog2023-2026whilefillingoldergaps."
+    "Reconcile 2024 and 2026 query count differences, preserving original captures.",
+    "Validate 2019\u20132021 discussion partitions and remaining submission years by stable message IDs.",
+    "Review captured screenshots and videos against each tour WR sequence; message indexing does not certify published history."
   ],
   "estimate": "Substantialworkremaining;noverifiedcompletionpercentageorreliableETA."
 }
