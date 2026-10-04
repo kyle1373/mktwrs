@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-04",
+  "correction": "KIRA1:13.00reported\u21921:13.94imageverified",
+  "targetedTests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "fullSuite": {
+    "passed": 91,
+    "failed": 17
+  },
+  "baselineComparison": {
+    "baselineFailedIncludingNewCorrectionTest": 18,
+    "correctedFailed": 17,
+    "introducedFailures": [],
+    "existingFailures": [
+      "Cat Tour combines text-only WRs with original posts and preserves unresolved previous bests",
+      "Frost restores opening records, a deleted holder, the Kura exchange, and separately attributed recordings",
+      "Los Angeles Tour restores the video-dated WR between Nu11 and DIT and distinguishes adjacent footage",
+      "Mario Tour restores short WR exchanges and validates shorthand against original totals",
+      "Mario vs. Luigi restores both exchanges, preserves three sections, and excludes disputed runs",
+      "New Year 2021 restores Access and Wins exchanges with original dates and excludes later PBs",
+      "Peach vs Daisy restores dated exchanges and separates later tied footage",
+      "Rosalina restores intermediate WRs, corrects repost dates, and keeps uncertain runs out of progression",
+      "Snow Tour restores consecutive breaks, adjacent replies, and separate surviving videos",
+      "Sydney April restores dated records and separates video runs from adjacent screenshots",
+      "Trick Tour restores dated exchanges and separates recorded PBs from faster WRs",
+      "Wedding Tour restores exchanges, adjacent lap shorthand, and the Twitter-only tie",
+      "Winter 2019 uses original post dates and keeps unconfirmed runs out of WR history",
+      "Yoshi Kalimari predecessors do not receive dates from later reposts",
+      "Yoshi Tour restores dated exchanges and separates each player\u2019s proof",
+      "every course record and submission has valid references and integer time units",
+      "opening Vanilla Lake exchange preserves original splits and separates reports from achievements"
+    ]
+  },
+  "limits": "Full suite is not green. Existing historical expectation failures require separate evidence review; they were also present with the pre-change importer. New correction regression passed only with corrected importer.",
+  "historyComplete": false
+}

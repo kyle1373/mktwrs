@@ -321,6 +321,21 @@ export function importSources(courses, players) {
     }
   const submissionCorrections = fs.existsSync("archive/submission-corrections.json")
     ? JSON.parse(fs.readFileSync("archive/submission-corrections.json", "utf8")) : {};
+  // Sheet-only rows can repeat the same transcription error as a bot entry.
+  // Apply only explicitly reviewed row identities, retaining the reported value.
+  for (const c of courses) for (const r of c.submissions) {
+    const correction = submissionCorrections[r.id];
+    if (!correction || correction.courseId !== c.id || correction.originalTime !== r.time) continue;
+    const correctedCs = centiseconds(correction.time);
+    if (!correctedCs) throw Error("Invalid corrected sheet time: " + r.id);
+    r.originalReportedTime = r.time;
+    r.originalReportedLaps = r.laps;
+    r.time = formatTime(correctedCs);
+    r.timeCs = correctedCs;
+    r.laps = correction.laps;
+    r.notes.push(correction.reason);
+    r.additionalSources = [...(r.additionalSources || []), ...correction.sources];
+  }
   let botCount = 0;
   for (const m of messages.values()) {
     const body = m.embeds?.map((e) => e.text).join("\n") || "";
