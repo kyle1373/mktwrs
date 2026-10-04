@@ -2,8 +2,8 @@
   "checkedAt": "2026-10-04",
   "historyComplete": false,
   "userRequestedMethod": "Review each tour in chronological order; identify incomplete courses and resolve evidence before claiming completion.",
-  "currentTourId": "tour-4",
-  "currentTour": "Paris Tour (2019)",
+  "currentTourId": "tour-5",
+  "currentTour": "Winter Tour (2019)",
   "orderRule": "Stay with the current tour while meaningful source work remains. Record unavailable originals and specific unresolved questions; review of a later tour never certifies earlier tours.",
   "completionRequirements": [
     "TTcourseavailabilityandtourexactUTCboundariesverified.",
@@ -82,7 +82,7 @@
       "tour": "Paris Tour (2019)",
       "startDate": "2019-11-06",
       "endDate": "2019-11-20",
-      "reviewStatus": "in-progress",
+      "reviewStatus": "source-pass-reviewed-unresolved-evidence",
       "historyComplete": false,
       "courses": [
         {
@@ -168,14 +168,19 @@
         "imageMessageCensus": 239,
         "uniqueYouTubeLeads": 33,
         "remainingPreviousBestDateGaps": 14
-      }
+      },
+      "remainingBeforeCompletion": [
+        "Fourteen previous-best publication or achievement dates remain unresolved.",
+        "Opening global WR precedence for Shy Guy Bazaar and Luigi\u2019s Mansion remains unresolved.",
+        "Broadcast frame indexes do not prove continuous footage/audio review."
+      ]
     },
     {
       "tourId": "tour-5",
       "tour": "Winter Tour (2019)",
       "startDate": "2019-11-20",
       "endDate": "2019-12-04",
-      "reviewStatus": "pending-ordered-review",
+      "reviewStatus": "in-progress",
       "historyComplete": false,
       "courses": [
         {
@@ -210,7 +215,13 @@
           ],
           "priorAuditIsCurrentCertificate": false
         }
-      ]
+      ],
+      "currentEvidenceReports": [
+        "archive/winter2019-direct-publication-date-reconciliation-20261004.json",
+        "archive/winter2019-discussion-text-census-20261003.json",
+        "archive/winter2019-current-evidence-consolidation-20261003.json"
+      ],
+      "lastVerifiedWork": "Thirty preserved direct-result screenshots visually reviewed. Exact archive days populated from preserved source publication timestamps; no previous-best date fabrication and no automatic WR promotion. Global opening progression and other sources remain under review."
     },
     {
       "tourId": "tour-6",
