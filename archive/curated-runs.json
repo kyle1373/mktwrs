@@ -53983,8 +53983,8 @@
       "37.13"
     ],
     "mushrooms": null,
-    "status": "documented-submission",
-    "includeInProgression": false,
+    "status": "community-wr",
+    "includeInProgression": true,
     "submittedAt": "2022-07-11T02:40:14.733Z",
     "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/995882180565811230/IMG_4515.png?ex=6abdc80e&is=6abc768e&hm=ae1cbd2f52257651cb0f4647cb82c22783b6e04e946a6e66fde1a9f13b7af0d3&",
     "proofImageVerified": true,
@@ -53995,7 +53995,20 @@
       "messageId": "995882181782151249"
     },
     "notes": [
-      "Original finish result visually checked; course confirmed by scenery/targets and own submission command. Exact splits copied from original player message, not bot timestamp."
+      "Original finish result visually checked; course confirmed by scenery/targets and own submission command. Exact splits copied from original player message, not bot timestamp.",
+      "Intermediate community WR reconstructed from original 1:14.17 screenshot (previous best 1:14.22), player command 37.04/37.13, accepted matching bot entry, and final leaderboard placing N between earlier 1:14.22 and later \u30bc\u30c9 1:14.04. No earlier faster Coconut Mall run was found in the preserved tour submissions/discussion. Screenshot first publication is archive date; exact achievement instant remains unknown."
+    ],
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/995882196432846848",
+        "channel": "tt-submission",
+        "messageId": "995882196432846848"
+      },
+      {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/996597875255541846",
+        "channel": "tt-discussion",
+        "messageId": "996597875255541846"
+      }
     ]
   },
   {
@@ -122183,5 +122196,37 @@
       "Course linked through consecutive same-player result screenshots whose previous-PB fields exactly match preceding totals; chain anchored to adjacent dated bot course labels. Anchor IDs: 1232924760061513768.",
       "Supporting personal best, not a global WR: earlier 1:14.41 is faster. No lap splits visible. Message publication date used; screenshot filename date is not an achievement date."
     ]
+  },
+  {
+    "messageId": "996666610255417414-dit-coconut-original-video-publication",
+    "courseId": "wii-coconut-mall",
+    "player": "DIT",
+    "time": "1:13.93",
+    "laps": [
+      "36.92",
+      "37.01"
+    ],
+    "mushrooms": null,
+    "status": "documented-support",
+    "includeInProgression": false,
+    "submittedAt": "2022-07-13T06:37:17.055Z",
+    "delayedSubmission": true,
+    "video": "https://youtu.be/J2IKB4kx5aU",
+    "videoAvailability": "unavailable",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/996666610255417414",
+      "channel": "tt-submission",
+      "messageId": "996666610255417414"
+    },
+    "notes": [
+      "Contemporary preserved YouTube embed names DIT and \u30b3\u30b3\u30e2TA 1:13.93. Earliest preserved video share predates July24 WR-history announcement. Video remains unavailable and was not visually verified; retain original link and publication timestamp as source evidence.",
+      "Publication is after July13 06:00 UTC tour reset. Do not substitute this timestamp for the achievement date or compute precise reign duration from it. Splits are from matching WR-history announcement, not the unavailable video."
+    ],
+    "lapSource": {
+      "url": "https://discord.com/channels/629221606064914442/896050730216095765/1000615548633227364",
+      "channel": "wr-history",
+      "messageId": "1000615548633227364"
+    },
+    "dateUnresolved": true
   }
 ]
