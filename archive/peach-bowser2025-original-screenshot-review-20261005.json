@@ -9,7 +9,7 @@
   "previousToursComplete": false,
   "savedSubmissionMessages": 23,
   "originalImagesReviewed": 19,
-  "newWrOrTieEntries": 3,
+  "newWrOrTieEntries": 4,
   "existingWrEnrichments": 2,
   "savedDiscussionMessagesRead": 24,
   "decisions": [
@@ -154,8 +154,9 @@
       "courseId": "3ds-bowser-s-castle-r",
       "player": "kuRi",
       "publishedAt": "2025-12-05T13:59:04.168Z",
-      "classification": "support",
-      "sha256": "15766bb79dd79eb1b2d996b9c8d8f9b464f1e56efc60db75d8861f035850e38b"
+      "classification": "wr-or-tie",
+      "sha256": "15766bb79dd79eb1b2d996b9c8d8f9b464f1e56efc60db75d8861f035850e38b",
+      "chronology": "Distinct kuRi run ties standing Shine1:38.27 from December8,2024; not a slower support run."
     },
     {
       "attachmentId": "1446818477460688987",
@@ -227,9 +228,9 @@
   "remaining": [
     "RoyalRaceway previousbest1:33.60 original still unresolved.",
     "PeachGardens final1:26.55 original screenshot requires recovery.",
-    "Verify BowserCastleR and ZwordPeachGardens videos; classify discussionclips including TAS colloquial captions through actual footage.",
     "Two Animal2025course-unresolved images likely PeachGardens; recover original course proof before publishing.",
-    "Earlierhistories incomplete; backups pending."
+    "Earlierhistories incomplete; backups pending.",
+    "Discussion lap-only clips require exact boundary review and all preserved media still requires backup upload."
   ],
   "discussionVideosPreserved": [
     {
@@ -257,5 +258,25 @@
       "backupUploadStatus": "pending"
     }
   ],
-  "videoMismatchResolution": "PeachGardens final1:26.55 announcement references1:26.56 video. Actualvideo verifies1:26.56, attachedonlytointermediateWR. Final1:26.55 original date unresolved."
+  "videoMismatchResolution": "PeachGardens final1:26.55 announcement references1:26.56 video. Actualvideo verifies1:26.56, attachedonlytointermediateWR. Final1:26.55 original date unresolved.",
+  "additionalVideoVerification": [
+    {
+      "video": "https://www.youtube.com/watch?v=V1RDA_Ggfns",
+      "player": "Zword",
+      "courseId": "ds-peach-gardens",
+      "time": "1:27.16",
+      "uploadDate": "2025-12-07",
+      "finishVerifiedAt": "1:57/1:59",
+      "backupUploadStatus": "pending"
+    },
+    {
+      "video": "https://www.youtube.com/watch?v=oOMVnblRNEA",
+      "player": "kuRi",
+      "courseId": "3ds-bowser-s-castle-r",
+      "time": "1:38.20",
+      "uploadDate": "2025-12-24",
+      "finishVerifiedAt": "1:51",
+      "backupUploadStatus": "pending"
+    }
+  ]
 }
