@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "July2020 census pages1–102; targeted text/context checks only.",
+  "captureScope": "July 2020 census pages 1\u2013137; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -136,7 +136,7 @@
       "videoCandidate": "https://youtu.be/_DBXhF1Qiqg",
       "messageId": "737686319924248688",
       "postedAt": "2020-07-28T15:02:04.219Z",
-      "visibleTitle": "【VL1R】Lap1:17.42（SMT use）",
+      "visibleTitle": "\u3010VL1R\u3011Lap1:17.42\uff08SMT use\uff09",
       "nearbyProspectiveWRMessageId": "737684491929256116",
       "result": "Explicit lap1 clip, with nearby if-fast-lap2 future-WR statement. Preserve partial footage; do not infer completed overall WR from lap or prospective claim."
     },
@@ -217,6 +217,54 @@
         }
       ],
       "result": "Single message explicitly labels two courses and separate lap pairs; both match existing WR entries. Subsequent updatedWR confirmation retained. DDJ1:33.91 video postedlater is slower than documented1:33.66."
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "player": "Kazuo",
+      "messageId": "734139075057156146",
+      "postedAt": "2020-07-18T20:06:35.138Z",
+      "completedRunLaps": [
+        "47.18",
+        "46.52"
+      ],
+      "calculatedTime": "1:33.70",
+      "earlierFasterRun": {
+        "player": "Nu11",
+        "messageId": "733747927121657876",
+        "postedAt": "2020-07-17T18:12:18.203Z",
+        "time": "1:33.68",
+        "curatedMessageId": "733747927121657876-gcn-dino-dino-jungle-verified"
+      },
+      "result": "Slower than an already published rival record. Do not promote the completed 1:33.70 submission to WR; preserve as supporting evidence."
+    },
+    {
+      "courseId": "snes-vanilla-lake-1r",
+      "player": "Phillish",
+      "videoCandidate": "https://youtu.be/aPaK2AVxQSQ",
+      "earliestPostMessageId": "734152356148805834",
+      "postedAt": "2020-07-18T20:59:21.597Z",
+      "originalEmbedTime": "43.84",
+      "correctedLaterEmbedTime": "34.84",
+      "laterPostMessageId": "734424414728224810",
+      "laterPostedAt": "2020-07-19T15:00:25.417Z",
+      "correctionMessageId": "734151984625746011",
+      "correctionText": "i switched them by mistake",
+      "result": "Uploader correction explains reversed digits in early embed. Keep original publication date and corrected run candidate; footage and WR status remain pending."
+    },
+    {
+      "courseId": "snes-vanilla-lake-1r",
+      "player": "Nu11",
+      "messageId": "734446762743562320",
+      "postedAt": "2020-07-19T16:29:13.599Z",
+      "completedRunLaps": [
+        "17.31",
+        "17.17"
+      ],
+      "calculatedTime": "0:34.48",
+      "nearbyConfirmationMessageId": "734448027439464509",
+      "nearbyConfirmationText": "Both WR now",
+      "result": "Captured splits and source timestamp match the existing visually verified curated 0:34.48 record; nearby Both WR now confirmation supports its chronology. No duplicate record inserted.",
+      "curatedMessageId": "734446762743562320-snes-vanilla-lake-1r-verified"
     }
   ]
 }
