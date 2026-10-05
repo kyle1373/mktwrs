@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "June2020 census pages1–17; targeted text and existing-record comparison only.",
+  "captureScope": "June2020 census pages1–43; targeted text and existing-record comparison only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -21,6 +21,89 @@
       "postedAt": "2020-06-25T11:41:54.630Z",
       "title": "Je réalise le pire temps sur Souk Maskass !",
       "result": "Title describes worst time on Shy Guy Bazaar. Retain candidate context but do not infer WR from a video link; footage review pending."
+    },
+    {
+      "courseId": "n64-frappe-snowland-r",
+      "player": "Tomegome",
+      "time": "1:21.44",
+      "laps": [
+        "40.64",
+        "40.80"
+      ],
+      "reportMessageId": "723918646887579668",
+      "postedAt": "2020-06-20T15:14:15.176Z",
+      "screenshotTweet": "https://x.com/tomegome_g/status/1274355762861502464",
+      "videoTweet": "https://x.com/tomegome_g/status/1274356791841718273",
+      "videoRepostMessageId": "723919728430547035",
+      "existingRecordId": "723918646887579668-verified",
+      "result": "Captured screenshot tweet, explicit lap pair, and separate follow-up video repost match existing curated record with documented full-run visual verification. No duplicate WR added."
+    },
+    {
+      "courseId": "n64-frappe-snowland-r",
+      "player": "Kazuo",
+      "time": "1:21.35",
+      "laps": [
+        "40.70",
+        "40.65"
+      ],
+      "reportMessageId": "724697776272834560",
+      "postedAt": "2020-06-22T18:50:14.097Z",
+      "screenshotTweet": "https://x.com/kazuomkt/status/1275135818697519106",
+      "existingRecordId": "724697776272834560-verified",
+      "result": "Captured tweet embed repeats exact splits summing to total and matches existing improvement entry. Screenshot candidate does not establish a video."
+    },
+    {
+      "courseId": "rmx-mario-circuit-1",
+      "player": "Nu11",
+      "time": "1:30.58",
+      "laps": [
+        "45.32",
+        "45.26"
+      ],
+      "firstSelfReportMessageId": "723508389073911860",
+      "firstSelfReportPostedAt": "2020-06-19T12:04:02.091Z",
+      "laterScreenshotMessageId": "723571986483118110",
+      "laterScreenshotPostedAt": "2020-06-19T16:16:44.895Z",
+      "existingRecordId": "723571986483118110-verified",
+      "result": "Census captures earlier direct response giving exact laps and later same-player screenshot caption. Existing curated submittedAt correctly uses first explicit report and observedAt retains screenshot timestamp. No date overwrite from later screenshot."
+    },
+    {
+      "courseId": "n64-frappe-snowland-r",
+      "player": "Phillish",
+      "time": "1:21.92",
+      "laps": [
+        "41.01",
+        "40.91"
+      ],
+      "messageId": "723529846034268170",
+      "postedAt": "2020-06-19T13:29:17.829Z",
+      "existingRecordId": "723529846034268170-verified",
+      "result": "Explicit Tied Bkt caption and lap sum corroborate existing WR tie. Different splits from Troy same-total run remain separate."
+    },
+    {
+      "player": "heriawsity",
+      "videoCandidate": "https://x.com/heriawsity/status/1273937527158657024",
+      "messageId": "723497105804624013",
+      "postedAt": "2020-06-19T11:19:11.950Z",
+      "visibleEmbedCaption": "Tutorial only",
+      "result": "Explicit tutorial-only caption; exclude as full-run WR proof unless footage establishes a separately completed matching run. Retain as strategy/context candidate."
+    },
+    {
+      "courseId": "rmx-mario-circuit-1",
+      "player": "Nu11",
+      "completedTime": "1:30.66",
+      "completedRunLaps": [
+        "45.34",
+        "45.32"
+      ],
+      "completedRunReportMessageId": "723372353542684742",
+      "completedRunReportPostedAt": "2020-06-19T03:03:28.693Z",
+      "separateBestLapsMessageId": "723372506911604806",
+      "separateBestLaps": [
+        "45.26",
+        "45.20"
+      ],
+      "result": "Author distinguishes completed run splits from individual best laps. Do not manufacture1:30.46 from separate lap bests. Existing-run matching and proof image review remain separate."
     }
   ]
 }
