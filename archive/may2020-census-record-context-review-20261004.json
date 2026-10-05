@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "May 2020 full-message census pages 1\u201320; broader capture in progress.",
+  "captureScope": "May 2020 full-message census pages 1\u201340; broader capture in progress.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -34,6 +34,41 @@
         "20.77"
       ],
       "result": "Nearby player message explicitly says Tied again 42.07. Later splits belong to separate self-tie, not original WR; original curated splits retained."
+    },
+    {
+      "recordId": "713799016575402014-verified",
+      "courseId": "snes-mario-circuit-1r",
+      "player": "Kazuo",
+      "time": "0:42.08",
+      "originalLaps": [
+        "21.30",
+        "20.78"
+      ],
+      "originalLapMessageId": "713799079616053306",
+      "originalPostedAt": "2020-05-23T17:02:27.296Z",
+      "laterSelfTieMessageId": "714485237853323315",
+      "laterSelfTiePostedAt": "2020-05-25T14:29:15.198Z",
+      "laterLapMessageId": "714485262918615051",
+      "laterLaps": [
+        "21.29",
+        "20.79"
+      ],
+      "result": "Original screenshot and adjacent lap report match curated WR. Later player explicitly says Tied again 42.08; distinct lap pair retained as context, not substituted for original splits."
+    },
+    {
+      "recordId": "713790837078884444-verified",
+      "courseId": "snes-mario-circuit-1r",
+      "player": "Kazuo",
+      "time": "0:42.13",
+      "originalLaps": [
+        "21.40",
+        "20.73"
+      ],
+      "originalLapMessageId": "713790907559837767",
+      "partialVideoMessageId": "713800388091969566",
+      "partialVideo": "https://twitter.com/kazuomkt/status/1264241584549302275",
+      "runAttributionMessageId": "713800416051200030",
+      "result": "Nearby player explicitly identifies clip as lap 2 of 42.13. Matches curated partial-video source; no full-run video claim."
     }
   ]
 }
