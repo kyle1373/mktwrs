@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "May 2020 census pages 1\u2013177; broader capture in progress.",
+  "captureScope": "May 2020 census pages 1\u2013191; broader capture in progress.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -197,7 +197,7 @@
         "postedAt": "2020-05-13T22:34:13.212Z",
         "originalTweet": "https://twitter.com/tomegome_g/status/1260699212448063489"
       },
-      "result": "Kura sub1:40 is slower than preceding contemporary Tomegome report. No automatic WR promotion; screenshot/footage review and original tweet chronology remain pending."
+      "result": "Kura1:39.90 is slower than verified May8\u20139 records and preceding Tomegome1:39.28 report. Exclude from WR progression; retain lap report as PB context."
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
@@ -222,7 +222,35 @@
         "709347593234153495",
         "709386385756520549"
       ],
-      "result": "Explicit completed time49.76+49.77=99.53 retained as candidate context. Nearby 1:39.3x statements use could/can and are prospective, not achieved records. Original proof and rival chronology must be checked before promotion."
+      "result": "Explicit completed report49.76+49.77=99.53 is slower than verified Kaguya1:39.10 on May8 and Kazuo1:39.08 on May9. Exclude from WR progression. Nearby 1:39.3x could/can statements remain prospective."
+    },
+    {
+      "courseId": "3ds-shy-guy-bazaar-r",
+      "sequenceChecks": [
+        {
+          "recordId": "708706642484789308-verified",
+          "player": "Kazuo",
+          "time": "1:39.10",
+          "laps": [
+            "49.72",
+            "49.38"
+          ],
+          "lapMessageId": "708706651552874506",
+          "postedAt": "2020-05-09T15:47:12.863Z"
+        },
+        {
+          "recordId": "708809387233509406-verified",
+          "player": "Kazuo",
+          "time": "1:39.08",
+          "laps": [
+            "49.50",
+            "49.58"
+          ],
+          "lapMessageId": "708809385463382139",
+          "postedAt": "2020-05-09T22:35:26.536Z"
+        }
+      ],
+      "result": "Census matches curated tie and improvement. Earlier verified Kaguya1:39.10 establishes baseline; later1:39.28,1:39.53,1:39.90 reports are not new WRs."
     }
   ]
 }
