@@ -34,3 +34,13 @@ test("runner withdrawals override stale bot acceptance without inventing correct
     assert(!course.records.some(r => r.id === id));
   }
 });
+
+test("verified earlier original video dates a WR without moving its later submission", () => {
+  const course = JSON.parse(fs.readFileSync("public/data/courses/n64-luigi-raceway.json", "utf8"));
+  const row = course.records.find(r => r.id === "1493428638119362741");
+  assert.equal(row.recordDate, "2026-03-14");
+  assert.equal(row.submittedAt, "2026-03-17T14:29:58.700Z");
+  assert.equal(row.durationDays, 4);
+  assert.equal(row.videoVerified, true);
+  assert.deepEqual(row.laps, ["34.99", "37.04"]);
+});

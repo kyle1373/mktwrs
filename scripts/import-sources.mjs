@@ -583,6 +583,7 @@ export function importSources(courses, players) {
         }
         r.achievedAt = s.achievedAt;
         r.datePrecision = s.datePrecision;
+        if (s.dateOverride) r.dateOverride = s.dateOverride;
         r.submittedAt = s.submittedAt;
         if (s.delayedSubmission) r.delayedSubmission = true;
         if (matches.some((m) => m.dateUnresolved &&

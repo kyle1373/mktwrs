@@ -328,8 +328,8 @@ for (const c of courses) {
       ? r.proofUploadedAt?.slice(0, 10)
       : null;
     const screenshotDate = r.dateUnresolved ? screenshotPublicationDate(r) : null;
-    r.recordDate = screenshotDate || (r.dateUnresolved ? null : submissionDate || r.achievedAt || uploadDate || null);
-    r.dateBasis = screenshotDate ? "first-screenshot-publication" : r.dateUnresolved ? null : submissionDate
+    r.recordDate = r.dateOverride?.date || screenshotDate || (r.dateUnresolved ? null : submissionDate || r.achievedAt || uploadDate || null);
+    r.dateBasis = r.dateOverride?.date ? "documented-date-override" : screenshotDate ? "first-screenshot-publication" : r.dateUnresolved ? null : submissionDate
       ? "submission-date"
       : r.achievedAt
         ? "source-date"
