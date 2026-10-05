@@ -114,24 +114,27 @@
     "searchPageCap": 400,
     "requiredCaptureMethod": "Nonoverlapping datedpartitions below10000messages;stablemessageIDs and perpartitioncountvalidation.",
     "countFilterVerified": true,
-    "consolidatedSavedUniqueMessages": 78855,
+    "consolidatedSavedUniqueMessages": 78912,
     "consolidatedIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
     "consolidationScope": "Saved JSON consolidation with explicit channel IDs plus named TT discussion message census exports. Numeric and search-result IDs normalized; source filenames retained. Exhaustive coverage still requires Discord partition validation.",
     "byMessageCreationYear": {
-      "2019": 900,
+      "2019": 956,
       "2020": 61721,
       "2021": 8161,
       "2022": 2798,
       "2023": 3342,
       "2024": 1265,
       "2025": 348,
-      "2026": 320
+      "2026": 321
     },
     "consolidationSummary": "archive/tt-discussion-source-consolidation-summary-20261004.json",
     "year2022QueryIdValidation": "archive/tt-discussion-2022-id-coverage-validation-20261004.json",
     "year2023QueryIdValidation": "archive/tt-discussion-2023-id-coverage-validation-20261004.json",
     "year2025QueryIdValidation": "archive/tt-discussion-2025-id-coverage-validation-20261004.json",
-    "year2026QueryIdValidation": "archive/tt-discussion-2026-id-coverage-validation-20261004.json"
+    "year2026QueryIdValidation": "archive/tt-discussion-2026-id-coverage-validation-20261004.json",
+    "year2019QueryIdValidation": "archive/tt-discussion-2019-id-coverage-validation-20261004.json",
+    "year2021ReportedQueryMessages": 23424,
+    "year2021CountCheck": "archive/tt-discussion-2021-count-check-20261004.json"
   },
   "review": {
     "orderedEarlyReconciliationCurrentTour": "WinterTour2019",
@@ -139,8 +142,8 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Reconcile 2024 and 2026 query count differences, preserving original captures.",
-    "Validate 2019\u20132021 discussion partitions and remaining submission years by stable message IDs.",
+    "Capture 2021 discussion in monthly partitions: query reports 23,424 messages versus 8,161 saved creation-year IDs; exact missing-ID reconciliation pending.",
+    "Reconcile 2024 query discrepancy and validate 2020 discussion plus remaining submission years.",
     "Review captured screenshots and videos against each tour WR sequence; message indexing does not certify published history."
   ],
   "estimate": "Substantialworkremaining;noverifiedcompletionpercentageorreliableETA."
