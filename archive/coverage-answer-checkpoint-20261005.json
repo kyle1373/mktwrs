@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-05",
+  "historyComplete": false,
+  "priority": "Index and reconcile tt-submission and tt-discussion before broad searches in other channels; targeted other-channel searches remain useful for specific gaps.",
+  "capturedMessages": {
+    "ttSubmission": 11134,
+    "ttDiscussion": 94468,
+    "total": 105602
+  },
+  "savedRanges": {
+    "ttSubmission": [
+      "2021-08-13T16:58:46.420Z",
+      "2026-10-04T16:23:24.333Z"
+    ],
+    "ttDiscussion": [
+      "2019-10-23T07:11:57.296Z",
+      "2026-10-04T17:14:34.561Z"
+    ]
+  },
+  "proofQueue": {
+    "totalCases": 912,
+    "resolvedCases": 27,
+    "openCases": 885
+  },
+  "originalCaptureGaps": {
+    "referencedMissingIds": 54,
+    "withRelatedGeneratedData": 10,
+    "withoutRelatedGeneratedData": 44,
+    "auditFile": "archive/tt-submission-referenced-original-capture-gaps-20261005.json"
+  },
+  "limitations": [
+    "Latest captured date is not a completion cutoff.",
+    "Open queue cases are investigation leads, not a count of missing WRs.",
+    "Message capture counts do not certify every message or attachment was captured or reviewed.",
+    "No tour-by-tour completeness certification and no defensible ETA yet."
+  ],
+  "nextActions": [
+    "Reconcile original submission references against saved captures and generated run sources.",
+    "Review unresolved proof and surrounding discussion in date order within each tour.",
+    "Retain source IDs and explicit decisions so already-reviewed evidence is not silently repeated."
+  ]
+}
