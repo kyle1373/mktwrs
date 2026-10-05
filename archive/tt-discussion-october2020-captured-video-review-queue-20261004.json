@@ -262,7 +262,27 @@
         "https://www.youtube.com/watch?v=2iIrWCRdnUA",
         "https://www.youtube.com/watch?v=zyMlDQ5xeM0"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "indexed-to-existing-verified-video;surrounding-context-review-not-certified",
+      "matchedVerifiedRuns": [
+        {
+          "videoId": "zyMlDQ5xeM0",
+          "curatedId": "637479815665942539-3ds-toad-circuit",
+          "courseId": "3ds-toad-circuit",
+          "player": "YersonCz",
+          "time": "1:04.85",
+          "canonicalWrStatus": "community-wr"
+        },
+        {
+          "videoId": "2iIrWCRdnUA",
+          "curatedId": "sam-original-channel-2019-2iIrWCRdnUA",
+          "courseId": "3ds-toad-circuit",
+          "player": "Sam F",
+          "time": "1:05.10",
+          "canonicalWrStatus": "documented-submission"
+        }
+      ],
+      "reviewAudit": "archive/discussion-known-verified-video-index-reconciliation-20261005.json",
+      "matchBasis": "Exact YouTube video ID; prior canonical visual verification reused. No new footage verification or WR/date inference."
     }
   ]
 }

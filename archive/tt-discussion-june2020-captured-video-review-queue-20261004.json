@@ -361,7 +361,19 @@
         "https://youtu.be/XCStoAjCL6s",
         "https://www.youtube.com/watch?v=XCStoAjCL6s"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "indexed-to-existing-verified-video;surrounding-context-review-not-certified",
+      "matchedVerifiedRuns": [
+        {
+          "videoId": "XCStoAjCL6s",
+          "curatedId": "718394649089278033-video-reviewed",
+          "courseId": "snes-donut-plains-1",
+          "player": "Phillish",
+          "time": "0:51.66",
+          "canonicalWrStatus": "documented-submission"
+        }
+      ],
+      "reviewAudit": "archive/discussion-known-verified-video-index-reconciliation-20261005.json",
+      "matchBasis": "Exact YouTube video ID; prior canonical visual verification reused. No new footage verification or WR/date inference."
     },
     {
       "messageId": "718359228598976544",
