@@ -114,14 +114,14 @@
     "searchPageCap": 400,
     "requiredCaptureMethod": "Nonoverlapping datedpartitions below10000messages;stablemessageIDs and perpartitioncountvalidation.",
     "countFilterVerified": true,
-    "consolidatedSavedUniqueMessages": 94150,
+    "consolidatedSavedUniqueMessages": 94192,
     "consolidatedIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
     "consolidationScope": "Saved JSON consolidation with explicit channel IDs plus named TT discussion message census exports. Numeric and search-result IDs normalized; source filenames retained. Exhaustive coverage still requires Discord partition validation.",
     "byMessageCreationYear": {
       "2019": 956,
       "2020": 61721,
-      "2021": 23399,
-      "2022": 2798,
+      "2021": 23440,
+      "2022": 2799,
       "2023": 3342,
       "2024": 1265,
       "2025": 348,
@@ -222,6 +222,14 @@
         "nextPage": null,
         "complete": true,
         "validationFile": "archive/tt-discussion-november2021-id-coverage-validation-20261004.json"
+      },
+      "December": {
+        "queryResults": 400,
+        "capturedPages": 16,
+        "capturedMessages": 400,
+        "nextPage": null,
+        "complete": true,
+        "validationFile": "archive/tt-discussion-december2021-id-coverage-validation-20261004.json"
       }
     }
   },
@@ -231,7 +239,7 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Validate January and December 2021 plus date boundaries. February\u2013November selected queries fully captured; January checkpoint page 34.",
+    "Validate January 2021 and date boundaries. February\u2013December selected queries fully captured; January checkpoint page 34.",
     "Reconcile 2024 query discrepancy and validate 2020 discussion plus remaining submission years.",
     "Review captured screenshots and videos against each tour WR sequence; message indexing does not certify published history."
   ],
