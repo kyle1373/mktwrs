@@ -142,33 +142,42 @@
     },
     "additionalBotImageReviewAudit": "archive/anniversary2023-extra-bot-image-completed-review-20261005.json"
   },
-  "latestVerifiedDataCommit": "0b08b5c3",
+  "latestVerifiedDataCommit": "b5b65185",
   "currentInProgressReview": {
     "checkedAt": "2026-10-05",
+    "tour": "Sundae Tour (2026)",
+    "range": [
+      "2026-09-02T06:00:00Z",
+      "2026-09-16T06:00:00Z"
+    ],
+    "savedSubmissionMessages": 102,
+    "uniqueReferencedAttachments": 51,
+    "originalImageReviewStatus": "pending",
+    "historyComplete": false,
+    "previousToursComplete": false,
+    "reviewIndex": "archive/sundae-september2026-submission-original-review-index-20261005.json"
+  },
+  "priorityOpenChronologyConflict": "archive/space2024-social-source-review-20261005.json",
+  "workingTreeNote": "September Sundae submission index prepared for image review. Summer screenshot batch preserved and pushed, with missing originals and linked video verification still pending. Earlier review gaps remain.",
+  "latestNarrowChronologyAudit": "archive/2024-reviewed-support-chronology-check-20261005.json",
+  "remainingLaterTourWindows": 11,
+  "latestCompletedScreenshotBatch": {
     "tour": "Summer Tour (2026)",
     "range": [
       "2026-08-19T06:00:00Z",
       "2026-09-02T06:00:00Z"
     ],
-    "savedSubmissionMessages": 91,
-    "uniqueReferencedAttachments": 46,
     "originalImagesVisuallyReviewed": 44,
     "missingOriginalImages": 2,
-    "restoredIntermediateWrs": 1,
-    "existingWrEnrichments": 2,
-    "canonicalSupportingPerformances": 43,
-    "savedDiscussionMessagesRead": 16,
     "historyComplete": false,
-    "previousToursComplete": false,
-    "reviewAudit": "archive/summer2026-original-screenshot-review-20261005.json",
-    "remaining": [
-      "Recover two originals and verify linked videos.",
-      "Validate live capture when browser responds.",
-      "ContinueSundaeSeptember2026 and earlier chronology/media gaps."
-    ]
+    "reviewAudit": "archive/summer2026-original-screenshot-review-20261005.json"
   },
-  "priorityOpenChronologyConflict": "archive/space2024-social-source-review-20261005.json",
-  "workingTreeNote": "Summer2026:DITBerlin1:23.30Aug23 restored before1:23.27Aug24,1/9playable days;nekozukiMadrid1:17.18Aug23 enriched10days.44proofscreenshots and43supports preserved;16saveddiscussionmessages read. OriginalDIT1:23.30image and video verification pending.",
-  "latestNarrowChronologyAudit": "archive/2024-reviewed-support-chronology-check-20261005.json",
-  "remainingLaterTourWindows": 11
+  "tourLabelCorrection": {
+    "tour": "Vacation Tour (2026)",
+    "range": [
+      "2026-08-05T06:00:00Z",
+      "2026-08-19T06:00:00Z"
+    ],
+    "note": "Three legacy sundae2026 review files corrected to Vacation Tour; filenames retained for stable source references."
+  }
 }
