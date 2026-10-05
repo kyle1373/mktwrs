@@ -5,14 +5,21 @@ run, achievement date, WR status, or complete review of surrounding messages.
 """
 import json
 import re
+import argparse
 from pathlib import Path
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
-AUDIT = 'archive/discussion-known-verified-video-index-reconciliation-20261005.json'
+parser = argparse.ArgumentParser()
+parser.add_argument('--platform', choices=['youtube', 'twitter'], default='youtube')
+args = parser.parse_args()
+AUDIT = ('archive/discussion-known-verified-social-video-index-reconciliation-20261005.json'
+         if args.platform == 'twitter' else 'archive/discussion-known-verified-video-index-reconciliation-20261005.json')
 
 def video_id(url):
-    match = re.search(r'(?:youtu\.be/|[?&]v=|youtube\.com/shorts/)([\w-]{11})(?:[?&#/]|$)', url or '')
+    pattern = (r'(?:twitter\.com|x\.com)/[^/]+/status/(\d+)(?:[?&#/]|$)'
+               if args.platform == 'twitter' else r'(?:youtu\.be/|[?&]v=|youtube\.com/shorts/)([\w-]{11})(?:[?&#/]|$)')
+    match = re.search(pattern, url or '')
     return match[1] if match else None
 
 def replace_object(text, key, value, replacement, indent):
@@ -60,7 +67,7 @@ for path in sorted((ROOT / 'archive').glob('tt-discussion*-captured-video-review
                     run.setdefault('additionalSources', []).append({'url': source_url, 'channel': 'tt-discussion', 'messageId': row['messageId'], 'publishedAt': row.get('postedAt'), 'kind': 'indexed-reference-to-same-verified-video'})
                     changed_runs[run['messageId']] = run
         updated = dict(row)
-        updated.update({'reviewStatus': 'indexed-to-existing-verified-video;surrounding-context-review-not-certified', 'matchedVerifiedRuns': refs, 'reviewAudit': AUDIT, 'matchBasis': 'Exact YouTube video ID; prior canonical visual verification reused. No new footage verification or WR/date inference.'})
+        updated.update({'reviewStatus': 'indexed-to-existing-verified-video;surrounding-context-review-not-certified', 'matchedVerifiedRuns': refs, 'reviewAudit': AUDIT, 'matchBasis': f'Exact {args.platform} media identifier; prior canonical visual verification reused. No new footage verification or WR/date inference.'})
         text = replace_object(text, 'messageId', row['messageId'], updated, 4)
         linked.append({'queueFile': str(path.relative_to(ROOT)), 'sourceMessageId': row['messageId'], 'sourcePublishedAt': row.get('postedAt'), 'matches': refs})
         changed += 1
@@ -70,7 +77,7 @@ for path in sorted((ROOT / 'archive').glob('tt-discussion*-captured-video-review
 for ident, run in changed_runs.items():
     curated_text = replace_object(curated_text, 'messageId', ident, run, 2)
 curated_path.write_text(curated_text)
-report = {'checkedAt': '2026-10-05', 'historyComplete': False, 'scope': 'Captured TT-discussion references matched to exact YouTube IDs already visually verified in curated runs.', 'newWrCount': 0, 'achievementDatesChanged': 0, 'footageNewlyReviewed': 0, 'matchedDiscussionMessages': len(linked), 'canonicalRunsWithNewSourceReferences': len(changed_runs), 'queueFilesUpdated': queue_files, 'limitations': ['This reconciles existing reviews with capture queues; it does not verify all nearby messages or certify tour completeness.', 'A later video repost does not create a new run or replace the original first-publication date.', 'Original and unlisted backup availability still require their separate preservation audit.'], 'references': linked}
+report = {'checkedAt': '2026-10-05', 'historyComplete': False, 'scope': f'Captured TT-discussion references matched to exact {args.platform} IDs already visually verified in curated runs.', 'newWrCount': 0, 'achievementDatesChanged': 0, 'footageNewlyReviewed': 0, 'matchedDiscussionMessages': len(linked), 'canonicalRunsWithNewSourceReferences': len(changed_runs), 'queueFilesUpdated': queue_files, 'limitations': ['This reconciles existing reviews with capture queues; it does not verify all nearby messages or certify tour completeness.', 'A later video repost does not create a new run or replace the original first-publication date.', 'Original and unlisted backup availability still require their separate preservation audit.'], 'references': linked}
 if linked:
     (ROOT / AUDIT).write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({k: report[k] for k in ['matchedDiscussionMessages', 'canonicalRunsWithNewSourceReferences', 'newWrCount', 'achievementDatesChanged']}))

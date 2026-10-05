@@ -377,7 +377,19 @@
       "videoCandidates": [
         "https://twitter.com/Astre_HD/status/1191841211063164929"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "indexed-to-existing-verified-video;surrounding-context-review-not-certified",
+      "matchedVerifiedRuns": [
+        {
+          "videoId": "1191841211063164929",
+          "curatedId": "twitter-1191841211063164929-verified",
+          "courseId": "3ds-neo-bowser-city",
+          "player": "Astre",
+          "time": "1:25.70",
+          "canonicalWrStatus": "community-wr"
+        }
+      ],
+      "reviewAudit": "archive/discussion-known-verified-social-video-index-reconciliation-20261005.json",
+      "matchBasis": "Exact twitter media identifier; prior canonical visual verification reused. No new footage verification or WR/date inference."
     },
     {
       "messageId": "702644432394125344",
