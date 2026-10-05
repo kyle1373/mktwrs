@@ -138,10 +138,11 @@
     "month2021QueryChecks": {
       "January": {
         "queryResults": 4370,
-        "capturedPages": 118,
-        "capturedMessages": 2950,
-        "nextPage": 119,
-        "complete": false
+        "capturedPages": 175,
+        "capturedMessages": 4370,
+        "nextPage": null,
+        "complete": true,
+        "validationFile": "archive/tt-discussion-january2021-id-coverage-validation-20261004.json"
       },
       "March": {
         "queryResults": 3017,
@@ -231,7 +232,8 @@
         "complete": true,
         "validationFile": "archive/tt-discussion-december2021-id-coverage-validation-20261004.json"
       }
-    }
+    },
+    "year2021MonthQueryBoundaryAudit": "archive/tt-discussion-2021-month-query-boundary-audit-20261004.json"
   },
   "review": {
     "orderedEarlyReconciliationCurrentTour": "WinterTour2019",
@@ -239,7 +241,7 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Continue January 2021 ID validation at page 119, then check date boundaries. February\u2013December selected queries fully captured.",
+    "All twelve selected 2021 discussion month queries captured (23,424 unique IDs); review UTC edge rows, then validate 2020 and remaining submission years.",
     "Reconcile 2024 query discrepancy and validate 2020 discussion plus remaining submission years.",
     "Review captured screenshots and videos against each tour WR sequence; message indexing does not certify published history."
   ],
