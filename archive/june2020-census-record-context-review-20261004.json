@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "June2020 census pages1–103; targeted text and existing-record comparison only.",
+  "captureScope": "June2020 census pages1–126; targeted text and existing-record comparison only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -200,6 +200,53 @@
       "videoCandidate": "https://twitter.com/KazuoMKT/status/1270080229550313472",
       "existingRecordId": "719630823560577085-verified",
       "result": "Census retains screenshot, exact adjacent lap pair, and later same-player video post. These match existing video-verified record; no date replaced by video repost."
+    },
+    {
+      "courseId": "snes-donut-plains-1",
+      "player": "Nu11",
+      "time": "0:50.09",
+      "laps": [
+        "25.11",
+        "24.98"
+      ],
+      "laterLapReportMessageId": "719538369419411457",
+      "laterLapReportPostedAt": "2020-06-08T13:08:35.646Z",
+      "existingRecordId": "719491871474319472-verified",
+      "existingRecordPostedAt": "2020-06-08T10:03:49.672Z",
+      "result": "Later same-player split report matches existing record; first screenshot timestamp retained. Do not duplicate improvement or move date to later clarification."
+    },
+    {
+      "courseId": "ds-waluigi-pinball-r",
+      "player": "Wins",
+      "videoCandidate": "https://youtu.be/HGs7kKCyc0E",
+      "messageId": "719481648433070091",
+      "postedAt": "2020-06-08T09:23:12.309Z",
+      "visibleTitle": "WBP 53.16 F Lap with Fast Rotation",
+      "result": "Explicit fast-lap strategy video. Preserve source as partial footage; not full two-lap proof and cannot establish overall total."
+    },
+    {
+      "courseId": "snes-donut-plains-1",
+      "player": "Access",
+      "videoCandidate": "https://youtu.be/a_MDkrkw2vg",
+      "messageId": "719134238997217330",
+      "postedAt": "2020-06-07T10:22:43.445Z",
+      "visibleTitle": "DP1 automatic mode - Sub 51",
+      "result": "Specific automatic-mode run candidate retained for exact finish and chronology review. Generic Sub51 title does not establish exact time or overall WR; no record fabricated."
+    },
+    {
+      "player": "Deleted User (identity unresolved in this check)",
+      "completedRunLaps": [
+        "25.47",
+        "25.50"
+      ],
+      "completedRunLapMessageId": "719099870081843290",
+      "completedRunScreenshotMessageId": "719099808769638430",
+      "separateLapBestMessageId": "719100037061279785",
+      "separateLapBests": [
+        "25.36",
+        "25.30"
+      ],
+      "result": "Adjacent messages distinguish50.97 completed total from individual fast-lap bests summing50.66. Do not turn theoretical sum into run, or infer player identity solely from nearby Access video. Image and participant linkage review pending."
     }
   ]
 }
