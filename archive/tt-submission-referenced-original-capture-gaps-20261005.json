@@ -253,7 +253,7 @@
       ],
       "presentInRawCapture": false,
       "canonicalRuns": [],
-      "reviewStatus": "needs-original-message-availability-check",
+      "reviewStatus": "original-not-rendered-intermediate-wr-corroborated-by-later-proof",
       "attachmentUrls": [
         "https://cdn.discordapp.com/attachments/875784780573184010/967396093883199498/IMG_8094.png?ex=6abda412&is=6abc5292&hm=1382ec688f405a6a947268a2f6d513d27e05cf28b0844ff6619fc2e23a015f9d&"
       ],
@@ -290,6 +290,14 @@
         "originalMessageCaptureStillMissing": true,
         "relatedCanonicalRun": "amsterdam-2022-nu11-8152",
         "reason": "Explicit same player/course/total/laps or video matches existing reviewed resubmission evidence. Cancellation does not discard the related performance. Earlier screenshot chronology and original availability remain distinct."
+      },
+      "reviewAudit": "archive/amsterdam2022-missing-original-three-wr-reconciliation-20261005.json",
+      "reviewDecision": {
+        "missingOriginalMessageId": "967396095447666688",
+        "time": "1:21.52",
+        "earliestSurvivingBot": "967396122303811614",
+        "date": "2022-04-23T12:06:48.908Z",
+        "decision": "Earlierhumanoriginalnotdisplayed;botthumbnailbroken. Later1:21.43resultvisuallyshows1:21.52aspreviousbest. Existingrecordretainedwithsurvivingcontext; originalproofremainsopen."
       }
     },
     {
@@ -333,7 +341,7 @@
       ],
       "presentInRawCapture": false,
       "canonicalRuns": [],
-      "reviewStatus": "needs-original-message-availability-check",
+      "reviewStatus": "original-not-rendered-surviving-wr-proof-reconciled",
       "attachmentUrls": [
         "https://cdn.discordapp.com/attachments/875784780573184010/967427262809014272/IMG_8097.png?ex=6abdc119&is=6abc6f99&hm=f748e4b19e7efe290d8ab1970b167991759c2c3fd248886849d81788b44b6b44&"
       ],
@@ -370,6 +378,20 @@
         "originalMessageCaptureStillMissing": true,
         "relatedCanonicalRun": "amsterdam-2022-967429849247514684",
         "reason": "Explicit same player/course/total/laps or video matches existing reviewed resubmission evidence. Cancellation does not discard the related performance. Earlier screenshot chronology and original availability remain distinct."
+      },
+      "reviewAudit": "archive/amsterdam2022-missing-original-three-wr-reconciliation-20261005.json",
+      "reviewDecision": {
+        "missingOriginalMessageId": "967427264704827422",
+        "repostMessageId": "967429848995860551",
+        "repostAttachmentId": "967429849247514684",
+        "time": "1:21.43",
+        "previousPersonalBest": "1:21.52",
+        "originalReview": "Earlierhumanmessage not displayed; no deletion conclusion.",
+        "resubmissionImageVerified": true,
+        "proofImageLocal": "/assets/proof/amsterdam2022-recovered-967429849247514684.png",
+        "sha256": "401c2a948228ea0232476df4859c4b66cc50bd832de28cb5cb72b937c9d49232",
+        "recordId": "curated-amsterdam-2022-967429849247514684",
+        "dateChanged": false
       }
     },
     {
@@ -409,7 +431,7 @@
       ],
       "presentInRawCapture": false,
       "canonicalRuns": [],
-      "reviewStatus": "needs-original-message-availability-check",
+      "reviewStatus": "original-not-rendered-surviving-wr-proof-reconciled",
       "attachmentUrls": [
         "https://cdn.discordapp.com/attachments/875784780573184010/967703275824615424/IMG_8104.png?ex=6abd70a8&is=6abc1f28&hm=1ec9adcd51d16497e6f28c96df1e497d79572f127f73264bcce9392831aa3baf&"
       ],
@@ -446,6 +468,20 @@
         "originalMessageCaptureStillMissing": true,
         "relatedCanonicalRun": "amsterdam-2022-967704500917911562",
         "reason": "Explicit same player/course/total/laps or video matches existing reviewed resubmission evidence. Cancellation does not discard the related performance. Earlier screenshot chronology and original availability remain distinct."
+      },
+      "reviewAudit": "archive/amsterdam2022-missing-original-three-wr-reconciliation-20261005.json",
+      "reviewDecision": {
+        "missingOriginalMessageId": "967703277401702460",
+        "repostMessageId": "967704500670435339",
+        "repostAttachmentId": "967704500917911562",
+        "time": "0:41.00",
+        "previousPersonalBest": "0:41.17",
+        "originalReview": "Earlierhumanmessage not displayed; no deletion conclusion.",
+        "resubmissionImageVerified": true,
+        "proofImageLocal": "/assets/proof/amsterdam2022-recovered-967704500917911562.png",
+        "sha256": "5c448c1ca2d2aa4f3634e7afa375bac8586930582ccd2e3d185eb37e6a31b716",
+        "recordId": "curated-amsterdam-2022-967704500917911562",
+        "dateChanged": false
       }
     },
     {
@@ -916,7 +952,7 @@
       ],
       "presentInRawCapture": false,
       "canonicalRuns": [],
-      "reviewStatus": "needs-original-message-availability-check",
+      "reviewStatus": "original-not-rendered-surviving-wr-resubmission-image-verified",
       "attachmentUrls": [
         "https://cdn.discordapp.com/attachments/875784780573184010/1025077940188352582/IMG_8988.png?ex=6abdddf9&is=6abc8c79&hm=f35b5216644170bfd43cbe26b02b2b6eb6f489182a7f3472e2c479100f30f4e2&"
       ],
@@ -942,7 +978,9 @@
       ],
       "runPresentInGeneratedData": true,
       "botDisposition": "updated",
-      "dispositionMeaning": "Bot status is source context, not independent WR verification."
+      "dispositionMeaning": "Bot status is source context, not independent WR verification.",
+      "reviewAudit": "archive/anniversary2022-singapore-missing-original-reconciliation-20261005.json",
+      "reviewDecision": "Same accepted run resubmitted with video. ExistingannouncedWRSeptember29 remains; no duplicate reign. Capturegap remains until humanoriginalavailabilityresolved."
     },
     {
       "messageId": "1030488584236564501",
