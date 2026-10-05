@@ -114,13 +114,13 @@
     "searchPageCap": 400,
     "requiredCaptureMethod": "Nonoverlapping datedpartitions below10000messages;stablemessageIDs and perpartitioncountvalidation.",
     "countFilterVerified": true,
-    "consolidatedSavedUniqueMessages": 94106,
+    "consolidatedSavedUniqueMessages": 94150,
     "consolidatedIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
     "consolidationScope": "Saved JSON consolidation with explicit channel IDs plus named TT discussion message census exports. Numeric and search-result IDs normalized; source filenames retained. Exhaustive coverage still requires Discord partition validation.",
     "byMessageCreationYear": {
       "2019": 956,
       "2020": 61721,
-      "2021": 23355,
+      "2021": 23399,
       "2022": 2798,
       "2023": 3342,
       "2024": 1265,
@@ -198,6 +198,14 @@
         "nextPage": null,
         "complete": true,
         "validationFile": "archive/tt-discussion-february2021-id-coverage-validation-20261004.json"
+      },
+      "September": {
+        "queryResults": 521,
+        "capturedPages": 21,
+        "capturedMessages": 521,
+        "nextPage": null,
+        "complete": true,
+        "validationFile": "archive/tt-discussion-september2021-id-coverage-validation-20261004.json"
       }
     }
   },
@@ -207,7 +215,7 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Validate January and September\u2013December 2021 plus date boundaries. February\u2013August selected queries fully captured; January checkpoint page 34.",
+    "Validate January and October\u2013December 2021 plus date boundaries. February\u2013September selected queries fully captured; January checkpoint page 34.",
     "Reconcile 2024 query discrepancy and validate 2020 discussion plus remaining submission years.",
     "Review captured screenshots and videos against each tour WR sequence; message indexing does not certify published history."
   ],
