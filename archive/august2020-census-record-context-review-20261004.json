@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "August 2020 census pages 1\u2013125; targeted text/context checks only.",
+  "captureScope": "August 2020 census pages 1\u2013152; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -180,7 +180,20 @@
       "postedAt": "2020-08-14T06:30:02.999Z",
       "text": "21.11 / 20.98 @\u3048\u306a\u304c nice one Kaguya",
       "curatedMessageId": "743665433143410720-pirate-verified",
-      "result": "Possible runner attribution conflict: curated 42.09 names Nu11 but nearby Wins explicitly calls referenced submitter Kaguya. Original image and leaderboard identity require review before changing runner; do not assume present display name identifies historical player."
+      "result": "Original screenshot visually confirms 42.09 and previous best 42.13 but contains no runner name. Nearby Wins names Kaguya; original leaderboard or runner-account mapping still needed to settle attribution. Do not claim the screenshot alone proves identity.",
+      "originalImageReviewed": true,
+      "visibleTime": "0:42.09",
+      "visiblePreviousBest": "0:42.13"
+    },
+    {
+      "courseId": "snes-mario-circuit-1",
+      "player": "Phillish",
+      "messageId": "743136141833928736",
+      "postedAt": "2020-08-12T15:57:43.015Z",
+      "videoCandidate": "https://youtu.be/fWKABTULUQQ",
+      "lapTime": "21.19",
+      "laterRepostMessageId": "743185916578889908",
+      "result": "Original runner post predates later tutorial-link repost. Title explicitly labels flap, so preserve as lap-only footage and do not assign a completed two-lap time."
     }
   ]
 }
