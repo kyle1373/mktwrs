@@ -28,7 +28,10 @@
     "public/assets/proof/winter2025-1336236195054620683.jpg",
     "public/assets/proof/winter2025-1336361672213925888.png",
     "public/assets/proof/winter2025-1336373077327613993.png",
-    "public/assets/proof/winter2025-1336536653904478208.png"
+    "public/assets/proof/winter2025-1336536653904478208.png",
+    "public/assets/proof/winter2025-discussion-1331987281330044948.png",
+    "public/assets/proof/winter2025-discussion-1333809217538363482.png",
+    "public/assets/proof/winter2025-discussion-1336332392910290954.png"
   ],
   "runs": [
     {
@@ -509,7 +512,6 @@
   ],
   "remaining": [
     "Recoverbotonly1334894107176210432and1336372130484322336originals.",
-    "Read85discussionmessagesandoriginalmediafully.",
     "Earliercapture/chronologygaps and backups remain."
   ],
   "verifiedLinkedVideo": {
@@ -519,5 +521,86 @@
     "videoVerified": true,
     "evidence": "Resultat1:25matchesoriginal screenshot and priorbest1:10.82.",
     "backupUploadStatus": "pending"
-  }
+  },
+  "discussionImagesVisuallyReviewed": [
+    {
+      "attachmentId": "1331987281330044948",
+      "messageId": "1331987281585766410",
+      "proofImageLocal": "/assets/proof/winter2025-discussion-1331987281330044948.png",
+      "sha256": "a891391369c0d195cb8525230b41c53731d9eeb656ccb6f26457a79d4260de19",
+      "classification": "historical-repost",
+      "visualEvidence": "Screenshotof8978SingaporeR1:10.67originalFeb4,2023caption35.42/35.25. Enlargedrepostandfulloriginalwinter2023-1071288207943143525.webpconfirm67, not57. Samebalances/previousbest1:10.91/coins12; corroboratesexisting1071288208123494421run, no duplicate."
+    },
+    {
+      "attachmentId": "1333809217538363482",
+      "messageId": "1333809218050064535",
+      "proofImageLocal": "/assets/proof/winter2025-discussion-1333809217538363482.png",
+      "sha256": "fde3fe2a79e87caf1f32756e308dfb5f48909aa03c7eaa2b8f7e6ec5490522f0",
+      "classification": "strategy-frame",
+      "visualEvidence": "Socialvideoframeclock28.87lap1/2SingaporeR; no completedtime. Link1884247097706516909matchesdiscussion."
+    },
+    {
+      "attachmentId": "1336332392910290954",
+      "messageId": "1336332393233121321",
+      "proofImageLocal": "/assets/proof/winter2025-discussion-1336332392910290954.png",
+      "sha256": "a2da11b536427597e6a45fd7aa6c8c8b1d7394647dec9778e0ed4bbd47a22e7d",
+      "classification": "no-item-support",
+      "visualEvidence": "BeginnerSingaporeR1:12.89; adjacentmessageexplicitNITA, genericlaps36.59not uniquelylinked; do not inventlap2."
+    }
+  ],
+  "savedDiscussionMessagesRead": 85,
+  "recoveryAttempts": [
+    {
+      "attachmentId": "1334894107176210432",
+      "botMessageId": "1334894117754372188",
+      "originalHumanMessageId": "1334894107570470995",
+      "status": "liveoriginalreferencefound; CDNdownloadfailed",
+      "reason": "ERR_INVALID_RESPONSE fromcdn; originalimage remainsunverified. Do not countas reviewed."
+    },
+    {
+      "attachmentId": "1336372130484322336",
+      "botMessageId": "1336372140307517513",
+      "originalHumanMessageId": "1336372130761277450",
+      "status": "liveoriginalreferencefound; downloadfailed",
+      "reason": "OriginalCDNnotavailablethroughbrowserdownload. Retainpending."
+    }
+  ],
+  "socialVideoReview": {
+    "url": "https://x.com/nekozuki_MKT/status/1884247097706516909",
+    "status": "unavailable",
+    "checkedAt": "2026-10-05",
+    "visibleResult": "Hmm...this page does not exist",
+    "survivingEvidence": "AnnotatedDiscordframe1333809217538363482atclock28.87lap1/2; nofullresult"
+  },
+  "historicalNitaVideo": {
+    "url": "https://www.youtube.com/watch?v=zE3BpYT8qew",
+    "player": "Sucha",
+    "courseId": "singapore-speedway-r",
+    "time": "1:12.12",
+    "category": "no-item",
+    "publishedAt": "2024-01-26",
+    "publicationPrecision": "day",
+    "videoVerified": true,
+    "visualEvidence": "Actualresult1:12.12at1:26/1:31; previousbest1:12.13. ExpandedYouTubedescriptionJan26,2024;2025discussionexplicitlyoneyearold.",
+    "backupUploadStatus": "pending"
+  },
+  "historicalRepostReconciliation": {
+    "canonicalMessageId": "1071288208123494421-winter2023-original-result-reviewed",
+    "time": "1:10.67",
+    "laps": [
+      "35.42",
+      "35.25"
+    ],
+    "originalPublishedAt": "2023-02-04T04:36:52.389Z",
+    "status": "alreadyarchivedsupport; noreclassificationofWRprecedence",
+    "repostMessageId": "1331987281585766410"
+  },
+  "excludedDiscussionImage": {
+    "attachmentId": "1336572158335254599",
+    "messageId": "1336572158603821120",
+    "localPath": "archive/discussion-images/winter2025-1336572158335254599.jpg",
+    "sha256": "10ce809097aa14c49c407a25c86f4d6372e4af4bc87b1b11443f756bb054f36d",
+    "classification": "Geminiadvice screenshot; embedsalreadyreviewedSuchaNITA1:12.12videoresult; no newrun"
+  },
+  "discussionReviewStatus": "85savedmessagesread; all4attachmentimagesvisuallyclassified; socialvideo unavailable; historicalNITAvideoverified. Capturecompletenessand2cancelledoriginalsremainunproven."
 }
