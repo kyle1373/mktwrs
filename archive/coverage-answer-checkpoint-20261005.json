@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-05",
   "historyComplete": false,
-  "priority": "Index and reconcile tt-submission and tt-discussion before broad searches in other channels; targeted other-channel searches remain useful for specific gaps.",
+  "priority": "Prioritize complete capture validation and evidence reconciliation for tt-submission and tt-discussion; preserve message IDs, attachment IDs, review decisions, and unresolved chronology for each tour.",
   "capturedMessages": {
     "ttSubmission": 11134,
     "ttDiscussion": 94468,
@@ -142,5 +142,23 @@
     },
     "additionalBotImageReviewAudit": "archive/anniversary2023-extra-bot-image-completed-review-20261005.json"
   },
-  "latestVerifiedDataCommit": "c74f34ab"
+  "latestVerifiedDataCommit": "fe9a732f",
+  "currentInProgressReview": {
+    "tour": "Holiday Tour (2023)",
+    "range": [
+      "2023-12-13T07:00:00Z",
+      "2023-12-27T07:00:00Z"
+    ],
+    "savedSubmissionMessages": 45,
+    "uniqueReferencedAttachments": 28,
+    "stage": "30 original screenshots reviewed and saved;29 canonical performances;1 existing WR enriched with full verified video;discussion and late publications remain pending.",
+    "reviewIndex": "archive/holiday2023-submission-original-review-index-20261005.json",
+    "historyComplete": false,
+    "previousToursComplete": false,
+    "visuallyReviewedAttachments": 30,
+    "liveRecoveredOmittedAttachments": 2,
+    "humanPublicationCorrections": 6,
+    "existingWrVideoVerified": 1,
+    "reviewAudit": "archive/holiday2023-original-screenshot-review-20261005.json"
+  }
 }
