@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "July 2020 census pages 1\u2013159; targeted text/context checks only.",
+  "captureScope": "July 2020 census pages 1\u2013173; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -285,6 +285,52 @@
       "videoCandidate": "https://youtu.be/UE1op0mDPwg",
       "titleTime": "1:34.43",
       "result": "Official submission text preserves the full-run video candidate and original source date. Earlier same-day 1:34.42 submissions already exist and were excluded as tour BKT rather than global WR. Do not promote this slower run to global WR; footage preservation and run match remain pending."
+    },
+    {
+      "courseId": "snes-vanilla-lake-1r",
+      "player": "Kazuo",
+      "messageId": "732939070476386336",
+      "postedAt": "2020-07-15T12:38:11.751Z",
+      "correctedLaps": [
+        "16.80",
+        "18.07"
+      ],
+      "calculatedTime": "0:34.87",
+      "incorrectQuotedCalculation": {
+        "messageId": "732939590767476786",
+        "postedAt": "2020-07-15T12:40:15.798Z",
+        "laps": [
+          "16.80",
+          "17.07"
+        ],
+        "time": "0:33.87"
+      },
+      "correctionConfirmationMessageId": "732940876556402760",
+      "result": "Kazuo corrected his split message and explicitly replied Fixed to the author quoting 33.87. Preserve the corrected 34.87 candidate; do not create a 33.87 run from the erroneous quote."
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "messageId": "732948168991440906",
+      "postedAt": "2020-07-15T13:14:21.006Z",
+      "reportedEarlierPlayer": "Tomegome",
+      "reportedEarlierTime": "1:34.24",
+      "originalPlayerPost": "https://twitter.com/tomegome_g/status/1191420102056402944",
+      "linkMessageId": "732948615731085352",
+      "result": "Contemporary July discussion establishes that opening-tour 1:34.42 submissions did not supersede the 2019 result. The quoted 1:34.24 is not authoritative over the already visually verified original image (current 1:34.23, previous best 1:34.16); retain the discrepancy without changing either exact time."
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "player": "Heria",
+      "messageId": "732884453277564979",
+      "postedAt": "2020-07-15T09:01:09.996Z",
+      "videoCandidate": "https://youtu.be/ivmXPuEAWU4",
+      "titleTime": "1:34.56",
+      "titleLaps": [
+        "47.28",
+        "47.28"
+      ],
+      "repostMessageId": "732947643612921968",
+      "result": "Original player post predates the Astre repost. Preserve the full-run candidate and earliest captured source date; slower than the same player\u2019s already verified 1:34.42 posted at 08:01, so it cannot be promoted to a new WR at video publication."
     }
   ]
 }
