@@ -120,9 +120,9 @@
     },
     "year2023QueryCheck": {
       "reportedMessages": 3425,
-      "capturedMessages": 1860,
-      "capturedPages": 75,
-      "nextPage": 76,
+      "capturedMessages": 3397,
+      "capturedPages": 137,
+      "nextPage": null,
       "complete": false,
       "sparsePages": [
         {
@@ -185,10 +185,25 @@
       "newIdsAddedToReviewIndex": 3,
       "captureFile": "archive/tt-submission-2023-count-reconciliation-20261005.json.gz",
       "initialReportedMessages": 3437,
-      "savedUniqueMessages": 1852,
-      "overlappingIds": 8,
+      "savedUniqueMessages": 3379,
+      "overlappingIds": 18,
       "idsAbsentFromExistingReviewIndex": 0,
-      "lastCapturedRawTimestamp": "2023-06-03T13:19:36.497Z"
+      "lastCapturedRawTimestamp": "2023-06-03T13:19:36.497Z",
+      "allCurrentPagesCaptured": true,
+      "countReconciliationPending": true,
+      "uniqueMessagesIncludingGapRecaptures": 3394,
+      "supplementalGapCaptures": [
+        {
+          "captureFile": "archive/tt-submission-april2023-gap-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 79,
+          "newIds": 10
+        },
+        {
+          "captureFile": "archive/tt-submission-may2023-gap-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 22,
+          "newIds": 5
+        }
+      ]
     }
   },
   "discussion": {
@@ -416,7 +431,7 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Continue 2023 TT submission capture from page76/137, reconcile changing headline counts, sparse pages and overlapping IDs, then 2024\u20132026 and date boundaries.",
+    "Continue2023 missing-ID gap recaptures for June,July,August,September,November and boundarydates;3394unique IDs nowpreserved including15recovered April/May rows. Then2024\u20132026.",
     "Review saved screenshots, full videos and adjacent messages; reconcile genuine WR progression tour by tour, prioritizing early gaps and 2020\u20132026 incomplete histories.",
     "Preserve original and backup media and verify published changes on the live site."
   ],
