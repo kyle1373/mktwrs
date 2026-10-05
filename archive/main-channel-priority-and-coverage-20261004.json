@@ -114,13 +114,13 @@
     "searchPageCap": 400,
     "requiredCaptureMethod": "Nonoverlapping datedpartitions below10000messages;stablemessageIDs and perpartitioncountvalidation.",
     "countFilterVerified": true,
-    "consolidatedSavedUniqueMessages": 88772,
+    "consolidatedSavedUniqueMessages": 88922,
     "consolidatedIndexFile": "archive/tt-discussion-consolidated-source-index-20261004.json.gz",
     "consolidationScope": "Saved JSON consolidation with explicit channel IDs plus named TT discussion message census exports. Numeric and search-result IDs normalized; source filenames retained. Exhaustive coverage still requires Discord partition validation.",
     "byMessageCreationYear": {
       "2019": 956,
       "2020": 61721,
-      "2021": 18021,
+      "2021": 18171,
       "2022": 2798,
       "2023": 3342,
       "2024": 1265,
@@ -166,6 +166,13 @@
         "nextPage": null,
         "complete": true,
         "validationFile": "archive/tt-discussion-may2021-id-coverage-validation-20261004.json"
+      },
+      "June": {
+        "queryResults": 1997,
+        "capturedPages": 6,
+        "capturedMessages": 150,
+        "nextPage": 7,
+        "complete": false
       }
     }
   },
@@ -175,7 +182,7 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Capture June\u2013August 2021 discussion partitions, then validate other 2021 months. March\u2013May selected queries fully captured; January validation checkpoint page 34.",
+    "Continue June 2021 discussion at page 7, then July\u2013August partitions. March\u2013May queries fully captured; January validation checkpoint page 34.",
     "Reconcile 2024 query discrepancy and validate 2020 discussion plus remaining submission years.",
     "Review captured screenshots and videos against each tour WR sequence; message indexing does not certify published history."
   ],
