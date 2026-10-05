@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "July2020 census pages1–70; targeted text/context checks only.",
+  "captureScope": "July2020 census pages1–102; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -131,7 +131,7 @@
       "result": "Explicit ramp low-trick strategy clip. Preserve partial footage; not full-run proof."
     },
     {
-      "courseId": "snes-vanilla-lake-1-r",
+      "courseId": "snes-vanilla-lake-1r",
       "player": "Sucha",
       "videoCandidate": "https://youtu.be/_DBXhF1Qiqg",
       "messageId": "737686319924248688",
@@ -139,6 +139,84 @@
       "visibleTitle": "【VL1R】Lap1:17.42（SMT use）",
       "nearbyProspectiveWRMessageId": "737684491929256116",
       "result": "Explicit lap1 clip, with nearby if-fast-lap2 future-WR statement. Preserve partial footage; do not infer completed overall WR from lap or prospective claim."
+    },
+    {
+      "courseId": "snes-vanilla-lake-1r",
+      "player": "Heriawsity",
+      "titleTime": "0:34.70",
+      "laps": [
+        "17.45",
+        "17.25"
+      ],
+      "videoCandidate": "https://www.youtube.com/watch?v=yW78c2tVYNc",
+      "messageId": "736596666269958235",
+      "postedAt": "2020-07-25T14:52:10.543Z",
+      "lapContextMessageId": "736593849207619655",
+      "result": "Player caption lists17.50/17.22 and separate recorded17.45/17.25; latter matches titled34.70 video. Exact footage and rival precedence pending; do not cross-assign splits or automatically promote to WR."
+    },
+    {
+      "courseId": "snes-vanilla-lake-1r",
+      "player": "Sucha",
+      "timeFromSplitReport": "0:34.55",
+      "laps": [
+        "17.36",
+        "17.19"
+      ],
+      "messageId": "736252574981685319",
+      "postedAt": "2020-07-24T16:04:52.787Z",
+      "earlierRunLaps": [
+        "17.44",
+        "17.18"
+      ],
+      "earlierRunLapMessageId": "736222535854587954",
+      "result": "Separate exact split pairs indicate34.55 and34.62 reports. Nearby possible34.52 is prospective. Image and WR status review required; no theoretical34.52 run added."
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "player": "Nu11 (Kaguya)",
+      "titleTime": "1:33.91",
+      "videoCandidate": "https://youtu.be/NLEgfdJDrRo",
+      "messageId": "735476770605891644",
+      "postedAt": "2020-07-22T12:42:06.610Z",
+      "visibleTitle": "DDJ1:33.91(noWR)",
+      "result": "Explicit noWR title at captured post. Retain full-run candidate for footage history and alternate fastest-video support; no automatic WR classification."
+    },
+    {
+      "courseId": "snes-vanilla-lake-1r",
+      "player": "Sucha",
+      "videoCandidate": "https://youtu.be/_DBXhF1Qiqg",
+      "earlierPlayerPostMessageId": "736620320877838470",
+      "earlierPlayerPostedAt": "2020-07-25T16:26:10.241Z",
+      "earlierCaptionMessageId": "736620308978597928",
+      "laterRepostMessageId": "737686319924248688",
+      "result": "OriginalJuly25 lap1 clip post recovered beforeJuly28 repost. Both explicitly17.42lap1; retain partial-footage scope."
+    },
+    {
+      "player": "Nu11",
+      "messageId": "735472539408662578",
+      "postedAt": "2020-07-22T12:25:17.814Z",
+      "wrUpdateConfirmationMessageId": "735472736477904926",
+      "runs": [
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "time": "1:33.66",
+          "laps": [
+            "46.97",
+            "46.69"
+          ],
+          "existingRecordId": "735472539408662578-gcn-dino-dino-jungle-verified"
+        },
+        {
+          "courseId": "snes-vanilla-lake-1r",
+          "time": "0:34.45",
+          "laps": [
+            "17.48",
+            "16.97"
+          ],
+          "existingRecordId": "735472539408662578-snes-vanilla-lake-1r-verified"
+        }
+      ],
+      "result": "Single message explicitly labels two courses and separate lap pairs; both match existing WR entries. Subsequent updatedWR confirmation retained. DDJ1:33.91 video postedlater is slower than documented1:33.66."
     }
   ]
 }
