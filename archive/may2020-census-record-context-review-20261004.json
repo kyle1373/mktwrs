@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "May 2020 census pages 1\u2013292; broader capture in progress.",
+  "captureScope": "May 2020 census pages 1–335; targeted text/context checks only. Full proof review incomplete.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -117,7 +117,7 @@
           "postedAt": "2020-05-23T09:21:45.223Z"
         }
       ],
-      "result": "Original player post recovered earlier than May22\u201323 reposts. YouTube watch page now explicitly unavailable; full footage cannot be verified from this URL. Retain original link and source date as recovery candidate, not verified playable proof.",
+      "result": "Original player post recovered earlier than May22–23 reposts. YouTube watch page now explicitly unavailable; full footage cannot be verified from this URL. Retain original link and source date as recovery candidate, not verified playable proof.",
       "originalPlayerPost": {
         "messageId": "712663549306208277",
         "postedAt": "2020-05-20T13:50:30.803Z",
@@ -197,7 +197,7 @@
         "postedAt": "2020-05-13T22:34:13.212Z",
         "originalTweet": "https://twitter.com/tomegome_g/status/1260699212448063489"
       },
-      "result": "Kura1:39.90 is slower than verified May8\u20139 records and preceding Tomegome1:39.28 report. Exclude from WR progression; retain lap report as PB context."
+      "result": "Kura1:39.90 is slower than verified May8–9 records and preceding Tomegome1:39.28 report. Exclude from WR progression; retain lap report as PB context."
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
@@ -325,6 +325,43 @@
       "priorFasterRecordId": "705848063759220856-verified",
       "priorFasterTime": "1:23.88",
       "result": "Completed run report with exact splits is slower than verified Nu11 May1 WR. Separate May3 11:29 screenshot also shows1:23.97; cannot attach20:56 splits to earlier screenshot solely from same total. Preserve separate context, no WR promotion or split overwrite."
+    },
+    {
+      "courseId": "3ds-neo-bowser-city-r",
+      "player": "Kazuo",
+      "time": "1:24.13",
+      "laps": [
+        "42.13",
+        "42.00"
+      ],
+      "recordId": "705817671450492968-verified",
+      "originalScreenshotMessageId": "705817671450492968",
+      "originalScreenshotPostedAt": "2020-05-01T16:27:26.332Z",
+      "lapMessageId": "705817676945162320",
+      "originalVideoPostMessageId": "705825493521268817",
+      "originalVideoPostedAt": "2020-05-01T16:58:31.259Z",
+      "video": "https://www.youtube.com/watch?v=qOrSCFJmumY",
+      "laterVideoRepostMessageId": "705871740626272296",
+      "priorContextMessageId": "705824483814015036",
+      "result": "Final census pages recover original video post before Nu11 1:23.88 at18:28. Existing curated1:24.13 entry correctly uses original screenshot date and lap pair. Later20:02 video repost must not override original publication or imply this was already slower when first posted."
+    },
+    {
+      "courseId": "3ds-neo-bowser-city-r",
+      "player": "Kazuo",
+      "time": "1:24.18",
+      "laps": [
+        "42.20",
+        "41.98"
+      ],
+      "selfTieMessageId": "705816708161470594",
+      "postedAt": "2020-05-01T16:23:36.666Z",
+      "tieContextMessageId": "705816656299163739",
+      "firstRunRecordId": "705809850260652123-verified",
+      "firstRunLaps": [
+        "42.08",
+        "42.10"
+      ],
+      "result": "Explicit self-tie has different splits from first1:24.18. Preserve context separately; do not overwrite original WR splits or create an improvement."
     }
   ]
 }
