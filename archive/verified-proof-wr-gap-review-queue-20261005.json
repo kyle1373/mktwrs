@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-10-05",
   "historyComplete": false,
-  "method": "Verified supporting proof only; compare against accepted dated WRs. Candidates are investigation leads, not certified WRs. Unknown dates and other rivals may change classification.",
-  "candidateCount": 913,
+  "method": "Verified supporting proof only; compare against accepted dated WRs. Candidates are investigation leads, not certified WRs. Unknown dates and other rivals may change classification. Explicit rejected claims are separated and never counted as progression candidates. Date-only comparisons include same-day uncertainty and are triage, not acceptance.",
+  "candidateCount": 912,
   "rows": [
     {
       "courseId": "gcn-dino-dino-jungle",
@@ -20,30 +20,6 @@
       "status": "documented-submission",
       "priorAcceptedBest": null,
       "reason": "No earlier dated accepted record",
-      "reviewStatus": "needs-chronology-and-competition-review",
-      "automaticallyPromoted": false,
-      "fasterVerifiedSupportingEvidence": []
-    },
-    {
-      "courseId": "3ds-toad-circuit",
-      "courseName": "3DS Toad Circuit",
-      "submissionId": "curated-637466465229864960-opening2019-proof-review",
-      "playerId": "unidentified-player",
-      "time": "1:01.41",
-      "sourceDate": "2019-10-26T01:44:08.865Z",
-      "proofImageLocal": "/assets/proof/opening2019-636700508848914462.webp",
-      "source": {
-        "url": "https://discord.com/channels/629221606064914442/636461740162416640/637466465229864960",
-        "channel": "tt-discussion",
-        "messageId": "637466465229864960"
-      },
-      "status": "rejected-claim",
-      "priorAcceptedBest": {
-        "id": "curated-original-2019-wr-row-21",
-        "time": "1:04.73",
-        "recordDate": "2019-10-26"
-      },
-      "reason": "Faster than or tied with dated accepted best",
       "reviewStatus": "needs-chronology-and-competition-review",
       "automaticallyPromoted": false,
       "fasterVerifiedSupportingEvidence": []
@@ -82711,5 +82687,31 @@
       "fasterVerifiedSupportingEvidence": []
     }
   ],
-  "rowsWithoutFasterVerifiedSupportingProof": 126
+  "rowsWithoutFasterVerifiedSupportingProof": 125,
+  "excludedRejectedClaims": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "courseName": "3DS Toad Circuit",
+      "submissionId": "curated-637466465229864960-opening2019-proof-review",
+      "playerId": "unidentified-player",
+      "time": "1:01.41",
+      "sourceDate": "2019-10-26T01:44:08.865Z",
+      "proofImageLocal": "/assets/proof/opening2019-636700508848914462.webp",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/637466465229864960",
+        "channel": "tt-discussion",
+        "messageId": "637466465229864960"
+      },
+      "status": "rejected-claim",
+      "priorAcceptedBest": {
+        "id": "curated-original-2019-wr-row-21",
+        "time": "1:04.73",
+        "recordDate": "2019-10-26"
+      },
+      "reason": "Faster than or tied with dated accepted best",
+      "reviewStatus": "excluded-contemporary-rejection",
+      "automaticallyPromoted": false,
+      "fasterVerifiedSupportingEvidence": []
+    }
+  ]
 }
