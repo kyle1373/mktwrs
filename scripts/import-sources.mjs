@@ -509,8 +509,21 @@ export function importSources(courses, players) {
     }
   }
   let enriched = 0;
+  const withdrawals = fs.existsSync("archive/submission-withdrawals.json")
+    ? JSON.parse(fs.readFileSync("archive/submission-withdrawals.json", "utf8")) : {};
   for (const c of courses) {
     for (const s of c.submissions) {
+      const withdrawal = withdrawals[s.source?.messageId] || withdrawals[s.id];
+      if (withdrawal && withdrawal.courseId === c.id && withdrawal.originalTime === s.time) {
+        s.status = "withdrawn-submission";
+        s.includeInProgression = false;
+        s.originalReportedTime = s.time;
+        s.originalReportedLaps = s.laps;
+        s.laps = [null, null];
+        s.notes.push(withdrawal.reason);
+        s.additionalSources = [...(s.additionalSources || []), ...withdrawal.sources];
+        continue;
+      }
       const completed = completeTwoLapSplit(s.timeCs, s.laps);
       if (!completed) continue;
       s.laps = completed.laps;
