@@ -48,17 +48,22 @@
   },
   "latestEvidenceReview": {
     "checkedAt": "2026-10-05",
-    "courseId": "berlin-byways-3",
-    "run": "Nu11 1:14.37",
-    "originalSubmissionDate": "2022-09-23T17:14:02.347Z",
-    "videoVisuallyVerified": true,
-    "firstLap": "37.32",
-    "derivedSecondLap": "37.05",
-    "localFinishProof": "/assets/proof/berlin3-nu11-1437-video-finish.webp",
-    "reviewAudits": [
-      "archive/berlin3-nu11-1437-video-review-20261005.json"
+    "reviews": [
+      {
+        "courseId": "berlin-byways-3",
+        "run": "Nu11 1:14.37",
+        "fullOriginalVideo": "downloaded locally;26,798,576bytes;SHA256 in audit",
+        "backupUpload": "pending",
+        "audit": "archive/berlin3-nu11-1437-video-review-20261005.json"
+      },
+      {
+        "courseId": "n64-yoshi-valley",
+        "run": "gangstatiger93 1:30.92",
+        "decision": "Later slower bot submission;June2 saki7 1:30.32 precedes June5 source date. No WR promotion; original proof remains unavailable.",
+        "audit": "archive/cat2022-gangstatiger-missing-original-review-20261005.json"
+      }
     ],
-    "nextPriority": "Continue unresolved original submission references and course chronology. Original message capture and full video backup remain pending.",
+    "nextPriority": "Continue remaining missing original submission references and reconcile course chronology; preserve and upload full videos.",
     "historyComplete": false
   }
 }
