@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "July 2020 census pages 1\u2013192; targeted text/context checks only.",
+  "captureScope": "July 2020 census pages 1\u2013202; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -345,6 +345,29 @@
       "nearbySplitMessageId": "732833731143925821",
       "nearbySplitText": "46.79, 46.54",
       "result": "Full image inspected in browser: finish is 1:13.33, not the 1:33.33 sum of the adjacent 46.79/46.54 text. Do not attach those splits or map the screenshot to DDJ. Course title absent; course/player/WR classification remains pending. Gallery date retained as source text, not automatically asserted achievement date."
+    },
+    {
+      "courseId": "rmx-choco-island-1",
+      "player": "Kazuo",
+      "messageId": "729748746342236230",
+      "postedAt": "2020-07-06T17:20:59.204Z",
+      "videoCandidate": "https://twitter.com/KazuoMKT/status/1280189661193875462",
+      "videoTitleTime": "1:12.42",
+      "videoTitleLaps": [
+        "36.37",
+        "36.05"
+      ],
+      "precedingRecord": {
+        "curatedMessageId": "729736667056832622-verified",
+        "postedAt": "2020-07-06T16:32:59.278Z",
+        "time": "1:12.36",
+        "laps": [
+          "36.29",
+          "36.07"
+        ],
+        "lapMessageId": "729736706332557404"
+      },
+      "result": "Captured original embed confirms example video is 1:12.42 and follows the verified faster 1:12.36. Existing rejectedVideos classification is correct; do not attach this video as proof of 1:12.36. Original post predates July 7 repost."
     }
   ]
 }
