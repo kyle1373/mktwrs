@@ -21,7 +21,9 @@
       "previousBestDated": false,
       "proofImageLocal": "/assets/proof/fb7ab3ba09dea51d307de7fa.png",
       "proofSha256": "fb7ab3ba09dea51d307de7fafaff2966e5689e3ce3890d7d3bc09d188698b840",
-      "classification": "verified-completed-performance-WR-position-unresolved"
+      "classification": "verified-completed-performance-not-WR-earlier-faster-proof",
+      "earlierFasterMessageId": "1148968951997542401",
+      "submissionText": "Closer to wr"
     },
     {
       "messageId": "1149669854459215872",
@@ -82,17 +84,199 @@
   "searchReview": {
     "query": "\"Vanilla Lake 2R\" after:2023-09-05 before:2023-09-13",
     "pagesInspected": 2,
-    "finding": "Visible results are bot submissions; no first-place leaderboard confirmation found in these two search pages. This is not exhaustive evidence absence."
+    "finding": "Visible results are bot submissions; no first-place leaderboard confirmation found in these two search pages. This is not exhaustive evidence absence.",
+    "newLinkQuery": "in:tt-discussion after:2023-09-05 before:2023-09-13 has:link",
+    "newLinkQueryResult": "No Results; direct message navigation still exposes attachment videos. Search absence does not imply no media."
   },
   "nextActions": [
-    "Review September6 image-only opening submissions includingStarin16.16/16.01.",
-    "Review adjacentKirio discussion and clips; he mentions theoretical31.50, not a completed31.50 result.",
-    "Locate first-place leaderboard or explicit WR corroboration for31.85\u219231.71\u219231.65\u219231.62 candidates andnekozuki31.65 tie.",
-    "Verify later first-place31.48 proof and chronology."
+    "Reconcile all opening image-only results against competing runs and dated leaderboard evidence.",
+    "Review nearby TT discussion attachments and videos;31.50 mentioned by Kirio is theoretical, not a completed result.",
+    "Find separate first publications for nekozuki previousbest31.85/31.81; do not invent dates from later screenshots.",
+    "Verify later31.48 first-place proof and chronology."
   ],
   "limitations": [
-    "Four preserved images were visually checked; source laps exceptkuRi are bot-reported, not visible in result screenshot.",
-    "No WR promotion or invented previousbest dates.",
-    "No fullcourse completeness certification."
+    "Eleven new original screenshots visually checked across this audit; completed performance alone does not prove a global WR.",
+    "Rubix31.85 and kuRi31.84 are excluded from progression because earlier31.77 proof contradicts first place.",
+    "No full course or tour completeness certification."
+  ],
+  "openingImageOnlyReview": [
+    {
+      "messageId": "1148895575501197313",
+      "attachmentId": "1148895574716862464",
+      "player": "Starin",
+      "time": "0:32.17",
+      "submittedAt": "2023-09-06T08:20:50.647Z",
+      "lapsReported": [
+        "16.16",
+        "16.01"
+      ],
+      "previousTourBest": "0:32.29",
+      "previousBestDated": false,
+      "proofImageLocal": "/assets/proof/54b50e7bee0ccb8bfc3ea5a6.png",
+      "proofSha256": "54b50e7bee0ccb8bfc3ea5a61831084a46ab417270448f7ee04b5b6d322c371c",
+      "classification": "verified-completed-performance-WR-position-unresolved"
+    },
+    {
+      "messageId": "1148897093658882058",
+      "attachmentId": "1148897093356884008",
+      "player": "kuRi",
+      "time": "0:31.98",
+      "submittedAt": "2023-09-06T08:26:52.604Z",
+      "lapsReported": [
+        null,
+        null
+      ],
+      "previousTourBest": "0:32.01",
+      "previousBestDated": false,
+      "proofImageLocal": "/assets/proof/53658206169008bea1e9ef85.png",
+      "proofSha256": "53658206169008bea1e9ef85d392884d1d4a6ebc45f7501acff008aff3b1cac8",
+      "classification": "verified-completed-performance-WR-position-unresolved"
+    },
+    {
+      "messageId": "1148904099002191884",
+      "attachmentId": "1148904098779910234",
+      "player": "nekozuki",
+      "time": "0:31.90",
+      "submittedAt": "2023-09-06T08:54:42.808Z",
+      "lapsReported": [
+        null,
+        null
+      ],
+      "previousTourBest": "0:31.99",
+      "previousBestDated": false,
+      "proofImageLocal": "/assets/proof/569569c7dd2d661f308043fd.jpg",
+      "proofSha256": "569569c7dd2d661f308043fdea35c46b5d78d10652464d3c14f13810f45183b8",
+      "classification": "verified-completed-performance-WR-position-unresolved"
+    },
+    {
+      "messageId": "1148912235872268390",
+      "attachmentId": "1148912235813535805",
+      "player": "nekozuki",
+      "time": "0:31.87",
+      "submittedAt": "2023-09-06T09:27:02.789Z",
+      "lapsReported": [
+        null,
+        null
+      ],
+      "previousTourBest": "0:31.90",
+      "previousBestDated": false,
+      "proofImageLocal": "/assets/proof/e6f6948761af45756a70738f.jpg",
+      "proofSha256": "e6f6948761af45756a70738f883a78daece3bf3a87498bff2b5c611148611cd4",
+      "classification": "verified-completed-performance-WR-position-unresolved"
+    },
+    {
+      "messageId": "1148920070718889995",
+      "attachmentId": "1148920070240747550",
+      "player": "nekozuki",
+      "time": "0:31.82",
+      "submittedAt": "2023-09-06T09:58:10.762Z",
+      "lapsReported": [
+        null,
+        null
+      ],
+      "previousTourBest": "0:31.85",
+      "previousBestDated": false,
+      "proofImageLocal": "/assets/proof/3a96dee50fe1465282c18cad.jpg",
+      "proofSha256": "3a96dee50fe1465282c18cad068390a8434c220c719af740a1d9d4edb55f4947",
+      "classification": "verified-completed-performance-WR-position-unresolved"
+    },
+    {
+      "messageId": "1148968951997542401",
+      "attachmentId": "1148968951670395010",
+      "player": "nekozuki",
+      "time": "0:31.77",
+      "submittedAt": "2023-09-06T13:12:24.967Z",
+      "lapsReported": [
+        null,
+        null
+      ],
+      "previousTourBest": "0:31.81",
+      "previousBestDated": false,
+      "proofImageLocal": "/assets/proof/5385621900883424cab7f164.jpg",
+      "proofSha256": "5385621900883424cab7f16413430c0bb2bf64b4c70c958d7a1b8f77019fd61d",
+      "classification": "verified-completed-performance-WR-position-unresolved"
+    },
+    {
+      "messageId": "1149112065294864414",
+      "attachmentId": "1149112065018048632",
+      "player": "kuRi",
+      "time": "0:31.84",
+      "submittedAt": "2023-09-06T22:41:05.836Z",
+      "lapsReported": [
+        null,
+        null
+      ],
+      "previousTourBest": "0:31.89",
+      "previousBestDated": false,
+      "proofImageLocal": "/assets/proof/a295d867b52a84b2a7ba47e8.png",
+      "proofSha256": "a295d867b52a84b2a7ba47e82d7b40a5773688fac3cdeb46c9304a1c0c3afc24",
+      "classification": "verified-completed-performance-not-WR-earlier-faster-proof"
+    }
+  ],
+  "verifiedFinalWrSubmission": {
+    "messageId": "1151132632185307187",
+    "time": "0:31.48",
+    "player": "nekozuki",
+    "submittedAt": "2023-09-12T12:30:06.523Z",
+    "laps": [
+      "15.71",
+      "15.77"
+    ],
+    "proofImageLocal": "/assets/proof/d14ae1093fac99be76f26990.jpg",
+    "proofSha256": "d14ae1093fac99be76f26990053cd2bd62cb8d069a4ba9094e49f25e56d5c95b"
+  },
+  "supportingDiscussionContext": [
+    {
+      "messageId": "1149388201509798049",
+      "datetime": "2023-09-07T16:58:21.840Z",
+      "text": "Rubix\u00a0[NXS],\u00a0\nServer Tag: NXS\nNXS\n \u2014 \n9/7/23, 9:58 AM\nThursday, September 7, 2023 at 9:58 AM\n@nekozuki how to get 31.7x",
+      "links": [],
+      "images": [
+        {
+          "alt": " ",
+          "src": "https://cdn.discordapp.com/avatars/973263446718152714/5cb8f6cc04dda490a13019e27a03336d.webp?size=160"
+        },
+        {
+          "alt": "",
+          "src": "https://cdn.discordapp.com/clan-badges/1314056723081723914/310d9b669d687de773b5f3b5310ca1f3.png?size=16"
+        }
+      ],
+      "sourceFiles": [
+        "archive/tt-discussion-2023-full-message-census-20261004.json"
+      ],
+      "messageCreatedAt": "2023-09-07T16:58:21.840Z"
+    },
+    {
+      "messageId": "1149670351651995801",
+      "datetime": "2023-09-08T11:39:31.676Z",
+      "text": "Kirio\n \u2014 \n9/8/23, 4:39 AM\nFriday, September 8, 2023 at 4:39 AM\nbses give me 31.50",
+      "links": [],
+      "images": [
+        {
+          "alt": " ",
+          "src": "https://cdn.discordapp.com/avatars/322084643652239360/6d86dffa76abaab2d91c6d69a1cf0e78.webp?size=160"
+        }
+      ],
+      "sourceFiles": [
+        "archive/tt-discussion-2023-full-message-census-20261004.json"
+      ],
+      "messageCreatedAt": "2023-09-08T11:39:31.676Z"
+    },
+    {
+      "messageId": "1149670620460761108",
+      "datetime": "2023-09-08T11:40:35.765Z",
+      "text": "Kirio\n \u2014 \n9/8/23, 4:40 AM\nFriday, September 8, 2023 at 4:40 AM\njviens de faire un lap 1 \u00e0 15.89 pour choke le dernier virage",
+      "links": [],
+      "images": [
+        {
+          "alt": " ",
+          "src": "https://cdn.discordapp.com/avatars/322084643652239360/6d86dffa76abaab2d91c6d69a1cf0e78.webp?size=160"
+        }
+      ],
+      "sourceFiles": [
+        "archive/tt-discussion-2023-full-message-census-20261004.json"
+      ],
+      "messageCreatedAt": "2023-09-08T11:40:35.765Z"
+    }
   ]
 }
