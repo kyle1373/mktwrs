@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "June2020 census pages1–43; targeted text and existing-record comparison only.",
+  "captureScope": "June2020 census pages1–71; targeted text and existing-record comparison only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -104,6 +104,52 @@
         "45.20"
       ],
       "result": "Author distinguishes completed run splits from individual best laps. Do not manufacture1:30.46 from separate lap bests. Existing-run matching and proof image review remain separate."
+    },
+    {
+      "courseId": "rmx-mario-circuit-1",
+      "player": "Phillish",
+      "time": "1:31.30",
+      "laps": [
+        "45.51",
+        "45.79"
+      ],
+      "messageId": "722781505507819610",
+      "postedAt": "2020-06-17T11:55:39.544Z",
+      "visibleCaption": "WR yay 45.51 45.79",
+      "existingRecordId": "722781505507819610-verified",
+      "priorRivalReportMessageId": "722775130580975637",
+      "priorRivalLaps": [
+        "45.52",
+        "45.79"
+      ],
+      "result": "Explicit WR report and exact split sum match curated1:31.30. Earlier SuperFX split pair sums1:31.31; preserve back-and-forth rather than treating same-day runs as duplicates."
+    },
+    {
+      "courseId": "rmx-mario-circuit-1",
+      "player": "Access",
+      "videoCandidate": "https://youtu.be/3SB7Srnr9aA",
+      "videoPostMessageId": "722746255524102184",
+      "postedAt": "2020-06-17T09:35:35.293Z",
+      "visibleUploader": "Access",
+      "existingRecordId": "722716602952581150-verified",
+      "existingRecordTime": "1:32.16",
+      "result": "Capture retains original video post and visible uploader. Curated note already records adjacent uploader identification as1:32.16 and lost-media status; no playable backup currently proven. Do not assign video from generic RMX TT title alone."
+    },
+    {
+      "courseId": "rmx-mario-circuit-1",
+      "player": "Access",
+      "time": "1:32.16",
+      "laps": [
+        "46.07",
+        "46.09"
+      ],
+      "screenshotMessageId": "722716602952581150",
+      "screenshotPostedAt": "2020-06-17T07:37:45.569Z",
+      "wrAnnouncementMessageId": "722716550993543272",
+      "lapMessageId": "722716650624909342",
+      "existingRecordId": "722716602952581150-verified",
+      "laterVideoPostMessageId": "722746255524102184",
+      "result": "Census preserves screenshot, WR announcement, and adjacent exact laps. All match existing curated entry. Later video post provides uploader identity context, but availability/full-footage proof remains unresolved."
     }
   ]
 }
