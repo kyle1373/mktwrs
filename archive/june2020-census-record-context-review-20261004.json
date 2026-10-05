@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "June2020 census pages1–126; targeted text and existing-record comparison only.",
+  "captureScope": "June2020 census pages1–155; targeted text and existing-record comparison only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -247,6 +247,76 @@
         "25.30"
       ],
       "result": "Adjacent messages distinguish50.97 completed total from individual fast-lap bests summing50.66. Do not turn theoretical sum into run, or infer player identity solely from nearby Access video. Image and participant linkage review pending."
+    },
+    {
+      "courseId": "snes-donut-plains-1",
+      "player": "Kazuo",
+      "time": "0:50.18",
+      "laps": [
+        "25.12",
+        "25.06"
+      ],
+      "screenshotMessageId": "718621175374151780",
+      "postedAt": "2020-06-06T00:23:59.545Z",
+      "lapMessageId": "718621205409824800",
+      "existingRecordId": "718621175374151780-verified",
+      "result": "Caption gives exact completed split pair despite commenting on mistakes and hypothetical24-second lap. Existing50.18 matches; hypothetical faster lap is not a completed improvement."
+    },
+    {
+      "courseId": "ds-waluigi-pinball-r",
+      "player": "Wins",
+      "videoCandidates": [
+        "https://youtu.be/8aTHuLW1i0U",
+        "https://twitter.com/winsmkt/status/1268989351754678272"
+      ],
+      "messageIds": [
+        "718533903022948392",
+        "718743415872815146"
+      ],
+      "visibleTitles": [
+        "WPB 53.21 first lap",
+        "Waluigi Pinball R 1st Lap53.16"
+      ],
+      "result": "Both are explicitly single-lap footage. Retain for strategy/media recovery; do not attach as complete two-lap record proof."
+    },
+    {
+      "courseId": "snes-donut-plains-1",
+      "player": "Access",
+      "videoCandidate": "https://youtu.be/a4QmlK4n36Q",
+      "messageId": "718775586838937610",
+      "postedAt": "2020-06-06T10:37:34.107Z",
+      "visibleTitle": "DP1 Automatic51.11",
+      "result": "Automatic-mode footage candidate with titled51.11. Exact run playback and WR chronology need review; no automatic promotion from title."
+    },
+    {
+      "courseId": "snes-donut-plains-1",
+      "player": "Brandon",
+      "time": "0:51.42",
+      "laps": [
+        "25.70",
+        "25.72"
+      ],
+      "video": "https://youtu.be/9Q3Czv54-jo",
+      "videoPostMessageId": "718359228598976544",
+      "videoPostPostedAt": "2020-06-05T07:03:06.567Z",
+      "lapClarificationMessageId": "718352646284509195",
+      "existingRecordId": "717643645024469042-verified",
+      "existingRecordPostedAt": "2020-06-03T07:39:38.148Z",
+      "result": "June5 video and lap clarification match June3 record. Retain original screenshot date; later video publication does not represent new WR."
+    },
+    {
+      "courseId": "snes-donut-plains-1",
+      "player": "Phillish",
+      "time": "0:51.66",
+      "laps": [
+        "25.81",
+        "25.85"
+      ],
+      "video": "https://youtu.be/XCStoAjCL6s",
+      "messageId": "718394649089278033",
+      "postedAt": "2020-06-05T09:23:51.470Z",
+      "existingRecordId": "718394649089278033-video-reviewed",
+      "result": "Matches existing verified supporting run marked includeInProgressionfalse. Slower than preceding WR; complete video alone does not qualify run as WR."
     }
   ]
 }
