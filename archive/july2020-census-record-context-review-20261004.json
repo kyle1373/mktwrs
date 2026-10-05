@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "July 2020 census pages 1\u2013202; targeted text/context checks only.",
+  "captureScope": "July 2020 census pages 1\u2013229; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -368,6 +368,29 @@
         "lapMessageId": "729736706332557404"
       },
       "result": "Captured original embed confirms example video is 1:12.42 and follows the verified faster 1:12.36. Existing rejectedVideos classification is correct; do not attach this video as proof of 1:12.36. Original post predates July 7 repost."
+    },
+    {
+      "courseId": "rmx-choco-island-1",
+      "messageId": "729255263005310987",
+      "postedAt": "2020-07-05T08:40:03.608Z",
+      "curatedMessageId": "729255263005310987-verified",
+      "correctPlayer": "Kaguya",
+      "previousIncorrectPlayer": "Nu11",
+      "time": "1:12.71",
+      "laps": [
+        "36.36",
+        "36.35"
+      ],
+      "leaderboardMessageId": "729273261828997150",
+      "leaderboardAttachmentId": "729273261665288212",
+      "imageVisuallyReviewed": true,
+      "result": "Original embedded tweet author and visually inspected contemporary leaderboard both name Kaguya. Corrected curated player; retained Nu11 as the sharing message author through the original source."
     }
-  ]
+  ],
+  "validation": {
+    "dataBuild": "passed",
+    "pageDataTests": "3 passed",
+    "broaderDataTests": "34 passed, 4 failed; unrelated historical date/fallback assertions require reconciliation",
+    "attributionCheck": "generated records and submissions name Kaguya for 729255263005310987-verified"
+  }
 }
