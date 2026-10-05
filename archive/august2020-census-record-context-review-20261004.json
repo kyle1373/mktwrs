@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "August 2020 census pages 1\u2013107; targeted text/context checks only.",
+  "captureScope": "August 2020 census pages 1\u2013125; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -150,6 +150,37 @@
       "previousWRMessageId": "746182107482685531",
       "previousWRReportedTime": "1:00.31",
       "result": "Adjacent original split report and runner confirmation match existing verified 1:00.29 WR. Separate preceding 30.22/30.14 totals 1:00.36, not this run; preserve chronological separation."
+    },
+    {
+      "courseId": "snes-mario-circuit-1",
+      "player": "Wins",
+      "messageId": "743766616340299797",
+      "postedAt": "2020-08-14T09:42:59.851Z",
+      "videoCandidate": "https://youtu.be/v3PoyZBWaXs",
+      "time": "0:42.12",
+      "curatedMessageId": "743477365350334545-pirate-verified",
+      "result": "Original video post explicitly says 42.12 and matches existing visually verified video mapping. Record screenshot already appeared August 13; retain that earlier record date."
+    },
+    {
+      "courseId": "gba-bowser-s-castle-1r",
+      "player": "Tomegome",
+      "messageId": "743673170573394024",
+      "postedAt": "2020-08-14T03:31:40.644Z",
+      "videoCandidate": "https://www.youtube.com/watch?v=gMlt02DTps8",
+      "laps": [
+        "30.16",
+        "30.15"
+      ],
+      "curatedMessageId": "twitter-1293965096067059712-pirate-verified",
+      "result": "Captured embed supplies matching splits and channel identity for existing verified 1:00.31. Keep earlier original Twitter post date, not this Discord repost date."
+    },
+    {
+      "courseId": "snes-mario-circuit-1",
+      "messageId": "743718059503648788",
+      "postedAt": "2020-08-14T06:30:02.999Z",
+      "text": "21.11 / 20.98 @\u3048\u306a\u304c nice one Kaguya",
+      "curatedMessageId": "743665433143410720-pirate-verified",
+      "result": "Possible runner attribution conflict: curated 42.09 names Nu11 but nearby Wins explicitly calls referenced submitter Kaguya. Original image and leaderboard identity require review before changing runner; do not assume present display name identifies historical player."
     }
   ]
 }
