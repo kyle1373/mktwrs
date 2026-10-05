@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "August 2020 census pages 1\u201318; targeted text/context checks only.",
+  "captureScope": "August 2020 census pages 1\u201334; targeted text/context checks only.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -19,6 +19,41 @@
       "text": "We share WR!!!!",
       "curatedMessageId": "750030682561970317-summer-verified",
       "result": "Adjacent tie confirmation matches the already curated Wins 48.17. Preserve tie and do not create duplicate run."
+    },
+    {
+      "courseId": "snes-choco-island-2",
+      "messageId": "749225733640945664",
+      "postedAt": "2020-08-29T11:15:34.841Z",
+      "videoCandidate": "https://twitter.com/winsmkt/status/1299666577634332672",
+      "lap1": {
+        "player": "Wins",
+        "time": "24.07"
+      },
+      "lap2": {
+        "player": "Kazuo",
+        "time": "23.95"
+      },
+      "sameDayKazuoRun": {
+        "messageId": "749214491320909835",
+        "postedAt": "2020-08-29T10:30:54.463Z",
+        "laps": [
+          "24.49",
+          "23.95"
+        ],
+        "calculatedTime": "0:48.44"
+      },
+      "result": "Tweet explicitly combines individual best laps by different players and asks who will reach 47. Do not manufacture a 48.02 completed run or attach Wins lap-1 clip to Kazuo\u2019s completed run."
+    },
+    {
+      "courseId": "snes-choco-island-2",
+      "player": "Brandon",
+      "messageId": "749169521822269490",
+      "postedAt": "2020-08-29T07:32:12.899Z",
+      "videoCandidate": "https://youtu.be/oZ-PSNggVeo",
+      "lap2": "24.45",
+      "laterPostMessageId": "749182645602353212",
+      "laterPostedAt": "2020-08-29T08:24:21.852Z",
+      "result": "Original strategy video post predates the later explicit lap-2 caption. Title and caption identify lap 2 only; preserve footage without inventing lap 1 or full-run WR."
     }
   ]
 }
