@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "captureScope": "July 2020 census pages 1\u2013247; targeted text/context checks only.",
+  "captureScope": "July 2020 census pages 1\u2013263; targeted text/context checks only; all 6553 query messages captured, evidence review incomplete.",
   "proofReviewComplete": false,
   "checks": [
     {
@@ -410,6 +410,23 @@
       "result": "Full-run candidate retained. Earlier upload offer says lap 1 47.89, but video title says 47.98; these conflict. Derived 48.35 applies only if the title is correct. Resolve visually before assigning either split or inserting a record.",
       "earlierDescriptionMessageId": "728229308111388812",
       "earlierDescriptionLap1": "47.89"
+    },
+    {
+      "player": "Phillish",
+      "messageId": "728215284225409125",
+      "postedAt": "2020-07-02T11:47:33.345Z",
+      "claimedTime": "1:36.07",
+      "originalMistypedLaps": [
+        "37.99",
+        "38.08"
+      ],
+      "correctedFollowingLaps": [
+        "47.98",
+        "48.07"
+      ],
+      "correctionMessageId": "728226160990879784",
+      "correctionPostedAt": "2020-07-02T12:30:46.568Z",
+      "result": "Discussion explicitly flags lap sum error. Earlier claimed 1:36.07 and later corrected 47.98/48.07 (=1:36.05) do not establish one unambiguous run; keep separate candidates until screenshot/footage match. Do not silently repair the time or conflate these with the 1:36.33 video."
     }
   ],
   "validation": {
