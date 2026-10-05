@@ -191,7 +191,7 @@
       "lastCapturedRawTimestamp": "2023-06-03T13:19:36.497Z",
       "allCurrentPagesCaptured": true,
       "countReconciliationPending": true,
-      "uniqueMessagesIncludingGapRecaptures": 3394,
+      "uniqueMessagesIncludingGapRecaptures": 3421,
       "supplementalGapCaptures": [
         {
           "captureFile": "archive/tt-submission-april2023-gap-recapture-20261005.json.gz",
@@ -202,8 +202,59 @@
           "captureFile": "archive/tt-submission-may2023-gap-recapture-20261005.json.gz",
           "capturedUniqueMessages": 22,
           "newIds": 5
+        },
+        {
+          "captureFile": "archive/tt-submission-june2023-gap-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 8,
+          "newIds": 2
+        },
+        {
+          "captureFile": "archive/tt-submission-july2023-gap-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 11,
+          "newIds": 1
+        },
+        {
+          "captureFile": "archive/tt-submission-august2023-gap-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 143,
+          "newIds": 6
+        },
+        {
+          "captureFile": "archive/tt-submission-september2023-gap-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 97,
+          "newIds": 6
+        },
+        {
+          "captureFile": "archive/tt-submission-november2023-gap-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 70,
+          "newIds": 7
+        },
+        {
+          "captureFile": "archive/tt-submission-august2023-boundary-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 24,
+          "newIds": 1
+        },
+        {
+          "captureFile": "archive/tt-submission-newyear2023-boundary-recapture-20261005.json.gz",
+          "capturedUniqueMessages": 4,
+          "newIds": 4
         }
-      ]
+      ],
+      "knownSavedUtc2023OmissionsRemaining": 0,
+      "gapReconciliationFile": "archive/tt-submission-2023-gap-reconciliation-20261005.json",
+      "monthQueryValidations": {
+        "January": {
+          "reportedMessages": 265,
+          "capturedUniqueMessages": 265,
+          "complete": true,
+          "captureFile": "archive/tt-submission-january2023-month-recapture-20261005.json.gz"
+        },
+        "February": {
+          "reportedMessages": 301,
+          "capturedUniqueMessages": 301,
+          "complete": true,
+          "captureFile": "archive/tt-submission-february2023-month-recapture-20261005.json.gz"
+        }
+      }
     }
   },
   "discussion": {
@@ -431,7 +482,7 @@
     "laterBoundedReviews": "Winter2023throughFeb8;Exploration2023partial79of81attachments. Theseare notcoveragecertificates."
   },
   "nextActions": [
-    "Continue2023 missing-ID gap recaptures for June,July,August,September,November and boundarydates;3394unique IDs nowpreserved including15recovered April/May rows. Then2024\u20132026.",
+    "Continue2023 monthly IDvalidation fromMarch;January265 andFebruary301 fullycaptured;all40 knownolder-index omissions recovered. Reconcile3425 yearheadline then2024\u20132026.",
     "Review saved screenshots, full videos and adjacent messages; reconcile genuine WR progression tour by tour, prioritizing early gaps and 2020\u20132026 incomplete histories.",
     "Preserve original and backup media and verify published changes on the live site."
   ],
