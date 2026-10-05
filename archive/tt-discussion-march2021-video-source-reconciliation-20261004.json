@@ -192,7 +192,18 @@
       "reviewStatus": "pending-footage-and-record-match",
       "triage": "pending-full-run-review",
       "matchedRuns": [],
-      "footageReviewedInThisPass": false
+      "footageReviewedInThisPass": false,
+      "contextDisposition": {
+        "postedTime": "0:46.64",
+        "standingRecordAtDiscordPublication": {
+          "player": "Tomegome",
+          "time": "0:46.57",
+          "submittedAt": "2021-03-25T10:40:06.236Z",
+          "curatedMessageId": "yoshi-2021-02667544b861d893272e5949-04657"
+        },
+        "decision": "Later linked post is slower than the documented standing time. Preserve the video candidate; do not infer an earlier WR date without evidence.",
+        "footageReviewed": false
+      }
     },
     {
       "messageId": "824829123523772456",
@@ -362,7 +373,22 @@
       "reviewStatus": "pending-footage-and-record-match",
       "triage": "pending-full-run-review",
       "matchedRuns": [],
-      "footageReviewedInThisPass": false
+      "footageReviewedInThisPass": false,
+      "contextDisposition": {
+        "totalFromPostedSplits": "0:59.77",
+        "laps": [
+          "30.05",
+          "29.72"
+        ],
+        "standingRecordAtDiscordPublication": {
+          "player": "DIT",
+          "time": "0:59.55",
+          "submittedAt": "2021-03-22T10:13:33.679Z",
+          "curatedMessageId": "mario-2021-823499634966003712-05955"
+        },
+        "decision": "Does not establish a WR at this publication date. Preserve as supporting footage candidate; an earlier run date would need separate evidence.",
+        "footageReviewed": false
+      }
     },
     {
       "messageId": "823745826701443093",
@@ -552,7 +578,11 @@
       "reviewStatus": "pending-footage-and-record-match",
       "triage": "segmented-strategy-footage",
       "matchedRuns": [],
-      "footageReviewedInThisPass": false
+      "footageReviewedInThisPass": false,
+      "contextDisposition": {
+        "decision": "Author explicitly says the video combines best laps from different runs. Preserve as strategy evidence; exclude as proof of a completed run.",
+        "footageReviewed": false
+      }
     },
     {
       "messageId": "820228852642742272",
@@ -641,7 +671,12 @@
           "submittedAt": "2021-03-11T05:04:15.377Z"
         }
       ],
-      "footageReviewedInThisPass": false
+      "footageReviewedInThisPass": false,
+      "contextDisposition": {
+        "decision": "Posted splits 30.10 + 29.72 = 59.82 match existing runa tied WR. Local finish image visually rereviewed: 0:59.82, previous personal best 1:00.10.",
+        "localImageReviewed": "public/assets/proof/x2021-1369879011250245637.webp",
+        "footageReviewed": false
+      }
     },
     {
       "messageId": "819309943500701708",
@@ -680,5 +715,6 @@
       "footageReviewedInThisPass": false
     }
   ],
-  "historyComplete": false
+  "historyComplete": false,
+  "contextDispositionCount": 4
 }
