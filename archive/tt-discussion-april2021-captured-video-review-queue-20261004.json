@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-04",
   "capturedMessages": 3322,
-  "messagesWithVideoCandidates": 55,
+  "messagesWithVideoCandidates": 56,
   "proofReviewComplete": false,
   "rows": [
     {
@@ -334,7 +334,28 @@
         "https://youtube.com/watch?v=o00MQ-Zzx3Y&feature=share",
         "https://www.youtube.com/watch?v=o00MQ-Zzx3Y"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "full-footage-and-surrounding-context-reviewed",
+      "contextReview": {
+        "messageId": "832056572418195496",
+        "videoId": "o00MQ-Zzx3Y",
+        "courseId": "3ds-mario-circuit-r",
+        "player": "Ecliptix",
+        "time": "1:36.35",
+        "laps": [
+          "48.09",
+          "48.26"
+        ],
+        "previousBest": null,
+        "canonicalId": "832056356135108709-832056352209633311-april2021-support-reviewed",
+        "firstScreenshotAt": "2021-04-15T00:54:54.162Z",
+        "localOriginal": "archive/april2021-external-videos/o00MQ-Zzx3Y.mkv",
+        "bytes": 52325838,
+        "sha256": "e657cd1619f889100c20adb7aa2def5368d099ee602a02afaac4c9d05877cc7e",
+        "durationSeconds": 117.028,
+        "disposition": "full-footage-and-surrounding-context-reviewed",
+        "decision": "Complete countdown-to-finish footage confirms existing slower submission; exact lap transition visually read. First screenshot publication retained."
+      },
+      "reviewAudit": "archive/april2021-ecliptix-two-full-runs-and-omitted-twitch-review-20261006.json"
     },
     {
       "messageId": "831947141168758865",
@@ -362,7 +383,28 @@
         "https://youtube.com/watch?v=bhJcZZufL10&feature=share",
         "https://www.youtube.com/watch?v=bhJcZZufL10"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "full-footage-and-surrounding-context-reviewed",
+      "contextReview": {
+        "messageId": "831641957808996433",
+        "videoId": "bhJcZZufL10",
+        "courseId": "3ds-mario-circuit-r",
+        "player": "Ecliptix",
+        "time": "1:36.43",
+        "laps": [
+          "48.14",
+          "48.29"
+        ],
+        "previousBest": "1:36.67",
+        "canonicalId": "831620297831612461-831620292941971456-april2021-support-reviewed",
+        "firstScreenshotAt": "2021-04-13T20:02:09.761Z",
+        "localOriginal": "archive/april2021-external-videos/bhJcZZufL10.mkv",
+        "bytes": 50618320,
+        "sha256": "71e0c3054a51468fc2c060e4425207270a4556ca2482c24afa2c5c3567a5eaea",
+        "durationSeconds": 120.008,
+        "disposition": "full-footage-and-surrounding-context-reviewed",
+        "decision": "Complete countdown-to-finish footage confirms existing slower submission; exact lap transition visually read. First screenshot publication retained."
+      },
+      "reviewAudit": "archive/april2021-ecliptix-two-full-runs-and-omitted-twitch-review-20261006.json"
     },
     {
       "messageId": "831563543177592853",
@@ -1097,8 +1139,35 @@
         "decision": "Complete countdown-to-finish footage confirms existing personal best, not a global WR."
       },
       "reviewAudit": "archive/april2021-opening-external-video-context-review-20261006.json"
+    },
+    {
+      "messageId": "832043098938015784",
+      "postedAt": "2021-04-15T00:02:13.400Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/832043098938015784",
+      "videoCandidates": [
+        "https://clips.twitch.tv/TacitTentativeCobraFunRun-c2Swtmxc5lYQLf4B"
+      ],
+      "text": "Nitro shared Twitch1:10attempt and corrected title to1:00.10; discovered during broader-host census audit.",
+      "reviewStatus": "partial-run-video-and-surrounding-context-reviewed",
+      "contextReview": {
+        "messageId": "832043098938015784",
+        "videoId": "TacitTentativeCobraFunRun-c2Swtmxc5lYQLf4B",
+        "originalUrl": "https://clips.twitch.tv/TacitTentativeCobraFunRun-c2Swtmxc5lYQLf4B",
+        "player": "thecarlosec (shared by Nitro)",
+        "courseId": "snes-rainbow-road",
+        "postedAt": "2021-04-15T00:02:13.400Z",
+        "localOriginal": "archive/april2021-external-videos/1550037879.mp4",
+        "sha256": "6a33319a065f4fe3a2d93b4f1062fc1e18ce12b8ca823ea50538b009a07c8c7a",
+        "bytes": 23464656,
+        "durationSeconds": 60.000363,
+        "observedLap1": "29.33",
+        "disposition": "partial-run-video-and-surrounding-context-reviewed",
+        "decision": "Previously omitted Twitch clip discovered in complete captured message census. Footage begins at race timer02.79, shows lap1crossing29.33, and ends at60.02 just before finish. Author corrects title to1:00.10 attempt, but result is not visible; do not infer a verified final total or lap2."
+      },
+      "reviewAudit": "archive/april2021-ecliptix-two-full-runs-and-omitted-twitch-review-20261006.json"
     }
   ],
   "originalAttachmentMessagesReviewed": 18,
-  "externalVideoMessages": 37
+  "externalVideoMessages": 38,
+  "hostCoverageExpansion": "Added omitted Twitch message832043098938015784 after reviewing captured census for Twitch, Streamable, Vimeo and Google Drive links."
 }
