@@ -1,52 +1,91 @@
 {
   "checkedAt": "2026-10-06",
   "historyComplete": false,
-  "scope": "All152URLs in existing Tomegome CDX index; matches individual post IDs inside saved original conversations to prevent redundant rereading. Context presence is not media review or WR confirmation.",
+  "scope": "All152URLs in existing Tomegome CDX index, matching individual post IDs across London and Holiday saved original conversations. Archive capture date is not tour attribution. Context presence does not certify media or globalWR review.",
   "counts": {
-    "unreviewed": 28,
-    "saved-original-context-present": 94,
-    "retrieval-failed": 30
+    "saved-original-context-present": 115,
+    "retrieval-failed": 37
   },
   "posts": [
     {
       "postId": "1201899836183699456",
       "originalUrl": "https://twitter.com/tomegome_g/status/1201899836183699456",
       "captureTimestamp": "20191204065618",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1202017241580965888",
+          "file": "archive/london2019-tomegome-expanded-originals/1202017241580965888.html",
+          "sha256": "b5af77764cfb87892c8b84ef6f13ea093cc71731d075588a120f9ebe9462f900",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1202005768741904384",
       "originalUrl": "https://twitter.com/tomegome_g/status/1202005768741904384",
       "captureTimestamp": "20191204044630",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1202005768741904384",
+          "file": "archive/london2019-tomegome-expanded-originals/1202005768741904384.html",
+          "sha256": "cb66269b4a9e1d14820a21d912cefd407260b798e3913ff9b23db4a472b616d7",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1202008736216178688",
       "originalUrl": "https://twitter.com/tomegome_g/status/1202008736216178688",
       "captureTimestamp": "20191204074035",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1202008736216178688",
+          "file": "archive/london2019-tomegome-expanded-originals/1202008736216178688.html",
+          "sha256": "963d381551ee560c022d351f27f77f6243bb77d6ff2aaac5ae06412363617d08",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1202014432596918272",
       "originalUrl": "https://twitter.com/tomegome_g/status/1202014432596918272",
       "captureTimestamp": "20191204005425",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1202017241580965888",
+          "file": "archive/london2019-tomegome-expanded-originals/1202017241580965888.html",
+          "sha256": "b5af77764cfb87892c8b84ef6f13ea093cc71731d075588a120f9ebe9462f900",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1202017241580965888",
       "originalUrl": "https://twitter.com/tomegome_g/status/1202017241580965888",
       "captureTimestamp": "20191204003857",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1202017241580965888",
+          "file": "archive/london2019-tomegome-expanded-originals/1202017241580965888.html",
+          "sha256": "b5af77764cfb87892c8b84ef6f13ea093cc71731d075588a120f9ebe9462f900",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1202169093559705600",
@@ -2480,56 +2519,93 @@
       "originalUrl": "https://twitter.com/tomegome_g/status/1206163190574247937",
       "captureTimestamp": "20191215203949",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1206366401964822528",
       "originalUrl": "https://twitter.com/tomegome_g/status/1206366401964822528",
       "captureTimestamp": "20191216121336",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1206571715880353792",
       "originalUrl": "https://twitter.com/tomegome_g/status/1206571715880353792",
       "captureTimestamp": "20191216210200",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1206572309500198912",
       "originalUrl": "https://twitter.com/tomegome_g/status/1206572309500198912",
       "captureTimestamp": "20191216190520",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1206946638423625729",
       "originalUrl": "https://twitter.com/tomegome_g/status/1206946638423625729",
       "captureTimestamp": "20191217145358",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1207099438797209601",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207099438797209601",
       "captureTimestamp": "20191218004718",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1207099438797209601",
+          "file": "archive/london2019-tomegome-expanded-originals/1207099438797209601.html",
+          "sha256": "d87e66ee7116046124a4399adb0aaadc54c283d27be98ed55079f2cc9591153a",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1207149000685572096",
+          "file": "archive/london2019-tomegome-expanded-originals/1207149000685572096.html",
+          "sha256": "c349bb90568c179727d01f5f4d1b193ef4fc03661302d5d9a6c8afc0bd7e0f5c",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207099438797209601",
+          "file": "archive/holiday2019-tomegome-original-pages/1207099438797209601.html",
+          "sha256": "d87e66ee7116046124a4399adb0aaadc54c283d27be98ed55079f2cc9591153a",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207149000685572096",
+          "file": "archive/holiday2019-tomegome-original-pages/1207149000685572096.html",
+          "sha256": "c349bb90568c179727d01f5f4d1b193ef4fc03661302d5d9a6c8afc0bd7e0f5c",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207100147240292352",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207100147240292352",
       "captureTimestamp": "20191218005914",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207100147240292352",
+          "file": "archive/holiday2019-tomegome-original-pages/1207100147240292352.html",
+          "sha256": "c1e492313470f32e67fd2d3a8d9e289571bcbca2459912000022e0318d0c8343",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207101131681189888",
@@ -2570,6 +2646,48 @@
           "file": "archive/london2019-kaguya-originals/1207130494153871360.html",
           "sha256": "5f9e4babf22043d378fdb587dafdb94e5bdfb35f0dab9df5920918e58acb5edd",
           "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207101131681189888",
+          "file": "archive/holiday2019-tomegome-original-pages/1207101131681189888.html",
+          "sha256": "31fcc78fa44f602711752d85db70d285e4a1789301dec9e1b90e6179e30d8cf3",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207116064800161793",
+          "file": "archive/holiday2019-tomegome-original-pages/1207116064800161793.html",
+          "sha256": "4c5121baa5a262aaf1695aefc90a63dc6587c8cf4916a86a0a9bd7e14bed716f",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207121742042259456",
+          "file": "archive/holiday2019-tomegome-original-pages/1207121742042259456.html",
+          "sha256": "508fb545293a0f4e13f4d5eb5bbb09e44ddbdf39034a8d0f653a2ea0716274f6",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207112213275635712",
+          "file": "archive/holiday2019-kaguya-original-pages/1207112213275635712.html",
+          "sha256": "5e13001bb1324accf99dc65f0f92db28731ecf3bf1159a5adb5f6075333c8d96",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207118736227831809",
+          "file": "archive/holiday2019-kaguya-original-pages/1207118736227831809.html",
+          "sha256": "71347d20c9fbeff9716099f1f292bb8670e1f9ab07791ee72f2c62b3ab12782f",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207130494153871360",
+          "file": "archive/holiday2019-kaguya-original-pages/1207130494153871360.html",
+          "sha256": "5f9e4babf22043d378fdb587dafdb94e5bdfb35f0dab9df5920918e58acb5edd",
+          "textReviewStatus": "reviewed"
         }
       ],
       "directAttemptStatus": "not-in-expanded-ledger",
@@ -2600,6 +2718,34 @@
           "file": "archive/london2019-kaguya-originals/1207130494153871360.html",
           "sha256": "5f9e4babf22043d378fdb587dafdb94e5bdfb35f0dab9df5920918e58acb5edd",
           "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207116064800161793",
+          "file": "archive/holiday2019-tomegome-original-pages/1207116064800161793.html",
+          "sha256": "4c5121baa5a262aaf1695aefc90a63dc6587c8cf4916a86a0a9bd7e14bed716f",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207121742042259456",
+          "file": "archive/holiday2019-tomegome-original-pages/1207121742042259456.html",
+          "sha256": "508fb545293a0f4e13f4d5eb5bbb09e44ddbdf39034a8d0f653a2ea0716274f6",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207118736227831809",
+          "file": "archive/holiday2019-kaguya-original-pages/1207118736227831809.html",
+          "sha256": "71347d20c9fbeff9716099f1f292bb8670e1f9ab07791ee72f2c62b3ab12782f",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207130494153871360",
+          "file": "archive/holiday2019-kaguya-original-pages/1207130494153871360.html",
+          "sha256": "5f9e4babf22043d378fdb587dafdb94e5bdfb35f0dab9df5920918e58acb5edd",
+          "textReviewStatus": "reviewed"
         }
       ],
       "directAttemptStatus": "not-in-expanded-ledger",
@@ -2623,6 +2769,27 @@
           "file": "archive/london2019-kaguya-originals/1207130494153871360.html",
           "sha256": "5f9e4babf22043d378fdb587dafdb94e5bdfb35f0dab9df5920918e58acb5edd",
           "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207121742042259456",
+          "file": "archive/holiday2019-tomegome-original-pages/1207121742042259456.html",
+          "sha256": "508fb545293a0f4e13f4d5eb5bbb09e44ddbdf39034a8d0f653a2ea0716274f6",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207118736227831809",
+          "file": "archive/holiday2019-kaguya-original-pages/1207118736227831809.html",
+          "sha256": "71347d20c9fbeff9716099f1f292bb8670e1f9ab07791ee72f2c62b3ab12782f",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207130494153871360",
+          "file": "archive/holiday2019-kaguya-original-pages/1207130494153871360.html",
+          "sha256": "5f9e4babf22043d378fdb587dafdb94e5bdfb35f0dab9df5920918e58acb5edd",
+          "textReviewStatus": "reviewed"
         }
       ],
       "directAttemptStatus": "not-in-expanded-ledger",
@@ -2632,55 +2799,138 @@
       "postId": "1207149000685572096",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207149000685572096",
       "captureTimestamp": "20191218041910",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1207149000685572096",
+          "file": "archive/london2019-tomegome-expanded-originals/1207149000685572096.html",
+          "sha256": "c349bb90568c179727d01f5f4d1b193ef4fc03661302d5d9a6c8afc0bd7e0f5c",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207149000685572096",
+          "file": "archive/holiday2019-tomegome-original-pages/1207149000685572096.html",
+          "sha256": "c349bb90568c179727d01f5f4d1b193ef4fc03661302d5d9a6c8afc0bd7e0f5c",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207167033877520384",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207167033877520384",
       "captureTimestamp": "20191218053037",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207167033877520384",
+          "file": "archive/holiday2019-tomegome-original-pages/1207167033877520384.html",
+          "sha256": "3ed336738d6acd8f0e62af55525c9b2770f34dc97d674502eb65c8fcabc95105",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207180084647325696",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207180084647325696",
       "captureTimestamp": "20191218061418",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1207180084647325696",
+          "file": "archive/london2019-tomegome-expanded-originals/1207180084647325696.html",
+          "sha256": "3223c05a196d1bc4fe1b23311bbd2eaecbf91a9b6316a9eece6dd28c44da92f0",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207180084647325696",
+          "file": "archive/holiday2019-tomegome-original-pages/1207180084647325696.html",
+          "sha256": "3223c05a196d1bc4fe1b23311bbd2eaecbf91a9b6316a9eece6dd28c44da92f0",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207187591889469440",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207187591889469440",
       "captureTimestamp": "20191218064346",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1207187591889469440",
+          "file": "archive/london2019-tomegome-expanded-originals/1207187591889469440.html",
+          "sha256": "832bef494ee02b7745e173ead28bb8a232992b0245c6c783205f1418a53cc9a5",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207187591889469440",
+          "file": "archive/holiday2019-tomegome-original-pages/1207187591889469440.html",
+          "sha256": "832bef494ee02b7745e173ead28bb8a232992b0245c6c783205f1418a53cc9a5",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207232320358338560",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207232320358338560",
       "captureTimestamp": "20191218094607",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207232320358338560",
+          "file": "archive/holiday2019-tomegome-original-pages/1207232320358338560.html",
+          "sha256": "9a9ab68edf8e432308f740e014bfb958515b16c15cedbbacae9dbd5ae5bc16aa",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207270815026122753",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207270815026122753",
       "captureTimestamp": "20191218121952",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207270815026122753",
+          "file": "archive/holiday2019-tomegome-original-pages/1207270815026122753.html",
+          "sha256": "0c1592348e81aa6bb093d8879884691a1d55a9b6c5d4dd3052bafef713f1d6cb",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207281698641072128",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207281698641072128",
       "captureTimestamp": "20191218130229",
       "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207281698641072128",
+          "file": "archive/holiday2019-tomegome-original-pages/1207281698641072128.html",
+          "sha256": "65134ac47343a911cad10b7d991f28c8cc182ea3dbad56a66b43e1e8081c55f7",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207283325942894592",
+          "file": "archive/holiday2019-tomegome-original-pages/1207283325942894592.html",
+          "sha256": "b815065de7bf813a24675e9b0514ab1c1959b6ade7d0bce243cae7bb719a917e",
+          "textReviewStatus": "reviewed"
+        },
         {
           "ledger": "archive/london2019-astre-expanded-original-review-20261006.json",
           "pageId": "1207282923516448768",
@@ -2698,6 +2948,20 @@
       "captureTimestamp": "20191218130354",
       "savedContextSources": [
         {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207281698641072128",
+          "file": "archive/holiday2019-tomegome-original-pages/1207281698641072128.html",
+          "sha256": "65134ac47343a911cad10b7d991f28c8cc182ea3dbad56a66b43e1e8081c55f7",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207283325942894592",
+          "file": "archive/holiday2019-tomegome-original-pages/1207283325942894592.html",
+          "sha256": "b815065de7bf813a24675e9b0514ab1c1959b6ade7d0bce243cae7bb719a917e",
+          "textReviewStatus": "reviewed"
+        },
+        {
           "ledger": "archive/london2019-astre-expanded-original-review-20261006.json",
           "pageId": "1207282923516448768",
           "file": "archive/london2019-astre-expanded-originals/1207282923516448768.html",
@@ -2712,81 +2976,258 @@
       "postId": "1207309240462802944",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207309240462802944",
       "captureTimestamp": "20191218150045",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207309240462802944",
+          "file": "archive/holiday2019-tomegome-original-pages/1207309240462802944.html",
+          "sha256": "57f0f4ccc27b092ee0cdc5b2a9de875452b99c5bd51f874448a58af3b8fdcb79",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207326906502172672",
+          "file": "archive/holiday2019-tomegome-original-pages/1207326906502172672.html",
+          "sha256": "4c822fb6c6717e2fcde7fef8045527b281a84c557b5a9efbc69d3c7e71ea4e85",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207329491615277056",
+          "file": "archive/holiday2019-tomegome-original-pages/1207329491615277056.html",
+          "sha256": "28e120b1166f287a85e9ac3b05fe19669ab4b4f453270e29c6416567638a05a9",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207332987068547074",
+          "file": "archive/holiday2019-tomegome-original-pages/1207332987068547074.html",
+          "sha256": "2812b96f2b5f35721fafb8f4e33f1098c4d653d7c916ebb978eab5eea4e8a56e",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207314218522791937",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207314218522791937",
       "captureTimestamp": "20191218151942",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207314218522791937",
+          "file": "archive/holiday2019-tomegome-original-pages/1207314218522791937.html",
+          "sha256": "fddbf9b678ad92d06b309bf7cef25605a1660f46213b2876d23ae0cd460e7822",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207347543589318656",
+          "file": "archive/holiday2019-tomegome-original-pages/1207347543589318656.html",
+          "sha256": "a8aa728d9e6420fb0bfe5ee1f8c4199eb84caf68cc595e6693b2608413900315",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207348333393502208",
+          "file": "archive/holiday2019-tomegome-original-pages/1207348333393502208.html",
+          "sha256": "84862372506c6b5979e07a77f6fa561e45d07c2a270d6fa88d0d7028c2f56aea",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207479160513236992",
+          "file": "archive/holiday2019-tomegome-original-pages/1207479160513236992.html",
+          "sha256": "79e0c17371dfa729dd4b89fb870f13a600bc3cf8f53a8e571b0f1131882a99ef",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207485058069614592",
+          "file": "archive/holiday2019-tomegome-original-pages/1207485058069614592.html",
+          "sha256": "94864a8e5344ef2e22917f510f048eb24de4110e60e97a8f441c63f4d58773d9",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207340260436234240",
+          "file": "archive/holiday2019-kaguya-original-pages/1207340260436234240.html",
+          "sha256": "3cff6d3ae6213457da3d19e1444bdcb16bccd4d2dac387d53287dbe9db9063ba",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207473295970357248",
+          "file": "archive/holiday2019-kaguya-original-pages/1207473295970357248.html",
+          "sha256": "cac6c09dea5221dee2110c78d85f983df31d691f808eb92a97ef5359147ba340",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207480972343513088",
+          "file": "archive/holiday2019-kaguya-original-pages/1207480972343513088.html",
+          "sha256": "9e91362e3931a4ce84f93812209cac3dbb11807d27a6faf40bd9269470fe0613",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207326906502172672",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207326906502172672",
       "captureTimestamp": "20191218155413",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207326906502172672",
+          "file": "archive/holiday2019-tomegome-original-pages/1207326906502172672.html",
+          "sha256": "4c822fb6c6717e2fcde7fef8045527b281a84c557b5a9efbc69d3c7e71ea4e85",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207329491615277056",
+          "file": "archive/holiday2019-tomegome-original-pages/1207329491615277056.html",
+          "sha256": "28e120b1166f287a85e9ac3b05fe19669ab4b4f453270e29c6416567638a05a9",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207329491615277056",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207329491615277056",
       "captureTimestamp": "20191218161300",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207329491615277056",
+          "file": "archive/holiday2019-tomegome-original-pages/1207329491615277056.html",
+          "sha256": "28e120b1166f287a85e9ac3b05fe19669ab4b4f453270e29c6416567638a05a9",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207332987068547074",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207332987068547074",
       "captureTimestamp": "20191218162715",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207332987068547074",
+          "file": "archive/holiday2019-tomegome-original-pages/1207332987068547074.html",
+          "sha256": "2812b96f2b5f35721fafb8f4e33f1098c4d653d7c916ebb978eab5eea4e8a56e",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207346627326828544",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207346627326828544",
       "captureTimestamp": "20191218171756",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1207347272758874112",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207347272758874112",
       "captureTimestamp": "20191218172830",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1207347543589318656",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207347543589318656",
       "captureTimestamp": "20191218171802",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207347543589318656",
+          "file": "archive/holiday2019-tomegome-original-pages/1207347543589318656.html",
+          "sha256": "a8aa728d9e6420fb0bfe5ee1f8c4199eb84caf68cc595e6693b2608413900315",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207479160513236992",
+          "file": "archive/holiday2019-tomegome-original-pages/1207479160513236992.html",
+          "sha256": "79e0c17371dfa729dd4b89fb870f13a600bc3cf8f53a8e571b0f1131882a99ef",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207485058069614592",
+          "file": "archive/holiday2019-tomegome-original-pages/1207485058069614592.html",
+          "sha256": "94864a8e5344ef2e22917f510f048eb24de4110e60e97a8f441c63f4d58773d9",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207473295970357248",
+          "file": "archive/holiday2019-kaguya-original-pages/1207473295970357248.html",
+          "sha256": "cac6c09dea5221dee2110c78d85f983df31d691f808eb92a97ef5359147ba340",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-kaguya-originals-20261003.json",
+          "pageId": "1207480972343513088",
+          "file": "archive/holiday2019-kaguya-original-pages/1207480972343513088.html",
+          "sha256": "9e91362e3931a4ce84f93812209cac3dbb11807d27a6faf40bd9269470fe0613",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207348333393502208",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207348333393502208",
       "captureTimestamp": "20191218172232",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207348333393502208",
+          "file": "archive/holiday2019-tomegome-original-pages/1207348333393502208.html",
+          "sha256": "84862372506c6b5979e07a77f6fa561e45d07c2a270d6fa88d0d7028c2f56aea",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1207356154575147009",
       "originalUrl": "https://twitter.com/tomegome_g/status/1207356154575147009",
       "captureTimestamp": "20191218175410",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207356154575147009",
+          "file": "archive/holiday2019-tomegome-original-pages/1207356154575147009.html",
+          "sha256": "bbb3eae1980db9c98f1740c2723fe6301200db6155cdc50a3ee77582a72e7934",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/holiday2019-tomegome-originals-20261003.json",
+          "pageId": "1207466812968882176",
+          "file": "archive/holiday2019-tomegome-original-pages/1207466812968882176.html",
+          "sha256": "6ce4bf0756661a2b7c2ac6bac16e433adcbb1622d0c8ff19a5b9c41267d4ef3f",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "reviewState": "saved-original-context-present"
     }
-  ]
+  ],
+  "allIndexedUrlsHaveContextOrAttempt": true
 }
