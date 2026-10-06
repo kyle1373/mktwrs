@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-06",
+  "historyComplete": false,
+  "scope": "Reconcile saved Mumu original-page image flags against explicit existing visual-review reports. Text capture, image review and video review are separate states.",
+  "sourceReports": [
+    "archive/london2019-mumudidi-result-image-review-20261003.json",
+    "archive/london2019-kaguya-original-image-queue-20261003.json",
+    "archive/winter2019-astre-final-summary-image-review-20261006.json"
+  ],
+  "pagesUpdated": [
+    {
+      "pageId": "1202244714658963458",
+      "images": 4,
+      "matchedReviews": 4,
+      "mediaReviewStatus": "images-reviewed"
+    },
+    {
+      "pageId": "1202506478852153344",
+      "images": 1,
+      "matchedReviews": 1,
+      "mediaReviewStatus": "images-reviewed"
+    },
+    {
+      "pageId": "1202507815895457793",
+      "images": 2,
+      "matchedReviews": 2,
+      "mediaReviewStatus": "images-reviewed"
+    },
+    {
+      "pageId": "1202614380673847298",
+      "images": 2,
+      "matchedReviews": 1,
+      "mediaReviewStatus": "images-partially-reviewed"
+    },
+    {
+      "pageId": "1207238212340588546",
+      "images": 2,
+      "matchedReviews": 2,
+      "mediaReviewStatus": "images-reviewed"
+    }
+  ],
+  "failedRedownloadAlreadyReviewed": {
+    "image": "ELB_uBSUEAM-OqT.jpg",
+    "attempt": "https://pbs.twimg.com/media/ELB_uBSUEAM-OqT.jpg?name=orig",
+    "result": "404",
+    "existingReview": [
+      {
+        "report": "archive/london2019-kaguya-original-image-queue-20261003.json",
+        "file": "archive/london2019-nu11-expanded-original-images/ELB_uBSUEAM-OqT.jpg",
+        "sha256": "bd02d1dd866d7fea100cef601dd3463459b6a2ca76769e2d2fc124bcac2643e7",
+        "decision": "Reviewed image is not a TT result: score leaderboard, gliding challenge, article screenshot, shop or ordinary race.",
+        "url": "https://pbs.twimg.com/media/ELB_uBSUEAM-OqT.jpg"
+      }
+    ],
+    "decision": "Existing preserved original and visual review found. Do not treat failed redundant download as missing evidence or count another image review."
+  }
+}
