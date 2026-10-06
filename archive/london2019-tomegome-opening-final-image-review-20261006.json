@@ -34,16 +34,30 @@
       "url": "https://pbs.twimg.com/media/EMC4BGZU8AAb-AP.jpg?name=orig",
       "status": "failed",
       "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-      "visuallyReviewed": false,
+      "visuallyReviewed": true,
       "archivedOriginalAttempt": {
         "url": "https://web.archive.org/web/20191218053037id_/https://pbs.twimg.com/media/EMC4BGZU8AAb-AP.jpg",
         "status": "failed",
         "error": "HTTP Error 404: NOT FOUND"
       },
-      "archiveStatus": "unresolved-original-image-content",
+      "archiveStatus": "recovered-and-visually-classified-non-tt",
       "tourId": "tour-6",
       "tour": "London Tour",
-      "boundaryBasis": "2019-12-18T05:13:43Z precedes Holiday Tour reset at 06:00Z."
+      "boundaryBasis": "2019-12-18T05:13:43Z precedes Holiday Tour reset at 06:00Z.",
+      "savedPageOriginalAttempt": {
+        "url": "https://pbs.twimg.com/media/EMC4BGZU8AAb-AP.jpg",
+        "basis": "Exact data-image-url from saved original post HTML, not a new inferred source.",
+        "status": "retrieved",
+        "file": "archive/london2019-original-image-recheck-20261006/EMC4BGZU8AAb-AP.jpg"
+      },
+      "classification": "ranked-cup-standing",
+      "sha256": "bb856d77a4d4e99fa3a6c9c3e511b92b85bc147fe6ad5cf49a68c54b74c29843",
+      "visibleEvidence": {
+        "previousPlacement": 2,
+        "leagueFrom": 23,
+        "leagueTo": 25
+      },
+      "decision": "No Time Trial result, lap or WR claim shown; exclude from TT records."
     },
     {
       "postId": "1207167033877520384",
@@ -52,16 +66,30 @@
       "url": "https://pbs.twimg.com/media/EMC4BHfUEAEnSUg.jpg?name=orig",
       "status": "failed",
       "error": "HTTP Error 403: Forbidden",
-      "visuallyReviewed": false,
+      "visuallyReviewed": true,
       "archivedOriginalAttempt": {
         "url": "https://web.archive.org/web/20191218053037id_/https://pbs.twimg.com/media/EMC4BHfUEAEnSUg.jpg",
         "status": "failed",
         "error": "HTTP Error 404: NOT FOUND"
       },
-      "archiveStatus": "unresolved-original-image-content",
+      "archiveStatus": "recovered-and-visually-classified-non-tt",
       "tourId": "tour-6",
       "tour": "London Tour",
-      "boundaryBasis": "2019-12-18T05:13:43Z precedes Holiday Tour reset at 06:00Z."
+      "boundaryBasis": "2019-12-18T05:13:43Z precedes Holiday Tour reset at 06:00Z.",
+      "savedPageOriginalAttempt": {
+        "url": "https://pbs.twimg.com/media/EMC4BHfUEAEnSUg.jpg",
+        "basis": "Exact data-image-url from saved original post HTML, not a new inferred source.",
+        "status": "retrieved",
+        "file": "archive/london2019-original-image-recheck-20261006/EMC4BHfUEAEnSUg.jpg"
+      },
+      "classification": "ranked-cup-standing",
+      "sha256": "4a1bdbe5da295099ae2b90533c5e1f34593e686c6ad09c4f132c7377d051e915",
+      "visibleEvidence": {
+        "previousLeague": 23,
+        "playerScore": 51737,
+        "placement": 2
+      },
+      "decision": "No Time Trial result, lap or WR claim shown; exclude from TT records."
     }
   ]
 }
