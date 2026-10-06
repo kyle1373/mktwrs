@@ -163,7 +163,19 @@
           "caption": "Mario Kart Tour London - #1 All Cups - Ranked Cup / New Highscores?!?"
         }
       ],
-      "reviewStatus": "unreviewed"
+      "reviewStatus": "retrieval-failed-not-reviewed",
+      "retrievalAttempts": [
+        {
+          "format": "243+251",
+          "result": "HTTP403video-data"
+        },
+        {
+          "format": "134+140",
+          "result": "HTTP403video-data"
+        }
+      ],
+      "metadataFile": "archive/london2019-broadcast-review/dec12.info.json",
+      "retryDate": "2026-10-06"
     },
     {
       "videoId": "KZjvyhzMdWc",
@@ -237,7 +249,9 @@
           "caption": "LIVE - 2nd round today ! 90min stream - Mario Kart Tour London - l..."
         }
       ],
-      "reviewStatus": "unreviewed"
+      "reviewStatus": "sample-index-reviewed-supporting-time",
+      "fullMediaPreservation": "complete-with-audio",
+      "evidenceReport": "archive/london2019-carlos-dec8-broadcast-review-20261006.json"
     },
     {
       "videoId": "AiydGCz_0Yc",
