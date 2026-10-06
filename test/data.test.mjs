@@ -99,7 +99,10 @@ test("Winter 2019 uses original post dates and keeps unconfirmed runs out of WR 
   assert.equal(record.recordDate, "2019-11-23", "use the original image, not the later video date");
   assert.deepEqual(record.laps, ["33.61", "33.76"]);
   assert.equal(record.video, "https://x.com/tomegome_g/status/1198954478734458880");
-  assert.equal(record.durationDays, null, "the next record's date remains unknown");
+  const successor = mario.records.find(r => r.time === "1:07.36");
+  assert.equal(successor.recordDate, "2019-11-25");
+  assert(successor.additionalSources.some(s => s.url.endsWith("1198950368014585857")), "outgoing holder concedes the record in the original reply");
+  assert.equal(record.durationDays, 2, "the recovered successor ends this record on November 25");
   for (const time of ["1:07.98", "1:07.62", "1:07.49"])
     assert(!mario.records.some(r => r.time === time), "a verified run alone does not establish WR status");
   const choco = courses.find(c => c.id === "snes-choco-island-2");
@@ -183,7 +186,7 @@ test("every course record and submission has valid references and integer time u
       assert(ids.has(r.playerId), r.playerId);
       assert(Number.isInteger(r.timeCs) && r.timeCs > 0);
       assert(/^https:\/\//.test(r.source.url));
-      assert(r.mushrooms === null || r.mushrooms.every(Number.isInteger));
+      assert(r.mushrooms == null || r.mushrooms.every(Number.isInteger));
     }
     for (const a of c.appearances) {
       assert(tourIds.has(a.tourId));
@@ -304,7 +307,11 @@ test("Halloween 2019 table retains credited players and achievement days rather 
     const r = courses.find(c => c.id === courseId).records.find(r => r.playerId === playerId && r.time === time);
     assert(r);
     assert.equal(r.recordDate, date);
-    assert.equal(r.dateBasis, "source-date");
+    assert.equal(r.dateBasis, playerId === "yersoncz" ? "documented-date-override" : "source-date");
+    if (playerId === "yersoncz") {
+      assert.equal(r.dateOverride.source.range, "A20:J20");
+      assert.equal(r.dateOverride.date, date);
+    }
     assert.equal(r.observedAt, "2019-10-26T02:37:11.857Z");
     assert(!r.video || !/\.(png|jpe?g)(\?|$)/i.test(r.video));
     assert(r.proofImageLocal.startsWith("/assets/proof/"));
@@ -715,14 +722,16 @@ test("Hammer Bro split reports do not invent achievement dates or promote slower
   assertPublicationDateOrUnknown(frappe.current);
   assert.equal(frappe.current.durationDays, null);
   for (const [id, time, splits] of [
-    ["n64-frappe-snowland", "1:23.53", ["41.67", "41.86"]],
-    ["gcn-yoshi-circuit-r", "1:33.26", ["46.62", "46.64"]],
+    ["n64-frappe-snowland", "1:22.14", ["40.92", "41.22"]],
+    ["gcn-yoshi-circuit-r", "1:31.74", ["45.91", "45.83"]],
   ]) {
     const course = courses.find(c => c.id === id);
     const video = fastestVideo(course);
     assert.equal(video.time, time);
     assert.deepEqual(video.laps, splits);
     assert.equal(video.isCurrent, false);
+    assert.equal(video.playerId, "tomegome");
+    assert(video.videoVerified && video.videoPreservation.sha256);
     assert(!course.records.some(r => r.time === time));
   }
 });
@@ -733,16 +742,17 @@ test("Baby Rosalina recovered footage supplies a fallback without creating a WR"
   const footage = fastestVideo(course);
   assert.equal(course.current.time, "1:01.83");
   assert.equal(course.current.videoAvailability, "unavailable");
-  assert.equal(footage.time, "1:02.80");
-  assert.equal(footage.playerId, "heria");
+  assert.equal(footage.time, "1:02.56");
+  assert.equal(footage.playerId, "tomegome");
   assert.equal(footage.isCurrent, false);
   assert.equal(footage.includeInProgression, false);
-  assert.deepEqual(footage.laps, ["31.36", "31.44"]);
-  assert.equal(footage.derivedLap, 2);
-  assert.equal(footage.submittedAt, "2020-03-24T03:02:04.385Z");
-  assert.match(footage.video, /1242285007546150912/);
-  assert(!course.records.some(r => r.time === "1:02.80"));
-  assert(fs.existsSync("public" + footage.proofImage));
+  assert.deepEqual(footage.laps, ["31.21", "31.35"]);
+  assert(footage.videoVerified && footage.videoPreservation.sha256);
+  assert.equal(footage.submittedAt, "2020-03-12T10:50:14Z");
+  assert.match(footage.video, /1238054687355465728/);
+  assert(!course.records.some(r => ["1:02.56", "1:02.80"].includes(r.time)));
+  assert(footage.additionalSources.some(s => s.time === "1:02.33"), "earlier faster rival report prevents WR promotion");
+  assert(fs.existsSync("public" + footage.proofImageLocal));
 });
 
 test("Sunset Wilds R 1:10.53 keeps its February original date across October migration", () => {
