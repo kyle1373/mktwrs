@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-06",
+  "historyComplete": false,
+  "queries": [
+    {
+      "imageUrl": "https://pbs.twimg.com/media/ELdeeEMUcAA2_T4.jpg",
+      "query": "https://web.archive.org/cdx/search/cdx?url=pbs.twimg.com/media/ELdeeEMUcAA2_T4.jpg*&output=json&filter=statuscode:200&collapse=urlkey",
+      "result": "",
+      "error": "curl: (28) Operation timed out after 25002 milliseconds with 0 bytes received\n",
+      "returncode": 28
+    },
+    {
+      "imageUrl": "https://pbs.twimg.com/media/ELgspBbU4AAhHVd.jpg",
+      "query": "https://web.archive.org/cdx/search/cdx?url=pbs.twimg.com/media/ELgspBbU4AAhHVd.jpg*&output=json&filter=statuscode:200&collapse=urlkey",
+      "result": "[[\"urlkey\",\"timestamp\",\"original\",\"mimetype\",\"statuscode\",\"digest\",\"length\"],\n[\"com,twimg,pbs)/media/elgspbbu4aahhvd.jpg\",\"20191211173949\",\"https://pbs.twimg.com/media/ELgspBbU4AAhHVd.jpg\",\"image/jpeg\",\"200\",\"PNXOWTPTOHGJP2PG2RKPTYEZ7IEKIKQD\",\"85290\"],\n[\"com,twimg,pbs)/media/elgspbbu4aahhvd.jpg:large\",\"20191211173950\",\"https://pbs.twimg.com/media/ELgspBbU4AAhHVd.jpg:large\",\"image/jpeg\",\"200\",\"QESOFYDQPLF2AKLUEYF62MIYWUAKKH5K\",\"158793\"]]\n",
+      "error": "",
+      "returncode": 0
+    },
+    {
+      "imageUrl": "https://pbs.twimg.com/media/ELKJYOKVAAAgvxI.jpg",
+      "query": "https://web.archive.org/cdx/search/cdx?url=pbs.twimg.com/media/ELKJYOKVAAAgvxI.jpg*&output=json&filter=statuscode:200&collapse=urlkey",
+      "result": "",
+      "error": "curl: (28) Operation timed out after 25005 milliseconds with 0 bytes received\n",
+      "returncode": 28
+    },
+    {
+      "imageUrl": "https://pbs.twimg.com/media/ELKcWFxUYAA7V1h.jpg",
+      "query": "https://web.archive.org/cdx/search/cdx?url=pbs.twimg.com/media/ELKcWFxUYAA7V1h.jpg*&output=json&filter=statuscode:200&collapse=urlkey",
+      "result": "",
+      "error": "curl: (28) Operation timed out after 25001 milliseconds with 0 bytes received\n",
+      "returncode": 28
+    },
+    {
+      "imageUrl": "https://pbs.twimg.com/media/ELKnUmNU4AAM37w.jpg",
+      "query": "https://web.archive.org/cdx/search/cdx?url=pbs.twimg.com/media/ELKnUmNU4AAM37w.jpg*&output=json&filter=statuscode:200&collapse=urlkey",
+      "result": "[[\"urlkey\",\"timestamp\",\"original\",\"mimetype\",\"statuscode\",\"digest\",\"length\"],\n[\"com,twimg,pbs)/media/elknumnu4aam37w.jpg\",\"20191207084421\",\"https://pbs.twimg.com/media/ELKnUmNU4AAM37w.jpg\",\"image/jpeg\",\"200\",\"674O2OTG46B2UVPATKKPLSGG6EIFKPHM\",\"210854\"],\n[\"com,twimg,pbs)/media/elknumnu4aam37w.jpg:large\",\"20191207084421\",\"https://pbs.twimg.com/media/ELKnUmNU4AAM37w.jpg:large\",\"image/jpeg\",\"200\",\"WEMV4GVD7QVFB64Q526ULUTYWRUNRI2Z\",\"234946\"]]\n",
+      "error": "",
+      "returncode": 0
+    }
+  ]
+}
