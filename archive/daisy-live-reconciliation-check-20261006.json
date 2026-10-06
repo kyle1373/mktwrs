@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-06",
+  "url": "https://mktwrs.com/data/courses/3ds-daisy-hills.json",
+  "historyComplete": false,
+  "liveRecords": [
+    {
+      "id": "curated-london-2019-652287242366091294",
+      "time": "1:23.03",
+      "recordDate": "2019-12-05",
+      "durationDays": 5,
+      "proofImageLocal": "/assets/proof/london2019-nu11-1202610650087743490-12303.webp"
+    },
+    {
+      "id": "curated-london2019-nu11-1204353952721932288-12301",
+      "time": "1:23.01",
+      "recordDate": "2019-12-10",
+      "durationDays": 7,
+      "proofImageLocal": "/assets/proof/london2019-nu11-1204353952721932288-12301.webp"
+    },
+    {
+      "id": "896332281675911168",
+      "time": "1:22.99",
+      "recordDate": "2019-12-17",
+      "durationDays": 1,
+      "proofImageLocal": null
+    }
+  ],
+  "finding": "Live JSON exposes three WR rows, but final 1:22.99 still uses December17 and lacks recovered local proof. Corrected local data uses December10. Deployment remains behind local evidence.",
+  "railwayObserved": {
+    "activeDeploymentId": "1a081450-7292-45ae-9d60-76c6bf7fcf99",
+    "activeDescription": "Date Nu11 London Yoshi final from original summary and update tour audit",
+    "latestQueuedDeploymentId": "f836a3d0-31c6-4b6a-b4ed-48773a69c74a",
+    "latestQueuedDescription": "Classify remaining London short-video sources without certifying tour completion",
+    "queueReason": "Waiting for build slot"
+  },
+  "localExpectedRecords": [
+    {
+      "time": "1:23.03",
+      "date": "2019-12-05",
+      "days": 5
+    },
+    {
+      "time": "1:23.01",
+      "date": "2019-12-10",
+      "days": 0
+    },
+    {
+      "time": "1:22.99",
+      "date": "2019-12-10",
+      "days": 8
+    }
+  ],
+  "validation": "7 targeted London, proof-transfer and date tests passed"
+}
