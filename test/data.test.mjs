@@ -744,3 +744,15 @@ test("Baby Rosalina recovered footage supplies a fallback without creating a WR"
   assert(!course.records.some(r => r.time === "1:02.80"));
   assert(fs.existsSync("public" + footage.proofImage));
 });
+
+test("Sunset Wilds R 1:10.53 keeps its February original date across October migration", () => {
+  const course = courses.find(c => c.id === "gba-sunset-wilds-r");
+  const record = course.records.find(r => r.timeCs === 7053 && r.playerId === "superfx");
+  assert.equal(record.recordDate, "2021-02-19");
+  assert.equal(record.submittedAt, "2021-02-19T07:59:12.925Z");
+  assert.deepEqual(record.laps, ["35.28", "35.25"]);
+  assert.equal(record.durationDays, 9);
+  assert(record.additionalSources.some(s => s.messageId === "812231805318332417"));
+  assert.match(record.video, /aNjiaWm-h9Y/);
+  assert(record.videoBackup?.url);
+});
