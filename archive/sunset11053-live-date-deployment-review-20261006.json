@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-06",
+  "historyComplete": false,
+  "courseId": "gba-sunset-wilds-r",
+  "recordId": "896333779449286676",
+  "time": "1:10.53",
+  "localRecordDate": "2021-02-19",
+  "firstScreenshotPostedAt": "2021-02-19T07:59:12.925Z",
+  "laps": [
+    "35.28",
+    "35.25"
+  ],
+  "playableDays": 9,
+  "liveBrowserObservation": "1:10.53 row still shows dash; old deployed archive.",
+  "deploymentObservation": {
+    "latestCommit": "328dec89",
+    "deploymentId": "9fa14f8f-3be7-49ee-957a-ec878f7af2d8",
+    "status": "Queued; waiting for build slot; initialization not started"
+  },
+  "remainingUndatedVideoRecords": [
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "time": "1:01.83",
+      "video": "https://youtu.be/BB1igPy_bXU",
+      "dateIssue": "Contemporary share date is known; original publication/achievement date unresolved, unavailable video."
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "time": "1:13.93",
+      "video": "https://youtu.be/J2IKB4kx5aU",
+      "dateIssue": "Original date unresolved; unavailable video."
+    }
+  ],
+  "priorDeploymentFailure": {
+    "deploymentId": "a0269670-77ea-4ecd-8301-a95cd40b9316",
+    "commit": "2bf8ede3",
+    "error": "Turbopack persistent cache checksum mismatch",
+    "correctiveCommit": "5b0f3bee",
+    "currentConfig": "experimental.turbopackFileSystemCacheForBuild=false"
+  },
+  "validation": {
+    "recordDateTests": "4 passed",
+    "exactSunsetRecordAssertion": "passed",
+    "localBrowserRow": "2021-02-19 | 1:10.53 | SuperFX | 9 playable days | 35.28 | 35.25"
+  }
+}
