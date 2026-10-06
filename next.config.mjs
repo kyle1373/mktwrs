@@ -1,5 +1,9 @@
 export default {
   poweredByHeader: false,
+  experimental: {
+    // Railway restored a corrupted persistent Turbopack build cache.
+    turbopackFileSystemCacheForBuild: false,
+  },
   async headers() {
     return [
       {
