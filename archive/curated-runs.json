@@ -19098,6 +19098,13 @@
         "url": "https://discord.com/channels/629221606064914442/636461740162416640/798813931098472508",
         "channel": "tt-discussion",
         "messageId": "798813931098472508"
+      },
+      {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/798934715649884160",
+        "channel": "tt-discussion",
+        "messageId": "798934715649884160",
+        "publishedAt": "2021-01-13T15:21:19.700Z",
+        "kind": "route-advice-repost-of-existing-original-video"
       }
     ]
   },
@@ -19170,14 +19177,23 @@
     "notes": [
       "Original result image visually read and compared with contemporary submissions. UTC date records the preserved publication; race completion instant is not claimed.",
       "Both laps recovered from the original submission or adjacent messages; sum checked against the total.",
-      "Astre result reposted by a community member; the submitter is not substituted for the runner."
+      "Astre result reposted by a community member; the submitter is not substituted for the runner.",
+      "Original screenshot re-read: new 1:03.84, previous best 1:03.90. Written original splits 29.69/34.15. Prior 1:03.90 preserved separately with unresolved chronology, not silently added to WR progression."
     ],
     "additionalSources": [
       {
         "url": "https://twitter.com/Astre_HD/status/1349398358159478794",
-        "kind": "original-result"
+        "kind": "original-result",
+        "publishedAt": "2021-01-13T16:50:13.851Z"
       }
-    ]
+    ],
+    "achievedAt": "2021-01-13",
+    "datePrecision": "day",
+    "proofImageLocal": "/assets/proof/january2021-astre-1349398358159478794.webp",
+    "dateOverride": {
+      "date": "2021-01-13",
+      "reason": "Original social screenshot published 2021-01-13T16:50:13.851Z predates Discord repost at 16:57:29.986Z; first-publication rule."
+    }
   },
   {
     "messageId": "799026539400265738-n64-kalimari-desert-2",
@@ -177640,6 +177656,32 @@
     ],
     "notes": [
       "Original result image personally viewed: 1:04.17, previous best 1:04.39, Kalimari Desert 2. Original embed supplies Split 1:29.75, Split 2:34.42; sum verified. Romain reposted Astre result, not his own. First-publication date comes from original post ID corroborated by visible embed date. Slower than already published Kaguya 1:03.92; not WR progression. Image only, no video or unknown extra lap data invented."
+    ]
+  },
+  {
+    "messageId": "798958917982879775-previous-best-10390-unresolved",
+    "player": "Astre",
+    "courseId": "n64-kalimari-desert-2",
+    "time": "1:03.90",
+    "laps": [
+      null,
+      null
+    ],
+    "status": "documented-submission",
+    "includeInProgression": false,
+    "submittedAt": null,
+    "observedAt": "2021-01-13T16:50:13.851Z",
+    "dateUnresolved": true,
+    "proofField": "previous-best",
+    "proofImage": "https://pbs.twimg.com/media/EroGp8VW4AYdJzM.jpg:large",
+    "proofImageLocal": "/assets/proof/january2021-astre-1349398358159478794.webp",
+    "proofImageVerified": true,
+    "source": {
+      "url": "https://twitter.com/Astre_HD/status/1349398358159478794",
+      "channel": "social-original"
+    },
+    "notes": [
+      "Earlier Astre 1:03.90 personally read in previous-best field of original 1:03.84 screenshot. Run occurred before this publication; exact earlier date and splits unknown. It is faster than Kaguya 1:03.92 but WR chronology is not yet established; do not infer date, laps, or reign from later screenshot. Requires targeted intermediate-run search."
     ]
   }
 ]
