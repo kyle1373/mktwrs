@@ -228,7 +228,7 @@
         "https://www.youtube.com/watch?v=O_ByD9fz4tU&ab_channel=SuperFX",
         "https://www.youtube.com/watch?v=O_ByD9fz4tU"
       ],
-      "reviewStatus": "indexed-to-existing-verified-video;surrounding-context-review-not-certified",
+      "reviewStatus": "existing-verified-video-and-surrounding-context-reconciled",
       "matchedVerifiedRuns": [
         {
           "videoId": "O_ByD9fz4tU",
@@ -239,8 +239,15 @@
           "canonicalWrStatus": "community-wr"
         }
       ],
-      "reviewAudit": "archive/discussion-known-verified-video-index-reconciliation-20261005.json",
-      "matchBasis": "Exact YouTube video ID; prior canonical visual verification reused. No new footage verification or WR/date inference."
+      "reviewAudit": "archive/april2021-april21-reposts-and-restricted-social-review-20261006.json",
+      "matchBasis": "Exact YouTube video ID; prior canonical visual verification reused. No new footage verification or WR/date inference.",
+      "contextReview": {
+        "messageId": "834480942299086909",
+        "videoId": "O_ByD9fz4tU",
+        "canonicalId": "ninja-2021-832507847140179988-13584",
+        "disposition": "existing-verified-video-and-surrounding-context-reconciled",
+        "decision": "SuperFX shares own95.84 video toKazuo during manual-drift discussion. Same run already visually verified against full preserved original Discord recording. Retain April16 first screenshot publication, not April21video repost."
+      }
     },
     {
       "messageId": "834450134145695774",
@@ -251,7 +258,15 @@
         "https://youtu.be/J6qWL0dDQC0",
         "https://www.youtube.com/watch?v=J6qWL0dDQC0"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "surrounding-context-reviewed-video-unavailable",
+      "contextReview": {
+        "messageId": "834450134145695774",
+        "videoId": "J6qWL0dDQC0",
+        "canonicalId": "ninja-2021-833292407713169418-05899",
+        "disposition": "surrounding-context-reviewed-video-unavailable",
+        "decision": "Wins shares Kaguya58.99 NinjaTour video. YouTube currently says unavailable anymore; dated April18 original screenshot with29.23/29.76 supports existing run. Sharing April21 does not reset record date or certify footage."
+      },
+      "reviewAudit": "archive/april2021-april21-reposts-and-restricted-social-review-20261006.json"
     },
     {
       "messageId": "834366273433239602",
@@ -279,7 +294,7 @@
         "https://youtu.be/KZpAAQrVVYE",
         "https://www.youtube.com/watch?v=KZpAAQrVVYE"
       ],
-      "reviewStatus": "indexed-to-existing-verified-video;surrounding-context-review-not-certified",
+      "reviewStatus": "existing-verified-video-and-surrounding-context-reconciled",
       "matchedVerifiedRuns": [
         {
           "videoId": "KZpAAQrVVYE",
@@ -290,8 +305,15 @@
           "canonicalWrStatus": "community-wr"
         }
       ],
-      "reviewAudit": "archive/discussion-known-verified-video-index-reconciliation-20261005.json",
-      "matchBasis": "Exact YouTube video ID; prior canonical visual verification reused. No new footage verification or WR/date inference."
+      "reviewAudit": "archive/april2021-april21-reposts-and-restricted-social-review-20261006.json",
+      "matchBasis": "Exact YouTube video ID; prior canonical visual verification reused. No new footage verification or WR/date inference.",
+      "contextReview": {
+        "messageId": "834321157087035393",
+        "videoId": "KZpAAQrVVYE",
+        "canonicalId": "706643302614827050-verified",
+        "disposition": "existing-verified-video-and-surrounding-context-reconciled",
+        "decision": "Wins replies to forgotten-strategy message with Kazuo previous-tour tied83.88 video. Astre explicitly names previous WR83.88 byKaguya andKazuo. Retain May3,2020 first record publication; do not create April2021WR."
+      }
     },
     {
       "messageId": "834233709619445801",
@@ -301,7 +323,14 @@
       "videoCandidates": [
         "https://twitter.com/enumarikatu/status/1384673291856609281?s=21"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "surrounding-context-reviewed-original-access-restricted",
+      "contextReview": {
+        "messageId": "834233709619445801",
+        "videoId": "1384673291856609281",
+        "disposition": "surrounding-context-reviewed-original-access-restricted",
+        "decision": "Original X page explicitly limits who can view this post. Discord embed contains shortened link but no recoverable total or lap data. No run/date invented; future retrieval lead remains."
+      },
+      "reviewAudit": "archive/april2021-april21-reposts-and-restricted-social-review-20261006.json"
     },
     {
       "messageId": "833432247448764457",
@@ -1209,5 +1238,18 @@
   ],
   "originalAttachmentMessagesReviewed": 18,
   "externalVideoMessages": 38,
-  "hostCoverageExpansion": "Added omitted Twitch message832043098938015784 after reviewing captured census for Twitch, Streamable, Vimeo and Google Drive links."
+  "hostCoverageExpansion": "Added omitted Twitch message832043098938015784 after reviewing captured census for Twitch, Streamable, Vimeo and Google Drive links.",
+  "reviewStatusCounts": {
+    "indexed-to-existing-verified-video;surrounding-context-review-not-certified": 4,
+    "pending-footage-and-record-match": 7,
+    "original-attachment-and-surrounding-context-reviewed": 18,
+    "existing-verified-video-and-surrounding-context-reconciled": 9,
+    "surrounding-context-reviewed-video-unavailable": 2,
+    "surrounding-context-reviewed-original-access-restricted": 2,
+    "full-footage-and-surrounding-context-reviewed": 9,
+    "partial-technique-video-and-surrounding-context-reviewed": 1,
+    "original-image-and-surrounding-context-reviewed": 3,
+    "partial-run-video-and-surrounding-context-reviewed": 1
+  },
+  "historyComplete": false
 }
