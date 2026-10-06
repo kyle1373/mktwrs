@@ -12,7 +12,10 @@
       "videoCandidates": [
         "https://twitter.com/michinori0077/status/1365741231402229760?s=21"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "result-image-social-post-reviewed-no-video-found",
+      "reviewAudit": "archive/february2021-unavailable-video-and-result-image-reconciliation-20261006.json",
+      "canonicalMessageId": "815326145805025290-february2021-original-result-support",
+      "reviewDecision": "Kazuo shared Michinori’s result image; runner is Michinori.90.33,previousbest90.61,45.24/45.09. Original social post timestamp recovered from status ID; screenshot is visible in preserved social embed. Slower than Nu1190.11 from February25."
     },
     {
       "messageId": "815059051045322772",
@@ -111,7 +114,10 @@
       "videoCandidates": [
         "https://twitter.com/_kaguya_games/status/1364528878492864518?s=21"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "result-image-social-post-reviewed-no-video-found",
+      "reviewAudit": "archive/february2021-unavailable-video-and-result-image-reconciliation-20261006.json",
+      "canonicalMessageId": "814086392643977217-february2021-original-result-support",
+      "reviewDecision": "Kaguya alias Nu11 directly posted original90.44 screenshot with45.20/45.24 before social repost. Previousbest90.71. DIT90.35 was already published09:13UTC; this10:48UTC run is supporting, not a WR."
     },
     {
       "messageId": "814052287227625522",
@@ -163,7 +169,10 @@
         "https://youtu.be/he1NmCGLZAQ",
         "https://www.youtube.com/watch?v=he1NmCGLZAQ"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "same-unavailable-video-repost-indexed",
+      "reviewAudit": "archive/february2021-unavailable-video-and-result-image-reconciliation-20261006.json",
+      "originalVideoMessageId": "812502089200435223",
+      "reviewDecision": "Later repost of the identical unavailable YouTube ID; preserves reference without inventing a second run or substituting its date."
     },
     {
       "messageId": "813102027017027665",
@@ -174,7 +183,10 @@
         "https://youtube.com/watch?v=FveAfnECK_I&feature=share",
         "https://www.youtube.com/watch?v=FveAfnECK_I"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "same-unavailable-video-repost-indexed",
+      "reviewAudit": "archive/february2021-unavailable-video-and-result-image-reconciliation-20261006.json",
+      "originalVideoMessageId": "812012704142196798",
+      "reviewDecision": "Later repost of the identical unavailable YouTube ID; preserves reference without inventing a second run or substituting its date."
     },
     {
       "messageId": "812502089200435223",
@@ -185,7 +197,10 @@
         "https://youtu.be/he1NmCGLZAQ",
         "https://www.youtube.com/watch?v=he1NmCGLZAQ"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "unavailable-video-matched-original-result",
+      "reviewAudit": "archive/february2021-unavailable-video-and-result-image-reconciliation-20261006.json",
+      "canonicalMessageId": "812498693009178624-february2021-original-result-support",
+      "reviewDecision": "Original screenshot shows61.11, previousbest61.17. Adjacent Auto and video title identify automatic mode. Prior .50/.67 belongs to preceding61.17 screenshot, not this run; exact splits withheld. Slower than Nu1160.73."
     },
     {
       "messageId": "812475699805552670",
@@ -244,7 +259,9 @@
         "https://youtube.com/watch?v=FveAfnECK_I&feature=share",
         "https://www.youtube.com/watch?v=FveAfnECK_I"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "unavailable-explanatory-video-context-reviewed-time-unresolved",
+      "reviewAudit": "archive/february2021-unavailable-video-and-result-image-reconciliation-20261006.json",
+      "reviewDecision": "Original and repost nearby discussion explicitly concern Donut Plains2, lap2 lost time, missed MT, and comparison with WR. No final time or exact pair of splits supplied for this video. Later30.82/30.81 screenshot is a different run and must not be conflated. YouTube reports unavailable; preserve unresolved lead without invented canonical run."
     },
     {
       "messageId": "811667023754297415",
@@ -503,7 +520,10 @@
         "https://youtu.be/QeAcGGNJIJA",
         "https://www.youtube.com/watch?v=QeAcGGNJIJA"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "unavailable-video-matched-original-result",
+      "reviewAudit": "archive/february2021-unavailable-video-and-result-image-reconciliation-20261006.json",
+      "canonicalMessageId": "808463595993169950-february2021-original-result-support",
+      "reviewDecision": "Same author’s adjacent .74/.88 resolves to39.74/39.88 and sums79.62. Original screenshot shows previousbest79.70. Slower than Nu1178.95 from February7."
     },
     {
       "messageId": "807821091884105738",
@@ -604,13 +624,16 @@
     }
   ],
   "statusCounts": {
-    "pending-footage-and-record-match": 7,
+    "result-image-social-post-reviewed-no-video-found": 2,
     "completed-supporting-video-preserved-reviewed": 5,
     "first-lap-video-preserved-reviewed": 3,
     "partial-route-clip-preserved-reviewed": 3,
     "existing-canonical-social-reference-matched-media-pending": 7,
     "indexed-to-existing-verified-video;surrounding-context-review-not-certified": 12,
-    "existing-verified-distinct-tie-matched": 1
+    "same-unavailable-video-repost-indexed": 2,
+    "unavailable-video-matched-original-result": 2,
+    "existing-verified-distinct-tie-matched": 1,
+    "unavailable-explanatory-video-context-reviewed-time-unresolved": 1
   },
   "socialMediaRecoveryPending": 7
 }
