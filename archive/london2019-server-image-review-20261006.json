@@ -20,8 +20,8 @@
   "historyComplete": false,
   "notes": [
     "Search date boundaries reflect Discord local timezone; filter captured timestamps against exact tour UTC boundaries during reconciliation.",
-    "289 direct attachments reviewed across all 12 search pages. Existing Daisy Hills evidence rechecked; four cup screens include slower Yoshi Circuit TT results preserved as supporting evidence.",
-    "All pages of this query reviewed. Exact opening boundary still needs supplemental search: query starts December 4 at 08:00 UTC, two hours after tour start. Original linked social media and global opening WR candidates require reconciliation before tour completeness."
+    "291 direct attachments reviewed, including opening two-hour boundary. Existing Daisy Hills evidence rechecked; four cup screens include slower Yoshi Circuit TT results preserved as supporting evidence.",
+    "All 12 query pages and exact opening boundary reviewed. Original linked social media, global opening WR candidates, and independent MC2/Yoshi progression still require reconciliation before tour completeness."
   ],
   "images": [
     {
@@ -2331,7 +2331,38 @@
       "visuallyReviewed": true,
       "finding": "ranked course scores",
       "newWR": false
+    },
+    {
+      "attachmentId": "651670572962414592",
+      "messageId": "651670573520519168",
+      "publishedAt": "2019-12-04T06:26:12.181Z",
+      "localFile": "archive/london2019-server-images-20261006/651670572962414592.jpg",
+      "sha256": "45a152b1063a7f867068c275d4ca0b6c8dd9d9a876edf679b097296d9a1041be",
+      "visuallyReviewed": true,
+      "finding": "pipe item list; Waluigi Bus Driver and Daisy Holiday Cheer; no TT",
+      "newWR": false
+    },
+    {
+      "attachmentId": "651669635959095302",
+      "messageId": "651669637204934656",
+      "publishedAt": "2019-12-04T06:22:28.946Z",
+      "localFile": "archive/london2019-server-images-20261006/651669635959095302.png",
+      "sha256": "56d01308bd992edbdbf99ba5a1d68453489c10478d884deb5b0e2ec376ef7d71",
+      "visuallyReviewed": true,
+      "finding": "Waluigi Bus Driver pull; no TT",
+      "newWR": false
     }
   ],
-  "queryPagesComplete": true
+  "queryPagesComplete": true,
+  "openingBoundaryReview": {
+    "query": "after:2019-12-02 before:2019-12-04 has:image",
+    "searchResults": 8,
+    "tourUtcWindow": [
+      "2019-12-04T06:00:00Z",
+      "2019-12-04T08:00:00Z"
+    ],
+    "withinWindowMessages": 3,
+    "directAttachments": 2,
+    "findings": "Both screenshots are pipe pulls. Third message is official Daisy London artwork, no TT result. All other search results predate tour start."
+  }
 }
