@@ -633,8 +633,11 @@ export function importSources(courses, players) {
             appearance && m.tourDateRange?.start === appearance.startDate);
         if (verifiedProof) {
           r.proofImageVerified = true;
+          if (verifiedProof.dateUnresolved) r.dateUnresolved = true;
+          if (verifiedProof.delayedSubmission) r.delayedSubmission = true;
           r.evidencePublishedAt = verifiedProof.evidencePublishedAt || verifiedProof.observedAt || verifiedProof.submittedAt || null;
           r.observedAt ||= r.evidencePublishedAt;
+          r.additionalSources = [...(r.additionalSources || []), verifiedProof.source].filter(Boolean);
           if (r.proofImage && r.proofImage !== verifiedProof.proofImage) {
             r.additionalProofImages = [...new Set([
               ...(r.additionalProofImages || []), r.proofImage,
