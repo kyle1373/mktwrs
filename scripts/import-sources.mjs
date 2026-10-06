@@ -626,8 +626,8 @@ export function importSources(courses, players) {
           r.videoRejection = rejectedVideo;
           r.notes.push(rejectedVideo.reason);
         }
-        const verifiedProof = matches.find((m) => m.proofImageVerified && m.proofImage) ||
-          c.submissions.find(m => m.proofImageVerified && m.proofImage &&
+        const verifiedProof = matches.find((m) => m.proofImageVerified && (m.proofImage || m.proofImageLocal)) ||
+          c.submissions.find(m => m.proofImageVerified && (m.proofImage || m.proofImageLocal) &&
             m.status === "community-wr" && m.dateUnresolved &&
             m.playerId === r.playerId && m.timeCs === r.timeCs &&
             appearance && m.tourDateRange?.start === appearance.startDate);
@@ -643,7 +643,7 @@ export function importSources(courses, players) {
               ...(r.additionalProofImages || []), r.proofImage,
             ])];
           }
-          r.proofImage = verifiedProof.proofImage;
+          r.proofImage = verifiedProof.proofImage || null;
           // Keep the preserved file paired with the verified original image.
           // A WR announcement may reference a different, expired attachment.
           if (verifiedProof.proofImageLocal) {
