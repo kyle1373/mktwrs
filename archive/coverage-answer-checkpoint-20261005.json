@@ -575,21 +575,20 @@
     "linkedVideoCoverageComparedAgainstFullCensus": true,
     "attachmentReviewComplete": true,
     "linkedVideoFootageAudit": "archive/march2021-linked-video-footage-review1-20261006.json",
-    "newlyVerifiedLinkedVideoFiles": 13,
+    "newlyVerifiedLinkedVideoFiles": 16,
     "linkedVideoReviewStatuses": {
       "indexed-to-existing-verified-video;surrounding-context-review-not-certified": 7,
-      "footage-result-and-lap-transition-verified;backup-upload-pending": 13,
-      "pending-footage-and-record-match": 21,
+      "footage-result-and-lap-transition-verified;backup-upload-pending": 16,
+      "source-unavailable;recovery-pending": 11,
+      "strategy-or-partial-lap-clip-visually-reviewed-and-preserved": 8,
       "attached-fragment-visually-reviewed-and-preserved": 9,
-      "source-unavailable;recovery-pending": 1,
       "video-stream-partially-preserved;audio-and-integrity-review-pending": 1
     },
     "linkedVideoMessageStatuses": {
       "indexed-to-existing-verified-video;surrounding-context-review-not-certified": 7,
       "footage-result-and-lap-transition-verified;backup-upload-pending": 16,
-      "source-unavailable;recovery-pending": 9,
+      "source-unavailable;recovery-pending": 11,
       "strategy-or-partial-lap-clip-visually-reviewed-and-preserved": 8,
-      "pending-footage-and-record-match": 2,
       "attached-fragment-visually-reviewed-and-preserved": 9,
       "video-stream-partially-preserved;audio-and-integrity-review-pending": 1
     },
@@ -603,5 +602,17 @@
     "localDate": "2021-02-19",
     "liveDateStillMissing": true,
     "railwayStatus": "Waiting for build slot"
+  },
+  "currentAprilImageQueue": {
+    "index": "archive/april2021-original-attachment-reconciliation-index-20261006.json",
+    "capturedMessages": 3322,
+    "uniqueAttachments": 486,
+    "originalImagesReviewed": 36,
+    "newSupportingRuns": 25,
+    "existingCanonicalEntriesEnriched": 6,
+    "contextImagesReviewed": 5,
+    "historyComplete": false,
+    "latestAudit": "archive/april2021-original-image-and-context-review2-20261006.json",
+    "lapConflictCasesRetained": 1
   }
 }
