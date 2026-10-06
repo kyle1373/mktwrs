@@ -18,3 +18,12 @@ test("London Daisy Hills recovered improvement reaches history with publication 
   assert.equal(final.video, null);
   assert(!course.records.some(r => ["1:23.09", "1:23.06", "1:23.66"].includes(r.time)));
 });
+
+test("London Yoshi final uses contemporary publication and excludes slower embedded cup results", () => {
+  const course = JSON.parse(fs.readFileSync("public/data/courses/gcn-yoshi-circuit.json", "utf8"));
+  const final = course.records.find(r => r.playerId === "nu11" && r.time === "1:33.68");
+  assert.equal(final.recordDate, "2019-12-17");
+  assert.equal(final.achievedAt, null);
+  assert(final.additionalSources.some(s => s.postId === "1206936318502031361"));
+  assert(!course.records.some(r => ["1:48.51", "1:40.71", "1:38.68", "1:43.51"].includes(r.time)));
+});
