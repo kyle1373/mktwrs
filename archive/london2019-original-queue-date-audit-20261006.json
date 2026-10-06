@@ -8,7 +8,7 @@
     {
       "postId": "1202034711473688576",
       "publicationUTC": "2019-12-04T01:19:42.597000+00:00",
-      "withinLondonTour": true,
+      "withinLondonTour": false,
       "retrieved": true,
       "reviewed": true,
       "retrievalAttempted": true
@@ -16,7 +16,7 @@
     {
       "postId": "1202089033406566401",
       "publicationUTC": "2019-12-04T04:55:33.955000+00:00",
-      "withinLondonTour": true,
+      "withinLondonTour": false,
       "retrieved": true,
       "reviewed": true,
       "retrievalAttempted": true
@@ -24,7 +24,7 @@
     {
       "postId": "1202089433866092546",
       "publicationUTC": "2019-12-04T04:57:09.432000+00:00",
-      "withinLondonTour": true,
+      "withinLondonTour": false,
       "retrieved": true,
       "reviewed": true,
       "retrievalAttempted": true
@@ -32,7 +32,7 @@
     {
       "postId": "1202090730640039937",
       "publicationUTC": "2019-12-04T05:02:18.607000+00:00",
-      "withinLondonTour": true,
+      "withinLondonTour": false,
       "retrieved": true,
       "reviewed": true,
       "retrievalAttempted": true
@@ -40,7 +40,7 @@
     {
       "postId": "1202091105736646662",
       "publicationUTC": "2019-12-04T05:03:48.037000+00:00",
-      "withinLondonTour": true,
+      "withinLondonTour": false,
       "retrieved": true,
       "reviewed": true,
       "retrievalAttempted": true
@@ -3312,10 +3312,13 @@
   ],
   "counts": {
     "indexed": 413,
-    "withinLondon": 394,
+    "withinLondon": 389,
     "afterLondon": 19,
     "retrieved": 352,
     "reviewed": 352,
-    "attempted": 413
-  }
+    "attempted": 413,
+    "beforeLondon": 5
+  },
+  "startBoundaryUTC": "2019-12-04T06:00:00+00:00",
+  "boundaryCorrectionReport": "archive/london2019-source-boundary-reconciliation-20261006.json"
 }
