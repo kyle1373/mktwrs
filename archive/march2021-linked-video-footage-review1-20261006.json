@@ -238,6 +238,28 @@
       "videoId": "SFnqvzqg64M",
       "checkedAt": "2026-10-06",
       "decision": "YouTube reports unavailable. Contemporary title supplies108.74 and54.41/54.33 but footage is not verified. Recovery lead remains open."
+    },
+    {
+      "videoId": "1374216431131185158",
+      "platform": "twitter",
+      "checkedAt": "2026-10-06",
+      "decision": "Extractor returns no video; contemporary Discord embed and DIT lap text retained. Recovery pending."
+    },
+    {
+      "videoId": "1375034751128530944",
+      "platform": "twitter",
+      "checkedAt": "2026-10-06",
+      "decision": "Extractor returns no video; this link may contain screenshot rather than footage. Do not assert video proof."
+    }
+  ],
+  "partialRecoveries": [
+    {
+      "videoId": "i95m54hi7BE",
+      "localVideoStream": "archive/video-backup-files/march-review/i95m54hi7BE/original.f312.mp4",
+      "sha256": "69f43890b18b7c407ac8326d618d975893a44a644654c0516403cada502cd46b",
+      "bytes": 28494784,
+      "visibleFinish": "1:47.33",
+      "decision": "Video-only HLS stream downloaded; audio403 and decoder reference-frame errors. Samples visibly show107.33 finish but preservation integrity not certified; keep videoVerified false and retry source recovery."
     }
   ]
 }
