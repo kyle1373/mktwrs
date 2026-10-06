@@ -455,16 +455,21 @@
     "index": "archive/january2021-existing-image-reconciliation-index-20261005.json",
     "existingImageReads": 681,
     "counts": {
-      "slower-support-unconsolidated": 571,
+      "support-consolidated-original-image-reviewed": 549,
       "canonical-source-present": 72,
-      "context-or-unidentified-review-needed": 35,
-      "potential-wr-or-tie-context-needed": 1,
-      "existing-astre-wr-original-repost-reviewed": 2
+      "context-image-reviewed-no-new-wr": 46,
+      "prior-tour-final-wr-visible-date-reviewed": 1,
+      "same-screenshot-repost-consolidated": 2,
+      "existing-support-source-consolidated": 4,
+      "duplicate-repost-consolidated": 1,
+      "existing-astre-wr-original-repost-reviewed": 2,
+      "existing-support-social-repost-consolidated": 1,
+      "existing-support-repost-consolidated": 3
     },
     "historyComplete": false,
     "captureComplete": false,
-    "latestAudit": "archive/january2021-astre-maple15059-original-repost-review-20261005.json",
-    "nextPriority": "January3ChocoMountain1:18.51exactoriginaldate; then independentJanuarycensusandremainingtourcontext."
+    "latestAudit": "archive/january2021-supporting-images-batch28-review-20261006.json",
+    "nextPriority": "February2021 video evidence and surrounding discussion; January chronology and unavailable originals remain unresolved."
   },
   "currentJanuaryVideoQueue": {
     "queue": "archive/tt-discussion-january2021-captured-video-review-queue-20261004.json",
@@ -492,7 +497,7 @@
     "latestWrContextAudit": "archive/january2021-kaguya-maple15009-and-wins-line-context-review-20261005.json",
     "latestHistoricalLapAudit": "archive/january2021-astre-historical-choco2462-original-lap-review-20261005.json",
     "latestNonWrScreenshotAudit": "archive/january2021-kaguya-rmxrainbow11905-original-screenshot-review-20261005.json",
-    "note": "All59candidatevideo messages have a saved review decision. No fullJanuary or earlier-history completeness claim; moredistantcontext,678attachmentreconciliation,571supportconsolidation,andchronology gapsremain.",
+    "note": "All59 video candidate messages have saved decisions and all681 indexed image rows now have a disposition. This does not certify full January history; unavailable originals and chronology gaps remain.",
     "latestFullCensusExtraImagesAudit": "archive/january2021-full-census-extra-image-review-20261005.json",
     "latestOpeningContextImagesAudit": "archive/january2021-opening-context-images-review-20261005.json",
     "remainingOldContextCases": 0,
@@ -512,5 +517,13 @@
     "priorTourGapCorrectionAudit": "archive/newyear2021-previous-best-gap-correction-review-20261005.json",
     "duplicateSupportEntriesRemoved": 5,
     "repostsConsolidated": 6
+  },
+  "currentFebruaryVideoQueue": {
+    "queue": "archive/tt-discussion-february2021-captured-video-review-queue-20261004.json",
+    "candidateMessages": 38,
+    "pendingFootageAndRecordMatch": 23,
+    "latestAudit": "archive/february2021-first-three-preserved-video-review-20261006.json",
+    "historyComplete": false,
+    "backupUploadsPending": 3
   }
 }
