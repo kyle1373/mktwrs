@@ -68,6 +68,21 @@ export function verifiedSplitEvidence(record, selected, matches) {
       !entry.notes?.some(note => note.includes("do not sum"));
   }) || selected;
 }
+export function recordAppearance(record, appearances = []) {
+  const range = record.tourLabel?.match(
+    /(\d{1,2})\/(\d{1,2})\/(\d{2})\s*-\s*(\d{1,2})\/(\d{1,2})\/(\d{2})/,
+  );
+  const tourStart = range
+    ? `20${range[3]}-${range[2].padStart(2, "0")}-${range[1].padStart(2, "0")}`
+    : record.tourDateRange?.start;
+  // Historical WR announcements can be posted months after the playable tour.
+  // Their explicit tour takes precedence over the announcement timestamp.
+  if (tourStart) return appearances.find(a => a.startDate === tourStart);
+  const dates = [record.achievedAt, record.submittedAt, record.observedAt,
+    record.announcedAt].filter(Boolean);
+  return appearances.find(a => dates.some(date =>
+    date.slice(0, 10) >= a.startDate && date.slice(0, 10) < a.endDate));
+}
 export function mediaKind(value) {
   let u;
   try {
@@ -531,19 +546,19 @@ export function importSources(courses, players) {
       s.notes.push(`Lap ${completed.derivedLap} calculated as total minus the other recorded lap.`);
     }
     for (const r of c.records) {
-      const recordDates = [r.achievedAt, r.submittedAt, r.observedAt,
-        r.announcedAt, r.tourDateRange?.start].filter(Boolean);
-      const recordAppearance = c.appearances?.find((appearance) =>
-        recordDates.some((date) => date.slice(0, 10) >= appearance.startDate &&
-          date.slice(0, 10) < appearance.endDate));
+      const appearance = recordAppearance(r, c.appearances);
+      const explicitTour = /\d{1,2}\/\d{1,2}\/\d{2}\s*-/.test(r.tourLabel || "") || r.tourDateRange?.start;
       const matches = c.submissions.filter((s) => {
         if (s.playerId !== r.playerId || s.timeCs !== r.timeCs) return false;
         const submissionDate = s.achievedAt || s.submittedAt || s.observedAt;
         // Equal totals can be reruns years apart. Keep their dates and splits
         // inside the same playable tour instead of merging by total alone.
-        return !recordAppearance || !submissionDate ||
-          (submissionDate.slice(0, 10) >= recordAppearance.startDate &&
-           submissionDate.slice(0, 10) < recordAppearance.endDate);
+        if (!explicitTour) return !appearance || !submissionDate ||
+          (submissionDate.slice(0, 10) >= appearance.startDate &&
+           submissionDate.slice(0, 10) < appearance.endDate);
+        return !appearance || !submissionDate ||
+          (Date.parse(submissionDate) >= Date.parse(`${appearance.startDate}T06:00:00Z`) &&
+           Date.parse(submissionDate) < Date.parse(`${appearance.endDate}T06:00:00Z`));
       });
       matches.sort((a, b) =>
         (
@@ -611,7 +626,11 @@ export function importSources(courses, players) {
           r.videoRejection = rejectedVideo;
           r.notes.push(rejectedVideo.reason);
         }
-        const verifiedProof = matches.find((m) => m.proofImageVerified && m.proofImage);
+        const verifiedProof = matches.find((m) => m.proofImageVerified && m.proofImage) ||
+          c.submissions.find(m => m.proofImageVerified && m.proofImage &&
+            m.status === "community-wr" && m.dateUnresolved &&
+            m.playerId === r.playerId && m.timeCs === r.timeCs &&
+            appearance && m.tourDateRange?.start === appearance.startDate);
         if (verifiedProof) {
           r.proofImageVerified = true;
           r.evidencePublishedAt = verifiedProof.evidencePublishedAt || verifiedProof.observedAt || verifiedProof.submittedAt || null;

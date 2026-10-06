@@ -26,6 +26,16 @@ test('Sunset Wilds restores Nu11’s May 2022 intermediate WR with exact source 
  assert.match(r.video,/gizNrYVgWuM/);
  assert(fs.existsSync('public'+r.proofImageLocal));
 });
+test('Sunset Wilds R February WR retains its original screenshot date despite October announcement',()=>{
+ const c=courses.find(c=>c.id==='gba-sunset-wilds-r');
+ const r=c.records.find(r=>r.time==='1:10.53'&&r.playerId==='superfx');
+ assert.equal(r.submittedAt,'2021-02-19T07:59:12.925Z');
+ assert.equal(r.recordDate,'2021-02-19');
+ assert.deepEqual(r.laps,['35.28','35.25']);
+ assert.equal(r.durationDays,9);
+ assert.match(r.video,/aNjiaWm-h9Y/);
+ assert(r.additionalSources.some(s=>s.messageId==='812231805318332417'));
+});
 test('Anniversary 2020 restores the WR exchange with original dates, splits and preserved images',()=>{
  const c=courses.find(c=>c.id==='3ds-toad-circuit');
  const runs=c.records.filter(r=>r.recordDate>='2020-10-07'&&r.recordDate<'2020-10-21');

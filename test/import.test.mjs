@@ -7,7 +7,17 @@ import {
   attachmentDate,
   completeTwoLapSplit,
   verifiedSplitEvidence,
+  recordAppearance,
 } from "../scripts/import-sources.mjs";
+test("historical announcement tour wins over its later posting date", () => {
+  const appearances = [
+    {startDate:"2021-02-10",endDate:"2021-02-24"},
+    {startDate:"2021-10-06",endDate:"2021-10-20"},
+  ];
+  assert.equal(recordAppearance({tourLabel:"Peach vs. Daisy Tour [10/02/21 - 23/02/21]",announcedAt:"2021-10-09T09:50:26.097Z"},appearances),appearances[0]);
+  assert.equal(recordAppearance({announcedAt:"2021-10-09T09:50:26.097Z"},appearances),appearances[1]);
+  assert.equal(recordAppearance({tourLabel:"Other Tour [10/02/20 - 23/02/20]",announcedAt:"2021-10-09T09:50:26.097Z"},appearances),undefined);
+});
 test("verified laps survive spreadsheet reposts of the same original image without transferring dates", () => {
   const sheet = {source:{url:"https://docs.google.com/sheet"},proofImage:"https://cdn.discordapp.com/attachments/1/2/result.jpg?ex=old",laps:[null,null],achievedAt:"2019-10-25"};
   const original = {source:{url:"https://discord.com/channels/1/3/4"},proofImage:"https://media.discordapp.net/attachments/1/2/result.jpg?width=500",laps:["32.49","32.42"],proofImageVerified:true,notes:[],achievedAt:"2019-10-26"};
