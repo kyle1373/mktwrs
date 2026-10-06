@@ -3,9 +3,9 @@
   "historyComplete": false,
   "scope": "All152URLs in existing Tomegome CDX index; matches individual post IDs inside saved original conversations to prevent redundant rereading. Context presence is not media review or WR confirmation.",
   "counts": {
-    "unreviewed": 79,
-    "saved-original-context-present": 62,
-    "retrieval-failed": 11
+    "unreviewed": 47,
+    "saved-original-context-present": 89,
+    "retrieval-failed": 16
   },
   "posts": [
     {
@@ -683,6 +683,13 @@
           "file": "archive/london2019-tomegome-expanded-originals/1202840601294598144.html",
           "sha256": "b0db2b0cfd833334724508d246259ca367802fd138043e89e3784abb44c984c7",
           "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203533019883028486",
+          "file": "archive/london2019-tomegome-expanded-originals/1203533019883028486.html",
+          "sha256": "4eefb68d30a85f363be87e868647620a093033a181e58d88d990c1d24c49d393",
+          "textReviewStatus": "reviewed"
         }
       ],
       "directAttemptStatus": "retrieved",
@@ -860,6 +867,13 @@
           "pageId": "1202840601294598144",
           "file": "archive/london2019-tomegome-expanded-originals/1202840601294598144.html",
           "sha256": "b0db2b0cfd833334724508d246259ca367802fd138043e89e3784abb44c984c7",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203533019883028486",
+          "file": "archive/london2019-tomegome-expanded-originals/1203533019883028486.html",
+          "sha256": "4eefb68d30a85f363be87e868647620a093033a181e58d88d990c1d24c49d393",
           "textReviewStatus": "reviewed"
         }
       ],
@@ -1163,9 +1177,24 @@
       "postId": "1203156216110669824",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203156216110669824",
       "captureTimestamp": "20191207085208",
-      "savedContextSources": [],
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203223073140273152",
+          "file": "archive/london2019-tomegome-expanded-originals/1203223073140273152.html",
+          "sha256": "e70bbcaa072bcfe83bb7dc18b14ccd541e5ee1825fbfc33576cf349fee9e53ba",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203227018722078720",
+          "file": "archive/london2019-tomegome-expanded-originals/1203227018722078720.html",
+          "sha256": "539e23d03f5be2911678e2e6612881736e9e8b7c48745384f38bf71bed004492",
+          "textReviewStatus": "reviewed"
+        }
+      ],
       "directAttemptStatus": "failed",
-      "reviewState": "retrieval-failed"
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203156646203052032",
@@ -1179,63 +1208,138 @@
       "postId": "1203207849897164804",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203207849897164804",
       "captureTimestamp": "20191207092515",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203223073140273152",
+          "file": "archive/london2019-tomegome-expanded-originals/1203223073140273152.html",
+          "sha256": "e70bbcaa072bcfe83bb7dc18b14ccd541e5ee1825fbfc33576cf349fee9e53ba",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203227018722078720",
+          "file": "archive/london2019-tomegome-expanded-originals/1203227018722078720.html",
+          "sha256": "539e23d03f5be2911678e2e6612881736e9e8b7c48745384f38bf71bed004492",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203210256869806080",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203210256869806080",
       "captureTimestamp": "20191207103252",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203533019883028486",
+          "file": "archive/london2019-tomegome-expanded-originals/1203533019883028486.html",
+          "sha256": "4eefb68d30a85f363be87e868647620a093033a181e58d88d990c1d24c49d393",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203223073140273152",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203223073140273152",
       "captureTimestamp": "20191208050748",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203223073140273152",
+          "file": "archive/london2019-tomegome-expanded-originals/1203223073140273152.html",
+          "sha256": "e70bbcaa072bcfe83bb7dc18b14ccd541e5ee1825fbfc33576cf349fee9e53ba",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203227018722078720",
+          "file": "archive/london2019-tomegome-expanded-originals/1203227018722078720.html",
+          "sha256": "539e23d03f5be2911678e2e6612881736e9e8b7c48745384f38bf71bed004492",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203227018722078720",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203227018722078720",
       "captureTimestamp": "20191207093514",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203223073140273152",
+          "file": "archive/london2019-tomegome-expanded-originals/1203223073140273152.html",
+          "sha256": "e70bbcaa072bcfe83bb7dc18b14ccd541e5ee1825fbfc33576cf349fee9e53ba",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203227018722078720",
+          "file": "archive/london2019-tomegome-expanded-originals/1203227018722078720.html",
+          "sha256": "539e23d03f5be2911678e2e6612881736e9e8b7c48745384f38bf71bed004492",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203227729715322880",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203227729715322880",
       "captureTimestamp": "20191207095915",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203227018722078720",
+          "file": "archive/london2019-tomegome-expanded-originals/1203227018722078720.html",
+          "sha256": "539e23d03f5be2911678e2e6612881736e9e8b7c48745384f38bf71bed004492",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203228597990739968",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203228597990739968",
       "captureTimestamp": "20191207114239",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1203231848672854016",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203231848672854016",
       "captureTimestamp": "20191207100805",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1203492978234253314",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203492978234253314",
       "captureTimestamp": "20191208044723",
       "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203668187079835648",
+          "file": "archive/london2019-tomegome-expanded-originals/1203668187079835648.html",
+          "sha256": "e665499f666d228445ca2c0f7be39270ceb78c99b0095df9762df0592d0abf15",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203670217177481216",
+          "file": "archive/london2019-tomegome-expanded-originals/1203670217177481216.html",
+          "sha256": "04078a4f32e7a6bf7cd588ff304090d2edf661525fa6746452a5cf8eef0719f3",
+          "textReviewStatus": "reviewed"
+        },
         {
           "ledger": "archive/london2019-tomegome-later-result-originals-20261003.json",
           "pageId": "1203492978234253314",
@@ -1251,89 +1355,212 @@
       "postId": "1203507185554116608",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203507185554116608",
       "captureTimestamp": "20191208042133",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203507185554116608",
+          "file": "archive/london2019-tomegome-expanded-originals/1203507185554116608.html",
+          "sha256": "aade5d2fa099bad96a601180afc695d8ad902e02f4ba8ad5e46b44d8990e0814",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203515818702594050",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203515818702594050",
       "captureTimestamp": "20191208040109",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203518715049861120",
+          "file": "archive/london2019-tomegome-expanded-originals/1203518715049861120.html",
+          "sha256": "276fcdf57f36d35943642d688e9f38f10ecf66e47ae09d56b42de68f52c914d8",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203517427352399872",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203517427352399872",
       "captureTimestamp": "20191208040045",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203518715049861120",
+          "file": "archive/london2019-tomegome-expanded-originals/1203518715049861120.html",
+          "sha256": "276fcdf57f36d35943642d688e9f38f10ecf66e47ae09d56b42de68f52c914d8",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203518223464857600",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203518223464857600",
       "captureTimestamp": "20191208035302",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203518715049861120",
+          "file": "archive/london2019-tomegome-expanded-originals/1203518715049861120.html",
+          "sha256": "276fcdf57f36d35943642d688e9f38f10ecf66e47ae09d56b42de68f52c914d8",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203518715049861120",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203518715049861120",
       "captureTimestamp": "20191208035956",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203518715049861120",
+          "file": "archive/london2019-tomegome-expanded-originals/1203518715049861120.html",
+          "sha256": "276fcdf57f36d35943642d688e9f38f10ecf66e47ae09d56b42de68f52c914d8",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203533019883028486",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203533019883028486",
       "captureTimestamp": "20191208044309",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203533019883028486",
+          "file": "archive/london2019-tomegome-expanded-originals/1203533019883028486.html",
+          "sha256": "4eefb68d30a85f363be87e868647620a093033a181e58d88d990c1d24c49d393",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203535517729480704",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203535517729480704",
       "captureTimestamp": "20191208050648",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203535517729480704",
+          "file": "archive/london2019-tomegome-expanded-originals/1203535517729480704.html",
+          "sha256": "f621d0e9d0d74441afa2f2de902849b1ad6ece3618ace03896645f56d03e781b",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203537472900042752",
+          "file": "archive/london2019-tomegome-expanded-originals/1203537472900042752.html",
+          "sha256": "fbc793d6d0875187e82ec401e81edb633f1849254a5a4f2a2853c3c5ecd3bb5c",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203538719631794176",
+          "file": "archive/london2019-tomegome-expanded-originals/1203538719631794176.html",
+          "sha256": "d4076da7033f6f3c4e46aee368137015fac87e76cc5c6669aeb13047b218b77f",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203537472900042752",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203537472900042752",
       "captureTimestamp": "20191208052858",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203535517729480704",
+          "file": "archive/london2019-tomegome-expanded-originals/1203535517729480704.html",
+          "sha256": "f621d0e9d0d74441afa2f2de902849b1ad6ece3618ace03896645f56d03e781b",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203537472900042752",
+          "file": "archive/london2019-tomegome-expanded-originals/1203537472900042752.html",
+          "sha256": "fbc793d6d0875187e82ec401e81edb633f1849254a5a4f2a2853c3c5ecd3bb5c",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203538719631794176",
+          "file": "archive/london2019-tomegome-expanded-originals/1203538719631794176.html",
+          "sha256": "d4076da7033f6f3c4e46aee368137015fac87e76cc5c6669aeb13047b218b77f",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203538719631794176",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203538719631794176",
       "captureTimestamp": "20191208053020",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203538719631794176",
+          "file": "archive/london2019-tomegome-expanded-originals/1203538719631794176.html",
+          "sha256": "d4076da7033f6f3c4e46aee368137015fac87e76cc5c6669aeb13047b218b77f",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203659606116851718",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203659606116851718",
       "captureTimestamp": "20191208131153",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203659606116851718",
+          "file": "archive/london2019-tomegome-expanded-originals/1203659606116851718.html",
+          "sha256": "b2e4370393e5dce8230258afeb0fc95bd06b7b6c29ed4f00491a858707fcffcf",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203666610680029188",
+          "file": "archive/london2019-tomegome-expanded-originals/1203666610680029188.html",
+          "sha256": "b1160e1b6474ed693861960ca8de28c3c5ea5f4c5b0e0635fca4b9d653a21631",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203664353217527808",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203664353217527808",
       "captureTimestamp": "20191208134517",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203666610680029188",
+          "file": "archive/london2019-tomegome-expanded-originals/1203666610680029188.html",
+          "sha256": "b1160e1b6474ed693861960ca8de28c3c5ea5f4c5b0e0635fca4b9d653a21631",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203664538106650626",
@@ -1390,49 +1617,104 @@
       "postId": "1203664741182263296",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203664741182263296",
       "captureTimestamp": "20191208134139",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203666610680029188",
+          "file": "archive/london2019-tomegome-expanded-originals/1203666610680029188.html",
+          "sha256": "b1160e1b6474ed693861960ca8de28c3c5ea5f4c5b0e0635fca4b9d653a21631",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203665628395008000",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203665628395008000",
       "captureTimestamp": "20191208132821",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203666610680029188",
+          "file": "archive/london2019-tomegome-expanded-originals/1203666610680029188.html",
+          "sha256": "b1160e1b6474ed693861960ca8de28c3c5ea5f4c5b0e0635fca4b9d653a21631",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203666610680029188",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203666610680029188",
       "captureTimestamp": "20191208132715",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203666610680029188",
+          "file": "archive/london2019-tomegome-expanded-originals/1203666610680029188.html",
+          "sha256": "b1160e1b6474ed693861960ca8de28c3c5ea5f4c5b0e0635fca4b9d653a21631",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203667165817135104",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203667165817135104",
       "captureTimestamp": "20191208133636",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203666610680029188",
+          "file": "archive/london2019-tomegome-expanded-originals/1203666610680029188.html",
+          "sha256": "b1160e1b6474ed693861960ca8de28c3c5ea5f4c5b0e0635fca4b9d653a21631",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "failed",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203668187079835648",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203668187079835648",
       "captureTimestamp": "20191208133712",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203668187079835648",
+          "file": "archive/london2019-tomegome-expanded-originals/1203668187079835648.html",
+          "sha256": "e665499f666d228445ca2c0f7be39270ceb78c99b0095df9762df0592d0abf15",
+          "textReviewStatus": "reviewed"
+        },
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203670217177481216",
+          "file": "archive/london2019-tomegome-expanded-originals/1203670217177481216.html",
+          "sha256": "04078a4f32e7a6bf7cd588ff304090d2edf661525fa6746452a5cf8eef0719f3",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203670217177481216",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203670217177481216",
       "captureTimestamp": "20191208135949",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203670217177481216",
+          "file": "archive/london2019-tomegome-expanded-originals/1203670217177481216.html",
+          "sha256": "04078a4f32e7a6bf7cd588ff304090d2edf661525fa6746452a5cf8eef0719f3",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1203671069590089728",
@@ -1505,7 +1787,7 @@
           "textReviewStatus": "reviewed"
         }
       ],
-      "directAttemptStatus": "not-in-expanded-ledger",
+      "directAttemptStatus": "failed",
       "reviewState": "saved-original-context-present"
     },
     {
@@ -1521,7 +1803,7 @@
           "textReviewStatus": "reviewed"
         }
       ],
-      "directAttemptStatus": "not-in-expanded-ledger",
+      "directAttemptStatus": "failed",
       "reviewState": "saved-original-context-present"
     },
     {
@@ -1537,7 +1819,7 @@
           "textReviewStatus": "reviewed"
         }
       ],
-      "directAttemptStatus": "not-in-expanded-ledger",
+      "directAttemptStatus": "failed",
       "reviewState": "saved-original-context-present"
     },
     {
@@ -1545,56 +1827,88 @@
       "originalUrl": "https://twitter.com/tomegome_g/status/1203697194869485570",
       "captureTimestamp": "20191208153040",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1203908563011158016",
       "originalUrl": "https://twitter.com/tomegome_g/status/1203908563011158016",
       "captureTimestamp": "20191209053015",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1203908563011158016",
+          "file": "archive/london2019-tomegome-expanded-originals/1203908563011158016.html",
+          "sha256": "c3e136ed3e76567c2e374779ffae17b76ae282d3b2259744e4f3abb14c286495",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1204543798904180736",
       "originalUrl": "https://twitter.com/tomegome_g/status/1204543798904180736",
       "captureTimestamp": "20191210234635",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1204543798904180736",
+          "file": "archive/london2019-tomegome-expanded-originals/1204543798904180736.html",
+          "sha256": "09011b944172f60a73b449ab2e75688949aee2d56740e5b98186c24a3d0c2929",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1204670481598537729",
       "originalUrl": "https://twitter.com/tomegome_g/status/1204670481598537729",
       "captureTimestamp": "20191211084418",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1204670481598537729",
+          "file": "archive/london2019-tomegome-expanded-originals/1204670481598537729.html",
+          "sha256": "4a3f7134fadf6a5b8e95ca2db99abaa68d9bcac5419555546dbf6486c87061e5",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1204675342855618561",
       "originalUrl": "https://twitter.com/tomegome_g/status/1204675342855618561",
       "captureTimestamp": "20191211090137",
-      "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "savedContextSources": [
+        {
+          "ledger": "archive/london2019-tomegome-expanded-original-review-20261006.json",
+          "pageId": "1204675342855618561",
+          "file": "archive/london2019-tomegome-expanded-originals/1204675342855618561.html",
+          "sha256": "59163f88f4caa8a9bd77d4b5b99663a8e40d1256bf235f740a68bb4bcd2a9e9b",
+          "textReviewStatus": "reviewed"
+        }
+      ],
+      "directAttemptStatus": "retrieved",
+      "reviewState": "saved-original-context-present"
     },
     {
       "postId": "1204930853593178112",
       "originalUrl": "https://twitter.com/tomegome_g/status/1204930853593178112",
       "captureTimestamp": "20191212021943",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1204982828309438464",
       "originalUrl": "https://twitter.com/tomegome_g/status/1204982828309438464",
       "captureTimestamp": "20191212115450",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1204983707985014785",
@@ -1623,7 +1937,7 @@
           "textReviewStatus": "reviewed"
         }
       ],
-      "directAttemptStatus": "not-in-expanded-ledger",
+      "directAttemptStatus": "failed",
       "reviewState": "saved-original-context-present"
     },
     {
@@ -1631,8 +1945,8 @@
       "originalUrl": "https://twitter.com/tomegome_g/status/1205089571182014464",
       "captureTimestamp": "20191212215405",
       "savedContextSources": [],
-      "directAttemptStatus": "not-in-expanded-ledger",
-      "reviewState": "unreviewed"
+      "directAttemptStatus": "failed",
+      "reviewState": "retrieval-failed"
     },
     {
       "postId": "1205090867029016576",
