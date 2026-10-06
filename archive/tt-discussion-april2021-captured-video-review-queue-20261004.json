@@ -613,7 +613,7 @@
       "videoCandidates": [
         "https://twitter.com/winsmkt/status/1379763582997520385?s=21"
       ],
-      "reviewStatus": "indexed-to-existing-verified-video;surrounding-context-review-not-certified",
+      "reviewStatus": "existing-verified-video-and-surrounding-context-reconciled",
       "matchedVerifiedRuns": [
         {
           "videoId": "1379763582997520385",
@@ -624,8 +624,21 @@
           "canonicalWrStatus": "community-wr"
         }
       ],
-      "reviewAudit": "archive/discussion-known-verified-social-video-index-reconciliation-20261005.json",
-      "matchBasis": "Exact twitter media identifier; prior canonical visual verification reused. No new footage verification or WR/date inference."
+      "reviewAudit": "archive/april2021-spartacurt-two-full-runs-and-wins-reposts-review-20261006.json",
+      "matchBasis": "Exact twitter media identifier; prior canonical visual verification reused. No new footage verification or WR/date inference.",
+      "contextReview": {
+        "messageId": "830420006239338496",
+        "videoId": "1379763582997520385",
+        "player": "Wins",
+        "courseId": "3ds-mario-circuit-r",
+        "time": "1:36.81",
+        "laps": [
+          "48.41",
+          "48.40"
+        ],
+        "disposition": "existing-verified-video-and-surrounding-context-reconciled",
+        "decision": "Same-author first social share explicitly labels 1:36.81 video; subsequent April 10 share replies to a request for Mario Circuit video and repeats identical media ID. Existing verified footage reused. Neither repost changes April 7 11:39:23.155 screenshot date."
+      }
     },
     {
       "messageId": "830272753763352636",
@@ -636,7 +649,33 @@
         "https://youtu.be/KpDK-NsNgRk",
         "https://www.youtube.com/watch?v=KpDK-NsNgRk"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "full-footage-and-surrounding-context-reviewed",
+      "contextReview": {
+        "messageId": "830272753763352636",
+        "videoId": "KpDK-NsNgRk",
+        "player": "Spartacurt",
+        "courseId": "3ds-mario-circuit-r",
+        "time": "1:36.99",
+        "laps": [
+          "48.41",
+          "48.58"
+        ],
+        "previousBest": "1:37.21",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/830272753763352636",
+          "channel": "tt-discussion",
+          "messageId": "830272753763352636"
+        },
+        "firstScreenshotAt": "2021-04-10T02:47:30.219Z",
+        "videoPublicationDate": "20210410",
+        "localOriginal": "archive/april2021-external-videos/KpDK-NsNgRk.webm",
+        "bytes": 14605544,
+        "sha256": "b3e0149d51d35fd9bc2ed35b2abee85fa8b26d764ded63a346054b1fb0da1f90",
+        "durationSeconds": 118.328,
+        "disposition": "full-footage-and-surrounding-context-reviewed",
+        "decision": "Complete countdown-to-result footage confirms existing slower submission. Exact first-lap transition and total visually read; second lap computed and matches original author text. First screenshot date retained."
+      },
+      "reviewAudit": "archive/april2021-spartacurt-two-full-runs-and-wins-reposts-review-20261006.json"
     },
     {
       "messageId": "830233959115915294",
@@ -647,7 +686,33 @@
         "https://youtu.be/i8nE98M3K0c",
         "https://www.youtube.com/watch?v=i8nE98M3K0c"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "full-footage-and-surrounding-context-reviewed",
+      "contextReview": {
+        "messageId": "830233959115915294",
+        "videoId": "i8nE98M3K0c",
+        "player": "Spartacurt",
+        "courseId": "snes-rainbow-road",
+        "time": "0:59.99",
+        "laps": [
+          "29.59",
+          "30.40"
+        ],
+        "previousBest": "1:00.36",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/830233959115915294",
+          "channel": "tt-discussion",
+          "messageId": "830233959115915294"
+        },
+        "firstScreenshotAt": "2021-04-10T00:13:20.854Z",
+        "videoPublicationDate": "20210410",
+        "localOriginal": "archive/april2021-external-videos/i8nE98M3K0c.webm",
+        "bytes": 13960156,
+        "sha256": "3c73fd8af3fa0b21dfdebad617da0ab48f0caf2c29c15ab734b6f4d7ad7b9a69",
+        "durationSeconds": 82.428,
+        "disposition": "full-footage-and-surrounding-context-reviewed",
+        "decision": "Complete countdown-to-result footage confirms existing slower submission. Exact first-lap transition and total visually read; second lap computed and matches original author text. First screenshot date retained."
+      },
+      "reviewAudit": "archive/april2021-spartacurt-two-full-runs-and-wins-reposts-review-20261006.json"
     },
     {
       "messageId": "830158222899937331",
@@ -742,7 +807,7 @@
       "videoCandidates": [
         "https://twitter.com/winsmkt/status/1379763582997520385?s=21"
       ],
-      "reviewStatus": "indexed-to-existing-verified-video;surrounding-context-review-not-certified",
+      "reviewStatus": "existing-verified-video-and-surrounding-context-reconciled",
       "matchedVerifiedRuns": [
         {
           "videoId": "1379763582997520385",
@@ -753,8 +818,21 @@
           "canonicalWrStatus": "community-wr"
         }
       ],
-      "reviewAudit": "archive/discussion-known-verified-social-video-index-reconciliation-20261005.json",
-      "matchBasis": "Exact twitter media identifier; prior canonical visual verification reused. No new footage verification or WR/date inference."
+      "reviewAudit": "archive/april2021-spartacurt-two-full-runs-and-wins-reposts-review-20261006.json",
+      "matchBasis": "Exact twitter media identifier; prior canonical visual verification reused. No new footage verification or WR/date inference.",
+      "contextReview": {
+        "messageId": "829322880180944916",
+        "videoId": "1379763582997520385",
+        "player": "Wins",
+        "courseId": "3ds-mario-circuit-r",
+        "time": "1:36.81",
+        "laps": [
+          "48.41",
+          "48.40"
+        ],
+        "disposition": "existing-verified-video-and-surrounding-context-reconciled",
+        "decision": "Same-author first social share explicitly labels 1:36.81 video; subsequent April 10 share replies to a request for Mario Circuit video and repeats identical media ID. Existing verified footage reused. Neither repost changes April 7 11:39:23.155 screenshot date."
+      }
     },
     {
       "messageId": "829206487171203092",
