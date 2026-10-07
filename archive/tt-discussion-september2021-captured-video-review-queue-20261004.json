@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-04",
   "capturedMessages": 521,
-  "messagesWithVideoCandidates": 17,
+  "messagesWithVideoCandidates": 18,
   "proofReviewComplete": false,
   "rows": [
     {
@@ -103,7 +103,11 @@
       "videoCandidates": [
         "https://cdn.discordapp.com/attachments/636461740162416640/890593822638239804/video0.mov?ex=6ac451e1&is=6ac30061&hm=74e37033a4f95b871de4e1478d817cc989b44c5601d5a0ea7cfd40c656a5216b&"
       ],
-      "reviewStatus": "pending-footage-and-record-match"
+      "reviewStatus": "downloaded-lap1-only-footage-and-context-reviewed",
+      "localVideo": "archive/september2021-original-videos/890593822638239804.mov",
+      "reviewAudit": "archive/september2021-september23-29-two-berlin-clips-review-20261007.json",
+      "completedResult": false,
+      "verifiedLap1": "41.91"
     },
     {
       "messageId": "890326410491723808",
@@ -270,6 +274,19 @@
       "reviewStatus": "downloaded-partial-technique-footage-and-context-reviewed-no-completed-result",
       "localVideo": "archive/september2021-original-videos/883312033465004102.mov",
       "reviewAudit": "archive/september2021-september3-wins-technique-clip-review-20261007.json",
+      "completedResult": false
+    },
+    {
+      "messageId": "893010927866232842",
+      "postedAt": "2021-09-30T05:46:36.544Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/893010927866232842",
+      "videoCandidates": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/893010925232197692/RPReplay_Final1632974366.MOV?ex=6ac3e27b&is=6ac290fb&hm=58ebfdf8f464658dfb19fff01df004c78ce55ede6fc5a323c67ac70f95b2a47b&"
+      ],
+      "censusOmission": "Attachment present in captured manifest but missing from separate video candidate queue; reconciled from live source.",
+      "reviewStatus": "downloaded-partial-technique-footage-and-context-reviewed-no-completed-result",
+      "localVideo": "archive/september2021-original-videos/893010925232197692.mov",
+      "reviewAudit": "archive/september2021-september23-29-two-berlin-clips-review-20261007.json",
       "completedResult": false
     }
   ]
