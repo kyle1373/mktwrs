@@ -571,8 +571,8 @@ test('Penguin restores opening WRs and exact original dates without promoting un
  for(const r of vl.records)assert(fs.existsSync('public'+r.proofImageLocal));
  const bc=courses.find(c=>c.id==='gba-bowser-s-castle-2r');const late=bc.records.filter(r=>r.recordDate>='2021-12-01');
  assert.deepEqual(late.map(r=>r.time),['1:19.17']);assert.deepEqual(late[0].laps,['39.44','39.73']);
- assert.equal(late[0].submittedAt,'2021-12-28T11:24:04.189Z');assert.equal(late[0].durationDays,1);assert.equal(late[0].videoAvailability,'unavailable');
+ assert.equal(late[0].submittedAt,'2021-12-28T11:24:04.189Z');assert.equal(late[0].durationDays,1);assert.equal(late[0].videoVerified,true);assert.match(late[0].video,/1475789545048526848/);
  assert(fs.existsSync('public'+late[0].proofImageLocal));
  const pb=bc.submissions.find(r=>r.id.includes('penguin')&&r.time==='1:19.48');assert.equal(pb.includeInProgression,false);assert.deepEqual(pb.laps,['39.54','39.94']);
- const fallback=fastestVideo(bc);assert(fallback);assert.notEqual(fallback.time,'1:19.17');
+ const fallback=fastestVideo(bc);assert(fallback);assert.equal(fallback.time,'1:19.17');
 });
