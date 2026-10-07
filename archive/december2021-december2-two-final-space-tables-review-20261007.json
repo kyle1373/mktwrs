@@ -4,7 +4,7 @@
   "reviewedAttachments": 2,
   "transcribedRows": 42,
   "newRuns": 0,
-  "sourceContext": "NHSpeedy final Space Tour standings,congratulates Kaguya and N. Live source context verified. Wins table1:22.34 is slower than his earlier canonical1:22.86; retain table as published and do not overwrite faster archived result.",
+  "sourceContext": "NHSpeedy final Space Tour standings,congratulates Kaguya and N. Live source context verified. Wins table1:22.34 is faster than earlier canonical1:22.86; table-only achievement date and underlying submission remain unresolved.",
   "lapSumConflicts": [],
   "decisions": [
     {
@@ -652,14 +652,15 @@
     }
   ],
   "preservationLimitation": "Downloaded images preserved and hashed; original upload equivalence unverified. Table-only dates, aliases, missing entries and lap conflicts require reconciliation.",
-  "tableTotalConflicts": [
+  "tableOnlyImprovementCandidates": [
     {
       "player": "Wins",
       "courseId": "rmx-rainbow-road-2r",
       "tableTime": "1:22.34",
       "earlierVerifiedTime": "1:22.86",
       "curatedId": "space-2021-911358140635832321",
-      "action": "Preserve published table; no replacement of faster verified run."
+      "improvementSeconds": "0.52",
+      "action": "Resolve underlying submission and achievement date; preserve table as evidence, no date inferred."
     }
   ]
 }
