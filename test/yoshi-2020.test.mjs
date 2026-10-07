@@ -21,8 +21,8 @@ test('Yoshi Tour preserves missing Daisy Hills R improvements and undated predec
 });
 test('Yoshi Kalimari predecessors do not receive dates from later reposts', () => {
  const c=course('n64-kalimari-desert');
- for(const time of ['1:15.83','1:15.63','1:15.48','1:15.36']){const r=c.records.find(r=>r.time===time);assert(r);assertPublicationDateOrUnknown(r);assert.equal(r.durationDays,null);}
- const astre=c.records.find(r=>r.time==='1:15.52');assert.equal(astre.recordDate,'2020-04-08');assert.deepEqual(astre.laps,['37.77','37.75']);assert.equal(astre.durationDays,null,'undated successor makes this reign unresolved');
+ for(const time of ['1:15.83','1:15.63','1:15.48','1:15.36']){const r=c.records.find(r=>r.time===time);assert(r);assertPublicationDateOrUnknown(r);assert.equal(r.durationDays,['1:15.83','1:15.63'].includes(time)?0:null);}
+ const astre=c.records.find(r=>r.time==='1:15.52');assert.equal(astre.recordDate,'2020-04-08');assert.deepEqual(astre.laps,['37.77','37.75']);assert.equal(astre.durationDays,0,'same-day successor ends the documented reign');
  const final=c.records.find(r=>r.time==='1:15.29');assert.equal(final.recordDate,'2020-04-11');assert.deepEqual(final.laps,['37.66','37.63']);
  assert(!c.records.some(r=>r.time==='1:15.47'),'late relative-age screenshot cannot establish the earlier reign');
 });

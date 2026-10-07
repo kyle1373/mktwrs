@@ -96,8 +96,11 @@ test('Mario vs. Luigi restores both exchanges, preserves three sections, and exc
  assert.match(mc.current.videoBackup.url,/tEgE_32WBrU/);
  const rr=courses.find(c=>c.id==='3ds-rainbow-road');
  assert.deepEqual(rr.records.slice(7).map(r=>[r.playerId,r.time]),[
-  ['nu11','1:59.26'],['nu11','1:59.24'],['kazuo','1:59.21'],['astre','1:59.09'],['kazuo','1:59.01'],['kazuo','1:58.96'],['kazuo','1:58.93'],['kazuo','1:58.81'],['kazuo','1:58.80'],
+  ['nu11','1:59.80'],['nu11','1:59.50'],['astre','1:59.49'],['nu11','1:59.26'],['nu11','1:59.24'],['kazuo','1:59.21'],['astre','1:59.09'],['kazuo','1:59.01'],['kazuo','1:58.96'],['kazuo','1:58.93'],['kazuo','1:58.81'],['kazuo','1:58.80'],
  ]);
+ const recovered=rr.records.filter(r=>r.playerId==='unknown-3ds-rainbow-road-winter-tour-2020');
+ assert.deepEqual(recovered.map(r=>r.time),['2:02.29','2:01.96','2:01.30']);
+ assert(recovered.every(r=>r.recordDate==='2020-11-18'&&r.identityUnresolved));
  assert.deepEqual(rr.current.laps,['33.75','48.80','36.25']);
  assert.equal(rr.current.recordDate,'2020-11-26');
  assert.match(rr.current.videoBackup.url,/l-7sVtTwQ-0/);
@@ -137,7 +140,7 @@ test('Rosalina restores intermediate WRs, corrects repost dates, and keeps uncer
  assert.equal(missing.recordDate,'2020-12-18');assert.deepEqual(missing.laps,['35.67','35.52']);
  assert(sw.records.findIndex(r=>r.time==='1:11.19')<sw.records.findIndex(r=>r.time==='1:11.11'));
  const kaz=sw.records.find(r=>r.time==='1:10.30');assert.equal(kaz.recordDate,'2020-12-28');
- assert.equal(kaz.durationDays,11);assert.match(kaz.videoBackup.url,/ItlthLSPRpg/);
+ assert.equal(kaz.durationDays,2);assert.match(kaz.videoBackup.url,/ItlthLSPRpg/);
  assert(!sw.records.some(r=>r.time==='1:10.81'));
  assert(sw.submissions.some(r=>r.time==='1:10.81'&&r.dateUnresolved&&r.includeInProgression===false));
  const cm=courses.find(c=>c.id==='n64-choco-mountain');
@@ -145,7 +148,8 @@ test('Rosalina restores intermediate WRs, corrects repost dates, and keeps uncer
  assert(!cm.records.some(r=>r.time==='1:19.33'||r.time==='1:19.47'));
  assert.deepEqual(cm.records.find(r=>r.playerId==='zxflare').laps,['40.05','39.86']);
  const last2020=cm.records.find(r=>r.time==='1:18.51');assert.equal(last2020.video,null);assert.equal(last2020.recordDate,'2020-12-29');assert(fs.existsSync('public'+last2020.proofImageLocal));assert.match(last2020.videoRejection.reason,/predates/);
- const fallback=fastestVideo(cm);assert.equal(fallback.playerId,'superfx');assert.equal(fallback.time,'1:18.93');assert.equal(fallback.isCurrent,false);assert.match(fallback.video,/aKBh5R2tbTQ/);assert.match(fallback.videoBackup.url,/QqsQhQPtolU/);
+ const preserved=cm.records.find(r=>r.playerId==='superfx'&&r.time==='1:18.93');assert.match(preserved.video,/aKBh5R2tbTQ/);assert.match(preserved.videoBackup.url,/QqsQhQPtolU/);
+ const fallback=fastestVideo(cm);assert.equal(fallback.playerId,'player-e38199e38184e3819df09f90ba');assert.equal(fallback.time,'1:18.47');assert.equal(fallback.isCurrent,false);assert.equal(fallback.includeInProgression,false);assert.match(fallback.video,/UB7F8wpQ7qg/);
  for(const r of [...sw.records,...cm.records].filter(r=>r.recordDate>='2020-12-16'&&r.recordDate<'2020-12-30'&&r.time!=='1:18.51'))assert(fs.existsSync('public'+r.proofImageLocal));
 });
 test('New Year 2021 restores Access and Wins exchanges with original dates and excludes later PBs',()=>{
@@ -157,13 +161,13 @@ test('New Year 2021 restores Access and Wins exchanges with original dates and e
  assert.equal(recovered.submittedAt,'2021-01-08T01:22:20.493Z');assert.deepEqual(recovered.laps,['48.44','48.22']);
  assert.equal(af.current.recordDate,'2021-01-12');assert.deepEqual(af.current.laps,['48.26','48.18']);
  assert.equal(af.current.videoAvailability,'unavailable');
- const fallback=fastestVideo(af);assert.equal(fallback.playerId,'wins');assert.equal(fallback.time,'1:36.91');assert.equal(fallback.isCurrent,false);assert.match(fallback.video,/6dLatix8LUs/);
+ const fallback=fastestVideo(af);assert.equal(fallback.playerId,'nhspeedy');assert.equal(fallback.time,'1:36.64');assert.equal(fallback.isCurrent,false);assert.equal(fallback.includeInProgression,false);assert.equal(fallback.videoVerified,true);assert.match(fallback.video,/Nr2M5WYVlNU/);
  assert(!af.records.some(r=>['1:37.55','1:36.91','1:36.51'].includes(r.time)));
  const ktb=courses.find(c=>c.id==='snes-koopa-troopa-beach-2');
  assert.equal(ktb.records.find(r=>r.time==='0:57.59').recordDate,'2020-12-31');
  assert.equal(ktb.current.recordDate,'2021-11-17');assert.match(ktb.current.videoBackup.url,/HngDnzsFz3c/);assert.equal(fastestVideo(ktb).isCurrent,true);
  assert(!ktb.records.some(r=>r.time==='0:57.99'||r.time==='0:59.06'));
- assert(ktb.submissions.some(r=>r.time==='1:02.39'&&r.identityUnresolved&&r.includeInProgression===false));
+ assert(ktb.records.some(r=>r.time==='1:02.39'&&r.identityUnresolved&&r.includeInProgression===true&&r.recordDate==='2020-12-30'));
  for(const r of [...af.records,...ktb.records.filter(r=>r.recordDate)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
 test('Berlin distinguishes original WR images, delayed evidence, and slower surviving footage',()=>{
@@ -187,9 +191,9 @@ test('Berlin distinguishes original WR images, delayed evidence, and slower surv
 test('Cat Tour combines text-only WRs with original posts and preserves unresolved previous bests',()=>{
  const mt=courses.find(c=>c.id==='wii-maple-treeway-r');
  assert.deepEqual(mt.records.slice(0,12).map(r=>[r.playerId,r.time]),[
-  ['romain','1:53.15'],['troy','1:53.07'],['romain','1:51.95'],['nu11','1:51.41'],
-  ['astre','1:50.92'],['saki7','1:50.74'],['astre','1:50.59'],['nu11','1:50.57'],
-  ['nu11','1:50.43'],['astre','1:50.35'],['nu11','1:50.09'],['dit','1:49.98'],
+  ['romain','1:53.15'],['troy','1:53.07'],['unidentified-player','1:51.95'],['romain','1:51.95'],
+  ['nu11','1:51.41'],['astre','1:50.92'],['saki7','1:50.74'],['astre','1:50.59'],
+  ['nu11','1:50.57'],['nu11','1:50.43'],['astre','1:50.35'],['nu11','1:50.09'],
  ]);
  assert(mt.records.find(r=>r.time==='1:50.92').submittedAt<'2021-01-27T11:25:59Z');
  assert(mt.records.find(r=>r.time==='1:50.59').submittedAt<'2021-01-27T14:18:18Z');
@@ -218,7 +222,7 @@ test('rescued recordings keep original and backup links without inventing WRs or
 });
 test('Peach vs Daisy restores dated exchanges and separates later tied footage',()=>{
  const dp=courses.find(c=>c.id==='snes-donut-plains-2');
- assert.deepEqual(dp.records.slice(0,5).map(r=>r.time),['1:01.72','1:01.42','1:01.40','1:00.99','1:00.73']);
+ assert.deepEqual(dp.records.slice(0,5).map(r=>r.time),['1:01.72','1:01.61','1:01.42','1:01.25','1:00.99']);
  assert.equal(dp.records[0].submittedAt,'2021-02-10T06:48:52.636Z');
  assert(!dp.records.some(r=>['1:05.44','1:02.02','1:01.80'].includes(r.time)));
  assert.equal(dp.records.find(r=>r.time==='1:00.73').recordDate,'2021-02-11');
@@ -254,7 +258,7 @@ test('Peach vs Daisy restores dated exchanges and separates later tied footage',
 
 test('Snow Tour restores consecutive breaks, adjacent replies, and separate surviving videos',()=>{
  const riw=courses.find(c=>c.id==='3ds-rosalina-s-ice-world');
- assert.deepEqual(riw.records.slice(0,8).map(r=>r.time),['1:30.56','1:30.35','1:30.23','1:30.19','1:30.12','1:30.11','1:29.91','1:29.87']);
+ assert.deepEqual(riw.records.slice(0,8).map(r=>r.time),['1:31.87','1:30.56','1:30.35','1:30.23','1:30.19','1:30.12','1:30.11','1:29.91']);
  assert.equal(riw.records.find(r=>r.time==='1:29.91').recordDate,'2021-02-28');
  assert.equal(riw.records.find(r=>r.time==='1:29.91').videoAvailability,'unavailable');
  assert.deepEqual(riw.records.find(r=>r.time==='1:29.87').laps,['45.03','44.84']);
@@ -289,36 +293,37 @@ test('Mario Tour restores short WR exchanges and validates shorthand against ori
  assert.deepEqual(bc.records.find(r=>r.playerId==='nu11'&&r.time==='0:59.82').laps,['29.62','30.20']);
  assert.equal(bc.current.recordDate,'2021-03-22');assert(!bc.records.some(r=>r.time==='0:59.58'));
  const tb=courses.find(c=>c.id==='tokyo-blur-4');
- assert.deepEqual(tb.records.slice(0,7).map(r=>r.time),['0:47.64','0:47.26','0:46.92','0:46.84','0:46.57','0:46.35','0:46.31']);
+ assert.deepEqual(tb.records.slice(0,7).map(r=>r.time),['0:47.64','0:47.48','0:47.26','0:46.92','0:46.84','0:46.57','0:46.35']);
  assert.deepEqual(tb.records.find(r=>r.time==='0:46.84').laps,['21.67','25.17']);
  assert.equal(tb.records.find(r=>r.time==='0:46.31').recordDate,'2021-03-23');
- assert(tb.submissions.some(r=>r.time==='0:47.48'&&r.identityUnresolved&&r.includeInProgression===false));
+ assert(tb.records.some(r=>r.time==='0:47.48'&&r.identityUnresolved&&r.includeInProgression===true&&r.recordDate==='2021-03-13'));
  for(const r of [...lm.records,...tb.records.slice(0,7)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
 
 test('Yoshi Tour restores dated exchanges and separates each player’s proof',()=>{
  const tb=courses.find(c=>c.id==='tokyo-blur-4r');
- assert.deepEqual(tb.records.map(r=>r.time),['0:48.82','0:47.46','0:47.39','0:47.09','0:46.91','0:46.82','0:46.74','0:46.57','0:46.51','0:46.47','0:46.47']);
+ assert.deepEqual(tb.records.map(r=>r.time),['0:48.82','0:47.46','0:47.39','0:47.39','0:47.09','0:46.91','0:46.82','0:46.74','0:46.57','0:46.51','0:46.47','0:46.47']);
  const troy=tb.records.find(r=>r.time==='0:47.39');
  assert.equal(troy.playerId,'troy');assert.equal(troy.submittedAt,'2021-03-24T06:34:41.049Z');
  assert.deepEqual(tb.records.find(r=>r.time==='0:47.09').laps,['24.66','22.43']);
  const tie=tb.records.find(r=>r.playerId==='tomegome'&&r.time==='0:46.47');
  assert.equal(tie.video,null);assert.deepEqual(tie.laps,['24.36','22.11']);
  assert.equal(tie.recordDate,'2021-04-05');
- assert(tb.submissions.some(r=>r.time==='0:47.39'&&r.identityUnresolved&&r.includeInProgression===false));
+ assert(tb.records.some(r=>r.time==='0:47.39'&&r.identityUnresolved&&r.includeInProgression===true&&r.recordDate==='2021-03-24'));
  assert.equal(fastestVideo(tb).time,'0:46.51');assert.match(fastestVideo(tb).videoBackup.url,/7kZiQ4ck8y0/);
  const wp=courses.find(c=>c.id==='ds-waluigi-pinball');
  assert.deepEqual(wp.records.map(r=>r.time),['1:47.31','1:46.91','1:46.83','1:46.75','1:46.73','1:46.68','1:46.53','1:46.53','1:46.46','1:46.21']);
  assert.equal(wp.current.recordDate,'2021-04-05');
  assert(!wp.records.some(r=>['1:47.68','1:46.72','1:46.33'].includes(r.time)));
- const footage=fastestVideo(wp);assert.equal(footage.time,'1:46.72');assert.equal(footage.isCurrent,false);
+ const fastest=fastestVideo(wp);assert.equal(fastest.time,'1:46.40');assert.equal(fastest.includeInProgression,false);assert.deepEqual(fastest.laps,['53.23','53.17']);
+ const footage=wp.submissions.find(r=>r.time==='1:46.72'&&r.videoVerified);assert(footage);
  assert.deepEqual(footage.laps,['53.34','53.38']);assert.match(footage.videoBackup.url,/MYuFsJdIxiA/);
  for(const r of [...tb.records,...wp.records.slice(1)])assert(fs.existsSync('public'+r.proofImageLocal));
 });
 
 test('Ninja Tour restores exchanges, correct ties, and lap shorthand from adjacent replies',()=>{
  const mc=courses.find(c=>c.id==='3ds-mario-circuit-r');
- assert.deepEqual(mc.records.map(r=>r.time),['1:38.04','1:37.91','1:37.77','1:37.60','1:37.48','1:37.46','1:37.19','1:36.81','1:36.63','1:36.26','1:36.23','1:36.14','1:36.14','1:36.11','1:35.92','1:35.84']);
+ assert.deepEqual(mc.records.map(r=>r.time),['1:38.04','1:37.91','1:37.77','1:37.60','1:37.48','1:37.46','1:37.19','1:36.81','1:36.63','1:36.26','1:36.24','1:36.23','1:36.14','1:36.14','1:36.11','1:35.92','1:35.84']);
  assert.deepEqual(mc.records.find(r=>r.time==='1:37.77').laps,['48.77','49.00']);
  assert.deepEqual(mc.records.find(r=>r.time==='1:36.23').laps,['48.19','48.04']);
  assert.deepEqual(mc.records.find(r=>r.time==='1:35.92').laps,['47.82','48.10']);
@@ -327,11 +332,12 @@ test('Ninja Tour restores exchanges, correct ties, and lap shorthand from adjace
  assert.match(mc.current.video,/O_ByD9fz4tU/);assert.match(mc.current.videoBackup.url,/guLRQ3rL1ys/);
  assert.match(mc.records.find(r=>r.time==='1:36.81').videoBackup.url,/wDYz3h05dYI/);
  assert.match(mc.records.find(r=>r.playerId==='wins'&&r.time==='1:36.14').videoBackup.url,/qrQ528UaAM4/);
- for(const time of ['1:36.40','1:36.24','1:35.89']) {
+ const recovered=mc.records.find(r=>r.time==='1:36.24');assert.equal(recovered.playerId,'nu11');assert.equal(recovered.recordDate,'2021-04-08');assert.equal(recovered.durationDays,1);
+ for(const time of ['1:36.40','1:35.89']) {
   assert(!mc.records.some(r=>r.time===time));assert(mc.submissions.some(r=>r.time===time&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
  }
  const rr=courses.find(c=>c.id==='snes-rainbow-road');
- assert.deepEqual(rr.records.map(r=>r.time),['0:59.94','0:59.58','0:59.28','0:59.25','0:59.20','0:58.99']);
+ assert.deepEqual(rr.records.map(r=>r.time),['0:59.94','0:59.91','0:59.58','0:59.28','0:59.25','0:59.20','0:58.99']);
  assert.deepEqual(rr.records.find(r=>r.time==='0:59.20').laps,['29.32','29.88']);
  assert.equal(rr.current.recordDate,'2021-04-18');assert.equal(rr.current.videoAvailability,'unavailable');
  const footage=fastestVideo(rr);assert.equal(footage.time,'0:59.49');assert.equal(footage.isCurrent,false);assert.match(footage.videoBackup.url,/b9a68GD9Gyw/);
@@ -345,11 +351,11 @@ test('Sydney April restores dated records and separates video runs from adjacent
  assert.deepEqual(recent.map(r=>r.laps),[['42.00','41.82'],['41.93','41.84'],['41.97','41.78'],['41.97','41.73'],['41.94','41.74']]);
  assert.equal(nbc.current.recordDate,'2021-04-28');assert.match(nbc.current.video,/1388610850978779138/);assert.match(nbc.current.videoBackup.url,/xyqVdSQXoMM/);
  const ci=courses.find(c=>c.id==='rmx-choco-island-2');
- assert.deepEqual(ci.records.map(r=>r.time),['1:03.53','1:02.78','1:02.64','1:02.47','1:02.41']);
+ assert.deepEqual(ci.records.map(r=>r.time),['1:03.53','1:03.05','1:02.78','1:02.64','1:02.47','1:02.41']);
  assert.deepEqual(ci.records.find(r=>r.time==='1:02.64').laps,['31.42','31.22']);assert.equal(ci.current.recordDate,'2021-04-29');assert.deepEqual(ci.current.laps,['31.17','31.24']);assert.match(ci.current.videoBackup.url,/t0jKgJvyjL8/);
  assert.equal(fastestVideo(ci).time,'1:02.41');
  const tome=ci.submissions.find(r=>r.playerId==='tomegome'&&r.videoVerified&&r.time==='1:02.83');assert(tome);assert.equal(tome.includeInProgression,false);assert.deepEqual(tome.laps,['31.39','31.44']);
- assert(ci.submissions.some(r=>r.time==='1:03.05'&&r.identityUnresolved&&r.includeInProgression===false));
+ assert(ci.records.some(r=>r.time==='1:03.05'&&r.identityUnresolved&&r.includeInProgression===true&&r.recordDate==='2021-04-23'));
  assert(ci.submissions.some(r=>r.time==='1:03.54'&&r.dateUnresolved));
  for(const r of [...recent,...ci.records])assert(fs.existsSync('public'+r.proofImageLocal));
 });
@@ -379,20 +385,22 @@ test('Bowser vs DK restores record exchanges, same-player reties, and corrected 
 test('Trick Tour restores dated exchanges and separates recorded PBs from faster WRs',()=>{
  const ktb=courses.find(c=>c.id==='n64-koopa-troopa-beach-r');
  const early=ktb.records.filter(r=>r.recordDate<'2021-06-02');
- assert.deepEqual(early.map(r=>r.time),['1:18.01','1:15.95','1:15.64','1:15.48','1:15.48','1:15.47','1:15.33']);
+ assert.deepEqual(early.map(r=>r.time),['1:18.01','1:16.99','1:16.88','1:16.70','1:16.55','1:16.05','1:15.95','1:15.64','1:15.48','1:15.48','1:15.47','1:15.33']);
  assert.deepEqual(early.filter(r=>r.time==='1:15.48').map(r=>r.playerId),['nu11','nhspeedy']);
  assert.deepEqual(early.find(r=>r.time==='1:15.47').laps,['37.69','37.78']);
  assert.equal(early.at(-1).submittedAt,'2021-06-01T13:17:13.309Z');
  assert.deepEqual(early.at(-1).laps,['37.67','37.66']);
  assert(ktb.submissions.some(r=>r.time==='1:15.37'&&r.dateUnresolved&&r.submittedAt===null));
- assert(ktb.submissions.some(r=>r.time==='1:15.99'&&r.identityUnresolved&&r.includeInProgression===false));
+ assert(!ktb.records.some(r=>r.time==='1:15.99'));
+ assert(ktb.records.some(r=>r.time==='1:16.99'&&r.identityUnresolved&&r.recordDate==='2021-05-19'));
  const nh=ktb.submissions.find(r=>r.time==='1:15.55'&&r.videoVerified);assert.equal(nh.includeInProgression,false);assert.match(nh.videoBackup.url,/Fuery1J_MTM/);
  const rr=courses.find(c=>c.id==='3ds-rainbow-road-r');
- assert.deepEqual(rr.records.map(r=>r.time),['1:57.87','1:56.56','1:56.05','1:55.54','1:54.80','1:54.62','1:54.48','1:54.05','1:54.00','1:53.82','1:53.79','1:53.70','1:53.60','1:53.39','1:53.33','1:53.24','1:53.16','1:52.96','1:52.88','1:52.69']);
+ assert.deepEqual(rr.records.map(r=>r.time),['1:57.87','1:56.56','1:56.05','1:55.63','1:55.54','1:54.80','1:54.62','1:54.48','1:54.05','1:54.00','1:53.82','1:53.79','1:53.70','1:53.60','1:53.39','1:53.33','1:53.24','1:53.16','1:52.96','1:52.88','1:52.69']);
  assert.deepEqual(rr.records.find(r=>r.time==='1:53.79').laps,['36.37',null,null]);
  assert.deepEqual(rr.current.laps,['36.82','41.93','33.94']);assert.equal(rr.current.recordDate,'2021-05-29');
  assert.equal(fastestVideo(rr).time,'1:53.83');assert.equal(fastestVideo(rr).isCurrent,false);assert.match(fastestVideo(rr).videoBackup.url,/zml1t0PMQSg/);
- assert(!rr.records.some(r=>['1:51.98','1:52.93','1:53.55','1:54.66','1:55.63'].includes(r.time)));
+ assert(!rr.records.some(r=>['1:51.98','1:52.93','1:53.55','1:54.66'].includes(r.time)));
+ assert(rr.records.some(r=>r.time==='1:55.63'&&r.identityUnresolved&&r.recordDate==='2021-05-19'));
  const gv=courses.find(c=>c.id==='snes-ghost-valley-1');
  assert.deepEqual(gv.records.map(r=>r.time),['0:39.96','0:39.93','0:39.92','0:39.88','0:39.88','0:39.87','0:39.76']);
  assert.equal(gv.current.submittedAt,'2021-06-01T14:37:08.850Z');assert.deepEqual(gv.current.laps,['19.96','19.80']);
@@ -412,7 +420,7 @@ test('Wedding Tour restores exchanges, adjacent lap shorthand, and the Twitter-o
  assert.deepEqual(wedding.filter(r=>r.time==='1:34.35').map(r=>r.playerId),['superfx','tomegome']);
  const tome=wedding.find(r=>r.playerId==='tomegome');assert.equal(tome.submittedAt,'2021-06-15T09:14:14.000Z');assert.deepEqual(tome.laps,['47.21','47.14']);assert.match(tome.video,/1404728947196055555/);assert.match(tome.videoBackup.url,/itx8KWMWtHI/);assert.equal(tome.durationDays,1);
  assert.match(wedding.find(r=>r.time==='1:35.31').videoBackup.url,/pPek5tziViM/);assert.match(wedding.find(r=>r.time==='1:35.23').videoBackup.url,/XSOOFt2veI4/);assert.match(wedding.find(r=>r.time==='1:34.99').videoBackup.url,/sGUfz13K-0E/);
- assert.equal(mc.current.recordDate,'2021-06-16');assert.equal(mc.current.videoAvailability,'unavailable');assert.equal(fastestVideo(mc).playerId,'tomegome');assert.equal(fastestVideo(mc).time,'1:34.35');assert.equal(fastestVideo(mc).isCurrent,false);
+ assert.equal(mc.current.recordDate,'2021-06-16');assert.equal(mc.current.videoAvailability,'unavailable');assert.equal(fastestVideo(mc).playerId,'gomikuzu');assert.equal(fastestVideo(mc).time,'0:48.84');assert.equal(fastestVideo(mc).includeInProgression,false);assert.match(fastestVideo(mc).video,/1192020356539633664/);assert.equal(fastestVideo(mc).isCurrent,false);
  const rr=courses.find(c=>c.id==='rmx-rainbow-road-2');const early=rr.records.filter(r=>r.recordDate<'2021-06-17');
  assert.deepEqual(early.map(r=>r.time),['1:22.37','1:22.17','1:22.10','1:22.10','1:22.09','1:22.05','1:21.95','1:21.74','1:21.69','1:21.65']);
  assert.deepEqual(early.filter(r=>r.time==='1:22.10').map(r=>r.playerId),['phillish','dit']);assert.deepEqual(early.find(r=>r.time==='1:22.09').laps,['40.99','41.10']);assert.deepEqual(early.find(r=>r.time==='1:22.05').laps,['41.01','41.04']);assert.equal(early.at(-1).recordDate,'2021-06-16');assert.equal(early.at(-1).videoAvailability,'unavailable');
@@ -455,10 +463,10 @@ test('Summer Tour restores the original Twitter date and preserves the faster no
 test('Los Angeles Tour restores the video-dated WR between Nu11 and DIT and distinguishes adjacent footage',()=>{
  const kd=courses.find(c=>c.id==='n64-kalimari-desert-r');
  assert.deepEqual(kd.records.map(r=>r.time),['1:19.79','1:19.27','1:18.86','1:18.78','1:18.70','1:18.68','1:18.63','1:18.50','1:18.48','1:18.43','1:18.40','1:18.33']);
- const n=kd.records.find(r=>r.time==='1:18.48');assert.equal(n.recordDate,'2021-07-22');assert.equal(n.playerId,'n');assert.deepEqual(n.laps,['40.05','38.43']);assert.equal(n.derivedLap,2);assert.match(n.videoBackup.url,/Run8VHVgXHY/);assert.equal(n.durationDays,2);
+ const n=kd.records.find(r=>r.time==='1:18.48');assert.equal(n.recordDate,'2021-07-22');assert.equal(n.playerId,'n');assert.deepEqual(n.laps,['40.05','38.43']);assert.equal(n.laps.reduce((sum,lap)=>sum+Math.round(Number(lap)*100),0),7848);assert.match(n.lapMatchBasis,/total time/);assert.match(n.videoBackup.url,/Run8VHVgXHY/);assert.equal(n.durationDays,2);
  assert.equal(kd.current.submittedAt,'2021-07-28T05:07:15.639Z');assert.deepEqual(kd.current.laps,['39.87','38.46']);assert(!kd.current.video);assert.equal(fastestVideo(kd).time,'1:18.48');assert.equal(fastestVideo(kd).isCurrent,false);
  const mc=courses.find(c=>c.id==='snes-mario-circuit-3');
- assert.deepEqual(mc.records.map(r=>r.time),['1:07.37','1:07.18','1:07.11','1:07.03','1:06.59','1:06.53','1:06.44']);
+ assert.deepEqual(mc.records.map(r=>r.time),['1:07.37','1:07.36','1:07.24','1:07.18','1:07.11','1:07.03','1:06.59','1:06.53','1:06.44']);
  assert.equal(mc.current.submittedAt,'2021-07-24T01:16:39.000Z');assert.equal(mc.current.playerId,'tomegome');assert.deepEqual(mc.current.laps,['33.21','33.23']);assert(!mc.current.video);
  const tome=fastestVideo(mc);assert.equal(tome.time,'1:06.61');assert.deepEqual(tome.laps,['33.29','33.32']);assert.equal(tome.isCurrent,false);assert.match(tome.videoBackup.url,/A1T-uTgYl-k/);
  for(const t of ['1:07.06','1:06.68'])assert(mc.submissions.some(r=>r.time===t&&r.dateUnresolved&&r.submittedAt===null&&r.includeInProgression===false));
@@ -490,7 +498,7 @@ test('Later Madrid Drive 3 video preserves the original result date and both evi
 
 test('Frost restores opening records, a deleted holder, the Kura exchange, and separately attributed recordings',()=>{
  const dk=courses.find(c=>c.id==='wii-dk-summit');
- assert.deepEqual(dk.records.map(r=>r.time),['1:35.93','1:35.51','1:34.99','1:34.40','1:34.28','1:33.94','1:33.79','1:33.64','1:33.57','1:33.37','1:33.22','1:33.09','1:32.97','1:32.90','1:32.81']);
+ assert.deepEqual(dk.records.map(r=>r.time),['1:35.93','1:35.51','1:34.99','1:34.40','1:34.28','1:33.94','1:33.79','1:33.64','1:33.57','1:33.37','1:33.22','1:33.09','1:32.97','1:32.90','1:32.89','1:32.81']);
  const unknown=dk.records.find(r=>r.time==='1:35.51');assert(unknown.identityUnresolved);assert.equal(unknown.playerId,'unidentified-runner-frost-2021');assert.equal(unknown.submittedAt,'2021-08-11T06:18:51.388Z');
  const video=dk.records.find(r=>r.time==='1:32.97');assert.deepEqual(video.laps,['46.44','46.53']);assert.equal(video.recordDate,'2021-08-17');assert.match(video.videoBackup.url,/F1bZ7b-Rk6w/);
  assert(!dk.records.some(r=>r.time==='1:32.92'));assert(dk.submissions.some(r=>r.time==='1:32.91'&&r.dateUnresolved&&r.includeInProgression===false));

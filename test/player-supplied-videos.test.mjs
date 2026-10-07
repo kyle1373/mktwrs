@@ -7,7 +7,7 @@ test('recovered videos enrich historical records without replacing original subm
   const peach = read('public/data/courses/ds-peach-gardens.json').records.find(r => r.time === '1:26.58');
   assert.match(peach.video, /1GrmZnTkaDY/);
   assert.equal(peach.videoVerified, true);
-  assert.equal(peach.submittedAt, '2023-12-06T10:51:58.143Z');
+  assert.equal(peach.submittedAt, '2023-12-06T10:45:37.112Z');
   const ghost = read('public/data/courses/snes-ghost-valley-1r.json').records.find(r => r.time === '0:40.59' && r.playerId === 'superfx');
   assert.match(ghost.video, /superfx-gv1r-4059-20200910.mp4/);
   assert.match(ghost.videoBackup.url, /fm9lEZ59ZiI/);

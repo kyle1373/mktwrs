@@ -21,6 +21,8 @@ test('opening Vanilla Lake exchange preserves original splits and separates repo
  const astre=c.records.find(r=>r.messageId==='trick-2020-702434659526770758');
  assert(astre);assert.equal(astre.time,'0:35.40');assert.deepEqual(astre.laps,['17.71','17.69']);assert(astre.proofImageLocal);
  const milky=c.records.find(r=>r.messageId==='trick-2020-702437997290848306');
- assert(milky);assert.equal(milky.time,'0:35.21');assert.equal(milky.recordDate,null);assert.equal(milky.durationDays,null);
+ assert(milky);assert.equal(milky.time,'0:35.21');assert.equal(milky.recordDate,'2020-04-22');assert.equal(milky.durationDays,0);assert.equal(milky.submittedAt,null);
+ assert.equal(milky.dateEvidence,'first-course-availability-and-contemporary-report');
+ assert.deepEqual([milky.achievementDateBounds.notBefore,milky.achievementDateBounds.notAfter],['2020-04-22T06:00:00Z','2020-04-22T08:37:49.221Z']);
  assert.equal(milky.observedAt,'2020-04-22T08:37:49.221Z');
 });
