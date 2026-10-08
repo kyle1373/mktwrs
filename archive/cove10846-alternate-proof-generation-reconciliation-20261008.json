@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-08T20:24:27.687337+00:00",
+  "sourceRevision": "85703b2d13ce182be64d95f87c6621750dcd940d",
+  "historyComplete": false,
+  "recordId": "1078514612225441792",
+  "courseId": "piranha-plant-cove",
+  "time": "1:08.46",
+  "laps": [
+    "34.16",
+    "34.30"
+  ],
+  "firstKnownPublication": "2023-02-19T19:11:17.825Z",
+  "laterDiscussionReference": "1077207810091253831",
+  "changes": [
+    "Canonical screenshot and video evidence entries now link each other as alternate proof images.",
+    "Importer retains alternate proof images from the selected verified source, deduplicating existing links.",
+    "Both public WR representations retain original screenshot and video result proof and exact discussion reference."
+  ],
+  "proofs": [
+    {
+      "path": "/assets/proof/exploration2023-1076944081760026705.webp",
+      "sha256": "b3030ab45eda0d51c6de435700b36417e3b96813f6a4649e822a43ac53b3e6d6"
+    },
+    {
+      "path": "/assets/proof/wins-piranha-plant-cove-10846-original-video.webp",
+      "sha256": "1e066ee8957f61d22e14783bb9cd85406aa1beddeeebb4247e0cc848b0df447d"
+    }
+  ],
+  "sourceReviews": [
+    "archive/exploration2023-february19-21-three-fast-original-review-20261004.json",
+    "archive/tt-discussion-2023-captured-video-review-queue-20261004.json",
+    "archive/discussion-known-verified-social-video-index-reconciliation-20261005.json"
+  ],
+  "validation": {
+    "committedInputGeneration": "passed; retains both proof paths",
+    "newRegressionTest": "passed",
+    "workspaceTestsPassed": 129,
+    "isolatedFullSuite": {
+      "passed": 130,
+      "failed": 0,
+      "includesNewRegression": true,
+      "inputs": "Committed source inputs with staged importer/canonical evidence; regenerated data; referenced committed images and local test video copied from Git objects."
+    }
+  },
+  "limits": [
+    "No WR additions, identity, lap or achievement-date changes.",
+    "Full history and external video backup completion remain unproven."
+  ],
+  "durationInvestigation": {
+    "ds-peach-gardens-r": {
+      "recordId": "1219694565657804833",
+      "originalSourceMessageId": "1214815461817196585",
+      "originalPublishedAt": "2024-03-06T06:02:56.277Z",
+      "sourceReview": "archive/doctor2024-original-screenshot-review-20261005.json",
+      "proofSha256": "130ac8e53f4f916313ba4421d90e73cb78768cdb0594dbc3c19eb283c519bb8f",
+      "finding": "Original submission timestamp already present; stale tour boundary excluded March6 publication before07:00UTCreset. Canonical achievedAt/archive-day now fixes recordDate in committed generation. Reconcile public successor source/proof/day before recalculating predecessor14playabledays."
+    },
+    "piranha-plant-cove-2": "Existing dated successor1:29.34Feb12,2024 supports predecessor1:29.38 sixplayabledays; public predecessor duration missing. 2026nekozuki tie lacks originalFeb9 date in dedicated output.",
+    "piranha-plant-cove": "Current1:08.46 has45playabledays through2026appearances; stored durationEndOct4 versus generatedOct8 is as-of metadata, not successor evidence."
+  },
+  "additionalAssetAudit": {
+    "referencedCommittedAssetsCopied": 9177,
+    "missingCommittedAsset": {
+      "path": "public/assets/proof/pipe2026-1526332866735243264.jpg",
+      "courseId": "piranha-plant-cove-2r",
+      "submissionId": "curated-1526332867007742012-pipe2026-image-reviewed",
+      "playerId": "fireball",
+      "time": "1:31.55",
+      "status": "documented-submission",
+      "publishedAt": "2026-07-13T21:01:53.388Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1526332867007742012",
+      "resolution": "Open; recover preserved original or explicitly mark local proof unavailable. Do not infer WR."
+    },
+    "scope": "References in isolated committed-input generation; not all filesystem or source coverage."
+  }
+}

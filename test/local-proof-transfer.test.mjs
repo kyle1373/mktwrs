@@ -14,3 +14,12 @@ test('preserved original result enriches an announcement with an expired remote 
   assert(record.additionalProofImages.some(url => url.includes('785129118449926194')));
   assert.equal(record.videoAvailability, 'unavailable');
 });
+
+test('same-source screenshot and verified video proof both survive record enrichment', () => {
+  const record = read('piranha-plant-cove').records.find(r => r.id === '1078514612225441792');
+  const proofs = new Set([record.proofImageLocal, ...(record.additionalProofImages || [])]);
+  assert(proofs.has('/assets/proof/exploration2023-1076944081760026705.webp'));
+  assert(proofs.has('/assets/proof/wins-piranha-plant-cove-10846-original-video.webp'));
+  assert.equal(record.submittedAt, '2023-02-19T19:11:17.825Z');
+  assert.deepEqual(record.laps, ['34.16', '34.30']);
+});
