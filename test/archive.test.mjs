@@ -687,3 +687,17 @@ test('December 2020 opening consolidation distinguishes menu bests from complete
  const tanuke=rows.find(r=>r.player==='tanuke'&&r.time==='2:00.20');
  assert.deepEqual(tanuke.laps,['33.67','49.44','37.09']);
 });
+
+test('December1to2 original results retain paired finishes and reject tentative remembered laps',()=>{
+ const rows=courses.flatMap(c=>c.submissions).filter(r=>r.messageId?.endsWith('-december2020-december1to2-original-reviewed'));
+ assert.equal(rows.length,23);
+ const paired=rows.filter(r=>r.source.messageId==='783573289696100402');
+ assert.deepEqual(paired.map(r=>r.time).sort(),['2:00.14','2:00.28']);
+ assert.equal(new Set(paired.map(r=>r.proofImageLocal)).size,2);
+ const kenshiro=rows.find(r=>r.player==='Kenshiro');
+ assert.deepEqual(kenshiro.laps,[]);
+ const phillish=rows.find(r=>r.player==='Phillish');
+ assert.deepEqual(phillish.laps,['20.36','20.22']);
+ assert(!rows.some(r=>r.time==='2:14.19'));
+ assert(rows.every(r=>r.includeInProgression===false&&r.dateUnresolved));
+});

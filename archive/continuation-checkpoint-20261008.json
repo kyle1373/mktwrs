@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T18:59:45.657192+00:00",
+  "checkedAt": "2026-10-08T19:02:17.992870+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -211,12 +211,12 @@
     "localProductionBuild": "passed",
     "pendingCommitsAfterEvidencePush": [],
     "activePushExecSessionId": null,
-    "remoteLastChecked": "3839d8ef",
-    "nextAction": "Push current December2020 preservation/source consolidation then verify actual Railway/live deployment; live still prior duplicate paired rows.",
+    "remoteLastChecked": "22dd72fc",
+    "nextAction": "Push December1to2 consolidation and verify Railway/live publication; latest22dd deployment6944235595 lastreported inprogress, liveDecemberopeningrows0.",
     "activePushObservation": "Push 77869 completed15f7860d; push57473 completedd9eebc82.",
     "validationFile": "archive/paired-submission-publication-validation-20261008.json"
   },
-  "nextConcreteSourceReview": "Continue chronological December2020 original image consolidation: 619 initial matched-result leads remain outside canonical ledger; distinguish completed runs, same-performance copies, tour-menu bests and slow bagging evidence. Also validate17 non-December report leads.",
+  "nextConcreteSourceReview": "Continue December2020 original-source review: 597 screened slower-result rows remain unconsolidated plus97 non-result/unidentified images. Also reconcile accepted WR chronology gaps and17 non-December report leads. Inspect actual Railway deployment log if live site remains stale despite published commits.",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -233,7 +233,7 @@
     "diffWhitespaceErrors": 0
   },
   "validationCurrentContinuation": {
-    "tests": "124 passed, 0 failed",
+    "tests": "126 passed, 0 failed",
     "productionBuild": "passed",
     "preservedOriginalHashes": "10/10 passed",
     "canonicalChanges": "3 supporting additions only",
@@ -274,7 +274,7 @@
     "mappedResultRows": 2041,
     "initialUnmatchedRows": 648,
     "sourceRowsNewlyConsolidated": 12,
-    "remainingUnreviewedLeads": 636,
+    "remainingUnreviewedLeads": 612,
     "scopeLimitation": "Not exhaustive source coverage or WR certification."
   },
   "december2020OpeningConsolidation": {
@@ -284,6 +284,14 @@
     "newWrTransitions": 0,
     "originalsPreserved": 12,
     "testsPassed": 125,
+    "productionBuild": "passed"
+  },
+  "december2020December1to2Consolidation": {
+    "audit": "archive/december2020-december1to2-source-consolidation-20261008.json",
+    "newSupportingRows": 23,
+    "excludedSlowRuns": 1,
+    "preservedOriginals": 24,
+    "testsPassed": 126,
     "productionBuild": "passed"
   }
 }
