@@ -708,9 +708,18 @@ test('December4 standing table does not backdate DIT39.93 to the earlier39.xx cl
  const r=c.submissions.find(r=>r.messageId?.endsWith('-dit-choco-03993'));
  assert.equal(r.time,'0:39.93');
  assert.deepEqual(r.laps,['20.10','19.83']);
- assert.equal(r.submittedAt,null);
- assert.equal(r.observedAt,'2020-12-04T13:46:45.033Z');
+ assert.equal(r.submittedAt,'2020-12-04T05:35:18.134Z');
+ assert(r.additionalProofs.some(p=>p.observedAt==='2020-12-04T13:46:45.033Z'));
  assert.equal(r.dateUnresolved,true);
  assert.equal(r.includeInProgression,false);
  assert(!c.records.some(r=>r.time==='0:39.93'));
+});
+
+test('Sucha composite preserves separate earlier finishes without inheriting later laps',()=>{
+ const rows=courses.find(c=>c.id==='snes-choco-island-1').submissions.filter(r=>r.source?.messageId==='784291212642877451');
+ assert.deepEqual(rows.map(r=>r.time).sort(),['0:40.10','0:40.12','0:40.14']);
+ for(const r of rows.filter(r=>r.time!=='0:40.10')){assert.equal(r.submittedAt,null);assert.deepEqual(r.laps,[]);assert(r.dateUnresolved);}
+ const whiplash=courses.find(c=>c.id==='snes-choco-island-1').submissions.find(r=>r.source?.messageId==='784111966498062367');
+ assert.deepEqual(whiplash.laps,[]);
+ assert(whiplash.notes.some(n=>n.includes('40.60')));
 });
