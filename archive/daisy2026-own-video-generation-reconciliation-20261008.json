@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-08T21:26:09.231775+00:00",
+  "sourceRevision": "fd8bd255d575691c95709f5574eae91d2856e147",
+  "historyComplete": false,
+  "recordId": "1534634409582526485-p-en",
+  "source": "https://discord.com/channels/629221606064914442/875784780573184010/1534410727945932830",
+  "problem": "Build attribution rejects kuRi shared recording after import, dropping p_en separately sourced own recording.",
+  "change": "After wrong-player rejection, accept a submission video only when it explicitly enriches the exact record, matches player and time, and has no conflicting known attribution. Keep rejected URL as videoReference.",
+  "validation": {
+    "freshGenerationWithoutDaisyOverlay": true,
+    "aggregateOwnVideo": "https://youtu.be/g1MXSCnFWO0?si=IB9KP1af6feoZZiy",
+    "dedicatedOwnVideo": "https://youtu.be/g1MXSCnFWO0?si=IB9KP1af6feoZZiy",
+    "wrongPlayerVideoReferenceRetained": true,
+    "originalProofStillUnavailable": true,
+    "ownRecordingStillUnverified": true,
+    "tests": "130 passed; 0 failed in isolated committed-source environment"
+  },
+  "limits": [
+    "No original image recovery, new footage verification or backup upload performed.",
+    "HTTP live rollout and deployed revision unverified. History incomplete."
+  ]
+}
