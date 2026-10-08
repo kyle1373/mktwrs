@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-08T22:32:29.051365+00:00",
+  "historyComplete": false,
+  "sourceAudit": "archive/winter2023-cross-ledger-duplicate-reconciliation-20261008.json",
+  "changes": [
+    {
+      "path": "public/data/courses/tokyo-blur-4.json",
+      "duplicateRowsRemoved": 9
+    },
+    {
+      "path": "public/data/courses/bangkok-rush-2.json",
+      "duplicateRowsRemoved": 3
+    },
+    {
+      "path": "public/data/courses/gba-cheep-cheep-island-r.json",
+      "duplicateRowsRemoved": 1
+    },
+    {
+      "path": "public/data/courses/singapore-speedway-r.json",
+      "duplicateRowsRemoved": 1
+    }
+  ],
+  "validation": {
+    "exactDuplicateCanonicalIds": "14existingduplicateimports reconciled",
+    "recordsAndCurrentHolders": "unchanged",
+    "reviewNotes": "mergedretainedcanonicalnotes",
+    "livePublication": "unverified"
+  },
+  "nextActions": [
+    "Resolveconflictingduplicateidentities/splits separately.",
+    "ContinueWinter2023 originals andother years."
+  ]
+}
