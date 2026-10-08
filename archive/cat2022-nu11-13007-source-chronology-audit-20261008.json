@@ -97,5 +97,18 @@
     "url": "https://media.discordapp.net/attachments/708619915971788810/988904421331202168/unknown.png",
     "result": "HTTP404",
     "decision": "OriginalproofunavailableatthisURL. June21attachment upload timestamp remains metadata, not completiondate. Sourcechannel refresh or independent preservedoriginal needed."
-  }
+  },
+  "originalAnnouncementBrowserRecheck": {
+    "checkedAt": "2026-10-08",
+    "sourceMessageId": "988906735882358845",
+    "finding": "Original renderedWRannouncement still links same unsignedmissingproof URL; no refreshedlink supplied by message. Original text listsNu111:30.07and closest recordedSucha1:30.18."
+  },
+  "exactTimeServerSearch": {
+    "query": "after:2022-06-01 before:2022-06-22 \"1:30.07\"",
+    "resultCount": 1,
+    "sourceMessageId": "988910001991077939",
+    "publishedAt": "2022-06-21T20:55:17.534Z",
+    "decision": "Additionalannouncedresultconfirmation; no exact achievementdate. Search cannot read image pixels and is not absenceproof."
+  },
+  "finalTableCorroboration": "archive/cat2022-final-tables-source-review-20261008.json"
 }
