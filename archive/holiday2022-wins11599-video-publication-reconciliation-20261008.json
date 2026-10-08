@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-08T22:22:14.355935+00:00",
+  "historyComplete": false,
+  "changes": [
+    {
+      "path": "public/data/courses.json",
+      "collection": "records",
+      "id": "1058254544313782272"
+    },
+    {
+      "path": "public/data/courses/vancouver-velocity-3.json",
+      "collection": "records",
+      "id": "1058254544313782272"
+    },
+    {
+      "path": "public/data/courses/vancouver-velocity-3.json",
+      "collection": "submissions",
+      "id": "curated-1056241227919540344-holiday2022-proof-reviewed"
+    }
+  ],
+  "sourceAudit": "archive/holiday2022-wins11599-original-video-reconciliation-20261008.json",
+  "validation": {
+    "committedEvidence": "Announcement in both course representations and supporting submission in dedicated course enriched",
+    "WRTimeDateLapStatus": "retained",
+    "originalHashes": "4 verified",
+    "liveDeployment": "unverified"
+  },
+  "limitations": [
+    "Aggregate course object omits this supporting submission; dedicated course retains it. Full aggregate/dedicated reconciliation remains incomplete."
+  ]
+}
