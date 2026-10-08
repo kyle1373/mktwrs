@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-08",
+  "tour": "New Year's 2022 Tour",
+  "status": "validated-evidence-bundle",
+  "canonicalCommit": "ceaf407c",
+  "canonicalReconciliation": "archive/new-year-2022-reconciliation.json",
+  "validation": {
+    "jsonFilesParsed": 29,
+    "jsonParseErrors": 0,
+    "submissionCaptureWindows": 12,
+    "submissionWindowRowsIncludingOverlap": 360,
+    "uniqueSubmissionMessagesRecaptured": 197,
+    "discussionCaptureWindows": 11,
+    "discussionWindowRowsIncludingOverlap": 330,
+    "uniqueDiscussionMessagesRecaptured": 180,
+    "normalizedSubmissionMessages": 168,
+    "confirmedWrChanges": 25,
+    "uniqueConfirmedWrChanges": 25,
+    "uniqueConfirmedSourceMessages": 24,
+    "confirmedSourceMessagesPresentInNormalizedCapture": 25,
+    "canonicalNewYearRows": 34,
+    "canonicalConfirmedRows": 25,
+    "confirmedCanonicalIdsPresent": 25,
+    "canonicalRowsWithLaterSourceEnrichment": 1,
+    "recoveredNewYearAttachmentEntries": 23,
+    "additionalPenguinBoundaryAttachmentEntries": 1,
+    "recoveredAttachmentHashMismatches": 0,
+    "visibleLapArithmeticMismatches": 0,
+    "discussionImageEntries": 7,
+    "discussionImageHashMismatches": 0,
+    "reviewedVideoEntries": 13,
+    "reviewedVideoHashMismatches": 0,
+    "officialClosingAnnouncementCaptures": 1
+  },
+  "preservedInThisBundle": [
+    "archive/raw/new-year-2022-*.json",
+    "archive/new-year-2022-capture-audit.json",
+    "archive/new-year-2022-discussion-images.json",
+    "archive/new-year-2022-original-media/",
+    "archive/new-year-2022-original-videos.json",
+    "archive/new-year-2022-recovered-attachments.json",
+    "archive/new-year-2022-recovered-images/",
+    "archive/new-year-2022-submission-messages.json"
+  ],
+  "limitations": [
+    "This validates the saved New Year's 2022 Tour evidence bundle and its canonical reconciliation; it does not establish complete Discord, social-media, or private race-completion coverage.",
+    "Nu11's earlier 1:14.92 and Wins's earlier personal-best dates remain unresolved, and DIT's visible previous 0:34.20 lacks an independently established first-attainment date.",
+    "Two Isun Twitter videos could not be downloaded; the surviving result screenshots and lap text remain the available evidence.",
+    "One DIT canonical row was subsequently enriched from a recovered player-supplied video with an earlier surviving publication date and verified laps; this validation preserves rather than reverses that stronger evidence.",
+    "Nine downloaded video originals are preserved in the local archive/video-backup-files cache, which is excluded from new Git tracking by repository policy; their hashes and review decisions remain recorded in archive/new-year-2022-original-videos.json.",
+    "No new backup-upload availability was claimed during this validation."
+  ]
+}
