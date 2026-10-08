@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T18:52:07.056760+00:00",
+  "checkedAt": "2026-10-08T18:52:53.495746+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -209,16 +209,14 @@
     "liveEarlierWRDataVerified": true,
     "liveIdentityCorrectionVerified": false,
     "localProductionBuild": "passed",
-    "pendingCommitsAfterEvidencePush": [
-      "50a57e20"
-    ],
-    "activePushExecSessionId": 77869,
-    "remoteLastChecked": "8ccae82519284d12504b0eea564a9ec1b7a8aea0",
-    "nextAction": "Poll77869completionthenpushlatercommitsincludingcheckpoint.VerifyRailwaydeployment6943914544for8ccae825;liveJSONstillprecorrection.GitHubCIjobnotstartedduetoaccountbillinglimit,notcodefailure.",
-    "activePushObservation": "Priorpush87919completedc093e2cc;session91925completed2bef001c;session61976completed8ccae825. Session77869currentlypushes50Vacation2024originalsthrough15f7860dandremainslive. Noconcurrentpush.",
-    "validationFile": "archive/vacation2024-publication-validation-20261008.json"
+    "pendingCommitsAfterEvidencePush": [],
+    "activePushExecSessionId": null,
+    "remoteLastChecked": "d9eebc82",
+    "nextAction": "Verify Railway production deployment of d9eebc82 and continue original attachment-to-canonical reconciliation.",
+    "activePushObservation": "Push 77869 completed15f7860d; push57473 completedd9eebc82.",
+    "validationFile": "archive/paired-submission-publication-validation-20261008.json"
   },
-  "nextConcreteSourceReview": "archive/duplicate-canonical-identity-review-queue-20261008.json",
+  "nextConcreteSourceReview": "Reconcile original-review attachment mappings against canonical course/time/proof; shared-ID overwrites may persist even where canonical IDs are now unique.",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -235,7 +233,7 @@
     "diffWhitespaceErrors": 0
   },
   "validationCurrentContinuation": {
-    "tests": "122passed,0failedafterbuildcompleted",
+    "tests": "123 passed, 0 failed",
     "productionBuild": "passed",
     "preservedOriginalHashes": "10/10 passed",
     "canonicalChanges": "3 supporting additions only",
@@ -244,7 +242,9 @@
     "anniversaryHashes": "57/57 passed; no canonical changes",
     "courseTransferIsolation": "All142aggregate accepted record arrays/current unchanged by5supporting course corrections",
     "vacationOriginalHashes": "50/50",
-    "githubCI": "Notstarted:accountbilling/spendinglimitannotation"
+    "githubCI": "Notstarted:accountbilling/spendinglimitannotation",
+    "pairedOriginalHashes": "6/6",
+    "pairedCanonicalDuplicateIds": 0
   },
   "pairedSubmissionIdentityReconciliation": {
     "audit": "archive/paired-submission-identity-reconciliation-20261008.json",
@@ -254,6 +254,6 @@
     "testsPassed": 123,
     "productionBuild": "passed",
     "historyComplete": false,
-    "publication": "15f7860d push completed and remote verified; paired corrections ready for next push; live deployment remains unverified"
+    "publication": "d9eebc82 push completed; live JSON at 18:52:32Z still has prior duplicate rows."
   }
 }
