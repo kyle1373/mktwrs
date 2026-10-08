@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08",
+  "checkedAt": "2026-10-08T18:32:38.647233+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -87,6 +87,14 @@
       "passed": 118,
       "failed": 0,
       "productionBuild": "passed"
+    },
+    "october2026RepostReview": {
+      "messages": 4,
+      "runReferences": 21,
+      "newSupportingRuns": 3,
+      "preservedOriginalFiles": 10,
+      "hashesVerified": true,
+      "audit": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json"
     }
   },
   "commits": [
@@ -130,7 +138,8 @@
     "e59897bc",
     "08aab0c0",
     "58512c53",
-    "8a0f3d7b"
+    "8a0f3d7b",
+    "235526bc"
   ],
   "remainingWork": [
     "Wins originalMay27post and two videos verified; faster worldwide rival still unidentified. HistoricalXsearch only returned Wins. Workbook repeats server submissions. Do not promote fourMay20–24runs yet.",
@@ -141,7 +150,8 @@
     "Reconcile 2022–2026 course appearances against saved original-source windows, deleted evidence, competing runners and existing curated records; no date is certified complete.",
     "Resolve archive/space2024-social-source-review-20261005.json chronology conflict and protected/unavailable video leads recorded in archive/october2026-shared-video-review/preservation-and-deployment-checkpoint.json.",
     "Preserve additional source captures still untracked in the existing working tree, using explicit per-bundle staging; do not blanket-add unrelated media.",
-    "Upload queued unlisted video backups only within the established publication authorization and channel limits; no new upload was performed in this pass."
+    "Upload queued unlisted video backups only within the established publication authorization and channel limits; no new upload was performed in this pass.",
+    "Resolve NHSpeedy RMX Rainbow Road2R1:21.33 July29,2022 versus slower accepted SuperFX July30 records, and Berlin1:14.69 June24 versus Sucha1:14.83/SuperFX previous1:14.71. Contemporary bot snapshots omit NHSpeedy; no WR promotion yet."
   ],
   "resumeRules": [
     "Use canonical IDs, source channel/message IDs, attachment IDs and local hashes to avoid duplicate review or duplicate WR rows.",
@@ -151,8 +161,8 @@
     "All validation files retain historyComplete=false. Counts describe saved evidence only; no defensible total remaining percentage exists."
   ],
   "publication": {
-    "lastVerifiedRemoteCommit": "0ee7b55be43d12a2d2515695d31dd1e1f909eadd",
-    "pushInProgressThrough": "4466f212",
+    "lastVerifiedRemoteCommit": "4466f212",
+    "pushInProgressThrough": "235526bc",
     "liveEarlierWRDataVerified": true,
     "liveIdentityCorrectionVerified": false,
     "localProductionBuild": "passed",
@@ -167,13 +177,13 @@
       "58512c53",
       "8a0f3d7b"
     ],
-    "activePushExecSessionId": 90594,
-    "remoteLastChecked": "0ee7b55be43d12a2d2515695d31dd1e1f909eadd",
-    "nextAction": "Verify push completion through4466f212 and this checkpoint; later recheck deployed Nu11 identity correction. Continue Bangkok N/Dit chronology and Piranha2022 original preservation.",
-    "activePushObservation": "Session90594/process5942 remains live; remote main last verified58bb6f9f. Push is through4466f212; no restart or concurrent push. After it completes publish all newer queued commits and verify remote, then deployment.",
+    "activePushExecSessionId": 63564,
+    "remoteLastChecked": "4466f212",
+    "nextAction": "Verify remote push through235526bc, publish this checkpoint, then verify deployment including three supporting runs and five Nu11 identity corrections.",
+    "activePushObservation": "Previous session90594 completed successfully through4466f212. New session63564 pushes11 queued commits through235526bc; preserve session until completion.",
     "validationFile": "archive/cat-metropolitan2022-nu11-publication-validation-20261008.json"
   },
-  "nextConcreteSourceReview": "archive/early-chronology-resume-queue.json",
+  "nextConcreteSourceReview": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -190,11 +200,11 @@
     "diffWhitespaceErrors": 0
   },
   "validationCurrentContinuation": {
-    "jsonFilesParsed": 24,
-    "hashedReferences": 196,
-    "errors": 0,
-    "canonicalChangesThisContinuation": 0,
-    "applicationCodeChanged": false,
-    "piranhaLiveMatches": 6
+    "tests": "118 passed,0 failed",
+    "productionBuild": "passed",
+    "preservedOriginalHashes": "10/10 passed",
+    "canonicalChanges": "3 supporting additions only",
+    "publicChanges": "3 matching supporting additions; accepted WR arrays/current unchanged",
+    "audit": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json"
   }
 }
