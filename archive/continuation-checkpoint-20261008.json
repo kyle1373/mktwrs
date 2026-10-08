@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T18:34:00.251377+00:00",
+  "checkedAt": "2026-10-08T18:41:41.814469+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -104,6 +104,20 @@
       "cancelledDuplicateUnavailable": 1,
       "sha256Matches": "57/57",
       "audit": "archive/anniversary2026-preservation-reconciliation-20261008.json"
+    },
+    "ocean2022WorldwideStandingCorrection": {
+      "canonicalChanges": 3,
+      "slowerSuperFXRecordsExcluded": 2,
+      "predecessorReignUnresolved": true,
+      "currentRecordUnchanged": "1:21.20",
+      "audit": "archive/ocean2022-rr2r-worldwide-precedence-correction-20261008.json"
+    },
+    "paris2019CourseCorrection": {
+      "supportingEntriesMoved": 5,
+      "from": "3ds-mario-circuit",
+      "to": "snes-mario-circuit-1",
+      "proofAndIdentityRetained": true,
+      "audit": "archive/paris2019-gomikuzu-mario-circuit-1-course-reconciliation-20261008.json"
     }
   },
   "commits": [
@@ -150,7 +164,11 @@
     "8a0f3d7b",
     "235526bc",
     "8282441e",
-    "c093e2cc"
+    "c093e2cc",
+    "338bd8be",
+    "08099aae",
+    "94b380c6",
+    "49373c31"
   ],
   "remainingWork": [
     "Wins originalMay27post and two videos verified; faster worldwide rival still unidentified. HistoricalXsearch only returned Wins. Workbook repeats server submissions. Do not promote fourMay20–24runs yet.",
@@ -162,7 +180,8 @@
     "Resolve archive/space2024-social-source-review-20261005.json chronology conflict and protected/unavailable video leads recorded in archive/october2026-shared-video-review/preservation-and-deployment-checkpoint.json.",
     "Preserve additional source captures still untracked in the existing working tree, using explicit per-bundle staging; do not blanket-add unrelated media.",
     "Upload queued unlisted video backups only within the established publication authorization and channel limits; no new upload was performed in this pass.",
-    "Resolve NHSpeedy RMX Rainbow Road2R1:21.33 July29,2022 versus slower accepted SuperFX July30 records, and Berlin1:14.69 June24 versus Sucha1:14.83/SuperFX previous1:14.71. Contemporary bot snapshots omit NHSpeedy; no WR promotion yet."
+    "Resolve NHSpeedy RMX Rainbow Road2R1:21.33 July29,2022 versus slower accepted SuperFX July30 records, and Berlin1:14.69 June24 versus Sucha1:14.83/SuperFX previous1:14.71. Contemporary bot snapshots omit NHSpeedy; no WR promotion yet.",
+    "Review AthensDash2R Unknown1:18.27 August21,2024 course identification versus DIT1:21.91 August2025. DarkDinoDinoJungle lead is a known later-repost false positive (achievementOctober28,2019)."
   ],
   "resumeRules": [
     "Use canonical IDs, source channel/message IDs, attachment IDs and local hashes to avoid duplicate review or duplicate WR rows.",
@@ -177,14 +196,20 @@
     "liveEarlierWRDataVerified": true,
     "liveIdentityCorrectionVerified": false,
     "localProductionBuild": "passed",
-    "pendingCommitsAfterEvidencePush": [],
+    "pendingCommitsAfterEvidencePush": [
+      "41d0e34a",
+      "338bd8be",
+      "08099aae",
+      "94b380c6",
+      "49373c31"
+    ],
     "activePushExecSessionId": 87919,
     "remoteLastChecked": "8282441efd7f170b34171a3c925b04b2a0174f61",
-    "nextAction": "Poll session87919 to completion, push this checkpoint, then verify remote and site deployment. Live course JSON still has earlier display-name values and lacks all3 new supporting rows; see October publication validation.",
-    "activePushObservation": "Session63564 completed235526bc;session10438 completed8282441e and remote main independently verified. Session87919 currently pushes57 Anniversary2026 original images throughc093e2cc. No concurrent push.",
+    "nextAction": "Pollsession87919; whencomplete pushallqueuedcommits includingthischeckpoint. Verify remote main and deployedNu11identity,3newNHSpeedysupportingruns,OceanWRstandingcorrection andSNEScourse transfers.",
+    "activePushObservation": "Session87919/process10601 remains live throughc093e2cc, checkedthisturn;remote main independently remains8282441e. Do not restart or concurrent-push. Alllatercommits awaitcompletion.",
     "validationFile": "archive/october2026-publication-validation-20261008.json"
   },
-  "nextConcreteSourceReview": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json",
+  "nextConcreteSourceReview": "archive/earlier-faster-verified-supporting-evidence-queue-20261008.json",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -201,12 +226,13 @@
     "diffWhitespaceErrors": 0
   },
   "validationCurrentContinuation": {
-    "tests": "118 passed,0 failed",
+    "tests": "120 passed,0 failed",
     "productionBuild": "passed",
     "preservedOriginalHashes": "10/10 passed",
     "canonicalChanges": "3 supporting additions only",
     "publicChanges": "3 matching supporting additions; accepted WR arrays/current unchanged",
     "audit": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json",
-    "anniversaryHashes": "57/57 passed; no canonical changes"
+    "anniversaryHashes": "57/57 passed; no canonical changes",
+    "courseTransferIsolation": "All142aggregate accepted record arrays/current unchanged by5supporting course corrections"
   }
 }
