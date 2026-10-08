@@ -32,7 +32,10 @@
     "winsOriginalVideosPreservedAndSampled": 2,
     "lateMayOriginalScreenshotsNewlyTracked": 20,
     "catJune3to6OriginalScreenshotsNewlyTracked": 10,
-    "catJune3to6CanonicalRowsReconciled": 16
+    "catJune3to6CanonicalRowsReconciled": 16,
+    "catJune7to15OriginalScreenshotsNewlyTracked": 42,
+    "catJune7to15CanonicalRowsReconciled": 44,
+    "catLiveProgressionRowsMatched": 5
   },
   "commits": [
     "543db217",
@@ -47,7 +50,9 @@
     "837e536f",
     "4c44a439",
     "e8eae715",
-    "7b75a6d5"
+    "7b75a6d5",
+    "af29d6ac",
+    "7f8e750c"
   ],
   "remainingWork": [
     "Wins originalMay27post and two videos verified; faster worldwide rival still unidentified. HistoricalXsearch only returned Wins. Workbook repeats server submissions. Do not promote fourMay20–24runs yet.",
@@ -67,8 +72,8 @@
     "All validation files retain historyComplete=false. Counts describe saved evidence only; no defensible total remaining percentage exists."
   ],
   "publication": {
-    "lastVerifiedRemoteCommit": "543db217",
-    "pushInProgressThrough": "7a323e33",
+    "lastVerifiedRemoteCommit": "7a323e33",
+    "pushInProgressThrough": null,
     "liveRecordDataVerified": true,
     "newDeploymentBuildNotVerified": true,
     "pendingCommitsAfterEvidencePush": [
@@ -81,14 +86,16 @@
       "837e536f",
       "4c44a439",
       "e8eae715",
-      "7b75a6d5"
+      "7b75a6d5",
+      "af29d6ac",
+      "7f8e750c"
     ],
-    "activePushExecSessionId": 71981,
-    "remoteLastChecked": "543db217df35c547db8d65a59e23fdccd7f303ca",
-    "nextAction": "Resume session71981; once its push completes, push the saved checkpoint and later chronology audit commits. Do not start another concurrent push.",
-    "activePushObservation": "Session71981 remains running with establishedGitHubHTTPSconnection; remote main still543db217 after13minutes. Do not treat an observation timeout as push failure or start a concurrent push."
+    "activePushExecSessionId": null,
+    "remoteLastChecked": "7a323e33bddb272a0c175377fdc1f9bf40b9b262",
+    "nextAction": "Push subsequent saved reconciliation/preservation commits, then verify remote SHA. Deployment not yet verified for these archive-only changes.",
+    "activePushObservation": "Session71981completed successfully; GitHubremote main verified at7a323e33."
   },
-  "nextConcreteSourceReview": "archive/cat2022-june7-8-submission-review.json",
+  "nextConcreteSourceReview": "archive/cat2022-june1-3-submission-review.json",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -97,5 +104,11 @@
     "hashMismatches": 0,
     "largestNewEvidenceFileBytes": 70477315
   },
-  "sourceReviewContinuation": "May2022late24images andCatJune3–6sixteen images preserved and reconciled against newer audits. CatJune1–3opening review remains separately available; full-history completeness is not established."
+  "sourceReviewContinuation": "Maylate24images andCatJune3–15sixtyimage references preserved and reconciled. Next inspect preservation state ofCatopening June1–3; chronology conflicts and missing footage remain distinct work.",
+  "validationLatestPreservationBatch": {
+    "jsonFilesParsed": 13,
+    "hashedEvidenceReferences": 90,
+    "errors": 0,
+    "diffWhitespaceErrors": 0
+  }
 }
