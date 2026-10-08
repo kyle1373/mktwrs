@@ -42,7 +42,13 @@
     "additionalMayCatOriginalImagesNewlyTracked": 101,
     "sucha13018OriginalVideoPreservedAndSampled": true,
     "mutableVideoTitleConflictPreserved": true,
-    "nu1113007PublicationBoundsAudited": true
+    "nu1113007PublicationBoundsAudited": true,
+    "catFinalOriginalTablesPreserved": 2,
+    "catFinalTableRowsTranscribed": 21,
+    "metropolitanReviewedRowsReconciled": 57,
+    "metropolitanNewlyTrackedOriginalImages": 55,
+    "metropolitanLiveWRsMatched": 10,
+    "space2024OriginalLargeImageRechecked": true
   },
   "commits": [
     "543db217",
@@ -66,7 +72,12 @@
     "c148575e",
     "f6a157bf",
     "6cb2882b",
-    "0a3c929f"
+    "0a3c929f",
+    "b862443e",
+    "b64b1f7b",
+    "8b26b2d7",
+    "18367c97",
+    "4c09b83e"
   ],
   "remainingWork": [
     "Wins originalMay27post and two videos verified; faster worldwide rival still unidentified. HistoricalXsearch only returned Wins. Workbook repeats server submissions. Do not promote fourMay20–24runs yet.",
@@ -87,17 +98,19 @@
     "All validation files retain historyComplete=false. Counts describe saved evidence only; no defensible total remaining percentage exists."
   ],
   "publication": {
-    "lastVerifiedRemoteCommit": "0a3c929f",
+    "lastVerifiedRemoteCommit": "18367c97",
     "pushInProgressThrough": null,
     "liveRecordDataVerified": true,
     "newDeploymentBuildNotVerified": true,
-    "pendingCommitsAfterEvidencePush": [],
+    "pendingCommitsAfterEvidencePush": [
+      "4c09b83e"
+    ],
     "activePushExecSessionId": null,
-    "remoteLastChecked": "0a3c929f3137184d8514e23c4c8fda62df52b16f",
-    "nextAction": "ContinueNu11originalproof/sourcechronology recovery; sourcepublication complete for this preservation pass. NewRailwaybuild remains unverified; currentrecorddata already verified.",
-    "activePushObservation": "Allpreservationandchronologyauditcommits through0a3c929f pushedsuccessfully; exactremoteSHAverified. This checkpointpublicationstatus update is the only subsequent commit."
+    "remoteLastChecked": "18367c97bc9a3fddbc744963824df7bffd1428fa",
+    "nextAction": "Publish this checkpoint and Space2024 recheck, verify remote main. Continue missing original evidence and chronology reconciliation.",
+    "activePushObservation": "Push through18367c97 completed. Subsequent Space2024 attribution audit and this continuation update are pending publication."
   },
-  "nextConcreteSourceReview": "archive/cat2022-nu11-13007-source-chronology-audit-20261008.json",
+  "nextConcreteSourceReview": "archive/metropolitan2022-berlin-three-confirmed-wrs-20261005.json",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -106,11 +119,16 @@
     "hashMismatches": 0,
     "largestNewEvidenceFileBytes": 70477315
   },
-  "sourceReviewContinuation": "All six Cat2022saved submission-image review windows throughJune15are now preserved/reconciled:92reference rows,88canonical matches,4bounded exclusions. This is captured-review preservation, not exhaustive channel completeness. Next preserve/verify SuchaoriginalvideoqxhVjOwQEsU and opening external chronology.",
+  "sourceReviewContinuation": "Cat closing tables preserved with21rows. Five Metropolitan review windows have57rows preserved and reconciled;10existingWRentries match live data. Nu11 Cat achievement date and Space2024 course attribution remain unresolved. Next inspect Metropolitan external videos and previous-best chronology, using original linked sources.",
   "validationLatestPreservationBatch": {
     "jsonFilesParsed": 19,
     "hashedEvidenceReferences": 126,
     "errors": 0,
     "diffWhitespaceErrors": 0
+  },
+  "validationCurrentContinuation": {
+    "jsonFilesParsed": 11,
+    "hashedReferences": 60,
+    "errors": 0
   }
 }
