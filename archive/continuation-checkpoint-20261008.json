@@ -78,7 +78,16 @@
     "julyTransitionCanonicalRowsMatched": 32,
     "kno2FinalOriginalVideoPreserved": true,
     "kno2MetadataDateConflictPreserved": true,
-    "kno2PreviousBest04037BoundedSearchRecorded": true
+    "kno2PreviousBest04037BoundedSearchRecorded": true,
+    "earlyChronologyQueueCanonicalMatches": 371,
+    "earlyQueueSupersededIdsReconciled": 3,
+    "early2019SupportingAchievementDaysResolved": 2,
+    "early2020ReportedPerformanceDaysConditionallyBounded": 2,
+    "openingDayCorrectionTests": {
+      "passed": 118,
+      "failed": 0,
+      "productionBuild": "passed"
+    }
   },
   "commits": [
     "543db217",
@@ -117,7 +126,11 @@
     "94e52a6b",
     "ae34c1c6",
     "afe44604",
-    "1bed83a2"
+    "1bed83a2",
+    "e59897bc",
+    "08aab0c0",
+    "58512c53",
+    "8a0f3d7b"
   ],
   "remainingWork": [
     "Wins originalMay27post and two videos verified; faster worldwide rival still unidentified. HistoricalXsearch only returned Wins. Workbook repeats server submissions. Do not promote fourMay20–24runs yet.",
@@ -148,15 +161,19 @@
       "94e52a6b",
       "ae34c1c6",
       "afe44604",
-      "1bed83a2"
+      "1bed83a2",
+      "e59897bc",
+      "08aab0c0",
+      "58512c53",
+      "8a0f3d7b"
     ],
     "activePushExecSessionId": 90594,
     "remoteLastChecked": "0ee7b55be43d12a2d2515695d31dd1e1f909eadd",
     "nextAction": "Verify push completion through4466f212 and this checkpoint; later recheck deployed Nu11 identity correction. Continue Bangkok N/Dit chronology and Piranha2022 original preservation.",
-    "activePushObservation": "Git push session90594 remains live, process5942 with git-remote-https/send-pack/pack-objects; do not restart it. After terminal completion push remaining commits and verify remote.",
+    "activePushObservation": "Session90594/process5942 remains live; remote main last verified58bb6f9f. Push is through4466f212; no restart or concurrent push. After it completes publish all newer queued commits and verify remote, then deployment.",
     "validationFile": "archive/cat-metropolitan2022-nu11-publication-validation-20261008.json"
   },
-  "nextConcreteSourceReview": "archive/piranha2022-july20-26-submission-review.json",
+  "nextConcreteSourceReview": "archive/early-chronology-resume-queue.json",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -165,7 +182,7 @@
     "hashMismatches": 0,
     "largestNewEvidenceFileBytes": 70477315
   },
-  "sourceReviewContinuation": "Bangkok96savedimages now preserved:94canonicalmatches and2visually rechecked unfinished timers;9existingWRs and2finalannouncements match live data. Berlin1:14.71date/splits remain unresolved after original result and bounded searches. Berlin13.55secondstrategyoriginal now tracked. Next review Bangkok N/Dit final chronology and transition to Piranha2022 originals. Piranha63images now reconciled:62canonicalmatches and1unresolvedfinishimage;58originals newly tracked and6existingWRs matchedlive. Continue original final-announcement/leaderboard reconciliation and early-tour gaps. Julytransition32rows matched and30originals tracked. kNo2finalvideo/screenshot/metadata preserved; video result40.36andprevious40.37sampled. August11metadata conflicts with originalJuly27link; preserve discrepancy. Exact40.37search returned0, date remainsunknown.",
+  "sourceReviewContinuation": "Bangkok96savedimages now preserved:94canonicalmatches and2visually rechecked unfinished timers;9existingWRs and2finalannouncements match live data. Berlin1:14.71date/splits remain unresolved after original result and bounded searches. Berlin13.55secondstrategyoriginal now tracked. Next review Bangkok N/Dit final chronology and transition to Piranha2022 originals. Piranha63images now reconciled:62canonicalmatches and1unresolvedfinishimage;58originals newly tracked and6existingWRs matchedlive. Continue original final-announcement/leaderboard reconciliation and early-tour gaps. Julytransition32rows matched and30originals tracked. kNo2finalvideo/screenshot/metadata preserved; video result40.36andprevious40.37sampled. August11metadata conflicts with originalJuly27link; preserve discrepancy. Exact40.37search returned0, date remainsunknown. Earlyqueue now follows371canonicalIDs, including3supersededidentities;5text-reportleads remain. Two first-dayToadCircuitPBachievementdays resolved toOctober23,2019; tests118andproductionbuildpass. Tomegome1:15.99andBaseball35.42reportedperformancecalendarbounds saved conditionally, originalproof/globalorderopen.",
   "validationLatestPreservationBatch": {
     "jsonFilesParsed": 19,
     "hashedEvidenceReferences": 126,
