@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T18:32:38.647233+00:00",
+  "checkedAt": "2026-10-08T18:34:00.251377+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -95,6 +95,15 @@
       "preservedOriginalFiles": 10,
       "hashesVerified": true,
       "audit": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json"
+    },
+    "anniversary2026OriginalPreservation": {
+      "originals": 57,
+      "referencedAttachments": 58,
+      "canonicalAttachmentMatches": 52,
+      "excludedEvidenceFiles": 5,
+      "cancelledDuplicateUnavailable": 1,
+      "sha256Matches": "57/57",
+      "audit": "archive/anniversary2026-preservation-reconciliation-20261008.json"
     }
   },
   "commits": [
@@ -139,7 +148,9 @@
     "08aab0c0",
     "58512c53",
     "8a0f3d7b",
-    "235526bc"
+    "235526bc",
+    "8282441e",
+    "c093e2cc"
   ],
   "remainingWork": [
     "Wins originalMay27post and two videos verified; faster worldwide rival still unidentified. HistoricalXsearch only returned Wins. Workbook repeats server submissions. Do not promote fourMay20–24runs yet.",
@@ -161,27 +172,17 @@
     "All validation files retain historyComplete=false. Counts describe saved evidence only; no defensible total remaining percentage exists."
   ],
   "publication": {
-    "lastVerifiedRemoteCommit": "4466f212",
-    "pushInProgressThrough": "235526bc",
+    "lastVerifiedRemoteCommit": "8282441efd7f170b34171a3c925b04b2a0174f61",
+    "pushInProgressThrough": "c093e2cc",
     "liveEarlierWRDataVerified": true,
     "liveIdentityCorrectionVerified": false,
     "localProductionBuild": "passed",
-    "pendingCommitsAfterEvidencePush": [
-      "b1b81aa5",
-      "94e52a6b",
-      "ae34c1c6",
-      "afe44604",
-      "1bed83a2",
-      "e59897bc",
-      "08aab0c0",
-      "58512c53",
-      "8a0f3d7b"
-    ],
-    "activePushExecSessionId": 63564,
-    "remoteLastChecked": "4466f212",
-    "nextAction": "Verify remote push through235526bc, publish this checkpoint, then verify deployment including three supporting runs and five Nu11 identity corrections.",
-    "activePushObservation": "Previous session90594 completed successfully through4466f212. New session63564 pushes11 queued commits through235526bc; preserve session until completion.",
-    "validationFile": "archive/cat-metropolitan2022-nu11-publication-validation-20261008.json"
+    "pendingCommitsAfterEvidencePush": [],
+    "activePushExecSessionId": 87919,
+    "remoteLastChecked": "8282441efd7f170b34171a3c925b04b2a0174f61",
+    "nextAction": "Poll session87919 to completion, push this checkpoint, then verify remote and site deployment. Live course JSON still has earlier display-name values and lacks all3 new supporting rows; see October publication validation.",
+    "activePushObservation": "Session63564 completed235526bc;session10438 completed8282441e and remote main independently verified. Session87919 currently pushes57 Anniversary2026 original images throughc093e2cc. No concurrent push.",
+    "validationFile": "archive/october2026-publication-validation-20261008.json"
   },
   "nextConcreteSourceReview": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
@@ -205,6 +206,7 @@
     "preservedOriginalHashes": "10/10 passed",
     "canonicalChanges": "3 supporting additions only",
     "publicChanges": "3 matching supporting additions; accepted WR arrays/current unchanged",
-    "audit": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json"
+    "audit": "archive/october2026-repost-census-and-nhspeedy-conflicts-20261008.json",
+    "anniversaryHashes": "57/57 passed; no canonical changes"
   }
 }
