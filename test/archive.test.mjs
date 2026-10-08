@@ -627,3 +627,18 @@ test('Late Vacation 2024 screenshot belongs to Athens N and retains unknown achi
  assert.equal(r.includeInProgression,false);
  assert.equal(reverse.current.time,'1:21.91');
 });
+
+test('SYUN paired Vacation 2024 attachments retain distinct course and result identities',()=>{
+ const oldId='1272956693357006942-vacation2024-image-reviewed';
+ const secondId='1272956693357006942-1272956693252276234-vacation2024-image-reviewed';
+ const reverse=courses.find(c=>c.id==='athens-dash-2r');
+ const sprint=courses.find(c=>c.id==='squeaky-clean-sprint');
+ const originals=reverse.submissions.filter(r=>r.messageId===oldId);
+ assert.equal(originals.length,1);
+ assert.equal(originals[0].time,'1:22.38');
+ const second=sprint.submissions.find(r=>r.messageId===secondId);
+ assert.equal(second.time,'1:22.25');
+ assert.equal(second.includeInProgression,false);
+ assert.match(second.proofImageLocal,/1272956693252276234/);
+ assert.equal(second.source.messageId,'1272956693357006942');
+});
