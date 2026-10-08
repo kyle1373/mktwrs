@@ -695,9 +695,22 @@ test('December1to2 original results retain paired finishes and reject tentative 
  assert.deepEqual(paired.map(r=>r.time).sort(),['2:00.14','2:00.28']);
  assert.equal(new Set(paired.map(r=>r.proofImageLocal)).size,2);
  const kenshiro=rows.find(r=>r.player==='Kenshiro');
- assert.deepEqual(kenshiro.laps,[]);
+ assert.deepEqual(kenshiro.laps,['20.47','20.10']);
+ assert.equal(kenshiro.lapSource.attachmentId,'784415399470170213');
  const phillish=rows.find(r=>r.player==='Phillish');
  assert.deepEqual(phillish.laps,['20.36','20.22']);
  assert(!rows.some(r=>r.time==='2:14.19'));
  assert(rows.every(r=>r.includeInProgression===false&&r.dateUnresolved));
+});
+
+test('December4 standing table does not backdate DIT39.93 to the earlier39.xx claim',()=>{
+ const c=courses.find(c=>c.id==='snes-choco-island-1');
+ const r=c.submissions.find(r=>r.messageId?.endsWith('-dit-choco-03993'));
+ assert.equal(r.time,'0:39.93');
+ assert.deepEqual(r.laps,['20.10','19.83']);
+ assert.equal(r.submittedAt,null);
+ assert.equal(r.observedAt,'2020-12-04T13:46:45.033Z');
+ assert.equal(r.dateUnresolved,true);
+ assert.equal(r.includeInProgression,false);
+ assert(!c.records.some(r=>r.time==='0:39.93'));
 });
