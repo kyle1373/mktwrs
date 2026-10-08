@@ -674,3 +674,16 @@ test('canceled malformed receipts retain earlier screenshot publication of corre
   assert(r.additionalProofs.some(p=>p.observedAt===first&&p.botClaimRejected));
  }
 });
+
+test('December 2020 opening consolidation distinguishes menu bests from completed results',()=>{
+ const rows=courses.flatMap(c=>c.submissions).filter(r=>r.messageId?.endsWith('-december2020-original-reviewed'));
+ assert.equal(rows.length,12);
+ const menus=rows.filter(r=>r.proofField==='tour-personal-best-menu');
+ assert.equal(menus.length,2);
+ assert(menus.every(r=>r.submittedAt===null&&r.dateUnresolved&&r.observedAt==='2020-12-01T15:13:25.168Z'));
+ assert(rows.every(r=>r.includeInProgression===false));
+ const tsubasa=rows.find(r=>r.player==='Tsubasa');
+ assert.deepEqual(tsubasa.laps,['29.27','29.41']);
+ const tanuke=rows.find(r=>r.player==='tanuke'&&r.time==='2:00.20');
+ assert.deepEqual(tanuke.laps,['33.67','49.44','37.09']);
+});
