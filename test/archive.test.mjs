@@ -613,3 +613,17 @@ test('Paris 2019 Gomikuzu Mario Circuit 1 evidence belongs to the SNES course',(
  assert.deepEqual(video.laps,['24.47','24.37']);
  assert.equal(video.videoVerified,true);
 });
+
+test('Late Vacation 2024 screenshot belongs to Athens N and retains unknown achievement date',()=>{
+ const id='1275697896452395028-vacation2024-image-reviewed';
+ const normal=courses.find(c=>c.id==='athens-dash');
+ const reverse=courses.find(c=>c.id==='athens-dash-2r');
+ assert(!reverse.submissions.some(r=>r.messageId===id));
+ const r=normal.submissions.find(r=>r.messageId===id);
+ assert.equal(r.time,'1:18.27');
+ assert.equal(r.submittedAt,'2024-08-21T06:07:59.835Z');
+ assert.equal(r.dateUnresolved,true);
+ assert.equal(r.delayedSubmission,true);
+ assert.equal(r.includeInProgression,false);
+ assert.equal(reverse.current.time,'1:21.91');
+});
