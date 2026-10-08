@@ -356,7 +356,7 @@ for (const c of courses) {
         .filter(Boolean)
         .sort()[0] || new Date().toISOString().slice(0, 10);
     r.durationDays =
-      r.recordDate && !r.dateUnresolved && !r.delayedSubmission && nextRecords.every((n) => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
+      r.recordDate && !r.dateUnresolved && !r.delayedSubmission && !r.reignUnresolved && nextRecords.every((n) => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
         ? playableDays(
             r.recordDate,
             nextRecords.map((n) => n.recordDate).sort()[0] ||
@@ -366,7 +366,9 @@ for (const c of courses) {
         : null;
     r.durationBasis =
       r.durationDays === null
-        ? (r.delayedSubmission || nextRecords.some((n) => n.delayedSubmission)
+        ? (r.reignUnresolved
+          ? "Faster preserved evidence disputes the end of this reign; duration is unresolved."
+          : r.delayedSubmission || nextRecords.some((n) => n.delayedSubmission)
           ? "Achievement date is unknown for a delayed submission; reign duration is unresolved."
           : null)
         : "documented dates; chronology incomplete";

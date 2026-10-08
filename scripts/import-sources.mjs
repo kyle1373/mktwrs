@@ -633,6 +633,7 @@ export function importSources(courses, players) {
             appearance && m.tourDateRange?.start === appearance.startDate);
         if (verifiedProof) {
           r.proofImageVerified = true;
+          if (verifiedProof.reignUnresolved) r.reignUnresolved = true;
           if (verifiedProof.dateUnresolved) r.dateUnresolved = true;
           if (verifiedProof.delayedSubmission) r.delayedSubmission = true;
           r.evidencePublishedAt = verifiedProof.evidencePublishedAt || verifiedProof.observedAt || verifiedProof.submittedAt || null;

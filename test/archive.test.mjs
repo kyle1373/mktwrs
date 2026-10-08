@@ -576,3 +576,24 @@ test('Penguin restores opening WRs and exact original dates without promoting un
  const pb=bc.submissions.find(r=>r.id.includes('penguin')&&r.time==='1:19.48');assert.equal(pb.includeInProgression,false);assert.deepEqual(pb.laps,['39.54','39.94']);
  const fallback=fastestVideo(bc);assert(fallback);assert.equal(fallback.time,'1:19.17');
 });
+
+test('Ocean 2022 slower server leaders stay outside worldwide progression after earlier faster footage is recovered',()=>{
+ const c=courses.find(c=>c.id==='rmx-rainbow-road-2r');
+ for(const time of ['1:21.52','1:21.40']) {
+  assert(!c.records.some(r=>r.playerId==='superfx'&&r.time===time));
+  const r=c.submissions.find(r=>r.playerId==='superfx'&&r.time===time&&r.messageId?.includes('july2022-image-reviewed'));
+  assert(r.proofImageVerified);
+  assert.equal(r.includeInProgression,false);
+  assert.equal(r.standingUnresolved,true);
+ }
+ const faster=c.submissions.find(r=>r.messageId==='nhspeedy-restored-dEW5aN_l8Ys');
+ assert.equal(faster.evidencePublishedAt,'2022-07-29T05:50:08Z');
+ assert(faster.videoVerified);
+ assert.equal(faster.includeInProgression,false);
+ const predecessor=c.records.find(r=>r.playerId==='n'&&r.time==='1:21.57');
+ assert.equal(predecessor.reignUnresolved,true);
+ assert.equal(predecessor.durationDays,null);
+ assert.equal(predecessor.durationIntervals,null);
+ assert.match(predecessor.durationBasis,/disputes the end/);
+ assert.equal(c.current.time,'1:21.20');
+});
