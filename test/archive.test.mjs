@@ -659,3 +659,18 @@ test('paired original submissions retain each attachment without canonical ID co
   assert(rows.every(r=>r.includeInProgression===false));
  }
 });
+
+test('canceled malformed receipts retain earlier screenshot publication of corrected p_en results',()=>{
+ for(const [cid,id,time,first,accepted] of [
+  ['wii-coconut-mall','1250428175670972497-mario-luigi2024-image-reviewed','1:14.36','2024-06-12T12:09:09.002Z','2024-06-12T12:35:08.912Z'],
+  ['n64-luigi-raceway-r','1252624225706180698-mario-luigi2024-image-reviewed','1:12.11','2024-06-18T14:00:39.887Z','2024-06-18T14:01:28.041Z'],
+ ]){
+  const r=courses.find(c=>c.id===cid).submissions.find(r=>r.messageId===id);
+  assert.equal(r.time,time);
+  assert.equal(r.submittedAt,first);
+  assert.equal(r.acceptedSubmissionAt,accepted);
+  assert.equal(r.dateUnresolved,true);
+  assert.equal(r.includeInProgression,false);
+  assert(r.additionalProofs.some(p=>p.observedAt===first&&p.botClaimRejected));
+ }
+});

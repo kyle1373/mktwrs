@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T18:52:53.495746+00:00",
+  "checkedAt": "2026-10-08T18:56:46.877729+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -216,7 +216,7 @@
     "activePushObservation": "Push 77869 completed15f7860d; push57473 completedd9eebc82.",
     "validationFile": "archive/paired-submission-publication-validation-20261008.json"
   },
-  "nextConcreteSourceReview": "Reconcile original-review attachment mappings against canonical course/time/proof; shared-ID overwrites may persist even where canonical IDs are now unique.",
+  "nextConcreteSourceReview": "Extend attachment-to-canonical comparison to original image/screenshot review reports outside the 77 submission review indexes; then reconcile outstanding tour/source/chronology coverage.",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -233,7 +233,7 @@
     "diffWhitespaceErrors": 0
   },
   "validationCurrentContinuation": {
-    "tests": "123 passed, 0 failed",
+    "tests": "124 passed, 0 failed",
     "productionBuild": "passed",
     "preservedOriginalHashes": "10/10 passed",
     "canonicalChanges": "3 supporting additions only",
@@ -255,5 +255,16 @@
     "productionBuild": "passed",
     "historyComplete": false,
     "publication": "d9eebc82 push completed; live JSON at 18:52:32Z still has prior duplicate rows."
+  },
+  "alternateAttachmentReconciliation": {
+    "audit": "archive/original-attachment-canonical-reconciliation-queue-20261008.json",
+    "reviewIndexes": 77,
+    "indexedCanonicalMappings": 856,
+    "alternateMappingsResolved": 12,
+    "firstPublicationCorrections": 2,
+    "comparisonOriginalsPreserved": 24,
+    "testsPassed": 124,
+    "productionBuild": "passed",
+    "historyComplete": false
   }
 }
