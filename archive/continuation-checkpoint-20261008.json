@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T19:02:17.992870+00:00",
+  "checkedAt": "2026-10-08T19:04:43.333819+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -211,12 +211,13 @@
     "localProductionBuild": "passed",
     "pendingCommitsAfterEvidencePush": [],
     "activePushExecSessionId": null,
-    "remoteLastChecked": "22dd72fc",
-    "nextAction": "Push December1to2 consolidation and verify Railway/live publication; latest22dd deployment6944235595 lastreported inprogress, liveDecemberopeningrows0.",
+    "remoteLastChecked": "aa2c827b",
+    "nextAction": "Inspect queued deployment7bbbeaf7only after meaningful elapsed time or independent source work; expandedDetailsconfirmedallstagesNotstartedandWaitingforbuildslot. Continue evidenceworkwhilequeuewaits.",
     "activePushObservation": "Push 77869 completed15f7860d; push57473 completedd9eebc82.",
-    "validationFile": "archive/paired-submission-publication-validation-20261008.json"
+    "validationFile": "archive/paired-submission-publication-validation-20261008.json",
+    "railwayQueueObservation": "archive/railway-build-slot-queue-observation-20261008.json"
   },
-  "nextConcreteSourceReview": "Continue December2020 original-source review: 597 screened slower-result rows remain unconsolidated plus97 non-result/unidentified images. Also reconcile accepted WR chronology gaps and17 non-December report leads. Inspect actual Railway deployment log if live site remains stale despite published commits.",
+  "nextConcreteSourceReview": "Continue December2020 sources:597 slower-resultrows and89 nonresult/unidentifiedrows remain. Investigate ChocoIsland1Dec2WR39.xXclaim against original worldwide rival proof and canonical standing chronology. Broader142course/381appearance certification still incomplete.",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -293,5 +294,12 @@
     "preservedOriginals": 24,
     "testsPassed": 126,
     "productionBuild": "passed"
+  },
+  "december2020NonResultDispositions": {
+    "audit": "archive/december2020-first-eight-non-result-dispositions-20261008.json",
+    "originalsPreserved": 8,
+    "nonResultRowsResolved": 8,
+    "openStandingClaim": "archive/december2020-choco-39xx-claim-context-20261008.json",
+    "canonicalChanges": 0
   }
 }

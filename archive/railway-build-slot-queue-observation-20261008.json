@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-08T19:04:30.786171+00:00",
+  "historyComplete": false,
+  "projectId": "80b026c9-fa2d-4e7d-9b01-657a2f631ff0",
+  "environmentId": "95b0853a-b78e-4a2d-b302-ab2e97e82e7d",
+  "serviceId": "dc662fe0-1295-439f-ba7f-d957436f93c5",
+  "source": "Authenticated Railway browser service deployment list and expanded Details panel.",
+  "activeDeployment": {
+    "id": "0eaae2ad-61dd-4680-8167-474704871db9",
+    "title": "Confirm published preservation and chronology audits",
+    "state": "Active",
+    "status": "Deployment successful"
+  },
+  "latestInspectedDeployment": {
+    "id": "7bbbeaf7-0e15-4870-aaae-99caadb01e62",
+    "sha": "aa2c827bec2f8a0637bf332a26cd7d48b2a06fba",
+    "state": "Queued",
+    "reason": "Waiting for build slot",
+    "stages": {
+      "initialization": "Not started",
+      "build": "Not started",
+      "deploy": "Not started",
+      "network": "Not started",
+      "postDeploy": "Not started"
+    }
+  },
+  "visibleQueuedDeployments": 11,
+  "interpretation": "Latest changes have not started building. This is distinct from a code/build failure. Existing service remains online; no queue cancellation or settings change performed.",
+  "liveManifestUpdatedAt": "2026-10-08T18:39:25.861Z"
+}
