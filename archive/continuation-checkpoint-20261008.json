@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T20:13:07.443102+00:00",
+  "checkedAt": "2026-10-08T20:15:03.846590+00:00",
   "goalComplete": false,
   "historyComplete": false,
   "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
@@ -631,5 +631,53 @@
     "testsFailed": 0,
     "committedInputGeneration": "passed",
     "canonicalForumLapSourceRetained": true
+  },
+  "winter2023ThreePublicProofReconciliation": {
+    "audit": "archive/winter2023-three-public-proof-reconciliation-20261008.json",
+    "existingRecordsCorrected": 3,
+    "newWRClaims": 0,
+    "currentHoldersChanged": false,
+    "historyComplete": false,
+    "nextWork": "Continue unresolved evidence/date differences, original-source leads and separate live deployment verification.",
+    "testsPassed": 129,
+    "testsFailed": 0,
+    "liveAggregateSelectedFieldsMatched": [
+      {
+        "courseId": "singapore-speedway-r",
+        "recordId": "1074903599689248788",
+        "fieldsMatched": [
+          "time",
+          "submittedAt",
+          "proofImageLocal",
+          "proofImageVerified",
+          "videoVerified"
+        ]
+      },
+      {
+        "courseId": "bangkok-rush-2",
+        "recordId": "1074903912617869332",
+        "fieldsMatched": [
+          "time",
+          "submittedAt",
+          "proofImageLocal",
+          "proofImageVerified",
+          "videoVerified"
+        ]
+      },
+      {
+        "courseId": "tokyo-blur-4",
+        "recordId": "1074903169542389840",
+        "fieldsMatched": [
+          "time",
+          "submittedAt",
+          "proofImageLocal",
+          "proofImageVerified",
+          "videoVerified"
+        ]
+      }
+    ],
+    "liveDedicatedSelectedFieldsMatched": 3,
+    "liveManifestUpdatedAt": "2026-10-08T18:39:25.861Z",
+    "liveScope": "Three selected records and proof fields only; latest repository deployment not established."
   }
 }
