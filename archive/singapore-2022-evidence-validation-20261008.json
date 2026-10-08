@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-08",
+  "tour": "Singapore Tour (2022)",
+  "status": "validated-evidence-bundle",
+  "canonicalCommit": "4b3f044f",
+  "canonicalReconciliation": "archive/singapore-2022-reconciliation.json",
+  "validation": {
+    "jsonFilesParsed": 33,
+    "jsonParseErrors": 0,
+    "submissionCaptureWindows": 9,
+    "uniqueSubmissionMessages": 150,
+    "discussionCaptureWindows": 15,
+    "discussionWindowRowsIncludingOverlap": 450,
+    "uniqueDiscussionMessages": 240,
+    "confirmedWrChanges": 26,
+    "uniqueConfirmedWrChanges": 26,
+    "confirmedSourceMessagesPresentInSubmissionCapture": 26,
+    "canonicalSingaporeRows": 36,
+    "recoveredAttachmentEntries": 21,
+    "recoveredAttachmentHashMismatches": 0,
+    "visibleLapArithmeticMismatches": 0,
+    "discussionImageEntries": 8,
+    "discussionImageHashMismatches": 0,
+    "reviewedVideoEntries": 12,
+    "reviewedVideoHashMismatches": 0
+  },
+  "preservedInThisBundle": [
+    "archive/raw/singapore-2022-*.json",
+    "archive/singapore-2022-capture-audit.json",
+    "archive/singapore-2022-discussion-census.json",
+    "archive/singapore-2022-discussion-images.json",
+    "archive/singapore-2022-original-media/",
+    "archive/singapore-2022-original-videos.json",
+    "archive/singapore-2022-recovered-images/",
+    "archive/singapore-2022-submission-messages.json"
+  ],
+  "limitations": [
+    "This validates the saved Singapore Tour evidence bundle and its canonical reconciliation; it does not certify that every historical source was posted or preserved.",
+    "Nine previous-best leads still have unresolved dates and remain excluded from WR progression.",
+    "The January 12 Wins route short PnKptyLllnw is unavailable.",
+    "Ten downloaded YouTube originals are preserved in the local archive/video-backup-files cache, which is excluded from new Git tracking by the repository ignore policy; their hashes and review decisions remain recorded in archive/singapore-2022-original-videos.json.",
+    "No new backup-upload availability was claimed during this validation."
+  ]
+}
