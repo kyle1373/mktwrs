@@ -30,7 +30,15 @@ test("tied announcements never attach another player's identified recording", ()
     const recorded = course.records.find(r => r.playerId === owner && r.time === time);
     const tied = course.records.find(r => r.playerId === other && r.time === time);
     assert(recorded.video.includes(videoId));
-    assert.equal(tied.video, null);
+    assert(!tied.video?.includes(videoId));
+    if (courseId === "wii-daisy-circuit") {
+      assert(tied.video.includes("g1MXSCnFWO0"));
+      assert.equal(tied.lapSource.messageId, "1534410727945932830");
+      assert.equal(tied.recordDate, "2026-08-05");
+      assert.equal(tied.proofImage, null);
+    } else {
+      assert.equal(tied.video, null);
+    }
     assert(!tied.videoBackup);
     assert(tied.videoReference.includes(videoId));
   }
