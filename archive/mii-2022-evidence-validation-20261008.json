@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-08",
+  "tour": "Mii Tour (2022)",
+  "status": "validated-evidence-bundle",
+  "historyComplete": false,
+  "canonicalReconciliation": "archive/mii-2022-reconciliation.json",
+  "validation": {
+    "sourceJsonFilesParsed": 28,
+    "jsonParseErrors": 0,
+    "submissionCaptureWindows": 11,
+    "submissionWindowRowsIncludingOverlap": 330,
+    "uniqueSubmissionMessagesRecaptured": 180,
+    "discussionCaptureWindows": 10,
+    "discussionWindowRowsIncludingOverlap": 300,
+    "uniqueDiscussionMessagesRecaptured": 165,
+    "normalizedDiscussionMessages": 166,
+    "discussionBoundaryMessagesPreservedInPriorTour": 1,
+    "confirmedWrChanges": 3,
+    "canonicalCoreMismatches": 0,
+    "confirmedDiscordSourceMessagesPresent": 2,
+    "originalVideoPublicationDatesValidated": 1,
+    "preservedResultImages": 9,
+    "imageHashMismatches": 0,
+    "visibleLapArithmeticMismatches": 0,
+    "discussionMediaEntries": 6,
+    "discussionMediaHashMismatches": 0,
+    "fullVideosPreservedInLocalCache": 2,
+    "fullVideoHashMismatches": 0
+  },
+  "preservedInThisBundle": [
+    "archive/raw/mii-2022-*.json",
+    "archive/raw/sky-2022-discussion-949091357950103592-951017140188774410.json",
+    "archive/mii-2022-capture-audit.json",
+    "archive/mii-2022-discussion-census.json",
+    "archive/mii-2022-submission-messages.json",
+    "archive/mii-2022-evidence-review.json",
+    "archive/mii-2022-discussion-media/review.json",
+    "archive/mii-2022-discussion-media/<attachment-id>.*",
+    "archive/mii-2022-recovered-images/<attachment-id>.*",
+    "archive/mii-2022-original-videos.json",
+    "archive/mii-2022-preserved-result-images.json"
+  ],
+  "limitations": [
+    "Nu11’s 1:18.84 previous best has no independently established original publication date.",
+    "Several opening posts call slower times WRs. The existing all-time baseline, not those labels or a tour-only leaderboard, determines record eligibility.",
+    "One Starin bot-entry attachment remains unreviewed; its corrected surviving result is slower than the all-time record.",
+    "This tour review does not prove complete coverage across all years, channels or deleted evidence.",
+    "YouTube copies remain queued after the upload limit; no new SuperFX64 backups are claimed.",
+    "Validation does not establish exhaustive historical source coverage. No new visual inspection or video backup upload is claimed."
+  ]
+}
