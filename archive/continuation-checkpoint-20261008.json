@@ -28,7 +28,11 @@
     "liveDataValidation": "archive/2022-source-bundle-live-validation-20261008.json",
     "liveRecordsMatched": 64,
     "liveMismatches": 0,
-    "winsLeadImagesVisuallyRechecked": 4
+    "winsLeadImagesVisuallyRechecked": 4,
+    "winsOriginalVideosPreservedAndSampled": 2,
+    "lateMayOriginalScreenshotsNewlyTracked": 20,
+    "catJune3to6OriginalScreenshotsNewlyTracked": 10,
+    "catJune3to6CanonicalRowsReconciled": 16
   },
   "commits": [
     "543db217",
@@ -39,10 +43,14 @@
     "0afcf58b",
     "31173b2b",
     "24c0850d",
-    "23e1547e"
+    "23e1547e",
+    "837e536f",
+    "4c44a439",
+    "e8eae715",
+    "7b75a6d5"
   ],
   "remainingWork": [
-    "Resolve Wins May27 claim of second worldwide forKTB R1:15.11 before accepting anyMay20–24improvement asWR. Server leaderboard alone is insufficient.",
+    "Wins originalMay27post and two videos verified; faster worldwide rival still unidentified. HistoricalXsearch only returned Wins. Workbook repeats server submissions. Do not promote fourMay20–24runs yet.",
     "Continue preserved Peach vs. Bowser 2022 source review from archive/peach-bowser-2022-evidence-review.json, reconciling against newer curated runs before reusing its stale missing-record notes.",
     "Finish original-source and predecessor/alias reconciliation for early 2019–2020, including existing archive/early-chronology-resume-queue.json.",
     "Audit remaining 2021 external-video and final-table alias leads; one December disputed image remains unavailable.",
@@ -69,13 +77,18 @@
       "0afcf58b",
       "31173b2b",
       "24c0850d",
-      "23e1547e"
+      "23e1547e",
+      "837e536f",
+      "4c44a439",
+      "e8eae715",
+      "7b75a6d5"
     ],
     "activePushExecSessionId": 71981,
     "remoteLastChecked": "543db217df35c547db8d65a59e23fdccd7f303ca",
-    "nextAction": "Resume session71981; once its push completes, push the saved checkpoint and later chronology audit commits. Do not start another concurrent push."
+    "nextAction": "Resume session71981; once its push completes, push the saved checkpoint and later chronology audit commits. Do not start another concurrent push.",
+    "activePushObservation": "Session71981 remains running with establishedGitHubHTTPSconnection; remote main still543db217 after13minutes. Do not treat an observation timeout as push failure or start a concurrent push."
   },
-  "nextConcreteSourceReview": "archive/peach-bowser-2022-wins-ktbr-source-leads-preservation-20261008.json",
+  "nextConcreteSourceReview": "archive/cat2022-june7-8-submission-review.json",
   "priorityOpenChronologyConflict": "archive/peach-bowser-2022-wins-worldwide-precedence-conflict-20261008.json",
   "validationBeforePushCompletion": {
     "jsonFilesParsedInNewCommits": 154,
@@ -83,5 +96,6 @@
     "hashedEvidenceReferencesValidated": 135,
     "hashMismatches": 0,
     "largestNewEvidenceFileBytes": 70477315
-  }
+  },
+  "sourceReviewContinuation": "May2022late24images andCatJune3–6sixteen images preserved and reconciled against newer audits. CatJune1–3opening review remains separately available; full-history completeness is not established."
 }
