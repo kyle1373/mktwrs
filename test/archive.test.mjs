@@ -642,3 +642,20 @@ test('SYUN paired Vacation 2024 attachments retain distinct course and result id
  assert.match(second.proofImageLocal,/1272956693252276234/);
  assert.equal(second.source.messageId,'1272956693357006942');
 });
+
+test('paired original submissions retain each attachment without canonical ID collisions',()=>{
+ const ledger=JSON.parse(fs.readFileSync('archive/curated-runs.json'));
+ const ids=ledger.map(r=>r.messageId);
+ assert.equal(new Set(ids).size,ids.length,'canonical identities must be unique');
+ for(const [sourceId,expected] of [
+  ['1067361666565677127',[['n64-kalimari-desert-2','1:03.71'],['gba-cheep-cheep-island-r','1:12.50']]],
+  ['1069325227265368064',[['singapore-speedway-r','1:11.60'],['bangkok-rush-2','1:33.86']]],
+  ['1327689123984572578',[['n64-kalimari-desert-2','1:04.90'],['gba-cheep-cheep-island-r','1:13.95']]],
+ ]){
+  const rows=courses.flatMap(c=>c.submissions).filter(r=>r.source?.messageId===sourceId&&r.proofField!=='previous-best');
+  assert.equal(rows.length,2);
+  assert.deepEqual(rows.map(r=>[r.courseId,r.time]).sort(),expected.sort());
+  assert.equal(new Set(rows.map(r=>r.proofImageLocal)).size,2);
+  assert(rows.every(r=>r.includeInProgression===false));
+ }
+});
