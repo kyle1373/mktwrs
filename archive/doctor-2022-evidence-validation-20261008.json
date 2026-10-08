@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-08",
+  "tour": "Doctor Tour",
+  "status": "validated-saved-evidence-with-explicit-source-gaps",
+  "historyComplete": false,
+  "canonicalReconciliation": "archive/doctor-2022-reconciliation.json",
+  "validation": {
+    "sourceJsonFilesParsed": 26,
+    "jsonParseErrors": 0,
+    "submissionCaptureWindows": 14,
+    "uniqueSubmissionMessagesInRawWindows": 225,
+    "discussionCaptureWindows": 9,
+    "uniqueDiscussionMessagesInRawWindows": 150,
+    "confirmedWrChanges": 11,
+    "canonicalCoreMismatches": 0,
+    "preservedCanonicalResultImages": 11,
+    "canonicalRowsWithoutPreservedResultImage": 0,
+    "preservedOriginalMediaFiles": 15,
+    "preservedVideoLedgerFiles": 4,
+    "imageAndVideoHashMismatches": 0,
+    "visibleLapArithmeticMismatches": 0
+  },
+  "sourceMessagesAbsentFromTourRawWindows": [],
+  "normalizedBoundarySourceGaps": [],
+  "limitations": [
+    "Four previous-best leads lack exact dates and verified positions in the WR sequence.",
+    "One cancelled bot attachment remains unread; the next surviving screenshot corrects its malformed 0:01.12 time to 1:12.10, which is not a WR.",
+    "Six submission screenshots absent from the original image index were recovered and read. None beats the standing WR.",
+    "The downloaded 2020 Reddit video linked in discussion is a separate, older non-WR evidence item.",
+    "YouTube unlisted copies remain queued after the daily upload limit.",
+    "This tour-level pass does not establish complete coverage of the whole game or deleted messages.",
+    "Preservation validates saved source files and canonical matches. Boundary references outside these raw windows and rows without result images remain explicit gaps; no exhaustive source coverage is certified."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-08",
+  "tour": "Samurai Tour (2022)",
+  "status": "validated-saved-evidence-with-explicit-source-gaps",
+  "historyComplete": false,
+  "canonicalReconciliation": "archive/samurai-2022-reconciliation.json",
+  "validation": {
+    "sourceJsonFilesParsed": 13,
+    "jsonParseErrors": 0,
+    "submissionCaptureWindows": 8,
+    "uniqueSubmissionMessagesInRawWindows": 135,
+    "discussionCaptureWindows": 2,
+    "uniqueDiscussionMessagesInRawWindows": 45,
+    "confirmedWrChanges": 12,
+    "canonicalCoreMismatches": 0,
+    "preservedCanonicalResultImages": 12,
+    "canonicalRowsWithoutPreservedResultImage": 0,
+    "preservedOriginalMediaFiles": 3,
+    "preservedVideoLedgerFiles": 3,
+    "imageAndVideoHashMismatches": 0,
+    "visibleLapArithmeticMismatches": 0
+  },
+  "sourceMessagesAbsentFromTourRawWindows": [],
+  "normalizedBoundarySourceGaps": [
+    {
+      "normalizedFile": "archive/samurai-2022-discussion-census.json",
+      "messageIdsAbsentFromTourRawWindows": [
+        "956184264779649054",
+        "956205332672163874",
+        "956208471706062888",
+        "956237120098426890",
+        "956274813054361620",
+        "956275370036977704",
+        "956275382494056458",
+        "956278143478542436",
+        "956296961202475018"
+      ],
+      "preservedPriorTourCaptures": [
+        {
+          "capture": "archive/raw/mii-2022-discussion-953771609485869066-956296961202475018.json",
+          "messageIds": [
+            "956184264779649054",
+            "956205332672163874",
+            "956208471706062888",
+            "956237120098426890",
+            "956274813054361620",
+            "956275370036977704",
+            "956275382494056458",
+            "956278143478542436",
+            "956296961202475018"
+          ]
+        }
+      ],
+      "unresolvedMessageIds": [],
+      "status": "prior-tour-boundary-cross-indexed"
+    }
+  ],
+  "limitations": [
+    "Six visible previous-best runs lack independently established publication dates or competing-record order; they remain outside confirmed progression.",
+    "Two cancelled bot attachments were not independently read; corrected surviving submissions establish the same1:38.31 and1:02.24 results.",
+    "RMX Vanilla Lake1 already had Wins’s1:02.44 from Kamek Tour; slower Samurai tour-leading times do not become all-time WRs.",
+    "A repeated1:02.44 by the same holder does not count as a new distinct WR.",
+    "Nu11’s final video shows a March31 phone overlay but was published April6; private race-completion chronology and public-record chronology may differ.",
+    "Best isolated laps and brief technique clips are not completed overall WRs.",
+    "This review does not establish complete recovery of deleted sources or all years.",
+    "Unlisted copies remain queued after YouTube’s daily upload limit.",
+    "Preservation validates saved source files and canonical matches. Boundary references outside these raw windows and rows without result images remain explicit gaps; no exhaustive source coverage is certified."
+  ]
+}

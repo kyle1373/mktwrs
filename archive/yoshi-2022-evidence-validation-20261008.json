@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-08",
+  "tour": "Yoshi Tour (2022)",
+  "status": "validated-saved-evidence-with-explicit-source-gaps",
+  "historyComplete": false,
+  "canonicalReconciliation": "archive/yoshi-2022-reconciliation.json",
+  "validation": {
+    "sourceJsonFilesParsed": 17,
+    "jsonParseErrors": 0,
+    "submissionCaptureWindows": 11,
+    "uniqueSubmissionMessagesInRawWindows": 180,
+    "discussionCaptureWindows": 4,
+    "uniqueDiscussionMessagesInRawWindows": 75,
+    "confirmedWrChanges": 19,
+    "canonicalCoreMismatches": 0,
+    "preservedCanonicalResultImages": 19,
+    "canonicalRowsWithoutPreservedResultImage": 0,
+    "preservedOriginalMediaFiles": 7,
+    "preservedVideoLedgerFiles": 8,
+    "imageAndVideoHashMismatches": 0,
+    "visibleLapArithmeticMismatches": 0
+  },
+  "sourceMessagesAbsentFromTourRawWindows": [],
+  "normalizedBoundarySourceGaps": [
+    {
+      "normalizedFile": "archive/yoshi-2022-discussion-census.json",
+      "messageIdsAbsentFromTourRawWindows": [
+        "961161534036410378",
+        "961177122238517308"
+      ],
+      "preservedPriorTourCaptures": [
+        {
+          "capture": "archive/raw/samurai-2022-discussion-956297020207951882-961177122238517308.json",
+          "messageIds": [
+            "961161534036410378",
+            "961177122238517308"
+          ]
+        }
+      ],
+      "unresolvedMessageIds": [],
+      "status": "prior-tour-boundary-cross-indexed"
+    }
+  ],
+  "limitations": [
+    "The deleted original attachment behind the bot’s 1:02.68 entry could not be downloaded. The immediately corrected 1:04.68 submission was visually read and later leaderboards corroborate it; 1:02.68 is not accepted as a WR.",
+    "Eleven visible previous-best values have unresolved dates/order and are preserved as leads, not confirmed WR rows.",
+    "N and Nu11 are separate players.",
+    "Publication timestamps do not establish the exact instant a private run was completed.",
+    "Single-lap demonstrations and slower personal bests are not overall WRs.",
+    "Original Discord movie is downloaded locally; its CDN link can expire until an unlisted copy is uploaded.",
+    "YouTube unlisted uploads remain queued after the channel’s daily upload limit.",
+    "This batch does not establish complete coverage of every tour or deleted message.",
+    "Preservation validates saved source files and canonical matches. Boundary references outside these raw windows and rows without result images remain explicit gaps; no exhaustive source coverage is certified."
+  ]
+}
