@@ -1,0 +1,140 @@
+{
+  "checkedAt": "2026-10-08T20:33:12.717268+00:00",
+  "sourceRevision": "ad360dcfa14819191676ad04368243dbb1e02e64",
+  "historyComplete": false,
+  "existingWRProofsEnriched": 3,
+  "newWRClaims": 0,
+  "recordOrderChanged": false,
+  "currentHolderChanges": false,
+  "sourceReviews": [
+    "archive/spring2023-superfx-berlin-video-review.json",
+    "archive/space2023-two-final-video-proof-review-20261004.json"
+  ],
+  "changes": [
+    {
+      "representation": "aggregate",
+      "courseId": "berlin-byways",
+      "recordId": "1104263697943240844",
+      "fields": [
+        "proofImageLocal",
+        "proofImageVerified",
+        "proofField"
+      ]
+    },
+    {
+      "representation": "dedicated",
+      "courseId": "berlin-byways",
+      "recordId": "1104263697943240844",
+      "fields": [
+        "notes",
+        "proofField"
+      ]
+    },
+    {
+      "representation": "aggregate",
+      "courseId": "gba-cheep-cheep-island-r",
+      "recordId": "1068224700599255101",
+      "fields": [
+        "proofFrame",
+        "proofImageLocal",
+        "proofImageVerified",
+        "evidencePublishedAt",
+        "notes",
+        "proofField",
+        "observedAt"
+      ]
+    },
+    {
+      "representation": "dedicated",
+      "courseId": "gba-cheep-cheep-island-r",
+      "recordId": "1068224700599255101",
+      "fields": [
+        "proofFrame",
+        "notes",
+        "proofField"
+      ]
+    },
+    {
+      "representation": "aggregate",
+      "courseId": "n64-kalimari-desert-2",
+      "recordId": "1068224230715559956",
+      "fields": [
+        "proofFrame",
+        "proofImageLocal",
+        "proofImageVerified",
+        "evidencePublishedAt",
+        "proofImage",
+        "additionalProofImages",
+        "notes",
+        "proofField",
+        "videoVerified",
+        "observedAt"
+      ]
+    },
+    {
+      "representation": "dedicated",
+      "courseId": "n64-kalimari-desert-2",
+      "recordId": "1068224230715559956",
+      "fields": [
+        "proofFrame",
+        "notes",
+        "proofField"
+      ]
+    }
+  ],
+  "proofFrames": [
+    {
+      "recordId": "1104263697943240844",
+      "file": "public/assets/proof/superfx-berlin-11441-video-finish.webp",
+      "sha256": "e164ac0350c7eb1cc219fff3ad2c08f08031b43aeaa9c7e6862e2fc4277bab68",
+      "time": "1:14.41"
+    },
+    {
+      "recordId": "1068224700599255101",
+      "file": "public/assets/proof/space2023-7SZWl2HgFug-video-finish.webp",
+      "sha256": "c22c03ad703130808670bb01bfaef17017dfe2601041154c4481bda30e980bf1",
+      "time": "1:11.78"
+    },
+    {
+      "recordId": "1068224230715559956",
+      "file": "public/assets/proof/space2023-iBFP45tNkiU-video-finish.webp",
+      "sha256": "30f8c782d56e5dedd1ae96cf6f613f6c53c33bcf0a7a6bf74f9600b43bffd54b",
+      "time": "1:03.36"
+    }
+  ],
+  "originalVideosPreserved": [
+    {
+      "file": "archive/video-backup-files/189caf182ab34abfab56/original.mp4",
+      "sha256": "6ff7d9abe91ff8749881d6e44ae50aa97dbe8d2de09944527d8f33c19f4e24fe",
+      "bytes": 5390440,
+      "newlyCommitted": true
+    },
+    {
+      "file": "archive/video-backup-files/sucha-recovered/7SZWl2HgFug/original.mp4",
+      "sha256": "c704d02c7147b14210432694f84a62ce185f5e8840ba19c81001807693616c2d",
+      "bytes": 6575679,
+      "newlyCommitted": true
+    },
+    {
+      "file": "archive/video-backup-files/kno2-10336/original.mp4",
+      "sha256": "e63242ea9470a2d7fa1c5861714ac3f6d02b112877ca1d62af08ba93f49ef385",
+      "bytes": 33461559,
+      "newlyCommitted": true
+    }
+  ],
+  "visualReview": "Original frame totals rechecked:Berlin1:14.41previous1:14.48,CheepCheepIslandRfinish1:11.78,KalimariDesert2 1:03.36previous1:03.44.",
+  "limits": [
+    "Berlin original title saysBerlinByways2R; existing course grouping retained and discrepancy explicit.",
+    "Video finish frames do not imply recovery of the separate ephemeral result screenshots.",
+    "Lap values and source dates retained; exact private achievement instants remain unknown.",
+    "No new external backup upload; recorded existingKalimari backup unchanged.",
+    "Other public date/duration/source consistency differences remain open."
+  ],
+  "validation": {
+    "scopedAssertions": "passed",
+    "testsPassed": 130,
+    "testsFailed": 0,
+    "targetRecordRepresentationsAgree": 3,
+    "testInputs": "Regenerated committed-source dataset with staged video-proof evidence fields overlaid; referenced committed test assets included."
+  }
+}
