@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-08T18:40:03.487091+00:00",
+  "historyComplete": false,
+  "scope": "All142 currently generated course payloads; source review leads only. Earlier original publication is not automatically earlier race completion or worldwide rank.",
+  "leadCount": 2,
+  "notes": [
+    "Only visually verified supporting runs with known non-delayed dates are considered. Same-day evidence omitted because exact chronological comparisons need individual review.",
+    "False positives include late uploads of earlier achievements, later screenshot enrichment, nonstandard performance rules, and source-attribution errors.",
+    "This is a triage queue, not proof that any listed WR classification is wrong."
+  ],
+  "leads": [
+    {
+      "courseId": "athens-dash-2r",
+      "recordId": "1424248853317550081",
+      "player": "dit",
+      "time": "1:21.91",
+      "publishedAt": "2025-08-11T10:41:26.259Z",
+      "earlierFasterSupportingEvidence": [
+        {
+          "id": "1275697896452395028-vacation2024-image-reviewed",
+          "player": "Unknown",
+          "time": "1:18.27",
+          "publishedAt": "2024-08-21T06:07:59.835Z",
+          "video": null,
+          "proofImageLocal": "/assets/proof/vacation2024-1275697896141881374.jpg",
+          "standingUnresolved": false
+        }
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "recordId": "curated-original-2019-wr-row-48",
+      "player": "Dark",
+      "time": "1:35.66",
+      "publishedAt": "2019-11-01T13:42:57.133Z",
+      "earlierFasterSupportingEvidence": [
+        {
+          "id": "astre-2019-1188874475548401665-result",
+          "player": "Astre",
+          "time": "1:35.59",
+          "publishedAt": "2019-10-28T17:45:37Z",
+          "video": null,
+          "proofImageLocal": "/assets/proof/astre-2019-1188874475548401665-original-result.webp",
+          "standingUnresolved": false
+        }
+      ],
+      "reviewDecision": "False positive: original contemporary WR sheet suppliesOctober28achievement day;November1is later recovered screenshot observation. Earlier-versus-later publication alone cannot override that chronology.",
+      "achievementDate": "2019-10-28",
+      "source": "archive/curated-runs.json#original-2019-wr-row-48"
+    }
+  ],
+  "resolvedCourseMisassignment": {
+    "canonicalEntries": 5,
+    "oldCourseId": "3ds-mario-circuit",
+    "correctCourseId": "snes-mario-circuit-1",
+    "audit": "archive/paris2019-gomikuzu-mario-circuit-1-course-reconciliation-20261008.json"
+  },
+  "excludedRejectedClaim": "637466465229864960-opening2019-proof-review isrejected-claim,not eligible evidence forWRsuccession."
+}

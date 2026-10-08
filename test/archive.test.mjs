@@ -420,7 +420,7 @@ test('Wedding Tour restores exchanges, adjacent lap shorthand, and the Twitter-o
  assert.deepEqual(wedding.filter(r=>r.time==='1:34.35').map(r=>r.playerId),['superfx','tomegome']);
  const tome=wedding.find(r=>r.playerId==='tomegome');assert.equal(tome.submittedAt,'2021-06-15T09:14:14.000Z');assert.deepEqual(tome.laps,['47.21','47.14']);assert.match(tome.video,/1404728947196055555/);assert.match(tome.videoBackup.url,/itx8KWMWtHI/);assert.equal(tome.durationDays,1);
  assert.match(wedding.find(r=>r.time==='1:35.31').videoBackup.url,/pPek5tziViM/);assert.match(wedding.find(r=>r.time==='1:35.23').videoBackup.url,/XSOOFt2veI4/);assert.match(wedding.find(r=>r.time==='1:34.99').videoBackup.url,/sGUfz13K-0E/);
- assert.equal(mc.current.recordDate,'2021-06-16');assert.equal(mc.current.videoAvailability,'unavailable');assert.equal(fastestVideo(mc).playerId,'gomikuzu');assert.equal(fastestVideo(mc).time,'0:48.84');assert.equal(fastestVideo(mc).includeInProgression,false);assert.match(fastestVideo(mc).video,/1192020356539633664/);assert.equal(fastestVideo(mc).isCurrent,false);
+ assert.equal(mc.current.recordDate,'2021-06-16');assert.equal(mc.current.videoAvailability,'unavailable');assert.equal(fastestVideo(mc).playerId,'tomegome');assert.equal(fastestVideo(mc).time,'1:34.35');assert.match(fastestVideo(mc).video,/1404728947196055555/);assert.equal(fastestVideo(mc).isCurrent,false);
  const rr=courses.find(c=>c.id==='rmx-rainbow-road-2');const early=rr.records.filter(r=>r.recordDate<'2021-06-17');
  assert.deepEqual(early.map(r=>r.time),['1:22.37','1:22.17','1:22.10','1:22.10','1:22.09','1:22.05','1:21.95','1:21.74','1:21.69','1:21.65']);
  assert.deepEqual(early.filter(r=>r.time==='1:22.10').map(r=>r.playerId),['phillish','dit']);assert.deepEqual(early.find(r=>r.time==='1:22.09').laps,['40.99','41.10']);assert.deepEqual(early.find(r=>r.time==='1:22.05').laps,['41.01','41.04']);assert.equal(early.at(-1).recordDate,'2021-06-16');assert.equal(early.at(-1).videoAvailability,'unavailable');
@@ -596,4 +596,20 @@ test('Ocean 2022 slower server leaders stay outside worldwide progression after 
  assert.equal(predecessor.durationIntervals,null);
  assert.match(predecessor.durationBasis,/disputes the end/);
  assert.equal(c.current.time,'1:21.20');
+});
+
+test('Paris 2019 Gomikuzu Mario Circuit 1 evidence belongs to the SNES course',()=>{
+ const snes=courses.find(c=>c.id==='snes-mario-circuit-1');
+ const threeDS=courses.find(c=>c.id==='3ds-mario-circuit');
+ const ids=['gomikuzu-deleted-1191990027623944192-result-total','gomikuzu-deleted-1191991879157440512-result-total','gomikuzu-deleted-1192000224278892544-result-total','gomikuzu-deleted-1192000224278892544-previous-best','gomikuzu-mc-2019-1192018383195140097-result'];
+ for(const id of ids) {
+  assert(!threeDS.submissions.some(r=>r.messageId===id));
+  const r=snes.submissions.find(r=>r.messageId===id);
+  assert(r);
+  assert.equal(r.includeInProgression,false);
+ }
+ const video=snes.submissions.find(r=>r.messageId===ids[4]);
+ assert.equal(video.time,'0:48.84');
+ assert.deepEqual(video.laps,['24.47','24.37']);
+ assert.equal(video.videoVerified,true);
 });
