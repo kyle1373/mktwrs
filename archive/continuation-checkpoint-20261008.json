@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-08",
+  "goalComplete": false,
+  "historyComplete": false,
+  "objective": "Archive Mario Kart Tour world-record history from 2019 through 2026, continuing chat 01a11482-4cd0-7ff2-bd2e-4bf926c405ce.",
+  "completedThisPass": {
+    "december2021AttachmentDispositions": {
+      "total": 28,
+      "pending": 0,
+      "unavailable": 1,
+      "manifest": "archive/tt-discussion-december2021-attachment-review-manifest-20261004.json",
+      "limitation": "Dispositions are complete for this captured manifest, not exhaustive history or all alias reconciliation."
+    },
+    "evidenceBundles": [
+      "sky-2022",
+      "mii-2022",
+      "samurai-2022",
+      "yoshi-2022",
+      "amsterdam-2022",
+      "doctor-2022"
+    ],
+    "existingCanonicalRecordsValidated": 64,
+    "newCanonicalRecords": 0,
+    "tests": {
+      "passed": 118,
+      "failed": 0
+    },
+    "liveDataValidation": "archive/2022-source-bundle-live-validation-20261008.json",
+    "liveRecordsMatched": 64,
+    "liveMismatches": 0
+  },
+  "commits": [
+    "543db217",
+    "92c92cd8",
+    "7a323e33"
+  ],
+  "remainingWork": [
+    "Continue preserved Peach vs. Bowser 2022 source review from archive/peach-bowser-2022-evidence-review.json, reconciling against newer curated runs before reusing its stale missing-record notes.",
+    "Finish original-source and predecessor/alias reconciliation for early 2019–2020, including existing archive/early-chronology-resume-queue.json.",
+    "Audit remaining 2021 external-video and final-table alias leads; one December disputed image remains unavailable.",
+    "Reconcile 2022–2026 course appearances against saved original-source windows, deleted evidence, competing runners and existing curated records; no date is certified complete.",
+    "Resolve archive/space2024-social-source-review-20261005.json chronology conflict and protected/unavailable video leads recorded in archive/october2026-shared-video-review/preservation-and-deployment-checkpoint.json.",
+    "Preserve additional source captures still untracked in the existing working tree, using explicit per-bundle staging; do not blanket-add unrelated media.",
+    "Upload queued unlisted video backups only within the established publication authorization and channel limits; no new upload was performed in this pass."
+  ],
+  "resumeRules": [
+    "Use canonical IDs, source channel/message IDs, attachment IDs and local hashes to avoid duplicate review or duplicate WR rows.",
+    "Existing curated-runs.json working-tree diff is JSON formatting only: 9460 rows, no semantic change against HEAD at start of this pass. Preserve other existing changes.",
+    "Public records may retain their wr-history announcement ID after canonical enrichment; compare original proof attachment plus total/laps/publication date before declaring a missing record.",
+    "Source publication, private completion, upload time and tour availability are distinct. Preserve null dates and non-WR supporting results.",
+    "All validation files retain historyComplete=false. Counts describe saved evidence only; no defensible total remaining percentage exists."
+  ],
+  "publication": {
+    "lastVerifiedRemoteCommit": "543db217",
+    "pushInProgressThrough": "7a323e33",
+    "liveRecordDataVerified": true,
+    "newDeploymentBuildNotVerified": true
+  }
+}
