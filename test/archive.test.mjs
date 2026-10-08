@@ -723,3 +723,18 @@ test('Sucha composite preserves separate earlier finishes without inheriting lat
  assert.deepEqual(whiplash.laps,[]);
  assert(whiplash.notes.some(n=>n.includes('40.60')));
 });
+
+test('Maple standing evidence retains same-time competitors and undated menu best',()=>{
+ const rows=courses.find(c=>c.id==='wii-maple-treeway').submissions.filter(r=>r.messageId?.endsWith('-december2020-maple-table-original-reviewed'));
+ assert.equal(rows.length,12);
+ const tied=rows.filter(r=>r.time==='1:47.86');
+ assert.deepEqual(tied.map(r=>r.player).sort(),['Romain','Whiplash']);
+ assert.deepEqual(tied.find(r=>r.player==='Romain').laps,['53.78','54.08']);
+ assert.deepEqual(tied.find(r=>r.player==='Whiplash').laps,['53.75','54.11']);
+ const menu=rows.find(r=>r.player==='MayMusick');
+ assert.equal(menu.proofField,'tour-personal-best-menu');
+ assert.equal(menu.submittedAt,null);
+ assert(rows.every(r=>r.includeInProgression===false&&r.dateUnresolved));
+ const sucha=rows.find(r=>r.player==='Sucha');
+ assert.equal(sucha.time,'1:50.01');
+});
