@@ -1,14 +1,17 @@
 {
   "reviewedAt": "2026-10-09",
-  "canonicalCommit": "a23be443fb80efcbd7468df6113686e96f1c23f2",
+  "canonicalCommit": "eaf312808212e7290f27f527df8f03dadf388b3a",
   "historyComplete": false,
   "certifiedThrough": null,
   "inventoryScope": "Entries in preserved submission-visual-review.json with December2021 submission timestamps. This is a prior-review inventory, not a complete Discord message census.",
   "counts": {
-    "original-source-linked-in-canonical": 163,
-    "not-linked-in-canonical-source-review-required": 83,
+    "original-source-linked-in-canonical": 164,
+    "not-linked-in-canonical-source-review-required": 80,
     "same-name-or-account-course-time-undated-observation-candidate": 2,
-    "legacy-original-source-linked-metadata-review": 21
+    "legacy-original-source-linked-metadata-review": 20,
+    "held-excluded-unreadable-total": 1,
+    "confirmed-fake-excluded": 1,
+    "held-excluded-course-legitimacy-unresolved": 1
   },
   "totalPriorReviewEntries": 269,
   "rows": [
@@ -7693,7 +7696,7 @@
       "sourceAuthor": "Y146",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "unverified-or-parody-excluded",
-      "disposition": "not-linked-in-canonical-source-review-required",
+      "disposition": "held-excluded-unreadable-total",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
@@ -7718,7 +7721,9 @@
         "sha256": "9e8b7b865db78b3ae44bbfed74940e81b9c423184c8dd51244207beedf6de1fe",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "exclusionReviewAudit": "archive/december2021-dec28-original-exclusion-review-20261009.json",
+      "exclusionReason": "Prior visual review found the total obscured by FEX lettering. Live original has no text supplying a valid total. Preserve as an unresolved exclusion; do not infer digits."
     },
     {
       "attachmentId": "925304119634321428",
@@ -7729,7 +7734,7 @@
       "sourceAuthor": "nekozuki",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "unverified-or-parody-excluded",
-      "disposition": "not-linked-in-canonical-source-review-required",
+      "disposition": "confirmed-fake-excluded",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
@@ -7754,7 +7759,9 @@
         "sha256": "2f8afcd9981d58b190bebe3c50634829da3b4f5558ceabb18c252974c27dde8f",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false,
+      "exclusionReviewAudit": "archive/december2021-dec28-original-exclusion-review-20261009.json",
+      "exclusionReason": "Author explicitly labels the picture fake in the live original. Excluded from legitimate submissions, WR progression and fastest-recorded selection."
     },
     {
       "attachmentId": "925348370808197150",
@@ -7765,11 +7772,11 @@
       "sourceAuthor": "えなが",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reconciled-wr",
-      "disposition": "legacy-original-source-linked-metadata-review",
-      "canonicalSourceMatches": [],
-      "legacyCanonicalSourceMatches": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "penguin-2021-925348370808197150"
       ],
+      "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1226,
@@ -7792,7 +7799,7 @@
         "sha256": "7e98dd7acb5dcb1c85bfff1a66f56a9a0bddae2c4b67a9098f244f26c2478641",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "925385823849971752",
@@ -7803,7 +7810,7 @@
       "sourceAuthor": "Timaël",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "unverified-or-parody-excluded",
-      "disposition": "not-linked-in-canonical-source-review-required",
+      "disposition": "held-excluded-course-legitimacy-unresolved",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
@@ -7828,7 +7835,9 @@
         "sha256": "79a38ff58157d8fa8269b33b514bce8f2f5fc1c8d896b270af37196674b0ed5a",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "exclusionReviewAudit": "archive/december2021-dec28-original-exclusion-review-20261009.json",
+      "exclusionReason": "Prior visual review could not establish course or legitimacy. Live caption supplies no corroborating result evidence. Keep excluded pending independent corroboration; do not assert the picture is confirmed fake."
     },
     {
       "attachmentId": "925400718326788176",
@@ -10069,7 +10078,7 @@
   "limitations": [
     "Structured source matches require message and attachment IDs, course and normalized total. Legacy matches require exact source message link plus attachment proof URL or canonical attachment ID suffix. Legacy metadata still needs review; neither disposition certifies coverage or WR validity.",
     "Undated observation candidates use matching name or preserved account plus course and total; they still require identity and original source review. No automatic merge performed.",
-    "Entries missing from canonical are review leads, not verified missing WRs. Prior non-WR and invalid classifications are retained.",
+    "Entries missing from canonical are review leads, not verified missing WRs. Live-revalidated exclusion decisions are separate dispositions: confirmed fake exclusions are closed; unreadable totals and unresolved legitimacy remain open.",
     "Newly discovered Discord messages absent from the prior visual review are outside this inventory. Full2019–2026 review and live publication remain incomplete."
   ]
 }
