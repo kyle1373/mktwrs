@@ -1,13 +1,13 @@
 {
   "reviewedAt": "2026-10-09",
-  "canonicalCommit": "7a1512fcbb26fd92bcc7b60212889e698f8a3af7",
+  "canonicalCommit": "fd648b9ff46f948b2a1a322a92c3063f233a8ecd",
   "historyComplete": false,
   "certifiedThrough": null,
   "inventoryScope": "Entries in preserved submission-visual-review.json with December2021 submission timestamps. This is a prior-review inventory, not a complete Discord message census.",
   "counts": {
-    "same-name-course-time-undated-observation-candidate": 25,
-    "not-linked-in-canonical-source-review-required": 194,
-    "original-source-linked-in-canonical": 50
+    "original-source-linked-in-canonical": 55,
+    "not-linked-in-canonical-source-review-required": 192,
+    "same-name-or-account-course-time-undated-observation-candidate": 22
   },
   "totalPriorReviewEntries": 269,
   "rows": [
@@ -20,11 +20,11 @@
       "sourceAuthor": "AKI",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
-      "canonicalSourceMatches": [],
-      "undatedObservationCandidates": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "915912614968688700-915912612389220412-rank8-december2021-final-table-reviewed"
       ],
+      "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1020,
         "messageId": "915420577764892733",
@@ -46,7 +46,7 @@
         "sha256": "9425e895e6d427c4b545eefb7c3ede3bbe8978d2ac490989674dea51af68c8f9",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "915501247509954590",
@@ -57,8 +57,10 @@
       "sourceAuthor": "かかかっっっっっっっかかっかk",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
-      "canonicalSourceMatches": [],
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
+        "915912614968688700-915912612389220412-rank11-december2021-final-table-reviewed"
+      ],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1021,
@@ -81,7 +83,7 @@
         "sha256": "c0ca72e825c13b1eec27f85f077660a4caddaa4f5fdb73a264af76a5480934dc",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "915531955129450518",
@@ -92,11 +94,11 @@
       "sourceAuthor": "KRiTiKaL84",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
-      "canonicalSourceMatches": [],
-      "undatedObservationCandidates": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "915912614968688700-915912612389220412-rank24-december2021-final-table-reviewed"
       ],
+      "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1022,
         "messageId": "915531960531709952",
@@ -118,7 +120,7 @@
         "sha256": "2e026c415ed7bdb66ace895a796aedfed7534c7fb0fbdee40d35d28d1479b318",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "915531955431419944",
@@ -129,11 +131,11 @@
       "sourceAuthor": "KRiTiKaL84",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
-      "canonicalSourceMatches": [],
-      "undatedObservationCandidates": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "915912672971730984-915912670274809866-rank14-december2021-final-table-reviewed"
       ],
+      "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1023,
         "messageId": "915531960531709952",
@@ -155,7 +157,7 @@
         "sha256": "0c542e10f24e384cb2c0ebc860aefbb5e4de64995054a6f32566368c5fa81a8a",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "915532296424132618",
@@ -166,8 +168,10 @@
       "sourceAuthor": "nekozuki",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
-      "canonicalSourceMatches": [],
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
+        "915532299746045982-december2021-original-result-reviewed"
+      ],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1024,
@@ -190,7 +194,7 @@
         "sha256": "a08375594ad0a1fe6f77af662f2ed4ece6830de591fadee6929743a24fed63d6",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "915623830167380028",
@@ -557,7 +561,7 @@
       "sourceAuthor": "Mish",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645733352984617-921645732493148200-rank24-december2021-final-table-reviewed"
@@ -629,7 +633,7 @@
       "sourceAuthor": "Y146",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank21-december2021-final-table-reviewed"
@@ -666,7 +670,7 @@
       "sourceAuthor": "Haruru",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank20-december2021-final-table-reviewed"
@@ -880,7 +884,7 @@
       "sourceAuthor": "SEVEN",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645733352984617-921645732493148200-rank23-december2021-final-table-reviewed"
@@ -1024,7 +1028,7 @@
       "sourceAuthor": "Wins",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645733352984617-921645732493148200-rank3-december2021-final-table-reviewed"
@@ -1096,7 +1100,7 @@
       "sourceAuthor": "Jimmy",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645733352984617-921645732493148200-rank14-december2021-final-table-reviewed"
@@ -1203,7 +1207,7 @@
       "sourceAuthor": "Tankian",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645733352984617-921645732493148200-rank15-december2021-final-table-reviewed"
@@ -1275,7 +1279,7 @@
       "sourceAuthor": "Tesla",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank19-december2021-final-table-reviewed"
@@ -1382,7 +1386,7 @@
       "sourceAuthor": "Mish",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank22-december2021-final-table-reviewed"
@@ -1701,7 +1705,7 @@
       "sourceAuthor": "kNo2",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank13-december2021-final-table-reviewed"
@@ -1913,7 +1917,7 @@
       "sourceAuthor": "N",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645733352984617-921645732493148200-rank6-december2021-final-table-reviewed"
@@ -2055,7 +2059,7 @@
       "sourceAuthor": "Wins",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank9-december2021-final-table-reviewed"
@@ -2232,7 +2236,7 @@
       "sourceAuthor": "Tankian",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank18-december2021-final-table-reviewed"
@@ -2444,7 +2448,7 @@
       "sourceAuthor": "N",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank2-december2021-final-table-reviewed"
@@ -2516,7 +2520,7 @@
       "sourceAuthor": "Nozomi",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank16-december2021-final-table-reviewed"
@@ -2553,7 +2557,7 @@
       "sourceAuthor": "spartacurtYT",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank6-december2021-final-table-reviewed"
@@ -2835,7 +2839,7 @@
       "sourceAuthor": "SEVEN",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank14-december2021-final-table-reviewed"
@@ -2907,7 +2911,7 @@
       "sourceAuthor": "10mp",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank4-december2021-final-table-reviewed"
@@ -3119,7 +3123,7 @@
       "sourceAuthor": "ゼド",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank12-december2021-final-table-reviewed"
@@ -3191,7 +3195,7 @@
       "sourceAuthor": "Isun",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank5-december2021-final-table-reviewed"
@@ -3403,7 +3407,7 @@
       "sourceAuthor": "AKI",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645771655381072-921645770908782602-rank11-december2021-final-table-reviewed"
@@ -4216,7 +4220,7 @@
       "sourceAuthor": "Kmello",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-course-time-undated-observation-candidate",
+      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
       "canonicalSourceMatches": [],
       "undatedObservationCandidates": [
         "921645733352984617-921645732493148200-rank10-december2021-final-table-reviewed"
@@ -9576,7 +9580,7 @@
   ],
   "limitations": [
     "Source-linked means attachment, message, course and normalized total match an existing canonical source; it does not certify source coverage or WR validity.",
-    "Undated observation candidates require identity and original source review; no automatic merge performed.",
+    "Undated observation candidates use matching name or preserved account plus course and total; they still require identity and original source review. No automatic merge performed.",
     "Entries missing from canonical are review leads, not verified missing WRs. Prior non-WR and invalid classifications are retained.",
     "Newly discovered Discord messages absent from the prior visual review are outside this inventory. Full2019–2026 review and live publication remain incomplete."
   ]
