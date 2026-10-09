@@ -1,13 +1,12 @@
 {
   "reviewedAt": "2026-10-09",
-  "canonicalCommit": "24294d9e7abc2df687bc6336a41c26b952028d37",
+  "canonicalCommit": "6c2b828497b93a5ce9806d640f7b01e1ef48f574",
   "historyComplete": false,
   "certifiedThrough": null,
   "inventoryScope": "Entries in preserved submission-visual-review.json with December2021 submission timestamps. This is a prior-review inventory, not a complete Discord message census.",
   "counts": {
-    "original-source-linked-in-canonical": 255,
+    "original-source-linked-in-canonical": 256,
     "held-original-author-identity-unresolved": 10,
-    "legacy-original-source-linked-metadata-review": 1,
     "held-excluded-unreadable-total": 1,
     "confirmed-fake-excluded": 1,
     "held-excluded-course-legitimacy-unresolved": 1
@@ -3751,11 +3750,11 @@
       "sourceAuthor": "cabotsikalut",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reconciled-wr",
-      "disposition": "legacy-original-source-linked-metadata-review",
-      "canonicalSourceMatches": [],
-      "legacyCanonicalSourceMatches": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "penguin-2021-920568150054023238"
       ],
+      "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1118,
@@ -3778,7 +3777,11 @@
         "sha256": "3c6ecb864ebd439d38993cde47624c59fae982bbdf9213646636a758d88a163f",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "sourceMetadataReviewed": true,
+      "identityReconciliationRequired": true,
+      "sourceMetadataReviewAudit": "archive/december2021-opening-3269-source-metadata-reconciliation-20261009.json",
+      "remainingReview": "Exact runner-account identity remains unresolved; original proof and timestamp reconciled."
     },
     {
       "attachmentId": "920569275733909544",
@@ -4732,7 +4735,7 @@
       "sourceMetadataReviewed": true,
       "identityReconciliationRequired": true,
       "sourceMetadataReviewAudit": "archive/december2021-wins-four-legacy-proof-metadata-reconciliation-20261009.json",
-      "remainingReview": "Exact runner-account identity remains unresolved; original proof, timestamp and previous-best observation reconciled."
+      "remainingReview": "Exact runner-account identity remains unresolved; original proof and timestamp reconciled."
     },
     {
       "attachmentId": "920688060696522802",
@@ -4850,7 +4853,7 @@
       "sourceMetadataReviewed": true,
       "identityReconciliationRequired": true,
       "sourceMetadataReviewAudit": "archive/december2021-wins-four-legacy-proof-metadata-reconciliation-20261009.json",
-      "remainingReview": "Exact runner-account identity remains unresolved; original proof, timestamp and previous-best observation reconciled."
+      "remainingReview": "Exact runner-account identity remains unresolved; original proof and timestamp reconciled."
     },
     {
       "attachmentId": "920773676922716170",
@@ -6640,7 +6643,7 @@
       "sourceMetadataReviewed": true,
       "identityReconciliationRequired": true,
       "sourceMetadataReviewAudit": "archive/december2021-wins-four-legacy-proof-metadata-reconciliation-20261009.json",
-      "remainingReview": "Exact runner-account identity remains unresolved; original proof, timestamp and previous-best observation reconciled."
+      "remainingReview": "Exact runner-account identity remains unresolved; original proof and timestamp reconciled."
     },
     {
       "attachmentId": "922317054164467773",
@@ -9225,7 +9228,7 @@
       "sourceMetadataReviewed": true,
       "identityReconciliationRequired": true,
       "sourceMetadataReviewAudit": "archive/december2021-wins-four-legacy-proof-metadata-reconciliation-20261009.json",
-      "remainingReview": "Exact runner-account identity remains unresolved; original proof, timestamp and previous-best observation reconciled."
+      "remainingReview": "Exact runner-account identity remains unresolved; original proof and timestamp reconciled."
     },
     {
       "attachmentId": "925780338477764628",
@@ -9267,7 +9270,7 @@
       "sourceMetadataReviewed": true,
       "identityReconciliationRequired": true,
       "sourceMetadataReviewAudit": "archive/december2021-wins-vl1-original-proof-and-previous-best-review-20261009.json",
-      "remainingReview": "Exact runner-account identity remains unresolved; original proof, timestamp and previous-best observation reconciled."
+      "remainingReview": "Exact runner-account identity remains unresolved; original proof and timestamp reconciled."
     },
     {
       "attachmentId": "925789060679729252",
