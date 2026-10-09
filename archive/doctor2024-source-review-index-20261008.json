@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T02:19:59.486137+00:00",
+  "checkedAt": "2026-10-09T02:20:47.455596+00:00",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": {
@@ -256,7 +256,10 @@
           "messageId": "1211957486265835561-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1211957485993332786.png",
+      "originalSHA256": "f47721d9555a3d51087a1413955a89bcaf536aa9cfdc936c00faafe32ed05ce3",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1212035271646781560",
@@ -280,7 +283,10 @@
           "messageId": "1212035272049557504-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1212035271646781560.jpg",
+      "originalSHA256": "ddaf8839fd55b2b9fabfdf2162ae642b6901be2e44b7feffd3e27e35cf5f1a8b",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1212048551161503844",
@@ -304,7 +310,10 @@
           "messageId": "1212048551559954432-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1212048551161503844.png",
+      "originalSHA256": "d49ff70e2edd1ec18dbf5db8fa236de120a7ee1ab54e44d68354b3598fef8184",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1213027902657003540",
@@ -328,7 +337,10 @@
           "messageId": "1213027903097536512-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1213027902657003540.png",
+      "originalSHA256": "d54fb050f9cf303a71348a07d145c508db46d311c82ef6e57f93b343f95213f6",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1213047617559334912",
@@ -352,7 +364,10 @@
           "messageId": "1213047618075238410-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1213047617559334912.png",
+      "originalSHA256": "cbb772b6d061c6f6afda2c756678f33994480fa4d3bcf5d0eae43289da733f90",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1213085282513977344",
@@ -376,7 +391,10 @@
           "messageId": "1213085282715439156-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1213085282513977344.png",
+      "originalSHA256": "d18516a62fe51a17407dd884effcf720101c95a1d80eb770caff9fd8adcc3cce",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1213127307988963398",
@@ -400,7 +418,10 @@
           "messageId": "1213127308232368179-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1213127307988963398.jpg",
+      "originalSHA256": "255fecfaf9baeee7f905e2003a7f02f18bc7b51570cf1b6a1c5573764a7a700d",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1213716105877790730",
@@ -437,7 +458,10 @@
           "messageId": "1213716195136503869-doctor2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/doctor2024-preserved-original-images/1213716194364760074.png",
+      "originalSHA256": "596ae165c81864d19f33fefa981ef6ed5b7aa891f18b2fc20629a2153dc745b3",
+      "reviewAudit": "archive/doctor2024-feb27-mar3-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1213717626925228122",
@@ -784,13 +808,13 @@
   ],
   "counts": {
     "reviewed-carried-forward": 3,
-    "reviewed": 7,
-    "existing-entry-reconciliation-required": 21,
+    "reviewed": 15,
     "missing-original-unresolved": 1,
+    "existing-entry-reconciliation-required": 13,
     "original-review-required": 2
   },
   "nextActions": [
-    "Review remaining23 available saved images and original media.",
+    "Review remaining15 available images and one missing original.",
     "Reconcile discussion, identities, chronology and source acquisition provenance.",
     "Publish reconciled per-track evidence and verify live publication; continue2019–2026 coverage."
   ]
