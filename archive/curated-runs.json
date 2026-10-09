@@ -147932,7 +147932,8 @@
       "Original finish screenshot visually reviewed; Rainbow Road 1:38/1:34/1:30 or Wario Shipyard 2:15/2:00/1:52 thresholds.",
       "First known screenshot publication used for exact date.",
       "Original linked video retained; playback verification pending.",
-      "Original linkedvideo reviewed: lap1HUD42.86, completedtotal1:13.83. Video beginsat2.79seconds; race startnotrecorded."
+      "Original linkedvideo reviewed: lap1HUD42.86, completedtotal1:13.83. Video beginsat2.79seconds; race startnotrecorded.",
+      "Original recording revalidated: initial race clock is0:00duringcountdown,laptransition42.86andresult1:13.83shown. Firstlap verified fromfootage; secondlap30.97derived."
     ],
     "video": "https://www.youtube.com/watch?v=JgZabnRTpV4",
     "videoVerified": true,
@@ -147947,7 +147948,14 @@
       "42.86",
       "30.97"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "originalVideoLocal": "archive/video-backup-files/ninja2024-kuri7383/original.mp4",
+    "originalVideoSHA256": "21af3aa0e7ab24e45f79524134545258f6aaa7e23cbfcbb1f2cb104b7e220048",
+    "originalVideoReviewAudit": "archive/ninja2024-six-original-video-and-three-lap-image-revalidation-20261008.json",
+    "videoCompleteness": "recording-opens-during-countdown;lap-transition-and-finish-shown",
+    "lapSource": "first-lap-transition-freezes-at42.86",
+    "derivedLap2": "30.97",
+    "videoBackupPending": true
   },
   {
     "messageId": "1221420682701705336-ninja2024-image-reviewed",
@@ -297998,5 +298006,39 @@
     "originalVideoReviewAudit": "archive/mario2024-original-video-and-discussion-revalidation-20261008.json",
     "videoVerified": true,
     "videoBackupPending": true
+  },
+  {
+    "messageId": "1220302884282040320-ninja2024-discussion-finish-reviewed",
+    "player": "Unknown (Discord display ね)",
+    "courseId": "wii-rainbow-road",
+    "time": "1:15.53",
+    "laps": [],
+    "submittedAt": "2024-03-21T09:27:59.744Z",
+    "status": "documented-support",
+    "includeInProgression": false,
+    "identityUnresolved": true,
+    "identityRecoveryLead": {
+      "avatarAccountId": "1058712453342560297",
+      "existingProfile": "neko4221",
+      "resolutionBasis": "captured avatar URL; exact author/receipt identity still to confirm"
+    },
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/1220302884282040320",
+      "channel": "tt-discussion",
+      "messageId": "1220302884282040320"
+    },
+    "video": "https://cdn.discordapp.com/attachments/636461740162416640/1220302883711356948/ScreenRecording_03-21-2024_17-46-39_1.mov",
+    "videoVerified": true,
+    "videoCompleteness": "partial-run-with-finish;first-lap-and-race-start-missing",
+    "proofField": "finish-hud-total",
+    "originalVideoLocal": "archive/video-backup-files/ninja2024-discussion-1220302884282040320/original.mov",
+    "originalVideoSHA256": "f14a17636c71091e0a58ed5e7fb3a5683a7d1f170f5d228022a1cb929d5f3c52",
+    "originalVideoReviewAudit": "archive/ninja2024-six-original-video-and-three-lap-image-revalidation-20261008.json",
+    "videoBackupPending": true,
+    "chronologyUnresolved": true,
+    "notes": [
+      "Original saved clip revalidated: finish animation at30seconds freezesHUD1:15.53. No first-lap split or private achievement timestamp inferred.",
+      "Published after kuRi1:14.28at09:20; retained as supporting result, not WR. Captured display name retained until exact identity resolved."
+    ]
   }
 ]
