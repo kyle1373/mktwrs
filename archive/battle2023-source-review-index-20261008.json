@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T01:29:29.079159+00:00",
+  "checkedAt": "2026-10-09T01:30:27.598005+00:00",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": "Battle Tour 2023, October4 06:00 UTC through October18 06:00 UTC; bounded saved submission captures, including all observed attachment host channels.",
@@ -10,9 +10,10 @@
   ],
   "savedSourceRowCount": 46,
   "counts": {
-    "reviewed": 8,
-    "existing-entry-reconciliation-required": 17,
-    "preserved-original-review-required": 1
+    "reviewed": 15,
+    "original-recovery-required": 1,
+    "preserved-original-review-required": 1,
+    "existing-entry-reconciliation-required": 9
   },
   "attachments": [
     {
@@ -556,7 +557,10 @@
         "archive/battle2023-opening-twelve-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1160480725947121784.png",
+      "originalSHA256": "aa169b3f172d5dff08ab78afd094cf5ff403a7c3c3839f2a23b2744ef9c38c7a",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1160779338682204252",
@@ -629,7 +633,10 @@
         "archive/battle2023-opening-twelve-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1160779338682204252.png",
+      "originalSHA256": "a491a96c89495c8898435cbde2fb881c184de1cb87e063879d99eca5b9032da1",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1160796889902497842",
@@ -689,13 +696,20 @@
           "player": "Shine",
           "courseId": "snes-donut-plains-2",
           "time": "1:00.60",
-          "matchBasis": "source-message-requires-course-check"
+          "matchBasis": "source-message-and-existing-reviewed-original-video"
         }
       ],
       "priorReviewAudits": [
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "original-recovery-required",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json",
+      "preservedVideo": {
+        "file": "archive/video-backup-files/battle2023-shine6060/original.mp4",
+        "bytes": 5231102,
+        "sha256": "a40007277fdbb2760102bb58f0930a667654c8533d167c6d9666a3340f77e563",
+        "backupUploadStatus": "pending"
+      }
     },
     {
       "attachmentId": "1160997761668354137",
@@ -764,7 +778,10 @@
         "archive/battle2023-opening-twelve-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1160997761668354137.png",
+      "originalSHA256": "cf7588951aadf130826164791b0d33dcb6f932f08569c064be195d3fa5a03ab2",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1161156965393764352",
@@ -833,7 +850,10 @@
         "archive/battle2023-opening-twelve-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1161156965393764352.png",
+      "originalSHA256": "bd839c50f5fadbd7a7ec9e666a5e034f7bf24a517591a0b7ec278bdbc5dfb2a6",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1161260146970853467",
@@ -898,7 +918,10 @@
         "archive/battle2023-opening-twelve-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1161260146970853467.jpg",
+      "originalSHA256": "1bf7a297408f1c6dfb6a4fbb6add2d10d664539b8dfa959b47cf31bdd4b68bc4",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1161920102514569216",
@@ -963,7 +986,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1161920102514569216.png",
+      "originalSHA256": "250a143385f3cb70aad81e20540fbfd53a247bd16113170f72509458fe85e136",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1162652848404828280",
@@ -1032,7 +1058,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1162652848404828280.png",
+      "originalSHA256": "ae4096747f432920871e4a21e0fe75e32a12233f6d6158bc81df96a0248a8f7a",
+      "reviewAudit": "archive/battle2023-oct8-14-eight-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1162901107417305139",
