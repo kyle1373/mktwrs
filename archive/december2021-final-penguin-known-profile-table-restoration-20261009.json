@@ -504,8 +504,11 @@
       "rank": 20,
       "rawPlayer": "HIKARU",
       "time": "1:20.12",
-      "disposition": "held-identity-unresolved",
-      "originalSubmissionAttachmentId": null
+      "disposition": "resolved-by-original-submission",
+      "originalSubmissionAttachmentId": null,
+      "matchedCuratedId": "921996911974694943-penguin2021-original-result-reviewed",
+      "originalSubmittedAt": "2021-12-19T05:26:33.689Z",
+      "resolutionAudit": "archive/december2021-sucha-original-12012-hikaru-table-reconciliation-20261009.json"
     },
     {
       "courseId": "gba-bowser-s-castle-2r",
@@ -548,7 +551,7 @@
   ],
   "restoredObservations": 34,
   "corroboratedExistingRuns": 5,
-  "heldIdentityRows": 1,
+  "heldIdentityRows": 0,
   "validation": {
     "allFourOriginalAndPublicImageHashesMatch": true,
     "suppliedLapSumsMatch": true,
@@ -559,6 +562,6 @@
     "Different display names at equal times are not merged.",
     "Original-submission attachment leads remain available in transcription for next reconciliation."
   ],
-  "resolvedOriginalSubmissionRows": 14,
+  "resolvedOriginalSubmissionRows": 15,
   "heldRowReconciliation": "archive/december2021-penguin-table-held-row-current-state-reconciliation-20261009.json"
 }
