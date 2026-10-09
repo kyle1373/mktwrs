@@ -141746,7 +141746,18 @@
     "proofVideoLocal": "archive/video-backup-files/winter2024-sucha-nita/original.mp4",
     "proofVideoReviewAudit": "archive/winter2024-two-original-video-revalidation-20261008.json",
     "lapVerification": "video-first-lap-and-total-verified-second-lap-derived",
-    "derivedLap2": true
+    "derivedLap2": true,
+    "originalImageProvenance": {
+      "kind": "saved-resized-discord-webp",
+      "savedFormat": "WEBP",
+      "savedDimensions": [
+        444,
+        640
+      ],
+      "originalCDNBytesRecovered": false,
+      "reviewAudit": "archive/winter2024-discussion-menu-and-proxy-reconciliation-20261008.json",
+      "note": "Saved screenshot is444x640WebP; original CDN image bytes not established."
+    }
   },
   {
     "messageId": "1201116389025517578-winter2024-image-reviewed",
@@ -143566,8 +143577,15 @@
     "notes": [
       "Visually reviewed tour-best1:34.71; Bangkok Rush2 thresholds2:20/2:05/1:54.",
       "Posted by shoa; same total as Sucha NITA video does not prove same run or ownership.",
-      "Slower than preceding global WR, supporting evidence only."
-    ]
+      "Slower than preceding global WR, supporting evidence only.",
+      "Menu tour-best panel verifies stored1:34.71; no completed-run finish or lap evidence. Same total alone cannot identify it as Sucha NITA performance."
+    ],
+    "originalImageLocal": "archive/winter2024-preserved-original-images/discussion-1201114374572621875.jpg",
+    "originalImageSHA256": "60fbfd2b882121928c88a85055d8579593d0cc3c358007931900f93a0e167c8d",
+    "originalImageReviewAudit": "archive/winter2024-discussion-menu-and-proxy-reconciliation-20261008.json",
+    "proofField": "tour-best-menu-panel",
+    "chronologyUnresolved": true,
+    "courseAppearance": "Winter Tour appearance 2024"
   },
   {
     "messageId": "1204698390596947969-exploration2024-image-reviewed",
