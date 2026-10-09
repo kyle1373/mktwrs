@@ -1,14 +1,14 @@
 {
   "reviewedAt": "2026-10-09",
-  "canonicalCommit": "347a699faf2e161524d48c205046b9bd39200b98",
+  "canonicalCommit": "4b741c01609626f88b7b09ce505064bddd49c59d",
   "historyComplete": false,
   "certifiedThrough": null,
   "inventoryScope": "Entries in preserved submission-visual-review.json with December2021 submission timestamps. This is a prior-review inventory, not a complete Discord message census.",
   "counts": {
-    "original-source-linked-in-canonical": 102,
-    "not-linked-in-canonical-source-review-required": 135,
-    "same-name-or-account-course-time-undated-observation-candidate": 5,
-    "legacy-original-source-linked-metadata-review": 27
+    "original-source-linked-in-canonical": 106,
+    "not-linked-in-canonical-source-review-required": 133,
+    "same-name-or-account-course-time-undated-observation-candidate": 4,
+    "legacy-original-source-linked-metadata-review": 26
   },
   "totalPriorReviewEntries": 269,
   "rows": [
@@ -3127,11 +3127,11 @@
       "sourceAuthor": "NHSpeedy",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reconciled-wr",
-      "disposition": "legacy-original-source-linked-metadata-review",
-      "canonicalSourceMatches": [],
-      "legacyCanonicalSourceMatches": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "holiday-2021-919261046320005130"
       ],
+      "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1103,
@@ -3154,7 +3154,7 @@
         "sha256": "f02ab4fe631d0003f483a339f5d1c292be7f20c1d737c27d4952b18b14cc9e71",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "919415606586011708",
@@ -3201,8 +3201,10 @@
       "sourceAuthor": "AKI",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
-      "canonicalSourceMatches": [],
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
+        "919504835261386782-december2021-original-result-reviewed"
+      ],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
@@ -3226,7 +3228,7 @@
         "sha256": "a1be34dc2a2f4265210f999bc9de57559c6784d221b5e739cdaf7f8d37be940a",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "919554694102286336",
@@ -3237,8 +3239,10 @@
       "sourceAuthor": "AKI",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
-      "canonicalSourceMatches": [],
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
+        "919554695683506216-december2021-original-result-reviewed"
+      ],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
@@ -3262,7 +3266,7 @@
         "sha256": "d011508ed8e28370e75da05cb1bf78352dc2af3e9095e665f628048b042835bb",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "919728086466035732",
@@ -3273,12 +3277,12 @@
       "sourceAuthor": "ゼド",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
-      "canonicalSourceMatches": [],
-      "legacyCanonicalSourceMatches": [],
-      "undatedObservationCandidates": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "921645771655381072-921645770908782602-rank12-december2021-final-table-reviewed"
       ],
+      "legacyCanonicalSourceMatches": [],
+      "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1107,
         "messageId": "919728087502032916",
@@ -3300,7 +3304,7 @@
         "sha256": "bb8b1ab120bf63ba7551daf0b3df3784170d7092dc926448fcd920c164140d04",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "919761884780048454",
