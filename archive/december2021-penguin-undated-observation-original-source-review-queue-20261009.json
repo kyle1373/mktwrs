@@ -936,7 +936,53 @@
       "time": "1:20.29",
       "originalAttachmentLead": null,
       "capturedOriginalSources": [],
-      "reviewStatus": "pending-original-result-and-same-run-reconciliation"
+      "reviewStatus": "candidate-original-source-preserved-same-run-visual-review-pending",
+      "candidateOriginalSources": [
+        {
+          "messageId": "925207326116446208",
+          "attachmentId": "925207325172719686",
+          "postedAt": "2021-12-28T02:03:36.067Z",
+          "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/925207326116446208",
+          "sourceAuthor": "AKI",
+          "discordAccountId": "853089334957047848",
+          "localOriginal": "archive/december2021-original-images/925207325172719686.png",
+          "sha256": "6e7525ab2408a6fcfa94b854eb3d37b4adc300839246f858607de0e81ee72f04",
+          "bytes": 1941657,
+          "resultVisuallyVerified": false,
+          "courseVerified": false,
+          "sameRunReconciled": false
+        },
+        {
+          "messageId": "925793264869720104",
+          "attachmentId": "925793260595716166",
+          "postedAt": "2021-12-29T16:51:54.752Z",
+          "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/925793264869720104",
+          "sourceAuthor": "AKI",
+          "discordAccountId": "853089334957047848",
+          "localOriginal": "archive/december2021-original-images/925793260595716166.png",
+          "sha256": "c2747934636a4686b33acc50e970c8dc177f44b4c5ecf4f77ba11239cebde7a7",
+          "bytes": 3966859,
+          "resultVisuallyVerified": false,
+          "courseVerified": false,
+          "sameRunReconciled": false
+        },
+        {
+          "messageId": "925793264869720104",
+          "attachmentId": "925793261778518106",
+          "postedAt": "2021-12-29T16:51:54.752Z",
+          "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/925793264869720104",
+          "sourceAuthor": "AKI",
+          "discordAccountId": "853089334957047848",
+          "localOriginal": "archive/december2021-original-images/925793261778518106.png",
+          "sha256": "23487d097679c14ffbea6959eb232ebae73e2c141fb9c2fe81833335f371ad79",
+          "bytes": 3275387,
+          "resultVisuallyVerified": false,
+          "courseVerified": false,
+          "sameRunReconciled": false
+        }
+      ],
+      "reviewAudit": "archive/december2021-aki-missing-source-recovery-20261009.json",
+      "recoveryNote": "AKI source 925207326116446208 OCR reads1:20.29, matching table total provisionally. Later source 925793264869720104 OCR reads1:19.14 and0:35.65; prioritize course and validity review without treating OCR as verified result."
     }
   ],
   "withCapturedOriginalSource": 27,
