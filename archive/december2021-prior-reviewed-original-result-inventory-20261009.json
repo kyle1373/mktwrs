@@ -1,14 +1,14 @@
 {
   "reviewedAt": "2026-10-09",
-  "canonicalCommit": "86e08ca2a30ba32068decd0169edc157462a485c",
+  "canonicalCommit": "e1ac612a4577e628d20658a7fca60027846daa0e",
   "historyComplete": false,
   "certifiedThrough": null,
   "inventoryScope": "Entries in preserved submission-visual-review.json with December2021 submission timestamps. This is a prior-review inventory, not a complete Discord message census.",
   "counts": {
-    "original-source-linked-in-canonical": 238,
-    "not-linked-in-canonical-source-review-required": 19,
+    "original-source-linked-in-canonical": 240,
+    "not-linked-in-canonical-source-review-required": 18,
     "same-name-or-account-course-time-undated-observation-candidate": 2,
-    "legacy-original-source-linked-metadata-review": 7,
+    "legacy-original-source-linked-metadata-review": 6,
     "held-excluded-unreadable-total": 1,
     "confirmed-fake-excluded": 1,
     "held-excluded-course-legitimacy-unresolved": 1
@@ -8386,11 +8386,11 @@
       "sourceAuthor": "Ecliptix",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reconciled-wr",
-      "disposition": "legacy-original-source-linked-metadata-review",
-      "canonicalSourceMatches": [],
-      "legacyCanonicalSourceMatches": [
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
         "new-year-2022-925652037075615834"
       ],
+      "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
         "index": 1241,
@@ -8413,7 +8413,7 @@
         "sha256": "13b80308138583ecc8173dffe7c3e5e3fb17d8d118768e55a693121674f2c2ab",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "925653713442451486",
@@ -8500,8 +8500,10 @@
       "sourceAuthor": "Ecliptix",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
-      "canonicalSourceMatches": [],
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
+        "925654682196647936-925654680980303882-december2021-original-result-reviewed"
+      ],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
@@ -8525,7 +8527,7 @@
         "sha256": "60463695fd8bd0743fd97d0f98922ad59d68d6e567d419b943c745c1dc794564",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "925662677240516628",
