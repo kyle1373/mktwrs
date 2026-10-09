@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08",
+  "checkedAt": "2026-10-09T02:25:29.906366+00:00",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": {
@@ -31,7 +31,10 @@
           "messageId": "1214830411059044392-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1214830410543013888.png",
+      "originalSHA256": "29f823c6bc477ce9ffcf133b4066a7e78c09cc248e5d7e6fad48e73176aa1a91",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1214882888227627048",
@@ -50,7 +53,10 @@
           "messageId": "1214882882112458753-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1214882888227627048.png",
+      "originalSHA256": "d5cc729088ce398b7421001854c470034ffaa6157ba475858c8dcc08a908c100",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1214997631873327144",
@@ -69,7 +75,10 @@
           "messageId": "1214997632108466206-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1214997631873327144.jpg",
+      "originalSHA256": "d2165427ca663ec5d150b97b25293cf6c7992c9626a524da0c471b4ccdc19d3d",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1215043435552055326",
@@ -88,7 +97,10 @@
           "messageId": "1215043435971612742-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1215043435552055326.png",
+      "originalSHA256": "bd7ca866c5ec118a7172ca01e8a200947660675f3d8d058f4eefc907d1ef81a2",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1215050823810420766",
@@ -112,7 +124,10 @@
           "messageId": "1215050824225398875-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1215050823810420766.png",
+      "originalSHA256": "38467c0e19726d36f43344f5dc5cbcaf7f4c713a3ebcb54290eeb307f48b125d",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1215087656954896390",
@@ -149,7 +164,10 @@
           "messageId": "1215087827822448700-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1215087827587694632.png",
+      "originalSHA256": "e574761c869d098c699031e22f9ea27e07b3149f7b9e0c641b6227095f01badc",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1215148026990039060",
@@ -168,7 +186,10 @@
           "messageId": "1215148027451416687-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1215148026990039060.png",
+      "originalSHA256": "175897fe6b04d12aafc55463ab4161d78403c35f87bbc1cd4043a3cb010c87c4",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1215148718744010772",
@@ -192,7 +213,10 @@
           "messageId": "1214997632108466206-mario2024-image-reviewed"
         }
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed-identical-repost",
+      "preservedOriginal": "archive/mario2024-preserved-original-images/1215148718744010772.jpg",
+      "originalSHA256": "d2165427ca663ec5d150b97b25293cf6c7992c9626a524da0c471b4ccdc19d3d",
+      "reviewAudit": "archive/mario2024-opening-eight-image-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1215187259305754664",
@@ -951,5 +975,15 @@
       "disposition": "existing-entry-reconciliation-required"
     }
   ],
-  "nextActions": []
+  "nextActions": [
+    "Review remaining32 available images and two missing originals.",
+    "Reconcile original videos, discussion and global chronology; verify per-track publication.",
+    "Continue2019–2026 coverage."
+  ],
+  "counts": {
+    "reviewed": 7,
+    "missing-original-unresolved": 2,
+    "reviewed-identical-repost": 1,
+    "existing-entry-reconciliation-required": 32
+  }
 }
