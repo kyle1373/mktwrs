@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T01:26:26.443495+00:00",
+  "checkedAt": "2026-10-09T01:28:17.177510+00:00",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": "Anniversary Tour 2023, September20 06:00 UTC through October4 06:00 UTC; bounded saved submission captures, including all observed attachment host channels.",
@@ -669,7 +669,9 @@
     {
       "canonicalId": "1156941239799787562-anniversary2023-image-reviewed",
       "url": "https://www.youtube.com/watch?v=iUNQRl-5DfA",
-      "verified": false
+      "verified": false,
+      "availability": "unavailable",
+      "availabilityAudit": "archive/anniversary2023-dit-original-video-unavailability-20261008.json"
     },
     {
       "canonicalId": "1158894481257549834-anniversary2023-image-reviewed",
@@ -699,7 +701,8 @@
     {
       "canonicalId": "1157148223744516167-1157148223434149898-anniversary2023-image-reviewed",
       "url": "https://x.com/_s373n/status/1707589141100421297?s=46&t=1xJ3y15U9e7nUcwNXg81fQ",
-      "verified": false
+      "verified": true,
+      "reviewAudit": "archive/anniversary2023-shine-original-video-review-20261008.json"
     }
   ],
   "remainingWork": [
@@ -711,5 +714,9 @@
     "Verify existing Railway publication; Git push alone does not verify live deployment.",
     "Continue remaining2023 tours and all outstanding2019–2026 coverage."
   ],
-  "validation": "All112 observed attachments accounted for:99 reviewed,10 attribution unresolved,3 recovery required; no available-source reconciliation remains pending."
+  "validation": "All112 observed attachments accounted for:99 reviewed,10 attribution unresolved,3 recovery required; no available-source reconciliation remains pending.",
+  "videoReviewAudits": [
+    "archive/anniversary2023-shine-original-video-review-20261008.json",
+    "archive/anniversary2023-dit-original-video-unavailability-20261008.json"
+  ]
 }
