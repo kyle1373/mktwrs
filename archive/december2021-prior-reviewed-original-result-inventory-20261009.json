@@ -1,14 +1,12 @@
 {
   "reviewedAt": "2026-10-09",
-  "canonicalCommit": "5a6862bf9c28dcfa6a2b1352c8546e231fcfd6f4",
+  "canonicalCommit": "af8791fb897725ac042a3d49dabd876b2fcfa797",
   "historyComplete": false,
   "certifiedThrough": null,
   "inventoryScope": "Entries in preserved submission-visual-review.json with December2021 submission timestamps. This is a prior-review inventory, not a complete Discord message census.",
   "counts": {
     "original-source-linked-in-canonical": 250,
-    "held-original-author-identity-unresolved": 6,
-    "not-linked-in-canonical-source-review-required": 2,
-    "same-name-or-account-course-time-undated-observation-candidate": 2,
+    "held-original-author-identity-unresolved": 10,
     "legacy-original-source-linked-metadata-review": 6,
     "held-excluded-unreadable-total": 1,
     "confirmed-fake-excluded": 1,
@@ -367,7 +365,7 @@
       "sourceAuthor": "Wins",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
+      "disposition": "held-original-author-identity-unresolved",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
@@ -392,7 +390,9 @@
         "sha256": "288ae5fcf7ff76164ea5c185874667df4b827fe4ad82383e2032e1d246490867",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "identityHoldReviewAudit": "archive/december2021-wins-four-original-identity-hold-review-20261009.json",
+      "identityHoldReason": "Live original displays Wins with a generic avatar. No account identifier verified. Preserve source evidence without assigning the existing Wins profile or merging same-name leaderboard observations."
     },
     {
       "attachmentId": "915719384553627698",
@@ -1087,7 +1087,7 @@
       "sourceAuthor": "Wins",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
+      "disposition": "held-original-author-identity-unresolved",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [
@@ -1114,7 +1114,9 @@
         "sha256": "d94a1fff977fac398f72da8b12e180952047cafdddaa01bd4800d9deba7109dc",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "identityHoldReviewAudit": "archive/december2021-wins-four-original-identity-hold-review-20261009.json",
+      "identityHoldReason": "Live original displays Wins with a generic avatar. No account identifier verified. Preserve source evidence without assigning the existing Wins profile or merging same-name leaderboard observations."
     },
     {
       "attachmentId": "916485982239485972",
@@ -2189,7 +2191,7 @@
       "sourceAuthor": "Wins",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "same-name-or-account-course-time-undated-observation-candidate",
+      "disposition": "held-original-author-identity-unresolved",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [
@@ -2216,7 +2218,9 @@
         "sha256": "a2d1e6b84976e52bda862cdcc21b790026397e594137019bc5028cf174b7531f",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "identityHoldReviewAudit": "archive/december2021-wins-four-original-identity-hold-review-20261009.json",
+      "identityHoldReason": "Live original displays Wins with a generic avatar. No account identifier verified. Preserve source evidence without assigning the existing Wins profile or merging same-name leaderboard observations."
     },
     {
       "attachmentId": "917513646698008596",
@@ -6293,7 +6297,7 @@
       "sourceAuthor": "Wins",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
+      "disposition": "held-original-author-identity-unresolved",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
@@ -6318,7 +6322,9 @@
         "sha256": "3e687ebe3912ac20794f7a87399e9ed784b10bb29d97658bc04398b5547d888a",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "identityHoldReviewAudit": "archive/december2021-wins-four-original-identity-hold-review-20261009.json",
+      "identityHoldReason": "Live original displays Wins with a generic avatar. No account identifier verified. Preserve source evidence without assigning the existing Wins profile or merging same-name leaderboard observations."
     },
     {
       "attachmentId": "921834243695468555",
@@ -10244,6 +10250,6 @@
     "Structured source matches require message and attachment IDs, course and normalized total. Legacy matches require exact source message link plus attachment proof URL or canonical attachment ID suffix. Legacy metadata still needs review; neither disposition certifies coverage or WR validity.",
     "Undated observation candidates use matching name or preserved account plus course and total; they still require identity and original source review. No automatic merge performed.",
     "Entries missing from canonical are review leads, not verified missing WRs. Live-revalidated exclusion decisions are separate dispositions: confirmed fake exclusions are closed; unreadable totals and unresolved legitimacy remain open.",
-    "Deleted-author identity holds preserve proof without assigning named players; these remain open. Newly discovered Discord messages absent from the prior visual review are outside this inventory. Full2019–2026 review and live publication remain incomplete."
+    "Unresolved-author identity holds preserve proof without assigning canonical player profiles; these remain open. Newly discovered Discord messages absent from the prior visual review are outside this inventory. Full2019–2026 review and live publication remain incomplete."
   ]
 }
