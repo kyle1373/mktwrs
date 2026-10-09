@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T01:44:45.486919+00:00",
+  "checkedAt": "2026-10-09T01:45:23.929231+00:00",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": "Animal Tour 2023, November15 06:00 UTC through November29 06:00 UTC; bounded saved submission captures, including all observed attachment host channels.",
@@ -436,23 +436,22 @@
     }
   ],
   "missingOriginals": [],
-  "unresolvedLapEvidence": [
-    {
-      "canonicalId": "1176878071693987952-animal2023-image-reviewed",
-      "time": "1:32.01",
-      "existingLaps": [
-        "45.87",
-        "46.14"
-      ],
-      "decision": "Existing splits retained pending evidence; saved human caption and bot receipt supply no split values."
-    }
-  ],
+  "unresolvedLapEvidence": [],
   "remainingWork": [
     "Review discussion sources and linked media independently of bounded submission-image queue.",
-    "Resolve six player attribution gaps and existing unsupported Mr.Electro lap values.",
+    "Resolve six player attribution gaps.",
     "Reconcile global WR chronology and exact achievement dates across earlier course appearances.",
     "Propagate canonical evidence into matching existing per-track public entries where appropriate, retaining video links and fastest recorded times separately from WR status.",
     "Verify external media preservation, backup uploads and Railway publication.",
     "Continue remaining2023 tours and2019–2026 source review; bounded image completion is not historical accuracy certification."
+  ],
+  "resolvedLapEvidence": [
+    {
+      "canonicalId": "1176878071693987952-animal2023-image-reviewed",
+      "audit": "archive/animal2023-electro-followup-lap-reconciliation-20261008.json",
+      "firstLapBasis": "same-account follow-up message",
+      "secondLapBasis": "derived image total minus reported first lap",
+      "gameplayVerified": false
+    }
   ]
 }
