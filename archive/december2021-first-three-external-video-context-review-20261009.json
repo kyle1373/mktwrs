@@ -1,0 +1,69 @@
+{
+  "reviewedAt": "2026-10-09",
+  "sourceReview": "Live authenticated Discord message context for all three sources, live outer Wins social post and quoted historical content; prior Sucha visual review reused with file hash verification.",
+  "certifiedThrough": null,
+  "fullHistoryComplete": false,
+  "rows": [
+    {
+      "messageId": "915539061018591273",
+      "reviewStatus": "older-verified-run-repost-and-live-source-context-reviewed",
+      "matchedCuratedId": "785978101254586389-wii-maple-treeway",
+      "observations": "Live social page quotes December 2020 Maple Treeway 1:46.16 (52.99 / 53.17), exact match to previously verified original video. Outer repost has no direct video, so downloader returned no video; quoted original is already preserved and verified. No new footage review claimed.",
+      "originalVideo": "https://twitter.com/WinsMkt/status/1339106433351159808",
+      "originalVideoPostedAt": "2020-12-16T07:13:47.000Z",
+      "socialPostedAt": "2021-12-01T09:44:45.000Z",
+      "newResultAdded": false,
+      "postedAt": "2021-12-01T09:45:22.040Z"
+    },
+    {
+      "messageId": "918799518114390036",
+      "reviewStatus": "preserved-partial-opening-segment-and-live-source-context-reviewed",
+      "localVideo": "archive/video-backup-files/holiday-2021-sucha-glider/original.mp4",
+      "sha256": "23564acef2fafe372d55972fd645e66510bc4c3129283f715d580c42ec9e5623",
+      "bytes": 5216919,
+      "observations": "Choco Mountain R opening segment to 20.20, no complete lap or final result.",
+      "reviewBasis": "Exact YouTube identifier and live Discord message context; prior visual review reused from archive/holiday-2021-original-videos.json; preserved local file hash checked this review.",
+      "completedResult": false,
+      "newResultAdded": false,
+      "postedAt": "2021-12-10T09:41:15.588Z"
+    },
+    {
+      "messageId": "918989657352581162",
+      "reviewStatus": "live-tutorial-context-reviewed-video-unavailable-recovery-open",
+      "observations": "NHSpeedy shares Kaguya hop-cancel control-technique tutorial. Discord embed has no result claim. Original download failed: This video is unavailable. No matching preserved original found in focused inventory search. Footage remains unreviewed.",
+      "videoAvailable": false,
+      "recoveryOpen": true,
+      "completedResult": false,
+      "newResultAdded": false,
+      "postedAt": "2021-12-10T22:16:48.315Z"
+    }
+  ],
+  "winsSource": {
+    "url": "https://discord.com/channels/629221606064914442/636461740162416640/915539061018591273",
+    "channel": "tt-discussion",
+    "messageId": "915539061018591273",
+    "kind": "later-video-repost-corroboration",
+    "postedAt": "2021-12-01T09:45:22.040Z",
+    "socialUrl": "https://twitter.com/winsmkt/status/1465980176232329216",
+    "socialPostedAt": "2021-12-01T09:44:45.000Z",
+    "quotedVideo": "https://twitter.com/WinsMkt/status/1339106433351159808",
+    "quotedVideoPostedAt": "2020-12-16T07:13:47.000Z",
+    "reportedTime": "1:46.16",
+    "reportedLaps": [
+      "52.99",
+      "53.17"
+    ],
+    "reviewAudit": "archive/december2021-first-three-external-video-context-review-20261009.json"
+  },
+  "limitations": [
+    "No new complete run or WR added. Existing 2020 run receives later corroboration only.",
+    "Sucha clip shows opening segment to 20.20 without complete lap or result.",
+    "Kaguya tutorial remains unavailable; recovery gap stays open.",
+    "December queue completion does not certify December history or surrounding source census."
+  ],
+  "validation": {
+    "suchaLocalSha256MatchesPriorInventory": true,
+    "winsOriginalSubmittedAtUnchanged": true,
+    "officialRecordsCurrentHoldersAndCandidatesUnchanged": true
+  }
+}
