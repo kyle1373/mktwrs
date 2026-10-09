@@ -145995,7 +145995,17 @@
       "37.21",
       "35.27"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "receiptStatuses": [
+      {
+        "messageId": "1215087685803319347",
+        "publishedAt": "2024-03-07T00:04:39.533Z",
+        "status": "cancelled",
+        "attachmentId": "1215087656954896390",
+        "originalImageMissing": true,
+        "runValidityInferred": false
+      }
+    ]
   },
   {
     "messageId": "1215148027451416687-mario2024-image-reviewed",
@@ -146048,7 +146058,7 @@
       "Original screenshot visually reviewed; LuigiRacewaythresholds1:35/1:30/1:26 versusDonutPlains3R1:30/1:20/1:12.",
       "First known exact screenshot publicationused.",
       "SlowerthanprecedingglobalWR; preserveas supporting evidenceonly.",
-      "Laterrow14is same time butdifferent imagehash, possible rerun/repost; do notinventearlierbestdates."
+      "Second file has different PNG encoding but identical decoded RGB pixels. Bot resubmission retained as additional evidence for the same performance; earliest image publication remains March7 06:40:19.757Z."
     ],
     "originalImageLocal": "archive/mario2024-preserved-original-images/1215187259305754664.png",
     "originalImageSHA256": "259403f303b6075ac1bb7a1e71991fd027ff11dc864cc1b477d65d1098308e2b",
@@ -146056,7 +146066,33 @@
     "previousBest": "1:13.05",
     "proofField": "result-total",
     "chronologyUnresolved": true,
-    "courseAppearance": "Mario Tour appearance 2024"
+    "courseAppearance": "Mario Tour appearance 2024",
+    "originalImagePixelSHA256": "ad9a2fa10684c3d5ffd1fe4e6b8bbd585aa31b5a6f6245b1a1c13f58d2ac2781",
+    "pixelHashBasis": "Pillow decoded RGB bytes in row-major order,280x605",
+    "additionalOriginalImages": [
+      {
+        "file": "archive/mario2024-preserved-original-images/1215204498159702106.png",
+        "sha256": "d825ea5d107b3ac2c9fb63301490c14eaf7276e130adb62b9867af62e138219a",
+        "decodedRGBPixelSHA256": "ad9a2fa10684c3d5ffd1fe4e6b8bbd585aa31b5a6f6245b1a1c13f58d2ac2781",
+        "reviewAudit": "archive/mario2024-discussion-repost-and-cancelled-receipt-reconciliation-20261008.json",
+        "attachmentId": "1215204498159702106",
+        "sourceMessageId": "1215204494296489995",
+        "publishedAt": "2024-03-07T07:48:48.848Z",
+        "relationship": "pixel-identical-reencoded-result",
+        "sameBytesAsFirstImage": false,
+        "sameDecodedPixelsAsFirstImage": true
+      }
+    ],
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1215204494296489995",
+        "channel": "tt-submission",
+        "messageId": "1215204494296489995",
+        "publishedAt": "2024-03-07T07:48:48.848Z",
+        "kind": "bot-resubmission-of-pixel-identical-result"
+      }
+    ],
+    "repostReviewAudit": "archive/mario2024-discussion-repost-and-cancelled-receipt-reconciliation-20261008.json"
   },
   {
     "messageId": "1215193165108224010-mario2024-image-reviewed",
@@ -146190,36 +146226,6 @@
     "originalImageSHA256": "5190dffa8e093d62e5fdd7aea5bd3897093a6d0cc9a9b999fc955bf5681b77c2",
     "originalImageReviewAudit": "archive/mario2024-march7-9-image-reconciliation-20261008.json",
     "previousBest": "1:12.49",
-    "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "Mario Tour appearance 2024"
-  },
-  {
-    "messageId": "1215204494296489995-mario2024-image-reviewed",
-    "player": "papiyon_kr",
-    "courseId": "n64-luigi-raceway",
-    "time": "1:12.78",
-    "laps": [],
-    "status": "documented-support",
-    "includeInProgression": false,
-    "submittedAt": "2024-03-07T07:48:48.848Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/961399464529125436/1215204498159702106/2024-03-07_164844928.png?ex=6abd67a1&is=6abc1621&hm=d416735db9d9b63331d6220bfae0d7a80ce84849341c66897ab7f207b0b406e7&",
-    "proofImageLocal": "/assets/proof/mario2024-1215204498159702106.png",
-    "proofImageVerified": true,
-    "source": {
-      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1215204494296489995",
-      "channel": "tt-submission",
-      "messageId": "1215204494296489995"
-    },
-    "notes": [
-      "Original screenshot visually reviewed; LuigiRacewaythresholds1:35/1:30/1:26 versusDonutPlains3R1:30/1:20/1:12.",
-      "First known exact screenshot publicationused.",
-      "SlowerthanprecedingglobalWR; preserveas supporting evidenceonly."
-    ],
-    "originalImageLocal": "archive/mario2024-preserved-original-images/1215204498159702106.png",
-    "originalImageSHA256": "d825ea5d107b3ac2c9fb63301490c14eaf7276e130adb62b9867af62e138219a",
-    "originalImageReviewAudit": "archive/mario2024-march7-9-image-reconciliation-20261008.json",
-    "previousBest": "1:13.05",
     "proofField": "result-total",
     "chronologyUnresolved": true,
     "courseAppearance": "Mario Tour appearance 2024"
@@ -146599,6 +146605,16 @@
         "publishedAt": "2024-03-09T06:40:57.491Z",
         "relationship": "earlier-discussion-result-same-total-and-previous-best",
         "sameBytesAsFirstImage": false
+      }
+    ],
+    "receiptStatuses": [
+      {
+        "messageId": "1215937821290926131",
+        "publishedAt": "2024-03-09T08:22:47.628Z",
+        "status": "cancelled",
+        "attachmentId": "1215937807235682384",
+        "originalImageMissing": true,
+        "runValidityInferred": false
       }
     ]
   },

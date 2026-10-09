@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T02:30:02.775284+00:00",
+  "checkedAt": "2026-10-09T02:37:34.277484+00:00",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": {
@@ -140,7 +140,10 @@
       ],
       "localFiles": [],
       "canonicalMatches": [],
-      "disposition": "missing-original-unresolved"
+      "disposition": "missing-original-unresolved",
+      "relatedCanonicalId": "1215087827822448700-mario2024-image-reviewed",
+      "cancelledReceiptReviewAudit": "archive/mario2024-discussion-repost-and-cancelled-receipt-reconciliation-20261008.json",
+      "relationship": "same-player-course-reported-total;missing-original-not-compared"
     },
     {
       "attachmentId": "1215087827587694632",
@@ -362,13 +365,15 @@
       ],
       "canonicalMatches": [
         {
-          "messageId": "1215204494296489995-mario2024-image-reviewed"
+          "messageId": "1215187259519672371-mario2024-image-reviewed"
         }
       ],
-      "disposition": "reviewed",
+      "disposition": "reviewed-pixel-identical-repost",
       "preservedOriginal": "archive/mario2024-preserved-original-images/1215204498159702106.png",
       "originalSHA256": "d825ea5d107b3ac2c9fb63301490c14eaf7276e130adb62b9867af62e138219a",
-      "reviewAudit": "archive/mario2024-march7-9-image-reconciliation-20261008.json"
+      "reviewAudit": "archive/mario2024-march7-9-image-reconciliation-20261008.json",
+      "repostReviewAudit": "archive/mario2024-discussion-repost-and-cancelled-receipt-reconciliation-20261008.json",
+      "decodedRGBPixelSHA256": "ad9a2fa10684c3d5ffd1fe4e6b8bbd585aa31b5a6f6245b1a1c13f58d2ac2781"
     },
     {
       "attachmentId": "1215212059504025630",
@@ -619,7 +624,10 @@
       ],
       "localFiles": [],
       "canonicalMatches": [],
-      "disposition": "missing-original-unresolved"
+      "disposition": "missing-original-unresolved",
+      "relatedCanonicalId": "1215953583866908763-mario2024-image-reviewed",
+      "cancelledReceiptReviewAudit": "archive/mario2024-discussion-repost-and-cancelled-receipt-reconciliation-20261008.json",
+      "relationship": "same-player-course-reported-total;missing-original-not-compared"
     },
     {
       "attachmentId": "1215945961696661595",
@@ -1077,9 +1085,10 @@
     "Continue2019–2026 coverage."
   ],
   "counts": {
-    "reviewed": 38,
+    "reviewed": 37,
     "missing-original-unresolved": 2,
     "reviewed-identical-repost": 1,
+    "reviewed-pixel-identical-repost": 1,
     "reviewed-identity-unresolved": 1
   }
 }
