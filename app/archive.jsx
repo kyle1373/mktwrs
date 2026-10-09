@@ -509,32 +509,6 @@ function FastestVideo({ course: c, players }) {
     </> : <p className="table-note">No available video has been verified for this course yet.</p>}
   </section>;
 }
-function SubmissionPlayer({ run, players }) {
-  return run.playerId && players.some(p => p.id === run.playerId)
-    ? <Player id={run.playerId} players={players} />
-    : <span>{run.player || "Unknown player"}</span>;
-}
-function Submissions({ runs, players }) {
-  return <div className="table-wrap"><table className="wr-table">
-    <thead><tr><th>Submitted (UTC)</th><th>Time + video</th><th>Player</th><th>Lap 1</th><th>Lap 2</th><th>Evidence</th><th>Source</th><th aria-label="Image proof" /><th aria-label="Backup video" /></tr></thead>
-    <tbody>{runs.map((r, i) => <tr key={r.id || i}>
-      <td>{date(r.submittedAt)}</td><td><Time record={r} /></td>
-      <td><SubmissionPlayer run={r} players={players} />{r.attributionUnresolved && " · attribution unresolved"}</td>
-      <td>{r.laps?.[0] || "—"}</td><td>{r.laps?.[1] || "—"}</td>
-      <td>{r.status || "Submission"}{r.video && (r.videoVerified || r.proofVideoVerified ? " · video reviewed" : " · video awaiting review")}</td>
-      <td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Submission</a>}</td>
-      <td><Proof r={r} /></td><td><BackupProof r={r} /></td>
-    </tr>)}</tbody>
-  </table></div>;
-}
-function FastestRecorded({ course: c, players }) {
-  const runs = c.fastestRecorded || [];
-  if (!runs.length || c.currentHolders.some(r => r.timeCs === runs[0].timeCs)) return null;
-  return <section className="fastest-video"><h2>Fastest documented time</h2>
-    {runs.map((r, i) => <p key={r.id || i}><Time record={r} /> · <SubmissionPlayer run={r} players={players} /> · <Proof r={r} /> <BackupProof r={r} /></p>)}
-    <p className="table-note">Fastest time supported by reviewed evidence in this archive. WR status and achievement date may remain unresolved.</p>
-  </section>;
-}
 function CoursePage({ data: c, players, tours, manifest }) {
   const events = historyEvents(c, tours, manifest.updatedAt);
   const fragments = c.records.flatMap(r => (r.videoFragments || []).map(fragment => ({ record: r, ...fragment })));
@@ -543,7 +517,6 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <h1>{c.name}</h1>
       <h2>Current WR:</h2>
       <RecordTable records={c.currentHolders} players={players} />
-      <FastestRecorded course={c} players={players} />
       <CourseStats c={c} players={players} />
       <FastestVideo course={c} players={players} />
       {fragments.length > 0 && <section className="fastest-video">
@@ -563,11 +536,6 @@ function CoursePage({ data: c, players, tours, manifest }) {
         Records are confirmed by WR announcements or explicit community WR
         confirmation. Exact dates remain unknown for some migrated records.
       </p>
-      <details className="sources">
-        <summary>Other submissions ({c.submissions?.length || 0})</summary>
-        <p>Submission dates show when evidence was posted. These times remain separate from confirmed WR history and rankings.</p>
-        <Submissions runs={c.submissions || []} players={players} />
-      </details>
       <details className="sources">
         <summary>Record sources &amp; archive data</summary>
         <ul>
