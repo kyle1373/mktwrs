@@ -146588,7 +146588,19 @@
       "34.99",
       "37.21"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "additionalOriginalImages": [
+      {
+        "file": "archive/mario2024-preserved-original-images/discussion-1215912193220939827.png",
+        "sha256": "cf4d6c8a3982ed924e6fc0d3f5f9f3e1a9b37990593aae5f52e9b9e2df573e9f",
+        "reviewAudit": "archive/mario2024-original-video-and-discussion-revalidation-20261008.json",
+        "attachmentId": "1215912193220939827",
+        "sourceMessageId": "1215912193518731355",
+        "publishedAt": "2024-03-09T06:40:57.491Z",
+        "relationship": "earlier-discussion-result-same-total-and-previous-best",
+        "sameBytesAsFirstImage": false
+      }
+    ]
   },
   {
     "messageId": "1216231281768140920-mario2024-image-reviewed",
@@ -146975,7 +146987,8 @@
       "Original screenshot visually reviewed; LuigiRacewaythresholds1:35/1:30/1:26 versusDonutPlains3R1:30/1:20/1:12.",
       "First known exact screenshot publicationused.",
       "SlowerthanprecedingglobalWR; preserveas supporting evidenceonly.",
-      "Originalvideo linkretained; fullverificationpending."
+      "Originalvideo linkretained; fullverificationpending.",
+      "Original YouTube ID UMOcRIvxAMY currently returns video unavailable; link and screenshot evidence retained without footage verification."
     ],
     "video": "https://www.youtube.com/watch?v=UMOcRIvxAMY",
     "originalImageLocal": "archive/mario2024-preserved-original-images/1219605078982398012.jpg",
@@ -146993,7 +147006,10 @@
       "publishedAt": "2024-03-19T11:15:13.297Z",
       "exactMention": "619934359587389451",
       "botProfile": "mb3."
-    }
+    },
+    "videoAvailability": "unavailable",
+    "videoAvailabilityCheckedAt": "2026-10-09T02:34:46.487267+00:00",
+    "videoAvailabilityAudit": "archive/mario2024-original-video-and-discussion-revalidation-20261008.json"
   },
   {
     "messageId": "1219836144536256553-mario2024-image-reviewed",
@@ -147109,9 +147125,17 @@
     },
     "notes": [
       "Discussion video visually reviewed: Luigi Raceway two-lap finish HUD shows 1:12.32; lap transition freezes at 35.11. Lap 2 calculated as 37.21.",
-      "Recording starts with the race clock at approximately 0:04; preceding start is absent.",
-      "Slower than DIT standing 1:12.20 from March 2023; retain supporting video without adding to WR progression."
-    ]
+      "Slower than DIT standing 1:12.20 from March 2023; retain supporting video without adding to WR progression.",
+      "Original recording revalidated: opening frames show 0:00 and race start; first-lap transition freezes at 35.11 near 39 seconds, final HUD shows 1:12.32. Earlier missing-start classification superseded."
+    ],
+    "originalVideoLocal": "archive/video-backup-files/mario2024-discussion-1215219574576783420/original.mp4",
+    "originalVideoSHA256": "2db74555e5bd77fb8b9f027141bec44bc91ff30830fcbb3d108f83fc6b122092",
+    "originalVideoReviewAudit": "archive/mario2024-original-video-and-discussion-revalidation-20261008.json",
+    "videoBackupPending": true,
+    "videoCompleteness": "race-start-lap-transition-and-finish-shown",
+    "lapSource": "video-lap-transition-35.11",
+    "derivedLap2": "37.21",
+    "proofField": "finish-hud-total"
   },
   {
     "messageId": "1220234934015365180-ninja2024-image-reviewed",
@@ -297472,5 +297496,43 @@
     "proofField": "cup-menu-best",
     "chronologyUnresolved": true,
     "courseAppearance": "Peach vs. Bowser Tour appearance 2023"
+  },
+  {
+    "messageId": "wins-1633594163777220608-original-finish-reviewed",
+    "player": "Wins",
+    "courseId": "n64-luigi-raceway",
+    "time": "1:12.43",
+    "laps": [],
+    "status": "documented-support",
+    "includeInProgression": false,
+    "submittedAt": "2023-03-08T22:22:54.013Z",
+    "submissionTimestampBasis": "X post identifier timestamp; saved embed independently displays March 8 2023",
+    "video": "https://x.com/winsmkt/status/1633594163777220608",
+    "source": {
+      "url": "https://x.com/winsmkt/status/1633594163777220608",
+      "channel": "twitter",
+      "messageId": "1633594163777220608"
+    },
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/1215285773662953503",
+        "channel": "tt-discussion",
+        "messageId": "1215285773662953503",
+        "publishedAt": "2024-03-07T13:11:47.359Z",
+        "kind": "later-repost-of-2023-video"
+      }
+    ],
+    "proofField": "finish-hud-total",
+    "videoCompleteness": "lap2-ending-and-finish-shown;race-start-and-first-lap-missing",
+    "chronologyUnresolved": true,
+    "notes": [
+      "Original preserved clip ends in the finish animation with frozen HUD 1:12.43. Earlier no-finish classification superseded.",
+      "2024 discussion repost is not a new performance or the original publication date. First lap and private achievement time are unavailable; WR precedence remains unreconciled."
+    ],
+    "originalVideoLocal": "archive/video-backup-files/mario2024-wins-2023-strategy/original.mp4",
+    "originalVideoSHA256": "b18c38d834d20a9da52f61c6b308f94f5a921c2f3b5448b3ee3bbf6827604030",
+    "originalVideoReviewAudit": "archive/mario2024-original-video-and-discussion-revalidation-20261008.json",
+    "videoVerified": true,
+    "videoBackupPending": true
   }
 ]
