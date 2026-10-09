@@ -1,12 +1,13 @@
 {
   "reviewedAt": "2026-10-09",
-  "canonicalCommit": "efddd2180dc37938a08d6775910505b303e7a033",
+  "canonicalCommit": "0fcbbfc9058dff54853026ef1ff826c9f7db36bb",
   "historyComplete": false,
   "certifiedThrough": null,
   "inventoryScope": "Entries in preserved submission-visual-review.json with December2021 submission timestamps. This is a prior-review inventory, not a complete Discord message census.",
   "counts": {
-    "original-source-linked-in-canonical": 248,
-    "not-linked-in-canonical-source-review-required": 10,
+    "original-source-linked-in-canonical": 250,
+    "held-original-author-identity-unresolved": 2,
+    "not-linked-in-canonical-source-review-required": 6,
     "same-name-or-account-course-time-undated-observation-candidate": 2,
     "legacy-original-source-linked-metadata-review": 6,
     "held-excluded-unreadable-total": 1,
@@ -214,7 +215,7 @@
       "sourceAuthor": "Deleted User",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
+      "disposition": "held-original-author-identity-unresolved",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
@@ -239,7 +240,9 @@
         "sha256": "a82595b9e09fee056cace59a6647e06115060819161f0fe87279a28447d07c34",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "identityHoldReviewAudit": "archive/december2021-dec1-two-deleted-author-hold-review-20261009.json",
+      "identityHoldReason": "Live grouped author reference points to message-username-915623703612624927 whose displayed name is Deleted User. No surviving account identifier verified. Preserve original proof without assigning a named player or asserting WR status. Screenshot filename suggests earlier capture but is not used as achieved date."
     },
     {
       "attachmentId": "915623932881694760",
@@ -250,7 +253,7 @@
       "sourceAuthor": "Deleted User",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
+      "disposition": "held-original-author-identity-unresolved",
       "canonicalSourceMatches": [],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
@@ -275,7 +278,9 @@
         "sha256": "48708f785f3f27a1b322eb6a249667764828a0af69fd75b943549f48e286b8b0",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": true,
+      "identityHoldReviewAudit": "archive/december2021-dec1-two-deleted-author-hold-review-20261009.json",
+      "identityHoldReason": "Live grouped author reference points to message-username-915623703612624927 whose displayed name is Deleted User. No surviving account identifier verified. Preserve original proof without assigning a named player or asserting WR status. Screenshot filename suggests earlier capture but is not used as achieved date."
     },
     {
       "attachmentId": "915708294440562758",
@@ -740,8 +745,10 @@
       "sourceAuthor": "Whiplash",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
-      "canonicalSourceMatches": [],
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
+        "915941787405778974-december2021-original-result-reviewed"
+      ],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
@@ -765,7 +772,7 @@
         "sha256": "2f660d81a4ea8ffcc5736afc0788d457c0a6448330d3634483105a7dd2a9430b",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "916006885587578970",
@@ -2448,8 +2455,10 @@
       "sourceAuthor": "nxco. -_-",
       "priorReviewStatus": "visually-reviewed",
       "priorClassification": "reviewed-non-wr-submission",
-      "disposition": "not-linked-in-canonical-source-review-required",
-      "canonicalSourceMatches": [],
+      "disposition": "original-source-linked-in-canonical",
+      "canonicalSourceMatches": [
+        "917867536324911104-december2021-original-result-reviewed"
+      ],
       "legacyCanonicalSourceMatches": [],
       "undatedObservationCandidates": [],
       "priorVisualReview": {
@@ -2473,7 +2482,7 @@
         "sha256": "b072eaf34ffb73c6847d33c89438862de0ec1a0f90f7a734922646b4f6b8c613",
         "matchesPriorDownloadHash": true
       },
-      "reviewRequired": true
+      "reviewRequired": false
     },
     {
       "attachmentId": "917973382593658930",
@@ -10227,6 +10236,6 @@
     "Structured source matches require message and attachment IDs, course and normalized total. Legacy matches require exact source message link plus attachment proof URL or canonical attachment ID suffix. Legacy metadata still needs review; neither disposition certifies coverage or WR validity.",
     "Undated observation candidates use matching name or preserved account plus course and total; they still require identity and original source review. No automatic merge performed.",
     "Entries missing from canonical are review leads, not verified missing WRs. Live-revalidated exclusion decisions are separate dispositions: confirmed fake exclusions are closed; unreadable totals and unresolved legitimacy remain open.",
-    "Newly discovered Discord messages absent from the prior visual review are outside this inventory. Full2019–2026 review and live publication remain incomplete."
+    "Deleted-author identity holds preserve proof without assigning named players; these remain open. Newly discovered Discord messages absent from the prior visual review are outside this inventory. Full2019–2026 review and live publication remain incomplete."
   ]
 }
