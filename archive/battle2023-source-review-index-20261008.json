@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T01:30:27.598005+00:00",
+  "checkedAt": "2026-10-09T01:33:24.062078+00:00",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": "Battle Tour 2023, October4 06:00 UTC through October18 06:00 UTC; bounded saved submission captures, including all observed attachment host channels.",
@@ -10,10 +10,10 @@
   ],
   "savedSourceRowCount": 46,
   "counts": {
-    "reviewed": 15,
+    "reviewed": 22,
     "original-recovery-required": 1,
-    "preserved-original-review-required": 1,
-    "existing-entry-reconciliation-required": 9
+    "reviewed-excluded-slow-run": 1,
+    "reviewed-identity-unresolved": 2
   },
   "attachments": [
     {
@@ -1097,7 +1097,13 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "preserved-original-review-required"
+      "disposition": "reviewed-excluded-slow-run",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1162901107417305139.jpg",
+      "originalSHA256": "61a7392348099f3a5bd64356613342158f597d5d76036d8abe4b901f4603d935",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json",
+      "visibleTime": "4:20.50",
+      "previousBest": "0:53.39",
+      "decision": "Preserve unattributed slow result and caption; no WR or independent undated previous-best entry."
     },
     {
       "attachmentId": "1163254607603056721",
@@ -1170,7 +1176,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1163254607603056721.png",
+      "originalSHA256": "fb3f98f5d9e02724d5883eb8acd174ffdfdfd2fa6a3ab464871a430d8bb71aad",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1163435310953267200",
@@ -1239,7 +1248,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1163435310953267200.png",
+      "originalSHA256": "aa96eb870a7572af53e9d431da95c9ae9e5f9a81f2702f62679007f2c205c8b2",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1163808401793495201",
@@ -1308,7 +1320,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1163808401793495201.png",
+      "originalSHA256": "67c2d18e741ee04eb8d6e04d2f7fa8e38fed3c9ac7b848b4a73e3413115bdf85",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1163808446005649479",
@@ -1377,7 +1392,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1163808446005649479.png",
+      "originalSHA256": "7dce6abcb48d1fe2012ad1f52084562d6031608f6a5e8b1e552842d29a4aa059",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1163861755534004324",
@@ -1425,7 +1443,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1163861755534004324.jpg",
+      "originalSHA256": "0c356e8fef5aded6b3057ff31abbe111304e32e9a349f72e75f23ce1dea8f0ce",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1163923693181874227",
@@ -1473,7 +1494,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1163923693181874227.jpg",
+      "originalSHA256": "64cde15c6ffb66e5b60f8b3cb091b82143b99be58ded4f3bf9816f8963761a96",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1164045491416346644",
@@ -1542,7 +1566,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1164045491416346644.png",
+      "originalSHA256": "9a29ddfe68a18d0fa6d13fd9ac1604c4a22cc1338d806d4dc66075ac39912af8",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1164056687334936587",
@@ -1611,7 +1638,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed-identity-unresolved",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1164056687334936587.png",
+      "originalSHA256": "37928158fc455f7556122f320014a6796142d065d1213839e6521357ac9d4df8",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     },
     {
       "attachmentId": "1164058031970070558",
@@ -1680,7 +1710,10 @@
         "archive/battle2023-final-week-image-review-20261005.json",
         "archive/battle2023-submission-original-review-index-20261005.json"
       ],
-      "disposition": "existing-entry-reconciliation-required"
+      "disposition": "reviewed-identity-unresolved",
+      "preservedOriginal": "archive/battle2023-preserved-original-images/1164058031970070558.png",
+      "originalSHA256": "76be622d9bc71e859964ca5338a8236ead5e757bfee220f0fa73a0ba6ff81154",
+      "reviewAudit": "archive/battle2023-final-ten-original-reconciliation-20261008.json"
     }
   ],
   "priorReviewSources": [
