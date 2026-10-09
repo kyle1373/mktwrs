@@ -22,7 +22,7 @@ test("homepage ships only current records and stays under 150 KB of page data", 
 test("smaller course payloads preserve all WRs, tour boundaries and duration statistics", () => {
   for (const course of source.courses) {
     const props = routeData(["course", course.id]);
-    assert.equal(props.data.submissions, undefined);
+    assert.equal(props.data.submissions.length, course.submissions.length);
     assert.deepEqual(courseStatistics(props.data.records, props.players), courseStatistics(course.records, source.players));
     const events = (c, tours) => historyEvents(c, tours, source.manifest.updatedAt).map(({ record, ...event }) => event);
     assert.deepEqual(events(props.data, props.tours), events(course, source.tours));
