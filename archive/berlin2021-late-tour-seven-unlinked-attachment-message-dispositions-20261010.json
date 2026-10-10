@@ -1,0 +1,82 @@
+{
+  "reviewedAt": "2026-10-10",
+  "tourId": "tour-35",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCensus": "archive/tt-discussion-january2021-full-message-census-20261004.json",
+  "scope": {
+    "fromInclusive": "2021-01-19T00:00:00Z",
+    "toExclusive": "2021-01-27T06:00:00Z",
+    "channel": "tt-discussion",
+    "attachmentPostsCompared": 94,
+    "attachmentPostsWithoutPrimaryPublicSourceMessageId": 7
+  },
+  "rows": [
+    {
+      "messageId": "803766398278041630",
+      "postedAt": "2021-01-26T23:20:42.607Z",
+      "currentAuthor": "lxnxr",
+      "caption": "Figured I'd bully you a little just before the tour ends :)",
+      "freshOriginalTextReview": true,
+      "status": "censored-result-exact-time-pending",
+      "priorImageReview": "archive/january2021-remaining-context-images-review-20261005.json",
+      "finding": "Prior image review shows KD2 1:03.5X with final hundredth censored. No exact result invented."
+    },
+    {
+      "messageId": "803368551514636368",
+      "postedAt": "2021-01-25T20:59:48.547Z",
+      "currentAuthor": "Rόmάίή",
+      "freshOriginalTextReview": true,
+      "attachmentId": "803368551360626758",
+      "status": "attachment-content-review-pending"
+    },
+    {
+      "messageId": "802851657095970816",
+      "postedAt": "2021-01-24T10:45:51.314Z",
+      "status": "route-demo-content-review-pending",
+      "censusCaption": "Funny strat lap 2",
+      "freshOriginalTextReview": false
+    },
+    {
+      "messageId": "802819305221259264",
+      "postedAt": "2021-01-24T08:37:18.026Z",
+      "status": "prior-reviewed-repost-consolidated",
+      "canonicalCandidateId": "802571726236024872-january2021-support-reviewed",
+      "time": "1:05.41",
+      "player": "Mish",
+      "priorReview": "archive/january2021-supporting-images-batch22-review-20261006.json",
+      "freshOriginalTextReview": false
+    },
+    {
+      "messageId": "802472241661083658",
+      "postedAt": "2021-01-23T09:38:11.625Z",
+      "status": "prior-reviewed-repost-consolidated",
+      "canonicalCandidateId": "801014425226051644-january2021-support-reviewed",
+      "time": "1:04.58",
+      "player": "Deleted User",
+      "priorReview": "archive/january2021-supporting-images-batch22-review-20261006.json",
+      "freshOriginalTextReview": false
+    },
+    {
+      "messageId": "801540554013671494",
+      "postedAt": "2021-01-20T19:55:59.980Z",
+      "status": "prior-reviewed-old-discussion-screenshot",
+      "priorReview": "archive/january2021-remaining-context-images-review-20261005.json",
+      "finding": "Image of January13 prediction and comment, not a new completed result.",
+      "freshOriginalTextReview": false
+    },
+    {
+      "messageId": "801077847951147048",
+      "postedAt": "2021-01-19T13:17:22.258Z",
+      "status": "prior-reviewed-standings-snapshot",
+      "priorReview": "archive/berlin2021-two-standings-full-row-comparison-queue-20261010.json",
+      "freshOriginalTextReview": false
+    }
+  ],
+  "limitations": [
+    "Bounded saved attachment-post census compared with primary source message IDs in both public Berlin course submissions. Primary-source mismatch does not mean missing result: reposts and secondary sources require separate comparison.",
+    "Two original post captions and clocks freshly read in logged-in Discord; other dispositions rely on cited prior review or saved census.",
+    "Original image/video content not freshly viewed. Romain and route-demo content pending; lxnxr exact censored hundredth unresolved.",
+    "No public race data, dates, video selections or runner identity modified. Full-tour and all-year completion unproven."
+  ]
+}
