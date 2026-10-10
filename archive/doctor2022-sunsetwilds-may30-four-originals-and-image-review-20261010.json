@@ -25,15 +25,9 @@
         "channel": "tt-submission",
         "messageId": "980428816147169361"
       },
-      "freshVisualReview": true,
+      "freshVisualReview": false,
       "videoLinkObserved": false,
-      "imageVisualReview": {
-        "resultTime": "1:09.82",
-        "previousBest": "1:09.91",
-        "courseNameVisible": false,
-        "splitsVisible": false,
-        "coinsCollected": 0
-      }
+      "imageVisualReviewPending": true
     },
     {
       "id": "discord-979929253137252382",
@@ -56,15 +50,9 @@
         "channel": "tt-submission",
         "messageId": "979929229527494696"
       },
-      "freshVisualReview": true,
+      "freshVisualReview": false,
       "videoLinkObserved": false,
-      "imageVisualReview": {
-        "resultTime": "1:10.73",
-        "previousBest": "1:10.85",
-        "courseNameVisible": false,
-        "splitsVisible": false,
-        "coinsCollected": null
-      }
+      "imageVisualReviewPending": true
     },
     {
       "id": "discord-980723515726639144",
@@ -87,16 +75,10 @@
         "channel": "tt-submission",
         "messageId": "980723479492038696"
       },
-      "freshVisualReview": true,
+      "freshVisualReview": false,
       "videoLinkObserved": false,
-      "imageVisualReview": {
-        "resultTime": "1:10.76",
-        "previousBest": "1:10.90",
-        "courseNameVisible": false,
-        "splitsVisible": false,
-        "coinsCollected": 0
-      },
-      "identityEvidence": "Current author ほぬー and receipt ゼド linked through command reference and account 708847830416228403; no global alias merge."
+      "identityEvidence": "Current author ほぬー and receipt ゼド linked through command reference and account 708847830416228403; no global alias merge.",
+      "imageVisualReviewPending": true
     },
     {
       "id": "discord-980429986391527454",
@@ -119,16 +101,10 @@
         "channel": "tt-submission",
         "messageId": "980429973380804670"
       },
-      "freshVisualReview": true,
+      "freshVisualReview": false,
       "videoLinkObserved": false,
-      "imageVisualReview": {
-        "resultTime": "1:11.27",
-        "previousBest": "1:11.33",
-        "courseNameVisible": false,
-        "splitsVisible": false,
-        "coinsCollected": 0
-      },
-      "identityEvidence": "Current author nekozuki and receipt ねこ好き☆nekozuki linked through command reference and account 684574768309207112."
+      "identityEvidence": "Current author nekozuki and receipt ねこ好き☆nekozuki linked through command reference and account 684574768309207112.",
+      "imageVisualReviewPending": true
     }
   ],
   "videoShareReview": {
@@ -142,10 +118,9 @@
     "disposition": "Original Discord sharing post and title inspected; existing sheet video and sharing clock retained. Submission clock remains separate."
   },
   "limitations": [
-    "Four exact original commands, linked Updated receipts and enlarged attachment images inspected. Totals and available command splits match canonical entries.",
-    "Images show result totals and previous bests, but no course name or lap splits. Course and splits depend on original command and receipt context.",
-    "Previous-best totals are image observations only; no new standalone run or completion date inferred. Image filename and device clocks are not reliable achievement dates.",
+    "Original commands and linked Updated receipts were inspected. Attachment screenshot outputs were omitted from the model-visible tool response, so image contents, previous bests, course labels and coin counts are unverified.",
     "No video link in these four submission commands or receipts; leader video was shared separately. Existing video availability/title audit retained; no fresh playback inspection.",
     "No WR promotion, timing, duration, sheet date fill or footage eligibility change."
-  ]
+  ],
+  "evidenceCorrection": "2026-10-10: Withdraw prior freshVisualReview and image-content claims; screenshots were not readable in the tool output. Command, receipt and original video-post observations remain supported."
 }
