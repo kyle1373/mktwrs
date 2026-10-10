@@ -1550,7 +1550,9 @@
           "messageId": "861967579518074920"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/july-november2021-three-social-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-07-06T13:51:53.067Z"
     },
     {
       "courseId": "rmx-choco-island-1",
@@ -1780,7 +1782,9 @@
           ]
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/july-november2021-three-social-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-11-03T14:12:32.607Z"
     },
     {
       "courseId": "3ds-rosalina-s-ice-world",
@@ -1877,7 +1881,9 @@
           "reviewAudit": "archive/june2021-june23-29-sucha-lap-superfx-uploads-and-partial-clip-reconciliation-20261009.json"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "alternate-video-source-clock-reviewed-primary-source-clock-pending",
+      "reviewAudit": "archive/june2021-superfx-original-encoding-clock-reconciliation-20261009.json",
+      "primaryVideoClockAssigned": false
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
@@ -2261,14 +2267,16 @@
           "kind": "live-reviewed-later-reference-to-existing-verified-video"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "later-video-repost-clock-reviewed-original-clock-pending",
+      "reviewAudit": "archive/july-november2021-three-social-video-share-clocks-20261009.json",
+      "videoRepostAt": "2021-10-10T21:21:45.700Z"
     }
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 64,
-    "later-video-repost-clock-reviewed-original-clock-pending": 9,
-    "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
+    "original-video-share-clock-reviewed": 66,
+    "later-video-repost-clock-reviewed-original-clock-pending": 10,
+    "alternate-video-source-clock-reviewed-primary-source-clock-pending": 2,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
     "reddit-reference-reviewed-original-social-clock-pending": 1,
@@ -2277,7 +2285,7 @@
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 13
+    "pending": 9
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
