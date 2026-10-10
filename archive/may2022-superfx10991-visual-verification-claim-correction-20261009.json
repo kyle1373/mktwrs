@@ -1,0 +1,85 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "correctsCommit": "90c6ccb6",
+  "reason": "Fresh extracted frames returned omitted-image placeholders; preceding turn had no visual evidence supporting its claimed observations.",
+  "withdrawnUnsupportedClaims": {
+    "observations": [
+      {
+        "atSeconds": 3,
+        "observation": "Starting grid, Go for your best time!, Sunset Wilds course sunset scenery."
+      },
+      {
+        "atSeconds": 43,
+        "observation": "Frozen first-lap timer0:34.98 with2/2 lap transition; one mushroom remaining,zero coins."
+      },
+      {
+        "atSeconds": 78,
+        "observation": "CLEARED and frozen1:09.91,lap2/2,zero coins,nighttime Sunset Wilds scenery."
+      },
+      {
+        "atSeconds": 86,
+        "observation": "New Record1:09.91,Previous Best1:09.96,targets1:54/1:44/1:34,zero coins."
+      }
+    ],
+    "lap2": {
+      "value": "34.93",
+      "basis": "69.91 minus34.98; matches existing reported splits."
+    },
+    "previousBest": {
+      "time": "1:09.96",
+      "dateUnknown": true,
+      "separateRunPublished": false
+    }
+  },
+  "preservedMediaRetained": {
+    "path": "public/assets/video/superfx-sunset-wilds-10991-20220528.mov",
+    "sha256": "4584e29aafc54c8c8554e7020e62256e1dc905841884e0cf2dc0e1845e1dc1cb",
+    "bytes": 38876891,
+    "durationSeconds": 90.041667,
+    "kind": "original-discord-recording"
+  },
+  "validation": [
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "HEAD",
+      "correctedRows": 1
+    },
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "worktree",
+      "correctedRows": 1
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "HEAD",
+      "correctedRows": 4
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "worktree",
+      "correctedRows": 4
+    },
+    {
+      "path": "public/data/courses/gba-sunset-wilds.json",
+      "representation": "HEAD",
+      "correctedRows": 4
+    },
+    {
+      "path": "public/data/courses/gba-sunset-wilds.json",
+      "representation": "worktree",
+      "correctedRows": 4
+    }
+  ],
+  "retainedEvidence": [
+    "Original file downloaded through live Discord attachment link, SHA-256 and size verified.",
+    "Live grouped author and1:09.91 video caption with exact message timestamps.",
+    "Existing prior screenshot-based run total,splits,date,status unchanged."
+  ],
+  "limitations": [
+    "Recording visual verification pending.",
+    "No1:09.96 previous-best claim retained as evidence.",
+    "Full history incomplete."
+  ]
+}

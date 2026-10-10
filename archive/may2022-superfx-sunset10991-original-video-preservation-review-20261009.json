@@ -33,33 +33,6 @@
       "sha256": "fa3bb819fa18a4c151dec4a64b7257ba9ae0f483f51f7e083934f23add659f12"
     }
   ],
-  "observations": [
-    {
-      "atSeconds": 3,
-      "observation": "Starting grid, Go for your best time!, Sunset Wilds course sunset scenery."
-    },
-    {
-      "atSeconds": 43,
-      "observation": "Frozen first-lap timer0:34.98 with2/2 lap transition; one mushroom remaining,zero coins."
-    },
-    {
-      "atSeconds": 78,
-      "observation": "CLEARED and frozen1:09.91,lap2/2,zero coins,nighttime Sunset Wilds scenery."
-    },
-    {
-      "atSeconds": 86,
-      "observation": "New Record1:09.91,Previous Best1:09.96,targets1:54/1:44/1:34,zero coins."
-    }
-  ],
-  "lap2": {
-    "value": "34.93",
-    "basis": "69.91 minus34.98; matches existing reported splits."
-  },
-  "previousBest": {
-    "time": "1:09.96",
-    "dateUnknown": true,
-    "separateRunPublished": false
-  },
   "decodeCheck": {
     "exitCode": 0,
     "codecErrorsObserved": false,
@@ -104,11 +77,14 @@
     }
   ],
   "limitations": [
-    "Selected start,lap,finish,result frames reviewed; no claim of continuous full playback or frame-perfect integrity certification.",
     "Phone clock not treated as submission or race completion timestamp.",
     "Original screenshot submission2022-05-28T06:25:13.075Z retained; later video share does not create another WR reign.",
-    "Previous1:09.96 is an undated lead, not a dated record.",
     "Aggron and Timaël text reports remain unproved.",
-    "Full archive remains incomplete."
-  ]
+    "Full archive remains incomplete.",
+    "Image tool returned omitted-image placeholders for all extracted frames; no fresh image content could be read. Previous visual observations and previous-best claim are withdrawn.",
+    "Existing total and splits remain prior screenshot/caption evidence, not verification of this newly preserved recording."
+  ],
+  "visualReviewStatus": "pending-images-omitted-by-tool",
+  "videoVerified": false,
+  "correctionAudit": "archive/may2022-superfx10991-visual-verification-claim-correction-20261009.json"
 }
