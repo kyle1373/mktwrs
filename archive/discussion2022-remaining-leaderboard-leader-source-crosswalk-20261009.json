@@ -7696,7 +7696,9 @@
       ],
       "disposition": "player-time-source-locator-missing",
       "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityReviewStatus": "same-total-different-source-author-no-identity-proof",
+      "identityAmbiguityAudit": "archive/discussion2022-coconut-identity-ambiguity-and-later-original-source-classification-20261009.json"
     },
     {
       "messageId": "992607734274998352",
@@ -10449,9 +10451,10 @@
         }
       ],
       "earlierFasterCanonicalRows": [],
-      "disposition": "undated-player-time-locator-only",
+      "disposition": "later-dated-original-source-found-earlier-standing-observation",
       "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "limitation": "Dated original result appears after snapshot. Earlier snapshot proves displayed standing only; original submission clock retained, achievement instant unresolved.",
+      "laterOriginalSourceAudit": "archive/discussion2022-coconut-identity-ambiguity-and-later-original-source-classification-20261009.json"
     },
     {
       "messageId": "1016578844674752552",
@@ -10536,9 +10539,10 @@
         }
       ],
       "earlierFasterCanonicalRows": [],
-      "disposition": "undated-player-time-locator-only",
+      "disposition": "later-dated-original-source-found-earlier-standing-observation",
       "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "limitation": "Dated original result appears after snapshot. Earlier snapshot proves displayed standing only; original submission clock retained, achievement instant unresolved.",
+      "laterOriginalSourceAudit": "archive/discussion2022-coconut-identity-ambiguity-and-later-original-source-classification-20261009.json"
     },
     {
       "messageId": "1016622899727179806",
@@ -12452,8 +12456,9 @@
   ],
   "counts": {
     "earlier-dated-player-time-locator-found": 144,
-    "undated-player-time-locator-only": 5,
-    "player-time-source-locator-missing": 4
+    "undated-player-time-locator-only": 3,
+    "player-time-source-locator-missing": 4,
+    "later-dated-original-source-found-earlier-standing-observation": 2
   },
   "validation": {
     "remainingLeaderboardSnapshots": 153,
