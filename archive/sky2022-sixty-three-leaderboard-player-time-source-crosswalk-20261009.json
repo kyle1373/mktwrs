@@ -575,7 +575,9 @@
       ],
       "disposition": "original-result-source-not-matched",
       "existingCourseRows": [],
-      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof."
+      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof.",
+      "recoveryLeadAudit": "archive/sky2022-kirio-receipts-and-five-remaining-result-recovery-leads-20261009.json",
+      "recoveryLeadStatus": "exact-lap-total-text-match-image-review-pending"
     },
     {
       "displayedName": "Tankian",
@@ -595,7 +597,9 @@
       ],
       "disposition": "original-result-source-not-matched",
       "existingCourseRows": [],
-      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof."
+      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof.",
+      "recoveryLeadAudit": "archive/sky2022-kirio-receipts-and-five-remaining-result-recovery-leads-20261009.json",
+      "recoveryLeadStatus": "exact-lap-total-text-match-image-review-pending"
     },
     {
       "displayedName": "Zombie!",
@@ -693,7 +697,9 @@
       ],
       "disposition": "original-result-source-not-matched",
       "existingCourseRows": [],
-      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof."
+      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof.",
+      "recoveryLeadAudit": "archive/sky2022-kirio-receipts-and-five-remaining-result-recovery-leads-20261009.json",
+      "recoveryLeadStatus": "same-name-time-sheet-locator-original-result-pending"
     },
     {
       "displayedName": "JENCE",
@@ -907,7 +913,9 @@
       ],
       "disposition": "original-result-source-not-matched",
       "existingCourseRows": [],
-      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof."
+      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof.",
+      "recoveryLeadAudit": "archive/sky2022-kirio-receipts-and-five-remaining-result-recovery-leads-20261009.json",
+      "recoveryLeadStatus": "image-only-candidate-total-not-confirmed"
     },
     {
       "displayedName": "Astre",
@@ -1462,7 +1470,9 @@
     {
       "displayedName": "K.-...",
       "time": "1:01.86",
-      "candidatePlayerIds": [],
+      "candidatePlayerIds": [
+        "kirio"
+      ],
       "observations": [
         {
           "messageId": "947379990020890645",
@@ -1493,9 +1503,34 @@
           "observedAt": "2022-02-27T16:37:35.338Z"
         }
       ],
-      "disposition": "original-result-source-not-matched",
-      "existingCourseRows": [],
-      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof."
+      "disposition": "original-submission-receipt-matched",
+      "existingCourseRows": [
+        {
+          "id": "sheet-AGB27",
+          "playerId": "kirio",
+          "submittedAt": null,
+          "status": "sheet-submission",
+          "source": {
+            "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=AGB27",
+            "sheet": "Admin Panel",
+            "range": "AGB27:AGI27"
+          }
+        },
+        {
+          "id": "discord-947113402659139654",
+          "playerId": "kirio",
+          "submittedAt": "2022-02-26T12:50:17.348Z",
+          "status": "accepted-submission",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/947113342420545586",
+            "channel": "tt-submission",
+            "messageId": "947113342420545586"
+          }
+        }
+      ],
+      "limitation": "Original receipt links historical name, course/time/laps and human submission; first publication elsewhere and full coverage remain unproven.",
+      "sourceReconciliationAudit": "archive/sky2022-kirio-receipts-and-five-remaining-result-recovery-leads-20261009.json",
+      "originalSubmissionMessageId": "947113342420545586"
     },
     {
       "displayedName": "Larry",
@@ -1909,7 +1944,9 @@
       ],
       "disposition": "original-result-source-not-matched",
       "existingCourseRows": [],
-      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof."
+      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof.",
+      "recoveryLeadAudit": "archive/sky2022-kirio-receipts-and-five-remaining-result-recovery-leads-20261009.json",
+      "recoveryLeadStatus": "image-only-candidate-total-not-confirmed"
     },
     {
       "displayedName": "malermarkus",
@@ -2743,7 +2780,9 @@
     {
       "displayedName": "K.-...",
       "time": "1:01.79",
-      "candidatePlayerIds": [],
+      "candidatePlayerIds": [
+        "kirio"
+      ],
       "observations": [
         {
           "messageId": "947651416816754768",
@@ -2790,9 +2829,34 @@
           "observedAt": "2022-03-04T09:56:04.062Z"
         }
       ],
-      "disposition": "original-result-source-not-matched",
-      "existingCourseRows": [],
-      "limitation": "Player and time match is a locator; identical attempt and first original publication require source proof."
+      "disposition": "original-submission-receipt-matched",
+      "existingCourseRows": [
+        {
+          "id": "sheet-AGB45",
+          "playerId": "kirio",
+          "submittedAt": null,
+          "status": "sheet-submission",
+          "source": {
+            "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=AGB45",
+            "sheet": "Admin Panel",
+            "range": "AGB45:AGI45"
+          }
+        },
+        {
+          "id": "discord-947642535843598356",
+          "playerId": "kirio",
+          "submittedAt": "2022-02-27T23:52:58.417Z",
+          "status": "accepted-submission",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/947642500296896582",
+            "channel": "tt-submission",
+            "messageId": "947642500296896582"
+          }
+        }
+      ],
+      "limitation": "Original receipt links historical name, course/time/laps and human submission; first publication elsewhere and full coverage remain unproven.",
+      "sourceReconciliationAudit": "archive/sky2022-kirio-receipts-and-five-remaining-result-recovery-leads-20261009.json",
+      "originalSubmissionMessageId": "947642500296896582"
     },
     {
       "displayedName": "JENCE",
@@ -4140,8 +4204,8 @@
   ],
   "counts": {
     "existing-player-time-row-found": 49,
-    "original-result-source-not-matched": 7,
-    "original-submission-receipt-matched": 7
+    "original-result-source-not-matched": 5,
+    "original-submission-receipt-matched": 9
   },
   "validation": {
     "uniqueDisplayedNameTimePairs": 63,
