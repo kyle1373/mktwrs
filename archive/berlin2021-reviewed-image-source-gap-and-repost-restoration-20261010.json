@@ -1,0 +1,59 @@
+{
+  "reviewedAt": "2026-10-10",
+  "tourId": "tour-35",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "scope": "Publication source-ID mapping for exact totals in the preserved January image reconciliation index, using working Berlin UTC window; not full message/media coverage.",
+  "sourceIndex": {
+    "path": "archive/january2021-existing-image-reconciliation-index-20261005.json",
+    "sha256": "0630a8f403ff76df4e668ad9055825873e786f28602de9327223c350875cb5d2"
+  },
+  "exactReviewedImageRowsScreened": 312,
+  "sourceIdsMappedAfterRestoration": 311,
+  "remainingUnmapped": [
+    {
+      "messageId": "799360270417657878",
+      "time": "1:04.80",
+      "author": "Lélé",
+      "status": "named identity unresolved; publication held"
+    }
+  ],
+  "restoredRepostSource": {
+    "url": "https://discord.com/channels/629221606064914442/636461740162416640/802472241661083658",
+    "channel": "tt-discussion",
+    "messageId": "802472241661083658",
+    "submittedAt": "2021-01-23T09:38:11.625Z",
+    "attachmentId": "802472241379409961",
+    "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/802472241379409961/image0.png?ex=6abe2a03&is=6abcd883&hm=5cd30047b1caf3b1ae835c58c7cfc6504af3eb03d112d77c1f40bae98b7c9f10&",
+    "publishedAt": "2021-01-23T09:38:11.625Z",
+    "kind": "same-screenshot-repost",
+    "sourceReconciliationAudit": "archive/berlin2021-reviewed-image-source-gap-and-repost-restoration-20261010.json"
+  },
+  "canonicalSubmissionId": "801014425226051644-january2021-support-reviewed",
+  "firstKnownSubmissionRetained": "2021-01-19T09:05:21.102Z",
+  "freshImageVisualReview": false,
+  "priorSameScreenshotReviewRetained": true,
+  "livePublicationObservation": [
+    {
+      "url": "https://mktwrs.com/data/courses/n64-kalimari-desert-2.json",
+      "sha256": "81b87f13d39b8e089e789fee76ffb9bfcff6f1f112ace72747088ff4f22b0172",
+      "bytes": 533431,
+      "liveSubmissionCount": 458,
+      "indexSubmissionCount": 475,
+      "matchesIndex": false
+    },
+    {
+      "url": "https://mktwrs.com/data/courses/3ds-rock-rock-mountain-r.json",
+      "sha256": "6cc4ee303ba156ab23d2412a3382930b762c724eb329a5de3b3a07df607a4b4b",
+      "bytes": 240091,
+      "liveSubmissionCount": 184,
+      "indexSubmissionCount": 183,
+      "matchesIndex": false
+    }
+  ],
+  "limitations": [
+    "A mapped source ID does not prove all displayed player/time fields or record precedence; full row and media reconciliation remain required.",
+    "Source inventory does not include every surviving message or deleted source. Exact totals only; censored and context images remain separate.",
+    "Live JSON files differed from current index; Git push is not verified live publication."
+  ]
+}
