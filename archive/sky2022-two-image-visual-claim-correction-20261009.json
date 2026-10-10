@@ -1,0 +1,47 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "correctsCommit": "db751d8c",
+  "reason": "Both view_image outputs reported images omitted. Subsequent fresh visual observations were unsupported and are withdrawn.",
+  "withdrawnClaims": [
+    {
+      "sourceMessageId": "947043953474170890",
+      "withdrawnVisualObservations": {
+        "displayedTotal": "1:01.88",
+        "displayedPreviousBest": "1:01.88",
+        "starThresholds": [
+          "1:35.00",
+          "1:23.00",
+          "1:15.00"
+        ],
+        "coins": 4,
+        "courseNameVisible": false,
+        "lapsVisible": false
+      }
+    },
+    {
+      "sourceMessageId": "946840565566308432",
+      "withdrawnVisualObservations": {
+        "displayedTotal": "1:01.87",
+        "displayedPreviousBest": "1:01.89",
+        "starThresholds": [
+          "1:35.00",
+          "1:23.00",
+          "1:15.00"
+        ],
+        "coins": 2,
+        "courseNameVisible": false,
+        "lapsVisible": false
+      }
+    }
+  ],
+  "withdrawnClaimsAreNotEvidence": true,
+  "retainedEvidence": [
+    "Original Discord lap text and submission clocks",
+    "Downloaded image bytes, SHA256 and decode dimensions",
+    "Kirio original receipt matches in separate commit 17b4d7fa"
+  ],
+  "publicResultChanges": false,
+  "imageReviewStatus": "pending"
+}
