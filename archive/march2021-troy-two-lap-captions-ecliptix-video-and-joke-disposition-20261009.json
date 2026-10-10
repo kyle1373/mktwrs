@@ -1,0 +1,176 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "associations": [
+    {
+      "courseId": "tokyo-blur-4r",
+      "player": "Troy",
+      "playerId": "troy",
+      "time": "0:46.87",
+      "laps": [
+        "24.52",
+        "22.35"
+      ],
+      "lapSource": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/825405695394185245",
+        "channel": "tt-discussion",
+        "messageId": "825405695394185245",
+        "postedAt": "2021-03-27T16:27:33.078Z"
+      },
+      "lapSourceReviewAudit": "archive/march2021-troy-two-lap-captions-ecliptix-video-and-joke-disposition-20261009.json"
+    },
+    {
+      "courseId": "tokyo-blur-4r",
+      "player": "Troy",
+      "playerId": "troy",
+      "time": "0:46.73",
+      "laps": [
+        "24.63",
+        "22.10"
+      ],
+      "lapSource": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/825410784417939507",
+        "channel": "tt-discussion",
+        "messageId": "825410784417939507",
+        "postedAt": "2021-03-27T16:47:46.396Z"
+      },
+      "lapSourceReviewAudit": "archive/march2021-troy-two-lap-captions-ecliptix-video-and-joke-disposition-20261009.json"
+    },
+    {
+      "courseId": "tokyo-blur-4r",
+      "player": "Ecliptix",
+      "playerId": "ecliptix",
+      "time": "0:46.99",
+      "laps": [
+        "24.62",
+        "22.37"
+      ],
+      "videoId": "VpME6KGDHA0",
+      "videoSharedAt": "2021-03-27T16:46:28.137Z",
+      "videoSourceMessageId": "825410456176820294",
+      "videoSourceChronologyAudit": "archive/march2021-troy-two-lap-captions-ecliptix-video-and-joke-disposition-20261009.json"
+    }
+  ],
+  "liveContext": [
+    {
+      "messageId": "825405678347878430",
+      "postedAt": "2021-03-27T16:27:29.014Z",
+      "author": "Troy",
+      "attachmentId": "825405675093753886",
+      "nextGroupedCaptionMessageId": "825405695394185245"
+    },
+    {
+      "messageId": "825410770404900895",
+      "postedAt": "2021-03-27T16:47:43.055Z",
+      "author": "Troy",
+      "attachmentId": "825410768585097226",
+      "nextGroupedCaptionMessageId": "825410784417939507"
+    },
+    {
+      "messageId": "825410456176820294",
+      "postedAt": "2021-03-27T16:46:28.137Z",
+      "author": "Ecliptix",
+      "videoUrl": "https://youtube.com/watch?v=VpME6KGDHA0&feature=share",
+      "embedTitle": "Tokyo Blur 4 R PB: 46.99 - 24.62/22.37 | Mario Kart Tour Time Trials"
+    },
+    {
+      "messageId": "825410520358191114",
+      "postedAt": "2021-03-27T16:46:43.439Z",
+      "text": "My TB4R PB"
+    }
+  ],
+  "excludedClaim": {
+    "messageId": "823981392853336064",
+    "postedAt": "2021-03-23T18:07:52.890Z",
+    "author": "Whiplash",
+    "text": "wrong, i have 46.22 on TB4, on9",
+    "authorRetraction": {
+      "messageId": "823981894651478076",
+      "postedAt": "2021-03-23T18:09:52.528Z",
+      "text": "its a joke on9"
+    },
+    "disposition": "Explicit author joke; no completed46.22 result inferred."
+  },
+  "tomegomeOriginalSearch": {
+    "query": "\"1:00.03\" before:2021-04-01",
+    "observedResults": [
+      {
+        "messageId": "819583299248193578",
+        "postedAt": "2021-03-11T14:51:25.662Z",
+        "text": "Mister Tomegome 1:00.03"
+      }
+    ],
+    "originalIndividualSourcesRecovered": false,
+    "limitation": "Search returned the known repost only; not proof of source absence."
+  },
+  "validation": [
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "HEAD",
+      "matchedRowsBySpec": [
+        1,
+        1,
+        1
+      ],
+      "onlyEvidenceProvenanceChanged": true
+    },
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "worktree",
+      "matchedRowsBySpec": [
+        1,
+        1,
+        1
+      ],
+      "onlyEvidenceProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "HEAD",
+      "matchedRowsBySpec": [
+        1,
+        2,
+        2
+      ],
+      "onlyEvidenceProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "worktree",
+      "matchedRowsBySpec": [
+        1,
+        2,
+        2
+      ],
+      "onlyEvidenceProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/tokyo-blur-4r.json",
+      "representation": "HEAD",
+      "matchedRowsBySpec": [
+        1,
+        2,
+        2
+      ],
+      "onlyEvidenceProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/tokyo-blur-4r.json",
+      "representation": "worktree",
+      "matchedRowsBySpec": [
+        1,
+        2,
+        2
+      ],
+      "onlyEvidenceProvenanceChanged": true
+    }
+  ],
+  "limitations": [
+    "No new visual review or video verification claimed.",
+    "Exact caption association uses grouped same-author message immediately following original screenshot; existing totals/laps and statuses retained.",
+    "No sheet row submission date filled from this association.",
+    "Video share timestamp is later than existing original result screenshot and does not shift run date.",
+    "Broader2019–2026 history remains incomplete."
+  ]
+}
