@@ -1277,9 +1277,16 @@
           }
         }
       ],
-      "disposition": "undated-player-time-locator-only",
-      "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "disposition": "original-command-submission-clock-found-image-review-pending",
+      "fullOriginalReviewStatus": "pending-image-review",
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "originalSubmission": {
+        "messageId": "956105220293808148",
+        "postedAt": "2022-03-23T08:20:48.094Z",
+        "command": "!submit rmxvl1 1:02.78",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/956105220293808148"
+      },
+      "originalSourceAudit": "archive/samurai2022-shiraui-rmxvl1-10278-original-command-reconciliation-20261009.json"
     },
     {
       "messageId": "956237120098426890",
@@ -12464,8 +12471,9 @@
   ],
   "counts": {
     "earlier-dated-player-time-locator-found": 144,
-    "undated-player-time-locator-only": 3,
+    "original-command-submission-clock-found-image-review-pending": 1,
     "player-time-source-locator-missing": 4,
+    "undated-player-time-locator-only": 2,
     "later-dated-original-source-found-earlier-standing-observation": 2
   },
   "validation": {
