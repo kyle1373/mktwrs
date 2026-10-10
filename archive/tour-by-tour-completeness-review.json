@@ -1159,7 +1159,7 @@
       "tour": "Berlin Tour",
       "startDate": "2021-01-13",
       "endDate": "2021-01-27",
-      "reviewStatus": "pending-ordered-review",
+      "reviewStatus": "active-tour-gap-reconciliation",
       "historyComplete": false,
       "courses": [
         {
@@ -1176,7 +1176,30 @@
           "priorAuditFlags": [],
           "priorAuditIsCurrentCertificate": false
         }
-      ]
+      ],
+      "currentEvidenceReports": [
+        "archive/berlin2021-opening-precedence-original-revalidation-20261010.json",
+        "archive/berlin2021-baseball14340-original-revalidation-20261010.json",
+        "archive/berlin2021-baseball14297-preserved-standings-reconciliation-20261010.json",
+        "archive/berlin2021-preserved-video-link-publication-census-20261010.json",
+        "archive/berlin2021-preserved-social-share-clock-reconciliation-20261010.json",
+        "archive/berlin2021-kaguya-dual-written-result-publication-20261010.json",
+        "archive/berlin2021-five-spartacurt-publication-gaps-restored-20261010.json",
+        "archive/berlin2021-sixteen-deleted-author-results-preserved-20261010.json",
+        "archive/berlin2021-current-publication-and-completion-gap-review-20261010.json"
+      ],
+      "remainingBeforeCompletion": [
+        "Opening Kalimari1:04.01 previousbest andPhillish .25 report: exact achievement order and WRprecedence unresolved.",
+        "BaseballClub1:43.40 original proof anddate unresolved;1:42.97 standings corroborated but originalraceproof/date not recovered.",
+        "Lélé1:04.80 result retained in curatedarchive; namedprofileassignment unresolved, public restoration held.",
+        "Spartacurt1:43.88 earlyID mismatch is superseded by existing verified-video result; not a missing publicresult.",
+        "Full tour-boundary coverage across announcements, submissions,discussion and other relevant channels not certified.",
+        "Final standings and all previousbest/text-only leads still require track-by-track comparison; current record counts are not completeness evidence.",
+        "Original recordings availability and remaining broadcast sources require reconciliation; unavailable-source dispositions do not prove exhaustive review.",
+        "Live publication of recent pushes has not been reverified; last observed Railway state wasqueued."
+      ],
+      "lastVerifiedWork": "Current public data reconciled against curated Berlinresults: restored two Kaguya writtenresults, five Spartacurt screenshotresults and sixteen deleted-author results; retained source-specific unknownidentities. CorroboratedBaseballClub14297standings and14340discussion, corrected Kalimari spreadsheetlap2, preserved socialshareclocks. Thirty datedrecordrows pass populatedlap arithmetic, but globalchronology, sourcecoverage, finalstandings and media remain incomplete.",
+      "latestGapAudit": "archive/berlin2021-current-publication-and-completion-gap-review-20261010.json"
     },
     {
       "tourId": "tour-36",

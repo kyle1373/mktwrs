@@ -1,0 +1,103 @@
+{
+  "reviewedAt": "2026-10-10",
+  "tourId": "tour-35",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "courseAssessments": [
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "snapshot": {
+        "path": "public/data/courses/n64-kalimari-desert-2.json",
+        "sha256": "5c1ce1caff968a214e09bba02c7e12fd8c85843cf338253df1e44813c24650a9",
+        "bytes": 515441
+      },
+      "datedRecordRows": 18,
+      "populatedLapPairsVerified": 13,
+      "remainingExactIdMismatches": [
+        {
+          "canonicalId": "799360270417657878-january2021-support-reviewed",
+          "player": "Lélé",
+          "time": "1:04.80",
+          "submittedAt": "2021-01-14T19:32:19.863Z"
+        }
+      ],
+      "completenessProven": false
+    },
+    {
+      "courseId": "3ds-rock-rock-mountain-r",
+      "snapshot": {
+        "path": "public/data/courses/3ds-rock-rock-mountain-r.json",
+        "sha256": "bf4ac1a94534b650749fb3c3ad7300ad71985a88ee95be1e60849cbbba0b9f00",
+        "bytes": 198699
+      },
+      "datedRecordRows": 12,
+      "populatedLapPairsVerified": 12,
+      "remainingExactIdMismatches": [
+        {
+          "canonicalId": "802601224595046472-january2021-support-reviewed",
+          "player": "Spartacurt",
+          "time": "1:43.88",
+          "submittedAt": "2021-01-23T18:10:43.553Z"
+        }
+      ],
+      "completenessProven": false
+    }
+  ],
+  "evidenceReports": [
+    {
+      "path": "archive/berlin2021-opening-precedence-original-revalidation-20261010.json",
+      "sha256": "56e1eb119f3d7552c05006951b966c791a253fc7278ce51c306609a6c1731673",
+      "bytes": 10242
+    },
+    {
+      "path": "archive/berlin2021-baseball14340-original-revalidation-20261010.json",
+      "sha256": "2e35858a95f305b7eda96af63f57089bc9913b57532f89c0c059909349edad61",
+      "bytes": 7458
+    },
+    {
+      "path": "archive/berlin2021-baseball14297-preserved-standings-reconciliation-20261010.json",
+      "sha256": "e73a2818c0cdca1a006ea31a978050e2231b56ea4ecede2ff9bf65569495bba4",
+      "bytes": 4785
+    },
+    {
+      "path": "archive/berlin2021-preserved-video-link-publication-census-20261010.json",
+      "sha256": "d425c8ec646ce856f9a3ed277e925e8dddd6fb980c66848201d47e795b844a60",
+      "bytes": 27899
+    },
+    {
+      "path": "archive/berlin2021-preserved-social-share-clock-reconciliation-20261010.json",
+      "sha256": "c790ac8f8c0fbbb74e013b2cfc3f40d4f74f76d78207305e2f44e0a0fdfff02c",
+      "bytes": 6280
+    },
+    {
+      "path": "archive/berlin2021-kaguya-dual-written-result-publication-20261010.json",
+      "sha256": "f8f9ec7b8bd02d86b8c336df0b620846c192c845c124f92a1bf87e76335a4fa8",
+      "bytes": 5031
+    },
+    {
+      "path": "archive/berlin2021-five-spartacurt-publication-gaps-restored-20261010.json",
+      "sha256": "f0c75523f092fd728e09f17e2d733eded00e2ff233e70254efdaf4a688e8efae",
+      "bytes": 17930
+    },
+    {
+      "path": "archive/berlin2021-sixteen-deleted-author-results-preserved-20261010.json",
+      "sha256": "59566d4095855f39404ba5726dad136ff6725c81cef0044188dc348058cd78d4",
+      "bytes": 61917
+    }
+  ],
+  "remainingBeforeCompletion": [
+    "Opening Kalimari1:04.01 previousbest andPhillish .25 report: exact achievement order and WRprecedence unresolved.",
+    "BaseballClub1:43.40 original proof anddate unresolved;1:42.97 standings corroborated but originalraceproof/date not recovered.",
+    "Lélé1:04.80 result retained in curatedarchive; namedprofileassignment unresolved, public restoration held.",
+    "Spartacurt1:43.88 earlyID mismatch is superseded by existing verified-video result; not a missing publicresult.",
+    "Full tour-boundary coverage across announcements, submissions,discussion and other relevant channels not certified.",
+    "Final standings and all previousbest/text-only leads still require track-by-track comparison; current record counts are not completeness evidence.",
+    "Original recordings availability and remaining broadcast sources require reconciliation; unavailable-source dispositions do not prove exhaustive review.",
+    "Live publication of recent pushes has not been reverified; last observed Railway state wasqueued."
+  ],
+  "limitations": [
+    "Exact canonicalID comparison reconciled semantically for known supersededvideoID. One heldidentity result remains, not a tourcompletion claim.",
+    "All populated lap pairs in thirty datedBerlinrecordrows sum correctly. Arithmetic checks do not establish globalWRprecedence or fullcoverage.",
+    "Current publication andpreservedevidence reviewed; no fresh liveDiscord/mediaavailability/deploymentvalidation inthispass."
+  ]
+}
