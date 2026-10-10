@@ -55,7 +55,7 @@
       "route-test-clip-reference-footage-course-finish-time-pending": 1,
       "time-reaction-caption-owner-course-lap-or-full-time-unresolved": 1,
       "target-caption-image-time-course-visual-review-pending": 1,
-      "commentary-linked-existing-verified-video-submission": 1,
+      "commentary-linked-existing-verified-video-submission": 2,
       "explicit-lap-one-then-collision-claim-not-full-result": 1,
       "mushroom-placement-answer-image-not-independent-run-claim": 1,
       "clarification-response-no-run-result-claim": 1,
@@ -84,10 +84,17 @@
       "image-result-question-exact-time-course-visual-review-pending": 1,
       "leaderboard-update-clarification-not-independent-run-result": 1,
       "clip-speed-question-footage-exact-course-time-pending": 1,
-      "pending-original-context-proof-and-chronology-review": 124
+      "best-splits-commentary-matched-existing-verified-run-not-race-laps": 1,
+      "explicit-first-lap-video-caption-linked-original-share-footage-pending": 1,
+      "explicit-best-first-lap-claim-and-potential-target-not-full-result": 1,
+      "first-lap-potential-guidance-not-completed-run": 1,
+      "second-mushroom-placement-guidance-not-independent-run": 1,
+      "explicit-best-first-lap-two-jump-claim-not-full-result": 1,
+      "social-greeting-edit-clock-not-race-time": 1,
+      "pending-original-context-proof-and-chronology-review": 116
     },
-    "candidatesWithRecordedDisposition": 75,
-    "untouchedCandidates": 124
+    "candidatesWithRecordedDisposition": 83,
+    "untouchedCandidates": 116
   },
   "rows": [
     {
@@ -2426,8 +2433,41 @@
         "31.11",
         "30.86"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "best-splits-commentary-matched-existing-verified-run-not-race-laps",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "961177681532162078",
+        "postedAt": "2022-04-06T08:16:57.095Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/961177681532162078",
+        "currentAuthor": null,
+        "writtenCaption": "Best splits 31.11 / 30.86 but played too much 8d last 2 weeks",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": "rmx-vanilla-lake-1",
+        "fullRaceTime": "1:02.22",
+        "resultProofUnresolved": false,
+        "disposition": "best-splits-commentary-matched-existing-verified-run-not-race-laps",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Wins",
+        "postEditedAt": "2022-04-06T22:40:59.754Z",
+        "bestSplitClaims": [
+          "31.11",
+          "30.86"
+        ],
+        "bestSplitsNotSameFinishedRun": true,
+        "canonicalSubmissionId": "curated-samurai-2022-956950993340338236",
+        "verifiedRunLaps": [
+          "31.29",
+          "30.93"
+        ],
+        "originalSubmittedAt": "2022-03-25T16:21:36.451Z",
+        "video": "https://twitter.com/winsmkt/status/1511617819779207176?s=21",
+        "videoShareMessageId": "961177122238517308",
+        "videoSharedAt": "2022-04-06T08:14:43.749Z",
+        "priorVideoVerificationRetained": true
+      }
     },
     {
       "messageId": "965891423754944533",
@@ -2438,8 +2478,34 @@
       "shorthandTokens": [
         "49.04"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "explicit-first-lap-video-caption-linked-original-share-footage-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "965891423754944533",
+        "postedAt": "2022-04-19T08:27:40.818Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/965891423754944533",
+        "currentAuthor": null,
+        "writtenCaption": "49.04 with missed MT somewhere",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": "3ds-bowser-s-castle-r",
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "explicit-first-lap-video-caption-linked-original-share-footage-pending",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Wins",
+        "reportedLap1": "49.04",
+        "linkedOriginalVideoMessageId": "965891339931762728",
+        "originalVideoSharedAt": "2022-04-19T08:27:20.833Z",
+        "video": "https://youtu.be/-B3KK2y-7sQ",
+        "videoEmbedTitle": "3DS Bowser’s Castle R 49.04 lap 1",
+        "courseAndLapClassificationBasis": "original video embed title and adjacent caption",
+        "footageVisualReviewPending": true,
+        "videoAvailabilityUnverified": true,
+        "fullRaceTimeNotReported": true
+      }
     },
     {
       "messageId": "966021981692657804",
@@ -2450,8 +2516,26 @@
       "shorthandTokens": [
         "48.98"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "explicit-best-first-lap-claim-and-potential-target-not-full-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "966021981692657804",
+        "postedAt": "2022-04-19T17:06:28.256Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/966021981692657804",
+        "currentAuthor": "えなが",
+        "writtenCaption": "thank you bro!\nbut my bs 48.98 for lap 1...\n:37 possible?",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "explicit-best-first-lap-claim-and-potential-target-not-full-result",
+        "reportedBestLap1": "48.98",
+        "targetShorthand": ":37 possible?",
+        "targetNotFinishedResult": true
+      }
     },
     {
       "messageId": "966022339030560809",
@@ -2462,8 +2546,27 @@
       "shorthandTokens": [
         "10:08"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "first-lap-potential-guidance-not-completed-run",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "966022339030560809",
+        "postedAt": "2022-04-19T17:07:53.452Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/966022339030560809",
+        "currentAuthor": "Wins",
+        "writtenCaption": "Yes 48 lap1 possible",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "first-lap-potential-guidance-not-completed-run",
+        "postEditedAt": "2022-04-19T17:08:44.369Z",
+        "potentialLap1Token": "48",
+        "shorthandTokenIsEditedClock": true,
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "966022436913053717",
@@ -2474,8 +2577,30 @@
       "shorthandTokens": [
         "10:08"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "second-mushroom-placement-guidance-not-independent-run",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "966022436913053717",
+        "postedAt": "2022-04-19T17:08:16.789Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/966022436913053717",
+        "currentAuthor": null,
+        "writtenCaption": "On big ramp lap 2 after finish line",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "second-mushroom-placement-guidance-not-independent-run",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Wins",
+        "postEditedAt": "2022-04-19T17:08:31.723Z",
+        "precedingSecondMushroomMessageId": "966022420685279292",
+        "precedingSecondMushroomCaption": "I think maybe better to use 2nd shroom",
+        "shorthandTokenIsEditedClock": true,
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "967813706878713948",
@@ -2486,8 +2611,29 @@
       "shorthandTokens": [
         "20.31"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "explicit-best-first-lap-two-jump-claim-not-full-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "967813706878713948",
+        "postedAt": "2022-04-24T15:46:08.829Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/967813706878713948",
+        "currentAuthor": null,
+        "writtenCaption": "my bs 20.31 for lap 1\n2 jumps",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "explicit-best-first-lap-two-jump-claim-not-full-result",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "えなが",
+        "postEditedAt": "2022-04-24T15:46:14.667Z",
+        "reportedBestLap1": "20.31",
+        "reportedJumpCount": 2,
+        "fullRaceTimeNotReported": true
+      }
     },
     {
       "messageId": "971311112077324309",
@@ -2498,8 +2644,36 @@
       "shorthandTokens": [
         "12:55"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "commentary-linked-existing-verified-video-submission",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "971311112077324309",
+        "postedAt": "2022-05-04T07:23:35.207Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/971311112077324309",
+        "currentAuthor": "Wins",
+        "writtenCaption": "I didnt try very hard, but apparently it stayed WR..    Video:",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": "snes-choco-island-1r",
+        "fullRaceTime": "0:40.66",
+        "resultProofUnresolved": false,
+        "disposition": "commentary-linked-existing-verified-video-submission",
+        "postEditedAt": "2022-05-04T07:55:22.773Z",
+        "canonicalSubmissionId": "curated-amsterdam-2022-968226653539033128",
+        "verifiedRunLaps": [
+          "20.46",
+          "20.20"
+        ],
+        "originalSubmittedAt": "2022-04-25T19:07:03.318Z",
+        "video": "https://twitter.com/winsmkt/status/1521752102640439298",
+        "videoShareMessageId": "971311163730182154",
+        "videoSharedAt": "2022-05-04T07:23:47.522Z",
+        "videoEmbedText": "MKT World Record; Chocolate Island 1R;40.66(20.46/20.20);Kaguya+Wins running method",
+        "priorVideoVerificationRetained": true,
+        "shorthandTokenIsEditedClock": true
+      }
     },
     {
       "messageId": "972224337362972692",
@@ -2510,8 +2684,26 @@
       "shorthandTokens": [
         "12:52"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "social-greeting-edit-clock-not-race-time",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/april2022-may6-eight-lap-video-commentary-sheet-mismatch-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "972224337362972692",
+        "postedAt": "2022-05-06T19:52:25.082Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/972224337362972692",
+        "currentAuthor": "Tankian",
+        "writtenCaption": "Nice to see you here @Xobbias",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "social-greeting-edit-clock-not-race-time",
+        "postEditedAt": "2022-05-06T19:52:43.906Z",
+        "shorthandTokenIsEditedClock": true,
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "972225043205591080",
