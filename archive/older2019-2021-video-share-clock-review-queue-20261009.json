@@ -1248,7 +1248,9 @@
           "publishedAt": "2021-04-18T20:02:12.214Z"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/aprilmay2021-four-original-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-04-18T20:02:12.214Z"
     },
     {
       "courseId": "3ds-neo-bowser-city",
@@ -1441,7 +1443,9 @@
           "kind": "same-author-original-video-followup"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/aprilmay2021-four-original-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-05-02T23:38:16.478Z"
     },
     {
       "courseId": "3ds-rainbow-road",
@@ -1610,7 +1614,9 @@
           "kind": "same-author-original-video-followup"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/aprilmay2021-four-original-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-05-02T23:34:18.924Z"
     },
     {
       "courseId": "rmx-choco-island-2",
@@ -1625,10 +1631,19 @@
           "messageId": "838662147760193557",
           "channel": "tt-discussion",
           "publishedAt": "2021-05-03T06:23:57.615Z",
-          "kind": "same-author-original-video-now-unavailable"
+          "kind": "original-video-share-by-enaga-existing-footage-unavailable"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/aprilmay2021-four-original-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-05-03T06:23:57.615Z",
+      "sourceAttributionReview": {
+        "observedSharer": "Enaga",
+        "embeddedChannel": "かぐやん Gaming",
+        "sameAuthorConfirmed": false,
+        "playerIdentityResolved": false,
+        "reviewAudit": "archive/aprilmay2021-four-original-video-share-clocks-20261009.json"
+      }
     },
     {
       "courseId": "rmx-mario-circuit-1",
@@ -2247,7 +2262,7 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 58,
+    "original-video-share-clock-reviewed": 62,
     "later-video-repost-clock-reviewed-original-clock-pending": 9,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
@@ -2258,7 +2273,7 @@
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 19
+    "pending": 15
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
