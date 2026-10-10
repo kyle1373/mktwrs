@@ -1,0 +1,89 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "withdrawnSubmissionId": "discord-947835096470265907",
+  "withdrawnEnteredTime": "1:01.47",
+  "withdrawal": {
+    "status": "withdrawn-input-error",
+    "reason": "Author requests removal and says the image was right but entered time wrong. Subsequent command submits 1:01.72.",
+    "sources": [
+      {
+        "messageId": "947835758922829864",
+        "submittedAt": "2022-02-28T12:40:54.864Z",
+        "text": "@Λsτre y a un moyen que t'enleve ce que je viens de mettre",
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/947835758922829864"
+      },
+      {
+        "messageId": "947835817982832720",
+        "submittedAt": "2022-02-28T12:41:08.945Z",
+        "text": "J'ai mit la bonne image mais j'ai pas mit le bon time",
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/947835817982832720"
+      },
+      {
+        "messageId": "947835883992784916",
+        "submittedAt": "2022-02-28T12:41:24.683Z",
+        "text": "Je viens de m'en apercevoir",
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/947835883992784916"
+      }
+    ],
+    "correctedSubmissionId": "discord-947836422415581246",
+    "audit": "archive/sky2022-lalanterne-withdrawal-public-status-and-two-image-preservations-20261009.json"
+  },
+  "erroneousReceipt": {
+    "messageId": "947835096470265907",
+    "createdAt": "2022-02-28T12:38:16.923Z",
+    "lastEditedAt": "2022-02-28T12:38:32.019Z",
+    "url": "https://discord.com/channels/629221606064914442/875784780573184010/947835096470265907"
+  },
+  "correctedSubmission": {
+    "messageId": "947836410398933052",
+    "submittedAt": "2022-02-28T12:43:30.188Z",
+    "command": "!submit rmxgv1r 1:01.72",
+    "receiptId": "947836422415581246",
+    "receiptCreatedAt": "2022-02-28T12:43:33.053Z",
+    "receiptLastEditedAt": "2022-02-28T12:58:52.654Z"
+  },
+  "preservedImages": [
+    {
+      "displayedAuthor": "Bryan",
+      "sourceMessageId": "947145259433984042",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/947145259433984042",
+      "submittedAt": "2022-02-26T14:57:06.957Z",
+      "attachmentId": "947145258767097936",
+      "localPath": "archive/sky2022-pending-original-results/947145258767097936.jpg",
+      "sha256": "3386fd3ccce5905286a5a2dc007e26aeeb63c2163dcbaec4876775a1aabbd867",
+      "bytes": 456926,
+      "dimensions": [
+        1080,
+        2400
+      ],
+      "preservationMethod": "Live logged-in Discord attachment via downloadMedia",
+      "visualReviewStatus": "pending",
+      "resultVerified": false
+    },
+    {
+      "displayedAuthor": "marumo",
+      "sourceMessageId": "946822102944731156",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/946822102944731156",
+      "submittedAt": "2022-02-25T17:33:00.446Z",
+      "attachmentId": "946822102055534602",
+      "localPath": "archive/sky2022-pending-original-results/946822102055534602.png",
+      "sha256": "468a3f4042f923334957e1786828030845abb93b84f20eac1a9fb92bd168f8ac",
+      "bytes": 241443,
+      "dimensions": [
+        454,
+        419
+      ],
+      "preservationMethod": "Live logged-in Discord attachment via downloadMedia",
+      "visualReviewStatus": "pending",
+      "resultVerified": false
+    }
+  ],
+  "validation": {
+    "newPublicRuns": 0,
+    "publicStatusCorrections": 1,
+    "visualClaims": 0
+  },
+  "limitation": "Images preserved but contents unreviewed. Original erroneous human message is no longer rendered; prior source clock retained. Live receipt, author withdrawal and corrected command support status correction; no achievement date inferred."
+}
