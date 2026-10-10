@@ -2,8 +2,8 @@
   "checkedAt": "2026-10-10",
   "historyComplete": false,
   "userRequestedMethod": "Review each tour in chronological order; identify incomplete courses and resolve evidence before claiming completion.",
-  "currentTourId": "tour-6",
-  "currentTour": "London Tour",
+  "currentTourId": "tour-7",
+  "currentTour": "Holiday Tour (2019)",
   "orderRule": "Stay with the current tour while meaningful source work remains. Record unavailable originals and specific unresolved questions; review of a later tour never certifies earlier tours.",
   "completionRequirements": [
     "TTcourseavailabilityandtourexactUTCboundariesverified.",
@@ -240,7 +240,7 @@
       "tour": "London Tour",
       "startDate": "2019-12-04",
       "endDate": "2019-12-18",
-      "reviewStatus": "active-source-reconciliation",
+      "reviewStatus": "open-source-and-chronology-gaps-after-preserved-publication-reconciliation",
       "historyComplete": false,
       "courses": [
         {
@@ -330,7 +330,8 @@
         "archive/london2019-unreal91-two-alias-reports-single-performance-reconciliation-20261010.json",
         "archive/london2019-astre12311-earlier-source-and-stale-daisy-note-publication-20261010.json",
         "archive/london2019-current-preserved-result-publication-and-recording-crosswalk-20261010.json",
-        "archive/london2019-opening-mc2-conversation-and-unassigned-recording-context-20261010.json"
+        "archive/london2019-opening-mc2-conversation-and-unassigned-recording-context-20261010.json",
+        "archive/london2019-live-publication-verification-and-holiday-resume-20261010.json"
       ],
       "remainingWork": [
         "Establish the opening global WR progression for all three London TT courses against dated rival submissions; personal New Record screens alone do not prove a global WR.",
@@ -464,6 +465,11 @@
         "unassignedRecordingLeadsPreserved": 1,
         "wrPrecedenceResolved": false,
         "historyComplete": false
+      },
+      "latestLivePublicationVerification": {
+        "report": "archive/london2019-live-publication-verification-and-holiday-resume-20261010.json",
+        "selectedSubmissionsVerified": 4,
+        "historyComplete": false
       }
     },
     {
@@ -471,7 +477,7 @@
       "tour": "Holiday Tour (2019)",
       "startDate": "2019-12-18",
       "endDate": "2020-01-01",
-      "reviewStatus": "pending-ordered-review",
+      "reviewStatus": "active-preserved-source-and-publication-reconciliation",
       "historyComplete": false,
       "courses": [
         {
@@ -495,7 +501,21 @@
           ],
           "priorAuditIsCurrentCertificate": false
         }
-      ]
+      ],
+      "currentEvidenceReports": [
+        "archive/london2019-live-publication-verification-and-holiday-resume-20261010.json"
+      ],
+      "savedSourceCheckpoint": {
+        "tourId": "tour-7",
+        "discussionMessagesPreviouslyRead": 49,
+        "savedImageCensusRowsReviewed": 311,
+        "completeTourCoverageCertified": false,
+        "priorReports": [
+          "archive/holiday-2019-reconciliation.json",
+          "archive/holiday2019-consolidated-visual-resume-20261004.json"
+        ]
+      },
+      "publicationCandidateGapCount": 7
     },
     {
       "tourId": "tour-8",
@@ -6002,9 +6022,9 @@
     "historyComplete": false,
     "interpretation": "Prioritize individual source audits. Counts cannot certify history or imply records absent; carry-over and undated records require reconciliation."
   },
-  "chronologicalResumeTourId": "tour-6",
-  "chronologicalResumeTour": "London Tour",
-  "currentReviewScope": "Chronological London December2019 source reconciliation resumed; Berlin January2021 saved-text pass complete with explicit open evidence queue, not certified complete.",
+  "chronologicalResumeTourId": "tour-7",
+  "chronologicalResumeTour": "Holiday Tour (2019)",
+  "currentReviewScope": "Holiday December2019 preserved-source and publication reconciliation; London and Berlin remain open with explicit evidence gaps.",
   "certifiedThrough": null,
   "progressTrackingReview": "archive/berlin2021-january15-administrative-reminder-and-kazuo-omitted-submission-review-20261010.json"
 }
