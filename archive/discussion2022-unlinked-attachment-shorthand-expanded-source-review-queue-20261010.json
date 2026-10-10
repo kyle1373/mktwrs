@@ -72,11 +72,15 @@
       "prior-wr-lap-commentary-image-exact-time-course-pending": 1,
       "repost-matched-existing-verified-original-image-submission": 1,
       "best-split-shorthand-exact-laps-and-full-time-unresolved": 1,
-      "bot-leaderboard-image-snapshot-rank-transcription-original-dates-pending": 4,
-      "pending-original-context-proof-and-chronology-review": 142
+      "bot-leaderboard-image-snapshot-rank-transcription-original-dates-pending": 5,
+      "practice-time-caption-course-lap-full-time-proof-unresolved": 1,
+      "course-selection-question-not-run-result": 1,
+      "course-handling-commentary-not-exact-result": 1,
+      "quoted-wr-reaction-own-post-clock-corrected-no-new-result": 1,
+      "pending-original-context-proof-and-chronology-review": 137
     },
-    "candidatesWithRecordedDisposition": 57,
-    "untouchedCandidates": 142
+    "candidatesWithRecordedDisposition": 62,
+    "untouchedCandidates": 137
   },
   "rows": [
     {
@@ -1808,8 +1812,29 @@
       "shorthandTokens": [
         "30.90"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "practice-time-caption-course-lap-full-time-proof-unresolved",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/march2022-march3-9-five-practice-course-quoted-clock-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "949092702044176394",
+        "postedAt": "2022-03-03T23:55:33.457Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/949092702044176394",
+        "currentAuthor": null,
+        "writtenCaption": "I played for 40 min yesterday and couldn't get lower than a 30.90. I was completely confused as to why",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "practice-time-caption-course-lap-full-time-proof-unresolved",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "NHSpeedy",
+        "reportedTimeToken": "30.90",
+        "timeTypeUnresolved": true,
+        "relativePracticeDate": "yesterday",
+        "achievementDateNotInferred": true
+      }
     },
     {
       "messageId": "950670768944078868",
@@ -1820,8 +1845,28 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/950670796836184114/rmxgv1r_leaderboard.png?ex=6ac407ec&is=6ac2b66c&hm=6270a721e37a5f8a367803f7a8a72a31403121c35b97ce40fd170f890c078377&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "bot-leaderboard-image-snapshot-rank-transcription-original-dates-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/march2022-march3-9-five-practice-course-quoted-clock-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "950670768944078868",
+        "postedAt": "2022-03-08T08:26:13.925Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/950670768944078868",
+        "currentAuthor": "MKT Time Trial Bot",
+        "writtenCaption": null,
+        "attachmentPath": "636461740162416640/950670796836184114/rmxgv1r_leaderboard.png",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "bot-leaderboard-image-snapshot-rank-transcription-original-dates-pending",
+        "snapshotCommandUser": "Λsτre",
+        "snapshotCommand": "leaderboard",
+        "tableTranscriptionPending": true,
+        "originalSubmissionDatesUnresolved": true,
+        "attachmentFilenameNotCourseProof": true
+      }
     },
     {
       "messageId": "951017140188774410",
@@ -1832,8 +1877,26 @@
       "shorthandTokens": [
         "11:24"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "course-selection-question-not-run-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/march2022-march3-9-five-practice-course-quoted-clock-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "951017140188774410",
+        "postedAt": "2022-03-09T07:22:35.265Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951017140188774410",
+        "currentAuthor": "Λsτre",
+        "writtenCaption": "RMX RR1 N for the 2nd TT?!",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "course-selection-question-not-run-result",
+        "postEditedAt": "2022-03-09T07:24:56.512Z",
+        "namedCourseShorthand": "RMX RR1 N",
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "951030432001040384",
@@ -1844,12 +1907,31 @@
       "shorthandTokens": [
         "12:16"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "course-handling-commentary-not-exact-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/march2022-march3-9-five-practice-course-quoted-clock-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "951030432001040384",
+        "postedAt": "2022-03-09T08:15:24.280Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951030432001040384",
+        "currentAuthor": null,
+        "writtenCaption": "The jumps are not similar. I tried to play on it and I did some lows tricks, so I was slowed down by the ice in some places",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "course-handling-commentary-not-exact-result",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Λsτre",
+        "postEditedAt": "2022-03-09T08:16:37.219Z",
+        "independentExactTimeClaim": false
+      }
     },
     {
       "messageId": "951200245583314994",
-      "postedAt": "2022-03-09T10:44:18.630Z",
+      "postedAt": "2022-03-09T19:30:10.993Z",
       "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951200245583314994",
       "capturedText": "@Wins\nKazuo’s KD2R WR is so strong  (edited)\nWednesday, March 9, 2022 at 2:44 AM\nKazuo\n — \n3/9/22, 11:30 AM\nWednesday, March 9, 2022 at 11:30 AM\nIm so hooot ",
       "capturedAttachmentReferences": [],
@@ -1857,8 +1939,30 @@
         "11:30",
         "11:30"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "quoted-wr-reaction-own-post-clock-corrected-no-new-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/march2022-march3-9-five-practice-course-quoted-clock-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "951200245583314994",
+        "postedAt": "2022-03-09T19:30:10.993Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951200245583314994",
+        "currentAuthor": "Kazuo",
+        "writtenCaption": "Im so hooot",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "quoted-wr-reaction-own-post-clock-corrected-no-new-result",
+        "censusCapturedPostedAt": "2022-03-09T10:44:18.630Z",
+        "quotedText": "Kazuo’s KD2R WR is so strong",
+        "quotedTime": "2022-03-09T10:44:18.630Z",
+        "clockCorrectionBasis": "First census time belongs to quoted message; own live header timestamp is19:30:10.993Z.",
+        "independentRunClaim": false
+      },
+      "censusCapturedPostedAt": "2022-03-09T10:44:18.630Z",
+      "postedAtCorrectionBasis": "First census time belongs to quoted message; own live header timestamp is19:30:10.993Z."
     },
     {
       "messageId": "951206737866809345",
