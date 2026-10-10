@@ -21,16 +21,19 @@
     "discordAccountId": "708887932249047130",
     "freshOriginalAuthorAndCaptionReviewed": true,
     "freshOriginalRemotePixelsReviewed": false,
-    "preservedImagePixelsReviewed": true,
+    "preservedImagePixelsReviewed": false,
     "preservedImage": "archive/winter2020-attachments/796994304274726923.png",
     "displayedTime": "1:36.76",
     "displayedPreviousBest": "1:36.83",
     "originalCaption": "48.41/48.35",
-    "splitSumMatches": true
+    "splitSumMatches": true,
+    "priorResultEvidenceRetained": true,
+    "pixelClaimCorrectionAudit": "archive/newyear2021-omitted-image-output-evidence-correction-20261010.json"
   },
   "limitations": [
+    "Local image output omitted from model input; unsupported fresh pixel claim revoked. Account reassignment relies on fresh original author account; result relies on pre-existing reviewed source evidence, and Saki7 lap caption was freshly readable.",
     "Only this exact original source merged with matching sheet row. Other Saki profile records remain separate pending source identity checks.",
-    "Caption freshly reviewed; preserved local image verifies result and previous best. No video or fresh remote pixels reviewed.",
+    "Caption freshly reviewed; prior result and previous-best evidence retained without fresh pixel verification. No video or fresh remote pixels reviewed.",
     "Submission clock retained independently of January8 snapshot. Date precision, total, splits and supporting status preserved; no WR or fastest-recording promotion.",
     "Previous best 1:36.83 not assigned an invented race date; full tour and archive remain incomplete; live deployment unverified."
   ],
