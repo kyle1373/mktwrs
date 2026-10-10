@@ -18,7 +18,7 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 33,
+      "fresh-original-reviewed-supporting-results-restored": 35,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
@@ -27,7 +27,8 @@
       "fresh-original-result-reviewed-author-identity-pending": 8,
       "fresh-original-reviewed-joke-image-no-result": 1,
       "fresh-original-reviewed-photo-no-result": 1,
-      "original-source-review-pending": 43,
+      "fresh-original-image-corroborates-existing-video-result": 1,
+      "original-source-review-pending": 40,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -2169,10 +2170,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794043174778699786/Screenshot_20201230-191937.png?ex=6ac469d5&is=6ac31855&hm=c989c71f16db72f39496cc81782ab71473a0a1244a44c9afb2f3e68622e887be&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794043175136002058-newyear2021-opening-original-reviewed",
+        "794043175136002058-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794043175136002058",
+        "attachmentId": "794043174778699786",
+        "postedAt": "2020-12-31T03:24:05.561Z",
+        "discordAccountId": "424013066473308181",
+        "currentAuthor": "Nick",
+        "canonicalPlayerId": "littea",
+        "identityBasis": "Original Nick account 424013066473308181 matches existing LITTEA profile exactly.",
+        "displayedTime": "0:59.19",
+        "displayedPreviousBest": "0:59.22",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-littea-three-original-images-earlier-video-result-source-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-littea-three-original-images-earlier-video-result-source-review-20261010.json"
     },
     {
       "messageId": "794048144505045033",
@@ -2182,10 +2208,34 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794048144400318474/Screenshot_20201230-194311.png?ex=6ac46e76&is=6ac31cf6&hm=0b0262b0127c73274465bfeb4d3bab281d55f4ab07ca752e7b841722d7358445&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794048144505045033-newyear2021-opening-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794048144505045033",
+        "attachmentId": "794048144400318474",
+        "postedAt": "2020-12-31T03:43:50.351Z",
+        "discordAccountId": "424013066473308181",
+        "currentAuthor": "Nick",
+        "canonicalPlayerId": "littea",
+        "identityBasis": "Original Nick account 424013066473308181 matches existing LITTEA profile exactly.",
+        "displayedTime": "0:59.07",
+        "displayedPreviousBest": "0:59.19",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-littea-three-original-images-earlier-video-result-source-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-littea-three-original-images-earlier-video-result-source-review-20261010.json"
     },
     {
       "messageId": "794050691462463509",
@@ -2198,7 +2248,27 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-image-corroborates-existing-video-result",
+      "freshOriginalReview": {
+        "reviewAudit": "archive/newyear2021-littea-three-original-images-earlier-video-result-source-review-20261010.json",
+        "messageId": "794050691462463509",
+        "attachmentId": "794050691345547274",
+        "postedAt": "2020-12-31T03:53:57.593Z",
+        "currentAuthor": "Nick",
+        "playerId": "littea",
+        "discordAccountId": "424013066473308181",
+        "displayedTime": "0:58.94",
+        "displayedPreviousBest": "0:59.07",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-image-corroborates-existing-video-result",
+        "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/794050691345547274/Screenshot_20201230-195338.png",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/794050691462463509",
+        "canonicalId": "curated-794402409745088513-verified-video-support",
+        "videoSharedAt": "2021-01-01T03:11:33.766Z",
+        "freshVideoReview": false,
+        "basis": "Exact account, course and total match existing preserved video result. Earlier screenshot observation clock is separate from later video-sharing clock. No duplicate performance created."
+      },
+      "reviewAudit": "archive/newyear2021-littea-three-original-images-earlier-video-result-source-review-20261010.json"
     },
     {
       "messageId": "794085007932522496",
