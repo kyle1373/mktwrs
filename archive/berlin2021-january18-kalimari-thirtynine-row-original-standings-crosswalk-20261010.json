@@ -1177,8 +1177,36 @@
           "submittedAt": "2021-01-14T19:29:34.571Z"
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending",
-      "limitation": "Table Spartacurt name matches historical display, but published player IDs spartacurtyt and spart differ. Exact laps match verified-video support row under spart; identity and source choice require reconciliation."
+      "reviewStatus": "original-video-source-matched-profile-consolidation-pending",
+      "limitation": "Table Spartacurt name matches historical display, but published player IDs spartacurtyt and spart differ. Exact laps match verified-video support row under spart; identity and source choice require reconciliation.",
+      "latestOriginalSourceReview": "archive/berlin2021-kalimari-three-results-and-spart-original-video-crosswalk-20261010.json",
+      "aliasReconciliation": {
+        "displayedRank": 15,
+        "displayedPlayer": "spartacurtYT",
+        "candidateProfileId": "spartacurtyt",
+        "originalMessageId": "800522130688180304",
+        "originalSubmittedAt": "2021-01-18T00:29:08.938Z",
+        "currentOriginalAuthorDisplay": "spartacurtYT",
+        "freshOriginalDiscordTextReview": true,
+        "freshOriginalTimestampReview": true,
+        "reviewStatus": "original-video-source-matched-profile-consolidation-pending",
+        "videoSource": {
+          "messageId": "800787842548498472",
+          "publishedAt": "2021-01-18T18:04:59.582Z",
+          "author": "spartacurtYT",
+          "caption": "Here's my Kalimari Desert. Does anyone else turn manual off for the beginning and turn it back on along with SS?",
+          "url": "https://www.youtube.com/watch?v=OxUBpToN53U",
+          "embedUploader": "Spartacurt - Mario Kart Tour - F2P",
+          "embedTime": "1:03.99",
+          "existingVideoRow": "curated-800787842548498472-verified-video-support",
+          "existingVideoProfile": "spart",
+          "existingVerifiedLaps": [
+            "29.84",
+            "34.15"
+          ]
+        },
+        "decision": "Original named author explicitly shares own video, matching standings total and prior verified footage laps. Screenshot row has null laps; sheet-LC56 and existing video row use different profiles. Preserve exact clocks and media identity; reconcile duplicate profiles before canonical assignment. No fresh playback."
+      }
     },
     {
       "displayedRank": 16,
@@ -1803,7 +1831,12 @@
           "submittedAt": "2021-01-13T06:53:31.835Z"
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "matched-exact-original-result-runner-and-total-null-splits",
+      "acceptedExistingId": "799948575541821460-january2021-support-reviewed",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kalimari-three-results-and-spart-original-video-crosswalk-20261010.json",
+      "originalSubmittedAt": "2021-01-16T10:30:02.735Z",
+      "freshOriginalDiscordTextReview": true,
+      "freshOriginalTimestampReview": true
     },
     {
       "displayedRank": 26,
@@ -2328,7 +2361,12 @@
           "submittedAt": null
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
+      "acceptedExistingId": "799501261480394773-verified-video-support",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kalimari-three-results-and-spart-original-video-crosswalk-20261010.json",
+      "originalSubmittedAt": "2021-01-15T04:52:34.752Z",
+      "freshOriginalDiscordTextReview": true,
+      "freshOriginalTimestampReview": true
     },
     {
       "displayedRank": 35,
@@ -2637,14 +2675,19 @@
         }
       ],
       "sameTotalOtherCandidates": [],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
+      "acceptedExistingId": "798947425468940380-january2021-support-reviewed",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kalimari-three-results-and-spart-original-video-crosswalk-20261010.json",
+      "originalSubmittedAt": "2021-01-13T16:11:49.957Z",
+      "freshOriginalDiscordTextReview": true,
+      "freshOriginalTimestampReview": true
     }
   ],
   "coverage": {
     "visuallyReadRows": 39,
     "rowsWithProfileAndTotalCandidates": 34,
-    "originalSourceReconciliationPending": 13,
-    "exactOriginalResultsReconciled": 26,
+    "originalSourceReconciliationPending": 10,
+    "exactOriginalResultsReconciled": 29,
     "aliasSourceReviewsWithIdentityStillPending": 2
   },
   "decision": "Replace leader-only scope with full row transcription and exact public candidate crosswalk. Candidate profiles remain review leads; no identity merges or new results published.",
