@@ -45,7 +45,7 @@
       "original-image-shroom-versus-shroomless-caption-reviewed-time-course-proof-pending": 1,
       "explicit-first-lap-caption-linked-original-video-share-footage-pending": 1,
       "external-channel-image-repost-original-owner-time-course-pending": 5,
-      "image-only-original-time-course-visual-review-pending": 10,
+      "image-only-original-time-course-visual-review-pending": 11,
       "conditional-lap-threshold-guidance-not-exact-result": 1,
       "potential-time-discussion-not-proved-finished-run": 1,
       "quoted-boost-discussion-reply-own-post-clock-corrected": 1,
@@ -106,10 +106,16 @@
       "reaction-to-respawn-measurement-not-independent-run": 1,
       "respawn-repeatability-commentary-not-full-race-result": 1,
       "berlin-recording-fractional-time-caption-footage-full-result-pending": 1,
-      "pending-original-context-proof-and-chronology-review": 84
+      "handling-change-question-edit-clock-not-run-result": 1,
+      "historical-leaderboard-coverage-question-not-result": 1,
+      "historical-leaderboard-coverage-claim-wiki-reference-not-result": 1,
+      "historical-missing-track-example-not-result": 1,
+      "delayed-split-caption-potential-existing-run-match-unresolved": 1,
+      "control-mode-clip-caption-original-share-footage-result-pending": 2,
+      "pending-original-context-proof-and-chronology-review": 76
     },
-    "candidatesWithRecordedDisposition": 115,
-    "untouchedCandidates": 84
+    "candidatesWithRecordedDisposition": 123,
+    "untouchedCandidates": 76
   },
   "rows": [
     {
@@ -4998,8 +5004,23 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/997411029761937479/IMG_7425.png?ex=6ac400a8&is=6ac2af28&hm=1ed9b6de915d403b090db782502d453c61b24ea2a8538b66e16386edd81a112f&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "image-only-original-time-course-visual-review-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "997411030395256893",
+        "postedAt": "2022-07-15T07:55:20.647Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997411030395256893",
+        "currentAuthor": "Wins",
+        "writtenCaption": null,
+        "attachmentPath": "636461740162416640/997411029761937479/IMG_7425.png",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "image-only-original-time-course-visual-review-pending"
+      }
     },
     {
       "messageId": "997768378498428948",
@@ -5010,8 +5031,32 @@
       "shorthandTokens": [
         "12:35"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "handling-change-question-edit-clock-not-run-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "997768378498428948",
+        "postedAt": "2022-07-16T07:35:19.074Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997768378498428948",
+        "currentAuthor": null,
+        "writtenCaption": "So I wonder how that affects this track",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "handling-change-question-edit-clock-not-run-result",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Wins",
+        "postEditedAt": "2022-07-16T07:35:23.989Z",
+        "shorthandTokenIsEditedClock": true,
+        "precedingCommentMessageId": "997768325180424283",
+        "precedingCommentAt": "2022-07-16T07:35:06.362Z",
+        "precedingComment": "Manual no ss was slightly changed a couple of months ago",
+        "handlingChangeClaimNotIndependentlyVerified": true,
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "997888730520096788",
@@ -5022,8 +5067,27 @@
       "shorthandTokens": [
         "10:18"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "historical-leaderboard-coverage-question-not-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "997888730520096788",
+        "postedAt": "2022-07-16T15:33:33.232Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997888730520096788",
+        "currentAuthor": "Manfredi",
+        "writtenCaption": "Why aren't all of the track that had tt on the leaderboard?",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "historical-leaderboard-coverage-question-not-result",
+        "postEditedAt": "2022-07-16T17:18:54.244Z",
+        "shorthandTokenIsEditedClock": true,
+        "independentRunClaim": false,
+        "historicalCoverageClaimNotQuantitativelyVerified": true
+      }
     },
     {
       "messageId": "997911303626702918",
@@ -5034,8 +5098,28 @@
       "shorthandTokens": [
         "10:09"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "historical-leaderboard-coverage-claim-wiki-reference-not-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "997911303626702918",
+        "postedAt": "2022-07-16T17:03:15.080Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997911303626702918",
+        "currentAuthor": "Manfredi",
+        "writtenCaption": "not even half of them are on the leaderboard https://www.mariowiki.com/Time_Trial_(Mario_Kart_Tour)",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "historical-leaderboard-coverage-claim-wiki-reference-not-result",
+        "postEditedAt": "2022-07-16T17:09:26.589Z",
+        "shorthandTokenIsEditedClock": true,
+        "independentRunClaim": false,
+        "historicalCoverageClaimNotQuantitativelyVerified": true,
+        "linkedReference": "https://www.mariowiki.com/Time_Trial_(Mario_Kart_Tour)"
+      }
     },
     {
       "messageId": "997929854433505361",
@@ -5046,8 +5130,28 @@
       "shorthandTokens": [
         "11:17"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "historical-missing-track-example-not-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "997929854433505361",
+        "postedAt": "2022-07-16T18:16:57.937Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997929854433505361",
+        "currentAuthor": "Manfredi",
+        "writtenCaption": "Not all tracks that had a time trials event are on the leaderboard, for example SNES Mario Circuit 1",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "historical-missing-track-example-not-result",
+        "postEditedAt": "2022-07-16T18:17:09.199Z",
+        "shorthandTokenIsEditedClock": true,
+        "independentRunClaim": false,
+        "historicalCoverageClaimNotQuantitativelyVerified": true,
+        "namedMissingTrack": "SNES Mario Circuit 1"
+      }
     },
     {
       "messageId": "1003277331412025354",
@@ -5059,8 +5163,41 @@
         "20.31",
         "20.08"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "delayed-split-caption-potential-existing-run-match-unresolved",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "1003277331412025354",
+        "postedAt": "2022-07-31T12:25:55.800Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1003277331412025354",
+        "currentAuthor": null,
+        "writtenCaption": "but it was 20.31/20.08",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "delayed-split-caption-potential-existing-run-match-unresolved",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Kirio",
+        "reportedSplitPair": [
+          "20.31",
+          "20.08"
+        ],
+        "splitSum": "0:40.39",
+        "precedingCommentMessageId": "1003277315385606205",
+        "precedingCommentPostedAt": "2022-07-31T12:25:51.979Z",
+        "precedingComment": "I forgot to send my splits for the last one",
+        "possibleExistingSubmissionId": "curated-1001729325000822834-1001729323973214219-july2022-image-reviewed",
+        "possibleExistingCourseId": "snes-ghost-valley-1r",
+        "possibleExistingTotal": "0:40.39",
+        "possibleExistingOriginalSubmittedAt": "2022-07-27T05:54:42.311Z",
+        "originalImagePostReviewed": true,
+        "originalWrittenTimeAbsent": true,
+        "exactSplitAssignmentUnresolved": true,
+        "existingNullLapsRetained": true
+      }
     },
     {
       "messageId": "1007548860131983360",
@@ -5073,8 +5210,31 @@
       "shorthandTokens": [
         "12:27"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "control-mode-clip-caption-original-share-footage-result-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "1007548860131983360",
+        "postedAt": "2022-08-12T07:19:27.608Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1007548860131983360",
+        "currentAuthor": "Wins",
+        "writtenCaption": "Drift button no smart steering",
+        "attachmentPath": "636461740162416640/1007548859179859978/RPReplay_Final1660288483.mov",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "control-mode-clip-caption-original-share-footage-result-pending",
+        "postEditedAt": "2022-08-12T07:27:24.779Z",
+        "shorthandTokenIsEditedClock": false,
+        "originalClipSharedAt": "2022-08-12T07:19:27.608Z",
+        "videoAvailabilityUnverified": true,
+        "footageVisualReviewPending": true,
+        "sameFilenameOtherMessageId": "1007548914662129754",
+        "distinctAttachmentIds": true,
+        "sameMediaContentNotProvedByFilename": true
+      }
     },
     {
       "messageId": "1007548914662129754",
@@ -5085,8 +5245,31 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/1007548914032988210/RPReplay_Final1660288483.mov?ex=6ac3f84c&is=6ac2a6cc&hm=0f27a933665b8a13797ec3abc0670304b13acfacea44f219b662bcb2845964ce&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "control-mode-clip-caption-original-share-footage-result-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/july2022-august12-eight-coverage-split-control-clip-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "1007548914662129754",
+        "postedAt": "2022-08-12T07:19:40.609Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1007548914662129754",
+        "currentAuthor": null,
+        "writtenCaption": "manual no smart steering",
+        "attachmentPath": "636461740162416640/1007548914032988210/RPReplay_Final1660288483.mov",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "control-mode-clip-caption-original-share-footage-result-pending",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Wins",
+        "originalClipSharedAt": "2022-08-12T07:19:40.609Z",
+        "videoAvailabilityUnverified": true,
+        "footageVisualReviewPending": true,
+        "sameFilenameOtherMessageId": "1007548860131983360",
+        "distinctAttachmentIds": true,
+        "sameMediaContentNotProvedByFilename": true
+      }
     },
     {
       "messageId": "1012407211550588948",
