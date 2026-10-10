@@ -1,0 +1,3013 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCensus": {
+    "path": "archive/tt-discussion-2022-full-message-census-20261004.json.gz",
+    "compressedSHA256": "b5b84b39a29f901a2a798a35ae41ee8dc33b7e4ae530a2b8660a8e525f3ce5ae",
+    "uniqueCapturedMessages": 2798,
+    "captureCompleteForSpecifiedQuery": true,
+    "query": "in:tt-discussion after:2021-12-31 before:2023-01-01"
+  },
+  "method": {
+    "basis": "Committed HEAD census,canonical course source IDs,selected210full-time queue,separate165video queue,and exact IDs appearing in committed review/reconciliation filenames.",
+    "attachmentScreen": "Captured links or image src with /attachments/. Quoted images,embeds and other assets may be false positives.",
+    "shorthandScreen": "Two-digit dot/colon two-digit tokens after first full weekday timestamp line; may be splits,targets or discussion. Not a result classifier.",
+    "precedence": [
+      "selected-full-time-queue-disposition",
+      "canonical-source-reference",
+      "separate-video-queue-reference",
+      "prior-review-reference-requires-scope-audit",
+      "new-attachment-or-shorthand-candidate",
+      "outside-attachment-and-shorthand-screen"
+    ]
+  },
+  "coverage": {
+    "censusMessages": 2798,
+    "classificationCounts": {
+      "outside-attachment-and-shorthand-screen": 2020,
+      "separate-video-queue-reference": 159,
+      "new-attachment-or-shorthand-candidate": 199,
+      "prior-review-reference-requires-scope-audit": 203,
+      "canonical-source-reference": 7,
+      "selected-full-time-queue-disposition": 210
+    },
+    "messagesWithAttachmentOrShorthand": 626,
+    "newCandidates": 199,
+    "candidateStatusCounts": {
+      "image-result-context-and-fresh-visual-review-pending": 1,
+      "explicit-failed-attempt-caption-image-review-pending": 1,
+      "clip-source-caption-reviewed-footage-course-time-pending": 1,
+      "pending-original-context-proof-and-chronology-review": 196
+    },
+    "candidatesWithRecordedDisposition": 3,
+    "untouchedCandidates": 196
+  },
+  "rows": [
+    {
+      "messageId": "928302314408788019",
+      "postedAt": "2022-01-05T15:01:58.778Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928302314408788019",
+      "capturedText": "Wins\n — \n1/5/22, 7:01 AM\nWednesday, January 5, 2022 at 7:01 AM\n after 6 minutes of playing with bounce",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/928302313301479434/IMG_4145.png?ex=6ac3bbe6&is=6ac26a66&hm=426f220e52d278f7172bdd0de50ac6079409db62113c64c614bbad4cedb7fd38&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "image-result-context-and-fresh-visual-review-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/january2022-january5-three-bounce-failure-tree-original-context-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "928302314408788019",
+        "postedAt": "2022-01-05T15:01:58.778Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928302314408788019",
+        "currentAuthor": "Wins",
+        "writtenCaption": "after 6 minutes of playing with bounce",
+        "attachmentPath": "928302313301479434/IMG_4145.png",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "image-result-context-and-fresh-visual-review-pending"
+      }
+    },
+    {
+      "messageId": "928304436370100245",
+      "postedAt": "2022-01-05T15:10:24.693Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928304436370100245",
+      "capturedText": "Wins\n — \n1/5/22, 7:10 AM\nWednesday, January 5, 2022 at 7:10 AM\nFail #2",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/928304435988414524/IMG_4147.png?ex=6ac3bde0&is=6ac26c60&hm=1faa6660b697addb46d4331008c4874da30e1422757f6ae88d091c479cd586af&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "explicit-failed-attempt-caption-image-review-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/january2022-january5-three-bounce-failure-tree-original-context-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "928304436370100245",
+        "postedAt": "2022-01-05T15:10:24.693Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928304436370100245",
+        "currentAuthor": "Wins",
+        "writtenCaption": "Fail #2",
+        "attachmentPath": "928304435988414524/IMG_4147.png",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "explicit-failed-attempt-caption-image-review-pending"
+      }
+    },
+    {
+      "messageId": "928307592864870450",
+      "postedAt": "2022-01-05T15:22:57.260Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928307592864870450",
+      "capturedText": "Wins\n — \n1/5/22, 7:22 AM\nWednesday, January 5, 2022 at 7:22 AM\nGomi tree\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/928307591908589588/RPReplay_Final1641396095.mov?ex=6ac3c0d1&is=6ac26f51&hm=8459706b66a70b9185dd1cd22b23cc9cbebbaf67cfafe30323eb6eed94785992&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "clip-source-caption-reviewed-footage-course-time-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/january2022-january5-three-bounce-failure-tree-original-context-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "928307592864870450",
+        "postedAt": "2022-01-05T15:22:57.260Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928307592864870450",
+        "currentAuthor": "Wins",
+        "writtenCaption": "Gomi tree",
+        "attachmentPath": "928307591908589588/RPReplay_Final1641396095.mov",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "clip-source-caption-reviewed-footage-course-time-pending"
+      }
+    },
+    {
+      "messageId": "929097757359218689",
+      "postedAt": "2022-01-07T19:42:47.156Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/929097757359218689",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n1/7/22, 11:42 AM\nFriday, January 7, 2022 at 11:42 AM\n10min.",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/929097756121894941/IMG_5709.png?ex=6ac3fdb6&is=6ac2ac36&hm=9a5abcfbde52ff79476d8586cbfaaafe562dc3dbc8cb7c5fff4636e16df6d053&",
+        "https://media.discordapp.net/attachments/636461740162416640/929097756121894941/IMG_5709.png?ex=6ac3fdb6&is=6ac2ac36&hm=9a5abcfbde52ff79476d8586cbfaaafe562dc3dbc8cb7c5fff4636e16df6d053&=&format=webp&quality=lossless&width=296&height=640"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "930026795271610408",
+      "postedAt": "2022-01-10T09:14:27.055Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/930026795271610408",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n1/10/22, 1:14 AM\nMonday, January 10, 2022 at 1:14 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/930026794390786048/IMG_5840.png?ex=6ac41332&is=6ac2c1b2&hm=ca3b8ee5dbeaa35e6aff3574370161c57e8f82b005d795559e4685fcb04ffae4&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "930028279795179551",
+      "postedAt": "2022-01-10T09:20:20.993Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/930028279795179551",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n1/10/22, 1:20 AM\nMonday, January 10, 2022 at 1:20 AM\nI had a dream. \nFX in the dream showed me a screenshot of 39.41 (No Shoom) here.\nI couldn't beat him in my dreams. (edited)\nMonday, January 10, 2022 at 1:20 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "39.41"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "930036910141882379",
+      "postedAt": "2022-01-10T09:54:38.628Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/930036910141882379",
+      "capturedText": "Wins\n — \n1/10/22, 1:54 AM\nMonday, January 10, 2022 at 1:54 AM\n1 try, end",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/930036908791332884/IMG_4206.png?ex=6ac41c9e&is=6ac2cb1e&hm=e2f01d48556ce13f575744b4d22f6ca50f5115782031243c395a3d20dbd7aa7c&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "930067508747194369",
+      "postedAt": "2022-01-10T11:56:13.904Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/930067508747194369",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n1/10/22, 3:56 AM\nMonday, January 10, 2022 at 3:56 AM\nIts my first record (shroom)\nSo I think I wanted to break this record with Shroomless",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/930067505068785724/IMG_5848.png?ex=6ac3905d&is=6ac23edd&hm=4b40468b1c23f4bdc8518f3315f2e38cad582c05b12d5d8731251fa96c7a4630&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "930155481169801356",
+      "postedAt": "2022-01-10T17:45:48.164Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/930155481169801356",
+      "capturedText": "Wins\n — \n1/10/22, 9:45 AM\nMonday, January 10, 2022 at 9:45 AM\n16.77 lap 1 with ice bounce in Vanilla Lake",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "16.77"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "930716884276478002",
+      "postedAt": "2022-01-12T06:56:37.095Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/930716884276478002",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n1/11/22, 10:56 PM\nTuesday, January 11, 2022 at 10:56 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/604712560398434306/930716543099240488/IMG_1005.jpg?ex=6ac3f293&is=6ac2a113&hm=5d86d0dcb4c05ac53859d63a24c758651eb1ee498e87f0a5f2e28e5551fba933&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "930789050435137566",
+      "postedAt": "2022-01-12T11:43:22.848Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/930789050435137566",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n1/12/22, 3:43 AM\nWednesday, January 12, 2022 at 3:43 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/930789048967106560/IMG_5919.png?ex=6ac38d5a&is=6ac23bda&hm=b1f17b0ad6667c631a03f40c9b8a078f68706413be10cf3bf10a753ca98877ef&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "931247443931181116",
+      "postedAt": "2022-01-13T18:04:52.374Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/931247443931181116",
+      "capturedText": "Λsτre [DST], \nServer Tag: DST\nDST\n — \n1/13/22, 10:04 AM\nThursday, January 13, 2022 at 10:04 AM\nIf you did a 53.5x or slower time in lap 1, you will be bothered by bumpers at the beginning of turn 2 (edited)\nThursday, January 13, 2022 at 10:04 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:04"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "932310705250635936",
+      "postedAt": "2022-01-16T16:29:53.627Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/932310705250635936",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n1/16/22, 8:29 AM\nSunday, January 16, 2022 at 8:29 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/932310703778455613/IMG_6042.png?ex=6ac3d081&is=6ac27f01&hm=a7dbbb4c20b219d03053cecc1b7051928c9a8680d118616bba07a53ee9007452&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "932341303373594654",
+      "postedAt": "2022-01-16T18:31:28.788Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/932341303373594654",
+      "capturedText": "Rόmάίή\nSo 1:10.5 possible ?\nWins\n — \n1/16/22, 10:31 AM\nSunday, January 16, 2022 at 10:31 AM\n1:09, double goomba boost  (edited)\nSunday, January 16, 2022 at 10:31 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:31"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "932343730999033967",
+      "postedAt": "2022-01-16T18:31:35.458Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/932343730999033967",
+      "capturedText": "@Wins\n1:09, double goomba boost  (edited)\nSunday, January 16, 2022 at 10:31 AM\nRόmάίή\n — \n1/16/22, 10:41 AM\nSunday, January 16, 2022 at 10:41 AM\nWtf i try it but never got it",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:41",
+        "10:41"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "932359293737500742",
+      "postedAt": "2022-01-16T19:42:58.025Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/932359293737500742",
+      "capturedText": "Wins\n — \n1/16/22, 11:42 AM\nSunday, January 16, 2022 at 11:42 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/932359292311461968/RPReplay_Final1642361919.mov?ex=6ac3fdc1&is=6ac2ac41&hm=10eea31fd7f6f6a34b424486675844e29c7f545cd21f324811d02bd24d38ea0f&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "932361049875832962",
+      "postedAt": "2022-01-16T19:49:56.721Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/932361049875832962",
+      "capturedText": "spartacurtYT\n — \n1/16/22, 11:49 AM\nSunday, January 16, 2022 at 11:49 AM\n@Wins Mt-Smt or umt for last corner? (edited)\nSunday, January 16, 2022 at 11:50 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:50"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "932981525333565450",
+      "postedAt": "2022-01-18T12:55:29.598Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/932981525333565450",
+      "capturedText": "N\n — \n1/18/22, 4:55 AM\nTuesday, January 18, 2022 at 4:55 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/932981524284964905/IMG_6160.png?ex=6ac39e41&is=6ac24cc1&hm=fdc2ed723a505d3590edf881e870f3b73227a8c825916d395bfdec3a9fba5e87&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "935160580413718548",
+      "postedAt": "2022-01-24T13:14:16.814Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/935160580413718548",
+      "capturedText": "NHSpeedy\n — \n1/24/22, 5:14 AM\nMonday, January 24, 2022 at 5:14 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/935160579440672848/IMG_0454.png?ex=6ac3a2a8&is=6ac25128&hm=f13d0ae0d71b0e120124a6e6575d558dbf9bba8f4d0a5ed9441a35bbbc80f9f5&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "935785574047031336",
+      "postedAt": "2022-01-26T06:37:46.908Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/935785574047031336",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n1/25/22, 10:37 PM\nTuesday, January 25, 2022 at 10:37 PM",
+      "capturedAttachmentReferences": [
+        "https://media.discordapp.net/attachments/640622298235273217/935784992825561099/Screenshot_20220126-071648_Mario_Kart.jpg?ex=6ac3edf0&is=6ac29c70&hm=4c3e33ab4a2598cb31a9c0235e6fece7f957f9c6fb2cf481e10e7af168fefbd3&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "937415072999964812",
+      "postedAt": "2022-01-30T18:32:49.733Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/937415072999964812",
+      "capturedText": "Wins\n — \n1/30/22, 10:32 AM\nSunday, January 30, 2022 at 10:32 AM\n1:35, go",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/937415072106565663/IMG_4511.png?ex=6ac3ed51&is=6ac29bd1&hm=a70df898266df93ea0ad01871fbbcd8464ab57ee2d6341392b7858ccb904aadb&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "937693510436544522",
+      "postedAt": "2022-01-31T12:59:14.391Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/937693510436544522",
+      "capturedText": "Wins\n — \n1/31/22, 4:59 AM\nMonday, January 31, 2022 at 4:59 AM\nDid anyone ever test if this can be good?\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/937693509064986704/RPReplay_Final1643633435.mov?ex=6ac39f22&is=6ac24da2&hm=1ca55a6430961a38476f8e9b051cb680a681bf38eccf24c7fc4d7d675a318af2&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "937711447306276904",
+      "postedAt": "2022-01-31T14:10:30.874Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/937711447306276904",
+      "capturedText": "Timaël [0%], \nServer Tag: 0%\n0%\n — \n1/31/22, 6:10 AM\nMonday, January 31, 2022 at 6:10 AM\nWtf 36.16 (edited)\nMonday, January 31, 2022 at 6:10 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "36.16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "938016194324230164",
+      "postedAt": "2022-02-01T10:21:28.225Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/938016194324230164",
+      "capturedText": "Wins\n — \n2/1/22, 2:21 AM\nTuesday, February 1, 2022 at 2:21 AM\nMust reach sub.. !! ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/938016193577635910/IMG_4558.png?ex=6ac422e8&is=6ac2d168&hm=cba66bdad8f74c4e5fd9b13805617f72ae37bd9bfeb799d81ecd94cf0cd17243&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "938457683412013086",
+      "postedAt": "2022-02-02T15:35:47.426Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/938457683412013086",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n2/2/22, 7:35 AM\nWednesday, February 2, 2022 at 7:35 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/938457681696555089/RPReplay_Final1643815925.mov?ex=6ac3c3d3&is=6ac27253&hm=77a7484686cf63acee78a974b4993de015eb49fc5766adbf6c28805f312781ac&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "939255451630067742",
+      "postedAt": "2022-02-04T20:25:50.191Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/939255451630067742",
+      "capturedText": "NHSpeedy\n — \n2/4/22, 12:25 PM\nFriday, February 4, 2022 at 12:25 PM\nagain lap 1 strats not optimal and lap 2 I just played it safe because I didn't want to fail the glider extension lol (edited)\nFriday, February 4, 2022 at 12:26 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:26"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "939272124546285568",
+      "postedAt": "2022-02-04T21:32:05.324Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/939272124546285568",
+      "capturedText": "Kirio\n — \n2/4/22, 1:32 PM\nFriday, February 4, 2022 at 1:32 PM\nI made 47.99 L1 and then I hit the fire bar ",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "47.99"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "940859417509920798",
+      "postedAt": "2022-02-09T06:39:25.457Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/940859417509920798",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n2/8/22, 10:39 PM\nTuesday, February 8, 2022 at 10:39 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/604712560398434306/940857447084593173/SPOILER_unknown.png?ex=6ac3ed07&is=6ac29b87&hm=345cd740b9a4ecd385801aff29d87177b7a904741d51d62fa326a0783d81d3a7&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "940948444552503309",
+      "postedAt": "2022-02-09T12:33:11.158Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/940948444552503309",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n2/9/22, 4:33 AM\nWednesday, February 9, 2022 at 4:33 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/940948444204380230/IMG_6833.png?ex=6ac39907&is=6ac24787&hm=cc820374b31704744ecb8c6bfa958c6f1a5c112a5eddec5a2517574cae239fd3&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "940948732181102652",
+      "postedAt": "2022-02-09T12:34:19.734Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/940948732181102652",
+      "capturedText": "@Kirio\nwhere do you use shroom normally?\nやっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n2/9/22, 4:34 AM\nWednesday, February 9, 2022 at 4:34 AM\nhere",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/940948730759217182/IMG_6834.png?ex=6ac3994b&is=6ac247cb&hm=6ddba8dbda60356c9dea6089008ac5b0739e567e8fbff224d91a99df16a06fb4&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "941336401260204092",
+      "postedAt": "2022-02-10T14:14:47.245Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/941336401260204092",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n2/10/22, 6:14 AM\nThursday, February 10, 2022 at 6:14 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/941336398705856632/IMG_6868.png?ex=6ac3b0d6&is=6ac25f56&hm=4cc1b29e4aa5f08f3139c942a230611e730c3e05d5277aadae820397b663b5d8&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "941395110405472346",
+      "postedAt": "2022-02-10T18:08:04.596Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/941395110405472346",
+      "capturedText": "Wins\n — \n2/10/22, 10:08 AM\nThursday, February 10, 2022 at 10:08 AM\nI dont understand what ur asking bro (edited)\nThursday, February 10, 2022 at 10:08 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:08"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "941497723486617610",
+      "postedAt": "2022-02-11T00:55:49.461Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/941497723486617610",
+      "capturedText": "Wins\n — \n2/10/22, 4:55 PM\nThursday, February 10, 2022 at 4:55 PM\n@えなが kaguya-san, the new pokemon game finished now for me.. was a nice game. Thank you for the Pokemon-stream.  (edited)\nThursday, February 10, 2022 at 4:58 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/941497722471587860/IMG_4708.jpg?ex=6ac39e55&is=6ac24cd5&hm=36862629088e0d21248d4ecdf207db114c39b252a30f02c14b01e16ee8f6ea78&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "941677683027370034",
+      "postedAt": "2022-02-11T12:50:55.159Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/941677683027370034",
+      "capturedText": "Wins\n — \n2/11/22, 4:50 AM\nFriday, February 11, 2022 at 4:50 AM\nI did 49.21, but this cannon is a random shit",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "49.21"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "941678091179294730",
+      "postedAt": "2022-02-11T12:52:32.470Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/941678091179294730",
+      "capturedText": "Wins\n — \n2/11/22, 4:52 AM\nFriday, February 11, 2022 at 4:52 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/941678089937772564/RPReplay_Final1644573499.mov?ex=6ac39d90&is=6ac24c10&hm=8d62c0c4f0b8e7a9161840dfaec5b902d77cb0a8ebb3b99309287cd67b484418&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "941820513427263539",
+      "postedAt": "2022-02-11T22:18:28.580Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/941820513427263539",
+      "capturedText": "NHSpeedy\n — \n2/11/22, 2:18 PM\nFriday, February 11, 2022 at 2:18 PM\nthe final results from last tour's time trials:",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/941820512915562546/bc_leaderboard.png?ex=6ac42234&is=6ac2d0b4&hm=1bfd5ea7d685acca0f798f55ae1ef4c7d843327b2ae07819862cdc0d71d4ff19&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "941820553474494464",
+      "postedAt": "2022-02-11T22:18:38.128Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/941820553474494464",
+      "capturedText": "NHSpeedy\n — \n2/11/22, 2:18 PM\nFriday, February 11, 2022 at 2:18 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/941820552836939837/rmxrrdr_leaderboard.png?ex=6ac4223d&is=6ac2d0bd&hm=e11f1113ab8a7c798c17d1e246839b0f52569b2707ff3a78612457b8f1486f6e&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "943205007333916692",
+      "postedAt": "2022-02-15T17:59:57.650Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/943205007333916692",
+      "capturedText": "Wins\n — \n2/15/22, 9:59 AM\nTuesday, February 15, 2022 at 9:59 AM\n@えなが 2nd, 0.2 difference again  (edited)\nTuesday, February 15, 2022 at 10:02 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:02"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "943257743563841608",
+      "postedAt": "2022-02-15T21:29:30.947Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/943257743563841608",
+      "capturedText": "Wins\n — \n2/15/22, 1:29 PM\nTuesday, February 15, 2022 at 1:29 PM\nVery fast strat\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/943257742641102858/RPReplay_Final1644960025.mov?ex=6ac416ba&is=6ac2c53a&hm=3387926c1b728a066d4e3d82040c07e1e6130b7b76cb4664b2bdf699f5c09407&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "943367242752614471",
+      "postedAt": "2022-02-16T04:44:37.588Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/943367242752614471",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n2/15/22, 8:44 PM\nTuesday, February 15, 2022 at 8:44 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/943367241305571368/IMG_6999.png?ex=6ac3d3f5&is=6ac28275&hm=7ca3b59a9b7cab18fec3c95127827387e4b584117266b189950cb2d1368b8793&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "943512051454738542",
+      "postedAt": "2022-02-16T14:20:02.673Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/943512051454738542",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n2/16/22, 6:20 AM\nWednesday, February 16, 2022 at 6:20 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/943512050456461353/RPReplay_Final1645018838.mov?ex=6ac3b212&is=6ac26092&hm=bbc812b12a8d00c39e21b416df1658734b07548c977291d8e8f77fd65669d578&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "943921830941585519",
+      "postedAt": "2022-02-17T17:28:21.716Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/943921830941585519",
+      "capturedText": "Wins\n — \n2/17/22, 9:28 AM\nThursday, February 17, 2022 at 9:28 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/943921829389676614/RPReplay_Final1645035830.mov?ex=6ac3de35&is=6ac28cb5&hm=3247d4722764f3735a64541b00fc756fa98547403b33b50392150d294a5f07b4&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "943922261583343656",
+      "postedAt": "2022-02-17T17:30:04.389Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/943922261583343656",
+      "capturedText": "Wins\n — \n2/17/22, 9:30 AM\nThursday, February 17, 2022 at 9:30 AM\n@えなが I enter cannon 0.60 later than your 48.49 lap 1, but my lap 1 here is 48.64. You lose 0.45 in cannon compared to this clip for no reason. (edited)\nThursday, February 17, 2022 at 9:38 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "48.49",
+        "48.64"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "944016976274141225",
+      "postedAt": "2022-02-17T23:46:26.131Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/944016976274141225",
+      "capturedText": "Wins\n — \n2/17/22, 3:46 PM\nThursday, February 17, 2022 at 3:46 PM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/944016974957121546/RPReplay_Final1645035830.mov?ex=6ac38e11&is=6ac23c91&hm=c96f60a924a20ca075c180deac99aa54fa03c17f46a728e5ac0ae14d88e5f30c&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "944988184088031262",
+      "postedAt": "2022-02-20T16:05:40.118Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/944988184088031262",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n2/20/22, 8:05 AM\nSunday, February 20, 2022 at 8:05 AM\nTHE END",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/944988182699704390/IMG_7188.jpg?ex=6ac3cad3&is=6ac27953&hm=2bfdc3961685508bf3aff8c0fb6320d1039de7fdf1d4507b57a24c268828de16&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "945826612518224002",
+      "postedAt": "2022-02-22T23:37:17.033Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/945826612518224002",
+      "capturedText": "Wins\n — \n2/22/22, 3:37 PM\nTuesday, February 22, 2022 at 3:37 PM\nI shouldn’t have stopped playing this track, WR had weak lap 1. ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/945826610219716608/IMG_4928.png?ex=6ac38bec&is=6ac23a6c&hm=17fc0196c9f6717c0a95ed058936d0dd9614d39b98c488cf9f623e3a56d8ed66&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "946238272487698533",
+      "postedAt": "2022-02-24T02:53:04.418Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/946238272487698533",
+      "capturedText": "Kmello\n — \n2/23/22, 6:53 PM\nWednesday, February 23, 2022 at 6:53 PM\n!submit rmxgv1r Screenshot_20220223-110137122.jpg",
+      "capturedAttachmentReferences": [
+        "https://media.discordapp.net/attachments/875784780573184010/946045168505729034/Screenshot_20220223-110137122.jpg?width=298&height=675&ex=6ac3aeb8&is=6ac25d38&hm=70e381686a619461453a4dc208b307cf09affb6b8f61b298e46848b7fb0bb7da&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "946804885859471360",
+      "postedAt": "2022-02-25T16:24:35.573Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/946804885859471360",
+      "capturedText": "NHSpeedy\n — \n2/25/22, 8:24 AM\nFriday, February 25, 2022 at 8:24 AM\nHere are the full results from the Los Angeles Tour:",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/946804885238718564/ws_leaderboard.png?ex=6ac3cf43&is=6ac27dc3&hm=7d5557e666a49d1a9b46b5158e2c492fa108db7184742f9c764a436b3f8e6e75&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "946804923956330506",
+      "postedAt": "2022-02-25T16:24:44.656Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/946804923956330506",
+      "capturedText": "NHSpeedy\n — \n2/25/22, 8:24 AM\nFriday, February 25, 2022 at 8:24 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/946804923243311234/dksr_leaderboard.png?ex=6ac3cf4c&is=6ac27dcc&hm=bc999134d4757e2fe1d65b25d583ea385efeda31bae6e76b98111751846b1c7c&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "946836100792610838",
+      "postedAt": "2022-02-25T18:28:37.793Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/946836100792610838",
+      "capturedText": "Wins\n — \n2/25/22, 10:28 AM\nFriday, February 25, 2022 at 10:28 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/946836099710464010/RPReplay_Final1645813546.mov?ex=6ac3ec55&is=6ac29ad5&hm=015cc7c8dcaa5e654c381baf0b8d151d301133355ac62a5403b1d803d95fb64f&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "946836433849679912",
+      "postedAt": "2022-02-25T18:29:57.200Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/946836433849679912",
+      "capturedText": "Wins\n — \n2/25/22, 10:29 AM\nFriday, February 25, 2022 at 10:29 AM\nBest splits .55 (edited)\nFriday, February 25, 2022 at 10:30 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:30"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "946841737555476480",
+      "postedAt": "2022-02-25T18:51:01.702Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/946841737555476480",
+      "capturedText": "NHSpeedy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n2/25/22, 10:51 AM\nFriday, February 25, 2022 at 10:51 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/946841743301705748/rmxgv1r_leaderboard.png?ex=6ac3f197&is=6ac2a017&hm=059d3543aa798192059d798484f6c87285a91da7e9afd4ff11d25666d4fef148&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "946863933061464080",
+      "postedAt": "2022-02-25T20:19:13.523Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/946863933061464080",
+      "capturedText": "Zombie!\n — \n2/25/22, 12:19 PM\nFriday, February 25, 2022 at 12:19 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/946863931316637706/Screenshot_20220225_171800_64a8af90b361a1e69b45b8e8707d3333.jpg?ex=6ac40641&is=6ac2b4c1&hm=abfa14e4e2d2efaed77e7db47073cd2f049ea1e59ce8b6bc977e336f9b3a94f6&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "947053404302225460",
+      "postedAt": "2022-02-26T08:52:06.987Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/947053404302225460",
+      "capturedText": "NHSpeedy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n2/26/22, 12:52 AM\nSaturday, February 26, 2022 at 12:52 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/947053407838044200/rmxgv1r_leaderboard.png?ex=6ac40df7&is=6ac2bc77&hm=8b364e20baa21a50f0ccf17309ce32e58aa42a331e140e9bace47eb66718df28&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "947169681863749752",
+      "postedAt": "2022-02-26T16:34:09.718Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/947169681863749752",
+      "capturedText": "Larry★\n — \n2/26/22, 8:34 AM\nSaturday, February 26, 2022 at 8:34 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/947169681167507496/Mario_Kart_2022-02-26-13-21-04.jpg?ex=6ac3d181&is=6ac28001&hm=13cba7f6f980977c0f6a2f35cbd410d15baaffb370b2cd2004a6308378067689&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "947201984098877471",
+      "postedAt": "2022-02-26T18:42:31.171Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/947201984098877471",
+      "capturedText": "NHSpeedy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n2/26/22, 10:42 AM\nSaturday, February 26, 2022 at 10:42 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/947201988410617896/rmxgv1r_leaderboard.png?ex=6ac3ef98&is=6ac29e18&hm=8eede0a4d55bb1a51fb142c6065a28d28b81d70e29663961c8354b562256a7f5&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "947901258637922374",
+      "postedAt": "2022-02-28T17:01:11.213Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/947901258637922374",
+      "capturedText": "NHSpeedy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n2/28/22, 9:01 AM\nMonday, February 28, 2022 at 9:01 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/947901265776631818/rmxgv1r_leaderboard.png?ex=6ac3d7d8&is=6ac28658&hm=2c1b1cda6c29c47f5c3bdb87b3f1f3479eb50f562c7f6ab0f2d143704c7aa901&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "949092702044176394",
+      "postedAt": "2022-03-03T23:55:33.457Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/949092702044176394",
+      "capturedText": "NHSpeedy\n — \n3/3/22, 3:55 PM\nThursday, March 3, 2022 at 3:55 PM\nI played for 40 min yesterday and couldn't get lower than a 30.90. I was completely confused as to why",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "30.90"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "950670768944078868",
+      "postedAt": "2022-03-08T08:26:13.925Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/950670768944078868",
+      "capturedText": "Λsτre\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n3/8/22, 12:26 AM\nTuesday, March 8, 2022 at 12:26 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/950670796836184114/rmxgv1r_leaderboard.png?ex=6ac407ec&is=6ac2b66c&hm=6270a721e37a5f8a367803f7a8a72a31403121c35b97ce40fd170f890c078377&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "951017140188774410",
+      "postedAt": "2022-03-09T07:22:35.265Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951017140188774410",
+      "capturedText": "Λsτre [DST], \nServer Tag: DST\nDST\n — \n3/8/22, 11:22 PM\nTuesday, March 8, 2022 at 11:22 PM\nRMX RR1 N for the 2nd TT?! (edited)\nTuesday, March 8, 2022 at 11:24 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:24"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "951030432001040384",
+      "postedAt": "2022-03-09T08:15:24.280Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951030432001040384",
+      "capturedText": "Λsτre [DST], \nServer Tag: DST\nDST\n — \n3/9/22, 12:15 AM\nWednesday, March 9, 2022 at 12:15 AM\nThe jumps are not similar. I tried to play on it and I did some lows tricks, so I was slowed down by the ice in some places  (edited)\nWednesday, March 9, 2022 at 12:16 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "951200245583314994",
+      "postedAt": "2022-03-09T10:44:18.630Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951200245583314994",
+      "capturedText": "@Wins\nKazuo’s KD2R WR is so strong  (edited)\nWednesday, March 9, 2022 at 2:44 AM\nKazuo\n — \n3/9/22, 11:30 AM\nWednesday, March 9, 2022 at 11:30 AM\nIm so hooot ",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:30",
+        "11:30"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "951206737866809345",
+      "postedAt": "2022-03-09T19:55:58.874Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/951206737866809345",
+      "capturedText": "Λsτre [DST], \nServer Tag: DST\nDST\n — \n3/9/22, 11:55 AM\nWednesday, March 9, 2022 at 11:55 AM\nSection 1 : Good\nSection 2 : Gomi (edited)\nWednesday, March 9, 2022 at 11:56 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:56"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "952969639896449054",
+      "postedAt": "2022-03-14T16:41:07.471Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/952969639896449054",
+      "capturedText": "Ozokerite [TWCC], \nServer Tag: TWCC\nTWCC\n — \n3/14/22, 9:41 AM\nMonday, March 14, 2022 at 9:41 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/875784780573184010/952871413054836736/29F7F6C9-1BE9-4D78-8B86-7EAF6A8766E4.png?ex=6ac42068&is=6ac2cee8&hm=994cb672ca6cb06e50cdb2b084e46b60700e521e9f87f7515e0989daf283a955&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "952969654521962548",
+      "postedAt": "2022-03-14T16:41:10.958Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/952969654521962548",
+      "capturedText": "Ozokerite [TWCC], \nServer Tag: TWCC\nTWCC\n — \n3/14/22, 9:41 AM\nMonday, March 14, 2022 at 9:41 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/875784780573184010/952958698832142377/IMG_2820.png?ex=6ac3c8f2&is=6ac27772&hm=3ddf6d1c7932b691e81ad949fa57ed4d5d93d5b1e9f107f547139477d63cc7e2&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "952971077431201852",
+      "postedAt": "2022-03-14T16:46:50.206Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/952971077431201852",
+      "capturedText": "cabotsikalut\n — \n3/14/22, 9:46 AM\nMonday, March 14, 2022 at 9:46 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/952971076235849828/RPReplay_Final1647276323.mov?ex=6ac3d479&is=6ac282f9&hm=e8aa7756f08e08688908ec78903880e6324fa2e479f395b07b16b3835ef90554&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "955256460214943787",
+      "postedAt": "2022-03-21T00:08:07.922Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/955256460214943787",
+      "capturedText": "spartacurtYT\n — \n3/20/22, 5:08 PM\nSunday, March 20, 2022 at 5:08 PM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/955256458910523473/RPReplay_Final1647820955.mov?ex=6ac39327&is=6ac241a7&hm=db8809b5fc256db1dc010be9f6b199d35361fbf8d8b3d5f5566b30a1e72f1edf&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "955674676728823890",
+      "postedAt": "2022-03-22T03:49:58.509Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/955674676728823890",
+      "capturedText": "Jimmy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n3/21/22, 8:49 PM\nMonday, March 21, 2022 at 8:49 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/955674685473955841/kd2r_leaderboard.png?ex=6ac3c728&is=6ac275a8&hm=da5d3e01adc5fd1e5fa6d1c4b7f875b4f556d9b341e64b725ffd72330116fa27&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "955764639508078603",
+      "postedAt": "2022-03-22T09:47:27.307Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/955764639508078603",
+      "capturedText": "Deleted User\n — \n3/22/22, 2:47 AM\nTuesday, March 22, 2022 at 2:47 AM\nIs this good? Idk lol",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/955764638480478278/Screenshot_20220322-104513.png?ex=6ac41aef&is=6ac2c96f&hm=a7ac793aa8d33153262a5905ffb7645c4979fbfa24502339f5762505d8d3bc8e&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "956275382494056458",
+      "postedAt": "2022-03-23T19:36:57.924Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/956275382494056458",
+      "capturedText": "NHSpeedy\n — \n3/23/22, 12:36 PM\nWednesday, March 23, 2022 at 12:36 PM\nshould be good now (edited)\nWednesday, March 23, 2022 at 12:37 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:37"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "956296961202475018",
+      "postedAt": "2022-03-23T21:02:42.689Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/956296961202475018",
+      "capturedText": "NHSpeedy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n3/23/22, 2:02 PM\nWednesday, March 23, 2022 at 2:02 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/956296969389744218/kd2r_leaderboard.png?ex=6ac41074&is=6ac2bef4&hm=3eba0c68070cfe056b53d753ab013e7ccfc51d23627d791c37daac244ba7eec5&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "956297020207951882",
+      "postedAt": "2022-03-23T21:02:56.757Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/956297020207951882",
+      "capturedText": "NHSpeedy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n3/23/22, 2:02 PM\nWednesday, March 23, 2022 at 2:02 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/956297025551474708/rmxrr1_leaderboard.png?ex=6ac41082&is=6ac2bf02&hm=e45f977f969ee64b4801094dd31095127ebf2d18588a2b672d28e9acba9ceb0d&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "956933171486797845",
+      "postedAt": "2022-03-25T15:10:47.041Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/956933171486797845",
+      "capturedText": "Hatake [FREE], \nServer Tag: FREE\nFREE\n — \n3/25/22, 8:10 AM\nFriday, March 25, 2022 at 8:10 AM\nHow??",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/956933170987683890/IMG_20220325_160609.jpg?ex=6ac3bdf6&is=6ac26c76&hm=343fc41d3f7b6e666c81abfc8e010b4531462363f08a6cd1918d50a064ed066e&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "957122465862156359",
+      "postedAt": "2022-03-26T03:42:58.337Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/957122465862156359",
+      "capturedText": "shiraui\n — \n3/25/22, 8:42 PM\nFriday, March 25, 2022 at 8:42 PM\nfast?\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/957122464570306610/RPReplay_Final1648182072.mov?ex=6ac3c582&is=6ac27402&hm=462475b88431b164fa43a6eeec72fc1315b04e38a229c39031cb5ff6e502cd10&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "958428846414237747",
+      "postedAt": "2022-03-29T18:14:03.732Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/958428846414237747",
+      "capturedText": "Hatake [FREE], \nServer Tag: FREE\nFREE\n — \n3/29/22, 11:14 AM\nTuesday, March 29, 2022 at 11:14 AM\nLol",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/958428845621510174/Screenshot_2022-03-29-19-40-46-499_com.nintendo.zaka.jpg?ex=6ac3e8eb&is=6ac2976b&hm=0a14c2b2a3f04639f1a0cc2a6a8a10c5c0f449a613b01ffc4d22798927471c14&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "961177681532162078",
+      "postedAt": "2022-04-06T08:16:57.095Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/961177681532162078",
+      "capturedText": "Wins\n — \n4/6/22, 1:16 AM\nWednesday, April 6, 2022 at 1:16 AM\nBest splits 31.11 / 30.86 but played too much 8d last 2 weeks  (edited)\nWednesday, April 6, 2022 at 3:40 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "31.11",
+        "30.86"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "965891423754944533",
+      "postedAt": "2022-04-19T08:27:40.818Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/965891423754944533",
+      "capturedText": "Wins\n — \n4/19/22, 1:27 AM\nTuesday, April 19, 2022 at 1:27 AM\n49.04 with missed MT somewhere",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "49.04"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "966021981692657804",
+      "postedAt": "2022-04-19T17:06:28.256Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/966021981692657804",
+      "capturedText": "@Wins\nNice improvement @えなが \nえなが [KRNK], \nServer Tag: KRNK\nKRNK\n — \n4/19/22, 10:06 AM\nTuesday, April 19, 2022 at 10:06 AM\nthank you bro!\nbut my bs 48.98 for lap 1...\n:37 possible?",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "48.98"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "966022339030560809",
+      "postedAt": "2022-04-19T17:07:53.452Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/966022339030560809",
+      "capturedText": "Wins\n — \n4/19/22, 10:07 AM\nTuesday, April 19, 2022 at 10:07 AM\nYes 48 lap1 possible (edited)\nTuesday, April 19, 2022 at 10:08 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:08"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "966022436913053717",
+      "postedAt": "2022-04-19T17:08:16.789Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/966022436913053717",
+      "capturedText": "Wins\n — \n4/19/22, 10:08 AM\nTuesday, April 19, 2022 at 10:08 AM\nOn big ramp lap 2 after finish line (edited)\nTuesday, April 19, 2022 at 10:08 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:08"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "967813706878713948",
+      "postedAt": "2022-04-24T15:46:08.829Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/967813706878713948",
+      "capturedText": "えなが [KRNK], \nServer Tag: KRNK\nKRNK\n — \n4/24/22, 8:46 AM\nSunday, April 24, 2022 at 8:46 AM\nmy bs 20.31 for lap 1\n2 jumps (edited)\nSunday, April 24, 2022 at 8:46 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "20.31"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "971311112077324309",
+      "postedAt": "2022-05-04T07:23:35.207Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/971311112077324309",
+      "capturedText": "Wins\n — \n5/4/22, 12:23 AM\nWednesday, May 4, 2022 at 12:23 AM\nI didnt try very hard, but apparently it stayed WR..    Video: (edited)\nWednesday, May 4, 2022 at 12:55 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:55"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "972224337362972692",
+      "postedAt": "2022-05-06T19:52:25.082Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/972224337362972692",
+      "capturedText": "Tankian\n — \n5/6/22, 12:52 PM\nFriday, May 6, 2022 at 12:52 PM\nNice to see you here @Xobbias   (edited)\nFriday, May 6, 2022 at 12:52 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:52"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "972225043205591080",
+      "postedAt": "2022-05-06T19:52:43.906Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/972225043205591080",
+      "capturedText": "@Tankian\nNice to see you here @Xobbias   (edited)\nFriday, May 6, 2022 at 12:52 PM\nXobbias\n — \n5/6/22, 12:55 PM\nFriday, May 6, 2022 at 12:55 PM\nNice to see you too buddy! I decided to give time trials a try. I need to improve my lines to get better in mogis ",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:55",
+        "12:55"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "974806055831896084",
+      "postedAt": "2022-05-13T22:51:14.731Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/974806055831896084",
+      "capturedText": "Wins\n — \n5/13/22, 3:51 PM\nFriday, May 13, 2022 at 3:51 PM\nI have the video of the 40.06, and another video where I’m 0.05 faster in the first half of the track",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "40.06"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "976900652091461733",
+      "postedAt": "2022-05-19T17:34:25.395Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/976900652091461733",
+      "capturedText": "Wins\n — \n5/19/22, 10:34 AM\nThursday, May 19, 2022 at 10:34 AM\nIf you dont use it, you will go slightly wide (edited)\nThursday, May 19, 2022 at 10:34 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:34"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "980007883431346206",
+      "postedAt": "2022-05-28T07:21:27.076Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/980007883431346206",
+      "capturedText": "SuperFX [MOT], \nServer Tag: MOT\nMOT\n — \n5/28/22, 12:21 AM\nSaturday, May 28, 2022 at 12:21 AM\nOh that is a really good lap 1 from wins (edited)\nSaturday, May 28, 2022 at 12:32 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:32"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "981559627714002975",
+      "postedAt": "2022-06-01T14:07:31.743Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/981559627714002975",
+      "capturedText": "Phillish\n — \n6/1/22, 7:07 AM\nWednesday, June 1, 2022 at 7:07 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/981559625814003772/IMG_6317.png?ex=6ac3af23&is=6ac25da3&hm=79d8f26fa637b7edc4b5726fb1f407cbdcf0461bcf928fb24895cc3babf5b017&",
+        "https://media.discordapp.net/attachments/636461740162416640/981559625814003772/IMG_6317.png?ex=6ac3af23&is=6ac25da3&hm=79d8f26fa637b7edc4b5726fb1f407cbdcf0461bcf928fb24895cc3babf5b017&=&format=webp&quality=lossless&width=360&height=640"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "981613039809884210",
+      "postedAt": "2022-06-01T17:39:46.179Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/981613039809884210",
+      "capturedText": "Ozokerite [TWCC], \nServer Tag: TWCC\nTWCC\n — \n6/1/22, 10:39 AM\nWednesday, June 1, 2022 at 10:39 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/630496451491004475/981612731264274432/unknown-2.png?ex=6ac3e098&is=6ac28f18&hm=1a4139eb8dcc3148d632f1c9b4ba878a7f6b50da39a3703f842561a14c0023a9&",
+        "https://media.discordapp.net/attachments/630496451491004475/981612731264274432/unknown-2.png?ex=6ac3e098&is=6ac28f18&hm=1a4139eb8dcc3148d632f1c9b4ba878a7f6b50da39a3703f842561a14c0023a9&=&format=webp&quality=lossless&width=768&height=436"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "981904195936464896",
+      "postedAt": "2022-06-02T12:56:43.209Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/981904195936464896",
+      "capturedText": "@saki7\nhttps://youtu.be/tGHvths86BQ\nWins\n — \n6/2/22, 5:56 AM\nThursday, June 2, 2022 at 5:56 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/981904194896273408/RPReplay_Final1654091087.mov?ex=6ac39e8a&is=6ac24d0a&hm=113fa1a050ff9943089913b15aa31201a75864591a8d77be829a59b49a8b9a2c&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "982145902187794492",
+      "postedAt": "2022-06-03T04:57:10.470Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/982145902187794492",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n6/2/22, 9:57 PM\nThursday, June 2, 2022 at 9:57 PM\n僕には無理でした\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/982145900849799209/RPReplay_Final1654221328.mov?ex=6ac3d6e6&is=6ac28566&hm=327c1de469f713bc8760e1e56df4dfd30a8aa20cbac0bd7447da72959f54070b&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "983289696274767913",
+      "postedAt": "2022-06-06T08:42:12.231Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/983289696274767913",
+      "capturedText": "Mish\n [MATH], \nServer Tag: MATH\nMATH\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n6/6/22, 1:42 AM\nMonday, June 6, 2022 at 1:42 AM\nYoshi Valley Leaderboard\nsaki7 - 01:30.32 | 45.24/45.08\n,\nSucha - 01:30.45\n,\nWins - 01:30.51\n,\nStarin - 01:30.69\n,\nNu11 - 01:30.70\n,\nspartacurtYT - 01:30.79\n,\nN  - 01:30.98\n,\nJAbasok - 01:31.12\n,\nRetro - 01:31.13\n,\n¥146 - 01:31.34\n,\nMish - 01:31.70 \n,\nZombie! - 01:31.93\n,\nTimael - 01:32.02\n,\nnumbermaniac - 01:33.82\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:30",
+        "45.24",
+        "45.08",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:32",
+        "01:33"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "983966114268713020",
+      "postedAt": "2022-06-08T05:30:02.848Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/983966114268713020",
+      "capturedText": "Troy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n6/7/22, 10:30 PM\nTuesday, June 7, 2022 at 10:30 PM\nYoshi Valley Leaderboard\nsaki7 - 01:30.32 | 45.24/45.08\n,\nSucha - 01:30.45\n,\nWins - 01:30.51\n,\nStarin - 01:30.69\n,\nNu11 - 01:30.70\n,\nspartacurtYT - 01:30.79\n,\nN  - 01:30.98\n,\nJAbasok - 01:31.12\n,\nRetro - 01:31.13\n,\n¥146 - 01:31.34\n,\nMish - 01:31.70\n,\nZombie! - 01:31.93\n,\nTimael - 01:32.02\n,\nnumbermaniac - 01:33.82\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:30",
+        "45.24",
+        "45.08",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:30",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:32",
+        "01:33"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "984434966291181569",
+      "postedAt": "2022-06-09T12:33:05.881Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/984434966291181569",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n6/9/22, 5:33 AM\nThursday, June 9, 2022 at 5:33 AM\n45.02…",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "45.02"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "984438447479599114",
+      "postedAt": "2022-06-09T12:46:55.861Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/984438447479599114",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n6/9/22, 5:46 AM\nThursday, June 9, 2022 at 5:46 AM\n45.02…",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "45.02"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "986303923600105532",
+      "postedAt": "2022-06-14T16:19:40.027Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/986303923600105532",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n6/14/22, 9:19 AM\nTuesday, June 14, 2022 at 9:19 AM\n44.98video",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "44.98"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "989842919806623744",
+      "postedAt": "2022-06-24T10:42:22.474Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/989842919806623744",
+      "capturedText": "N\n — \n6/24/22, 3:42 AM\nFriday, June 24, 2022 at 3:42 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/989842918812569660/RPReplay_Final1656066935.mov?ex=6ac427ce&is=6ac2d64e&hm=0a58c5b28b9f3f240a5a611a6ff790c489a31e0658d5f3f00301f64939ee91ca&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "989937816375017552",
+      "postedAt": "2022-06-24T16:59:27.579Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/989937816375017552",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n6/24/22, 9:59 AM\nFriday, June 24, 2022 at 9:59 AM\nBerlin Byways Leaderboard\n\n𝐒𝐮𝐜𝐡𝐚 - 01:14.83 | 37.44/37.39\n,\nSuperFX - 01:14.85\n,\nNu11 - 01:14.88\n,\nShine - 01:15.19\n,\nspartacurtYT - 01:15.28\n,\nねこ好き☆nekozuki - 01:15.59\n,\nStarin - 01:15.60\n,\nTimael - 01:18.33\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "37.44",
+        "37.39",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:15",
+        "01:15",
+        "01:15",
+        "01:18"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "990006528377491456",
+      "postedAt": "2022-06-24T21:32:29.797Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/990006528377491456",
+      "capturedText": "Wins\n — \n6/24/22, 2:32 PM\nFriday, June 24, 2022 at 2:32 PM\nTime trial in a time trial ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/990006526708170752/IMG_7068.png?ex=6ac4176d&is=6ac2c5ed&hm=97b0f91d73b6ff1b107198731af63505644ecc8a49212a4956d74f25ff3ac15f&",
+        "https://cdn.discordapp.com/attachments/636461740162416640/990006526964039750/IMG_7069.png?ex=6ac4176d&is=6ac2c5ed&hm=adfaff4d6e8232f43fe4945f739b7dc20787828b3e188615ef2d08fc06201e88&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "991381272360390666",
+      "postedAt": "2022-06-28T16:35:14.304Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991381272360390666",
+      "capturedText": "Shine\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n6/28/22, 9:35 AM\nTuesday, June 28, 2022 at 9:35 AM\nBerlin Byways Leaderboard\nSuperFX - 01:14.68 | No lap times available\n,\n𝐒𝐮𝐜𝐡𝐚 - 01:14.83\n,\nNu11 - 01:14.88\n,\nWins - 01:14.93\n,\nShine - 01:15.12 \n,\nspartacurtYT - 01:15.24\n,\nねこ好き☆nekozuki - 01:15.59\n,\nStarin - 01:15.60\n,\nTimael - 01:18.33\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:15",
+        "01:15",
+        "01:15",
+        "01:18"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "991589470631641139",
+      "postedAt": "2022-06-29T06:22:32.640Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991589470631641139",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n6/28/22, 11:22 PM\nTuesday, June 28, 2022 at 11:22 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/626813702896877629/991586371745624124/IMG_3243.jpg?ex=6ac3e805&is=6ac29685&hm=7709c3d0aba917d3febfc37d005ad08f01fb39acb983ec93f1c4f8e8d6d5fba4&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "991590188390285332",
+      "postedAt": "2022-06-29T06:25:23.767Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991590188390285332",
+      "capturedText": "Wins\n — \n6/28/22, 11:25 PM\nTuesday, June 28, 2022 at 11:25 PM\nHYPE",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/991590186058264646/IMG_7103.png?ex=6ac3eb93&is=6ac29a13&hm=941c44db86b1d4bc99e4111b91a8a45b8cb7729c0e5aab3df54f9dbdf40b5bb8&",
+        "https://media.discordapp.net/attachments/636461740162416640/991590186058264646/IMG_7103.png?ex=6ac3eb93&is=6ac29a13&hm=941c44db86b1d4bc99e4111b91a8a45b8cb7729c0e5aab3df54f9dbdf40b5bb8&=&format=webp&quality=lossless&width=296&height=640"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "991626516536508416",
+      "postedAt": "2022-06-29T08:49:45.072Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991626516536508416",
+      "capturedText": "Tankian\n — \n6/29/22, 1:49 AM\nWednesday, June 29, 2022 at 1:49 AM\n10.99 after respawn",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10.99"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "991628355927552010",
+      "postedAt": "2022-06-29T08:57:03.617Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991628355927552010",
+      "capturedText": "Wins\n — \n6/29/22, 1:57 AM\nWednesday, June 29, 2022 at 1:57 AM\n10.99??????",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10.99"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "991633998071742514",
+      "postedAt": "2022-06-29T09:19:28.809Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991633998071742514",
+      "capturedText": "Tankian\n — \n6/29/22, 2:19 AM\nWednesday, June 29, 2022 at 2:19 AM\n10.99 Only this time. A few times 11'2, 11'3... But usually 11'5 or more",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10.99"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "991720078397681744",
+      "postedAt": "2022-06-29T15:01:31.958Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991720078397681744",
+      "capturedText": "@やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n@SuperFX do u have video Berlin ?\nSuperFX [MOT], \nServer Tag: MOT\nMOT\n — \n6/29/22, 8:01 AM\nWednesday, June 29, 2022 at 8:01 AM\nLooked through my phone and found a .65. Don’t know if I recorded anything lower\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/991720074174021674/RPReplay_Final1656205186.mov?ex=6ac3bbca&is=6ac26a4a&hm=271f6ebf7be42c71b24c8fef4ba7342352e96cf892d9e6ea99c16da1112cc04a&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "992024157086810173",
+      "postedAt": "2022-06-30T11:09:49.967Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/992024157086810173",
+      "capturedText": "Wins\n — \n6/30/22, 4:09 AM\nThursday, June 30, 2022 at 4:09 AM\n@えなが nice time, i am trying this variation, its good I think \nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/992024155753021480/RPReplay_Final1656586641.mov?ex=6ac42e3d&is=6ac2dcbd&hm=25a4484f94c981117e877a6d50bbbac9b1db341e9f1726f2e99e8b892d62adf7&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "992137983224459274",
+      "postedAt": "2022-06-30T18:42:08.233Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/992137983224459274",
+      "capturedText": "Zabby\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n6/30/22, 11:42 AM\nThursday, June 30, 2022 at 11:42 AM\nCoconut Mall Leaderboard\nshiki - 01:15.27 | No lap times available\n,\nShine - 01:15.35\n,\nStarin - 01:15.36\n,\nWins - 01:15.61\n,\nTankian - 01:15.62\n,\nTimael - 01:17.34\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:15",
+        "01:15",
+        "01:15",
+        "01:15",
+        "01:15",
+        "01:17"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "992861804537598022",
+      "postedAt": "2022-07-02T18:38:20.682Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/992861804537598022",
+      "capturedText": "Manu\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n7/2/22, 11:38 AM\nSaturday, July 2, 2022 at 11:38 AM\nCoconut Mall Leaderboard\nnewyork - 01:14.42 | No lap times available\n,\nゼド - 01:14.50\n,\nねこ好き☆nekozuki - 01:14.74\n,\nShine - 01:14.81\n,\nStarin - 01:14.88\n,\nshiki - 01:14.97\n,\nTankian - 01:15.19\n,\nWins - 01:15.61\n,\nTimael - 01:16.06\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:15",
+        "01:16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "993706995548967003",
+      "postedAt": "2022-07-05T02:36:49.922Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/993706995548967003",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n7/4/22, 7:36 PM\nMonday, July 4, 2022 at 7:36 PM\nCoconut Mall Leaderboard\nゼド - 01:14.38 | 37.28/37.1\n,\nWins - 01:14.41\n,\nnewyork - 01:14.42\n,\nN  - 01:14.47\n,\nSucha - 01:14.58\n,\nねこ好き☆nekozuki - 01:14.63\n,\nLGD Fireball - 01:14.65\n,\nShine - 01:14.69\n,\nUsagi - 01:14.82\n,\nStarin - 01:14.88\n,\nshiki - 01:14.97\n,\nspartacurtYT - 01:15.10\n,\nTankian - 01:15.19\n,\nTimael - 01:16.06\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "37.28",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:15",
+        "01:16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "993708061770391622",
+      "postedAt": "2022-07-05T02:41:04.129Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/993708061770391622",
+      "capturedText": "SuperFX\n [MOT], \nServer Tag: MOT\nMOT\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n7/4/22, 7:41 PM\nMonday, July 4, 2022 at 7:41 PM\nCoconut Mall Leaderboard\n\nSuperFX - 01:14.35 | 36.89/37.46\n,\nゼド - 01:14.38\n,\nWins - 01:14.41\n,\nnewyork - 01:14.42\n,\nN  - 01:14.47\n,\nSucha - 01:14.58\n,\nねこ好き☆nekozuki - 01:14.63\n,\nLGD Fireball - 01:14.65\n,\nShine - 01:14.69\n,\nUsagi - 01:14.82\n,\nStarin - 01:14.88\n,\nshiki - 01:14.97\n,\nspartacurtYT - 01:15.10\n,\nTankian - 01:15.19\n,\nTimael - 01:16.06\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "36.89",
+        "37.46",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:15",
+        "01:16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "995139607874261133",
+      "postedAt": "2022-07-09T01:29:31.317Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/995139607874261133",
+      "capturedText": "Shine\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n7/8/22, 6:29 PM\nFriday, July 8, 2022 at 6:29 PM\nCoconut Mall Leaderboard\nゼド - 01:14.30 | 37.15/37.15\n,\nSuperFX - 01:14.35\n,\nN  - 01:14.37\n,\nWins - 01:14.41\n,\nnewyork - 01:14.42\n,\nLGD Fireball - 01:14.47\n,\nSucha - 01:14.58\n,\nねこ好き☆nekozuki - 01:14.63\n,\nShine - 01:14.69 \n,\nUsagi - 01:14.71\n,\nStarin - 01:14.75\n,\nAngel - 01:14.75\n,\nspartacurtYT - 01:14.82\n,\nshiki - 01:14.97\n,\nTankian - 01:15.19\n,\nTimael - 01:16.06\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "37.15",
+        "37.15",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "995545818331361400",
+      "postedAt": "2022-07-10T04:23:39.437Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/995545818331361400",
+      "capturedText": "CPE\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n7/9/22, 9:23 PM\nSaturday, July 9, 2022 at 9:23 PM\nCoconut Mall Leaderboard\nN - 01:14.22 | 37.17/37.05\n,\nゼド - 01:14.30\n,\nSuperFX - 01:14.35\n,\nN  - 01:14.37\n,\nWins - 01:14.41\n,\nnewyork - 01:14.42\n,\nLGD Fireball - 01:14.47\n,\nShine - 01:14.53\n,\nSucha - 01:14.58\n,\nねこ好き☆nekozuki - 01:14.63\n,\nUsagi - 01:14.71\n,\nStarin - 01:14.75\n,\nAngel - 01:14.75\n,\nspartacurtYT - 01:14.82\n,\nshiki - 01:14.97\n,\nTankian - 01:15.19\n,\nTimael - 01:16.06\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "37.17",
+        "37.05",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "996597875255541846",
+      "postedAt": "2022-07-13T02:04:09.354Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/996597875255541846",
+      "capturedText": "Y146\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n7/12/22, 7:04 PM\nTuesday, July 12, 2022 at 7:04 PM\nCoconut Mall Leaderboard\nゼド - 01:14.04 | 36.88/37.16\n,\nN - 01:14.17\n,\nnewyork - 01:14.19\n,\nLGD Fireball - 01:14.31\n,\nSuperFX - 01:14.35\n,\n¥146 - 01:14.36 \n,\n鬼貴丸 - 01:14.39\n,\nWins - 01:14.41\n,\nHaruru - 01:14.50\n,\nStarin - 01:14.51\n,\nShine - 01:14.53\n,\nSucha - 01:14.58\n,\nねこ好き☆nekozuki - 01:14.63\n,\nspartacurtYT - 01:14.67\n,\nUsagi - 01:14.71\n,\nAngel - 01:14.75\n,\nshiki - 01:14.97\n,\nLarry - 01:15.10\n,\nTankian - 01:15.19\n,\nTimael - 01:16.06\n,",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:14",
+        "36.88",
+        "37.16",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:14",
+        "01:15",
+        "01:15",
+        "01:16"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "996665014226268161",
+      "postedAt": "2022-07-13T06:30:56.532Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/996665014226268161",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n7/12/22, 11:30 PM\nTuesday, July 12, 2022 at 11:30 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/626813702896877629/996662896471846942/unknown.png?ex=6ac3eae7&is=6ac29967&hm=8535ea34a2e268904be864bbc970c41f1b0a6d151d2ac3e3bda85acc4a3c656a&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "997411030395256893",
+      "postedAt": "2022-07-15T07:55:20.647Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997411030395256893",
+      "capturedText": "Wins\n — \n7/15/22, 12:55 AM\nFriday, July 15, 2022 at 12:55 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/997411029761937479/IMG_7425.png?ex=6ac400a8&is=6ac2af28&hm=1ed9b6de915d403b090db782502d453c61b24ea2a8538b66e16386edd81a112f&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "997768378498428948",
+      "postedAt": "2022-07-16T07:35:19.074Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997768378498428948",
+      "capturedText": "Wins\n — \n7/16/22, 12:35 AM\nSaturday, July 16, 2022 at 12:35 AM\nSo I wonder how that affects this track (edited)\nSaturday, July 16, 2022 at 12:35 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "12:35"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "997888730520096788",
+      "postedAt": "2022-07-16T15:33:33.232Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997888730520096788",
+      "capturedText": "Manfredi\n — \n7/16/22, 8:33 AM\nSaturday, July 16, 2022 at 8:33 AM\nWhy aren't all of the track that had tt on the leaderboard? (edited)\nSaturday, July 16, 2022 at 10:18 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:18"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "997911303626702918",
+      "postedAt": "2022-07-16T17:03:15.080Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997911303626702918",
+      "capturedText": "Manfredi\n — \n7/16/22, 10:03 AM\nSaturday, July 16, 2022 at 10:03 AM\nnot even half of them are on the leaderboard https://www.mariowiki.com/Time_Trial_(Mario_Kart_Tour) (edited)\nSaturday, July 16, 2022 at 10:09 AM\nSuper Mario Wiki\nTime Trial (Mario Kart Tour)\nTime Trial is a type of bonus challenge in Mario Kart Tour introduced in the 2019 Halloween Tour. The object in Time Trial bonus challenges is to finish a two-lap race (one-lap for 3DS Rainbow Road and Tokyo Blur 4) within a certain amount of time. Much like in the Time Trial mode featured in other Mario Kart titles, these bonus challenges featu...",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:09"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "997929854433505361",
+      "postedAt": "2022-07-16T18:16:57.937Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/997929854433505361",
+      "capturedText": "Manfredi\n — \n7/16/22, 11:16 AM\nSaturday, July 16, 2022 at 11:16 AM\nNot all tracks that had a time trials event are on the leaderboard, for example SNES Mario Circuit 1 (edited)\nSaturday, July 16, 2022 at 11:17 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:17"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1003277331412025354",
+      "postedAt": "2022-07-31T12:25:55.800Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1003277331412025354",
+      "capturedText": "Kirio\n — \n7/31/22, 5:25 AM\nSunday, July 31, 2022 at 5:25 AM\nbut it was 20.31/20.08",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "20.31",
+        "20.08"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1007548860131983360",
+      "postedAt": "2022-08-12T07:19:27.608Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1007548860131983360",
+      "capturedText": "Wins\n — \n8/12/22, 12:19 AM\nFriday, August 12, 2022 at 12:19 AM\nDrift button no smart steering (edited)\nFriday, August 12, 2022 at 12:27 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1007548859179859978/RPReplay_Final1660288483.mov?ex=6ac3f83f&is=6ac2a6bf&hm=d0861fc37d1bc56ec2d11a68bac7f84f4af2d6e224fada5d0efb5ba294267edc&"
+      ],
+      "shorthandTokens": [
+        "12:27"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1007548914662129754",
+      "postedAt": "2022-08-12T07:19:40.609Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1007548914662129754",
+      "capturedText": "Wins\n — \n8/12/22, 12:19 AM\nFriday, August 12, 2022 at 12:19 AM\nmanual no smart steering\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1007548914032988210/RPReplay_Final1660288483.mov?ex=6ac3f84c&is=6ac2a6cc&hm=0f27a933665b8a13797ec3abc0670304b13acfacea44f219b662bcb2845964ce&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1012407211550588948",
+      "postedAt": "2022-08-25T17:04:48.850Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1012407211550588948",
+      "capturedText": "Wins\n — \n8/25/22, 10:04 AM\nThursday, August 25, 2022 at 10:04 AM\n@えなが pls post time and video to avoid mistakes for staff  (edited)\nThursday, August 25, 2022 at 10:05 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:05"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1012415428053696562",
+      "postedAt": "2022-08-25T17:37:27.817Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1012415428053696562",
+      "capturedText": "Message could not be loaded\nN\n — \n8/25/22, 10:37 AM\nThursday, August 25, 2022 at 10:37 AM\ndont delete us WR  (edited)\nThursday, August 25, 2022 at 10:37 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:37"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1013869230455787520",
+      "postedAt": "2022-08-29T17:54:21.320Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1013869230455787520",
+      "capturedText": "Wins\n — \n8/29/22, 10:54 AM\nMonday, August 29, 2022 at 10:54 AM\n48 always free even without good shortcut  (edited)\nMonday, August 29, 2022 at 10:54 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "10:54"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1014362788157739028",
+      "postedAt": "2022-08-31T02:35:34.646Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1014362788157739028",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n8/30/22, 7:35 PM\nTuesday, August 30, 2022 at 7:35 PM\n42.97",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "42.97"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1014535688756154480",
+      "postedAt": "2022-08-31T14:02:37.361Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1014535688756154480",
+      "capturedText": "Wins\n — \n8/31/22, 7:02 AM\nWednesday, August 31, 2022 at 7:02 AM\nFast \nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1014535687493648454/RPReplay_Final1661954253.mov?ex=6ac3adfd&is=6ac25c7d&hm=5a37ea432295a0fec12bc61e7188a2550a98a47c4b47b73d6c068dac6bc541be&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1014537216623648779",
+      "postedAt": "2022-08-31T14:08:41.633Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1014537216623648779",
+      "capturedText": "Wins\n — \n8/31/22, 7:08 AM\nWednesday, August 31, 2022 at 7:08 AM\nCan this be fast maybe? \nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1014537215407296602/RPReplay_Final1661954805.mov?ex=6ac3af69&is=6ac25de9&hm=821dd0d2d8b241f82923e85f9f98538711911eb038c93d98882470a7790bf0f3&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1014542041860034660",
+      "postedAt": "2022-08-31T14:24:51.227Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1014542041860034660",
+      "capturedText": "@やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\nGo sub Wins san! And I think osoi (edited)\nWednesday, August 31, 2022 at 7:24 AM\nWins\n — \n8/31/22, 7:27 AM\nWednesday, August 31, 2022 at 7:27 AM\nIt was sub.. but miss this MT www  coffeebreak over, maybe some other day  (edited)\nWednesday, August 31, 2022 at 7:28 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1014542041130221568/RPReplay_Final1661954253.mov?ex=6ac3b3e7&is=6ac26267&hm=55f44722c8794fcef361c9f9f1913d9986884c9cfd302e77d7066ca015c542ba&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1017134023161675806",
+      "postedAt": "2022-09-07T18:07:28.558Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1017134023161675806",
+      "capturedText": "@Wins\n3 time trials\nBouBou\n — \n9/7/22, 11:07 AM\nWednesday, September 7, 2022 at 11:07 AM\nHi, Reverse or normal ? (edited)\nWednesday, September 7, 2022 at 11:08 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:08"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1017363837256728636",
+      "postedAt": "2022-09-08T09:20:40.508Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1017363837256728636",
+      "capturedText": "Wins\n — \n9/8/22, 2:20 AM\nThursday, September 8, 2022 at 2:20 AM\n1:32.60 or lower is already a good time (edited)\nThursday, September 8, 2022 at 3:19 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "32.60"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1017399027869958205",
+      "postedAt": "2022-09-08T11:40:30.604Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1017399027869958205",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n9/8/22, 4:40 AM\nThursday, September 8, 2022 at 4:40 AM\nLap.1 35.80",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "35.80"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1017402636015783967",
+      "postedAt": "2022-09-08T11:54:50.853Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1017402636015783967",
+      "capturedText": "@やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\nLap.1 35.80\n☆Lionjin☆\n — \n9/8/22, 4:54 AM\nThursday, September 8, 2022 at 4:54 AM\n45.80 ",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "45.80"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1017408018918428754",
+      "postedAt": "2022-09-08T12:16:14.237Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1017408018918428754",
+      "capturedText": "Wins\n — \n9/8/22, 5:16 AM\nThursday, September 8, 2022 at 5:16 AM\nDrift button 45.82 and smt in tunnel ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1017408016791912538/IMG_8287.png?ex=6ac3950d&is=6ac2438d&hm=1745f54af1a3e5180a262fc001ed7eaecb21408d6529c2c072298e6012a51be5&"
+      ],
+      "shorthandTokens": [
+        "45.82"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1018793678359248927",
+      "postedAt": "2022-09-12T08:02:21.192Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1018793678359248927",
+      "capturedText": "Wins\n — \n9/12/22, 1:02 AM\nMonday, September 12, 2022 at 1:02 AM\nLap 1 54.61 +2 \nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1018793676891226182/ScreenRecording_09-11-2022_23-11-12_1.mov?ex=6ac4024c&is=6ac2b0cc&hm=2bda1f5a294cbb205bb3a11ab668fb28a578a08f194ed2b3340b7f07677d6fe6&"
+      ],
+      "shorthandTokens": [
+        "54.61"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1019131930807107626",
+      "postedAt": "2022-09-13T06:26:26.860Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1019131930807107626",
+      "capturedText": "Wins\n — \n9/12/22, 11:26 PM\nMonday, September 12, 2022 at 11:26 PM\n54.81 no extra mushroom\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1019131929460752444/RPReplay_Final1663050273.mov?ex=6ac3ebd2&is=6ac29a52&hm=ca713eb3d328cd07217ef47a6be152afefdfb42a83b29f63712587043818d913&"
+      ],
+      "shorthandTokens": [
+        "54.81"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1019149460267339776",
+      "postedAt": "2022-09-13T07:36:06.209Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1019149460267339776",
+      "capturedText": "えなが [KRNK], \nServer Tag: KRNK\nKRNK\n — \n9/13/22, 12:36 AM\nTuesday, September 13, 2022 at 12:36 AM\n:49.83 no extra mush\n20 mins quality\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1019149454948974632/RPReplay_Final1662964941.mov?ex=6ac3fc24&is=6ac2aaa4&hm=ea2bd930536c7baddce6cb2c7ca24253c1adaf63906f3a1ddd787341e79ca88e&"
+      ],
+      "shorthandTokens": [
+        "49.83"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1019155912230981652",
+      "postedAt": "2022-09-13T08:01:44.477Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1019155912230981652",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n9/13/22, 1:01 AM\nTuesday, September 13, 2022 at 1:01 AM\n49.77",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "49.77"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1019456217644544022",
+      "postedAt": "2022-09-14T03:55:02.867Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1019456217644544022",
+      "capturedText": "Message could not be loaded\nY146\n — \n9/13/22, 8:55 PM\nTuesday, September 13, 2022 at 8:55 PM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1019456216994435072/RPReplay_Final1663119348.mov?ex=6ac3c856&is=6ac276d6&hm=6c8d7992ebeb0e9a9295c1902b78e3cbf98f93e11147e99371f8dbc84187b94a&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1020087692014407690",
+      "postedAt": "2022-09-15T21:44:18.089Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1020087692014407690",
+      "capturedText": "ほぬー\n — \n9/15/22, 2:44 PM\nThursday, September 15, 2022 at 2:44 PM\nI think this way of running is a little faster\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1020087691620126790/RPReplay_Final1663161884.mov?ex=6ac41a31&is=6ac2c8b1&hm=b9addf798c671555872e316a4a0947af4644fc257649d6a928389a830c16f4d0&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1020689900330303499",
+      "postedAt": "2022-09-17T13:37:15.740Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1020689900330303499",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n9/17/22, 6:37 AM\nSaturday, September 17, 2022 at 6:37 AM\n45.78くらい",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "45.78"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1020992533297377290",
+      "postedAt": "2022-09-18T09:39:49.062Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1020992533297377290",
+      "capturedText": "神\n — \n9/18/22, 2:39 AM\nSunday, September 18, 2022 at 2:39 AM\nmy time should be the fastest as I ran perfect line. Please disqualify all the records which are faster than me, they used cheat or bug or strategy to make the drift boost easier that idk. KAGU KAGU",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1020992533100232755/Screenshot_20220918-173433_Discord.jpg?ex=6ac41925&is=6ac2c7a5&hm=52b8755b055b0b84afe7988dcc42b221d3fa59663df24f7e79778f6cd8b80cb7&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1021005703894274108",
+      "postedAt": "2022-09-18T10:32:09.177Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1021005703894274108",
+      "capturedText": "神\n — \n9/18/22, 3:32 AM\nSunday, September 18, 2022 at 3:32 AM\nNo, 1:36:90 is the perfect time, if someone faster than this time, who will be disqualified (edited)\nSunday, September 18, 2022 at 3:32 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "36:90"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1022030871781445652",
+      "postedAt": "2022-09-21T06:25:48.248Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1022030871781445652",
+      "capturedText": "Wins\n — \n9/20/22, 11:25 PM\nTuesday, September 20, 2022 at 11:25 PM\nSo Tomegome’s 2 year old record was not broken last tour? TomeGODme ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1022030871542382632/IMG_8501.png?ex=6ac3ebac&is=6ac29a2c&hm=c767a69ab6fed544698178447ad253080db977e6813e0c0b4603e3c27b44b7f8&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1023148187931918377",
+      "postedAt": "2022-09-24T08:25:37.177Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1023148187931918377",
+      "capturedText": "Wins\n — \n9/24/22, 1:25 AM\nSaturday, September 24, 2022 at 1:25 AM\nDrift button lap 1 37.34 (edited)\nSaturday, September 24, 2022 at 1:42 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1023148187621544016/RPReplay_Final1663970224.mov?ex=6ac407c1&is=6ac2b641&hm=6f0bbc1c323a715df6e441844a88c9ec300272242102d2ab443d0a26de8c60b0&"
+      ],
+      "shorthandTokens": [
+        "37.34"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1023148278474362921",
+      "postedAt": "2022-09-24T08:25:58.764Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1023148278474362921",
+      "capturedText": "Wins\n — \n9/24/22, 1:25 AM\nSaturday, September 24, 2022 at 1:25 AM\ndrift button lap 2 37.02 (edited)\nSaturday, September 24, 2022 at 1:42 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1023148278155591731/RPReplay_Final1663955466.mov?ex=6ac407d6&is=6ac2b656&hm=72e6d5d2d8089d71b7ada1671ea5acb077a549652070dd44bfe821ed779a8b37&"
+      ],
+      "shorthandTokens": [
+        "37.02"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024556730178351154",
+      "postedAt": "2022-09-28T05:42:39.818Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024556730178351154",
+      "capturedText": "Troy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n9/27/22, 10:42 PM\nTuesday, September 27, 2022 at 10:42 PM\nNeo Bowser City Global Leaderboard\n41. BENSON: 01:26.97\n42. Zeke: 01:27.18\n43. LaLanterne: 01:27.78\n44. Peachii: 01:27.83\n45. StreetPlayer: 01:27.85\n46. Pepe4: 01:27.92\n46. Stephi92: 01:27.92\n46. Brandon: 01:27.92\n49. €r$doof: 01:27.96 | 43.98/43.98\n50. kittycat84: 01:28.05\n51. Tsucchii: 01:28.38\n52. Tischaaa: 01:28.71\n53. Cyph3r: 01:29.02\n54. Thkdrgn: 01:29.12\n55. Dragon: 01:29.37 | 44.71/44.66\n56. numbermaniac: 01:29.61\n57. herirm: 01:29.81\n58. ZSC: 01:29.95\n59. Jefri: 01:30.15\n60. Webkinz9: 01:31.05\nPage 3/4\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 12:58 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:26",
+        "01:27",
+        "01:27",
+        "01:27",
+        "01:27",
+        "01:27",
+        "01:27",
+        "01:27",
+        "01:27",
+        "43.98",
+        "43.98",
+        "01:28",
+        "01:28",
+        "01:28",
+        "01:29",
+        "01:29",
+        "01:29",
+        "44.71",
+        "44.66",
+        "01:29",
+        "01:29",
+        "01:29",
+        "01:30",
+        "01:31",
+        "12:58"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024557074081927168",
+      "postedAt": "2022-09-28T05:44:01.811Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024557074081927168",
+      "capturedText": "Troy\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/27/22, 10:44 PM\nTuesday, September 27, 2022 at 10:44 PM\nTime Trial History For kaguya\n81. [2nd] Toad Circuit | 01:04.11 - 32.12/31.99\n82. [1st] Tokyo Blur 4 | 00:46.31 - 21.50/24.81\n83. [1st] Tokyo Blur 4R | 00:46.47 - 24.40/22.07\n84. [3rd] Vanilla Lake 1 | 00:34.32\n85. [1st] Vanilla Lake 1R | 00:34.38 - 17.28/17.10\n86. [1st] Vanilla Lake 2 | 00:31.22 - 15.66/15.56\n87. [1st] Waluigi Pinball | 01:46.21 - 53.11/53.10\n88. [2nd] Waluigi Pinball R | 01:45.56 - 52.32/53.34\n89. [1st] Wario Shipyard | 01:33.59 - 47.02/46.57\n90. [1st] Wario Shipyard R | 01:37.36 - 48.69/48.67\n91. [1st] Yoshi Circuit | 01:31.79 - 45.89/45.90\n92. [1st] Yoshi Valley | 01:30.07\nPage 5/5\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 1:21 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:04",
+        "32.12",
+        "31.99",
+        "00:46",
+        "21.50",
+        "24.81",
+        "00:46",
+        "24.40",
+        "22.07",
+        "00:34",
+        "00:34",
+        "17.28",
+        "17.10",
+        "00:31",
+        "15.66",
+        "15.56",
+        "01:46",
+        "53.11",
+        "53.10",
+        "01:45",
+        "52.32",
+        "53.34",
+        "01:33",
+        "47.02",
+        "46.57",
+        "01:37",
+        "48.69",
+        "48.67",
+        "01:31",
+        "45.89",
+        "45.90",
+        "01:30"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024557402768543804",
+      "postedAt": "2022-09-28T05:45:20.176Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024557402768543804",
+      "capturedText": "Troy\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/27/22, 10:45 PM\nTuesday, September 27, 2022 at 10:45 PM\nTime Trial History For superfx\n21. [1st] Royal Raceway R | 01:33.24 - 46.67/46.57\n22. [1st] Sunset Wilds | 01:09.82 - 34.93/34.89\n23. [1st] Sunset Wilds R | 01:10.24 - 35.02/35.22\n24. [42nd] Toad Circuit | 1:05.10 - 32.53\n25. [7th] Waluigi Pinball | 01:46.94\n26. [6th] Waluigi Pinball R | 1:45.91 - 52.87/53.04\nPage 2/2\n,\n,\n,\n(edited)\nTuesday, September 27, 2022 at 10:45 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:33",
+        "46.67",
+        "46.57",
+        "01:09",
+        "34.93",
+        "34.89",
+        "01:10",
+        "35.02",
+        "35.22",
+        "05.10",
+        "32.53",
+        "01:46",
+        "45.91",
+        "52.87",
+        "53.04",
+        "10:45"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024561209598562366",
+      "postedAt": "2022-09-28T06:00:27.795Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024561209598562366",
+      "capturedText": "Fireball\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/27/22, 11:00 PM\nTuesday, September 27, 2022 at 11:00 PM\nTime Trial History For Fireball\n41. [20th] Yoshi Circuit | 01:33.95 - 47.03/46.92\n42. [18th] Yoshi Valley | 01:30.95 - 45.51/45.44\nPage 3/3\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 8:01 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:33",
+        "47.03",
+        "46.92",
+        "01:30",
+        "45.51",
+        "45.44"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024598807691927562",
+      "postedAt": "2022-09-28T08:29:51.879Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024598807691927562",
+      "capturedText": "N\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/28/22, 1:29 AM\nWednesday, September 28, 2022 at 1:29 AM\nTime Trial History For tomegome\n41. [4th] RMX Mario Circuit 1 | 1:30.79 - 45.36/45.43\n42. [54th] RMX Rainbow Road 1 | 01:59.99\n43. [34th] RMX Rainbow Road 1R | 01:59.99\n44. [43rd] RMX Rainbow Road 2 | 01:59.99\n45. [49th] Rock Rock Mountain | 01:59.99\n46. [56th] Rosalina's Ice World | 01:59.99\n47. [13rd] Rosalina's Ice World R | 01:30.02 - 44.98/45.04\n48. [58th] Royal Raceway | 01:59.99\n49. [26th] Royal Raceway R | 01:59.99\n50. [3rd] Shy Guy Bazaar R | 1:39.28 - 49.69/49.59\n51. [53rd] SNES Rainbow Road | 01:59.99\n52. [23rd] Sunset Wilds | 01:11.61 - 35.99/35.62\n53. [38th] Sunset Wilds R | 01:59.99\n54. [1st] Toad Circuit | 01:03.96 - 31.99/31.97\n55. [38th] Tokyo Blur 4 | 01:59.99\n56. [1st] Tokyo Blur 4R | 00:46.47 - 24.36/22.11\n57. [8th] Vanilla Lake 1 | 0:34.62 - 17.32/17.30\n58. [9th] Vanilla Lake 1R | 00:34.82 - 17.52/17.30\n59. [4th] Waluigi Pinball | 01:46.53 - 53.38/53.15\n60. [10th] Waluigi Pinball R | 1:46.01 - 53.04/52.97\nPage 3/3\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 4:00 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "30.79",
+        "45.36",
+        "45.43",
+        "01:59",
+        "01:59",
+        "01:59",
+        "01:59",
+        "01:59",
+        "01:30",
+        "44.98",
+        "45.04",
+        "01:59",
+        "01:59",
+        "39.28",
+        "49.69",
+        "49.59",
+        "01:59",
+        "01:11",
+        "35.99",
+        "35.62",
+        "01:59",
+        "01:03",
+        "31.99",
+        "31.97",
+        "01:59",
+        "00:46",
+        "24.36",
+        "22.11",
+        "34.62",
+        "17.32",
+        "17.30",
+        "00:34",
+        "17.52",
+        "17.30",
+        "01:46",
+        "53.38",
+        "53.15",
+        "46.01",
+        "53.04",
+        "52.97"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024646742802702376",
+      "postedAt": "2022-09-28T11:40:20.500Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024646742802702376",
+      "capturedText": "seboss\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/28/22, 4:40 AM\nWednesday, September 28, 2022 at 4:40 AM\nTime Trial History For Seboss\n21. [6th] RMX Ghost Valley 1R | 01:01.55 - 30.82/30.73\n22. [15th] RMX Rainbow Road 1 | 01:19.72 - 39.90/39.82\n23. [27th] Rosalina's Ice World | 01:30.63 - 45.27/45.36\n24. [19th] Rosalina's Ice World R | 01:30.40 - 45.09/45.31\n25. [24th] Royal Raceway | 01:36.41\n26. [8th] SNES Rainbow Road R | 01:00.18 - 29.95/30.23\n27. [7th] Wario Shipyard | 01:33.96 - 47.12/46.79\nPage 2/2\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 7:10 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:01",
+        "30.82",
+        "30.73",
+        "01:19",
+        "39.90",
+        "39.82",
+        "01:30",
+        "45.27",
+        "45.36",
+        "01:30",
+        "45.09",
+        "45.31",
+        "01:36",
+        "01:00",
+        "29.95",
+        "30.23",
+        "01:33",
+        "47.12",
+        "46.79"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024684083290329219",
+      "postedAt": "2022-09-28T14:08:43.166Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024684083290329219",
+      "capturedText": "Phillish\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/28/22, 7:08 AM\nWednesday, September 28, 2022 at 7:08 AM\nTime Trial History For Phillish\n41. [24th] RMX Choco Island 2 | 01:03.38\n42. [14th] RMX Ghost Valley 1R | 01:01.70 - 30.82/30.88\n43. [8th] RMX Mario Circuit 1 | 1:31.30 - 45.51/45.79\n44. [18th] RMX Rainbow Road 1 | 01:19.83 - 39.73/40.10\n45. [14th] RMX Rainbow Road 2 | 01:21.98 - 40.91/41.07\n46. [5th] Rock Rock Mountain | 01:42.98 - 51.66/51.32\n47. [16th] Rosalina's Ice World | 01:30.43 - 45.28/45.15\n48. [8th] Royal Raceway | 01:34.98 - 47.57/47.41\n49. [14th] Sunset Wilds | 01:11.20 - 35.71/35.49\n50. [7th] Sunset Wilds R | 01:11.05 - 35.58/35.47\n51. [7th] Toad Circuit | 01:04.45 - 32.24/32.21\n52. [10th] Toad circuit R | 01:02.95 - 31.49/31.46\n53. [7th] Tokyo Blur 4 | 00:46.69 - 21.59/25.10\n54. [12nd] Vanilla Lake 1 | 00:34.79\n55. [10th] Vanilla Lake 1R | 00:34.84 - 17.54/17.30\n56. [10th] Vanilla Lake 2 | 00:32.13\n57. [11st] Waluigi Pinball | 01:47.19 - 53.61/53.58\n58. [35th] Waluigi Pinball R | 1:47.14 - 53.66/53.48\n59. [12nd] Yoshi Circuit | 01:32.78\nPage 3/3\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 7:11 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:03",
+        "01:01",
+        "30.82",
+        "30.88",
+        "31.30",
+        "45.51",
+        "45.79",
+        "01:19",
+        "39.73",
+        "40.10",
+        "01:21",
+        "40.91",
+        "41.07",
+        "01:42",
+        "51.66",
+        "51.32",
+        "01:30",
+        "45.28",
+        "45.15",
+        "01:34",
+        "47.57",
+        "47.41",
+        "01:11",
+        "35.71",
+        "35.49",
+        "01:11",
+        "35.58",
+        "35.47",
+        "01:04",
+        "32.24",
+        "32.21",
+        "01:02",
+        "31.49",
+        "31.46",
+        "00:46",
+        "21.59",
+        "25.10",
+        "00:34",
+        "00:34",
+        "17.54",
+        "17.30",
+        "00:32",
+        "01:47",
+        "53.61",
+        "53.58",
+        "47.14",
+        "53.66",
+        "53.48",
+        "01:32"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024772356184477696",
+      "postedAt": "2022-09-28T19:59:29.064Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024772356184477696",
+      "capturedText": "Troy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n9/28/22, 12:59 PM\nWednesday, September 28, 2022 at 12:59 PM\nAirship Fortress Global Leaderboard\n78. Sucha (すぅちゃ): 01:59.99\n78. Michinori(ミチノリ): 01:59.99\n78. Marumo(マルモ): 01:59.99\n78. Pooh(プーさん): 01:59.99\n78. Aruchan(アルちゃん): 01:59.99\nPage 5/5\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 1:00 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:59",
+        "01:59",
+        "01:59",
+        "01:59",
+        "01:59"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1024772796229885962",
+      "postedAt": "2022-09-28T20:01:13.979Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024772796229885962",
+      "capturedText": "Troy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n9/28/22, 1:01 PM\nWednesday, September 28, 2022 at 1:01 PM\nBowser's Castle 2 Global Leaderboard\n81. R Nova: 1:29.87\n82. Tomegome(とめごめ): 1:59.99\n82. Ryoma(りょーま): 1:59.99\n82. Tokushima (とくしま): 1:59.99\n82. Marumo(マルモ): 1:59.99\nPage 5/5\n,\n,\n,\n(edited)\nWednesday, September 28, 2022 at 1:01 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "29.87",
+        "59.99",
+        "59.99",
+        "59.99",
+        "59.99"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1025098619973533717",
+      "postedAt": "2022-09-29T17:35:56.413Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1025098619973533717",
+      "capturedText": "Kirio\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/29/22, 10:35 AM\nThursday, September 29, 2022 at 10:35 AM\nTime Trial History For nu11\n81. [2nd] Toad Circuit | 01:04.11 - 32.12/31.99\n82. [1st] Tokyo Blur 4 | 00:46.31 - 21.50/24.81\n83. [1st] Tokyo Blur 4R | 00:46.47 - 24.40/22.07\n84. [3rd] Vanilla Lake 1 | 00:34.32\n85. [1st] Vanilla Lake 1R | 00:34.38 - 17.28/17.10\n86. [1st] Vanilla Lake 2 | 00:31.22 - 15.66/15.56\n87. [1st] Waluigi Pinball | 01:46.21 - 53.11/53.10\n88. [2nd] Waluigi Pinball R | 01:45.56 - 52.32/53.34\n89. [1st] Wario Shipyard | 01:33.59 - 47.02/46.57\n90. [1st] Wario Shipyard R | 01:37.36 - 48.69/48.67\n91. [1st] Yoshi Circuit | 01:31.79 - 45.89/45.90\n92. [1st] Yoshi Valley | 01:30.07\nPage 5/5\n,\n,\n,\n(edited)\nThursday, September 29, 2022 at 10:36 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:04",
+        "32.12",
+        "31.99",
+        "00:46",
+        "21.50",
+        "24.81",
+        "00:46",
+        "24.40",
+        "22.07",
+        "00:34",
+        "00:34",
+        "17.28",
+        "17.10",
+        "00:31",
+        "15.66",
+        "15.56",
+        "01:46",
+        "53.11",
+        "53.10",
+        "01:45",
+        "52.32",
+        "53.34",
+        "01:33",
+        "47.02",
+        "46.57",
+        "01:37",
+        "48.69",
+        "48.67",
+        "01:31",
+        "45.89",
+        "45.90",
+        "01:30",
+        "10:36"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1025139327245754489",
+      "postedAt": "2022-09-29T20:17:41.783Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1025139327245754489",
+      "capturedText": "Kirio\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n9/29/22, 1:17 PM\nThursday, September 29, 2022 at 1:17 PM\nTime Trial History For n\n61. [5th] Waluigi Pinball | 01:46.60 - 53.33/53.27\n62. [1st] Waluigi Pinball R | 01:45.47 - 52.35/53.12\n63. [19th] Wario Shipyard | 01:34.33\n64. [6th] Wario Shipyard R | 01:37.93\n65. [6th] Yoshi Circuit | 01:32.31 - 46.13/46.18\n66. [6th] Yoshi Valley | 01:30.52 - 45.25/45.27\nPage 4/4\n,\n,\n,\n(edited)\nThursday, September 29, 2022 at 1:18 PM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:46",
+        "53.33",
+        "53.27",
+        "01:45",
+        "52.35",
+        "53.12",
+        "01:34",
+        "01:37",
+        "01:32",
+        "46.13",
+        "46.18",
+        "01:30",
+        "45.25",
+        "45.27"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1026856976711430184",
+      "postedAt": "2022-10-04T14:03:01.328Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1026856976711430184",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n10/4/22, 7:03 AM\nTuesday, October 4, 2022 at 7:03 AM\n37.25",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "37.25"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1027619477518549002",
+      "postedAt": "2022-10-06T16:32:55.687Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1027619477518549002",
+      "capturedText": "Wins\n — \n10/6/22, 9:32 AM\nThursday, October 6, 2022 at 9:32 AM\nDrift button (.57/.32)\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1027619477128482896/RPReplay_Final1665070047.mov?ex=6ac3d137&is=6ac27fb7&hm=4bd0ceb28e73845852481ee89c5b28e857b7ec47c7de4f8aa63f8b4d7df143dd&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1029808938075553813",
+      "postedAt": "2022-10-12T17:33:03.762Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1029808938075553813",
+      "capturedText": "Kirio\n — \n10/12/22, 10:33 AM\nWednesday, October 12, 2022 at 10:33 AM\n25.04 Lap 1 with button im way too good..",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "25.04"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1029821693318934538",
+      "postedAt": "2022-10-12T18:23:44.849Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1029821693318934538",
+      "capturedText": "Zabby\n — \n10/12/22, 11:23 AM\nWednesday, October 12, 2022 at 11:23 AM\nI’ve been using manual without steering and best I’ve gotten is 25.57",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "25.57"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1029825186830225538",
+      "postedAt": "2022-10-12T18:37:37.767Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1029825186830225538",
+      "capturedText": "Kirio\n — \n10/12/22, 11:37 AM\nWednesday, October 12, 2022 at 11:37 AM\nI got 24.97 in button",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "24.97"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1030568903602094111",
+      "postedAt": "2022-10-14T19:52:53.663Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1030568903602094111",
+      "capturedText": "Kirio\n — \n10/14/22, 12:52 PM\nFriday, October 14, 2022 at 12:52 PM\n@かかかっっっっっっっかかっかk do 48.99",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "48.99"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1032678980907696188",
+      "postedAt": "2022-10-20T15:37:35.296Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1032678980907696188",
+      "capturedText": "Kirio\n — \n10/20/22, 8:37 AM\nThursday, October 20, 2022 at 8:37 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1032678980584751144/unknown.png?ex=6ac3c43f&is=6ac272bf&hm=c90479fd42db8c346d7e742eb4965eb3e1004436c9ed030013ec6418beea773f&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1033099820371542016",
+      "postedAt": "2022-10-21T19:29:51.243Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1033099820371542016",
+      "capturedText": "Tankian\n — \n10/21/22, 12:29 PM\nFriday, October 21, 2022 at 12:29 PM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1033099820044402719/VID_20221021_212933_738.mp4?ex=6ac3faaf&is=6ac2a92f&hm=2dbb1b46f60b5710690ac57e63172ee6d32b7f03306b705afabe59bcdc8f51c7&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1034177979087073400",
+      "postedAt": "2022-10-24T18:54:04.312Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1034177979087073400",
+      "capturedText": "Kirio\n — \n10/24/22, 11:54 AM\nMonday, October 24, 2022 at 11:54 AM\n@spartacurtYT your fans are delusional",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1034177978898337812/IMG_4589.jpg?ex=6ac3f24c&is=6ac2a0cc&hm=95d4ebcfd2994c7db1364985efd912858deab56ce21295e33c7d7e3060e10bb3&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1037301249642602496",
+      "postedAt": "2022-11-02T09:44:50.040Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1037301249642602496",
+      "capturedText": "Tankian\n — \n11/2/22, 2:44 AM\nWednesday, November 2, 2022 at 2:44 AM\nTwo TT this tour ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1037301249307062292/Screenshot_2022-11-02-10-44-12-412_com.nintendo.zaka.jpg?ex=6ac41a51&is=6ac2c8d1&hm=8f161e43afc01721594b398de7952c8a081a5cf318e182e4f57ecf94c93c52ef&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1038153648825442384",
+      "postedAt": "2022-11-04T18:11:57.842Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1038153648825442384",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n11/4/22, 11:11 AM\nFriday, November 4, 2022 at 11:11 AM\nIt really comes down to each player preferences, as well as the driving settings you're using. (edited)\nFriday, November 4, 2022 at 11:12 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:12"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1038154347990745129",
+      "postedAt": "2022-11-04T18:14:44.536Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1038154347990745129",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n11/4/22, 11:14 AM\nFriday, November 4, 2022 at 11:14 AM\nMost players in MP only have the steer/drift button enabled.\nIt gives you more \"freedom of movement\", and allows you to take NISCs.",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1038154347957207130/Screenshot_20221104-191319_Mario_Kart.jpg?ex=6ac3e914&is=6ac29794&hm=b0055e61db0e932350a97e4c7d115678767c3077ec7add067bed0c6f39cdd7dd&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1038155834565333042",
+      "postedAt": "2022-11-04T18:20:38.963Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1038155834565333042",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n11/4/22, 11:20 AM\nFriday, November 4, 2022 at 11:20 AM\nIt may be linked to the settings, especially if you have manual drift on and that smart steering is turned off. (edited)\nFriday, November 4, 2022 at 11:20 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:20"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1038156266180186244",
+      "postedAt": "2022-11-04T18:22:21.868Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1038156266180186244",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n11/4/22, 11:22 AM\nFriday, November 4, 2022 at 11:22 AM\nOnly the release matters on MKT, not when you start pressing.\nYou can start pressing at 3 as well, as long as you release your finger at the right time, you'll get the full start up boost. (edited)\nFriday, November 4, 2022 at 11:23 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "11:23"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1042320390602629161",
+      "postedAt": "2022-11-16T06:09:06.496Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1042320390602629161",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n11/15/22, 10:09 PM\nTuesday, November 15, 2022 at 10:09 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/1033472527365853234/1042319998108041236/IMG_5597.png?ex=6ac3e764&is=6ac295e4&hm=1c969478b920ef9992ab18b1b65cb75b9c8b33130685ca2e6c418fb00fba6604&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1043394333119881276",
+      "postedAt": "2022-11-19T05:16:34.345Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1043394333119881276",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n11/18/22, 9:16 PM\nFriday, November 18, 2022 at 9:16 PM\nVery God Lap",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1043394332893401118/IMG_7291.png?ex=6ac3db72&is=6ac289f2&hm=79c5665dbc721d7c196a1e91db6f3b537f74ad800d6a5eee876f25d9156fd93d&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1044188503052918814",
+      "postedAt": "2022-11-21T09:52:19.212Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1044188503052918814",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n11/21/22, 1:52 AM\nMonday, November 21, 2022 at 1:52 AM\nmy best",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1044188502658662420/IMG_7328.png?ex=6ac41c13&is=6ac2ca93&hm=2551cb8b4b09d347d6b3016422975bae080514e0976ea98ae5996953c12d70fb&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1045339402920013876",
+      "postedAt": "2022-11-24T14:05:35.123Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1045339402920013876",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n11/24/22, 6:05 AM\nThursday, November 24, 2022 at 6:05 AM\n45.23 my best",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "45.23"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1047396805714911263",
+      "postedAt": "2022-11-30T06:20:58.174Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1047396805714911263",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n11/29/22, 10:20 PM\nTuesday, November 29, 2022 at 10:20 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/1033472527365853234/1047394927568490617/IMG_20221130_03130057601560.jpg?ex=6ac3e8ca&is=6ac2974a&hm=c2a222eaed3494136b03619f4feafa123f8cc84698a0c67d2c612b69f83105e0&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1047507804900040726",
+      "postedAt": "2022-11-30T13:42:02.442Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1047507804900040726",
+      "capturedText": "Kirio\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n11/30/22, 5:42 AM\nWednesday, November 30, 2022 at 5:42 AM\nTime Trial History For zekirio\n1. [18th] 3DS Bowser's Castle | 01:36.93\n2. [22nd] Berlin Byways 2 | 01:24.01\n3. [73rd] Bowser's Castle 2 | 1:24.51\n4. [54th] Cheep Cheep Island | 01:12.92\n5. [39th] Dino Dino Jungle | 1:38.46\n6. [44th] DK Summit | 01:35.84\n7. [25th] Donut Plains 2R | 01:03.59\n8. [61st] Kalimari Desert 2 | 01:05.86\n9. [26th] Koopa Troopa Beach 2 | 00:58.38\n10. [51st] Maple Treeway R | 01:52.60\n11. [39th] Mario Circuit 1 | 00:43.29\n12. [38th] Mario Circuit 1R | 00:43.47\n13. [42nd] Mario Circuit 3R | 1:09.78\n14. [35th] Neo Bowser City R | 01:25.83 - 42.99/42.84\n15. [44th] RMX Choco Island 1 | 01:14.96\n16. [16th] RMX Choco Island 1R | 01:12.93\n17. [26th] RMX Ghost Valley 1 | 01:01.93 - 30.93/31.00\n18. [25th] RMX Vanilla Lake 1R | 01:02.98\n19. [36th] Rock Rock Mountain | 01:45.79\n20. [24th] Rosalina's Ice World | 01:30.58\nPage 1/2\n,\n,\n,\n(edited)\nWednesday, November 30, 2022 at 5:49 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:36",
+        "01:24",
+        "24.51",
+        "01:12",
+        "38.46",
+        "01:35",
+        "01:03",
+        "01:05",
+        "00:58",
+        "01:52",
+        "00:43",
+        "00:43",
+        "09.78",
+        "01:25",
+        "42.99",
+        "42.84",
+        "01:14",
+        "01:12",
+        "01:01",
+        "30.93",
+        "31.00",
+        "01:02",
+        "01:45",
+        "01:30"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1047509716902875248",
+      "postedAt": "2022-11-30T13:49:38.299Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1047509716902875248",
+      "capturedText": "Kirio\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n11/30/22, 5:49 AM\nWednesday, November 30, 2022 at 5:49 AM\nTime Trial History For kirio\n21. [35th] Neo Bowser City R | 01:25.83 - 42.99/42.84\n22. [44th] RMX Choco Island 1 | 01:14.96\n23. [16th] RMX Choco Island 1R | 01:12.93\n24. [26th] RMX Ghost Valley 1 | 01:01.93 - 30.93/31.00\n25. [36th] Rock Rock Mountain | 01:45.79\n26. [24th] Rosalina's Ice World | 01:30.58\n27. [23rd] Sunset Wilds | 01:11.61 - 35.91/35.70\n28. [24th] Toad circuit R | 01:03.33\n29. [27th] Vanilla Lake 1R | 00:38.32\n30. [23rd] Vanilla Lake 2 | 00:32.43\n31. [48th] Waluigi Pinball R | 1:51.33 - 55.71/55.62\n32. [18th] Wario Shipyard | 01:34.32\nPage 2/2\n,\n,\n,\n(edited)\nWednesday, November 30, 2022 at 5:50 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:25",
+        "42.99",
+        "42.84",
+        "01:14",
+        "01:12",
+        "01:01",
+        "30.93",
+        "31.00",
+        "01:45",
+        "01:30",
+        "01:11",
+        "35.91",
+        "35.70",
+        "01:03",
+        "00:38",
+        "00:32",
+        "51.33",
+        "55.71",
+        "55.62",
+        "01:34"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1047575951938158642",
+      "postedAt": "2022-11-30T18:12:49.962Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1047575951938158642",
+      "capturedText": "Wins\n — \n11/30/22, 10:12 AM\nWednesday, November 30, 2022 at 10:12 AM\nMy first sub lap here ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1047575951548096542/IMG_0117.png?ex=6ac3e8a1&is=6ac29721&hm=0371641dd597c296296547eb4e1fbd221844c4652a1622339e83059aed7e0ebb&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1047784280253808662",
+      "postedAt": "2022-12-01T08:00:39.303Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1047784280253808662",
+      "capturedText": "@Zabby\nIs there a video for RR?\nWins\n — \n12/1/22, 12:00 AM\nThursday, December 1, 2022 at 12:00 AM\n46.99 Rry (edited)\nThursday, December 1, 2022 at 2:28 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1047784279989571594/RPReplay_Final1669831746.mov?ex=6ac401e7&is=6ac2b067&hm=fc41913eb448dfc6de6cc7dd39c868c2b4de0129223f81818b75d568b589242a&"
+      ],
+      "shorthandTokens": [
+        "46.99"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1052468564617089047",
+      "postedAt": "2022-12-14T06:14:19.725Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1052468564617089047",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n12/13/22, 10:14 PM\nTuesday, December 13, 2022 at 10:14 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/1033472527365853234/1052466792490094664/IMG_6001.jpg?ex=6ac3e755&is=6ac295d5&hm=c6903b253c9c0a82dc6f6b6a4d77bf7a5f2c32cf11f90c01bcceeb465fce1835&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1052607612119691355",
+      "postedAt": "2022-12-14T15:26:51.233Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1052607612119691355",
+      "capturedText": "Deleted User\n — \n12/14/22, 7:26 AM\nWednesday, December 14, 2022 at 7:26 AM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1052607611779960912/IMG_2149.png?ex=6ac3c1bb&is=6ac2703b&hm=ee1350a9c5b6ee5295fdebf88f72cbaa4bfbdb03ad4afeae4e8531dfe52cd234&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1053629345110970398",
+      "postedAt": "2022-12-17T11:06:51.361Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1053629345110970398",
+      "capturedText": "Troy\n used \nplayer-history\nMKT Time Trial Bot\nAPP\n — \n12/17/22, 3:06 AM\nSaturday, December 17, 2022 at 3:06 AM\nTime Trial History For troy\n1. [15th] 3DS Mario Circuit | 01:35.89 - 47.92/47.97\n2. [19th] 3DS Mario Circuit R | 01:36.78\n3. [8th] 3DS Rainbow Road | 01:59.59 - 33.69/49.06/36.84\n4. [18th] 3DS Rainbow Road R | 1:55.04\n5. [26th] Airship Fortress | 01:32.04 - 46.02/46.02\n6. [12th] Airship Fortress R | 01:37.18 - 48.79/48.39\n7. [12th] Berlin Byways 3 | 01:14.65 - 37.39/37.26\n8. [39th] Bowser's Castle 1R | 1:01.49\n9. [28th] Bowser's Castle 2 | 1:20.56 - 40.38/40.16\n10. [34th] Bowser's Castle 2R | 01:20.16 - 40.13/40.03\n11. [14th] Bowser's Castle 3 | 01:26.33 - 43.17/43.16\n12. [8th] Cheep Cheep Island | 01:11.95\n13. [12th] Choco Island 1 | 00:40.17 - 20.28/19.89\n14. [7th] Choco Island 2 | 00:48.36 - 24.36/24.00\n15. [5th] Choco Island 2R | 00:48.72 - 24.17/24.55\n16. [41st] Choco Mountain | 01:19.57 - 39.72/39.85\n17. [18th] Choco Mountain R | 01:18.57 - 39.11/39.46\n18. [33rd] Daisy Hills R | 1:22.73\n19. [17th] Dino Dino Jungle | 1:34.83 - 47.29/47.54\n20. [5th] DK Pass | 01:32.25\nPage 1/4\n,\n,\n,\n(edited)\nSaturday, December 17, 2022 at 3:10 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:35",
+        "47.92",
+        "47.97",
+        "01:36",
+        "01:59",
+        "33.69",
+        "49.06",
+        "36.84",
+        "55.04",
+        "01:32",
+        "46.02",
+        "46.02",
+        "01:37",
+        "48.79",
+        "48.39",
+        "01:14",
+        "37.39",
+        "37.26",
+        "01.49",
+        "20.56",
+        "40.38",
+        "40.16",
+        "01:20",
+        "40.13",
+        "40.03",
+        "01:26",
+        "43.17",
+        "43.16",
+        "01:11",
+        "00:40",
+        "20.28",
+        "19.89",
+        "00:48",
+        "24.36",
+        "24.00",
+        "00:48",
+        "24.17",
+        "24.55",
+        "01:19",
+        "39.72",
+        "39.85",
+        "01:18",
+        "39.11",
+        "39.46",
+        "22.73",
+        "34.83",
+        "47.29",
+        "47.54",
+        "01:32"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1053630346635255849",
+      "postedAt": "2022-12-17T11:10:50.143Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1053630346635255849",
+      "capturedText": "Troy\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n12/17/22, 3:10 AM\nSaturday, December 17, 2022 at 3:10 AM\nRosalina's Ice World R Global Leaderboard\n21. LabatM: 01:30.79 | 45.55/45.24\n22. Isun: 01:30.89\n23. Romain: 01:30.94 | 45.47/45.47\n23. Y146: 01:30.94 | 45.47/45.47\n25. Nozomi: 01:31.25\n26. kuRi: 01:31.50\n27. ryukano: 01:31.57\n28. Pinbo: 01:31.62\n29. D Chris: 01:31.68\n30. Greg85: 01:31.78\n31. Heriawsity: 01:31.83\n32. Mish: 01:31.87 | 46.05/45.82\n33. Serjfield: 01:31.90\n34. Raphael: 01:31.94\n35. Dragon: 01:32.02 | 45.97/46.05\n36. Timaël: 01:32.55\n37. sweet mochi: 01:32.86\n38. Javier: 01:32.90\n39. webkinz9: 01:33.32\n40. Manfredi: 01:34.37\nPage 2/3\n,\n,\n,\n(edited)\nSaturday, December 17, 2022 at 3:11 AM",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "01:30",
+        "45.55",
+        "45.24",
+        "01:30",
+        "01:30",
+        "45.47",
+        "45.47",
+        "01:30",
+        "45.47",
+        "45.47",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "01:31",
+        "46.05",
+        "45.82",
+        "01:31",
+        "01:31",
+        "01:32",
+        "45.97",
+        "46.05",
+        "01:32",
+        "01:32",
+        "01:32",
+        "01:33",
+        "01:34"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1056894510719844422",
+      "postedAt": "2022-12-26T11:21:27.506Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1056894510719844422",
+      "capturedText": "N\n — \n12/26/22, 3:21 AM\nMonday, December 26, 2022 at 3:21 AM\n@10mp ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1056894509893562368/IMG_2703.png?ex=6ac38837&is=6ac236b7&hm=6aabd1eb54ef6d05038597b75d601fd21e24cd3d5697bd4963b82037e0f73146&",
+        "https://media.discordapp.net/attachments/636461740162416640/1056894509893562368/IMG_2703.png?ex=6ac38837&is=6ac236b7&hm=6aabd1eb54ef6d05038597b75d601fd21e24cd3d5697bd4963b82037e0f73146&=&format=webp&quality=lossless&width=296&height=640"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1057176979184570388",
+      "postedAt": "2022-12-27T06:03:53.236Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057176979184570388",
+      "capturedText": "Starin\n — \n12/26/22, 10:03 PM\nMonday, December 26, 2022 at 10:03 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1057176978932908032/F9BFB828-8CCB-42E4-97AD-A1F00CCA1A8D.jpeg?ex=6ac3e689&is=6ac29509&hm=6af714aab4e9e15074b44cd3a3abfb4dcd8f325b53d06541b7e670dd9b5b2641&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1057542640830259220",
+      "postedAt": "2022-12-28T06:16:53.766Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057542640830259220",
+      "capturedText": "Trash🚮 [VIBE], \nServer Tag: VIBE\nVIBE\n — \n12/27/22, 10:16 PM\nTuesday, December 27, 2022 at 10:16 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/1033472527365853234/1057542248432140368/LockedCups.jpg?ex=6ac3e938&is=6ac297b8&hm=92eaf2aab1244987f6335dccf623bc07ca42fd4bcff74a0fdf7af7b1705c7935&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1057619943107072050",
+      "postedAt": "2022-12-28T11:24:04.065Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057619943107072050",
+      "capturedText": "Wins\n — \n12/28/22, 3:24 AM\nWednesday, December 28, 2022 at 3:24 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1057619942771535892/ScreenRecording_12-28-2022_09-35-47_1.mov?ex=6ac388d3&is=6ac23753&hm=65af267c9de807c461524dde42c5c8700a8dc0703d28e1422258de24c368a511&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1057620559959162940",
+      "postedAt": "2022-12-28T11:26:31.134Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057620559959162940",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n12/28/22, 3:26 AM\nWednesday, December 28, 2022 at 3:26 AM\nIt's not much different because this is possible, but I was more stable in the fall lol",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1057620559720103966/IMG_7745.png?ex=6ac38967&is=6ac237e7&hm=892ac42b093ef0dbb48c59645b69acca9c1e6b535bb42ae90d3ec036eea85f3a&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1057620995361488986",
+      "postedAt": "2022-12-28T11:28:14.942Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057620995361488986",
+      "capturedText": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～\n — \n12/28/22, 3:28 AM\nWednesday, December 28, 2022 at 3:28 AM\nbut manual can't shortcut here",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1057620995105640518/IMG_7746.png?ex=6ac389ce&is=6ac2384e&hm=f49ac64e176bf7eb9e5ede7640fed9ce032140a29a15d3c3e70d5afb4fba2a2c&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1057621515287404545",
+      "postedAt": "2022-12-28T11:30:18.902Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057621515287404545",
+      "capturedText": "Wins\n — \n12/28/22, 3:30 AM\nWednesday, December 28, 2022 at 3:30 AM\nIn lap 2 even better because u can finish like this (edited)\nWednesday, December 28, 2022 at 3:32 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1057621514867982417/RPReplay_Final1672225138.mov?ex=6ac38a4a&is=6ac238ca&hm=659f7e83d186c7f8192a932457c8327b478620771e8a7d37fbae1c018d68bf2e&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1057670054675751015",
+      "postedAt": "2022-12-28T14:43:11.594Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057670054675751015",
+      "capturedText": "Wins\n — \n12/28/22, 6:43 AM\nWednesday, December 28, 2022 at 6:43 AM\nBetter strat ",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1057670054428295188/IMG_0622.png?ex=6ac3b77f&is=6ac265ff&hm=75a2625adbc49a53b9f2d7652b4b95d37f37c4043fc5ec7e953b8ca9c8af442b&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1058008784171176017",
+      "postedAt": "2022-12-29T13:09:10.999Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058008784171176017",
+      "capturedText": "hirose\n — \n12/29/22, 5:09 AM\nThursday, December 29, 2022 at 5:09 AM\nI want to see 48.06 running.",
+      "capturedAttachmentReferences": [],
+      "shorthandTokens": [
+        "48.06"
+      ],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1058207881486417942",
+      "postedAt": "2022-12-30T02:20:19.498Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058207881486417942",
+      "capturedText": "spartacurtYT\n — \n12/29/22, 6:20 PM\nThursday, December 29, 2022 at 6:20 PM",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1058207881352196106/IMG_8651.png?ex=6ac3b223&is=6ac260a3&hm=f4913405ad760d5c4d3606994863fc4454868e58dba6471d24db7aa010fbf77b&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1058362575294824523",
+      "postedAt": "2022-12-30T12:35:01.376Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058362575294824523",
+      "capturedText": "Deleted User\n — \n12/30/22, 4:35 AM\nFriday, December 30, 2022 at 4:35 AM\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1058362575231922297/RPReplay_Final1672398043.mov?ex=6ac39975&is=6ac247f5&hm=0bc02980e07116b2f2e8f3a88ed408c79ef0ba55827672e00e99fba6164e4b24&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1058366136305061898",
+      "postedAt": "2022-12-30T12:49:10.387Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058366136305061898",
+      "capturedText": "Wins\n — \n12/30/22, 4:49 AM\nFriday, December 30, 2022 at 4:49 AM\nYour time here",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1058366136065990666/IMG_0684.png?ex=6ac39cc6&is=6ac24b46&hm=05cac510e3230b0d8947323cb6f5e1cf78bc91b2b5e0b43038193a5f0c73c82e&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1058366178512355358",
+      "postedAt": "2022-12-30T12:49:20.450Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058366178512355358",
+      "capturedText": "Wins\n — \n12/30/22, 4:49 AM\nFriday, December 30, 2022 at 4:49 AM\nMy time same position",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1058366178210349096/IMG_0685.png?ex=6ac39cd0&is=6ac24b50&hm=944ac777b699f6c25815e45d689f17d8035d9eadf22084200c64359f798983ad&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    },
+    {
+      "messageId": "1058380262431526962",
+      "postedAt": "2022-12-30T13:45:18.318Z",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058380262431526962",
+      "capturedText": "Phillish\n — \n12/30/22, 5:45 AM\nFriday, December 30, 2022 at 5:45 AM\nline failed successfully\nDownload",
+      "capturedAttachmentReferences": [
+        "https://cdn.discordapp.com/attachments/636461740162416640/1058380262133727297/RPReplay_Final1672407745.mov?ex=6ac3a9ee&is=6ac2586e&hm=258c5278e00ee74427c0a9532e97858d8220530f5d90460029579191c93e14e0&"
+      ],
+      "shorthandTokens": [],
+      "reviewStatus": "pending-original-context-proof-and-chronology-review",
+      "candidateIsProvedResult": false
+    }
+  ],
+  "limitations": [
+    "Reference presence is not proof of completed review,correct identity,date,media availability or WR status. Prior-review bucket requires scope audit; canonical-linked messages still need evidence reconciliation.",
+    "This expands the selected210queue only for unlinked captured attachments and shorthand. Other text,year-boundary messages,submission-channel originals and additional sources remain outside this screen.",
+    "Images and clips have not been freshly visually reviewed. All candidates remain unproved; source-context and original receipt/media work required before any result insertion.",
+    "No changes to public results,submission dates,WR progression or fastest video selections. Full2019–2026 history remains incomplete."
+  ]
+}
