@@ -18,14 +18,15 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 25,
+      "fresh-original-reviewed-supporting-results-restored": 27,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
       "fresh-original-partial-technique-video-reviewed": 1,
       "fresh-original-partial-lap-image-reviewed": 1,
       "fresh-original-result-reviewed-author-identity-pending": 4,
-      "original-source-review-pending": 58,
+      "fresh-original-reviewed-joke-image-no-result": 1,
+      "original-source-review-pending": 55,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -1581,7 +1582,20 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-joke-image-no-result",
+      "freshOriginalReview": {
+        "messageId": "793852909938409523",
+        "attachmentId": "793852909787152400",
+        "postedAt": "2020-12-30T14:48:02.803Z",
+        "currentAuthor": "zxflare",
+        "discordAccountId": "406287891757793320",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-joke-image-no-result",
+        "reviewAudit": "archive/newyear2021-heria5845-delta5997-zxflare-context-review-20261010.json",
+        "description": "Squidward meme with .3 WR cut text and controller icon; no course, runner performance or exact time established.",
+        "videoObserved": false
+      },
+      "reviewAudit": "archive/newyear2021-heria5845-delta5997-zxflare-context-review-20261010.json"
     },
     {
       "messageId": "793853619975094272",
@@ -1591,10 +1605,34 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793853619757776926/Screenshot_20201230_225005_com.nintendo.zaka.jpg?ex=6ac4620c&is=6ac3108c&hm=2d1a798929471c00aeb62f0dbca4df39c7290619a5de279acc78852a945ec794&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793853619975094272-newyear2021-opening-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793853619975094272",
+        "attachmentId": "793853619757776926",
+        "postedAt": "2020-12-30T14:50:52.089Z",
+        "discordAccountId": "496346838400761866",
+        "currentAuthor": "heria",
+        "canonicalPlayerId": "heria",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:58.45",
+        "displayedPreviousBest": "0:58.66",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-heria5845-delta5997-zxflare-context-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-heria5845-delta5997-zxflare-context-review-20261010.json"
     },
     {
       "messageId": "793854599810383914",
@@ -1604,10 +1642,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793854599861633044/image0.png?ex=6ac462f5&is=6ac31175&hm=310fba9846d7e1632e6d28520745ab03bde5cd544a45575258cfc4d6278e69c6&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793854599810383914-newyear2021-opening-original-reviewed",
+        "793854599810383914-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793854599810383914",
+        "attachmentId": "793854599861633044",
+        "postedAt": "2020-12-30T14:54:45.700Z",
+        "discordAccountId": "121349646978121728",
+        "currentAuthor": "Delta",
+        "canonicalPlayerId": "delta",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:59.97",
+        "displayedPreviousBest": "1:00.26",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-heria5845-delta5997-zxflare-context-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-heria5845-delta5997-zxflare-context-review-20261010.json"
     },
     {
       "messageId": "793855156835581962",
