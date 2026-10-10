@@ -11,7 +11,8 @@
     "toExclusive": "2021-01-27T06:00:00Z",
     "savedAttachmentPosts": 327,
     "publicPrimaryOrSecondarySourceLinkedPosts": 311,
-    "unlinkedPosts": 16
+    "unlinkedPosts": 16,
+    "sourceComparisonBasis": "Preserved initial comparison at 0ef1c46e: 311 linked and 16 initially unlinked posts. Later reconciliations retained in unlinkedSourceReviews with dispositions."
   },
   "matchedSourceLinks": [
     {
@@ -2346,12 +2347,12 @@
       "messageId": "800320710139969556",
       "postedAt": "2021-01-17T11:08:46.537Z",
       "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/800320710139969556",
-      "freshOriginalReview": false,
+      "freshOriginalReview": true,
       "priorReview": "archive/january2021-remaining-context-images-review-20261005.json",
       "classification": "leaderboard-split-transcription-error",
-      "finding": "AstreRockRockR1:43.39croppedrow,52.07+52.32=1:44.39,conflictswithtotal. Fulllaterleaderboardshows52.07/51.32. Donotimportbadlap2.",
-      "reviewStatus": "standings-content-reconciliation-pending",
-      "nextRequiredEvidence": "Compare displayed result rows with exact originals and later corrected standings; exclude placeholders and bad split cells."
+      "finding": "Cropped Astre lap2 52.32 excluded; original nested result and later corrected standings confirm 52.07/51.32 for 1:43.39.",
+      "reviewStatus": "standings-split-error-reconciled-original-result-corroborated",
+      "reviewAudit": "archive/berlin2021-january15-five-results-fourteen-placeholders-and-astre-cropped-split-reconciliation-20261010.json"
     },
     {
       "messageId": "800029070448394280",
@@ -2377,12 +2378,12 @@
       "messageId": "799742838342287420",
       "postedAt": "2021-01-15T20:52:31.164Z",
       "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/799742838342287420",
-      "freshOriginalReview": false,
+      "freshOriginalReview": true,
       "priorReview": "archive/january2021-remaining-context-images-review-20261005.json",
       "classification": "leaderboard-with-placeholder-times",
-      "finding": "RockRockMountainR ranking Kaguya1:43.64,51.89/51.75;1:59.99manyrowsareplaceholders,notcompletedruns.",
-      "reviewStatus": "standings-content-reconciliation-pending",
-      "nextRequiredEvidence": "Compare displayed result rows with exact originals and later corrected standings; exclude placeholders and bad split cells."
+      "finding": "Five actual rows transcribed: four exact originals corroborated, Hydr0/hyd identity pending. Fourteen 1:59.99 placeholders excluded.",
+      "reviewStatus": "standings-results-reconciled-one-profile-alias-pending",
+      "reviewAudit": "archive/berlin2021-january15-five-results-fourteen-placeholders-and-astre-cropped-split-reconciliation-20261010.json"
     },
     {
       "messageId": "799698711231594526",
@@ -2463,7 +2464,8 @@
     "censored-result-exact-time-pending": 1,
     "prior-reviewed-partial-video-no-completed-result": 3,
     "prior-reviewed-context-no-new-completed-result": 8,
-    "standings-content-reconciliation-pending": 2,
+    "standings-split-error-reconciled-original-result-corroborated": 1,
+    "standings-results-reconciled-one-profile-alias-pending": 1,
     "reviewed-context-no-new-completed-result": 1,
     "curated-result-profile-alias-assignment-pending": 1
   },
@@ -2471,8 +2473,15 @@
     "Bounded saved attachment-post census only; does not certify live source capture completeness, text-only messages, other channels, final standings, or whole tour history.",
     "Both primary source and additional/video-share source links compared in public records and submissions. Linked source presence is not proof of full content reconciliation or correct runner/date.",
     "Prior original content dispositions carried with exact audit citations; fresh January15 administrative image review recorded separately; other carried media are not freshly recertified.",
-    "Two standings images remain pending row reconciliation; placeholder times and contradictory splits must not become completed results.",
+    "Two standings images now have row dispositions; fourteen placeholders and incorrect Astre split excluded. Hydr0/hyd original identity remains pending.",
     "Censored lxnxr result and Lélé profile assignment remain open. January15 administrative attachment classified with original context; its Kazuo submission was already present in public history.",
-    "No public race data, dates, runner mappings or footage choices modified. Archive remains incomplete."
-  ]
+    "Existing exact-result source corroboration added separately; race times, dates, runner mappings and footage choices unchanged. Archive remains incomplete."
+  ],
+  "latestStandingsReconciliation": "archive/berlin2021-january15-five-results-fourteen-placeholders-and-astre-cropped-split-reconciliation-20261010.json",
+  "latestPublicSourceLinkCoverage": {
+    "reviewAudit": "archive/berlin2021-january15-five-results-fourteen-placeholders-and-astre-cropped-split-reconciliation-20261010.json",
+    "linkedPosts": 313,
+    "unlinkedPosts": 14,
+    "basis": "Two initially unlinked standings posts now added as corroborating sources to exact existing results. Original 311/16 comparison retained above."
+  }
 }
