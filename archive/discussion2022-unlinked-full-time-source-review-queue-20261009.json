@@ -743,9 +743,11 @@
       "postedAt": "2022-05-04T11:49:12.762Z",
       "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/971377959028027412",
       "capturedText": "MKT Time Trial Bot\nAPP\n — \n5/4/22, 4:49 AM\nWednesday, May 4, 2022 at 4:49 AM\nUsage:\n!submit <track> <time> <media link (optional)>\n• track: The track abbreviation, such as wpr, or cclr\n• time: Either the total time (1:45.47) or split times (52.35/53.12)\n• media link: An optional media link to attach with your submission\n• image: Don't forget to send a screenshot of your time!\n\nExamples:\n• To submit for Waluigi Pinball R without lap times:\n!submit wpr 1:45.47\n• To submit for Cheep Cheep Lagoon R with lap times:\n!submit cclr 38.59/38.44\n• To submit for Singapore Speedway with a media link:\n!submit ss 1:11.50 https://youtu.be/XXXXXXXXXXX",
-      "sourceType": "unreviewed-full-time-text-candidate",
-      "reviewStatus": "pending-original-source-and-chronology-review",
-      "capturedLinks": []
+      "sourceType": "bot-command-help-examples",
+      "reviewStatus": "live-help-text-reviewed-not-run-submission",
+      "capturedLinks": [],
+      "reviewAudit": "archive/may2022-bot-submit-help-example-disposition-20261009.json",
+      "decision": "Usage/Examples block. Times1:45.47,1:11.50 and52.35/53.12,38.59/38.44 demonstrate syntax; placeholderXXXXXXXXXXX is not a result video."
     },
     {
       "messageId": "972032906589532190",
@@ -2123,10 +2125,10 @@
   },
   "counts": {
     "liveReviewedReportedResults": 2,
-    "pending": 199,
+    "pending": 198,
     "capturedLeaderboardCandidates": 175,
     "liveReviewedCommandDispositions": 4,
-    "additionalLiveSourceDispositions": 5
+    "additionalLiveSourceDispositions": 6
   },
   "validation": {
     "candidateIdsUnique": true,
