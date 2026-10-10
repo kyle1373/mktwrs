@@ -44,7 +44,7 @@
       "original-image-caption-and-shroomless-context-reviewed-time-course-proof-pending": 1,
       "original-image-shroom-versus-shroomless-caption-reviewed-time-course-proof-pending": 1,
       "explicit-first-lap-caption-linked-original-video-share-footage-pending": 1,
-      "external-channel-image-repost-original-owner-time-course-pending": 3,
+      "external-channel-image-repost-original-owner-time-course-pending": 4,
       "image-only-original-time-course-visual-review-pending": 10,
       "conditional-lap-threshold-guidance-not-exact-result": 1,
       "potential-time-discussion-not-proved-finished-run": 1,
@@ -52,7 +52,7 @@
       "original-clip-reference-footage-course-finish-time-pending": 5,
       "drift-technique-question-not-run-result": 1,
       "approximate-target-caption-image-course-exact-time-pending": 1,
-      "route-test-clip-reference-footage-course-finish-time-pending": 1,
+      "route-test-clip-reference-footage-course-finish-time-pending": 2,
       "time-reaction-caption-owner-course-lap-or-full-time-unresolved": 1,
       "target-caption-image-time-course-visual-review-pending": 1,
       "commentary-linked-existing-verified-video-submission": 2,
@@ -68,7 +68,7 @@
       "original-cannon-clip-share-lap-context-footage-pending": 1,
       "explicit-two-first-lap-comparison-not-full-race-evidence": 1,
       "same-filename-later-clip-share-content-identity-unverified": 1,
-      "image-caption-original-time-course-visual-review-pending": 3,
+      "image-caption-original-time-course-visual-review-pending": 4,
       "prior-wr-lap-commentary-image-exact-time-course-pending": 1,
       "repost-matched-existing-verified-original-image-submission": 1,
       "best-split-shorthand-exact-laps-and-full-time-unresolved": 1,
@@ -98,14 +98,18 @@
       "external-channel-image-repost-course-commentary-original-result-pending": 1,
       "clip-reply-quoted-other-video-not-same-run-proof": 1,
       "clip-inability-caption-source-reviewed-footage-time-course-pending": 1,
-      "text-leaderboard-transcribed-existing-leader-crosswalk-other-originals-pending": 3,
+      "text-leaderboard-transcribed-existing-leader-crosswalk-other-originals-pending": 4,
       "time-only-caption-exact-lap-course-result-proof-unresolved": 2,
       "first-lap-strategy-video-commentary-linked-original-share-footage-pending": 1,
       "two-image-caption-original-course-time-visual-review-pending": 1,
-      "pending-original-context-proof-and-chronology-review": 100
+      "explicit-respawn-measurement-not-completed-race-proof": 1,
+      "reaction-to-respawn-measurement-not-independent-run": 1,
+      "respawn-repeatability-commentary-not-full-race-result": 1,
+      "berlin-recording-fractional-time-caption-footage-full-result-pending": 1,
+      "pending-original-context-proof-and-chronology-review": 92
     },
-    "candidatesWithRecordedDisposition": 99,
-    "untouchedCandidates": 100
+    "candidatesWithRecordedDisposition": 107,
+    "untouchedCandidates": 92
   },
   "rows": [
     {
@@ -3567,8 +3571,88 @@
         "01:15",
         "01:18"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "text-leaderboard-transcribed-existing-leader-crosswalk-other-originals-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "991381272360390666",
+        "postedAt": "2022-06-28T16:35:14.304Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991381272360390666",
+        "currentAuthor": "MKT Time Trial Bot",
+        "writtenCaption": null,
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": "berlin-byways",
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "text-leaderboard-transcribed-existing-leader-crosswalk-other-originals-pending",
+        "snapshotCommandUser": "Shine",
+        "snapshotCommand": "leaderboard",
+        "tableTextTranscribed": true,
+        "rankedEntries": [
+          {
+            "rank": 1,
+            "player": "SuperFX",
+            "time": "1:14.68",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 2,
+            "player": "Sucha",
+            "time": "1:14.83",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 3,
+            "player": "Nu11",
+            "time": "1:14.88",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 4,
+            "player": "Wins",
+            "time": "1:14.93",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 5,
+            "player": "Shine",
+            "time": "1:15.12",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 6,
+            "player": "spartacurtYT",
+            "time": "1:15.24",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 7,
+            "player": "ねこ好き☆nekozuki",
+            "time": "1:15.59",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 8,
+            "player": "Starin",
+            "time": "1:15.60",
+            "originalSubmissionDatesUnresolved": true
+          },
+          {
+            "rank": 9,
+            "player": "Timael",
+            "time": "1:18.33",
+            "originalSubmissionDatesUnresolved": true
+          }
+        ],
+        "leaderLapField": "No lap times available",
+        "existingLeaderSubmissionId": "curated-990343294842183740-cat2022-image-reviewed",
+        "existingLeaderOriginalSubmittedAt": "2022-06-25T19:50:41.179Z",
+        "existingLeaderPriorImageVerificationRetained": true,
+        "remainingRanksOriginalProofAndChronologyPending": true,
+        "snapshotTimeNotRunSubmissionTime": true
+      }
     },
     {
       "messageId": "991589470631641139",
@@ -3579,8 +3663,23 @@
         "https://cdn.discordapp.com/attachments/626813702896877629/991586371745624124/IMG_3243.jpg?ex=6ac3e805&is=6ac29685&hm=7709c3d0aba917d3febfc37d005ad08f01fb39acb983ec93f1c4f8e8d6d5fba4&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "external-channel-image-repost-original-owner-time-course-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "991589470631641139",
+        "postedAt": "2022-06-29T06:22:32.640Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991589470631641139",
+        "currentAuthor": "Trash🚮",
+        "writtenCaption": null,
+        "attachmentPath": "626813702896877629/991586371745624124/IMG_3243.jpg",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "external-channel-image-repost-original-owner-time-course-pending"
+      }
     },
     {
       "messageId": "991590188390285332",
@@ -3592,8 +3691,23 @@
         "https://media.discordapp.net/attachments/636461740162416640/991590186058264646/IMG_7103.png?ex=6ac3eb93&is=6ac29a13&hm=941c44db86b1d4bc99e4111b91a8a45b8cb7729c0e5aab3df54f9dbdf40b5bb8&=&format=webp&quality=lossless&width=296&height=640"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "image-caption-original-time-course-visual-review-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "991590188390285332",
+        "postedAt": "2022-06-29T06:25:23.767Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991590188390285332",
+        "currentAuthor": "Wins",
+        "writtenCaption": "HYPE",
+        "attachmentPath": "636461740162416640/991590186058264646/IMG_7103.png",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "image-caption-original-time-course-visual-review-pending"
+      }
     },
     {
       "messageId": "991626516536508416",
@@ -3604,8 +3718,32 @@
       "shorthandTokens": [
         "10.99"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "explicit-respawn-measurement-not-completed-race-proof",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "991626516536508416",
+        "postedAt": "2022-06-29T08:49:45.072Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991626516536508416",
+        "currentAuthor": null,
+        "writtenCaption": "10.99 after respawn",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "explicit-respawn-measurement-not-completed-race-proof",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Tankian",
+        "reportedRespawnTime": "10.99",
+        "precedingBugCommentMessageId": "991626372306976778",
+        "precedingBugCommentAt": "2022-06-29T08:49:10.685Z",
+        "precedingBugComment": "That respawn is too crazy. Sometimes I have managed to find Bugs, but it is very difficult to repeat them.",
+        "precedingImageMessageId": "991626387892994078",
+        "precedingImagePostedAt": "2022-06-29T08:49:14.401Z",
+        "precedingImagePath": "636461740162416640/991626387138039828/Screenshot_2022-06-29-10-47-23-449_org.telegram.messenger.jpg"
+      }
     },
     {
       "messageId": "991628355927552010",
@@ -3616,8 +3754,25 @@
       "shorthandTokens": [
         "10.99"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "reaction-to-respawn-measurement-not-independent-run",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "991628355927552010",
+        "postedAt": "2022-06-29T08:57:03.617Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991628355927552010",
+        "currentAuthor": "Wins",
+        "writtenCaption": "10.99??????",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "reaction-to-respawn-measurement-not-independent-run",
+        "reactionToMessageId": "991626516536508416",
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "991633998071742514",
@@ -3628,8 +3783,31 @@
       "shorthandTokens": [
         "10.99"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "respawn-repeatability-commentary-not-full-race-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "991633998071742514",
+        "postedAt": "2022-06-29T09:19:28.809Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991633998071742514",
+        "currentAuthor": "Tankian",
+        "writtenCaption": "10.99 Only this time. A few times 11'2, 11'3... But usually 11'5 or more",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "respawn-repeatability-commentary-not-full-race-result",
+        "reportedRespawnTime": "10.99",
+        "reportedRepeatability": "Only this time",
+        "otherTimingShorthands": [
+          "11'2",
+          "11'3",
+          "11'5"
+        ],
+        "fullRaceTimeNotInferred": true
+      }
     },
     {
       "messageId": "991720078397681744",
@@ -3640,8 +3818,33 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/991720074174021674/RPReplay_Final1656205186.mov?ex=6ac3bbca&is=6ac26a4a&hm=271f6ebf7be42c71b24c8fef4ba7342352e96cf892d9e6ea99c16da1112cc04a&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "berlin-recording-fractional-time-caption-footage-full-result-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "991720078397681744",
+        "postedAt": "2022-06-29T15:01:31.958Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/991720078397681744",
+        "currentAuthor": "SuperFX",
+        "writtenCaption": "Looked through my phone and found a .65. Don’t know if I recorded anything lower",
+        "attachmentPath": "636461740162416640/991720074174021674/RPReplay_Final1656205186.mov",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "berlin-recording-fractional-time-caption-footage-full-result-pending",
+        "quotedAuthor": "Sucha",
+        "quotedQuestion": "@SuperFX do u have video Berlin ?",
+        "reportedTimeFraction": ".65",
+        "courseSubject": "Berlin",
+        "courseVariantAndFullTimeVisualReviewPending": true,
+        "lowerRecordingExistenceUnresolved": true,
+        "privateAchievementTimeUnresolved": true,
+        "originalClipSharedAt": "2022-06-29T15:01:31.958Z",
+        "videoAvailabilityUnverified": true,
+        "footageVisualReviewPending": true
+      }
     },
     {
       "messageId": "992024157086810173",
@@ -3652,8 +3855,26 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/992024155753021480/RPReplay_Final1656586641.mov?ex=6ac42e3d&is=6ac2dcbd&hm=25a4484f94c981117e877a6d50bbbac9b1db341e9f1726f2e99e8b892d62adf7&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "route-test-clip-reference-footage-course-finish-time-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/june2022-june28-30-eight-berlin-respawn-recording-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "992024157086810173",
+        "postedAt": "2022-06-30T11:09:49.967Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/992024157086810173",
+        "currentAuthor": "Wins",
+        "writtenCaption": "@えなが nice time, i am trying this variation, its good I think",
+        "attachmentPath": "636461740162416640/992024155753021480/RPReplay_Final1656586641.mov",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "route-test-clip-reference-footage-course-finish-time-pending",
+        "originalClipSharedAt": "2022-06-30T11:09:49.967Z",
+        "videoAvailabilityUnverified": true,
+        "footageVisualReviewPending": true
+      }
     },
     {
       "messageId": "992137983224459274",
