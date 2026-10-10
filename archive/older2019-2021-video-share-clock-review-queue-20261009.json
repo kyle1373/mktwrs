@@ -971,7 +971,9 @@
           "kind": "same-author-explicit-12279-video-identification"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/snowmario2021-video-clock-and-later-rosalina-repost-20261009.json",
+      "videoSharedAt": "2021-03-19T13:14:36.734Z"
     },
     {
       "courseId": "wii-maple-treeway",
@@ -1728,7 +1730,9 @@
           "kind": "live-reviewed-repost-of-existing-unavailable-video"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "later-video-repost-clock-reviewed-original-clock-pending",
+      "reviewAudit": "archive/snowmario2021-video-clock-and-later-rosalina-repost-20261009.json",
+      "videoRepostAt": "2021-10-20T18:02:55.309Z"
     },
     {
       "courseId": "3ds-rosalina-s-ice-world",
@@ -1768,7 +1772,10 @@
           "kind": "later-standings-corroboration"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "edited-original-video-message-clock-bounded-exact-share-pending",
+      "reviewAudit": "archive/snow2021-spart-edited-original-video-clock-bounds-20261009.json",
+      "sourceMessageCreatedAt": "2021-02-27T03:13:40.834Z",
+      "sourceMessageEditedAt": "2021-02-27T20:41:49.454Z"
     },
     {
       "courseId": "3ds-rosalina-s-ice-world-r",
@@ -2227,17 +2234,18 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 52,
-    "later-video-repost-clock-reviewed-original-clock-pending": 8,
+    "original-video-share-clock-reviewed": 53,
+    "later-video-repost-clock-reviewed-original-clock-pending": 9,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
     "reddit-reference-reviewed-original-social-clock-pending": 1,
     "section-time-context-reviewed-youtube-clock-pending": 1,
+    "edited-original-video-message-clock-bounded-exact-share-pending": 1,
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 28
+    "pending": 25
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
