@@ -18,7 +18,7 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 31,
+      "fresh-original-reviewed-supporting-results-restored": 33,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
@@ -26,7 +26,8 @@
       "fresh-original-partial-lap-image-reviewed": 1,
       "fresh-original-result-reviewed-author-identity-pending": 8,
       "fresh-original-reviewed-joke-image-no-result": 1,
-      "original-source-review-pending": 46,
+      "fresh-original-reviewed-photo-no-result": 1,
+      "original-source-review-pending": 43,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -2070,7 +2071,19 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-photo-no-result",
+      "freshOriginalReview": {
+        "messageId": "793936902012403802",
+        "attachmentId": "793936901723783219",
+        "postedAt": "2020-12-30T20:21:48.074Z",
+        "currentAuthor": "Nick",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-photo-no-result",
+        "reviewAudit": "archive/newyear2021-starin5893-jf5925-nick-beach-context-review-20261010.json",
+        "description": "Real-world beach photograph; no game result or timer.",
+        "videoObserved": false
+      },
+      "reviewAudit": "archive/newyear2021-starin5893-jf5925-nick-beach-context-review-20261010.json"
     },
     {
       "messageId": "794016136147501056",
@@ -2080,10 +2093,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794016135687176192/image0.png?ex=6ac450a6&is=6ac2ff26&hm=9be6e2cfb367e1e75d48a7b18c03c9a643df3ff618a3fb703663c6e89ac4c8c1&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794016136147501056-newyear2021-opening-original-reviewed",
+        "794016136147501056-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794016136147501056",
+        "attachmentId": "794016135687176192",
+        "postedAt": "2020-12-31T01:36:38.964Z",
+        "discordAccountId": "667296546378743809",
+        "currentAuthor": "Starin",
+        "canonicalPlayerId": "starin",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:58.93",
+        "displayedPreviousBest": "0:59.07",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-starin5893-jf5925-nick-beach-context-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-starin5893-jf5925-nick-beach-context-review-20261010.json"
     },
     {
       "messageId": "794019711842779148",
@@ -2093,10 +2131,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794019711355453470/Screenshot_2020-12-31-02-20-05-985_com.nintendo.zaka.jpg?ex=6ac453fb&is=6ac3027b&hm=48c9606f373879884afa2e96417df091a89ddcd1ce30213ee124d5b20d598167&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794019711842779148-newyear2021-opening-original-reviewed",
+        "794019711842779148-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794019711842779148",
+        "attachmentId": "794019711355453470",
+        "postedAt": "2020-12-31T01:50:51.476Z",
+        "discordAccountId": "691609123854352416",
+        "currentAuthor": "JF",
+        "canonicalPlayerId": "jf",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:59.25",
+        "displayedPreviousBest": "0:59.38",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-starin5893-jf5925-nick-beach-context-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-starin5893-jf5925-nick-beach-context-review-20261010.json"
     },
     {
       "messageId": "794043175136002058",
