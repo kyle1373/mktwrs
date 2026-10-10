@@ -18,9 +18,10 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 6,
+      "fresh-original-reviewed-supporting-results-restored": 8,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
-      "original-source-review-pending": 85,
+      "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
+      "original-source-review-pending": 82,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -436,10 +437,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793740986114637834/Screenshot_20201230_082247_com.nintendo.zaka.jpg?ex=6ac3f926&is=6ac2a7a6&hm=c7660632b0fc7e0bb6c6eafa235b88903ecc9ca8f7edd36b8011019fe5b9893b&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793740986064830475-newyear2021-opening-original-reviewed",
+        "793740986064830475-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793740986064830475",
+        "attachmentId": "793740986114637834",
+        "postedAt": "2020-12-30T07:23:18.072Z",
+        "discordAccountId": "540968925920362537",
+        "currentAuthor": "Troy",
+        "canonicalPlayerId": "troy",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:59.01",
+        "displayedPreviousBest": "0:59.15",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-troy-numbermaniac-and-deleted-author-three-images-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-troy-numbermaniac-and-deleted-author-three-images-20261010.json"
     },
     {
       "messageId": "793742964685013002",
@@ -449,10 +475,34 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793742964513701909/Screenshot_20201230-181020.png?ex=6ac3fafd&is=6ac2a97d&hm=42a5bb085dcc096bda848c5e2d48fe9ccb694ce1d868f65cf43aff83dce7bdbe&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793742964685013002-newyear2021-opening-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793742964685013002",
+        "attachmentId": "793742964513701909",
+        "postedAt": "2020-12-30T07:31:09.812Z",
+        "discordAccountId": "266845673176039424",
+        "currentAuthor": "numbermaniac",
+        "canonicalPlayerId": "numbermaniac",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "1:00.11",
+        "displayedPreviousBest": "1:00.46",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-troy-numbermaniac-and-deleted-author-three-images-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-troy-numbermaniac-and-deleted-author-three-images-20261010.json"
     },
     {
       "messageId": "793743300246372362",
@@ -465,7 +515,30 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-result-reviewed-deleted-author-identity-pending",
+      "freshOriginalReview": {
+        "messageId": "793743300246372362",
+        "attachmentId": "793743300020142111",
+        "postedAt": "2020-12-30T07:32:29.816Z",
+        "currentAuthor": "Deleted User",
+        "displayedTime": "0:58.96",
+        "displayedPreviousBest": "0:59.13",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "courseId": "snes-koopa-troopa-beach-2",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-result-reviewed-deleted-author-identity-pending",
+        "reviewAudit": "archive/newyear2021-troy-numbermaniac-and-deleted-author-three-images-20261010.json",
+        "videoObserved": false,
+        "identityResolved": false,
+        "nearbyWrittenSplitLead": ".53/.43",
+        "splitAttributionVerified": false,
+        "limitation": "Deleted display name does not identify a runner. Nearby fractional split text retained as a lead, not assigned to this result. Public named submission withheld pending identity evidence."
+      },
+      "reviewAudit": "archive/newyear2021-troy-numbermaniac-and-deleted-author-three-images-20261010.json"
     },
     {
       "messageId": "793743746399207444",
