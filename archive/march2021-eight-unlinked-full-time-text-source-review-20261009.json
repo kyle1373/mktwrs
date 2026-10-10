@@ -1,0 +1,230 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "census": {
+    "path": "archive/tt-discussion-march2021-full-message-census-20261004.json.gz",
+    "compressedSHA256": "43c7c83c08c80e152d9d0cb56f6e4f2a6bf1b48f8e4b6bdfc4fa4a70ac8f5f54",
+    "pages": 121,
+    "uniqueCapturedMessages": 3017
+  },
+  "screen": {
+    "regex": "\\b(?:[12]:[0-5]\\d[.:]\\d{2}|[01]?\\d[.:][0-5]\\d[.:]\\d{2})\\b",
+    "bodyExtraction": "Text after final literal 2021 at, to exclude timestamp headers.",
+    "exclusion": "Any17–20-digit identifier appearing in committed canonical JSON, plus exact message IDs in current committed March video queue.",
+    "selectedMessages": 8,
+    "limitation": "This deliberately narrow screen excludes many already referenced sources and misses shorthand, lap-only text and image-only results. It is not a full historical or monthly source disposition."
+  },
+  "rows": [
+    {
+      "messageId": "823691054183350283",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/823691054183350283",
+      "capturedText": "Phillish\n — \n3/22/21, 3:54 PM\nMonday, March 22, 2021 at 3:54 PM\ncan we sub 1:23.86 ",
+      "disposition": "target-challenge-not-completed-result",
+      "liveText": "can we sub 1:23.86",
+      "ownTimestamp": "2021-03-22T22:54:10.757Z",
+      "context": [
+        {
+          "messageId": "823691139240558604",
+          "postedAt": "2021-03-22T22:54:31.036Z",
+          "author": "Dragon",
+          "text": "Should be able to"
+        },
+        {
+          "messageId": "823691781627314228",
+          "postedAt": "2021-03-22T22:57:04.193Z",
+          "author": "Dragon (grouped)",
+          "text": "41.84/41.89"
+        },
+        {
+          "messageId": "823692077844922400",
+          "postedAt": "2021-03-22T22:58:14.817Z",
+          "author": "Dragon (grouped)",
+          "text": "Was easy challenge @Phillish"
+        }
+      ],
+      "decision": "Phillish sets a sub-1:23.86 challenge; Dragon later reports splits totaling1:23.73. Do not turn the target into a Phillish result."
+    },
+    {
+      "messageId": "822285302076932136",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/822285302076932136",
+      "capturedText": "NHSpeedy\n — \n3/18/21, 6:48 PM\nThursday, March 18, 2021 at 6:48 PM\n1:00.04 as of last update",
+      "disposition": "top-ten-cutoff-reference-not-submission",
+      "liveText": "1:00.04 as of last update",
+      "ownTimestamp": "2021-03-19T01:48:13.337Z",
+      "context": [
+        {
+          "messageId": "822285178331725877",
+          "postedAt": "2021-03-19T01:47:43.834Z",
+          "author": "zxflare",
+          "text": "whats top 10 time"
+        }
+      ],
+      "decision": "NHSpeedy answers a top-ten cutoff question. No self-attributed1:00.04 run."
+    },
+    {
+      "messageId": "820269524381073419",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/820269524381073419",
+      "capturedText": "Aggron\n — \n3/13/21, 4:18 AM\nSaturday, March 13, 2021 at 4:18 AM\n0:47.60",
+      "disposition": "text-only-self-reported-result-course-and-proof-unresolved",
+      "liveText": "0:47.60",
+      "ownTimestamp": "2021-03-13T12:18:14.483Z",
+      "sourceAuthor": "Aggron (grouped continuation)",
+      "context": [
+        {
+          "messageId": "820269448304787466",
+          "postedAt": "2021-03-13T12:17:56.345Z",
+          "author": "Aggron",
+          "text": "I do what you say to me"
+        },
+        {
+          "messageId": "820269562012368906",
+          "postedAt": "2021-03-13T12:18:23.455Z",
+          "author": "Aggron (grouped)",
+          "text": "and I mistake 2 two times"
+        },
+        {
+          "messageId": "820269889930788885",
+          "postedAt": "2021-03-13T12:19:41.637Z",
+          "author": "Aggron (grouped)",
+          "text": "the last part before glide how I have to track?"
+        }
+      ],
+      "decision": "Grouped self-report after discussing route changes. No attachment/video in exact message. Course not explicitly named in inspected neighborhood; preserve claim without publishing course-specific result."
+    },
+    {
+      "messageId": "819583299248193578",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/819583299248193578",
+      "capturedText": "Wins\n — \n3/11/21, 6:51 AM\nThursday, March 11, 2021 at 6:51 AM\nMister Tomegome 1:00.03",
+      "disposition": "existing-four-result-repost-leads-original-source-dates-unresolved",
+      "liveText": "Mister Tomegome 1:00.03",
+      "ownTimestamp": "2021-03-11T14:51:25.662Z",
+      "sourceAuthor": "Wins",
+      "attachmentId": "819583299072426004",
+      "decision": "Caption attributes1:00.03 to Tomegome. Prior original-image review shows four results1:00.11,1:00.08,1:00.03,1:00.57; individual originals and times remain unresolved. Do not attribute result to Wins or use repost timestamp as achievement time."
+    },
+    {
+      "messageId": "819273858967928906",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/819273858967928906",
+      "capturedText": "Kazuo\n — \n3/10/21, 10:21 AM\nWednesday, March 10, 2021 at 10:21 AM\n1:29.91",
+      "disposition": "request-for-older-runner-video-not-new-result",
+      "liveText": "1:29.91",
+      "ownTimestamp": "2021-03-10T18:21:49.350Z",
+      "sourceAuthor": "Kazuo (grouped continuation)",
+      "context": [
+        {
+          "messageId": "819273827035906149",
+          "postedAt": "2021-03-10T18:21:41.737Z",
+          "author": "Kazuo",
+          "text": "@えなが can you send me your RIW video please?"
+        },
+        {
+          "messageId": "819274492593176616",
+          "postedAt": "2021-03-10T18:24:20.418Z",
+          "author": "えなが",
+          "video": "https://youtu.be/gZ_1Jg-HxVQ",
+          "embedTitle": "【タイムアタック】1:29.91｜走り方｜ロゼッタプラネット｜スノーツアー【マリオカートツアー】"
+        }
+      ],
+      "decision": "Kazuo specifies requested Kaguya RIW video time. Exact video already in March queue; no Kazuo result inferred."
+    },
+    {
+      "messageId": "819263485443309570",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/819263485443309570",
+      "capturedText": "Deleted User\n — \n3/10/21, 9:40 AM\nWednesday, March 10, 2021 at 9:40 AM\nOnly 0.00.01 cent",
+      "disposition": "difference-commentary-not-completed-result",
+      "liveText": "Only 0.00.01 cent",
+      "ownTimestamp": "2021-03-10T17:40:36.109Z",
+      "sourceAuthor": "Deleted User (grouped continuation)",
+      "context": [
+        {
+          "messageId": "819263359425052692",
+          "postedAt": "2021-03-10T17:40:06.064Z",
+          "attachmentId": "819263359168806952"
+        },
+        {
+          "messageId": "819263434767990836",
+          "postedAt": "2021-03-10T17:40:24.027Z",
+          "author": "Deleted User (grouped)",
+          "text": "And newbies sub"
+        }
+      ],
+      "decision": "A hundredth-second comparison after another author’s screenshot, not a completed0:00.01 run."
+    },
+    {
+      "messageId": "819259821886275624",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/819259821886275624",
+      "capturedText": "Deleted User\n — \n3/10/21, 9:26 AM\nWednesday, March 10, 2021 at 9:26 AM\nSo 1.00.59",
+      "disposition": "text-only-self-reported-result-author-and-proof-unresolved",
+      "liveText": "So 1.00.59",
+      "ownTimestamp": "2021-03-10T17:26:02.649Z",
+      "sourceAuthor": "Deleted User (grouped continuation)",
+      "context": [
+        {
+          "messageId": "819259658564927508",
+          "postedAt": "2021-03-10T17:25:23.710Z",
+          "text": "Same as me"
+        },
+        {
+          "messageId": "819259807671386153",
+          "postedAt": "2021-03-10T17:25:59.260Z",
+          "text": "But i am Bot"
+        }
+      ],
+      "decision": "Self-reported1:00.59 during mushroom-strategy discussion. Deleted account identity and result proof missing; do not merge with earlier deleted-author1:00.50 merely because author display matches."
+    },
+    {
+      "messageId": "819134500930977812",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/819134500930977812",
+      "capturedText": "Deleted User\n — \n3/10/21, 1:08 AM\nWednesday, March 10, 2021 at 1:08 AM\n1.00.50 for me",
+      "disposition": "text-only-self-reported-result-author-and-proof-unresolved",
+      "liveText": "1.00.50 for me",
+      "ownTimestamp": "2021-03-10T09:08:03.805Z",
+      "sourceAuthor": "Deleted User",
+      "context": [
+        {
+          "messageId": "819133412899028992",
+          "postedAt": "2021-03-10T09:03:44.398Z",
+          "author": "Timaël",
+          "attachmentId": "819133412648157194"
+        }
+      ],
+      "decision": "Exact self-report1:00.50 has no attachment/video. Prior neighboring Timaël screenshot is already canonical BowserCastle1 1:01.30, but proximity is insufficient to independently verify this claim or identify deleted author."
+    }
+  ],
+  "existingTomegomeImageReview": {
+    "audit": "archive/march2021-original-image-and-context-review9-20261006.json",
+    "priorDecision": {
+      "attachmentId": "819583299072426004",
+      "source": {
+        "messageId": "819583299248193578",
+        "postedAt": "2021-03-11T14:51:25.662Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/819583299248193578"
+      },
+      "localOriginal": "archive/early-submission-images/819583299072426004.png",
+      "sha256": "0c1eb755cddb801c143f10737f021aec91de16c9e327b89c55aaf045c62ddd25",
+      "player": "Tomegome",
+      "classification": "four-result-tweet-visible-transcribed-originals-needed",
+      "canonicalIds": [],
+      "decision": "Four Tomegome BowserCastle1 results visually read. Earliest original source screenshots/individual timestamps not yet matched; no WR or date invented. Retained as source leads.",
+      "visibleResultTimes": [
+        "1:00.11",
+        "1:00.08",
+        "1:00.03",
+        "1:00.57"
+      ]
+    },
+    "preservedFileSHA256Revalidated": true
+  },
+  "validation": {
+    "allEightSelectedRowsReviewedLive": true,
+    "ownTimestampsMatchCommittedCensus": true,
+    "noCanonicalOrPublicRunChanges": true,
+    "noFreshVisualReviewClaimed": true
+  },
+  "remaining": [
+    "Resolve three unproved self-reported times with exact course and original result evidence; deleted-author identity remains held.",
+    "Find individual original sources and dates for the four Tomegome result images.",
+    "Continue broader March caption, attachment and chronology review outside this narrow text screen."
+  ]
+}
