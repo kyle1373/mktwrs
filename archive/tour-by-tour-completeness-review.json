@@ -838,7 +838,7 @@
       "tour": "New Year's Tour (2020)",
       "startDate": "2020-01-01",
       "endDate": "2020-01-15",
-      "reviewStatus": "pending-ordered-review",
+      "reviewStatus": "source-census-read-media-and-chronology-reconciliation-open",
       "historyComplete": false,
       "courses": [
         {
@@ -909,7 +909,8 @@
         "archive/newyear2020-server-census-page106-ethan-result-previous-best-and-six-score-images-20261010.json",
         "archive/newyear2020-server-census-page107-two-ranked-rival-images-20261010.json",
         "archive/newyear2020-server-census-pages108-110-three-ranking-images-pipe-notice-20261010.json",
-        "archive/newyear2020-server-census-page111-eight-pipe-ranking-images-20261010.json"
+        "archive/newyear2020-server-census-page111-eight-pipe-ranking-images-20261010.json",
+        "archive/newyear2020-server-census-pages112-113-complete-search-and-closing-boundary-20261010.json"
       ],
       "latestOriginalMainChannelCoverage": {
         "report": "archive/newyear2020-original-main-channel-date-search-revalidation-20261010.json",
@@ -921,7 +922,7 @@
         "openingBoundaryReport": "archive/newyear2020-main-channel-opening-boundary-and-server-census-pages1-4-20261010.json"
       },
       "latestUnfilteredDiscordCensus": {
-        "report": "archive/newyear2020-server-census-page111-eight-pipe-ranking-images-20261010.json",
+        "report": "archive/newyear2020-server-census-pages112-113-complete-search-and-closing-boundary-20261010.json",
         "reportedTotal": 2806,
         "reportedPages": 113,
         "pagesRead": [
@@ -1035,13 +1036,32 @@
           108,
           109,
           110,
-          111
+          111,
+          112,
+          113
         ],
-        "uniqueMessagesRead": 2775,
-        "nextPage": 112,
-        "dateSearchFullyRead": false,
+        "uniqueMessagesRead": 2806,
+        "nextPage": null,
+        "dateSearchFullyRead": true,
         "mediaInventoryComplete": false,
-        "historyComplete": false
+        "historyComplete": false,
+        "boundaryReconciliation": {
+          "tourStartUtc": "2020-01-01T06:00:00Z",
+          "tourEndUtc": "2020-01-15T06:00:00Z",
+          "searchStartUtc": "2020-01-01T08:00:00Z",
+          "searchEndUtc": "2020-01-15T08:00:00Z",
+          "inTourMessagesInMainQuery": 2790,
+          "postTourMessagesInMainQuery": 16,
+          "lastPreBoundaryMessageId": "666880259349676072",
+          "lastPreBoundaryAt": "2020-01-15T05:44:03.865Z",
+          "firstPostBoundaryMessageId": "666885654537437185",
+          "firstPostBoundaryAt": "2020-01-15T06:05:30.178Z",
+          "openingBoundaryMessagesPreviouslyRead": 94,
+          "openingBoundaryReport": "archive/holiday2019-unfiltered-discord-pages141-158-complete-date-search-and-closing-boundary-20261010.json",
+          "combinedInTourMessageCount": 2884,
+          "openingBoundaryMediaIntegrationComplete": false,
+          "interpretation": "Tour assignment uses exact UTC boundaries. The opening 94 messages were read in the prior Holiday closing search and are disjoint from this main query. Their media reconciliation must still be integrated. A post-tour share may preserve an earlier performance; posting time alone does not establish achievement time."
+        }
       },
       "latestOriginalCensusMediaReview": {
         "report": "archive/newyear2020-server-census-pages25-28-seven-original-image-review-20261010.json",
