@@ -18,15 +18,15 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 27,
+      "fresh-original-reviewed-supporting-results-restored": 29,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
-      "fresh-original-partial-technique-video-reviewed": 1,
+      "fresh-original-partial-technique-video-reviewed": 2,
       "fresh-original-partial-lap-image-reviewed": 1,
       "fresh-original-result-reviewed-author-identity-pending": 4,
       "fresh-original-reviewed-joke-image-no-result": 1,
-      "original-source-review-pending": 55,
+      "original-source-review-pending": 52,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -1683,7 +1683,33 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-partial-technique-video-reviewed",
+      "freshOriginalReview": {
+        "messageId": "793855156835581962",
+        "postedAt": "2020-12-30T14:56:58.505Z",
+        "videoSharedAt": "2020-12-30T14:56:58.505Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/793855156835581962",
+        "video": "https://cdn.discordapp.com/attachments/636461740162416640/793855156146929734/video0.mov",
+        "caption": "This + Gyro will WR",
+        "currentAuthor": "Wins",
+        "courseId": "snes-koopa-troopa-beach-2",
+        "status": "fresh-original-partial-technique-video-reviewed",
+        "reviewAudit": "archive/newyear2021-spartacurt-nu11-results-wins-partial-repost-review-20261010.json",
+        "freshVisualReview": true,
+        "durationSeconds": 6.881667,
+        "playbackEnded": true,
+        "observedEarlyTimer": "0:22.49",
+        "displayedEndTimer": "0:29.27",
+        "mushroomsRemainingAtEnd": 1,
+        "completeRaceRecorded": false,
+        "eligibleForFastestCompletedRecording": false,
+        "earlierSimilarClipMessageId": "793758368946847754",
+        "earlierSimilarClipReview": "archive/newyear2021-timael-result-and-wins-original-partial-technique-video-20261010.json",
+        "sameVisibleEndpointAndDuration": true,
+        "byteIdentityVerified": false,
+        "limitation": "Mid-lap corner demonstration ends at finish line before complete race/result. Same observed duration and endpoint as earlier clip suggest repost, not verified byte identity."
+      },
+      "reviewAudit": "archive/newyear2021-spartacurt-nu11-results-wins-partial-repost-review-20261010.json"
     },
     {
       "messageId": "793861027112419360",
@@ -1693,10 +1719,36 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793861026914369566/image0.png?ex=6ac468f2&is=6ac31772&hm=a560037422cbf0f62bb4038fd8011ad7f7dd13502b06b9d552221b63ef27d94e&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793861027112419360-newyear2021-original-reviewed",
+        "793861027112419360-newyear2021-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793861027112419360",
+        "attachmentId": "793861026914369566",
+        "postedAt": "2020-12-30T15:20:18.088Z",
+        "playerId": "spartacurtyt",
+        "discordAccountId": "769544685713883136",
+        "courseId": "snes-koopa-troopa-beach-2",
+        "displayedTime": "0:59.72",
+        "displayedPreviousBest": "1:00.18",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "reviewAudit": "archive/newyear2021-spartacurt-nu11-results-wins-partial-repost-review-20261010.json",
+        "videoObserved": false,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "writtenLaps": [
+          null,
+          null
+        ],
+        "lapSourceMessageId": null,
+        "lapBasis": "Original caption or adjacent same-runner followup; sum matches completed result.",
+        "lapCaption": null,
+        "previousBestOriginalDateKnown": false
+      },
+      "reviewAudit": "archive/newyear2021-spartacurt-nu11-results-wins-partial-repost-review-20261010.json"
     },
     {
       "messageId": "793874242327937045",
@@ -1706,10 +1758,36 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793874241023901696/image0.png?ex=6ac47540&is=6ac323c0&hm=3d44c14c39525927c2a97c9bb49921598ad4cea6b9eee98e41459fe3abbe24a9&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793874242327937045-newyear2021-original-reviewed",
+        "793874242327937045-newyear2021-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793874242327937045",
+        "attachmentId": "793874241023901696",
+        "postedAt": "2020-12-30T16:12:48.841Z",
+        "playerId": "nu11",
+        "discordAccountId": "280285510075940864",
+        "courseId": "ds-airship-fortress-r",
+        "displayedTime": "1:37.55",
+        "displayedPreviousBest": "1:37.76",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "reviewAudit": "archive/newyear2021-spartacurt-nu11-results-wins-partial-repost-review-20261010.json",
+        "videoObserved": false,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "writtenLaps": [
+          "48.87",
+          "48.68"
+        ],
+        "lapSourceMessageId": "793874242327937045",
+        "lapBasis": "Original caption or adjacent same-runner followup; sum matches completed result.",
+        "lapCaption": "48.87 / 48.68",
+        "previousBestOriginalDateKnown": false
+      },
+      "reviewAudit": "archive/newyear2021-spartacurt-nu11-results-wins-partial-repost-review-20261010.json"
     },
     {
       "messageId": "793876255958106134",
