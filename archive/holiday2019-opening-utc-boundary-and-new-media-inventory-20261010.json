@@ -340,11 +340,39 @@
       "sharedAt": "2019-12-18T06:26:56.119Z",
       "videoUrl": "https://www.youtube.com/watch?v=4h7nEkkxzts",
       "captionSummary": "HighRy: MASSIVE 100+ PIPE OPENING!! - Mario Kart Holiday Tour",
-      "availability": "unchecked",
-      "playbackVerified": false,
+      "availability": "available",
+      "playbackVerified": true,
       "fullRaceVerified": false,
       "time": null,
-      "decision": "Preserve original video link and share clock; text does not establish a TT performance."
+      "decision": "Preserve original Discord sharedAt separately from YouTube display date. Title, description and chapters describe update/shop/pipe content; no TT performance established. Do not claim full-content review or fastest-race verification.",
+      "playbackScope": "Opening six seconds only; full video not reviewed.",
+      "durationDisplay": "15:08",
+      "youtubeDateDisplay": "Premiered Dec 17, 2019",
+      "descriptionExcerpt": "Enjoy the pulls!",
+      "visibleChapters": [
+        {
+          "at": "0:00",
+          "title": "Holiday tour introduction"
+        },
+        {
+          "at": "1:11",
+          "title": "Downloading the update"
+        },
+        {
+          "at": "3:02",
+          "title": "Exploring the new shop"
+        },
+        {
+          "at": "4:32",
+          "title": "Holiday pipe pulls"
+        },
+        {
+          "at": "13:30",
+          "title": "Reviewing holiday rewards"
+        }
+      ],
+      "status": "available-pipe-broadcast-full-content-unreviewed",
+      "reviewReport": "archive/holiday2019-opening-native-video-playback-and-highry-source-check-20261010.json"
     },
     {
       "messageId": "656743053721206802",
@@ -352,11 +380,16 @@
       "sharedAt": "2019-12-18T06:22:25.703Z",
       "videoUrl": "https://cdn.discordapp.com/attachments/630496451491004475/656743053154844692/video0.mp4",
       "captionSummary": "Darth_Forrest: Is anyone else experiencing this? Surrounding text discusses level-99 XP not increasing.",
-      "availability": "unchecked",
-      "playbackVerified": false,
+      "availability": "available-in-original-discord-player",
+      "playbackVerified": true,
       "fullRaceVerified": false,
       "time": null,
-      "decision": "Preserve original video link and share clock; text does not establish a TT performance."
+      "decision": "Retain original link and sharedAt as non-TT context; do not publish as a TT recording or fastest full-race candidate.",
+      "playbackReachedEnd": true,
+      "durationSeconds": 2.485,
+      "status": "non-time-trial-video",
+      "reviewBasis": "Native player loaded (readyState 4), advanced during playback and reached ended=true at 2.485 seconds. Observed frames show ordinary race-results placement list, character icons and account level/XP header. No TT timer or completed timed run is shown.",
+      "reviewReport": "archive/holiday2019-opening-native-video-playback-and-highry-source-check-20261010.json"
     },
     {
       "messageId": "656741398686466058",
@@ -364,18 +397,23 @@
       "sharedAt": "2019-12-18T06:15:51.112Z",
       "videoUrl": "https://cdn.discordapp.com/attachments/630496451491004475/656741398212771840/video0.mp4",
       "captionSummary": "Darth_Forrest: Don’t think we can level up; surrounding text discusses level-99 XP.",
-      "availability": "unchecked",
-      "playbackVerified": false,
+      "availability": "available-in-original-discord-player",
+      "playbackVerified": true,
       "fullRaceVerified": false,
       "time": null,
-      "decision": "Preserve original video link and share clock; text does not establish a TT performance."
+      "decision": "Retain original link and sharedAt as non-TT context; do not publish as a TT recording or fastest full-race candidate.",
+      "playbackReachedEnd": true,
+      "durationSeconds": 2.485,
+      "status": "non-time-trial-video",
+      "reviewBasis": "Native player loaded (readyState 4), advanced during playback and reached ended=true at 2.485 seconds. Observed frames show ordinary race-results placement list, character icons and account level/XP header. No TT timer or completed timed run is shown.",
+      "reviewReport": "archive/holiday2019-opening-native-video-playback-and-highry-source-check-20261010.json"
     }
   ],
   "newWorldRecordRows": 0,
   "tourSourceCoverageComplete": false,
   "remainingWork": [
-    "Review three opening video sources if needed; preserve full-race verification separately from accepted WR.",
     "Resolve outstanding original media and record chronology across the tour.",
-    "Verify live publication. Reading all date-window text does not certify complete tour history."
+    "Verify live publication. Reading all date-window text does not certify complete tour history.",
+    "HighRy full broadcast content remains unreviewed; native opening clips verified as non-TT."
   ]
 }
