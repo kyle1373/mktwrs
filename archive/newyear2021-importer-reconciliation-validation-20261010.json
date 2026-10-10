@@ -1,0 +1,34 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "implementation": "scripts/import-sources.mjs",
+  "behavior": [
+    "Explicit reviewed playerId takes precedence over current display-name alias resolution; missing known player ID causes an error.",
+    "Explicit publicSubmissionReconciliation canonicalId merges proof, timestamps and disputed split disposition into same course/runner/total sheet row, retaining sheet source.",
+    "Unannotated equal-time results remain separate."
+  ],
+  "validation": {
+    "command": "node --test test/import.test.mjs test/reviewed-submission-reconciliation.test.mjs",
+    "passed": 10,
+    "scope": "Importer helper unit checks and existing importer tests; full all-source regeneration not executed.",
+    "actualCanonicalSourceReplays": 12,
+    "actualReplayScope": "All 12 annotated source rows replayed in memory against public canonical rows; counts, IDs, submission timestamps and lap dispositions preserved."
+  },
+  "additionalCanonicalMappings": [
+    [
+      "794290604179062794-newyear2021-original-reviewed",
+      "sheet-KM17",
+      "snes-koopa-troopa-beach-2"
+    ],
+    [
+      "794334440242413589-newyear2021-original-reviewed",
+      "sheet-KU38",
+      "ds-airship-fortress-r"
+    ]
+  ],
+  "limitations": [
+    "Ten prior merge annotations plus Sucha and MayMusick canonical sheet mappings now consumed by importer. Other unannotated historical merges require inventory and annotation.",
+    "Full generation and live deployment remain unverified. Broad source-generation issues and tour coverage remain pending."
+  ]
+}

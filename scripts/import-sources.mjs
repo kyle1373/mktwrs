@@ -1,3 +1,21 @@
+export function reconcileReviewedSubmission(course, submission) {
+  const targetId = submission.publicSubmissionReconciliation?.canonicalId;
+  if (!targetId) {
+    course.submissions.push(submission);
+    return submission;
+  }
+  const target = course.submissions.find(row => row.id === targetId);
+  if (!target || target.playerId !== submission.playerId ||
+      target.timeCs !== submission.timeCs || target.courseId !== submission.courseId)
+    throw Error("Reviewed submission reconciliation mismatch: " + targetId);
+  const sources = [target.source, ...(target.additionalSources || []),
+    ...(submission.additionalSources || [])].filter(Boolean);
+  const additionalSources = [...new Map(sources.map(source =>
+    [JSON.stringify(source), source])).values()];
+  Object.assign(target, submission, {id: targetId, additionalSources});
+  return target;
+}
+
 import fs from "node:fs";
 export const slug = (s) =>
   String(s)
@@ -496,7 +514,8 @@ export function importSources(courses, players) {
   for (const entry of [...curated, ...reviewed]) {
     const c = courses.find((c) => c.id === entry.courseId);
     if (!c) throw Error("Unknown curated course: " + entry.courseId);
-    const p = person(entry.player);
+    const p = entry.playerId ? players.get(entry.playerId) : person(entry.player);
+    if (!p) throw Error("Unknown reviewed player ID: " + entry.playerId);
     const r = {
       ...entry,
       id: "curated-" + entry.messageId,
@@ -507,20 +526,20 @@ export function importSources(courses, players) {
       video: entry.video || null,
       proofUploadedAt: attachmentDate(entry.proofImage),
     };
-    c.submissions.push(r);
+    const published = reconcileReviewedSubmission(c, r);
     if (
       ["community-wr", "leaderboard-wr"].includes(entry.status) &&
       !c.records.some((n) => n.playerId === p.id && n.timeCs === r.timeCs)
     ) {
       c.records.push({
-        ...r,
+        ...published,
         announcedAt: r.observedAt || r.submittedAt,
         tourLabel:
           entry.status === "leaderboard-wr"
             ? "Current community leaderboard confirmation"
             : "Community WR confirmation",
       });
-      p.records.push(r.id);
+      p.records.push(published.id);
     }
   }
   let enriched = 0;
