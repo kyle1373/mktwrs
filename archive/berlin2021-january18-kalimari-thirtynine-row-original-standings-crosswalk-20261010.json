@@ -76,7 +76,12 @@
           "submittedAt": null
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
+      "acceptedExistingId": "curated-800499005540401172-n64-kalimari-desert-2",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
+      "originalSubmittedAt": "2021-01-17T22:57:15.473Z",
+      "freshOriginalDiscordTextReview": true,
+      "freshOriginalTimestampReview": true
     },
     {
       "displayedRank": 2,
@@ -437,7 +442,12 @@
           "submittedAt": "2021-01-14T12:32:54.865Z"
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
+      "acceptedExistingId": "800749773594427432-verified-support",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
+      "originalSubmittedAt": "2021-01-18T15:33:43.236Z",
+      "freshOriginalDiscordTextReview": true,
+      "freshOriginalTimestampReview": true
     },
     {
       "displayedRank": 7,
@@ -638,7 +648,22 @@
           "submittedAt": "2021-01-14T18:40:19.960Z"
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+      "latestOriginalSourceReview": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
+      "aliasReconciliation": {
+        "displayedRank": 9,
+        "displayedPlayer": "Kaguya(かぐやん)",
+        "candidateProfileId": "nu11",
+        "originalMessageId": "799933819612037130",
+        "originalSubmittedAt": "2021-01-16T09:31:24.647Z",
+        "currentOriginalAuthorDisplay": "えなが",
+        "originalCaption": "29.66 / 34.12",
+        "freshOriginalDiscordTextReview": true,
+        "freshOriginalTimestampReview": true,
+        "freshLocalProofImageReview": false,
+        "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+        "decision": "Exact laps and total match candidate nu11, but current author えなが does not establish historical Kaguya(かぐやん) alias. Do not attach standings to this runner yet."
+      }
     },
     {
       "displayedRank": 10,
@@ -1043,7 +1068,22 @@
           "submittedAt": null
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+      "latestOriginalSourceReview": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
+      "aliasReconciliation": {
+        "displayedRank": 14,
+        "displayedPlayer": "Sucha (すぅちゃ)",
+        "candidateProfileId": "player-e38199e38184e3819df09f90ba",
+        "originalMessageId": "800567995670986812",
+        "originalSubmittedAt": "2021-01-18T03:31:24.002Z",
+        "currentOriginalAuthorDisplay": "Sucha",
+        "originalCaption": null,
+        "freshOriginalDiscordTextReview": true,
+        "freshOriginalTimestampReview": true,
+        "freshLocalProofImageReview": true,
+        "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+        "decision": "Current author Sucha supports displayed Sucha, but existing archived account profile is すいそ🐺 and prior note explicitly holds cross-player alias equivalence. Total 1:03.98 freshly read from preserved proof image; null laps retained. Obtain account/alias mapping before assignment."
+      }
     },
     {
       "displayedRank": 15,
@@ -1195,7 +1235,12 @@
         }
       ],
       "sameTotalOtherCandidates": [],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
+      "acceptedExistingId": "799294330417709126-january2021-support-reviewed",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
+      "originalSubmittedAt": "2021-01-14T15:10:18.542Z",
+      "freshOriginalDiscordTextReview": true,
+      "freshOriginalTimestampReview": true
     },
     {
       "displayedRank": 17,
@@ -1321,7 +1366,12 @@
         }
       ],
       "sameTotalOtherCandidates": [],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending"
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
+      "acceptedExistingId": "800745117484187668-january2021-support-reviewed",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
+      "originalSubmittedAt": "2021-01-18T15:15:13.133Z",
+      "freshOriginalDiscordTextReview": true,
+      "freshOriginalTimestampReview": true
     },
     {
       "displayedRank": 19,
@@ -2521,8 +2571,9 @@
   "coverage": {
     "visuallyReadRows": 39,
     "rowsWithProfileAndTotalCandidates": 34,
-    "originalSourceReconciliationPending": 29,
-    "exactOriginalResultsReconciled": 10
+    "originalSourceReconciliationPending": 25,
+    "exactOriginalResultsReconciled": 14,
+    "aliasSourceReviewsWithIdentityStillPending": 2
   },
   "decision": "Replace leader-only scope with full row transcription and exact public candidate crosswalk. Candidate profiles remain review leads; no identity merges or new results published.",
   "limitations": [
