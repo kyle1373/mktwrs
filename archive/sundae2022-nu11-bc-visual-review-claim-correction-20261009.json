@@ -1,0 +1,35 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "correctedAudit": "archive/sundae2022-nu11-bc-original-repost-evidence-20261009.json",
+  "reason": "Image tool response reported omitted image; no fresh visual evidence was available.",
+  "restoredVisualFieldsFromRevision": "72d10a64",
+  "retained": [
+    "Original downloaded attachment with SHA-256",
+    "Exact Discord repost time from live message DOM",
+    "Announcement association by exact attachment ID and video URL"
+  ],
+  "validation": [
+    {
+      "path": "public/data/courses.json",
+      "representation": "HEAD",
+      "rows": 4
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "worktree",
+      "rows": 4
+    },
+    {
+      "path": "public/data/courses/3ds-bowser-s-castle.json",
+      "representation": "HEAD",
+      "rows": 4
+    },
+    {
+      "path": "public/data/courses/3ds-bowser-s-castle.json",
+      "representation": "worktree",
+      "rows": 4
+    }
+  ]
+}

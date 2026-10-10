@@ -1238,10 +1238,22 @@
           "date": "2022-08-24"
         }
       ],
-      "status": "retrieval-failed",
-      "checkedAt": "2026-10-02",
-      "error": "HTTP Error 403: Forbidden",
-      "notes": "Failure to retrieve this URL does not establish permanent loss; renewed Discord URL or alternate source required."
+      "status": "preserved-original-awaiting-visual-review",
+      "checkedAt": "2026-10-09",
+      "notes": "Recovered via renewed live Discord attachment link. Original file hash validated. Fresh visual review remains pending; prior failed static URL did not establish loss.",
+      "preservedOriginal": {
+        "path": "public/assets/proof/sundae2022-1011820955485618286.jpeg",
+        "sha256": "d420bf287846c4729afe7e6edb372a6e3a88614507b31729cee047c5efca3f8f",
+        "bytes": 780046
+      },
+      "preservationAudit": "archive/sundae2022-nu11-bc-original-repost-evidence-20261009.json",
+      "sourceMessageId": "1011820955485618286",
+      "observedAt": "2022-08-24T02:15:14.512Z",
+      "previousRetrievalAttempt": {
+        "status": "retrieval-failed",
+        "checkedAt": "2026-10-02",
+        "error": "HTTP Error 403: Forbidden"
+      }
     },
     {
       "url": "https://media.discordapp.net/attachments/875784780573184010/1077529814803681351/IMG_2661.png",

@@ -25,20 +25,7 @@
     "sha256": "d420bf287846c4729afe7e6edb372a6e3a88614507b31729cee047c5efca3f8f",
     "bytes": 780046
   },
-  "freshVisualReview": {
-    "audit": "archive/sundae2022-nu11-bc-original-repost-evidence-20261009.json",
-    "sha256": "d420bf287846c4729afe7e6edb372a6e3a88614507b31729cee047c5efca3f8f",
-    "field": "result-total",
-    "total": "1:35.16",
-    "previousBest": "1:35.31",
-    "captionLaps": [
-      "47.54",
-      "47.62"
-    ],
-    "account": "Nu11 @_Nu11Nu11",
-    "originalTweetClock": "relative 22 minutes; exact original posting time unresolved"
-  },
-  "decision": "Attach original repost evidence to existing WR entry without claiming original Twitter submission time, race date or footage verification. Preserve undated 1:35.31 previous-best as a lead requiring original evidence and chronology review.",
+  "decision": "Preserve attachment and first-known Discord appearance linked by authoritative WR announcement. Do not claim fresh visual verification, exact original submission time or undated intermediate run from unread image.",
   "validation": [
     {
       "path": "public/data/courses.json",
@@ -66,9 +53,13 @@
     }
   ],
   "limitations": [
-    "Exact original Twitter post remains unresolved; screenshot shows only relative 22-minute label.",
-    "Starin is uploader; Nu11 is driver.",
-    "No full video review performed.",
+    "Downloaded image is preserved but current visual review is pending.",
+    "Announcement supplies Nu11, course, 1:35.16 and video link; laps were already in existing published data, not freshly verified.",
+    "Exact original Twitter publication and race completion remain unresolved.",
     "Sundae Tour 2022 and all-year history remain incomplete."
+  ],
+  "visualReviewStatus": "pending-viewable-image-output",
+  "withdrawnClaims": [
+    "Fresh result total, previous-best field, lap caption, account and relative original Twitter clock were not visually established by the last tool result."
   ]
 }
