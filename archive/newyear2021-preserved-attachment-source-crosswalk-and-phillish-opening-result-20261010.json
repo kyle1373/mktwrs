@@ -18,17 +18,17 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 38,
+      "fresh-original-reviewed-supporting-results-restored": 39,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
       "fresh-original-partial-technique-video-reviewed": 2,
       "fresh-original-partial-lap-image-reviewed": 1,
-      "fresh-original-result-reviewed-author-identity-pending": 8,
+      "fresh-original-result-reviewed-author-identity-pending": 10,
       "fresh-original-reviewed-joke-image-no-result": 1,
       "fresh-original-reviewed-photo-no-result": 1,
       "fresh-original-image-corroborates-existing-video-result": 1,
-      "original-source-review-pending": 37,
+      "original-source-review-pending": 34,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -2393,7 +2393,27 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-result-reviewed-author-identity-pending",
+      "freshOriginalReview": {
+        "messageId": "794093021246783500",
+        "attachmentId": "794093021100113920",
+        "postedAt": "2020-12-31T06:42:09.800Z",
+        "currentAuthor": "Deleted User",
+        "courseId": "ds-airship-fortress-r",
+        "displayedTime": "1:38.56",
+        "displayedPreviousBest": null,
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-result-reviewed-author-identity-pending",
+        "reviewAudit": "archive/newyear2021-nhspeedy13863-two-deleted-airship-results-review-20261010.json",
+        "identityResolved": false,
+        "videoObserved": false,
+        "laps": [
+          null,
+          null
+        ],
+        "limitation": "Deleted display name does not identify the runner. Earlier equal totals and similar UI do not justify merging accounts or assigning dates."
+      },
+      "reviewAudit": "archive/newyear2021-nhspeedy13863-two-deleted-airship-results-review-20261010.json"
     },
     {
       "messageId": "794101166270709770",
@@ -2403,10 +2423,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794101166065582080/Capture_2020-12-31-02-11-37-1.png?ex=6ac3f717&is=6ac2a597&hm=c1518ca0de56e6e2141ecd3db2f7cc98c3d07fbfe7331f4ee697c777b3c256e3&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794101166270709770-newyear2021-opening-original-reviewed",
+        "794101166270709770-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794101166270709770",
+        "attachmentId": "794101166065582080",
+        "postedAt": "2020-12-31T07:14:31.725Z",
+        "discordAccountId": null,
+        "currentAuthor": "NHSpeedy",
+        "canonicalPlayerId": "nhspeedy",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "1:38.63",
+        "displayedPreviousBest": "1:39.50",
+        "starThresholds": [
+          "2:30.00",
+          "2:15.00",
+          "1:58.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-nhspeedy13863-two-deleted-airship-results-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-nhspeedy13863-two-deleted-airship-results-review-20261010.json"
     },
     {
       "messageId": "794101429676539914",
@@ -2419,7 +2464,27 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-result-reviewed-author-identity-pending",
+      "freshOriginalReview": {
+        "messageId": "794101429676539914",
+        "attachmentId": "794101429408235570",
+        "postedAt": "2020-12-31T07:15:34.526Z",
+        "currentAuthor": "Deleted User",
+        "courseId": "ds-airship-fortress-r",
+        "displayedTime": "1:37.91",
+        "displayedPreviousBest": "1:38.16",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-result-reviewed-author-identity-pending",
+        "reviewAudit": "archive/newyear2021-nhspeedy13863-two-deleted-airship-results-review-20261010.json",
+        "identityResolved": false,
+        "videoObserved": false,
+        "laps": [
+          null,
+          null
+        ],
+        "limitation": "Deleted display name does not identify the runner. Earlier equal totals and similar UI do not justify merging accounts or assigning dates."
+      },
+      "reviewAudit": "archive/newyear2021-nhspeedy13863-two-deleted-airship-results-review-20261010.json"
     },
     {
       "messageId": "794129245080911912",
