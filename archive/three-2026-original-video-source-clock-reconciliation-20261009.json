@@ -1,0 +1,131 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sources": [
+    {
+      "courseId": "berlin-byways-2",
+      "time": "1:23.27",
+      "player": "DIT",
+      "playerId": "dit",
+      "laps": [
+        "41.73",
+        "41.54"
+      ],
+      "videoId": "bbm6wGQE_Vg",
+      "videoSubmittedAt": "2026-08-24T15:47:30.705Z",
+      "videoSourceMessageId": "1541474041536188547",
+      "videoSourceReceipt": {
+        "messageId": "1541474057814413419",
+        "createdAt": "2026-08-24T15:47:34.586Z",
+        "lastEditedAt": "2026-08-24T16:08:09.659Z"
+      }
+    },
+    {
+      "courseId": "gba-luigi-circuit",
+      "time": "0:48.88",
+      "player": "NHSpeedy",
+      "playerId": "nhspeedy",
+      "laps": [
+        "24.52",
+        "24.36"
+      ],
+      "videoId": "DfsG45Rp0xw",
+      "videoSharedAt": "2026-09-16T06:05:28.705Z",
+      "videoSourceMessageId": "1549662488960831619",
+      "videoSourceReceipt": {
+        "messageId": "1549662509860913163",
+        "createdAt": "2026-09-16T06:05:33.688Z",
+        "lastEditedAt": "2026-09-16T06:05:39.341Z"
+      }
+    },
+    {
+      "courseId": "wii-daisy-circuit",
+      "time": "1:18.00",
+      "player": "kuRi",
+      "playerId": "kuri",
+      "laps": [
+        "39.12",
+        "38.88"
+      ],
+      "videoId": "dqJkcwUDDKk",
+      "videoSourceReceipt": {
+        "messageId": "1534189208481042472",
+        "createdAt": "2026-08-04T13:20:11.159Z",
+        "lastEditedAt": "2026-08-04T13:54:13.510Z",
+        "exactVideoAdditionTimeUnresolved": true,
+        "basis": "Current edited slash-command receipt contains video; original media contents at creation unavailable."
+      }
+    }
+  ],
+  "liveReview": "Player-specific original human commands and accepted receipts read from live Discord search with own datetime and edit clock.",
+  "validation": [
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "HEAD",
+      "rows": 4,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "worktree",
+      "rows": 4,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "HEAD",
+      "rows": 16,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "worktree",
+      "rows": 16,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/berlin-byways-2.json",
+      "representation": "HEAD",
+      "rows": 5,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/berlin-byways-2.json",
+      "representation": "worktree",
+      "rows": 6,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/gba-luigi-circuit.json",
+      "representation": "HEAD",
+      "rows": 6,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/gba-luigi-circuit.json",
+      "representation": "worktree",
+      "rows": 8,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/wii-daisy-circuit.json",
+      "representation": "HEAD",
+      "rows": 5,
+      "onlyVideoProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/wii-daisy-circuit.json",
+      "representation": "worktree",
+      "rows": 6,
+      "onlyVideoProvenanceChanged": true
+    }
+  ],
+  "limitations": [
+    "Slash-command edited receipt does not establish video present at creation.",
+    "Same-player/time/splits association does not establish identical attempt without footage.",
+    "No new video verification or screenshot result review.",
+    "Original submission and race dates unchanged.",
+    "No full-history certification."
+  ]
+}
