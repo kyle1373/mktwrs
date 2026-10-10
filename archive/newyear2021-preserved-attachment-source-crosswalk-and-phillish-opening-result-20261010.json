@@ -18,17 +18,17 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 45,
+      "fresh-original-reviewed-supporting-results-restored": 47,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
       "fresh-original-partial-technique-video-reviewed": 2,
       "fresh-original-partial-lap-image-reviewed": 1,
-      "fresh-original-result-reviewed-author-identity-pending": 10,
+      "fresh-original-result-reviewed-author-identity-pending": 11,
       "fresh-original-reviewed-joke-image-no-result": 1,
       "fresh-original-reviewed-photo-no-result": 1,
       "fresh-original-image-corroborates-existing-video-result": 1,
-      "original-source-review-pending": 28,
+      "original-source-review-pending": 25,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -2729,7 +2729,28 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-result-reviewed-author-identity-pending",
+      "freshOriginalReview": {
+        "messageId": "794153262063419393",
+        "attachmentId": "794153261791182878",
+        "postedAt": "2020-12-31T10:41:32.330Z",
+        "currentAuthor": "Deleted User",
+        "courseId": "ds-airship-fortress-r",
+        "displayedTime": "1:37.38",
+        "displayedPreviousBest": null,
+        "resultDisplay": "success-HUD-lap2-of2",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-result-reviewed-author-identity-pending",
+        "reviewAudit": "archive/newyear2021-phillish13768-wins13799-deleted13738-review-20261010.json",
+        "identityResolved": false,
+        "videoObserved": false,
+        "laps": [
+          null,
+          null
+        ],
+        "limitation": "Deleted display name does not identify runner. Filename clock not treated as original achievement date."
+      },
+      "reviewAudit": "archive/newyear2021-phillish13768-wins13799-deleted13738-review-20261010.json"
     },
     {
       "messageId": "794155789433831424",
@@ -2739,10 +2760,36 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794155788129927178/image0.png?ex=6ac429f6&is=6ac2d876&hm=32badd34b813044d81920698f8f7a840c7ad4271f519eadd66c1b56214e21263&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794155789433831424-newyear2021-opening-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794155789433831424",
+        "attachmentId": "794155788129927178",
+        "postedAt": "2020-12-31T10:51:34.902Z",
+        "discordAccountId": "561957241452757003",
+        "currentAuthor": "Phillish",
+        "canonicalPlayerId": "phillish",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "1:37.68",
+        "displayedPreviousBest": "1:37.70",
+        "starThresholds": [
+          "2:30.00",
+          "2:15.00",
+          "1:58.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-phillish13768-wins13799-deleted13738-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false,
+        "fractionalLapLead": ".76 lap 1",
+        "fullSplitsAssigned": false
+      },
+      "reviewAudit": "archive/newyear2021-phillish13768-wins13799-deleted13738-review-20261010.json"
     },
     {
       "messageId": "794162542225391616",
@@ -2752,10 +2799,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794162541898891334/image0.png?ex=6ac43040&is=6ac2dec0&hm=ba04c25467a6a382e51f214cb4ac24585c77758fc214f31d303b83208567f384&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794162542225391616-newyear2021-opening-original-reviewed",
+        "794162542225391616-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794162542225391616",
+        "attachmentId": "794162541898891334",
+        "postedAt": "2020-12-31T11:18:24.893Z",
+        "discordAccountId": null,
+        "currentAuthor": "Wins",
+        "canonicalPlayerId": "wins",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "1:37.99",
+        "displayedPreviousBest": "1:38.14",
+        "starThresholds": [
+          "2:30.00",
+          "2:15.00",
+          "1:58.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-phillish13768-wins13799-deleted13738-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-phillish13768-wins13799-deleted13738-review-20261010.json"
     },
     {
       "messageId": "794162896274980884",
