@@ -3,11 +3,11 @@
   "scope": "Consolidation of the two existing visual-review ledgers, not an exhaustive server capture and not global WR certification. Stable source/message/attachment identity plus exact course/time required for transfer match. Unlinked rows may be rejected PBs or unresolved records; inspect disposition before promotion.",
   "indexedReviews": 12318,
   "stageCounts": {
-    "linked-to-curated": 3032,
+    "linked-to-curated": 3040,
     "no-transcribed-result": 865,
     "reviewed-excluded-slower-unidentified-result": 1,
     "reviewed-non-wr-or-context": 1598,
-    "unlinked-result-needs-reconciliation": 6205,
+    "unlinked-result-needs-reconciliation": 6197,
     "linked-to-served-evidence": 617
   },
   "yearCounts": {
@@ -145053,9 +145053,24 @@
       "time": "1:03.38",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875340677297365083-875340674550087720-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875340677297365083-875340674550087720-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "3ds-toad-circuit-r",
+          "layer": "submissions",
+          "id": "curated-875340677297365083-875340674550087720-august2021-reviewed",
+          "playerId": "kura-mk",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875341421945688124",
@@ -145079,9 +145094,24 @@
       "time": "1:03.37",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875346185974583296-875346183319613501-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875346185974583296-875346183319613501-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "3ds-toad-circuit-r",
+          "layer": "submissions",
+          "id": "curated-875346185974583296-875346183319613501-august2021-reviewed",
+          "playerId": "whiplash",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875363659239546940",
@@ -145201,13 +145231,33 @@
       "messageId": "875377025613983784",
       "reviewLedger": "archive/early-visual-review.json",
       "postedAt": "2021-08-12T13:55:46.625Z",
-      "courseId": "3ds-toad-circuit-r",
-      "time": "1:07.30",
+      "courseId": "wii-dk-summit",
+      "time": "1:40.63",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875377025613983784-875377023114170378-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875377025613983784-875377023114170378-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "supersededEarlyLedgerTranscription": {
+        "time": "1:07.30",
+        "courseId": "3ds-toad-circuit-r",
+        "replacementBasis": "archive/august2021-august12-three-results-and-nu11-repost-review-20261007.json"
+      },
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "wii-dk-summit",
+          "layer": "submissions",
+          "id": "curated-875377025613983784-875377023114170378-august2021-reviewed",
+          "playerId": "salva-iba-ez",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875401703535546468",
@@ -145257,9 +145307,24 @@
       "time": "1:03.27",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875440755240480768-875440752971374653-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875440755240480768-875440752971374653-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "3ds-toad-circuit-r",
+          "layer": "submissions",
+          "id": "curated-875440755240480768-875440752971374653-august2021-reviewed",
+          "playerId": "kura-mk",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875441713290825818",
@@ -145280,12 +145345,32 @@
       "reviewLedger": "archive/early-visual-review.json",
       "postedAt": "2021-08-12T18:23:50.942Z",
       "courseId": "3ds-toad-circuit-r",
-      "time": "1:03.15",
+      "time": "1:03.27",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875444488129085501-875444485650264114-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875444488129085501-875444485650264114-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "supersededEarlyLedgerTranscription": {
+        "time": "1:03.15",
+        "courseId": "3ds-toad-circuit-r",
+        "replacementBasis": "archive/august2021-august12-eight-later-results-review-20261007.json"
+      },
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "3ds-toad-circuit-r",
+          "layer": "submissions",
+          "id": "curated-875444488129085501-875444485650264114-august2021-reviewed",
+          "playerId": "kura-mk",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875483912846061588",
@@ -145331,9 +145416,24 @@
       "time": "1:04.32",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875511658464821268-875511653855289394-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875511658464821268-875511653855289394-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "3ds-toad-circuit-r",
+          "layer": "submissions",
+          "id": "curated-875511658464821268-875511653855289394-august2021-reviewed",
+          "playerId": "fireball",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875575578479169546",
@@ -145418,9 +145518,24 @@
       "time": "1:06.11",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875658207870218350-875658205689176104-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875658207870218350-875658205689176104-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "3ds-toad-circuit-r",
+          "layer": "submissions",
+          "id": "curated-875658207870218350-875658205689176104-august2021-reviewed",
+          "playerId": "timael",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875664353024688178",
@@ -145431,9 +145546,24 @@
       "time": "1:03.00",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "875664355553857536-875664353024688178-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "875664355553857536-875664353024688178-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august12-13-eight-existing-submission-crosswalk-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "3ds-toad-circuit-r",
+          "layer": "submissions",
+          "id": "curated-875664355553857536-875664353024688178-august2021-reviewed",
+          "playerId": "kura-mk",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "875666982526128178",
