@@ -18,18 +18,18 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 60,
+      "fresh-original-reviewed-supporting-results-restored": 62,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
       "fresh-original-partial-technique-video-reviewed": 2,
       "fresh-original-partial-lap-image-reviewed": 1,
-      "fresh-original-result-reviewed-author-identity-pending": 11,
-      "fresh-original-reviewed-joke-image-no-result": 1,
+      "fresh-original-result-reviewed-author-identity-pending": 12,
+      "fresh-original-reviewed-joke-image-no-result": 2,
       "fresh-original-reviewed-photo-no-result": 1,
       "fresh-original-image-corroborates-existing-video-result": 1,
       "original-video-post-reviewed-playback-access-pending": 1,
-      "original-source-review-pending": 11,
+      "original-source-review-pending": 7,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -3474,7 +3474,19 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-joke-image-no-result",
+      "freshOriginalReview": {
+        "messageId": "794247714527117363",
+        "postedAt": "2020-12-31T16:56:51.552Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/794247714527117363",
+        "attachmentUrl": "https://cdn.discordapp.com/attachments/636461740162416640/794247714325266452/unknown.jpeg",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "videoObserved": false,
+        "status": "fresh-original-reviewed-joke-image-no-result",
+        "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json",
+        "imageContents": "Two submarine sandwiches; adjacent sub/sandwich joke. No game result."
+      },
+      "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json"
     },
     {
       "messageId": "794250111336185856",
@@ -3503,7 +3515,34 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-result-reviewed-author-identity-pending",
+      "freshOriginalReview": {
+        "messageId": "794251525455085568",
+        "postedAt": "2020-12-31T17:12:00.148Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/794251525455085568",
+        "attachmentUrl": "https://cdn.discordapp.com/attachments/636461740162416640/794251525253103616/Screenshot_20201231-101057_Mario_Kart.jpg",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "videoObserved": false,
+        "status": "fresh-original-result-reviewed-author-identity-pending",
+        "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json",
+        "displayedTime": "0:58.41",
+        "displayedPreviousBest": "0:58.96",
+        "courseId": "snes-koopa-troopa-beach-2",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "identityUnresolved": true,
+        "fractionalCaptionSourceMessageId": "794251546203783198",
+        "fractionalCaption": ".54 .87",
+        "writtenLaps": [
+          null,
+          null
+        ],
+        "identityLimitation": "Deleted author cannot be recovered by matching previous best 0:58.96 to an earlier deleted-author post. No identity or run merger inferred."
+      },
+      "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json"
     },
     {
       "messageId": "794290604179062794",
@@ -3513,10 +3552,37 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794290603868815360/Screenshot_20210101-044349.png?ex=6ac3fec5&is=6ac2ad45&hm=9b5743821d9bac3e92b64e87739ed3d72cf2003cfe97f22cca7994c4fd9d9eb5&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794290604179062794-newyear2021-original-reviewed",
+        "794290604179062794-newyear2021-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794290604179062794",
+        "attachmentId": "794290603868815360",
+        "postedAt": "2020-12-31T19:47:17.242Z",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "discordAccountId": "711825990283952149",
+        "courseId": "snes-koopa-troopa-beach-2",
+        "displayedTime": "0:58.80",
+        "displayedPreviousBest": "0:58.98",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json",
+        "videoObserved": false,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "writtenLaps": [
+          "29.29",
+          "29.51"
+        ],
+        "lapSourceMessageId": null,
+        "lapBasis": "Sucha caption 29.29/29.51 sums to 0:58.80; zxflare splits not observed.",
+        "lapCaption": "29.29 / 29.51",
+        "previousBestOriginalDateKnown": false,
+        "identityBasis": "Existing exact Discord account and Sucha alias profile matched."
+      },
+      "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json"
     },
     {
       "messageId": "794317636900487209",
@@ -3526,10 +3592,36 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/794317636670324796/Screenshot_20201231_153135_com.nintendo.zaka.jpg?ex=6ac417f2&is=6ac2c672&hm=dafe19da59f00d845b3b6f4a28a339d0c0796dd0055a80005bae6bb8aa767047&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "794317636900487209-newyear2021-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "794317636900487209",
+        "attachmentId": "794317636670324796",
+        "postedAt": "2020-12-31T21:34:42.345Z",
+        "playerId": "zxflare",
+        "discordAccountId": "406287891757793320",
+        "courseId": "ds-airship-fortress-r",
+        "displayedTime": "1:38.19",
+        "displayedPreviousBest": null,
+        "freshOriginalTextAndPixelsReviewed": true,
+        "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json",
+        "videoObserved": false,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "writtenLaps": [
+          null,
+          null
+        ],
+        "lapSourceMessageId": null,
+        "lapBasis": "Sucha caption 29.29/29.51 sums to 0:58.80; zxflare splits not observed.",
+        "lapCaption": null,
+        "previousBestOriginalDateKnown": false,
+        "identityBasis": "Existing exact-display zxflare profile retained; original author avatar account observed, profile binding unchanged."
+      },
+      "reviewAudit": "archive/newyear2021-sucha-zxflare-deleted-result-and-joke-review-20261010.json"
     },
     {
       "messageId": "794320938787274772",
