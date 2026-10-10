@@ -18,15 +18,15 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 29,
+      "fresh-original-reviewed-supporting-results-restored": 31,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
       "fresh-original-partial-technique-video-reviewed": 2,
       "fresh-original-partial-lap-image-reviewed": 1,
-      "fresh-original-result-reviewed-author-identity-pending": 4,
+      "fresh-original-result-reviewed-author-identity-pending": 5,
       "fresh-original-reviewed-joke-image-no-result": 1,
-      "original-source-review-pending": 52,
+      "original-source-review-pending": 49,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -1797,10 +1797,36 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793876256114475028/image0.png?ex=6ac47720&is=6ac325a0&hm=2d1c4b363129700f4fcf6a888acd5ce5b1a96ee58aafb59003df01b89b8ae656&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793876255958106134-newyear2021-opening-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793876255958106134",
+        "attachmentId": "793876256114475028",
+        "postedAt": "2020-12-30T16:20:48.928Z",
+        "discordAccountId": null,
+        "currentAuthor": "Wins",
+        "canonicalPlayerId": "wins",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:58.14",
+        "displayedPreviousBest": "0:58.21",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-wins5814-kazuo5828-lele5889-original-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false,
+        "fractionalSplitLead": ".11 / .03",
+        "fullSplitsAssigned": false
+      },
+      "reviewAudit": "archive/newyear2021-wins5814-kazuo5828-lele5889-original-review-20261010.json"
     },
     {
       "messageId": "793886190537277491",
@@ -1813,7 +1839,36 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-result-reviewed-author-identity-pending",
+      "freshOriginalReview": {
+        "messageId": "793886190537277491",
+        "attachmentId": "793886190561919006",
+        "postedAt": "2020-12-30T17:00:17.516Z",
+        "currentAuthor": "Lélé",
+        "discordAccountId": "691743381113536512",
+        "displayedTime": "0:58.89",
+        "displayedPreviousBest": "0:59.22",
+        "courseId": "snes-koopa-troopa-beach-2",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-result-reviewed-author-identity-pending",
+        "reviewAudit": "archive/newyear2021-wins5814-kazuo5828-lele5889-original-review-20261010.json",
+        "writtenLaps": [
+          "29.63",
+          "29.26"
+        ],
+        "lapCaption": "29.63/29.26",
+        "splitSumMatches": true,
+        "videoObserved": false,
+        "identityResolved": false,
+        "priorIdentityReview": "archive/berlin2021-lele-original-result-recovered-into-standings-candidates-20261010.json",
+        "limitation": "AllezLélé profile binding remains unresolved; original result and written splits retained without speculative named assignment."
+      },
+      "reviewAudit": "archive/newyear2021-wins5814-kazuo5828-lele5889-original-review-20261010.json"
     },
     {
       "messageId": "793890356336525332",
@@ -1823,10 +1878,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793890356034142208/image0.png?ex=6ac48442&is=6ac332c2&hm=eccbbd30b4bfc61b57926c83d6776e70f33bfc0806cd76498d5f64d6a0558d37&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793890356336525332-newyear2021-opening-original-reviewed",
+        "793890356336525332-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793890356336525332",
+        "attachmentId": "793890356034142208",
+        "postedAt": "2020-12-30T17:16:50.720Z",
+        "discordAccountId": null,
+        "currentAuthor": "Kazuo",
+        "canonicalPlayerId": "kazuo",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:58.28",
+        "displayedPreviousBest": "0:58.70",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-wins5814-kazuo5828-lele5889-original-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-wins5814-kazuo5828-lele5889-original-review-20261010.json"
     },
     {
       "messageId": "793912155744370739",
