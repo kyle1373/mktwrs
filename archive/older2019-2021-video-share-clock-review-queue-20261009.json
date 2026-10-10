@@ -694,7 +694,9 @@
           "kind": "live-reviewed-later-reference-to-existing-verified-video"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "later-video-repost-clock-reviewed-original-clock-pending",
+      "reviewAudit": "archive/berlin2021-rockrock-two-video-clocks-and-astre-later-repost-20261009.json",
+      "videoRepostAt": "2021-10-06T17:59:33.542Z"
     },
     {
       "courseId": "n64-kalimari-desert-2",
@@ -1681,7 +1683,9 @@
           "messageId": "799992674542419998"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/berlin2021-rockrock-two-video-clocks-and-astre-later-repost-20261009.json",
+      "videoSharedAt": "2021-01-16T13:25:16.756Z"
     },
     {
       "courseId": "3ds-rock-rock-mountain-r",
@@ -1698,7 +1702,9 @@
           "kind": "author-original-video-follow-up"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/berlin2021-rockrock-two-video-clocks-and-astre-later-repost-20261009.json",
+      "videoSharedAt": "2021-01-23T18:11:48.180Z"
     },
     {
       "courseId": "3ds-rosalina-s-ice-world",
@@ -2211,8 +2217,8 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 47,
-    "later-video-repost-clock-reviewed-original-clock-pending": 5,
+    "original-video-share-clock-reviewed": 49,
+    "later-video-repost-clock-reviewed-original-clock-pending": 6,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
@@ -2221,7 +2227,7 @@
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 36
+    "pending": 33
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
