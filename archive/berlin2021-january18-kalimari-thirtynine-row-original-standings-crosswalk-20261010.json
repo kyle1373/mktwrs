@@ -618,7 +618,7 @@
         "freshLocalVisualReview": true
       },
       "candidateProfileId": "nu11",
-      "profileAssignmentFreshlyVerified": false,
+      "profileAssignmentFreshlyVerified": true,
       "profileAndTotalCandidates": [
         {
           "id": "799933819612037130-january2021-support-reviewed",
@@ -648,7 +648,7 @@
           "submittedAt": "2021-01-14T18:40:19.960Z"
         }
       ],
-      "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
       "latestOriginalSourceReview": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
       "aliasReconciliation": {
         "displayedRank": 9,
@@ -661,8 +661,10 @@
         "freshOriginalDiscordTextReview": true,
         "freshOriginalTimestampReview": true,
         "freshLocalProofImageReview": false,
-        "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
-        "decision": "Exact laps and total match candidate nu11, but current author えなが does not establish historical Kaguya(かぐやん) alias. Do not attach standings to this runner yet."
+        "reviewStatus": "resolved-contemporary-direct-reply-names-exact-original-account",
+        "decision": "Exact laps and total match candidate nu11, but current author えなが does not establish historical Kaguya(かぐやん) alias. Do not attach standings to this runner yet.",
+        "priorStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+        "resolvedBy": "archive/berlin2021-kaguya-direct-contemporary-reply-account-reconciliation-20261010.json"
       },
       "latestExpandedCandidateReview": "archive/berlin2021-eight-remaining-standings-expanded-candidate-and-source-gaps-20261010.json",
       "expandedCandidates": [
@@ -701,7 +703,32 @@
           "accepted": false
         }
       ],
-      "nextRequiredEvidence": "Find explicit historical Kaguya/かぐやん alias evidence for original account 280285510075940864; exact total/laps and account-to-Nu11 alone do not establish displayed historical alias."
+      "nextRequiredEvidence": "Find explicit historical Kaguya/かぐやん alias evidence for original account 280285510075940864; exact total/laps and account-to-Nu11 alone do not establish displayed historical alias.",
+      "acceptedExistingId": "799933819612037130-january2021-support-reviewed",
+      "originalSourceReconciliationAudit": "archive/berlin2021-kaguya-direct-contemporary-reply-account-reconciliation-20261010.json",
+      "originalSubmittedAt": "2021-01-16T09:31:24.647Z",
+      "identityReconciliation": {
+        "kind": "contemporary-direct-reply-names-exact-original-account",
+        "originalMessageId": "799933819612037130",
+        "originalAuthorDisplay": "えなが",
+        "accountId": "280285510075940864",
+        "profileId": "nu11",
+        "profileName": "Nu11",
+        "originalSubmittedAt": "2021-01-16T09:31:24.647Z",
+        "originalCaption": "29.66 / 34.12",
+        "aliasReply": {
+          "messageId": "796029630535565323",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/796029630535565323",
+          "publishedAt": "2021-01-05T14:57:33.435Z",
+          "author": "Wins",
+          "text": "Very good Kaguya",
+          "replyTargetDisplay": "えなが",
+          "replyTargetAvatarAccountId": "280285510075940864",
+          "quotedSplits": "48.43 / 48.31"
+        },
+        "freshOriginalDiscordTextAndAvatarReview": true,
+        "reviewAudit": "archive/berlin2021-kaguya-direct-contemporary-reply-account-reconciliation-20261010.json"
+      }
     },
     {
       "displayedRank": 10,
@@ -3128,9 +3155,9 @@
   "coverage": {
     "visuallyReadRows": 39,
     "rowsWithProfileAndTotalCandidates": 34,
-    "originalSourceReconciliationPending": 8,
-    "exactOriginalResultsReconciled": 31,
-    "aliasSourceReviewsWithIdentityStillPending": 1
+    "originalSourceReconciliationPending": 7,
+    "exactOriginalResultsReconciled": 32,
+    "aliasSourceReviewsWithIdentityStillPending": 0
   },
   "decision": "Replace leader-only scope with full row transcription and exact public candidate crosswalk. Candidate profiles remain review leads; no identity merges or new results published.",
   "limitations": [
