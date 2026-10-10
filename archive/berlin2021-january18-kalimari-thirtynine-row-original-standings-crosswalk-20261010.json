@@ -2352,7 +2352,7 @@
         "freshLocalVisualReview": true
       },
       "candidateProfileId": null,
-      "profileAssignmentFreshlyVerified": false,
+      "profileAssignmentFreshlyVerified": true,
       "profileAndTotalCandidates": [],
       "sameTotalOtherCandidates": [
         {
@@ -2401,7 +2401,7 @@
           "submittedAt": "2021-01-14T17:27:39.176Z"
         }
       ],
-      "reviewStatus": "original-table-row-visually-read-existing-candidates-source-reconciliation-pending",
+      "reviewStatus": "matched-exact-original-result-runner-and-laps",
       "limitation": "Display alias or deleted-author attribution unresolved; same total or splits do not establish runner identity.",
       "latestExpandedCandidateReview": "archive/berlin2021-eight-remaining-standings-expanded-candidate-and-source-gaps-20261010.json",
       "expandedCandidates": [
@@ -2481,6 +2481,43 @@
         "postedAt": "2021-01-14T17:27:39.176Z",
         "caption": "30.01/34.63",
         "visibleAvatarAccountId": "506743146269376513"
+      },
+      "acceptedExistingId": "799328894141726761-january2021-support-reviewed",
+      "originalSourceReconciliationAudit": "archive/berlin2021-ryukano-two-contemporary-self-references-result-reconciliation-20261010.json",
+      "originalSubmittedAt": "2021-01-14T17:27:39.176Z",
+      "identityReconciliation": {
+        "kind": "two-contemporary-self-references-and-exact-result-laps",
+        "originalMessageId": "799328894141726761",
+        "originalAuthorDisplay": "Whiplash",
+        "accountId": "506743146269376513",
+        "profileId": "whiplash",
+        "historicalDisplayedAlias": "Ryukano",
+        "originalSubmittedAt": "2021-01-14T17:27:39.176Z",
+        "originalCaption": "30.01/34.63",
+        "selfReference": {
+          "messageId": "800019031191978044",
+          "publishedAt": "2021-01-16T15:10:00.671Z",
+          "author": "Whiplash",
+          "visibleAvatarAccountId": "506743146269376513",
+          "text": "Ryukano + mathematics = 2",
+          "context": "Immediately follows own arithmetic correction, calling self dumb and 2 IQ play."
+        },
+        "aliasReply": {
+          "messageId": "800334464612827156",
+          "publishedAt": "2021-01-17T12:03:25.859Z",
+          "author": "Whiplash",
+          "visibleAvatarAccountId": "506743146269376513",
+          "text": "game to easy for me xDD",
+          "quotedAuthor": "Phillish",
+          "quotedMessageId": "800326682388332544",
+          "quotedText": "Ryukanos pb lap 1 is 42"
+        },
+        "freshOriginalDiscordTextAndAvatarReview": true,
+        "reviewAudit": "archive/berlin2021-ryukano-two-contemporary-self-references-result-reconciliation-20261010.json"
+      },
+      "aliasReconciliation": {
+        "reviewStatus": "resolved-two-contemporary-self-references-and-exact-laps",
+        "resolvedBy": "archive/berlin2021-ryukano-two-contemporary-self-references-result-reconciliation-20261010.json"
       }
     },
     {
@@ -3155,8 +3192,8 @@
   "coverage": {
     "visuallyReadRows": 39,
     "rowsWithProfileAndTotalCandidates": 34,
-    "originalSourceReconciliationPending": 7,
-    "exactOriginalResultsReconciled": 32,
+    "originalSourceReconciliationPending": 6,
+    "exactOriginalResultsReconciled": 33,
     "aliasSourceReviewsWithIdentityStillPending": 0
   },
   "decision": "Replace leader-only scope with full row transcription and exact public candidate crosswalk. Candidate profiles remain review leads; no identity merges or new results published.",
