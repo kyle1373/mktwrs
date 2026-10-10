@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { videoKey, fastestVideo, recordChronology } from '../lib/video.mjs';
-const run = (timeCs, extra={}) => ({playerId:'runner', timeCs, video:'https://youtu.be/X_wkkweScJU', videoAudit:{status:'title-time-matches'}, ...extra});
+const run = (timeCs, extra={}) => ({playerId:'runner', timeCs, video:'https://youtu.be/X_wkkweScJU', videoAudit:{status:'title-time-matches'}, videoVerified:true, ...extra});
 test('fastest footage falls back from unavailable WR and excludes unverified submissions', () => {
- const current=run(9000,{videoAudit:{status:'metadata-unavailable'}});
+ const current=run(9000,{videoAvailability:'unavailable',videoAudit:{status:'metadata-unavailable'}});
  const prior=run(9200);
- const course={records:[current,prior],currentHolders:[current],submissions:[run(9100),run(9150,{videoVerified:true})]};
+ const course={records:[current,prior],currentHolders:[current],submissions:[run(9100,{videoVerified:false}),run(9150,{videoVerified:true})]};
  assert.equal(fastestVideo(course).timeCs,9150);
  assert.equal(fastestVideo(course).isCurrent,false);
  assert.equal(course.records.length,2);
@@ -32,4 +32,11 @@ test('profiles order known chronology oldest first without inventing dates',()=>
  assert.equal(rows[0].recordDate,undefined);
  assert.equal(rows[1].timeCs,9200);
  assert.equal(rows.at(-1).recordDate,'2024-01-02');
+});
+
+test('video titles alone cannot qualify a record as fastest verified footage',()=>{
+ const unreviewed=run(8800,{videoVerified:false});
+ const verified=run(9000);
+ assert.equal(fastestVideo({records:[unreviewed,verified]}).timeCs,9000);
+ assert.equal(fastestVideo({records:[unreviewed]}),null);
 });

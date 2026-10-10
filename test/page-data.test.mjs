@@ -41,3 +41,13 @@ test("player page retains chronological records, current-WR flags and profile id
     assert.equal(r.isCurrent, course.currentHolders.some(h => h.playerId === player.id && h.timeCs === r.timeCs));
   }
 });
+
+test("course presentation retains video share events separately from race dates", () => {
+ const course=source.courses.find(c=>c.id==='3ds-toad-circuit');
+ const props=routeData(['course',course.id]);
+ for(const row of course.records){
+  const display=props.data.records.find(r=>r.id===row.id);
+  for(const key of ['submittedAt','videoSharedAt','videoShareSource','videoShareEvents'])
+   assert.deepEqual(display[key],row[key]);
+ }
+});

@@ -1,0 +1,20 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "changes": [
+    "Course presentation fields retain submittedAt, videoSharedAt, videoShareSource and videoShareEvents.",
+    "Expandable Submission and video times appears beside video-linked results and in fastest-video panel. Source links retained for share events; displayed clocks use UTC.",
+    "Fastest-video candidates now require explicit video/proof-video verification; title metadata alone does not qualify. Existing backup/availability rules remain."
+  ],
+  "validation": {
+    "focusedTestsPassed": 10,
+    "nextSWCJSXCompilation": "passed",
+    "liveRenderingVerified": false
+  },
+  "limitations": [
+    "No historical result, lap or race-date data edited. Prior video verification quality is not recertified by this change.",
+    "No available verified footage can be displayed when all source footage is unverified; archive remains incomplete.",
+    "Rendered browser layout and live deployment remain unverified."
+  ]
+}

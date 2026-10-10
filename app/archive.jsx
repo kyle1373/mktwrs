@@ -61,6 +61,20 @@ function Duration({ r }) {
     </span>
   );
 }
+function EvidenceTimes({ r }) {
+  const format = value => value ? value.replace("T", " ").replace(/\.\d+Z$/, " UTC").replace(/Z$/, " UTC") : null;
+  const shares = [...(r.videoShareEvents || [])];
+  if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
+    shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
+  if (!r.submittedAt && !shares.length) return null;
+  return <details className="evidence-times">
+    <summary>Submission and video times</summary>
+    {r.submittedAt && <div>Submitted: {format(r.submittedAt)}</div>}
+    {shares.map((event, index) => <div key={event.source?.url || index}>
+      Video shared: {event.source?.url ? <a href={event.source.url} target="_blank" rel="noopener noreferrer">{format(event.sharedAt)}</a> : format(event.sharedAt)}
+    </div>)}
+  </details>;
+}
 function Time({ record: r }) {
   const original = r?.video ? (
     <a
@@ -84,7 +98,7 @@ function Time({ record: r }) {
       {r?.time || "—"}
     </span>
   );
-  return original;
+  return <>{original}{r?.video && <EvidenceTimes r={r} />}</>;
 }
 function BackupIcon() {
   return <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">
@@ -505,6 +519,7 @@ function FastestVideo({ course: c, players }) {
           ? `Recovered video (${r.videoBackup.channel})`
           : `Backup video (${r.videoBackup.channel || "SuperFX64"} · ${r.videoBackup.visibility || "unlisted"})`}</a></>}
       </p>
+      <EvidenceTimes r={r} />
       {!r.isCurrent && <p className="table-note">This footage shows the listed time; its WR status is shown separately.</p>}
     </> : <p className="table-note">No available video has been verified for this course yet.</p>}
   </section>;
