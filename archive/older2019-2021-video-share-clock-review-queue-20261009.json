@@ -1096,7 +1096,9 @@
           "messageId": "783025023010996226"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "reddit-reference-reviewed-original-social-clock-pending",
+      "reviewAudit": "archive/november2020-rainbow-splits-and-mario-reddit-source-clock-gaps-20261009.json",
+      "sourceContextPostedAt": "2020-11-30T17:41:53.387Z"
     },
     {
       "courseId": "snes-mario-circuit-3",
@@ -1281,7 +1283,9 @@
           "messageId": "775052496283369512"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/november2020-kazuo-nbc-twitch-original-share-clock-20261009.json",
+      "videoSharedAt": "2020-11-08T17:41:54.893Z"
     },
     {
       "courseId": "3ds-neo-bowser-city",
@@ -1412,7 +1416,9 @@
           "messageId": "778612015312273440"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "section-time-context-reviewed-youtube-clock-pending",
+      "reviewAudit": "archive/november2020-rainbow-splits-and-mario-reddit-source-clock-gaps-20261009.json",
+      "sourceContextPostedAt": "2020-11-18T13:26:10.362Z"
     },
     {
       "courseId": "3ds-rainbow-road",
@@ -2173,15 +2179,17 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 31,
+    "original-video-share-clock-reviewed": 32,
     "later-video-repost-clock-reviewed-original-clock-pending": 4,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
+    "reddit-reference-reviewed-original-social-clock-pending": 1,
+    "section-time-context-reviewed-youtube-clock-pending": 1,
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 55
+    "pending": 52
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
