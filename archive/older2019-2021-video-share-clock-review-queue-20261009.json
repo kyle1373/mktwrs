@@ -134,7 +134,9 @@
           "originalVideoPostedAt": "2020-11-01T11:41:49Z"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "later-video-repost-clock-reviewed-original-clock-pending",
+      "reviewAudit": "archive/november2020-video-clock-and-later-bowser-repost-20261009.json",
+      "videoRepostAt": "2021-12-18T00:42:59.779Z"
     },
     {
       "courseId": "gba-bowser-s-castle-2r",
@@ -1261,7 +1263,9 @@
           "messageId": "773486275277225994"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/november2020-video-clock-and-later-bowser-repost-20261009.json",
+      "videoSharedAt": "2020-11-04T09:58:18.706Z"
     },
     {
       "courseId": "3ds-neo-bowser-city",
@@ -1757,7 +1761,9 @@
           "messageId": "754755794955796511"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "standings-image-context-reviewed-video-clock-pending",
+      "reviewAudit": "archive/supermario2020-superfx-royal-raceway-standings-context-video-clock-gap-20261009.json",
+      "sourceContextPostedAt": "2020-09-13T17:30:04.202Z"
     },
     {
       "courseId": "n64-royal-raceway-r",
@@ -2167,15 +2173,15 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 30,
+    "original-video-share-clock-reviewed": 31,
+    "later-video-repost-clock-reviewed-original-clock-pending": 4,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
-    "later-video-repost-clock-reviewed-original-clock-pending": 3,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
-    "standings-image-context-reviewed-video-clock-pending": 1,
+    "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 58
+    "pending": 55
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
