@@ -5,8 +5,8 @@
   "certifiedThrough": null,
   "scope": "Unlinked slash-separated lap pairs in preserved Berlin discussion, counted against current public original and additional source IDs.",
   "candidateMessages": 50,
-  "pendingOriginalContextMessages": 18,
-  "resolvedOriginalContextMessages": 32,
+  "pendingOriginalContextMessages": 14,
+  "resolvedOriginalContextMessages": 36,
   "rows": [
     {
       "messageId": "798816520401584141",
@@ -934,9 +934,17 @@
           "submittedAt": "2021-01-17T21:42:41.652Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Source text matched prior result; no fresh media verification or race completion date inferred.",
+      "acceptedExistingId": "800480240974692362-january2021-support-reviewed",
+      "acceptedPlayerId": "phillish",
+      "acceptedTime": "1:03.68",
+      "acceptedLaps": [
+        "29.61",
+        "34.07"
+      ],
+      "reviewAudit": "archive/berlin2021-january17-18-four-kalimari-split-sources-and-distinct-troy-ties-20261010.json"
     },
     {
       "messageId": "800499581544169492",
@@ -956,9 +964,17 @@
           "submittedAt": "2021-01-17T22:59:20.252Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Source text matched prior result; no fresh media verification or race completion date inferred.",
+      "acceptedExistingId": "800499528901066752-january2021-support-reviewed",
+      "acceptedPlayerId": "phillish",
+      "acceptedTime": "1:03.65",
+      "acceptedLaps": [
+        "29.63",
+        "34.02"
+      ],
+      "reviewAudit": "archive/berlin2021-january17-18-four-kalimari-split-sources-and-distinct-troy-ties-20261010.json"
     },
     {
       "messageId": "800675455761907722",
@@ -978,9 +994,17 @@
           "submittedAt": "2021-01-18T10:38:23.925Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Source text matched prior result; no fresh media verification or race completion date inferred.",
+      "acceptedExistingId": "800675453417160744-january2021-support-reviewed",
+      "acceptedPlayerId": "troy",
+      "acceptedTime": "1:03.87",
+      "acceptedLaps": [
+        "29.73",
+        "34.14"
+      ],
+      "reviewAudit": "archive/berlin2021-january17-18-four-kalimari-split-sources-and-distinct-troy-ties-20261010.json"
     },
     {
       "messageId": "800768261641601035",
@@ -1040,9 +1064,17 @@
           "submittedAt": "2021-01-18T19:16:37.179Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Source text matched prior result; no fresh media verification or race completion date inferred.",
+      "acceptedExistingId": "800805867977048124-january2021-support-reviewed",
+      "acceptedPlayerId": "troy",
+      "acceptedTime": "1:03.87",
+      "acceptedLaps": [
+        "29.80",
+        "34.07"
+      ],
+      "reviewAudit": "archive/berlin2021-january17-18-four-kalimari-split-sources-and-distinct-troy-ties-20261010.json"
     },
     {
       "messageId": "801067648854523914",
@@ -1281,6 +1313,6 @@
     "Full numbers retained literally; abbreviated seconds not normalized without original context.",
     "Same splits across different players or quoted replies do not establish identity.",
     "Not a full Berlin source coverage or completion certificate.",
-    "Thirty-two source messages have original-context dispositions; eighteen remain pending. Resolved captions can retain uncertainty and do not certify full source coverage."
+    "Thirty-six source messages have original-context dispositions; fourteen remain pending. Resolved captions can retain uncertainty and do not certify full source coverage."
   ]
 }
