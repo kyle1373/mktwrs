@@ -18,14 +18,14 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 20,
+      "fresh-original-reviewed-supporting-results-restored": 22,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
       "fresh-original-reviewed-course-context-no-result": 1,
       "fresh-original-partial-technique-video-reviewed": 1,
       "fresh-original-partial-lap-image-reviewed": 1,
-      "fresh-original-result-reviewed-author-identity-pending": 3,
-      "original-source-review-pending": 64,
+      "fresh-original-result-reviewed-author-identity-pending": 4,
+      "original-source-review-pending": 61,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -1262,10 +1262,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793785363374014534/Screenshot_20201230-111911_Mario_Kart.jpg?ex=6ac4227a&is=6ac2d0fa&hm=25fc8700297c8742542898ddfce876a03a87134fe641609830b1ba4a350445c6&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793785363310051331-newyear2021-opening-original-reviewed",
+        "793785363310051331-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793785363310051331",
+        "attachmentId": "793785363374014534",
+        "postedAt": "2020-12-30T10:19:38.432Z",
+        "discordAccountId": "506743146269376513",
+        "currentAuthor": "Whiplash",
+        "canonicalPlayerId": "whiplash",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "1:38.67",
+        "displayedPreviousBest": "1:39.30",
+        "starThresholds": [
+          "2:30.00",
+          "2:15.00",
+          "1:58.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-whiplash-two-airship-results-deleted-repeat-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-whiplash-two-airship-results-deleted-repeat-review-20261010.json"
     },
     {
       "messageId": "793786340478025739",
@@ -1290,10 +1315,34 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793786384259350548/Screenshot_20201230-112321_Mario_Kart.jpg?ex=6ac4236d&is=6ac2d1ed&hm=5ddd2b7147d01737ceec9045d1cc14b1968f6ffeae00a2330196a42d4dfa3cba&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793786384368009217-newyear2021-opening-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793786384368009217",
+        "attachmentId": "793786384259350548",
+        "postedAt": "2020-12-30T10:23:41.871Z",
+        "discordAccountId": "506743146269376513",
+        "currentAuthor": "Whiplash",
+        "canonicalPlayerId": "whiplash",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "1:38.14",
+        "displayedPreviousBest": "1:38.67",
+        "starThresholds": [
+          "2:30.00",
+          "2:15.00",
+          "1:58.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-whiplash-two-airship-results-deleted-repeat-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-whiplash-two-airship-results-deleted-repeat-review-20261010.json"
     },
     {
       "messageId": "793795063984685056",
@@ -1321,7 +1370,29 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-result-reviewed-author-identity-pending",
+      "freshOriginalReview": {
+        "messageId": "793813678809153557",
+        "attachmentId": "793813678662877185",
+        "postedAt": "2020-12-30T12:12:09.373Z",
+        "currentAuthor": "Deleted User",
+        "displayedTime": "1:37.70",
+        "displayedPreviousBest": "1:37.69",
+        "courseId": "ds-airship-fortress-r",
+        "starThresholds": [
+          "2:30.00",
+          "2:15.00",
+          "1:58.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-result-reviewed-author-identity-pending",
+        "reviewAudit": "archive/newyear2021-whiplash-two-airship-results-deleted-repeat-review-20261010.json",
+        "identityResolved": false,
+        "videoObserved": false,
+        "newPersonalBest": false,
+        "limitation": "Repeat completed run is slower than displayed previous best. Neither identity nor earlier personal-best date recovered; no named public assignment."
+      },
+      "reviewAudit": "archive/newyear2021-whiplash-two-airship-results-deleted-repeat-review-20261010.json"
     },
     {
       "messageId": "793816480512606218",
