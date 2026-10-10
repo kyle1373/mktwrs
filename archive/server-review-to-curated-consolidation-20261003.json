@@ -3,11 +3,11 @@
   "scope": "Consolidation of the two existing visual-review ledgers, not an exhaustive server capture and not global WR certification. Stable source/message/attachment identity plus exact course/time required for transfer match. Unlinked rows may be rejected PBs or unresolved records; inspect disposition before promotion.",
   "indexedReviews": 12318,
   "stageCounts": {
-    "linked-to-curated": 3136,
+    "linked-to-curated": 3141,
     "no-transcribed-result": 865,
     "reviewed-excluded-slower-unidentified-result": 1,
     "reviewed-non-wr-or-context": 1598,
-    "unlinked-result-needs-reconciliation": 6101,
+    "unlinked-result-needs-reconciliation": 6096,
     "linked-to-served-evidence": 617
   },
   "yearCounts": {
@@ -143370,7 +143370,14 @@
       "classification": "needs-chronology-reconciliation",
       "curatedEvidenceIds": [],
       "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "stage": "unlinked-result-needs-reconciliation",
+      "originalSourceReconciliation": {
+        "reviewAudit": "archive/august2021-august5-6-five-source-links-nick-littea-attribution-hold-20261010.json",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "publicationStatus": "held-for-runner-attribution-reconciliation",
+        "unresolved": true
+      }
     },
     {
       "attachmentId": "873128025519194122",
@@ -143381,9 +143388,24 @@
       "time": "1:11.97",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "873128028413255720-873128025519194122-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "873128028413255720-873128025519194122-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august5-6-five-source-links-nick-littea-attribution-hold-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "gba-cheep-cheep-island",
+          "layer": "submissions",
+          "id": "curated-873128028413255720-873128025519194122-august2021-reviewed",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "873162010437779496",
@@ -143394,9 +143416,24 @@
       "time": "1:12.44",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "873162012899831808-873162010437779496-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "873162012899831808-873162010437779496-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august5-6-five-source-links-nick-littea-attribution-hold-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "gba-cheep-cheep-island",
+          "layer": "submissions",
+          "id": "curated-873162012899831808-873162010437779496-august2021-reviewed",
+          "playerId": "lionjin",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "873205401183715328",
@@ -143417,12 +143454,32 @@
       "reviewLedger": "archive/early-visual-review.json",
       "postedAt": "2021-08-06T14:35:56.782Z",
       "courseId": "n64-choco-mountain",
-      "time": "1:21.30",
+      "time": "1:21.36",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "873212807351521340-873212804339994665-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "873212807351521340-873212804339994665-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "supersededEarlyLedgerTranscription": {
+        "time": "1:21.30",
+        "courseId": "n64-choco-mountain",
+        "replacementBasis": "archive/august2021-august5-august6-six-results-results-review-20261007.json"
+      },
+      "reconciliationAudit": "archive/august2021-august5-6-five-source-links-nick-littea-attribution-hold-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "n64-choco-mountain",
+          "layer": "submissions",
+          "id": "curated-873212807351521340-873212804339994665-august2021-reviewed",
+          "playerId": "periawsity",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "873214606166868038",
@@ -143433,9 +143490,24 @@
       "time": "1:12.93",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "873214608209506334-873214606166868038-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "873214608209506334-873214606166868038-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august5-6-five-source-links-nick-littea-attribution-hold-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "gba-cheep-cheep-island",
+          "layer": "submissions",
+          "id": "curated-873214608209506334-873214606166868038-august2021-reviewed",
+          "playerId": "fireball",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "873231920488656996",
@@ -143446,9 +143518,24 @@
       "time": "1:19.97",
       "reviewStatus": "visually-reviewed",
       "classification": "needs-chronology-reconciliation",
-      "curatedEvidenceIds": [],
-      "curatedStatus": {},
-      "stage": "unlinked-result-needs-reconciliation"
+      "curatedEvidenceIds": [
+        "873231922288033842-873231920488656996-august2021-reviewed"
+      ],
+      "curatedStatus": {
+        "873231922288033842-873231920488656996-august2021-reviewed": "documented-submission"
+      },
+      "stage": "linked-to-curated",
+      "reconciliationAudit": "archive/august2021-august5-6-five-source-links-nick-littea-attribution-hold-20261010.json",
+      "servedEvidenceMatches": [
+        {
+          "courseId": "n64-choco-mountain",
+          "layer": "submissions",
+          "id": "curated-873231922288033842-873231920488656996-august2021-reviewed",
+          "playerId": "lionjin",
+          "recordDate": null,
+          "status": "documented-submission"
+        }
+      ]
     },
     {
       "attachmentId": "873242103965188186",
