@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "inputsBasis": "Committed source inputs at 135f68f5 plus staged reviewedPlayer correction, isolated temporary workspace; main public files not regenerated.",
+  "validation": {
+    "canonicalIds": [
+      "sheet-KM47",
+      "sheet-KM45",
+      "sheet-KM44",
+      "sheet-KM23",
+      "sheet-KM43",
+      "sheet-KM41",
+      "sheet-KM39",
+      "sheet-KM38",
+      "sheet-KM37",
+      "sheet-KM19",
+      "sheet-KM17",
+      "sheet-KU38"
+    ],
+    "heriaSourceIdentityPreserved": true,
+    "generatorExit": 0,
+    "focusedTestsPassed": 11,
+    "generatedCourseCount": 142,
+    "generatedPlayerCount": 741
+  },
+  "initialFailure": {
+    "error": "Unknown reviewed player ID: discord-862036018671779880",
+    "resolution": "Create explicitly reviewed source identity when absent from initial map; preserve exact ID/account rather than resolving display-name aliases. Reject conflicting existing account IDs."
+  },
+  "remainingInputIssues": [
+    {
+      "type": "invalid-time",
+      "course": "Yoshi Circuit",
+      "cell": "BOV17",
+      "value": "92:22.00"
+    },
+    {
+      "type": "unmapped-bot",
+      "messageId": "chat-messages-875784780573184010-1135846359006724116",
+      "line": "nekozuki | Daisy Circuit | 774. | - | - | No Media"
+    }
+  ],
+  "reportedVideoTitleMismatches": 42,
+  "limitations": [
+    "Generation success verifies executable pipeline and 12 canonical merges, not historical coverage, full equivalence of all generated public rows, or correctness of every reconstructed WR.",
+    "Two invalid/unmapped inputs and 42 title mismatches require separate source review. No temporary generated outputs were promoted to public files.",
+    "Original-source reconciliation, complete-video verification, 17 prior dispositions and live deployment remain unfinished."
+  ]
+}

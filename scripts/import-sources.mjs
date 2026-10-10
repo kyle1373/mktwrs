@@ -1,3 +1,19 @@
+export function reviewedPlayer(entry, players, resolveName) {
+  if (!entry.playerId) return resolveName(entry.player);
+  const existing = players.get(entry.playerId);
+  if (existing) {
+    if (existing.discordId && entry.discordAccountId &&
+        existing.discordId !== entry.discordAccountId)
+      throw Error("Reviewed player account mismatch: " + entry.playerId);
+    return existing;
+  }
+  const player = {id: entry.playerId, name: entry.player,
+    discordId: entry.discordAccountId || null, country: null, avatar: null,
+    records: [], socials: {}, aliases: []};
+  players.set(player.id, player);
+  return player;
+}
+
 export function reconcileReviewedSubmission(course, submission) {
   const targetId = submission.publicSubmissionReconciliation?.canonicalId;
   if (!targetId) {
@@ -514,8 +530,7 @@ export function importSources(courses, players) {
   for (const entry of [...curated, ...reviewed]) {
     const c = courses.find((c) => c.id === entry.courseId);
     if (!c) throw Error("Unknown curated course: " + entry.courseId);
-    const p = entry.playerId ? players.get(entry.playerId) : person(entry.player);
-    if (!p) throw Error("Unknown reviewed player ID: " + entry.playerId);
+    const p = reviewedPlayer(entry, players, person);
     const r = {
       ...entry,
       id: "curated-" + entry.messageId,

@@ -39,3 +39,14 @@ test('unreconciled equal-time reruns remain separate submissions', () => {
   reconcileReviewedSubmission(course,later);
   assert.equal(course.submissions.length,2);
 });
+
+test('explicit reviewed identities can originate in curated sources without name alias merging', async () => {
+  const {reviewedPlayer}=await import('../scripts/import-sources.mjs');
+  const players=new Map();
+  const entry={playerId:'discord-123',player:'Ivan🔥',discordAccountId:'123'};
+  const p=reviewedPlayer(entry,players,()=>{throw Error('unexpected alias lookup');});
+  assert.equal(p.id,'discord-123');
+  assert.equal(p.discordId,'123');
+  assert.equal(reviewedPlayer(entry,players,()=>null),p);
+  assert.throws(()=>reviewedPlayer({...entry,discordAccountId:'456'},players,()=>null),/account mismatch/);
+});
