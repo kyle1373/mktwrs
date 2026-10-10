@@ -1,0 +1,86 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "rows": [
+    {
+      "messageId": "1058436777490272457",
+      "postedAt": "2022-12-30T17:29:52.558Z",
+      "canonicalId": "1058001890484420678-koopa-cape-lap-message-confirmed",
+      "sourceReview": {
+        "messageId": "1058436777490272457",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058436777490272457",
+        "originalVideoSharedAt": "2022-12-30T17:29:52.558Z",
+        "videoUrl": "https://twitter.com/winsmkt/status/1608877529749950465",
+        "captionCourse": "Koopa Cape",
+        "captionPlayer": "Wins",
+        "captionTime": "1:36.21",
+        "captionLaps": [
+          "48.06",
+          "48.15"
+        ],
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "videoAvailabilityUnverified": true,
+        "originalVideoPublicationExactTimeUnresolved": true,
+        "embedPublicationLocalMinute": "2022-12-30 09:27 America/Los_Angeles",
+        "submissionDateRetained": "2022-12-29T12:41:47.416Z"
+      },
+      "disposition": "original-video-share-caption-matched-existing-run-footage-pending"
+    },
+    {
+      "messageId": "1057781473136087101",
+      "postedAt": "2022-12-28T22:05:55.825Z",
+      "canonicalId": "1057750526772658176-newyear2023-proof-reviewed",
+      "sourceReview": {
+        "messageId": "1057781473136087101",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1057781473136087101",
+        "originalVideoSharedAt": "2022-12-28T22:05:55.825Z",
+        "videoUrl": "https://x.com/winsmkt/status/1608222483701719040",
+        "captionCourse": "Piranha Plant Slide",
+        "captionPlayer": "Wins",
+        "captionTime": "1:28.73",
+        "captionLaps": [
+          "44.41",
+          "44.32"
+        ],
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "priorFootageReview": "archive/newyear2023-wins12873-original-video-reconciliation-20261008.json",
+        "priorVideoPublishedAt": "2022-12-28T22:04:54Z",
+        "submissionDateRetained": "2022-12-28T20:02:57.637Z"
+      },
+      "disposition": "original-video-share-matched-existing-verified-run"
+    }
+  ],
+  "sheetVideoMismatch": {
+    "courseId": "wii-koopa-cape",
+    "submissionId": "sheet-ATH18",
+    "videoAudit": {
+      "status": "title-time-mismatch",
+      "reviewAudit": "archive/december2022-wins-two-original-video-crosswalk-mismatch-review-20261010.json",
+      "sourceMessageId": "1058436777490272457",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1058436777490272457",
+      "observedVideoTime": "1:36.21",
+      "observedVideoLaps": [
+        "48.06",
+        "48.15"
+      ],
+      "rowTime": "1:36.08",
+      "rowLaps": [
+        "48.07",
+        "48.01"
+      ],
+      "canonicalSubmissionId": "curated-1058001890484420678-koopa-cape-lap-message-confirmed",
+      "basis": "Original Discord video embed explicitly gives Koopa Cape1:36.21 and48.06/48.15; sheetATH18 is1:36.08 with48.07/48.01.",
+      "freshVisualReview": false
+    }
+  },
+  "limitations": [
+    "Two original Discord video-share messages and clocks inspected. Existing matching canonical runs updated; race totals,splits,submission dates,statuses and WR chronology unchanged.",
+    "Koopa Cape1:36.21 gains matching video caption and share timestamp. Title-time-match is written evidence,not fresh footage verification or availability confirmation. Exact originalTwitter publication clock unresolved.",
+    "SheetATH18 1:36.08 references1:36.21 video; preserved reference marked mismatch and excluded from available footage selection. Existing1:36.08 original proof remains separate.",
+    "Piranha Plant Slide1:28.73 prior sampled footage verification retained; originalDecember28 screenshot20:02:57.637Z,Twitter publication22:04:54Z,andDiscord video share22:05:55.825Z remain distinct.",
+    "Video queue,proof reconciliation and2019–2026 archive incomplete."
+  ]
+}
