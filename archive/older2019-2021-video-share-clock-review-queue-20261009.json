@@ -601,7 +601,10 @@
           "reviewAudit": "archive/november2021-discussion-census-pages11-12-dispositions-20261009.json"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "author-acknowledgement-context-reviewed-video-clock-pending",
+      "reviewAudit": "archive/november2021-two-original-video-clocks-and-two-context-gaps-20261009.json",
+      "contextMessageId": "909793203320938496",
+      "contextPostedAt": "2021-11-15T13:13:22.812Z"
     },
     {
       "courseId": "n64-frappe-snowland-r",
@@ -721,7 +724,10 @@
           "rank": 1
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "standings-image-context-reviewed-video-clock-pending",
+      "reviewAudit": "archive/november2021-two-original-video-clocks-and-two-context-gaps-20261009.json",
+      "contextMessageId": "910442351175020554",
+      "contextPostedAt": "2021-11-17T08:12:51.721Z"
     },
     {
       "courseId": "n64-kalimari-desert-2",
@@ -865,7 +871,9 @@
           "reviewAudit": "archive/space2021-nu11-original-video-share-link-reconciliation-20261009.json"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/november2021-two-original-video-clocks-and-two-context-gaps-20261009.json",
+      "videoSharedAt": "2021-11-17T09:51:05.831Z"
     },
     {
       "courseId": "snes-koopa-troopa-beach-2",
@@ -1601,7 +1609,9 @@
           "videoSharedAt": "2021-11-17T07:31:56.075Z"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/november2021-two-original-video-clocks-and-two-context-gaps-20261009.json",
+      "videoSharedAt": "2021-11-17T07:31:56.075Z"
     },
     {
       "courseId": "rmx-choco-island-2",
@@ -2274,18 +2284,19 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 66,
+    "original-video-share-clock-reviewed": 68,
     "later-video-repost-clock-reviewed-original-clock-pending": 10,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 2,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
+    "author-acknowledgement-context-reviewed-video-clock-pending": 1,
+    "standings-image-context-reviewed-video-clock-pending": 3,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
     "reddit-reference-reviewed-original-social-clock-pending": 1,
     "edited-original-video-message-clock-bounded-exact-share-pending": 2,
     "section-time-context-reviewed-youtube-clock-pending": 1,
-    "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 9
+    "pending": 5
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
