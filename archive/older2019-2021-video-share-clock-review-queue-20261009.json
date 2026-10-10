@@ -667,7 +667,9 @@
           "messageId": "798813931098472508"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/newyear2021-two-video-clocks-and-old-beach-repost-20261009.json",
+      "videoSharedAt": "2021-01-13T07:21:22.419Z"
     },
     {
       "courseId": "n64-kalimari-desert-2",
@@ -869,7 +871,9 @@
           "kind": "live-reviewed-later-reference-to-existing-unavailable-video"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "later-video-repost-clock-reviewed-original-clock-pending",
+      "reviewAudit": "archive/newyear2021-two-video-clocks-and-old-beach-repost-20261009.json",
+      "videoRepostAt": "2021-11-17T06:15:24.256Z"
     },
     {
       "courseId": "snes-koopa-troopa-beach-2",
@@ -937,7 +941,9 @@
           "messageId": "795992999125450792"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/newyear2021-two-video-clocks-and-old-beach-repost-20261009.json",
+      "videoSharedAt": "2021-01-05T12:31:59.826Z"
     },
     {
       "courseId": "ds-luigi-s-mansion-r",
@@ -2201,8 +2207,8 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 43,
-    "later-video-repost-clock-reviewed-original-clock-pending": 4,
+    "original-video-share-clock-reviewed": 45,
+    "later-video-repost-clock-reviewed-original-clock-pending": 5,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
@@ -2211,7 +2217,7 @@
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 41
+    "pending": 38
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
