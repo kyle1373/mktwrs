@@ -464,39 +464,13 @@
         null,
         null
       ],
-      "acceptedExistingPlayerId": null,
-      "matchingExistingSubmissions": [],
-      "unmergedSameTimeCandidates": [
-        {
-          "id": "799921955708731463-january2021-support-reviewed",
-          "playerId": "player-e38199e38184e3819df09f90ba",
-          "time": "1:45.99",
-          "laps": [
-            null,
-            null
-          ],
-          "source": {
-            "url": "https://discord.com/channels/629221606064914442/636461740162416640/799921955708731463",
-            "channel": "tt-discussion",
-            "messageId": "799921955708731463"
-          }
-        },
-        {
-          "id": "799975496690958337-january2021-support-reviewed",
-          "playerId": "y146",
-          "time": "1:45.99",
-          "laps": [
-            null,
-            null
-          ],
-          "source": {
-            "url": "https://discord.com/channels/629221606064914442/636461740162416640/799975496690958337",
-            "channel": "tt-discussion",
-            "messageId": "799975496690958337"
-          }
-        }
+      "acceptedExistingPlayerId": "player-e38199e38184e3819df09f90ba",
+      "matchingExistingSubmissions": [
+        "799921955708731463-january2021-support-reviewed"
       ],
-      "disposition": "identity or original source unresolved; do not merge or create new run from time coincidence"
+      "unmergedSameTimeCandidates": [],
+      "disposition": "Exact original Discord account matches existing Sucha profile; corroborate existing result and retain original date.",
+      "identityReviewAudit": "archive/berlin2021-rockrock-standings-sucha-account-and-three-identity-followups-20261010.json"
     },
     {
       "displayedRank": 27,
@@ -561,7 +535,7 @@
       "disposition": "corroborate existing player and result; preserve original date"
     }
   ],
-  "matchedTableRows": 26,
+  "matchedTableRows": 27,
   "publicRowsCorroborated": [
     {
       "layer": "records",
@@ -714,13 +688,16 @@
     {
       "layer": "submissions",
       "id": "800731774858428417-january2021-support-reviewed"
+    },
+    {
+      "layer": "submissions",
+      "id": "799921955708731463-january2021-support-reviewed"
     }
   ],
   "identityOrOriginalSourceLeads": [
     10,
     11,
-    15,
-    26
+    15
   ],
   "limitations": [
     "January18 snapshot is mid-tour, not final standings.",
@@ -729,5 +706,6 @@
     "Kaguya canonical mapping retained from existing verified original run; unrelated suiso1:43.64 is not corroborated.",
     "Null laps stay null. Standings observation does not date race achievement or supply missing original submission dates.",
     "No media column present; recording absence is not inferred. Global archive and Berlin remain incomplete."
-  ]
+  ],
+  "identityFollowupAudit": "archive/berlin2021-rockrock-standings-sucha-account-and-three-identity-followups-20261010.json"
 }
