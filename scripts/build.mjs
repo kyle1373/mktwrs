@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import {attachReviewedVideoShares} from "./reviewed-video-shares.mjs";
 import { screenshotPublicationDate } from "./record-date.mjs";
 import { videoKey } from "../lib/video.mjs";
 import {
@@ -226,6 +227,8 @@ for (const m of sourceMessages.values()) {
   }
 }
 const imported = importSources(courses, players);
+const reviewedVideoShares = fs.existsSync("archive/reviewed-video-share-events.json")
+  ? JSON.parse(fs.readFileSync("archive/reviewed-video-share-events.json", "utf8")) : [];
 const videoBackups = JSON.parse(fs.readFileSync("archive/video-backups.json", "utf8"));
 const videoAttribution = JSON.parse(fs.readFileSync("archive/video-attribution.json", "utf8"));
 const videoAvailability = fs.existsSync("archive/video-availability.json")
@@ -260,6 +263,7 @@ for (const c of courses) {
   }
   c.records = [...distinct.values()];
   for (const r of [...c.records, ...c.submissions]) {
+    attachReviewedVideoShares(c, r, reviewedVideoShares);
     const attribution = videoAttribution[videoKey(r.video)];
     if (attribution && !attribution.playerIds.includes(r.playerId)) {
       r.videoReference = r.video;
