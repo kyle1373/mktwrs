@@ -5,8 +5,8 @@
   "certifiedThrough": null,
   "scope": "Unlinked slash-separated lap pairs in preserved Berlin discussion, counted against current public original and additional source IDs.",
   "candidateMessages": 50,
-  "pendingOriginalContextMessages": 34,
-  "resolvedOriginalContextMessages": 16,
+  "pendingOriginalContextMessages": 30,
+  "resolvedOriginalContextMessages": 20,
   "rows": [
     {
       "messageId": "798816520401584141",
@@ -49,9 +49,18 @@
         "34.10"
       ],
       "exactSplitCandidates": [],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-recovered-missing-laps",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Original context resolved; source publication is not race completion time.",
+      "reviewAudit": "archive/berlin2021-opening-wr-laps-troy-corrected-caption-and-wins-abbreviation-20261010.json",
+      "sourceReporter": "Phillish",
+      "acceptedExistingId": "curated-798874516897398785-n64-kalimari-desert-2",
+      "acceptedPlayerId": "phillish",
+      "acceptedTime": "1:03.91",
+      "acceptedLaps": [
+        "29.81",
+        "34.10"
+      ]
     },
     {
       "messageId": "798925332026490921",
@@ -63,9 +72,11 @@
         "34.16"
       ],
       "exactSplitCandidates": [],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-separate-best-lap-claim-not-completed-race",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Explicit Bs label; no completed 1:03.97 result inferred from sum. Actual preceding screenshot is distinct.",
+      "reviewAudit": "archive/berlin2021-opening-wr-laps-troy-corrected-caption-and-wins-abbreviation-20261010.json",
+      "sourceReporter": "Troy"
     },
     {
       "messageId": "798928422109446144",
@@ -294,9 +305,18 @@
       "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/799060851309936651",
       "literalFullSplits": null,
       "exactSplitCandidates": [],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-abbreviated-splits",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Original context resolved; source publication is not race completion time.",
+      "reviewAudit": "archive/berlin2021-opening-wr-laps-troy-corrected-caption-and-wins-abbreviation-20261010.json",
+      "sourceReporter": "Wins",
+      "acceptedExistingId": "799060057156354058-january2021-support-reviewed",
+      "acceptedPlayerId": "wins",
+      "acceptedTime": "1:03.84",
+      "acceptedLaps": [
+        "29.71",
+        "34.13"
+      ]
     },
     {
       "messageId": "799347405006700624",
@@ -370,9 +390,18 @@
         "34.14"
       ],
       "exactSplitCandidates": [],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-recovered-runner-corrected-laps",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Original context resolved; source publication is not race completion time.",
+      "reviewAudit": "archive/berlin2021-opening-wr-laps-troy-corrected-caption-and-wins-abbreviation-20261010.json",
+      "sourceReporter": "Troy",
+      "acceptedExistingId": "799359577132761128-january2021-support-reviewed",
+      "acceptedPlayerId": "troy",
+      "acceptedTime": "1:03.99",
+      "acceptedLaps": [
+        "29.80",
+        "34.19"
+      ]
     },
     {
       "messageId": "799602349572096000",
@@ -1150,6 +1179,6 @@
     "Full numbers retained literally; abbreviated seconds not normalized without original context.",
     "Same splits across different players or quoted replies do not establish identity.",
     "Not a full Berlin source coverage or completion certificate.",
-    "Sixteen source messages resolved across original-context reviews; thirty-four remain pending."
+    "Twenty source messages have original-context dispositions; thirty remain pending. Separate best laps do not count as completed race results."
   ]
 }
