@@ -18,10 +18,11 @@
     "statusCounts": {
       "curated-reference-present-not-freshly-recertified": 213,
       "fresh-original-reviewed-supporting-result-restored": 1,
-      "fresh-original-reviewed-supporting-results-restored": 8,
+      "fresh-original-reviewed-supporting-results-restored": 10,
       "fresh-original-reviewed-challenge-thumbnail-no-result": 2,
       "fresh-original-result-reviewed-deleted-author-identity-pending": 1,
-      "original-source-review-pending": 82,
+      "fresh-original-reviewed-course-context-no-result": 1,
+      "original-source-review-pending": 79,
       "prior-image-disposition-needs-tour-reconciliation": 24
     }
   },
@@ -551,7 +552,22 @@
       "curatedReferenceIds": [],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-course-context-no-result",
+      "freshOriginalReview": {
+        "messageId": "793743746399207444",
+        "attachmentId": "793743746138505227",
+        "postedAt": "2020-12-30T07:34:16.187Z",
+        "currentAuthor": "tanuke",
+        "discordAccountId": "490707838201757717",
+        "courseId": "ds-airship-fortress-r",
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-course-context-no-result",
+        "reviewAudit": "archive/newyear2021-tanuke-context-numbermaniac5932-troy5888-original-review-20261010.json",
+        "description": "Airship Fortress R start/finish scene with pink Shy Guy and Portuguese improve-your-time prompt; no timer, result or previous best visible.",
+        "caption": "next tt, AF R",
+        "videoObserved": false
+      },
+      "reviewAudit": "archive/newyear2021-tanuke-context-numbermaniac5932-troy5888-original-review-20261010.json"
     },
     {
       "messageId": "793746491587428373",
@@ -561,10 +577,34 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793746491566850068/Screenshot_20201230-181349.png?ex=6ac3fe46&is=6ac2acc6&hm=eede9ffde102b60d122461bfebd27d08371d7338d78eb2b59888489da225b3b0&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793746491587428373-newyear2021-opening-original-reviewed"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793746491587428373",
+        "attachmentId": "793746491566850068",
+        "postedAt": "2020-12-30T07:45:10.691Z",
+        "discordAccountId": "266845673176039424",
+        "currentAuthor": "numbermaniac",
+        "canonicalPlayerId": "numbermaniac",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:59.32",
+        "displayedPreviousBest": "1:00.11",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-tanuke-context-numbermaniac5932-troy5888-original-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-tanuke-context-numbermaniac5932-troy5888-original-review-20261010.json"
     },
     {
       "messageId": "793746601188392990",
@@ -590,10 +630,35 @@
       "observedAttachmentUrls": [
         "https://cdn.discordapp.com/attachments/636461740162416640/793747198230921216/Screenshot_20201230_084740_com.nintendo.zaka.jpg?ex=6ac3feef&is=6ac2ad6f&hm=4c01f1a1cd3f7c166a75912e17c5ea28b577bdc8b7680a68fad11366a1cfc864&"
       ],
-      "curatedReferenceIds": [],
+      "curatedReferenceIds": [
+        "793747198399610892-newyear2021-opening-original-reviewed",
+        "793747198399610892-newyear2021-opening-original-reviewed-previous-best"
+      ],
       "priorImageDisposition": null,
       "priorImageReviewAudit": null,
-      "status": "original-source-review-pending"
+      "status": "fresh-original-reviewed-supporting-results-restored",
+      "freshOriginalReview": {
+        "messageId": "793747198399610892",
+        "attachmentId": "793747198230921216",
+        "postedAt": "2020-12-30T07:47:59.208Z",
+        "discordAccountId": "540968925920362537",
+        "currentAuthor": "Troy",
+        "canonicalPlayerId": "troy",
+        "identityBasis": "Original author matches preserved canonical profile; no equal-time identity inference.",
+        "displayedTime": "0:58.88",
+        "displayedPreviousBest": "0:59.00",
+        "starThresholds": [
+          "1:50.00",
+          "1:25.00",
+          "1:13.00"
+        ],
+        "freshOriginalTextAndPixelsReviewed": true,
+        "status": "fresh-original-reviewed-supporting-results-restored",
+        "reviewAudit": "archive/newyear2021-tanuke-context-numbermaniac5932-troy5888-original-review-20261010.json",
+        "videoObserved": false,
+        "lapSplitsVisible": false
+      },
+      "reviewAudit": "archive/newyear2021-tanuke-context-numbermaniac5932-troy5888-original-review-20261010.json"
     },
     {
       "messageId": "793748452319428619",
