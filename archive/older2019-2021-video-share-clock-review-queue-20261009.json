@@ -401,7 +401,9 @@
           "originalVideoPostedAt": "2021-02-20T00:08:08Z"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "later-video-repost-clock-reviewed-original-clock-pending",
+      "reviewAudit": "archive/peachdaisy2021-spart-video-clock-and-two-later-reposts-20261009.json",
+      "videoRepostAt": "2021-12-04T08:31:38.076Z"
     },
     {
       "courseId": "n64-choco-mountain-r",
@@ -1919,7 +1921,9 @@
           "kind": "live-reviewed-later-reference-to-existing-verified-video"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "later-video-repost-clock-reviewed-original-clock-pending",
+      "reviewAudit": "archive/peachdaisy2021-spart-video-clock-and-two-later-reposts-20261009.json",
+      "videoRepostAt": "2021-10-06T13:16:56.074Z"
     },
     {
       "courseId": "gba-sunset-wilds-r",
@@ -1937,7 +1941,9 @@
           "kind": "later-standings-corroboration"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/peachdaisy2021-spart-video-clock-and-two-later-reposts-20261009.json",
+      "videoSharedAt": "2021-02-21T19:24:00.561Z"
     },
     {
       "courseId": "3ds-toad-circuit",
@@ -2221,8 +2227,8 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 51,
-    "later-video-repost-clock-reviewed-original-clock-pending": 6,
+    "original-video-share-clock-reviewed": 52,
+    "later-video-repost-clock-reviewed-original-clock-pending": 8,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
@@ -2231,7 +2237,7 @@
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 31
+    "pending": 28
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
