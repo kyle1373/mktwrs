@@ -1190,7 +1190,9 @@
           "kind": "same-author-full-video-follow-up"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/april2021-mariocircuit-two-original-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-04-13T21:28:13.902Z"
     },
     {
       "courseId": "3ds-mario-circuit-r",
@@ -1207,7 +1209,9 @@
           "publishedAt": "2021-04-15T00:55:45.728Z"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "original-video-share-clock-reviewed",
+      "reviewAudit": "archive/april2021-mariocircuit-two-original-video-share-clocks-20261009.json",
+      "videoSharedAt": "2021-04-15T00:55:45.728Z"
     },
     {
       "courseId": "3ds-mario-circuit-r",
@@ -1224,7 +1228,10 @@
           "kind": "same-author-full-video"
         }
       ],
-      "reviewStatus": "pending-original-message-clock-review"
+      "reviewStatus": "edited-original-video-message-clock-bounded-exact-share-pending",
+      "reviewAudit": "archive/april2021-spart-edited-original-video-clock-bounds-20261009.json",
+      "messageCreatedAt": "2021-04-16T11:52:37.016Z",
+      "messageEditedAt": "2021-04-16T11:57:48.097Z"
     },
     {
       "courseId": "3ds-mario-circuit-r",
@@ -2240,18 +2247,18 @@
   ],
   "counts": {
     "social-reference-reviewed-footage-unverified": 1,
-    "original-video-share-clock-reviewed": 56,
+    "original-video-share-clock-reviewed": 58,
     "later-video-repost-clock-reviewed-original-clock-pending": 9,
     "alternate-video-source-clock-reviewed-primary-source-clock-pending": 1,
     "screenshot-and-lap-context-reviewed-youtube-clock-pending": 1,
     "reported-time-context-reviewed-original-video-clock-pending": 1,
     "reddit-reference-reviewed-original-social-clock-pending": 1,
+    "edited-original-video-message-clock-bounded-exact-share-pending": 2,
     "section-time-context-reviewed-youtube-clock-pending": 1,
-    "edited-original-video-message-clock-bounded-exact-share-pending": 1,
     "standings-image-context-reviewed-video-clock-pending": 2,
     "lap-image-context-reviewed-video-clock-pending": 1,
     "social-repost-clock-reviewed-youtube-clock-pending": 1,
-    "pending": 22
+    "pending": 19
   },
   "limitations": [
     "Locator may reference screenshot, laps, later repost or unrelated context: original video URL must be matched before assigning clock.",
