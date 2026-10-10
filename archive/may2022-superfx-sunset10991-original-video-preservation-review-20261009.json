@@ -1,0 +1,114 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "canonicalId": "979993731845464074",
+  "sourceVideoMessageId": "979995475249872926",
+  "videoSharedAt": "2022-05-28T06:32:08.735Z",
+  "captionMessageId": "979995506447118347",
+  "captionPostedAt": "2022-05-28T06:32:16.173Z",
+  "caption": "1:09.91 video",
+  "preservation": {
+    "path": "public/assets/video/superfx-sunset-wilds-10991-20220528.mov",
+    "sha256": "4584e29aafc54c8c8554e7020e62256e1dc905841884e0cf2dc0e1845e1dc1cb",
+    "bytes": 38876891,
+    "durationSeconds": 90.041667,
+    "kind": "original-discord-recording"
+  },
+  "frames": [
+    {
+      "path": "archive/may2022-superfx-10991-review-frames/finish-78.png",
+      "sha256": "a6d3d11aa87eba9b91605ca3ee5de2de737650641a17c0cbb78a814566fc10f5"
+    },
+    {
+      "path": "archive/may2022-superfx-10991-review-frames/lap-43.png",
+      "sha256": "81d26e9e9293b27d19e7e55eb6c4460a73911e7182d205f7451aaa271e8e7431"
+    },
+    {
+      "path": "archive/may2022-superfx-10991-review-frames/result-86.png",
+      "sha256": "cd81b0d15e58676ea1b41b5709d224a64409f3a3f212ac7687b8abd1731895fc"
+    },
+    {
+      "path": "archive/may2022-superfx-10991-review-frames/start-3.png",
+      "sha256": "fa3bb819fa18a4c151dec4a64b7257ba9ae0f483f51f7e083934f23add659f12"
+    }
+  ],
+  "observations": [
+    {
+      "atSeconds": 3,
+      "observation": "Starting grid, Go for your best time!, Sunset Wilds course sunset scenery."
+    },
+    {
+      "atSeconds": 43,
+      "observation": "Frozen first-lap timer0:34.98 with2/2 lap transition; one mushroom remaining,zero coins."
+    },
+    {
+      "atSeconds": 78,
+      "observation": "CLEARED and frozen1:09.91,lap2/2,zero coins,nighttime Sunset Wilds scenery."
+    },
+    {
+      "atSeconds": 86,
+      "observation": "New Record1:09.91,Previous Best1:09.96,targets1:54/1:44/1:34,zero coins."
+    }
+  ],
+  "lap2": {
+    "value": "34.93",
+    "basis": "69.91 minus34.98; matches existing reported splits."
+  },
+  "previousBest": {
+    "time": "1:09.96",
+    "dateUnknown": true,
+    "separateRunPublished": false
+  },
+  "decodeCheck": {
+    "exitCode": 0,
+    "codecErrorsObserved": false,
+    "nullMuxerWarnings": "Non-monotonically increasing DTS warnings at periodic duplicated timestamps; original bytes retained unchanged."
+  },
+  "validation": [
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "HEAD",
+      "matchedRows": 1,
+      "onlyVideoEvidenceChanged": true
+    },
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "worktree",
+      "matchedRows": 1,
+      "onlyVideoEvidenceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "HEAD",
+      "matchedRows": 4,
+      "onlyVideoEvidenceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "worktree",
+      "matchedRows": 4,
+      "onlyVideoEvidenceChanged": true
+    },
+    {
+      "path": "public/data/courses/gba-sunset-wilds.json",
+      "representation": "HEAD",
+      "matchedRows": 4,
+      "onlyVideoEvidenceChanged": true
+    },
+    {
+      "path": "public/data/courses/gba-sunset-wilds.json",
+      "representation": "worktree",
+      "matchedRows": 4,
+      "onlyVideoEvidenceChanged": true
+    }
+  ],
+  "limitations": [
+    "Selected start,lap,finish,result frames reviewed; no claim of continuous full playback or frame-perfect integrity certification.",
+    "Phone clock not treated as submission or race completion timestamp.",
+    "Original screenshot submission2022-05-28T06:25:13.075Z retained; later video share does not create another WR reign.",
+    "Previous1:09.96 is an undated lead, not a dated record.",
+    "Aggron and Timaël text reports remain unproved.",
+    "Full archive remains incomplete."
+  ]
+}
