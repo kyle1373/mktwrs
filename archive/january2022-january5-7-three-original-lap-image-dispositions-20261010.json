@@ -1,0 +1,103 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "tourId": "tour-60",
+  "rows": [
+    {
+      "messageId": "928302314408788019",
+      "postedAt": "2022-01-05T15:01:58.778Z",
+      "currentAuthor": "Wins",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928302314408788019",
+      "attachmentPath": "928302313301479434/IMG_4145.png",
+      "priorReviewAudit": "archive/january2022-january5-three-bounce-failure-tree-original-context-review-20261010.json",
+      "sourceTextAndClockReviewed": true,
+      "freshVisualReview": true,
+      "reviewMethod": "Original image enlarged in logged-in Discord Media Viewer; rendered pixels examined.",
+      "courseId": "snes-vanilla-lake-1",
+      "firstLapTime": "16.77",
+      "visibleRaceClock": "0:16.77",
+      "fullRaceTime": null,
+      "completedRaceProved": false,
+      "originalVideoObserved": false,
+      "resultProofUnresolved": false,
+      "disposition": "original-first-lap-snapshot-reviewed-no-full-race-result",
+      "visualNotes": "Shy Guy; 2/2 lap transition banner and bottom lap indicator; one mushroom remains. Snow and ice course matches Vanilla Lake 1 availability and Shy Guy driver. Device clock 15:59 is not the submission time."
+    },
+    {
+      "messageId": "928304436370100245",
+      "postedAt": "2022-01-05T15:10:24.693Z",
+      "currentAuthor": "Wins",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/928304436370100245",
+      "attachmentPath": "928304435988414524/IMG_4147.png",
+      "priorReviewAudit": "archive/january2022-january5-three-bounce-failure-tree-original-context-review-20261010.json",
+      "sourceTextAndClockReviewed": true,
+      "freshVisualReview": true,
+      "reviewMethod": "Original image enlarged in logged-in Discord Media Viewer; rendered pixels examined.",
+      "courseId": null,
+      "firstLapTime": null,
+      "visibleRaceClock": "0:16.77",
+      "fullRaceTime": null,
+      "completedRaceProved": false,
+      "originalVideoObserved": false,
+      "resultProofUnresolved": false,
+      "disposition": "failed-attempt-cropped-clock-reviewed-no-full-race-result",
+      "visualNotes": "Crop shows race clock 0:16.77 and device clock 16:08 only. Caption Fail #2; no course, lap count, driver or finish visible. Do not infer same run as earlier image."
+    },
+    {
+      "messageId": "929097757359218689",
+      "postedAt": "2022-01-07T19:42:47.156Z",
+      "currentAuthor": "Sucha",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/929097757359218689",
+      "attachmentPath": "929097756121894941/IMG_5709.png",
+      "priorReviewAudit": "archive/january2022-january7-10-six-original-shroomless-dream-lap-context-review-20261010.json",
+      "sourceTextAndClockReviewed": true,
+      "freshVisualReview": true,
+      "reviewMethod": "Original image enlarged in logged-in Discord Media Viewer; rendered pixels examined.",
+      "courseId": "3ds-cheep-cheep-lagoon-r",
+      "firstLapTime": "39.59",
+      "visibleRaceClock": "0:39.59",
+      "fullRaceTime": null,
+      "completedRaceProved": false,
+      "originalVideoObserved": false,
+      "resultProofUnresolved": false,
+      "disposition": "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result",
+      "visualNotes": "Yoshi; 2/2 lap transition banner and bottom lap indicator; both mushrooms remain. Beach route and Yoshi match Cheep Cheep Lagoon R. Phillish says forgot shroom and Sucha replies NI; no completed race result visible."
+    }
+  ],
+  "coverage": {
+    "freshOriginalImagesReviewed": 3,
+    "completedRaceResults": 0,
+    "recordProgressionChanges": 0
+  },
+  "sourceAvailabilityCrosscheck": [
+    {
+      "path": "public/data/courses/snes-vanilla-lake-1.json",
+      "sha256": "3e407c0202aa93cbb128aa939dd683c9f639251c66fd63e87b7c961d859be3d4",
+      "appearance": {
+        "tourId": "tour-60",
+        "cup": "Cat Peach Cup",
+        "startDate": "2021-12-29",
+        "endDate": "2022-01-12",
+        "source": "https://www.mariowiki.com/Time_Trial_(Mario_Kart_Tour)"
+      }
+    },
+    {
+      "path": "public/data/courses/3ds-cheep-cheep-lagoon-r.json",
+      "sha256": "533a24d31536c07b37f1eb9c8a306fd60478df888624d20f5f8ac9ef200c1690",
+      "appearance": {
+        "tourId": "tour-60",
+        "cup": "Monty Mole Cup",
+        "startDate": "2021-12-29",
+        "endDate": "2022-01-12",
+        "source": "https://www.mariowiki.com/Time_Trial_(Mario_Kart_Tour)"
+      }
+    }
+  ],
+  "limitations": [
+    "These are lap-transition or cropped-clock screenshots, not full-race recordings, finish screens or accepted WR announcements. No race total inferred by doubling a lap.",
+    "Course attribution for the cropped Fail #2 image remains null. Neighboring post and equal visible timer do not establish same run identity.",
+    "No race achievement timestamp inferred from device clock. Original post times retain exact UTC milliseconds.",
+    "Three image candidates resolved within an existing bounded discussion census. Other tour images, footage, source coverage and live publication remain incomplete."
+  ]
+}

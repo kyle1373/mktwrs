@@ -35,10 +35,10 @@
     "messagesWithAttachmentOrShorthand": 626,
     "newCandidates": 199,
     "candidateStatusCounts": {
-      "image-result-context-and-fresh-visual-review-pending": 1,
-      "explicit-failed-attempt-caption-image-review-pending": 1,
+      "original-first-lap-snapshot-reviewed-no-full-race-result": 1,
+      "failed-attempt-cropped-clock-reviewed-no-full-race-result": 1,
       "clip-source-caption-reviewed-footage-course-time-pending": 1,
-      "original-image-caption-and-shroom-reply-reviewed-time-course-proof-pending": 1,
+      "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result": 1,
       "original-image-post-and-shroomless-context-reviewed-time-course-proof-pending": 1,
       "explicit-dream-context-reviewed-not-real-result-evidence": 1,
       "original-image-caption-and-shroomless-context-reviewed-time-course-proof-pending": 1,
@@ -174,9 +174,9 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/928302313301479434/IMG_4145.png?ex=6ac3bbe6&is=6ac26a66&hm=426f220e52d278f7172bdd0de50ac6079409db62113c64c614bbad4cedb7fd38&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "image-result-context-and-fresh-visual-review-pending",
+      "reviewStatus": "original-first-lap-snapshot-reviewed-no-full-race-result",
       "candidateIsProvedResult": false,
-      "reviewAudit": "archive/january2022-january5-three-bounce-failure-tree-original-context-review-20261010.json",
+      "reviewAudit": "archive/january2022-january5-7-three-original-lap-image-dispositions-20261010.json",
       "originalSourceReview": {
         "messageId": "928302314408788019",
         "postedAt": "2022-01-05T15:01:58.778Z",
@@ -185,12 +185,19 @@
         "writtenCaption": "after 6 minutes of playing with bounce",
         "attachmentPath": "928302313301479434/IMG_4145.png",
         "sourceTextAndClockReviewed": true,
-        "freshVisualReview": false,
-        "courseId": null,
+        "freshVisualReview": true,
+        "courseId": "snes-vanilla-lake-1",
         "fullRaceTime": null,
-        "resultProofUnresolved": true,
-        "disposition": "image-result-context-and-fresh-visual-review-pending"
-      }
+        "resultProofUnresolved": false,
+        "disposition": "original-first-lap-snapshot-reviewed-no-full-race-result",
+        "reviewMethod": "Original image enlarged in logged-in Discord Media Viewer; rendered pixels examined.",
+        "firstLapTime": "16.77",
+        "visibleRaceClock": "0:16.77",
+        "completedRaceProved": false,
+        "originalVideoObserved": false,
+        "visualNotes": "Shy Guy; 2/2 lap transition banner and bottom lap indicator; one mushroom remains. Snow and ice course matches Vanilla Lake 1 availability and Shy Guy driver. Device clock 15:59 is not the submission time."
+      },
+      "visualReviewAudit": "archive/january2022-january5-7-three-original-lap-image-dispositions-20261010.json"
     },
     {
       "messageId": "928304436370100245",
@@ -201,9 +208,9 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/928304435988414524/IMG_4147.png?ex=6ac3bde0&is=6ac26c60&hm=1faa6660b697addb46d4331008c4874da30e1422757f6ae88d091c479cd586af&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "explicit-failed-attempt-caption-image-review-pending",
+      "reviewStatus": "failed-attempt-cropped-clock-reviewed-no-full-race-result",
       "candidateIsProvedResult": false,
-      "reviewAudit": "archive/january2022-january5-three-bounce-failure-tree-original-context-review-20261010.json",
+      "reviewAudit": "archive/january2022-january5-7-three-original-lap-image-dispositions-20261010.json",
       "originalSourceReview": {
         "messageId": "928304436370100245",
         "postedAt": "2022-01-05T15:10:24.693Z",
@@ -212,12 +219,19 @@
         "writtenCaption": "Fail #2",
         "attachmentPath": "928304435988414524/IMG_4147.png",
         "sourceTextAndClockReviewed": true,
-        "freshVisualReview": false,
+        "freshVisualReview": true,
         "courseId": null,
         "fullRaceTime": null,
-        "resultProofUnresolved": true,
-        "disposition": "explicit-failed-attempt-caption-image-review-pending"
-      }
+        "resultProofUnresolved": false,
+        "disposition": "failed-attempt-cropped-clock-reviewed-no-full-race-result",
+        "reviewMethod": "Original image enlarged in logged-in Discord Media Viewer; rendered pixels examined.",
+        "firstLapTime": null,
+        "visibleRaceClock": "0:16.77",
+        "completedRaceProved": false,
+        "originalVideoObserved": false,
+        "visualNotes": "Crop shows race clock 0:16.77 and device clock 16:08 only. Caption Fail #2; no course, lap count, driver or finish visible. Do not infer same run as earlier image."
+      },
+      "visualReviewAudit": "archive/january2022-january5-7-three-original-lap-image-dispositions-20261010.json"
     },
     {
       "messageId": "928307592864870450",
@@ -256,9 +270,9 @@
         "https://media.discordapp.net/attachments/636461740162416640/929097756121894941/IMG_5709.png?ex=6ac3fdb6&is=6ac2ac36&hm=9a5abcfbde52ff79476d8586cbfaaafe562dc3dbc8cb7c5fff4636e16df6d053&=&format=webp&quality=lossless&width=296&height=640"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "original-image-caption-and-shroom-reply-reviewed-time-course-proof-pending",
+      "reviewStatus": "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result",
       "candidateIsProvedResult": false,
-      "reviewAudit": "archive/january2022-january7-10-six-original-shroomless-dream-lap-context-review-20261010.json",
+      "reviewAudit": "archive/january2022-january5-7-three-original-lap-image-dispositions-20261010.json",
       "originalSourceReview": {
         "messageId": "929097757359218689",
         "postedAt": "2022-01-07T19:42:47.156Z",
@@ -267,12 +281,19 @@
         "writtenCaption": "10min.",
         "attachmentPath": "929097756121894941/IMG_5709.png",
         "sourceTextAndClockReviewed": true,
-        "freshVisualReview": false,
-        "courseId": null,
+        "freshVisualReview": true,
+        "courseId": "3ds-cheep-cheep-lagoon-r",
         "fullRaceTime": null,
-        "resultProofUnresolved": true,
-        "disposition": "original-image-caption-and-shroom-reply-reviewed-time-course-proof-pending"
-      }
+        "resultProofUnresolved": false,
+        "disposition": "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result",
+        "reviewMethod": "Original image enlarged in logged-in Discord Media Viewer; rendered pixels examined.",
+        "firstLapTime": "39.59",
+        "visibleRaceClock": "0:39.59",
+        "completedRaceProved": false,
+        "originalVideoObserved": false,
+        "visualNotes": "Yoshi; 2/2 lap transition banner and bottom lap indicator; both mushrooms remain. Beach route and Yoshi match Cheep Cheep Lagoon R. Phillish says forgot shroom and Sucha replies NI; no completed race result visible."
+      },
+      "visualReviewAudit": "archive/january2022-january5-7-three-original-lap-image-dispositions-20261010.json"
     },
     {
       "messageId": "930026795271610408",
