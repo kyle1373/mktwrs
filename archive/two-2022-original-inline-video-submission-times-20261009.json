@@ -1,0 +1,96 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sources": [
+    {
+      "courseId": "snes-ghost-valley-1r",
+      "time": "0:40.36",
+      "laps": [
+        "20.29",
+        "20.07"
+      ],
+      "player": "kNo2",
+      "playerId": "kno2",
+      "video": "https://youtu.be/56geub5VTko",
+      "mid": "1001724367350288455",
+      "date": "2022-07-27T05:35:00.315Z",
+      "botMid": "1001724469972312104",
+      "botDate": "2022-07-27T05:35:24.782Z",
+      "text": "!submit gv1r 20.29/20.07 https://youtu.be/56geub5VTko"
+    },
+    {
+      "courseId": "snes-choco-island-2r",
+      "time": "0:48.53",
+      "laps": [
+        "24.26",
+        "24.27"
+      ],
+      "player": "newyork",
+      "playerId": "newyork",
+      "video": "https://youtu.be/-ejmYJglUX4",
+      "mid": "1013801052497248276",
+      "date": "2022-08-29T13:23:26.428Z",
+      "botMid": "1013801053524873227",
+      "botDate": "2022-08-29T13:23:26.673Z",
+      "text": "!submit ci2r 24.26/24.27 https://youtu.be/-ejmYJglUX4"
+    }
+  ],
+  "liveReview": "Own human command and accepted bot receipt creation timestamps read in live Discord search results; edit clocks excluded.",
+  "validation": [
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "HEAD",
+      "rows": 2,
+      "onlyVideoSubmissionProvenanceChanged": true
+    },
+    {
+      "path": "archive/curated-runs.json",
+      "representation": "worktree",
+      "rows": 2,
+      "onlyVideoSubmissionProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "HEAD",
+      "rows": 10,
+      "onlyVideoSubmissionProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "worktree",
+      "rows": 10,
+      "onlyVideoSubmissionProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/snes-ghost-valley-1r.json",
+      "representation": "HEAD",
+      "rows": 6,
+      "onlyVideoSubmissionProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/snes-ghost-valley-1r.json",
+      "representation": "worktree",
+      "rows": 6,
+      "onlyVideoSubmissionProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/snes-choco-island-2r.json",
+      "representation": "HEAD",
+      "rows": 4,
+      "onlyVideoSubmissionProvenanceChanged": true
+    },
+    {
+      "path": "public/data/courses/snes-choco-island-2r.json",
+      "representation": "worktree",
+      "rows": 4,
+      "onlyVideoSubmissionProvenanceChanged": true
+    }
+  ],
+  "limitations": [
+    "Title and submission association do not establish complete-footage verification.",
+    "Video submission is not YouTube upload or race achievement time.",
+    "kNo2 is Ghost Valley driver; prior commentary naming NHSpeedy was incorrect.",
+    "Full chronology and source coverage remain incomplete."
+  ]
+}
