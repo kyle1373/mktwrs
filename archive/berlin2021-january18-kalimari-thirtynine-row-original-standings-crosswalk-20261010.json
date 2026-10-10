@@ -1004,7 +1004,7 @@
         "freshLocalVisualReview": true
       },
       "candidateProfileId": "player-e38199e38184e3819df09f90ba",
-      "profileAssignmentFreshlyVerified": false,
+      "profileAssignmentFreshlyVerified": true,
       "profileAndTotalCandidates": [
         {
           "id": "sheet-LC17",
@@ -1068,7 +1068,7 @@
           "submittedAt": null
         }
       ],
-      "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+      "reviewStatus": "matched-exact-original-result-runner-and-total-null-splits",
       "latestOriginalSourceReview": "archive/berlin2021-kalimari-four-exact-results-and-two-alias-source-reviews-20261010.json",
       "aliasReconciliation": {
         "displayedRank": 14,
@@ -1081,8 +1081,33 @@
         "freshOriginalDiscordTextReview": true,
         "freshOriginalTimestampReview": true,
         "freshLocalProofImageReview": true,
-        "reviewStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
-        "decision": "Current author Sucha supports displayed Sucha, but existing archived account profile is すいそ🐺 and prior note explicitly holds cross-player alias equivalence. Total 1:03.98 freshly read from preserved proof image; null laps retained. Obtain account/alias mapping before assignment."
+        "reviewStatus": "resolved-exact-original-account-and-explicit-profile-alias",
+        "decision": "Current author Sucha supports displayed Sucha, but existing archived account profile is すいそ🐺 and prior note explicitly holds cross-player alias equivalence. Total 1:03.98 freshly read from preserved proof image; null laps retained. Obtain account/alias mapping before assignment.",
+        "priorStatus": "original-source-reviewed-runner-alias-reconciliation-pending",
+        "resolvedBy": "archive/berlin2021-sucha-original-account-and-profile-alias-reconciliation-20261010.json"
+      },
+      "acceptedExistingId": "800567995670986812-january2021-support-reviewed",
+      "originalSourceReconciliationAudit": "archive/berlin2021-sucha-original-account-and-profile-alias-reconciliation-20261010.json",
+      "originalSubmittedAt": "2021-01-18T03:31:24.002Z",
+      "identityReconciliation": {
+        "kind": "exact-original-visible-avatar-account-and-explicit-profile-alias",
+        "originalMessageId": "800567995670986812",
+        "originalAuthorDisplay": "Sucha",
+        "originalAvatarUrl": "https://cdn.discordapp.com/avatars/711825990283952149/f721a2afad6749a7a663c6b26c68d912.webp?size=160",
+        "accountId": "711825990283952149",
+        "profileId": "player-e38199e38184e3819df09f90ba",
+        "profileName": "すいそ🐺",
+        "profileAliases": [
+          "Sucha",
+          "すいそ"
+        ],
+        "profileSource": {
+          "channel": "world-champions-profiles",
+          "messageId": "1554638067447505007"
+        },
+        "originalSubmittedAt": "2021-01-18T03:31:24.002Z",
+        "freshOriginalDiscordTextAndAvatarReview": true,
+        "reviewAudit": "archive/berlin2021-sucha-original-account-and-profile-alias-reconciliation-20261010.json"
       }
     },
     {
@@ -2712,9 +2737,9 @@
   "coverage": {
     "visuallyReadRows": 39,
     "rowsWithProfileAndTotalCandidates": 34,
-    "originalSourceReconciliationPending": 9,
-    "exactOriginalResultsReconciled": 30,
-    "aliasSourceReviewsWithIdentityStillPending": 2
+    "originalSourceReconciliationPending": 8,
+    "exactOriginalResultsReconciled": 31,
+    "aliasSourceReviewsWithIdentityStillPending": 1
   },
   "decision": "Replace leader-only scope with full row transcription and exact public candidate crosswalk. Candidate profiles remain review leads; no identity merges or new results published.",
   "limitations": [
