@@ -2398,10 +2398,16 @@
       "messageId": "799658823785775114",
       "postedAt": "2021-01-15T15:18:40.533Z",
       "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/799658823785775114",
-      "freshOriginalReview": false,
-      "reviewStatus": "original-attachment-content-review-pending",
+      "freshOriginalReview": true,
+      "reviewStatus": "reviewed-context-no-new-completed-result",
       "censusCaption": "Phillish\n — \n1/15/21, 7:18 AM\nFriday, January 15, 2021 at 7:18 AM\nI didnt forget, I just didnt do it ",
-      "nextRequiredEvidence": "Read original attachment and classify result versus context before publication."
+      "reviewAudit": "archive/berlin2021-january15-administrative-reminder-and-kazuo-omitted-submission-review-20261010.json",
+      "priorReview": "archive/january2021-full-census-extra-image-review-20261005.json",
+      "classification": "administrative-message-screenshot",
+      "finding": "Administrative reminder about leaderboard updates, split times and resubmission. No completed race time or video link appears in this attachment. Earlier classification was missed by the bounded crosswalk.",
+      "attachmentId": "799658823630979092",
+      "preservedImage": "archive/winter2020-attachments/799658823630979092.png",
+      "preservedImageSHA256": "47aec34d4bb2ef4549c5227c66fed2be199cd640e59f21cf3ede949a97cfab4d"
     },
     {
       "messageId": "799403688766341200",
@@ -2458,15 +2464,15 @@
     "prior-reviewed-partial-video-no-completed-result": 3,
     "prior-reviewed-context-no-new-completed-result": 8,
     "standings-content-reconciliation-pending": 2,
-    "original-attachment-content-review-pending": 1,
+    "reviewed-context-no-new-completed-result": 1,
     "curated-result-profile-alias-assignment-pending": 1
   },
   "limitations": [
     "Bounded saved attachment-post census only; does not certify live source capture completeness, text-only messages, other channels, final standings, or whole tour history.",
     "Both primary source and additional/video-share source links compared in public records and submissions. Linked source presence is not proof of full content reconciliation or correct runner/date.",
-    "Prior original content dispositions carried with exact audit citations; no fresh image/video playback in this crosswalk.",
+    "Prior original content dispositions carried with exact audit citations; fresh January15 administrative image review recorded separately; other carried media are not freshly recertified.",
     "Two standings images remain pending row reconciliation; placeholder times and contradictory splits must not become completed results.",
-    "Censored lxnxr result and Lélé profile assignment remain open. Unclassified attachment 799658823785775114 requires original content review.",
+    "Censored lxnxr result and Lélé profile assignment remain open. January15 administrative attachment classified with original context; its Kazuo submission was already present in public history.",
     "No public race data, dates, runner mappings or footage choices modified. Archive remains incomplete."
   ]
 }

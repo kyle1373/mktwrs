@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-06",
+  "checkedAt": "2026-10-10",
   "historyComplete": false,
   "userRequestedMethod": "Review each tour in chronological order; identify incomplete courses and resolve evidence before claiming completion.",
-  "currentTourId": "tour-6",
-  "currentTour": "London Tour",
+  "currentTourId": "tour-35",
+  "currentTour": "Berlin Tour",
   "orderRule": "Stay with the current tour while meaningful source work remains. Record unavailable originals and specific unresolved questions; review of a later tour never certifies earlier tours.",
   "completionRequirements": [
     "TTcourseavailabilityandtourexactUTCboundariesverified.",
@@ -12,7 +12,9 @@
     "Truerecordexchangesreconciledagainstcompetingtimes,includingpreviousbestandtextleads.",
     "Player,datebasis,laps,total,originalvideoandpreservedproofmappedwithoutinventedidentityordate.",
     "Publishedcoursehistoryanddurationverifiedagainstevidence.",
-    "Remainingquestionsresolvedorclearlydocumentedasunrecoverableaftercoverageverification."
+    "Remainingquestionsresolvedorclearlydocumentedasunrecoverableaftercoverageverification.",
+    "Preserve available original video links and original submission/share timestamps for each track result.",
+    "Verify the fastest documented completed full-race recording separately when it differs from the WR; partial clips and censored times do not establish this."
   ],
   "tourCount": 181,
   "tours": [
@@ -1222,7 +1224,8 @@
         "archive/berlin2021-access-player-jibacha-original-author-limitations-20261010.json",
         "archive/berlin2021-late-tour-seven-unlinked-attachment-message-dispositions-20261010.json",
         "archive/berlin2021-late-attachment-secondary-source-and-partial-clip-reconciliation-20261010.json",
-        "archive/berlin2021-full-bounded-attachment-primary-secondary-source-crosswalk-20261010.json"
+        "archive/berlin2021-full-bounded-attachment-primary-secondary-source-crosswalk-20261010.json",
+        "archive/berlin2021-january15-administrative-reminder-and-kazuo-omitted-submission-review-20261010.json"
       ],
       "remainingBeforeCompletion": [
         "Opening Kalimari1:04.01 previousbest andPhillish .25 report: exact achievement order and WRprecedence unresolved.",
@@ -1333,10 +1336,11 @@
           "prior-reviewed-partial-video-no-completed-result": 3,
           "prior-reviewed-context-no-new-completed-result": 8,
           "standings-content-reconciliation-pending": 2,
-          "original-attachment-content-review-pending": 1,
+          "reviewed-context-no-new-completed-result": 1,
           "curated-result-profile-alias-assignment-pending": 1
         },
-        "historyComplete": false
+        "historyComplete": false,
+        "latestContentReconciliation": "archive/berlin2021-january15-administrative-reminder-and-kazuo-omitted-submission-review-20261010.json"
       }
     },
     {
@@ -5842,5 +5846,10 @@
     "toursWithZeroDatedRowsInTheirWindow": 27,
     "historyComplete": false,
     "interpretation": "Prioritize individual source audits. Counts cannot certify history or imply records absent; carry-over and undated records require reconciliation."
-  }
+  },
+  "chronologicalResumeTourId": "tour-6",
+  "chronologicalResumeTour": "London Tour",
+  "currentReviewScope": "Bounded Berlin January2021 original-source reconciliation; separate from the chronological resume position. No earlier tour is certified by this investigation.",
+  "certifiedThrough": null,
+  "progressTrackingReview": "archive/berlin2021-january15-administrative-reminder-and-kazuo-omitted-submission-review-20261010.json"
 }
