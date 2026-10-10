@@ -1,0 +1,121 @@
+{
+  "reviewedAt": "2026-10-09",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "acceptedSubmissions": [
+    {
+      "messageId": "946240120116363315",
+      "publicId": "discord-946240345149173810",
+      "playerId": "kmello",
+      "player": "Kmello",
+      "time": "1:01.99",
+      "submittedAt": "2022-02-24T03:00:24.927Z",
+      "attachmentId": "946240119436894208",
+      "receipt": {
+        "messageId": "946240345149173810",
+        "createdAt": "2022-02-24T03:01:18.579Z",
+        "lastEditedAt": "2022-02-24T03:02:06.144Z"
+      }
+    },
+    {
+      "messageId": "947019399850778625",
+      "publicId": "discord-947019429911355392",
+      "playerId": "bachigai",
+      "sourceAuthor": "Neutrino",
+      "player": "Bachigai",
+      "time": "1:01.82",
+      "submittedAt": "2022-02-26T06:36:59.694Z",
+      "attachmentId": "947019399099990056",
+      "accountId": "708195456437714968",
+      "receipt": {
+        "messageId": "947019429911355392",
+        "createdAt": "2022-02-26T06:37:06.861Z",
+        "lastEditedAt": "2022-02-26T06:37:20.539Z"
+      }
+    },
+    {
+      "messageId": "947044899369410601",
+      "publicId": "discord-947044962095206420",
+      "playerId": "phillish",
+      "player": "Phillish",
+      "time": "1:01.78",
+      "submittedAt": "2022-02-26T08:18:19.253Z",
+      "attachmentId": "947044898031435796",
+      "receipt": {
+        "messageId": "947044962095206420",
+        "createdAt": "2022-02-26T08:18:34.208Z",
+        "lastEditedAt": "2022-02-26T08:19:30.645Z"
+      }
+    }
+  ],
+  "testingContext": [
+    {
+      "messageId": "946237304354250782",
+      "postedAt": "2022-02-24T02:49:13.597Z",
+      "author": "Nick",
+      "text": "we're testing out the tt bot"
+    },
+    {
+      "messageId": "946238716559650816",
+      "postedAt": "2022-02-24T02:54:50.293Z",
+      "author": "Jimmy",
+      "text": "!submit rmxgv1r 1:01.99",
+      "attachmentPresent": false
+    },
+    {
+      "messageId": "946238273121046548",
+      "postedAt": "2022-02-24T02:53:04.569Z",
+      "botText": "Invalid character for the time argument: h",
+      "basis": "Earlier Kmello command omitted numeric time; failed command is not accepted result."
+    }
+  ],
+  "earlierKmelloOriginal": {
+    "canonicalId": "sky-2022-946045168505729034",
+    "submittedAt": "2022-02-23T14:05:44.999Z",
+    "basis": "Existing committed original result; earlier original timestamp unchanged."
+  },
+  "observedLeaderboard": {
+    "messageId": "947052968602132510",
+    "postedAt": "2022-02-26T08:50:23.108Z",
+    "entries": {
+      "spartacurtYT": "1:01.60",
+      "Phillish": "1:01.78",
+      "Bachigai": "1:01.82",
+      "Kmello": "1:01.99"
+    },
+    "dateBasis": "later leaderboard observation; not achievement or first submission time"
+  },
+  "validation": [
+    {
+      "path": "public/data/courses.json",
+      "representation": "HEAD",
+      "threeExactSourcesCorrected": true,
+      "onlySourceChannelAndReceiptMetadataChanged": true
+    },
+    {
+      "path": "public/data/courses.json",
+      "representation": "worktree",
+      "threeExactSourcesCorrected": true,
+      "onlySourceChannelAndReceiptMetadataChanged": true
+    },
+    {
+      "path": "public/data/courses/rmx-ghost-valley-1r.json",
+      "representation": "HEAD",
+      "threeExactSourcesCorrected": true,
+      "onlySourceChannelAndReceiptMetadataChanged": true
+    },
+    {
+      "path": "public/data/courses/rmx-ghost-valley-1r.json",
+      "representation": "worktree",
+      "threeExactSourcesCorrected": true,
+      "onlySourceChannelAndReceiptMetadataChanged": true
+    }
+  ],
+  "limitations": [
+    "Fresh screenshot visuals not reviewed; attachment and accepted receipt association verified from live rendered Discord.",
+    "Updated receipt state is current edited content; edit clock does not necessarily equal acceptance instant.",
+    "Same-time other players excluded by exact public ID and player.",
+    "No new WR, record, race date or lap values added.",
+    "Full archive remains incomplete."
+  ]
+}
