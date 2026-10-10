@@ -35,20 +35,22 @@
     "messagesWithAttachmentOrShorthand": 626,
     "newCandidates": 199,
     "candidateStatusCounts": {
-      "original-first-lap-snapshot-reviewed-no-full-race-result": 1,
+      "original-first-lap-snapshot-reviewed-no-full-race-result": 2,
       "failed-attempt-cropped-clock-reviewed-no-full-race-result": 1,
       "clip-source-caption-reviewed-footage-course-time-pending": 1,
-      "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result": 3,
+      "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result": 4,
       "explicit-dream-context-reviewed-not-real-result-evidence": 1,
       "original-cup-best-reviewed-personal-best-observation-no-wr-promotion": 1,
       "explicit-first-lap-caption-linked-original-video-share-footage-pending": 1,
-      "external-channel-image-repost-original-owner-time-course-pending": 9,
-      "image-only-original-time-course-visual-review-pending": 14,
+      "external-image-repost-current-viewer-and-original-cdn-unavailable": 1,
       "conditional-lap-threshold-guidance-not-exact-result": 1,
       "potential-time-discussion-not-proved-finished-run": 1,
       "quoted-boost-discussion-reply-own-post-clock-corrected": 1,
       "original-clip-reference-footage-course-finish-time-pending": 6,
       "drift-technique-question-not-run-result": 1,
+      "unrelated-discord-support-article-image-reviewed-no-race-result": 1,
+      "image-only-original-time-course-visual-review-pending": 11,
+      "external-channel-image-repost-original-owner-time-course-pending": 8,
       "approximate-target-caption-image-course-exact-time-pending": 1,
       "route-test-clip-reference-footage-course-finish-time-pending": 2,
       "time-reaction-caption-owner-course-lap-or-full-time-unresolved": 1,
@@ -472,9 +474,9 @@
         "https://cdn.discordapp.com/attachments/604712560398434306/930716543099240488/IMG_1005.jpg?ex=6ac3f293&is=6ac2a113&hm=5d86d0dcb4c05ac53859d63a24c758651eb1ee498e87f0a5f2e28e5551fba933&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "external-channel-image-repost-original-owner-time-course-pending",
+      "reviewStatus": "external-image-repost-current-viewer-and-original-cdn-unavailable",
       "candidateIsProvedResult": false,
-      "reviewAudit": "archive/january2022-january12-16-eight-original-context-quoted-clock-review-20261010.json",
+      "reviewAudit": "archive/january2022-january12-18-three-original-images-and-unavailable-repost-review-20261010.json",
       "originalSourceReview": {
         "messageId": "930716884276478002",
         "postedAt": "2022-01-12T06:56:37.095Z",
@@ -487,10 +489,16 @@
         "courseId": null,
         "fullRaceTime": null,
         "resultProofUnresolved": true,
-        "disposition": "external-channel-image-repost-original-owner-time-course-pending",
+        "disposition": "external-image-repost-current-viewer-and-original-cdn-unavailable",
         "attachmentOriginChannelId": "604712560398434306",
         "discussionPostIsOriginalAttachmentUpload": false,
-        "attachmentOwnerUnresolved": true
+        "attachmentOwnerUnresolved": true,
+        "priorReviewAudit": "archive/january2022-january12-16-eight-original-context-quoted-clock-review-20261010.json",
+        "firstLapTime": null,
+        "visibleMushroomsRemaining": null,
+        "completedRaceProved": false,
+        "originalVideoObserved": false,
+        "visualNotes": "Discord Media Viewer shows Image failed to load; matching rendered image natural width and height zero. Exact current signed original CDN link blocked by client. Content, owner, course and time remain unresolved."
       }
     },
     {
@@ -502,9 +510,9 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/930789048967106560/IMG_5919.png?ex=6ac38d5a&is=6ac23bda&hm=b1f17b0ad6667c631a03f40c9b8a078f68706413be10cf3bf10a753ca98877ef&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "image-only-original-time-course-visual-review-pending",
+      "reviewStatus": "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result",
       "candidateIsProvedResult": false,
-      "reviewAudit": "archive/january2022-january12-16-eight-original-context-quoted-clock-review-20261010.json",
+      "reviewAudit": "archive/january2022-january12-18-three-original-images-and-unavailable-repost-review-20261010.json",
       "originalSourceReview": {
         "messageId": "930789050435137566",
         "postedAt": "2022-01-12T11:43:22.848Z",
@@ -513,11 +521,17 @@
         "writtenCaption": null,
         "attachmentPath": "636461740162416640/930789048967106560/IMG_5919.png",
         "sourceTextAndClockReviewed": true,
-        "freshVisualReview": false,
-        "courseId": null,
+        "freshVisualReview": true,
+        "courseId": "ds-waluigi-pinball-r",
         "fullRaceTime": null,
-        "resultProofUnresolved": true,
-        "disposition": "image-only-original-time-course-visual-review-pending"
+        "resultProofUnresolved": false,
+        "disposition": "original-mushroom-free-first-lap-snapshot-reviewed-no-full-race-result",
+        "priorReviewAudit": "archive/january2022-january12-16-eight-original-context-quoted-clock-review-20261010.json",
+        "firstLapTime": "53.37",
+        "visibleMushroomsRemaining": 2,
+        "completedRaceProved": false,
+        "originalVideoObserved": false,
+        "visualNotes": "Wario on reverse Pinball route, 2/2 lap-transition banner, clock 0:53.37, both mushrooms available. Driver/route match Singapore Tour Waluigi Pinball R."
       }
     },
     {
@@ -559,9 +573,9 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/932310703778455613/IMG_6042.png?ex=6ac3d081&is=6ac27f01&hm=a7dbbb4c20b219d03053cecc1b7051928c9a8680d118616bba07a53ee9007452&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "image-only-original-time-course-visual-review-pending",
+      "reviewStatus": "original-first-lap-snapshot-reviewed-no-full-race-result",
       "candidateIsProvedResult": false,
-      "reviewAudit": "archive/january2022-january12-16-eight-original-context-quoted-clock-review-20261010.json",
+      "reviewAudit": "archive/january2022-january12-18-three-original-images-and-unavailable-repost-review-20261010.json",
       "originalSourceReview": {
         "messageId": "932310705250635936",
         "postedAt": "2022-01-16T16:29:53.627Z",
@@ -570,11 +584,17 @@
         "writtenCaption": null,
         "attachmentPath": "636461740162416640/932310703778455613/IMG_6042.png",
         "sourceTextAndClockReviewed": true,
-        "freshVisualReview": false,
-        "courseId": null,
+        "freshVisualReview": true,
+        "courseId": "singapore-speedway",
         "fullRaceTime": null,
-        "resultProofUnresolved": true,
-        "disposition": "image-only-original-time-course-visual-review-pending"
+        "resultProofUnresolved": false,
+        "disposition": "original-first-lap-snapshot-reviewed-no-full-race-result",
+        "priorReviewAudit": "archive/january2022-january12-16-eight-original-context-quoted-clock-review-20261010.json",
+        "firstLapTime": "35.29",
+        "visibleMushroomsRemaining": 1,
+        "completedRaceProved": false,
+        "originalVideoObserved": false,
+        "visualNotes": "Luigi on Singapore street at 2/2 lap-transition banner, clock 0:35.29; one mushroom remains. No finish or final total."
       }
     },
     {
@@ -706,9 +726,9 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/932981524284964905/IMG_6160.png?ex=6ac39e41&is=6ac24cc1&hm=fdc2ed723a505d3590edf881e870f3b73227a8c825916d395bfdec3a9fba5e87&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "image-only-original-time-course-visual-review-pending",
+      "reviewStatus": "unrelated-discord-support-article-image-reviewed-no-race-result",
       "candidateIsProvedResult": false,
-      "reviewAudit": "archive/january2022-january18-31-six-image-route-reaction-source-review-20261010.json",
+      "reviewAudit": "archive/january2022-january12-18-three-original-images-and-unavailable-repost-review-20261010.json",
       "originalSourceReview": {
         "messageId": "932981525333565450",
         "postedAt": "2022-01-18T12:55:29.598Z",
@@ -717,11 +737,17 @@
         "writtenCaption": null,
         "attachmentPath": "636461740162416640/932981524284964905/IMG_6160.png",
         "sourceTextAndClockReviewed": true,
-        "freshVisualReview": false,
+        "freshVisualReview": true,
         "courseId": null,
         "fullRaceTime": null,
-        "resultProofUnresolved": true,
-        "disposition": "image-only-original-time-course-visual-review-pending"
+        "resultProofUnresolved": false,
+        "disposition": "unrelated-discord-support-article-image-reviewed-no-race-result",
+        "priorReviewAudit": "archive/january2022-january18-31-six-image-route-reaction-source-review-20261010.json",
+        "firstLapTime": null,
+        "visibleMushroomsRemaining": null,
+        "completedRaceProved": false,
+        "originalVideoObserved": false,
+        "visualNotes": "Mobile screenshot of a Discord support article about a Nitro scam. No Mario Kart course, timing or run result. Article links not followed."
       }
     },
     {
