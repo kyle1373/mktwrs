@@ -1,0 +1,66 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceReviews": [
+    {
+      "messageId": "974432737425510400",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/974432737425510400",
+      "postedAt": "2022-05-12T22:07:48.687Z",
+      "displayedAuthor": "Chris95",
+      "attachmentId": "974432736494379008",
+      "attachmentFilename": "Screenshot_20220513-000639_Mario_Kart.jpg",
+      "writtenCaption": null,
+      "freshVisualReview": true,
+      "displayedTime": "1:20.86",
+      "displayedPreviousRecord": "1:20.94",
+      "coins": 2,
+      "courseLabelVisible": false,
+      "lapSplitsVisible": false,
+      "method": "Original Discord attachment expanded and visually inspected"
+    },
+    {
+      "messageId": "974722291810324530",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/974722291810324530",
+      "postedAt": "2022-05-13T17:18:23.832Z",
+      "displayedAuthor": "Kirio",
+      "capturedText": "tu fais !submit dhr 1:20.86",
+      "scope": "Submission instruction, not executed submission command or receipt"
+    },
+    {
+      "messageId": "974732439387766794",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/974732439387766794",
+      "postedAt": "2022-05-13T17:58:43.203Z",
+      "editedAt": "2022-05-13T17:58:52.928Z",
+      "displayedAuthor": "Chris95",
+      "capturedText": "Non en fait ils ont posté 1:21:86 au lieu de 1:20:86, genre je suis nul c'est sûrement :21",
+      "interpretation": "Chris95 explicitly reports that 1:21.86 was posted instead of 1:20.86"
+    }
+  ],
+  "reconciliation": {
+    "courseId": "3ds-daisy-hills-r",
+    "snapshotObservations": [
+      {
+        "messageId": "974393957238833222",
+        "time": "1:20.94"
+      },
+      {
+        "messageId": "974711511186559026",
+        "time": "1:21.86"
+      },
+      {
+        "messageId": "975018060631138364",
+        "time": "1:20.86"
+      }
+    ],
+    "mispostedTimeExplained": true,
+    "originalImageTotalVerified": true,
+    "acceptedReceiptObserved": false
+  },
+  "limitations": [
+    "Image confirms 1:20.86 and previous best1:20.94; no course name or lap splits are visible. Course association uses surrounding explicit dhr instruction and standings.",
+    "Chris95 correction explains May 13 misposted 1:21.86. All observed standings retained; no historical source silently rewritten.",
+    "No receipt observed for this image-only post. No canonical run creation, acceptance claim, race-completion date, sheet date fill or WR duration change. Previous best remains image observation; it does not date a separate original run.",
+    "No video link observed."
+  ]
+}
