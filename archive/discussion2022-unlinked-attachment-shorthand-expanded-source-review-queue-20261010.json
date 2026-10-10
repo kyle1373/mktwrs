@@ -45,7 +45,7 @@
       "original-image-shroom-versus-shroomless-caption-reviewed-time-course-proof-pending": 1,
       "explicit-first-lap-caption-linked-original-video-share-footage-pending": 1,
       "external-channel-image-repost-original-owner-time-course-pending": 3,
-      "image-only-original-time-course-visual-review-pending": 9,
+      "image-only-original-time-course-visual-review-pending": 10,
       "conditional-lap-threshold-guidance-not-exact-result": 1,
       "potential-time-discussion-not-proved-finished-run": 1,
       "quoted-boost-discussion-reply-own-post-clock-corrected": 1,
@@ -91,10 +91,17 @@
       "second-mushroom-placement-guidance-not-independent-run": 1,
       "explicit-best-first-lap-two-jump-claim-not-full-result": 1,
       "social-greeting-edit-clock-not-race-time": 1,
-      "pending-original-context-proof-and-chronology-review": 116
+      "quoted-social-reply-own-post-clock-corrected-no-result": 1,
+      "unshared-recording-claim-segment-comparison-not-proved-full-result": 1,
+      "redrift-technique-guidance-edit-clock-not-race-time": 1,
+      "lap-reaction-linked-leaderboard-not-new-run": 1,
+      "external-channel-image-repost-course-commentary-original-result-pending": 1,
+      "clip-reply-quoted-other-video-not-same-run-proof": 1,
+      "clip-inability-caption-source-reviewed-footage-time-course-pending": 1,
+      "pending-original-context-proof-and-chronology-review": 108
     },
-    "candidatesWithRecordedDisposition": 83,
-    "untouchedCandidates": 116
+    "candidatesWithRecordedDisposition": 91,
+    "untouchedCandidates": 108
   },
   "rows": [
     {
@@ -2707,7 +2714,7 @@
     },
     {
       "messageId": "972225043205591080",
-      "postedAt": "2022-05-06T19:52:43.906Z",
+      "postedAt": "2022-05-06T19:55:13.368Z",
       "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/972225043205591080",
       "capturedText": "@Tankian\nNice to see you here @Xobbias   (edited)\nFriday, May 6, 2022 at 12:52 PM\nXobbias\n — \n5/6/22, 12:55 PM\nFriday, May 6, 2022 at 12:55 PM\nNice to see you too buddy! I decided to give time trials a try. I need to improve my lines to get better in mogis ",
       "capturedAttachmentReferences": [],
@@ -2715,8 +2722,29 @@
         "12:55",
         "12:55"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "quoted-social-reply-own-post-clock-corrected-no-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "972225043205591080",
+        "postedAt": "2022-05-06T19:55:13.368Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/972225043205591080",
+        "currentAuthor": "Xobbias",
+        "writtenCaption": "Nice to see you too buddy! I decided to give time trials a try. I need to improve my lines to get better in mogis",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "quoted-social-reply-own-post-clock-corrected-no-result",
+        "censusCapturedPostedAt": "2022-05-06T19:52:43.906Z",
+        "quotedEditClock": "2022-05-06T19:52:43.906Z",
+        "clockCorrectionBasis": "Census first time is quoted Tankian edit; live own header time19:55:13.368Z.",
+        "independentRunClaim": false
+      },
+      "censusCapturedPostedAt": "2022-05-06T19:52:43.906Z",
+      "postedAtCorrectionBasis": "Census first time is quoted Tankian edit; live own header time19:55:13.368Z."
     },
     {
       "messageId": "974806055831896084",
@@ -2727,8 +2755,41 @@
       "shorthandTokens": [
         "40.06"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "unshared-recording-claim-segment-comparison-not-proved-full-result",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "974806055831896084",
+        "postedAt": "2022-05-13T22:51:14.731Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/974806055831896084",
+        "currentAuthor": "Wins",
+        "writtenCaption": "I have the video of the 40.06, and another video where I’m 0.05 faster in the first half of the track",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "unshared-recording-claim-segment-comparison-not-proved-full-result",
+        "reportedTimeToken": "40.06",
+        "recordingExistenceClaimOnly": true,
+        "noVideoUrlInPost": true,
+        "segmentOrFullTimeUnresolved": true,
+        "reportedFirstHalfDifference": "0.05",
+        "followingCommentary": [
+          {
+            "messageId": "974806125557989399",
+            "postedAt": "2022-05-13T22:51:31.355Z",
+            "caption": "Lap 2 is slightly faster than lap 1"
+          },
+          {
+            "messageId": "974806236908376094",
+            "postedAt": "2022-05-13T22:51:57.903Z",
+            "caption": "So 1:19 is possible, but like u said, too hard for me"
+          }
+        ],
+        "potentialTargetNotCompletedResult": true
+      }
     },
     {
       "messageId": "976900652091461733",
@@ -2739,8 +2800,29 @@
       "shorthandTokens": [
         "10:34"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "redrift-technique-guidance-edit-clock-not-race-time",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "976900652091461733",
+        "postedAt": "2022-05-19T17:34:25.395Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/976900652091461733",
+        "currentAuthor": null,
+        "writtenCaption": "If you dont use it, you will go slightly wide",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "redrift-technique-guidance-edit-clock-not-race-time",
+        "originalGroupedPostAuthorNotRepeated": true,
+        "censusDisplayedAuthor": "Wins",
+        "postEditedAt": "2022-05-19T17:34:39.670Z",
+        "shorthandTokenIsEditedClock": true,
+        "precedingTechniqueCaption": "I use it immediately after leaving a drift and starting a new drift; So you can redrift on a straighter or sharper line",
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "980007883431346206",
@@ -2751,8 +2833,36 @@
       "shorthandTokens": [
         "12:32"
       ],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "lap-reaction-linked-leaderboard-not-new-run",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "980007883431346206",
+        "postedAt": "2022-05-28T07:21:27.076Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/980007883431346206",
+        "currentAuthor": "SuperFX",
+        "writtenCaption": "Oh that is a really good lap 1 from wins",
+        "attachmentPath": null,
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "lap-reaction-linked-leaderboard-not-new-run",
+        "postEditedAt": "2022-05-28T07:32:57.324Z",
+        "shorthandTokenIsEditedClock": true,
+        "linkedLeaderboardMessageId": "980007801378209843",
+        "linkedLeaderboardPostedAt": "2022-05-28T07:21:07.513Z",
+        "leaderboardCourseName": "Koopa Troopa Beach R",
+        "leaderboardLeaderPlayer": "Wins",
+        "leaderboardLeaderTime": "1:15.11",
+        "leaderboardLeaderLaps": [
+          "37.26",
+          "37.85"
+        ],
+        "leaderboardNotOriginalRunDateProof": true,
+        "independentRunClaim": false
+      }
     },
     {
       "messageId": "981559627714002975",
@@ -2764,8 +2874,23 @@
         "https://media.discordapp.net/attachments/636461740162416640/981559625814003772/IMG_6317.png?ex=6ac3af23&is=6ac25da3&hm=79d8f26fa637b7edc4b5726fb1f407cbdcf0461bcf928fb24895cc3babf5b017&=&format=webp&quality=lossless&width=360&height=640"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "image-only-original-time-course-visual-review-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "981559627714002975",
+        "postedAt": "2022-06-01T14:07:31.743Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/981559627714002975",
+        "currentAuthor": "Phillish",
+        "writtenCaption": null,
+        "attachmentPath": "636461740162416640/981559625814003772/IMG_6317.png",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "image-only-original-time-course-visual-review-pending"
+      }
     },
     {
       "messageId": "981613039809884210",
@@ -2777,8 +2902,29 @@
         "https://media.discordapp.net/attachments/630496451491004475/981612731264274432/unknown-2.png?ex=6ac3e098&is=6ac28f18&hm=1a4139eb8dcc3148d632f1c9b4ba878a7f6b50da39a3703f842561a14c0023a9&=&format=webp&quality=lossless&width=768&height=436"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "external-channel-image-repost-course-commentary-original-result-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "981613039809884210",
+        "postedAt": "2022-06-01T17:39:46.179Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/981613039809884210",
+        "currentAuthor": "Ozokerite",
+        "writtenCaption": null,
+        "attachmentPath": "630496451491004475/981612731264274432/unknown-2.png",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "external-channel-image-repost-course-commentary-original-result-pending",
+        "followingCourseCommentMessageId": "981613055102292028",
+        "followingCourseCommentAt": "2022-06-01T17:39:49.825Z",
+        "followingCourseComment": "other TT Frappe R",
+        "originalAttachmentChannel": "630496451491004475",
+        "originalPostOwnerAndClockUnresolved": true,
+        "repostCaptionNotResultProof": true
+      }
     },
     {
       "messageId": "981904195936464896",
@@ -2789,8 +2935,30 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/981904194896273408/RPReplay_Final1654091087.mov?ex=6ac39e8a&is=6ac24d0a&hm=113fa1a050ff9943089913b15aa31201a75864591a8d77be829a59b49a8b9a2c&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "clip-reply-quoted-other-video-not-same-run-proof",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "981904195936464896",
+        "postedAt": "2022-06-02T12:56:43.209Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/981904195936464896",
+        "currentAuthor": "Wins",
+        "writtenCaption": null,
+        "attachmentPath": "636461740162416640/981904194896273408/RPReplay_Final1654091087.mov",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "clip-reply-quoted-other-video-not-same-run-proof",
+        "quotedAuthor": "saki7",
+        "quotedVideoUrl": "https://youtu.be/tGHvths86BQ",
+        "quotedVideoNotNecessarilyOwnClip": true,
+        "exactVideoMatchUnverified": true,
+        "originalClipSharedAt": "2022-06-02T12:56:43.209Z",
+        "videoAvailabilityUnverified": true,
+        "footageVisualReviewPending": true
+      }
     },
     {
       "messageId": "982145902187794492",
@@ -2801,8 +2969,33 @@
         "https://cdn.discordapp.com/attachments/636461740162416640/982145900849799209/RPReplay_Final1654221328.mov?ex=6ac3d6e6&is=6ac28566&hm=327c1de469f713bc8760e1e56df4dfd30a8aa20cbac0bd7447da72959f54070b&"
       ],
       "shorthandTokens": [],
-      "reviewStatus": "pending-original-context-proof-and-chronology-review",
-      "candidateIsProvedResult": false
+      "reviewStatus": "clip-inability-caption-source-reviewed-footage-time-course-pending",
+      "candidateIsProvedResult": false,
+      "reviewAudit": "archive/may2022-june3-eight-quoted-clock-video-claim-repost-source-review-20261010.json",
+      "originalSourceReview": {
+        "messageId": "982145902187794492",
+        "postedAt": "2022-06-03T04:57:10.470Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/982145902187794492",
+        "currentAuthor": "Sucha",
+        "writtenCaption": "僕には無理でした",
+        "attachmentPath": "636461740162416640/982145900849799209/RPReplay_Final1654221328.mov",
+        "sourceTextAndClockReviewed": true,
+        "freshVisualReview": false,
+        "courseId": null,
+        "fullRaceTime": null,
+        "resultProofUnresolved": true,
+        "disposition": "clip-inability-caption-source-reviewed-footage-time-course-pending",
+        "censusDisplayedAuthor": "やっぱ酒が薬　うっひょ～うっひょ～うっひょ～うっひょ～",
+        "currentDisplayNameChanged": true,
+        "captionTranslation": "It was impossible for me.",
+        "captionTranslationIsInterpretation": true,
+        "followingCommentMessageId": "982146046773846066",
+        "followingCommentAt": "2022-06-03T04:57:44.942Z",
+        "followingComment": "new sub 待機",
+        "originalClipSharedAt": "2022-06-03T04:57:10.470Z",
+        "videoAvailabilityUnverified": true,
+        "footageVisualReviewPending": true
+      }
     },
     {
       "messageId": "983289696274767913",
