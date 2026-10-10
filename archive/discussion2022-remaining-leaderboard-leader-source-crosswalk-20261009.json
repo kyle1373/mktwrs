@@ -2895,7 +2895,9 @@
       "earlierFasterCanonicalRows": [],
       "disposition": "player-time-source-locator-missing",
       "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityAmbiguityAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json",
+      "identityReviewStatus": "same-total-and-laps-as-nu11-insufficient-to-equate-players"
     },
     {
       "messageId": "966458282170531880",
@@ -2998,7 +3000,9 @@
       "earlierFasterCanonicalRows": [],
       "disposition": "player-time-source-locator-missing",
       "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityAmbiguityAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json",
+      "identityReviewStatus": "same-total-and-laps-as-nu11-insufficient-to-equate-players"
     },
     {
       "messageId": "967354091321823252",
@@ -3014,7 +3018,9 @@
       "earlierFasterCanonicalRows": [],
       "disposition": "player-time-source-locator-missing",
       "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityAmbiguityAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json",
+      "identityReviewStatus": "same-total-and-laps-as-nu11-insufficient-to-equate-players"
     },
     {
       "messageId": "968084568571785276",
@@ -3460,12 +3466,50 @@
       "displayedLeader": "すいそ（Sucha）",
       "displayedTime": "01:21.38",
       "displayedLapText": "40.73/40.65",
-      "candidatePlayerIds": [],
-      "matchingExistingRows": [],
+      "candidatePlayerIds": [
+        "player-e38199e38184e3819df09f90ba"
+      ],
+      "matchingExistingRows": [
+        {
+          "section": "records",
+          "id": "curated-amsterdam-2022-969894120187392030",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:21.38",
+          "laps": [
+            "40.73",
+            "40.65"
+          ],
+          "submittedAt": "2022-04-30T09:32:35.951Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/636461740162416640/969894027648466944",
+            "channel": "tt-discussion",
+            "messageId": "969894027648466944"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "curated-amsterdam-2022-969894120187392030",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:21.38",
+          "laps": [
+            "40.73",
+            "40.65"
+          ],
+          "submittedAt": "2022-04-30T09:32:35.951Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/636461740162416640/969894027648466944",
+            "channel": "tt-discussion",
+            "messageId": "969894027648466944"
+          }
+        }
+      ],
       "earlierFasterCanonicalRows": [],
-      "disposition": "player-time-source-locator-missing",
-      "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "disposition": "earlier-dated-player-time-locator-found",
+      "fullOriginalReviewStatus": "original-text-locator-checked-image-review-and-complete-coverage-pending",
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityLookupAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json"
     },
     {
       "messageId": "971213009190006804",
@@ -8511,12 +8555,67 @@
       "displayedLeader": "ねこ好き☆nekozuki",
       "displayedTime": "00:40.41",
       "displayedLapText": "20.25/20.16",
-      "candidatePlayerIds": [],
-      "matchingExistingRows": [],
+      "candidatePlayerIds": [
+        "nekozuki"
+      ],
+      "matchingExistingRows": [
+        {
+          "section": "records",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "sheet-ALX13",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": null,
+          "status": "sheet-submission",
+          "source": {
+            "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=ALX13",
+            "sheet": "Admin Panel",
+            "range": "ALX13:AME13"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        }
+      ],
       "earlierFasterCanonicalRows": [],
-      "disposition": "player-time-source-locator-missing",
-      "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "disposition": "earlier-dated-player-time-locator-found",
+      "fullOriginalReviewStatus": "original-text-locator-checked-image-review-and-complete-coverage-pending",
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityLookupAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json"
     },
     {
       "messageId": "1000126828050124880",
@@ -8527,12 +8626,67 @@
       "displayedLeader": "ねこ好き☆nekozuki",
       "displayedTime": "00:40.41",
       "displayedLapText": "20.25/20.16",
-      "candidatePlayerIds": [],
-      "matchingExistingRows": [],
+      "candidatePlayerIds": [
+        "nekozuki"
+      ],
+      "matchingExistingRows": [
+        {
+          "section": "records",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "sheet-ALX13",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": null,
+          "status": "sheet-submission",
+          "source": {
+            "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=ALX13",
+            "sheet": "Admin Panel",
+            "range": "ALX13:AME13"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        }
+      ],
       "earlierFasterCanonicalRows": [],
-      "disposition": "player-time-source-locator-missing",
-      "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "disposition": "earlier-dated-player-time-locator-found",
+      "fullOriginalReviewStatus": "original-text-locator-checked-image-review-and-complete-coverage-pending",
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityLookupAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json"
     },
     {
       "messageId": "1000648124668325898",
@@ -8543,12 +8697,67 @@
       "displayedLeader": "ねこ好き☆nekozuki",
       "displayedTime": "00:40.41",
       "displayedLapText": "20.25/20.16",
-      "candidatePlayerIds": [],
-      "matchingExistingRows": [],
+      "candidatePlayerIds": [
+        "nekozuki"
+      ],
+      "matchingExistingRows": [
+        {
+          "section": "records",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "sheet-ALX13",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": null,
+          "status": "sheet-submission",
+          "source": {
+            "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=ALX13",
+            "sheet": "Admin Panel",
+            "range": "ALX13:AME13"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        }
+      ],
       "earlierFasterCanonicalRows": [],
-      "disposition": "player-time-source-locator-missing",
-      "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "disposition": "earlier-dated-player-time-locator-found",
+      "fullOriginalReviewStatus": "original-text-locator-checked-image-review-and-complete-coverage-pending",
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityLookupAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json"
     },
     {
       "messageId": "1001426424198082581",
@@ -8559,12 +8768,67 @@
       "displayedLeader": "ねこ好き☆nekozuki",
       "displayedTime": "00:40.41",
       "displayedLapText": "20.25/20.16",
-      "candidatePlayerIds": [],
-      "matchingExistingRows": [],
+      "candidatePlayerIds": [
+        "nekozuki"
+      ],
+      "matchingExistingRows": [
+        {
+          "section": "records",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "sheet-ALX13",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": null,
+          "status": "sheet-submission",
+          "source": {
+            "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=ALX13",
+            "sheet": "Admin Panel",
+            "range": "ALX13:AME13"
+          }
+        },
+        {
+          "section": "submissions",
+          "id": "curated-999134232943263835-999134232641294427-july2022-image-reviewed",
+          "playerId": "nekozuki",
+          "time": "0:40.41",
+          "laps": [
+            "20.25",
+            "20.16"
+          ],
+          "submittedAt": "2022-07-20T02:02:44.150Z",
+          "status": "community-wr",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/999134232943263835",
+            "channel": "tt-submission",
+            "messageId": "999134232943263835"
+          }
+        }
+      ],
       "earlierFasterCanonicalRows": [],
-      "disposition": "player-time-source-locator-missing",
-      "fullOriginalReviewStatus": "pending",
-      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed."
+      "disposition": "earlier-dated-player-time-locator-found",
+      "fullOriginalReviewStatus": "original-text-locator-checked-image-review-and-complete-coverage-pending",
+      "limitation": "Display-name mapping and same total locate candidate sources, not identical-attempt proof. Snapshot creation is not submission or first-WR time; lower ranks remain unreviewed.",
+      "identityLookupAudit": "archive/discussion2022-sucha-nekozuki-leader-locators-and-kaguya-ambiguity-20261009.json"
     },
     {
       "messageId": "1001742837341237278",
@@ -12187,16 +12451,17 @@
     }
   ],
   "counts": {
-    "earlier-dated-player-time-locator-found": 139,
+    "earlier-dated-player-time-locator-found": 144,
     "undated-player-time-locator-only": 5,
-    "player-time-source-locator-missing": 9
+    "player-time-source-locator-missing": 4
   },
   "validation": {
     "remainingLeaderboardSnapshots": 153,
     "publicChanges": 0,
     "queueReviewDispositionsChanged": 0,
     "rowsWithEarlierFasterCanonical": 30,
-    "unmappedCourses": 0
+    "unmappedCourses": 0,
+    "identityLookupRowsEnriched": 5
   },
   "limitations": [
     "Earlier faster record is a conservative flag based on committed timestamp, not complete global-WR certification.",
