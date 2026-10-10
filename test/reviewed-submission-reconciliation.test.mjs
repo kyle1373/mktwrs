@@ -50,3 +50,27 @@ test('explicit reviewed identities can originate in curated sources without name
   assert.equal(reviewedPlayer(entry,players,()=>null),p);
   assert.throws(()=>reviewedPlayer({...entry,discordAccountId:'456'},players,()=>null),/account mismatch/);
 });
+
+
+test('reviewed video rejection preserves reported results and the correct recording', async () => {
+  const {rejectReviewedVideo}=await import('../scripts/import-sources.mjs');
+  const course={id:'koopa'};
+  const sheet={id:'sheet',playerId:'wins',time:'0:57.76',video:'wrong-video',
+    videoVerified:true,laps:['28.90','28.86'],submittedAt:null,status:'sheet-submission'};
+  const recording={id:'verified',playerId:'wins',time:'0:57.99',video:'wrong-video',videoVerified:true};
+  const review={sheet:{courseId:'koopa',playerId:'wins',reportedTime:'0:57.76',
+    video:'wrong-video',videoSourceMismatch:{linkedRecordingTime:'0:57.99'}}};
+  assert.equal(rejectReviewedVideo(course,sheet,review),true);
+  assert.deepEqual(sheet,{id:'sheet',playerId:'wins',time:'0:57.76',video:null,
+    videoVerified:false,laps:['28.90','28.86'],submittedAt:null,status:'sheet-submission',
+    disputedVideoReference:'wrong-video',videoSourceMismatch:review.sheet.videoSourceMismatch});
+  assert.equal(rejectReviewedVideo(course,recording,review),false);
+  assert.equal(recording.videoVerified,true);
+  for (const change of [{playerId:'other'},{time:'0:57.99'},{video:'replacement'}]) {
+    const changed={...sheet,video:'wrong-video',...change};
+    const before=structuredClone(changed);
+    assert.throws(()=>rejectReviewedVideo(course,changed,review),/mismatch/);
+    assert.deepEqual(changed,before);
+  }
+  assert.throws(()=>rejectReviewedVideo({id:'airship'},{...sheet,video:'wrong-video'},review),/mismatch/);
+});

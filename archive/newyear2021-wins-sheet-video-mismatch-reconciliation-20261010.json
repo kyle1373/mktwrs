@@ -1,0 +1,44 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "tour": "New Year’s Tour 2021",
+  "sheetSubmissionId": "sheet-KM10",
+  "reportedSheetTime": "0:57.76",
+  "disputedVideoReference": "https://youtu.be/IY19F1gWOtg",
+  "verifiedRecordingEvidence": {
+    "id": "curated-794196507527479296-verified",
+    "time": "0:57.99",
+    "laps": [
+      "29.16",
+      "28.83"
+    ],
+    "video": "https://www.youtube.com/watch?v=IY19F1gWOtg",
+    "videoVerified": true,
+    "submittedAt": "2020-12-31T13:33:22.852Z",
+    "videoSharedAt": "2021-01-02T14:23:02.652Z",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/794196507527479296",
+      "channel": "tt-discussion",
+      "messageId": "794196507527479296"
+    }
+  },
+  "limitations": [
+    "Wrong video removed only from reported 0:57.76 sheet submission; original reference retained as disputed evidence. Sheet time remains unverified rather than silently replaced.",
+    "Existing verified 0:57.99 recording and its share/submission clocks preserved. No fresh footage review or faster-recorded promotion.",
+    "Persistent import rejection now removes the wrong sheet/video pairing. Source workbook correction, live deployment and tour completeness remain unverified."
+  ],
+  "persistentCorrection": {
+    "source": "archive/submission-video-rejections.json",
+    "scope": "Exact sheet ID, course, runner, reported time and video must agree before removal; mismatch stops import."
+  },
+  "validation": {
+    "focusedTestsPassed": 12,
+    "isolatedFullDataRegenerationExitCode": 0,
+    "sheetTimePreserved": true,
+    "wrongVideoRemoved": true,
+    "verifiedRecordingPreserved": true,
+    "recordingSubmissionAndShareClocksPreserved": true,
+    "curatedShareClockPersistenceRepair": "Existing public share-clock provenance copied into curated generator input; no new timestamp inferred."
+  }
+}

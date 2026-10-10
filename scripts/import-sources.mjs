@@ -32,6 +32,19 @@ export function reconcileReviewedSubmission(course, submission) {
   return target;
 }
 
+export function rejectReviewedVideo(course, submission, reviews) {
+  const review = reviews[submission.id];
+  if (!review) return false;
+  if (course.id !== review.courseId || submission.playerId !== review.playerId ||
+      submission.time !== review.reportedTime || submission.video !== review.video)
+    throw Error("Reviewed video rejection mismatch: " + submission.id);
+  submission.disputedVideoReference = submission.video;
+  submission.video = null;
+  submission.videoVerified = false;
+  submission.videoSourceMismatch = review.videoSourceMismatch;
+  return true;
+}
+
 import fs from "node:fs";
 export const slug = (s) =>
   String(s)
@@ -557,6 +570,10 @@ export function importSources(courses, players) {
       p.records.push(published.id);
     }
   }
+  const videoRejections = fs.existsSync("archive/submission-video-rejections.json")
+    ? JSON.parse(fs.readFileSync("archive/submission-video-rejections.json", "utf8")) : {};
+  for (const course of courses) for (const submission of course.submissions)
+    rejectReviewedVideo(course, submission, videoRejections);
   let enriched = 0;
   const withdrawals = fs.existsSync("archive/submission-withdrawals.json")
     ? JSON.parse(fs.readFileSync("archive/submission-withdrawals.json", "utf8")) : {};
