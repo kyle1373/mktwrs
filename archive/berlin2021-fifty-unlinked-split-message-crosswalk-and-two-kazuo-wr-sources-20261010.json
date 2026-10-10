@@ -5,8 +5,8 @@
   "certifiedThrough": null,
   "scope": "Unlinked slash-separated lap pairs in preserved Berlin discussion, counted against current public original and additional source IDs.",
   "candidateMessages": 50,
-  "pendingOriginalContextMessages": 44,
-  "resolvedOriginalContextMessages": 6,
+  "pendingOriginalContextMessages": 40,
+  "resolvedOriginalContextMessages": 10,
   "rows": [
     {
       "messageId": "798816520401584141",
@@ -444,9 +444,18 @@
           "submittedAt": "2021-01-16T13:34:11.861Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-kazuo-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Original text and attribution verified; no new attempt, race date or verified video inferred.",
+      "acceptedExistingId": "curated-799994918935330856-3ds-rock-rock-mountain-r",
+      "acceptedPlayerId": "kazuo",
+      "acceptedTime": "1:43.37",
+      "acceptedLaps": [
+        "51.67",
+        "51.70"
+      ],
+      "reviewAudit": "archive/berlin2021-january16-three-kazuo-split-reports-and-mirrativ-source-20261010.json",
+      "sourceReporter": "Kazuo"
     },
     {
       "messageId": "800017051447066635",
@@ -521,9 +530,18 @@
           "submittedAt": "2021-01-16T17:58:50.250Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-kazuo-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Original text and attribution verified; no new attempt, race date or verified video inferred.",
+      "acceptedExistingId": "curated-800061517726744657-3ds-rock-rock-mountain-r",
+      "acceptedPlayerId": "kazuo",
+      "acceptedTime": "1:43.00",
+      "acceptedLaps": [
+        "51.70",
+        "51.30"
+      ],
+      "reviewAudit": "archive/berlin2021-january16-three-kazuo-split-reports-and-mirrativ-source-20261010.json",
+      "sourceReporter": "Kazuo"
     },
     {
       "messageId": "800116585846276136",
@@ -543,9 +561,18 @@
           "submittedAt": "2021-01-16T21:37:37.493Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-kazuo-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Original text and attribution verified; no new attempt, race date or verified video inferred.",
+      "acceptedExistingId": "curated-800116577374437457-3ds-rock-rock-mountain-r",
+      "acceptedPlayerId": "kazuo",
+      "acceptedTime": "1:42.88",
+      "acceptedLaps": [
+        "51.50",
+        "51.38"
+      ],
+      "reviewAudit": "archive/berlin2021-january16-three-kazuo-split-reports-and-mirrativ-source-20261010.json",
+      "sourceReporter": "Kazuo"
     },
     {
       "messageId": "800117660799991809",
@@ -565,9 +592,18 @@
           "submittedAt": "2021-01-16T21:37:37.493Z"
         }
       ],
-      "reviewStatus": "pending-original-author-course-result-context",
-      "freshOriginalDiscordReview": false,
-      "limitation": "Candidate split coincidence is not same player, same race, or course proof; quoted and hypothetical splits require separate classification."
+      "reviewStatus": "fresh-original-context-matched-existing-kazuo-result",
+      "freshOriginalDiscordReview": true,
+      "limitation": "Original text and attribution verified; no new attempt, race date or verified video inferred.",
+      "acceptedExistingId": "curated-800116577374437457-3ds-rock-rock-mountain-r",
+      "acceptedPlayerId": "kazuo",
+      "acceptedTime": "1:42.88",
+      "acceptedLaps": [
+        "51.50",
+        "51.38"
+      ],
+      "reviewAudit": "archive/berlin2021-january16-three-kazuo-split-reports-and-mirrativ-source-20261010.json",
+      "sourceReporter": "Rόmάίή"
     },
     {
       "messageId": "800123969457356820",
@@ -1059,7 +1095,7 @@
   "limitations": [
     "Full numbers retained literally; abbreviated seconds not normalized without original context.",
     "Same splits across different players or quoted replies do not establish identity.",
-    "Two Kazuo source matches verified fresh; other48are candidates only.",
-    "Not a full Berlin source coverage or completion certificate."
+    "Not a full Berlin source coverage or completion certificate.",
+    "Ten source messages resolved across the initial and subsequent original-context reviews; forty remain pending."
   ]
 }
