@@ -1,0 +1,423 @@
+{
+  "reviewedAt": "2026-10-11T01:49:48.098754+00:00",
+  "sourceCommit": "8e12fe907d9a61466db7a75b0c956d95c09638ca",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "scope": "Targeted deployment checks for recent Halloween source and written-result repairs; not full publication certification.",
+  "courses": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "url": "https://mktwrs.com/data/courses/3ds-toad-circuit.json",
+      "httpStatus": 200,
+      "responseHeaders": {
+        "etag": "W/\"46f4e-1a11cd02730\"",
+        "last-modified": "Thu, 08 Oct 2026 18:39:26 GMT",
+        "date": "Sun, 11 Oct 2026 01:49:47 GMT",
+        "cache-control": "public, max-age=0, must-revalidate"
+      },
+      "responseBytes": 290638,
+      "responseSha256": "c3dd3b71a0a0900642d05c8dc2a7366f70089172b03f5374ad2074767bc03c8d",
+      "rows": [
+        {
+          "publicId": "curated-original-2019-wr-row-6",
+          "collection": "records",
+          "liveRowPresent": true,
+          "differences": {
+            "submittedAt": {
+              "expected": "2019-10-23T06:57:26.608Z",
+              "live": null
+            },
+            "lapSource": {
+              "expected": {
+                "url": "https://discord.com/channels/629221606064914442/636461740162416640/636462215297236992",
+                "channel": "tt-discussion",
+                "messageId": "636462215297236992",
+                "publishedAt": "2019-10-23T07:13:37.023Z"
+              },
+              "live": {
+                "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=AH24",
+                "sheet": "Admin Panel",
+                "range": "AH24:AQ24"
+              }
+            },
+            "lapDerivation": {
+              "expected": {
+                "reportedLap": 1,
+                "reportedTime": "32.92",
+                "derivedLap": 2,
+                "derivedTime": "33.59",
+                "total": "1:06.51",
+                "reviewAudit": "archive/halloween2019-opening-two-original-lap-reports-and-superfx-wr-clock-reconciliation-20261010.json",
+                "freshVisualReview": false
+              },
+              "live": null
+            }
+          },
+          "selectedFieldsMatch": false
+        },
+        {
+          "publicId": "curated-original-2019-wr-row-19",
+          "collection": "records",
+          "liveRowPresent": true,
+          "differences": {
+            "additionalSources": {
+              "expected": [
+                {
+                  "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254274052784138",
+                  "channel": "tt-discussion",
+                  "messageId": "637254274052784138"
+                },
+                {
+                  "url": "https://www.mariokart64.com/cgi-bin/yabb2/YaBB.pl?num=1571823398/30#30",
+                  "kind": "original-player-lap-report",
+                  "reply": "30"
+                },
+                {
+                  "url": "https://discord.com/channels/629221606064914442/630496451491004475/637261905559552019",
+                  "channel": "chat",
+                  "messageId": "637261905559552019",
+                  "kind": "same-original-result-repost"
+                },
+                {
+                  "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=AH12",
+                  "sheet": "Admin Panel",
+                  "range": "AH12:AQ12"
+                },
+                {
+                  "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A19:J19",
+                  "sheet": "WR history",
+                  "range": "A19:J19"
+                },
+                {
+                  "url": "https://x.com/LewMK91/status/1187698992622133248",
+                  "postId": "1187698992622133248",
+                  "kind": "original-player-result-post",
+                  "publishedAt": "2019-10-25T11:54:40Z",
+                  "sourceReportedName": "Lewis B / LewMK91 / UnrealMK91",
+                  "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json"
+                },
+                {
+                  "url": "https://discord.com/channels/629221606064914442/636461740162416640/637458529694777344",
+                  "channel": "tt-discussion",
+                  "messageId": "637458529694777344",
+                  "publishedAt": "2019-10-26T01:12:36.886Z",
+                  "kind": "secondary-same-runner-equal-time-social-post-reference",
+                  "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json"
+                }
+              ],
+              "live": [
+                {
+                  "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254274052784138",
+                  "channel": "tt-discussion",
+                  "messageId": "637254274052784138"
+                },
+                {
+                  "url": "https://www.mariokart64.com/cgi-bin/yabb2/YaBB.pl?num=1571823398/30#30",
+                  "kind": "original-player-lap-report",
+                  "reply": "30"
+                },
+                {
+                  "url": "https://discord.com/channels/629221606064914442/630496451491004475/637261905559552019",
+                  "channel": "chat",
+                  "messageId": "637261905559552019",
+                  "kind": "same-original-result-repost"
+                },
+                {
+                  "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A19:J19",
+                  "sheet": "WR history",
+                  "range": "A19:J19"
+                },
+                {
+                  "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=AH12",
+                  "sheet": "Admin Panel",
+                  "range": "AH12:AQ12"
+                }
+              ]
+            },
+            "publicationReconciliation": {
+              "expected": {
+                "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json",
+                "canonicalPlayerId": "unreal91",
+                "sourceReportedAliases": [
+                  "Benny91",
+                  "Lewis B",
+                  "LewMK91",
+                  "UnrealMK91"
+                ],
+                "primarySocialPublishedAt": "2019-10-25T11:54:40Z",
+                "originalDiscordSubmittedAt": "2019-10-25T11:40:58.546Z",
+                "socialAfterDiscordSeconds": 821.454,
+                "separateAttemptsProven": false,
+                "groupingBasis": "Established player aliases, same course/total, original Unreal forum link and matching approximate 14-minute report; preserve sources as one performance."
+              },
+              "live": null
+            }
+          },
+          "selectedFieldsMatch": false
+        },
+        {
+          "publicId": "curated-original-2019-wr-row-6",
+          "collection": "submissions",
+          "liveRowPresent": true,
+          "differences": {
+            "lapSource": {
+              "expected": {
+                "url": "https://discord.com/channels/629221606064914442/636461740162416640/636462215297236992",
+                "channel": "tt-discussion",
+                "messageId": "636462215297236992",
+                "publishedAt": "2019-10-23T07:13:37.023Z"
+              },
+              "live": null
+            },
+            "lapDerivation": {
+              "expected": {
+                "reportedLap": 1,
+                "reportedTime": "32.92",
+                "derivedLap": 2,
+                "derivedTime": "33.59",
+                "total": "1:06.51",
+                "reviewAudit": "archive/halloween2019-opening-two-original-lap-reports-and-superfx-wr-clock-reconciliation-20261010.json",
+                "freshVisualReview": false
+              },
+              "live": null
+            }
+          },
+          "selectedFieldsMatch": false
+        },
+        {
+          "publicId": "curated-original-2019-wr-row-19",
+          "collection": "submissions",
+          "liveRowPresent": true,
+          "differences": {
+            "additionalSources": {
+              "expected": [
+                {
+                  "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254274052784138",
+                  "channel": "tt-discussion",
+                  "messageId": "637254274052784138"
+                },
+                {
+                  "url": "https://www.mariokart64.com/cgi-bin/yabb2/YaBB.pl?num=1571823398/30#30",
+                  "kind": "original-player-lap-report",
+                  "reply": "30"
+                },
+                {
+                  "url": "https://discord.com/channels/629221606064914442/630496451491004475/637261905559552019",
+                  "channel": "chat",
+                  "messageId": "637261905559552019",
+                  "kind": "same-original-result-repost"
+                },
+                {
+                  "url": "https://x.com/LewMK91/status/1187698992622133248",
+                  "postId": "1187698992622133248",
+                  "kind": "original-player-result-post",
+                  "publishedAt": "2019-10-25T11:54:40Z",
+                  "sourceReportedName": "Lewis B / LewMK91 / UnrealMK91",
+                  "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json"
+                },
+                {
+                  "url": "https://discord.com/channels/629221606064914442/636461740162416640/637458529694777344",
+                  "channel": "tt-discussion",
+                  "messageId": "637458529694777344",
+                  "publishedAt": "2019-10-26T01:12:36.886Z",
+                  "kind": "secondary-same-runner-equal-time-social-post-reference",
+                  "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json"
+                }
+              ],
+              "live": [
+                {
+                  "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254274052784138",
+                  "channel": "tt-discussion",
+                  "messageId": "637254274052784138"
+                },
+                {
+                  "url": "https://www.mariokart64.com/cgi-bin/yabb2/YaBB.pl?num=1571823398/30#30",
+                  "kind": "original-player-lap-report",
+                  "reply": "30"
+                },
+                {
+                  "url": "https://discord.com/channels/629221606064914442/630496451491004475/637261905559552019",
+                  "channel": "chat",
+                  "messageId": "637261905559552019",
+                  "kind": "same-original-result-repost"
+                }
+              ]
+            },
+            "publicationReconciliation": {
+              "expected": {
+                "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json",
+                "canonicalPlayerId": "unreal91",
+                "sourceReportedAliases": [
+                  "Benny91",
+                  "Lewis B",
+                  "LewMK91",
+                  "UnrealMK91"
+                ],
+                "primarySocialPublishedAt": "2019-10-25T11:54:40Z",
+                "originalDiscordSubmittedAt": "2019-10-25T11:40:58.546Z",
+                "socialAfterDiscordSeconds": 821.454,
+                "separateAttemptsProven": false,
+                "groupingBasis": "Established player aliases, same course/total, original Unreal forum link and matching approximate 14-minute report; preserve sources as one performance."
+              },
+              "live": null
+            }
+          },
+          "selectedFieldsMatch": false
+        },
+        {
+          "publicId": "curated-636525631991054368-halloween2019-written-result",
+          "collection": "submissions",
+          "liveRowPresent": false,
+          "differences": {
+            "time": {
+              "expected": "1:06.88",
+              "live": null
+            },
+            "submittedAt": {
+              "expected": "2019-10-23T11:25:36.741Z",
+              "live": null
+            },
+            "observedAt": {
+              "expected": "2019-10-23T11:28:33.786Z",
+              "live": null
+            },
+            "reportedUnassignedLap": {
+              "expected": "33.25",
+              "live": null
+            },
+            "mediaReference": {
+              "expected": "https://youtu.be/DpxElpBvIcI",
+              "live": null
+            },
+            "videoAvailability": {
+              "expected": {
+                "status": "unavailable",
+                "checkedAt": "2026-10-10",
+                "displayedMessage": "This video isn't available anymore",
+                "reviewAudit": "archive/halloween2019-faw10688-original-written-submission-and-unavailable-video-reconciliation-20261010.json"
+              },
+              "live": null
+            }
+          },
+          "selectedFieldsMatch": false
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "url": "https://mktwrs.com/data/courses/3ds-neo-bowser-city.json",
+      "httpStatus": 200,
+      "responseHeaders": {
+        "etag": "W/\"3130b-1a11cd02730\"",
+        "last-modified": "Thu, 08 Oct 2026 18:39:26 GMT",
+        "date": "Sun, 11 Oct 2026 01:49:48 GMT",
+        "cache-control": "public, max-age=0, must-revalidate"
+      },
+      "responseBytes": 201483,
+      "responseSha256": "1935ff437720d6904e27593b894a3a47890d168cd7947a8284be727fb0a50f25",
+      "rows": [
+        {
+          "publicId": "curated-original-2019-wr-row-27",
+          "collection": "records",
+          "liveRowPresent": true,
+          "differences": {
+            "lapSource": {
+              "expected": {
+                "url": "https://discord.com/channels/629221606064914442/636461740162416640/636495497757982737",
+                "channel": "tt-discussion",
+                "messageId": "636495497757982737",
+                "kind": "original-player-lap-report",
+                "postedAt": "2019-10-23T09:25:52.180Z"
+              },
+              "live": {
+                "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A27:J27",
+                "sheet": "WR history",
+                "range": "A27:J27"
+              }
+            },
+            "lapDerivation": {
+              "expected": {
+                "reportedLap": 1,
+                "reportedTime": "47.32",
+                "derivedLap": 2,
+                "derivedTime": "45.91",
+                "total": "1:33.23",
+                "reviewAudit": "archive/halloween2019-meester-first-nbc-lap-provenance-and-lewis-account-context-20261010.json",
+                "freshVisualReview": false
+              },
+              "live": null
+            },
+            "submissionSourceReview": {
+              "expected": {
+                "originalTextAndClockReviewed": true,
+                "originalCaption": "first try, L1 47.32",
+                "reviewAudit": "archive/halloween2019-meester-first-nbc-lap-provenance-and-lewis-account-context-20261010.json",
+                "freshPixelsReviewed": false
+              },
+              "live": null
+            }
+          },
+          "selectedFieldsMatch": false
+        },
+        {
+          "publicId": "curated-original-2019-wr-row-27",
+          "collection": "submissions",
+          "liveRowPresent": true,
+          "differences": {
+            "lapSource": {
+              "expected": {
+                "url": "https://discord.com/channels/629221606064914442/636461740162416640/636495497757982737",
+                "channel": "tt-discussion",
+                "messageId": "636495497757982737",
+                "kind": "original-player-lap-report",
+                "postedAt": "2019-10-23T09:25:52.180Z"
+              },
+              "live": null
+            },
+            "lapDerivation": {
+              "expected": {
+                "reportedLap": 1,
+                "reportedTime": "47.32",
+                "derivedLap": 2,
+                "derivedTime": "45.91",
+                "total": "1:33.23",
+                "reviewAudit": "archive/halloween2019-meester-first-nbc-lap-provenance-and-lewis-account-context-20261010.json",
+                "freshVisualReview": false
+              },
+              "live": null
+            },
+            "submissionSourceReview": {
+              "expected": {
+                "originalTextAndClockReviewed": true,
+                "originalCaption": "first try, L1 47.32",
+                "reviewAudit": "archive/halloween2019-meester-first-nbc-lap-provenance-and-lewis-account-context-20261010.json",
+                "freshPixelsReviewed": false
+              },
+              "live": null
+            }
+          },
+          "selectedFieldsMatch": false
+        }
+      ]
+    }
+  ],
+  "allSelectedFieldsMatch": false,
+  "limitations": [
+    "HTTP data responses checked against committed selected fields. This does not inspect browser presentation or full archive data.",
+    "No deployment initiated. Source review and tour completeness remain open.",
+    "GitHub annotation does not prove why Railway is serving older data. No billing, account or deployment settings modified."
+  ],
+  "githubValidation": {
+    "runId": "38103104378",
+    "headSha": "8e12fe907d9a61466db7a75b0c956d95c09638ca",
+    "url": "https://github.com/kyle1373/mktwrs/actions/runs/38103104378",
+    "jobId": "114362940184",
+    "status": "completed",
+    "conclusion": "failure",
+    "steps": [],
+    "runnerId": 0,
+    "annotation": "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings",
+    "interpretation": "Account-level runner-start restriction; no implementation checks ran.",
+    "relationToRailwayDeployment": "Unproven; separate unresolved deployment state"
+  }
+}
