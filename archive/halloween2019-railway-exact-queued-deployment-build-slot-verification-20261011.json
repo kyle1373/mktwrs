@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-11T23:15:44.619274+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "source": "Authenticated Railway browser deployment Details panel",
+  "queuedDeployment": {
+    "id": "530a0948-a0d0-46fd-b29d-596f796cec7e",
+    "url": "https://railway.com/project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d&id=530a0948-a0d0-46fd-b29d-596f796cec7e",
+    "state": "Queued",
+    "displayedReason": "Waiting for build slot",
+    "displayedTime": "2026-10-11 16:11 PDT",
+    "commit": "fafb0e5441a5eeb55338dfd8bdee0898bcca57fc",
+    "commitTitle": "Verify Halloween live publication gaps after source reconciliation",
+    "branch": "main",
+    "buildCommand": "npm run build",
+    "builder": "Railpack"
+  },
+  "activeDeployment": {
+    "id": "0eaae2ad-61dd-4680-8167-474704871db9",
+    "displayedTitle": "Confirm published preservation and chronology audits",
+    "displayedAge": "3 days ago",
+    "status": "Active",
+    "result": "Deployment successful"
+  },
+  "validation": {
+    "exactQueuedCommitLinkVisible": true,
+    "specificDeploymentHandleVerified": true,
+    "actualBuildStarted": false,
+    "livePublicationVerified": false
+  },
+  "limitations": [
+    "Railway UI confirms a queued deployment awaiting build slot. No build logs were observed and no claim of an actively running build is made.",
+    "Queue reason alone does not identify account limits or platform outage. No billing, capacity, settings, cancel or restart actions performed.",
+    "The active older deployment explains why current repository data is not yet served; complete live correctness requires a fresh post-deploy check.",
+    "Discord and archive research can continue. This queue is a publication wait, not a whole-goal blocker."
+  ]
+}
