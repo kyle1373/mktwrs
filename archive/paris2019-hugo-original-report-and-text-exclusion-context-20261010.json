@@ -1,0 +1,47 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "tour": "Paris Tour (2019)",
+  "reviews": [
+    {
+      "messageId": "641794109945806858",
+      "postedAt": "2019-11-07T00:20:39.769Z",
+      "originalText": "1:43.22 SGB 1st try",
+      "disposition": "original-explicit-result-report-clock-reconciled"
+    },
+    {
+      "messageId": "641875781529632768",
+      "postedAt": "2019-11-07T05:45:11.792Z",
+      "originalText": "if you screenshot them I'll add them",
+      "disposition": "original-screenshot-requirement-coverage-context-reviewed"
+    },
+    {
+      "messageId": "641875884411846656",
+      "postedAt": "2019-11-07T05:45:36.321Z",
+      "originalText": "not sure about adding just text times",
+      "disposition": "original-text-only-exclusion-risk-context-reviewed"
+    },
+    {
+      "messageId": "642841588913012748",
+      "postedAt": "2019-11-09T21:42:58.216Z",
+      "originalText": "Kaguya has 1.23.9",
+      "disposition": "shorthand-result-mention-hundredths-and-original-source-pending"
+    }
+  ],
+  "canonicalId": "curated-641794109945806858-sgb-first-attempt",
+  "freshOriginalTextReviewed": true,
+  "freshPixelsReviewed": false,
+  "freshFootageReviewed": false,
+  "limitations": [
+    "Hugo explicitly names SGB and exact time1:43.22. Existing text-only classification retained, exact report clock filled; race achievement timestamp unknown.",
+    "Maintainer screenshot requirement and hesitation about text times explain a coverage gap; they are historical source evidence, not present-day archive instructions.",
+    "Shorthand1.23.9not padded to1:23.90or assigned to one of Kaguya existing1:23.96/1:23.90/1:23.89results. No new exact result inferred.",
+    "No race total, lap or WR classification changed. All-year history remains incomplete."
+  ],
+  "validation": {
+    "isolatedFullDataRegenerationExitCode": 0,
+    "originalReportClockPersists": true,
+    "noWRPromotion": true
+  }
+}
