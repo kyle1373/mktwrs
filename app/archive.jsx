@@ -39,7 +39,13 @@ function RecordDate({ r }) {
               : undefined
       }
     >
-      {date(r.recordDate || r.achievedAt)}
+      {r.dateBasis === "first-screenshot-publication"
+        ? `Screenshot published: ${date(r.recordDate)}; achievement date unknown`
+        : r.dateBasis === "proof-upload-date"
+          ? `Proof uploaded: ${date(r.recordDate)}; achievement date unknown`
+          : r.dateUnresolved && !r.achievedAt
+            ? "Achievement date unknown"
+            : date(r.recordDate || r.achievedAt)}
 
     </span>
   );

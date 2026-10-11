@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-10-11T22:57:25.424623+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "problem": "Undated1:34.16WRdisplayed2019-11-04as plain date with caveat only in title. It is earliest screenshot publication, not an established achievement day.",
+  "change": "RecordDate visibly labels screenshot/proof publication and unknown achievement. Client projection retains dateUnresolved. Existing documented achievement days remain plain.",
+  "example": {
+    "id": "896332063081390090",
+    "recordDate": "2019-11-04",
+    "achievedAt": null,
+    "dateBasis": "first-screenshot-publication",
+    "renderedText": "Screenshot published: 2019-11-04; achievement date unknown"
+  },
+  "validation": {
+    "testsPassed": 11,
+    "tests": [
+      "test/record-date-render.test.mjs",
+      "test/evidence-times-render.test.mjs",
+      "test/page-data.test.mjs"
+    ],
+    "actualHalloweenRecordProjectionAndRenderedTextChecked": true,
+    "canonicalRecordDataChanged": false,
+    "livePublicationVerified": false
+  },
+  "limits": [
+    "Presentation applies consistently to all records sharing these evidence date policies. No underlying historical dates or duration calculations changed.",
+    "No fresh media review; Halloween completion remains unproven."
+  ]
+}
