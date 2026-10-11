@@ -15,7 +15,25 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "y_SD3ARbD8o",
+          "url": "https://www.youtube.com/watch?v=y_SD3ARbD8o",
+          "messageIds": [
+            "646008033566261279"
+          ],
+          "reviewStatus": "unavailable-TT-status-unverified",
+          "historyComplete": false,
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "yt-dlp reports This video is unavailable; no recovered run time."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "644106028748767232",
@@ -25,7 +43,91 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "dIajqgcAV5w",
+          "url": "https://www.youtube.com/watch?v=dIajqgcAV5w",
+          "messageIds": [
+            "644106028748767232"
+          ],
+          "reviewStatus": "dense-15second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "title": "LAST WEEK OF PARIS TOUR  - TIER 20 TOP 20",
+          "durationSeconds": 5954,
+          "localReviewFile": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/dIajqgcAV5w.mp4",
+          "sha256": "53784683153318bb7f687d76a05a382f2dea8a3898d6bb6d917b4c4707a66891",
+          "bytes": 324623223,
+          "reviewSheets": [
+            "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/minute-01.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/minute-02.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/minute-03.jpg"
+          ],
+          "sampleIntervalSeconds": 60,
+          "sampledFrames": 99,
+          "decision": "Minute sheets plus15second OCRsearch inspected; two sampled cup bests visually recovered. Both slower than confirmed WRs. Continuous footage, audio and every tiny cup tile not fully reviewed.",
+          "preservationLimitation": "Local360pvideo andoriginalaudio preserved/muxed; unlistedupload/fullcontinuousreview pending.",
+          "denserSearch": {
+            "sampleIntervalSeconds": 15,
+            "frames": 397,
+            "ocrOutput": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/ocr-search.jsonl",
+            "ocrRole": "Search aid only; both timer matches visually verified as cup bests. No continuous absence certificate.",
+            "visuallyVerifiedFindings": [
+              {
+                "timestampSeconds": 532,
+                "courseId": "snes-mario-circuit-1",
+                "time": "0:54.76",
+                "proofField": "cup-best",
+                "includeInProgression": false,
+                "correction": "360p digit misread corrected using1080p source and actual launch finish."
+              },
+              {
+                "timestampSeconds": 5077,
+                "courseId": "ds-luigi-s-mansion",
+                "time": "1:36.22",
+                "proofField": "cup-best",
+                "includeInProgression": false
+              }
+            ],
+            "highResolutionRecheck": {
+              "localFile": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/highres-cup.mp4",
+              "originalIntervalSeconds": [
+                525,
+                540
+              ],
+              "format": "1080p video-only",
+              "confirmedTime": "0:54.76"
+            }
+          },
+          "audioPreservation": {
+            "videoId": "dIajqgcAV5w",
+            "status": "locally-preserved-audio-and-video",
+            "file": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/preserved-with-audio.mp4",
+            "sha256": "fd3a62c2e68efa19b13f3836b4c60b483515064bf8f2b91d374485ddc937b7cc",
+            "bytes": 399345568,
+            "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/dIajqgcAV5w/dIajqgcAV5w-audio.m4a",
+            "audioSha256": "a918d6f2695f2383abe43692b055662b5ac16cdb27149bd954cddf8737c64e63",
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "5953.966667"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "5954.037551"
+              }
+            ],
+            "youtubeBackupStatus": "not-uploaded",
+            "continuousPlaybackReviewed": false
+          },
+          "denseVisualReviewReport": "archive/paris2019-highry-final-dense-visual-review-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "643850602207772673",
@@ -35,7 +137,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "VX2aQy82DkE",
+          "url": "https://www.youtube.com/watch?v=VX2aQy82DkE",
+          "messageIds": [
+            "643850602207772673"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Mario Kart Tour - S4 C04-2 - Circuit mario 1 (Coupe de ligue S1)",
+          "durationSeconds": 118,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/VX2aQy82DkE.mp4",
+          "sha256": "ebf626a0abc408d35aed6aa99813d5d9c49aa3ed4a1df19940c89bbaf8b2e944",
+          "bytes": 3970739,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/VX2aQy82DkE-review.jpg",
+          "decision": "Entire short clip indexed at10second intervals including finish/results. Race has opponents, items, points and final score 13719; no TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "645718875874394161",
@@ -45,7 +168,25 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "lo39UxkNKJU",
+          "url": "https://www.youtube.com/watch?v=lo39UxkNKJU",
+          "messageIds": [
+            "645718875874394161"
+          ],
+          "reviewStatus": "unavailable-original",
+          "historyComplete": false,
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "yt-dlp reports This video is unavailable; no footage recovered."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "645348402304909352",
@@ -55,7 +196,106 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "naCwscKSbGg",
+          "url": "https://www.youtube.com/watch?v=naCwscKSbGg",
+          "messageIds": [
+            "645348402304909352"
+          ],
+          "reviewStatus": "whole-broadcast-60second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris - #2 All Cups Worldwide - Last push for Highscores!",
+          "durationSeconds": 16936,
+          "localReviewFile": "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/naCwscKSbGg.mp4",
+          "sha256": "b4d85efb433d444a25bf31e066f642bdc5d8b83963c1c602aa03a93c942cc382",
+          "bytes": 942417245,
+          "reviewSheets": [
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-01.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-02.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-03.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-04.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-05.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-06.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-07.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/minute-08.jpg"
+          ],
+          "sampleIntervalSeconds": 60,
+          "sampledFrames": 282,
+          "decision": "Minute index, enlarged targeted cup screens and all1129frames in19dense15second visual/OCR sheets reviewed. No newly verified TT race result in samples. Existing LM13009cupbestcorroborationretained. Continuous video/audio review incomplete.",
+          "nextReviewTargetsSeconds": [
+            1500,
+            4620,
+            5220,
+            6060,
+            7860,
+            8100,
+            10500,
+            10740,
+            10860,
+            14520,
+            14640,
+            14820,
+            14940,
+            16200
+          ],
+          "preservationLimitation": "Local360pvideo andoriginalaudio preserved/muxed; unlistedupload/fullcontinuousreview pending.",
+          "targetedCupScreensReview": {
+            "reviewedAt": "2026-10-04",
+            "sourceTimestampsSeconds": [
+              1507,
+              4627,
+              5227,
+              6067,
+              7867,
+              8107,
+              10507,
+              10747,
+              10867,
+              14527,
+              14647,
+              14827,
+              14947,
+              16207
+            ],
+            "reviewSheets": [
+              "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/large-targets-1.jpg",
+              "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/large-targets-2.jpg",
+              "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/large-targets-3.jpg"
+            ],
+            "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Baby Luigi Cup at6067s reads1:30.09, corroborating earlier recorded Carlos85 run; no duplicate WR. Remaining flagged frames are point races, settings and non-TT challenges.",
+            "continuousPlaybackReviewed": false
+          },
+          "audioPreservation": {
+            "videoId": "naCwscKSbGg",
+            "status": "locally-preserved-audio-and-video",
+            "file": "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/preserved-with-audio.mp4",
+            "sha256": "3e79a39519bd93850b58e408c0c79052998c7f5211b2509865392269de546b22",
+            "bytes": 1222702091,
+            "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/naCwscKSbGg/naCwscKSbGg-audio.m4a",
+            "audioSha256": "3effff0178e09c170be6228a75f29e8114210dc0ebea22fee2f7847440b737be",
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "16935.833333"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "16935.891882"
+              }
+            ],
+            "youtubeBackupStatus": "not-uploaded",
+            "continuousPlaybackReviewed": false
+          },
+          "denserSearchReport": "archive/paris2019-carlos-finalpush-dense-search-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "645331123160743964",
@@ -65,7 +305,22 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "YxitwQsVblg",
+          "url": "https://www.youtube.com/watch?v=YxitwQsVblg",
+          "messageIds": [
+            "643103941562728448",
+            "645331123160743964"
+          ],
+          "reviewStatus": "unavailable",
+          "historyComplete": false
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "645259135860080643",
@@ -75,7 +330,25 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "RFrTuXnNHUs",
+          "url": "https://www.youtube.com/watch?v=RFrTuXnNHUs",
+          "messageIds": [
+            "645259135860080643"
+          ],
+          "reviewStatus": "unavailable-TT-status-unverified",
+          "historyComplete": false,
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "yt-dlp reports This video is unavailable; no recovered run time."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "645069785914409000",
@@ -85,7 +358,93 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "iFgSqkBbrNw",
+          "url": "https://www.youtube.com/watch?v=iFgSqkBbrNw",
+          "messageIds": [
+            "645069785914409000"
+          ],
+          "reviewStatus": "whole-broadcast-60second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris [English] - Yoshi Ranked Cup 64k! + Dino Dino T 26,9k",
+          "durationSeconds": 8768,
+          "localReviewFile": "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/iFgSqkBbrNw.mp4",
+          "sha256": "fe7559574ecf06a099d034d4f67006d304e3f30255d27bfa20d6986a3092163f",
+          "bytes": 478238424,
+          "reviewSheets": [
+            "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/minute-01.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/minute-02.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/minute-03.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/minute-04.jpg"
+          ],
+          "sampleIntervalSeconds": 60,
+          "sampledFrames": 146,
+          "decision": "Minute index, exact flagged cup frames and full 15second visual/OCR index reviewed; no newly verified TT result. Continuous footage/audio review remains incomplete.",
+          "nextReviewTargetsSeconds": [
+            1740,
+            2220,
+            3240,
+            4260,
+            4560,
+            6960,
+            7020,
+            7080,
+            7140,
+            7620
+          ],
+          "preservationLimitation": "Local360pvideo andoriginalaudio preserved/muxed; unlistedupload/fullcontinuousreview pending.",
+          "targetedCupScreensReview": {
+            "reviewedAt": "2026-10-04",
+            "sourceTimestampsSeconds": [
+              1747,
+              2227,
+              3247,
+              4267,
+              4567,
+              6967,
+              7027,
+              7087,
+              7147,
+              7627
+            ],
+            "reviewSheets": [
+              "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/large-targets-1.jpg",
+              "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/large-targets-2.jpg"
+            ],
+            "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Yoshi Cup Glider Challenge, Daisy Cup Ring Race and standard score races; no TT result in flagged screens.",
+            "continuousPlaybackReviewed": false
+          },
+          "audioPreservation": {
+            "videoId": "iFgSqkBbrNw",
+            "status": "locally-preserved-audio-and-video",
+            "file": "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/preserved-with-audio.mp4",
+            "sha256": "3332cd17a11a8053b0d9234c337964384143de3ac4fc0792b45df991f31cbc06",
+            "bytes": 623405045,
+            "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/iFgSqkBbrNw/iFgSqkBbrNw-audio.m4a",
+            "audioSha256": "2dd88fd3b294021363c9f0589216de3cd2576a46c2d3143bfb7b2c9b18cdd2a9",
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "8768.133333"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "8768.179955"
+              }
+            ],
+            "youtubeBackupStatus": "not-uploaded",
+            "continuousPlaybackReviewed": false
+          },
+          "denserReviewReport": "archive/paris2019-carlos-yoshi-broadcast-dense-review-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "644632023394418694",
@@ -95,7 +454,25 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "bvVjkmyDqwg",
+          "url": "https://www.youtube.com/watch?v=bvVjkmyDqwg",
+          "messageIds": [
+            "644632023394418694"
+          ],
+          "reviewStatus": "unavailable-original",
+          "historyComplete": false,
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "yt-dlp reports This video is unavailable; no footage recovered."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "644613181251256336",
@@ -105,7 +482,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "19p_AbL258I",
+          "url": "https://www.youtube.com/watch?v=19p_AbL258I",
+          "messageIds": [
+            "644613181251256336"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Mario Kart Tour - Waluigi Pinball 30k!!! - my first 30k race!!! 2 Frenzies (sorry for no sound!)",
+          "durationSeconds": 182,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/19p_AbL258I.mp4",
+          "sha256": "95998a4ed6c8df3d2d2a961ffa91843074f69c86eeeb5990b3c6f6d47a49674c",
+          "bytes": 7762546,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/19p_AbL258I-review.jpg",
+          "decision": "Short recording indexed at10second intervals through race and end. Opponents, frenzy/items, point HUD and score/results distinguish it from TT. No TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "644379065662439424",
@@ -115,7 +513,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "WNsQs027hZ4",
+          "url": "https://www.youtube.com/watch?v=WNsQs027hZ4",
+          "messageIds": [
+            "644379065662439424"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Yoshi’s Circuit - 130 combo (full combo)",
+          "durationSeconds": 133,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/WNsQs027hZ4.mp4",
+          "sha256": "005161d8531e57e1124ace15111d78df6323f5bafbfe1dff9e318b6e4e739464",
+          "bytes": 2269637,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/WNsQs027hZ4-review.jpg",
+          "decision": "Short recording indexed at10second intervals through race and end. Opponents, frenzy/items, point HUD and score/results distinguish it from TT. No TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "644235562743758849",
@@ -133,7 +552,104 @@
         }
       ],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "rHNIAA_jvxg",
+          "url": "https://www.youtube.com/watch?v=rHNIAA_jvxg",
+          "messageIds": [
+            "644235562743758849"
+          ],
+          "reviewStatus": "whole-broadcast-60second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "title": "Mario Kart Tour - Afterwork Livestream - protect #2 All Cups rank!",
+          "durationSeconds": 9681,
+          "localReviewFile": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/rHNIAA_jvxg.mp4",
+          "sha256": "db59dc7571078d46a84822476329930a95c3cf945b3cd6074f884955cce619b8",
+          "bytes": 476990420,
+          "reviewSheets": [
+            "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/minute-01.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/minute-02.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/minute-03.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/minute-04.jpg",
+            "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/minute-05.jpg"
+          ],
+          "sampleIntervalSeconds": 60,
+          "sampledFrames": 161,
+          "decision": "15second visual/OCR review found a full SGB14488run near8182-8288s, verified52.66/52.22 andprevious14943. Supportingonly,notWR. EarlierminuteindexmissedTT; continuous broadcast review remains incomplete.",
+          "nextReviewTargetsSeconds": [
+            960,
+            2400,
+            2580,
+            4920,
+            5580,
+            5700,
+            5880,
+            6240,
+            7080,
+            7740
+          ],
+          "preservationLimitation": "Originalaudio successfully recovered andmuxed withpreservedvideo. Unlistedupload andcontinuousreview pending.",
+          "targetedReviewFindings": [
+            {
+              "timestampSeconds": 967,
+              "courseId": "snes-mario-circuit-1",
+              "time": "0:52.13",
+              "proofField": "cup-best",
+              "includeInProgression": false
+            }
+          ],
+          "targetedCupScreensReview": {
+            "reviewedAt": "2026-10-04",
+            "sourceTimestampsSeconds": [
+              967,
+              2407,
+              2587,
+              4927,
+              5587,
+              5707,
+              5887,
+              6247,
+              7087,
+              7747
+            ],
+            "reviewSheets": [
+              "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/large-targets-1.jpg",
+              "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/large-targets-2.jpg"
+            ],
+            "findings": "All flagged frames re-extracted at exact source timestamps and visually enlarged. Peach Cup0:52.13 already retained; other flagged frames are standard point races, signal loss or Goomba Takedown.",
+            "continuousPlaybackReviewed": false
+          },
+          "audioPreservation": {
+            "videoId": "rHNIAA_jvxg",
+            "status": "locally-preserved-audio-and-video",
+            "file": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/preserved-with-audio.mp4",
+            "sha256": "10a53944905cf11ae7895a66c7570945b5817a557b2897eed6c55b286e12e3c5",
+            "bytes": 637193255,
+            "audioOriginal": "archive/video-backup-files/paris2019-final-broadcasts/rHNIAA_jvxg/recovered-audio.m4a",
+            "audioSha256": "09bcb6a8c342743f9bf493b299b2d1c79144e64e69a986a1ccb89b62d6c783bb",
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "9680.933333"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "9680.979592"
+              }
+            ],
+            "youtubeBackupStatus": "not-uploaded",
+            "continuousPlaybackReviewed": false,
+            "retryResult": "yt-dlp --js-runtimes node, format140 downloaded successfully; replaces priorfailedattempt."
+          },
+          "denserReviewReport": "archive/paris2019-carlos-afterwork-dense-review-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "643718754433499146",
@@ -143,7 +659,70 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "Brj2XqzuqOA",
+          "url": "https://www.youtube.com/watch?v=Brj2XqzuqOA",
+          "messageIds": [
+            "643718754433499146"
+          ],
+          "reviewStatus": "dense-15second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "title": "GOING FOR MAXIMUM SCORE! - TOP 20 IN WORLD - Mario Kart Tour",
+          "durationSeconds": 4465,
+          "localReviewFile": "archive/video-backup-files/paris2019-highry-nov12/Brj2XqzuqOA.mp4",
+          "bytes": 241409195,
+          "sha256": "a09a5de686a6d02ebde75413233d7ddfa6c013674549de4233aa19e961d93341",
+          "localCopyHasAudio": false,
+          "formatId": "134",
+          "visualIndexReview": {
+            "intervalSeconds": 30,
+            "framesReviewed": 149,
+            "rangeSeconds": [
+              0,
+              4440
+            ],
+            "sheets": [
+              "halfminute-01.jpg",
+              "halfminute-02.jpg",
+              "halfminute-03.jpg",
+              "halfminute-04.jpg"
+            ],
+            "finding": "Four sheets visually reviewed: score-race grids, item/fr frenzy HUD, point finishes, shop/cup menus; no completed TT timer found in reviewed frames.",
+            "limit": "Sampling is not continuous playback and cannot certify complete history."
+          },
+          "denserSearch": {
+            "intervalSeconds": 15,
+            "framesProcessed": 298,
+            "report": "archive/paris2019-highry-nov12-dense-search-20261004.json",
+            "exactMatches": 0,
+            "completeHistoryCertificate": false
+          },
+          "audioPreservation": {
+            "file": "archive/video-backup-files/paris2019-highry-nov12/preserved-with-audio.mp4",
+            "sha256": "8a9f8a41c50a3aa97d53b775cee553b9ef4e4b3734bf0d5c11c7a1dd80b0624e",
+            "bytes": 297432200,
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "4464.651693"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "4464.709660"
+              }
+            ],
+            "report": "archive/paris2019-additional-broadcast-audio-preservation-20261004.json"
+          },
+          "denseVisualReviewReport": "archive/paris2019-highry-nov12-dense-search-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "643498646892969985",
@@ -153,7 +732,27 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "UutB1JIc02Q",
+          "url": "https://www.youtube.com/watch?v=UutB1JIc02Q",
+          "messageIds": [
+            "643498646892969985"
+          ],
+          "reviewStatus": "ranked-cup-score-races-excluded",
+          "historyComplete": false,
+          "durationSeconds": 362,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/UutB1JIc02Q.mp4",
+          "sha256": "21c57033064d583a43fe54f29f3cec643ac1566585a578abf9267778c160f639",
+          "bytes": 15440241,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/UutB1JIc02Q-review-01.jpg",
+          "decision": "Whole short recording indexed at30second intervals: DinoDinoJungle, MarioCircuit1, CheepCheepLagoon point races with opponents and frenzies. No TT finish."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "643103941562728448",
@@ -163,7 +762,22 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "YxitwQsVblg",
+          "url": "https://www.youtube.com/watch?v=YxitwQsVblg",
+          "messageIds": [
+            "643103941562728448",
+            "645331123160743964"
+          ],
+          "reviewStatus": "unavailable",
+          "historyComplete": false
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642847060307083275",
@@ -173,7 +787,23 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "mWFL-3PbV5U",
+          "url": "https://www.youtube.com/watch?v=mWFL-3PbV5U",
+          "messageIds": [
+            "642847060307083275"
+          ],
+          "reviewStatus": "unrelated-media-excluded",
+          "historyComplete": false,
+          "decision": "Saved Discord embed identifies supra mayro kratt release trailer, a different game; no Mario Kart Tour TT claim.",
+          "reviewBasis": "Contemporaneous rendered Discord embed, not footage review. No download needed for unrelated media."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642636960338280458",
@@ -183,7 +813,55 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "4gdT0srgrVw",
+          "url": "https://www.youtube.com/watch?v=4gdT0srgrVw",
+          "messageIds": [
+            "642636960338280458"
+          ],
+          "reviewStatus": "whole-broadcast-60second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "title": "WORLD CUP GRINDING HAS BEGUN! - TOP 100 (Mario Kart Tour)",
+          "durationSeconds": 11506,
+          "localReviewFile": "archive/video-backup-files/paris2019-highry-nov9/4gdT0srgrVw.mp4",
+          "bytes": 620823036,
+          "sha256": "48b574f7ed918337b13f59247539d358af352879c7c4f78e9a6d503677d668be",
+          "localCopyHasAudio": false,
+          "formatId": "134",
+          "visualIndexReview": {
+            "intervalSeconds": 60,
+            "framesReviewed": 192,
+            "rangeSeconds": [
+              0,
+              11460
+            ],
+            "sheets": [
+              "minute-01.jpg",
+              "minute-02.jpg",
+              "minute-03.jpg",
+              "minute-04.jpg",
+              "minute-05.jpg"
+            ],
+            "finding": "Five sheets visually reviewed: point races, setup/shop/cup menus and non-TT challenges. No completed TT timer in reviewed frames.",
+            "limit": "Samples do not certify continuous review and may miss a brief TT entry or cup best; do not certify tour complete."
+          },
+          "ocrSearchAid": {
+            "intervalSeconds": 15,
+            "framesProcessed": 767,
+            "crop": "central game panel",
+            "ocrFile": "archive/video-backup-files/paris2019-highry-nov9/ocr-search.jsonl",
+            "sha256": "a7f6bf4aecae3ec24499b272a461e1cb06c23efff65d296e959cabcedbeec99a",
+            "exactTimeOrTimeTrialTextMatches": 0,
+            "note": "OCR is unverified search aid; empty match set does not prove no time trials or complete history."
+          },
+          "denseVisualReviewReport": "archive/paris2019-highry-nov9-dense-visual-review-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642533619100942337",
@@ -193,7 +871,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "rYl2Mzzv7FM",
+          "url": "https://www.youtube.com/watch?v=rYl2Mzzv7FM",
+          "messageIds": [
+            "642533619100942337"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris - Live Highlights - Cheep Cheep Lagune Ranked 18,9k - double coin frenzy",
+          "durationSeconds": 174,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/rYl2Mzzv7FM.mp4",
+          "sha256": "594e986bc57b44a6f72caa2831514fde15154d42b60f51aa9fed3ba0b0ede461",
+          "bytes": 8157000,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/rYl2Mzzv7FM-review.jpg",
+          "decision": "Short recording indexed at10second intervals through race and end. Opponents, frenzy/items, point HUD and score/results distinguish it from TT. No TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642531661631848448",
@@ -203,7 +902,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "zivttWxWLRE",
+          "url": "https://www.youtube.com/watch?v=zivttWxWLRE",
+          "messageIds": [
+            "642531661631848448"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris - Live Highlights - Yoshis Circuit 22,5k - almost perfect combo - 3 frenzy",
+          "durationSeconds": 156,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/zivttWxWLRE.mp4",
+          "sha256": "7f6d49caea0d8259e043ee704354747fd94b7525bebd98e88e1e8b0104b8b286",
+          "bytes": 8623326,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/zivttWxWLRE-review.jpg",
+          "decision": "Short recording indexed at10second intervals through race and end. Opponents, frenzy/items, point HUD and score/results distinguish it from TT. No TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642456489373597696",
@@ -213,7 +933,97 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "y2X6e0ZdkEU",
+          "url": "https://www.youtube.com/watch?v=y2X6e0ZdkEU",
+          "messageIds": [
+            "642456489373597696"
+          ],
+          "reviewStatus": "dense-15second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris - Get the 1 Million Points!",
+          "durationSeconds": 17136,
+          "localDownloadStatus": "saved",
+          "metadataUploadDate": "2019-11-09",
+          "sourceMessageDate": "2019-11-08",
+          "dateNote": "Broadcast share and metadata upload dates differ; neither implies a TT achievement date.",
+          "localReviewFile": "archive/video-backup-files/paris2019-carlos85-nov8/y2X6e0ZdkEU.mp4",
+          "bytes": 888299798,
+          "sha256": "8ff47102c9f56162ad9f6939eb3401af3dbc84c87b0e0472f3b6c6c698aa9b6f",
+          "localCopyHasAudio": false,
+          "formatId": "134",
+          "visualIndexReview": {
+            "intervalSeconds": 60,
+            "framesReviewed": 286,
+            "rangeSeconds": [
+              0,
+              17100
+            ],
+            "sheets": [
+              "minute-01.jpg",
+              "minute-02.jpg",
+              "minute-03.jpg",
+              "minute-04.jpg",
+              "minute-05.jpg",
+              "minute-06.jpg",
+              "minute-07.jpg",
+              "minute-08.jpg"
+            ],
+            "finding": "All eight sheets visually reviewed. Mostly ranked score racing with points, items, grids and opponents; no completed TT timer found in this index. Cup overview screenshots may contain prior personal bests and need separate zoom review.",
+            "limit": "One-minute samples may miss a sub-minute Mario Circuit1 attempt or quick cup best display; do not certify continuous review or complete history."
+          },
+          "additionalContextReviews": [
+            {
+              "seconds": 1620,
+              "kind": "stream-chat-text-only-claim",
+              "claim": "00:49.45 in time trial",
+              "displayName": "timael",
+              "course": "not stated in message",
+              "decision": "Do not promote to WR or identify Discord player from a display name. Time slower than confirmed MC1 progression if that is intended course.",
+              "localFrame": "archive/video-backup-files/paris2019-carlos85-nov8/peachette-cup-27m.jpg"
+            },
+            {
+              "rangeSeconds": [
+                1530,
+                1770
+              ],
+              "intervalSeconds": 15,
+              "finding": "Score race finish, Lemmy/Peachette cup menus and ParisR/T score race. No footage matching claimed TT total.",
+              "localSheet": "archive/video-backup-files/paris2019-carlos85-nov8/near-time-claim.jpg"
+            }
+          ],
+          "denserSearch": {
+            "intervalSeconds": 15,
+            "framesProcessed": 1142,
+            "report": "archive/paris2019-carlos-nov8-dense-video-review-20261004.json",
+            "decision": "FourOCRcandidates visually reviewed:threeLM13009corroborationframes(oneOCR13000rejected),SGB14943cupdiscrepancy retainedwithoutWRpromotion."
+          },
+          "audioPreservation": {
+            "file": "archive/video-backup-files/paris2019-carlos85-nov8/preserved-with-audio.mp4",
+            "sha256": "502e7eb3ead178d0c738352901eba177a90e09f1fa49b024615621ef73471923",
+            "bytes": 1172031623,
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "17136.333333"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "17136.419410"
+              }
+            ],
+            "report": "archive/paris2019-additional-broadcast-audio-preservation-20261004.json"
+          },
+          "denseVisualReviewReport": "archive/paris2019-carlos-nov8-dense-video-review-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642416471305093131",
@@ -223,7 +1033,24 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "dnYsA3VIr6U",
+          "url": "https://www.youtube.com/watch?v=dnYsA3VIr6U",
+          "messageIds": [
+            "642391524604379177",
+            "642416471305093131"
+          ],
+          "reviewStatus": "unrelated-media-excluded",
+          "historyComplete": false,
+          "decision": "Saved Discord embed identifies Guy eats sand; unrelated non-game clip, no TT claim.",
+          "reviewBasis": "Contemporaneous rendered Discord embed, not footage review. No download needed for unrelated media."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642391524604379177",
@@ -233,7 +1060,24 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "dnYsA3VIr6U",
+          "url": "https://www.youtube.com/watch?v=dnYsA3VIr6U",
+          "messageIds": [
+            "642391524604379177",
+            "642416471305093131"
+          ],
+          "reviewStatus": "unrelated-media-excluded",
+          "historyComplete": false,
+          "decision": "Saved Discord embed identifies Guy eats sand; unrelated non-game clip, no TT claim.",
+          "reviewBasis": "Contemporaneous rendered Discord embed, not footage review. No download needed for unrelated media."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642146317610647582",
@@ -253,7 +1097,22 @@
       "embedUploader": "かぐやん",
       "embedUploaderChannel": "https://www.youtube.com/channel/UCW5YIqI8yhVVuRAoAyFRSUw",
       "embedTitle": "ヘイホーカーニバルの走り方 How to run at Shy-Guy",
-      "freshOriginalTextReviewed": true
+      "freshOriginalTextReviewed": true,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "3zXuJScXRqU",
+          "url": "https://www.youtube.com/watch?v=3zXuJScXRqU",
+          "messageIds": [
+            "642146317610647582"
+          ],
+          "reviewStatus": "unavailable-ranked-score-route",
+          "historyComplete": false,
+          "reviewReport": "archive/paris2019-shy-guy-serverwide-video-recheck-20261003.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642090818211020820",
@@ -263,7 +1122,26 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "JLC1fCp9hxA",
+          "url": "https://www.youtube.com/watch?v=JLC1fCp9hxA",
+          "messageIds": [
+            "642090818211020820"
+          ],
+          "reviewStatus": "unavailable-original",
+          "historyComplete": false,
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "yt-dlp reports This video is unavailable; no footage recovered.",
+            "browserResult": "YouTube page visibly says This video isn’t available anymore."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642082180490592266",
@@ -273,7 +1151,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "hHZ8Sl5Ja24",
+          "url": "https://www.youtube.com/watch?v=hHZ8Sl5Ja24",
+          "messageIds": [
+            "642082180490592266"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris - Bowsers Castle 1 - 200cc - Perfect run with 2 frenzies!",
+          "durationSeconds": 97,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/hHZ8Sl5Ja24.mp4",
+          "sha256": "86f7f8f32b5efb7a655275eef2107d82acebbcc79ba75da0b34cd1ce0588bf1a",
+          "bytes": 5256860,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/hHZ8Sl5Ja24-review.jpg",
+          "decision": "Short recording indexed at10second intervals through race and end. Opponents, frenzy/items, point HUD and score/results distinguish it from TT. No TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642081312559202309",
@@ -283,7 +1182,26 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "nogBPBClQdI",
+          "url": "https://www.youtube.com/watch?v=nogBPBClQdI",
+          "messageIds": [
+            "642081312559202309"
+          ],
+          "reviewStatus": "unavailable-TT-status-unverified",
+          "historyComplete": false,
+          "reviewReport": "archive/paris2019-shy-guy-serverwide-video-recheck-20261003.json",
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "yt-dlp reports This video is unavailable; no recovered run time."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642044476596158474",
@@ -301,7 +1219,21 @@
         }
       ],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "RQmwvCmwUFY",
+          "url": "https://www.youtube.com/watch?v=RQmwvCmwUFY",
+          "messageIds": [
+            "642044476596158474"
+          ],
+          "reviewStatus": "unavailable-known-TT",
+          "historyComplete": false
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "642024927876349964",
@@ -311,7 +1243,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "hwvO0qLQu5s",
+          "url": "https://www.youtube.com/watch?v=hwvO0qLQu5s",
+          "messageIds": [
+            "642024927876349964"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris - Mario Circuit 3 - 20,7k with 2 frenzies!",
+          "durationSeconds": 144,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/hwvO0qLQu5s.mp4",
+          "sha256": "9ee0de3dec0580a0dd4b562b76aef6a7c6ced996ce48a711ee929ac7f60482f3",
+          "bytes": 7578795,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/hwvO0qLQu5s-review.jpg",
+          "decision": "Entire short clip indexed at10second intervals including finish/results. Race has opponents, items, points and final score 20742; no TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "641899980709429248",
@@ -321,7 +1274,97 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "C81yAXpfQEc",
+          "url": "https://www.youtube.com/watch?v=C81yAXpfQEc",
+          "messageIds": [
+            "641899980709429248"
+          ],
+          "reviewStatus": "dense-15second-visual-index-reviewed-not-continuous-playback",
+          "historyComplete": false,
+          "availability": "available",
+          "durationSeconds": 5250,
+          "streamedDate": "2019-11-06",
+          "uploader": "HighRy",
+          "reviewedCheckpoints": [
+            {
+              "seconds": 525,
+              "finding": "Game starting screen"
+            },
+            {
+              "seconds": 1050,
+              "finding": "Baby Daisy Cup SNES Mario Circuit1 score-race selection"
+            },
+            {
+              "seconds": 1575,
+              "finding": "Koopa regular score race; points and position HUD, no TT timer"
+            },
+            {
+              "seconds": 2100,
+              "finding": "Paris standard race grid with multiple competitors"
+            },
+            {
+              "seconds": 2625,
+              "finding": "Paris score race; points and position HUD"
+            }
+          ],
+          "note": "Only listed checkpoints reviewed; full broadcast not yet cleared.",
+          "localReviewFile": "archive/video-backup-files/paris2019-highry-day2/C81yAXpfQEc.mp4",
+          "sha256": "ced1d4b37d3ae8366e55a3adaacf74efef380696c4dcb401590764c41510ccbf",
+          "bytes": 210129151,
+          "formatId": "134",
+          "localCopyHasAudio": false,
+          "visualIndexReview": {
+            "intervalSeconds": 30,
+            "framesReviewed": 175,
+            "rangeSeconds": [
+              0,
+              5220
+            ],
+            "sheets": [
+              "halfminute-01.jpg",
+              "halfminute-02.jpg",
+              "halfminute-03.jpg",
+              "halfminute-04.jpg",
+              "halfminute-05.jpg"
+            ],
+            "findings": "Frames show regular point races, ranked menus, pipe/shop screens, and Lemmy Cup Goomba challenge around46-48minutes. No completed TT timer identified in the reviewed index.",
+            "additionalChallengeReview": "44-50minutes at15second intervals: ShyGuyBazaar score race, Goomba challenge, LuigisMansionT score race.",
+            "limit": "Sampling is not continuous playback and can miss short menu appearances or between-sample evidence; no new WR promoted."
+          },
+          "denserSearch": {
+            "intervalSeconds": 15,
+            "framesProcessed": 350,
+            "report": "archive/paris2019-highry-day2-dense-search-20261004.json",
+            "exactMatches": 0,
+            "completeHistoryCertificate": false
+          },
+          "audioPreservation": {
+            "file": "archive/video-backup-files/paris2019-highry-day2/preserved-with-audio.mp4",
+            "sha256": "fb100f2eed2abf21016ee4e808fa51ba46fd8cb53f8c359c371965971b2d52bb",
+            "bytes": 296986905,
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "5250.733333"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "5251.123084"
+              }
+            ],
+            "report": "archive/paris2019-additional-broadcast-audio-preservation-20261004.json"
+          },
+          "denseVisualReviewReport": "archive/paris2019-highry-day2-dense-search-20261004.json"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "641761317149081604",
@@ -331,7 +1374,25 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "hM43jl_r7RQ",
+          "url": "https://www.youtube.com/watch?v=hM43jl_r7RQ",
+          "messageIds": [
+            "641761317149081604"
+          ],
+          "reviewStatus": "private-original-unavailable",
+          "historyComplete": false,
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "YouTube watch page visibly reports This video is private."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "641760175425847327",
@@ -341,7 +1402,28 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "3XtzvSIthX8",
+          "url": "https://www.youtube.com/watch?v=3XtzvSIthX8",
+          "messageIds": [
+            "641760175425847327"
+          ],
+          "reviewStatus": "regular-score-race-excluded",
+          "historyComplete": false,
+          "title": "Mario Kart Tour Paris - Livestream Highlight - Yoshi Circiut R - 21,7k - 3 Frenzies!",
+          "durationSeconds": 166,
+          "localReviewFile": "archive/video-backup-files/paris2019-remaining-clips/3XtzvSIthX8.mp4",
+          "sha256": "769f478d97d8e5857c987410899183237918b14858ab8cafdab17acabc184773",
+          "bytes": 8788007,
+          "reviewSheet": "archive/video-backup-files/paris2019-remaining-clips/3XtzvSIthX8-review.jpg",
+          "decision": "Short recording indexed at10second intervals through race and end. Opponents, frenzy/items, point HUD and score/results distinguish it from TT. No TT total."
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "641656758430990376",
@@ -351,7 +1433,21 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "G9xJqSeb7n8",
+          "url": "https://www.youtube.com/watch?v=G9xJqSeb7n8",
+          "messageIds": [
+            "641656758430990376"
+          ],
+          "reviewStatus": "sampled-regular-race-excluded-from-WR-proof",
+          "historyComplete": false
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "641280111160721440",
@@ -361,7 +1457,25 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "lGFfKFCx3is",
+          "url": "https://www.youtube.com/watch?v=lGFfKFCx3is",
+          "messageIds": [
+            "641280111160721440"
+          ],
+          "reviewStatus": "unavailable-TT-status-unverified",
+          "historyComplete": false,
+          "availabilityRecheck": {
+            "checkedAt": "2026-10-04",
+            "result": "yt-dlp reports This video is unavailable; no recovered run time."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "641301459245334561",
@@ -371,7 +1485,24 @@
       ],
       "matchingCuratedReferences": [],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "o2G-6dSIaUk",
+          "url": "https://www.youtube.com/watch?v=o2G-6dSIaUk",
+          "messageIds": [
+            "641301459245334561"
+          ],
+          "reviewStatus": "different-game-excluded",
+          "historyComplete": false,
+          "title": "【世界１位】TA ヨッシーサーキット 1:48.433 【マリオカート８デラックス】 [Mario Kart 8 Deluxe yoshi circuit World Record]",
+          "decision": "Visible YouTube title explicitly identifies Mario Kart8Deluxe, not Tour. Do not import the1:48.433 as an MKT result.",
+          "checkedAt": "2026-10-04"
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     },
     {
       "messageId": "641516799527223306",
@@ -410,12 +1541,110 @@
         }
       ],
       "reviewStatus": "saved-recording-link-course-mode-result-and-original-channel-review-pending",
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "priorReviewReconciliationAudit": "archive/paris2019-recording-queue-prior-review-reconciliation-20261010.json",
+      "priorReviewLedger": "archive/paris2019-server-video-review-ledger-20261004.json",
+      "priorVideoReviews": [
+        {
+          "videoId": "-2mNF6DpKYQ",
+          "url": "https://www.youtube.com/watch?v=-2mNF6DpKYQ",
+          "messageIds": [
+            "641516799527223306"
+          ],
+          "reviewStatus": "whole-broadcast-60second-index-and-TT-segment-review-not-continuous-playback",
+          "historyComplete": false,
+          "reviewReport": "archive/paris2019-highry-launch-video-review-20261004.json",
+          "localReviewFile": "archive/video-backup-files/paris2019-highry-launch/-2mNF6DpKYQ.mp4",
+          "sha256": "a9fa198bfba77b6ac691b05ed870f8e8daff11da31caac5ae810ca06dc138381",
+          "bytes": 472504924,
+          "reviewSheets": [
+            "archive/video-backup-files/paris2019-highry-launch/minute-01.jpg",
+            "archive/video-backup-files/paris2019-highry-launch/minute-02.jpg",
+            "archive/video-backup-files/paris2019-highry-launch/minute-03.jpg",
+            "archive/video-backup-files/paris2019-highry-launch/minute-04.jpg",
+            "archive/video-backup-files/paris2019-highry-launch/minute-05.jpg",
+            "archive/video-backup-files/paris2019-highry-launch/minute-06.jpg"
+          ],
+          "sampleIntervalSeconds": 60,
+          "sampledFrames": 202,
+          "fineSegmentsReviewedSeconds": [
+            [
+              1440,
+              1560
+            ],
+            [
+              5160,
+              5400
+            ],
+            [
+              9240,
+              9420
+            ]
+          ],
+          "fineSegmentIntervalSeconds": 5,
+          "denserSearch": {
+            "sampleIntervalSeconds": 15,
+            "frames": 809,
+            "ocrOutput": "archive/video-backup-files/paris2019-highry-launch/ocr-search.jsonl",
+            "role": "OCRsearchaidonly; identified timer samples inspected, no global absence proof."
+          },
+          "verifiedResults": [
+            {
+              "courseId": "snes-mario-circuit-1",
+              "time": "0:55.31",
+              "sourceTimestampSeconds": 1442
+            },
+            {
+              "courseId": "snes-mario-circuit-1",
+              "time": "0:55.70",
+              "sourceTimestampSeconds": 1532,
+              "previousBest": "0:55.31"
+            },
+            {
+              "courseId": "ds-luigi-s-mansion",
+              "time": "1:36.22",
+              "sourceTimestampSeconds": 5367
+            },
+            {
+              "courseId": "snes-mario-circuit-1",
+              "time": "0:54.76",
+              "sourceTimestampSeconds": 9352,
+              "previousBest": "0:55.31"
+            }
+          ],
+          "decision": "All6minute-indexsheets reviewed; three TTsegments5secondframes reviewed. Original finished slower runs mapped without WR promotion. Late LMcup again1:36.22; OCR1:30.22 false match rejected by image. No exact laps inferred from coarse frames.",
+          "preservationLimitation": "Local360p video and original audio preserved/muxed; unlisted upload/fullcontinuousreview pending.",
+          "audioAndVideoPreservation": {
+            "file": "archive/video-backup-files/paris2019-highry-launch/preserved-with-audio.mp4",
+            "sha256": "094f8c99aeae5feef34568225e5afd00250586a7294484af05f3933e05266783",
+            "bytes": 674530177,
+            "audioOriginal": "archive/video-backup-files/paris2019-highry-launch/-2mNF6DpKYQ-audio.m4a",
+            "audioSha256": "e4be4e2e7b03aead2a8e3cc4ecd85c2a564cac3396b870859e99fdc9e2642d4f",
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "duration": "12140.306974"
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio",
+                "duration": "12140.506848"
+              }
+            ],
+            "status": "locally-preserved-audio-and-video",
+            "youtubeBackupStatus": "not-uploaded",
+            "reviewLimitation": "No full continuous playback/audio-transcript review; mux retains original downloaded tracks without re-encoding."
+          }
+        }
+      ],
+      "priorReviewCrosswalkStatus": "prior-video-review-found-scope-limitations-retained"
     }
   ],
   "summary": {
     "savedRecordingLinkPosts": 35,
-    "postsWithExactExistingCuratedVideoMatch": 3
+    "postsWithExactExistingCuratedVideoMatch": 3,
+    "postsWithPriorVideoReview": 35
   },
   "priorityMessageIds": [
     "642146317610647582",
