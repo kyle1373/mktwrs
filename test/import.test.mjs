@@ -8,6 +8,7 @@ import {
   completeTwoLapSplit,
   verifiedSplitEvidence,
   recordAppearance,
+  exactReviewedRecordSubmission,
 } from "../scripts/import-sources.mjs";
 test("historical announcement tour wins over its later posting date", () => {
   const appearances = [
@@ -82,4 +83,16 @@ test("proof upload dates decode only Discord attachment snowflakes", () => {
     ),
     null,
   );
+});
+
+test("exact reviewed publication clock survives an equal-time undated spreadsheet row", () => {
+  const record = {id:"curated-original",courseId:"toad",playerId:"superfx",timeCs:6651};
+  const sheet = {...record,id:"sheet",achievedAt:"2019-10-23",submittedAt:null};
+  const original = {...record,submittedAt:"2019-10-23T06:57:26.608Z",submissionSourceReview:{originalTextAndClockReviewed:true,reviewAudit:"archive/source.json"}};
+  assert.equal(exactReviewedRecordSubmission(record,[sheet,original]),original);
+  assert.equal(exactReviewedRecordSubmission(record,[sheet,{...original,id:"equal-time-rerun"}]),undefined);
+  assert.equal(exactReviewedRecordSubmission(record,[{...original,timeCs:6602}]),undefined);
+  assert.equal(exactReviewedRecordSubmission(record,[{...original,playerId:"other"}]),undefined);
+  assert.equal(exactReviewedRecordSubmission(record,[{...original,courseId:"other"}]),undefined);
+  assert.equal(exactReviewedRecordSubmission(record,[{...original,submissionSourceReview:{}}]),undefined);
 });

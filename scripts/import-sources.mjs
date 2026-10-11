@@ -1,3 +1,11 @@
+export function exactReviewedRecordSubmission(record, matches) {
+  return matches.find(submission => submission.id === record.id &&
+    submission.playerId === record.playerId && submission.timeCs === record.timeCs &&
+    submission.courseId === record.courseId && submission.submittedAt &&
+    submission.submissionSourceReview?.originalTextAndClockReviewed === true &&
+    submission.submissionSourceReview?.reviewAudit);
+}
+
 export function reviewedPlayer(entry, players, resolveName) {
   if (!entry.playerId) return resolveName(entry.player);
   const existing = players.get(entry.playerId);
@@ -621,7 +629,7 @@ export function importSources(courses, players) {
           b.achievedAt || b.submittedAt || b.proofUploadedAt || "9999",
         ),
       );
-      let s =
+      let s = exactReviewedRecordSubmission(r, matches) ||
         matches.find(
           (x) => x.achievedAt || x.submittedAt || x.proofUploadedAt,
         ) || matches.find((x) => x.laps.some((l) => l !== null))

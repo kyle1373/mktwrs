@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "problem": "Generator selected an undated equal-time spreadsheet submission ahead of exact reviewed SuperFX original, replacing submittedAt and lapSource on WR record.",
+  "change": "Prefer exact canonical submission ID only when course, runner and centisecond total also match and originalTextAndClockReviewed plus reviewAudit and submission clock are present. Other matching and chronology logic unchanged.",
+  "affectedEvidence": [
+    "curated-original-2019-wr-row-5",
+    "curated-original-2019-wr-row-6"
+  ],
+  "validation": {
+    "targetedImportTestsPassed": 8,
+    "isolatedDataBuildExitCode": 0,
+    "regeneratedReviewedFieldsMatchCommittedEntries": true,
+    "checkedFields": [
+      "submittedAt",
+      "lapSource",
+      "lapDerivation",
+      "submissionSourceReview"
+    ],
+    "checkedCollections": [
+      "records",
+      "submissions"
+    ],
+    "buildLogSha256": "75da9c6e76266036ade9ab1c8a72b1064df27f6a54048a29808831a941e97ef2"
+  },
+  "publicationInvestigation": {
+    "documentedHost": "Railway",
+    "documentedProject": "80b026c9-fa2d-4e7d-9b01-657a2f631ff0",
+    "documentedService": "dc662fe0-1295-439f-ba7f-d957436f93c5",
+    "configuredBuild": "npm run build",
+    "deploymentListResult": "Current Railway CLI session does not have access to requested project/environment/service."
+  },
+  "limitations": [
+    "Isolated data regeneration, not production deployment or full Next application build. No regenerated bulk data copied into dirty workspace.",
+    "Canonical selection protects a reviewed source from an equal-time spreadsheet row; it does not establish completeness or override another canonical race.",
+    "Live response previously lacked committed fields; generator defect reproduced separately. Inaccessible deployment status prevents attribution of all live drift to this defect.",
+    "History and recordings remain incomplete."
+  ]
+}
