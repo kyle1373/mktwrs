@@ -3327,7 +3327,10 @@
         "reports": [
           "archive/cat2022-frappesnowlandr-twentythree-sheet-original-command-receipt-reconciliation-20261011.json",
           "archive/cat2022-frappesnowlandr-six-named-and-deleted-account-reconciliation-20261011.json",
-          "archive/cat2022-frappesnowlandr-two-existing-recording-share-reconciliation-20261011.json"
+          "archive/cat2022-frappesnowlandr-two-existing-recording-share-reconciliation-20261011.json",
+          "archive/cat2022-yoshivalley-twentynine-sheet-original-command-receipt-reconciliation-20261011.json",
+          "archive/cat2022-yoshivalley-seven-preserved-image-source-sheet-reconciliation-20261011.json",
+          "archive/cat2022-sucha13018-accepted-submission-video-share-reconciliation-20261011.json"
         ],
         "scope": "Bounded source-date, exact-result, recording-link and correction-trail work for individual courses. References do not certify every tour course or exact availability window.",
         "remainingRequirements": [
@@ -3337,7 +3340,12 @@
           "fastest-completed-recording-verification",
           "exact-tour-boundaries",
           "live-publication-verification"
-        ]
+        ],
+        "yoshiValleySheetReconciliation": {
+          "existingRowsDated": 36,
+          "remainingUndatedRows": 5,
+          "fullHistoryOpen": true
+        }
       }
     },
     {
@@ -3944,7 +3952,7 @@
       "tour": "Animal Tour",
       "startDate": "2022-11-16",
       "endDate": "2022-11-30",
-      "reviewStatus": "pending-ordered-review",
+      "reviewStatus": "partial-preserved-source-and-publication-reconciliation; full-history-open",
       "historyComplete": false,
       "courses": [
         {
@@ -3966,7 +3974,38 @@
           ],
           "priorAuditIsCurrentCertificate": false
         }
-      ]
+      ],
+      "latestPreservedReconciliation": {
+        "checkedAt": "2026-10-11",
+        "reports": [
+          "archive/animal2022-yoshivalleyr-ten-preserved-image-source-sheet-reconciliation-20261011.json",
+          "archive/animal2022-yoshivalleyr-sixteen-sheet-original-command-receipt-reconciliation-20261011.json",
+          "archive/animal2022-yoshivalleyr-three-slash-response-sheet-original-command-receipt-reconciliation-20261011.json",
+          "archive/animal2022-yoshivalleyr-two-cancelled-replacement-source-clock-reconciliation-20261011.json"
+        ],
+        "scope": "Bounded course source-date, exact result, recording link and replacement trail reconciliation. References do not certify every tour course or exact availability window.",
+        "remainingRequirements": [
+          "complete-source-coverage",
+          "competing-record-chronology",
+          "original-proof-review",
+          "fastest-completed-recording-verification",
+          "exact-tour-boundaries",
+          "live-publication-verification"
+        ],
+        "yoshiValleyRSheetReconciliation": {
+          "existingRowsDated": 31,
+          "remainingUndatedRows": 6,
+          "missingOrAmbiguousSources": [
+            "Nu11 1:30.47 final record date",
+            "kuRi 1:31.79 account continuity",
+            "kuRi 1:31.69 account continuity",
+            "Sucha 1:31.10 original source",
+            "Manfredi 1:34.02 original source",
+            "Okusho 1:31.30 original source"
+          ],
+          "fullHistoryOpen": true
+        }
+      }
     },
     {
       "tourId": "tour-109",
