@@ -1,0 +1,115 @@
+{
+  "reviewedAt": "2026-10-11",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "fireballVideo": "https://youtu.be/CDzFP6xTxlY",
+  "fireballTime": "1:19.95",
+  "originalResultSubmittedAt": "2022-05-18T05:55:34.604Z",
+  "documentedShareEvents": [
+    {
+      "sharedAt": "2022-05-18T06:04:44.389Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/976364699706855424",
+        "channel": "tt-submission",
+        "messageId": "976364699706855424"
+      },
+      "sharedByDisplay": "Fireball",
+      "reviewAudit": "archive/doctor2022-fireball-two-video-shares-and-wins-link-discrepancy-20261011.json",
+      "freshOriginalPostReviewed": false,
+      "freshFootageReviewed": false,
+      "preservedSourceReviewed": true,
+      "kind": "documented-discord-share-not-earliest-publication-claim"
+    },
+    {
+      "sharedAt": "2022-05-18T06:14:33.872Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/976367172177780747",
+        "channel": "tt-submission",
+        "messageId": "976367172177780747"
+      },
+      "sharedByDisplay": "Fireball",
+      "reviewAudit": "archive/doctor2022-fireball-two-video-shares-and-wins-link-discrepancy-20261011.json",
+      "freshOriginalPostReviewed": false,
+      "freshFootageReviewed": false,
+      "preservedSourceReviewed": true,
+      "kind": "documented-discord-share-not-earliest-publication-claim"
+    }
+  ],
+  "validation": {
+    "status": "passed-exact-staged-result-invariants-and-four-generated-canonical-record-share-checks",
+    "checks": [
+      {
+        "section": "records",
+        "id": "curated-doctor-2022-976204128156024902",
+        "shareMessageIds": [
+          "976388182927110204"
+        ]
+      },
+      {
+        "section": "records",
+        "id": "977977786604073020",
+        "shareMessageIds": [
+          "976364699706855424",
+          "976367172177780747"
+        ]
+      },
+      {
+        "section": "submissions",
+        "id": "curated-doctor-2022-976204128156024902",
+        "shareMessageIds": [
+          "976388182927110204"
+        ]
+      },
+      {
+        "section": "submissions",
+        "id": "curated-doctor-2022-976362392856436766",
+        "shareMessageIds": [
+          "976364699706855424",
+          "976367172177780747"
+        ]
+      }
+    ],
+    "documentedShareEventsAdded": 3,
+    "newResults": 0,
+    "newWrTransitions": 0,
+    "resultClocksAndMediaUnchanged": true
+  },
+  "limitations": [
+    "Preserved source text reviewed; no fresh browser or footage certification.",
+    "Fireball prior full-video verification retained; exact result-submission clock precedes documented video shares. Private May13upload not substituted for public submission.",
+    "Wins preserved census and existing canonical video URLs match exactly. Earlier one-character-conflict claim was erroneous; fresh original-source and footage review remain pending.",
+    "No fastest completed-recording or tour completion certification."
+  ],
+  "winsVideoLinkComparison": {
+    "messageId": "976388182927110204",
+    "sharedAt": "2022-05-18T07:38:03.225Z",
+    "preservedCensusVideo": "https://youtu.be/lmAiDVHqHwg",
+    "existingCanonicalVideo": "https://youtu.be/lmAiDVHqHwg",
+    "status": "exact-url-match-in-preserved-census-and-canonical-data; fresh-original-and-footage-review-pending"
+  },
+  "winsDocumentedShareEvent": {
+    "sharedAt": "2022-05-18T07:38:03.225Z",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/976388182927110204",
+      "channel": "tt-discussion",
+      "messageId": "976388182927110204"
+    },
+    "sharedByDisplay": "Wins",
+    "reviewAudit": "archive/doctor2022-fireball-two-video-shares-and-wins-link-discrepancy-20261011.json",
+    "freshOriginalPostReviewed": false,
+    "freshFootageReviewed": false,
+    "preservedSourceReviewed": true,
+    "kind": "documented-discord-share-not-earliest-publication-claim"
+  },
+  "sourceCensuses": [
+    "archive/tt-discussion-2022-full-message-census-20261004.json",
+    "archive/tt-submission-2022-count-reconciliation-20261005.json"
+  ],
+  "regenerationGap": {
+    "sheetId": "sheet-AJD63",
+    "existingPublishedVideo": "https://youtu.be/CDzFP6xTxlY",
+    "isolatedGeneratedVideo": null,
+    "status": "pre-existing-sheet-video-enrichment-not-reproduced-by-generator; public-media-retained",
+    "actionRequired": "Reconcile exact sheet result with canonical verified-video evidence in regeneration authority before a future full rebuild."
+  }
+}
