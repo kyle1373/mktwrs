@@ -1,0 +1,17 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "change": "Expose linked displayed forum post and edit clocks in existing evidence panel",
+  "validation": {
+    "command": "node --test test/forum-evidence-times-render.test.mjs test/halloween-recording-comparison.test.mjs test/split-source-note-render.test.mjs",
+    "passed": 10,
+    "failed": 0,
+    "actualCourseProjectionCovered": true,
+    "forumOnlyUnknownTimezoneRenderingCovered": true
+  },
+  "limitations": [
+    "Displayed forum clocks remain unconverted and labeled timezone unknown. They do not establish exact race timestamps or historical per-edit contents.",
+    "Performance data, original video fields and WR progression unchanged. Live deployment not verified; no screenshot or fresh footage assessment claimed."
+  ]
+}

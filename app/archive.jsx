@@ -72,10 +72,17 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!r.submittedAt && !r.videoPublishedAt && !shares.length) return null;
+  if (!r.submittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length) return null;
   return <details className="evidence-times">
     <summary>Submission and video times</summary>
     {r.submittedAt && <div>Submitted: {format(r.submittedAt)}</div>}
+    {(r.forumSourceTimes || []).map(source => <div key={source.url}>
+      Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
+      {source.forumTimezoneKnown !== true && " (timezone unknown)"}
+      {source.forumLastEditDisplayed && <div>Last forum edit: {source.forumLastEditDisplayed}{source.forumTimezoneKnown !== true && " (timezone unknown)"}</div>}
+      <div>Displayed source clocks; exact race time and historical edit contents unconfirmed.</div>
+    </div>)}
+
     {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
     {shares.map((event, index) => <div key={event.source?.url || index}>
       Video shared: {event.source?.url ? <a href={event.source.url} target="_blank" rel="noopener noreferrer">{format(event.sharedAt)}</a> : format(event.sharedAt)}

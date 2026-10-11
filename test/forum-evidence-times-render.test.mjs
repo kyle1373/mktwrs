@@ -1,0 +1,35 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createRequire} from 'node:module';
+import Module from 'node:module';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {routeData} from '../lib/data.mjs';
+const require=createRequire(import.meta.url);
+const swc=require('next/dist/build/swc');
+await swc.loadBindings();
+const page=fs.readFileSync(new URL('../app/archive.jsx',import.meta.url),'utf8');
+const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function SplitSourceNote('));
+const {code}=await swc.transform(selected+'\nexports.EvidenceTimes=EvidenceTimes;', {filename:'forum-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
+const filename=new URL('../app/forum-times-render.cjs',import.meta.url).pathname;
+const compiled=new Module(filename);
+compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
+compiled._compile(code,filename);
+const render=r=>renderToStaticMarkup(React.createElement(compiled.exports.EvidenceTimes,{r}));
+test('actual NBC record preserves original forum clocks through client projection',()=>{
+ const r=routeData(['course','3ds-neo-bowser-city']).data.records.find(r=>r.id==='curated-637479815665942539-3ds-neo-bowser-city');
+ assert.equal(r.forumSourceTimes.length,1);
+ const html=render(r);
+ assert.match(html,/10\/25\/19 at 03:48:15/);
+ assert.match(html,/timezone unknown/);
+ assert.match(html,/1571823398\/30#30/);
+ assert.doesNotMatch(html,/Submitted:/);
+});
+test('forum-only evidence and displayed edit clocks appear without fabricated UTC submission',()=>{
+ const html=render({forumSourceTimes:[{url:'https://example.com/forum/31',forumPostedAtDisplayed:'10/25/19 at 07:07:00',forumLastEditDisplayed:'10/25/19 at 08:00:00',forumTimezoneKnown:false}]});
+ assert.match(html,/Forum report:/);assert.match(html,/Last forum edit:/);
+ assert.doesNotMatch(html,/UTC|Submitted:/);
+ assert.match(html,/exact race time and historical edit contents unconfirmed/);
+});
+test('absent clocks render no panel',()=>assert.equal(render({}),''));
