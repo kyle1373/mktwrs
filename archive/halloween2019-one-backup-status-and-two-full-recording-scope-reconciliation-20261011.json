@@ -1,0 +1,76 @@
+{
+  "reviewedAt": "2026-10-11T21:45:27.021763+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "backupStatusReconciliation": {
+    "time": "1:34.43",
+    "courseId": "gcn-dino-dino-jungle",
+    "priorStatus": "queued-not-uploaded",
+    "currentStatus": "available",
+    "backup": {
+      "url": "https://www.youtube.com/watch?v=J-I72qZDF4M",
+      "originalUrl": "https://twitter.com/tomegome_g/status/1190016227671826433?s=21",
+      "channel": "SuperFX64",
+      "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+      "visibility": "unlisted",
+      "status": "available",
+      "uploadedAt": "2026-09-30T18:24:44.572625+00:00",
+      "sha256": "1ce63a6bc3e00f66b8e084137df7d59c1d0a847b8c3370b62b2909fdd7beb363",
+      "bytes": 31697867,
+      "credit": "Tome (tomegome_g)",
+      "checks": "Checks complete; no issues found"
+    },
+    "verification": {
+      "reviewAudit": "archive/halloween2019-one-backup-status-and-two-full-recording-scope-reconciliation-20261011.json",
+      "metadataSnapshot": "archive/halloween2019-tome-backup-selected-metadata-20261011.json",
+      "checkedAt": "2026-10-11T21:45:27.021763+00:00",
+      "availability": "unlisted",
+      "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+      "titleAndOriginalLinkMatch": true,
+      "preservedOriginalFileHashMatchesBackupLedger": true,
+      "freshFootageReviewed": false,
+      "remoteMediaBytesCompared": false
+    },
+    "priorLedger": "archive/video-backups.json",
+    "priorLedgerSha256": "6c1a1ae43095067c00616969e400808b695d6c4fa29fc4d4c9193b552c3bf144"
+  },
+  "fullRecordingScopeReviews": [
+    {
+      "publicId": "curated-637479815665942539-3ds-toad-circuit",
+      "canonicalMessageId": "637479815665942539-3ds-toad-circuit",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:04.85",
+      "videoId": "zyMlDQ5xeM0",
+      "originalUrl": "https://youtu.be/zyMlDQ5xeM0",
+      "originalFile": "archive/video-backup-files/59848b316d9a856a5417/original.mp4",
+      "sha256": "6117a945a6ae97b6d116a9e3e0041a549ab673c34be76bcddb3642ea2849a300",
+      "bytes": 13643864,
+      "priorVisualReview": "archive/october2019-recovered-videos.json",
+      "priorFullRecordingDescription": "Full original recording visually rereviewed; first-lap overlay and finish verified. Second lap derived from total minus lap 1, and a finish still is preserved on the website.",
+      "freshFootageReviewed": false,
+      "videoScope": "full-run"
+    },
+    {
+      "publicId": "curated-original-2019-wr-row-46",
+      "canonicalMessageId": "original-2019-wr-row-46",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:35.69",
+      "videoId": "21_QA4FRXwM",
+      "originalUrl": "https://youtu.be/21_QA4FRXwM",
+      "originalFile": "archive/video-backup-files/c72a858692233c22e061/original.mp4",
+      "sha256": "43ebd614fa47e2f2360357078497f22d7162dd32cd6d394134121ee9578cb473",
+      "bytes": 20852778,
+      "priorVisualReview": "archive/october2019-recovered-videos.json",
+      "priorFullRecordingDescription": "Full original recording visually rereviewed; first-lap overlay and finish verified. Second lap derived from total minus lap 1, and a finish still is preserved on the website.",
+      "freshFootageReviewed": false,
+      "videoScope": "full-run"
+    }
+  ],
+  "limitations": [
+    "Current backup metadata establishes accessibility, title, attribution and source link; remote video bytes were not downloaded or compared. Matching hash is from the saved upload ledger and preserved original file.",
+    "Two full-race scope declarations carry explicit prior visual reviews, not new pixel inspection. Sheet duplicates without explicit recording reviews are not independently promoted.",
+    "No race total, splits, achievement date, submission clock, WR status or fastest recording selection changed. Backup upload/publication time is separate from the 2019 result and video publication clocks.",
+    "Tour source coverage, unavailable originals, intermediate dates, recording-clock conflict and live deployment still require completion review."
+  ]
+}
