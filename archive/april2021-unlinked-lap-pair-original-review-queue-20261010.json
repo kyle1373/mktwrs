@@ -179,8 +179,13 @@
       },
       "capturedAt": "2021-04-10T16:10:49.869Z",
       "capturedText": "Wins\n — \n4/10/21, 9:10 AM\nSaturday, April 10, 2021 at 9:10 AM\nanyway, lap times 48.11 / 48.03",
-      "status": "pending-original-context-and-canonical-crosswalk",
-      "candidateOnly": true
+      "status": "preserved-context-lap-pair-matched-existing-result-account-id-unresolved",
+      "candidateOnly": true,
+      "canonicalIds": [
+        "ninja-2021-830472826410237972-13614"
+      ],
+      "reviewAudit": "archive/april2021-wins13614-preserved-context-and-deleted-user-source-gap-20261010.json",
+      "freshOriginalReviewed": false
     },
     {
       "messageId": "830545269983805451",
@@ -431,8 +436,14 @@
       },
       "capturedAt": "2021-04-19T01:38:55.433Z",
       "capturedText": "Deleted User\n — \n4/18/21, 6:38 PM\nSunday, April 18, 2021 at 6:38 PM\n29.25/30.32",
-      "status": "pending-original-context-and-canonical-crosswalk",
-      "candidateOnly": true
+      "status": "unresolved-deleted-account-linkage",
+      "candidateOnly": true,
+      "candidateCanonicalIds": [
+        "833516923433779211-833516919244062720-april2021-support-reviewed"
+      ],
+      "reviewAudit": "archive/april2021-wins13614-preserved-context-and-deleted-user-source-gap-20261010.json",
+      "freshOriginalReviewed": false,
+      "unresolvedBasis": "Exact lap pair, preceding result screenshot and DeletedUser display agree, but multiple deleted accounts can share that display. No avatar account ID, reply linkage or fresh original evidence establishes common account; do not add as certain source."
     },
     {
       "messageId": "834715888237674526",
@@ -637,10 +648,11 @@
     "original-image-and-lap-pair-result-verified": 2,
     "preserved-same-account-lap-pair-matched-existing-result": 20,
     "existing-canonical-source-url-crosswalk": 7,
-    "pending-original-context-and-canonical-crosswalk": 2,
+    "preserved-context-lap-pair-matched-existing-result-account-id-unresolved": 1,
     "excluded-hypothetical-best-splits": 3,
     "original-split-post-matched-existing-result-and-video": 1,
-    "excluded-hypothetical-target-not-achieved": 1
+    "excluded-hypothetical-target-not-achieved": 1,
+    "unresolved-deleted-account-linkage": 1
   },
   "limitations": [
     "Message IDs absent from canonical references may be split followups to existing screenshots; original context review and player/course/time crosswalk required before creating results.",
