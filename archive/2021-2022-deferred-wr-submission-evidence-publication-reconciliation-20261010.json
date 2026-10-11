@@ -4,7 +4,7 @@
   "certifiedThrough": null,
   "priorQueue": "archive/2021-2022-supporting-submission-aggregate-publication-reconciliation-20261010.json",
   "reconciledCount": 182,
-  "remainingCount": 7,
+  "remainingCount": 5,
   "changes": [
     {
       "courseId": "berlin-byways-3",
@@ -2638,21 +2638,6 @@
   ],
   "remaining": [
     {
-      "courseId": "n64-kalimari-desert-2",
-      "publicId": "curated-798874516897398785-n64-kalimari-desert-2",
-      "year": "2021",
-      "status": "community-wr",
-      "time": "1:03.91",
-      "reason": "WR-or-non-supporting-classification-needs-separate-review",
-      "changedFields": [
-        "additionalSources",
-        "lapMatchBasis",
-        "lapSource",
-        "laps"
-      ],
-      "disposition": "identity-date-lap-or-classification-review-required"
-    },
-    {
       "courseId": "rmx-choco-island-2",
       "publicId": "curated-sydney-april-2021-835065834153705532-10305",
       "year": "2021",
@@ -2684,15 +2669,6 @@
         "status"
       ],
       "disposition": "identity-date-lap-or-classification-review-required"
-    },
-    {
-      "courseId": "gba-snow-land",
-      "publicId": "curated-1057203100018020425-holiday2022-proof-reviewed",
-      "year": "2022",
-      "status": "community-wr",
-      "time": "1:08.42",
-      "reason": "WR-or-non-supporting-classification-needs-separate-review",
-      "disposition": "missing-classified-submission-review-required"
     },
     {
       "courseId": "gba-sunset-wilds",
@@ -2761,5 +2737,19 @@
     "Existing evidence notes and video-share provenance restored from committed track files; no new original media verification.",
     "Excluded identity, time, classification, achievement date, submission clock, laps and verification disagreements. Remaining cases require individual source review.",
     "WR record lists and current records unchanged. This does not certify2021or2022history."
+  ],
+  "subsequentResolutions": [
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "publicId": "curated-798874516897398785-n64-kalimari-desert-2",
+      "audit": "archive/berlin2021-phillish-kd2-original-lap-aggregate-reconciliation-20261010.json",
+      "disposition": "original-written-laps-rechecked-aggregate-reconciled"
+    },
+    {
+      "courseId": "gba-snow-land",
+      "publicId": "curated-1057203100018020425-holiday2022-proof-reviewed",
+      "audit": "archive/holiday2022-nu11-snow-land-original-command-receipt-publication-reconciliation-20261010.json",
+      "disposition": "original-command-and-updated-receipt-rechecked-missing-aggregate-submission-restored"
+    }
   ]
 }
