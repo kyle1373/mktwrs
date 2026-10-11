@@ -1,0 +1,58 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "preservedSource": "archive/halloween2019-full-discussion-message-census-20261004.json",
+  "reports": [
+    {
+      "id": "search-result-636867875193487370",
+      "links": [],
+      "text": "Benny91\n — \n10/24/19, 3:05 AM\nThursday, October 24, 2019 at 3:05 AM\nI got 42.97 L1",
+      "messageId": "636867875193487370",
+      "postedAt": "2019-10-24T10:05:33.879Z",
+      "timestampBasis": "Discord message ID creation timestamp"
+    },
+    {
+      "id": "search-result-637254431917867008",
+      "links": [],
+      "text": "Benny91\n — \n10/25/19, 4:41 AM\nFriday, October 25, 2019 at 4:41 AM\nL1 was 32.49 though",
+      "messageId": "637254431917867008",
+      "postedAt": "2019-10-25T11:41:36.184Z",
+      "timestampBasis": "Discord message ID creation timestamp"
+    },
+    {
+      "id": "search-result-637255566128840715",
+      "links": [],
+      "text": "Benny91\n — \n10/25/19, 4:46 AM\nFriday, October 25, 2019 at 4:46 AM\nLap2 was 32.42",
+      "messageId": "637255566128840715",
+      "postedAt": "2019-10-25T11:46:06.601Z",
+      "timestampBasis": "Discord message ID creation timestamp"
+    }
+  ],
+  "changedObjects": [
+    "archive/curated-runs.json/23",
+    "archive/curated-runs.json/2742",
+    "public/data/courses/3ds-neo-bowser-city.json/submissions/109",
+    "public/data/courses/3ds-toad-circuit.json/records/17",
+    "public/data/courses/3ds-toad-circuit.json/submissions/55",
+    "public/data/courses.json/78/submissions/48",
+    "public/data/courses.json/125/records/17",
+    "public/data/courses.json/125/submissions/55"
+  ],
+  "findings": [
+    "NeoBowserCity1:26.45:lapone42.97explicit original player report, laptwo43.48arithmetic derivation. Aggregate blank splits corrected to match individual and canonical evidence.",
+    "ToadCircuit1:04.91:original player explicitly reports lapone32.49andlaptwo32.42in two preserved posts; existing splits unchanged and supporting source links added."
+  ],
+  "validation": {
+    "lapArithmeticMatchesTotals": true,
+    "onlyLapProvenanceAndMatchingSourcesChanged": true,
+    "datesPlayersTimesStatusesAndVideosUnchanged": true
+  },
+  "limitations": [
+    "Preserved text inspected; no fresh Discord or image review.",
+    "Adjacent context and established Benny91/Unreal91 alias retained from prior source reviews.",
+    "Lapone42.97report does not independently show the laptwo overlay. No race footage inferred.",
+    "Full tour source reconciliation and live deployment remain incomplete."
+  ]
+}

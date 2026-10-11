@@ -1117,6 +1117,18 @@
         "publishedAt": "2019-10-26T01:12:36.886Z",
         "kind": "secondary-same-runner-equal-time-social-post-reference",
         "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json"
+      },
+      {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254431917867008",
+        "channel": "tt-discussion",
+        "messageId": "637254431917867008",
+        "kind": "adjacent-player-lap-report"
+      },
+      {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/637255566128840715",
+        "channel": "tt-discussion",
+        "messageId": "637255566128840715",
+        "kind": "adjacent-player-lap-report"
       }
     ],
     "proofImageVerified": true,
@@ -1135,6 +1147,26 @@
       "socialAfterDiscordSeconds": 821.454,
       "separateAttemptsProven": false,
       "groupingBasis": "Established player aliases, same course/total, original Unreal forum link and matching approximate 14-minute report; preserve sources as one performance."
+    },
+    "lapReportSourceReview": {
+      "audit": "archive/halloween2019-two-unreal-original-lap-report-publication-reconciliation-20261011.json",
+      "sources": [
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254431917867008",
+          "channel": "tt-discussion",
+          "messageId": "637254431917867008",
+          "kind": "adjacent-player-lap-report"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637255566128840715",
+          "channel": "tt-discussion",
+          "messageId": "637255566128840715",
+          "kind": "adjacent-player-lap-report"
+        }
+      ],
+      "bothSplitsExplicitlyReported": true,
+      "freshOriginalDiscordReview": false,
+      "preservedTextReviewed": true
     }
   },
   {
@@ -84784,7 +84816,23 @@
         "messageId": "636867875193487370",
         "kind": "adjacent-player-lap-report"
       }
-    ]
+    ],
+    "lapSource": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/636867875193487370",
+      "channel": "tt-discussion",
+      "messageId": "636867875193487370",
+      "kind": "adjacent-player-lap-report"
+    },
+    "derivedLap": 2,
+    "lapDerivation": {
+      "lap": 2,
+      "basis": "total-minus-explicitly-reported-lap-one",
+      "total": "1:26.45",
+      "reportedLapOne": "42.97",
+      "derivedLapTwo": "43.48",
+      "reviewAudit": "archive/halloween2019-two-unreal-original-lap-report-publication-reconciliation-20261011.json"
+    },
+    "lapMatchBasis": "Adjacent original player explicitly reports lap one42.97 after this1:26.45 result; lap two43.48 calculated from total minus lap one."
   },
   {
     "messageId": "636894586735820831-opening2019-proof-review",
