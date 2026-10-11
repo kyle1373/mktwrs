@@ -102184,7 +102184,19 @@
         "freshFootageReviewed": false,
         "kind": "documented-original-recording-link-publication-not-earliest-publication-claim"
       }
-    ]
+    ],
+    "videoAvailability": "unavailable",
+    "originalVideoAvailabilitySourceReview": {
+      "reviewAudit": "archive/paris2019-gomikuzu-video-clock-and-nu11-unavailable-original-reconciliation-20261010.json",
+      "priorAudit": "archive/luigi-mansion-2019-kaguya-12351-original-recovery.json",
+      "priorAuditSha256": "442a76e6c370b8d62a4aec6f78ac1bec186c50436c3a8ca6d3b13f864a3413f0",
+      "checkedAt": "2026-10-03",
+      "method": "yt-dlp metadata attempt",
+      "result": "This video is unavailable; original link retained, no backup invented.",
+      "sourceUrl": "https://www.youtube.com/watch?v=yRKA5dVpRjo",
+      "freshAvailabilityChecked": false,
+      "freshFootageReviewed": false
+    }
   },
   {
     "messageId": "nu11-2019-1192432484618653696-original-result",
@@ -104562,7 +104574,24 @@
         "freshFootageReviewed": false,
         "kind": "documented-original-recording-link-publication-not-earliest-publication-claim"
       }
-    ]
+    ],
+    "videoPublishedAt": "2019-11-06T10:06:14Z",
+    "videoPublicationSource": {
+      "url": "https://x.com/Gomikuzu_struck/status/1192020356539633664",
+      "platform": "Twitter/X",
+      "postId": "1192020356539633664",
+      "publishedAt": "2019-11-06T10:06:14Z",
+      "basis": "preserved-original-html-publication-time-element",
+      "reviewAudit": "archive/paris2019-gomikuzu-video-clock-and-nu11-unavailable-original-reconciliation-20261010.json",
+      "metadataEvidence": [
+        {
+          "path": "archive/gomikuzu-paris-pending-originals/1192020356539633664.html",
+          "sha256": "1334972a3a9151324f4046109cb8c83c04dcfee0ba9bedfe721b93bc46793616",
+          "dataTime": 1573034774
+        }
+      ],
+      "freshFootageReviewed": false
+    }
   },
   {
     "messageId": "tomegome-luigi-2019-1192977656486092800-previous-12376",
