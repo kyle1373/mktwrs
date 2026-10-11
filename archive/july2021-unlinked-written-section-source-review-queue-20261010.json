@@ -242,10 +242,14 @@
         "278540971048960001"
       ],
       "existingResultMatches": [],
-      "status": "pending-original-context-and-result-classification",
+      "status": "unresolved-written-splits-versus-image-transcription",
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "reviewAudit": "archive/july2021-astre-split-conflict-and-kazuo2020-recording-repost-20261010.json",
+      "canonicalIds": [
+        "865613727624855592-865613725363732490-july2021-reviewed"
+      ]
     },
     {
       "messageId": "864884992991166474",
@@ -440,15 +444,20 @@
         "769544685713883136"
       ],
       "existingResultMatches": [],
-      "status": "pending-original-context-and-result-classification",
+      "status": "historical-recording-repost-reconciled",
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "reviewAudit": "archive/july2021-astre-split-conflict-and-kazuo2020-recording-repost-20261010.json",
+      "canonicalIds": [
+        "1280189661193875462-original-social-video-reviewed"
+      ]
     }
   ],
   "statusCounts": {
     "preserved-existing-result-full-section-source-reconciled": 9,
-    "pending-original-context-and-result-classification": 2
+    "unresolved-written-splits-versus-image-transcription": 1,
+    "historical-recording-repost-reconciled": 1
   },
   "quotedPreviewOnlyPostsExcluded": [
     "865905725074702376",
@@ -457,7 +466,7 @@
   "limitations": [
     "Preserved census only, no fresh browser/media certification.",
     "Multiple groups and three-section reports preserved without turning partial sums into achieved totals.",
-    "Nine posts matched to nine existing results; two unmatched posts require source context review.",
+    "All11queued source posts have dispositions; Astre split conflict remains unresolved and wider July evidence coverage incomplete.",
     "No tour completion or fastest full-recording certification."
   ]
 }
