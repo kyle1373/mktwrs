@@ -1,0 +1,94 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "source": {
+    "url": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+    "channel": "screenshots",
+    "messageId": "638364828066512916"
+  },
+  "sharedAt": "2019-10-28T13:13:55.256Z",
+  "video": {
+    "localPath": "archive/halloween2019-original-videos/638364828066512916-carlos85-cup-overview.mp4",
+    "sha256": "f1d64df6272e14e7f222ceca859e0cfd37f506fa8d023244f8c9ed36f38162f4",
+    "bytes": 90193725,
+    "durationSeconds": 42.261678,
+    "width": 886,
+    "height": 1920,
+    "retrieval": "Logged-in original Discord attachment downloadMedia",
+    "videoSharedAt": "2019-10-28T13:13:55.256Z",
+    "source": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+    "trackedInGit": false
+  },
+  "frameReviews": [
+    {
+      "candidatePlayer": "Carlos85",
+      "courseId": "3ds-toad-circuit",
+      "candidateTime": "1:09.94",
+      "cup": "Luigi Cup",
+      "frameTimestampSeconds": 1,
+      "frameLocal": "public/assets/proof/halloween2019-carlos85-overview-toad.webp",
+      "frameSha256": "330bbea269b8f7bb155b189af521b0eb6d3314044fad91f030a730aa267e041d",
+      "transcriptionMethod": "Tesseract OCR of extracted menu region; original caption attributes cup overview to Carlos85",
+      "visualVerificationComplete": true,
+      "source": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+      "observedAt": "2019-10-28T13:13:55.256Z",
+      "status": "candidate-supporting-menu-result-needs-visual-confirmation",
+      "existingCanonicalMatch": null,
+      "freshPixelsReviewed": true,
+      "visualFinding": "Halloween Tour Luigi Cup completed three-star Time Trial tile displays 1:09.94. Driver and course backdrop agree with tour challenge mapping; no splits or race footage visible.",
+      "disposition": "supporting-menu-result-visually-confirmed"
+    },
+    {
+      "candidatePlayer": "Carlos85",
+      "courseId": "3ds-neo-bowser-city",
+      "candidateTime": "1:32.91",
+      "cup": "Toadette Cup",
+      "frameTimestampSeconds": 16,
+      "frameLocal": "public/assets/proof/halloween2019-carlos85-overview-nbc.webp",
+      "frameSha256": "8139aa63e103926b35a8ba9a78fafe0b37ccdfb28e9f61abf5c5e739898e055b",
+      "transcriptionMethod": "Tesseract OCR of extracted menu region; original caption attributes cup overview to Carlos85",
+      "visualVerificationComplete": true,
+      "source": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+      "observedAt": "2019-10-28T13:13:55.256Z",
+      "status": "candidate-supporting-menu-result-needs-visual-confirmation",
+      "existingCanonicalMatch": "halloween2019-menu-638495899164737551",
+      "freshPixelsReviewed": true,
+      "visualFinding": "Halloween Tour Toadette Cup completed three-star Time Trial tile displays 1:32.91. Driver and course backdrop agree with tour challenge mapping; no splits or race footage visible.",
+      "disposition": "supporting-menu-result-visually-confirmed"
+    },
+    {
+      "candidatePlayer": "Carlos85",
+      "courseId": "gcn-dino-dino-jungle",
+      "candidateTime": "1:45.61",
+      "cup": "Mario Cup",
+      "frameTimestampSeconds": 32,
+      "frameLocal": "public/assets/proof/halloween2019-carlos85-overview-dino.webp",
+      "frameSha256": "0a63d28aa9a386ab330b62bebc82284a4bf810d82591623c37f6e17d46239407",
+      "transcriptionMethod": "Tesseract OCR of extracted menu region; original caption attributes cup overview to Carlos85",
+      "visualVerificationComplete": true,
+      "source": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+      "observedAt": "2019-10-28T13:13:55.256Z",
+      "status": "candidate-supporting-menu-result-needs-visual-confirmation",
+      "existingCanonicalMatch": null,
+      "freshPixelsReviewed": true,
+      "visualFinding": "Halloween Tour Mario Cup completed three-star Time Trial tile displays 1:45.61. Driver and course backdrop agree with tour challenge mapping; no splits or race footage visible.",
+      "disposition": "supporting-menu-result-visually-confirmed"
+    }
+  ],
+  "priorContextAudit": "archive/halloween2019-carlos85-cup-overview-video-original-context-review-20261010.json",
+  "priorFalseVisualClaimWithdrawalRetained": "archive/halloween2019-overview-placeholder-visual-claim-withdrawal-20261011.json",
+  "newSupportingCanonicalIds": [
+    "halloween2019-carlos85-overview-638364828066512916-3ds-toad-circuit",
+    "halloween2019-carlos85-overview-638364828066512916-gcn-dino-dino-jungle"
+  ],
+  "existingSupportingRowEarlierObservation": "halloween2019-menu-638495899164737551",
+  "limitations": [
+    "Three actual rendered images visible during this turn; earlier omitted previews and withdrawn visual claims remain withdrawn.",
+    "Frame inspection confirms menu best totals only. Cup overview does not qualify as complete race recording and has no lap splits.",
+    "Attribution uses preserved original Carlos85 caption; fresh Discord channel review remains unavailable.",
+    "NeoBowserCity equal menu best establishes an earlier observation, not identical race attempt. Later screenshot submission clock remains unchanged.",
+    "Halloween source coverage, rivals, exact WR dates and live deployment remain open."
+  ]
+}
