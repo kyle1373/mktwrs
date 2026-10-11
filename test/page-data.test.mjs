@@ -51,3 +51,20 @@ test("course presentation retains video share events separately from race dates"
    assert.deepEqual(display[key],row[key]);
  }
 });
+
+
+test("course pages retain unavailable original links and separate video publication clocks", () => {
+ for (const id of ['3ds-toad-circuit','3ds-neo-bowser-city','gcn-dino-dino-jungle']) {
+  const course=source.courses.find(c=>c.id===id);
+  const display=routeData(['course',id]).data;
+  for (const row of course.records) {
+   const r=display.records.find(r=>r.id===row.id);
+   for (const key of ['originalVideo','originalVideoAvailable','videoPublishedAt','submittedAt','recordDate'])
+    assert.deepEqual(r[key],row[key]);
+  }
+ }
+ const row=routeData(['course','3ds-toad-circuit']).data.records.find(r=>r.id==='curated-original-2019-wr-row-22');
+ assert.match(row.originalVideo,/5mQGD5k9V5k/);
+ assert.equal(row.originalVideoAvailable,false);
+ assert.equal(row.video,null);
+});

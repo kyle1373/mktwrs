@@ -1,0 +1,30 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createRequire} from 'node:module';
+import Module from 'node:module';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+const require=createRequire(import.meta.url);
+const swc=require('next/dist/build/swc');
+await swc.loadBindings();
+const page=fs.readFileSync(new URL('../app/archive.jsx',import.meta.url),'utf8');
+const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function BackupIcon('));
+const {code}=await swc.transform(selected+'\nexports.Time=Time;', {filename:'evidence-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
+const compiled=new Module(new URL('../app/evidence-times-render.cjs',import.meta.url).pathname);
+compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
+compiled._compile(code,new URL('../app/evidence-times-render.cjs',import.meta.url).pathname);
+const render=r=>renderToStaticMarkup(React.createElement(compiled.exports.Time,{record:r}));
+test('unavailable original link and separate publication and submission clocks render',()=>{
+ const html=render({time:'1:04.54',originalVideo:'https://youtu.be/5mQGD5k9V5k',originalVideoAvailable:false,submittedAt:'2019-10-27T18:47:11Z',videoPublishedAt:'2019-10-27T18:56:43Z'});
+ assert.match(html,/href="https:\/\/youtu.be\/5mQGD5k9V5k"/);
+ assert.match(html,/Original video unavailable/);
+ assert.match(html,/Submitted: 2019-10-27 18:47:11 UTC/);
+ assert.match(html,/Video published: 2019-10-27 18:56:43 UTC/);
+});
+test('submission time renders even without a video and achievement date is not substituted',()=>{
+ const html=render({time:'1:35.38',submittedAt:'2019-10-30T14:31:27Z',recordDate:'2019-10-29'});
+ assert.match(html,/Submitted: 2019-10-30 14:31:27 UTC/);
+ assert.doesNotMatch(html,/2019-10-29/);
+ assert.doesNotMatch(html,/Original video unavailable/);
+});

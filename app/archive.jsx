@@ -66,23 +66,27 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!r.submittedAt && !shares.length) return null;
+  if (!r.submittedAt && !r.videoPublishedAt && !shares.length) return null;
   return <details className="evidence-times">
     <summary>Submission and video times</summary>
     {r.submittedAt && <div>Submitted: {format(r.submittedAt)}</div>}
+    {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
     {shares.map((event, index) => <div key={event.source?.url || index}>
       Video shared: {event.source?.url ? <a href={event.source.url} target="_blank" rel="noopener noreferrer">{format(event.sharedAt)}</a> : format(event.sharedAt)}
     </div>)}
   </details>;
 }
 function Time({ record: r }) {
-  const original = r?.video ? (
+  const video = r?.video || r?.originalVideo;
+  const unavailable = r?.videoAvailability === "unavailable" || (!r?.video && r?.originalVideoAvailable === false);
+  const original = video ? (
     <a
       className="time"
-      href={r.video}
+      href={video}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`Watch video proof for ${r.time}`}
+      aria-label={`${unavailable ? "Original video unavailable" : "Watch video proof"} for ${r.time}`}
+      title={unavailable ? "Original video unavailable; source link preserved" : undefined}
     >
       {r.time}
     </a>
@@ -98,7 +102,7 @@ function Time({ record: r }) {
       {r?.time || "—"}
     </span>
   );
-  return <>{original}{r?.video && <EvidenceTimes r={r} />}</>;
+  return <>{original}{video && unavailable && <span className="table-note"> · Original video unavailable</span>}<EvidenceTimes r={r} /></>;
 }
 function BackupIcon() {
   return <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">

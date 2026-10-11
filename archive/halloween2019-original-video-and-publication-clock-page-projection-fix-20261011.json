@@ -1,0 +1,23 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "problem": "Course page projection omitted originalVideo/originalVideoAvailable/videoPublishedAt, and rows without video omitted available submission times.",
+  "changes": [
+    "Preserve original video references and availability through the page-data boundary.",
+    "Display known publication clock separately from submission and share times.",
+    "Render available submission clocks on rows without video.",
+    "Show a visible unavailable-original label while retaining its link."
+  ],
+  "validation": {
+    "pageProjectionAndVideoTestsPassed": 15,
+    "renderedMarkupTestsPassed": 2,
+    "nextSwcJsxCompilationPassed": true
+  },
+  "limitations": [
+    "No source timestamp, result, lap, date or video selection eligibility changed.",
+    "Unavailable original references remain evidence links, not available full-race footage.",
+    "Live production rendering not yet verified. Halloween source and full-recording gaps remain open."
+  ]
+}
