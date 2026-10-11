@@ -37,12 +37,19 @@
       "mentionedTotals": [
         "1:18.57"
       ],
-      "status": "secondary-result-lead-and-source-clock-conflict",
+      "status": "secondary-result-lead-source-creation-clock-derived-original-review-pending",
       "basis": "Kaguya1:18.57 seen on Twitter requires original source. Captured datetime is04:08AM Pacific quoted reply time while own header shows04:37AM(Pacific), corresponding11:37UTC; do not treat captured datetime11:08:46.214Z as exact author post clock.",
       "exactAuthorPostClockUnverified": true,
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "messageIdDerivedCreatedAt": "2021-07-28T11:37:57.850Z",
+      "creationClockReview": {
+        "reviewAudit": "archive/2021-preserved-discussion-message-id-creation-clock-crosscheck-20261010.json",
+        "basis": "Discord message snowflake creation clock; source message identity copied from saved search row. Not race completion, edit time or upload clock.",
+        "rawCaptureClockRetained": true,
+        "freshOriginalReviewed": false
+      }
     },
     {
       "messageId": "865101799413121025",
@@ -142,7 +149,7 @@
   ],
   "statusCounts": {
     "older-recording-share-existing-result": 2,
-    "secondary-result-lead-and-source-clock-conflict": 1,
+    "secondary-result-lead-source-creation-clock-derived-original-review-pending": 1,
     "separate-best-splits-no-achieved-total": 1,
     "repeat-result-report-existing-ties-not-four-independent-results": 1,
     "secondary-fastest-known-result-original-source-needed": 1,
