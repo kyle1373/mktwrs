@@ -1,0 +1,96 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "priorCandidateAudit": "archive/halloween2019-carlos85-cup-overview-video-preservation-and-ocr-candidates-20261010.json",
+  "priorContextAudit": "archive/halloween2019-carlos85-cup-overview-video-original-context-review-20261010.json",
+  "originalVideo": {
+    "localPath": "archive/halloween2019-original-videos/638364828066512916-carlos85-cup-overview.mp4",
+    "sha256": "f1d64df6272e14e7f222ceca859e0cfd37f506fa8d023244f8c9ed36f38162f4",
+    "bytes": 90193725,
+    "durationSeconds": 42.261678,
+    "width": 886,
+    "height": 1920,
+    "retrieval": "Logged-in original Discord attachment downloadMedia",
+    "videoSharedAt": "2019-10-28T13:13:55.256Z",
+    "source": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+    "trackedInGit": false
+  },
+  "confirmedRows": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "time": "1:09.94",
+      "cup": "Luigi Cup",
+      "framePath": "public/assets/proof/halloween2019-carlos85-overview-toad.webp",
+      "sha256": "330bbea269b8f7bb155b189af521b0eb6d3314044fad91f030a730aa267e041d",
+      "frameTimestampSeconds": 1,
+      "visualVerificationComplete": true,
+      "visibleTour": "Halloween Tour",
+      "visibleChallengeLabel": "Time Trial",
+      "freshRenderedFrameReviewed": true,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+        "channel": "screenshots",
+        "messageId": "638364828066512916"
+      },
+      "observedAt": "2019-10-28T13:13:55.256Z",
+      "lapSplitsVisible": false
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "time": "1:32.91",
+      "cup": "Toadette Cup",
+      "framePath": "public/assets/proof/halloween2019-carlos85-overview-nbc.webp",
+      "sha256": "8139aa63e103926b35a8ba9a78fafe0b37ccdfb28e9f61abf5c5e739898e055b",
+      "frameTimestampSeconds": 16,
+      "visualVerificationComplete": true,
+      "visibleTour": "Halloween Tour",
+      "visibleChallengeLabel": "Time Trial",
+      "freshRenderedFrameReviewed": true,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+        "channel": "screenshots",
+        "messageId": "638364828066512916"
+      },
+      "observedAt": "2019-10-28T13:13:55.256Z",
+      "lapSplitsVisible": false
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:45.61",
+      "cup": "Mario Cup",
+      "framePath": "public/assets/proof/halloween2019-carlos85-overview-dino.webp",
+      "sha256": "0a63d28aa9a386ab330b62bebc82284a4bf810d82591623c37f6e17d46239407",
+      "frameTimestampSeconds": 32,
+      "visualVerificationComplete": true,
+      "visibleTour": "Halloween Tour",
+      "visibleChallengeLabel": "Time Trial",
+      "freshRenderedFrameReviewed": true,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
+        "channel": "screenshots",
+        "messageId": "638364828066512916"
+      },
+      "observedAt": "2019-10-28T13:13:55.256Z",
+      "lapSplitsVisible": false
+    }
+  ],
+  "newSupportingResults": 2,
+  "earlierExistingMenuObservationReconciled": "halloween2019-menu-638495899164737551",
+  "validation": {
+    "actualPixelsVisibleAndRead": true,
+    "threeFrameHashesAndOriginalVideoHashMatch": true,
+    "sourceShareClockMatchesMessageId": true,
+    "inverseScopeComparisonPassed": true,
+    "newSupportingCopiesAgree": true,
+    "existingNbcsSubmittedAtRetained": true,
+    "wrProgressionUnchanged": true
+  },
+  "limitations": [
+    "Earlier image-preview claims were withdrawn; this review is based on actual rendered images present in the current tool output.",
+    "Cup overview confirms displayed completed menu bests, not a full race recording, exact achievement day, lap splits or accepted result submission.",
+    "NBC earlier menu total matches later screenshot; same race attempt is not established. Later screenshot submission timestamp retained.",
+    "This resolves the Carlos85 overview content gap only. Halloween chronology, other original media, source coverage and live publication remain unresolved."
+  ]
+}
