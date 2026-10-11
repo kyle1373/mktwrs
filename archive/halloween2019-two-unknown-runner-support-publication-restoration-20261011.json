@@ -1,0 +1,74 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "tourName": "Halloween Tour (2019)",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "change": "Restore two existing canonical supporting submissions to individual track and aggregate publication data.",
+  "courseId": "gcn-dino-dino-jungle",
+  "rows": [
+    {
+      "canonicalId": "halloween2019-menu-641292865829470238",
+      "publicId": "curated-halloween2019-menu-641292865829470238",
+      "playerId": "unknown-halloween-2019-screenshot-641292865829470239",
+      "time": "1:47.34",
+      "submittedAt": "2019-11-05T15:08:53.859Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/641292865829470239",
+        "channel": "screenshots",
+        "messageId": "641292865829470239"
+      },
+      "proof": {
+        "path": "public/assets/proof/halloween2019-menu-641292865829470238.webp",
+        "bytes": 333898,
+        "sha256": "0f9e1398e2532ee75af4a8c9c3f908c159f4bf25ccd84a5ad35340546e2b9047",
+        "basis": "index-and-worktree-bytes-agree"
+      },
+      "freshPixelsReviewed": false,
+      "priorImageAssessmentCarried": true,
+      "sourceChannelFreshlyVerified": false,
+      "videoEstablished": false
+    },
+    {
+      "canonicalId": "halloween2019-menu-641295432021966869",
+      "publicId": "curated-halloween2019-menu-641295432021966869",
+      "playerId": "unknown-halloween-2019-screenshot-641295432559099925",
+      "time": "1:39.66",
+      "submittedAt": "2019-11-05T15:19:05.815Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/641295432559099925",
+        "channel": "screenshots",
+        "messageId": "641295432559099925"
+      },
+      "proof": {
+        "path": "public/assets/proof/halloween2019-menu-641295432021966869.webp",
+        "bytes": 237120,
+        "sha256": "e57d459dc727d77a14e498911c7c2d0b4eafe75e4e88ff381343df2c411fe27d",
+        "basis": "index-and-worktree-bytes-agree"
+      },
+      "freshPixelsReviewed": false,
+      "priorImageAssessmentCarried": true,
+      "sourceChannelFreshlyVerified": false,
+      "videoEstablished": false
+    }
+  ],
+  "sourceReviews": [
+    "archive/halloween2019-screenshots-prior-image-ledger-disposition-reconciliation-20261010.json",
+    "archive/halloween2019-screenshots-attachment-census-curated-source-crosswalk-20261010.json"
+  ],
+  "validation": {
+    "canonicalTimesAndPostingClocksAgree": true,
+    "distinctExistingUnknownPlayerProfiles": true,
+    "trackedProofBytesAgreeWithWorktree": true,
+    "individualAndAggregateRestoredRowsAgree": true,
+    "inverseRemovingOnlyTwoRowsRestoresPriorData": true,
+    "wrProgressionUnchanged": true,
+    "liveDeploymentVerified": false
+  },
+  "limitations": [
+    "Prior image dispositions carried without fresh visual recertification. Source channel identity remains unverified in the fresh browser session.",
+    "Unknown runners remain separate per original screenshot; Deleted User is not a shared runner identity.",
+    "Posting clocks are not race achievement dates. Null splits and absent completed-race footage remain explicit.",
+    "This fixes publication omissions only; the active tour remains incomplete and later tours remain queued."
+  ]
+}
