@@ -1,0 +1,79 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "goalStatus": "active",
+  "discordAccessible": true,
+  "sourceCommit": "56117093",
+  "fix": {
+    "script": "scripts/record-date.mjs",
+    "condition": "Unresolved previous-best with explicit relative successor",
+    "behavior": "Return no screenshot-based record date; preserve publication clocks and compute relative chronology separately."
+  },
+  "isolatedGenerator": {
+    "command": "node scripts/build.mjs",
+    "exitCode": 0,
+    "root": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-halloween-build-9qgz6kic",
+    "rows": [
+      {
+        "id": "curated-nu11-halloween-2019-1189347136720310272-previous-10451",
+        "recordDate": null,
+        "dateBasis": null,
+        "chronologyDate": "2019-10-29",
+        "observedAt": "2019-10-30T01:03:49+00:00",
+        "announcedAt": "2019-10-30T01:03:49+00:00",
+        "durationDays": null,
+        "relativeOrderBefore": "nu11-halloween-2019-1189347136720310272-original-10446"
+      },
+      {
+        "id": "curated-639823450353041419-previous-13547-early2019-recheck",
+        "recordDate": null,
+        "dateBasis": null,
+        "chronologyDate": "2019-10-29",
+        "observedAt": "2019-11-01T13:49:57.909Z",
+        "announcedAt": "2019-11-01T13:49:57.909Z",
+        "durationDays": null,
+        "relativeOrderBefore": "639823450353041419-verified"
+      }
+    ]
+  },
+  "validation": {
+    "command": "node --test test/record-date.test.mjs test/record-date-render.test.mjs",
+    "passed": 7,
+    "failed": 0
+  },
+  "freshDiscordSourceReview": [
+    {
+      "messageId": "639554529364410391",
+      "postedAt": "2019-10-31T20:01:22.149Z",
+      "caption": "Dark actually got .46 on the 29th",
+      "attachmentId": "639553028327997463"
+    },
+    {
+      "messageId": "639823450353041419",
+      "postedAt": "2019-11-01T13:49:57.909Z",
+      "caption": "Dark 🇫🇷 - 29/10 (00h05)",
+      "attachmentId": "639554559743754250",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/639823450353041419"
+    },
+    {
+      "messageId": "639823627902255124",
+      "postedAt": "2019-11-01T13:50:40.240Z",
+      "caption": "CET still"
+    }
+  ],
+  "publicMetadataCorrection": {
+    "id": "curated-639823450353041419-previous-13547-early2019-recheck",
+    "field": "announcedAt",
+    "previousValue": "2019-10-31T20:01:22.149Z",
+    "correctValue": "2019-11-01T13:49:57.909Z",
+    "reason": "Align with corrected gallery observation. October31 post has a different image."
+  },
+  "limitations": [
+    "Discord text, clocks and attachment links reviewed; no fresh image pixels or full footage verification.",
+    "Nearby CET clarification does not establish predecessor1:35.47 achievement date.",
+    "Two predecessor regeneration regressions repaired. Other production metadata differences remain open.",
+    "Isolated generator checked; no fresh full Next build or live publication confirmed by this audit.",
+    "No tour complete, no completed-through date, and no next tour started."
+  ]
+}
