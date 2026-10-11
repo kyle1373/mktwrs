@@ -350414,21 +350414,71 @@
       "messageId": "828746891834949652"
     },
     "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/828746888844935238/image0.png",
-    "proofImageVerified": false,
+    "proofImageVerified": true,
     "originalPerformanceReportReview": {
       "reviewAudit": "archive/yoshi2021-nhspeedy-waluigi14710-report-and-seven-existing-source-crosswalks-20261010.json",
       "freshOriginalTextReviewed": true,
-      "freshVisualReview": false,
+      "freshVisualReview": true,
       "freshFootageReviewed": false,
       "capturedText": "53.50/53.60",
       "totalBasis": "Sum of paired laps explicitly reported with an original result attachment.",
       "courseBasis": "Original WaluigiPinball discussion following Kaguya53.11/53.10 result and preceding other Pinball attempts; prior course mapping retained.",
-      "imageReviewPending": true,
+      "imageReviewPending": false,
       "dateBasis": "Original message creation timestamp, not inferred race completion instant."
     },
     "notes": [
-      "Reported completed paired-lap result with original image reference retained. Image contents not freshly verified.",
+      "Reported completed paired-lap result with original image reference retained. Cup TimeTrial tile visually confirms1:47.10; lap pair remains from original caption.",
       "Slower than established WaluigiPinball WR; no promotion. No exact-result video linked in reviewed context."
+    ],
+    "proofImageLocal": "/assets/proof/yoshi2021-828746888844935238.png",
+    "originalImageResultReview": {
+      "reviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+      "freshVisualReviewed": true,
+      "freshFootageReviewed": false,
+      "attachmentId": "828746888844935238",
+      "visibleTotal": "1:47.10",
+      "visibleCup": "Peachette Cup",
+      "scope": "Cup overview TimeTrial tile confirms total; laps supplied by same original message, not visible in cup image.",
+      "courseBasis": "Exact Yoshi2021 cup/course catalog mapping and visible tile backdrop/driver.",
+      "deviceClockNotUsedAsAchievementDate": true
+    }
+  },
+  {
+    "messageId": "828112155383562290-yoshi2021-original-image-reviewed",
+    "player": "NHSpeedy",
+    "courseId": "tokyo-blur-4r",
+    "time": "0:46.99",
+    "laps": [
+      "24.76",
+      "22.23"
+    ],
+    "mushrooms": null,
+    "status": "documented-submission",
+    "includeInProgression": false,
+    "submittedAt": "2021-04-04T03:42:03.423Z",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/828112155383562290",
+      "channel": "tt-discussion",
+      "messageId": "828112155383562290"
+    },
+    "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/828112151322820658/image0.png",
+    "proofImageLocal": "/assets/proof/yoshi2021-828112151322820658.png",
+    "proofImageVerified": true,
+    "originalImageResultReview": {
+      "reviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+      "freshVisualReviewed": true,
+      "freshFootageReviewed": false,
+      "attachmentId": "828112151322820658",
+      "visibleTotal": "0:46.99",
+      "visibleCup": "Waluigi Cup",
+      "scope": "Cup overview TimeTrial tile confirms total; laps supplied by same original message, not visible in cup image.",
+      "courseBasis": "Exact Yoshi2021 cup/course catalog mapping and visible tile backdrop/driver.",
+      "deviceClockNotUsedAsAchievementDate": true
+    },
+    "notes": [
+      "Original cup screenshot visibly confirms0:46.99; same-post caption24.76/22.23 sums exactly.",
+      "Course established by Yoshi2021 WaluigiCup TT mapping, visible Tokyo backdrop and Toadette. Original Discord UTC submission clock retained; phone clock not achievement evidence.",
+      "Slower than earlier documented course record. No WR promotion, exact-result video unresolved."
     ]
   }
 ]

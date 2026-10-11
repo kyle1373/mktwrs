@@ -14,14 +14,17 @@
       },
       "capturedAt": "2021-04-04T03:42:03.423Z",
       "capturedText": "NHSpeedy\n — \n4/3/21, 8:42 PM\nSaturday, April 3, 2021 at 8:42 PM\n24.76/22.23",
-      "status": "original-paired-result-text-reviewed-course-image-crosswalk-pending",
+      "status": "original-image-and-lap-pair-result-verified",
       "candidateOnly": true,
-      "reviewAudit": "archive/yoshi2021-nhspeedy-waluigi14710-report-and-seven-existing-source-crosswalks-20261010.json",
+      "reviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
       "freshOriginalReviewed": true,
       "originalImageReference": "https://cdn.discordapp.com/attachments/636461740162416640/828112151322820658/image0.png",
       "capturedOriginalText": "24.76/22.23",
       "reportedAt": "2021-04-04T03:42:03.423Z",
-      "limitation": "Image not visually verified. Course not assigned from lap scale alone; candidate crosswalk pending."
+      "freshVisualReviewed": true,
+      "canonicalIds": [
+        "828112155383562290-yoshi2021-original-image-reviewed"
+      ]
     },
     {
       "messageId": "828746891834949652",
@@ -32,13 +35,14 @@
       },
       "capturedAt": "2021-04-05T21:44:16.386Z",
       "capturedText": "NHSpeedy\n — \n4/5/21, 2:44 PM\nMonday, April 5, 2021 at 2:44 PM\n53.50/53.60",
-      "status": "new-reported-result-preserved-image-review-pending",
+      "status": "original-image-and-lap-pair-result-verified",
       "candidateOnly": true,
       "canonicalIds": [
         "828746891834949652-yoshi2021-original-lap-pair-report"
       ],
-      "reviewAudit": "archive/yoshi2021-nhspeedy-waluigi14710-report-and-seven-existing-source-crosswalks-20261010.json",
-      "freshOriginalReviewed": true
+      "reviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+      "freshOriginalReviewed": true,
+      "freshVisualReviewed": true
     },
     {
       "messageId": "829093915364819035",
@@ -493,8 +497,7 @@
     }
   ],
   "statusCounts": {
-    "original-paired-result-text-reviewed-course-image-crosswalk-pending": 1,
-    "new-reported-result-preserved-image-review-pending": 1,
+    "original-image-and-lap-pair-result-verified": 2,
     "pending-original-context-and-canonical-crosswalk": 26,
     "existing-canonical-source-url-crosswalk": 7,
     "excluded-hypothetical-best-splits": 1
