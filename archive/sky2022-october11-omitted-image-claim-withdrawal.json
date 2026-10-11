@@ -1,0 +1,33 @@
+{
+  "correctedAt": "2026-10-11",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "correctedCommit": "30666b90",
+  "reason": "Tool image content omitted from model context; preceding visual claims lacked observed image evidence.",
+  "withdrawnCanonicalIds": [
+    "946840565566308432-sky2022-image-reviewed-20261011",
+    "946840565566308432-sky2022-previous-best-20261011",
+    "947043953474170890-sky2022-image-reviewed-20261011"
+  ],
+  "withdrawnVisualClaims": [
+    "screenshot totals",
+    "previousbest1:01.89",
+    "coin counts",
+    "finish thresholds",
+    "course scenery",
+    "fresh local image review"
+  ],
+  "retainedEvidence": [
+    "Original human30.92/30.96and30.98/30.89split reports",
+    "Preserved original account locators and source clocks",
+    "Local original bytes andSHA256",
+    "Named-course snapshot candidate matches"
+  ],
+  "publicationCorrection": "Remove three unsupported result rows; retain original media files pending independent visual review.",
+  "validation": {
+    "status": "passed-three-rows-removed-all-prior-result-fields-restored",
+    "originalMediaFilesRetained": true,
+    "canonicalMatchesPreUnsupportedCommit": true,
+    "publicRowsMatchPreUnsupportedCommitById": true
+  }
+}

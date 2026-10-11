@@ -2,7 +2,20 @@
   "reviewedAt": "2026-10-11",
   "historyComplete": false,
   "certifiedThrough": null,
-  "imageReviews": [
+  "priorImagePreservationAudit": "archive/sky2022-two-original-result-image-preservations-20261009.json",
+  "validation": {
+    "status": "three-unsupported-rows-removed-original-files-retained",
+    "verifiedImageResults": 0,
+    "undatedPreviousBestVerified": 0,
+    "newWrTransitions": 0
+  },
+  "limitations": [
+    "Both view_image responses were omitted-image placeholders. No screenshot total, previousbest, coins, thresholds or scenery reading was established.",
+    "Original human split text, original source IDs, publication clocks, account locators and preserved file hashes remain valid evidence; they do not certify completed screenshot results.",
+    "All three newly published rows withdrawn. Earlier review records retained explicitly as withdrawn claims for audit transparency.",
+    "Original media review remains pending; no tour completion or fastest recording claim."
+  ],
+  "withdrawnClaims": [
     {
       "player": "Tankian",
       "playerId": "tankian",
@@ -60,7 +73,7 @@
       "footageReviewed": false
     }
   ],
-  "newCanonicalRuns": [
+  "withdrawnCanonicalRuns": [
     {
       "messageId": "947043953474170890-sky2022-image-reviewed-20261011",
       "player": "Tankian",
@@ -175,17 +188,44 @@
       "datePrecision": "unknown"
     }
   ],
-  "priorImagePreservationAudit": "archive/sky2022-two-original-result-image-preservations-20261009.json",
-  "validation": {
-    "status": "isolated-generation-passed-scoped-three-row-publication",
-    "completedResults": 2,
-    "undatedPreviousBest": 1,
-    "newWrTransitions": 0
-  },
-  "limitations": [
-    "Fresh local image review now possible; earlier omitted-image claims remain unsupported for their earlier dates.",
-    "Original source account and clocks checked from preserved census, not freshly revisited in browser.",
-    "Two completed result images and one undated previousbest; no videos or exact achievement instants inferred.",
-    "Full tour history and fastest recording verification remain incomplete."
+  "correctionAudit": "archive/sky2022-october11-omitted-image-claim-withdrawal.json",
+  "reviewStatus": "unsupported-visual-claims-withdrawn-original-image-review-pending",
+  "pendingImages": [
+    {
+      "player": "Tankian",
+      "playerId": "tankian",
+      "discordAccountId": "691335806853316692",
+      "messageId": "947043953474170890",
+      "attachmentId": "947043952849223700",
+      "localPath": "archive/sky2022-pending-original-results/947043952849223700.jpg",
+      "publicPreservedFile": "public/assets/proof/sky2022-947043952849223700.jpg",
+      "sha256": "1a0f10e915b1d666e4026eec5422c1e544f18c3e879e03f40c95b9fe69d58be5",
+      "reportedLaps": [
+        "30.92",
+        "30.96"
+      ],
+      "arithmeticSum": "1:01.88",
+      "arithmeticNotVerifiedCompletedResult": true,
+      "freshLocalImageReviewed": false,
+      "visualReviewPending": true
+    },
+    {
+      "player": "LaLanterne",
+      "playerId": "lalanterne",
+      "discordAccountId": "578275727301017610",
+      "messageId": "946840565566308432",
+      "attachmentId": "946840564463181824",
+      "localPath": "archive/sky2022-pending-original-results/946840564463181824.jpg",
+      "publicPreservedFile": "public/assets/proof/sky2022-946840564463181824.jpg",
+      "sha256": "9e679186b4123f896835b0c044b2ab6fae6b832ab4e247cd013e76e7c8c61d3c",
+      "reportedLaps": [
+        "30.98",
+        "30.89"
+      ],
+      "arithmeticSum": "1:01.87",
+      "arithmeticNotVerifiedCompletedResult": true,
+      "freshLocalImageReviewed": false,
+      "visualReviewPending": true
+    }
   ]
 }
