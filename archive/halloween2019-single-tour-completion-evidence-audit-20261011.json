@@ -310,11 +310,11 @@
       "detail": "Intermediate previous-best result lacks original publication clock; do not assign successor or repost date."
     },
     {
-      "id": "forty-screenshot-posts",
+      "id": "remaining-carlos85-overview-video",
       "requirement": "Original source content disposition",
       "status": "unresolved",
-      "evidence": "archive/halloween2019-screenshots-prior-image-ledger-disposition-reconciliation-20261010.json",
-      "detail": "40posts lack a prior content disposition; original context/pixels needed."
+      "evidence": "archive/halloween2019-forty-post-disposition-count-reconciliation-20261011.json",
+      "detail": "Prior40count stale:39posts have preserved page-review dispositions with matching source/image hashes. One cup-overview video needs content confirmation; prior pixels not freshly recertified."
     },
     {
       "id": "original-media-and-rivals",
@@ -338,10 +338,11 @@
       "detail": "Current audit uses preserved sources; browser control timeout prevents fresh Discord coverage. Live deployment not checked."
     }
   ],
-  "nextWork": "Resolve the40undisposed screenshotposts first against original attachment context and existing course/image ledgers; then dates, rivals and recording clocks.",
+  "nextWork": "Review Carlos85 cup-overview video menu candidates and surrounding original context; then resolve record dates, original-media/rivals and recording clock discrepancy.",
   "limitations": [
     "Hashes establish preserved evidence bytes only. Earlier source-review conclusions are not freshly recertified.",
     "Candidate record filter cannot prove all tour records identified; each track still requires exact source chronology review.",
     "Unknown exact dates and unavailable media do not alone prove an archive can never be completed; source coverage and disposition evidence must be reconciled before certification."
-  ]
+  ],
+  "screenshotDispositionCountCorrectionAudit": "archive/halloween2019-forty-post-disposition-count-reconciliation-20261011.json"
 }
