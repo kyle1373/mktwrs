@@ -36,13 +36,17 @@
   },
   "canonicalCrosswalk": {
     "messageIdOrAttachmentIdMatched": false,
-    "sourceLeadDisposition": "unresolved-original-image-total-and-course-pending",
-    "noNewRunPublished": true
+    "sourceLeadDisposition": "known-unresolved-source-rechecked-no-total-recovered",
+    "noNewRunPublished": true,
+    "priorSourceLedgerMatched": true
   },
   "limitations": [
     "No image pixels supplied or read. Filename and attributed day do not identify result total or prove a match to1:35.47.",
-    "This newly reviewed source may correspond to another Dark result. Do not assign it to a known run solely from runner and date.",
+    "This rechecked source may correspond to another Dark result. Do not assign it to a known run solely from runner and date.",
     "Discord exact1:35.47query returned no dated matches; search absence does not establish unavailable or nonexistent original evidence.",
-    "No public result, date, lap, WR progression or recording fields changed."
-  ]
+    "No public result, date, lap, WR progression or recording fields changed.",
+    "Prior October3andOctober10ledgers already document this exact original attachment as unavailable; current review is not a new source discovery."
+  ],
+  "priorLedgerReconciliationAudit": "archive/halloween2019-dark-prior-ledger-and-current-source-gap-reconciliation-20261011.json",
+  "priorSourceAlreadyKnown": true
 }

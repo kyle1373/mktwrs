@@ -1,0 +1,121 @@
+{
+  "reviewedAt": "2026-10-11T21:42:17.053366+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "priorSourceSnapshots": [
+    {
+      "path": "archive/dark-oct28-discord-proof-recheck-20261003.json",
+      "sha256": "2ae896df4fab901b1dedb4a3c3eb508cf4e6c79a397aeeb0fee208adaed4d929",
+      "bytes": 655,
+      "basis": "index"
+    },
+    {
+      "path": "archive/halloween2019-six-unmatched-attachment-context-and-prior-ledger-reconciliation-20261010.json",
+      "sha256": "ab003c6d3626723d9914d9978356ba6e540b84253174c73c0decc87cf51ba030",
+      "bytes": 10347,
+      "basis": "index"
+    },
+    {
+      "path": "archive/halloween2019-server-forwarding-context-20261003.json",
+      "sha256": "98af1688d771b5098a5b3e5ff0ba4eb8309a93afd850680f11ac330e9635f49b",
+      "bytes": 7532,
+      "basis": "index"
+    }
+  ],
+  "darkSourceReconciliation": {
+    "messageId": "639449709613678602",
+    "attachmentId": "638494570220617728",
+    "adjacentCaptionMessageId": "639449849992839180",
+    "priorSourceAlreadyKnown": true,
+    "priorResult": "Original attachment unavailable; no total or course readable.",
+    "latestAttempt": "Purpose-built browser media download failed with ERR_INVALID_RESPONSE. No file returned. Browser error data page blocked by URL policy; no bypass attempted.",
+    "preservedFilenameOrAttachmentIdFileMatch": false,
+    "caption": "By Dark (FR), done on October 28th",
+    "captionDoesNotIdentifyTotal": true,
+    "matchTo13547Established": false,
+    "freshPixelsReviewed": false,
+    "disposition": "known-unresolved-source-rechecked-no-total-recovered"
+  },
+  "freshUpSourceReview": {
+    "query": "\"1:27.35\" after:2019-10-22 before:2019-11-06",
+    "finalSearchResults": "No Results",
+    "searchAbsenceProvesNoSource": false,
+    "originalAttachmentChannelId": "636531202534277140",
+    "attemptedUrl": "https://discord.com/channels/629221606064914442/636531202534277140",
+    "observedChannelHeader": "MKCentral - Mario Kart Tour: server-rules",
+    "originalChannelAccessEstablished": false,
+    "originalServerIdentityEstablished": false,
+    "disposition": "original-channel-route-redirected-context-unresolved"
+  },
+  "livePublication": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "url": "https://mktwrs.com/data/courses/3ds-toad-circuit.json",
+      "sha256": "c3dd3b71a0a0900642d05c8dc2a7366f70089172b03f5374ad2074767bc03c8d",
+      "restoredNbcRowsChecked": 0,
+      "restoredNbcRowsAbsent": [],
+      "fullPublicationVerified": false
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "url": "https://mktwrs.com/data/courses/3ds-neo-bowser-city.json",
+      "sha256": "1935ff437720d6904e27593b894a3a47890d168cd7947a8284be727fb0a50f25",
+      "restoredNbcRowsChecked": 22,
+      "restoredNbcRowsAbsent": [
+        "curated-halloween2019-original-nbc-row-8",
+        "curated-halloween2019-original-nbc-row-10",
+        "curated-halloween2019-original-nbc-row-18",
+        "curated-halloween2019-original-nbc-row-22",
+        "curated-halloween2019-original-nbc-row-9",
+        "curated-halloween2019-original-nbc-row-11",
+        "curated-halloween2019-original-nbc-row-12",
+        "curated-halloween2019-original-nbc-row-16",
+        "curated-halloween2019-original-nbc-row-17",
+        "curated-halloween2019-original-nbc-row-19",
+        "curated-halloween2019-original-nbc-row-21",
+        "curated-halloween2019-original-nbc-row-23",
+        "curated-halloween2019-original-nbc-row-24",
+        "curated-halloween2019-original-nbc-row-25",
+        "curated-halloween2019-original-nbc-row-26",
+        "curated-halloween2019-original-nbc-row-27",
+        "curated-halloween2019-original-nbc-row-28",
+        "curated-halloween2019-original-nbc-row-29",
+        "curated-halloween2019-original-nbc-row-30",
+        "curated-halloween2019-original-nbc-row-31",
+        "curated-halloween2019-original-nbc-row-32",
+        "curated-halloween2019-original-nbc-row-33"
+      ],
+      "fullPublicationVerified": false
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "url": "https://mktwrs.com/data/courses/gcn-dino-dino-jungle.json",
+      "sha256": "89b39c11dea29910ef2ea925ff88c958131b8bb499f804690941b61d630ca072",
+      "restoredNbcRowsChecked": 0,
+      "restoredNbcRowsAbsent": [],
+      "fullPublicationVerified": false
+    }
+  ],
+  "deployment": {
+    "commit": "dd58327d4b742838affaa8ad8d388dc5dccacfc3",
+    "combinedState": "pending",
+    "statuses": [
+      {
+        "id": 56101438126,
+        "state": "pending",
+        "description": "Railway is deploying the service",
+        "target_url": "https://railway.com/project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5?id=ef62fdf8-a277-45a3-a2b8-e900388b88e7&environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d",
+        "created_at": "2026-10-11T21:38:04Z",
+        "updated_at": "2026-10-11T21:38:04Z"
+      }
+    ]
+  },
+  "limitations": [
+    "The Dark post was already present in prior unavailable-media and forwarding ledgers. It is newly rechecked, not a newly discovered historical source.",
+    "Adjacent October28attribution cannot date1:35.47 without identifying the image result. No result/date/lap/video or fastest-recording selection changed.",
+    "Attachment-channel URL attempted in the known server redirects to server-rules; this does not establish deletion, ownership by another server, or permanent inaccessibility.",
+    "Twenty-two restored NBCdocumentary supporting rows are absent from the sampled live course data. Pending deployment status is not publication confirmation.",
+    "Source coverage, unresolved media, record dates, recording scope and clock discrepancy still prevent completion."
+  ]
+}
