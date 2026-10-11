@@ -28,3 +28,11 @@ test('submission time renders even without a video and achievement date is not s
  assert.doesNotMatch(html,/2019-10-29/);
  assert.doesNotMatch(html,/Original video unavailable/);
 });
+
+
+test('unrecovered documentary video reference remains linked without claiming verified proof',()=>{
+ const html=render({time:'1:05.33',videoReference:'https://twitter.com/40pairs/status/1187010514271911937'});
+ assert.match(html,/href="https:\/\/twitter.com\/40pairs\/status\/1187010514271911937"/);
+ assert.match(html,/Video reference unverified/);
+ assert.doesNotMatch(html,/Watch video proof/);
+});

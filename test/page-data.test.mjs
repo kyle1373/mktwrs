@@ -1,4 +1,5 @@
 import test from "node:test";
+import fs from "node:fs";
 import assert from "node:assert/strict";
 import { archive, routeData } from "../lib/data.mjs";
 import { courseStatistics, historyEvents } from "../public/history.mjs";
@@ -59,7 +60,7 @@ test("course pages retain unavailable original links and separate video publicat
   const display=routeData(['course',id]).data;
   for (const row of course.records) {
    const r=display.records.find(r=>r.id===row.id);
-   for (const key of ['originalVideo','originalVideoAvailable','videoPublishedAt','submittedAt','recordDate'])
+   for (const key of ['originalVideo','originalVideoAvailable','videoReference','videoPublishedAt','submittedAt','recordDate'])
     assert.deepEqual(r[key],row[key]);
   }
  }
@@ -67,4 +68,19 @@ test("course pages retain unavailable original links and separate video publicat
  assert.match(row.originalVideo,/5mQGD5k9V5k/);
  assert.equal(row.originalVideoAvailable,false);
  assert.equal(row.video,null);
+});
+
+
+test('every original Halloween WR leaderboard video reference survives course presentation',()=>{
+ const crosswalk=JSON.parse(fs.readFileSync(new URL('../archive/halloween2019-full-original-leaderboard-crosswalk-and-supporting-recoveries-20261011.json',import.meta.url)));
+ let references=0;
+ for (const row of crosswalk.originalWrRowCrosswalk) {
+  const course=source.courses.find(c=>c.id===row.courseId);
+  const original=course.records.find(r=>r.id===row.recordId);
+  assert(original);
+  const display=routeData(['course',row.courseId]).data.records.find(r=>r.id===row.recordId);
+  const url=original.video||original.originalVideo||original.videoReference;
+  if(url) {references++;assert.equal(display.video||display.originalVideo||display.videoReference,url);}
+ }
+ assert.equal(references,14);
 });

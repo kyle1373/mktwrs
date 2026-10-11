@@ -77,7 +77,8 @@ function EvidenceTimes({ r }) {
   </details>;
 }
 function Time({ record: r }) {
-  const video = r?.video || r?.originalVideo;
+  const video = r?.video || r?.originalVideo || r?.videoReference;
+  const referenceOnly = !r?.video && !r?.originalVideo && Boolean(r?.videoReference);
   const unavailable = r?.videoAvailability === "unavailable" || (!r?.video && r?.originalVideoAvailable === false);
   const original = video ? (
     <a
@@ -85,8 +86,8 @@ function Time({ record: r }) {
       href={video}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`${unavailable ? "Original video unavailable" : "Watch video proof"} for ${r.time}`}
-      title={unavailable ? "Original video unavailable; source link preserved" : undefined}
+      aria-label={`${unavailable ? "Original video unavailable" : referenceOnly ? "Original video reference unverified" : "Watch video proof"} for ${r.time}`}
+      title={unavailable ? "Original video unavailable; source link preserved" : referenceOnly ? "Original video reference; footage not verified" : undefined}
     >
       {r.time}
     </a>
@@ -102,7 +103,7 @@ function Time({ record: r }) {
       {r?.time || "—"}
     </span>
   );
-  return <>{original}{video && unavailable && <span className="table-note"> · Original video unavailable</span>}<EvidenceTimes r={r} /></>;
+  return <>{original}{video && unavailable && <span className="table-note"> · Original video unavailable</span>}{referenceOnly && <span className="table-note"> · Video reference unverified</span>}<EvidenceTimes r={r} /></>;
 }
 function BackupIcon() {
   return <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">
