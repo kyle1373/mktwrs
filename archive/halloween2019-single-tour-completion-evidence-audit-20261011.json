@@ -334,7 +334,8 @@
       "latestNovaNu11VideoAvailabilityAndShareReview": "archive/halloween2019-two-original-toad-video-share-persistence-and-availability-reconciliation-20261011.json",
       "latestOriginalChannelContextAttempt": "archive/halloween2019-dark-prior-ledger-and-current-source-gap-reconciliation-20261011.json",
       "latestFullRecordingScopeReconciliation": "archive/halloween2019-tome13443-full-recording-scope-and-original-share-reconciliation-20261011.json",
-      "latestBackupAndAdditionalScopeReview": "archive/halloween2019-one-backup-status-and-two-full-recording-scope-reconciliation-20261011.json"
+      "latestBackupAndAdditionalScopeReview": "archive/halloween2019-one-backup-status-and-two-full-recording-scope-reconciliation-20261011.json",
+      "threeTrackRecordingComparison": "archive/halloween2019-three-track-recording-comparison-and-date-gap-queue-20261011.json"
     },
     {
       "id": "unreal12848-clock",
@@ -351,6 +352,38 @@
       "status": "publication-gaps-confirmed-latest-deployment-pending-source-coverage-unresolved",
       "detail": "Fresh live check still lacks 22 restored NBC supporting rows. GitHub status for dd58327d reports Railway deployment ef62fdf8-a277-45a3-a2b8-e900388b88e7 pending. Original attachment-channel route redirected to server-rules; source context remains unresolved.",
       "evidence": "archive/halloween2019-dark-prior-ledger-and-current-source-gap-reconciliation-20261011.json"
+    },
+    {
+      "id": "tome-ddj-13538-date",
+      "courseId": "gcn-dino-dino-jungle",
+      "requirement": "Achievement-date provenance",
+      "status": "unresolved",
+      "evidence": "archive/halloween2019-three-track-recording-comparison-and-date-gap-queue-20261011.json",
+      "detail": "Tomegome 1:35.38 achievement day remains unknown. Later evidence publication is retained separately; original source chronology must be reconciled."
+    },
+    {
+      "id": "tome-ddj-13518-date",
+      "courseId": "gcn-dino-dino-jungle",
+      "requirement": "Achievement-date provenance",
+      "status": "unresolved",
+      "evidence": "archive/halloween2019-three-track-recording-comparison-and-date-gap-queue-20261011.json",
+      "detail": "Tomegome 1:35.18 achievement day remains unknown. Later evidence publication is retained separately; original source chronology must be reconciled."
+    },
+    {
+      "id": "tome-ddj-13416-date",
+      "courseId": "gcn-dino-dino-jungle",
+      "requirement": "Achievement-date provenance",
+      "status": "unresolved",
+      "evidence": "archive/halloween2019-three-track-recording-comparison-and-date-gap-queue-20261011.json",
+      "detail": "Tomegome 1:34.16 achievement day remains unknown. Later evidence publication is retained separately; original source chronology must be reconciled."
+    },
+    {
+      "id": "tome-ddj-13463-date-bound-provenance",
+      "courseId": "gcn-dino-dino-jungle",
+      "requirement": "Same-day lower-bound provenance",
+      "status": "source-review-pending",
+      "evidence": "archive/halloween2019-three-track-recording-comparison-and-date-gap-queue-20261011.json",
+      "detail": "Existing same-day inference relies on earlier dated result and later previous-best screenshot. Posting dates alone do not establish capture dates; inspect the underlying provenance before accepting the lower bound."
     }
   ],
   "nextWork": "Continue Halloween original-media and rival chronology review. Resolve or document source gaps; verify fastest completed recordings and public deployment before any completion certification.",
@@ -480,5 +513,11 @@
   "latestKnownDarkSourceReconciliation": "archive/halloween2019-dark-prior-ledger-and-current-source-gap-reconciliation-20261011.json",
   "latestSourceGapAndPublicationRecheck": "archive/halloween2019-dark-prior-ledger-and-current-source-gap-reconciliation-20261011.json",
   "latestTomeFullRecordingScopeReconciliation": "archive/halloween2019-tome13443-full-recording-scope-and-original-share-reconciliation-20261011.json",
-  "latestBackupStatusAndTwoFullRecordingScopeReconciliation": "archive/halloween2019-one-backup-status-and-two-full-recording-scope-reconciliation-20261011.json"
+  "latestBackupStatusAndTwoFullRecordingScopeReconciliation": "archive/halloween2019-one-backup-status-and-two-full-recording-scope-reconciliation-20261011.json",
+  "latestTourRecordingAndDateGapQueue": "archive/halloween2019-three-track-recording-comparison-and-date-gap-queue-20261011.json",
+  "unresolvedAchievementDateInventory": {
+    "audit": "archive/halloween2019-three-track-recording-comparison-and-date-gap-queue-20261011.json",
+    "rows": 6,
+    "scope": "Selected Halloween candidate records; source-date provenance still requires review."
+  }
 }
