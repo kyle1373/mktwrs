@@ -1,0 +1,90 @@
+{
+  "reviewedAt": "2026-10-11T22:54:34.444387+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "event": {
+    "sharedAt": "2019-10-23T09:51:39.890Z",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/636501989324488705",
+      "channel": "tt-discussion",
+      "messageId": "636501989324488705"
+    },
+    "sharedByDisplay": "Benny91",
+    "reviewAudit": "archive/halloween2019-10616-original-discord-video-share-and-clock-discrepancy-20261011.json",
+    "freshOriginalPostReviewed": true,
+    "freshFootageReviewed": false,
+    "kind": "documented-discord-share-not-earliest-publication-claim"
+  },
+  "recordId": "curated-original-2019-wr-row-9",
+  "linkedVideo": "https://youtu.be/3VcN235Wqkc",
+  "embeddedChannel": "Topspeedsnaker",
+  "embeddedTitle": "MK Tour - Toad Circuit Time Trial 1:06.16",
+  "canonicalRunner": "unreal91",
+  "runnerAttributionReverified": false,
+  "clockDiscrepancy": {
+    "reviewAudit": "archive/halloween2019-10616-original-discord-video-share-and-clock-discrepancy-20261011.json",
+    "discordSharedAt": "2019-10-23T09:51:39.890Z",
+    "preservedYoutubePublishedAt": "2019-10-23T15:03:01Z",
+    "publicationAfterShareSeconds": 18681.11,
+    "resolved": false,
+    "basis": "The original Discord post already embeds the same URL before the preserved platform publication timestamp. Preserve both observations; first public availability unresolved."
+  },
+  "isolatedImporterReproduction": {
+    "fixtureRoot": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-halloween-import-5sagslgy",
+    "result": {
+      "submissionCount": 0,
+      "acceptedDiscordSubmissions": 0,
+      "submissionMessagesCaptured": 0,
+      "attachmentDateMatches": 0,
+      "enrichedRecords": 3,
+      "importIssueCount": 0
+    },
+    "checks": [
+      {
+        "id": "curated-637479815665942539-3ds-toad-circuit",
+        "sourceLinksPreserved": true,
+        "evidencePublishedAt": null
+      },
+      {
+        "id": "curated-original-2019-wr-row-9",
+        "sourceLinksPreserved": true,
+        "evidencePublishedAt": null
+      },
+      {
+        "id": "curated-twitter-1191841211063164929-verified",
+        "sourceLinksPreserved": true,
+        "evidencePublishedAt": null
+      },
+      {
+        "id": "curated-sam-original-channel-2019-2iIrWCRdnUA",
+        "sourceLinksPreserved": true,
+        "evidencePublishedAt": null
+      },
+      {
+        "id": "curated-636633151283789874-ddj-14550-supporting",
+        "sourceLinksPreserved": true,
+        "evidencePublishedAt": "2019-10-23T18:32:51.338Z"
+      }
+    ],
+    "recordChecks": [
+      {
+        "id": "curated-original-2019-wr-row-9",
+        "missingLinks": []
+      },
+      {
+        "id": "curated-637479815665942539-3ds-toad-circuit",
+        "missingLinks": []
+      },
+      {
+        "id": "curated-twitter-1191841211063164929-verified",
+        "missingLinks": []
+      }
+    ]
+  },
+  "limits": [
+    "Video link and posting clock freshly read from original Discord DOM. Footage and runner identity were not freshly verified. Existing canonical attribution retained.",
+    "Preserved YouTube metadata is not revised based on the earlier share. No achievement/submission clock, total, split, availability or full-run scope changed.",
+    "The source-link rebuild fixture confirms all five affected curated submissions and three fixture records retain evidence references; it is scoped validation, not an entire archive rebuild."
+  ]
+}

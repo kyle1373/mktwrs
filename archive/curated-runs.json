@@ -1037,6 +1037,29 @@
       "reviewAudit": "archive/halloween2019-thirteen-preserved-video-publication-clocks-reconciliation-20261010.json",
       "basis": "preserved-original-video-metadata",
       "freshFootageReviewed": false
+    },
+    "videoShareEvents": [
+      {
+        "sharedAt": "2019-10-23T09:51:39.890Z",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/636501989324488705",
+          "channel": "tt-discussion",
+          "messageId": "636501989324488705"
+        },
+        "sharedByDisplay": "Benny91",
+        "reviewAudit": "archive/halloween2019-10616-original-discord-video-share-and-clock-discrepancy-20261011.json",
+        "freshOriginalPostReviewed": true,
+        "freshFootageReviewed": false,
+        "kind": "documented-discord-share-not-earliest-publication-claim"
+      }
+    ],
+    "videoPublicationClockDiscrepancy": {
+      "reviewAudit": "archive/halloween2019-10616-original-discord-video-share-and-clock-discrepancy-20261011.json",
+      "discordSharedAt": "2019-10-23T09:51:39.890Z",
+      "preservedYoutubePublishedAt": "2019-10-23T15:03:01Z",
+      "publicationAfterShareSeconds": 18681.11,
+      "resolved": false,
+      "basis": "The original Discord post already embeds the same URL before the preserved platform publication timestamp. Preserve both observations; first public availability unresolved."
     }
   },
   {
