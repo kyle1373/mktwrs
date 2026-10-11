@@ -9,22 +9,25 @@
     "path": "archive/halloween2019-astre-current-middle-segment-20261011.jpg",
     "sha256": "420100af74da18f2cf8af263a1faf9894ea7c04bce81239a16afac925c5dccea",
     "frameSampling": "ffmpeg fps=1 scale294:639 tile5x4; third sheet",
-    "observedContent": "Neo Bowser City middle race segment: lap1timer37.97through41.95; lap2transitionoverlay42.89; subsequentlap2racing45.95through56.95.",
-    "actuallyRenderedImageToolResult": true,
+    "actuallyRenderedImageToolResult": false,
     "startReviewed": false,
     "finishReviewed": false,
-    "fullRaceCoverageVerified": false
+    "fullRaceCoverageVerified": false,
+    "withdrawnObservedContent": "Neo Bowser City middle race segment: lap1timer37.97through41.95; lap2transitionoverlay42.89; subsequentlap2racing45.95through56.95.",
+    "freshPixelsReviewed": false,
+    "observationStatus": "unsupported-visual-claim-withdrawn"
   },
   "withdrawnCommentaryClaims": [
     "Starting grid and PARTEZ seen in first omitted boundary image.",
     "Lap2from58through77seen in omitted page04 image."
   ],
-  "reason": "Those specific tool results contained omitted-image placeholders and supplied no pixels. Only page03 in finalimagecall rendered actual image content.",
+  "reason": "All image tool outputs available in the prior turn were explicit omitted-image placeholders. No fresh image pixels substantiate the claimed42.89lap-transition observation.",
   "raceDataChanged": false,
   "scopeEligibilityChanged": false,
   "limitations": [
-    "One-second sampling of the displayed middle segment does not prove complete uncut footage.",
-    "Repeated omitted image calls did not add evidence. Start/end remained unseen in this turn. No fresh full-race scope may be certified.",
-    "Existing video verification and lap fields retained without changes; only limited observation preserved."
-  ]
+    "Contact sheet remains a derived artifact with a checksum, not a visually reviewed source.",
+    "No fresh race content, lap transition, start or finish was observed in the available tool outputs.",
+    "Original source hashes and prior source reviews are retained. Race data and full-recording scope remained unchanged by the unsupported claim."
+  ],
+  "withdrawalAudit": "archive/halloween2019-astre-middle-segment-visual-claim-withdrawal-20261011.json"
 }
