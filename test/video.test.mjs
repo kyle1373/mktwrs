@@ -40,3 +40,16 @@ test('video titles alone cannot qualify a record as fastest verified footage',()
  assert.equal(fastestVideo({records:[unreviewed,verified]}).timeCs,9000);
  assert.equal(fastestVideo({records:[unreviewed]}),null);
 });
+
+test('verified partial recordings remain evidence but cannot supply fastest complete footage',()=>{
+ const excerpt=run(8321,{videoScope:'finish-excerpt',videoBackup:{url:'https://youtu.be/backup12345',status:'available'}});
+ const partial=run(8322,{videoCoverage:'partial'});
+ const fragment=run(8323,{videoCoverage:'finish-fragment'});
+ const complete=run(8330,{videoScope:'full-run'});
+ const course={records:[excerpt,partial],submissions:[fragment,complete],currentHolders:[excerpt]};
+ assert.equal(fastestVideo(course).timeCs,8330);
+ assert.equal(fastestVideo(course).isCurrent,false);
+ assert.equal(course.records[0],excerpt);
+ assert.equal(fastestVideo({records:[excerpt,partial,fragment]}),null);
+ assert.equal(fastestVideo({records:[run(8340,{videoCoverage:'full'})]}).timeCs,8340);
+});
