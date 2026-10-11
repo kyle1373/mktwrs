@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-10-11T21:08:30.266458+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "repositoryCommit": "c7f38125982c4d8e57921860fe4d0c2fe577a86a",
+  "githubDeployment": {
+    "id": 7001734719,
+    "statuses": [
+      {
+        "url": "https://api.github.com/repos/kyle1373/mktwrs/deployments/7001734719/statuses/19613784799",
+        "id": 19613784799,
+        "node_id": "DES_kwDOU0REIM8AAAAEkRKa3w",
+        "state": "in_progress",
+        "creator": {
+          "login": "railway-app[bot]",
+          "id": 68434857,
+          "node_id": "MDM6Qm90Njg0MzQ4NTc=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/73253?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/railway-app%5Bbot%5D",
+          "html_url": "https://github.com/apps/railway-app",
+          "followers_url": "https://api.github.com/users/railway-app%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/railway-app%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/railway-app%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/railway-app%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/railway-app%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/railway-app%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/railway-app%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/railway-app%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/railway-app%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "description": "",
+        "environment": "mktwrs.com / production",
+        "target_url": "https://railway.com/project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d",
+        "created_at": "2026-10-11T21:02:23Z",
+        "updated_at": "2026-10-11T21:02:23Z",
+        "deployment_url": "https://api.github.com/repos/kyle1373/mktwrs/deployments/7001734719",
+        "repository_url": "https://api.github.com/repos/kyle1373/mktwrs",
+        "environment_url": "https://railway.com/project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d",
+        "log_url": "https://railway.com/project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d",
+        "performed_via_github_app": null
+      }
+    ],
+    "railwayDeploymentId": "b1976ea0-85dc-4adc-a1bd-87c47b6ae18f"
+  },
+  "githubCommitStatuses": [
+    {
+      "context": "mktwrs.com - mktwrs",
+      "state": "pending",
+      "description": "Railway is deploying the service",
+      "target_url": "https://railway.com/project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5?id=b1976ea0-85dc-4adc-a1bd-87c47b6ae18f&environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d"
+    }
+  ],
+  "ci": {
+    "checkRunId": 114574500773,
+    "runId": 38174696688,
+    "annotations": [
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/kyle1373/mktwrs/blob/c7f38125982c4d8e57921860fe4d0c2fe577a86a/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "failure",
+        "title": "",
+        "message": "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings",
+        "raw_details": ""
+      },
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/kyle1373/mktwrs/blob/c7f38125982c4d8e57921860fe4d0c2fe577a86a/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "notice",
+        "title": "",
+        "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+        "raw_details": ""
+      }
+    ],
+    "jobDidNotStartDueToAccountRestriction": true,
+    "codeFailureReported": false
+  },
+  "livePublication": {
+    "checkedAt": "2026-10-11T21:07:56.221231+00:00",
+    "repositoryHead": "c7f38125982c4d8e57921860fe4d0c2fe577a86a",
+    "results": [
+      {
+        "courseId": "3ds-toad-circuit",
+        "url": "https://mktwrs.com/data/courses/3ds-toad-circuit.json",
+        "status": 200,
+        "liveSha256": "c3dd3b71a0a0900642d05c8dc2a7366f70089172b03f5374ad2074767bc03c8d",
+        "entireDataEqual": false,
+        "samples": [
+          {
+            "id": "curated-halloween2019-carlos85-overview-3ds-toad-circuit",
+            "expectedPresent": false,
+            "livePresent": false
+          }
+        ]
+      },
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "url": "https://mktwrs.com/data/courses/3ds-neo-bowser-city.json",
+        "status": 200,
+        "liveSha256": "1935ff437720d6904e27593b894a3a47890d168cd7947a8284be727fb0a50f25",
+        "entireDataEqual": false,
+        "samples": [
+          {
+            "id": "curated-halloween2019-original-nbc-row-8",
+            "expectedPresent": true,
+            "livePresent": false
+          },
+          {
+            "id": "curated-halloween2019-original-nbc-row-33",
+            "expectedPresent": true,
+            "livePresent": false
+          }
+        ]
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle",
+        "url": "https://mktwrs.com/data/courses/gcn-dino-dino-jungle.json",
+        "status": 200,
+        "liveSha256": "89b39c11dea29910ef2ea925ff88c958131b8bb499f804690941b61d630ca072",
+        "entireDataEqual": false,
+        "samples": [
+          {
+            "id": "curated-halloween2019-carlos85-overview-gcn-dino-dino-jungle",
+            "expectedPresent": false,
+            "livePresent": false
+          }
+        ]
+      }
+    ]
+  },
+  "railwayCli": {
+    "result": "access-denied",
+    "projectId": "80b026c9-fa2d-4e7d-9b01-657a2f631ff0",
+    "serviceId": "dc662fe0-1295-439f-ba7f-d957436f93c5"
+  },
+  "limitations": [
+    "GitHub deployment state in_progress is not proof of healthy Railway build or eventual success. Same handle must be checked for terminal status.",
+    "Current site still serves older data. New NBC documentary submissions absent; no live publication certification.",
+    "GitHub validation was not executed because account billing/spending restriction prevented job start. Existing scoped local checks are separate evidence.",
+    "No account billing settings, deployments, credentials or permissions changed."
+  ]
+}
