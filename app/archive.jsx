@@ -82,6 +82,19 @@ function EvidenceTimes({ r }) {
     </div>)}
   </details>;
 }
+function SplitSourceNote({ r }) {
+  const review = r?.lapSourceDiscrepancyReview;
+  if (!review) return null;
+  const sheet = review.sheetLapOne || review.documentaryLapOne;
+  const other = review.originalPlayerForumLapOne || review.priorVideoOverlayLapOne;
+  if (!sheet || !other || sheet === other) return null;
+  const label = review.originalPlayerForumLapOne ? "Player report" : "Prior video review";
+  return <details className="evidence-times">
+    <summary>Split sources differ</summary>
+    <p className="table-note">First lap: WR-history sheet {sheet}; {label.toLowerCase()} {other}. Displayed splits retain the existing source choice.</p>
+    {review.source?.url && <p><a href={review.source.url} target="_blank" rel="noopener noreferrer">Player report</a></p>}
+  </details>;
+}
 function Time({ record: r }) {
   const video = r?.video || r?.originalVideo || r?.videoReference;
   const referenceOnly = !r?.video && !r?.originalVideo && Boolean(r?.videoReference);
@@ -109,7 +122,7 @@ function Time({ record: r }) {
       {r?.time || "—"}
     </span>
   );
-  return <>{original}{video && unavailable && <span className="table-note"> · Original video unavailable</span>}{referenceOnly && <span className="table-note"> · Video reference unverified</span>}<EvidenceTimes r={r} /></>;
+  return <>{original}{video && unavailable && <span className="table-note"> · Original video unavailable</span>}{referenceOnly && <span className="table-note"> · Video reference unverified</span>}<EvidenceTimes r={r} /><SplitSourceNote r={r} /></>;
 }
 function BackupIcon() {
   return <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">
