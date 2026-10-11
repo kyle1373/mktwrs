@@ -1,0 +1,25 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "withdrawnCommit": "1196b206",
+  "withdrawnAudit": "archive/halloween2019-carlos85-three-menu-results-actual-pixel-confirmation-20261011.json",
+  "reason": "All three view_image outputs explicitly said Image from an earlier turn omitted from this Azure request. No image pixels were supplied; subsequent visual claims were unsupported.",
+  "restoredDataCommit": "ef7b6e63",
+  "removedUnsupportedCanonicalIds": [
+    "halloween2019-carlos85-overview-3ds-toad-circuit",
+    "halloween2019-carlos85-overview-gcn-dino-dino-jungle"
+  ],
+  "restoredNbcObservedAt": "2019-10-28T21:54:45.314Z",
+  "candidateStatus": "all-three-pending-visual-confirmation",
+  "validation": {
+    "allFiveCanonicalAndPublicDataFilesExactlyMatchPreClaimCommit": true,
+    "priorValidWorkPreserved": true,
+    "completionRequirementReopened": true
+  },
+  "limitations": [
+    "Frame/video hashes and OCR candidates remain preserved; they do not constitute visual confirmation.",
+    "Halloween remains active and incomplete."
+  ]
+}

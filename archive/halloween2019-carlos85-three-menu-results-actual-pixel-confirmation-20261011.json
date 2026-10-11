@@ -25,17 +25,18 @@
       "framePath": "public/assets/proof/halloween2019-carlos85-overview-toad.webp",
       "sha256": "330bbea269b8f7bb155b189af521b0eb6d3314044fad91f030a730aa267e041d",
       "frameTimestampSeconds": 1,
-      "visualVerificationComplete": true,
+      "visualVerificationComplete": false,
       "visibleTour": "Halloween Tour",
       "visibleChallengeLabel": "Time Trial",
-      "freshRenderedFrameReviewed": true,
+      "freshRenderedFrameReviewed": false,
       "source": {
         "url": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
         "channel": "screenshots",
         "messageId": "638364828066512916"
       },
       "observedAt": "2019-10-28T13:13:55.256Z",
-      "lapSplitsVisible": false
+      "lapSplitsVisible": false,
+      "confirmationWithdrawn": true
     },
     {
       "courseId": "3ds-neo-bowser-city",
@@ -44,17 +45,18 @@
       "framePath": "public/assets/proof/halloween2019-carlos85-overview-nbc.webp",
       "sha256": "8139aa63e103926b35a8ba9a78fafe0b37ccdfb28e9f61abf5c5e739898e055b",
       "frameTimestampSeconds": 16,
-      "visualVerificationComplete": true,
+      "visualVerificationComplete": false,
       "visibleTour": "Halloween Tour",
       "visibleChallengeLabel": "Time Trial",
-      "freshRenderedFrameReviewed": true,
+      "freshRenderedFrameReviewed": false,
       "source": {
         "url": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
         "channel": "screenshots",
         "messageId": "638364828066512916"
       },
       "observedAt": "2019-10-28T13:13:55.256Z",
-      "lapSplitsVisible": false
+      "lapSplitsVisible": false,
+      "confirmationWithdrawn": true
     },
     {
       "courseId": "gcn-dino-dino-jungle",
@@ -63,23 +65,24 @@
       "framePath": "public/assets/proof/halloween2019-carlos85-overview-dino.webp",
       "sha256": "0a63d28aa9a386ab330b62bebc82284a4bf810d82591623c37f6e17d46239407",
       "frameTimestampSeconds": 32,
-      "visualVerificationComplete": true,
+      "visualVerificationComplete": false,
       "visibleTour": "Halloween Tour",
       "visibleChallengeLabel": "Time Trial",
-      "freshRenderedFrameReviewed": true,
+      "freshRenderedFrameReviewed": false,
       "source": {
         "url": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
         "channel": "screenshots",
         "messageId": "638364828066512916"
       },
       "observedAt": "2019-10-28T13:13:55.256Z",
-      "lapSplitsVisible": false
+      "lapSplitsVisible": false,
+      "confirmationWithdrawn": true
     }
   ],
-  "newSupportingResults": 2,
-  "earlierExistingMenuObservationReconciled": "halloween2019-menu-638495899164737551",
+  "newSupportingResults": 0,
+  "earlierExistingMenuObservationReconciled": null,
   "validation": {
-    "actualPixelsVisibleAndRead": true,
+    "actualPixelsVisibleAndRead": false,
     "threeFrameHashesAndOriginalVideoHashMatch": true,
     "sourceShareClockMatchesMessageId": true,
     "inverseScopeComparisonPassed": true,
@@ -88,9 +91,12 @@
     "wrProgressionUnchanged": true
   },
   "limitations": [
+    "WITHDRAWN: the tool outputs were omitted-image placeholders. No current pixels were provided. Two supporting rows and earlier NBC observation were removed/restored by withdrawal audit.",
     "Earlier image-preview claims were withdrawn; this review is based on actual rendered images present in the current tool output.",
     "Cup overview confirms displayed completed menu bests, not a full race recording, exact achievement day, lap splits or accepted result submission.",
     "NBC earlier menu total matches later screenshot; same race attempt is not established. Later screenshot submission timestamp retained.",
     "This resolves the Carlos85 overview content gap only. Halloween chronology, other original media, source coverage and live publication remain unresolved."
-  ]
+  ],
+  "claimStatus": "withdrawn-omitted-image-placeholder-no-pixels",
+  "withdrawalAudit": "archive/halloween2019-third-omitted-image-claim-withdrawal-20261011.json"
 }
