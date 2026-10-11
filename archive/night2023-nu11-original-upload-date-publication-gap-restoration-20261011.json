@@ -1,0 +1,101 @@
+{
+  "reviewedAt": "2026-10-11",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "courseId": "rome-avanti-2",
+  "publicIds": [
+    "1130210516791464016",
+    "sheet-BBP36"
+  ],
+  "canonicalOriginalVideo": {
+    "messageId": "nu11-pItjwdPPT48-original-video-reviewed",
+    "player": "Nu11",
+    "courseId": "rome-avanti-2",
+    "time": "1:18.87",
+    "laps": [
+      "39.37",
+      "39.50"
+    ],
+    "mushrooms": null,
+    "status": "community-wr",
+    "includeInProgression": true,
+    "submittedAt": "2023-07-11T15:12:19Z",
+    "evidencePublishedAt": "2023-07-11T15:12:19Z",
+    "video": "https://www.youtube.com/watch?v=pItjwdPPT48",
+    "videoVerified": true,
+    "proofImage": "/assets/proof/nu11-pItjwdPPT48-video-result.webp",
+    "proofImageLocal": "/assets/proof/nu11-pItjwdPPT48-video-result.webp",
+    "proofImageVerified": true,
+    "source": {
+      "url": "https://www.youtube.com/watch?v=pItjwdPPT48",
+      "kind": "original-video-publication"
+    },
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/896050730216095765/1130210516791464016",
+        "channel": "wr-history",
+        "messageId": "1130210516791464016"
+      }
+    ],
+    "derivedLap": 2,
+    "notes": [
+      "Enriches already accepted WR using original recording. Start, lap boundary and finish/result screen visually reviewed. Lap two calculated from total minus displayed first lap; sum matches title splits.",
+      "Original YouTube page displays 2023-07-11 upload day; preserved source metadata gives 2023-07-11T15:12:19Z. Date is original video publication, not an asserted race-completion instant. Later WR-history announcement does not replace it.",
+      "Image proof is an explicitly extracted result frame from the original video. Original separately posted screenshot URL was unavailable during review.",
+      "Video result screen shows previous best 1:18.92; this is a separate undated lead and not automatically another WR."
+    ]
+  },
+  "priorOriginalVideoReview": {
+    "courseId": "rome-avanti-2",
+    "time": "1:18.87",
+    "video": "https://www.youtube.com/watch?v=pItjwdPPT48",
+    "verifiedUploadDay": "2023-07-11",
+    "metadataTimestamp": "2023-07-11T15:12:19Z",
+    "laps": [
+      "39.37",
+      "39.50"
+    ],
+    "derivedLap": 2,
+    "proofImageLocal": "/assets/proof/nu11-pItjwdPPT48-video-result.webp",
+    "priorBestLead": "1:18.92",
+    "newWr": false
+  },
+  "restoredFields": {
+    "evidencePublishedAt": "2023-07-11T15:12:19Z",
+    "recordDate": "2023-07-11",
+    "dateBasis": "original-video-publication",
+    "originalVideoPublicationReview": {
+      "reviewAudit": "archive/night2023-nu11-original-upload-date-publication-gap-restoration-20261011.json",
+      "priorOriginalReview": "archive/nu11-rome-rainbow-original-video-date-review-20261005.json",
+      "verifiedUploadDay": "2023-07-11",
+      "metadataTimestamp": "2023-07-11T15:12:19Z",
+      "dateBasis": "original-video-publication",
+      "achievementDateUnresolved": true,
+      "discordSubmissionDateUnresolved": true,
+      "freshOriginalFootageReviewed": false
+    }
+  },
+  "comparison": {
+    "sameVideoId": true,
+    "samePlayer": true,
+    "sameTotalAndSplits": true,
+    "previousPublicRecordDate": null,
+    "previousDiscordSubmittedAt": null
+  },
+  "validation": {
+    "status": "passed",
+    "existingResultUpdated": true,
+    "newWrTransitions": 0,
+    "allOtherDataUnchanged": true,
+    "individualAggregateRestoredFieldsAgree": true,
+    "videoEligibilityUnchanged": true,
+    "freshVisualReview": false,
+    "livePublicationVerified": false
+  },
+  "limitations": [
+    "Date restored from preserved original-video review and matching canonical source metadata; no fresh playback or availability certification.",
+    "Upload instant is original public video evidence, not race completion or Discord submission. Null submittedAt retained.",
+    "Rome1:18.92 previous-best lead remains undated and does not automatically establish another WR.",
+    "RMXRainbowRoad2R1:21.20 already has original-upload-date metadata; equal YouTube ID resolves the crosswalk URL variation, not a new missing WR."
+  ]
+}
