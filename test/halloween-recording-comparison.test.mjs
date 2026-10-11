@@ -21,3 +21,18 @@ test('later tours and footage without explicit full-run scope cannot win Hallowe
  assert.equal(c.worldRecord.id,'wr');
  assert.equal(c.recording.id,'reviewed');
 });
+
+test('exact achievement timestamps use 06:00 UTC tour rollover',()=>{
+ const run=(id,achievedAt,timeCs)=>({id,achievedAt,timeCs,playerId:'p',video:'https://youtu.be/abcdefghijk',videoScope:'full-run',videoVerified:true});
+ const c=halloween2019RecordingComparison({records:[],submissions:[
+  run('before-opening','2019-10-23T05:59:59Z',4000),
+  run('final-hours','2019-11-06T05:59:59Z',6000),
+  run('at-close','2019-11-06T06:00:00Z',5000),
+  run('date-only-close','2019-11-06',4500)
+ ]});
+ assert.equal(c.recording.id,'final-hours');
+});
+test('submission clock alone does not invent achievement timestamp or tour assignment',()=>{
+ const c=halloween2019RecordingComparison({submissions:[{id:'report',submittedAt:'2019-11-06T05:00:00Z',timeCs:6000,videoScope:'full-run',videoVerified:true,video:'https://youtu.be/abcdefghijk'}]});
+ assert.equal(c.recording,null);
+});

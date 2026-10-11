@@ -1,0 +1,20 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "boundaryEvidence": "archive/halloween2019-preserved-server-census-count-and-tour-boundary-verification-20261011.json",
+  "startInclusive": "2019-10-23T06:00:00Z",
+  "endExclusive": "2019-11-06T06:00:00Z",
+  "change": "Timestamped achievement comparison uses exact UTC interval; ambiguous date-only closing day excluded",
+  "validation": {
+    "command": "node --test test/halloween-recording-comparison.test.mjs test/forum-evidence-times-render.test.mjs test/video.test.mjs",
+    "passed": 18,
+    "failed": 0,
+    "openingAndClosingBoundariesCovered": true,
+    "submissionClockNotUsedAsAchievementCovered": true
+  },
+  "limitations": [
+    "Existing three track selections unchanged. Submission or share clocks alone do not qualify footage for a tour.",
+    "No date-only November6 result is assigned to this tour without stronger evidence or an explicit tour range. Source coverage, full-race media review and publication remain incomplete."
+  ]
+}
