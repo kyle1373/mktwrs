@@ -2528,7 +2528,16 @@
             "archive/trick-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "openSourceRelationships": [
+            {
+              "messageId": "845736677582438411",
+              "candidatePlayer": "Ecliptix",
+              "candidateTime": "0:40.14",
+              "reviewAudit": "archive/may2021-five-written-report-context-dispositions-20261011.json",
+              "status": "written-self-report-original-result-proof-unresolved"
+            }
+          ]
         },
         {
           "courseId": "n64-koopa-troopa-beach-r",
@@ -2572,8 +2581,20 @@
             "archive/trick-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "openSourceRelationships": [
+            {
+              "messageId": "845736677582438411",
+              "candidatePlayer": "Ecliptix",
+              "candidateTime": "1:54.32",
+              "reviewAudit": "archive/may2021-five-written-report-context-dispositions-20261011.json",
+              "status": "written-self-report-original-result-proof-unresolved"
+            }
+          ]
         }
+      ],
+      "sourceReviews": [
+        "archive/may2021-five-written-report-context-dispositions-20261011.json"
       ]
     },
     {
@@ -10437,6 +10458,12 @@
     "reviewedAt": "2026-10-11",
     "audit": "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json",
     "writtenResultLeadsRecovered": 3,
+    "historyComplete": false
+  },
+  "latestMay2021WrittenReportDispositionReview": {
+    "reviewedAt": "2026-10-11",
+    "audit": "archive/may2021-five-written-report-context-dispositions-20261011.json",
+    "savedContextDispositions": 5,
     "historyComplete": false
   }
 }
