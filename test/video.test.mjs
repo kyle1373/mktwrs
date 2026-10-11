@@ -45,11 +45,29 @@ test('verified partial recordings remain evidence but cannot supply fastest comp
  const excerpt=run(8321,{videoScope:'finish-excerpt',videoBackup:{url:'https://youtu.be/backup12345',status:'available'}});
  const partial=run(8322,{videoCoverage:'partial'});
  const fragment=run(8323,{videoCoverage:'finish-fragment'});
- const complete=run(8330,{videoScope:'full-run'});
+ const complete=run(8330,{videoScope:'full-run',video:'https://youtu.be/zyMlDQ5xeM0'});
  const course={records:[excerpt,partial],submissions:[fragment,complete],currentHolders:[excerpt]};
  assert.equal(fastestVideo(course).timeCs,8330);
  assert.equal(fastestVideo(course).isCurrent,false);
  assert.equal(course.records[0],excerpt);
  assert.equal(fastestVideo({records:[excerpt,partial,fragment]}),null);
  assert.equal(fastestVideo({records:[run(8340,{videoCoverage:'full'})]}).timeCs,8340);
+});
+
+
+test('pending full-race review excludes result-verified footage and its sheet duplicate',()=>{
+ const pending=run(8570,{id:'curated-astre',videoScopeReview:{startToFinishContinuityVerified:false}});
+ const duplicate=run(8570,{id:'sheet-astre',video:'https://www.youtube.com/watch?v=X_wkkweScJU'});
+ const complete=run(9108,{id:'reviewed-full',video:'https://youtu.be/zyMlDQ5xeM0',videoScope:'full-run'});
+ const course={records:[pending],submissions:[duplicate,complete],currentHolders:[pending]};
+ const before=structuredClone(course);
+ assert.equal(fastestVideo(course).id,complete.id);
+ assert.equal(fastestVideo(course).isCurrent,false);
+ assert.deepEqual(course,before);
+});
+
+test('partial footage exclusions apply across equivalent original URL variants',()=>{
+ const partial=run(8500,{videoScope:'partial'});
+ const duplicate=run(8500,{video:'https://www.youtube.com/watch?v=X_wkkweScJU&feature=share'});
+ assert.equal(fastestVideo({records:[partial],submissions:[duplicate]}),null);
 });

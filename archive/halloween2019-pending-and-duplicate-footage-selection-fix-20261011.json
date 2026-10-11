@@ -1,0 +1,65 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCommit": "40b4ce291b09f3cdb0019158ae64c9d1fae34a21",
+  "change": {
+    "selector": "lib/video.mjs",
+    "pendingContinuityExcluded": true,
+    "duplicateOriginalUrlsShareExclusions": true,
+    "unverifiedSubmissionsCanCarryExclusions": true,
+    "originalLinksAndResultsPreserved": true
+  },
+  "evidence": {
+    "pendingAstreId": "896332037437403157",
+    "pendingAstreTime": "1:25.70",
+    "pendingDisposition": "videoScopeReview.startToFinishContinuityVerified=false",
+    "reviewAudit": "archive/halloween2019-astre12570-original-delayed-share-and-preservation-crosswalk-20261011.json"
+  },
+  "tourCandidateSelections": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "selectedId": "curated-637479815665942539-3ds-toad-circuit",
+      "time": "1:04.85",
+      "declaredScope": "full-run"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "selectedId": "curated-original-2019-wr-row-34",
+      "time": "1:26.31",
+      "declaredScope": null,
+      "fullRecordingUnresolved": true
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "selectedId": "curated-639765459633307668-tomegome",
+      "time": "1:34.43",
+      "declaredScope": "full-run"
+    }
+  ],
+  "validation": {
+    "focusedTests": "node --test test/video.test.mjs test/fastest-recorded.test.mjs",
+    "focusedPassed": 10,
+    "focusedFailed": 0,
+    "fullSuite": "npm test",
+    "fullPassed": 138,
+    "fullFailed": 5,
+    "baselineSelectorRecheck": "node --test test/archive.test.mjs test/data.test.mjs with HEAD selector temporarily restored and then edited selector restored",
+    "baselineSameFiveFailures": true,
+    "baselineFailureNames": [
+      "SYUN paired Vacation 2024 attachments retain distinct course and result identities",
+      "tied announcements never attach another player's identified recording",
+      "every course record and submission has valid references and integer time units",
+      "public WR history never promotes an inferred contender or ordinary submission",
+      "Halloween 2019 table retains credited players and achievement days rather than repost date"
+    ]
+  },
+  "limitations": [
+    "Legacy recordings without scope fields remain eligible; no full-race certification is inferred.",
+    "Tour candidate diagnostic filters existing records by Halloween2019 or October/November2019 evidence text. It is not exhaustive tour attribution or a globally fastest recording search.",
+    "A conflicting partial or pending assessment for the same original URL conservatively excludes all its duplicates until source assessment is reconciled. A different complete recording of the same performance requires a distinct original source URL.",
+    "No data regeneration or source date changes performed. No fresh pixels or video content verified.",
+    "Production deployment and all open Halloween proof/date/coverage requirements remain unresolved."
+  ]
+}
