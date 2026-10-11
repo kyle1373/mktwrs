@@ -134,11 +134,40 @@
           "text": "https://t.co/wcSa67Kk7t"
         }
       ],
-      "status": "pending-original-context-and-performance-classification",
+      "status": "distinct-reported-recording-pending-source-and-footage-review",
       "existingResultMatches": [],
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "recordingLead": {
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/847378334434066452",
+          "channel": "tt-discussion",
+          "messageId": "847378334434066452"
+        },
+        "sharedAt": "2021-05-27T07:38:58.457Z",
+        "video": "https://twitter.com/dit_mkt/status/1397819488616124416",
+        "reportedLaps": [
+          "20.00",
+          "19.97"
+        ],
+        "reportedTotal": "0:39.97",
+        "capturedText": "DIT\n — \n5/27/21, 12:38 AM\nThursday, May 27, 2021 at 12:38 AM\nhttps://twitter.com/dit_mkt/status/1397819488616124416?s=21\nDIT (@dit_mkt)\n動画は20.00/19.97です https://t.co/wcSa67Kk7t\nTwitter•5/27/21, 12:38 AM",
+        "priorStatementSource": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/847373712050094100",
+          "channel": "tt-discussion",
+          "messageId": "847373712050094100"
+        },
+        "priorStatement": "I have only .97video",
+        "status": "distinct-reported-recording-pending-source-and-footage-review",
+        "notAssignedToFasterResults": [
+          "0:39.92",
+          "0:39.88"
+        ],
+        "freshVisualReviewed": false,
+        "freshFootageReviewed": false
+      },
+      "reviewAudit": "archive/may2021-troy4002-lap-restoration-ecliptix4009-context-and-dit3997-recording-lead-20261010.json"
     },
     {
       "messageId": "847347335599751168",
@@ -182,11 +211,15 @@
         "540968925920362537"
       ],
       "links": [],
-      "status": "pending-original-context-and-performance-classification",
+      "status": "preserved-existing-result-delayed-context-reconciled",
       "existingResultMatches": [],
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "canonicalIds": [
+        "847127448051122196-847127445068840970-may2021-reviewed"
+      ],
+      "reviewAudit": "archive/may2021-troy4002-lap-restoration-ecliptix4009-context-and-dit3997-recording-lead-20261010.json"
     },
     {
       "messageId": "846731534802354206",
@@ -527,11 +560,15 @@
         "758806876053045328"
       ],
       "links": [],
-      "status": "pending-original-context-and-performance-classification",
+      "status": "preserved-existing-result-delayed-context-reconciled",
       "existingResultMatches": [],
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "canonicalIds": [
+        "845763024660463627-845763022303133737-may2021-reviewed"
+      ],
+      "reviewAudit": "archive/may2021-troy4002-lap-restoration-ecliptix4009-context-and-dit3997-recording-lead-20261010.json"
     },
     {
       "messageId": "845760718368014336",
@@ -1489,7 +1526,9 @@
   ],
   "statusCounts": {
     "preserved-existing-result-split-source-reconciled": 20,
-    "pending-original-context-and-performance-classification": 7,
+    "distinct-reported-recording-pending-source-and-footage-review": 1,
+    "pending-original-context-and-performance-classification": 4,
+    "preserved-existing-result-delayed-context-reconciled": 2,
     "preserved-existing-video-result-context-account-id-unresolved": 1,
     "preserved-existing-result-full-section-source-reconciled": 3,
     "separate-best-lap-pair-no-completed-result-established": 3,
