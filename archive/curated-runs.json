@@ -12795,7 +12795,9 @@
       "path": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
       "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
       "verifiedAt": "2026-10-04",
-      "backupStatus": "queued-not-uploaded"
+      "backupStatus": "queued-not-uploaded",
+      "bytes": 28073686,
+      "sourceCrosswalkReview": "archive/halloween2019-astre12570-original-delayed-share-and-preservation-crosswalk-20261011.json"
     },
     "originalCaptionSourceReview": {
       "reviewAudit": "archive/paris2019-delayed-astre-result-and-two-runner-attribution-caption-reviews-20261010.json",
@@ -12825,7 +12827,39 @@
       "freshFootageReviewed": false,
       "url": "https://x.com/Astre_HD/status/1191841211063164929",
       "platform": "Twitter"
-    }
+    },
+    "videoScopeReview": {
+      "reviewAudit": "archive/halloween2019-astre12570-original-delayed-share-and-preservation-crosswalk-20261011.json",
+      "originalFile": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
+      "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
+      "bytes": 28073686,
+      "durationSeconds": 99.334966,
+      "originalMetadataDurationSeconds": 99.326,
+      "priorVisualReview": "archive/halloween2019-dino-intermediate-and-astre-original-video-recovery-20261004.json",
+      "priorLapAndFinishFrameReviewRetained": true,
+      "startToFinishContinuityVerified": false,
+      "freshFootageReviewed": false,
+      "status": "full-race-continuity-review-pending",
+      "basis": "Prior review identifies lap and finish frames; duration and dimensions match original media metadata but do not independently establish complete uncut race."
+    },
+    "videoShareEvents": [
+      {
+        "sharedAt": "2019-11-06T17:47:31.249Z",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/641695172521885696",
+          "channel": "tt-discussion",
+          "messageId": "641695172521885696"
+        },
+        "sharedByDiscordAccountId": "167245376896630784",
+        "sharedByDisplay": "Hugo",
+        "originalVideoUrl": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19",
+        "embeddedOriginalCaption": "Neo Bowser City Time Trial #MarioKartTour \nLap 1 : 42.89\nLap 2 : 42.81\n1:25.70",
+        "reviewAudit": "archive/halloween2019-astre12570-original-delayed-share-and-preservation-crosswalk-20261011.json",
+        "freshOriginalPostReviewed": true,
+        "freshFootageReviewed": false,
+        "kind": "documented-delayed-discord-share-not-earliest-publication-claim"
+      }
+    ]
   },
   {
     "messageId": "twitter-1191841211063164929-previous-12580",
