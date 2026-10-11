@@ -91,10 +91,13 @@
       "displayedPlayer": "SamH",
       "time": "1:05.75",
       "candidatePlayerId": "samh",
-      "matchingCanonicalIds": [],
-      "disposition": "unresolved-player-or-result-report",
+      "matchingCanonicalIds": [
+        "curated-forum-halloween2019-samh-reply-31-10575"
+      ],
+      "disposition": "resolved-separate-original-player-text-report",
       "raceDateInferred": false,
-      "discrepancy": "Edited leaderboard credits SamH1:05.75, but original reply17 author Sam F reports1:05.75 and the preserved mjaGrx2x5Zo recording belongs to Sam F. No SamH result or video attribution inferred."
+      "discrepancy": "Reply31 SamH explicitly reports10575. Sam F also reports and records the same total; these are separate player performances. SamH matching footage remains unknown.",
+      "resolutionAudit": "archive/halloween2019-samh10575-original-forum-attribution-reconciliation-20261011.json"
     },
     {
       "courseId": "3ds-toad-circuit",
@@ -206,6 +209,6 @@
   "limitations": [
     "Edited opening leaderboard is a contextual snapshot, not proof that all listed results existed at the opening clock.",
     "Same-player same-total matches are retained as crosswalk candidates; this pass does not independently verify race dates, images or footage.",
-    "SamH10575 and Master Kek attribution conflicts remain open. No alternate video ownership or global player merge is introduced."
+    "SamH10575 attribution resolved by original self-report; Master Kek alias remains open. No alternate video ownership or global player merge is introduced."
   ]
 }
