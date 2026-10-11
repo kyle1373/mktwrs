@@ -1,0 +1,93 @@
+{
+  "reviewedAt": "2026-10-11",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "entries": [
+    {
+      "courseId": "ds-airship-fortress-r",
+      "existingId": "curated-nhspeedy-restored-Nr2M5WYVlNU",
+      "time": "1:36.64",
+      "video": "https://www.youtube.com/watch?v=Nr2M5WYVlNU",
+      "submittedAt": "2021-07-13T13:46:49+00:00",
+      "canonicalId": "nhspeedy-restored-Nr2M5WYVlNU",
+      "priorReviewNotes": [
+        "Complete video verifies 1:36.64 and lap 1 48.35; lap 2 48.29 is calculated from the total.",
+        "Nu11 had 1:36.44 on January 12, 2021, before this upload.",
+        "Date uses the original video publication; the October 2026 Discord message is a repost."
+      ],
+      "decision": "Existing aggregate recording mirrored into individual track; prior verification retained, no fresh footage claim."
+    },
+    {
+      "courseId": "snes-koopa-troopa-beach-2r",
+      "existingId": "curated-nhspeedy-restored-89eM6nSzjDE",
+      "time": "0:57.38",
+      "video": "https://www.youtube.com/watch?v=89eM6nSzjDE",
+      "submittedAt": "2026-07-31",
+      "canonicalId": "nhspeedy-restored-89eM6nSzjDE",
+      "priorReviewNotes": [
+        "Original July31 2026 upload visually verifies57.38 and frozenlap1timer28.71; lap2=28.67.",
+        "Uploader explicitly says third worldwide, standingWR56.90; not a WR.",
+        "Date is original video publication, not the October2026 repost or asserted racecompletion. Identity checked against established workbook aliases."
+      ],
+      "decision": "Existing aggregate recording mirrored into individual track; prior verification retained, no fresh footage claim."
+    },
+    {
+      "courseId": "squeaky-clean-sprint",
+      "existingId": "curated-nhspeedy-restored-KeIytQNI5qM",
+      "time": "1:21.55",
+      "video": "https://www.youtube.com/watch?v=KeIytQNI5qM",
+      "submittedAt": "2026-08-11",
+      "canonicalId": "nhspeedy-restored-KeIytQNI5qM",
+      "priorReviewNotes": [
+        "Uploader comment explicitly says second worldwide; this run is supporting evidence, not a WR.",
+        "Video finish1:21.55 and frozenlap1timer40.86 verified; lap2=40.69. Video title49.69 is a typo.",
+        "Date is original video publication, not the October2026 repost or asserted racecompletion. Identity checked against established workbook aliases."
+      ],
+      "decision": "Existing aggregate recording mirrored into individual track; prior verification retained, no fresh footage claim."
+    },
+    {
+      "courseId": "ds-luigi-s-mansion",
+      "existingId": "curated-luigi-mansion-2019-1196017024326963200-result",
+      "time": "1:23.21",
+      "video": "https://x.com/tomegome_g/status/1196017024326963200",
+      "videoScope": "finish-excerpt",
+      "canonicalId": "luigi-mansion-2019-1196017024326963200-result",
+      "priorReviewNotes": [
+        "Original November17 reply recording visually verified at finish/result: 1:23.21, previous best 1:23.26. Rival chronology and historical WR status remain unresolved.",
+        "Original post publication timestamp preserved; recorded device overlay is 18:27 November17, without printed timezone. No exact achievement timestamp inferred.",
+        "Preserved original file lasts17.274seconds and begins duringlap2 atabout1:13.86. It preserves finish1:23.21, not fullrun orlap1. Label asfinishexcerpt.",
+        "Archive date follows first known original recording availability under user convention; exact race day remains separate and unknown. Preserved screenshot from recording and original video inspected. WRclassification unchanged."
+      ],
+      "decision": "Aggregate missing scope restored from canonical17.274second lap2 finish excerpt. Retain result evidence, exclude from complete-race fastest selection."
+    },
+    {
+      "courseId": "ds-luigi-s-mansion",
+      "existingId": "curated-twitter-1194309635135565825-verified",
+      "canonicalId": "twitter-1194309635135565825-verified",
+      "time": "1:23.30",
+      "video": "https://x.com/tomegome_g/status/1194323905378312192",
+      "decision": "Existing full original1:23.30 recording mirrored into aggregate; replaces finish excerpt in eligible full-run selection without discarding either result.",
+      "preservedOriginalHashChecked": {
+        "path": "archive/video-backup-files/paris2019-tomegome-luigi-1194323905378312192/original.mp4",
+        "sha256": "7787481bf61de63592bf77f304cb095f1898fb9b6bfb8795bacb63885accf3cb",
+        "bytes": 27507119
+      },
+      "freshFootageReviewed": false
+    }
+  ],
+  "validation": {
+    "status": "passed-current-selector-and-scoped-public-invariants",
+    "existingRecordingsTransferred": 4,
+    "finishExcerptScopeRestored": 1,
+    "aggregateIndividualDifferencesBefore": 9,
+    "aggregateIndividualDifferencesAfter": 5,
+    "currentWrRecordsAndOtherCourseFieldsUnchanged": true,
+    "newWrTransitions": 0
+  },
+  "limitations": [
+    "Existing exact canonical source reviews retained. No fresh video availability or footage verification.",
+    "NHSpeedy dates are video publication; October2026 Discord source is a repost, not race completion or original upload.",
+    "Luigi Mansion excerpt verifies a finish total but does not preserve the complete race; fastest full recording must be selected separately.",
+    "All-tour source coverage, full-race scope review and live publication remain incomplete."
+  ]
+}
