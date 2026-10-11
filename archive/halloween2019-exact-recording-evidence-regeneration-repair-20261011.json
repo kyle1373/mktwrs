@@ -1,0 +1,69 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "c20f75fc",
+  "repair": {
+    "script": "scripts/import-sources.mjs",
+    "helper": "enrichRecordingEvidence",
+    "identityChecks": [
+      "playerId",
+      "courseId",
+      "timeCs",
+      "exact recording URL identity"
+    ],
+    "preservesUnknownAndPendingScope": true,
+    "doesNotTransferAchievementOrSubmissionDates": true
+  },
+  "verification": {
+    "recordId": "896332037437403157",
+    "fieldEqualityToReviewedCommittedRecord": {
+      "videoPublishedAt": true,
+      "videoPublicationSource": true,
+      "videoShareEvents": true,
+      "videoPreservation": true,
+      "videoScopeReview": true,
+      "videoDecodeIntegrity": true
+    },
+    "videoPublishedAt": "2019-11-05T22:14:22Z",
+    "videoShareEvents": [
+      {
+        "sharedAt": "2019-11-06T17:47:31.249Z",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/641695172521885696",
+          "channel": "tt-discussion",
+          "messageId": "641695172521885696"
+        },
+        "sharedByDiscordAccountId": "167245376896630784",
+        "sharedByDisplay": "Hugo",
+        "originalVideoUrl": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19",
+        "embeddedOriginalCaption": "Neo Bowser City Time Trial #MarioKartTour \nLap 1 : 42.89\nLap 2 : 42.81\n1:25.70",
+        "reviewAudit": "archive/halloween2019-astre12570-original-delayed-share-and-preservation-crosswalk-20261011.json",
+        "freshOriginalPostReviewed": true,
+        "freshFootageReviewed": false,
+        "kind": "documented-delayed-discord-share-not-earliest-publication-claim"
+      }
+    ],
+    "scopeStatus": "full-race-continuity-review-pending",
+    "tests": {
+      "command": "node --test test/import.test.mjs test/halloween-recording-comparison.test.mjs",
+      "passed": 16,
+      "failed": 0
+    },
+    "isolatedBuild": {
+      "command": "npm run build",
+      "root": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-halloween-build-9qgz6kic",
+      "exitCode": 0,
+      "staticPagesGenerated": 912,
+      "htmlPath": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-halloween-build-9qgz6kic/.next/server/app/course/3ds-neo-bowser-city.html",
+      "htmlSha256": "d26bcfa3a287092cfb9de4d95f27dac1073b3d6ad1712c87dca27ddf5fcba76d",
+      "publishedLabelPresent": true
+    }
+  },
+  "limitations": [
+    "Exact Astre recording metadata preservation verified against the reviewed canonical evidence. Other Halloween regeneration differences remain open.",
+    "No fresh footage content review; pending full-race continuity status retained.",
+    "Build uses the preserved isolated source snapshot with the two corrected generator scripts. It is not a live publication verification.",
+    "No next tour started and Halloween completeness remains unproven."
+  ]
+}

@@ -1,3 +1,37 @@
+function recordingIdentity(value) {
+  try {
+    const url = new URL(value);
+    if (!/^https?:$/.test(url.protocol)) return null;
+    if (["twitter.com", "www.twitter.com", "x.com", "www.x.com"].includes(url.hostname)) {
+      const id = url.pathname.match(/^\/[^/]+\/status\/(\d+)(?:\/|$)/)?.[1];
+      return id ? "twitter:" + id : null;
+    }
+    if (url.hostname === "youtu.be") return "youtube:" + url.pathname.slice(1);
+    if (["youtube.com", "www.youtube.com"].includes(url.hostname) && url.pathname === "/watch")
+      return url.searchParams.get("v") ? "youtube:" + url.searchParams.get("v") : null;
+    if (/\.(mp4|mov|webm)$/i.test(url.pathname)) return url.origin + url.pathname;
+  } catch {}
+  return null;
+}
+
+export function enrichRecordingEvidence(record, matches) {
+  const identity = recordingIdentity(record.video);
+  if (!identity) return false;
+  const evidence = matches.find(row => row.playerId === record.playerId &&
+    row.courseId === record.courseId && row.timeCs === record.timeCs &&
+    recordingIdentity(row.video) === identity &&
+    (row.videoPublicationSource || row.videoScopeReview || row.videoShareEvents || row.videoPreservation));
+  if (!evidence) return false;
+  // These fields describe this exact recording, independently from the race
+  // date or a later submission. Pending continuity reviews remain pending.
+  for (const key of ["videoPublishedAt", "videoPublicationSource", "videoShareEvents",
+    "videoPreservation", "videoScopeReview", "videoDecodeIntegrity", "videoScope",
+    "fullRaceVideoVerified", "videoVerified", "videoAvailability", "videoSharedAt",
+    "videoShareSource", "videoShareClockAudit"])
+    if (record[key] === undefined && evidence[key] !== undefined) record[key] = evidence[key];
+  return true;
+}
+
 export function exactReviewedRecordSubmission(record, matches) {
   return matches.find(submission => submission.id === record.id &&
     submission.playerId === record.playerId && submission.timeCs === record.timeCs &&
@@ -675,6 +709,7 @@ export function importSources(courses, players) {
           m.videoVerified && m.video && m.source?.url === s.source?.url,
         );
         r.video ||= s.video || verifiedVideo?.video || null;
+        enrichRecordingEvidence(r, matches);
         const rejectedVideo = matches
           .flatMap((m) => m.rejectedVideos || [])
           .find((evidence) => evidence.url === r.video ||

@@ -9,6 +9,7 @@ import {
   verifiedSplitEvidence,
   recordAppearance,
   exactReviewedRecordSubmission,
+  enrichRecordingEvidence,
 } from "../scripts/import-sources.mjs";
 test("historical announcement tour wins over its later posting date", () => {
   const appearances = [
@@ -95,4 +96,30 @@ test("exact reviewed publication clock survives an equal-time undated spreadshee
   assert.equal(exactReviewedRecordSubmission(record,[{...original,playerId:"other"}]),undefined);
   assert.equal(exactReviewedRecordSubmission(record,[{...original,courseId:"other"}]),undefined);
   assert.equal(exactReviewedRecordSubmission(record,[{...original,submissionSourceReview:{}}]),undefined);
+});
+
+
+test("exact recording evidence survives an equal-time sheet match and a later Discord share", () => {
+  const record = {courseId:"nbc",playerId:"astre",timeCs:8570,video:"https://twitter.com/Astre_HD/status/1191841211063164929?s=19",achievedAt:"2019-11-05",submittedAt:null};
+  const sheet = {...record,id:"sheet",video:null,submittedAt:"2020-04-23"};
+  const original = {...record,video:"https://x.com/Astre_HD/status/1191841211063164929",videoPublishedAt:"2019-11-05T22:14:22Z",
+    videoPublicationSource:{postId:"1191841211063164929"},videoShareEvents:[{sharedAt:"2019-11-06T17:47:31.249Z"}],
+    videoScopeReview:{status:"full-race-continuity-review-pending",startToFinishContinuityVerified:false},fullRaceVideoVerified:false};
+  assert.equal(enrichRecordingEvidence(record,[sheet,original]),true);
+  assert.equal(record.videoPublishedAt,original.videoPublishedAt);
+  assert.deepEqual(record.videoShareEvents,original.videoShareEvents);
+  assert.equal(record.videoScopeReview.startToFinishContinuityVerified,false);
+  assert.equal(record.fullRaceVideoVerified,false);
+  assert.equal(record.achievedAt,"2019-11-05");
+  assert.equal(record.submittedAt,null);
+});
+
+test("equal totals cannot transfer recording metadata across players, courses, or different videos", () => {
+  const record = {courseId:"nbc",playerId:"astre",timeCs:8570,video:"https://twitter.com/Astre_HD/status/1191841211063164929"};
+  const donor = {...record,videoPublishedAt:"2019-11-05",videoPublicationSource:{postId:"1191841211063164929"}};
+  for (const change of [{playerId:"rival"},{courseId:"toad"},{timeCs:8571},{video:"https://twitter.com/Astre_HD/status/1191841211063164930"},{video:null}]) {
+    const target = {...record};
+    assert.equal(enrichRecordingEvidence(target,[{...donor,...change}]),false);
+    assert.equal(target.videoPublishedAt,undefined);
+  }
 });
