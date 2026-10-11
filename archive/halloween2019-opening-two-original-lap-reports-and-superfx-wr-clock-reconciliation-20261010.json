@@ -1,0 +1,166 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "courseId": "3ds-toad-circuit",
+  "sourceReviews": [
+    {
+      "id": "curated-original-2019-wr-row-5",
+      "messageId": "636462082753167360",
+      "postedAt": "2019-10-23T07:13:05.422Z",
+      "caption": "L1 33.91 image0.png",
+      "runner": "Meester Tweester",
+      "time": "1:08.29",
+      "laps": [
+        "33.91",
+        "34.38"
+      ],
+      "earlierMessageId": "636452818143805450",
+      "earlierPostedAt": "2019-10-23T06:36:16.567Z",
+      "earlierCaption": "33.91 Lap 1, recorded this"
+    },
+    {
+      "id": "curated-original-2019-wr-row-6",
+      "messageId": "636462215297236992",
+      "postedAt": "2019-10-23T07:13:37.023Z",
+      "caption": "L1 32.92 Player: SuperFX image0.png",
+      "runner": "SuperFX",
+      "time": "1:06.51",
+      "laps": [
+        "32.92",
+        "33.59"
+      ],
+      "earlierMessageId": "636458145081982980",
+      "earlierPostedAt": "2019-10-23T06:57:26.608Z",
+      "earlierCaption": "dang Super FX with 1:06 already image0.png"
+    }
+  ],
+  "changes": [
+    {
+      "path": "public/data/courses/3ds-toad-circuit.json",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-5",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview"
+      ]
+    },
+    {
+      "path": "public/data/courses/3ds-toad-circuit.json",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-6",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "path": "public/data/courses/3ds-toad-circuit.json",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-5",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview"
+      ]
+    },
+    {
+      "path": "public/data/courses/3ds-toad-circuit.json",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-6",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview"
+      ]
+    },
+    {
+      "path": "public/data/courses.json",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-5",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview"
+      ]
+    },
+    {
+      "path": "public/data/courses.json",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-6",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "path": "public/data/courses.json",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-5",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "path": "public/data/courses.json",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-6",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "path": "archive/curated-runs.json",
+      "collection": "curated",
+      "id": "curated-original-2019-wr-row-5",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview"
+      ]
+    },
+    {
+      "path": "archive/curated-runs.json",
+      "collection": "curated",
+      "id": "curated-original-2019-wr-row-6",
+      "changedFields": [
+        "lapDerivation",
+        "lapMatchBasis",
+        "lapSource",
+        "submissionSourceReview"
+      ]
+    }
+  ],
+  "checks": {
+    "originalTextAndUtcClocksReviewed": true,
+    "lapArithmeticMatchesExistingTotals": true,
+    "unrelatedRowsUnchanged": true,
+    "timesClassificationsAchievementDaysAndVideosUnchanged": true
+  },
+  "limitations": [
+    "Fresh DOM review only: original captions, repost attribution, attachment identity and timestamps. Two local image attempts returned omitted output; neither is counted as fresh pixel review. Prior result totals and proof verification retained without recertification.",
+    "SuperFX original attachment originated in a different server; 06:57:26.608UTC is the preserved MKCentral screenshot repost, not a claim about the earliest external upload.",
+    "The 32.92 lap belongs to current1:06.51, not previous1:07.08. Meester lap2 34.38 and SuperFXlap2 33.59 remain arithmetic derivations, not independently observed video splits.",
+    "Nearby caption 32.92 1:06.02 32.79 remains ambiguous and is not promoted to a new time. Full recordings, earlier publication relationships, rival chronology and tour completeness remain open."
+  ]
+}
