@@ -7,13 +7,10 @@
     "player": "Dark",
     "time": "1:35.47",
     "proofField": "previous-best",
-    "dateBounds": [
-      "2019-10-28",
-      "2019-10-29"
-    ],
     "dateUnresolved": true,
     "precedingKnownWR": "YersonCz 1:35.56",
-    "followingWR": "Dark 1:35.46"
+    "followingWR": "Dark 1:35.46",
+    "exactDateAndAbsoluteBoundsResolved": false
   },
   "originals": [
     {
@@ -37,7 +34,6 @@
     "followingContext": "CET still",
     "note": "Date refers to1:35.46 current result, not necessarily previous1:35.47."
   },
-  "publicationDateConflictFix": "Original proof first preserved in this server October31, but gallery and contemporaneous attribution establish successor1:35.46 on October29. Date helper now refuses publication dates after explicit achievement upper bounds, retaining unknown date and October29 chronology anchor.",
   "publishedVerification": {
     "sequence": [
       "1:35.56",
@@ -46,5 +42,15 @@
     ],
     "intermediateRecordDate": null,
     "intermediateChronologyDate": "2019-10-29"
-  }
+  },
+  "supersededFindings": {
+    "dateBounds": [
+      "2019-10-28",
+      "2019-10-29"
+    ],
+    "publicationDateConflictFix": "Original proof first preserved in this server October31, but gallery and contemporaneous attribution establish successor1:35.46 on October29. Date helper now refuses publication dates after explicit achievement upper bounds, retaining unknown date and October29 chronology anchor."
+  },
+  "currentDateDispositionAudit": "archive/halloween2019-dark13547-unsupported-calendar-bound-withdrawal-20261011.json",
+  "currentGalleryObservationAudit": "archive/halloween2019-dark13547-correct-gallery-evidence-observation-20261011.json",
+  "supersessionNote": "Original October28–29 absolute bounds and October31 gallery observation claim were withdrawn. Keep this file as historical recovery evidence; use the linked corrections for current date conclusions."
 }
