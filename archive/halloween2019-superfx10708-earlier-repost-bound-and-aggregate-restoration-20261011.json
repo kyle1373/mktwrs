@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "canonicalId": "636462215297236992-previous-10708-opening2019-recheck",
+  "playerId": "superfx",
+  "courseId": "3ds-toad-circuit",
+  "time": "1:07.08",
+  "earlierObservation": {
+    "postedAt": "2019-10-23T06:57:26.608Z",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/630496570869022740/636458145081982980",
+      "channel": "screenshots",
+      "messageId": "636458145081982980"
+    },
+    "caption": "dang Super FX with 1:06 already image0.png",
+    "attachmentId": "636454649926385685"
+  },
+  "laterAttributionAndCurrentRunLapSource": {
+    "postedAt": "2019-10-23T07:13:37.023Z",
+    "messageId": "636462215297236992",
+    "caption": "L1 32.92 Player: SuperFX image0.png"
+  },
+  "preservedProofHashCheck": {
+    "path": "archive/halloween2019-tour-audit-originals/636454649926385685.png",
+    "sha256": "b9004f22d645edaff8ce33fa46eecd2173898ab041150ce0c838123636c480f7",
+    "freshPixelsReviewed": false,
+    "priorAssessmentCarried": true
+  },
+  "changes": [
+    "Tighten previous-best observation and upper achievement bound from07:13:37.023UTC to06:57:26.608UTC using the earlier repost.",
+    "Retain later primary source for explicit player/lap context and add earlier source separately.",
+    "Restore supporting row absent from aggregate publication data."
+  ],
+  "validation": {
+    "earlierMessageIdTimestampMatches": true,
+    "samePreservedAttachmentIdentifiedByPriorSourceReviews": true,
+    "proofBytesMatchPriorHash": true,
+    "inverseScopedChangesRestorePriorData": true,
+    "restoredAggregateRowMatchesIndividual": true,
+    "timeLapsStatusAchievementDayVideoUnchanged": true
+  },
+  "limitations": [
+    "No fresh image or Discord inspection; prior text and screenshot assessments carried.",
+    "Attachment-ID creation clock is not treated as the submission or exact race clock.",
+    "1:07.08 remains supporting evidence; rival precedence unknown. Current-run32.92lap is not transferred to this previous best.",
+    "Live deployment and full tour completeness remain unverified."
+  ]
+}
