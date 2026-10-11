@@ -4373,7 +4373,14 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "openSourceRelationships": [
+            {
+              "canonicalId": "discord-1016946456072032287",
+              "reviewAudit": "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json",
+              "status": "ephemeral-screenshot-source-candidate-http403-original-image-unresolved"
+            }
+          ]
         },
         {
           "courseId": "snes-choco-island-2r",
@@ -4396,6 +4403,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
+      ],
+      "sourceReviews": [
+        "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json"
       ]
     },
     {
@@ -4425,7 +4435,14 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "openSourceRelationships": [
+            {
+              "canonicalId": "discord-1018208006464360568",
+              "reviewAudit": "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json",
+              "status": "ephemeral-screenshot-source-candidate-http403-original-image-unresolved"
+            }
+          ]
         },
         {
           "courseId": "wii-dk-summit",
@@ -4479,12 +4496,23 @@
               "canonicalId": "discord-1018647928233017344",
               "reviewAudit": "archive/september2022-four-wins-receipt-attachment-source-reconciliation-20261011.json",
               "status": "ephemeral-screenshot-source-candidate-http403-original-image-unresolved"
+            },
+            {
+              "canonicalId": "discord-1018458467893248041",
+              "reviewAudit": "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json",
+              "status": "ephemeral-screenshot-source-candidate-http403-original-image-unresolved"
+            },
+            {
+              "canonicalId": "discord-1021539254603632712",
+              "reviewAudit": "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json",
+              "status": "ephemeral-screenshot-source-candidate-http403-original-image-unresolved"
             }
           ]
         }
       ],
       "sourceReviews": [
-        "archive/september2022-four-wins-receipt-attachment-source-reconciliation-20261011.json"
+        "archive/september2022-four-wins-receipt-attachment-source-reconciliation-20261011.json",
+        "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json"
       ]
     },
     {
@@ -10554,6 +10582,12 @@
   },
   "latestSeptember2022ReceiptAttachmentReview": {
     "audit": "archive/september2022-four-wins-receipt-attachment-source-reconciliation-20261011.json",
+    "receiptAttachmentCandidatesPreserved": 4,
+    "originalImagesRecovered": 0,
+    "historyComplete": false
+  },
+  "latestSeptember2022AdditionalReceiptAttachmentReview": {
+    "audit": "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json",
     "receiptAttachmentCandidatesPreserved": 4,
     "originalImagesRecovered": 0,
     "historyComplete": false
