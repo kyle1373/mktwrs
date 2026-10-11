@@ -29,7 +29,9 @@
       "2024": 26,
       "2025": 26,
       "2026": 19
-    }
+    },
+    "documentedNotApplicableTours": 2,
+    "firstDocumentedApplicableTour": "tour-3"
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -48,8 +50,10 @@
       "endDate": "2019-10-09",
       "tourSource": "https://www.mariowiki.com/New_York_Tour",
       "historyComplete": false,
-      "reviewStatus": "no-saved-time-trial-appearance-applicability-check-required",
-      "courses": []
+      "reviewStatus": "not-applicable-before-documented-time-trial-introduction",
+      "courses": [],
+      "timeTrialApplicable": false,
+      "applicabilityReviewAudit": "archive/2019-opening-two-tour-applicability-and-halloween-challenges-review-20261010.json"
     },
     {
       "tourId": "tour-2",
@@ -58,8 +62,10 @@
       "endDate": "2019-10-23",
       "tourSource": "https://www.mariowiki.com/Tokyo_Tour",
       "historyComplete": false,
-      "reviewStatus": "no-saved-time-trial-appearance-applicability-check-required",
-      "courses": []
+      "reviewStatus": "not-applicable-before-documented-time-trial-introduction",
+      "courses": [],
+      "timeTrialApplicable": false,
+      "applicabilityReviewAudit": "archive/2019-opening-two-tour-applicability-and-halloween-challenges-review-20261010.json"
     },
     {
       "tourId": "tour-3",
@@ -90,7 +96,17 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "documentedChallengeConfiguration": {
+            "courseId": "gcn-dino-dino-jungle",
+            "cup": "Mario Cup",
+            "driver": "Diddy Kong",
+            "grandStarTimes": [
+              "2:35.00",
+              "2:10.00",
+              "1:50.00"
+            ]
+          }
         },
         {
           "courseId": "3ds-neo-bowser-city",
@@ -118,7 +134,17 @@
               "reviewAudit": "archive/halloween2019-meestertweester-screenshot-video-source-separation-20261010.json",
               "status": "screenshot-video-same-attempt-and-share-clock-unproven"
             }
-          ]
+          ],
+          "documentedChallengeConfiguration": {
+            "courseId": "3ds-neo-bowser-city",
+            "cup": "Toadette Cup",
+            "driver": "Bowser Jr.",
+            "grandStarTimes": [
+              "2:05.00",
+              "1:55.00",
+              "1:40.00"
+            ]
+          }
         },
         {
           "courseId": "3ds-toad-circuit",
@@ -146,7 +172,17 @@
               "reviewAudit": "archive/halloween2019-yerson10485-original-discord-video-share-20261010.json",
               "status": "original-discord-share-documented-earlier-publication-and-sheet-date-conflict-pending"
             }
-          ]
+          ],
+          "documentedChallengeConfiguration": {
+            "courseId": "3ds-toad-circuit",
+            "cup": "Luigi Cup",
+            "driver": "Toad",
+            "grandStarTimes": [
+              "1:40.00",
+              "1:30.00",
+              "1:20.00"
+            ]
+          }
         }
       ],
       "sourceReviews": [
@@ -156,7 +192,9 @@
         "archive/halloween2019-nova-and-kaguya-original-toad-video-share-sources-20261010.json"
       ],
       "savedMessageCrosswalk": "archive/halloween2019-saved-message-source-crosswalk-and-earlier-nbc-video-share-20261010.json",
-      "latestSourceReviewAudit": "archive/halloween2019-text-pass-dispositions-and-attachment-source-gap-queue-20261010.json"
+      "latestSourceReviewAudit": "archive/halloween2019-text-pass-dispositions-and-attachment-source-gap-queue-20261010.json",
+      "timeTrialApplicable": true,
+      "applicabilityReviewAudit": "archive/2019-opening-two-tour-applicability-and-halloween-challenges-review-20261010.json"
     },
     {
       "tourId": "tour-4",
@@ -10088,7 +10126,7 @@
   "limitations": [
     "Inventory derived from committed/index public catalog and prior audit, not a new exhaustive Discord capture. Dates use unverified 06Z working boundary.",
     "Counts are existing evidence rows, not total races or missing WR counts. No dated rows can legitimately occur if a standing WR survives a tour.",
-    "Prior flags and report links carried without fresh recertification; false absence flags possible. Two tours without appearances require applicability confirmation.",
+    "Prior flags and report links carried without fresh recertification; false absence flags possible. Two earliest tours are documented before Time Trial introduction; see applicability review. Original-build applicability inspection not performed.",
     "All 183 catalog tours remain uncertified. Current New Year2021 image transcriptions remain provisional due to omitted image outputs.",
     "Full 2026 extends beyond present date; future tour/history availability must be distinguished from historical gaps."
   ]

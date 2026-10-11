@@ -1,0 +1,64 @@
+{
+  "reviewedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceExtracts": "archive/2019-opening-time-trial-applicability-source-extracts-20261010.json",
+  "sourceExtractsSha256": "9602bd91a3869aa322ad463a00ca723f4c75089dc72867f511df99838c4ce657",
+  "sources": [
+    "https://www.mariowiki.com/Time_Trial_(Mario_Kart_Tour)",
+    "https://www.mariowiki.com/Halloween_Tour_(2019)",
+    "https://www.mariowiki.com/New_York_Tour",
+    "https://www.mariowiki.com/Tokyo_Tour"
+  ],
+  "applicabilityDecisions": [
+    {
+      "tourId": "tour-1",
+      "tour": "New York Tour",
+      "status": "not-applicable-before-documented-time-trial-introduction"
+    },
+    {
+      "tourId": "tour-2",
+      "tour": "Tokyo Tour",
+      "status": "not-applicable-before-documented-time-trial-introduction"
+    }
+  ],
+  "basis": "Time Trial article and Halloween tour narrative both explicitly identify Halloween2019 as introduction; not an inference from absent rows in truncated earlier cup lists.",
+  "firstApplicableTour": "tour-3",
+  "halloweenChallenges": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "cup": "Luigi Cup",
+      "driver": "Toad",
+      "grandStarTimes": [
+        "1:40.00",
+        "1:30.00",
+        "1:20.00"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "cup": "Toadette Cup",
+      "driver": "Bowser Jr.",
+      "grandStarTimes": [
+        "2:05.00",
+        "1:55.00",
+        "1:40.00"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "cup": "Mario Cup",
+      "driver": "Diddy Kong",
+      "grandStarTimes": [
+        "2:35.00",
+        "2:10.00",
+        "1:50.00"
+      ]
+    }
+  ],
+  "limitations": [
+    "Wiki documentation is secondary evidence; original game-build inspection not performed. Earlier tour fetches truncated; no exhaustive cup-list absence claim.",
+    "Challenge applicability is distinct from source/history completeness. Halloween2019 remains uncertified; no continuous completed-through date claimed.",
+    "Grand Star thresholds describe challenge configuration, not recorded player times. Public race data and WR lists unchanged."
+  ]
+}
