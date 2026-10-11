@@ -2425,7 +2425,16 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "openSourceRelationships": [
+            {
+              "messageId": "839970248577122304",
+              "candidatePlayer": "Kazuo",
+              "candidateTime": "1:30.12",
+              "reviewAudit": "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json",
+              "status": "written-self-report-preserved-original-result-proof-unresolved"
+            }
+          ]
         },
         {
           "courseId": "n64-kalimari-desert-2r",
@@ -2467,8 +2476,27 @@
             "archive/bowser-dk-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "openSourceRelationships": [
+            {
+              "messageId": "840934074864500736",
+              "candidatePlayer": "Kazuo",
+              "candidateTime": "1:30.40",
+              "reviewAudit": "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json",
+              "status": "written-self-report-preserved-original-result-proof-unresolved"
+            },
+            {
+              "messageId": "840936998805831690",
+              "candidatePlayer": "Kazuo",
+              "candidateTime": "1:30.32",
+              "reviewAudit": "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json",
+              "status": "written-self-report-preserved-original-result-proof-unresolved"
+            }
+          ]
         }
+      ],
+      "sourceReviews": [
+        "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json"
       ]
     },
     {
@@ -10403,6 +10431,12 @@
     "reviewedAt": "2026-10-11",
     "audit": "archive/april2021-two-preserved-recording-share-clock-reconciliation-20261011.json",
     "exactShareClocksReconciled": 2,
+    "historyComplete": false
+  },
+  "latestMay2021WrittenResultSourceReview": {
+    "reviewedAt": "2026-10-11",
+    "audit": "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json",
+    "writtenResultLeadsRecovered": 3,
     "historyComplete": false
   }
 }
