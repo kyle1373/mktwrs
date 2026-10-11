@@ -51,8 +51,27 @@
     "mediaPresent": false,
     "replyParentPresent": false,
     "matchingCanonicalSourceIdFound": false,
-    "status": "pending-course-and-result-source-reconciliation",
-    "noPublicRunCreated": true
+    "status": "existing-result-candidate-found-later-caption-link-unresolved",
+    "noPublicRunCreated": true,
+    "existingResultCandidate": {
+      "canonicalMessageId": "tomegome-2019-1189467490109120512-recovered-result",
+      "publicSubmissionId": "curated-tomegome-2019-1189467490109120512-recovered-result",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:04.67",
+      "earlierObservedAt": "2019-10-30T09:02:03Z",
+      "source": {
+        "url": "https://twitter.com/tomegome_g/status/1189467490109120512",
+        "kind": "original-player-post",
+        "postId": "1189467490109120512"
+      },
+      "priorImageReview": "archive/halloween2019-opening-result-image-recovery.json",
+      "samePlayerAndTime": true,
+      "sameAttemptEstablished": false,
+      "courseIdentifiedByLaterCaption": false,
+      "achievementDateResolved": false,
+      "noDuplicateCreated": true
+    },
+    "latestCandidateReconciliation": "archive/halloween2019-existing10467-candidate-and-rival-disposition-reconciliation-20261011.json"
   },
   "limitations": [
     "Metadata and archived text inspected; prior image result review carried without fresh pixels. November4publication still cannot identify1:34.16achievement date.",
