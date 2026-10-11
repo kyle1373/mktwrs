@@ -1,0 +1,136 @@
+{
+  "reviewedAt": "2026-10-11T22:46:03.751212+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "source": "archive/curated-runs.json",
+  "rows": [
+    {
+      "recordId": "curated-637479815665942539-3ds-toad-circuit",
+      "player": "YersonCz",
+      "time": "1:04.85",
+      "restoredSubmittedAt": "2019-10-25T16:55:00Z",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A20:J20",
+        "sheet": "WR history",
+        "range": "A20:J20"
+      },
+      "additionalSources": [
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637479815665942539",
+          "channel": "tt-discussion",
+          "messageId": "637479815665942539"
+        },
+        {
+          "url": "https://x.com/CzYerson/status/1187774572550070273",
+          "channel": "Twitter",
+          "messageId": "1187774572550070273"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637453651861831681",
+          "channel": "tt-discussion",
+          "messageId": "637453651861831681",
+          "publishedAt": "2019-10-26T00:53:13.920Z",
+          "kind": "indexed-reference-to-same-verified-video"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/763675771725938698",
+          "channel": "tt-discussion",
+          "messageId": "763675771725938698",
+          "publishedAt": "2020-10-08T08:14:52.389Z",
+          "kind": "indexed-reference-to-same-verified-video"
+        }
+      ],
+      "raceDateUnchanged": "2019-10-25"
+    },
+    {
+      "recordId": "curated-original-2019-wr-row-10",
+      "player": "Panda",
+      "time": "1:05.71",
+      "restoredSubmittedAt": "2019-10-23T09:54:55Z",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A10:J10",
+        "sheet": "WR history",
+        "range": "A10:J10"
+      },
+      "additionalSources": [
+        {
+          "url": "https://twitter.com/PandaMK8/status/1186944078170034177",
+          "channel": "Twitter",
+          "messageId": "1186944078170034177"
+        }
+      ],
+      "raceDateUnchanged": "2019-10-23"
+    },
+    {
+      "recordId": "curated-original-2019-wr-row-19",
+      "player": "Unreal91",
+      "time": "1:04.91",
+      "restoredSubmittedAt": "2019-10-25T11:40:58.546Z",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A19:J19",
+        "sheet": "WR history",
+        "range": "A19:J19"
+      },
+      "additionalSources": [
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254274052784138",
+          "channel": "tt-discussion",
+          "messageId": "637254274052784138"
+        },
+        {
+          "url": "https://www.mariokart64.com/cgi-bin/yabb2/YaBB.pl?num=1571823398/30#30",
+          "kind": "original-player-lap-report",
+          "reply": "30"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/630496451491004475/637261905559552019",
+          "channel": "chat",
+          "messageId": "637261905559552019",
+          "kind": "same-original-result-repost"
+        },
+        {
+          "url": "https://x.com/LewMK91/status/1187698992622133248",
+          "postId": "1187698992622133248",
+          "kind": "original-player-result-post",
+          "publishedAt": "2019-10-25T11:54:40Z",
+          "sourceReportedName": "Lewis B / LewMK91 / UnrealMK91",
+          "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637458529694777344",
+          "channel": "tt-discussion",
+          "messageId": "637458529694777344",
+          "publishedAt": "2019-10-26T01:12:36.886Z",
+          "kind": "secondary-same-runner-equal-time-social-post-reference",
+          "reviewAudit": "archive/halloween2019-unreal91-lewis10491-primary-source-and-alias-reconciliation-20261010.json"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254431917867008",
+          "channel": "tt-discussion",
+          "messageId": "637254431917867008",
+          "kind": "adjacent-player-lap-report"
+        },
+        {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637255566128840715",
+          "channel": "tt-discussion",
+          "messageId": "637255566128840715",
+          "kind": "adjacent-player-lap-report"
+        }
+      ],
+      "raceDateUnchanged": "2019-10-25"
+    }
+  ],
+  "cause": "Import enrichment replaced an existing record submittedAt with null when a selected matching entry omitted its submission timestamp. Existing documented record clock is now preserved if selected entry has no clock.",
+  "scope": "Three dedicated and aggregate WR record rows restored from exact same canonical curated identities. Matching submission rows already retained these clocks. No other record dates, splits or videos changed.",
+  "clockMeaning": "Panda and Yerson clocks are documented original creator post publication; Unreal91 clock is original Discord result submission. None is an exact race-completion timestamp.",
+  "validation": {
+    "curatedAndPublishedVideoClockComparisonRowsWithRemainingDifferences": 0,
+    "tests": "19 focused importer/projection/render tests passed, followed by 3 clock regression tests including all three source-to-download-to-page identities passed."
+  },
+  "limitations": [
+    "No fresh pixels or footage reviewed.",
+    "This restores repository data; live publication has not been verified.",
+    "Halloween date, original-media, full-recording and source coverage questions remain unresolved."
+  ]
+}
