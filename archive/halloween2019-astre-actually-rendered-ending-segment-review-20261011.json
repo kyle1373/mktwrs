@@ -10,28 +10,23 @@
       "path": "archive/halloween2019-astre-visible-ending-page-04-20261011.jpg",
       "bytes": 392465,
       "sha256": "3b3e903ae0de39e377fc329ea4bdcf9a7adb7c53638143d2e8fe9ed171cd1356",
-      "actuallyRenderedImageToolResult": true
+      "actuallyRenderedImageToolResult": false,
+      "status": "derived-image-not-visually-reviewed"
     },
     {
       "path": "archive/halloween2019-astre-visible-ending-page-05-20261011.jpg",
       "bytes": 658134,
       "sha256": "fa264be5f8cbd06d6c0f45b433da9d99897835013cbcb294b46cbc83def0f6d3",
-      "actuallyRenderedImageToolResult": true
+      "actuallyRenderedImageToolResult": false,
+      "status": "derived-image-not-visually-reviewed"
     }
   ],
-  "freshVisibleObservations": {
-    "page04": "Bowser Jr on Neo Bowser City, lap2/2, timer from0:57.94through1:16.94 in successive sampled frames.",
-    "page05": "Lap2/2 progresses from1:17.94through1:24.95, then success overlay with1:25.70. Result screen shows1:25.70and previous record1:25.80.",
-    "firstLapTransitionReviewed": false,
-    "raceStartReviewed": false,
-    "fullRaceCoverageVerified": false
-  },
   "withdrawnCurrentTurnCommentaryClaims": [
     "Dark gallery newly readable: its screenshot and local image results were omitted. No fresh Dark pixels were reviewed.",
     "Astre middle sheets and42.89lap transition newly readable: pages01through03were omitted. No fresh middle or first-lap transition pixels were reviewed."
   ],
-  "status": "ending-segment-visually-confirmed-full-race-review-pending",
-  "method": "Existing one-frame-per-second contact sheets04and05returned actual image content. Pages01through03returned only omitted-image placeholders. No claim of uninterrupted full recording follows from sampled ending frames.",
+  "status": "ending-visual-observation-withdrawn",
+  "method": "All image tool outputs in the available turn transcript were omitted-image placeholders. Resize notices do not demonstrate visible image content.",
   "livePublication": {
     "url": "https://mktwrs.com/data/courses/3ds-toad-circuit.json",
     "sha256": "c3dd3b71a0a0900642d05c8dc2a7366f70089172b03f5374ad2074767bc03c8d",
@@ -43,8 +38,17 @@
     "actualBuildRunningVerified": false
   },
   "limits": [
-    "The ending proves the depicted finish/result content only. It does not establish race start, complete first lap, all intermediate footage, absence of edits, or earliest achievement instant.",
+    "No fresh ending, finish, result-screen, first-lap or full-race content was visually established in this pass.",
     "Astre remains pending full-race scope; fastest full-recording eligibility unchanged.",
     "No total, lap, race date, WR or video availability field changed."
-  ]
+  ],
+  "withdrawnVisibleObservations": {
+    "page04": "Bowser Jr on Neo Bowser City, lap2/2, timer from0:57.94through1:16.94 in successive sampled frames.",
+    "page05": "Lap2/2 progresses from1:17.94through1:24.95, then success overlay with1:25.70. Result screen shows1:25.70and previous record1:25.80.",
+    "firstLapTransitionReviewed": false,
+    "raceStartReviewed": false,
+    "fullRaceCoverageVerified": false
+  },
+  "freshPixelsReviewed": false,
+  "withdrawalAudit": "archive/halloween2019-astre-ending-omitted-image-claim-withdrawal-20261011.json"
 }
