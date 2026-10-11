@@ -1,0 +1,43 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "canonicalId": "original-2019-wr-row-14",
+  "time": "1:05.16",
+  "documentarySource": {
+    "path": "archive/raw/original-2019-leaderboard.json",
+    "sha256": "a7ca9802d5c2ab0a8b194f55a3bbf3ec69ef008104619db766965baabb218ca8",
+    "sheet": "WR history",
+    "row": 14,
+    "lapOne": "32.59"
+  },
+  "priorRecordingReview": {
+    "audit": "archive/october2019-recovered-videos.json",
+    "path": "archive/video-backup-files/october2019-recovered/1187264847232172033/original.mp4",
+    "sha256": "7b89827268884101b89e0212244fa81b26563d06f8814d3902b85a166b2c39e9",
+    "bytes": 24158809,
+    "lapOne": "32.69",
+    "derivedLapTwo": "32.47",
+    "freshFootageReviewed": false
+  },
+  "changedObjects": [
+    "archive/curated-runs.json/323",
+    "public/data/courses/3ds-toad-circuit.json/records/11",
+    "public/data/courses/3ds-toad-circuit.json/submissions/86",
+    "public/data/courses.json/125/records/11",
+    "public/data/courses.json/125/submissions/86"
+  ],
+  "validation": {
+    "sourceDisagreementExplicitlyRecorded": true,
+    "preservedMp4HashMatches": true,
+    "onlyEvidenceDescriptionAndDiscrepancyMetadataChanged": true,
+    "activeTimesLapsDatesStatusesAndVideosUnchanged": true
+  },
+  "limitations": [
+    "Prior recording overlay reading carried without fresh pixels. This documents source disagreement and evidence choice; it does not freshly verify either split.",
+    "Sheet lapone32.59would imply32.57laptwo, but that alternate pair is not promoted as footage evidence.",
+    "Source raw extraction inspected from preserved worktree, with fixed hash; not fresh workbook retrieval.",
+    "Halloween completion and live publication remain unverified."
+  ]
+}

@@ -11713,17 +11713,24 @@
       "range": "A14:J14"
     },
     "additionalSources": [],
-    "evidenceBasis": "contemporary-wr-history",
-    "evidenceNote": "Documented in the 2019 WR history; original proof unavailable or not yet recovered.",
+    "evidenceBasis": "preserved-original-video-and-contemporary-wr-history",
+    "evidenceNote": "Original recording preserved with prior visual review. Documentary lap one32.59 conflicts with prior recording-overlay reading32.69; recording-based split retained, lap two32.47 calculated.",
     "notes": [
-      "Explicitly listed as a successive world record in the contemporary WR history updated November 1, 2019. This is documentary confirmation, not a newly verified screenshot.",
-      "Date and lap 1 are transcribed from that WR-history row. The source labels its clock CST while some October entries align with daylight time; the source clock is retained without inventing an exact UTC achievement timestamp.",
-      "The original proof file is unavailable or has not yet been recovered. Its reference is retained for future recovery.",
-      "Original Twitter recording recovered and preserved with SHA-256; course, first-lap overlay and finish visually verified. Lap 2 calculated from total minus lap 1. Date is exact original post publication, not race completion."
+      "Original Twitter recording recovered and preserved with SHA-256; course, first-lap overlay and finish visually verified. Lap 2 calculated from total minus lap 1. Date is exact original post publication, not race completion.",
+      "Source discrepancy: contemporaryWRhistoryA14:J14lists lapone32.59. Prior original-recording review reports32.69and derived32.47. Retain recording-based pair without claiming a fresh pixel reread; source choice and discrepancy linked in audit."
     ],
     "videoVerified": true,
     "proofImageLocal": "/assets/proof/oct2019-1187264847232172033.webp",
-    "proofImageVerified": true
+    "proofImageVerified": true,
+    "lapSourceDiscrepancyReview": {
+      "audit": "archive/halloween2019-superfx10516-documentary-video-split-discrepancy-review-20261011.json",
+      "documentaryLapOne": "32.59",
+      "priorVideoOverlayLapOne": "32.69",
+      "retainedLapTwo": "32.47",
+      "lapTwoDerived": true,
+      "freshFootageReviewed": false,
+      "priorVisualReviewCarried": true
+    }
   },
   {
     "messageId": "original-2019-wr-row-15",
