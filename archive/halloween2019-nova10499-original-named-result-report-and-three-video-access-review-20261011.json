@@ -1,0 +1,68 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "originalWrittenReport": {
+    "preservedPost": {
+      "id": "search-result-637230022293323806",
+      "links": [],
+      "text": "Benny91\n — \n10/25/19, 3:04 AM\nFriday, October 25, 2019 at 3:04 AM\nNova has 1.04.99",
+      "messageId": "637230022293323806",
+      "postedAt": "2019-10-25T10:04:36.476Z",
+      "timestampBasis": "Discord message ID creation timestamp"
+    },
+    "resultReportEvent": {
+      "reportedAt": "2019-10-25T10:04:36.476Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/637230022293323806",
+        "channel": "tt-discussion",
+        "messageId": "637230022293323806",
+        "kind": "contemporary-third-party-named-result-report"
+      },
+      "caption": "Nova has 1.04.99",
+      "reporterCurrentDisplay": "Benny91",
+      "runner": "Nova",
+      "time": "1:04.99",
+      "reviewAudit": "archive/halloween2019-nova10499-original-named-result-report-and-three-video-access-review-20261011.json",
+      "preservedSourceSnapshot": "archive/halloween2019-full-discussion-message-census-20261004.json",
+      "originalRunnerSubmission": false,
+      "exactRaceTimestampKnown": false
+    },
+    "videoLinkNextMessage": "637230116937662464",
+    "videoLinkPostedAt": "2019-10-25T10:04:59.041Z"
+  },
+  "videoAccessAttempts": [
+    {
+      "url": "https://youtu.be/5mQGD5k9V5k",
+      "result": {
+        "error": "WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: [youtube] 5mQGD5k9V5k: This video is unavailable\n"
+      }
+    },
+    {
+      "url": "https://youtu.be/rjLIW36EQgA",
+      "result": {
+        "error": "WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: [youtube] rjLIW36EQgA: This video is unavailable\n"
+      }
+    },
+    {
+      "url": "https://youtu.be/WhqNB8xfLh8",
+      "result": {
+        "error": "WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: [youtube] WhqNB8xfLh8: Private video\n"
+      }
+    }
+  ],
+  "validation": {
+    "messageIdClockMatchesPreservedTimestamp": true,
+    "exactWrittenRunnerAndTimeMatchExistingWr": true,
+    "reportDoesNotSetSubmissionOrRaceTimestamp": true,
+    "inverseScopeComparisonPassed": true,
+    "changedDataObjects": 7
+  },
+  "limitations": [
+    "Current review reads the preserved message snapshot, not fresh Discord. Named result report corroborates attribution but does not independently verify footage or splits.",
+    "Poochfruit video extractor reports private; two Nu11 videos unavailable. No permanent deletion or absent archival copy inferred.",
+    "Race dates, WR progression, lap splits, video verification and fastest-recording selections unchanged.",
+    "Halloween source and publication gaps remain unresolved."
+  ]
+}
