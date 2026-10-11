@@ -569,6 +569,22 @@ function HalloweenRecording({ comparison, players }) {
     <p className="table-note">Tour review remains incomplete. Recordings awaiting full-race verification are excluded from this comparison.</p>
   </section>;
 }
+function HalloweenForumResults({ results, players }) {
+  if (!results?.length) return null;
+  return <details className="sources">
+    <summary>Halloween Tour (2019) forum results ({results.length})</summary>
+    <p className="table-note">Player-reported personal bests preserved outside WR progression. Unknown race dates and missing videos remain unknown.</p>
+    <div className="table-wrap"><table className="wr-table">
+      <thead><tr><th>Time + video</th><th>Player</th><th>Race day</th><th>Source</th></tr></thead>
+      <tbody>{results.map(r => <tr key={r.id}>
+        <td><Time record={r} /></td>
+        <td><Player id={r.playerId} players={players} /></td>
+        <td>{r.achievedAt ? date(r.achievedAt) : "Unknown; set during Halloween Tour"}</td>
+        <td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Original forum report</a>}</td>
+      </tr>)}</tbody>
+    </table></div>
+  </details>;
+}
 function CoursePage({ data: c, players, tours, manifest }) {
   const events = historyEvents(c, tours, manifest.updatedAt);
   const fragments = c.records.flatMap(r => (r.videoFragments || []).map(fragment => ({ record: r, ...fragment })));
@@ -580,6 +596,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <CourseStats c={c} players={players} />
       <FastestVideo course={c} players={players} />
       <HalloweenRecording comparison={c.halloween2019Recording} players={players} />
+      <HalloweenForumResults results={c.halloweenForumResults} players={players} />
       {fragments.length > 0 && <section className="fastest-video">
         <h2>Preserved video fragments</h2>
         {fragments.map(f => <div key={f.originalUrl}>
