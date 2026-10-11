@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "originalFile": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
+  "originalSha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
+  "visibleEvidence": {
+    "path": "archive/halloween2019-astre-current-middle-segment-20261011.jpg",
+    "sha256": "420100af74da18f2cf8af263a1faf9894ea7c04bce81239a16afac925c5dccea",
+    "frameSampling": "ffmpeg fps=1 scale294:639 tile5x4; third sheet",
+    "observedContent": "Neo Bowser City middle race segment: lap1timer37.97through41.95; lap2transitionoverlay42.89; subsequentlap2racing45.95through56.95.",
+    "actuallyRenderedImageToolResult": true,
+    "startReviewed": false,
+    "finishReviewed": false,
+    "fullRaceCoverageVerified": false
+  },
+  "withdrawnCommentaryClaims": [
+    "Starting grid and PARTEZ seen in first omitted boundary image.",
+    "Lap2from58through77seen in omitted page04 image."
+  ],
+  "reason": "Those specific tool results contained omitted-image placeholders and supplied no pixels. Only page03 in finalimagecall rendered actual image content.",
+  "raceDataChanged": false,
+  "scopeEligibilityChanged": false,
+  "limitations": [
+    "One-second sampling of the displayed middle segment does not prove complete uncut footage.",
+    "Repeated omitted image calls did not add evidence. Start/end remained unseen in this turn. No fresh full-race scope may be certified.",
+    "Existing video verification and lap fields retained without changes; only limited observation preserved."
+  ]
+}
