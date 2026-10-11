@@ -363,11 +363,12 @@ for (const c of courses) {
     }
     const nextTime = Math.max(...later.map((n) => n.timeCs));
     const nextRecords = later.filter((n) => n.timeCs === nextTime);
-    r.durationEnd =
-      nextRecords
-        .map((n) => n.recordDate)
-        .filter(Boolean)
-        .sort()[0] || new Date().toISOString().slice(0, 10);
+    // An undated successor does end the reign, but its date remains unknown.
+    r.durationEnd = nextRecords.length
+      ? (nextRecords.every(n => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
+        ? nextRecords.map(n => n.recordDate).sort()[0]
+        : null)
+      : new Date().toISOString().slice(0, 10);
     r.durationDays =
       r.recordDate && !r.dateUnresolved && !r.delayedSubmission && !r.reignUnresolved && nextRecords.every((n) => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
         ? playableDays(
