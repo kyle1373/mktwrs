@@ -2,7 +2,21 @@
   "reviewedAt": "2026-10-11",
   "tourId": "tour-3",
   "historyComplete": false,
-  "confirmedMenuFrames": [
+  "pendingToadFrame": {
+    "courseId": "3ds-toad-circuit",
+    "candidateTime": "1:09.94",
+    "freshVisualReview": false,
+    "reason": "view_image returned omitted-image placeholder; OCR result not visually certified"
+  },
+  "limitations": [
+    "All view_image outputs in the original review were omitted-image placeholders. No actual frame pixels were available to inspect; previous claims of rendered/read images are withdrawn.",
+    "Candidate totals and cup associations originate from preserved OCR and source context. They remain unverified visually.",
+    "File hashes preserve evidence bytes; they do not certify image content, full-race footage, race dates or WR status.",
+    "No tour completion claim. All three menu candidates require actual image inspection."
+  ],
+  "reviewStatus": "visual-confirmation-withdrawn-tool-returned-placeholders",
+  "correctionAudit": "archive/halloween2019-overview-placeholder-visual-claim-withdrawal-20261011.json",
+  "candidateMenuFrames": [
     {
       "courseId": "3ds-neo-bowser-city",
       "time": "1:32.91",
@@ -11,12 +25,14 @@
       "sha256": "8139aa63e103926b35a8ba9a78fafe0b37ccdfb28e9f61abf5c5e739898e055b",
       "originalSharedAt": "2019-10-28T13:13:55.256Z",
       "source": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
-      "freshVisualReview": true,
+      "freshVisualReview": false,
       "evidenceType": "time-trial-menu-best-not-race-footage",
       "runnerAttributionBasis": "preserved original Carlos85 cup-overview caption",
       "raceDateUnresolved": true,
       "splitTimesUnresolved": true,
-      "wrStatusNotClaimed": true
+      "wrStatusNotClaimed": true,
+      "visualVerificationComplete": false,
+      "status": "ocr-candidate-needs-actual-image-inspection"
     },
     {
       "courseId": "gcn-dino-dino-jungle",
@@ -26,24 +42,14 @@
       "sha256": "0a63d28aa9a386ab330b62bebc82284a4bf810d82591623c37f6e17d46239407",
       "originalSharedAt": "2019-10-28T13:13:55.256Z",
       "source": "https://discord.com/channels/629221606064914442/630496570869022740/638364828066512916",
-      "freshVisualReview": true,
+      "freshVisualReview": false,
       "evidenceType": "time-trial-menu-best-not-race-footage",
       "runnerAttributionBasis": "preserved original Carlos85 cup-overview caption",
       "raceDateUnresolved": true,
       "splitTimesUnresolved": true,
-      "wrStatusNotClaimed": true
+      "wrStatusNotClaimed": true,
+      "visualVerificationComplete": false,
+      "status": "ocr-candidate-needs-actual-image-inspection"
     }
-  ],
-  "pendingToadFrame": {
-    "courseId": "3ds-toad-circuit",
-    "candidateTime": "1:09.94",
-    "freshVisualReview": false,
-    "reason": "view_image returned omitted-image placeholder; OCR result not visually certified"
-  },
-  "limitations": [
-    "Two actual frame images rendered and read: Halloween Tour, Toadette Cup1:32.91 and Mario Cup1:45.61. Cup/driver association matches preserved first-tour challenge configuration.",
-    "Menu display confirms stored result total, not completed-race recording, lap splits, original achievement time or WR precedence.",
-    "Original uploader attribution follows preserved Discord caption; no fresh live Discord capture.",
-    "Toad candidate remains pending; broader tour gaps remain."
   ]
 }
