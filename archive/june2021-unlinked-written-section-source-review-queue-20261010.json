@@ -156,10 +156,14 @@
         "758806876053045328"
       ],
       "existingResultMatches": [],
-      "status": "pending-original-context-and-result-classification",
+      "status": "preserved-delayed-same-account-split-context",
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "reviewAudit": "archive/june2021-final-three-section-report-context-and-conflict-review-20261010.json",
+      "canonicalIds": [
+        "857794066330419230-857794063649472532-june2021-reviewed"
+      ]
     },
     {
       "messageId": "857052686146863134",
@@ -308,10 +312,14 @@
       ],
       "discordAccountIds": [],
       "existingResultMatches": [],
-      "status": "pending-original-context-and-result-classification",
+      "status": "preserved-same-display-context-account-id-unresolved",
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "reviewAudit": "archive/june2021-final-three-section-report-context-and-conflict-review-20261010.json",
+      "canonicalIds": [
+        "855402213408636948-855402209662992394-june2021-reviewed"
+      ]
     },
     {
       "messageId": "855378675231096872",
@@ -509,10 +517,14 @@
         "278540971048960001"
       ],
       "existingResultMatches": [],
-      "status": "pending-original-context-and-result-classification",
+      "status": "preserved-conflicting-split-claim-no-correction",
       "freshOriginalReviewed": false,
       "freshVisualReviewed": false,
-      "freshFootageReviewed": false
+      "freshFootageReviewed": false,
+      "reviewAudit": "archive/june2021-final-three-section-report-context-and-conflict-review-20261010.json",
+      "canonicalIds": [
+        "854612672228884490-854612669327474748-june2021-reviewed"
+      ]
     },
     {
       "messageId": "853930032803348522",
@@ -1247,7 +1259,9 @@
   ],
   "statusCounts": {
     "preserved-existing-result-full-section-source-reconciled": 26,
-    "pending-original-context-and-result-classification": 3
+    "preserved-delayed-same-account-split-context": 1,
+    "preserved-same-display-context-account-id-unresolved": 1,
+    "preserved-conflicting-split-claim-no-correction": 1
   },
   "quotedPreviewOnlyPostsExcluded": [
     "857845380304732190",
@@ -1270,7 +1284,7 @@
   "limitations": [
     "Preserved census only, no fresh browser/media certification.",
     "Multiple groups and three-section reports preserved without turning partial sums into achieved totals.",
-    "Twenty-six posts matched to28existing results and sources reconciled; three remaining posts require context classification.",
+    "All29original-body section reports have dispositions, including unresolved Wins account linkage and Astre conflicting split claim. Coverage and media review remain incomplete.",
     "No tour completion or fastest full-recording certification."
   ]
 }
