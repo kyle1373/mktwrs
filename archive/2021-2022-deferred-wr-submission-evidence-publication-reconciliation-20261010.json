@@ -4,7 +4,7 @@
   "certifiedThrough": null,
   "priorQueue": "archive/2021-2022-supporting-submission-aggregate-publication-reconciliation-20261010.json",
   "reconciledCount": 182,
-  "remainingCount": 5,
+  "remainingCount": 0,
   "changes": [
     {
       "courseId": "berlin-byways-3",
@@ -2636,98 +2636,7 @@
       "freshOriginalReview": false
     }
   ],
-  "remaining": [
-    {
-      "courseId": "rmx-choco-island-2",
-      "publicId": "curated-sydney-april-2021-835065834153705532-10305",
-      "year": "2021",
-      "status": "documented-submission",
-      "time": "1:03.05",
-      "reason": "WR-or-non-supporting-classification-needs-separate-review",
-      "changedFields": [
-        "includeInProgression",
-        "notes",
-        "player",
-        "playerId",
-        "proofField",
-        "status"
-      ],
-      "disposition": "identity-date-lap-or-classification-review-required"
-    },
-    {
-      "courseId": "3ds-rosalina-s-ice-world",
-      "publicId": "curated-snow-2021-814019744487178270-13187",
-      "year": "2021",
-      "status": "documented-submission",
-      "time": "1:31.87",
-      "reason": "WR-or-non-supporting-classification-needs-separate-review",
-      "changedFields": [
-        "includeInProgression",
-        "notes",
-        "player",
-        "playerId",
-        "status"
-      ],
-      "disposition": "identity-date-lap-or-classification-review-required"
-    },
-    {
-      "courseId": "gba-sunset-wilds",
-      "publicId": "curated-976450341975494696-sunset-wilds-recovered-wr",
-      "year": "2022",
-      "status": "community-wr",
-      "time": "1:10.23",
-      "reason": "WR-or-non-supporting-classification-needs-separate-review",
-      "changedFields": [
-        "additionalSources",
-        "announcedAt",
-        "dateBasis",
-        "durationBasis",
-        "durationDays",
-        "durationEnd",
-        "durationIntervals",
-        "evidencePublishedAt",
-        "lapMatchBasis",
-        "lapSource",
-        "observedAt",
-        "recordDate",
-        "tourLabel"
-      ],
-      "disposition": "identity-date-lap-or-classification-review-required"
-    },
-    {
-      "courseId": "gba-sunset-wilds-r",
-      "publicId": "curated-peach-daisy-2021-808968981041119232-11258",
-      "year": "2021",
-      "status": "documented-submission",
-      "time": "1:12.58",
-      "reason": "WR-or-non-supporting-classification-needs-separate-review",
-      "changedFields": [
-        "includeInProgression",
-        "notes",
-        "player",
-        "playerId",
-        "status"
-      ],
-      "disposition": "identity-date-lap-or-classification-review-required"
-    },
-    {
-      "courseId": "tokyo-blur-4r",
-      "publicId": "curated-yoshi-2021-824170557670293504-04739",
-      "year": "2021",
-      "status": "documented-submission",
-      "time": "0:47.39",
-      "reason": "WR-or-non-supporting-classification-needs-separate-review",
-      "changedFields": [
-        "additionalSources",
-        "includeInProgression",
-        "notes",
-        "player",
-        "playerId",
-        "status"
-      ],
-      "disposition": "identity-date-lap-or-classification-review-required"
-    }
-  ],
+  "remaining": [],
   "checks": {
     "criticalFieldsUnchanged": true,
     "selectedAggregateEntriesMatchIndividual": true,
@@ -2750,6 +2659,37 @@
       "publicId": "curated-1057203100018020425-holiday2022-proof-reviewed",
       "audit": "archive/holiday2022-nu11-snow-land-original-command-receipt-publication-reconciliation-20261010.json",
       "disposition": "original-command-and-updated-receipt-rechecked-missing-aggregate-submission-restored"
+    },
+    {
+      "courseId": "rmx-choco-island-2",
+      "publicId": "curated-sydney-april-2021-835065834153705532-10305",
+      "audit": "archive/2021-four-unknown-runner-curated-classification-publication-reconciliation-20261010.json",
+      "disposition": "individual-submission-reconciled-to-preserved-curated-and-existing-wr-list-classification"
+    },
+    {
+      "courseId": "3ds-rosalina-s-ice-world",
+      "publicId": "curated-snow-2021-814019744487178270-13187",
+      "audit": "archive/2021-four-unknown-runner-curated-classification-publication-reconciliation-20261010.json",
+      "disposition": "individual-submission-reconciled-to-preserved-curated-and-existing-wr-list-classification"
+    },
+    {
+      "courseId": "gba-sunset-wilds-r",
+      "publicId": "curated-peach-daisy-2021-808968981041119232-11258",
+      "audit": "archive/2021-four-unknown-runner-curated-classification-publication-reconciliation-20261010.json",
+      "disposition": "individual-submission-reconciled-to-preserved-curated-and-existing-wr-list-classification"
+    },
+    {
+      "courseId": "tokyo-blur-4r",
+      "publicId": "curated-yoshi-2021-824170557670293504-04739",
+      "audit": "archive/2021-four-unknown-runner-curated-classification-publication-reconciliation-20261010.json",
+      "disposition": "individual-submission-reconciled-to-preserved-curated-and-existing-wr-list-classification"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "publicId": "curated-976450341975494696-sunset-wilds-recovered-wr",
+      "audit": "archive/doctor2022-nu11-sunset-wilds-original-clock-publication-reconciliation-20261010.json",
+      "disposition": "original-written-laps-video-and-publication-clock-reconciled-derived-submission-metadata-removed"
     }
-  ]
+  ],
+  "publicationMismatchBatchResolved": true
 }
