@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-10",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "supersededAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+  "canonicalIds": [
+    "828112155383562290-yoshi2021-original-image-reviewed",
+    "828746891834949652-yoshi2021-original-lap-pair-report"
+  ],
+  "reason": "Original tool images were omitted from model-visible output. Reopening the first local file also yielded omitted output; no fresh visual verification can be claimed.",
+  "priorUnverifiedImageClaims": [
+    {
+      "canonicalId": "828112155383562290-yoshi2021-original-image-reviewed",
+      "priorImageReview": {
+        "reviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+        "freshVisualReviewed": true,
+        "freshFootageReviewed": false,
+        "attachmentId": "828112151322820658",
+        "visibleTotal": "0:46.99",
+        "visibleCup": "Waluigi Cup",
+        "scope": "Cup overview TimeTrial tile confirms total; laps supplied by same original message, not visible in cup image.",
+        "courseBasis": "Exact Yoshi2021 cup/course catalog mapping and visible tile backdrop/driver.",
+        "deviceClockNotUsedAsAchievementDate": true
+      }
+    },
+    {
+      "canonicalId": "828746891834949652-yoshi2021-original-lap-pair-report",
+      "priorImageReview": {
+        "reviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+        "freshVisualReviewed": true,
+        "freshFootageReviewed": false,
+        "attachmentId": "828746888844935238",
+        "visibleTotal": "1:47.10",
+        "visibleCup": "Peachette Cup",
+        "scope": "Cup overview TimeTrial tile confirms total; laps supplied by same original message, not visible in cup image.",
+        "courseBasis": "Exact Yoshi2021 cup/course catalog mapping and visible tile backdrop/driver.",
+        "deviceClockNotUsedAsAchievementDate": true
+      }
+    }
+  ],
+  "action": "Retracted proof verification and visual claims; preserved written lap-pair reports, original source clocks, file hashes, record IDs and provisional course mappings. No WR promotion.",
+  "validation": {
+    "scopedMetadataAndNotesOnly": true,
+    "resultValuesSubmissionClocksAndWrsUnchanged": true
+  },
+  "remaining": [
+    "Visually inspect both original attachments in model-visible output.",
+    "Verify Tokyo course mapping against original source context and image.",
+    "Recover any full recordings and reconcile complete tour history."
+  ]
+}

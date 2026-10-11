@@ -9,26 +9,29 @@
       "attachmentId": "828112151322820658",
       "path": "public/assets/proof/yoshi2021-828112151322820658.png",
       "sha256": "1216a810a2f42ce83e2071e60749204ac712f31d1ec516a2afe99856220b8c56",
-      "freshVisualReviewed": true
+      "freshVisualReviewed": false
     },
     {
       "attachmentId": "828746888844935238",
       "path": "public/assets/proof/yoshi2021-828746888844935238.png",
       "sha256": "afa7dae00ddb0fdf6dcaa68b0d41317f8e8421faba5432a19a6d8626f4638eed",
-      "freshVisualReviewed": true
+      "freshVisualReviewed": false
     }
   ],
-  "freshVisualReviewed": true,
+  "freshVisualReviewed": false,
   "freshFootageReviewed": false,
   "validation": {
     "status": "passed-isolated-generation-and-scoped-publication-check",
     "oneMissingTokyoResultRecovered": true,
-    "twoOriginalProofsVisuallyVerifiedAndHashed": true,
+    "twoOriginalProofsVisuallyVerifiedAndHashed": false,
     "originalReportedSplitsAndSubmissionClocksRetained": true,
-    "allWRsAndOtherCourseDataUnchanged": true
+    "allWRsAndOtherCourseDataUnchanged": true,
+    "originalProofFilesHashVerified": true
   },
   "limitations": [
-    "Both screenshots show cup overview totals, not full-race footage or per-lap screens. Splits are from original message captions.",
-    "Exact achievement clocks, original recordings and complete source coverage remain unresolved. No WR promotion or tour completion."
-  ]
+    "Prior screenshot visible-total/cup/backdrop claims are retracted because image output was omitted from model context. Written lap pairs and preserved files remain evidence.",
+    "No full footage, exact achievement dates or complete tour coverage established."
+  ],
+  "supersededBy": "archive/yoshi2021-nhspeedy-omitted-image-verification-correction-20261010.json",
+  "verificationStatus": "visual-claims-retracted-image-output-omitted"
 }
