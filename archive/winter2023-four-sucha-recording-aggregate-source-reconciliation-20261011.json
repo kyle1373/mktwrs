@@ -1,0 +1,118 @@
+{
+  "reviewedAt": "2026-10-11",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "courseId": "singapore-speedway-r",
+  "entries": [
+    {
+      "id": "curated-1070619816957853726-winter2023-contender-source-reviewed",
+      "canonicalId": "1070619816957853726-winter2023-contender-source-reviewed",
+      "time": "1:10.88",
+      "laps": [
+        "35.42",
+        "35.46"
+      ],
+      "submittedAt": "2023-02-02T08:20:55.517Z",
+      "video": "https://youtu.be/v461dZFD2B0",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1070619816957853726",
+        "channel": "tt-submission",
+        "messageId": "1070619816957853726"
+      },
+      "priorVideoReviewAudit": "archive/winter2023-sucha-two-earlier-original-video-reviews-20261004.json",
+      "preservedFile": "archive/video-backup-files/winter2023-sucha-11088/original.mp4",
+      "sha256": "e086691cf1e548c39523f54634d7edc364d3954838cc9f9f38d7ecb84c29fd83",
+      "bytes": 24282075,
+      "freshVisualReview": false,
+      "decision": "Mirror exact existing individual supporting submission into aggregate. Prior result/lap verification retained, no new performance or WR transition."
+    },
+    {
+      "id": "curated-1071494867231965375-winter2023-contender-source-reviewed",
+      "canonicalId": "1071494867231965375-winter2023-contender-source-reviewed",
+      "time": "1:10.80",
+      "laps": [
+        "35.45",
+        "35.35"
+      ],
+      "submittedAt": "2023-02-04T18:18:03.760Z",
+      "video": "https://youtu.be/_0KWm6hYKNA",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1071494867231965375",
+        "channel": "tt-submission",
+        "messageId": "1071494867231965375"
+      },
+      "priorVideoReviewAudit": "archive/winter2023-sucha-two-earlier-original-video-reviews-20261004.json",
+      "preservedFile": "archive/video-backup-files/winter2023-sucha-11080/original.mp4",
+      "sha256": "ce285ac19556e4d41c93d200bc93b6ab3c3285913525cea4502c3359b56a8e50",
+      "bytes": 24571792,
+      "freshVisualReview": false,
+      "decision": "Mirror exact existing individual supporting submission into aggregate. Prior result/lap verification retained, no new performance or WR transition."
+    },
+    {
+      "id": "curated-1071124573782806528-winter2023-discussion-video-reviewed",
+      "canonicalId": "1071124573782806528-winter2023-discussion-video-reviewed",
+      "time": "1:10.83",
+      "laps": [
+        "35.43",
+        "35.40"
+      ],
+      "submittedAt": "2023-02-03T17:46:38.922Z",
+      "video": "https://www.youtube.com/watch?v=mWS2qec-UlU",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/1071124573782806528",
+        "channel": "tt-discussion",
+        "messageId": "1071124573782806528"
+      },
+      "priorVideoReviewAudit": "archive/winter2023-sucha-11083-discussion-video-recovery-20261004.json",
+      "preservedFile": "archive/video-backup-files/winter2023-sucha-11083/original.mp4",
+      "sha256": "d9bb74c19cf36920b724a7292ff18fe3aa1834f76886abad9cbf9505dfd2c5d5",
+      "bytes": 52148961,
+      "freshVisualReview": false,
+      "decision": "Mirror exact existing individual supporting submission into aggregate. Prior result/lap verification retained, no new performance or WR transition."
+    },
+    {
+      "id": "curated-1068362470261006407-winter2023-intermediate-video-source-reviewed",
+      "canonicalId": "1068362470261006407-winter2023-intermediate-video-source-reviewed",
+      "time": "1:10.92",
+      "laps": [
+        "35.47",
+        "35.45"
+      ],
+      "submittedAt": "2023-01-27T02:51:02.125Z",
+      "video": "https://www.youtube.com/watch?v=5ioV7eCkwWI",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1068362470261006407",
+        "channel": "tt-submission",
+        "messageId": "1068362470261006407"
+      },
+      "priorVideoReviewAudit": "archive/winter2023-sucha-11092-original-video-review-20261004.json",
+      "preservedFile": "archive/video-backup-files/winter2023-ssr-5ioV7eCkwWI/original.mp4",
+      "sha256": "f725edeb638cf131030da4acbb690b9e855802a6c548d0d2dce44876f43a2c7d",
+      "bytes": 23977688,
+      "freshVisualReview": false,
+      "decision": "Mirror exact existing individual supporting submission into aggregate. Prior result/lap verification retained, no new performance or WR transition."
+    }
+  ],
+  "validation": {
+    "status": "passed-four-row-publication-invariants",
+    "preservedHashesChecked": 4,
+    "addedAggregateExistingSubmissionRows": 4,
+    "wrRowsCurrentHoldersOtherCoursesAndExistingSubmissionsUnchanged": true,
+    "selectorCounts": {
+      "courses": 142,
+      "individualWithSelectedRecording": 136,
+      "individualWithoutSelectedRecording": 6,
+      "aggregateIndividualDifferences": 0,
+      "selectedSlowerThanCurrentWr": 68,
+      "selectedScopeUndeclared": 135
+    },
+    "liveDeploymentVerified": false
+  },
+  "limitations": [
+    "Four prior reviewed original video files checked by SHA256; no fresh visual or full-race coverage certification.",
+    "Original submission/video-reference dates retained; no inferred achievement or video-upload clocks.",
+    "1:10.83 video remains separate from faster1:10.82 previous best and different35.35partial-lap screenshot.",
+    "MissingcanonicalID inventory can include same results under other IDs; exact source/course/time/laps/video comparison required before declaring a missing performance.",
+    "All-tour chronology, global fastest recording, runner-alias reconciliation and live deployment remain open."
+  ]
+}
