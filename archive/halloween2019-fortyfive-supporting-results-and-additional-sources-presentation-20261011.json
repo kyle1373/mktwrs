@@ -1,0 +1,21 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "change": "Extend per-track supporting-results table to original leaderboard rows and display additional source references",
+  "displayedSupportingEntries": 45,
+  "forumEntries": 23,
+  "originalNbcLeaderboardEntries": 22,
+  "validation": {
+    "command": "node --test test/halloween-forum-results-render.test.mjs test/forum-evidence-times-render.test.mjs test/halloween-recording-comparison.test.mjs",
+    "passed": 13,
+    "failed": 0,
+    "playerReferencesProjected": true,
+    "originalVideoReferencesProjected": true,
+    "restoredSocialSourceLinkRendered": true
+  },
+  "limitations": [
+    "Dates labeled documented day to avoid claiming exact race times from sheet dates. Entries remain outside WR progression and media verification unchanged.",
+    "Projection and table markup tested; no browser visual review or live publication confirmed. No tour completion certification."
+  ]
+}
