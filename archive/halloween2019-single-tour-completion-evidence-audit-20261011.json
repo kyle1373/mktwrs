@@ -465,6 +465,13 @@
       "detail": "Reply40 NBC10823 remains inconsistent. Prior Discord image review records13023, original leaderboard records13026 with a separate proof reference. Fresh Discord captions do not resolve totals. Both canonical candidates retained pending original media reconciliation.",
       "supportingMachineTextReview": "archive/halloween2019-meester13023-preserved-result-machine-text-review-20261011.json",
       "latestOriginalSheetAndProofReferenceReview": "archive/halloween2019-thirteen-original-nbc-leaderboard-social-source-restoration-20261011.json"
+    },
+    {
+      "id": "production-regeneration-evidence-fidelity",
+      "requirement": "Production generator retains reviewed historical evidence",
+      "status": "unresolved",
+      "evidence": "archive/halloween2019-isolated-production-build-and-regeneration-evidence-gap-20261011.json",
+      "detail": "Isolated production build succeeds, but regenerated Halloween date, duration and source metadata differs from committed reviewed evidence. IDs retained; metadata fidelity needs repair."
     }
   ],
   "nextWork": "Continue Halloween original-media and rival chronology review. Resolve or document source gaps; verify fastest completed recordings and public deployment before any completion certification.",
@@ -670,5 +677,6 @@
   "latestMeester13023PreservedResultMachineTextReview": "archive/halloween2019-meester13023-preserved-result-machine-text-review-20261011.json",
   "latestThirteenOriginalNbcLeaderboardSocialSourceRestoration": "archive/halloween2019-thirteen-original-nbc-leaderboard-social-source-restoration-20261011.json",
   "latestEdd12996OriginalSocialSourceDisposition": "archive/halloween2019-edd12996-original-social-source-current-disposition-20261011.json",
-  "latestFortyFiveSupportingResultsAndAdditionalSourcesPresentation": "archive/halloween2019-fortyfive-supporting-results-and-additional-sources-presentation-20261011.json"
+  "latestFortyFiveSupportingResultsAndAdditionalSourcesPresentation": "archive/halloween2019-fortyfive-supporting-results-and-additional-sources-presentation-20261011.json",
+  "latestIsolatedProductionBuildAndRegenerationEvidenceGap": "archive/halloween2019-isolated-production-build-and-regeneration-evidence-gap-20261011.json"
 }
