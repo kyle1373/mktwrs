@@ -13,17 +13,14 @@
     "sha256": "7787481bf61de63592bf77f304cb095f1898fb9b6bfb8795bacb63885accf3cb",
     "bytes": 27507119,
     "durationSeconds": 96.38458,
-    "method": "Fresh visual inspection of opening half-second samples and one-second samples across the entire race; separate ten-second overview and result checked.",
-    "observedCountdown": true,
-    "observedBothLaps": true,
-    "firstLap": "41.76",
-    "finish": "1:23.30",
-    "lap2": "41.54",
-    "lap2Basis": "Derived83.30minus41.76; existing splits unchanged.",
-    "raceTimerSamples": "0:00.89 through1:22.89 advance one second per one-second source sample apart from frozen41.76 lap overlay; finish1:23.30.",
-    "visibleTimerJumpObserved": false,
-    "frameByFrameIntegrityCertified": false,
-    "exactAchievementDateCertified": false
+    "method": "File hash and ffprobe duration verified; contact sheets generated but image tool returned omitted-image placeholders. No fresh visible footage evidence received.",
+    "freshVisualReview": false,
+    "fullRaceCoverageCertified": false,
+    "priorDocumentedLaps": [
+      "41.76",
+      "41.54"
+    ],
+    "priorDocumentedFinish": "1:23.30"
   },
   "evidenceSheets": [
     "archive/recording-coverage-review-20261011/luigi12330-3-32.jpg",
@@ -32,25 +29,35 @@
     "archive/recording-coverage-review-20261011/luigi12330-coverage.jpg",
     "archive/recording-coverage-review-20261011/luigi12330-opening.jpg"
   ],
-  "decision": "Declare existing1:23.30 recording full-run after preserved footage coverage review. Faster1:23.21 finish excerpt remains excluded from full-race selection.",
+  "decision": "Withdraw unsupported fresh coverage certification and remove newly added scope fields. Prior documented video verification and1:23.30 selected recording retained;1:23.21 remains finish excerpt.",
   "limitations": [
-    "One-second samples do not certify frame-by-frame absence of edits. Entire race interval, both laps, start and finish visibly represented; no timer jump observed at sampled points.",
-    "No new original post/video availability or upload backup verification.",
-    "Global fastest recording, historical WR completeness and live deployment remain open."
+    "Generated contact sheets are retained for future review, not proof of visual inspection.",
+    "Prior independent lap/finish review remains documented in canonical notes; no new visual certification.",
+    "Global fastest recording, history completeness and deployed data remain open."
   ],
   "validation": {
-    "status": "passed-scoped-field-and-selector-check",
-    "existingResultsDatesLapsAndWrProgressionUnchanged": true,
+    "status": "passed-correction-invariants",
+    "canonicalAndPublicDataEqualPreCertificationCommit": "7688066a",
     "selectorCounts": {
       "courses": 142,
       "individualWithSelectedRecording": 136,
       "individualWithoutSelectedRecording": 6,
       "aggregateIndividualDifferences": 0,
       "selectedSlowerThanCurrentWr": 68,
-      "selectedScopeUndeclared": 134
+      "selectedScopeUndeclared": 135
     },
     "selectedTime": "1:23.30",
-    "finishExcerptStillExcluded": true,
+    "newFreshCoverageClaims": false,
     "liveDeploymentVerified": false
+  },
+  "correction": {
+    "supersedesCommit": "a1cc4c6e",
+    "reason": "Generated images were not visually accessible in tool results. Earlier fresh countdown, both-lap and timer-continuity claims were unsupported.",
+    "unsupportedClaimsWithdrawn": [
+      "observedCountdown",
+      "observedBothLaps",
+      "raceTimerSamples",
+      "visibleTimerJumpObserved"
+    ]
   }
 }
