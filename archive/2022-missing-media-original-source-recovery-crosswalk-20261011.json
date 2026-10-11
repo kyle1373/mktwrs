@@ -32,8 +32,26 @@
       "attachmentCandidates": [],
       "existingReview": null,
       "sourceRow": null,
-      "status": "exact-source-not-present-in-this-census",
-      "freshVisualReview": false
+      "status": "original-command-and-preserved-image-found-visual-review-pending",
+      "freshVisualReview": false,
+      "resolutionAudit": "archive/2022-three-missing-media-source-gap-resolution-20261011.json",
+      "originalSubmission": {
+        "messageId": "956105220293808148",
+        "postedAt": "2022-03-23T08:20:48.094Z",
+        "author": "shiraui",
+        "discordId": "785153198176075806",
+        "command": "!submit rmxvl1 1:02.78",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/956105220293808148",
+        "attachmentId": "956105219429785600",
+        "localPath": "archive/samurai2022-original-result-candidates/956105219429785600.png",
+        "sha256": "4c6746f6984a166367764a03712162e9ee2c60ce66088aad54ddd04ac92855cb",
+        "bytes": 1374298,
+        "dimensions": [
+          828,
+          1792
+        ],
+        "visualReviewStatus": "pending"
+      }
     },
     {
       "tour": "Amsterdam Tour",
@@ -135,7 +153,9 @@
         "text": "MKT Time Trial Bot\nAPP\n — \n6/5/22, 9:55 AM\nSunday, June 5, 2022 at 9:55 AM\nSubmission | @gangstatiger93\n\nStatus: Updated by @NHSpeedy\ngangstatiger93 | Yoshi Valley | 01:30.92 | 45.44 | 45.48 | No Media\nUpdate\n,\nCancel\n,\n,\n(edited)\nThursday, June 9, 2022 at 9:52 PM"
       },
       "status": "related-receipt-without-image-candidate-original-command-unresolved",
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "resolutionAudit": "archive/2022-three-missing-media-source-gap-resolution-20261011.json",
+      "sourceClockLimitation": "Receipt creation9.417seconds afterexistingcommandclock; originalcommandsourceabsent, clocknotindependentlyreverified."
     },
     {
       "tour": "Bowser Tour (2022)",
@@ -1244,17 +1264,52 @@
       "receiptClockNotSubmissionClock": false,
       "attachmentCandidates": [],
       "existingReview": null,
-      "sourceRow": null,
-      "status": "exact-source-not-present-in-this-census",
-      "freshVisualReview": false
+      "sourceRow": {
+        "datetime": "2022-12-30T08:34:48.284Z",
+        "id": "search-result-1058302122405408798",
+        "images": [
+          {
+            "alt": "",
+            "src": "https://cdn.discordapp.com/avatars/977483751347085413/a1ed6fe8b8df96d1db84e42437fcb455.webp?size=32"
+          },
+          {
+            "alt": " ",
+            "src": "https://cdn.discordapp.com/avatars/929794651274244096/454297de541a2299adaf380c60fe4939.webp?size=160"
+          },
+          {
+            "alt": "leftArrow",
+            "src": "https://cdn.discordapp.com/emojis/989225128321744896.webp?size=96"
+          },
+          {
+            "alt": "rightArrow",
+            "src": "https://cdn.discordapp.com/emojis/989225146604720208.webp?size=96"
+          }
+        ],
+        "links": [
+          {
+            "href": "https://youtu.be/MgGN6duD3Rs",
+            "text": "media"
+          },
+          {
+            "href": "https://mario.wiki.gallery/images/3/3b/MKT_Tour86_FireRosalinaCupChallenge.png",
+            "text": ""
+          }
+        ],
+        "text": "んぬ\n used \nleaderboard\nMKT Time Trial Bot\nAPP\n — \n12/30/22, 12:34 AM\nFriday, December 30, 2022 at 12:34 AM\nPiranha Plant Slide Global Leaderboard\n1. Wins: 01:28.66 | 44.41/44.25\n2. Troy: 01:28.88 | 44.50/44.38\n3. Starin: 01:28.92 | 02.00/02.00\n4. N: 01:29.05\n5. spartacurtYT: 01:29.38\n6. LGD Fireball: 01:29.40 | 44.64/44.76\n6. Sucha: 01:29.40 | 44.60/44.80 [media]\n8. kuRi: 01:29.82\nPage 1/1\n,\n,\n,"
+      },
+      "status": "exact-discussion-leaderboard-source-found-original-result-media-unresolved",
+      "freshVisualReview": false,
+      "resolutionAudit": "archive/2022-three-missing-media-source-gap-resolution-20261011.json",
+      "mediaLinkBelongsToDifferentPlayer": true
     }
   ],
   "summary": {
     "rows": 22,
     "statuses": {
-      "exact-source-not-present-in-this-census": 2,
+      "original-command-and-preserved-image-found-visual-review-pending": 1,
       "attachment-candidate-original-image-unresolved": 19,
-      "related-receipt-without-image-candidate-original-command-unresolved": 1
+      "related-receipt-without-image-candidate-original-command-unresolved": 1,
+      "exact-discussion-leaderboard-source-found-original-result-media-unresolved": 1
     },
     "receiptClockNotSubmissionClock": 1
   },
@@ -1263,5 +1318,6 @@
     "No exactsource in this census does not establish deletion; discussionchannel and othercaptures require review.",
     "Current rows checked by exactID; historicalinventory does not include missing uncataloguedperformances.",
     "Record dates, source boundaries and originalimages remain unresolved; no tour certified."
-  ]
+  ],
+  "latestFollowupAudit": "archive/2022-three-missing-media-source-gap-resolution-20261011.json"
 }
