@@ -340,8 +340,9 @@
     {
       "id": "live-coverage-and-publication",
       "requirement": "Source coverage and published result verification",
-      "status": "unverified",
-      "detail": "Current audit uses preserved sources; browser control timeout prevents fresh Discord coverage. Live deployment not checked."
+      "status": "publication-gaps-confirmed-source-coverage-unverified",
+      "detail": "Three live track pages/data accessible;12explicit publication samples differ from current repository. Railway CLI lacks project access, so current deployment status unresolved. Fresh Discord coverage still unavailable.",
+      "evidence": "archive/halloween2019-live-publication-field-gap-verification-20261011.json"
     }
   ],
   "nextWork": "Review Carlos85 cup-overview video menu candidates and surrounding original context; then resolve record dates, original-media/rivals and recording clock discrepancy.",
@@ -404,5 +405,12 @@
     "recordings": 3,
     "freshFootageReviewed": false,
     "existingSubmissionClocksRetained": true
+  },
+  "latestLivePublicationVerification": {
+    "audit": "archive/halloween2019-live-publication-field-gap-verification-20261011.json",
+    "coursesChecked": 3,
+    "sampledFieldOrEntryGaps": 12,
+    "repositoryChangesVerifiedLive": false,
+    "railwayProjectAccess": false
   }
 }

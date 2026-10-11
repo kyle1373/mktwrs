@@ -1,0 +1,301 @@
+{
+  "checkedAt": "2026-10-11T19:04:58.107186+00:00",
+  "repositoryHead": "ef7c95578133ac3825fe74f9dac41311760f48f4",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "livePublicationMatchesRepository": false,
+  "results": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "liveDataUrl": "https://mktwrs.com/data/courses/3ds-toad-circuit.json",
+      "httpStatus": 200,
+      "liveDataSha256": "c3dd3b71a0a0900642d05c8dc2a7366f70089172b03f5374ad2074767bc03c8d",
+      "liveDataBytes": 290638,
+      "repositoryDataSha256": "83184e9f2b4f778329b45382b4f9c556c19dd5877b3437c9d639444665446491",
+      "entireDataEqual": false,
+      "livePage": {
+        "url": "https://mktwrs.com/course/3ds-toad-circuit",
+        "httpStatus": 200,
+        "bytes": 122131,
+        "sha256": "b6bf448458150567e11f6aa50d8d7c05648b83a2a2546b3071e7521a20c3006b",
+        "visualRenderingReviewed": false
+      },
+      "sampleChecks": [
+        {
+          "collection": "submissions",
+          "id": "curated-636462215297236992-previous-10708-opening2019-recheck",
+          "liveEntryPresent": true,
+          "expected": {
+            "observedAt": "2019-10-23T06:57:26.608Z",
+            "achievementDateBounds": {
+              "notBefore": "2019-10-23T06:00:00Z",
+              "notAfter": "2019-10-23T06:57:26.608Z",
+              "basis": "First-ever Toad Circuit Time Trial availability and earlier preserved repost of the same result screenshot. No exact race instant or WR precedence inferred.",
+              "source": {
+                "url": "https://discord.com/channels/629221606064914442/630496570869022740/636458145081982980",
+                "channel": "screenshots",
+                "messageId": "636458145081982980"
+              }
+            }
+          },
+          "live": {
+            "observedAt": "2019-10-23T07:13:37.023Z",
+            "achievementDateBounds": null
+          },
+          "matches": false
+        },
+        {
+          "collection": "submissions",
+          "id": "curated-637220047655534592-halloween2019-text-report",
+          "liveEntryPresent": false,
+          "expected": {
+            "time": "1:05.98",
+            "submittedAt": "2019-10-25T09:24:58.337Z"
+          },
+          "live": null,
+          "matches": false
+        },
+        {
+          "collection": "records",
+          "id": "curated-original-2019-wr-row-5",
+          "liveEntryPresent": true,
+          "expected": {
+            "videoPublishedAt": "2019-10-24T05:45:00Z",
+            "videoShareEvents": [
+              {
+                "sharedAt": "2019-10-24T05:46:25.291Z",
+                "source": {
+                  "url": "https://discord.com/channels/629221606064914442/636461740162416640/636802659688644640",
+                  "channel": "tt-discussion",
+                  "messageId": "636802659688644640"
+                },
+                "reviewAudit": "archive/halloween2019-final-video-link-context-and-text-gap-review-20261010.json",
+                "freshOriginalPostReviewed": true,
+                "freshFootageReviewed": false,
+                "kind": "documented-discord-share-not-earliest-publication-claim"
+              }
+            ]
+          },
+          "live": {
+            "videoPublishedAt": null,
+            "videoShareEvents": null
+          },
+          "matches": false
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "liveDataUrl": "https://mktwrs.com/data/courses/3ds-neo-bowser-city.json",
+      "httpStatus": 200,
+      "liveDataSha256": "1935ff437720d6904e27593b894a3a47890d168cd7947a8284be727fb0a50f25",
+      "liveDataBytes": 201483,
+      "repositoryDataSha256": "6576298c74053d87836ea59d65195070939db41341009466bb8da6d980d09425",
+      "entireDataEqual": false,
+      "livePage": {
+        "url": "https://mktwrs.com/course/3ds-neo-bowser-city",
+        "httpStatus": 200,
+        "bytes": 101831,
+        "sha256": "39babb02a79032f692a9e1f9aed1ae85a4483e8c28e444636843e284e93932ef",
+        "visualRenderingReviewed": false
+      },
+      "sampleChecks": [
+        {
+          "collection": "records",
+          "id": "896332037437403157",
+          "liveEntryPresent": true,
+          "expected": {
+            "videoPublishedAt": "2019-11-05T22:14:22Z",
+            "videoPublicationSource": {
+              "postId": "1191841211063164929",
+              "publishedAt": "2019-11-05T22:14:22Z",
+              "metadataPath": "archive/halloween2019-astre-source-recovery/1191841211063164929.json",
+              "metadataSha256": "0ec2e86a3fa7f4186e51f868e472ca67ff1c11fa940034b87fde1aa8dc166eb5",
+              "videoMediaId": "1191840918149709825",
+              "basis": "preserved-original-post-metadata",
+              "reviewAudit": "archive/halloween2019-three-preserved-social-video-publication-clocks-20261011.json",
+              "freshFootageReviewed": false,
+              "url": "https://x.com/Astre_HD/status/1191841211063164929",
+              "platform": "Twitter"
+            }
+          },
+          "live": {
+            "videoPublishedAt": null,
+            "videoPublicationSource": null
+          },
+          "matches": false
+        },
+        {
+          "collection": "records",
+          "id": "curated-original-2019-wr-row-29",
+          "liveEntryPresent": true,
+          "expected": {
+            "videoClockSourceConflictReview": {
+              "reviewAudit": "archive/halloween2019-unreal12848-video-clock-source-conflict-audit-20261011.json",
+              "discordMessageCreatedAt": "2019-10-23T14:13:24.286Z",
+              "platformMetadataTimestamp": "2019-10-23T15:02:49Z",
+              "platformMetadataField": "timestamp",
+              "platformReleaseTimestampAbsent": true,
+              "clockDifferenceSeconds": 2964.714,
+              "firstViewableVideoInstantUnresolved": true,
+              "historicalMessageEditContentsUnavailable": true,
+              "freshFootageReviewed": false,
+              "decision": "Preserve both observed clocks as separate source properties; neither alone certifies first public viewing instant."
+            },
+            "videoPublishedAt": "2019-10-23T15:02:49Z",
+            "videoSharedAt": "2019-10-23T14:13:24.286Z"
+          },
+          "live": {
+            "videoClockSourceConflictReview": null,
+            "videoPublishedAt": null,
+            "videoSharedAt": null
+          },
+          "matches": false
+        }
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "liveDataUrl": "https://mktwrs.com/data/courses/gcn-dino-dino-jungle.json",
+      "httpStatus": 200,
+      "liveDataSha256": "89b39c11dea29910ef2ea925ff88c958131b8bb499f804690941b61d630ca072",
+      "liveDataBytes": 187949,
+      "repositoryDataSha256": "e727db47f626168b6e7b88285ecfc1f68612f2727914160190d04668d7cb875e",
+      "entireDataEqual": false,
+      "livePage": {
+        "url": "https://mktwrs.com/course/gcn-dino-dino-jungle",
+        "httpStatus": 200,
+        "bytes": 107783,
+        "sha256": "d2bc25ff6c36a302ad1330e035e3d199f3062833916cbe606b3b9fc968c6c00d",
+        "visualRenderingReviewed": false
+      },
+      "sampleChecks": [
+        {
+          "collection": "records",
+          "id": "curated-639765459633307668-tomegome",
+          "liveEntryPresent": true,
+          "expected": {
+            "videoPublishedAt": "2019-10-31T21:22:32Z",
+            "videoSharedAt": "2019-11-01T09:59:31.844Z"
+          },
+          "live": {
+            "videoPublishedAt": null,
+            "videoSharedAt": null
+          },
+          "matches": false
+        },
+        {
+          "collection": "submissions",
+          "id": "curated-1188770496294412288-original-social-video-reviewed",
+          "liveEntryPresent": true,
+          "expected": {
+            "videoPublishedAt": "2019-10-28T10:52:27Z"
+          },
+          "live": {
+            "videoPublishedAt": null
+          },
+          "matches": false
+        },
+        {
+          "collection": "submissions",
+          "id": "curated-639941460220706816-opening2019-proof-review",
+          "liveEntryPresent": true,
+          "expected": {
+            "playerId": "hugo",
+            "player": "Hugo"
+          },
+          "live": {
+            "playerId": "unidentified-player",
+            "player": "Unidentified player"
+          },
+          "matches": false
+        },
+        {
+          "collection": "submissions",
+          "id": "curated-639941460220706816-previous-14055-early2019-recheck",
+          "liveEntryPresent": true,
+          "expected": {
+            "playerId": "hugo",
+            "player": "Hugo"
+          },
+          "live": {
+            "playerId": "unidentified-player",
+            "player": "Unidentified player"
+          },
+          "matches": false
+        },
+        {
+          "collection": "submissions",
+          "id": "curated-halloween2019-menu-641292865829470238",
+          "liveEntryPresent": true,
+          "expected": {
+            "publicationRecoveryReview": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+            "proofSourceReview": {
+              "audit": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+              "freshPixelsReviewed": false,
+              "priorVisualAssessmentCarried": true,
+              "runnerIdentity": "unknown-per-source",
+              "achievementDateEstablished": false,
+              "sourceChannelFreshlyVerified": false
+            }
+          },
+          "live": {
+            "publicationRecoveryReview": null,
+            "proofSourceReview": null
+          },
+          "matches": false
+        },
+        {
+          "collection": "submissions",
+          "id": "curated-halloween2019-menu-641295432021966869",
+          "liveEntryPresent": true,
+          "expected": {
+            "publicationRecoveryReview": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+            "proofSourceReview": {
+              "audit": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+              "freshPixelsReviewed": false,
+              "priorVisualAssessmentCarried": true,
+              "runnerIdentity": "unknown-per-source",
+              "achievementDateEstablished": false,
+              "sourceChannelFreshlyVerified": false
+            }
+          },
+          "live": {
+            "publicationRecoveryReview": null,
+            "proofSourceReview": null
+          },
+          "matches": false
+        },
+        {
+          "collection": "submissions",
+          "id": "curated-641427625775988752-halloween2019-text-report",
+          "liveEntryPresent": false,
+          "expected": {
+            "time": "1:36.98",
+            "submittedAt": "2019-11-06T00:04:23.134Z"
+          },
+          "live": null,
+          "matches": false
+        }
+      ]
+    }
+  ],
+  "deploymentStatusAttempt": {
+    "tool": "Railway CLI",
+    "projectId": "80b026c9-fa2d-4e7d-9b01-657a2f631ff0",
+    "serviceId": "dc662fe0-1295-439f-ba7f-d957436f93c5",
+    "environment": "production",
+    "operation": "deployment list",
+    "result": "You do not have access to this resource.",
+    "currentDeploymentStatusEstablished": false
+  },
+  "conclusion": "Live pages and course JSON accessible, but all12explicit sampled checks differ from current repository. Recent corrections cannot be reported as live. Current deployment status unknown because configured CLI login lacks access.",
+  "limitations": [
+    "Exact fetched bytes identify observed live data, not deployment commit or build state.",
+    "Sample checks establish concrete gaps; they do not measure every historical row or verify browser rendering.",
+    "No deployment settings, cancellation, authentication or server data were changed.",
+    "Prior queued-deployment observations are historical; no currently live deployment handle established.",
+    "Source/rival/media and fresh Discord coverage gaps remain independently unresolved."
+  ]
+}
