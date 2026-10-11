@@ -4126,7 +4126,7 @@
       "tour": "Peach vs. Bowser Tour (November–December 2022)",
       "startDate": "2022-11-30",
       "endDate": "2022-12-14",
-      "reviewStatus": "pending-ordered-review",
+      "reviewStatus": "partial-preserved-source-and-publication-reconciliation; full-history-open",
       "historyComplete": false,
       "courses": [
         {
@@ -4157,7 +4157,29 @@
           ],
           "priorAuditIsCurrentCertificate": false
         }
-      ]
+      ],
+      "latestPreservedReconciliation": {
+        "checkedAt": "2026-10-11",
+        "reports": [
+          "archive/peachbowser2022-peachgardens-sixteen-sheet-original-command-receipt-reconciliation-20261011.json"
+        ],
+        "scope": "Bounded course submission, source clock and recording reconciliation; complete tour history remains open.",
+        "remainingRequirements": [
+          "complete-source-coverage",
+          "competing-record-chronology",
+          "original-proof-review",
+          "fastest-completed-recording-verification",
+          "exact-tour-boundaries",
+          "live-publication-verification"
+        ],
+        "peachGardensSheetReconciliation": {
+          "report": "archive/peachbowser2022-peachgardens-sixteen-sheet-original-command-receipt-reconciliation-20261011.json",
+          "existingRowsDated": 16,
+          "remainingUndatedRows": 16,
+          "aggregateMatchesIndividualReviewedRows": true,
+          "fullHistoryOpen": true
+        }
+      }
     },
     {
       "tourId": "tour-110",
