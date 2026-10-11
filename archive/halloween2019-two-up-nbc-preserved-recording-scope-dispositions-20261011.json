@@ -1,0 +1,53 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCommit": "2aec074a2752ac1f72de0c26aa0af81d99b6af09",
+  "rows": [
+    {
+      "postId": "1187013758511648768",
+      "canonicalId": "original-2019-wr-row-32",
+      "time": "1:26.83",
+      "review": {
+        "reviewAudit": "archive/halloween2019-two-up-nbc-preserved-recording-scope-dispositions-20261011.json",
+        "priorVisualReview": "archive/october2019-recovered-videos.json",
+        "originalFile": "archive/video-backup-files/october2019-recovered/1187013758511648768/original.mp4",
+        "sha256": "0b8754833ee9d37cb3222ad2b9203716b1a11ea213c391ac99984aa12764b58c",
+        "bytes": 28996804,
+        "priorVisualReviewRetained": true,
+        "freshFootageReviewed": false,
+        "startToFinishContinuityVerified": false,
+        "status": "full-race-continuity-review-pending",
+        "basis": "Prior ledger and canonical notes establish course, first-lap overlay and finish result. They do not explicitly certify start-to-finish continuity; matching file hash preserves source identity, not complete-race coverage."
+      }
+    },
+    {
+      "postId": "1187301786379575297",
+      "canonicalId": "original-2019-wr-row-34",
+      "time": "1:26.31",
+      "review": {
+        "reviewAudit": "archive/halloween2019-two-up-nbc-preserved-recording-scope-dispositions-20261011.json",
+        "priorVisualReview": "archive/october2019-recovered-videos.json",
+        "originalFile": "archive/video-backup-files/october2019-recovered/1187301786379575297/original.mp4",
+        "sha256": "ca2f851dec3a5d7caf75b3ceb524001ac92c2b478a7fcbed947753445f230be8",
+        "bytes": 30703028,
+        "priorVisualReviewRetained": true,
+        "freshFootageReviewed": false,
+        "startToFinishContinuityVerified": false,
+        "status": "full-race-continuity-review-pending",
+        "basis": "Prior ledger and canonical notes establish course, first-lap overlay and finish result. They do not explicitly certify start-to-finish continuity; matching file hash preserves source identity, not complete-race coverage."
+      }
+    }
+  ],
+  "validation": {
+    "originalFileHashesMatch": true,
+    "canonicalIndividualAggregateUpdated": true,
+    "nonScopeDataUnchanged": true
+  },
+  "limitations": [
+    "No fresh pixels or start-to-finish footage reviewed. This records an unresolved assessment, not a finding that footage is partial.",
+    "Existing original result and lap assessments retained. No time, lap, date, WR status, original link or video verification flag changed.",
+    "The selector now excludes both pending footage sources and duplicate URLs from fastest full-recording eligibility. Other videos still require scope review; no globally fastest or complete-tour claim."
+  ]
+}
