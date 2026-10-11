@@ -1,0 +1,47 @@
+{
+  "reviewedAt": "2026-10-11T22:04:57.132366+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "technicalReview": {
+    "reviewAudit": "archive/halloween2019-astre12570-decode-timestamp-integrity-and-visual-claim-withdrawal-20261011.json",
+    "originalFile": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
+    "originalSha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
+    "bytes": 28073686,
+    "decodedVideoFrames": 2939,
+    "decodeExitCode": 0,
+    "decodeStderr": "",
+    "decodedFrameChecksumPath": "archive/halloween2019-astre12570-decoded-frame-checksums-20261011.txt",
+    "decodedFrameChecksumSha256": "5edb20e8933385987dd3ab359521bbeea55fb0ee4403de1ee734088183e79745",
+    "outputTimebase": "1/90000",
+    "firstTimestampSeconds": 0.0,
+    "lastTimestampSeconds": 99.290211,
+    "maximumTimestampGapSeconds": 0.06482200000000038,
+    "duplicateOrBackwardTimestamps": 0,
+    "timestampGapsOverOneSecond": 0,
+    "freshPixelsReviewed": false,
+    "fullRaceCoverageVerified": false,
+    "basis": "Full decode and native-timebase frame checksums verify preserved video readability and strictly increasing frame timestamps. They do not identify race content or establish an unedited full race."
+  },
+  "withdrawnVisualClaim": {
+    "claim": "Astre countdown, both laps, finish and previous best freshly seen; full-race coverage confirmed",
+    "reason": "Every image tool result was explicitly an omitted-image placeholder. Resize notices do not supply pixels.",
+    "unsupportedStagedScopeChangesRestoredExactlyToHead": true,
+    "unsupportedAuditAndEvidenceNotCommitted": true,
+    "fullRaceScopeStillPending": true
+  },
+  "warningReconciliation": {
+    "defaultNullOutput": "Repeated non-monotonic muxer DTS warnings at rounded30fpsoutputtimebase",
+    "nativeTimebaseOutput": "No warnings using passthrough and1/90000encoder timebase",
+    "corruptionInferred": false
+  },
+  "validation": {
+    "fiveCanonicalPublicCopiesUpdated": true,
+    "onlyVideoDecodeIntegrityAdded": true,
+    "scopeEligibilityAndRaceDataUnchanged": true
+  },
+  "limitations": [
+    "Successful decode and monotonic presentation timestamps cannot prove content continuity or whether the original recording was edited.",
+    "No fresh footage/image content was read. Existing full-race review remains pending. No fastest recording or tour completion certified."
+  ]
+}
