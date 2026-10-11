@@ -1,0 +1,21 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "withdrawnCommit": "6f8a43eb2f7b6000df74934ee05ae50b63af2a20",
+  "withdrawnAudit": "archive/halloween2019-carlos85-three-menu-totals-fresh-visual-reconciliation-20261011.json",
+  "reason": "All three image tool outputs explicitly stated Image from an earlier turn omitted from this Azure request. No image pixels reached the model; visual confirmation claims were false.",
+  "correctiveActions": [
+    "Remove two unsupported new supporting entries from canonical/individual/aggregate data.",
+    "Restore existing NeoBowserCity menu observation clock and remove unverified overview corroboration.",
+    "Return all three overview OCR candidates to pending visual verification and reopen the source disposition requirement.",
+    "Preserve withdrawn audit as error history with fresh visual flags false."
+  ],
+  "validation": {
+    "canonicalAndAllFourPublicDataFilesMatchPreErrorCommit": true,
+    "recordingSelectionsUnchanged": true,
+    "freshImageInspectionCompleted": false
+  },
+  "continuationConstraint": "Do not retry or count placeholder-only image output as visual evidence. Original overview content remains unconfirmed until actual pixels are available."
+}
