@@ -1,0 +1,98 @@
+{
+  "reviewedAt": "2026-10-11",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "entry": {
+    "courseId": "n64-yoshi-valley",
+    "playerId": "player-e38199e38184e3819df09f90ba",
+    "timeCs": 9018,
+    "video": "https://youtu.be/qxhVjOwQEsU",
+    "event": {
+      "sharedAt": "2022-06-09T14:06:29.690Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/984458470369677343",
+        "channel": "tt-discussion",
+        "messageId": "984458470369677343"
+      },
+      "sharedByDisplay": "Sucha",
+      "reviewAudit": "archive/cat2022-sucha13018-accepted-submission-video-share-reconciliation-20261011.json",
+      "preservedSourceReviewed": true,
+      "freshOriginalPostReviewed": false,
+      "freshFootageReviewed": false,
+      "kind": "documented-discord-share-not-earliest-publication-claim"
+    }
+  },
+  "acceptedId": "discord-984453926898257970",
+  "canonicalId": "984453783255916625-cat2022-image-reviewed",
+  "priorValidation": {
+    "checkedAt": "2026-10-08",
+    "historyComplete": false,
+    "newRuns": 0,
+    "canonicalId": "984453783255916625-cat2022-image-reviewed",
+    "sourceUrl": "https://www.youtube.com/watch?v=qxhVjOwQEsU",
+    "sourcePublishedAt": "2022-06-09T14:03:42Z",
+    "screenshotPublishedAt": "2022-06-09T13:47:52.195Z",
+    "publicationIsCompletionDate": false,
+    "titleCurrent": "【タイムアタック】ヨッシーバレー 1:30.18 [世界2位]#マリオカートツアー #ネコツアー",
+    "historicalTitleSource": "archive/cat2022-yoshi-valley-13018-confirmed-wr-20261005.json",
+    "localOriginal": {
+      "path": "archive/video-backup-files/cat2022-sucha-13018/original.mp4",
+      "bytes": 14082849,
+      "sha256": "66b05c6d31fbda14bd89dac61ee4928907e766db43783a869b50af1787021546",
+      "storage": "Ignored local original, no upload in this pass"
+    },
+    "failedAttempt": "Firstformat298downloadreturnedHTTP403; subsequentHLS311+251completed.",
+    "reviewFrames": [
+      {
+        "path": "archive/cat2022-sucha-13018-video-review/lap1.jpg",
+        "videoSeconds": 52,
+        "sha256": "9ed9a6568d10752403fab55b6764aaa2f81e63436c5c62c6e9a97105f3551658"
+      },
+      {
+        "path": "archive/cat2022-sucha-13018-video-review/finish.jpg",
+        "videoSeconds": 98,
+        "sha256": "4806f80d1b8dbb413bb14192236aee4ece94120763f05111ea08d8d58407bd5e"
+      },
+      {
+        "path": "archive/cat2022-sucha-13018-video-review/result.jpg",
+        "videoSeconds": 104,
+        "sha256": "7e8055e534f02ab645f033ced3eb0a6e3f13ab68e6c7a421c0f8de22e9409bde"
+      }
+    ],
+    "visualObservations": {
+      "course": "YoshiValley",
+      "lap1": "45.17",
+      "total": "1:30.18",
+      "lap2": "45.01",
+      "lap2Basis": "Originalsubmission and total minus visibly frozenlap1; no separatelap2 overlay observed.",
+      "previousBest": "1:30.27",
+      "previousBestDate": null,
+      "reviewMethod": "Sampled contact sheet plus lap1boundary,finish,completedresult."
+    },
+    "decision": "Original footage matches existing canonical total/laps. Preserve mutable title discrepancy without inferring title-change or rival date; no duplicate record added."
+  },
+  "preservedOriginalHashCheckedNow": true,
+  "freshFootageReview": false,
+  "nu11FinalSourceReview": {
+    "priorAudit": "archive/cat2022-nu11-13007-source-chronology-audit-20261008.json",
+    "decision": "1:30.07 remains undated. June21 announcement and attachment-upload clocks are not original submission or race completion. Latest June15 captured snapshot still reports Nu11 1:30.70; cannot date faster run from this."
+  },
+  "validation": {
+    "status": "passed-isolated-generation-and-scoped-public-invariants",
+    "matchedPublicRows": [
+      "curated-984453783255916625-cat2022-image-reviewed",
+      "sheet-AKB38",
+      "discord-984453926898257970",
+      "curated-984453783255916625-cat2022-image-reviewed"
+    ],
+    "newPublicRows": 0,
+    "newWrTransitions": 0,
+    "nu11DateUnchanged": true,
+    "timesLapsDatesAndPriorVerificationUnchanged": true
+  },
+  "limitations": [
+    "Prior footage verification retained with current preserved-original hash check; no fresh visual certification.",
+    "The mutable title now calls Sucha world second. Original share caption called current WR; title change cannot date Nu11 completion.",
+    "Full source coverage and fastest recording comparison across all possible recordings remain open."
+  ]
+}
