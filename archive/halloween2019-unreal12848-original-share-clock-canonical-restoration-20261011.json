@@ -1,0 +1,75 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "bcc60607",
+  "freshDiscordReview": {
+    "messageId": "636567858335449098",
+    "postedAt": "2019-10-23T14:13:24.286Z",
+    "authorDisplay": "Benny91",
+    "video": "https://youtu.be/jeZCQCMQgPE",
+    "embedTitle": "MK Tour - Neo Bowser time trial 1:28.48",
+    "embedUploader": "Topspeedsnaker",
+    "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/636567858335449098",
+    "freshFootageReviewed": false
+  },
+  "canonicalRepair": {
+    "file": "archive/curated-runs.json",
+    "rows": [
+      "original-2019-wr-row-29",
+      "twitter-1191841211063164929-verified"
+    ],
+    "basis": [
+      "fresh Discord clock and exact video URL for Unreal12848",
+      "existing detailed Astre share event and preserved October9 review of the November2019 source"
+    ],
+    "priorAstreAudit": "archive/november2019-two-original-video-share-clocks-20261009.json"
+  },
+  "isolatedVerification": {
+    "command": "node scripts/build.mjs",
+    "exitCode": 0,
+    "root": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-halloween-build-9qgz6kic",
+    "rows": [
+      {
+        "id": "curated-original-2019-wr-row-29",
+        "video": "https://www.youtube.com/watch?v=jeZCQCMQgPE",
+        "videoSharedAt": "2019-10-23T14:13:24.286Z",
+        "videoShareSource": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/636567858335449098",
+          "channel": "tt-discussion",
+          "messageId": "636567858335449098"
+        },
+        "videoShareClockAudit": "archive/opening2019-four-original-source-clock-dispositions-20261009.json",
+        "achievedAt": "2019-10-23",
+        "submittedAt": "2019-10-23T11:55:17.828Z"
+      },
+      {
+        "id": "curated-twitter-1191841211063164929-verified",
+        "video": "https://twitter.com/Astre_HD/status/1191841211063164929",
+        "videoSharedAt": "2019-11-06T17:47:31.249Z",
+        "videoShareSource": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/641695172521885696",
+          "channel": "tt-discussion",
+          "messageId": "641695172521885696"
+        },
+        "videoShareClockAudit": "archive/november2019-two-original-video-share-clocks-20261009.json",
+        "achievedAt": "2019-11-05",
+        "submittedAt": "2019-11-05T22:14:22.000Z"
+      }
+    ]
+  },
+  "sourceListDifferenceDisposition": {
+    "examples": [
+      "curated-original-2019-wr-row-4",
+      "curated-original-2019-wr-row-19"
+    ],
+    "result": "Inspected additionalSources contain the same documentary sources in different order; not source loss."
+  },
+  "limitations": [
+    "Share clock is publication in Discord; not an exact race time or earliest upload claim.",
+    "Unreal12848 historical video metadata clock discrepancy remains unresolved.",
+    "No new full footage or image verification, no WR promotion, no lap changes.",
+    "Other regeneration differences and live publication verification remain pending.",
+    "Halloween not complete and next tour not started."
+  ]
+}
