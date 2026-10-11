@@ -7025,5 +7025,20 @@
     "missingSourcesMustNotBeTreatedAsProofOfCompleteness": true,
     "laterTourWorkDeferred": true,
     "userInstruction": "Let’s do one tour at a time. Make sure those are fully correct before moving on to the next tour."
+  },
+  "tourCompletionEvidencePolicy": {
+    "userRequired": true,
+    "completionStatusRequiresLinkedEvidenceReport": true,
+    "reportMustInclude": [
+      "Exact tour UTC boundaries and applicable tracks",
+      "Reviewed source coverage with source IDs and preserved evidence",
+      "Each track WR chronology, competitors and resolved previous-best leads",
+      "Player, total, laps and submission/publication date provenance",
+      "Original video links and share clocks; fastest verified completed recording when different from WR",
+      "Published per-track and aggregate history verification",
+      "Specific remaining gaps and their disposition; no unresolved material gap represented as complete"
+    ],
+    "advanceOnlyAfterEvidenceReportProvesCompletion": true,
+    "activeTourId": "tour-3"
   }
 }
