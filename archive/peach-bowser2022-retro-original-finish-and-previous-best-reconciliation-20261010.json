@@ -8,10 +8,13 @@
     "originalPostTimestamp": "2022-05-19T23:55:44.729Z",
     "total": "1:11.33",
     "previousBest": "1:11.53",
-    "freshOriginalImageReviewed": true,
-    "sourceCourseBasis": "Sunset Wilds desert finish background and 1:54/1:44/1:34 targets; matched contemporary Sunset Wilds leaderboard Retro1:11.33.",
+    "freshOriginalImageReviewed": false,
+    "sourceCourseBasis": "Same Retro account and total as contemporary Sunset Wilds leaderboard; OCR target times1:54/1:44/1:34. Course scenery not visually verified.",
     "sha256": "c6324e02bdc486d58b740dad2a9ae6bf4afedfd2d04195913ead38f9d6a605b4",
-    "bytes": 2751334
+    "bytes": 2751334,
+    "visualVerificationComplete": false,
+    "transcriptionMethod": "Tesseract OCR of original downloaded PNG",
+    "correctionAudit": "archive/peach-bowser2022-image-verification-claim-correction-and-fabi-search-20261010.json"
   },
   "currentResult": {
     "messageId": "976996614973571082-peach2022-original-source",
@@ -35,25 +38,28 @@
     },
     "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/976996613576871986/IMG_9937.png",
     "proofImageLocal": "/assets/proof/peach-bowser2022-retro-976996613576871986.png",
-    "proofImageVerified": true,
+    "proofImageVerified": false,
     "originalImageReview": {
       "reviewAudit": "archive/peach-bowser2022-retro-original-finish-and-previous-best-reconciliation-20261010.json",
       "originalAccount": "640432017258840095",
       "originalPostTimestamp": "2022-05-19T23:55:44.729Z",
       "total": "1:11.33",
       "previousBest": "1:11.53",
-      "freshOriginalImageReviewed": true,
-      "sourceCourseBasis": "Sunset Wilds desert finish background and 1:54/1:44/1:34 targets; matched contemporary Sunset Wilds leaderboard Retro1:11.33.",
+      "freshOriginalImageReviewed": false,
+      "sourceCourseBasis": "Same Retro account and total as contemporary Sunset Wilds leaderboard; OCR target times1:54/1:44/1:34. Course scenery not visually verified.",
       "sha256": "c6324e02bdc486d58b740dad2a9ae6bf4afedfd2d04195913ead38f9d6a605b4",
-      "bytes": 2751334
+      "bytes": 2751334,
+      "visualVerificationComplete": false,
+      "transcriptionMethod": "Tesseract OCR of original downloaded PNG",
+      "correctionAudit": "archive/peach-bowser2022-image-verification-claim-correction-and-fabi-search-20261010.json"
     },
     "publicSubmissionReconciliation": {
       "canonicalId": "sheet-AJL13",
       "reviewAudit": "archive/peach-bowser2022-retro-original-finish-and-previous-best-reconciliation-20261010.json",
-      "basis": "Same Retro account, course and total; original screenshot supplies source timestamp and proof."
+      "basis": "Same Retro account and leaderboard total; attachment OCR provisionally matches total. Source date retained as original post publication, image verification pending."
     },
     "notes": [
-      "Original finish screenshot shows New Record1:11.33, Previous Best1:11.53. Exact laps and achievement instant unknown. Slower than already documented Nu111:10.23; supporting result only."
+      "Original post account, timestamp and attachment verified through Discord DOM. Existing sheet and leaderboard total1:11.33 retained. Tesseract OCR reads New Record1:11.33 and Previous Best1:11.53; original screenshot not visually verified. Exact laps and achievement instant unknown."
     ]
   },
   "previousBest": {
@@ -68,7 +74,7 @@
       null
     ],
     "mushrooms": null,
-    "status": "documented-submission",
+    "status": "ocr-candidate-not-published",
     "includeInProgression": false,
     "submittedAt": null,
     "observedAt": "2022-05-19T23:55:44.729Z",
@@ -79,21 +85,24 @@
     },
     "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/976996613576871986/IMG_9937.png",
     "proofImageLocal": "/assets/proof/peach-bowser2022-retro-976996613576871986.png",
-    "proofImageVerified": true,
+    "proofImageVerified": false,
     "originalImageReview": {
       "reviewAudit": "archive/peach-bowser2022-retro-original-finish-and-previous-best-reconciliation-20261010.json",
       "originalAccount": "640432017258840095",
       "originalPostTimestamp": "2022-05-19T23:55:44.729Z",
       "total": "1:11.33",
       "previousBest": "1:11.53",
-      "freshOriginalImageReviewed": true,
-      "sourceCourseBasis": "Sunset Wilds desert finish background and 1:54/1:44/1:34 targets; matched contemporary Sunset Wilds leaderboard Retro1:11.33.",
+      "freshOriginalImageReviewed": false,
+      "sourceCourseBasis": "Same Retro account and total as contemporary Sunset Wilds leaderboard; OCR target times1:54/1:44/1:34. Course scenery not visually verified.",
       "sha256": "c6324e02bdc486d58b740dad2a9ae6bf4afedfd2d04195913ead38f9d6a605b4",
-      "bytes": 2751334
+      "bytes": 2751334,
+      "visualVerificationComplete": false,
+      "transcriptionMethod": "Tesseract OCR of original downloaded PNG",
+      "correctionAudit": "archive/peach-bowser2022-image-verification-claim-correction-and-fabi-search-20261010.json"
     },
     "evidenceType": "finish-screen-previous-best",
     "notes": [
-      "Previous Best1:11.53 visible in original1:11.33 finish image. Earlier result exists, exact achievement date unknown; observation timestamp is not its submission date."
+      "OCR candidate only; not visually verified and removed from canonical/public submissions pending confirmation."
     ]
   },
   "remainingUnmatchedLeaderboardSources": [
@@ -102,10 +111,7 @@
   ],
   "noWRPromotion": true,
   "validation": {
-    "status": "passed-isolated-generation",
-    "currentResultMergedExistingId": "sheet-AJL13",
-    "previousBestNewSupportingResult": "curated-976996614973571082-peach2022-previous-best",
-    "naliveReviewMetadataMatchesGenerated": true,
-    "wrProgressionUnchanged": true
+    "status": "superseded-by-verification-correction",
+    "correctionAudit": "archive/peach-bowser2022-image-verification-claim-correction-and-fabi-search-20261010.json"
   }
 }

@@ -13,11 +13,12 @@
     "exactPublicationTimestamp": null,
     "playableObserved": true,
     "approximateDurationSeconds": 135,
-    "freshVisualSampling": true,
+    "freshVisualSampling": false,
     "fullFootageReviewComplete": false,
-    "sampledResultFrameLimitation": "At displayed player positions 2:07 and 2:12 the top of the recorded game screen is cropped; visible Previous Best 1:20.38 is not the current race total.",
+    "sampledResultFrameLimitation": "Player positions were inspected, but screenshot outputs were omitted from model-visible context. Cropping, result total and previous best could not be visually verified.",
     "raceTotalVerified": false,
-    "lapSplitsVerified": false
+    "lapSplitsVerified": false,
+    "correctionAudit": "archive/peach-bowser2022-image-verification-claim-correction-and-fabi-search-20261010.json"
   },
   "originalSubmissionTimestamp": "2022-05-19T19:03:54.261Z",
   "reportedSplits": [
@@ -30,10 +31,7 @@
   "newRaceResults": 0,
   "newWRClaims": 0,
   "validation": {
-    "status": "passed-isolated-generation",
-    "currentResultMergedExistingId": "sheet-AJL13",
-    "previousBestNewSupportingResult": "curated-976996614973571082-peach2022-previous-best",
-    "naliveReviewMetadataMatchesGenerated": true,
-    "wrProgressionUnchanged": true
+    "status": "superseded-by-verification-correction",
+    "correctionAudit": "archive/peach-bowser2022-image-verification-claim-correction-and-fabi-search-20261010.json"
   }
 }
