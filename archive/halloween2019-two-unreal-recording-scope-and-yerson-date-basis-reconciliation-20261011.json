@@ -1,0 +1,79 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "recordingReviews": [
+    {
+      "canonicalId": "636853682620858388-opening2019-proof-review",
+      "videoId": "KzDZ2O9_YZM",
+      "time": "1:26.59",
+      "review": {
+        "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+        "priorVisualReview": "archive/early-original-channel-video-recovery.json",
+        "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
+        "bytes": 4196712,
+        "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
+        "priorResultAndLapReviewRetained": true,
+        "freshFootageReviewed": false,
+        "startToFinishContinuityVerified": false,
+        "status": "full-race-continuity-review-pending",
+        "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof."
+      }
+    },
+    {
+      "canonicalId": "original-2019-wr-row-29",
+      "videoId": "jeZCQCMQgPE",
+      "time": "1:28.48",
+      "review": {
+        "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+        "priorVisualReview": "archive/early-original-channel-video-recovery.json",
+        "originalFile": "archive/video-backup-files/original-channel-jeZCQCMQgPE/original.mp4",
+        "bytes": 5989963,
+        "sha256": "829240ff27fbd680f1d5e34ccef9c165336f7d82bce8b4ed07780eb0c3d420de",
+        "priorResultAndLapReviewRetained": true,
+        "freshFootageReviewed": false,
+        "startToFinishContinuityVerified": false,
+        "status": "full-race-continuity-review-pending",
+        "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof."
+      }
+    }
+  ],
+  "dateBasisCorrection": {
+    "publicId": "curated-637479815665942539-3ds-toad-circuit",
+    "time": "1:04.85",
+    "recordDateUnchanged": "2019-10-25",
+    "oldBasis": "source-date",
+    "newBasis": "documented-date-override",
+    "evidence": "archive/raw/original-2019-leaderboard.json",
+    "dedicatedWrHistoryRow": 20,
+    "dedicatedDate": "2019-10-25 00:00:00",
+    "summaryRow": 5,
+    "summaryDate": "2019-10-24 00:00:00",
+    "existingDateOverrideRetained": true,
+    "buildRule": "scripts/build.mjs prioritizes dateOverride.date and labels documented-date-override"
+  },
+  "validation": {
+    "fileHashesMatch": true,
+    "canonicalAndPublicScopeMetadataAgree": true,
+    "timesLapsDatesLinksStatusesUnchanged": true,
+    "focusedVideoTestsPassed": 10,
+    "halloweenDateRegressionPassed": true,
+    "fullSuitePassed": 139,
+    "fullSuiteFailed": 4,
+    "remainingFailuresPreviouslyPresent": true
+  },
+  "limitations": [
+    "No new visual footage review. Pending scope is not a finding that a video is partial.",
+    "This closes known scope-disposition omissions for the seven selected Halloween NBC candidates, not proof of exhaustive source coverage. The fastest certified recording remains unresolved because faster candidates await full-race review.",
+    "Yerson correction fixes provenance label without altering the accepted date, duration, source clock or submission time.",
+    "No production deployment certification and no tour completion claimed."
+  ],
+  "eligibleHalloweenNbcCandidateDiagnostic": {
+    "id": "curated-637525126929449000-opening2019-proof-review",
+    "time": "1:31.08",
+    "videoScope": "full-run",
+    "fastestFullRecordingCertified": false,
+    "basis": "Existing tour evidence filter; faster candidates pending coverage review."
+  }
+}
