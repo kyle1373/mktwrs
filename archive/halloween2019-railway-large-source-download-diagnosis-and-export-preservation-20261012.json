@@ -60,5 +60,29 @@
     "sourceCheckoutSucceededVerified": false,
     "livePublicationVerified": false
   },
-  "nextAction": "Observe the first deployment using this source-export change; compare live Halloween rows and proof availability after successful deployment. Do not repeat GitHub permission confirmation based only on the eventual authorization symptom."
+  "nextAction": "Observe the first deployment using this source-export change; compare live Halloween rows and proof availability after successful deployment. Do not repeat GitHub permission confirmation based only on the eventual authorization symptom.",
+  "deploymentOfExportChange": {
+    "deploymentId": "7db3066f-f5b4-4150-b777-9d672b73a038",
+    "commit": "60034bddd818dbc96f2618138aee11bdf06461ed",
+    "status": "Queued",
+    "reason": "Waiting for build slot",
+    "createdAtDisplayed": "2026-10-12 01:10 PDT",
+    "livePublicationVerified": false
+  },
+  "obsoleteBuildAbort": {
+    "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
+    "availableAction": "Abort",
+    "confirmationText": "Are you sure you want to abort this deployment? Aborting this deployment is permanent and cannot be undone.",
+    "userConfirmationRequested": true,
+    "confirmationPending": true,
+    "abortExecuted": false,
+    "dialogCancelledWithoutAbort": true
+  },
+  "allCourseDataCountCrosscheck": {
+    "previousAndReducedCourseCount": 142,
+    "courseIdsMatch": true,
+    "previousAndReducedRecordCount": 1659,
+    "previousAndReducedSubmissionCount": 23544,
+    "scope": "Count and course-ID crosscheck; full field comparison performed for 269 Halloween rows."
+  }
 }
