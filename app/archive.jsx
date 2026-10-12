@@ -571,10 +571,18 @@ function HalloweenRecording({ comparison, players }) {
     <h2>Halloween Tour (2019) recording comparison</h2>
     {wr && <p>Archived tour WR: <strong>{wr.time}</strong> · <Player id={wr.playerId} players={players} /></p>}
     {r ? <>
-      <p>Fastest documented full-race recording: <strong>{r.time}</strong> · <Player id={r.playerId} players={players} /></p>
+      <p>Fastest full-race recording in the reviewed evidence: <strong>{r.time}</strong> · <Player id={r.playerId} players={players} /></p>
       <p className="video-links">{r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}{r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <EvidenceTimes r={r} />
     </> : <p>No full-race recording has been documented in the reviewed evidence yet.</p>}
+    {!!comparison.pendingRecordings?.length && <details className="sources">
+      <summary>Faster video references awaiting verification ({comparison.pendingRecordings.length})</summary>
+      <p className="table-note">These references have not established an available complete race. Their reported times do not replace the reviewed recording above.</p>
+      {comparison.pendingRecordings.map(candidate => <div key={candidate.id}>
+        <p><strong>{candidate.time}</strong> · <Player id={candidate.playerId} players={players} /> · <a href={candidate.video || candidate.videoReference} target="_blank" rel="noopener noreferrer">Original video reference</a></p>
+        <EvidenceTimes r={candidate} />
+      </div>)}
+    </details>}
     <p className="table-note">Tour review remains incomplete. Recordings awaiting full-race verification are excluded from this comparison.</p>
   </section>;
 }
