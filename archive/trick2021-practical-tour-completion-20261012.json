@@ -1,0 +1,92 @@
+{
+  "tourId": "tour-44",
+  "tour": "Trick Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-05-19T06:00:00Z",
+    "endExclusive": "2021-06-02T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-ghost-valley-1",
+      "archivedWr": "0:39.76",
+      "fastestDocumentedAvailableRecording": "0:39.82",
+      "recordingPlayerId": "10mp"
+    },
+    {
+      "id": "n64-koopa-troopa-beach-r",
+      "archivedWr": "1:15.33",
+      "fastestDocumentedAvailableRecording": "1:15.55",
+      "recordingPlayerId": "nhspeedy"
+    },
+    {
+      "id": "3ds-rainbow-road-r",
+      "archivedWr": "1:52.69",
+      "fastestDocumentedAvailableRecording": "1:53.83",
+      "recordingPlayerId": "wins"
+    }
+  ],
+  "evidence": [
+    "archive/trick2021-original-results-practical-review-20261012.json",
+    "archive/trick-2021-reconciliation.json",
+    "archive/may2021-ecliptix4014-written-report-existing-original-reconciliation-20261011.json",
+    "archive/trick2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/trick2021-selected-recording-r2-preservation-20261012.json",
+    "archive/trick2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/trick-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 308,
+      "indexedImagesVisuallyReviewed": 307,
+      "brokenIndexedAttachments": 1,
+      "wrSearchMatches": 44,
+      "linkSearchMatches": 26,
+      "videoSearchMatches": 33
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 3,
+    "proofImageUrlsPassed": 283
+  },
+  "remainingLimitations": [
+    "Final WR footage unavailable or absent from reviewed sources; selected slower recordings shown without WR promotion.",
+    "Nu11 Rainbow1:52.69 original RQ8FAnqakFc unavailable per preserved browser review.",
+    "10mp0:39.82 historical Discord title typo38.82 differs from prior visually reviewed video39.82; supporting status retained.",
+    "Broken attachment844464872828829706 and two deleted-account identities remain documented.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Unindexed global material and some intermediate date ordering remain unresolved."
+  ],
+  "validation": {
+    "productionBuildPages": 896,
+    "recordingComparisonRenderChecks": 3,
+    "documentedResultsRows": [
+      116,
+      30,
+      55
+    ],
+    "videoRangeChecksPassed": 3,
+    "generationFidelity": [
+      {
+        "courseId": "snes-ghost-valley-1",
+        "reviewedRows": 128,
+        "differences": 0
+      },
+      {
+        "courseId": "n64-koopa-troopa-beach-r",
+        "reviewedRows": 78,
+        "differences": 0
+      },
+      {
+        "courseId": "3ds-rainbow-road-r",
+        "reviewedRows": 123,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-45"
+}
