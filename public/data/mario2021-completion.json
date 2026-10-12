@@ -1,0 +1,89 @@
+{
+  "tourId": "tour-39",
+  "tour": "Mario Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-03-10T06:00:00Z",
+    "endExclusive": "2021-03-24T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "gba-bowser-s-castle-1",
+      "archivedWr": "0:59.55",
+      "fastestDocumentedAvailableRecording": "0:59.55",
+      "recordingPlayerId": "dit"
+    },
+    {
+      "id": "ds-luigi-s-mansion-r",
+      "archivedWr": "1:22.75",
+      "fastestDocumentedAvailableRecording": "1:22.79",
+      "recordingPlayerId": "wins"
+    },
+    {
+      "id": "tokyo-blur-4",
+      "archivedWr": "0:46.31",
+      "fastestDocumentedAvailableRecording": "0:46.94",
+      "recordingPlayerId": "spartacurtyt"
+    }
+  ],
+  "evidence": [
+    "archive/mario2021-original-results-practical-review-20261012.json",
+    "archive/mario-2021-reconciliation.json",
+    "archive/march2021-dit-bc1-recovery-queue-and-share-reconciliation-20261009.json",
+    "archive/mario2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/mario2021-selected-recording-r2-preservation-20261012.json",
+    "archive/mario2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/mario-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 327,
+      "indexedImagesVisuallyReviewed": 327,
+      "wrTextSearchResultsReviewed": 20,
+      "linkSearchResultsReviewed": 25
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 3,
+    "proofImageUrlsPassed": 296
+  },
+  "remainingLimitations": [
+    "DIT Bowser Castle1 WR footage preserved from player recovery uploaded2026; original2021 Twitter link retained without claiming byte-identical original recovery.",
+    "Mansion R Wins1:22.79 original41.41/41.38 recording distinct from tied screenshot; race date and relation to faster Nu111:22.75 unknown. Source publication identifies tour association, not achievement date.",
+    "Tokyo Blur4 Nu110:46.31 image WR; Spartacurt0:46.94 full footage preserved; edited original source does not establish exact video-share clock.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+  ],
+  "validation": {
+    "productionBuildPages": 899,
+    "recordingComparisonRenderChecks": 3,
+    "documentedResultsRows": [
+      78,
+      58,
+      70
+    ],
+    "videoRangeChecksPassed": 3,
+    "generationFidelity": [
+      {
+        "courseId": "gba-bowser-s-castle-1",
+        "reviewedRows": 120,
+        "differences": 0
+      },
+      {
+        "courseId": "ds-luigi-s-mansion-r",
+        "reviewedRows": 131,
+        "differences": 0
+      },
+      {
+        "courseId": "tokyo-blur-4",
+        "reviewedRows": 91,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-40"
+}
