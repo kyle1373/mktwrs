@@ -1,0 +1,78 @@
+{
+  "tourId": "tour-48",
+  "tour": "Los Angeles Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-07-14T06:00:00Z",
+    "endExclusive": "2021-07-28T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-mario-circuit-3",
+      "archivedWr": "1:06.44",
+      "fastestDocumentedAvailableRecording": "1:06.61",
+      "recordingPlayerId": "tomegome"
+    },
+    {
+      "id": "n64-kalimari-desert-r",
+      "archivedWr": "1:18.33",
+      "fastestDocumentedAvailableRecording": "1:18.48",
+      "recordingPlayerId": "n"
+    }
+  ],
+  "evidence": [
+    "archive/la2021-original-results-practical-review-20261012.json",
+    "archive/la-2021-reconciliation.json",
+    "archive/la2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/la2021-selected-recording-r2-preservation-20261012.json",
+    "archive/la2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/la-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 125,
+      "indexedImagesVisuallyReviewed": 125,
+      "wrSearchMatches": 11,
+      "linkSearchMatches": 5,
+      "videoSearchMatches": 3,
+      "originalVideosDownloadedAndVisuallyReviewed": 4
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 110
+  },
+  "remainingLimitations": [
+    "N1:18.48 video is earlier than final1:18.33; not attached to faster result.",
+    "Tomegome1:06.61 footage not1:06.44 screenshot; no Discord share time inferred.",
+    "NuJuly14Twitter1415236314283220999 unavailable; previous-best dates and some standings ordering unresolved.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 896,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      41,
+      29
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "snes-mario-circuit-3",
+        "reviewedRows": 77,
+        "differences": 0
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "reviewedRows": 58,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-49"
+}
