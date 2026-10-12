@@ -72,7 +72,7 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!r.submittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length) return null;
+  if (!r.submittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
     {r.submittedAt && <div>Submitted: {format(r.submittedAt)}</div>}
@@ -93,6 +93,10 @@ function EvidenceTimes({ r }) {
       {report.imageReport && report.writtenTotalExplicit === false && <div>The caption does not state the exact total; this post is linked to the archived result image.</div>}
       <div>Report posting time; exact race completion time is unconfirmed.</div>
     </div>)}
+    {r.recoveredSourcePost && <div>
+      Original source posted: <a href={r.recoveredSourcePost.url} target="_blank" rel="noopener noreferrer">{format(r.recoveredSourcePost.postedAt)}</a>
+      <div>Post metadata recovered; image contents and result total remain unverified. This is not a confirmed race or submission time.</div>
+    </div>}
     {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
     {shares.map((event, index) => <div key={event.source?.url || index}>
       Video shared: {event.source?.url ? <a href={event.source.url} target="_blank" rel="noopener noreferrer">{format(event.sharedAt)}</a> : format(event.sharedAt)}

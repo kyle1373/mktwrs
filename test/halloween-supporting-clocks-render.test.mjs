@@ -29,6 +29,22 @@ test('carried recording assessments expose pending continuity beside original vi
  }
 });
 
+test('eight recovered NBC source posts expose clocks without claiming verified result contents',()=>{
+ const rows=routeData(['course','3ds-neo-bowser-city']).data.halloweenSupportingResults;
+ const recovered=rows.filter(r=>r.recoveredSourcePost);
+ assert.equal(recovered.length,8);
+ for(const r of recovered){
+  assert.equal(r.recoveredSourcePost.resultContentsVerified,false);
+  const html=render([r]);
+  assert.match(html,/Original source posted:/);
+  assert.match(html,/image contents and result total remain unverified/);
+  assert.ok(html.includes(r.recoveredSourcePost.postedAt.replace('T',' ').replace('.000Z',' UTC')));
+  assert.doesNotMatch(html,/Submitted:/);
+ }
+ const missing=rows.find(r=>r.id==='curated-halloween2019-original-nbc-row-8');
+ assert.equal(missing.recoveredSourcePost,undefined);
+});
+
 test('supporting table renders actual preserved forum clocks without invented submission times',()=>{
  const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
  const row=rows.find(r=>r.id==='curated-forum-halloween2019-samh-reply-31-10575');
