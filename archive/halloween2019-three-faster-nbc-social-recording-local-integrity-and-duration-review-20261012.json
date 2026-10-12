@@ -1,0 +1,154 @@
+{
+  "reviewedAt": "2026-10-12T03:08:53.013536+00:00",
+  "tourId": "tour-3",
+  "courseId": "3ds-neo-bowser-city",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "rows": [
+    {
+      "postId": "1187013758511648768",
+      "time": "1:26.83",
+      "files": [
+        {
+          "path": "archive/video-backup-files/october2019-recovered/1187013758511648768/original.mp4",
+          "bytes": 28996804,
+          "sha256": "0b8754833ee9d37cb3222ad2b9203716b1a11ea213c391ac99984aa12764b58c",
+          "priorChecksumMatches": true,
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "width": 592,
+                "height": 1280
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio"
+              }
+            ],
+            "format": {
+              "duration": "91.554830"
+            }
+          },
+          "durationSeconds": 91.55483,
+          "secondsLongerThanDocumentaryRace": 4.72483
+        }
+      ],
+      "localOriginalPresent": true,
+      "durationRulesOutFullRace": false,
+      "fullRaceContinuityVerified": false,
+      "freshFootageReviewed": false
+    },
+    {
+      "postId": "1187301786379575297",
+      "time": "1:26.31",
+      "files": [
+        {
+          "path": "archive/video-backup-files/october2019-recovered/1187301786379575297/original.mp4",
+          "bytes": 30703028,
+          "sha256": "ca2f851dec3a5d7caf75b3ceb524001ac92c2b478a7fcbed947753445f230be8",
+          "priorChecksumMatches": true,
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "width": 592,
+                "height": 1280
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio"
+              }
+            ],
+            "format": {
+              "duration": "99.960454"
+            }
+          },
+          "durationSeconds": 99.960454,
+          "secondsLongerThanDocumentaryRace": 13.650454
+        }
+      ],
+      "localOriginalPresent": true,
+      "durationRulesOutFullRace": false,
+      "fullRaceContinuityVerified": false,
+      "freshFootageReviewed": false
+    },
+    {
+      "postId": "1191841211063164929",
+      "time": "1:25.70",
+      "files": [
+        {
+          "path": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
+          "bytes": 28073686,
+          "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
+          "priorChecksumMatches": true,
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "width": 588,
+                "height": 1278
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio"
+              }
+            ],
+            "format": {
+              "duration": "99.334966"
+            }
+          },
+          "durationSeconds": 99.334966,
+          "secondsLongerThanDocumentaryRace": 13.634966
+        },
+        {
+          "path": "archive/video-backup-files/b32e9b2b4f3e483815e8/original.mp4",
+          "bytes": 11997733,
+          "sha256": "cd122899db9fafb569c64acc18e95ff5fc2564ef11dc620f78ae08c7b183dfae",
+          "priorChecksumMatches": true,
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "codec_type": "video",
+                "width": 360,
+                "height": 782
+              },
+              {
+                "codec_name": "aac",
+                "codec_type": "audio"
+              }
+            ],
+            "format": {
+              "duration": "99.334966"
+            }
+          },
+          "durationSeconds": 99.334966,
+          "secondsLongerThanDocumentaryRace": 13.634966
+        }
+      ],
+      "localOriginalPresent": true,
+      "durationRulesOutFullRace": false,
+      "fullRaceContinuityVerified": false,
+      "freshFootageReviewed": false
+    }
+  ],
+  "scope": "Verify exact previously preserved local encodings for three faster NBC social-video candidates; four files with prior checksum matches.",
+  "limitations": [
+    "All files are longer than the reported race duration. That passes a necessary duration condition but does not prove complete footage, continuity, total, laps or even matching visual content.",
+    "No actual visual review performed here. Original file identity verified by prior checksum and container metadata only.",
+    "The two Astre encodings have identical container duration but distinct bytes/resolutions. No copy removed or remote backup claimed.",
+    "Full-race scopes remain pending; no public selection, date, time, split or WR status changed."
+  ]
+}
