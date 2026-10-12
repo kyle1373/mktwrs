@@ -1,0 +1,32 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "da218683",
+  "isolatedBuild": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "staticPages": 910,
+    "root": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-halloween-build-9qgz6kic"
+  },
+  "focusedTests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "renderedChecks": {
+    "allThreeHalloweenCoursesOpeningDayPolicyPresent": true,
+    "allThreeHalloweenCoursesRecordingComparisonPresent": true,
+    "openingOnlyPandaAndMeesterProfileLinksAbsent": true
+  },
+  "deploymentCheck": {
+    "githubDeploymentId": 7003410382,
+    "sha": "8f54daae3cb2127e414e186349de5778b345f938",
+    "latestReportedState": "in_progress",
+    "currentChangesLiveVerified": false
+  },
+  "limitations": [
+    "Build confirms local generated UI behavior only. Halloween source coverage, missing dates and full-race review remain incomplete.",
+    "Astre full-race scope remains pending following withdrawal; no fresh footage verification.",
+    "Some source-note wording remains inconsistent in canonical opening-only evidence and requires separate correction."
+  ]
+}
