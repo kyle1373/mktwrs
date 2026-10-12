@@ -1,0 +1,64 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "canonicalId": "original-2019-wr-row-15",
+  "time": "1:05.11",
+  "availability": {
+    "requestUrl": "https://archive.org/wayback/available?url=https%3A%2F%2Ftwitter.com%2F40pairs%2Fstatus%2F1187330385950064640&timestamp=20191024",
+    "httpStatus": 200,
+    "response": {
+      "url": "https://twitter.com/40pairs/status/1187330385950064640",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20191024120138/https://twitter.com/40pairs/status/1187330385950064640",
+          "timestamp": "20191024120138"
+        }
+      },
+      "timestamp": "20191024"
+    }
+  },
+  "retrieval": {
+    "url": "https://web.archive.org/web/20191024120138/https://twitter.com/40pairs/status/1187330385950064640",
+    "httpStatus": 200,
+    "path": "archive/halloween2019-nova10511-source-recovery/1187330385950064640-wayback.html.gz",
+    "sha256": "f5770be8435503f76890a129641bfe7f5a32bcbb21a66522870f417d06a00417"
+  },
+  "review": {
+    "reviewAudit": "archive/halloween2019-nova10511-original-wayback-post-source-recovery-20261011.json",
+    "postId": "1187330385950064640",
+    "originalUrl": "https://twitter.com/40pairs/status/1187330385950064640",
+    "archivedUrl": "https://web.archive.org/web/20191024120138/https://twitter.com/40pairs/status/1187330385950064640",
+    "postedAt": "2019-10-24T11:29:58Z",
+    "accountHandle": "40pairs",
+    "accountId": "1163985646353915904",
+    "displayName": "✩.*˚",
+    "imageToken": "EHo-sR6UwAAiat2",
+    "sourcePath": "archive/halloween2019-nova10511-source-recovery/1187330385950064640-wayback.html.gz",
+    "sourceSha256": "f5770be8435503f76890a129641bfe7f5a32bcbb21a66522870f417d06a00417",
+    "basis": "Archived original HTML exact tweet id/account attributes/data-time epoch and image URL token match canonical row15 reference.",
+    "freshPixelsReviewed": false,
+    "originalImageContentsVerified": false,
+    "exactRaceCompletionVerified": false
+  },
+  "textContent": "Photo-link-only post; no written total or lap claim in the tweet-text element.",
+  "validation": {
+    "postAndImageIdentifiersMatch": true,
+    "epochConvertedToUtc": "2019-10-24T11:29:58Z",
+    "achievementAndSubmissionClocksUnchanged": true
+  },
+  "limitations": [
+    "Archived HTML recovers original publication provenance and media reference; image pixels remain unreviewed.",
+    "Clock is photo-post publication, not exact race completion or Discord submission.",
+    "Existing Nova attribution retained from canonical evidence; source account metadata does not independently establish a new alias.",
+    "Original image recovery and tour source completeness remain open."
+  ],
+  "preservedEncoding": {
+    "format": "gzip",
+    "decompressedHtmlSha256": "f5770be8435503f76890a129641bfe7f5a32bcbb21a66522870f417d06a00417",
+    "compressedSha256": "d0ae72c04ce089645f957cfa6831c688e57a3fc49d570aefe3dfaa76d5584c22",
+    "originalBytesPreserved": true
+  }
+}
