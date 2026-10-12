@@ -171,17 +171,17 @@
       "id": "live-coverage-and-publication",
       "requirement": "Source coverage and published result verification",
       "status": "publication-build-in-progress-live-unverified",
-      "detail": "Railway is Building f204b703; deploy and post-deploy have not started. Latest evidence commit remains queued. Prior scoped live comparison still records publication gaps; no fresh live fidelity certification.",
+      "detail": "Live current-index comparison:269scoped rows;66matching,154different,49missing. Manifest remainsOctober8. Specific Railwaybuildf96552a7is active;deploy not started.",
       "evidence": "archive/halloween2019-forum-clock-and-latest-course-publication-comparison-20261011.json",
       "latestRailwayDashboardReview": "archive/halloween2019-post-recovery-citations-live-publication-comparison-20261012.json",
       "latestDeploymentReview": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
-      "latestReviewAudit": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
-      "latestDeploymentStatusAudit": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json",
+      "latestReviewAudit": "archive/halloween2019-current-live269-row-publication-gap-and-active-build-20261012.json",
+      "latestDeploymentStatusAudit": "archive/halloween2019-current-live269-row-publication-gap-and-active-build-20261012.json",
       "latestPushedCommit": "5bfab2e109466c1e5bc1b8629b4c90e9facb44ea",
       "latestDeploymentState": "Building",
       "railwayDeploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
       "additionalLatestQueuedCommitObservation": "archive/halloween2019-tome13463-live-successor-caption-and-current-deployment-review-20261012.json",
-      "latestFullScopedLiveDataComparison": "archive/halloween2019-post-recovery-citations-live-publication-comparison-20261012.json",
+      "latestFullScopedLiveDataComparison": "archive/halloween2019-current-live269-row-publication-gap-and-active-build-20261012.json",
       "latestSourceAccessFailureAudit": "archive/halloween2019-railway-original-source-access-failure-and-reselection-20261012.json",
       "sourceConnectionRepairVerified": false,
       "sourceRepairNextAction": {
@@ -193,18 +193,15 @@
       "completionProven": false,
       "nextAction": "Inspect actual source checkout/build outcome; after deployment success compare live scoped data against its exact source commit.",
       "latestPublicationObservation": {
-        "reviewAudit": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json",
-        "observedAt": "2026-10-12T07:46:41.490350+00:00",
         "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
         "commit": "f204b7039ceb3842377625394fb570468623d5a7",
         "status": "Building",
+        "buildElapsedObserved": "19:39",
         "initializationElapsed": "00:00",
-        "buildPhase": "Building the image...",
-        "buildElapsedObserved": "16:37",
+        "phase": "Building the image...",
         "deploy": "Not started",
         "network": "Not started",
         "postDeploy": "Not started",
-        "repositoryPermissionVerified": true,
         "sourceCheckoutSucceededVerified": false,
         "livePublicationVerified": false
       }
@@ -1090,20 +1087,18 @@
     }
   ],
   "latestPublicationObservation": {
-    "reviewAudit": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json",
-    "observedAt": "2026-10-12T07:46:41.490350+00:00",
     "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
     "commit": "f204b7039ceb3842377625394fb570468623d5a7",
     "status": "Building",
+    "buildElapsedObserved": "19:39",
     "initializationElapsed": "00:00",
-    "buildPhase": "Building the image...",
-    "buildElapsedObserved": "16:37",
+    "phase": "Building the image...",
     "deploy": "Not started",
     "network": "Not started",
     "postDeploy": "Not started",
-    "repositoryPermissionVerified": true,
     "sourceCheckoutSucceededVerified": false,
-    "livePublicationVerified": false
+    "livePublicationVerified": false,
+    "reviewAudit": "archive/halloween2019-current-live269-row-publication-gap-and-active-build-20261012.json"
   },
   "snapshots": [
     {
