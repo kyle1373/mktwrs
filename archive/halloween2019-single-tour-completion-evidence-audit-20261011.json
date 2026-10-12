@@ -423,10 +423,11 @@
       "requirement": "Video publication/share clock",
       "status": "unresolved",
       "evidence": "archive/halloween2019-unreal12848-video-clock-source-conflict-audit-20261011.json",
-      "detail": "Both preserved metadata timestamps and message-ID creation clock verified. Difference2964.714seconds; historical message content/first-viewable video time unresolved. Both source properties retained.",
+      "detail": "Both preserved metadata timestamps and message-ID creation clock verified. Difference2964.714seconds; historical message content/first-viewable video time unresolved. Both source properties retained. Candidate1:28.48is faster than selected1:31.08recording and must remain in the active footage-review queue despite day-one WR omission.",
       "latestFreshOriginalSourceReview": "archive/halloween2019-nbc12848-fresh-original-discord-clock-recheck-20261011.json",
-      "workPriority": "deferred-opening-intermediate-only-unless-needed-for-retained-best-or-recording",
-      "openingDayScopeReview": "archive/halloween2019-retained-record-work-queue-and-tome-tour-assignment-20261011.json"
+      "workPriority": "active-fastest-recording-candidate-review",
+      "openingDayScopeReview": "archive/halloween2019-retained-record-work-queue-and-tome-tour-assignment-20261011.json",
+      "recordingQueueCoverageCorrection": "archive/halloween2019-omitted-opening-recording-candidate-coverage-fix-20261012.json"
     },
     {
       "id": "live-coverage-and-publication",
@@ -933,5 +934,6 @@
   "latestConfirmedRailwayRepositoryAccessAndQueue": "archive/halloween2019-existing-railway-repository-access-confirmed-and-latest-queue-20261012.json",
   "latestReviewedResultReportClockPresentationFix": "archive/halloween2019-nova-result-report-clock-presentation-fix-20261012.json",
   "latestCarlosOct27NbcOriginalChannelContext": "archive/halloween2019-carlos-oct27-nbc-original-channel-context-reconciliation-20261012.json",
-  "latestEightCarlosOriginalScreenshotContexts": "archive/halloween2019-eight-carlos-original-screenshot-source-contexts-20261012.json"
+  "latestEightCarlosOriginalScreenshotContexts": "archive/halloween2019-eight-carlos-original-screenshot-source-contexts-20261012.json",
+  "latestOpeningRecordingCandidateCoverageCorrection": "archive/halloween2019-omitted-opening-recording-candidate-coverage-fix-20261012.json"
 }

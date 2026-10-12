@@ -141,17 +141,16 @@
       },
       "rows": [
         {
-          "id": "curated-original-2019-wr-row-32",
-          "playerId": "up",
-          "time": "1:26.83",
-          "video": "https://x.com/Fonsi_up2k/status/1187013758511648768",
+          "id": "896332037437403157",
+          "playerId": "astre",
+          "time": "1:25.70",
+          "video": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19",
           "referenceField": "video",
           "availability": "available",
           "scope": null,
           "verified": true,
           "publicCollections": [
-            "records",
-            "submissions"
+            "records"
           ],
           "freshFootageReviewed": false,
           "fullRaceContinuityCertified": false
@@ -173,21 +172,6 @@
           "fullRaceContinuityCertified": false
         },
         {
-          "id": "896332037437403157",
-          "playerId": "astre",
-          "time": "1:25.70",
-          "video": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19",
-          "referenceField": "video",
-          "availability": "available",
-          "scope": null,
-          "verified": true,
-          "publicCollections": [
-            "records"
-          ],
-          "freshFootageReviewed": false,
-          "fullRaceContinuityCertified": false
-        },
-        {
           "id": "curated-636853682620858388-opening2019-proof-review",
           "playerId": "unreal91",
           "time": "1:26.59",
@@ -203,15 +187,16 @@
           "fullRaceContinuityCertified": false
         },
         {
-          "id": "curated-637525126929449000-opening2019-proof-review",
-          "playerId": "meester-tweester",
-          "time": "1:31.08",
-          "video": "https://www.youtube.com/watch?v=jVra4OHC8ek",
+          "id": "curated-original-2019-wr-row-32",
+          "playerId": "up",
+          "time": "1:26.83",
+          "video": "https://x.com/Fonsi_up2k/status/1187013758511648768",
           "referenceField": "video",
-          "availability": null,
-          "scope": "full-run",
+          "availability": "available",
+          "scope": null,
           "verified": true,
           "publicCollections": [
+            "records",
             "submissions"
           ],
           "freshFootageReviewed": false,
@@ -263,6 +248,26 @@
           "fullRaceContinuityCertified": false
         },
         {
+          "id": "curated-original-2019-wr-row-29",
+          "playerId": "unreal91",
+          "time": "1:28.48",
+          "video": "https://www.youtube.com/watch?v=jeZCQCMQgPE",
+          "referenceField": "video",
+          "availability": "available",
+          "scope": "full-race-continuity-review-pending",
+          "verified": true,
+          "publicCollections": [
+            "submissions"
+          ],
+          "freshFootageReviewed": false,
+          "fullRaceContinuityCertified": false,
+          "omittedOpeningWrEntry": true,
+          "includeInRecordingReview": true,
+          "reason": "Run is faster than current1:31.08recording comparison; opening-day WR publication omission does not exclude recording candidates.",
+          "sourceScopeAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+          "queueCorrectionAudit": "archive/halloween2019-omitted-opening-recording-candidate-coverage-fix-20261012.json"
+        },
+        {
           "id": "curated-halloween2019-original-nbc-row-17",
           "playerId": "edd",
           "time": "1:29.96",
@@ -271,6 +276,21 @@
           "availability": null,
           "scope": null,
           "verified": null,
+          "publicCollections": [
+            "submissions"
+          ],
+          "freshFootageReviewed": false,
+          "fullRaceContinuityCertified": false
+        },
+        {
+          "id": "curated-637525126929449000-opening2019-proof-review",
+          "playerId": "meester-tweester",
+          "time": "1:31.08",
+          "video": "https://www.youtube.com/watch?v=jVra4OHC8ek",
+          "referenceField": "video",
+          "availability": null,
+          "scope": "full-run",
+          "verified": true,
           "publicCollections": [
             "submissions"
           ],
@@ -286,8 +306,10 @@
         "curated-halloween2019-original-nbc-row-12",
         "curated-halloween2019-original-nbc-row-17"
       ],
-      "openingOmittedIdsExcluded": true,
-      "fastestFullRecordingCertified": false
+      "openingOmittedIdsExcluded": false,
+      "fastestFullRecordingCertified": false,
+      "openingOmittedIdsPolicy": "Include omitted day-one video candidates when faster than the current selected completed recording; preserve omitted WR publication status.",
+      "latestOpeningCandidateCoverageCorrection": "archive/halloween2019-omitted-opening-recording-candidate-coverage-fix-20261012.json"
     },
     {
       "courseId": "gcn-dino-dino-jungle",

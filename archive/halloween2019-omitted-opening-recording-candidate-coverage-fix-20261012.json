@@ -1,0 +1,66 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCommit": "90c2c40758b207560841c97d288a539a92e7cd2a",
+  "problem": "Existing recording queue excluded all omitted opening-day WR IDs. That excluded Unreal1:28.48NBC despite it being faster than the selected1:31.08recording.",
+  "restoredCandidate": {
+    "id": "curated-original-2019-wr-row-29",
+    "playerId": "unreal91",
+    "time": "1:28.48",
+    "video": "https://www.youtube.com/watch?v=jeZCQCMQgPE",
+    "referenceField": "video",
+    "availability": "available",
+    "scope": "full-race-continuity-review-pending",
+    "verified": true,
+    "publicCollections": [
+      "submissions"
+    ],
+    "freshFootageReviewed": false,
+    "fullRaceContinuityCertified": false,
+    "omittedOpeningWrEntry": true,
+    "includeInRecordingReview": true,
+    "reason": "Run is faster than current1:31.08recording comparison; opening-day WR publication omission does not exclude recording candidates.",
+    "sourceScopeAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+    "queueCorrectionAudit": "archive/halloween2019-omitted-opening-recording-candidate-coverage-fix-20261012.json"
+  },
+  "priorSourceScopeReview": {
+    "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+    "priorVisualReview": "archive/early-original-channel-video-recovery.json",
+    "originalFile": "archive/video-backup-files/original-channel-jeZCQCMQgPE/original.mp4",
+    "bytes": 5989963,
+    "sha256": "829240ff27fbd680f1d5e34ccef9c165336f7d82bce8b4ed07780eb0c3d420de",
+    "priorResultAndLapReviewRetained": true,
+    "freshFootageReviewed": false,
+    "startToFinishContinuityVerified": false,
+    "status": "full-race-continuity-review-pending",
+    "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof."
+  },
+  "clockReview": {
+    "reviewAudit": "archive/halloween2019-unreal12848-video-clock-source-conflict-audit-20261011.json",
+    "discordMessageCreatedAt": "2019-10-23T14:13:24.286Z",
+    "platformMetadataTimestamp": "2019-10-23T15:02:49Z",
+    "platformMetadataField": "timestamp",
+    "platformReleaseTimestampAbsent": true,
+    "clockDifferenceSeconds": 2964.714,
+    "firstViewableVideoInstantUnresolved": true,
+    "historicalMessageEditContentsUnavailable": true,
+    "freshFootageReviewed": false,
+    "decision": "Preserve both observed clocks as separate source properties; neither alone certifies first public viewing instant."
+  },
+  "validation": {
+    "candidateExistsInCurrentPublicSubmissionArchive": true,
+    "omittedFromPublishedWrProgression": true,
+    "comparisonThresholdTime": "1:31.08",
+    "candidateTime": "1:28.48",
+    "differenceSeconds": 2.6,
+    "canonicalTimesOrFootageSelectionChanged": false
+  },
+  "limitations": [
+    "Pending full-race continuity remains pending. Result title, prior result review, file hash and duration do not prove start-to-finish footage.",
+    "Day-one publication rule still omits superseded WR entries and their exclusive profiles. Original submission archive remains preserved.",
+    "TC1:06.16and1:08.79are slower than selected1:04.85recording and may remain deferred unless another retained evidence dependency is found.",
+    "Original publication/share discrepancy retained without claiming first-viewable time. Halloween completeness remains unproven."
+  ]
+}
