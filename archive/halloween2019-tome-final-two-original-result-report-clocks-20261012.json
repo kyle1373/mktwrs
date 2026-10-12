@@ -1,0 +1,113 @@
+{
+  "reviewedAt": "2026-10-12T07:16:40.338417+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "resultReports": [
+    {
+      "reportedAt": "2019-10-31T20:49:07Z",
+      "source": {
+        "url": "https://twitter.com/tomegome_g/status/1190007816288796673",
+        "postId": "1190007816288796673",
+        "kind": "original-runner-image-and-written-lap-report"
+      },
+      "originalRunnerSubmission": true,
+      "acceptedSubmissionClockEstablished": false,
+      "caption": "1周目 47.21\n2周目 47.22\n満足、寝よ…",
+      "reviewAudit": "archive/halloween2019-tome-final-two-original-result-report-clocks-20261012.json",
+      "sourcePath": "archive/halloween2019-tomegome-source-recovery/1190007816288796673.json",
+      "sourceSha256": "e24d6dcc188e173747c0ae3c627fd4ac2486c4c87a1361ee27efb634c8972e70",
+      "freshPixelsReviewed": false,
+      "exactRaceTimestampKnown": false,
+      "writtenTotalExplicit": false
+    },
+    {
+      "reportedAt": "2019-10-31T21:22:32Z",
+      "source": {
+        "url": "https://twitter.com/tomegome_g/status/1190016227671826433",
+        "postId": "1190016227671826433",
+        "kind": "original-runner-written-result-report-with-video"
+      },
+      "originalRunnerSubmission": true,
+      "acceptedSubmissionClockEstablished": false,
+      "caption": "ディノディノジャングルTA\n1周目 47.21\n2周目 47.22\n1:34.43\n動画載せときます",
+      "reviewAudit": "archive/halloween2019-tome-final-two-original-result-report-clocks-20261012.json",
+      "sourcePath": "archive/halloween2019-tomegome-source-recovery/1190016227671826433.json",
+      "sourceSha256": "18c12c3bca303f821e394ccad8493fbde09b1b2605a716af89398d537a587f7c",
+      "freshPixelsReviewed": false,
+      "exactRaceTimestampKnown": false,
+      "writtenTotalExplicit": true
+    }
+  ],
+  "canonicalId": "639765459633307668-tomegome",
+  "reportedLaps": [
+    "47.21",
+    "47.22"
+  ],
+  "sum": "1:34.43",
+  "limitations": [
+    "Earlier caption reports only laps; total is their exact sum and the previously associated result image. Caption is not rewritten to imply literal total.",
+    "Later caption explicitly states13443andvideo; report and video publication share one clock.",
+    "Neither clock establishes finish instant, full-race continuity or dates of earlier previous bests. Existing submittedAt and achievement day retained."
+  ],
+  "validation": {
+    "generatorSucceeded": true,
+    "scopedRows": 269,
+    "fidelity": {
+      "summary": [
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "records",
+          "publicRows": 25,
+          "generatedRows": 25,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "submissions",
+          "publicRows": 113,
+          "generatedRows": 113,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "records",
+          "publicRows": 14,
+          "generatedRows": 14,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "submissions",
+          "publicRows": 63,
+          "generatedRows": 63,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "records",
+          "publicRows": 22,
+          "generatedRows": 22,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "submissions",
+          "publicRows": 32,
+          "generatedRows": 32,
+          "sameIds": true,
+          "aggregateMatches": true
+        }
+      ],
+      "differences": []
+    },
+    "bothOriginalReportClocksExposed": true,
+    "videoPublicationUnchanged": true,
+    "wr13416ComparisonRetained": true
+  }
+}
