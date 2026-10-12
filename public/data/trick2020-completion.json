@@ -1,0 +1,81 @@
+{
+  "tourId": "tour-16",
+  "tour": "Trick Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-04-22T06:00:00Z",
+    "endExclusive": "2020-05-06T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-neo-bowser-city-r",
+      "archivedWr": "1:23.88",
+      "fastestDocumentedAvailableRecording": "1:23.88",
+      "recordingPlayerId": "kazuo",
+      "tiedWrPlayerIds": [
+        "kazuo",
+        "nu11"
+      ]
+    },
+    {
+      "id": "snes-vanilla-lake-1",
+      "archivedWr": "0:34.62",
+      "fastestDocumentedAvailableRecording": "0:34.62",
+      "recordingPlayerId": "tomegome",
+      "originalVideoPublishedAt": "2020-05-03T06:32:41Z"
+    }
+  ],
+  "evidence": [
+    "archive/trick2020-original-tied-wr-discussion-practical-review-20261012.json",
+    "archive/trick2020-preserved-video-integrity.json",
+    "archive/trick2020-kazuo12413-wr-video-verification-20261005.json",
+    "archive/trick2020-three-recording-source-publication-reconciliation-20261011.json",
+    "archive/december2021-last-six-external-video-reconciliation-20261009.json",
+    "archive/trick2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/trick2020-selected-recording-r2-preservation-20261012.json",
+    "archive/trick2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/trick-2020-review-progress.json",
+    "discussionMessagesCaptured": 8488,
+    "discussionFullyRead": true,
+    "serverAttachmentsReviewed": 827,
+    "externalImagesReviewed": 7,
+    "basis": "Prior local review ledger retained; not freshly repeated or new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 258
+  },
+  "remainingLimitations": [
+    "Prior completed-race review identifies both final WR totals; fresh uninterrupted-race certification remains absent.",
+    "Some earlier rival chronology and exact race timestamps remain unresolved. Day-one fastest result policy applied; raw omitted rows remain preserved.",
+    "Vanilla originalMay2020 video recovered throughDecember2021 repost; repost is not a new record date.",
+    "Deleted/private/global source material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      118,
+      56
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-neo-bowser-city-r",
+        "reviewedRows": 173,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-vanilla-lake-1",
+        "reviewedRows": 166,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-17"
+}
