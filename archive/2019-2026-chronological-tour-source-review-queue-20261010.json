@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 7
+    "practicallyCompletedTours": 8
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -721,7 +721,7 @@
       "endDate": "2020-02-12",
       "tourSource": "https://www.mariowiki.com/Valentine%27s_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "n64-koopa-troopa-beach",
@@ -767,7 +767,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "practicalCompletionEvidence": "archive/valentines2020-practical-tour-completion-20261012.json",
+      "practicallyComplete": true
     },
     {
       "tourId": "tour-11",
@@ -10753,7 +10755,7 @@
     "advanceOnlyAfterEvidenceReportProvesCompletion": true,
     "activeTourId": "tour-3"
   },
-  "activeTourCompletionEvidenceAudit": null,
+  "activeTourCompletionEvidenceAudit": "archive/valentines2020-practical-tour-completion-20261012.json",
   "currentProofPolicy": {
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true

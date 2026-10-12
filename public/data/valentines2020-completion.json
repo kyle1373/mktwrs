@@ -1,0 +1,77 @@
+{
+  "tourId": "tour-10",
+  "tour": "Valentine’s Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; preserved reviews accepted with chronology and recording gaps stated.",
+  "exhaustiveHistoryProven": false,
+  "sourceCommit": "43c012e9608c095fa61c0bb477e5b3feb2d90887",
+  "window": {
+    "start": "2020-01-29T06:00:00Z",
+    "endExclusive": "2020-02-12T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "n64-koopa-troopa-beach",
+      "archivedWr": "1:13.83",
+      "tiedPlayers": [
+        "tomegome",
+        "nu11"
+      ],
+      "fastestDocumentedAvailableRecording": "1:13.86",
+      "recordingPlayerId": "tomegome",
+      "originalResultPost": "2020-01-29T14:57:42.000Z"
+    },
+    {
+      "id": "3ds-toad-circuit-r",
+      "archivedWr": "1:03.09",
+      "fastestDocumentedAvailableRecording": "1:03.16",
+      "recordingPlayerId": "tomegome",
+      "originalResultPost": "2020-02-02T03:59:37.000Z"
+    }
+  ],
+  "evidence": [
+    "archive/valentines-2020-reconciliation.json",
+    "archive/valentines-2020-context-reconciliation.json",
+    "archive/valentines-2020-server-image-review.json",
+    "archive/valentines2020-jan29-feb1-ledger-reconciliation.json",
+    "archive/february2020-feb1-12-ledger-reconciliation.json",
+    "archive/valentines2020-live-original-discussion-practical-review-20261012.json",
+    "archive/valentines2020-two-selected-recording-r2-preservation-20261012.json",
+    "archive/valentines2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "coverage": {
+    "priorDiscussionWindows": 7,
+    "priorDiscussionMessagesWithBoundaries": 120,
+    "priorServerImageSearchMessages": 257,
+    "priorServerImagePagesRead": 11,
+    "priorServerAttachmentImagesReviewed": 267,
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 37
+  },
+  "remainingLimitations": [
+    "Final beach1:13.83 tied records retain unknown original dates and individual proofs.1:13.86 recording remains separate, with community report clock separate from original publication.",
+    "Opening WR exchange order, deleted parent posts and previous-best race dates remain unresolved. Documentary results retained outside certified succession.",
+    "Kaguya31.34 lap reference cannot establish a full race total. Separate1:14:67 video title retained as pending reference, not verified result or runner.",
+    "Prior originals and media reviews retained without fresh uninterrupted-race certification.",
+    "Saved source coverage does not prove deleted/private/global material was recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 2,
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "n64-koopa-troopa-beach",
+        "reviewedRows": 32,
+        "differences": 0
+      },
+      {
+        "courseId": "3ds-toad-circuit-r",
+        "reviewedRows": 12,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-11"
+}
