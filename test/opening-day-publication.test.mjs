@@ -16,3 +16,18 @@ test('exact opening day uses 06 UTC rollover and other tours stay untouched',()=
  assert.deepEqual(openingDayPublication([course],[]).courses[0].records.map(r=>r.id),['best','next']);
  assert.equal(openingDayPublication([{...course,appearances:[{tourId:'tour-4'}]}],[]).courses[0].records.length,3);
 });
+
+
+test('actual publication omits opening-only profile routes while supporting evidence can retain names', async()=>{
+ const {routeData,publicationArchive,archive}=await import('../lib/data.mjs');
+ const a=publicationArchive();
+ assert.ok(a.omittedRecordIds.length>0);
+ for(const id of a.omittedProfileIds){
+   assert.equal(routeData(['player',id]).data,null);
+   assert.ok(archive().players.some(p=>p.id===id));
+   assert.ok(!routeData(['players']).data.some(p=>p.id===id));
+ }
+ for(const course of a.courses){
+   assert.ok(!course.records.some(r=>a.omittedRecordIds.includes(r.id)));
+ }
+});

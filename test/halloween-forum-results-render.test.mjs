@@ -17,13 +17,13 @@ const filename=new URL('../app/forum-results-render.cjs',import.meta.url).pathna
 const compiled=new Module(filename);
 compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
 compiled._compile(code,filename);
-test('all recovered forum results cross projection with visible player identities and source clocks',()=>{
+test('published supporting results retain identities and clocks after opening-day omissions',()=>{
  let total=0;
  for(const cid of ['3ds-toad-circuit','3ds-neo-bowser-city','gcn-dino-dino-jungle']){
   const page=routeData(['course',cid]);const results=page.data.halloweenSupportingResults;total+=results.length;
   for(const r of results){assert.ok(page.players.some(p=>p.id===r.playerId));assert.ok(r.source.url.startsWith('https://'));if(r.id.includes("forum-halloween2019")) assert.ok(r.forumSourceTimes.length);}
  }
- assert.equal(total,45);
+ assert.ok(total > 0 && total < 45);
 });
 test('actual supporting results render as reports with unknown race days',()=>{
  const page=routeData(['course','3ds-toad-circuit']);
@@ -36,12 +36,12 @@ test('unrelated track with no forum results renders no section',()=>{
  assert.equal(renderToStaticMarkup(React.createElement(compiled.exports.HalloweenSupportingResults,{results:[],players:[]})),'');
 });
 
-test('original leaderboard results expose preserved video references and restored social sources',()=>{
+test('opening-day supporting row is omitted but original video and social evidence remain archived',async()=>{
+ const {archive}=await import('../lib/data.mjs');
  const page=routeData(['course','3ds-neo-bowser-city']);
- const r=page.data.halloweenSupportingResults.find(r=>r.id==='curated-halloween2019-original-nbc-row-17');
+ const id='curated-halloween2019-original-nbc-row-17';
+ assert.ok(!page.data.halloweenSupportingResults.some(r=>r.id===id));
+ const r=archive().courses.find(c=>c.id==='3ds-neo-bowser-city').submissions.find(r=>r.id===id);
  assert.equal(r.videoReference,'https://youtu.be/q12wOiA8qlQ?t=101');
- assert.ok(r.additionalSourceLinks.some(s=>s.url.includes('1187141321946996736')));
- const html=renderToStaticMarkup(React.createElement(compiled.exports.HalloweenSupportingResults,{results:[r],players:page.players}));
- assert.match(html,/1187141321946996736/);assert.match(html,/Edd/);
- assert.match(html,/Documented day/);
+ assert.ok(r.additionalSources.some(s=>s.url.includes('1187141321946996736')));
 });

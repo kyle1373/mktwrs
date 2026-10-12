@@ -151,7 +151,7 @@ function BackupProof({ r }) {
 }
 function Player({ id, players }) {
   const p = players.find((p) => p.id === id);
-  return p ? <SiteLink href={`/player/${p.id}`}>{p.name}</SiteLink> : "—";
+  return p ? (p.hasProfile === false ? p.name : <SiteLink href={`/player/${p.id}`}>{p.name}</SiteLink>) : "—";
 }
 function Proof({ r }) {
   const url = r.proofImageLocal || r.proofImage;

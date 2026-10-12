@@ -1,0 +1,33 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "a02671eb",
+  "change": "Preserve supporting-evidence display names as plain text when opening-only WR profiles are omitted.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "isolatedBuild": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "pages": 910,
+    "root": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-halloween-build-9qgz6kic"
+  },
+  "renderedChecks": {
+    "panda": {
+      "courseLinkAbsent": true,
+      "sitemapAbsent": true
+    },
+    "meester-tweester": {
+      "courseLinkAbsent": true,
+      "sitemapAbsent": true
+    }
+  },
+  "limitations": [
+    "Profile omission applies to superseded Halloween opening-day results; other players and later-day records retained.",
+    "Original evidence remains in downloadable data.",
+    "Build verified locally in isolated snapshot; live publication not verified.",
+    "Halloween source reconciliation and full-recording coverage remain incomplete."
+  ]
+}
