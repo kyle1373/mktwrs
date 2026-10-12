@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {openingDayPublication} from '../lib/opening-day.mjs';
+import {openingDayPublication,isHalloween2019OpeningDay} from '../lib/opening-day.mjs';
 test('opening day keeps the fastest tie and later history without creating profiles from superseded opening results',()=>{
  const row=(id,playerId,timeCs,achievedAt)=>({id,playerId,timeCs,achievedAt});
  const records=[row('early','early',7000,'2019-10-23'),row('best','best',6500,'2019-10-23'),row('tie','tie',6500,'2019-10-23'),row('later','later',6400,'2019-10-24'),{...row('unknown','unknown',6600,null),dateUnresolved:true}];
@@ -30,4 +30,13 @@ test('actual publication omits opening-only profile routes while supporting evid
  for(const course of a.courses){
    assert.ok(!course.records.some(r=>a.omittedRecordIds.includes(r.id)));
  }
+});
+
+test('supporting results and WR history share exact opening-day boundary without using post clocks',()=>{
+ assert.equal(isHalloween2019OpeningDay({achievedAt:'2019-10-23T05:59:59Z'}),false);
+ assert.equal(isHalloween2019OpeningDay({achievedAt:'2019-10-23T06:00:00Z'}),true);
+ assert.equal(isHalloween2019OpeningDay({achievedAt:'2019-10-24T05:59:59Z'}),true);
+ assert.equal(isHalloween2019OpeningDay({achievedAt:'2019-10-24T06:00:00Z'}),false);
+ assert.equal(isHalloween2019OpeningDay({achievedAt:'2019-10-23',dateUnresolved:true}),false);
+ assert.equal(isHalloween2019OpeningDay({submittedAt:'2019-10-23T12:00:00Z'}),false);
 });

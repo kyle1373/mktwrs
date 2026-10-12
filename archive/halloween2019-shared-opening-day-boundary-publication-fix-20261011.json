@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "problem": "Supporting result omission used calendar midnight while WR publication used 06UTC tour rollover.",
+  "change": "One shared predicate for achievement/record date classification; unresolved race dates and submission-only clocks cannot qualify.",
+  "openingInterval": {
+    "inclusive": "2019-10-23T06:00:00Z",
+    "exclusive": "2019-10-24T06:00:00Z"
+  },
+  "validation": {
+    "testsPassed": 8,
+    "testsFailed": 0,
+    "currentSupportingCounts": {
+      "3ds-toad-circuit": 19,
+      "3ds-neo-bowser-city": 20,
+      "gcn-dino-dino-jungle": 1
+    }
+  },
+  "sourceEvidenceUnchanged": true,
+  "livePublicationVerified": false
+}
