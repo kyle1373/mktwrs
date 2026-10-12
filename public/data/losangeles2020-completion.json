@@ -1,0 +1,60 @@
+{
+  "tourId": "tour-27",
+  "tour": "Los Angeles Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-09-23T06:00:00Z",
+    "endExclusive": "2020-10-07T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "ds-dk-pass",
+      "archivedWr": "1:31.56",
+      "fastestDocumentedAvailableRecording": "1:31.56",
+      "recordingPlayerId": "tomegome"
+    }
+  ],
+  "evidence": [
+    "archive/losangeles2020-original-results-practical-review-20261012.json",
+    "archive/los-angeles-2020-reconciliation.json",
+    "archive/losangeles2020-video-preservation.json",
+    "archive/losangeles2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/losangeles2020-selected-recording-r2-preservation-20261012.json",
+    "archive/losangeles2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/losangeles2020-discussion-review-progress.json",
+    "discussionMessagesRead": 2520,
+    "preservedImagesVisuallyReviewed": 170,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 9
+  },
+  "remainingLimitations": [
+    "Final DK Pass WR recording preserved; exact race-completion instant and earlier previous-best chronology remain unknown.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 1,
+    "documentedResultsRows": [
+      1
+    ],
+    "videoRangeChecksPassed": 1,
+    "generationFidelity": [
+      {
+        "courseId": "ds-dk-pass",
+        "reviewedRows": 17,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-28"
+}
