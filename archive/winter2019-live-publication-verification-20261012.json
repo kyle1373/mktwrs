@@ -1,0 +1,84 @@
+{
+  "tourId": "tour-5",
+  "checkedAt": "2026-10-12",
+  "sourceCommit": "d59a523e8a5e17fcb581551ec0c6160bfac5f381",
+  "liveCompletionVerified": true,
+  "deploymentId": "4fcd7046-a094-46e4-88fb-8b59cf6c2b53",
+  "deploymentStatus": "serving-verified-content",
+  "recordingRangeChecks": {
+    "count": 3,
+    "passed": 3,
+    "httpStatus": 206,
+    "requestedBytes": 1024,
+    "receivedBytes": 1024
+  },
+  "note": "Practical Winter completion with documented source gaps is live. London may proceed; the full 2019\u20132026 goal remains incomplete.",
+  "liveCompletionEqualsCommitted": true,
+  "courseChecks": [
+    {
+      "courseId": "snes-choco-island-2",
+      "liveWinterSectionsVerified": true,
+      "preservedVideoLinkVerified": true
+    },
+    {
+      "courseId": "snes-mario-circuit-3",
+      "liveWinterSectionsVerified": true,
+      "preservedVideoLinkVerified": true
+    },
+    {
+      "courseId": "3ds-rock-rock-mountain",
+      "liveWinterSectionsVerified": true,
+      "preservedVideoLinkVerified": true
+    }
+  ],
+  "generationFidelity": [
+    {
+      "courseId": "snes-choco-island-2",
+      "rows": 10,
+      "differences": 0
+    },
+    {
+      "courseId": "snes-mario-circuit-3",
+      "rows": 22,
+      "differences": 0
+    },
+    {
+      "courseId": "3ds-rock-rock-mountain",
+      "rows": 22,
+      "differences": 0
+    }
+  ],
+  "browserInteractionChecks": [
+    "Choco Island 2 clocks expanded: original result/video publication/share November 20 10:32:52 UTC; later Discord share separate.",
+    "Documented-results disclosure expanded; video 0:50.52 and written personal best 0:50.36 separate; source and image proof controls present."
+  ],
+  "videoRangeChecks": [
+    {
+      "url": "https://media.mktwrs.com/assets/video/winter2019-choco-island-2-04972-979a913894c6.mp4",
+      "rangeStatus": 206,
+      "bytes": 1024,
+      "passed": true
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/winter2019-mario-circuit-3-10737-b84faac500f7.mp4",
+      "rangeStatus": 206,
+      "bytes": 1024,
+      "passed": true
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/winter2019-rock-rock-mountain-15193-a0188ddb3661.mp4",
+      "rangeStatus": 206,
+      "bytes": 1024,
+      "passed": true
+    }
+  ],
+  "imageProofChecks": {
+    "count": 37,
+    "passed": 37,
+    "report": "archive/winter2019-r2-proof-image-link-check-20261012.json"
+  },
+  "validation": {
+    "focusedTestsPassed": 21,
+    "componentRenderChecksPassed": 3
+  }
+}
