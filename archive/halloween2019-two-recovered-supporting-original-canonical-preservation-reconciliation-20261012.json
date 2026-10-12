@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-10-12T03:24:44.055599+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourcePreservationAudit": "archive/halloween2019-edd-reddit-original-preservation-and-greatsterz-recovery-disposition-20261012.json",
+  "originalTitleAudit": "archive/halloween2019-reddit12741-original-title-and-greatsterz12690-rival-context-20261012.json",
+  "canonicalIds": [
+    "halloween2019-original-nbc-row-17",
+    "halloween2019-original-nbc-row-12"
+  ],
+  "changes": [
+    "Map downloaded exact original file paths, byte lengths and hashes into canonical submissions and individual/aggregate public data.",
+    "Carry the original Reddit title result and explicit unresolved author attribution.",
+    "Refine Reddit post publication clock from integer extractor timestamp to original DOM milliseconds; preserve the older extractor value as provenance."
+  ],
+  "validation": {
+    "resultLapsIdentityRaceDateSubmissionClockAndClassificationUnchanged": true,
+    "noUnverifiedVideoPromotion": true,
+    "generatorMatchesBothPublicProjections": true,
+    "focusedRecordingAndOpeningTestsPassed": 11,
+    "focusedTestsFailed": 0
+  },
+  "limitations": [
+    "Local file preservation is not a remote backup or visual content verification.",
+    "Original Reddit title is text corroboration, not independent proof of Nateden identity or displayed race total.",
+    "Original publication timestamp remains separate from achievement and submission times.",
+    "No WR or fastest-recording selection changed; live publication remains pending."
+  ]
+}
