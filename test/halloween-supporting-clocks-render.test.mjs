@@ -61,6 +61,20 @@ test('pending faster recordings retain source-total conflict and unavailable-vid
  assert.ok(toadHtml.includes('G1_Z2_9JICA'));
 });
 
+test('Nova recovered source-post clocks stay separate from unverified image contents',()=>{
+ const c=routeData(['course','3ds-toad-circuit']).data;
+ for(const [id,clock] of [['curated-original-2019-wr-row-15','2019-10-24T11:29:58Z'],['curated-original-2019-wr-row-17','2019-10-24T16:27:36Z']]){
+  const r=c.records.find(r=>r.id===id);
+  assert.equal(r.recoveredSourcePost.postedAt,clock);
+  assert.equal(r.recoveredSourcePost.resultContentsVerified,false);
+  const html=render([r]);
+  assert.match(html,/Original source posted:/);
+  assert.match(html,/image contents and result total remain unverified/);
+  assert.ok(html.includes(clock.replace('T',' ').replace('Z',' UTC')));
+  assert.doesNotMatch(html,/Submitted:/);
+ }
+});
+
 test('supporting table renders actual preserved forum clocks without invented submission times',()=>{
  const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
  const row=rows.find(r=>r.id==='curated-forum-halloween2019-samh-reply-31-10575');
