@@ -1,0 +1,109 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "26190ab0",
+  "rows": [
+    {
+      "id": "curated-halloween2019-menu-638495899164737551",
+      "courseId": "3ds-neo-bowser-city",
+      "time": "1:32.91",
+      "submittedAt": "2019-10-28T21:54:45.314Z",
+      "observedAt": "2019-10-28T21:54:45.314Z",
+      "proofUploadedAt": "2019-10-28T21:54:45.041Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/638495900309651466",
+        "channel": "screenshots",
+        "messageId": "638495900309651466"
+      },
+      "canonicalMetadataRestored": {
+        "publicationRecoveryReview": "archive/early2019-2020-four-screenshot-results-and-wins-previous-best-publication-restoration-20261010.json"
+      }
+    },
+    {
+      "id": "curated-halloween2019-menu-641292865829470238",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:47.34",
+      "submittedAt": "2019-11-05T15:08:53.859Z",
+      "observedAt": "2019-11-05T15:08:53.859Z",
+      "proofUploadedAt": "2019-11-05T15:08:53.859Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/641292865829470239",
+        "channel": "screenshots",
+        "messageId": "641292865829470239"
+      },
+      "canonicalMetadataRestored": {
+        "publicationRecoveryReview": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+        "proofSourceReview": {
+          "audit": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+          "freshPixelsReviewed": false,
+          "priorVisualAssessmentCarried": true,
+          "runnerIdentity": "unknown-per-source",
+          "achievementDateEstablished": false,
+          "sourceChannelFreshlyVerified": false
+        },
+        "notesToPreserve": [
+          "Publication restoration carries the preserved screenshot assessment; no fresh pixel verification. Discord clock records when the screenshot was posted, not when the race was achieved. No completed-race video is established for this entry."
+        ]
+      }
+    },
+    {
+      "id": "curated-halloween2019-menu-641295432021966869",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:39.66",
+      "submittedAt": "2019-11-05T15:19:05.815Z",
+      "observedAt": "2019-11-05T15:19:05.815Z",
+      "proofUploadedAt": "2019-11-05T15:19:05.687Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/630496570869022740/641295432559099925",
+        "channel": "screenshots",
+        "messageId": "641295432559099925"
+      },
+      "canonicalMetadataRestored": {
+        "publicationRecoveryReview": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+        "proofSourceReview": {
+          "audit": "archive/halloween2019-two-unknown-runner-support-publication-restoration-20261011.json",
+          "freshPixelsReviewed": false,
+          "priorVisualAssessmentCarried": true,
+          "runnerIdentity": "unknown-per-source",
+          "achievementDateEstablished": false,
+          "sourceChannelFreshlyVerified": false
+        },
+        "notesToPreserve": [
+          "Publication restoration carries the preserved screenshot assessment; no fresh pixel verification. Discord clock records when the screenshot was posted, not when the race was achieved. No completed-race video is established for this entry."
+        ]
+      }
+    }
+  ],
+  "change": "Preserve existing publication-review provenance in canonical inputs; expose Discord attachment upload clocks consistently in individual and aggregate submissions.",
+  "clockBasis": "Discord attachment snowflake decoded by scripts/import-sources.mjs attachmentDate. Upload clock describes attachment creation, not race achievement or source message publication.",
+  "limitations": [
+    "Existing source posting clocks retained without new achievement dates.",
+    "Unknown runner identities remain separate; no player merge or WR promotion.",
+    "Prior image assessments and freshPixelsReviewed=false metadata carried; no new pixel or footage review.",
+    "No source channel fresh verification or live publication verification."
+  ],
+  "validation": {
+    "independentSnowflakeDecodeMatches": true,
+    "generatedRows": [
+      {
+        "id": "curated-halloween2019-menu-638495899164737551",
+        "clockMatches": true,
+        "publicationReviewMatches": true,
+        "proofReviewMatches": true
+      },
+      {
+        "id": "curated-halloween2019-menu-641292865829470238",
+        "clockMatches": true,
+        "publicationReviewMatches": true,
+        "proofReviewMatches": true
+      },
+      {
+        "id": "curated-halloween2019-menu-641295432021966869",
+        "clockMatches": true,
+        "publicationReviewMatches": true,
+        "proofReviewMatches": true
+      }
+    ]
+  }
+}
