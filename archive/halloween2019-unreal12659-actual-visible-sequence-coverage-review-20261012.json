@@ -1,0 +1,84 @@
+{
+  "reviewedAt": "2026-10-12T04:24:54.869925+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "canonicalId": "636853682620858388-opening2019-proof-review",
+  "review": {
+    "reviewAudit": "archive/halloween2019-unreal12659-actual-visible-sequence-coverage-review-20261012.json",
+    "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
+    "bytes": 4196712,
+    "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
+    "freshFootageReviewed": true,
+    "startToFinishContinuityVerified": true,
+    "status": "full-race-coverage-reviewed",
+    "basis": "Actual visible one-second contact sheets cover GO through first lap, second lap and cleared finish; separate final frame shows1:26.59. Continuous timer and matching course/driver across sampled sequence; review is sampled rather than every encoded frame.",
+    "samplingIntervalSeconds": 1,
+    "scope": "full-run",
+    "priorUnsupportedClaimWithdrawal": "archive/halloween2019-unreal12659-unsupported-visible-coverage-withdrawal-20261012.json"
+  },
+  "observations": [
+    {
+      "mediaSeconds": 7,
+      "event": "GO at start line, Bowser Jr on Neo Bowser City."
+    },
+    {
+      "mediaSecondsRange": [
+        8,
+        50
+      ],
+      "event": "First-lap timer progresses from1.14 to43.13 through continuous matching track sequence."
+    },
+    {
+      "mediaSeconds": 51,
+      "event": "Lap2/2 overlay; timer43.33."
+    },
+    {
+      "mediaSecondsRange": [
+        52,
+        93
+      ],
+      "event": "Second-lap timer progresses through matching second traversal to1:26.14 near finish."
+    },
+    {
+      "mediaSeconds": 94,
+      "event": "CLEARED overlay at finish; frozen total1:26.59."
+    },
+    {
+      "file": "result.png",
+      "event": "Full result frame confirms1:26.59 and lap2/2."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-0.jpg",
+      "sha256": "3fadcdce1ed00f433dad6dcb1a00cb8b1ecd87037088cc8a7dd230b36831ea66"
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-1.jpg",
+      "sha256": "e12a2646391cdd7bbbcec0cda33ad5bc435c1608ff7d95f7f9dc366ccb1a1b81"
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-2.jpg",
+      "sha256": "c0eeabdfdd396d6a5bc4fc014e086af1a0fc879475453e8f58074d987397e561"
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-3.jpg",
+      "sha256": "ac7fdf4c5aa3cf077e28548d0a768debdc73c583bc48c501cc5a0fd8ff1d81ad"
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/result.png",
+      "sha256": "edc4f53ad3aab12e6c376697d08d1cfa69480640bbda4867b72c3a1561409cea"
+    }
+  ],
+  "limitations": [
+    "Actual pixels were present for these five displayed artifacts; earlier omitted-image claims remain withdrawn.",
+    "One-second sampling verifies observed coverage and clock progression; it is not a frame-by-frame forensic edit analysis.",
+    "Lap2 43.26 remains arithmetic from12659minus4333; no new lap2 overlay claim.",
+    "WR status, achievement date, source/share/publication clocks and lap totals unchanged. Faster Up and Astre recordings still need their coverage review before the fastest full recording can be certified."
+  ],
+  "validation": {
+    "relevantTestsPassed": 11,
+    "relevantTestsFailed": 0,
+    "scope": "Recording comparison and opening policy; sampled footage observations recorded separately."
+  }
+}
