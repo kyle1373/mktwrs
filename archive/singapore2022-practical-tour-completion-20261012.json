@@ -1,0 +1,83 @@
+{
+  "tourId": "tour-61",
+  "tour": "Singapore Tour",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2022-01-12T06:00:00Z",
+    "endExclusive": "2022-01-26T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "singapore-speedway",
+      "archivedWr": "1:09.43",
+      "fastestDocumentedAvailableRecording": "1:09.43",
+      "recordingPlayerId": "sucha",
+      "originalVideoShareDateUnknown": true
+    },
+    {
+      "id": "ds-waluigi-pinball-r",
+      "archivedWr": "1:45.47",
+      "fastestDocumentedAvailableRecording": "1:45.56",
+      "recordingPlayerId": "nu11",
+      "finalWrRecordingUnavailable": true
+    }
+  ],
+  "evidence": [
+    "archive/singapore2022-original-results-practical-review-20261012.json",
+    "archive/singapore-2022-reconciliation.json",
+    "archive/singapore2022-selected-recording-clocks-and-scope-20261012.json",
+    "archive/singapore2022-selected-recording-r2-preservation-20261012.json",
+    "archive/singapore2022-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/singapore-2022-reconciliation.json",
+    "coverage": {
+      "freshSubmissionWindows": 9,
+      "freshMessagesIncludingBoundaryOverlap": 150,
+      "recoveredResultImages": 20,
+      "recoveredWRImages": 6,
+      "originalVideosAndClipsPreserved": 12,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 27
+  },
+  "remainingLimitations": [
+    "Twenty result images were absent from the original capture. All were recovered and visually reviewed; six restore intermediate WRs. Earlier and later tours require the same capture audit.",
+    "Nine visible previous-best leads have unresolved dates and are excluded from progression.",
+    "The January 12 Wins route short PnKptyLllnw is unavailable.",
+    "Final standings contain a 53.34 typo for Nu11 lap 2; the original video and submission establish 53.24.",
+    "This does not certify that every historical WR was posted or that every source across all years has been reviewed.",
+    "Two selected recordings preserved on R2; N final WR video not recovered.",
+    "Sucha original video share clock unresolved; lap-caption post not treated as video share.",
+    "Prior footage review retained without fresh uninterrupted certification."
+  ],
+  "validation": {
+    "productionBuildPages": 894,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      4,
+      0
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "singapore-speedway",
+        "reviewedRows": 56,
+        "differences": 0
+      },
+      {
+        "courseId": "ds-waluigi-pinball-r",
+        "reviewedRows": 12,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-62"
+}
