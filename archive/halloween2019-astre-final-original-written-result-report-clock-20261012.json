@@ -1,0 +1,94 @@
+{
+  "reviewedAt": "2026-10-12T07:15:05.345393+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "resultReport": {
+    "reportedAt": "2019-11-05T22:14:22Z",
+    "source": {
+      "url": "https://twitter.com/Astre_HD/status/1191841211063164929",
+      "postId": "1191841211063164929",
+      "kind": "original-runner-written-result-report-with-video"
+    },
+    "originalRunnerSubmission": true,
+    "acceptedSubmissionClockEstablished": false,
+    "caption": "Neo Bowser City Time Trial #MarioKartTour \nLap 1 : 42.89\nLap 2 : 42.81\n1:25.70",
+    "reviewAudit": "archive/halloween2019-astre-final-original-written-result-report-clock-20261012.json",
+    "sourcePath": "archive/halloween2019-astre-source-recovery/1191841211063164929.json",
+    "sourceSha256": "0ec2e86a3fa7f4186e51f868e472ca67ff1c11fa940034b87fde1aa8dc166eb5",
+    "freshPixelsReviewed": false,
+    "exactRaceTimestampKnown": false
+  },
+  "writtenTotal": "1:25.70",
+  "writtenLaps": [
+    "42.89",
+    "42.81"
+  ],
+  "splitSumMatches": true,
+  "clockBasis": "Preserved exact original post created_timestamp; same post also published the video.",
+  "limitations": [
+    "Adds source-specific report clock without changing retained submittedAt, achievement day or video publication clock.",
+    "Written laps are explicit original caption, not newly inspected pixels. No full-race continuity certified.",
+    "Hugo reported race clock remains separate minute-precision claim; original post does not state finish instant."
+  ],
+  "validation": {
+    "generatorSucceeded": true,
+    "scopedRows": 269,
+    "fidelity": {
+      "summary": [
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "records",
+          "publicRows": 25,
+          "generatedRows": 25,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "submissions",
+          "publicRows": 113,
+          "generatedRows": 113,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "records",
+          "publicRows": 14,
+          "generatedRows": 14,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "submissions",
+          "publicRows": 63,
+          "generatedRows": 63,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "records",
+          "publicRows": 22,
+          "generatedRows": 22,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "submissions",
+          "publicRows": 32,
+          "generatedRows": 32,
+          "sameIds": true,
+          "aggregateMatches": true
+        }
+      ],
+      "differences": []
+    },
+    "routeRunnerReportVerified": true,
+    "separateVideoClockPreserved": true,
+    "fullRaceCandidateStillPending": true
+  }
+}
