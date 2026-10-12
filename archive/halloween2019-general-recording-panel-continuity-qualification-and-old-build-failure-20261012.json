@@ -1,0 +1,43 @@
+{
+  "reviewedAt": "2026-10-12T08:45:25.077947+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "change": "General fastest-video panel now labels carried pending continuity assessment as provisional, consistent with Halloween comparison. Comparison footer clarifies pending faster references and provisional selection.",
+  "example": {
+    "courseId": "gcn-dino-dino-jungle",
+    "time": "1:34.43",
+    "recordId": "curated-639765459633307668-tomegome",
+    "continuityPending": true,
+    "originalVideoRetained": true
+  },
+  "validation": {
+    "componentRenderTestsPassed": 15,
+    "isolatedProductionBuildExitCode": 0,
+    "staticPagesBuilt": 910,
+    "newMediaCertification": false,
+    "dataOrRecordingSelectionChanged": false
+  },
+  "railwayFailure": {
+    "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
+    "sourceCommit": "f204b7039ceb3842377625394fb570468623d5a7",
+    "status": "Failed",
+    "phase": "Initialization / Snapshot code",
+    "elapsed": "1:10:11",
+    "buildElapsed": "00:00",
+    "reason": "GitHub rejected the credentials Railway used to read kyle1373/mktwrs; Railway reports App repository access no longer valid.",
+    "deployNetworkPostDeploy": "Not started",
+    "predatesExportExclusionFix": true,
+    "exportFixOutcomeUnverified": true
+  },
+  "latestQueuedObservation": {
+    "deploymentId": "eda8358d-11b1-4ab4-ad89-4519518427f8",
+    "sourceCommit": "017c2f98",
+    "status": "QUEUED",
+    "reason": "Waiting for build slot"
+  },
+  "limitations": [
+    "Successful local build does not certify footage continuity, dates, source completeness or actual live publication.",
+    "Credential rejection is authoritative for the failed old source snapshot, not proof current App grant is missing or export exclusion fix failed."
+  ]
+}

@@ -10,8 +10,8 @@ const require=createRequire(import.meta.url);
 const swc=require('next/dist/build/swc');
 await swc.loadBindings();
 const page=fs.readFileSync(new URL('../app/archive.jsx',import.meta.url),'utf8');
-const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function Time('))+page.slice(page.indexOf('function Time('),page.indexOf('function BackupIcon('))+page.slice(page.indexOf('function HalloweenRecording('),page.indexOf('function CoursePage('));
-const {code}=await swc.transform('const date=s=>s?s.slice(0,10):"—";function Player({id}){return <span>{id}</span>;}\n'+selected+'\nexports.HalloweenSupportingResults=HalloweenSupportingResults;exports.HalloweenRecording=HalloweenRecording;', {filename:'result-report-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
+const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function Time('))+page.slice(page.indexOf('function Time('),page.indexOf('function BackupIcon('))+page.slice(page.indexOf('function FastestVideo('),page.indexOf('function CoursePage('));
+const {code}=await swc.transform('const date=s=>s?s.slice(0,10):"—";function Player({id}){return <span>{id}</span>;}\n'+selected+'\nexports.HalloweenSupportingResults=HalloweenSupportingResults;exports.HalloweenRecording=HalloweenRecording;exports.FastestVideo=FastestVideo;', {filename:'result-report-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
 const filename=new URL('../app/result-report-times-render.cjs',import.meta.url).pathname;
 const compiled=new Module(filename);
 compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
@@ -188,4 +188,18 @@ test('unresolved Meester NBC totals are visible without silently correcting docu
  assert.ok(html.includes('637527483398357003'));
  assert.ok(html.includes('1571823398/40#40'));
  assert.ok(!c.records.some(r=>r.time==='1:08.23'));
+});
+
+
+test('general recording panel qualifies carried DDJ continuity assessment',()=>{
+ const r=routeData(['course','gcn-dino-dino-jungle']).data.fastestVideo;
+ assert.equal(r.time,'1:34.43');
+ assert.equal(r.recordingContinuityPending,true);
+ const html=renderToStaticMarkup(React.createElement(compiled.exports.FastestVideo,{course:{fastestVideo:r},players:[]}));
+ assert.match(html,/Recording awaiting continuity review/);
+ assert.match(html,/Selected recording from prior review/);
+ assert.match(html,/uninterrupted start-to-finish race coverage still needs verification/);
+ assert.ok(html.includes(r.video.replaceAll('&','&amp;')));
+ assert.doesNotMatch(html,/Fastest documented run with available footage/);
+ assert.doesNotMatch(html,/This footage shows the listed time/);
 });

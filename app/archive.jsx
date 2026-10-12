@@ -556,9 +556,9 @@ function CourseStats({ c, players }) {
 function FastestVideo({ course: c, players }) {
   const r = c.fastestVideo;
   return <section className="fastest-video">
-    <h2>Fastest available video</h2>
+    <h2>{r?.recordingContinuityPending ? "Recording awaiting continuity review" : "Fastest available video"}</h2>
     {r ? <>
-      <p><strong>{r.time}</strong> · <Player id={r.playerId} players={players} /> · {r.isCurrent ? "Current world record" : "Fastest documented run with available footage"}</p>
+      <p><strong>{r.time}</strong> · <Player id={r.playerId} players={players} /> · {r.recordingContinuityPending ? "Selected recording from prior review" : r.isCurrent ? "Current world record" : "Fastest documented run with available footage"}</p>
       <p className="video-links">
         {r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}
         {r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">{r.videoBackup.kind === "player-recovery"
@@ -566,7 +566,7 @@ function FastestVideo({ course: c, players }) {
           : `Backup video (${r.videoBackup.channel || "SuperFX64"} · ${r.videoBackup.visibility || "unlisted"})`}</a></>}
       </p>
       <EvidenceTimes r={r} />
-      {!r.isCurrent && <p className="table-note">This footage shows the listed time; its WR status is shown separately.</p>}
+      {r.recordingContinuityPending ? <p className="table-note">The prior review identifies the result, but uninterrupted start-to-finish race coverage still needs verification. This selection is provisional.</p> : !r.isCurrent && <p className="table-note">This footage shows the listed time; its WR status is shown separately.</p>}
     </> : <p className="table-note">No available video has been verified for this course yet.</p>}
   </section>;
 }
@@ -592,7 +592,7 @@ function HalloweenRecording({ comparison, players }) {
         <EvidenceTimes r={candidate} />
       </div>)}
     </details>}
-    <p className="table-note">Tour review remains incomplete. Recordings awaiting full-race verification are excluded from this comparison.</p>
+    <p className="table-note">Tour review remains incomplete. Faster references remain outside the selected recording until reviewed; a provisional selection still needs continuity verification.</p>
   </section>;
 }
 function HalloweenSupportingResults({ results, players }) {
