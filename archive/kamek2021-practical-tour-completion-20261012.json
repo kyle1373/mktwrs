@@ -1,0 +1,83 @@
+{
+  "tourId": "tour-51",
+  "tour": "Kamek Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-08-25T06:00:00Z",
+    "endExclusive": "2021-09-08T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-rainbow-road-r",
+      "archivedWr": "0:59.94",
+      "fastestDocumentedAvailableRecording": "0:59.94",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "rmx-vanilla-lake-1",
+      "archivedWr": "1:02.44",
+      "fastestDocumentedAvailableRecording": "1:02.44",
+      "recordingPlayerId": "wins"
+    }
+  ],
+  "evidence": [
+    "archive/kamek2021-original-results-practical-review-20261012.json",
+    "archive/kamek-2021-reconciliation.json",
+    "archive/kamek2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/kamek2021-selected-recording-r2-preservation-20261012.json",
+    "archive/kamek2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/kamek-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 155,
+      "capturedSubmissionMessagesRead": 173,
+      "discussionImageSearchMatches": 16,
+      "discussionWrMatches": 4,
+      "discussionLinkMatches": 10,
+      "discussionVideoMatches": 13,
+      "fullOriginalVideosDownloadedAndVisuallyReviewed": 7,
+      "shortDiscordClipsDownloadedAndVisuallyReviewed": 6
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 23
+  },
+  "remainingLimitations": [
+    "Image and keyword searches do not establish a full discussion message census.",
+    "Nu11 0:59.99, Wins 1:02.44 and Adrishi 1:00.16 original record dates remain unresolved.",
+    "Tentative shiraui lap report remains in source notes; no guessed verified splits.",
+    "Attachment 881577530358910996 was re-read at full resolution as 1:02.89, not 1:02.58; it is not a world record.",
+    "Six Discord technique clips (4–10 seconds) were downloaded and visually reviewed; they are not proof of completed runs.",
+    "Nu11 previous-best0:59.96 observed without independently dated WR chronology.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 895,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      75,
+      40
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "snes-rainbow-road-r",
+        "reviewedRows": 96,
+        "differences": 0
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "reviewedRows": 90,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-52"
+}
