@@ -1,0 +1,73 @@
+{
+  "reviewedAt": "2026-10-12T03:04:18.825591+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "canonicalId": "636853682620858388-opening2019-proof-review",
+  "publicId": "curated-636853682620858388-opening2019-proof-review",
+  "videoId": "KzDZ2O9_YZM",
+  "review": {
+    "reviewAudit": "archive/halloween2019-unreal12659-visible-full-race-sequence-review-20261012.json",
+    "priorVisualReview": "archive/early-original-channel-video-recovery.json",
+    "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
+    "bytes": 4196712,
+    "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
+    "priorResultAndLapReviewRetained": true,
+    "freshFootageReviewed": true,
+    "startToFinishContinuityVerified": true,
+    "status": "full-race-visible-sequence-reviewed",
+    "basis": "Visible one-second frame sequence from video seconds 7 through 94 shows GO, both laps, lap-one 43.33 overlay, monotonically advancing timer, and CLEAR at 1:26.59. Result frame at second97 confirms 1:26.59. No skipped race section observed in this sampled sequence.",
+    "samplingIntervalSeconds": 1,
+    "reviewedVideoSeconds": [
+      7,
+      94
+    ],
+    "resultFrameSecond": 97,
+    "frameByFrameEditForensicAudit": false
+  },
+  "reviewImages": [
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-0.jpg",
+      "sha256": "3fadcdce1ed00f433dad6dcb1a00cb8b1ecd87037088cc8a7dd230b36831ea66",
+      "bytes": 254338
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-1.jpg",
+      "sha256": "e12a2646391cdd7bbbcec0cda33ad5bc435c1608ff7d95f7f9dc366ccb1a1b81",
+      "bytes": 256430
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-2.jpg",
+      "sha256": "c0eeabdfdd396d6a5bc4fc014e086af1a0fc879475453e8f58074d987397e561",
+      "bytes": 239906
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/every-second-3.jpg",
+      "sha256": "ac7fdf4c5aa3cf077e28548d0a768debdc73c583bc48c501cc5a0fd8ff1d81ad",
+      "bytes": 244568
+    },
+    {
+      "path": "archive/halloween2019-unreal12659-sequence-review-20261012/result.png",
+      "sha256": "edc4f53ad3aab12e6c376697d08d1cfa69480640bbda4867b72c3a1561409cea",
+      "bytes": 104272
+    }
+  ],
+  "observations": [
+    "GO at video second7; initial race timer0:01.14 at second8.",
+    "First-lap overlay43.33 visible at seconds51–52 and lap2/2 shown.",
+    "Second-lap timer progresses through1:26.14 at second93; CLEAR and stopped1:26.59 at second94.",
+    "Separate second97 frame confirms stopped1:26.59."
+  ],
+  "limitations": [
+    "This is visual coverage review from one-second samples, not every encoded frame or forensic edit detection.",
+    "Original player identity and exact source clocks retained from the linked earlier reviews; no new race date inferred.",
+    "Full-race classification is for Unreal1:26.59 only. Faster Up and Astre video candidates and complete external coverage remain unresolved.",
+    "No total, lap, achievement date, WR status or public fastest-recording selection changed. Production publication not certified."
+  ],
+  "validation": {
+    "generatorScopeMetadataMatches": true,
+    "reviewImageHashesMatch": true,
+    "focusedRecordingAndOpeningPolicyTestsPassed": 11,
+    "focusedTestsFailed": 0
+  }
+}

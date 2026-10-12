@@ -85611,16 +85611,23 @@
       "freshFootageReviewed": false
     },
     "videoScopeReview": {
-      "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+      "reviewAudit": "archive/halloween2019-unreal12659-visible-full-race-sequence-review-20261012.json",
       "priorVisualReview": "archive/early-original-channel-video-recovery.json",
       "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
       "bytes": 4196712,
       "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
       "priorResultAndLapReviewRetained": true,
-      "freshFootageReviewed": false,
-      "startToFinishContinuityVerified": false,
-      "status": "full-race-continuity-review-pending",
-      "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof."
+      "freshFootageReviewed": true,
+      "startToFinishContinuityVerified": true,
+      "status": "full-race-visible-sequence-reviewed",
+      "basis": "Visible one-second frame sequence from video seconds 7 through 94 shows GO, both laps, lap-one 43.33 overlay, monotonically advancing timer, and CLEAR at 1:26.59. Result frame at second97 confirms 1:26.59. No skipped race section observed in this sampled sequence.",
+      "samplingIntervalSeconds": 1,
+      "reviewedVideoSeconds": [
+        7,
+        94
+      ],
+      "resultFrameSecond": 97,
+      "frameByFrameEditForensicAudit": false
     },
     "forumPerformanceSourceReview": {
       "reviewAudit": "archive/halloween2019-unreal-five-original-forum-performance-reconciliation-20261011.json",
@@ -85639,7 +85646,8 @@
       "historicalEditContentsKnown": false,
       "freshFootageReviewed": false,
       "wrStatusReassigned": false
-    }
+    },
+    "videoScope": "full-run"
   },
   {
     "messageId": "636867687091273739-opening2019-proof-review",
