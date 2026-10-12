@@ -1,0 +1,78 @@
+{
+  "tourId": "tour-6",
+  "tour": "London Tour (2019)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; preserved reviews accepted, uncertain chronology and unavailable footage documented.",
+  "exhaustiveHistoryProven": false,
+  "sourceCommit": "18edf6f939a78a0ff108453c61a3df88fee943f7",
+  "window": {
+    "start": "2019-12-04T06:00:00Z",
+    "endExclusive": "2019-12-18T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-daisy-hills",
+      "archivedWr": "1:22.99",
+      "fastestDocumentedAvailableRecording": "1:23.63"
+    },
+    {
+      "id": "snes-mario-circuit-2",
+      "archivedWr": "0:59.38",
+      "fastestDocumentedAvailableRecording": "1:00.46"
+    },
+    {
+      "id": "gcn-yoshi-circuit",
+      "archivedWr": "1:33.68",
+      "fastestDocumentedAvailableRecording": "1:45.86",
+      "fasterUnavailableRecording": "1:33.81"
+    }
+  ],
+  "evidence": [
+    "archive/london2019-current-preserved-result-publication-and-recording-crosswalk-20261010.json",
+    "archive/london2019-original-queue-date-audit-20261006.json",
+    "archive/london2019-full-message-coverage-checkpoint-20261006.json",
+    "archive/london2019-unreal91-two-alias-reports-single-performance-reconciliation-20261010.json",
+    "archive/london2019-live-original-discussion-practical-review-20261012.json",
+    "archive/london2019-three-selected-recording-r2-preservation-20261012.json",
+    "archive/london2019-r2-proof-image-link-check-20261012.json"
+  ],
+  "coverage": {
+    "preservedSourceRowsCompared": 68,
+    "sourceRowsWithoutPublicMatch": 0,
+    "indexedOriginalPosts": 413,
+    "priorOriginalPostsReviewed": 352,
+    "priorServerSearchPagesReviewed": 114,
+    "selectedRecordingsPreservedOnR2": 3,
+    "proofImageUrlsPassed": 43
+  },
+  "remainingLimitations": [
+    "Opening global WR exchange order remains uncertain. Documented rivals and PBs are displayed outside accepted WR succession; first-day intermediate submissions remain in raw archive.",
+    "Prior server search stopped at page114 of142. Missing pages and unavailable originals remain documented; practical completion is not exhaustive coverage.",
+    "Nu11 Yoshi1:33.81 recording unavailable. Available1:45.86 demonstration kept separately; partial1:34.34-related footage does not establish a complete recorded race.",
+    "Previous-best achievement dates and disputed splits remain unknown; sampled broadcasts and prior media reviews are not fresh continuous playback certification."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 3,
+    "openingDayTestsPassed": 5,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-daisy-hills",
+        "reviewedRows": 26,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-mario-circuit-2",
+        "reviewedRows": 22,
+        "differences": 0
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "reviewedRows": 28,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-7"
+}

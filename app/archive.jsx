@@ -162,7 +162,7 @@ function BackupProof({ r }) {
     aria-label={`Watch backup video for ${r.time}`}
     title={r.videoBackup.kind === "player-recovery"
       ? `Watch recovered video supplied by ${r.videoBackup.channel}`
-      : `Watch ${r.videoBackup.visibility || "unlisted"} video backup on ${r.videoBackup.channel || "SuperFX64"}`}
+      : r.videoBackup.kind === "r2-preserved-original" ? "Watch preserved original video" : `Watch ${r.videoBackup.visibility || "unlisted"} video backup on ${r.videoBackup.channel || "SuperFX64"}`}
   ><BackupIcon /></a> : null;
 }
 function Player({ id, players }) {
@@ -564,7 +564,7 @@ function FastestVideo({ course: c, players }) {
         {r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}
         {r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">{r.videoBackup.kind === "player-recovery"
           ? `Recovered video (${r.videoBackup.channel})`
-          : `Backup video (${r.videoBackup.channel || "SuperFX64"} · ${r.videoBackup.visibility || "unlisted"})`}</a></>}
+          : r.videoBackup.kind === "r2-preserved-original" ? "Preserved original video" : `Backup video (${r.videoBackup.channel || "SuperFX64"} · ${r.videoBackup.visibility || "unlisted"})`}</a></>}
       </p>
       <EvidenceTimes r={r} />
       {r.recordingContinuityPending ? <p className="table-note">The prior review identifies the result, but uninterrupted start-to-finish race coverage still needs verification. This selection is provisional.</p> : !r.isCurrent && <p className="table-note">This footage shows the listed time; its WR status is shown separately.</p>}
@@ -626,7 +626,7 @@ function ParisSupportingResults({ results, players, tourLabel = "Paris Tour (201
     <summary>{tourLabel} documented results ({results.length})</summary>
     <p className="table-note">Earlier results, rival times and personal bests are preserved here. They are not certified as world records. Opening day shows the fastest documented result; exact finish times remain unknown where only a report date survives.</p>
     <div className="table-wrap"><table className="wr-table"><thead><tr><th>Time + video</th><th>Player</th><th>Documented day</th><th>Evidence</th></tr></thead>
-      <tbody>{results.map(r => <tr key={r.id}><td><Time record={r} /></td><td><Player id={r.playerId} players={players} /></td><td>{date(r.achievedAt || r.chronologyDate)}</td><td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}{(r.proofImageLocal || r.proofImage) && <> · <a href={r.proofImageLocal || r.proofImage} target="_blank" rel="noopener noreferrer">Image proof</a></>}<EvidenceTimes r={r} /></td></tr>)}</tbody>
+      <tbody>{results.map(r => <tr key={r.id}><td><Time record={r} /></td><td><Player id={r.playerId} players={players} /></td><td>{date(r.achievedAt || r.chronologyDate || r.submittedAt)}</td><td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}{(r.proofImageLocal || r.proofImage) && <> · <a href={r.proofImageLocal || r.proofImage} target="_blank" rel="noopener noreferrer">Image proof</a></>}<EvidenceTimes r={r} /></td></tr>)}</tbody>
     </table></div>
   </details>;
 }
@@ -646,6 +646,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.parisSupportingResults} players={players} />
       <HalloweenRecording comparison={c.winter2019Recording} players={players} tourLabel="Winter Tour (2019)" />
       <ParisSupportingResults results={c.winterSupportingResults} players={players} tourLabel="Winter Tour (2019)" />
+      <HalloweenRecording comparison={c.london2019Recording} players={players} tourLabel="London Tour (2019)" />
+      <ParisSupportingResults results={c.londonSupportingResults} players={players} tourLabel="London Tour (2019)" />
       {fragments.length > 0 && <section className="fastest-video">
         <h2>Preserved video fragments</h2>
         {fragments.map(f => <div key={f.originalUrl}>
