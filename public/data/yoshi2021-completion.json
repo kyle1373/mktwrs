@@ -1,0 +1,81 @@
+{
+  "tourId": "tour-40",
+  "tour": "Yoshi Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-03-24T06:00:00Z",
+    "endExclusive": "2021-04-07T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "tokyo-blur-4r",
+      "archivedWr": "0:46.47",
+      "archivedWrPlayers": [
+        "nu11",
+        "tomegome"
+      ],
+      "fastestDocumentedAvailableRecording": "0:46.51",
+      "recordingPlayerId": "tomegome"
+    },
+    {
+      "id": "ds-waluigi-pinball",
+      "archivedWr": "1:46.21",
+      "fastestDocumentedAvailableRecording": "1:46.40",
+      "recordingPlayerId": "saki7"
+    }
+  ],
+  "evidence": [
+    "archive/yoshi2021-original-results-practical-review-20261012.json",
+    "archive/yoshi-2021-reconciliation.json",
+    "archive/april2021-three-original-recording-share-reconciliation-20261010.json",
+    "archive/yoshi2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/yoshi2021-selected-recording-r2-preservation-20261012.json",
+    "archive/yoshi2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/yoshi-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 207,
+      "indexedImagesVisuallyReviewed": 207,
+      "wrSearchMatches": 25,
+      "linkSearchMatches": 27
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 192
+  },
+  "remainingLimitations": [
+    "Tokyo Blur4R0:46.47 shared WR Nu11/Tomegome; faster original video reference unavailable; Tomegome0:46.51 recording preserved.",
+    "Waluigi Pinball Nu111:46.21 original video unavailable; saki71:46.40 preserved as supporting footage, no WR promotion.",
+    "Original saki7 screenshot-post clock differs from later Twitter video publication; no video URL observed in screenshot post.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+  ],
+  "validation": {
+    "productionBuildPages": 898,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      70,
+      58
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "tokyo-blur-4r",
+        "reviewedRows": 117,
+        "differences": 0
+      },
+      {
+        "courseId": "ds-waluigi-pinball",
+        "reviewedRows": 105,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-41"
+}
