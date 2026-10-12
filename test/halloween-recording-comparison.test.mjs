@@ -4,7 +4,7 @@ import {routeData} from '../lib/data.mjs';
 import {halloween2019RecordingComparison} from '../lib/video.mjs';
 for (const [course,wr,recording] of [
  ['3ds-toad-circuit','1:04.46','1:04.85'],
- ['3ds-neo-bowser-city','1:25.70','1:25.70'],
+ ['3ds-neo-bowser-city','1:25.70','1:31.08'],
  ['gcn-dino-dino-jungle','1:34.16','1:34.43'],
 ]) test(`${course} separates Halloween WR from reviewed full-race recording`,()=>{
  const page=routeData(['course',course]);

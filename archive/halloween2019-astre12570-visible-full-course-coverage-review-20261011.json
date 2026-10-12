@@ -3,7 +3,62 @@
   "tourId": "tour-3",
   "historyComplete": false,
   "certifiedThrough": null,
-  "review": {
+  "frameEvidence": [
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-01-20261011.jpg",
+      "sha256": "9942ccdec7b6c44865e0eeab0bb017a3b578fdbdd11bb4d452f0201fe2d359f4",
+      "bytes": 146956,
+      "actualPixelsReviewed": false,
+      "toolResponse": "Image from an earlier turn omitted from this Azure request. The saved Codex chat is unchanged."
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-02-20261011.jpg",
+      "sha256": "e988f98c08281c7d36e3239508785065d322d0beb0ccf5b722bdb7b761d661de",
+      "bytes": 164318,
+      "actualPixelsReviewed": false,
+      "toolResponse": "Image from an earlier turn omitted from this Azure request. The saved Codex chat is unchanged."
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-03-20261011.jpg",
+      "sha256": "22315ed4ddbbecfe459285ef6bea324d14f4dd696a2502cb19c2490eb689eebb",
+      "bytes": 191146,
+      "actualPixelsReviewed": false,
+      "toolResponse": "Image from an earlier turn omitted from this Azure request. The saved Codex chat is unchanged."
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-04-20261011.jpg",
+      "sha256": "25c7c144cad667c3fd0946e80d32b25681ee4453c868d4d449a648897f80db45",
+      "bytes": 330190,
+      "actualPixelsReviewed": false,
+      "toolResponse": "Image from an earlier turn omitted from this Azure request. The saved Codex chat is unchanged."
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-05-20261011.jpg",
+      "sha256": "1e2558ab4b7f833aaba0172c5b5b38721c7c639e43016ad17c772f550a07c84c",
+      "bytes": 322974,
+      "actualPixelsReviewed": false,
+      "toolResponse": "Image from an earlier turn omitted from this Azure request. The saved Codex chat is unchanged."
+    }
+  ],
+  "validation": {
+    "originalMp4HashMatches": true,
+    "onlyFourScopeFieldsChanged": true,
+    "raceTimesLapsDatesAndSubmissionClocksUnchanged": true,
+    "recordingTestsPassed": 15,
+    "recordingTestsFailed": 0,
+    "isolatedRegenerationExitCode": 0,
+    "generatedAnnouncementScopeReviewPreserved": true,
+    "generatedComparisonWrAndRecordingBoth12570": true
+  },
+  "limitations": [
+    "All image calls in the review returned omission placeholders. No fresh pixels were available to establish these observations.",
+    "Derived image files and hashes remain preserved as artifacts, not proof of visual review.",
+    "Passing selector tests and regeneration only verified propagation of the unsupported scope claim. Those results do not verify footage.",
+    "Original metadata, preservation and prior result evidence remain; no new full-race verification."
+  ],
+  "status": "withdrawn-no-visible-pixels-in-tool-responses",
+  "withdrawalAudit": "archive/halloween2019-astre12570-visible-coverage-claim-withdrawal-20261011.json",
+  "withdrawnReview": {
     "reviewAudit": "archive/halloween2019-astre12570-visible-full-course-coverage-review-20261011.json",
     "originalFile": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
     "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
@@ -27,59 +82,11 @@
     "noObviousJumpInSampledFrames": true,
     "forensicUncutCertification": false
   },
-  "frameEvidence": [
-    {
-      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-01-20261011.jpg",
-      "sha256": "9942ccdec7b6c44865e0eeab0bb017a3b578fdbdd11bb4d452f0201fe2d359f4",
-      "bytes": 146956,
-      "actualPixelsReviewed": true
-    },
-    {
-      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-02-20261011.jpg",
-      "sha256": "e988f98c08281c7d36e3239508785065d322d0beb0ccf5b722bdb7b761d661de",
-      "bytes": 164318,
-      "actualPixelsReviewed": true
-    },
-    {
-      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-03-20261011.jpg",
-      "sha256": "22315ed4ddbbecfe459285ef6bea324d14f4dd696a2502cb19c2490eb689eebb",
-      "bytes": 191146,
-      "actualPixelsReviewed": true
-    },
-    {
-      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-04-20261011.jpg",
-      "sha256": "25c7c144cad667c3fd0946e80d32b25681ee4453c868d4d449a648897f80db45",
-      "bytes": 330190,
-      "actualPixelsReviewed": true
-    },
-    {
-      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-05-20261011.jpg",
-      "sha256": "1e2558ab4b7f833aaba0172c5b5b38721c7c639e43016ad17c772f550a07c84c",
-      "bytes": 322974,
-      "actualPixelsReviewed": true
-    }
-  ],
-  "visibleObservations": {
+  "withdrawnVisibleObservations": {
     "page01": "Starting grid and countdown followed by lap1 timer0:00.94 through0:16.93. BowserJr driving NeoBowserCity.",
     "page02": "Lap1 timer0:17.94 through0:36.94 with consistent course progress.",
     "page03": "Lap1 timer0:37.97 through0:41.95, crossing at0:42.89 and lap2/2 overlay. Lap2 timer resumes0:45.95 through0:56.95.",
     "page04": "Lap2 timer0:57.94 through1:16.94, consistent route progress.",
     "page05": "Lap2 timer1:17.94 through1:24.95, success1:25.70, result1:25.70 and previousbest1:25.80."
-  },
-  "validation": {
-    "originalMp4HashMatches": true,
-    "onlyFourScopeFieldsChanged": true,
-    "raceTimesLapsDatesAndSubmissionClocksUnchanged": true,
-    "recordingTestsPassed": 15,
-    "recordingTestsFailed": 0,
-    "isolatedRegenerationExitCode": 0,
-    "generatedAnnouncementScopeReviewPreserved": true,
-    "generatedComparisonWrAndRecordingBoth12570": true
-  },
-  "limitations": [
-    "Larger pages01–03 were omitted by the image tool and were not used as visual evidence. Smaller pages01–05 returned actual visible pixels and were individually inspected.",
-    "One-second sampling documents complete course coverage; it cannot exclude edits between sampled frames. No forensic uncut certification.",
-    "Original-post metadata establishes attribution and publication clock separately from these visible content checks.",
-    "No new earliest achievement instant, video availability, public backup upload, or complete-tour certification."
-  ]
+  }
 }
