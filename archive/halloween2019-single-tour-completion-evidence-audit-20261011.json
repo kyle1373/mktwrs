@@ -326,7 +326,7 @@
       "requirement": "Record exchanges and fastest complete recordings",
       "status": "unresolved",
       "evidence": "archive/halloween2019-nova-up-sonicpacker-row-media-gap-reconciliation-20261011.json",
-      "detail": "18 existing Nova/up/sonicpacker original-WR rows reviewed:3preserved recordings with matching MP4 hashes and prior visual assessments carried;15original-media gaps remain, including14image references and Nova1:04.99 recording. Rival exchanges and later reposts still pending.",
+      "detail": "Prior18-row Nova/up/sonicpacker media inventory reassessed: 14 retained public rows and 4 omitted opening intermediates deferred. 10 image gaps and 2 recording gaps remain in retained rows; full-recording scope and relevant rivals still unresolved.",
       "latestRowMediaInventory": "archive/halloween2019-nova-up-sonicpacker-row-media-gap-reconciliation-20261011.json",
       "latestOriginalImageRecoveryAttempt": "archive/halloween2019-missing-original-image-retrieval-and-census-scope-review-20261011.json",
       "latestFullLeaderboardCrosswalk": "archive/halloween2019-full-original-leaderboard-crosswalk-and-supporting-recoveries-20261011.json",
@@ -368,7 +368,8 @@
         "runnerUnknown": true,
         "primaryProofRecovered": false,
         "audit": "archive/halloween2019-original10528-context-and-rival-source-search-20261011.json"
-      }
+      },
+      "openingDayPolicyAdjustedQueue": "archive/halloween2019-retained-record-work-queue-and-tome-tour-assignment-20261011.json"
     },
     {
       "id": "unreal12848-clock",
@@ -377,7 +378,9 @@
       "status": "unresolved",
       "evidence": "archive/halloween2019-unreal12848-video-clock-source-conflict-audit-20261011.json",
       "detail": "Both preserved metadata timestamps and message-ID creation clock verified. Difference2964.714seconds; historical message content/first-viewable video time unresolved. Both source properties retained.",
-      "latestFreshOriginalSourceReview": "archive/halloween2019-nbc12848-fresh-original-discord-clock-recheck-20261011.json"
+      "latestFreshOriginalSourceReview": "archive/halloween2019-nbc12848-fresh-original-discord-clock-recheck-20261011.json",
+      "workPriority": "deferred-opening-intermediate-only-unless-needed-for-retained-best-or-recording",
+      "openingDayScopeReview": "archive/halloween2019-retained-record-work-queue-and-tome-tour-assignment-20261011.json"
     },
     {
       "id": "live-coverage-and-publication",
@@ -429,7 +432,9 @@
       "status": "unresolved",
       "evidence": "archive/halloween2019-10616-original-discord-video-share-and-clock-discrepancy-20261011.json",
       "detail": "Original Discord share09:51:39.890Zprecedes preserved YouTube publication15:03:01Zby18681.11seconds on October23. Both retained; first availability unresolved.",
-      "latestRunnerContextReview": "archive/halloween2019-10616-contemporary-runner-video-reupload-context-20261011.json"
+      "latestRunnerContextReview": "archive/halloween2019-10616-contemporary-runner-video-reupload-context-20261011.json",
+      "workPriority": "deferred-opening-intermediate-only-unless-needed-for-retained-best-or-recording",
+      "openingDayScopeReview": "archive/halloween2019-retained-record-work-queue-and-tome-tour-assignment-20261011.json"
     },
     {
       "id": "opening-forum-player-attribution",
@@ -454,7 +459,9 @@
       "requirement": "Reconcile conflicting first-lap reports",
       "status": "unresolved",
       "evidence": "archive/halloween2019-meester-forum-lap-report-and-opening-split-disagreement-20261011.json",
-      "detail": "Original player report34.24 differs from sheet33.24 for total10879. Existing sheet split pair retained with visible discrepancy; no fresh video or image resolves it."
+      "detail": "Original player report34.24 differs from sheet33.24 for total10879. Existing sheet split pair retained with visible discrepancy; no fresh video or image resolves it.",
+      "workPriority": "deferred-opening-intermediate-only-unless-needed-for-retained-best-or-recording",
+      "openingDayScopeReview": "archive/halloween2019-retained-record-work-queue-and-tome-tour-assignment-20261011.json"
     },
     {
       "id": "meester-forum-nbc10823-text",
@@ -692,5 +699,6 @@
   "latestToadDerivedLapDateBasisReconciliation": "archive/halloween2019-toad-derived-lap-and-date-basis-regeneration-reconciliation-20261011.json",
   "latestEddSheetVideoPublicationPersistence": "archive/halloween2019-edd-sheet-video-publication-evidence-persistence-20261011.json",
   "openingDayPublicationPolicy": "archive/halloween2019-opening-day-publication-policy-20261011.json",
-  "latestOpeningDayProfileLinkAndBuildVerification": "archive/halloween2019-opening-day-profile-links-and-production-verification-20261011.json"
+  "latestOpeningDayProfileLinkAndBuildVerification": "archive/halloween2019-opening-day-profile-links-and-production-verification-20261011.json",
+  "latestRetainedPublicationWorkQueue": "archive/halloween2019-retained-record-work-queue-and-tome-tour-assignment-20261011.json"
 }
