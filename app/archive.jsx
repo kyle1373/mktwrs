@@ -86,6 +86,7 @@ function EvidenceTimes({ r }) {
     {(r.sourceReportTimes || []).map(source => <div key={source.url}>
       Discord report: <a href={source.url} target="_blank" rel="noopener noreferrer">{format(source.postedAt)}</a>
       <div>Source-message posting time; race completion time is separate.</div>
+      {source.kind === "archived-cup-menu-image-post" && <div>Cup-menu result retained from prior image review; image contents have not been freshly verified. The poster does not establish the runner's identity.</div>}
     </div>)}
     {(r.resultReportTimes || []).map(report => <div key={report.url + "|" + report.reportedAt}>
       {report.imageReport ? "Runner result image posted: " : report.originalRunnerSubmission ? "Runner result report: " : "Third-party result report: "}

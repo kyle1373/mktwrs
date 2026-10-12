@@ -203,3 +203,20 @@ test('general recording panel qualifies carried DDJ continuity assessment',()=>{
  assert.doesNotMatch(html,/Fastest documented run with available footage/);
  assert.doesNotMatch(html,/This footage shows the listed time/);
 });
+
+test('reviewed cup-menu results expose source clocks without new identity or image certification',()=>{
+ const cases=[['3ds-neo-bowser-city','curated-halloween2019-menu-638495899164737551','1:32.91','2019-10-28 21:54:45 UTC'],['gcn-dino-dino-jungle','curated-halloween2019-menu-641292865829470238','1:47.34','2019-11-05 15:08:53 UTC'],['gcn-dino-dino-jungle','curated-halloween2019-menu-641295432021966869','1:39.66','2019-11-05 15:19:05 UTC']];
+ const runners=[];
+ for(const [cid,id,time,clock] of cases){
+  const rows=routeData(['course',cid]).data.halloweenSupportingResults;
+  assert.equal(rows.filter(r=>r.id===id).length,1);
+  const row=rows.find(r=>r.id===id);assert.equal(row.time,time);assert.equal(row.submittedAt,null);
+  const html=render([row]);assert.match(html,/Discord report:/);assert.ok(html.includes(clock));
+  assert.match(html,/Cup-menu result retained from prior image review/);
+  assert.match(html,/image contents have not been freshly verified/);
+  assert.match(html,/poster does not establish the runner/);assert.doesNotMatch(html,/Submitted:/);
+  if(cid==='gcn-dino-dino-jungle')runners.push(row.playerId);
+ }
+ assert.notEqual(runners[0],runners[1]);
+ assert.ok(!routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults.some(r=>r.id==='curated-637466465229864960-opening2019-proof-review'));
+});

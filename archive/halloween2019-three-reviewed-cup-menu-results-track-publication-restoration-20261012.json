@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-12T09:00:45.908830+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCommit": "1578fad616acfe6f49b82f3e37c4ad6a586fbb0c",
+  "sourceReview": "archive/halloween2019-three-cup-menu-post-vs-submission-clock-corrections-20261012.json",
+  "problem": "Three archived cup-menu supporting results had reviewed posting clocks in additionalSources but route filter selected only report events, so no track-page display.",
+  "change": "Include reviewed Halloween cup-menu rows in supporting tables, de-duplicate IDs, exclude rejected claims, display carried image review and poster-versus-runner qualification.",
+  "rows": [
+    {
+      "id": "curated-halloween2019-menu-638495899164737551",
+      "courseId": "3ds-neo-bowser-city",
+      "time": "1:32.91"
+    },
+    {
+      "id": "curated-halloween2019-menu-641292865829470238",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:47.34"
+    },
+    {
+      "id": "curated-halloween2019-menu-641295432021966869",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:39.66"
+    }
+  ],
+  "validation": {
+    "renderTestsPassed": 16,
+    "renderTestsFailed": 0,
+    "productionBuildExitCode": 0,
+    "productionStaticPages": 910,
+    "distinctUnknownRunnersVerified": true,
+    "noAcceptedSubmissionLabel": true,
+    "rejectedClaimExcluded": true
+  },
+  "publicationObservation": {
+    "latestCommit": "1578fad6",
+    "deploymentId": "985e327d-aea7-411d-9075-a7cbc5695f06",
+    "status": "Queued",
+    "reason": "Waiting for build slot",
+    "sourceFixDeploymentId": "7db3066f-f5b4-4150-b777-9d672b73a038",
+    "sourceFixLastObservedStatus": "Queued"
+  },
+  "limitations": [
+    "This restores display of previously preserved supporting results, not fresh image verification or additional WRs.",
+    "Unknown runner identities remain distinct; posting identity does not by itself establish runner identity.",
+    "Canonical race times, dates, laps, durations and recording selections unchanged. Halloween date, media and continuity gaps remain.",
+    "Production build verified in isolated checkout. Live Railway publication not verified."
+  ]
+}
