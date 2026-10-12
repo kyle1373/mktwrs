@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-36",
+  "tour": "Cat Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-01-27T06:00:00Z",
+    "endExclusive": "2021-02-10T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "wii-maple-treeway-r",
+      "archivedWr": "1:49.98",
+      "fastestDocumentedAvailableRecording": "1:50.37",
+      "recordingPlayerId": "maler-markus"
+    },
+    {
+      "id": "rmx-rainbow-road-1",
+      "archivedWr": "1:18.95",
+      "fastestDocumentedAvailableRecording": "1:20.61",
+      "recordingPlayerId": "spartacurt"
+    }
+  ],
+  "evidence": [
+    "archive/cat2021-original-results-practical-review-20261012.json",
+    "archive/cat-2021-reconciliation.json",
+    "archive/cat-2021-reconciliation.json",
+    "archive/cat2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/cat2021-selected-recording-r2-preservation-20261012.json",
+    "archive/cat2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/winter2020-discussion-review-progress.json",
+    "discussionMessagesRead": 14558,
+    "preservedImagesVisuallyReviewed": 1749,
+    "basis": "Prior local ledger covers December through February; totals are multi-tour capture counts, not Winter-only counts; no fresh exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 198
+  },
+  "remainingLimitations": [
+    "Dit Maple Treeway R 1:49.98 result proof preserved; fastest available reviewed recording Maler Markus 1:50.37. Nu11 RMX Rainbow Road 1 1:18.95 result proof and unavailable original Twitter link retained; Spartacurt 1:20.61 available reviewed recording preserved.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 902,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      51,
+      81
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "wii-maple-treeway-r",
+        "reviewedRows": 109,
+        "differences": 0
+      },
+      {
+        "courseId": "rmx-rainbow-road-1",
+        "reviewedRows": 129,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-37"
+}
