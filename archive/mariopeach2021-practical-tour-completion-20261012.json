@@ -1,0 +1,78 @@
+{
+  "tourId": "tour-49",
+  "tour": "Mario vs. Peach Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-07-28T06:00:00Z",
+    "endExclusive": "2021-08-11T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "gba-cheep-cheep-island",
+      "archivedWr": "1:11.79",
+      "fastestDocumentedAvailableRecording": "1:11.88",
+      "recordingPlayerId": "phillish"
+    },
+    {
+      "id": "n64-choco-mountain",
+      "archivedWr": "1:18.38",
+      "fastestDocumentedAvailableRecording": "1:19.16",
+      "recordingPlayerId": "spartacurtyt"
+    }
+  ],
+  "evidence": [
+    "archive/mariopeach2021-original-results-practical-review-20261012.json",
+    "archive/mario-peach-2021-reconciliation.json",
+    "archive/mariopeach2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/mariopeach2021-selected-recording-r2-preservation-20261012.json",
+    "archive/mariopeach2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/mario-peach-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 114,
+      "indexedImagesVisuallyReviewed": 114,
+      "wrSearchMatches": 17,
+      "linkSearchMatches": 15,
+      "videoSearchMatches": 13,
+      "originalVideosDownloadedAndVisuallyReviewed": 6
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 113
+  },
+  "remainingLimitations": [
+    "Final WRs lack reviewed available recordings; selected slower footage shown separately.",
+    "Nu1:18.38 datedAugust8fromsurvivingoriginalTwitter screenshot; exact clock and laps unresolved.",
+    "Previous-best achievement dates unresolved; lateFrostbuffer excluded.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 896,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      51,
+      43
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "reviewedRows": 64,
+        "differences": 0
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "reviewedRows": 59,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-50"
+}
