@@ -425,17 +425,18 @@
       "id": "live-coverage-and-publication",
       "requirement": "Source coverage and published result verification",
       "status": "live-publication-gaps-confirmed-latest-deployment-queued",
-      "detail": "Exact commit a81a09cc queued in Railway waiting for build slot; three-day-old deployment remains active. Six current submission rows checked: two selected-field matches, one missing and three provenance mismatches. Full live coverage unresolved.",
+      "detail": "Current scoped live comparison: {'scopedRows': 269, 'missingLive': 49, 'matchingNormalized': 91, 'differentLive': 129}. Live publication remains incomplete; deployment status must be established independently.",
       "evidence": "archive/halloween2019-forum-clock-and-latest-course-publication-comparison-20261011.json",
-      "latestRailwayDashboardReview": "archive/halloween2019-six-row-current-publication-and-a81a-deployment-check-20261012.json",
+      "latestRailwayDashboardReview": "archive/halloween2019-current269-row-live-publication-comparison-20261012.json",
       "latestDeploymentReview": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
       "latestReviewAudit": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
-      "latestDeploymentStatusAudit": "archive/halloween2019-six-row-current-publication-and-a81a-deployment-check-20261012.json",
-      "latestPushedCommit": "a81a09ccd1b996c1e2d984aaf1826be6ad19d663",
+      "latestDeploymentStatusAudit": "archive/halloween2019-current269-row-live-publication-comparison-20261012.json",
+      "latestPushedCommit": "2049c3a12c7460ff4598858b8ac48a57f03b5ebc",
       "latestDeploymentId": "7005731508",
-      "latestDeploymentState": "in_progress",
-      "railwayDeploymentId": "754b06ee-35ff-44eb-879c-60218408a469",
-      "additionalLatestQueuedCommitObservation": "archive/halloween2019-tome13463-live-successor-caption-and-current-deployment-review-20261012.json"
+      "latestDeploymentState": "Queued",
+      "railwayDeploymentId": "86a91fa8-cee7-4fa5-bc0c-d9eb47433c48",
+      "additionalLatestQueuedCommitObservation": "archive/halloween2019-tome13463-live-successor-caption-and-current-deployment-review-20261012.json",
+      "latestFullScopedLiveDataComparison": "archive/halloween2019-current269-row-live-publication-comparison-20261012.json"
     },
     {
       "id": "tome-ddj-13538-date",
@@ -873,5 +874,6 @@
   "latestUpOriginalVideoPublicationClockRecovery": "archive/halloween2019-two-up-original-video-publication-clock-recovery-20261012.json",
   "latestFourUnavailableToadVideoPreservationCensus": "archive/halloween2019-four-unavailable-toad-video-local-metadata-and-backup-census-20261012.json",
   "latestEightRowRegenerationProvenanceRepair": "archive/halloween2019-current-eight-row-regeneration-provenance-repair-20261012.json",
-  "latestMeester13023OriginalAttachmentPreservation": "archive/halloween2019-meester13023-original-discord-attachment-preservation-20261012.json"
+  "latestMeester13023OriginalAttachmentPreservation": "archive/halloween2019-meester13023-original-discord-attachment-preservation-20261012.json",
+  "latest269RowLivePublicationComparison": "archive/halloween2019-current269-row-live-publication-comparison-20261012.json"
 }
