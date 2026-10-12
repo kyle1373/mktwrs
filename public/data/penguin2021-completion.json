@@ -1,0 +1,83 @@
+{
+  "tourId": "tour-59",
+  "tour": "Penguin Tour",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-12-15T06:00:00Z",
+    "endExclusive": "2021-12-29T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-vanilla-lake-2",
+      "archivedWr": "0:31.22",
+      "fastestDocumentedAvailableRecording": "0:31.22",
+      "recordingPlayerId": "nu11",
+      "officialAnonymousFasterReport": "0:31.21"
+    },
+    {
+      "id": "gba-bowser-s-castle-2r",
+      "archivedWr": "1:19.17",
+      "fastestDocumentedAvailableRecording": "1:19.17",
+      "recordingPlayerId": "nu11",
+      "officialAnonymousFasterReport": "1:18.58"
+    }
+  ],
+  "evidence": [
+    "archive/penguin2021-original-results-practical-review-20261012.json",
+    "archive/penguin-2021-reconciliation.json",
+    "archive/penguin2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/penguin2021-selected-recording-r2-preservation-20261012.json",
+    "archive/penguin2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/penguin-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 116,
+      "submissionMessagesRead": 149,
+      "discussionUniqueMessagesRead": 274,
+      "discussionImagesVisuallyReviewed": 12,
+      "originalVideosDownloadedAndVisuallyReviewed": 10,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 105
+  },
+  "remainingLimitations": [
+    "Nu11 opening sub-32 exact total is lost. Wins 31.87 WR ordering remains unresolved; later Phillish 32.13 and Lélé 32.10 are not WRs.",
+    "Astre 32.52, Wins 32.00 and Nu11 31.80 previous-best timestamps are unknown.",
+    "cabotsikalut submission matches Hilton 32.69 on final board, but profile identity remains unresolved.",
+    "Anonymous offsite 1:18.58 / 31.21 claims are unverified; no real player attribution or accepted proof was recovered. Offsite 20211228_123126.jpg failed to download.",
+    "FEX-obscured image, explicitly fake 1:11.11, unresolved 1:00.42 and parody 1:18.57 are excluded from WR progression.",
+    "Both final original social recordings now preserved on R2; deleted YouTube mirror does not remove recovered original Bowser footage. Nintendo anonymous faster totals remain documented without invented player identity.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 894,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      26,
+      44
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "snes-vanilla-lake-2",
+        "reviewedRows": 70,
+        "differences": 0
+      },
+      {
+        "courseId": "gba-bowser-s-castle-2r",
+        "reviewedRows": 46,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-60"
+}
