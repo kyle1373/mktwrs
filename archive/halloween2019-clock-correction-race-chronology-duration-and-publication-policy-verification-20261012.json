@@ -1,0 +1,169 @@
+{
+  "sourceCommit": "00513576144bc1bbb6ebd00a2260f9e8a922569e",
+  "baselineCommit": "60034bddd818dbc96f2618138aee11bdf06461ed",
+  "reviewedAt": "2026-10-12T08:53:13.469Z",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "rows": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "before": 25,
+      "after": 25,
+      "sameIds": true,
+      "storedOrderUnchanged": true,
+      "playerChronologyOrderUnchanged": false
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "before": 124,
+      "after": 124,
+      "sameIds": true,
+      "storedOrderUnchanged": true,
+      "playerChronologyOrderUnchanged": false
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "before": 14,
+      "after": 14,
+      "sameIds": true,
+      "storedOrderUnchanged": true,
+      "playerChronologyOrderUnchanged": false
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "before": 66,
+      "after": 66,
+      "sameIds": true,
+      "storedOrderUnchanged": true,
+      "playerChronologyOrderUnchanged": false
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "before": 22,
+      "after": 22,
+      "sameIds": true,
+      "storedOrderUnchanged": true,
+      "playerChronologyOrderUnchanged": true
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "before": 37,
+      "after": 37,
+      "sameIds": true,
+      "storedOrderUnchanged": true,
+      "playerChronologyOrderUnchanged": false
+    }
+  ],
+  "differences": [],
+  "openingDayOmissionsUnchanged": true,
+  "openingDayOmittedRecordIds": [
+    "curated-636488639341264898-2019-image-support",
+    "curated-636533102411251753-previous-12898-opening2019-recheck",
+    "curated-original-2019-wr-row-10",
+    "curated-original-2019-wr-row-11",
+    "curated-original-2019-wr-row-12",
+    "curated-original-2019-wr-row-27",
+    "curated-original-2019-wr-row-28",
+    "curated-original-2019-wr-row-29",
+    "curated-original-2019-wr-row-30",
+    "curated-original-2019-wr-row-31",
+    "curated-original-2019-wr-row-4",
+    "curated-original-2019-wr-row-5",
+    "curated-original-2019-wr-row-6",
+    "curated-original-2019-wr-row-7",
+    "curated-original-2019-wr-row-8",
+    "curated-original-2019-wr-row-9"
+  ],
+  "tourId": "tour-3",
+  "completionDecision": "Halloween2019 remains incomplete; this audit verifies clock-correction invariants only.",
+  "comparisonScope": "Three course files in committed Git snapshots; tour start2019-10-23, achieved/submitted/observed day withinOct23–Nov5, or Halloween/original-2019-wr-row ID. Includes records and raw submissions.",
+  "comparisonFields": [
+    "id",
+    "timeCs",
+    "time",
+    "playerId",
+    "achievedAt",
+    "recordDate",
+    "chronologyDate",
+    "datePrecision",
+    "dateUnresolved",
+    "tourDateRange",
+    "durationDays",
+    "durationIntervals",
+    "status",
+    "laps"
+  ],
+  "courseHistoryEventsUnchanged": true,
+  "scopedWrStatisticsUnchanged": true,
+  "playerPageChronologyReview": [
+    {
+      "playerId": "unreal91",
+      "date": "2019-10-24",
+      "courseId": "3ds-neo-bowser-city",
+      "before": [
+        "1:26.08",
+        "1:26.13"
+      ],
+      "after": [
+        "1:26.13",
+        "1:26.08"
+      ],
+      "disposition": "Same-day improvement now precedes successor; image-post time no longer treated as race clock."
+    },
+    {
+      "playerId": "nu11",
+      "courseId": "3ds-toad-circuit",
+      "changes": [
+        {
+          "date": "2019-10-26",
+          "before": [
+            "1:04.73",
+            "1:04.83"
+          ],
+          "after": [
+            "1:04.83",
+            "1:04.73"
+          ]
+        },
+        {
+          "date": "2019-10-27",
+          "before": [
+            "1:04.54",
+            "1:04.68"
+          ],
+          "after": [
+            "1:04.68",
+            "1:04.54"
+          ]
+        }
+      ],
+      "disposition": "Same-day improvements now precede successors; creator report time no longer treated as race clock."
+    }
+  ],
+  "playerPageReviewScope": "Published Halloween records across the three courses, grouped by player; only Unreal91 and Nu11 scoped record order changed. Generic comparator order for all raw submissions is not asserted unchanged.",
+  "publicationObservation": {
+    "deploymentId": "7db3066f-f5b4-4150-b777-9d672b73a038",
+    "sourceCommit": "60034bddd818dbc96f2618138aee11bdf06461ed",
+    "status": "Queued",
+    "phase": "Waiting for build slot",
+    "initialization": "Not started",
+    "build": "Not started",
+    "deploy": "Not started",
+    "network": "Not started",
+    "postDeploy": "Not started",
+    "exportFixOutcomeVerified": false,
+    "gitHubAccessAlreadyConfirmed": true
+  },
+  "limitations": [
+    "This is a committed-data comparison against the export-exclusion-fix baseline, not a fresh visual or original-source review.",
+    "Stored race/date/lap/identity and duration data, course history event order, scoped WR statistics and opening-day omitted IDs are unchanged. Comparator order may change when misleading report timestamps are cleared.",
+    "The live-publication comparison remains a separate earlier snapshot; current HEAD is not certified deployed.",
+    "Six undated results, unresolved source/identity/lap questions, missing or unreviewed images, and full recording continuity still prevent Halloween completion. No certified-through date."
+  ]
+}
