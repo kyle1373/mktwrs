@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-20",
+  "tour": "Peach Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-06-17T06:00:00Z",
+    "endExclusive": "2020-07-01T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "n64-frappe-snowland-r",
+      "archivedWr": "1:20.85",
+      "fastestDocumentedAvailableRecording": "1:21.05",
+      "recordingPlayerId": "tomegome"
+    },
+    {
+      "id": "rmx-mario-circuit-1",
+      "archivedWr": "1:30.38",
+      "fastestDocumentedAvailableRecording": "1:30.38",
+      "recordingPlayerId": "superfx"
+    }
+  ],
+  "evidence": [
+    "archive/peach2020-original-results-practical-review-20261012.json",
+    "archive/peach2020-recovered-video-inventory.json",
+    "archive/peach-2020-reconciliation.json",
+    "archive/peach2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/peach2020-selected-recording-r2-preservation-20261012.json",
+    "archive/peach2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/peach2020-discussion-review-progress.json",
+    "discussionMessagesRead": 1874,
+    "preservedImagesVisuallyReviewed": 230,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 57
+  },
+  "remainingLimitations": [
+    "Kazuo 1:20.85 full Frappe recording not recovered; Tomegome 1:21.05 retained.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      1,
+      1
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "n64-frappe-snowland-r",
+        "reviewedRows": 63,
+        "differences": 0
+      },
+      {
+        "courseId": "rmx-mario-circuit-1",
+        "reviewedRows": 71,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-21"
+}
