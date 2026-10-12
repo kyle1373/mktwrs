@@ -1,0 +1,23 @@
+{
+  "bucket": "mktwrs-media",
+  "accountId": "a868d426e15ae36b220e95d03914113d",
+  "domain": "media.mktwrs.com",
+  "bucketCreated": true,
+  "customDomainConnected": true,
+  "customDomainLastObservedStatus": "Initializing",
+  "objects": 11864,
+  "bytes": 7209157689,
+  "uploaded": false,
+  "dashboardLimit": 100,
+  "bulkUploadCommand": "python scripts/r2-media.py upload",
+  "verifyCommand": "python scripts/r2-media.py verify",
+  "credentialProfile": "mktwrs-r2",
+  "redirectActivation": "Set MKTWRS_MEDIA_ORIGIN=https://media.mktwrs.com only after verification",
+  "deploymentAssetExclusionApplied": false,
+  "remaining": [
+    "Create bucket-scoped upload credential and configure local AWS profile securely",
+    "Upload all assets preserving assets/ paths and verify object MD5/size",
+    "Check custom domain and sample image/video delivery",
+    "Activate redirect, then exclude migrated assets from deployment source and verify reduced size"
+  ]
+}
