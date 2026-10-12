@@ -1,3 +1,17 @@
+export function applySubmissionSourceEvidence(submission, reviews) {
+  const review = reviews[submission.id];
+  if (!review) return false;
+  if (submission.courseId !== review.courseId || submission.playerId !== review.playerId ||
+      submission.time !== review.time || submission.video !== review.video)
+    throw Error("Submission source evidence mismatch: " + submission.id);
+  const allowed = new Set(["videoPublishedAt", "videoPublicationSource", "videoReferenceReview"]);
+  for (const [key, value] of Object.entries(review.evidence)) {
+    if (!allowed.has(key)) throw Error("Unsupported submission evidence field: " + key);
+    submission[key] = value;
+  }
+  return true;
+}
+
 function recordingIdentity(value) {
   try {
     const url = new URL(value);
@@ -612,6 +626,10 @@ export function importSources(courses, players) {
       p.records.push(published.id);
     }
   }
+  const sourceEvidence = fs.existsSync("archive/submission-source-evidence.json")
+    ? JSON.parse(fs.readFileSync("archive/submission-source-evidence.json", "utf8")) : {};
+  for (const course of courses) for (const submission of course.submissions)
+    applySubmissionSourceEvidence(submission, sourceEvidence);
   const videoRejections = fs.existsSync("archive/submission-video-rejections.json")
     ? JSON.parse(fs.readFileSync("archive/submission-video-rejections.json", "utf8")) : {};
   for (const course of courses) for (const submission of course.submissions)

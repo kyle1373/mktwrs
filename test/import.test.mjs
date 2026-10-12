@@ -10,6 +10,7 @@ import {
   recordAppearance,
   exactReviewedRecordSubmission,
   enrichRecordingEvidence,
+  applySubmissionSourceEvidence,
 } from "../scripts/import-sources.mjs";
 test("historical announcement tour wins over its later posting date", () => {
   const appearances = [
@@ -122,4 +123,17 @@ test("equal totals cannot transfer recording metadata across players, courses, o
     assert.equal(enrichRecordingEvidence(target,[{...donor,...change}]),false);
     assert.equal(target.videoPublishedAt,undefined);
   }
+});
+
+
+test("reviewed sheet video publication survives rebuilding without changing race dates or footage scope", () => {
+  const row = {id:"sheet-AH33",courseId:"toad",playerId:"edd",time:"1:09.71",video:"https://youtu.be/q12wOiA8qlQ",achievedAt:"2019-10-23",submittedAt:null};
+  const review = {courseId:row.courseId,playerId:row.playerId,time:row.time,video:row.video,evidence:{videoPublishedAt:"2019-10-23T22:34:53Z",videoReferenceReview:{fullRaceVerified:false}}};
+  assert.equal(applySubmissionSourceEvidence(row,{[row.id]:review}),true);
+  assert.equal(row.videoPublishedAt,review.evidence.videoPublishedAt);
+  assert.equal(row.videoReferenceReview.fullRaceVerified,false);
+  assert.equal(row.achievedAt,"2019-10-23");
+  assert.equal(row.submittedAt,null);
+  assert.throws(()=>applySubmissionSourceEvidence({...row,time:"1:09.70"},{[row.id]:review}),/mismatch/);
+  assert.throws(()=>applySubmissionSourceEvidence({...row},{[row.id]:{...review,evidence:{achievedAt:"2019-10-24"}}}),/Unsupported/);
 });
