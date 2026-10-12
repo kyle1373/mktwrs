@@ -1,0 +1,86 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCommit": "6a87bd350203b59246eeddfda813c67564064c93",
+  "problem": "Reviewed Nova 1:04.99 resultReportEvents were retained in the downloadable course evidence but omitted from the route presentation and evidence timing component.",
+  "change": "Project only reviewed report timestamps, source URLs and original-runner flag. Display runner and third-party result reports separately from submission clocks and explicitly leave the exact race completion time unconfirmed.",
+  "recordId": "curated-original-2019-wr-row-18",
+  "time": "1:04.99",
+  "reportedAt": "2019-10-25T10:04:36.476Z",
+  "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/637230022293323806",
+  "originalRunnerSubmission": false,
+  "priorSourceReview": "archive/halloween2019-nova10499-original-named-result-report-and-three-video-access-review-20261011.json",
+  "validation": {
+    "renderTestsPassed": 5,
+    "productionBuild": "Next.js 16.3.7 succeeded; 910 static pages",
+    "scopedRowFidelity": {
+      "summary": [
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "records",
+          "publicRows": 25,
+          "generatedRows": 25,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "submissions",
+          "publicRows": 113,
+          "generatedRows": 113,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "records",
+          "publicRows": 14,
+          "generatedRows": 14,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "submissions",
+          "publicRows": 63,
+          "generatedRows": 63,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "records",
+          "publicRows": 22,
+          "generatedRows": 22,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "submissions",
+          "publicRows": 32,
+          "generatedRows": 32,
+          "sameIds": true,
+          "aggregateMatches": true
+        }
+      ],
+      "differences": []
+    },
+    "canonicalOrPublicRowChanges": false,
+    "freshSourceOrVisualReview": false
+  },
+  "publication": {
+    "status": "local-change-verified-live-unverified",
+    "repositoryAccess": "Existing Railway App installation 94890809 already includes kyle1373/mktwrs; no new grant needed.",
+    "lastObservedDeploymentId": "8bed34ea-34dc-4d3b-aa29-86ac378500ee",
+    "lastObservedDeploymentCommit": "6a87bd35",
+    "state": "Queued: Waiting for build slot; older deployment still active."
+  },
+  "limitations": [
+    "Original report timestamp retained at millisecond precision in route data; UI follows the existing whole-second display format.",
+    "Report posting timestamp does not establish the race completion time or an original runner submission.",
+    "All existing Halloween source, image, recording and chronology gaps remain open. No tour completion or certified-through date asserted."
+  ]
+}
