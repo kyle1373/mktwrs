@@ -17,7 +17,7 @@ export function applySubmissionSourceEvidence(submission, reviews) {
       (review.sourceUrl && submission.source?.url !== review.sourceUrl))
     throw Error("Submission source evidence mismatch: " + submission.id);
   const allowed = new Set(["videoPublishedAt", "videoPublicationSource", "videoReferenceReview",
-    "videoShareEvents", "resultReportEvents", "additionalSources"]);
+    "videoShareEvents", "resultReportEvents", "additionalSources", "videoScope", "videoScopeReview", "videoVerified"]);
   for (const [key, value] of Object.entries(review.evidence)) {
     if (!allowed.has(key)) throw Error("Unsupported submission evidence field: " + key);
     submission[key] = value;

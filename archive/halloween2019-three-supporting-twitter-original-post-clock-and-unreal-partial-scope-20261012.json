@@ -1,0 +1,76 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceSnapshot": "archive/halloween2019-three-supporting-twitter-source-snapshot-20261012.json",
+  "changes": [
+    {
+      "id": "sheet-AH15",
+      "evidence": {
+        "videoPublishedAt": "2019-10-25T14:17:25Z",
+        "videoPublicationSource": {
+          "url": "https://x.com/UnrealMK91/status/1187734914378145795",
+          "originalSheetUrl": "https://twitter.com/LewMK91/status/1187734914378145795",
+          "platform": "Twitter",
+          "postId": "1187734914378145795",
+          "publishedAt": "2019-10-25T14:17:25Z",
+          "sourcePath": "archive/halloween2019-three-supporting-twitter-source-snapshot-20261012.json",
+          "reviewAudit": "archive/halloween2019-three-supporting-twitter-original-post-clock-and-unreal-partial-scope-20261012.json",
+          "basis": "source-created-timestamp-and-post-id-clock-agree",
+          "freshFootageReviewed": false
+        },
+        "videoVerified": false,
+        "videoScope": "single-lap-clip",
+        "videoScopeReview": {
+          "reviewAudit": "archive/halloween2019-three-supporting-twitter-original-post-clock-and-unreal-partial-scope-20261012.json",
+          "sourcePath": "archive/halloween2019-three-supporting-twitter-source-snapshot-20261012.json",
+          "caption": "32.43 Lap2 split, my best is 32.42 in WR run.",
+          "metadataDuration": 38.166,
+          "startToFinishContinuityVerified": false,
+          "freshFootageReviewed": false,
+          "status": "caption-identifies-lap2-clip-not-complete-race",
+          "basis": "Caption explicitly reports 32.43 Lap2; no full 1:05.28 total in recovered post. Metadata duration corroborates clip limitation without visual race inspection."
+        }
+      }
+    },
+    {
+      "id": "sheet-AH36",
+      "evidence": {
+        "videoPublishedAt": "2019-10-25T08:02:25Z",
+        "videoPublicationSource": {
+          "url": "https://x.com/emibeaar9/status/1187640544421302272",
+          "originalSheetUrl": "https://twitter.com/spookythot9/status/1187640544421302272",
+          "platform": "Twitter",
+          "postId": "1187640544421302272",
+          "publishedAt": "2019-10-25T08:02:25Z",
+          "sourcePath": "archive/halloween2019-three-supporting-twitter-source-snapshot-20261012.json",
+          "reviewAudit": "archive/halloween2019-three-supporting-twitter-original-post-clock-and-unreal-partial-scope-20261012.json",
+          "basis": "source-created-timestamp-and-post-id-clock-agree",
+          "freshFootageReviewed": false
+        }
+      }
+    }
+  ],
+  "unrecoveredPost": {
+    "url": "https://api.fxtwitter.com/MKWAnthony/status/1187272026630717441",
+    "postId": "1187272026630717441",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "exaSourceFetch": "All three exact Twitter source URLs reported SOURCE_NOT_AVAILABLE; secondary public metadata recovered two.",
+  "limitations": [
+    "Unreal caption identifies only Lap2; original reference is preserved and sheet time/splits/day remain documentary. This does not link the clip to the earlier Discord 1:05.28 attempt.",
+    "spookythot current caption contains only mentions; post clock recovered but total, course and complete footage remain unverified. Existing sheet attribution retained without new identity claims.",
+    "Antho original post not recovered; HTTP404 does not prove permanent loss.",
+    "No fresh image or footage pixels reviewed; no fastest-recording or WR progression promotion."
+  ],
+  "validation": {
+    "postIdsMatchMetadata": true,
+    "postIdClocksAgreeWithinOneSecond": true,
+    "scopedRows": 269,
+    "generatedDifferences": 0,
+    "aggregateMatches": true,
+    "exactSourceMismatchRejected": true,
+    "partialClipExcludedFromFastestVideo": true
+  }
+}
