@@ -1,0 +1,87 @@
+{
+  "reviewedAt": "2026-10-12T05:04:23.775986+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "withdrawnCommit": "dfaa91bb",
+  "withdrawnAudit": "archive/halloween2019-nova-two-original-image-visible-content-review-20261012.json",
+  "reason": "Both image tool outputs were exactly: [Image from an earlier turn omitted from this Azure request. The saved Codex chat is unchanged.] No actual pixels were supplied.",
+  "canonicalIds": [
+    "original-2019-wr-row-15",
+    "original-2019-wr-row-16",
+    "original-2019-wr-row-17"
+  ],
+  "actions": [
+    "Restored the three canonical entries and both public course projections from the pre-claim commit.",
+    "Removed new proof verification and originalImageContentReview claims for 1:05.11 and 1:05.03.",
+    "Removed unsupported successor-image previous-best corroboration for 1:05.04.",
+    "Restored retained-image queue to ten gaps with two recovered files pending content review.",
+    "Marked the prior audit withdrawn while retaining it as an explicitly invalid historical claim."
+  ],
+  "raceTotalsDatesAndSplitsChanged": false,
+  "originalFileRecoveryAndProvenanceRetained": true,
+  "retainedImageGaps": 10,
+  "recoveredFilesPendingContentReview": 2,
+  "limitations": [
+    "No fresh image content verification completed. No full-race recording or completion certification established."
+  ],
+  "regenerationValidation": {
+    "summary": [
+      {
+        "courseId": "3ds-toad-circuit",
+        "collection": "records",
+        "publicRows": 25,
+        "generatedRows": 25,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "3ds-toad-circuit",
+        "collection": "submissions",
+        "publicRows": 113,
+        "generatedRows": 113,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "collection": "records",
+        "publicRows": 14,
+        "generatedRows": 14,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "collection": "submissions",
+        "publicRows": 63,
+        "generatedRows": 63,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle",
+        "collection": "records",
+        "publicRows": 22,
+        "generatedRows": 22,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle",
+        "collection": "submissions",
+        "publicRows": 32,
+        "generatedRows": 32,
+        "sameIds": true,
+        "aggregateMatches": true
+      }
+    ],
+    "differences": []
+  },
+  "targetedTests": {
+    "passed": 11,
+    "failed": 0,
+    "scope": "Opening-day publication and fastest-recording selection behavior; tests do not validate image pixels."
+  },
+  "nextEvidenceWork": "Continue text provenance, source recovery and publication review. Do not retry the same image-display path without a material capability change; omission placeholders cannot support visual observations."
+}

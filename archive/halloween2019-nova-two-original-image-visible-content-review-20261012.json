@@ -3,125 +3,140 @@
   "tourId": "tour-3",
   "historyComplete": false,
   "certifiedThrough": null,
-  "sourceCommit": "ccc1b5b64917c19c5dabe776d0643bb46e8dc6be",
-  "rows": [
-    {
-      "canonicalId": "original-2019-wr-row-15",
-      "time": "1:05.11",
-      "originalFile": "archive/halloween2019-nova10511-source-recovery/EHo-sR6UwAAiat2-original.jpg",
-      "originalSha256": "692611db06e4ddd6cb73cdc2c29ef32a9ee623f16842219e3b5cf55a7ddca9e7",
-      "originalBytes": 90602,
-      "proofImageLocal": "/assets/proof/halloween2019-nova10511-original.webp",
-      "freshPixelsReviewed": true,
-      "visibleTotal": "1:05.11",
-      "visibleSplits": false,
-      "exactAchievementClockEstablished": false,
-      "resultKind": "post-race-course-scene",
-      "visiblePreviousBest": null,
-      "visibleLapCounter": "2/2",
-      "visibleDriver": "Toad",
-      "courseBasis": "Visible Toad Circuit minimap, yellow supports and finish-area scene",
-      "attributionBasis": "Preserved original 40pairs post/account provenance and exact documentary row image token; no named player displayed in image"
-    },
-    {
-      "canonicalId": "original-2019-wr-row-17",
-      "time": "1:05.03",
-      "originalFile": "archive/halloween2019-nova10503-source-recovery/EHqC0S6U0AAPAX5-original.jpg",
-      "originalSha256": "ed2aa1e3ad89d000d4b38e3d177b1e2781775285afb5871195edf327cd247b68",
-      "originalBytes": 85154,
-      "proofImageLocal": "/assets/proof/halloween2019-nova10503-original.webp",
-      "freshPixelsReviewed": true,
-      "visibleTotal": "1:05.03",
-      "visibleSplits": false,
-      "exactAchievementClockEstablished": false,
-      "resultKind": "new-record-result-panel",
-      "visiblePreviousBest": "1:05.04",
-      "visibleLapCounter": null,
-      "visibleDriver": null,
-      "courseBasis": "Exact original-post image reference and documentary course assignment; blurred background alone not used to identify course",
-      "attributionBasis": "Preserved original 40pairs post/account provenance and exact documentary row image token; no named player displayed in image"
-    }
-  ],
-  "previousBestCorroboration": {
-    "canonicalId": "original-2019-wr-row-16",
-    "time": "1:05.04",
-    "ownOriginalImageStillUnrecovered": true
-  },
-  "supersedesContentPendingClaims": [
-    "archive/halloween2019-nova-two-omitted-local-image-claim-withdrawal-20261012.json"
-  ],
-  "validation": {
-    "actualPixelsReturnedThisTurn": true,
-    "originalBytesMatchCommittedSources": true,
-    "totalsAndLapsAndAchievementDatesAndSubmissionClocksUnchanged": true
-  },
-  "limitations": [
-    "Earlier image calls returned omission placeholders and were correctly withdrawn. Current tool responses contain actual visible pixels; this audit records a new inspection and does not validate those earlier attempts.",
-    "Neither image establishes a completed full-race recording or exact achievement instant. Existing documentary achievement dates and unknown splits remain unchanged.",
-    "Nova attribution follows preserved original post/account provenance; unnamed image alone is not an identity source.",
-    "The 1:05.04 predecessor own original proof remains unrecovered; successor previous-best corroboration is distinct evidence."
-  ],
-  "regenerationValidation": {
-    "summary": [
+  "status": "withdrawn-unsupported-image-content-claims",
+  "withdrawalAudit": "archive/halloween2019-nova-two-third-omitted-image-claim-withdrawal-20261012.json",
+  "freshPixelsReviewed": false,
+  "contentsVerified": false,
+  "withdrawnReview": {
+    "reviewedAt": "2026-10-12T05:02:15.408305+00:00",
+    "tourId": "tour-3",
+    "historyComplete": false,
+    "certifiedThrough": null,
+    "sourceCommit": "ccc1b5b64917c19c5dabe776d0643bb46e8dc6be",
+    "rows": [
       {
-        "courseId": "3ds-toad-circuit",
-        "collection": "records",
-        "publicRows": 25,
-        "generatedRows": 25,
-        "sameIds": true,
-        "aggregateMatches": true
+        "canonicalId": "original-2019-wr-row-15",
+        "time": "1:05.11",
+        "originalFile": "archive/halloween2019-nova10511-source-recovery/EHo-sR6UwAAiat2-original.jpg",
+        "originalSha256": "692611db06e4ddd6cb73cdc2c29ef32a9ee623f16842219e3b5cf55a7ddca9e7",
+        "originalBytes": 90602,
+        "proofImageLocal": "/assets/proof/halloween2019-nova10511-original.webp",
+        "freshPixelsReviewed": true,
+        "visibleTotal": "1:05.11",
+        "visibleSplits": false,
+        "exactAchievementClockEstablished": false,
+        "resultKind": "post-race-course-scene",
+        "visiblePreviousBest": null,
+        "visibleLapCounter": "2/2",
+        "visibleDriver": "Toad",
+        "courseBasis": "Visible Toad Circuit minimap, yellow supports and finish-area scene",
+        "attributionBasis": "Preserved original 40pairs post/account provenance and exact documentary row image token; no named player displayed in image"
       },
       {
-        "courseId": "3ds-toad-circuit",
-        "collection": "submissions",
-        "publicRows": 113,
-        "generatedRows": 113,
-        "sameIds": true,
-        "aggregateMatches": true
-      },
-      {
-        "courseId": "3ds-neo-bowser-city",
-        "collection": "records",
-        "publicRows": 14,
-        "generatedRows": 14,
-        "sameIds": true,
-        "aggregateMatches": true
-      },
-      {
-        "courseId": "3ds-neo-bowser-city",
-        "collection": "submissions",
-        "publicRows": 63,
-        "generatedRows": 63,
-        "sameIds": true,
-        "aggregateMatches": true
-      },
-      {
-        "courseId": "gcn-dino-dino-jungle",
-        "collection": "records",
-        "publicRows": 22,
-        "generatedRows": 22,
-        "sameIds": true,
-        "aggregateMatches": true
-      },
-      {
-        "courseId": "gcn-dino-dino-jungle",
-        "collection": "submissions",
-        "publicRows": 32,
-        "generatedRows": 32,
-        "sameIds": true,
-        "aggregateMatches": true
+        "canonicalId": "original-2019-wr-row-17",
+        "time": "1:05.03",
+        "originalFile": "archive/halloween2019-nova10503-source-recovery/EHqC0S6U0AAPAX5-original.jpg",
+        "originalSha256": "ed2aa1e3ad89d000d4b38e3d177b1e2781775285afb5871195edf327cd247b68",
+        "originalBytes": 85154,
+        "proofImageLocal": "/assets/proof/halloween2019-nova10503-original.webp",
+        "freshPixelsReviewed": true,
+        "visibleTotal": "1:05.03",
+        "visibleSplits": false,
+        "exactAchievementClockEstablished": false,
+        "resultKind": "new-record-result-panel",
+        "visiblePreviousBest": "1:05.04",
+        "visibleLapCounter": null,
+        "visibleDriver": null,
+        "courseBasis": "Exact original-post image reference and documentary course assignment; blurred background alone not used to identify course",
+        "attributionBasis": "Preserved original 40pairs post/account provenance and exact documentary row image token; no named player displayed in image"
       }
     ],
-    "differences": []
+    "previousBestCorroboration": {
+      "canonicalId": "original-2019-wr-row-16",
+      "time": "1:05.04",
+      "ownOriginalImageStillUnrecovered": true
+    },
+    "supersedesContentPendingClaims": [
+      "archive/halloween2019-nova-two-omitted-local-image-claim-withdrawal-20261012.json"
+    ],
+    "validation": {
+      "actualPixelsReturnedThisTurn": true,
+      "originalBytesMatchCommittedSources": true,
+      "totalsAndLapsAndAchievementDatesAndSubmissionClocksUnchanged": true
+    },
+    "limitations": [
+      "Earlier image calls returned omission placeholders and were correctly withdrawn. Current tool responses contain actual visible pixels; this audit records a new inspection and does not validate those earlier attempts.",
+      "Neither image establishes a completed full-race recording or exact achievement instant. Existing documentary achievement dates and unknown splits remain unchanged.",
+      "Nova attribution follows preserved original post/account provenance; unnamed image alone is not an identity source.",
+      "The 1:05.04 predecessor own original proof remains unrecovered; successor previous-best corroboration is distinct evidence."
+    ],
+    "regenerationValidation": {
+      "summary": [
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "records",
+          "publicRows": 25,
+          "generatedRows": 25,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "submissions",
+          "publicRows": 113,
+          "generatedRows": 113,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "records",
+          "publicRows": 14,
+          "generatedRows": 14,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "submissions",
+          "publicRows": 63,
+          "generatedRows": 63,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "records",
+          "publicRows": 22,
+          "generatedRows": 22,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "submissions",
+          "publicRows": 32,
+          "generatedRows": 32,
+          "sameIds": true,
+          "aggregateMatches": true
+        }
+      ],
+      "differences": []
+    },
+    "deploymentObservation": {
+      "checkedRepositoryHead": "ccc1b5b64917c19c5dabe776d0643bb46e8dc6be",
+      "queuedDeploymentId": "f83d0c44-a419-41a4-9b23-cceafe34cc4b",
+      "queuedTitle": "Link Halloween publication clock citations to preserved metadata",
+      "state": "Queued",
+      "detail": "Waiting for build slot",
+      "activeDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
+      "activeTitle": "Confirm published preservation and chronology audits",
+      "newImageChangesLiveVerified": false
+    }
   },
-  "deploymentObservation": {
-    "checkedRepositoryHead": "ccc1b5b64917c19c5dabe776d0643bb46e8dc6be",
-    "queuedDeploymentId": "f83d0c44-a419-41a4-9b23-cceafe34cc4b",
-    "queuedTitle": "Link Halloween publication clock citations to preserved metadata",
-    "state": "Queued",
-    "detail": "Waiting for build slot",
-    "activeDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
-    "activeTitle": "Confirm published preservation and chronology audits",
-    "newImageChangesLiveVerified": false
-  }
+  "limitations": [
+    "Both view_image tool responses were omission placeholders and supplied no visible pixels. No total, course, driver, lap counter or previous-best observation is supported by those calls.",
+    "Exact original files and archived-post provenance remain preserved; content review remains pending.",
+    "Regeneration match confirms data propagation only and cannot validate image claims."
+  ]
 }
