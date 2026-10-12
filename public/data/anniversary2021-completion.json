@@ -1,0 +1,91 @@
+{
+  "tourId": "tour-53",
+  "tour": "2nd Anniversary Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-09-22T06:00:00Z",
+    "endExclusive": "2021-10-06T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "berlin-byways-2",
+      "archivedWr": "1:23.38",
+      "fastestDocumentedAvailableRecording": "1:23.38",
+      "recordingPlayerId": "astre"
+    },
+    {
+      "id": "sydney-sprint",
+      "archivedWr": "1:29.10",
+      "fastestDocumentedAvailableRecording": "1:29.10",
+      "recordingPlayerId": "nhspeedy"
+    }
+  ],
+  "evidence": [
+    "archive/anniversary2021-original-results-practical-review-20261012.json",
+    "archive/second-anniversary-2021-reconciliation.json",
+    "archive/anniversary2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/anniversary2021-selected-recording-r2-preservation-20261012.json",
+    "archive/anniversary2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/second-anniversary-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 155,
+      "capturedSubmissionMessagesRead": 160,
+      "discussionContinuousWindowsRead": 57,
+      "discussionUniqueMessagesRead": 870,
+      "discussionMessagesWithinUTCDateWindow": 856,
+      "discussionSearchReportedMessages": 852,
+      "attachedTechniqueClipsDownloadedAndReviewed": 3,
+      "discussionImageSearchResults": 13,
+      "discussionImagesVisuallyReviewed": 13,
+      "fullOriginalVideosDownloaded": 10,
+      "originalVideosCourseLapAndFinishVisuallyChecked": 10
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 33
+  },
+  "remainingLimitations": [
+    "Kaguya 1:23.54 and 1:29.72 images were found in submissions at 07:28 UTC October 6, after reset. Earlier discussion and final boards corroborate the results, but original run/publication chronology is unresolved; no WR tie is inferred.",
+    "Submission index 522 is a leaderboard screenshot listing Astre, not a new run by the sender.",
+    "Late previous-tour Yoshi Circuit and RMX Vanilla Lake 1R submissions are not results on the two current-tour tracks.",
+    "LaLanterne 1:25.70 was called a WR in its message but is slower than an earlier Berlin 1:24.40 submission and is excluded.",
+    "Romain 1:23.64 and Sucha 1:23.55/1:23.58 recordings are personal best evidence; they did not beat the already-published WR.",
+    "Sucha wrote lap one 42.70 beside the 1:23.55 video; the recording visibly shows 41.70. Preserve the actual lap, not the message typo.",
+    "Nearby Romain 41.75/41.74 = 1:23.49 refers to combined best segments, not one completed run.",
+    "Previous-best fields alone are not assigned the later screenshot date as a race date.",
+    "All three attached technique clips were recovered through their visible Discord download links after direct downloads returned HTTP 403. They show partial course segments, not completed two-lap results. One MOV was found through the full census despite not appearing in has:video search.",
+    "Search reported 852 messages; continuous channel windows contain 856 unique messages within the UTC search-date range, plus 14 surrounding messages. Raw IDs are retained to document the discrepancy.",
+    "October 5 recollection of Donut Plains 1 times is a historical lead, not new dated race evidence. Historical Kalimari Desert 2 and Sunset Wilds R video links already have preservation copies.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 895,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      66,
+      17
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "berlin-byways-2",
+        "reviewedRows": 108,
+        "differences": 0
+      },
+      {
+        "courseId": "sydney-sprint",
+        "reviewedRows": 66,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-54"
+}
