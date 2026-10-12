@@ -1,0 +1,37 @@
+{
+  "reviewedAt": "2026-10-12T05:49:34.894160+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCommit": "e941f10d4d060511814ed9807545d87fc558b78a",
+  "failedDeployment": {
+    "id": "ae88cda2-383c-46b6-9154-eaff2576c378",
+    "commit": "9d15e23db81cd168355407d99b046d63190cb10f",
+    "stage": "Initialization / Snapshot code",
+    "error": "GitHub rejected the credentials Railway used to read kyle1373/mktwrs. The Railway GitHub App access to this repository is no longer valid.",
+    "buildStarted": false
+  },
+  "sourceSettings": {
+    "repository": "kyle1373/mktwrs",
+    "branch": "main",
+    "autoDeployEnabled": true,
+    "repositoryListedInPicker": true
+  },
+  "githubInstallation": {
+    "account": "kyle1373",
+    "app": "Railway App",
+    "installationId": "94890809",
+    "installedAppListed": true,
+    "configurationUrl": "https://github.com/settings/installations/94890809",
+    "configurationStatus": "confirm-access-authentication-required",
+    "repositoryAccessInspected": false,
+    "permissionsChanged": false
+  },
+  "nextAction": "User completes GitHub Confirm access; inspect existing Railway App repository access and refresh only the existing authorized connection before verifying a fresh deployment.",
+  "limitations": [
+    "Installed-app listing does not establish repository permission, valid snapshot credentials or repaired deployment.",
+    "The configuration screen requires passkey, GitHub Mobile, authenticator or email confirmation. No authentication challenge completed or credential requested by the agent.",
+    "No app uninstall, repository disconnect, broader access grant, billing change or source replacement performed.",
+    "Halloween remains incomplete independently of publication; original media and historical evidence questions remain open."
+  ]
+}
