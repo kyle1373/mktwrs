@@ -1,0 +1,41 @@
+{
+  "reviewedAt": "2026-10-12T03:06:47.861569+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "canonicalId": "636853682620858388-opening2019-proof-review",
+  "publicId": "curated-636853682620858388-opening2019-proof-review",
+  "withdrawnAudit": "archive/halloween2019-unreal12659-visible-full-race-sequence-review-20261012.json",
+  "withdrawnCommit": "33a64aa1",
+  "reason": "All view_image responses for the alleged fresh sequence review contained omitted-image placeholders. No actual pixels were available to support the specific GO, overlay, timer and finish observations.",
+  "correctedAssessment": {
+    "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+    "priorVisualReview": "archive/early-original-channel-video-recovery.json",
+    "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
+    "bytes": 4196712,
+    "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
+    "priorResultAndLapReviewRetained": true,
+    "freshFootageReviewed": false,
+    "startToFinishContinuityVerified": false,
+    "status": "full-race-continuity-review-pending",
+    "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof.",
+    "unsupportedCoverageClaimWithdrawal": "archive/halloween2019-unreal12659-unsupported-visible-coverage-withdrawal-20261012.json"
+  },
+  "preservedEvidence": [
+    "Original MP4 remains present and checksummed.",
+    "Extracted one-second contact sheets and result frame remain archived for an actual later review.",
+    "Prior audit result1:26.59 and laps43.33/43.26 are carried, not newly visually certified."
+  ],
+  "publicChange": "Remove unsupported full-run scope and restore continuity-review-pending; original result, laps, date, source clocks, video URL and WR status unchanged.",
+  "limitations": [
+    "This is a correction of evidence strength, not a finding that the recording is partial.",
+    "Fastest full-recording comparison and Halloween certification remain incomplete."
+  ],
+  "validation": {
+    "generatedAndStagedScopeAgree": true,
+    "unsupportedFullRunScopeRemoved": true,
+    "focusedTestsPassed": 11,
+    "focusedTestsFailed": 0,
+    "testScope": "Projection, policy and eligibility behavior only; does not certify visual footage."
+  }
+}

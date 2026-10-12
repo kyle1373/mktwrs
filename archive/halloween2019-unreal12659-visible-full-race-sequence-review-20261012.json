@@ -7,23 +7,17 @@
   "publicId": "curated-636853682620858388-opening2019-proof-review",
   "videoId": "KzDZ2O9_YZM",
   "review": {
-    "reviewAudit": "archive/halloween2019-unreal12659-visible-full-race-sequence-review-20261012.json",
+    "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
     "priorVisualReview": "archive/early-original-channel-video-recovery.json",
     "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
     "bytes": 4196712,
     "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
     "priorResultAndLapReviewRetained": true,
-    "freshFootageReviewed": true,
-    "startToFinishContinuityVerified": true,
-    "status": "full-race-visible-sequence-reviewed",
-    "basis": "Visible one-second frame sequence from video seconds 7 through 94 shows GO, both laps, lap-one 43.33 overlay, monotonically advancing timer, and CLEAR at 1:26.59. Result frame at second97 confirms 1:26.59. No skipped race section observed in this sampled sequence.",
-    "samplingIntervalSeconds": 1,
-    "reviewedVideoSeconds": [
-      7,
-      94
-    ],
-    "resultFrameSecond": 97,
-    "frameByFrameEditForensicAudit": false
+    "freshFootageReviewed": false,
+    "startToFinishContinuityVerified": false,
+    "status": "full-race-continuity-review-pending",
+    "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof.",
+    "unsupportedCoverageClaimWithdrawal": "archive/halloween2019-unreal12659-unsupported-visible-coverage-withdrawal-20261012.json"
   },
   "reviewImages": [
     {
@@ -52,22 +46,26 @@
       "bytes": 104272
     }
   ],
-  "observations": [
+  "limitations": [
+    "Image artifacts remain preserved for future visual review. Their contents were not visually inspected in the cited tool responses.",
+    "Fresh full-race coverage claim and specific in-frame observations withdrawn. Earlier result and lap evidence retained separately.",
+    "No public total, lap, date, identity or WR status is changed by this correction."
+  ],
+  "validation": {
+    "generatorScopeMetadataMatches": false,
+    "reviewImageHashesMatch": true,
+    "focusedRecordingAndOpeningPolicyTestsPassed": 11,
+    "focusedTestsFailed": 0,
+    "status": "Prior tests passed but do not prove actual image observation or footage continuity."
+  },
+  "supersededBy": "archive/halloween2019-unreal12659-unsupported-visible-coverage-withdrawal-20261012.json",
+  "assessmentWithdrawn": true,
+  "unsupportedPriorObservations": [
     "GO at video second7; initial race timer0:01.14 at second8.",
     "First-lap overlay43.33 visible at seconds51–52 and lap2/2 shown.",
     "Second-lap timer progresses through1:26.14 at second93; CLEAR and stopped1:26.59 at second94.",
     "Separate second97 frame confirms stopped1:26.59."
   ],
-  "limitations": [
-    "This is visual coverage review from one-second samples, not every encoded frame or forensic edit detection.",
-    "Original player identity and exact source clocks retained from the linked earlier reviews; no new race date inferred.",
-    "Full-race classification is for Unreal1:26.59 only. Faster Up and Astre video candidates and complete external coverage remain unresolved.",
-    "No total, lap, achievement date, WR status or public fastest-recording selection changed. Production publication not certified."
-  ],
-  "validation": {
-    "generatorScopeMetadataMatches": true,
-    "reviewImageHashesMatch": true,
-    "focusedRecordingAndOpeningPolicyTestsPassed": 11,
-    "focusedTestsFailed": 0
-  }
+  "observations": [],
+  "unsupportedObservationDisposition": "Withdrawn: image tool responses contained omitted-image placeholders, not visible pixels. Frame extraction and checksum verification alone did not support these observations."
 }
