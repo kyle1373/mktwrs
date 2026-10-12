@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "failedDeployment": {
+    "id": "f93677a4-495c-4b38-a1cb-2a4de7b4f2c3",
+    "commit": "8f81171e2e3510ad57b6f963b8888c5e66d2045c",
+    "displayedCreatedAt": "2026-10-11 17:55 PDT",
+    "state": "Failed",
+    "stage": "Initialization / Snapshot code",
+    "durationDisplayed": "1:30:12",
+    "buildDurationDisplayed": "00:00",
+    "error": "GitHub rejected the credentials Railway used to read \"kyle1373/mktwrs\". The Railway GitHub App's access to this repository is no longer valid."
+  },
+  "newerQueue": {
+    "id": "e019fb75-ddac-4c75-bfef-c914b4746aef",
+    "commit": "5bfab2e109466c1e5bc1b8629b4c90e9facb44ea",
+    "state": "Queued",
+    "buildLogs": "Waiting for build to start..."
+  },
+  "confirmedAccessAudit": "archive/halloween2019-existing-railway-repository-access-confirmed-and-latest-queue-20261012.json",
+  "decision": "Newest notification is for an older failed snapshot. Existing app repository permission remains confirmed; newer queued builds have not yet tested snapshot access. Credential rejection from this older deployment is not evidence that current confirmed permission failed.",
+  "limitations": [
+    "No queue concurrency cause inferred from snapshot duration. No build success or live publication claimed.",
+    "No credentials extracted, permission changes, queued deployment removal or external support messages performed."
+  ]
+}
