@@ -1,0 +1,82 @@
+{
+  "tourId": "tour-14",
+  "tour": "Hammer Bro Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; preserved reviews accepted with unresolved history stated.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-03-25T06:00:00Z",
+    "endExclusive": "2020-04-08T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "n64-frappe-snowland",
+      "archivedWr": "1:21.98",
+      "fastestDocumentedAvailableRecording": "1:22.14",
+      "recordingPlayerId": "tomegome",
+      "originalResultPost": "2020-03-26T06:45:42Z",
+      "wrThirdPartyReportedAt": "2020-03-26T11:00:33.390Z"
+    },
+    {
+      "id": "gcn-yoshi-circuit-r",
+      "archivedWr": "1:31.31",
+      "fastestDocumentedAvailableRecording": "1:31.74",
+      "recordingPlayerId": "tomegome",
+      "originalResultPost": "2020-03-29T09:18:51Z"
+    }
+  ],
+  "evidence": [
+    "archive/hammer2020-original-discussion-practical-review-20261012.json",
+    "archive/hammer-bro-2020-server-image-review.json",
+    "archive/hammer-bro-2020-discussion-image-review.json",
+    "archive/hammer-bro-2020-video-review.json",
+    "archive/hammer2020-two-rediscovered-original-video-review-20261004.json",
+    "archive/hammer2020-yoshi-13152-joke-rejection-20261003.json",
+    "archive/hammer2020-march26-27-ledger-reconciliation.json",
+    "archive/hammer2020-march27-29-ledger-reconciliation.json",
+    "archive/hammer2020-march30-april6-ledger-reconciliation.json",
+    "archive/hammer2020-selected-recording-r2-preservation-20261012.json",
+    "archive/hammer2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "coverage": {
+    "priorServerImageSearchMessages": 562,
+    "priorServerImagePages": 23,
+    "priorAvailableAttachmentsReviewed": 579,
+    "priorUnavailableAttachments": 1,
+    "priorExternalImagesReviewed": 13,
+    "priorDiscussionMessagesRead": 482,
+    "priorWithinTourMessages": 398,
+    "priorDiscussionImagesReviewed": 71,
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 58
+  },
+  "remainingLimitations": [
+    "No known available recording of archived1:21.98 or1:31.31 WRs. Kaguya1:31.33 reference unavailable in prior review; retain reference without substituting footage.",
+    "Original achievement dates, opening rival progression and previous-best dates remain unresolved. Third-party reports do not set exact race dates.",
+    "Prior full-run recordings retained without fresh uninterrupted-race certification.",
+    "One prior unavailable server attachment and deleted/private/global material remain unrecovered."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      28,
+      27
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "n64-frappe-snowland",
+        "reviewedRows": 49,
+        "differences": 0
+      },
+      {
+        "courseId": "gcn-yoshi-circuit-r",
+        "reviewedRows": 40,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-15"
+}
