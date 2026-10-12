@@ -75,7 +75,7 @@ function EvidenceTimes({ r }) {
   if (!r.submittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
-    {r.submittedAt && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
+    {r.submittedAt && !shares.some(event => event.sharedAt === r.submittedAt) && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
       Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
       {source.forumTimezoneKnown !== true && " (timezone unknown)"}
