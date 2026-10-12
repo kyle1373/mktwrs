@@ -1,0 +1,60 @@
+{
+  "reviewedAt": "2026-10-12T01:47:28.272554+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "targetTotals": [
+    "1:35.47",
+    "1:04.51",
+    "1:35.38",
+    "1:35.18",
+    "1:34.63",
+    "1:34.16"
+  ],
+  "archivedTwitterTextScan": {
+    "filesScanned": 446,
+    "tweetTextNodesScanned": 1256,
+    "targets": [
+      "1:35.47",
+      "1:04.51",
+      "1:35.38",
+      "1:35.18",
+      "1:34.63",
+      "1:34.16"
+    ],
+    "hits": [],
+    "errors": []
+  },
+  "discordSnapshot": {
+    "path": "archive/halloween2019-server-census-verified-snapshot-20261011.json",
+    "sha256": "e2fd050729850c75d7f61413b25a0c42e566111de13ce65b92434ce6eb2b4c71",
+    "pages": 151,
+    "rowsScanned": 3757,
+    "uniqueMessageIds": 3757,
+    "matchingRows": []
+  },
+  "forumPages": [
+    {
+      "path": "archive/kaguya-halloween-original-pages/forum-page-0.html",
+      "sha256": "e961457f94e667db7be4a89215d8a882fae8fe019f856101beee7d03dd29bac7",
+      "literalTotalMatches": []
+    },
+    {
+      "path": "archive/kaguya-halloween-original-pages/forum-page-50.html",
+      "sha256": "0a5db2db829099208d2303ec43362383380fd52ab3d7d40e3c0cdb9eca360886",
+      "literalTotalMatches": []
+    },
+    {
+      "path": "archive/kaguya-halloween-original-pages/forum-thread.html",
+      "sha256": "cab9a4ed792d4ce53e94e78fe72f7309e64740c00ae07194446d8c12ba448841",
+      "literalTotalMatches": []
+    }
+  ],
+  "method": "Read tracked INDEX original HTML, gzip HTML and Discord JSON text. Twitter/Discord exact total scan removes whitespace and normalizes fullwidth colon/decimal; forum scan literal totals. No OCR, substring-only image inference or source-date assignment.",
+  "limitations": [
+    "No exact text matches for these six unresolved totals in the scoped preserved text collections. This cannot establish absence from unindexed posts, image text, videos, abbreviated claims, other communities or uncaptured messages.",
+    "Twitter1256node count includes duplicate conversation nodes across446files; not1256unique posts. Discord3757rows from151query pages is an archived server snapshot, not current exhaustive coverage.",
+    "Forum three preserved pages are overlapping source surfaces; no entire-forum or unpreserved-edit completeness claim.",
+    "All six achievement date gaps remain unresolved. Existing documentary times and relative order retained; no inferred date or source-loss declaration."
+  ]
+}
