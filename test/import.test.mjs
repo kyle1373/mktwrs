@@ -137,3 +137,13 @@ test("reviewed sheet video publication survives rebuilding without changing race
   assert.throws(()=>applySubmissionSourceEvidence({...row,time:"1:09.70"},{[row.id]:review}),/mismatch/);
   assert.throws(()=>applySubmissionSourceEvidence({...row},{[row.id]:{...review,evidence:{achievedAt:"2019-10-24"}}}),/Unsupported/);
 });
+
+
+test("retained result reports and video shares keep their own clocks with exact sheet-source guards", () => {
+ const row={id:"sheet-AH13",courseId:"toad",playerId:"nova",time:"1:04.99",video:"https://youtu.be/oW-jyVSXs8s",source:{url:"https://example.org/sheet#AH13"},submittedAt:null};
+ const report={reportedAt:"2019-10-25T10:04:36.476Z",originalRunnerSubmission:false};
+ const review={...row,sourceUrl:row.source.url,evidence:{resultReportEvents:[report],additionalSources:[{url:"https://discord.com/report"}]}};
+ assert.equal(applySubmissionSourceEvidence(row,{[row.id]:review}),true);
+ assert.deepEqual(row.resultReportEvents,[report]);assert.equal(row.submittedAt,null);
+ assert.throws(()=>applySubmissionSourceEvidence({...row,source:{url:"https://example.org/other"}},{[row.id]:review}),/mismatch/);
+});
