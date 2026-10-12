@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-12T16:50:29.681833+00:00",
+  "tourId": "tour-3",
+  "userProofStandard": "Use good-enough existing proofs; do not delay on conflicting proofs or exhaustive video inspection. One tour at a time.",
+  "policy": {
+    "conflictingProofsBlockCompletion": false,
+    "unknownDatesMayRemainUnknown": true,
+    "existingDocumentaryAndPriorImageEvidenceAccepted": true,
+    "videoLinksAndKnownPostingSubmissionPublicationShareClocksPreserved": true,
+    "unverifiedClaimsNotRelabeledAsFreshlyVerified": true
+  },
+  "railway": {
+    "deploymentId": "e7f2562b-be80-4bab-af3f-44b698735657",
+    "sourceCommit": "ce0868ccc4852570cc406a33cc185c0f7a191388",
+    "status": "Active",
+    "details": "Deployment successful",
+    "serverStartedPdt": "2026-10-12 05:57:09",
+    "initializationElapsed": "22:34",
+    "buildElapsed": "22:33",
+    "appBuildElapsed": "35s",
+    "unpackedSource": "6.8 GB",
+    "imagePushed": "6.9 GB",
+    "healthcheck": "succeeded",
+    "queueSidebar": "Stale queued labels contradicted by authoritative deployment details and live data",
+    "diagnosis": "Large source/container transfer and builder scheduling dominated elapsed time; application compilation succeeded quickly. No present GitHub authorization or publication block."
+  },
+  "liveComparison": {
+    "counts": {
+      "matched": 288,
+      "different": 0,
+      "missing": 0
+    },
+    "differences": []
+  },
+  "limits": [
+    "Live comparison covers288 scoped records/submissions across the three Halloween courses with null and specified list-order normalization, not all2019–2026 history.",
+    "Runtime logs contain occasional NoFallbackError; health and data endpoints are healthy. This is separate from deployment queuing.",
+    "Prior evidence conflicts and unknown dates remain documented; user accepts practical evidence without fresh visual certification."
+  ]
+}
