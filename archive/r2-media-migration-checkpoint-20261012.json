@@ -4,7 +4,7 @@
   "domain": "media.mktwrs.com",
   "bucketCreated": true,
   "customDomainConnected": true,
-  "customDomainLastObservedStatus": "Initializing",
+  "customDomainLastObservedStatus": "Active",
   "objects": 11864,
   "bytes": 7209157689,
   "uploaded": true,
@@ -12,11 +12,9 @@
   "bulkUploadCommand": "python scripts/r2-media.py upload",
   "verifyCommand": "python scripts/r2-media.py verify",
   "credentialProfile": "mktwrs-r2",
-  "redirectActivation": "Set MKTWRS_MEDIA_ORIGIN=https://media.mktwrs.com only after verification",
-  "deploymentAssetExclusionApplied": false,
-  "remaining": [
-    "Verify deployed Railway revision and live media redirects."
-  ],
+  "redirectActivation": "Default https://media.mktwrs.com; optional MKTWRS_MEDIA_ORIGIN override",
+  "deploymentAssetExclusionApplied": true,
+  "remaining": [],
   "domainStatus": "Active",
   "verifiedObjects": 11864,
   "verification": "archive/r2-media-migration-verification.json",
@@ -30,5 +28,52 @@
     "asset redirect 307",
     "unknown page 404"
   ],
-  "deploymentStatus": "ready for publication"
+  "deploymentStatus": "Active \u2014 Deployment successful",
+  "sourceArchiveBytes": 140934849,
+  "railwayDeploymentId": "42cb557f-034f-4775-b766-9d5543c83896",
+  "httpChecks": [
+    {
+      "key": "assets/courses/0009188d67f5a4e29775c435.png",
+      "passed": true,
+      "contentType": "image/png"
+    },
+    {
+      "key": "assets/players/019148944619b9dc30f4d08e.webp",
+      "passed": true,
+      "contentType": "image/webp"
+    },
+    {
+      "key": "assets/proof/0073492b2feacefad5f0ba93.jpg",
+      "passed": true,
+      "contentType": "image/jpeg"
+    },
+    {
+      "key": "assets/ui/mkt-logo.png",
+      "passed": true,
+      "contentType": "image/png"
+    },
+    {
+      "key": "assets/video/superfx-sunset-wilds-10991-20220528.mov",
+      "passed": true,
+      "contentType": "video/quicktime"
+    }
+  ],
+  "videoRangeCheck": {
+    "status": 206,
+    "bytes": 1024
+  },
+  "deployedRevision": "a97e3fe3c776d8acd9712e40c990272b297fa5a9",
+  "railwayImagePushBytes": 114500000,
+  "railwayImagePushSeconds": 6,
+  "railwayBuildSeconds": 50,
+  "railwayImageExportSeconds": 12,
+  "liveAssetRedirect": {
+    "status": 307,
+    "destination": "https://media.mktwrs.com/assets/ui/mkt-logo.png"
+  },
+  "liveDataVerification": {
+    "matchedRows": 288,
+    "differences": [],
+    "manifestUpdatedAt": "2026-10-12T17:18:39.309Z"
+  }
 }
