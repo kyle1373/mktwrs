@@ -1,0 +1,43 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "originalShareEvent": {
+    "sharedAt": "2019-10-25T07:29:07Z",
+    "video": "https://youtu.be/PPxqLTkMb-k",
+    "source": {
+      "url": "https://twitter.com/kakikotome/status/1187632162096308224",
+      "postId": "1187632162096308224",
+      "kind": "original-player-video-share"
+    },
+    "reviewAudit": "archive/halloween2019-tome10496-exact-original-twitter-video-share-clock-20261012.json",
+    "sourcePath": "archive/kakikotome-original-pages/1187632162096308224.html",
+    "sourceSha256": "1612d7037d39646fed06466c2a0064dbb230f3f48abf8ab67fc5d034f37b8d9f",
+    "kind": "documented-twitter-share-not-earliest-publication-claim",
+    "freshFootageReviewed": false
+  },
+  "sourceAttributes": {
+    "tweetId": "1187632162096308224",
+    "accountId": "995747462101921792",
+    "handle": "kakikotome",
+    "timestampSeconds": "1571988547",
+    "timestampMilliseconds": "1571988547000",
+    "displayedTimezoneUnknown": true
+  },
+  "decision": "Restore exact original video share event from matching archived tweet element. Correct source kind from publication to share.",
+  "limitations": [
+    "Result submission 07:05:06Z, YouTube publication 07:19:33Z, and Twitter share 07:29:07Z remain separate. No exact race achievement minute established.",
+    "Archived page capture 2019-10-25 07:37:22 is not the posting time. Extracted timestamp comes from the exact tweet, excluding nearby result post.",
+    "Live secondary source returned404; preserved original HTML still supplies exact link and clock. No fresh footage pixels or full race continuity review.",
+    "No WR progression, splits, durations or fastest-recording selection changed."
+  ],
+  "validation": {
+    "exactTweetElementAndVideoLinkMatched": true,
+    "renderedThreeSeparateClocks": true,
+    "renderChecksPassed": 3,
+    "scopedRows": 269,
+    "generatedDifferences": 0,
+    "aggregateMatches": true
+  }
+}
