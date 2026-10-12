@@ -59,5 +59,25 @@
     "Closest available capture returned by availability endpoint is2025, not contemporary2019. No full timeline or permanent disappearance established.",
     "Static archived player response supplies no runner/title/date/footage. Documentary WR, splits, day and original link remain unchanged.",
     "No footage playback or visual content verified."
-  ]
+  ],
+  "validation": {
+    "regeneration": [
+      {
+        "collection": "records",
+        "archivedStatusRetained": true,
+        "referenceRetained": true,
+        "datesAndSplitsMatchCommittedEvidence": true,
+        "noRecoveredRecordingClaim": true
+      },
+      {
+        "collection": "submissions",
+        "archivedStatusRetained": true,
+        "referenceRetained": true,
+        "datesAndSplitsMatchCommittedEvidence": true,
+        "noRecoveredRecordingClaim": true
+      }
+    ],
+    "scopedFidelityRows": 244,
+    "scopedFidelityDifferences": 0
+  }
 }
