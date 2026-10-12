@@ -1,0 +1,71 @@
+{
+  "tourId": "tour-25",
+  "tour": "Summer Festival Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-08-26T06:00:00Z",
+    "endExclusive": "2020-09-09T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-choco-island-2",
+      "archivedWr": "0:47.87",
+      "fastestDocumentedAvailableRecording": "0:47.87",
+      "recordingPlayerId": "wins"
+    },
+    {
+      "id": "snes-mario-circuit-3r",
+      "archivedWr": "1:06.41",
+      "fastestDocumentedAvailableRecording": "1:06.53",
+      "recordingPlayerId": "tomegome"
+    }
+  ],
+  "evidence": [
+    "archive/summerfest2020-original-results-practical-review-20261012.json",
+    "archive/summer-festival-2020-reconciliation.json",
+    "archive/summerfest2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/summerfest2020-selected-recording-r2-preservation-20261012.json",
+    "archive/summerfest2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/summerfest2020-discussion-review-progress.json",
+    "discussionMessagesRead": 3425,
+    "preservedImagesVisuallyReviewed": 314,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 38
+  },
+  "remainingLimitations": [
+    "Tomegome 1:06.41 Mario Circuit 3R final WR recording not recovered; original video is earlier 1:06.53. Wins 0:47.87 final Choco recording preserved.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      3,
+      0
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "snes-choco-island-2",
+        "reviewedRows": 35,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-mario-circuit-3r",
+        "reviewedRows": 50,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-26"
+}
