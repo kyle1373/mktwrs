@@ -1,0 +1,60 @@
+{
+  "tourId": "tour-28",
+  "tour": "1st Anniversary Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-10-07T06:00:00Z",
+    "endExclusive": "2020-10-21T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-toad-circuit",
+      "archivedWr": "1:03.96",
+      "fastestDocumentedAvailableRecording": "1:04.04",
+      "recordingPlayerId": "tomegome"
+    }
+  ],
+  "evidence": [
+    "archive/anniversary2020-original-results-practical-review-20261012.json",
+    "archive/anniversary-2020-reconciliation.json",
+    "archive/anniversary2020-video-preservation.json",
+    "archive/anniversary2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/anniversary2020-selected-recording-r2-preservation-20261012.json",
+    "archive/anniversary2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/anniversary2020-discussion-review-progress.json",
+    "discussionMessagesRead": 2069,
+    "preservedImagesVisuallyReviewed": 216,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 11
+  },
+  "remainingLimitations": [
+    "Final Toad Circuit WR 1:03.96 has result proof; fastest available full recording 1:04.04 preserved from original-player YouTube.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 1,
+    "documentedResultsRows": [
+      2
+    ],
+    "videoRangeChecksPassed": 1,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-toad-circuit",
+        "reviewedRows": 20,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-29"
+}
