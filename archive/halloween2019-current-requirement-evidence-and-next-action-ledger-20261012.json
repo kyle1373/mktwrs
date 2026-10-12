@@ -148,7 +148,10 @@
         "reviewAudit": "archive/halloween2019-eight-recovered-nbc-post-image-reference-crosswalk-20261012.json"
       },
       "latestCarriedRecordingContinuityDisplay": "archive/halloween2019-carried-recording-continuity-limit-track-display-20261012.json",
-      "selectedRecordingContinuityCertificationPending": true
+      "selectedRecordingContinuityCertificationPending": true,
+      "latestRecordingQueueCheckpoint": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json",
+      "selectedRecordingsNeedingContinuityReview": 3,
+      "fasterVideoReferencesAwaitingReview": 11
     },
     {
       "id": "unreal12848-clock",
@@ -173,7 +176,7 @@
       "latestRailwayDashboardReview": "archive/halloween2019-post-recovery-citations-live-publication-comparison-20261012.json",
       "latestDeploymentReview": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
       "latestReviewAudit": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
-      "latestDeploymentStatusAudit": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
+      "latestDeploymentStatusAudit": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json",
       "latestPushedCommit": "5bfab2e109466c1e5bc1b8629b4c90e9facb44ea",
       "latestDeploymentState": "Building",
       "railwayDeploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
@@ -190,24 +193,17 @@
       "completionProven": false,
       "nextAction": "Inspect actual source checkout/build outcome; after deployment success compare live scoped data against its exact source commit.",
       "latestPublicationObservation": {
-        "reviewAudit": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
-        "observedAt": "2026-10-12T07:32:08.309498+00:00",
+        "reviewAudit": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json",
+        "observedAt": "2026-10-12T07:46:41.490350+00:00",
         "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
         "commit": "f204b7039ceb3842377625394fb570468623d5a7",
         "status": "Building",
         "initializationElapsed": "00:00",
         "buildPhase": "Building the image...",
-        "buildElapsedObserved": "01:41",
+        "buildElapsedObserved": "16:37",
         "deploy": "Not started",
         "network": "Not started",
         "postDeploy": "Not started",
-        "buildLog": "scheduling build on Metal builder \"builder-kyzqmu\"",
-        "buildLogAt": "2026-10-12T00:29:42-07:00",
-        "latestEvidenceDeploymentId": "62a81bdd-9ba8-4291-a1d2-ad63d17461eb",
-        "latestEvidenceCommit": "466572002e00e04404f98d28ec7f35ac902be722",
-        "latestEvidenceDeploymentStatus": "Queued",
-        "latestEvidenceReason": "Waiting for build slot",
-        "activeDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
         "repositoryPermissionVerified": true,
         "sourceCheckoutSucceededVerified": false,
         "livePublicationVerified": false
@@ -447,17 +443,21 @@
       "complete": false,
       "worldRecord": {
         "id": "896332014423261204",
-        "time": "1:04.46"
+        "time": "1:04.46",
+        "achievementDateUnresolved": false
       },
       "recording": {
         "id": "curated-637479815665942539-3ds-toad-circuit",
-        "time": "1:04.85"
+        "time": "1:04.85",
+        "video": "https://youtu.be/zyMlDQ5xeM0",
+        "continuityPending": true
       },
       "pending": [
         {
           "id": "896332014423261204",
           "time": "1:04.46",
-          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA"
+          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+          "videoReference": null
         },
         {
           "id": "curated-original-2019-wr-row-22",
@@ -471,24 +471,30 @@
           "video": null,
           "videoReference": "https://youtu.be/rjLIW36EQgA"
         }
-      ]
+      ],
+      "supportingResults": 47,
+      "recoveredSourceClocks": 0
     },
     {
       "courseId": "3ds-neo-bowser-city",
       "complete": false,
       "worldRecord": {
         "id": "896332037437403157",
-        "time": "1:25.70"
+        "time": "1:25.70",
+        "achievementDateUnresolved": false
       },
       "recording": {
         "id": "curated-637525126929449000-opening2019-proof-review",
-        "time": "1:31.08"
+        "time": "1:31.08",
+        "video": "https://www.youtube.com/watch?v=jVra4OHC8ek",
+        "continuityPending": true
       },
       "pending": [
         {
           "id": "896332037437403157",
           "time": "1:25.70",
-          "video": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19"
+          "video": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19",
+          "videoReference": null
         },
         {
           "id": "curated-original-2019-wr-row-34",
@@ -499,7 +505,8 @@
         {
           "id": "curated-636853682620858388-opening2019-proof-review",
           "time": "1:26.59",
-          "video": "https://www.youtube.com/watch?v=KzDZ2O9_YZM"
+          "video": "https://www.youtube.com/watch?v=KzDZ2O9_YZM",
+          "videoReference": null
         },
         {
           "id": "curated-original-2019-wr-row-32",
@@ -522,7 +529,8 @@
         {
           "id": "curated-original-2019-wr-row-29",
           "time": "1:28.48",
-          "video": "https://www.youtube.com/watch?v=jeZCQCMQgPE"
+          "video": "https://www.youtube.com/watch?v=jeZCQCMQgPE",
+          "videoReference": null
         },
         {
           "id": "curated-halloween2019-original-nbc-row-17",
@@ -530,20 +538,27 @@
           "video": null,
           "videoReference": "https://youtu.be/q12wOiA8qlQ?t=101"
         }
-      ]
+      ],
+      "supportingResults": 20,
+      "recoveredSourceClocks": 8
     },
     {
       "courseId": "gcn-dino-dino-jungle",
       "complete": false,
       "worldRecord": {
         "id": "896332063081390090",
-        "time": "1:34.16"
+        "time": "1:34.16",
+        "achievementDateUnresolved": true
       },
       "recording": {
         "id": "curated-639765459633307668-tomegome",
-        "time": "1:34.43"
+        "time": "1:34.43",
+        "video": "https://twitter.com/tomegome_g/status/1190016227671826433?s=21",
+        "continuityPending": true
       },
-      "pending": []
+      "pending": [],
+      "supportingResults": 4,
+      "recoveredSourceClocks": 0
     }
   ],
   "retainedMediaRows": [
@@ -1075,24 +1090,17 @@
     }
   ],
   "latestPublicationObservation": {
-    "reviewAudit": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
-    "observedAt": "2026-10-12T07:32:08.309498+00:00",
+    "reviewAudit": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json",
+    "observedAt": "2026-10-12T07:46:41.490350+00:00",
     "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
     "commit": "f204b7039ceb3842377625394fb570468623d5a7",
     "status": "Building",
     "initializationElapsed": "00:00",
     "buildPhase": "Building the image...",
-    "buildElapsedObserved": "01:41",
+    "buildElapsedObserved": "16:37",
     "deploy": "Not started",
     "network": "Not started",
     "postDeploy": "Not started",
-    "buildLog": "scheduling build on Metal builder \"builder-kyzqmu\"",
-    "buildLogAt": "2026-10-12T00:29:42-07:00",
-    "latestEvidenceDeploymentId": "62a81bdd-9ba8-4291-a1d2-ad63d17461eb",
-    "latestEvidenceCommit": "466572002e00e04404f98d28ec7f35ac902be722",
-    "latestEvidenceDeploymentStatus": "Queued",
-    "latestEvidenceReason": "Waiting for build slot",
-    "activeDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
     "repositoryPermissionVerified": true,
     "sourceCheckoutSucceededVerified": false,
     "livePublicationVerified": false
@@ -1132,9 +1140,9 @@
   "scopeLimits": [
     "This ledger consolidates actual canonical dates, current route recording queue, preserved media dispositions and latest browser deployment observation; no new source completeness or visual certification.",
     "Six undated selected results remain. Four previously deferred opening intermediate questions are not recertified by omission.",
-    "Recording selections are provisional reviewed full-run choices. Eleven faster references require disposition; no guarantee they are globally fastest available recordings.",
+    "Recording selections are provisional carried assessments with unverified start-to-finish continuity. Eleven faster references require disposition; no guarantee they are globally fastest available recordings.",
     "User-excluded old server remains excluded. Normal Discord access works; proof-specific and image-output limitations do not imply general Discord blockage.",
     "Existing source searches cannot prove absence of deleted/unindexed evidence. Remaining questions have not all been resolved or certified unrecoverable."
   ],
-  "latestEvidenceCheckpoint": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json"
+  "latestEvidenceCheckpoint": "archive/halloween2019-current-recording-and-source-clock-completion-ledger-update-20261012.json"
 }
