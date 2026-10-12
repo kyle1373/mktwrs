@@ -724,6 +724,12 @@ export function importSources(courses, players) {
         r.datePrecision = s.datePrecision;
         if (s.dateOverride) r.dateOverride = s.dateOverride;
         r.submittedAt = s.submittedAt || r.submittedAt || null;
+        // Review references describe this exact archived result, not an equal-time rerun.
+        if (s.id === r.id && s.courseId === r.courseId && s.playerId === r.playerId && s.timeCs === r.timeCs) {
+          for (const key of ["sourceLinkRestorationAudit", "submissionClockRestorationAudit",
+            "dateBasisReconciliationAudit", "durationBoundaryReview", "videoMetadataReconciliationAudit"])
+            if (s[key] !== undefined) r[key] = s[key];
+        }
         if (s.delayedSubmission) r.delayedSubmission = true;
         if (matches.some((m) => m.dateUnresolved &&
             m.source?.url === s.source?.url)) r.dateUnresolved = true;

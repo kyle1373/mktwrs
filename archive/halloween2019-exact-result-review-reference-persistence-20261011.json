@@ -1,0 +1,123 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "canonicalResultIds": [
+    "636940091843018752-opening2019-proof-review",
+    "636940437554462732-opening2019-proof-review",
+    "637479815665942539-3ds-toad-circuit",
+    "637525126929449000-opening2019-proof-review",
+    "original-2019-wr-row-10",
+    "original-2019-wr-row-19",
+    "original-2019-wr-row-22",
+    "original-2019-wr-row-50",
+    "original-2019-wr-row-9",
+    "sam-original-channel-2019-2iIrWCRdnUA",
+    "twitter-1191841211063164929-verified"
+  ],
+  "fields": [
+    "sourceLinkRestorationAudit",
+    "submissionClockRestorationAudit",
+    "dateBasisReconciliationAudit",
+    "durationBoundaryReview",
+    "videoMetadataReconciliationAudit"
+  ],
+  "guard": "Exact record/submission id, course, player and centiseconds. Review references only; no copying race dates, clocks or proof status.",
+  "validation": {
+    "isolatedRegenerationExitCode": 0,
+    "importTestsPassed": 13,
+    "importTestsFailed": 0,
+    "reviewReferenceChecks": [
+      {
+        "id": "curated-original-2019-wr-row-9",
+        "collection": "records",
+        "field": "sourceLinkRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-original-2019-wr-row-10",
+        "collection": "records",
+        "field": "submissionClockRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-original-2019-wr-row-19",
+        "collection": "records",
+        "field": "submissionClockRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-637479815665942539-3ds-toad-circuit",
+        "collection": "records",
+        "field": "sourceLinkRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-637479815665942539-3ds-toad-circuit",
+        "collection": "records",
+        "field": "submissionClockRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-637479815665942539-3ds-toad-circuit",
+        "collection": "records",
+        "field": "dateBasisReconciliationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-original-2019-wr-row-22",
+        "collection": "records",
+        "field": "durationBoundaryReview",
+        "preserved": true
+      },
+      {
+        "id": "curated-637479815665942539-3ds-toad-circuit",
+        "collection": "submissions",
+        "field": "sourceLinkRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-sam-original-channel-2019-2iIrWCRdnUA",
+        "collection": "submissions",
+        "field": "sourceLinkRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-636940091843018752-opening2019-proof-review",
+        "collection": "submissions",
+        "field": "videoMetadataReconciliationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-636940437554462732-opening2019-proof-review",
+        "collection": "submissions",
+        "field": "videoMetadataReconciliationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-original-2019-wr-row-9",
+        "collection": "submissions",
+        "field": "sourceLinkRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-twitter-1191841211063164929-verified",
+        "collection": "submissions",
+        "field": "sourceLinkRestorationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-637525126929449000-opening2019-proof-review",
+        "collection": "submissions",
+        "field": "videoMetadataReconciliationAudit",
+        "preserved": true
+      },
+      {
+        "id": "curated-original-2019-wr-row-50",
+        "collection": "records",
+        "field": "durationBoundaryReview",
+        "preserved": true
+      }
+    ]
+  }
+}
