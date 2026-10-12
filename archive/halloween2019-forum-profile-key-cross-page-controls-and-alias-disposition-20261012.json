@@ -1,0 +1,119 @@
+{
+  "reviewedAt": "2026-10-12T02:33:22.408110+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "priorAccountAudit": "archive/halloween2019-innov-original-forum-account-link-reconciliation-20261011.json",
+  "sourceSnapshots": [
+    {
+      "path": "archive/kaguya-halloween-original-pages/forum-page-0.html",
+      "sha256": "e961457f94e667db7be4a89215d8a882fae8fe019f856101beee7d03dd29bac7",
+      "bytes": 118597
+    },
+    {
+      "path": "archive/kaguya-halloween-original-pages/forum-thread.html",
+      "sha256": "cab9a4ed792d4ce53e94e78fe72f7309e64740c00ae07194446d8c12ba448841",
+      "bytes": 131108
+    }
+  ],
+  "controls": [
+    {
+      "displayedAuthor": "Chrono Krysster II",
+      "firstPageProfileKeys": [
+        "4A73787272756473363636010"
+      ],
+      "secondPageProfileKeys": [
+        "6F565D5757504156131313240"
+      ],
+      "keysIdentical": false
+    },
+    {
+      "displayedAuthor": "InnovΔ",
+      "firstPageProfileKeys": [
+        "4C60727564734A444A010"
+      ],
+      "secondPageProfileKeys": [
+        "6945575041566F616F240"
+      ],
+      "keysIdentical": false
+    },
+    {
+      "displayedAuthor": "MK64MR",
+      "firstPageProfileKeys": [
+        "4C6073686E6A6073753735010"
+      ],
+      "secondPageProfileKeys": [
+        "6945564D4B4F4556501210240"
+      ],
+      "keysIdentical": false
+    },
+    {
+      "displayedAuthor": "Meester Tweester",
+      "firstPageProfileKeys": [
+        "4C6464727564735576646472756473010"
+      ],
+      "secondPageProfileKeys": [
+        "694141575041567053414157504156240"
+      ],
+      "keysIdentical": false
+    },
+    {
+      "displayedAuthor": "SamH",
+      "firstPageProfileKeys": [
+        "406869607360010"
+      ],
+      "secondPageProfileKeys": [
+        "654D4C455645240"
+      ],
+      "keysIdentical": false
+    },
+    {
+      "displayedAuthor": "Unreal",
+      "firstPageProfileKeys": [
+        "546F7364606D010"
+      ],
+      "secondPageProfileKeys": [
+        "714A56414548240"
+      ],
+      "keysIdentical": false
+    }
+  ],
+  "conclusion": "All six repeated displayed authors have different profile username keys between these two saved pages. InnovΔ key variation is not unique and cannot be treated as evidence of separate accounts. Mechanism remains unverified.",
+  "aliasComparison": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "time": "1:05.84",
+      "leaderboardDisplay": "Master Kek",
+      "originalReportDisplay": "InnovΔ",
+      "reply": 33
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "time": "1:30.94",
+      "leaderboardDisplay": "Master Kek",
+      "originalReportDisplay": "InnovΔ",
+      "reply": 25
+    }
+  ],
+  "aliasStatus": "two-exact-performance-correspondences-explicit-alias-unverified",
+  "freshDiscordSearch": {
+    "query": "\"Master Kek\"",
+    "serverId": "629221606064914442",
+    "dateFilter": null,
+    "visibleResult": "No Results",
+    "method": "Authenticated browser DOM; input cleared before filling",
+    "absenceEstablished": false
+  },
+  "externalSearch": {
+    "query": "\"Master Kek\" \"Innov\" Mario Kart",
+    "relevantResults": 0,
+    "scope": "Five returned results were unrelated to Mario Kart; no identity source found in this search.",
+    "rawResponsePath": "archive/halloween2019-master-kek-innov-external-search-response-20261012.json"
+  },
+  "limitations": [
+    "Controls compare displayed authors and hyperlink strings only; underlying account encoding mechanism not verified. No deterministic account decoder inferred.",
+    "Two exact track/time matches support an alias hypothesis but do not establish it. No global player merge, footage reassignment or race date change.",
+    "Current profile fetch failures and negative indexed searches do not establish deleted accounts or absent evidence.",
+    "Halloween remains incomplete; next tour not started."
+  ]
+}
