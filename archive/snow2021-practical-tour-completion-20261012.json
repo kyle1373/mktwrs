@@ -1,0 +1,80 @@
+{
+  "tourId": "tour-38",
+  "tour": "Snow Tour",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-02-24T06:00:00Z",
+    "endExclusive": "2021-03-10T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "rmx-rainbow-road-1r",
+      "archivedWr": "1:17.13",
+      "fastestDocumentedAvailableRecording": "1:17.96",
+      "recordingPlayerId": "spartacurtyt"
+    },
+    {
+      "id": "3ds-rosalina-s-ice-world",
+      "archivedWr": "1:29.87",
+      "fastestDocumentedAvailableRecording": "1:30.26",
+      "recordingPlayerId": "nhspeedy"
+    }
+  ],
+  "evidence": [
+    "archive/snow2021-original-results-practical-review-20261012.json",
+    "archive/snow-2021-reconciliation.json",
+    "archive/march2021-three-original-recording-share-reconciliation-20261010.json",
+    "archive/snow2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/snow2021-selected-recording-r2-preservation-20261012.json",
+    "archive/snow2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/snow-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 154,
+      "indexedImagesVisuallyReviewed": 153,
+      "unreviewed": [
+        "f95f7d0bf834f533ba9ead5f"
+      ],
+      "linkSearchResultsReviewed": 20,
+      "wrTextSearchResultsReviewed": 29
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 139
+  },
+  "remainingLimitations": [
+    "Nu11 RMX Rainbow Road1R1:17.13 WR linked original YouTube unavailable; Spartacurt1:17.96 available recording preserved.",
+    "Dit Rosalinas Ice World1:29.87 image WR; faster Nu111:29.91 linked video unavailable; NHSpeedy1:30.26 available recording preserved.",
+    "One prior unrecovered image concerns earlier Choco Mountain disclosure; raw source retained.",
+    "Prior full recording reviews retained without fresh uninterrupted certification; some share/publication clocks unknown.",
+    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+  ],
+  "validation": {
+    "productionBuildPages": 900,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      54,
+      52
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "rmx-rainbow-road-1r",
+        "reviewedRows": 81,
+        "differences": 0
+      },
+      {
+        "courseId": "3ds-rosalina-s-ice-world",
+        "reviewedRows": 85,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-39"
+}
