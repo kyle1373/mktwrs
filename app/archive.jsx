@@ -712,6 +712,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.trick2021SupportingResults} players={players} tourLabel="Trick Tour (2021)" />
       <HalloweenRecording comparison={c.wedding2021Recording} players={players} tourLabel="Wedding Tour (2021)" />
       <ParisSupportingResults results={c.wedding2021SupportingResults} players={players} tourLabel="Wedding Tour (2021)" />
+      <HalloweenRecording comparison={c.paris2021Recording} players={players} tourLabel="Paris Tour (2021)" />
+      <ParisSupportingResults results={c.paris2021SupportingResults} players={players} tourLabel="Paris Tour (2021)" />
       <HalloweenRecording comparison={c.supermario2020Recording} players={players} tourLabel="Super Mario Kart Tour (2020)" />
       <ParisSupportingResults results={c.supermarioSupportingResults} players={players} tourLabel="Super Mario Kart Tour (2020)" />
       <HalloweenRecording comparison={c.summerfest2020Recording} players={players} tourLabel="Summer Festival Tour (2020)" />

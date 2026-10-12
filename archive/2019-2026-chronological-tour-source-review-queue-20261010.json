@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 43
+    "practicallyCompletedTours": 44
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -2766,7 +2766,7 @@
       "endDate": "2021-06-30",
       "tourSource": "https://www.mariowiki.com/Paris_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "snes-donut-plains-2r",
@@ -2834,7 +2834,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "practicalCompletionEvidence": "archive/paris2021-practical-tour-completion-20261012.json",
+      "practicallyComplete": true
     },
     {
       "tourId": "tour-47",
@@ -10833,7 +10835,7 @@
     "advanceOnlyAfterEvidenceReportProvesCompletion": true,
     "activeTourId": "tour-42"
   },
-  "activeTourCompletionEvidenceAudit": "archive/wedding2021-practical-tour-completion-20261012.json",
+  "activeTourCompletionEvidenceAudit": "archive/paris2021-practical-tour-completion-20261012.json",
   "currentProofPolicy": {
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
