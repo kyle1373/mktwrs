@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 10
+    "practicallyCompletedTours": 11
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -898,7 +898,7 @@
       "endDate": "2020-03-25",
       "tourSource": "https://www.mariowiki.com/Baby_Rosalina_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "snes-mario-circuit-2r",
@@ -923,7 +923,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "practicalCompletionEvidence": "archive/babyrosalina2020-practical-tour-completion-20261012.json",
+      "practicallyComplete": true
     },
     {
       "tourId": "tour-14",
@@ -10762,7 +10764,7 @@
     "advanceOnlyAfterEvidenceReportProvesCompletion": true,
     "activeTourId": "tour-3"
   },
-  "activeTourCompletionEvidenceAudit": null,
+  "activeTourCompletionEvidenceAudit": "archive/babyrosalina2020-practical-tour-completion-20261012.json",
   "currentProofPolicy": {
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
