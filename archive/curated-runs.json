@@ -14811,7 +14811,20 @@
         "messageId": "754755794955796511"
       }
     ],
-    "videoVerified": true
+    "videoVerified": true,
+    "videoScope": "late-start",
+    "videoPublishedAt": "2026-10-02T19:56:43Z",
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=11WZcxrEYsw",
+      "basis": "2026 archive video upload; distinct from 2020 original result",
+      "reviewAudit": "archive/supermario2020-selected-recording-clocks-and-scope-20261012.json"
+    },
+    "videoScopeReview": {
+      "assessmentCarriedForward": true,
+      "startToFinishContinuityVerified": false,
+      "basis": "Supplied archive video description explicitly states it starts during opening seconds.",
+      "reviewAudit": "archive/supermario2020-selected-recording-clocks-and-scope-20261012.json"
+    }
   },
   {
     "messageId": "753796845783875655-super-mario-verified",
@@ -15365,7 +15378,13 @@
         "messageId": "753620304609280072"
       }
     ],
-    "videoVerified": true
+    "videoVerified": true,
+    "videoScope": "result-only",
+    "videoScopeReview": {
+      "startToFinishContinuityVerified": false,
+      "basis": "Preserved menu recording displays saved 40.59 result; no full race.",
+      "reviewAudit": "archive/supermario2020-selected-recording-clocks-and-scope-20261012.json"
+    }
   },
   {
     "messageId": "754318466940403782-super-mario-verified",
@@ -194918,6 +194937,30 @@
     "notes": [
       "Full original recording visually reviewed. First-lap freeze and final finish verified, with lap two calculated by exact subtraction. Slower than already published WRs; retained as supporting evidence.",
       "First runner report says 40.89 recorded at September10 07:29:17.691UTC; later video matches that exact total. Prior 40.87 result already published 07:23:45.292UTC. No backdating to achievement time."
+    ],
+    "videoScope": "full-run",
+    "videoPublishedAt": "2020-09-10T09:17:02Z",
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=A011Y_I85yU",
+      "basis": "preserved original YouTube metadata upload timestamp",
+      "reviewAudit": "archive/supermario2020-selected-recording-clocks-and-scope-20261012.json"
+    },
+    "videoScopeReview": {
+      "assessmentCarriedForward": true,
+      "startToFinishContinuityVerified": null,
+      "basis": "Prior full race lap and successful finish review retained.",
+      "reviewAudit": "archive/supermario2020-selected-recording-clocks-and-scope-20261012.json"
+    },
+    "videoShareEvents": [
+      {
+        "sharedAt": "2020-09-10T09:35:50.236Z",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/753549286775717939",
+          "channel": "tt-discussion",
+          "messageId": "753549286775717939"
+        },
+        "video": "https://www.youtube.com/watch?v=A011Y_I85yU"
+      }
     ]
   },
   {
