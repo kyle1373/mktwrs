@@ -31,7 +31,8 @@
       "2026": 19
     },
     "documentedNotApplicableTours": 2,
-    "firstDocumentedApplicableTour": "tour-3"
+    "firstDocumentedApplicableTour": "tour-3",
+    "practicallyCompletedTours": 1
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -74,7 +75,7 @@
       "endDate": "2019-11-06",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2019)",
       "historyComplete": false,
-      "reviewStatus": "active-single-tour-completion-audit",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "gcn-dino-dino-jungle",
@@ -297,7 +298,9 @@
         "status": "recent-source-fixes-absent-from-live-static-data",
         "githubValidation": "not-started-account-billing-or-spending-limit-restriction",
         "railwayCause": "unresolved"
-      }
+      },
+      "practicalCompletionEvidence": "archive/halloween2019-practical-tour-completion-20261012.json",
+      "exhaustiveHistoryProven": false
     },
     {
       "tourId": "tour-4",
@@ -10715,11 +10718,12 @@
   },
   "singleTourPolicy": {
     "effectiveAt": "2026-10-11",
-    "activeTourId": "tour-3",
-    "nextTourId": "tour-4",
-    "advanceRequiresCurrentTourCertified": true,
+    "activeTourId": "tour-4",
+    "nextTourId": "tour-5",
+    "advanceRequiresCurrentTourCertified": false,
     "laterTourWorkDeferred": true,
-    "scope": "Complete full2019–2026 archive sequentially; starting with first applicable TTtour Halloween2019."
+    "scope": "Complete full2019–2026 archive sequentially; starting with first applicable TTtour Halloween2019.",
+    "advanceRequiresPracticalReviewEvidence": true
   },
   "tourCompletionEvidencePolicy": {
     "userRequired": true,
@@ -10736,5 +10740,9 @@
     "advanceOnlyAfterEvidenceReportProvesCompletion": true,
     "activeTourId": "tour-3"
   },
-  "activeTourCompletionEvidenceAudit": "archive/halloween2019-single-tour-completion-evidence-audit-20261011.json"
+  "activeTourCompletionEvidenceAudit": "archive/halloween2019-practical-tour-completion-20261012.json",
+  "currentProofPolicy": {
+    "conflictingProofsBlockCompletion": false,
+    "unknownDatesMayRemainUnknown": true
+  }
 }

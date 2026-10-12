@@ -577,6 +577,11 @@ function HalloweenRecording({ comparison, players }) {
   return <section className="fastest-video">
     <h2>Halloween Tour (2019) recording comparison</h2>
     {wr && <p>Archived tour WR: <strong>{wr.time}</strong> · <Player id={wr.playerId} players={players} /></p>}
+    {comparison.documentedRecording && comparison.documentedRecording.timeCs !== r?.timeCs && <>
+      <p>Fastest documented available recording: <strong>{comparison.documentedRecording.time}</strong> · <Player id={comparison.documentedRecording.playerId} players={players} /> · <a href={comparison.documentedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a></p>
+      <p className="table-note">The prior review identifies the result. Uninterrupted race coverage has not been freshly certified.</p>
+      <EvidenceTimes r={comparison.documentedRecording} />
+    </>}
     {r ? <>
       <p>{r.recordingContinuityPending ? "Selected recording from prior review: " : "Fastest full-race recording in the reviewed evidence: "}<strong>{r.time}</strong> · <Player id={r.playerId} players={players} /></p>
       {r.recordingContinuityPending && <p className="table-note">The prior review identifies the result, but uninterrupted start-to-finish race coverage still needs verification. This selection is provisional.</p>}
@@ -593,7 +598,7 @@ function HalloweenRecording({ comparison, players }) {
         <EvidenceTimes r={candidate} />
       </div>)}
     </details>}
-    <p className="table-note">Tour review remains incomplete. Faster references remain outside the selected recording until reviewed; a provisional selection still needs continuity verification.</p>
+    <p className="table-note">Practical tour review completed with documented gaps. Faster unverified references remain preserved; recording continuity and unavailable originals retain their stated limitations.</p>
   </section>;
 }
 function HalloweenSupportingResults({ results, players }) {
@@ -981,6 +986,7 @@ function ToursPage({ data }) {
               <th>Time Trial courses</th>
               <th>Start</th>
               <th>End (exclusive)</th>
+              <th>Archive review</th>
             </tr>
           </thead>
           <tbody>
@@ -1001,6 +1007,7 @@ function ToursPage({ data }) {
                   </td>
                   <td>{t.startDate}</td>
                   <td>{t.endDate}</td>
+                  <td>{t.review ? <a href={t.review.evidenceUrl}>{t.review.label}</a> : "Not completed"}</td>
                 </tr>
               ))}
           </tbody>
