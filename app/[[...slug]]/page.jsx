@@ -1,9 +1,9 @@
 import Archive from "../archive";
-import { archive, routeData } from "../../lib/data.mjs";
+import { publicationArchive, routeData } from "../../lib/data.mjs";
 import { notFound } from "next/navigation";
 export const dynamicParams = false;
 export function generateStaticParams() {
-  const a = archive();
+  const a = publicationArchive();
   return [
     { slug: [] },
     { slug: ["players"] },

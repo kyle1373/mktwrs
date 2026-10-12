@@ -785,7 +785,7 @@ export function importSources(courses, players) {
           ...(r.additionalSources || []),
           ...matches.flatMap((m) => [m.source, ...(m.additionalSources || [])]),
         ].filter(Boolean).map((source) => [source.url, source])).values()];
-        r.notes = [...r.notes, ...s.notes];
+        r.notes = [...new Set([...r.notes, ...s.notes])];
         enriched++;
       }
       if (r.dateOverride) {
