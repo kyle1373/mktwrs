@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 42
+    "practicallyCompletedTours": 43
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -2706,7 +2706,7 @@
       "endDate": "2021-06-16",
       "tourSource": "https://www.mariowiki.com/Wedding_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "3ds-mario-circuit",
@@ -2755,7 +2755,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "practicalCompletionEvidence": "archive/wedding2021-practical-tour-completion-20261012.json",
+      "practicallyComplete": true
     },
     {
       "tourId": "tour-46",
@@ -10831,7 +10833,7 @@
     "advanceOnlyAfterEvidenceReportProvesCompletion": true,
     "activeTourId": "tour-42"
   },
-  "activeTourCompletionEvidenceAudit": "archive/trick2021-practical-tour-completion-20261012.json",
+  "activeTourCompletionEvidenceAudit": "archive/wedding2021-practical-tour-completion-20261012.json",
   "currentProofPolicy": {
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true

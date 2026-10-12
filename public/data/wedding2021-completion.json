@@ -1,0 +1,79 @@
+{
+  "tourId": "tour-45",
+  "tour": "Wedding Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-06-02T06:00:00Z",
+    "endExclusive": "2021-06-16T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-mario-circuit",
+      "archivedWr": "1:33.94",
+      "fastestDocumentedAvailableRecording": "1:34.35",
+      "recordingPlayerId": "tomegome"
+    },
+    {
+      "id": "rmx-rainbow-road-2",
+      "archivedWr": "1:21.65",
+      "fastestDocumentedAvailableRecording": "1:21.98",
+      "recordingPlayerId": "phillish"
+    }
+  ],
+  "evidence": [
+    "archive/wedding2021-original-results-practical-review-20261012.json",
+    "archive/wedding-2021-reconciliation.json",
+    "archive/june2021-june6-seven-later-results-and-phillish-full-video-review-20261007.json",
+    "archive/wedding2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/wedding2021-selected-recording-r2-preservation-20261012.json",
+    "archive/wedding2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/wedding-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 162,
+      "indexedImagesVisuallyReviewed": 162,
+      "wrSearchMatches": 27,
+      "linkSearchMatches": 18,
+      "videoSearchMatches": 19
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 156
+  },
+  "remainingLimitations": [
+    "Nu11 final WR videos Gz3Napklgzk and mjgcJcGE4Aw unavailable per preserved review; selected slower footage shown separately.",
+    "Tomegome publication clock is a result post, not known race instant; Starin later Discord share retained.",
+    "Timael opening claims and retrospective previous best dates retain documented ordering limits.",
+    "SuperFX1:34.55 conflicting shorthand left with unknown splits.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 896,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      48,
+      72
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-mario-circuit",
+        "reviewedRows": 100,
+        "differences": 0
+      },
+      {
+        "courseId": "rmx-rainbow-road-2",
+        "reviewedRows": 97,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-46"
+}
