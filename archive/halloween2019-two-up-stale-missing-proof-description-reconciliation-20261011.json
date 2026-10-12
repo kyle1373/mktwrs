@@ -1,0 +1,42 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "a60bd90a",
+  "rows": [
+    {
+      "id": "curated-original-2019-wr-row-32",
+      "time": "1:26.83",
+      "originalFile": "archive/video-backup-files/october2019-recovered/1187013758511648768/original.mp4",
+      "sha256": "0b8754833ee9d37cb3222ad2b9203716b1a11ea213c391ac99984aa12764b58c",
+      "bytes": 28996804,
+      "priorReview": "archive/october2019-recovered-videos.json",
+      "fullRaceContinuityVerified": false,
+      "freshFootageReviewed": false
+    },
+    {
+      "id": "curated-original-2019-wr-row-34",
+      "time": "1:26.31",
+      "originalFile": "archive/video-backup-files/october2019-recovered/1187301786379575297/original.mp4",
+      "sha256": "ca2f851dec3a5d7caf75b3ceb524001ac92c2b478a7fcbed947753445f230be8",
+      "bytes": 30703028,
+      "priorReview": "archive/october2019-recovered-videos.json",
+      "fullRaceContinuityVerified": false,
+      "freshFootageReviewed": false
+    }
+  ],
+  "change": "Replace stale missing-original-proof descriptions in canonical, course and aggregate copies with preserved-recording provenance and pending continuity status.",
+  "evidenceReview": "archive/halloween2019-two-up-nbc-preserved-recording-scope-dispositions-20261011.json",
+  "validation": {
+    "originalFileHashesMatch": true,
+    "originalFileSizesMatch": true,
+    "isolatedGeneratorExitCode": 0,
+    "generatedSubmissionDescriptionsMatch": true
+  },
+  "limitations": [
+    "File identity verified; no fresh footage pixels or continuity reviewed.",
+    "Prior result/lap assessments retained as prior assessments, not newly verified footage.",
+    "Time, laps, achievement/submission clocks, original media links, WR status and video selection flags unchanged.",
+    "No live publication or completed-tour certification."
+  ]
+}
