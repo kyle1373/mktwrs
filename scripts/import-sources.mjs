@@ -4,7 +4,7 @@ export function enrichOriginalProofReviews(record, evidence) {
       record.proofImageLocal !== evidence.proofImageLocal || !evidence.proofImageVerified) return false;
   // Preserve the original post and later repost clocks of this exact proof.
   // Neither clock resolves an undated previous-best race.
-  for (const key of ["originalPostSourceReview", "laterOriginalScreenshotRepostReview", "originalImageVisualReview"])
+  for (const key of ["originalPostSourceReview", "laterOriginalScreenshotRepostReview"])
     if (evidence[key] !== undefined && record[key] === undefined) record[key] = evidence[key];
   return true;
 }

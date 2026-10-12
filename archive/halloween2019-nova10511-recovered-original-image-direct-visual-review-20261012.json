@@ -9,7 +9,7 @@
     "reviewAudit": "archive/halloween2019-nova10511-recovered-original-image-direct-visual-review-20261012.json",
     "originalFile": "archive/halloween2019-nova10511-source-recovery/EHo-sR6UwAAiat2-original.jpg",
     "sha256": "692611db06e4ddd6cb73cdc2c29ef32a9ee623f16842219e3b5cf55a7ddca9e7",
-    "method": "Direct local view_image tool returned inspectable original pixels in this turn.",
+    "method": "Tool output explicitly omitted pixels; no direct visual review established.",
     "visibleTime": "1:05.11",
     "visibleLapCounter": "2/2",
     "courseIdentification": "Toad Circuit scenery and course mini-map consistent with existing row attribution",
@@ -17,8 +17,8 @@
     "calendarDateVisible": false,
     "visiblePhoneClock": "20:26",
     "phoneClockNotRaceDate": true,
-    "freshPixelsReviewed": true,
-    "originalImageContentsVerified": true,
+    "freshPixelsReviewed": false,
+    "originalImageContentsVerified": false,
     "fullRaceContinuityVerified": false
   },
   "proofImageLocal": "/assets/proof/halloween2019-nova10511-original.webp",
@@ -46,5 +46,7 @@
     "scopedFidelityDifferences": 0,
     "importTestsPassed": 13,
     "importTestsFailed": 0
-  }
+  },
+  "status": "withdrawn-unsupported-visual-claim",
+  "withdrawalAudit": "archive/halloween2019-nova10511-direct-image-claim-withdrawal-20261012.json"
 }
