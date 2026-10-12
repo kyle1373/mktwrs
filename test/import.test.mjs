@@ -160,3 +160,17 @@ test("original proof reviews retain separate original and repost clocks without 
  for(const change of [{playerId:"other"},{courseId:"other"},{timeCs:9423},{proofImageLocal:"/rerun.webp"},{proofImageVerified:false}])
   assert.equal(enrichOriginalProofReviews({...record},{...evidence,...change}),false);
 });
+
+
+test("result reports follow exact original proof identity without inventing submission clocks",()=>{
+ const record={courseId:"tc",playerId:"nu",timeCs:6446,proofImageLocal:"/nu-result.webp",submittedAt:null};
+ const report={reportedAt:"2019-10-30T01:03:49Z",reviewAudit:"archive/halloween2019-report.json",source:{url:"https://twitter.com/_Kaguya_Games/status/1189347136720310272"}};
+ const evidence={...record,proofImageVerified:true,resultReportEvents:[report]};
+ assert.equal(enrichOriginalProofReviews(record,evidence),true);
+ assert.deepEqual(record.resultReportEvents,[report]);assert.equal(record.submittedAt,null);
+ for(const change of [{playerId:"other"},{courseId:"other"},{timeCs:6451},{proofImageLocal:"/different.webp"},{proofImageVerified:false}]){
+  const candidate={...record};delete candidate.resultReportEvents;
+  assert.equal(enrichOriginalProofReviews(candidate,{...evidence,...change}),false);
+  assert.equal(candidate.resultReportEvents,undefined);
+ }
+});
