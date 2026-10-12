@@ -10,13 +10,25 @@ const require=createRequire(import.meta.url);
 const swc=require('next/dist/build/swc');
 await swc.loadBindings();
 const page=fs.readFileSync(new URL('../app/archive.jsx',import.meta.url),'utf8');
-const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function Time('))+page.slice(page.indexOf('function Time('),page.indexOf('function BackupIcon('))+page.slice(page.indexOf('function HalloweenSupportingResults('),page.indexOf('function CoursePage('));
-const {code}=await swc.transform('const date=s=>s?s.slice(0,10):"—";function Player({id}){return <span>{id}</span>;}\n'+selected+'\nexports.HalloweenSupportingResults=HalloweenSupportingResults;', {filename:'result-report-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
+const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function Time('))+page.slice(page.indexOf('function Time('),page.indexOf('function BackupIcon('))+page.slice(page.indexOf('function HalloweenRecording('),page.indexOf('function CoursePage('));
+const {code}=await swc.transform('const date=s=>s?s.slice(0,10):"—";function Player({id}){return <span>{id}</span>;}\n'+selected+'\nexports.HalloweenSupportingResults=HalloweenSupportingResults;exports.HalloweenRecording=HalloweenRecording;', {filename:'result-report-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
 const filename=new URL('../app/result-report-times-render.cjs',import.meta.url).pathname;
 const compiled=new Module(filename);
 compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
 compiled._compile(code,filename);
 const render=r=>renderToStaticMarkup(React.createElement(compiled.exports.HalloweenSupportingResults,{results:r,players:[]}));
+test('carried recording assessments expose pending continuity beside original video',()=>{
+ for (const cid of ['3ds-toad-circuit','3ds-neo-bowser-city','gcn-dino-dino-jungle']) {
+  const comparison=routeData(['course',cid]).data.halloween2019Recording;
+  assert.equal(comparison.recording.recordingContinuityPending,true);
+  const html=renderToStaticMarkup(React.createElement(compiled.exports.HalloweenRecording,{comparison,players:[]}));
+  assert.match(html,/Selected recording from prior review:/);
+  assert.match(html,/uninterrupted start-to-finish race coverage still needs verification/);
+  assert.ok(html.includes(comparison.recording.video.replaceAll('&','&amp;')));
+  assert.doesNotMatch(html,/Fastest full-race recording in the reviewed evidence:/);
+ }
+});
+
 test('supporting table renders actual preserved forum clocks without invented submission times',()=>{
  const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
  const row=rows.find(r=>r.id==='curated-forum-halloween2019-samh-reply-31-10575');

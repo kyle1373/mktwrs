@@ -1,0 +1,62 @@
+{
+  "reviewedAt": "2026-10-12T07:40:35.091409+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "priorEvidenceAudit": "archive/halloween2019-three-selected-original-recording-complete-decode-review-20261012.json",
+  "rows": [
+    {
+      "canonicalId": "637479815665942539-3ds-toad-circuit",
+      "courseId": "3ds-toad-circuit",
+      "time": "1:04.85",
+      "originalFile": "archive/video-backup-files/59848b316d9a856a5417/original.mp4",
+      "sha256": "6117a945a6ae97b6d116a9e3e0041a549ab673c34be76bcddb3642ea2849a300",
+      "priorReview": {
+        "path": "archive/october2019-recovered-videos.json",
+        "sha256": "32d20dce8108cbfc4e6b1773d4680e50289ad76724bdf24a91cdde314d30d471",
+        "freshContinuityProofSuppliedByThisAudit": false
+      },
+      "fullRaceContinuityFreshlyVerified": false
+    },
+    {
+      "canonicalId": "637525126929449000-opening2019-proof-review",
+      "courseId": "3ds-neo-bowser-city",
+      "time": "1:31.08",
+      "originalFile": "archive/video-backup-files/halloween2019-meester-nbc-13108/original.mp4",
+      "sha256": "ed45b70edf867e455b06db40f0c30d663d93c8db42a20891ff0c5e72e60e7632",
+      "priorReview": {
+        "path": "archive/halloween2019-meester-nbc-video-recovery-20261004.json",
+        "sha256": "b6ccda54d766dd503ccec3a34e85d9109f2233f3b54bd0dd33cbc5b8c9d74e1c",
+        "freshContinuityProofSuppliedByThisAudit": false
+      },
+      "fullRaceContinuityFreshlyVerified": false
+    },
+    {
+      "canonicalId": "639765459633307668-tomegome",
+      "courseId": "gcn-dino-dino-jungle",
+      "time": "1:34.43",
+      "originalFile": "archive/video-backup-files/halloween2019-tomegome-ddj-1190016227671826433/original.mp4",
+      "sha256": "1ce63a6bc3e00f66b8e084137df7d59c1d0a847b8c3370b62b2909fdd7beb363",
+      "priorReview": {
+        "path": "archive/halloween2019-tomegome-13443-original-video-preservation-20261004.json",
+        "sha256": "2012cd143ef6e17f60eaa40c07c140632a6a4bd94ee517ba221a2c0579d43057",
+        "freshContinuityProofSuppliedByThisAudit": false
+      },
+      "fullRaceContinuityFreshlyVerified": false
+    }
+  ],
+  "change": "Track comparison labels carried assessments with unestablished start-to-finish continuity as selected recordings from prior review and exposes provisional status.",
+  "validation": {
+    "renderingTestsPassed": 11,
+    "productionBuildExitCode": 0,
+    "staticPagesGenerated": 910,
+    "scopedDataRows": 269,
+    "normalizedDifferences": 0
+  },
+  "limitations": [
+    "This repairs the certainty of the presentation; no new race footage was visually inspected.",
+    "Existing canonical videoScope and result assessments retained for source traceability. The display explicitly distinguishes them from independent continuity certification.",
+    "Original and backup links, report and video clocks, pending faster candidates, race times and WR history remain preserved.",
+    "No tour completion or global fastest-recording claim established."
+  ]
+}

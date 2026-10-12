@@ -573,7 +573,8 @@ function HalloweenRecording({ comparison, players }) {
     <h2>Halloween Tour (2019) recording comparison</h2>
     {wr && <p>Archived tour WR: <strong>{wr.time}</strong> · <Player id={wr.playerId} players={players} /></p>}
     {r ? <>
-      <p>Fastest full-race recording in the reviewed evidence: <strong>{r.time}</strong> · <Player id={r.playerId} players={players} /></p>
+      <p>{r.recordingContinuityPending ? "Selected recording from prior review: " : "Fastest full-race recording in the reviewed evidence: "}<strong>{r.time}</strong> · <Player id={r.playerId} players={players} /></p>
+      {r.recordingContinuityPending && <p className="table-note">The prior review identifies the result, but uninterrupted start-to-finish race coverage still needs verification. This selection is provisional.</p>}
       <p className="video-links">{r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}{r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <EvidenceTimes r={r} />
     </> : <p>No full-race recording has been documented in the reviewed evidence yet.</p>}
