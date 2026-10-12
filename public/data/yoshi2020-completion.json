@@ -1,0 +1,78 @@
+{
+  "tourId": "tour-15",
+  "tour": "Yoshi Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with limits explicit.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-04-08T06:00:00Z",
+    "endExclusive": "2020-04-22T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-daisy-hills-r",
+      "archivedWr": "1:20.94",
+      "fastestDocumentedAvailableRecording": "1:21.28",
+      "recordingPlayerId": "kazuo"
+    },
+    {
+      "id": "n64-kalimari-desert",
+      "archivedWr": "1:15.29",
+      "fastestDocumentedAvailableRecording": "1:16.06",
+      "recordingPlayerId": "brandonsg"
+    }
+  ],
+  "evidence": [
+    "archive/yoshi2020-original-opening-day-discussion-practical-review-20261012.json",
+    "archive/yoshi2020-kalimari-first-availability-date-recovery-20261003.json",
+    "archive/yoshi2020-opening-wr-context-reconciliation-20261005.json",
+    "archive/yoshi-2020-video-review.json",
+    "archive/yoshi2020-four-preserved-videos-consolidated-20261005.json",
+    "archive/yoshi2020-remaining-preserved-clips-reconciliation-20261005.json",
+    "archive/yoshi2020-three-brandonsg-recording-source-publication-reconciliation-20261011.json",
+    "archive/yoshi2020-selected-recording-r2-preservation-20261012.json",
+    "archive/yoshi2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/yoshi-2020-review-progress.json",
+    "discussionMessagesRead": 2780,
+    "serverAttachmentsReviewed": 810,
+    "serverImageMessagesRead": 750,
+    "externalImagesReviewed": 15,
+    "basis": "Prior local review ledger retained; not freshly repeated or claimed as new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 163
+  },
+  "remainingLimitations": [
+    "Original final WR footage unavailable or not recovered; Kazuo1:21.28 andBrandonSG1:16.06 are fastest documented available completed recordings in preserved reviewed evidence.",
+    "Tomegome partial second-lap and Gisko/Wins first-lap clips do not establish final totals.",
+    "Some migrated achievement dates and intermediate rival order remain unresolved. Original post, report and video share clocks remain separate.",
+    "Opening day retains fastest documented result and ties; superseded source rows remain in download.",
+    "Deleted/private/global material not proven fully recovered; prior review accepted under practical standard."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      80,
+      43
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-daisy-hills-r",
+        "reviewedRows": 120,
+        "differences": 0
+      },
+      {
+        "courseId": "n64-kalimari-desert",
+        "reviewedRows": 111,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-16"
+}
