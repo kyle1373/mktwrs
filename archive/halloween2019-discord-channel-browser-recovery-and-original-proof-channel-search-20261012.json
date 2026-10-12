@@ -1,0 +1,61 @@
+{
+  "reviewedAt": "2026-10-12T02:21:00.928043+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "serverId": "629221606064914442",
+  "serverName": "MKCentral - Mario Kart Tour",
+  "channelBrowserUrl": "https://discord.com/channels/629221606064914442/channel-browser",
+  "channelBrowserOpened": true,
+  "method": "Authenticated browser DOM and accessibility text",
+  "controlRecovery": {
+    "roleButtonLocatorFailed": true,
+    "visibleTextClickDidNotNavigate": true,
+    "actualVisibleRowLocator": "div.link__2ea32 filtered to Browse Channels",
+    "rowClickNavigatedToCatalog": true
+  },
+  "catalogSearches": [
+    {
+      "query": "top",
+      "matchingChannelNames": [],
+      "scope": "Current accessible channel-browser search, not deleted/renamed/private channel history."
+    },
+    {
+      "query": "tt",
+      "matchingChannelNames": [
+        "twitter-feed",
+        "mkt-events",
+        "staff-support",
+        "tt-announcements",
+        "tt-submission",
+        "tt-submission-2",
+        "tt-discussion",
+        "tt-bot-commands"
+      ]
+    }
+  ],
+  "quickSwitcherSearches": [
+    {
+      "query": "#top-scores",
+      "visibleChannelOptions": []
+    },
+    {
+      "query": "#scores",
+      "visibleRelevantMktChannels": [],
+      "otherServersNotInvestigated": true
+    }
+  ],
+  "unresolvedAttachmentChannelId": "626784935285620756",
+  "originalAttachmentId": "637532414490574859",
+  "channelGuildIdentityEstablished": false,
+  "sourceMessageRecovered": false,
+  "priorAttempt": "archive/halloween2019-original-server-invite-source-review-20261011.json",
+  "latestProofRecoveryAttempt": "archive/halloween2019-meester-separate-sheet-proof-current-and-archived-recovery-20261012.json",
+  "limitations": [
+    "Catalog navigation now works through the actual visible row; previous role-only locator failures are not a Discord-access blocker.",
+    "No top-name match in current catalog does not prove historical channel deletion, absence under a new name, or identity of the separate attachment channel.",
+    "Time-trial channels are available in this server. The original sheet proof channel remains unassigned to any guild; no guessed guild/channel pair opened.",
+    "No channel-follow settings changed, invite accepted, server joined, or message sent.",
+    "No image pixels, race time, achievement date, player identity, WR exchange or fastest-recording selection verified. Halloween remains incomplete."
+  ]
+}
