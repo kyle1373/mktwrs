@@ -1,0 +1,118 @@
+{
+  "reviewedAt": "2026-10-12T04:32:30.878964+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "localScans": [
+    {
+      "root": "archive/video-backup-files",
+      "jsonFilesInspected": 602,
+      "mediaFiles": 727,
+      "mediaFilenameMatches": {
+        "G1_Z2_9JICA": [],
+        "5mQGD5k9V5k": [],
+        "rjLIW36EQgA": [],
+        "oW-jyVSXs8s": []
+      }
+    },
+    {
+      "root": "archive/video-backups",
+      "jsonFilesInspected": 0,
+      "mediaFiles": 1,
+      "mediaFilenameMatches": {
+        "G1_Z2_9JICA": [],
+        "5mQGD5k9V5k": [],
+        "rjLIW36EQgA": [],
+        "oW-jyVSXs8s": []
+      }
+    }
+  ],
+  "metadataReadErrors": [],
+  "backupLedger": {
+    "path": "archive/video-backups.json",
+    "rows": 108,
+    "sha256": "6c1a1ae43095067c00616969e400808b695d6c4fa29fc4d4c9193b552c3bf144",
+    "source": "authoritative-git-index"
+  },
+  "rows": [
+    {
+      "videoId": "G1_Z2_9JICA",
+      "localMetadataIdentityMatches": [
+        {
+          "path": "archive/video-backup-files/downloads.json",
+          "sha256": "39c82867b704144f0b8f24f09b9a0a3366633699c0a8d7c8e5d41d1c27b7a4cc",
+          "matchingIdentityFields": [
+            {
+              "field": "originalUrl",
+              "value": "https://www.youtube.com/watch?v=G1_Z2_9JICA"
+            }
+          ]
+        },
+        {
+          "path": "archive/video-backup-files/queue.json",
+          "sha256": "701e2bcb8b4714fe547fe924b8fca73fbee08fb46e065d8fe9f7ea60e1f0fc08",
+          "matchingIdentityFields": [
+            {
+              "field": "originalUrl",
+              "value": "https://www.youtube.com/watch?v=G1_Z2_9JICA"
+            }
+          ]
+        }
+      ],
+      "backupLedgerIdentityMatches": [],
+      "exactFilenameMatches": [],
+      "disposition": "queue-and-failed-download-ledger-references-only-no-exact-local-media-identified",
+      "downloadLedgerStatus": "download-failed"
+    },
+    {
+      "videoId": "5mQGD5k9V5k",
+      "localMetadataIdentityMatches": [],
+      "backupLedgerIdentityMatches": [],
+      "exactFilenameMatches": [],
+      "disposition": "no-exact-identity-match-in-scoped-preservation-census"
+    },
+    {
+      "videoId": "rjLIW36EQgA",
+      "localMetadataIdentityMatches": [],
+      "backupLedgerIdentityMatches": [],
+      "exactFilenameMatches": [],
+      "disposition": "no-exact-identity-match-in-scoped-preservation-census"
+    },
+    {
+      "videoId": "oW-jyVSXs8s",
+      "localMetadataIdentityMatches": [
+        {
+          "path": "archive/video-backup-files/downloads.json",
+          "sha256": "39c82867b704144f0b8f24f09b9a0a3366633699c0a8d7c8e5d41d1c27b7a4cc",
+          "matchingIdentityFields": [
+            {
+              "field": "originalUrl",
+              "value": "https://youtu.be/oW-jyVSXs8s"
+            }
+          ]
+        },
+        {
+          "path": "archive/video-backup-files/queue.json",
+          "sha256": "701e2bcb8b4714fe547fe924b8fca73fbee08fb46e065d8fe9f7ea60e1f0fc08",
+          "matchingIdentityFields": [
+            {
+              "field": "originalUrl",
+              "value": "https://youtu.be/oW-jyVSXs8s"
+            }
+          ]
+        }
+      ],
+      "backupLedgerIdentityMatches": [],
+      "exactFilenameMatches": [],
+      "disposition": "queue-and-failed-download-ledger-references-only-no-exact-local-media-identified",
+      "downloadLedgerStatus": "download-failed"
+    }
+  ],
+  "limitations": [
+    "Scoped local filename and selected metadata identity census, plus exact original identity lookup in authoritative backup ledger. This is not a content fingerprint search of unidentified video files.",
+    "No live remote backup status was checked; absence from this ledger does not prove no remote copy.",
+    "Unlabeled files, other directories, alternate upload identities and offline copies remain possible.",
+    "No media content was visually reviewed; no times, dates, WR classifications or recording scopes changed.",
+    "The two metadata matches per Nu10446 and Nova10499 are queue/download ledger references, not original.info.json or playable media; both download entries report download-failed."
+  ]
+}
