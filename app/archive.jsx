@@ -610,6 +610,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
         </div>)}
       </section>}
       <h2>History</h2>
+      {c.halloween2019Recording && <p className="table-note">Halloween Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive. Runs with unresolved dates remain under review.</p>}
       <RecordTable records={c.records} events={events} players={players} />
       <DateKey />
       <p className="table-note">
