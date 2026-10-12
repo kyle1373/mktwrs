@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 15
+    "practicallyCompletedTours": 16
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -1138,7 +1138,7 @@
       "endDate": "2020-06-03",
       "tourSource": "https://www.mariowiki.com/Jungle_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "snes-mario-circuit-1r",
@@ -1160,7 +1160,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "practicalCompletionEvidence": "archive/jungle2020-practical-tour-completion-20261012.json",
+      "practicallyComplete": true
     },
     {
       "tourId": "tour-19",
@@ -10777,7 +10779,7 @@
     "advanceOnlyAfterEvidenceReportProvesCompletion": true,
     "activeTourId": "tour-3"
   },
-  "activeTourCompletionEvidenceAudit": "archive/flower2020-live-publication-verification-20261012.json",
+  "activeTourCompletionEvidenceAudit": "archive/jungle2020-practical-tour-completion-20261012.json",
   "currentProofPolicy": {
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
