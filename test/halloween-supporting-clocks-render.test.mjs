@@ -94,6 +94,19 @@ test('same reviewed original report is shown once across WR and supporting table
 });
 
 
+test('image report clocks distinguish existing image evidence from exact written result captions',()=>{
+ const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
+ const image=rows.find(r=>r.id==='curated-nu11-halloween-2019-1187748510839513091-result');
+ const html=render([image]);
+ assert.match(html,/Runner result image posted:/);
+ assert.match(html,/2019-10-25 15:11:26 UTC/);
+ assert.match(html,/caption does not state the exact total/);
+ const written=rows.find(r=>r.id==='curated-nu11-halloween-2019-1187908955424489473-result');
+ const writtenHtml=render([written]);
+ assert.match(writtenHtml,/Runner result report:/);
+ assert.doesNotMatch(writtenHtml,/caption does not state the exact total/);
+});
+
 test('Reddit video result disagreement is visible and does not replace the documented time',()=>{
  const c=routeData(['course','3ds-neo-bowser-city']).data;
  const r=c.halloweenSupportingResults.find(r=>r.id==='curated-halloween2019-original-nbc-row-12');

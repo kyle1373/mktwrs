@@ -88,8 +88,9 @@ function EvidenceTimes({ r }) {
       <div>Source-message posting time; race completion time is separate.</div>
     </div>)}
     {(r.resultReportTimes || []).map(report => <div key={report.url + "|" + report.reportedAt}>
-      {report.originalRunnerSubmission ? "Runner result report: " : "Third-party result report: "}
+      {report.imageReport ? "Runner result image posted: " : report.originalRunnerSubmission ? "Runner result report: " : "Third-party result report: "}
       <a href={report.url} target="_blank" rel="noopener noreferrer">{format(report.reportedAt)}</a>
+      {report.imageReport && report.writtenTotalExplicit === false && <div>The caption does not state the exact total; this post is linked to the archived result image.</div>}
       <div>Report posting time; exact race completion time is unconfirmed.</div>
     </div>)}
     {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
