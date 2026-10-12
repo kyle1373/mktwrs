@@ -62,3 +62,22 @@ test('Yerson sheet date disagreement remains explicit beside original sheet day'
  assert.match(html,/2019-10-24/);
  assert.match(html,/Exact race time remains unconfirmed/);
 });
+
+
+test('reviewed later-tour runner report exposes an undated previous best without creating WR history',()=>{
+ const course=routeData(['course','3ds-toad-circuit']).data;
+ const id='curated-nu11-halloween-2019-1187741228168810497-previous';
+ const rows=course.halloweenSupportingResults.filter(r=>r.id===id);
+ assert.equal(rows.length,1);
+ const r=rows[0];
+ assert.equal(r.time,'1:05.23');
+ assert.ok(r.achievedAt == null && r.submittedAt == null);
+ assert.ok(!course.records.some(r=>r.id===id));
+ const html=render(rows);
+ assert.match(html,/Runner result report:/);
+ assert.match(html,/2019-10-24 15:01:52 UTC/);
+ assert.ok(html.includes('1187383715053178880'));
+ assert.doesNotMatch(html,/Submitted:/);
+ const nbc=routeData(['course','3ds-neo-bowser-city']).data;
+ assert.ok(!nbc.halloweenSupportingResults.some(r=>r.id==='curated-639542633336930354-verified'));
+});
