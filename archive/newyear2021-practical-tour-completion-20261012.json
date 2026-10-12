@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-34",
+  "tour": "New Year’s Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-12-30T06:00:00Z",
+    "endExclusive": "2021-01-13T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "ds-airship-fortress-r",
+      "archivedWr": "1:36.44",
+      "fastestDocumentedAvailableRecording": "1:36.91",
+      "recordingPlayerId": "wins"
+    },
+    {
+      "id": "snes-koopa-troopa-beach-2",
+      "archivedWr": "0:57.59",
+      "fastestDocumentedAvailableRecording": "0:57.99",
+      "recordingPlayerId": "wins"
+    }
+  ],
+  "evidence": [
+    "archive/newyear2021-original-results-practical-review-20261012.json",
+    "archive/newyear-2021-reconciliation.json",
+    "archive/newyear2021-six-video-share-clock-reconciliation-20261010.json",
+    "archive/newyear2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/newyear2021-selected-recording-r2-preservation-20261012.json",
+    "archive/newyear2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/winter2020-discussion-review-progress.json",
+    "discussionMessagesRead": 14558,
+    "preservedImagesVisuallyReviewed": 1749,
+    "basis": "Prior local ledger covers December through February; totals are multi-tour capture counts, not Winter-only counts; no fresh exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 206
+  },
+  "remainingLimitations": [
+    "Final WRs 1:36.44 and 0:57.59 retain result proofs and unavailable video references. Fastest available reviewed recordings are Wins 1:36.91 and 0:57.99.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 904,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      143,
+      75
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "ds-airship-fortress-r",
+        "reviewedRows": 205,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-koopa-troopa-beach-2",
+        "reviewedRows": 162,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-35"
+}
