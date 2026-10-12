@@ -1,0 +1,127 @@
+{
+  "reviewedAt": "2026-10-12T04:34:50.848034+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "canonicalRestoredFields": [
+    {
+      "canonicalId": "636940437554462732-opening2019-proof-review",
+      "fields": [
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "canonicalId": "636940091843018752-opening2019-proof-review",
+      "fields": [
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "canonicalId": "636853682620858388-opening2019-proof-review",
+      "fields": [
+        "videoShareClockAudit",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "canonicalId": "1188770496294412288-original-social-video-reviewed",
+      "fields": [
+        "publicationRecoveryReview"
+      ]
+    },
+    {
+      "canonicalId": "639941460220706816-opening2019-proof-review",
+      "fields": [
+        "playerIdBeforeAttributionReconciliation"
+      ]
+    },
+    {
+      "canonicalId": "1191420102056402944-current-13423-reviewed",
+      "fields": [
+        "publicationRecoveryReview"
+      ]
+    }
+  ],
+  "publicRecordUpdates": [
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "896332037437403157",
+      "fields": [
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "896332063081390090",
+      "fields": [
+        "notes"
+      ]
+    }
+  ],
+  "priorComparison": "Eight differing rows found across269 scoped rows; equal scoped row identities and individual/aggregate projections.",
+  "limitations": [
+    "Canonical source/share fields restore already preserved public provenance; no newly inferred clock or identity.",
+    "Astre announcement receives existing canonical local preservation detail. Tome final announcement receives existing corrected intermediate benchmark note.",
+    "No race totals, laps, achievement dates, source URLs, WR order, recording scopes or video selections changed.",
+    "Regeneration fidelity does not establish source completeness, video continuity or live publication."
+  ],
+  "validation": {
+    "isolatedGeneratorExitCode": 0,
+    "scopedRows": 269,
+    "differentRows": 0,
+    "scopedComparison": [
+      {
+        "courseId": "3ds-toad-circuit",
+        "collection": "records",
+        "publicRows": 25,
+        "generatedRows": 25,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "3ds-toad-circuit",
+        "collection": "submissions",
+        "publicRows": 113,
+        "generatedRows": 113,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "collection": "records",
+        "publicRows": 14,
+        "generatedRows": 14,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "collection": "submissions",
+        "publicRows": 63,
+        "generatedRows": 63,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle",
+        "collection": "records",
+        "publicRows": 22,
+        "generatedRows": 22,
+        "sameIds": true,
+        "aggregateMatches": true
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle",
+        "collection": "submissions",
+        "publicRows": 32,
+        "generatedRows": 32,
+        "sameIds": true,
+        "aggregateMatches": true
+      }
+    ],
+    "normalization": "Optional null versus absent fields equivalent; notes/additionalSources/share/report list order ignored with duplicates retained; remaining fields compared exactly."
+  }
+}
