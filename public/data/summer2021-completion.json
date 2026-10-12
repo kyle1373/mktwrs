@@ -1,0 +1,79 @@
+{
+  "tourId": "tour-47",
+  "tour": "Summer Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-06-30T06:00:00Z",
+    "endExclusive": "2021-07-14T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "ds-airship-fortress-r",
+      "archivedWr": "1:36.44",
+      "fastestDocumentedAvailableRecording": "1:36.64",
+      "recordingPlayerId": "nhspeedy",
+      "standingWrCarriedFromEarlierTour": true
+    },
+    {
+      "id": "rmx-choco-island-1",
+      "archivedWr": "1:12.08",
+      "fastestDocumentedAvailableRecording": "1:12.24",
+      "recordingPlayerId": "tomegome"
+    }
+  ],
+  "evidence": [
+    "archive/summer2021-original-results-practical-review-20261012.json",
+    "archive/summer-2021-reconciliation.json",
+    "archive/summer2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/summer2021-selected-recording-r2-preservation-20261012.json",
+    "archive/summer2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/summer-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 111,
+      "indexedImagesVisuallyReviewed": 110,
+      "wrSearchMatches": 7,
+      "linkSearchMatches": 9,
+      "videoSearchMatches": 3
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 114
+  },
+  "remainingLimitations": [
+    "Airship standing January1:36.44 not beaten among reviewed Summer submissions; best result1:36.47 has no reviewed footage.",
+    "NHSpeedy1:36.64 original2021 publication and2026Discordrepost kept separate; no race instant inferred.",
+    "Choco finalNu1:12.08 no reviewed available footage; Tomegome1:12.24 selected separately.",
+    "One Isun unavailable indexed Twitter image andNu retrospective1:12.23 date remain unresolved.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 896,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      47,
+      38
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "ds-airship-fortress-r",
+        "reviewedRows": 47,
+        "differences": 0
+      },
+      {
+        "courseId": "rmx-choco-island-1",
+        "reviewedRows": 73,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-48"
+}
