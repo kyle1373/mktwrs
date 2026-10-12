@@ -1236,7 +1236,7 @@
     "datePrecision": "day",
     "sourceClock": "06:40:00",
     "sourceZoneLabel": "CST",
-    "submittedAt": "2019-10-25T11:40:58.546Z",
+    "submittedAt": null,
     "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/637254273347878953/Screenshot_20191025-124034_Mario_Kart.jpg",
     "video": null,
     "source": {
@@ -1247,7 +1247,7 @@
     "notes": [
       "Listed explicitly in the contemporary 2019 WR history, and the proof image has been visually read.",
       "Source clock is retained as written; the sheet labels Central daylight-time values as CST, so the clock has not been converted into an exact UTC achievement timestamp.",
-      "Unreal’s original forum reply 30 explicitly gives 32.49 / 32.42 for this 1:04.91. Both sum exactly to the visually confirmed total. Forum clock timezone is unresolved; original sheet achievement day and Discord submission timestamp remain unchanged.",
+      "Unreal’s original forum reply 30 explicitly gives 32.49 / 32.42 for this 1:04.91. Both sum exactly to the visually confirmed total. Forum clock timezone is unresolved; original sheet achievement day remains unchanged; Discord image posting clock is separate from accepted submission and race completion.",
       "Chat repost on October25 explicitly says Just found this / On twitter. Original result1:04.91, previous1:05.17, phone12:40 and16% battery match the earlier original screenshot. Repost does not create a second record or move original publication date."
     ],
     "additionalSources": [
@@ -1313,10 +1313,12 @@
         "UnrealMK91"
       ],
       "primarySocialPublishedAt": "2019-10-25T11:54:40Z",
-      "originalDiscordSubmittedAt": "2019-10-25T11:40:58.546Z",
       "socialAfterDiscordSeconds": 821.454,
       "separateAttemptsProven": false,
-      "groupingBasis": "Established player aliases, same course/total, original Unreal forum link and matching approximate 14-minute report; preserve sources as one performance."
+      "groupingBasis": "Established player aliases, same course/total, original Unreal forum link and matching approximate 14-minute report; preserve sources as one performance.",
+      "originalDiscordPostedAt": "2019-10-25T11:40:58.546Z",
+      "acceptedSubmissionClockKnown": false,
+      "submissionClockMeaningCorrectionAudit": "archive/halloween2019-two-retained-unreal-wr-image-post-clock-corrections-20261012.json"
     },
     "lapReportSourceReview": {
       "audit": "archive/halloween2019-two-unreal-original-lap-report-publication-reconciliation-20261011.json",
@@ -1356,7 +1358,34 @@
       "freshFootageReviewed": false,
       "wrStatusReassigned": false
     },
-    "submissionClockRestorationAudit": "archive/halloween2019-three-toad-record-submission-clock-restoration-20261011.json"
+    "submissionClockRestorationAudit": "archive/halloween2019-three-toad-record-submission-clock-restoration-20261011.json",
+    "observedAt": "2019-10-25T11:40:58.546Z",
+    "resultReportEvents": [
+      {
+        "reportedAt": "2019-10-25T11:40:58.546Z",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/637254274052784138",
+          "channel": "tt-discussion",
+          "messageId": "637254274052784138",
+          "kind": "original-runner-result-image-post"
+        },
+        "caption": null,
+        "originalRunnerSubmission": true,
+        "acceptedSubmissionClockEstablished": false,
+        "writtenTotalExplicit": false,
+        "sourcePath": "archive/halloween2019-full-discussion-message-census-20261004.json",
+        "sourceSha256": "e7d5c17647b9fd6cefc2d6c7192739fe72a80eba6ca66593418a74b91e4d44ea",
+        "reviewAudit": "archive/halloween2019-two-retained-unreal-wr-image-post-clock-corrections-20261012.json",
+        "freshPixelsReviewed": false,
+        "exactRaceTimestampKnown": false
+      }
+    ],
+    "submissionClockSourceReview": {
+      "reviewAudit": "archive/halloween2019-two-retained-unreal-wr-image-post-clock-corrections-20261012.json",
+      "previousSubmittedAt": "2019-10-25T11:40:58.546Z",
+      "verifiedMeaning": "original-runner-result-image-posting",
+      "acceptedSubmissionTimeKnown": false
+    }
   },
   {
     "messageId": "original-2019-wr-row-27",
@@ -1654,7 +1683,7 @@
     "datePrecision": "day",
     "sourceClock": "11:20:00",
     "sourceZoneLabel": "CST",
-    "submittedAt": "2019-10-24T16:20:38.357Z",
+    "submittedAt": null,
     "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/636962264964136982/Screenshot_20191024-172030_Mario_Kart.jpg",
     "video": null,
     "source": {
@@ -1674,7 +1703,34 @@
       }
     ],
     "proofImageVerified": true,
-    "proofImageLocal": "/assets/proof/preserved-2019-636962264964136982.webp"
+    "proofImageLocal": "/assets/proof/preserved-2019-636962264964136982.webp",
+    "observedAt": "2019-10-24T16:20:38.357Z",
+    "resultReportEvents": [
+      {
+        "reportedAt": "2019-10-24T16:20:38.357Z",
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/636962265815449613",
+          "channel": "tt-discussion",
+          "messageId": "636962265815449613",
+          "kind": "original-runner-result-image-post"
+        },
+        "caption": null,
+        "originalRunnerSubmission": true,
+        "acceptedSubmissionClockEstablished": false,
+        "writtenTotalExplicit": false,
+        "sourcePath": "archive/halloween2019-full-discussion-message-census-20261004.json",
+        "sourceSha256": "e7d5c17647b9fd6cefc2d6c7192739fe72a80eba6ca66593418a74b91e4d44ea",
+        "reviewAudit": "archive/halloween2019-two-retained-unreal-wr-image-post-clock-corrections-20261012.json",
+        "freshPixelsReviewed": false,
+        "exactRaceTimestampKnown": false
+      }
+    ],
+    "submissionClockSourceReview": {
+      "reviewAudit": "archive/halloween2019-two-retained-unreal-wr-image-post-clock-corrections-20261012.json",
+      "previousSubmittedAt": "2019-10-24T16:20:38.357Z",
+      "verifiedMeaning": "original-runner-result-image-posting",
+      "acceptedSubmissionTimeKnown": false
+    }
   },
   {
     "messageId": "639542633336930354-verified",
