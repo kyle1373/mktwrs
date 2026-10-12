@@ -1,0 +1,63 @@
+{
+  "reviewedAt": "2026-10-12T01:13:32.839446+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "canonicalId": "original-2019-wr-row-18",
+  "availabilityChecks": [
+    {
+      "requestUrl": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoW-jyVSXs8s&timestamp=20191025",
+      "httpStatus": 200,
+      "response": {
+        "url": "https://www.youtube.com/watch?v=oW-jyVSXs8s",
+        "archived_snapshots": {
+          "closest": {
+            "status": "200",
+            "available": true,
+            "url": "http://web.archive.org/web/20250113220305/https://www.youtube.com/watch?v=oW-jyVSXs8s&feature=youtu.be",
+            "timestamp": "20250113220305"
+          }
+        },
+        "timestamp": "20191025"
+      }
+    },
+    {
+      "url": "https://youtu.be/oW-jyVSXs8s",
+      "requestUrl": "https://archive.org/wayback/available?url=https%3A%2F%2Fyoutu.be%2FoW-jyVSXs8s&timestamp=20191025",
+      "status": 200,
+      "response": {
+        "url": "https://youtu.be/oW-jyVSXs8s",
+        "archived_snapshots": {},
+        "timestamp": "20191025"
+      }
+    }
+  ],
+  "retrieval": {
+    "url": "https://web.archive.org/web/20250113220305/https://www.youtube.com/watch?v=oW-jyVSXs8s&feature=youtu.be",
+    "finalUrl": "https://web.archive.org/web/20250113220305/https://www.youtube.com/watch?v=oW-jyVSXs8s&feature=youtu.be",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 632570,
+    "sha256": "f848032207aa5a8de68effde58b119cb71658053297f1980d4591094394991ec",
+    "path": "archive/halloween2019-nova10499-source-recovery/20250113220305-youtube-watch.html.gz",
+    "title": " - YouTube"
+  },
+  "archivedPlayerReview": {
+    "reviewAudit": "archive/halloween2019-nova10499-archived-unavailable-player-response-20261012.json",
+    "videoId": "oW-jyVSXs8s",
+    "archivedUrl": "https://web.archive.org/web/20250113220305/https://www.youtube.com/watch?v=oW-jyVSXs8s&feature=youtu.be",
+    "snapshotAt": "2025-01-13T22:03:05Z",
+    "sourcePath": "archive/halloween2019-nova10499-source-recovery/20250113220305-youtube-watch.html.gz",
+    "sourceSha256": "f848032207aa5a8de68effde58b119cb71658053297f1980d4591094394991ec",
+    "playerStatus": "ERROR",
+    "playerReason": "Video nicht verfügbar",
+    "videoDetailsPresent": false,
+    "publicationDatePresent": false,
+    "recordingRecovered": false,
+    "permanentLossEstablished": false
+  },
+  "limitations": [
+    "Closest available capture returned by availability endpoint is2025, not contemporary2019. No full timeline or permanent disappearance established.",
+    "Static archived player response supplies no runner/title/date/footage. Documentary WR, splits, day and original link remain unchanged.",
+    "No footage playback or visual content verified."
+  ]
+}
