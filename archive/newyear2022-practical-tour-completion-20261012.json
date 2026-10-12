@@ -1,0 +1,96 @@
+{
+  "tourId": "tour-60",
+  "tour": "New Year's 2022 Tour",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-12-29T06:00:00Z",
+    "endExclusive": "2022-01-12T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-cheep-cheep-lagoon-r",
+      "archivedWr": "1:17.03",
+      "fastestDocumentedAvailableRecording": "1:17.03",
+      "recordingPlayerId": "phillish"
+    },
+    {
+      "id": "n64-kalimari-desert",
+      "archivedWr": "1:14.88",
+      "fastestDocumentedAvailableRecording": "1:14.88",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "snes-vanilla-lake-1",
+      "archivedWr": "0:34.20",
+      "archivedWrPlayers": [
+        "dit",
+        "nekozuki"
+      ],
+      "fastestDocumentedAvailableRecording": "0:34.20",
+      "recordingPlayerId": "dit"
+    }
+  ],
+  "evidence": [
+    "archive/newyear2022-original-results-practical-review-20261012.json",
+    "archive/new-year-2022-reconciliation.json",
+    "archive/newyear2022-selected-recording-clocks-and-scope-20261012.json",
+    "archive/newyear2022-selected-recording-r2-preservation-20261012.json",
+    "archive/newyear2022-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/new-year-2022-reconciliation.json",
+    "coverage": {
+      "freshSubmissionWindows": 12,
+      "freshMessagesIncludingBoundaryOverlap": 197,
+      "recoveredNewYearImages": 23,
+      "additionalPenguinImageRecovered": 1,
+      "originalVideosDownloadedAndVisuallyReviewed": 13,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 3,
+    "proofImageUrlsPassed": 65
+  },
+  "remainingLimitations": [
+    "Initial capture omitted 23 New Year images, including three intermediate WRs. Earlier tours require the same attachment-completeness audit; no global completion claim is made.",
+    "Nu11 previous 1:14.92 date and ordering remain unresolved. DIT’s screenshot repeats a previous 34.20; its first attainment timestamp is unknown.",
+    "Wins previous 1:15.21/1:15.17 and other earlier personal-best dates require independent evidence before promotion to WR history.",
+    "Two Isun Twitter video posts (1480353594260230152 and 1480360138058137601) could not be downloaded; result screenshots and lap text survive.",
+    "Course history outside this tour remains under audit.",
+    "Three selected final recordings preserved on R2; prior visual review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 894,
+    "recordingComparisonRenderChecks": 3,
+    "documentedResultsRows": [
+      3,
+      5,
+      15
+    ],
+    "videoRangeChecksPassed": 3,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-cheep-cheep-lagoon-r",
+        "reviewedRows": 42,
+        "differences": 0
+      },
+      {
+        "courseId": "n64-kalimari-desert",
+        "reviewedRows": 16,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-vanilla-lake-1",
+        "reviewedRows": 50,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-61"
+}
