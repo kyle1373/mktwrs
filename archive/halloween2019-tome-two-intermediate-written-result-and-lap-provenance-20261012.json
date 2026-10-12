@@ -1,0 +1,69 @@
+{
+  "reviewedAt": "2026-10-12T06:50:32.314158+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "rows": [
+    {
+      "canonicalMessageId": "tomegome-2019-1189952485982519297-result-recovered",
+      "time": "1:34.94",
+      "writtenLaps": [
+        "47.76",
+        "47.18"
+      ],
+      "originalReport": {
+        "reportedAt": "2019-10-31T17:09:15Z",
+        "source": {
+          "url": "https://twitter.com/tomegome_g/status/1189952485982519297",
+          "postId": "1189952485982519297",
+          "kind": "original-runner-written-result-report"
+        },
+        "originalRunnerSubmission": true,
+        "acceptedSubmissionClockEstablished": false,
+        "caption": "ディノディノジャングルTA\n1周目 47.76\n2周目 47.18\n34秒台ついにきた！",
+        "reviewAudit": "archive/halloween2019-tome-two-intermediate-written-result-and-lap-provenance-20261012.json",
+        "sourcePath": "archive/halloween2019-tomegome-source-recovery/1189952485982519297.json",
+        "sourceSha256": "108a2711b3e3fe1c0a0ba7b141e9ef40257c31522335719113ef554fc1dbacca",
+        "freshPixelsReviewed": false,
+        "exactRaceTimestampKnown": false
+      }
+    },
+    {
+      "canonicalMessageId": "tomegome-2019-1189968242225209344-result-recovered",
+      "time": "1:34.76",
+      "writtenLaps": null,
+      "originalReport": {
+        "reportedAt": "2019-10-31T18:11:52Z",
+        "source": {
+          "url": "https://twitter.com/tomegome_g/status/1189968242225209344",
+          "postId": "1189968242225209344",
+          "kind": "original-runner-written-result-report"
+        },
+        "originalRunnerSubmission": true,
+        "acceptedSubmissionClockEstablished": false,
+        "caption": "MKT Dino Dino Jungle\nTime Trial\n1:34.76",
+        "reviewAudit": "archive/halloween2019-tome-two-intermediate-written-result-and-lap-provenance-20261012.json",
+        "sourcePath": "archive/halloween2019-tomegome-source-recovery/1189968242225209344.json",
+        "sourceSha256": "9a7f10837d581b687bd798d1e6b06503e6de87e34a3e0f2975e73314cf0284a5",
+        "freshPixelsReviewed": false,
+        "exactRaceTimestampKnown": false
+      }
+    }
+  ],
+  "decision": "Preserve original written lap and total provenance with exact report clocks. No new result or achievement date.",
+  "limitations": [
+    "13494 is explicitly supported by two lap values in original caption; 13476 by literal total. Photos not freshly reviewed.",
+    "13518 and13538 predecessor dates remain unknown. Successor post clocks do not date predecessor races.",
+    "Existing submittedAt values retained; no newly established accepted submission or exact race timestamp.",
+    "No WR order, reign durations or full-race recording selection changes."
+  ],
+  "validation": {
+    "exactOriginalAccountAndPostIdsMatched": true,
+    "originalClockAndCaptionMatched": true,
+    "renderChecksPassed": 4,
+    "scopedRows": 269,
+    "generatedDifferences": 0,
+    "aggregateMatches": true,
+    "predecessorDatesUnresolved": true
+  }
+}
