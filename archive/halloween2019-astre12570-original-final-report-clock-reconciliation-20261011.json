@@ -1,0 +1,71 @@
+{
+  "reviewedAt": "2026-10-12T01:06:40.597803+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceReview": {
+    "method": "Fresh authenticated Discord DOM text, time datetime attributes and adjacent-message context. No image pixels reviewed.",
+    "reportMessageId": "641427399732363284",
+    "attachmentMessageId": "641427228797960203",
+    "attachmentFilename": "Screenshot_20191105-223858.png",
+    "attachmentContentsVerified": false,
+    "reportedCaption": "By Astre () - 05/11 22h39 CET",
+    "sources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/641427228797960203",
+        "channel": "tt-discussion",
+        "messageId": "641427228797960203",
+        "postedAt": "2019-11-06T00:02:48.487Z",
+        "kind": "original-final-result-attachment-report",
+        "clockReviewAudit": "archive/halloween2019-astre12570-original-final-report-clock-reconciliation-20261011.json",
+        "contentReviewPending": true
+      },
+      {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/641427399732363284",
+        "channel": "tt-discussion",
+        "messageId": "641427399732363284",
+        "postedAt": "2019-11-06T00:03:29.241Z",
+        "kind": "original-final-result-date-report",
+        "clockReviewAudit": "archive/halloween2019-astre12570-original-final-report-clock-reconciliation-20261011.json",
+        "reportedAchievementLocal": "2019-11-05 22:39 CET",
+        "reportedAchievementUtc": "2019-11-05T21:39:00Z",
+        "raceTimePrecision": "minute-reported-by-Hugo-not-fresh-media-verification"
+      }
+    ]
+  },
+  "reconciliation": {
+    "canonicalId": "twitter-1191841211063164929-verified",
+    "publicRecordId": "896332037437403157",
+    "playerId": "astre",
+    "courseId": "3ds-neo-bowser-city",
+    "time": "1:25.70",
+    "existingAchievementDay": "2019-11-05",
+    "reportedAchievementUtc": "2019-11-05T21:39:00Z",
+    "originalVideoPublishedAt": "2019-11-05T22:14:22Z",
+    "reportToVideoPublicationSeconds": 2122,
+    "existingSubmittedAtRetained": "2019-11-05T22:14:22.000Z",
+    "noExactAchievementTimestampAssigned": true,
+    "noFreshFootageCertification": true
+  },
+  "limitations": [
+    "Caption does not write the total or laps; same-result association relies on adjacent named result report and preserved original-video/record crosswalk.",
+    "Filename supports adjacent context but does not independently verify its contents or identify a race clock.",
+    "The reported minute is distinct from the later message timestamp and original video publication. Day-level chronology retained; no new record or fastest-video certification."
+  ],
+  "regenerationValidation": [
+    {
+      "collection": "records",
+      "id": "896332037437403157",
+      "twoSourceReportClocksRetained": true,
+      "dayAndSubmissionClockUnchanged": true,
+      "fullRaceContinuityStillPending": true
+    },
+    {
+      "collection": "submissions",
+      "id": "curated-twitter-1191841211063164929-verified",
+      "twoSourceReportClocksRetained": true,
+      "dayAndSubmissionClockUnchanged": true,
+      "fullRaceContinuityStillPending": true
+    }
+  ],
+  "localScopedFidelityAudit": "archive/halloween2019-local-regeneration-fidelity-reconciliation-20261011.json"
+}
