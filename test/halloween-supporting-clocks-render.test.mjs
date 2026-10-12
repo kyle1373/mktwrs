@@ -92,3 +92,17 @@ test('same reviewed original report is shown once across WR and supporting table
  assert.ok(wr.resultReportTimes.some(e=>e.url==='https://twitter.com/_Kaguya_Games/status/1189347136720310272' && e.reportedAt==='2019-10-30T01:03:49Z'));
  assert.ok(c.halloweenSupportingResults.some(r=>r.id==='curated-nu11-halloween-2019-1187741228168810497-previous'));
 });
+
+
+test('unresolved Meester NBC totals are visible without silently correcting documentary result',()=>{
+ const c=routeData(['course','3ds-neo-bowser-city']).data;
+ const r=c.halloweenSupportingResults.find(r=>r.id==='curated-halloween2019-original-nbc-row-18');
+ assert.equal(r.time,'1:30.26');assert.ok(r.submittedAt==null);
+ const html=render([r]);
+ assert.match(html,/Unresolved source disagreement: sheet 1:30.26/);
+ assert.match(html,/previously read as 1:30.23/);
+ assert.match(html,/says 1:08.23 on NBC; that value is not accepted as a result/);
+ assert.ok(html.includes('637527483398357003'));
+ assert.ok(html.includes('1571823398/40#40'));
+ assert.ok(!c.records.some(r=>r.time==='1:08.23'));
+});

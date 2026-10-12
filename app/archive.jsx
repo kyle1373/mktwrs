@@ -595,7 +595,7 @@ function HalloweenSupportingResults({ results, players }) {
     <div className="table-wrap"><table className="wr-table">
       <thead><tr><th>Time + video</th><th>Player</th><th>Documented day</th><th>Sources</th></tr></thead>
       <tbody>{results.map(r => <tr key={r.id}>
-        <td><Time record={r} /></td>
+        <td><Time record={r} />{r.nbcSourceConflict && <p className="table-note">Unresolved source disagreement: sheet {r.nbcSourceConflict.sheetTime}; <a href={r.nbcSourceConflict.discordUrl} target="_blank" rel="noopener noreferrer">Discord image</a> previously read as {r.nbcSourceConflict.discordTime}. <a href={r.nbcSourceConflict.forumUrl} target="_blank" rel="noopener noreferrer">Forum text</a> says {r.nbcSourceConflict.forumTime} on NBC; that value is not accepted as a result. These sources have not been reconciled.</p>}</td>
         <td><Player id={r.playerId} players={players} /></td>
         <td>{r.achievedAt ? date(r.achievedAt) : "Unknown; set during Halloween Tour"}{r.dateSourceDiscrepancyReview && <p className="table-note">Sheet day differs from reviewed WR-history day: <a href={r.dateSourceDiscrepancyReview.source.url} target="_blank" rel="noopener noreferrer">{r.dateSourceDiscrepancyReview.reviewedWrHistoryDay}</a>. Exact race time remains unconfirmed.</p>}</td>
         <td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}
