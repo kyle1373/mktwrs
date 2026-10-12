@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-30",
+  "tour": "Sunset Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-11-04T06:00:00Z",
+    "endExclusive": "2020-11-18T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-neo-bowser-city",
+      "archivedWr": "1:24.70",
+      "fastestDocumentedAvailableRecording": "1:24.70",
+      "recordingPlayerId": "kazuo"
+    },
+    {
+      "id": "n64-royal-raceway",
+      "archivedWr": "1:33.97",
+      "fastestDocumentedAvailableRecording": null,
+      "recordingPlayerId": null
+    }
+  ],
+  "evidence": [
+    "archive/sunset2020-original-results-practical-review-20261012.json",
+    "archive/sunset-2020-reconciliation.json",
+    "archive/sunset2020-video-preservation.json",
+    "archive/sunset2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/sunset2020-selected-recording-r2-preservation-20261012.json",
+    "archive/sunset2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/sunset2020-discussion-review-progress.json",
+    "discussionMessagesRead": 2280,
+    "preservedImagesVisuallyReviewed": 255,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 11
+  },
+  "remainingLimitations": [
+    "Neo Bowser City final WR recording preserved; Royal Raceway final WR image survives, no eligible full recording recovered.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      1,
+      0
+    ],
+    "videoRangeChecksPassed": 1,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "reviewedRows": 19,
+        "differences": 0
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "reviewedRows": 2,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-31"
+}
