@@ -1,0 +1,64 @@
+{
+  "reviewedAt": "2026-10-12T08:10:33.690907+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "caea4efe78342d2fa70aca1f414294817af63795",
+  "diagnosis": "Large source snapshot is a supported explanation for the scheduling-only build and eventual authorization rejection, not yet verified as the cause in this project.",
+  "sources": [
+    {
+      "url": "https://station.railway.com/questions/builds-stuck-indefinitely-at-scheduling-3567e269",
+      "respondent": "angelo-railway",
+      "reportedMechanism": "A 20-second gap during source download restarts the download from zero. Quiet retries can outlive the one-hour GitHub credential, producing repository not authorized. Railway downloads only the specific commit, not all history.",
+      "scope": "Explanation verified in another Railway support case; no Railway-internal logs for this project."
+    },
+    {
+      "url": "https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives",
+      "reportedMechanism": "GitHub source snapshots are generated with git archive."
+    }
+  ],
+  "trackedHead": {
+    "bytes": 19552147346,
+    "fileCount": 27075,
+    "archiveBytes": 12263081856,
+    "publicBytes": 7246853059
+  },
+  "change": {
+    "file": ".gitattributes",
+    "mechanism": "export-ignore research archive/artifacts except explicit build inputs and archive/raw; leave all public assets included.",
+    "filesDeleted": 0,
+    "historyRewritten": false,
+    "originalEvidenceStillTracked": true,
+    "websiteAssetPathsChanged": false,
+    "limitation": "Effective for git-archive/GitHub snapshots; ordinary git clones retain all files. Remaining source is still 7.33 GB; success must be verified on Railway."
+  },
+  "snapshotValidation": {
+    "tree": "20c6242023a175d502de7f8e35d43bceeb90fce1",
+    "includedBytes": 7332501696,
+    "omittedBytes": 12219645650,
+    "includedFiles": 12667,
+    "archiveFixtureOriginalOmitted": true,
+    "archiveFixtureWebsiteAssetIncluded": true,
+    "publicAssetOmittedCount": 0,
+    "isolatedBuildRoot": "/var/folders/pt/44j4ht3j3s52ry3jq5k7cz_h0000gn/T/mkt-export-build-wm21ox13"
+  },
+  "buildValidation": {
+    "dataGeneration": "passed",
+    "nextProductionBuild": "passed",
+    "generatedPages": 910,
+    "halloweenRows": 269,
+    "halloweenRowDifferences": 0,
+    "localInitialFailure": "Dependency symlink outside temporary project root; replaced with actual dependency copy and rerun passed."
+  },
+  "railwayObservation": {
+    "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
+    "commit": "f204b7039ceb3842377625394fb570468623d5a7",
+    "status": "Building",
+    "elapsed": "37:11",
+    "deploy": "Not started",
+    "network": "Not started",
+    "postDeploy": "Not started",
+    "sourceCheckoutSucceededVerified": false,
+    "livePublicationVerified": false
+  },
+  "nextAction": "Observe the first deployment using this source-export change; compare live Halloween rows and proof availability after successful deployment. Do not repeat GitHub permission confirmation based only on the eventual authorization symptom."
+}

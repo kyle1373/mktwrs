@@ -1,0 +1,22 @@
+# Keep original research evidence in Git, outside deployment source archives.
+# Website assets stay included so existing proof and video URLs keep working.
+archive/** export-ignore
+artifacts/** export-ignore
+
+# Inputs used by npm run build.
+archive/raw -export-ignore
+archive/raw/** -export-ignore
+archive/assets-manifest.json -export-ignore
+archive/curated-runs.json -export-ignore
+archive/player-identities.json -export-ignore
+archive/player-portraits.json -export-ignore
+archive/reviewed-submissions.json -export-ignore
+archive/reviewed-video-share-events.json -export-ignore
+archive/submission-corrections.json -export-ignore
+archive/submission-source-evidence.json -export-ignore
+archive/submission-video-rejections.json -export-ignore
+archive/submission-withdrawals.json -export-ignore
+archive/video-attribution.json -export-ignore
+archive/video-availability.json -export-ignore
+archive/video-backups.json -export-ignore
+archive/video-metadata.json -export-ignore
