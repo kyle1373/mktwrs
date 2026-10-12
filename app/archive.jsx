@@ -587,6 +587,8 @@ function HalloweenRecording({ comparison, players }) {
       <p className="table-note">These references have not established an available complete race. Their reported times do not replace the reviewed recording above.</p>
       {comparison.pendingRecordings.map(candidate => <div key={candidate.id}>
         <p><strong>{candidate.time}</strong> · <Player id={candidate.playerId} players={players} /> · <a href={candidate.video || candidate.videoReference} target="_blank" rel="noopener noreferrer">Original video reference</a></p>
+        {candidate.videoResultConflict && <p className="table-note">Unresolved video result: original post says {candidate.videoResultConflict.documentedTime}; automated reads of the linked video suggest {candidate.videoResultConflict.machineReadTime}. The video result still needs visual verification. The documented time is retained.</p>}
+        {candidate.videoAvailability === "unavailable" && <p className="table-note">Original video currently unavailable; reference preserved.</p>}
         <EvidenceTimes r={candidate} />
       </div>)}
     </details>}

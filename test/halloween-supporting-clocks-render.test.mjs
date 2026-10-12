@@ -45,6 +45,22 @@ test('eight recovered NBC source posts expose clocks without claiming verified r
  assert.equal(missing.recoveredSourcePost,undefined);
 });
 
+test('pending faster recordings retain source-total conflict and unavailable-video status',()=>{
+ const nbc=routeData(['course','3ds-neo-bowser-city']).data.halloween2019Recording;
+ const candidate=nbc.pendingRecordings.find(r=>r.id==='curated-halloween2019-original-nbc-row-12');
+ assert.equal(candidate.time,'1:27.41');
+ const html=renderToStaticMarkup(React.createElement(compiled.exports.HalloweenRecording,{comparison:{...nbc,pendingRecordings:[candidate]},players:[]}));
+ assert.match(html,/original post says 1:27.41/);
+ assert.match(html,/automated reads of the linked video suggest 1:27.48/);
+ assert.match(html,/still needs visual verification/);
+ const toad=routeData(['course','3ds-toad-circuit']).data.halloween2019Recording;
+ const unavailable=toad.pendingRecordings.find(r=>r.time==='1:04.46');
+ assert.equal(unavailable.videoAvailability,'unavailable');
+ const toadHtml=renderToStaticMarkup(React.createElement(compiled.exports.HalloweenRecording,{comparison:{...toad,pendingRecordings:[unavailable]},players:[]}));
+ assert.match(toadHtml,/Original video currently unavailable; reference preserved/);
+ assert.ok(toadHtml.includes('G1_Z2_9JICA'));
+});
+
 test('supporting table renders actual preserved forum clocks without invented submission times',()=>{
  const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
  const row=rows.find(r=>r.id==='curated-forum-halloween2019-samh-reply-31-10575');
