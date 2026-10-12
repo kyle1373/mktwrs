@@ -1,0 +1,76 @@
+{
+  "tourId": "tour-41",
+  "tour": "Ninja Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-04-07T06:00:00Z",
+    "endExclusive": "2021-04-21T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-mario-circuit-r",
+      "archivedWr": "1:35.84",
+      "fastestDocumentedAvailableRecording": "1:35.84",
+      "recordingPlayerId": "superfx"
+    },
+    {
+      "id": "snes-rainbow-road",
+      "archivedWr": "0:58.99",
+      "fastestDocumentedAvailableRecording": "0:59.49",
+      "recordingPlayerId": "astre"
+    }
+  ],
+  "evidence": [
+    "archive/ninja2021-original-results-practical-review-20261012.json",
+    "archive/ninja-2021-reconciliation.json",
+    "archive/april2021-three-original-recording-share-reconciliation-20261010.json",
+    "archive/ninja2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/ninja2021-selected-recording-r2-preservation-20261012.json",
+    "archive/ninja2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/ninja-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 248,
+      "indexedImagesVisuallyReviewed": 248,
+      "wrSearchMatches": 43,
+      "linkSearchMatches": 22
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 217
+  },
+  "remainingLimitations": [
+    "SuperFX Mario Circuit R1:35.84 original footage preserved; later video publication retained separately from April16 result.",
+    "Nu11 Rainbow Road0:58.99 original YouTube unavailable; Astre0:59.49 preserved supporting footage, no WR promotion.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+  ],
+  "validation": {
+    "productionBuildPages": 897,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      84,
+      81
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-mario-circuit-r",
+        "reviewedRows": 127,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-rainbow-road",
+        "reviewedRows": 124,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-42"
+}
