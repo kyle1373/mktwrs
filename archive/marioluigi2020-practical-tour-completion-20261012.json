@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-31",
+  "tour": "Mario vs. Luigi Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-11-18T06:00:00Z",
+    "endExclusive": "2020-12-02T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-mario-circuit-2",
+      "archivedWr": "0:57.28",
+      "fastestDocumentedAvailableRecording": "0:57.28",
+      "recordingPlayerId": "kazuo"
+    },
+    {
+      "id": "3ds-rainbow-road",
+      "archivedWr": "1:58.80",
+      "fastestDocumentedAvailableRecording": "1:58.80",
+      "recordingPlayerId": "kazuo"
+    }
+  ],
+  "evidence": [
+    "archive/marioluigi2020-original-results-practical-review-20261012.json",
+    "archive/marioluigi-2020-reconciliation.json",
+    "archive/marioluigi2020-video-preservation.json",
+    "archive/marioluigi2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/marioluigi2020-selected-recording-r2-preservation-20261012.json",
+    "archive/marioluigi2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/marioluigi2020-discussion-review-progress.json",
+    "discussionMessagesRead": 4431,
+    "preservedImagesVisuallyReviewed": 315,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 50
+  },
+  "remainingLimitations": [
+    "Both final WR recordings preserved; original results, social publication and Discord shares kept separate.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 906,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      6,
+      15
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "snes-mario-circuit-2",
+        "reviewedRows": 26,
+        "differences": 0
+      },
+      {
+        "courseId": "3ds-rainbow-road",
+        "reviewedRows": 57,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-32"
+}
