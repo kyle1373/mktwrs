@@ -94,6 +94,18 @@ test('same reviewed original report is shown once across WR and supporting table
 });
 
 
+test('Reddit video result disagreement is visible and does not replace the documented time',()=>{
+ const c=routeData(['course','3ds-neo-bowser-city']).data;
+ const r=c.halloweenSupportingResults.find(r=>r.id==='curated-halloween2019-original-nbc-row-12');
+ assert.equal(r.time,'1:27.41');
+ const html=render([r]);
+ assert.match(html,/Unresolved video result: original post says 1:27.41/);
+ assert.match(html,/automated reads of the linked video suggest 1:27.48/);
+ assert.match(html,/still needs visual verification/);
+ assert.match(html,/documented time is retained/);
+ assert.ok(!c.records.some(r=>r.time==='1:27.48'));
+});
+
 test('unresolved Meester NBC totals are visible without silently correcting documentary result',()=>{
  const c=routeData(['course','3ds-neo-bowser-city']).data;
  const r=c.halloweenSupportingResults.find(r=>r.id==='curated-halloween2019-original-nbc-row-18');
