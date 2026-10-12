@@ -1,0 +1,52 @@
+{
+  "reviewedAt": "2026-10-12T04:53:38.143288+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "ledger": {
+    "path": "archive/video-backups.json",
+    "source": "authoritative-git-index",
+    "rows": 108,
+    "sha256": "6c1a1ae43095067c00616969e400808b695d6c4fa29fc4d4c9193b552c3bf144"
+  },
+  "canonicalRowsChecked": 34,
+  "matches": [
+    {
+      "canonicalId": "639765459633307668-tomegome",
+      "time": "1:34.43",
+      "ledgerKey": "x:1190016227671826433",
+      "backupUrl": "https://www.youtube.com/watch?v=J-I72qZDF4M",
+      "basis": "exact-original-identity-and-or-preserved-sha256",
+      "existingBackupMappingPresent": true
+    }
+  ],
+  "currentBackupPage": {
+    "url": "https://www.youtube.com/watch?v=J-I72qZDF4M",
+    "httpStatus": 200,
+    "bytes": 1238349,
+    "sha256": "89eccbe8288cd23573f4041e88a3d077c4309f29a79dc1a5361c88bd52c11ce2",
+    "responsePath": "archive/halloween2019-tome13443-backup-current-recheck-20261012/J-I72qZDF4M-watch.html.gz",
+    "playabilityStatus": "OK",
+    "reason": null,
+    "videoDetails": {
+      "videoId": "J-I72qZDF4M",
+      "title": "[MKT WR Archive] GCN Dino Dino Jungle 1:34.43 — Tome — 2019-10-31",
+      "author": "SuperFX",
+      "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+      "lengthSeconds": "103",
+      "isUnpluggedCorpus": false
+    },
+    "microformat": {
+      "publishDate": "2026-09-30T11:20:04-07:00",
+      "uploadDate": "2026-09-30T11:20:04-07:00",
+      "isUnlisted": true
+    }
+  },
+  "limitations": [
+    "Only original URL identity and known preserved SHA256 matches inspected against this ledger; unidentified mirrors and alternate uploads remain possible.",
+    "Current OK player response establishes current page availability; no fresh visual footage or continuity review.",
+    "Backup page title is archive-authored metadata and cannot independently corroborate the historical race time or date.",
+    "Backup platform publicationSep30,2026 differs from ledger upload-operation completion time; neither is original footage publication or achievement time.",
+    "No backup upload performed and no public video/date fields changed. Halloween source and recording comparison remain incomplete."
+  ]
+}
