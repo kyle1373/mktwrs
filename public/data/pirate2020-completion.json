@@ -1,0 +1,74 @@
+{
+  "tourId": "tour-24",
+  "tour": "Pirate Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-08-12T06:00:00Z",
+    "endExclusive": "2020-08-26T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "gba-bowser-s-castle-1r",
+      "archivedWr": "1:00.29",
+      "fastestDocumentedAvailableRecording": null,
+      "unverifiedRecordingReference": "https://www.youtube.com/watch?v=gMlt02DTps8",
+      "referenceTime": "1:00.31"
+    },
+    {
+      "id": "snes-mario-circuit-1",
+      "archivedWr": "0:41.94",
+      "fastestDocumentedAvailableRecording": "0:42.12",
+      "recordingPlayerId": "wins"
+    }
+  ],
+  "evidence": [
+    "archive/pirate2020-original-results-practical-review-20261012.json",
+    "archive/pirate2020-three-mario-circuit-videos-and-lap-review-20261005.json",
+    "archive/pirate2020-tomegome-bc1r-10031-original-video-share-clock-20261009.json",
+    "archive/pirate-2020-reconciliation.json",
+    "archive/pirate2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/pirate2020-selected-recording-r2-preservation-20261012.json",
+    "archive/pirate2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/pirate2020-discussion-review-progress.json",
+    "discussionMessagesRead": 1850,
+    "preservedImagesVisuallyReviewed": 321,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 30
+  },
+  "remainingLimitations": [
+    "Tymbuh 1:00.29 Bowser Castle 1R and Nu11 0:41.94 Mario Circuit final WR recordings not recovered. Tomegome 1:00.31 external link kept unverified; Wins 0:42.12 footage preserved.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 1,
+    "documentedResultsRows": [
+      3,
+      1
+    ],
+    "videoRangeChecksPassed": 1,
+    "generationFidelity": [
+      {
+        "courseId": "gba-bowser-s-castle-1r",
+        "reviewedRows": 31,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-mario-circuit-1",
+        "reviewedRows": 36,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-25"
+}
