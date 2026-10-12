@@ -1,0 +1,70 @@
+{
+  "reviewedAt": "2026-10-12T04:21:57.106559+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "imageReviews": [
+    {
+      "reviewAudit": "archive/halloween2019-nova10511-and10503-visible-original-image-review-20261012.json",
+      "originalFile": "archive/halloween2019-nova10511-source-recovery/EHo-sR6UwAAiat2-original.jpg",
+      "originalSha256": "692611db06e4ddd6cb73cdc2c29ef32a9ee623f16842219e3b5cf55a7ddca9e7",
+      "proofFile": "public/assets/proof/halloween2019-nova10511-original.webp",
+      "proofSha256": "4a925a991e238479240ae3d232f8aba9d52e4c871cc2a41be8c863874fd6bd79",
+      "method": "Local original JPEG displayed by view_image with actual image pixels in this tool response.",
+      "freshPixelsReviewed": true,
+      "contentsVerified": true,
+      "visibleTotal": "1:05.11",
+      "visiblePreviousBest": null,
+      "proofField": "finish-scene",
+      "visibleLapCounter": "2/2",
+      "visibleDriver": "Toad",
+      "visibleSplits": false,
+      "courseBasis": "Toad Circuit finish scene, minimap, yellow supports and white/blue buildings.",
+      "identityBasis": "Existing documentary Nova attribution and exact original 40pairs post/image crosswalk; screenshot itself does not display runner identity.",
+      "exactRaceCompletionTimeKnown": false
+    },
+    {
+      "reviewAudit": "archive/halloween2019-nova10511-and10503-visible-original-image-review-20261012.json",
+      "originalFile": "archive/halloween2019-nova10503-source-recovery/EHqC0S6U0AAPAX5-original.jpg",
+      "originalSha256": "ed2aa1e3ad89d000d4b38e3d177b1e2781775285afb5871195edf327cd247b68",
+      "proofFile": "public/assets/proof/halloween2019-nova10503-original.webp",
+      "proofSha256": "6095541e74c89d5ff5c3beb55e3659a73e7bf95db1a45b3b11804f2f33abd3a3",
+      "method": "Local original JPEG displayed by view_image with actual image pixels in this tool response.",
+      "freshPixelsReviewed": true,
+      "contentsVerified": true,
+      "visibleTotal": "1:05.03",
+      "visiblePreviousBest": "1:05.04",
+      "proofField": "result",
+      "visibleLapCounter": null,
+      "visibleDriver": null,
+      "visibleSplits": false,
+      "courseBasis": "Result overlay with track background consistent with Toad Circuit; exact archived original image token links existing Toad Circuit documentary row.",
+      "identityBasis": "Existing documentary Nova attribution and exact original 40pairs post/image crosswalk; screenshot itself does not display runner identity.",
+      "exactRaceCompletionTimeKnown": false
+    }
+  ],
+  "additionalPreviousBestCorroboration": {
+    "canonicalId": "original-2019-wr-row-16",
+    "time": "1:05.04",
+    "ownOriginalImageStillMissing": true
+  },
+  "priorUnsupportedClaimDisposition": "Earlier omitted-image claims remain withdrawn; this independent review used actual pixels from local originals.",
+  "limitations": [
+    "Images establish displayed totals and one previous-best benchmark; no lap splits or precise race completion dates were read.",
+    "Nova attribution carries the documentary sheet and exact original post provenance; no new identity is inferred from an unnamed screenshot.",
+    "The 1:05.03 source is a result photo; its historical videoReference remains a provenance reference without playable-video promotion.",
+    "Halloween remains incomplete; missing originals, recording continuity and live publication remain pending."
+  ],
+  "validation": {
+    "isolatedGeneratorExitCode": 0,
+    "selectedRows": 6,
+    "recordsAndSubmissionsMatchGenerator": true,
+    "totalsSplitsAchievementDatesSubmissionClocksAndPlayableVideosUnchanged": true,
+    "relevantTests": {
+      "command": "node --test test/halloween-recording-comparison.test.mjs test/fastest-recorded.test.mjs test/opening-day-publication.test.mjs",
+      "passed": 11,
+      "failed": 0,
+      "scope": "Publication selection and opening-day policy; direct image observations are separately recorded."
+    }
+  }
+}
