@@ -1,0 +1,90 @@
+{
+  "tourId": "tour-37",
+  "tour": "Peach vs. Daisy Tour",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-02-10T06:00:00Z",
+    "endExclusive": "2021-02-24T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "n64-choco-mountain-r",
+      "archivedWr": "1:17.87",
+      "fastestDocumentedAvailableRecording": "1:17.95",
+      "recordingPlayerId": "kazuo"
+    },
+    {
+      "id": "snes-donut-plains-2",
+      "archivedWr": "1:00.73",
+      "fastestDocumentedAvailableRecording": "1:01.12",
+      "recordingPlayerId": "wins"
+    },
+    {
+      "id": "gba-sunset-wilds-r",
+      "archivedWr": "1:10.53",
+      "fastestDocumentedAvailableRecording": "1:10.53",
+      "recordingPlayerId": "superfx"
+    }
+  ],
+  "evidence": [
+    "archive/peachdaisy2021-original-results-practical-review-20261012.json",
+    "archive/peach-daisy-2021-reconciliation.json",
+    "archive/february2021-kaguya-delayed-choco-recording-disclosure-20261009.json",
+    "archive/peachdaisy2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/peachdaisy2021-selected-recording-r2-preservation-20261012.json",
+    "archive/peachdaisy2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/peach-daisy-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 289,
+      "indexedImagesVisuallyReviewed": 289,
+      "unreviewed": [],
+      "linkSearchResultsReviewed": 21,
+      "wrTextSearchResultsReviewed": 19
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 3,
+    "proofImageUrlsPassed": 276
+  },
+  "remainingLimitations": [
+    "Choco Mountain R 1:17.87 runner-reported February19 achievement disclosed February24; no video reported recorded, exact clock/laps unknown. Kazuo1:17.95 recording retained separately.",
+    "Donut Plains2 1:00.73 original linked YouTube unavailable; Wins1:01.12 available prior-reviewed recording preserved.",
+    "SuperFX Sunset Wilds R1:10.53 original footage preserved with original audio; publication after tour retained separately from original result and separate tie.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+  ],
+  "validation": {
+    "productionBuildPages": 901,
+    "recordingComparisonRenderChecks": 3,
+    "documentedResultsRows": [
+      108,
+      62,
+      34
+    ],
+    "videoRangeChecksPassed": 3,
+    "generationFidelity": [
+      {
+        "courseId": "n64-choco-mountain-r",
+        "reviewedRows": 134,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-donut-plains-2",
+        "reviewedRows": 116,
+        "differences": 0
+      },
+      {
+        "courseId": "gba-sunset-wilds-r",
+        "reviewedRows": 63,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-38"
+}
