@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-29",
+  "tour": "Halloween Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-10-21T06:00:00Z",
+    "endExclusive": "2020-11-04T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "ds-airship-fortress",
+      "archivedWr": "1:30.07",
+      "fastestDocumentedAvailableRecording": "1:30.07",
+      "recordingPlayerId": "kazuo"
+    },
+    {
+      "id": "gba-bowser-s-castle-2r",
+      "archivedWr": "1:19.29",
+      "fastestDocumentedAvailableRecording": "1:19.29",
+      "recordingPlayerId": "tomegome"
+    }
+  ],
+  "evidence": [
+    "archive/halloween2020-original-results-practical-review-20261012.json",
+    "archive/halloween-2020-reconciliation.json",
+    "archive/halloween2020-video-preservation.json",
+    "archive/halloween2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/halloween2020-selected-recording-r2-preservation-20261012.json",
+    "archive/halloween2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/halloween2020-discussion-review-progress.json",
+    "discussionMessagesRead": 2015,
+    "preservedImagesVisuallyReviewed": 268,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 28
+  },
+  "remainingLimitations": [
+    "Both final WR recordings preserved; unavailable Twitch replaced by surviving same-run Reddit copy.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      2,
+      0
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "ds-airship-fortress",
+        "reviewedRows": 25,
+        "differences": 0
+      },
+      {
+        "courseId": "gba-bowser-s-castle-2r",
+        "reviewedRows": 32,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-30"
+}
