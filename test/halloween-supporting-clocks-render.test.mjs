@@ -10,8 +10,8 @@ const require=createRequire(import.meta.url);
 const swc=require('next/dist/build/swc');
 await swc.loadBindings();
 const page=fs.readFileSync(new URL('../app/archive.jsx',import.meta.url),'utf8');
-const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function SplitSourceNote('))+page.slice(page.indexOf('function HalloweenSupportingResults('),page.indexOf('function CoursePage('));
-const {code}=await swc.transform('const date=s=>s?s.slice(0,10):"—";function Player({id}){return <span>{id}</span>;}function Time({record}){return <span>{record.time}</span>;}\n'+selected+'\nexports.HalloweenSupportingResults=HalloweenSupportingResults;', {filename:'result-report-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
+const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function Time('))+page.slice(page.indexOf('function Time('),page.indexOf('function BackupIcon('))+page.slice(page.indexOf('function HalloweenSupportingResults('),page.indexOf('function CoursePage('));
+const {code}=await swc.transform('const date=s=>s?s.slice(0,10):"—";function Player({id}){return <span>{id}</span>;}\n'+selected+'\nexports.HalloweenSupportingResults=HalloweenSupportingResults;', {filename:'result-report-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
 const filename=new URL('../app/result-report-times-render.cjs',import.meta.url).pathname;
 const compiled=new Module(filename);
 compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
@@ -32,4 +32,23 @@ test('supporting video evidence retains separate original publication clock',()=
  const row=rows.find(r=>r.id==='curated-halloween2019-original-nbc-row-10');
  assert.equal(row.videoPublishedAt,'2019-10-24T09:55:59Z');
  assert.match(render([row]),/Video published: 2019-10-24 09:55:59 UTC/);
+});
+
+test('supporting partial clip keeps source clock and does not promise a full race proof',()=>{
+ const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
+ const row=rows.find(r=>r.id==='sheet-AH15');
+ assert.equal(row.videoScope,'single-lap-clip');
+ const html=render([row]);
+ assert.match(html,/Partial recording; complete race unverified/);
+ assert.match(html,/Partial video reference for 1:05.28/);
+ assert.match(html,/Video published: 2019-10-25 14:17:25 UTC/);
+ assert.doesNotMatch(html,/Watch video proof for 1:05.28/);
+ assert.ok(html.includes(row.video));
+});
+
+test('supporting sheet links include reviewed clocks while superseded opening-day rows stay omitted',()=>{
+ const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
+ assert.ok(rows.some(r=>r.id==='sheet-AH14' && r.videoPublishedAt==='2019-10-24T21:03:12Z'));
+ assert.ok(rows.some(r=>r.id==='sheet-AH36' && r.videoPublishedAt==='2019-10-25T08:02:25Z'));
+ assert.ok(!rows.some(r=>r.id==='sheet-AH23'));
 });

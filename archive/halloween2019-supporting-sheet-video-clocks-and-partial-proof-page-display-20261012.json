@@ -1,0 +1,34 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "change": "Include dated Halloween sheet entries outside opening day in per-track supporting results; retain source clocks and display partial recording limitations.",
+  "supportingCounts": {
+    "3ds-toad-circuit": 38,
+    "3ds-neo-bowser-city": 20,
+    "gcn-dino-dino-jungle": 1
+  },
+  "additionalSheetRows": 19,
+  "partialRecordingExample": {
+    "id": "sheet-AH15",
+    "videoScope": "single-lap-clip",
+    "displayNote": "Partial recording; complete race unverified",
+    "linkLabel": "Partial video reference for 1:05.28",
+    "videoPublishedAt": "2019-10-25T14:17:25Z"
+  },
+  "validation": {
+    "renderTestsPassed": 4,
+    "productionBuildPassed": true,
+    "staticPages": 910,
+    "scopedRows": 269,
+    "generatedDifferences": 0,
+    "aggregateMatches": true,
+    "openingDayOmissionPreserved": true
+  },
+  "limitations": [
+    "Local rendered/build verification only; live deployment remains unverified.",
+    "Supporting rows are documentary evidence outside WR history and rankings; missing clocks, achievement dates, proof contents and complete-race reviews remain unresolved.",
+    "No fresh footage pixels reviewed or complete tour certified."
+  ]
+}
