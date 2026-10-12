@@ -1,0 +1,62 @@
+{
+  "reviewedAt": "2026-10-11",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "db0b291b",
+  "derivedLapRepair": {
+    "id": "curated-original-2019-wr-row-6",
+    "reportedLap1": "32.92",
+    "total": "1:06.51",
+    "calculatedLap2": "33.59",
+    "centisecondEquation": "6651 - 3292 = 3359",
+    "derivedLap": 2,
+    "priorReview": "archive/halloween2019-opening-two-original-lap-reports-and-superfx-wr-clock-reconciliation-20261010.json"
+  },
+  "lapSourceRestoration": {
+    "id": "curated-original-2019-wr-row-19",
+    "source": {
+      "url": "https://www.mariokart64.com/cgi-bin/yabb2/YaBB.pl?num=1571823398/30#30",
+      "kind": "original-player-lap-report",
+      "reply": "30"
+    },
+    "basis": "Existing canonical forum lap source; both reported splits retained."
+  },
+  "dateBasisCorrections": [
+    {
+      "id": "curated-original-2019-wr-row-6",
+      "time": "1:06.51",
+      "recordDate": "2019-10-23",
+      "submittedAt": "2019-10-23T06:57:26.608Z",
+      "beforeDateBasis": "source-date",
+      "afterDateBasis": "submission-date"
+    },
+    {
+      "id": "curated-original-2019-wr-row-10",
+      "time": "1:05.71",
+      "recordDate": "2019-10-23",
+      "submittedAt": "2019-10-23T09:54:55Z",
+      "beforeDateBasis": "source-date",
+      "afterDateBasis": "submission-date"
+    },
+    {
+      "id": "curated-original-2019-wr-row-19",
+      "time": "1:04.91",
+      "recordDate": "2019-10-25",
+      "submittedAt": "2019-10-25T11:40:58.546Z",
+      "beforeDateBasis": "source-date",
+      "afterDateBasis": "submission-date"
+    }
+  ],
+  "limitations": [
+    "Date basis now matches existing generator precedence for documented submission clocks; actual record days and achievement dates unchanged.",
+    "Calculated lap marker is preserved provenance, not new pixel or footage verification.",
+    "No time, lap value, player identity, WR promotion, or recording-selection change.",
+    "Halloween completeness and live publication remain unverified."
+  ],
+  "validation": {
+    "generatorExitCode": 0,
+    "derivedLapMarkerRetained": true,
+    "threeDateBasisLabelsMatch": true,
+    "forumLapSourceRetained": true
+  }
+}
