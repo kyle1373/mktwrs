@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-33",
+  "tour": "Rosalina Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-12-16T06:00:00Z",
+    "endExclusive": "2020-12-30T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "n64-choco-mountain",
+      "archivedWr": "1:18.51",
+      "fastestDocumentedAvailableRecording": "1:18.93",
+      "recordingPlayerId": "superfx"
+    },
+    {
+      "id": "gba-sunset-wilds",
+      "archivedWr": "1:10.30",
+      "fastestDocumentedAvailableRecording": "1:10.30",
+      "recordingPlayerId": "kazuo"
+    }
+  ],
+  "evidence": [
+    "archive/rosalina2020-original-results-practical-review-20261012.json",
+    "archive/rosalina-2020-reconciliation.json",
+    "archive/rosalina2020-video-preservation.json",
+    "archive/rosalina2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/rosalina2020-selected-recording-r2-preservation-20261012.json",
+    "archive/rosalina2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/winter2020-discussion-review-progress.json",
+    "discussionMessagesRead": 14558,
+    "preservedImagesVisuallyReviewed": 1749,
+    "basis": "Prior local ledger covers December through February; totals are multi-tour capture counts, not Winter-only counts; no fresh exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 42
+  },
+  "remainingLimitations": [
+    "Final Sunset Wilds WR recording preserved. Choco Mountain final WR 1:18.51 has result evidence; fastest available full recording 1:18.93 is SuperFX.",
+    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
+    "Prior full recording reviews retained without fresh uninterrupted certification.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 905,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      4,
+      1
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "n64-choco-mountain",
+        "reviewedRows": 32,
+        "differences": 0
+      },
+      {
+        "courseId": "gba-sunset-wilds",
+        "reviewedRows": 47,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-34"
+}
