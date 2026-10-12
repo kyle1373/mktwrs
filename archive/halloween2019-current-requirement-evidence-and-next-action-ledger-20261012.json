@@ -134,7 +134,19 @@
         "unresolvedEvidenceRetained": true
       },
       "completionProven": false,
-      "nextAction": "Review actual available media contents when pixels can be observed. Existing omitted-image capability failures are not evidence and should not be repeated without capability change."
+      "nextAction": "Review actual available media contents when pixels can be observed. Existing omitted-image capability failures are not evidence and should not be repeated without capability change.",
+      "latestFourteenNbcSocialPostRecovery": "archive/halloween2019-fourteen-nbc-original-social-post-recovery-20261012.json",
+      "latestEightNbcOriginalImageReferenceCrosswalk": "archive/halloween2019-eight-recovered-nbc-post-image-reference-crosswalk-20261012.json",
+      "latestFourteenNbcArchiveAvailability": "archive/halloween2019-fourteen-nbc-image-and-post-archive-availability-20261012.json",
+      "latestCorruptDiscordRepostSearch": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
+      "additionalNbcSupportingImageGaps": {
+        "exactOriginalPostsRecovered": 8,
+        "exactImageReferencesMatched": 8,
+        "originalImageDownloadsSucceeded": 0,
+        "exactOriginalPostsCurrentlyUnrecovered": 6,
+        "proofImageContentsVerified": false,
+        "reviewAudit": "archive/halloween2019-eight-recovered-nbc-post-image-reference-crosswalk-20261012.json"
+      }
     },
     {
       "id": "unreal12848-clock",
@@ -153,29 +165,51 @@
     {
       "id": "live-coverage-and-publication",
       "requirement": "Source coverage and published result verification",
-      "status": "live-publication-gaps-confirmed-latest-deployment-queued",
-      "detail": "Current scoped live comparison: {'scopedRows': 269, 'missingLive': 49, 'matchingNormalized': 85, 'differentLive': 135}. Live publication remains incomplete; deployment status must be established independently.",
+      "status": "publication-build-in-progress-live-unverified",
+      "detail": "Railway is Building f204b703; deploy and post-deploy have not started. Latest evidence commit remains queued. Prior scoped live comparison still records publication gaps; no fresh live fidelity certification.",
       "evidence": "archive/halloween2019-forum-clock-and-latest-course-publication-comparison-20261011.json",
       "latestRailwayDashboardReview": "archive/halloween2019-post-recovery-citations-live-publication-comparison-20261012.json",
       "latestDeploymentReview": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
       "latestReviewAudit": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
-      "latestDeploymentStatusAudit": "archive/halloween2019-recording-queue-tour-assignment-and-build-wait-review-20261012.json",
+      "latestDeploymentStatusAudit": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
       "latestPushedCommit": "5bfab2e109466c1e5bc1b8629b4c90e9facb44ea",
-      "latestDeploymentState": "Queued",
-      "railwayDeploymentId": "e019fb75-ddac-4c75-bfef-c914b4746aef",
+      "latestDeploymentState": "Building",
+      "railwayDeploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
       "additionalLatestQueuedCommitObservation": "archive/halloween2019-tome13463-live-successor-caption-and-current-deployment-review-20261012.json",
       "latestFullScopedLiveDataComparison": "archive/halloween2019-post-recovery-citations-live-publication-comparison-20261012.json",
       "latestSourceAccessFailureAudit": "archive/halloween2019-railway-original-source-access-failure-and-reselection-20261012.json",
       "sourceConnectionRepairVerified": false,
       "sourceRepairNextAction": {
-        "reviewAudit": "archive/halloween2019-existing-railway-repository-access-confirmed-and-latest-queue-20261012.json",
-        "status": "repository-permission-confirmed-newer-snapshot-test-pending",
-        "installationListed": true,
+        "reviewAudit": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
+        "status": "repository-permission-confirmed-build-entered-source-checkout-success-unverified",
         "repositoryPermissionVerified": true
       },
       "latestFailureNotificationAudit": "archive/halloween2019-railway-newest-failure-notification-snapshot-disposition-20261012.json",
       "completionProven": false,
-      "nextAction": "Observe existing Railway deployment846dc78e-5de4-484b-b1a9-af8d0ccb3c26; after successful deployment compare actual live course data and rendered evidence to committed source."
+      "nextAction": "Inspect actual source checkout/build outcome; after deployment success compare live scoped data against its exact source commit.",
+      "latestPublicationObservation": {
+        "reviewAudit": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
+        "observedAt": "2026-10-12T07:32:08.309498+00:00",
+        "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
+        "commit": "f204b7039ceb3842377625394fb570468623d5a7",
+        "status": "Building",
+        "initializationElapsed": "00:00",
+        "buildPhase": "Building the image...",
+        "buildElapsedObserved": "01:41",
+        "deploy": "Not started",
+        "network": "Not started",
+        "postDeploy": "Not started",
+        "buildLog": "scheduling build on Metal builder \"builder-kyzqmu\"",
+        "buildLogAt": "2026-10-12T00:29:42-07:00",
+        "latestEvidenceDeploymentId": "62a81bdd-9ba8-4291-a1d2-ad63d17461eb",
+        "latestEvidenceCommit": "466572002e00e04404f98d28ec7f35ac902be722",
+        "latestEvidenceDeploymentStatus": "Queued",
+        "latestEvidenceReason": "Waiting for build slot",
+        "activeDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
+        "repositoryPermissionVerified": true,
+        "sourceCheckoutSucceededVerified": false,
+        "livePublicationVerified": false
+      }
     },
     {
       "id": "tome-ddj-13538-date",
@@ -1039,12 +1073,26 @@
     }
   ],
   "latestPublicationObservation": {
-    "deploymentId": "846dc78e-5de4-484b-b1a9-af8d0ccb3c26",
-    "commit": "7a8c1b0025bbcaef5d5b40b8d68ddd12168d7ffb",
-    "status": "Queued",
-    "reason": "Waiting for build slot",
-    "activeDeployment": "0eaae2ad-61dd-4680-8167-474704871db9",
-    "accessRepairVerified": false,
+    "reviewAudit": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json",
+    "observedAt": "2026-10-12T07:32:08.309498+00:00",
+    "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
+    "commit": "f204b7039ceb3842377625394fb570468623d5a7",
+    "status": "Building",
+    "initializationElapsed": "00:00",
+    "buildPhase": "Building the image...",
+    "buildElapsedObserved": "01:41",
+    "deploy": "Not started",
+    "network": "Not started",
+    "postDeploy": "Not started",
+    "buildLog": "scheduling build on Metal builder \"builder-kyzqmu\"",
+    "buildLogAt": "2026-10-12T00:29:42-07:00",
+    "latestEvidenceDeploymentId": "62a81bdd-9ba8-4291-a1d2-ad63d17461eb",
+    "latestEvidenceCommit": "466572002e00e04404f98d28ec7f35ac902be722",
+    "latestEvidenceDeploymentStatus": "Queued",
+    "latestEvidenceReason": "Waiting for build slot",
+    "activeDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
+    "repositoryPermissionVerified": true,
+    "sourceCheckoutSucceededVerified": false,
     "livePublicationVerified": false
   },
   "snapshots": [
@@ -1085,5 +1133,6 @@
     "Recording selections are provisional reviewed full-run choices. Eleven faster references require disposition; no guarantee they are globally fastest available recordings.",
     "User-excluded old server remains excluded. Normal Discord access works; proof-specific and image-output limitations do not imply general Discord blockage.",
     "Existing source searches cannot prove absence of deleted/unindexed evidence. Remaining questions have not all been resolved or certified unrecoverable."
-  ]
+  ],
+  "latestEvidenceCheckpoint": "archive/halloween2019-corrupt-discord-repost-search-and-publication-build-checkpoint-20261012.json"
 }
