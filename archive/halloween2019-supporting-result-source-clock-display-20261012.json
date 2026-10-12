@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "problem": "Supporting-result table linked sources but omitted already projected evidence clocks for24rows across the three Halloween tracks.",
+  "change": "Render existing EvidenceTimes in each supporting row. Preserve report timezone uncertainty and distinguish video publication from race/submission times.",
+  "validation": {
+    "renderTestsPassed": 2,
+    "productionBuild": "Next.js16.3.7 succeeded;910static pages",
+    "rowsWithExistingClockData": {
+      "toadCircuit": 19,
+      "neoBowserCity": 4,
+      "dinoDinoJungle": 1
+    },
+    "sourceOrResultDataChanged": false
+  },
+  "limitations": [
+    "No new timestamps or race results inferred. Forum clocks retain unknown timezone.",
+    "No fresh media content verification or live deployment certification. Halloween remains incomplete."
+  ]
+}

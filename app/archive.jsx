@@ -599,6 +599,7 @@ function HalloweenSupportingResults({ results, players }) {
         <td>{r.achievedAt ? date(r.achievedAt) : "Unknown; set during Halloween Tour"}</td>
         <td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}
           {(r.additionalSourceLinks || []).map(s => <div key={s.url}><a href={s.url} target="_blank" rel="noopener noreferrer">Additional source</a></div>)}
+          <EvidenceTimes r={r} />
         </td>
       </tr>)}</tbody>
     </table></div>

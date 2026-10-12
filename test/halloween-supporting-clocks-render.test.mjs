@@ -1,0 +1,35 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createRequire} from 'node:module';
+import Module from 'node:module';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {routeData} from '../lib/data.mjs';
+const require=createRequire(import.meta.url);
+const swc=require('next/dist/build/swc');
+await swc.loadBindings();
+const page=fs.readFileSync(new URL('../app/archive.jsx',import.meta.url),'utf8');
+const selected=page.slice(page.indexOf('function EvidenceTimes('),page.indexOf('function SplitSourceNote('))+page.slice(page.indexOf('function HalloweenSupportingResults('),page.indexOf('function CoursePage('));
+const {code}=await swc.transform('const date=s=>s?s.slice(0,10):"—";function Player({id}){return <span>{id}</span>;}function Time({record}){return <span>{record.time}</span>;}\n'+selected+'\nexports.HalloweenSupportingResults=HalloweenSupportingResults;', {filename:'result-report-times.jsx',jsc:{parser:{syntax:'ecmascript',jsx:true},transform:{react:{runtime:'automatic'}}},module:{type:'commonjs'}});
+const filename=new URL('../app/result-report-times-render.cjs',import.meta.url).pathname;
+const compiled=new Module(filename);
+compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
+compiled._compile(code,filename);
+const render=r=>renderToStaticMarkup(React.createElement(compiled.exports.HalloweenSupportingResults,{results:r,players:[]}));
+test('supporting table renders actual preserved forum clocks without invented submission times',()=>{
+ const rows=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults;
+ const row=rows.find(r=>r.id==='curated-forum-halloween2019-samh-reply-31-10575');
+ assert.ok(row.forumSourceTimes.length);
+ const html=render([row]);
+ assert.match(html,/Forum report:/);
+ assert.ok(html.includes(row.forumSourceTimes[0].forumPostedAtDisplayed));
+ assert.match(html,/timezone unknown/);
+ assert.doesNotMatch(html,/Submitted:/);
+});
+test('supporting video evidence retains separate original publication clock',()=>{
+ const rows=routeData(['course','3ds-neo-bowser-city']).data.halloweenSupportingResults;
+ const row=rows.find(r=>r.id==='curated-halloween2019-original-nbc-row-10');
+ assert.equal(row.videoPublishedAt,'2019-10-24T09:55:59Z');
+ assert.match(render([row]),/Video published: 2019-10-24 09:55:59 UTC/);
+});
