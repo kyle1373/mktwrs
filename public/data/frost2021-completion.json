@@ -1,0 +1,82 @@
+{
+  "tourId": "tour-50",
+  "tour": "Frost Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-08-11T06:00:00Z",
+    "endExclusive": "2021-08-25T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "wii-dk-summit",
+      "archivedWr": "1:32.90",
+      "fastestDocumentedAvailableRecording": "1:32.97",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "3ds-toad-circuit-r",
+      "archivedWr": "1:02.62",
+      "fastestDocumentedAvailableRecording": "1:02.74",
+      "recordingPlayerId": "astre"
+    }
+  ],
+  "evidence": [
+    "archive/frost2021-original-results-practical-review-20261012.json",
+    "archive/frost-2021-reconciliation.json",
+    "archive/frost2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/frost2021-selected-recording-r2-preservation-20261012.json",
+    "archive/frost2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/frost-2021-reconciliation.json",
+    "coverage": {
+      "discussionIndexedImages": 113,
+      "discussionIndexedImagesVisuallyReviewed": 113,
+      "submissionImagesVisuallyReviewed": 111,
+      "capturedSubmissionMessagesRead": 123,
+      "discussionWrMatches": 15,
+      "discussionLinkMatches": 18,
+      "discussionVideoMatches": 15,
+      "originalVideosDownloadedAndVisuallyReviewed": 6,
+      "discordTechniqueClipsDownloadedAndVisuallyReviewed": 10
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 110
+  },
+  "remainingLimitations": [
+    "Final WRs lack reviewed available recordings; selected earlier slower footage shown separately.",
+    "Astre1:02.74 exact achievement date unresolved withinAugust15–16; laterOctober7video publication not assigned as run date.",
+    "Deleted-account identity and Nu previous-best1:33.03 date unresolved.",
+    "Three old Kaguya links unavailable; Mirrativ broadcast archive not recovered.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 895,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      57,
+      92
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "wii-dk-summit",
+        "reviewedRows": 126,
+        "differences": 0
+      },
+      {
+        "courseId": "3ds-toad-circuit-r",
+        "reviewedRows": 122,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-51"
+}
