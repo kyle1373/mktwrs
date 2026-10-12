@@ -7,7 +7,7 @@
   "customDomainLastObservedStatus": "Initializing",
   "objects": 11864,
   "bytes": 7209157689,
-  "uploaded": false,
+  "uploaded": true,
   "dashboardLimit": 100,
   "bulkUploadCommand": "python scripts/r2-media.py upload",
   "verifyCommand": "python scripts/r2-media.py verify",
@@ -15,9 +15,20 @@
   "redirectActivation": "Set MKTWRS_MEDIA_ORIGIN=https://media.mktwrs.com only after verification",
   "deploymentAssetExclusionApplied": false,
   "remaining": [
-    "Create bucket-scoped upload credential and configure local AWS profile securely",
-    "Upload all assets preserving assets/ paths and verify object MD5/size",
-    "Check custom domain and sample image/video delivery",
-    "Activate redirect, then exclude migrated assets from deployment source and verify reduced size"
-  ]
+    "Verify deployed Railway revision and live media redirects."
+  ],
+  "domainStatus": "Active",
+  "verifiedObjects": 11864,
+  "verification": "archive/r2-media-migration-verification.json",
+  "productionImageBytes": 548008452,
+  "dockerBuildContextBytes": 146900000,
+  "localRuntimeChecks": [
+    "health 200",
+    "home 200",
+    "course 200",
+    "data 200",
+    "asset redirect 307",
+    "unknown page 404"
+  ],
+  "deploymentStatus": "ready for publication"
 }

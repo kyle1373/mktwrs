@@ -1,12 +1,14 @@
 export default {
   poweredByHeader: false,
-  // Enable only after scripts/r2-media.py verify passes for the complete inventory.
+  output: "standalone",
+  // All 11,864 source assets verified in R2; preserve existing public URLs.
   async redirects() {
-    return process.env.MKTWRS_MEDIA_ORIGIN ? [{
+    const origin = process.env.MKTWRS_MEDIA_ORIGIN || "https://media.mktwrs.com";
+    return [{
       source: "/assets/:path*",
-      destination: `${process.env.MKTWRS_MEDIA_ORIGIN.replace(/\/$/, "")}/assets/:path*`,
+      destination: `${origin.replace(/\/$/, "")}/assets/:path*`,
       permanent: false,
-    }] : [];
+    }];
   },
   experimental: {
     // Railway restored a corrupted persistent Turbopack build cache.

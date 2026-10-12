@@ -1,5 +1,7 @@
 # Keep original research evidence in Git, outside deployment source archives.
-# Website assets stay included so existing proof and video URLs keep working.
+# Verified public media is served from media.mktwrs.com.
+public/assets export-ignore
+public/assets/** export-ignore
 archive/** export-ignore
 artifacts/** export-ignore
 
