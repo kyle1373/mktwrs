@@ -52,3 +52,13 @@ test('supporting sheet links include reviewed clocks while superseded opening-da
  assert.ok(rows.some(r=>r.id==='sheet-AH36' && r.videoPublishedAt==='2019-10-25T08:02:25Z'));
  assert.ok(!rows.some(r=>r.id==='sheet-AH23'));
 });
+
+test('Yerson sheet date disagreement remains explicit beside original sheet day',()=>{
+ const r=routeData(['course','3ds-toad-circuit']).data.halloweenSupportingResults.find(r=>r.id==='sheet-AH11');
+ assert.equal(r.achievedAt,'2019-10-24');
+ const html=render([r]);
+ assert.match(html,/Sheet day differs from reviewed WR-history day:/);
+ assert.match(html,/>2019-10-25<\/a>/);
+ assert.match(html,/2019-10-24/);
+ assert.match(html,/Exact race time remains unconfirmed/);
+});

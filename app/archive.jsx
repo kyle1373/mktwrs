@@ -597,7 +597,7 @@ function HalloweenSupportingResults({ results, players }) {
       <tbody>{results.map(r => <tr key={r.id}>
         <td><Time record={r} /></td>
         <td><Player id={r.playerId} players={players} /></td>
-        <td>{r.achievedAt ? date(r.achievedAt) : "Unknown; set during Halloween Tour"}</td>
+        <td>{r.achievedAt ? date(r.achievedAt) : "Unknown; set during Halloween Tour"}{r.dateSourceDiscrepancyReview && <p className="table-note">Sheet day differs from reviewed WR-history day: <a href={r.dateSourceDiscrepancyReview.source.url} target="_blank" rel="noopener noreferrer">{r.dateSourceDiscrepancyReview.reviewedWrHistoryDay}</a>. Exact race time remains unconfirmed.</p>}</td>
         <td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}
           {(r.additionalSourceLinks || []).map(s => <div key={s.url}><a href={s.url} target="_blank" rel="noopener noreferrer">Additional source</a></div>)}
           <EvidenceTimes r={r} />

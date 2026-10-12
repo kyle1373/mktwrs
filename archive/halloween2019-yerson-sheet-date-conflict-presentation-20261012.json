@@ -1,0 +1,32 @@
+{
+  "reviewedAt": "2026-10-12",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "dateSourceDiscrepancyReview": {
+    "reviewAudit": "archive/halloween2019-yerson-sheet-date-conflict-presentation-20261012.json",
+    "sheetDay": "2019-10-24",
+    "reviewedWrHistoryDay": "2019-10-25",
+    "source": {
+      "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A20:J20",
+      "sheet": "WR history",
+      "range": "A20:J20"
+    },
+    "basis": "Dedicated WR history row20 differs from preserved summary sheet AH11. Existing WR dateOverride retained; sheet day not silently replaced.",
+    "exactAchievementClockUnresolved": true
+  },
+  "decision": "Show both documentary dates in supporting sheet row without changing canonical race chronology.",
+  "limitations": [
+    "Source conflict is documentary; no fresh proof pixels reviewed.",
+    "Publication and submission clocks remain separate; reviewed WR date is existing source choice, not newly certified exact achievement."
+  ],
+  "validation": {
+    "renderChecksPassed": 5,
+    "productionBuildPassed": true,
+    "staticPages": 910,
+    "scopedRows": 269,
+    "generatedDifferences": 0,
+    "aggregateMatches": true,
+    "raceFactsChanged": false
+  }
+}

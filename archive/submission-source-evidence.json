@@ -77,6 +77,18 @@
         "reviewAudit": "archive/halloween2019-thirteen-preserved-video-publication-clocks-reconciliation-20261010.json",
         "basis": "preserved-original-video-metadata",
         "freshFootageReviewed": false
+      },
+      "dateSourceDiscrepancyReview": {
+        "reviewAudit": "archive/halloween2019-yerson-sheet-date-conflict-presentation-20261012.json",
+        "sheetDay": "2019-10-24",
+        "reviewedWrHistoryDay": "2019-10-25",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A20:J20",
+          "sheet": "WR history",
+          "range": "A20:J20"
+        },
+        "basis": "Dedicated WR history row20 differs from preserved summary sheet AH11. Existing WR dateOverride retained; sheet day not silently replaced.",
+        "exactAchievementClockUnresolved": true
       }
     }
   },
