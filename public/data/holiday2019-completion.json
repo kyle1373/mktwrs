@@ -1,0 +1,67 @@
+{
+  "tourId": "tour-7",
+  "tour": "Holiday Tour (2019)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; preserved result, source and media reviews accepted with gaps stated.",
+  "exhaustiveHistoryProven": false,
+  "sourceCommit": "425b35779660e0255aa98902624c04ee97ba2e16",
+  "window": {
+    "start": "2019-12-18T06:00:00Z",
+    "endExclusive": "2020-01-01T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-cheep-cheep-lagoon",
+      "archivedWr": "1:15.86",
+      "fastestDocumentedAvailableRecording": "1:15.86"
+    },
+    {
+      "id": "ds-dk-pass",
+      "archivedWr": "1:32.95",
+      "fastestDocumentedAvailableRecording": null,
+      "recordingStatus": "No verified completed-race recording preserved; unavailable Nu11 original and partial Tomegome route clip retained in source audits."
+    }
+  ],
+  "evidence": [
+    "archive/holiday2019-thirtyfive-preserved-performance-crosswalk-two-previous-best-restorations-20261010.json",
+    "archive/holiday2019-unfiltered-discord-pages141-158-complete-date-search-and-closing-boundary-20261010.json",
+    "archive/holiday2019-dec22-original-wr-question-correction-and-dec23-source-recheck-20261010.json",
+    "archive/holiday2019-live-original-discussion-practical-review-20261012.json",
+    "archive/holiday2019-selected-recording-r2-preservation-20261012.json",
+    "archive/holiday2019-r2-proof-image-link-check-20261012.json",
+    "archive/holiday2019-dkpass13307-written-split-and-separate-partial-clip-context-20261010.json",
+    "archive/holiday2019-meester-original-image-and-nu11-video-availability-recheck-20261010.json"
+  ],
+  "coverage": {
+    "preservedSourcePerformancesCompared": 35,
+    "priorServerSearchMessages": 3943,
+    "priorServerSearchPages": 158,
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 23
+  },
+  "remainingLimitations": [
+    "Full date-search text coverage does not certify every recording or image, external account or original source. Prior image and media reviews retained without fresh continuous playback.",
+    "Opening WR exchange order and undated prior bests remain uncertain; earliest intermediate day-one results remain raw and do not receive additional profile awards.",
+    "DK Pass Nu11 original video unavailable; Tomegome46.37 route clip stops before lap finish, so no full-race video or exact fastest recording total is invented.",
+    "Periawsity Lagoon1:19.91 advertised recording unavailable and unverified; original share and source title retained separately.",
+    "Closing reset is January1 06UTC, including preceding January1 hours. Incomplete or points-race broadcasts are not certified TT recordings."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 2,
+    "generationFidelity": [
+      {
+        "courseId": "3ds-cheep-cheep-lagoon",
+        "reviewedRows": 14,
+        "differences": 0
+      },
+      {
+        "courseId": "ds-dk-pass",
+        "reviewedRows": 21,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-8"
+}

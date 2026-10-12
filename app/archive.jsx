@@ -648,6 +648,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.winterSupportingResults} players={players} tourLabel="Winter Tour (2019)" />
       <HalloweenRecording comparison={c.london2019Recording} players={players} tourLabel="London Tour (2019)" />
       <ParisSupportingResults results={c.londonSupportingResults} players={players} tourLabel="London Tour (2019)" />
+      <HalloweenRecording comparison={c.holiday2019Recording} players={players} tourLabel="Holiday Tour (2019)" />
+      <ParisSupportingResults results={c.holidaySupportingResults} players={players} tourLabel="Holiday Tour (2019)" />
       {fragments.length > 0 && <section className="fastest-video">
         <h2>Preserved video fragments</h2>
         {fragments.map(f => <div key={f.originalUrl}>
