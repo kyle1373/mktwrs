@@ -1,0 +1,77 @@
+{
+  "tourId": "tour-11",
+  "tour": "Vancouver Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; preserved reviews accepted with chronology and recording gaps stated.",
+  "exhaustiveHistoryProven": false,
+  "sourceCommit": "334b04b045667d2b55e1a28f5b4faed25cf9d877",
+  "window": {
+    "start": "2020-02-12T06:00:00Z",
+    "endExclusive": "2020-02-26T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-choco-island-2r",
+      "archivedWr": "0:49.55",
+      "fastestDocumentedAvailableRecording": null,
+      "partialFootage": [
+        "Tomegome first-lap demonstration",
+        "Astre24.62 first-lap clip; no completed total"
+      ]
+    },
+    {
+      "id": "snes-rainbow-road",
+      "archivedWr": "0:59.94",
+      "fastestDocumentedAvailableRecording": "1:04.72",
+      "recordingPlayerId": "luaggz",
+      "originalResultPost": "2020-02-22T17:51:00Z"
+    }
+  ],
+  "evidence": [
+    "archive/vancouver-2020-context-reconciliation.json",
+    "archive/vancouver-2020-server-image-review.json",
+    "archive/vancouver-2020-official-reply-review.json",
+    "archive/vancouver2020-feb12-24-ledger-reconciliation.json",
+    "archive/vancouver2020-feb25-29-ledger-reconciliation.json",
+    "archive/vancouver2020-live-original-discussion-practical-review-20261012.json",
+    "archive/vancouver2020-preserved-rainbow-video-result-and-partial-choco-review-20261012.json",
+    "archive/january2021-astre-historical-choco2462-original-lap-review-20261005.json",
+    "archive/vancouver2020-selected-rainbow-recording-r2-preservation-20261012.json",
+    "archive/vancouver2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "coverage": {
+    "priorDiscussionMessagesWithBoundaries": 90,
+    "priorServerImageSearchMessages": 409,
+    "priorServerImagePagesRead": 17,
+    "priorServerAttachmentImagesReviewed": 406,
+    "priorOfficialReplyImagesReviewed": 73,
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 27
+  },
+  "remainingLimitations": [
+    "Nu11Choco49.56 original proof, exact race date and splits remain unknown; separate contemporaneous report clock retained.",
+    "Nu11Rainbow59.94 original full-race proof and exact date remain unknown.1:04.72 footage is a slower documented result.",
+    "Opening WR exchange order and previous-best dates remain incomplete; documentary rivals retained outside certified succession.",
+    "Choco partial clips cannot establish complete totals or final49.55 splits. Sampled Rainbow frame review establishes displayed result but not uninterrupted continuity.",
+    "Saved source coverage does not prove deleted/private/global material was recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 2,
+    "videoRangeChecksPassed": 1,
+    "generationFidelity": [
+      {
+        "courseId": "snes-choco-island-2r",
+        "reviewedRows": 18,
+        "differences": 0
+      },
+      {
+        "courseId": "snes-rainbow-road",
+        "reviewedRows": 14,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-12"
+}
