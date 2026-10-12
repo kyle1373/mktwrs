@@ -176,7 +176,7 @@
       "latestRailwayDashboardReview": "archive/halloween2019-post-recovery-citations-live-publication-comparison-20261012.json",
       "latestDeploymentReview": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
       "latestReviewAudit": "archive/halloween2019-current-live269-row-publication-gap-and-active-build-20261012.json",
-      "latestDeploymentStatusAudit": "archive/halloween2019-five-original-image-post-vs-submission-clock-corrections-20261012.json",
+      "latestDeploymentStatusAudit": "archive/halloween2019-tome10529-original-tweet-vs-submission-clock-correction-20261012.json",
       "latestPushedCommit": "2b863b0c3a7a148a470776484f73d0ebbcd13476",
       "latestDeploymentState": "Building",
       "railwayDeploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
@@ -196,14 +196,15 @@
         "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
         "commit": "f204b7039ceb3842377625394fb570468623d5a7",
         "status": "Building",
-        "buildElapsedObserved": "57:41",
+        "buildElapsedObserved": "1:03:12",
         "initializationElapsed": "00:00",
         "phase": "Building the image...",
         "deploy": "Not started",
         "network": "Not started",
         "postDeploy": "Not started",
         "sourceCheckoutSucceededVerified": false,
-        "livePublicationVerified": false
+        "livePublicationVerified": false,
+        "reviewAudit": "archive/halloween2019-tome10529-original-tweet-vs-submission-clock-correction-20261012.json"
       }
     },
     {
@@ -1091,7 +1092,7 @@
     "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
     "commit": "f204b7039ceb3842377625394fb570468623d5a7",
     "status": "Building",
-    "buildElapsedObserved": "19:39",
+    "buildElapsedObserved": "1:03:12",
     "initializationElapsed": "00:00",
     "phase": "Building the image...",
     "deploy": "Not started",
@@ -1099,8 +1100,7 @@
     "postDeploy": "Not started",
     "sourceCheckoutSucceededVerified": false,
     "livePublicationVerified": false,
-    "reviewAudit": "archive/halloween2019-railway-large-source-download-diagnosis-and-export-preservation-20261012.json",
-    "elapsed": "37:11"
+    "reviewAudit": "archive/halloween2019-tome10529-original-tweet-vs-submission-clock-correction-20261012.json"
   },
   "snapshots": [
     {
@@ -1154,5 +1154,6 @@
     "acceptedSubmissionClocksNotInvented": true,
     "freshMediaOrRaceContinuityNotCertified": true
   },
-  "latestObservationInclusiveRegenerationFidelityReview": "archive/halloween2019-observation-inclusive-288-row-regeneration-fidelity-review-20261012.json"
+  "latestObservationInclusiveRegenerationFidelityReview": "archive/halloween2019-observation-inclusive-288-row-regeneration-fidelity-review-20261012.json",
+  "latestTome10529TweetVsSubmissionClockCorrection": "archive/halloween2019-tome10529-original-tweet-vs-submission-clock-correction-20261012.json"
 }
