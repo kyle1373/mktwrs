@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-12T03:21:39.040579+00:00",
+  "head": "a81a09ccd1b996c1e2d984aaf1826be6ad19d663",
+  "courses": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "url": "https://mktwrs.com/data/courses/3ds-toad-circuit.json",
+      "httpStatus": 200,
+      "path": "archive/halloween2019-six-row-live-publication-snapshot-20261012/3ds-toad-circuit.json.gz",
+      "bytes": 290638,
+      "sha256": "c3dd3b71a0a0900642d05c8dc2a7366f70089172b03f5374ad2074767bc03c8d",
+      "headers": {
+        "Date": "Mon, 12 Oct 2026 03:21:38 GMT",
+        "ETag": null,
+        "Last-Modified": null,
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "rows": [
+        {
+          "id": "curated-original-2019-wr-row-21",
+          "expectedPresent": true,
+          "livePresent": true,
+          "fieldDifferences": {}
+        },
+        {
+          "id": "curated-original-2019-wr-row-22",
+          "expectedPresent": true,
+          "livePresent": true,
+          "fieldDifferences": {}
+        },
+        {
+          "id": "curated-nu11-halloween-2019-1189347136720310272-previous-10451",
+          "expectedPresent": true,
+          "livePresent": true,
+          "fieldDifferences": {
+            "lapMatchBasis": {
+              "expected": "Previous-best field documents 1:04.51; no verified run splits. Caption laps 32.14 and 32.32 belong to successor 1:04.46.",
+              "live": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "url": "https://mktwrs.com/data/courses/3ds-neo-bowser-city.json",
+      "httpStatus": 200,
+      "path": "archive/halloween2019-six-row-live-publication-snapshot-20261012/3ds-neo-bowser-city.json.gz",
+      "bytes": 201483,
+      "sha256": "1935ff437720d6904e27593b894a3a47890d168cd7947a8284be727fb0a50f25",
+      "headers": {
+        "Date": "Mon, 12 Oct 2026 03:21:38 GMT",
+        "ETag": null,
+        "Last-Modified": null,
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "rows": [
+        {
+          "id": "curated-636853682620858388-opening2019-proof-review",
+          "expectedPresent": true,
+          "livePresent": true,
+          "fieldDifferences": {
+            "videoScopeReview": {
+              "expected": {
+                "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+                "priorVisualReview": "archive/early-original-channel-video-recovery.json",
+                "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
+                "bytes": 4196712,
+                "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
+                "priorResultAndLapReviewRetained": true,
+                "freshFootageReviewed": false,
+                "startToFinishContinuityVerified": false,
+                "status": "full-race-continuity-review-pending",
+                "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof.",
+                "unsupportedCoverageClaimWithdrawal": "archive/halloween2019-unreal12659-unsupported-visible-coverage-withdrawal-20261012.json"
+              },
+              "live": null
+            }
+          }
+        },
+        {
+          "id": "curated-halloween2019-original-nbc-row-12",
+          "expectedPresent": true,
+          "livePresent": false,
+          "fieldDifferences": {
+            "time": {
+              "expected": "1:27.41",
+              "live": null
+            },
+            "laps": {
+              "expected": [
+                "44.02",
+                "43.39"
+              ],
+              "live": null
+            },
+            "videoReference": {
+              "expected": "https://www.reddit.com/r/MarioKartTour/comments/dmd4ey/im_seeing_a_lot_of_people_are_having_trouble_with/",
+              "live": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "url": "https://mktwrs.com/data/courses/gcn-dino-dino-jungle.json",
+      "httpStatus": 200,
+      "path": "archive/halloween2019-six-row-live-publication-snapshot-20261012/gcn-dino-dino-jungle.json.gz",
+      "bytes": 187949,
+      "sha256": "89b39c11dea29910ef2ea925ff88c958131b8bb499f804690941b61d630ca072",
+      "headers": {
+        "Date": "Mon, 12 Oct 2026 03:21:38 GMT",
+        "ETag": null,
+        "Last-Modified": null,
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "rows": [
+        {
+          "id": "curated-639823450353041419-previous-13547-early2019-recheck",
+          "expectedPresent": true,
+          "livePresent": true,
+          "fieldDifferences": {
+            "lapMatchBasis": {
+              "expected": "Previous-best field documents 1:35.47; no verified run splits. Current-result fields in the reposted gallery belong to successor 1:35.46.",
+              "live": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "scope": "Six identified current Halloween submission rows, selected result/video/source-provenance fields only; not full live tour coverage.",
+  "deployment": {
+    "commit": "a81a09ccd1b996c1e2d984aaf1826be6ad19d663",
+    "githubDeploymentId": 7005731508,
+    "githubStatusId": 19623087808,
+    "githubState": "in_progress",
+    "githubStatusCreatedAt": "2026-10-12T03:19:02Z",
+    "railwayDeploymentId": "754b06ee-35ff-44eb-879c-60218408a469",
+    "railwayState": "Queued",
+    "railwayReason": "Waiting for build slot",
+    "railwayTitle": "Reconcile named Halloween NBC rival lead with original unnamed Discord context",
+    "activeDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
+    "activeTitle": "Confirm published preservation and chronology audits",
+    "activeDisplayedAge": "3 days ago",
+    "method": "GitHub exact deployment status and authenticated Railway service overview DOM",
+    "settingsChanged": false
+  },
+  "limitations": [
+    "HTTP data snapshots compared with exact current committed data. No browser course-page rendering or full-tour certification.",
+    "Two Nu11 documentary rows match selected fields; one Reddit row absent and three other rows differ in provenance fields. Presence does not certify media content or achievement dates.",
+    "Railway initially displayed no active deployment while loading; loaded overview confirms the three-day-old active deployment. Intermediate loading state is not a terminal-state finding.",
+    "Exact latest commit is queued; no restart, cancellation or deployment setting changes performed.",
+    "Halloween source, media continuity, date, identity and full publication gaps remain open."
+  ],
+  "counts": {
+    "rowsChecked": 6,
+    "liveMissing": 1,
+    "selectedFieldsMatch": 2,
+    "presentWithDifferences": 3
+  }
+}
