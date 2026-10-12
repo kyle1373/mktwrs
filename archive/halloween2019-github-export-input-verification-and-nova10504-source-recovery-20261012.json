@@ -1,0 +1,77 @@
+{
+  "reviewedAt": "2026-10-12T08:16:23.895520+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "sourceCommit": "8daff375c91188a5ec81c96cff856ed505044491",
+  "remoteSnapshotCheck": {
+    "repositoryPrivate": true,
+    "commit": "60034bddd818dbc96f2618138aee11bdf06461ed",
+    "method": "Authenticated gh api tarball streamed through Python tarfile until public section; credentials and signed URLs not recorded.",
+    "observation": {
+      "reachedPublicAfterArchive": true,
+      "archiveFilesObserved": 523,
+      "inputExamples": [
+        "archive/assets-manifest.json",
+        "archive/curated-runs.json",
+        "archive/player-identities.json",
+        "archive/player-portraits.json",
+        "archive/raw/amsterdam-2022-discussion-966022833983619152-967397554457301012.json",
+        "archive/raw/amsterdam-2022-discussion-966516370932113428-967814359264948224.json",
+        "archive/raw/amsterdam-2022-discussion-967413393701089292-968125564089167883.json",
+        "archive/raw/amsterdam-2022-discussion-967814414365499422-969704309161881611.json"
+      ],
+      "elapsedSeconds": 2.54,
+      "scope": "All archive file entries streamed until public section. Remaining public assets not downloaded; local attribute check verifies none excluded."
+    },
+    "unexpectedResearchFileObserved": false,
+    "archiveExportExclusionsHonored": true,
+    "entireRemotePublicSectionInspected": false
+  },
+  "allGeneratedCourseContentCrosscheck": {
+    "courseCount": 142,
+    "recordCount": 1659,
+    "submissionCount": 23544,
+    "fullCourseContentDifferences": [],
+    "comparison": "Entire generated course JSON, null normalized to absent and evidence-list order normalized; no fields omitted."
+  },
+  "nova10504SourceReview": {
+    "canonicalId": "original-2019-wr-row-16",
+    "courseId": "3ds-toad-circuit",
+    "time": "1:05.04",
+    "originalPost": "https://twitter.com/40pairs/status/1187347143083741185",
+    "originalImageReference": "https://pbs.twimg.com/media/EHpN7oXUUAA5ZHT?format=jpg&name=medium",
+    "metadataRecovery": {
+      "url": "https://api.fxtwitter.com/40pairs/status/1187347143083741185",
+      "httpStatus": 404
+    },
+    "discordQueries": [
+      {
+        "query": "EHpN7oXUUAA5ZHT",
+        "scope": "MKCentral Mario Kart Tour all currently searchable channels and dates",
+        "result": "No Results"
+      },
+      {
+        "query": "1187347143083741185",
+        "scope": "MKCentral Mario Kart Tour all currently searchable channels and dates",
+        "result": "No Results"
+      }
+    ],
+    "priorWaybackReview": "archive/halloween2019-nova10511-original-image-browser-verification-20261011.json",
+    "originalMediaRecovered": false,
+    "freshImageReviewed": false,
+    "permanentLossEstablished": false,
+    "recordTotalAndClocksChanged": false,
+    "limitation": "Exact-reference searches cannot recover differently named or unlinked screenshots and do not prove complete source coverage."
+  },
+  "publication": {
+    "obsoleteDeploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
+    "status": "Building",
+    "onlyBuildLog": "2026-10-12 00:29:42 PDT scheduling build on Metal builder builder-kyzqmu",
+    "newSourceDeploymentId": "7db3066f-f5b4-4150-b777-9d672b73a038",
+    "newSourceStatus": "Queued at last verified detail",
+    "abortConfirmationPending": true,
+    "abortExecuted": false,
+    "latestChangePublishedVerified": false
+  },
+  "nextAction": "Verify a deployment using export exclusions after build slot is available; Nova10504 source remains unresolved. Preserve documentary WR and original source references without inventing video or submission clocks."
+}
