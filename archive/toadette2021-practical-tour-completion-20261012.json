@@ -1,0 +1,102 @@
+{
+  "tourId": "tour-56",
+  "tour": "Toad vs. Toadette Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-11-03T06:00:00Z",
+    "endExclusive": "2021-11-17T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-donut-plains-1",
+      "archivedWr": "0:49.57",
+      "fastestDocumentedAvailableRecording": "0:49.86",
+      "recordingPlayerId": "nhspeedy"
+    },
+    {
+      "id": "n64-kalimari-desert-2",
+      "archivedWr": "1:03.39",
+      "archivedWrPlayers": [
+        "astre",
+        "nhspeedy"
+      ],
+      "fastestDocumentedAvailableRecording": "1:03.39",
+      "recordingPlayerId": "nhspeedy"
+    },
+    {
+      "id": "rmx-choco-island-1r",
+      "archivedWr": "1:12.03",
+      "fastestDocumentedAvailableRecording": "1:12.03",
+      "recordingPlayerId": "shiraui"
+    }
+  ],
+  "evidence": [
+    "archive/toadette2021-original-results-practical-review-20261012.json",
+    "archive/toad-toadette-2021-reconciliation.json",
+    "archive/toadette2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/toadette2021-selected-recording-r2-preservation-20261012.json",
+    "archive/toadette2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/toad-toadette-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 130,
+      "submissionMessagesRead": 137,
+      "discussionUniqueMessagesRead": 384,
+      "discussionWindowsReadIncludingReused": 26,
+      "newDiscussionImagesVisuallyReviewed": 14,
+      "externalOriginalImagesVisuallyReviewed": 1,
+      "originalVideosDownloadedAndVisuallyReviewed": 8,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 3,
+    "proofImageUrlsPassed": 114
+  },
+  "remainingLimitations": [
+    "Shiraui 1:12.03 is confirmed, but its exact original date remains unresolved. Post-reset video and migrated screenshot dates must not be substituted.",
+    "Previous bests 1:13.97, 1:12.92, 1:12.78 and 1:12.18 establish earlier runs with unresolved original dates and ordering.",
+    "AKI 49.57 original YouTube video is unavailable; AKI Twitter comparison 1457512632970190849 also leads to a deleted post. No recovered backup is claimed.",
+    "N explicitly reported having no video for 49.67 in discussion message 905951370748772402.",
+    "Final RC board gives Sucha 1:12.52 as 36.28/26.24, a typo. The original submission 908175845351383080 says .28/.24, correctly summing as 36.28/36.24.",
+    "Wins Kalimari 1:03.48 and NHSpeedy 1:03.46/1:03.45 do not beat Astre’s January 2021 1:03.39. They are not added to WR progression.",
+    "Haruru’s joking WR message shows RMX Choco 1:52.83, not a WR. JuicyJack’s 1:39.64 is a slow Donut Plains run, not Dino Dino Jungle R.",
+    "Eight original videos are locally preserved; unlisted uploads remain queued after YouTube reported its daily upload limit.",
+    "Reading this tour cohort does not establish complete coverage of all earlier tours or channels.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 895,
+    "recordingComparisonRenderChecks": 3,
+    "documentedResultsRows": [
+      39,
+      29,
+      29
+    ],
+    "videoRangeChecksPassed": 3,
+    "generationFidelity": [
+      {
+        "courseId": "snes-donut-plains-1",
+        "reviewedRows": 56,
+        "differences": 0
+      },
+      {
+        "courseId": "n64-kalimari-desert-2",
+        "reviewedRows": 31,
+        "differences": 0
+      },
+      {
+        "courseId": "rmx-choco-island-1r",
+        "reviewedRows": 47,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-57"
+}
