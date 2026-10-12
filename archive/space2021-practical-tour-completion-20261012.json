@@ -1,0 +1,81 @@
+{
+  "tourId": "tour-57",
+  "tour": "Space Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-11-17T06:00:00Z",
+    "endExclusive": "2021-12-01T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-koopa-troopa-beach-2",
+      "archivedWr": "0:57.51",
+      "fastestDocumentedAvailableRecording": "0:57.51",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "rmx-rainbow-road-2r",
+      "archivedWr": "1:21.57",
+      "fastestDocumentedAvailableRecording": "1:21.57",
+      "recordingPlayerId": "n"
+    }
+  ],
+  "evidence": [
+    "archive/space2021-original-results-practical-review-20261012.json",
+    "archive/space-2021-reconciliation.json",
+    "archive/space2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/space2021-selected-recording-r2-preservation-20261012.json",
+    "archive/space2021-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/space-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 132,
+      "submissionMessagesRead": 148,
+      "discussionUniqueMessagesRead": 282,
+      "discussionImagesVisuallyReviewed": 12,
+      "originalVideosDownloadedAndVisuallyReviewed": 12,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 114
+  },
+  "remainingLimitations": [
+    "Prior-best dates and ordering are unresolved for N 1:24.15, 1:23.63 and 1:23.22, Nu11 1:22.75 and SuperFX 1:21.88.",
+    "Haruru 1:21.60 image is a repost of N, not a second record holder.",
+    "SuperFX 1:21.69 recording failed; repeat screenshot does not provide video.",
+    "Earliest known published RR2R result is N 1:23.95; this does not prove no earlier unpublished WRs existed.",
+    "KTB 57.54 and 57.57 are slower than Nu11 57.51 and excluded from WR progression.",
+    "Selected final originals now preserved on R2; previous YouTube upload limitation superseded for these two recordings.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 895,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      35,
+      41
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "snes-koopa-troopa-beach-2",
+        "reviewedRows": 49,
+        "differences": 0
+      },
+      {
+        "courseId": "rmx-rainbow-road-2r",
+        "reviewedRows": 104,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-58"
+}
