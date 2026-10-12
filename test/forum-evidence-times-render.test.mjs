@@ -33,3 +33,19 @@ test('forum-only evidence and displayed edit clocks appear without fabricated UT
  assert.match(html,/exact race time and historical edit contents unconfirmed/);
 });
 test('absent clocks render no panel',()=>assert.equal(render({}),''));
+
+test('retained Toad report clocks reach the rendered page independently from submission',()=>{
+ const r=routeData(['course','3ds-toad-circuit']).data.records.find(r=>r.id==='curated-original-2019-wr-row-21');
+ assert.equal(r.sourceReportTimes.length,3);
+ const html=render(r);
+ assert.match(html,/Discord report:/);
+ assert.match(html,/2019-10-27 03:39:16 UTC/);
+ assert.match(html,/637857824130465801/);
+ assert.match(html,/race completion time is separate/);
+ assert.doesNotMatch(html,/Submitted:/);
+});
+test('report-only evidence renders without inventing submission or video clocks',()=>{
+ const html=render({sourceReportTimes:[{url:'https://discord.com/channels/1/2/3',postedAt:'2019-10-27T08:02:16.906Z'}]});
+ assert.match(html,/2019-10-27 08:02:16 UTC/);
+ assert.doesNotMatch(html,/Submitted:|Video published:|Video shared:/);
+});

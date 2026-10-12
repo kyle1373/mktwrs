@@ -72,9 +72,9 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!r.submittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length) return null;
+  if (!r.submittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length) return null;
   return <details className="evidence-times">
-    <summary>Submission and video times</summary>
+    <summary>Submission, report and video times</summary>
     {r.submittedAt && <div>Submitted: {format(r.submittedAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
       Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
@@ -83,6 +83,10 @@ function EvidenceTimes({ r }) {
       <div>Displayed source clocks; exact race time and historical edit contents unconfirmed.</div>
     </div>)}
 
+    {(r.sourceReportTimes || []).map(source => <div key={source.url}>
+      Discord report: <a href={source.url} target="_blank" rel="noopener noreferrer">{format(source.postedAt)}</a>
+      <div>Source-message posting time; race completion time is separate.</div>
+    </div>)}
     {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
     {shares.map((event, index) => <div key={event.source?.url || index}>
       Video shared: {event.source?.url ? <a href={event.source.url} target="_blank" rel="noopener noreferrer">{format(event.sharedAt)}</a> : format(event.sharedAt)}
