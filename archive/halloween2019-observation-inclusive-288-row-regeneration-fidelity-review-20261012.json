@@ -1,0 +1,99 @@
+{
+  "reviewedAt": "2026-10-12T08:31:21.457061+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "scopePredicate": "Tour range starts2019-10-23; achievement, submission or observation date within2019-10-23 through2019-11-05; or historical Halloween/original2019 WR row identifier. Includes supporting observations, without certifying source completeness.",
+  "normalization": "Optional null fields ignored; notes,additionalSources,videoShareEvents,resultReportEvents compared as unordered lists; all other fields ordered.",
+  "rowSummary": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "publicRows": 25,
+      "generatedRows": 25,
+      "sameIds": true,
+      "aggregateMatches": true
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "publicRows": 124,
+      "generatedRows": 124,
+      "sameIds": true,
+      "aggregateMatches": true
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "publicRows": 14,
+      "generatedRows": 14,
+      "sameIds": true,
+      "aggregateMatches": true
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "publicRows": 66,
+      "generatedRows": 66,
+      "sameIds": true,
+      "aggregateMatches": true
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "publicRows": 22,
+      "generatedRows": 22,
+      "sameIds": true,
+      "aggregateMatches": true
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "publicRows": 37,
+      "generatedRows": 37,
+      "sameIds": true,
+      "aggregateMatches": true
+    }
+  ],
+  "totalScopedRows": 288,
+  "fidelityDifferences": [],
+  "repairs": [
+    {
+      "messageId": "636633151283789874-ddj-14550-supporting",
+      "time": "1:45.50",
+      "preservedField": "evidenceClockRestorationAudit",
+      "preservedValue": "archive/halloween2019-six-missing-source-link-and-evidence-clock-restoration-20261011.json",
+      "evidence": "archive/halloween2019-six-missing-source-link-and-evidence-clock-restoration-20261011.json",
+      "newVerificationClaim": false
+    },
+    {
+      "messageId": "639941460220706816-previous-14055-early2019-recheck",
+      "time": "1:40.55",
+      "preservedField": "playerIdBeforeAttributionReconciliation",
+      "preservedValue": "unidentified-player",
+      "evidence": "archive/halloween2019-hugo-two-personal-results-first-person-attribution-20261010.json",
+      "newVerificationClaim": false
+    }
+  ],
+  "validation": {
+    "generatorExitCode": 0,
+    "aggregateMatches": true,
+    "exactSameScopedIds": true,
+    "wrTimesLapsAchievementDatesIdentityUnchanged": true
+  },
+  "publication": {
+    "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
+    "observedState": "Building",
+    "observedBuildElapsed": "59:27",
+    "deployNetworkPostDeploy": "Not started",
+    "latestLivePublicationVerified": false
+  },
+  "sharedCheckoutGeneratorIncident": {
+    "accidentalGeneratorRan": true,
+    "generatedOutputBackupSearch": "/tmp/mkt-accidental-generated-output-*/public-data",
+    "generatedOutputCommittedWholesale": false,
+    "preExistingDirtyWorktreeNotReset": true,
+    "limitation": "Pre-existing uncommitted generated-file contents were not separately snapshotted before this command; exact prior bytes were not restored. Reviewed index changes remain authoritative."
+  },
+  "countCorrection": "Prior commentary said298; actual sum25+124+14+66+22+37is288."
+}

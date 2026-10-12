@@ -339,14 +339,15 @@
       "requirement": "Production generator retains reviewed historical evidence",
       "status": "local-scoped-fidelity-verified-live-unverified",
       "evidence": "archive/halloween2019-isolated-production-build-and-regeneration-evidence-gap-20261011.json",
-      "detail": "269 currently scoped record/submission rows match generator output bidirectionally under documented optional-null/list-order normalization. Individual and aggregate scoped rows agree; eight provenance differences repaired. Live publication and source completeness unresolved.",
+      "detail": "Observation-inclusive288scoped rows match generated output and aggregate under documented null/list-order normalization. Two provenance fields preserved and one public source-date note restored. Source completeness and live publication remain unresolved.",
       "latestPartialRepair": "archive/halloween2019-predecessor-date-regeneration-fix-and-discord-recheck-20261011.json",
       "latestRecordingEvidenceRepair": "archive/halloween2019-exact-recording-evidence-regeneration-repair-20261011.json",
       "latestCanonicalShareClockRepair": "archive/halloween2019-unreal12848-original-share-clock-canonical-restoration-20261011.json",
       "latestTomePublicDateReconciliation": "archive/halloween2019-three-tome-public-date-and-reign-regeneration-reconciliation-20261011.json",
       "latestLocalScopedValidation": "archive/halloween2019-current-eight-row-regeneration-provenance-repair-20261012.json",
       "completionProven": false,
-      "nextAction": "Local269-row checks passed through current source edits; live publication still requires actual remote-data verification."
+      "nextAction": "After publication compare observation-inclusive288scoped rows against exact deployed source commit; do not treat old269-row coverage as current.",
+      "latestReviewAudit": "archive/halloween2019-observation-inclusive-288-row-regeneration-fidelity-review-20261012.json"
     }
   ],
   "undatedResultRows": [
@@ -1152,5 +1153,6 @@
     "remainingNonNullSocialSourceSubmissionClocksInHalloweenThreeCourseCanonicalScope": 0,
     "acceptedSubmissionClocksNotInvented": true,
     "freshMediaOrRaceContinuityNotCertified": true
-  }
+  },
+  "latestObservationInclusiveRegenerationFidelityReview": "archive/halloween2019-observation-inclusive-288-row-regeneration-fidelity-review-20261012.json"
 }
