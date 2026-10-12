@@ -1,0 +1,74 @@
+{
+  "tourId": "tour-19",
+  "tour": "Cooking Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-06-03T06:00:00Z",
+    "endExclusive": "2020-06-17T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-donut-plains-1",
+      "archivedWr": "0:49.77",
+      "fastestDocumentedAvailableRecording": "0:49.90",
+      "recordingPlayerId": "kazuo"
+    },
+    {
+      "id": "ds-waluigi-pinball-r",
+      "archivedWr": "1:45.91",
+      "recordingPlayerId": null,
+      "fastestDocumentedAvailableRecording": null,
+      "finalResultSubmittedAt": "2020-06-17T05:01:18.072Z"
+    }
+  ],
+  "evidence": [
+    "archive/cooking2020-original-results-practical-review-20261012.json",
+    "archive/cooking2020-external-video-review.json",
+    "archive/cooking2020-four-social-proof-performances-review-20261005.json",
+    "archive/cooking2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/cooking2020-selected-recording-r2-preservation-20261012.json",
+    "archive/cooking2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/cooking2020-discussion-review-progress.json",
+    "discussionMessagesRead": 3300,
+    "attachmentImagesPreserved": 309,
+    "openingImageReview": "archive/cooking2020-opening-review-progress.json",
+    "basis": "Prior local review ledger retained; not freshly repeated or new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 36
+  },
+  "remainingLimitations": [
+    "Kazuo 49.77 final WR recording not recovered; 49.90 completed recording retained.",
+    "No completed Waluigi Pinball R recording recovered; Wins partial clips remain separate.",
+    "Exact race clocks and some earlier chronology remain unknown; opening day publishes fastest documented run only.",
+    "Deleted/private/global material not proven fully recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 907,
+    "recordingComparisonRenderChecks": 1,
+    "documentedResultsRows": [
+      6,
+      1
+    ],
+    "videoRangeChecksPassed": 1,
+    "generationFidelity": [
+      {
+        "courseId": "snes-donut-plains-1",
+        "reviewedRows": 55,
+        "differences": 0
+      },
+      {
+        "courseId": "ds-waluigi-pinball-r",
+        "reviewedRows": 15,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-20"
+}
