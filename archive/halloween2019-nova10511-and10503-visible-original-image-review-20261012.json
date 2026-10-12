@@ -3,7 +3,27 @@
   "tourId": "tour-3",
   "historyComplete": false,
   "certifiedThrough": null,
-  "imageReviews": [
+  "priorUnsupportedClaimDisposition": "Earlier omitted-image claims remain withdrawn; this independent review used actual pixels from local originals.",
+  "limitations": [
+    "Both local Nova view_image responses were omitted-image placeholders; no actual pixels were present. All fresh total, previous-best, course and driver observations withdrawn.",
+    "Generator and tests prove metadata propagation only. Recovered originals and derived proof artifacts retained for later actual review."
+  ],
+  "validation": {
+    "isolatedGeneratorExitCode": 0,
+    "selectedRows": 6,
+    "recordsAndSubmissionsMatchGenerator": true,
+    "totalsSplitsAchievementDatesSubmissionClocksAndPlayableVideosUnchanged": true,
+    "relevantTests": {
+      "command": "node --test test/halloween-recording-comparison.test.mjs test/fastest-recorded.test.mjs test/opening-day-publication.test.mjs",
+      "passed": 11,
+      "failed": 0,
+      "scope": "Publication selection and opening-day policy; direct image observations are separately recorded."
+    },
+    "doesNotProvePixels": true
+  },
+  "supersededBy": "archive/halloween2019-nova-two-omitted-local-image-claim-withdrawal-20261012.json",
+  "assessmentWithdrawn": true,
+  "unsupportedImageReviews": [
     {
       "reviewAudit": "archive/halloween2019-nova10511-and10503-visible-original-image-review-20261012.json",
       "originalFile": "archive/halloween2019-nova10511-source-recovery/EHo-sR6UwAAiat2-original.jpg",
@@ -43,28 +63,10 @@
       "exactRaceCompletionTimeKnown": false
     }
   ],
-  "additionalPreviousBestCorroboration": {
+  "imageReviews": [],
+  "unsupportedPreviousBestCorroboration": {
     "canonicalId": "original-2019-wr-row-16",
     "time": "1:05.04",
     "ownOriginalImageStillMissing": true
-  },
-  "priorUnsupportedClaimDisposition": "Earlier omitted-image claims remain withdrawn; this independent review used actual pixels from local originals.",
-  "limitations": [
-    "Images establish displayed totals and one previous-best benchmark; no lap splits or precise race completion dates were read.",
-    "Nova attribution carries the documentary sheet and exact original post provenance; no new identity is inferred from an unnamed screenshot.",
-    "The 1:05.03 source is a result photo; its historical videoReference remains a provenance reference without playable-video promotion.",
-    "Halloween remains incomplete; missing originals, recording continuity and live publication remain pending."
-  ],
-  "validation": {
-    "isolatedGeneratorExitCode": 0,
-    "selectedRows": 6,
-    "recordsAndSubmissionsMatchGenerator": true,
-    "totalsSplitsAchievementDatesSubmissionClocksAndPlayableVideosUnchanged": true,
-    "relevantTests": {
-      "command": "node --test test/halloween-recording-comparison.test.mjs test/fastest-recorded.test.mjs test/opening-day-publication.test.mjs",
-      "passed": 11,
-      "failed": 0,
-      "scope": "Publication selection and opening-day policy; direct image observations are separately recorded."
-    }
   }
 }

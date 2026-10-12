@@ -41,15 +41,14 @@
       "proofImageReference": "https://pbs.twimg.com/media/EHo-sR6UwAAiat2?format=jpg&name=medium",
       "videoReference": null,
       "freshFootageReviewed": false,
-      "freshImageReviewed": true,
-      "disposition": "original-image-content-reviewed",
-      "originalResultImageGap": false,
+      "freshImageReviewed": false,
+      "disposition": "original-image-file-recovered-content-review-pending",
+      "originalResultImageGap": true,
       "originalRecordingGap": false,
       "workDisposition": "retained-public-record-evidence-review",
       "latestFullServerReferenceSearch": "archive/halloween2019-retained-missing-image-full-server-census-crosswalk-20261011.json",
       "latestOriginalImageRecovery": "archive/halloween2019-nova10511-original-image-browser-verification-20261011.json",
-      "latestVisualClaimWithdrawal": "archive/halloween2019-nova10511-image-content-claim-withdrawal-20261011.json",
-      "latestOriginalImageContentReview": "archive/halloween2019-nova10511-and10503-visible-original-image-review-20261012.json"
+      "latestVisualClaimWithdrawal": "archive/halloween2019-nova10511-image-content-claim-withdrawal-20261011.json"
     },
     {
       "canonicalId": "original-2019-wr-row-16",
@@ -69,8 +68,7 @@
       "originalResultImageGap": true,
       "originalRecordingGap": false,
       "workDisposition": "retained-public-record-evidence-review",
-      "latestFullServerReferenceSearch": "archive/halloween2019-retained-missing-image-full-server-census-crosswalk-20261011.json",
-      "laterPreviousBestCorroboration": "archive/halloween2019-nova10511-and10503-visible-original-image-review-20261012.json"
+      "latestFullServerReferenceSearch": "archive/halloween2019-retained-missing-image-full-server-census-crosswalk-20261011.json"
     },
     {
       "canonicalId": "original-2019-wr-row-17",
@@ -85,9 +83,9 @@
       "proofImageReference": "https://pbs.twimg.com/media/EHqC0S6U0AAPAX5?format=jpg&name=medium",
       "videoReference": "https://twitter.com/40pairs/status/1187405290657857539",
       "freshFootageReviewed": false,
-      "freshImageReviewed": true,
-      "disposition": "original-image-content-reviewed",
-      "originalResultImageGap": false,
+      "freshImageReviewed": false,
+      "disposition": "original-image-file-recovered-content-review-pending",
+      "originalResultImageGap": true,
       "originalRecordingGap": true,
       "latestOriginalPostRecoveryReview": {
         "canonicalId": "original-2019-wr-row-17",
@@ -114,7 +112,13 @@
       "workDisposition": "retained-public-record-evidence-review",
       "latestFullServerReferenceSearch": "archive/halloween2019-retained-missing-image-full-server-census-crosswalk-20261011.json",
       "latestOriginalPostRecovery": "archive/halloween2019-nova10503-original-post-and-image-file-recovery-20261012.json",
-      "latestOriginalImageContentReview": "archive/halloween2019-nova10511-and10503-visible-original-image-review-20261012.json"
+      "recoveredImagePendingReview": {
+        "reviewAudit": "archive/halloween2019-nova10503-original-post-and-image-file-recovery-20261012.json",
+        "originalFile": "archive/halloween2019-nova10503-source-recovery/EHqC0S6U0AAPAX5-original.jpg",
+        "sha256": "ed2aa1e3ad89d000d4b38e3d177b1e2781775285afb5871195edf327cd247b68",
+        "contentsVerified": false,
+        "status": "recovered-file-content-review-pending"
+      }
     },
     {
       "canonicalId": "original-2019-wr-row-18",
@@ -463,9 +467,9 @@
     "priorRows": 18,
     "retainedRows": 14,
     "deferredRows": 4,
-    "retainedImageGaps": 8,
+    "retainedImageGaps": 10,
     "retainedRecordingGaps": 2,
-    "retainedRecoveredFilesPendingContentReview": 0
+    "retainedRecoveredFilesPendingContentReview": 2
   },
   "tourAssignmentCorrection": {
     "id": "curated-tomegome-2019-1189550387839160320-previous-13538",
@@ -481,9 +485,9 @@
     "Deferred sources remain preserved. This does not establish that omitted results lack footage or historical value.",
     "Opening-day day-end best and fastest complete recording comparisons still need relevant source coverage; omitted records may supply corroborating evidence.",
     "Remaining source, video continuity, date and live publication requirements are unresolved.",
-    "Two Nova original images directly reviewed in latest audit; remaining source and footage gaps prevent tour certification."
+    "No fresh media pixels or completed-tour certification."
   ],
   "latestRetainedImageRecovery": "archive/halloween2019-nova10511-original-image-browser-verification-20261011.json",
   "latestNova10503SourceRecovery": "archive/halloween2019-nova10503-original-post-and-image-file-recovery-20261012.json",
-  "latestTwoNovaVisibleOriginalReview": "archive/halloween2019-nova10511-and10503-visible-original-image-review-20261012.json"
+  "latestNovaLocalImageClaimWithdrawal": "archive/halloween2019-nova-two-omitted-local-image-claim-withdrawal-20261012.json"
 }
