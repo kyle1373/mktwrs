@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-9",
+  "tour": "Ice Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; preserved reviews accepted with chronology and recording gaps stated.",
+  "exhaustiveHistoryProven": false,
+  "sourceCommit": "3182d22977f227101fa6910b75ab5924a202b9c8",
+  "window": {
+    "start": "2020-01-15T06:00:00Z",
+    "endExclusive": "2020-01-29T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "gba-bowser-s-castle-1",
+      "archivedWr": "0:59.96",
+      "fastestDocumentedAvailableRecording": "0:59.96",
+      "recordingPlayerId": "tomegome",
+      "originalResultPost": "2020-01-15T19:20:10.000Z"
+    },
+    {
+      "id": "gcn-dino-dino-jungle-r",
+      "archivedWr": "1:40.18",
+      "fastestDocumentedAvailableRecording": "1:40.32",
+      "recordingPlayerId": "tomegome",
+      "originalResultPost": "2020-01-26T12:53:54.000Z"
+    }
+  ],
+  "evidence": [
+    "archive/ice-2020-reconciliation.json",
+    "archive/ice-2020-server-image-review.json",
+    "archive/ice2020-fresh-server-source-coverage-20261004.json",
+    "archive/ice2020-tomegome-original-proof-clock-review-20261004.json",
+    "archive/ice2020-live-original-discussion-practical-review-20261012.json",
+    "archive/ice2020-two-selected-recording-r2-preservation-20261012.json",
+    "archive/ice2020-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "coverage": {
+    "priorInTourDiscussionMessages": 49,
+    "priorServerLinkResults": 58,
+    "priorLinkPagesRead": 3,
+    "preservedDirectAttachmentsMatched": 181,
+    "priorServerImagePagesRead": 8,
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 10
+  },
+  "remainingLimitations": [
+    "Nu11/Kaguya1:40.74 original proof and first publication remain unavailable. Third-party report retained outside certified WR succession.",
+    "Tomegome previous1:40.56 achievement date and opening global WR exchange order remain unknown.",
+    "Nu11 castle0:59.96 tie retains accepted status; Tomegome footage is attributed only to Tomegome.",
+    "Prior originals and media reviews retained without fresh uninterrupted-race certification. Available1:40.32 recording is separate from1:40.18 WR.",
+    "Saved source coverage does not prove deleted/private/global material was recovered."
+  ],
+  "validation": {
+    "productionBuildPages": 910,
+    "recordingComparisonRenderChecks": 2,
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "gba-bowser-s-castle-1",
+        "reviewedRows": 7,
+        "differences": 0
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle-r",
+        "reviewedRows": 12,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-10"
+}
