@@ -1,0 +1,219 @@
+{
+  "reviewedAt": "2026-10-12T05:43:05.795715+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceCommit": "231c116c8deec71e1fc28cafb317de621d36e1f3",
+  "problem": "The final Toad Circuit WR and its sheet submission displayed only a later Discord share, omitting the preserved original-player share and later reposts. The canonical row retained unavailable footage as a reference, so recording-only enrichment did not transfer its video-linked events.",
+  "fix": "Merge share events that identify the exact video and match player, course and result. The share event may supply the video identity when the canonical unavailable original is a reference. Other recording properties are not changed.",
+  "changes": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "896332014423261204",
+      "previousEvents": 1,
+      "currentEvents": 4,
+      "events": [
+        {
+          "sharedAt": "2019-10-30T01:16:10Z",
+          "source": {
+            "url": "https://twitter.com/_Kaguya_Games/status/1189350244615688192",
+            "postId": "1189350244615688192",
+            "kind": "original-player-video-share"
+          },
+          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+          "originalCaption": "【マリカツ(MKT) WR】[1:04.46] キノピオサーキット(TOAD CIRCUIT) タイムアタック(Time-Trials) # マリオカートツアー https:// youtu.be/G1_Z2_9JICA @ YouTube より",
+          "reviewAudit": "archive/halloween2019-nu10446-earlier-original-video-share-reconciliation-20261012.json",
+          "preservedOriginalPath": "archive/kaguya-halloween-further-originals/1189350244615688192.html",
+          "decompressedSha256": "2592981d994086c41f7456894e8ddf12e61aed945cc82642dddb25921fb792c7",
+          "freshOriginalPostReviewed": false,
+          "preservedOriginalTextReviewed": true,
+          "freshFootageReviewed": false,
+          "kind": "documented-original-player-video-share-not-achievement-clock"
+        },
+        {
+          "sharedAt": "2021-10-09T09:43:25.282Z",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/896050730216095765/896332014423261204",
+            "channelId": "896050730216095765",
+            "messageId": "896332014423261204"
+          },
+          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+          "sharedByDisplay": "Atlas",
+          "kind": "later-community-wr-announcement",
+          "reviewAudit": "archive/halloween2019-nu10446-three-exact-video-discord-references-20261012.json",
+          "freshOriginalPostReviewed": true,
+          "freshFootageReviewed": false
+        },
+        {
+          "sharedAt": "2020-10-08T08:14:52.389Z",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/636461740162416640/763675771725938698",
+            "channelId": "636461740162416640",
+            "messageId": "763675771725938698"
+          },
+          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+          "sharedByDisplay": "Wins",
+          "kind": "later-community-video-list",
+          "reviewAudit": "archive/halloween2019-nu10446-three-exact-video-discord-references-20261012.json",
+          "freshOriginalPostReviewed": true,
+          "freshFootageReviewed": false
+        },
+        {
+          "sharedAt": "2019-10-30T01:22:06.897Z",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/636461740162416640/638910471956594700",
+            "channel": "tt-discussion",
+            "messageId": "638910471956594700"
+          },
+          "sharedByDiscordAccountId": "280285510075940864",
+          "sharedByDisplay": "えなが",
+          "reviewAudit": "archive/halloween2019-nova-and-kaguya-original-toad-video-share-sources-20261010.json",
+          "freshOriginalPostReviewed": true,
+          "freshFootageReviewed": false,
+          "kind": "documented-discord-share-not-earliest-publication-claim"
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH10",
+      "previousEvents": 1,
+      "currentEvents": 4,
+      "events": [
+        {
+          "sharedAt": "2019-10-30T01:16:10Z",
+          "source": {
+            "url": "https://twitter.com/_Kaguya_Games/status/1189350244615688192",
+            "postId": "1189350244615688192",
+            "kind": "original-player-video-share"
+          },
+          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+          "originalCaption": "【マリカツ(MKT) WR】[1:04.46] キノピオサーキット(TOAD CIRCUIT) タイムアタック(Time-Trials) # マリオカートツアー https:// youtu.be/G1_Z2_9JICA @ YouTube より",
+          "reviewAudit": "archive/halloween2019-nu10446-earlier-original-video-share-reconciliation-20261012.json",
+          "preservedOriginalPath": "archive/kaguya-halloween-further-originals/1189350244615688192.html",
+          "decompressedSha256": "2592981d994086c41f7456894e8ddf12e61aed945cc82642dddb25921fb792c7",
+          "freshOriginalPostReviewed": false,
+          "preservedOriginalTextReviewed": true,
+          "freshFootageReviewed": false,
+          "kind": "documented-original-player-video-share-not-achievement-clock"
+        },
+        {
+          "sharedAt": "2021-10-09T09:43:25.282Z",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/896050730216095765/896332014423261204",
+            "channelId": "896050730216095765",
+            "messageId": "896332014423261204"
+          },
+          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+          "sharedByDisplay": "Atlas",
+          "kind": "later-community-wr-announcement",
+          "reviewAudit": "archive/halloween2019-nu10446-three-exact-video-discord-references-20261012.json",
+          "freshOriginalPostReviewed": true,
+          "freshFootageReviewed": false
+        },
+        {
+          "sharedAt": "2020-10-08T08:14:52.389Z",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/636461740162416640/763675771725938698",
+            "channelId": "636461740162416640",
+            "messageId": "763675771725938698"
+          },
+          "video": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+          "sharedByDisplay": "Wins",
+          "kind": "later-community-video-list",
+          "reviewAudit": "archive/halloween2019-nu10446-three-exact-video-discord-references-20261012.json",
+          "freshOriginalPostReviewed": true,
+          "freshFootageReviewed": false
+        },
+        {
+          "sharedAt": "2019-10-30T01:22:06.897Z",
+          "source": {
+            "url": "https://discord.com/channels/629221606064914442/636461740162416640/638910471956594700",
+            "channel": "tt-discussion",
+            "messageId": "638910471956594700"
+          },
+          "sharedByDiscordAccountId": "280285510075940864",
+          "sharedByDisplay": "えなが",
+          "reviewAudit": "archive/halloween2019-nova-and-kaguya-original-toad-video-share-sources-20261010.json",
+          "freshOriginalPostReviewed": true,
+          "freshFootageReviewed": false,
+          "kind": "documented-discord-share-not-earliest-publication-claim"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "regressionTest": "test/exact-recording-share-merge.test.mjs",
+    "testsPassed": 16,
+    "sourceEntriesUnchanged": true,
+    "raceFactsUnchanged": true,
+    "fullRaceClaimsUnchanged": true,
+    "isolatedGeneratorCompleted": true,
+    "expectedScopedDifferencesBeforePublicationUpdate": 2,
+    "livePublicationVerified": false,
+    "scopedFidelityAfterPublicUpdate": {
+      "summary": [
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "records",
+          "publicRows": 25,
+          "generatedRows": 25,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-toad-circuit",
+          "collection": "submissions",
+          "publicRows": 113,
+          "generatedRows": 113,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "records",
+          "publicRows": 14,
+          "generatedRows": 14,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "3ds-neo-bowser-city",
+          "collection": "submissions",
+          "publicRows": 63,
+          "generatedRows": 63,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "records",
+          "publicRows": 22,
+          "generatedRows": 22,
+          "sameIds": true,
+          "aggregateMatches": true
+        },
+        {
+          "courseId": "gcn-dino-dino-jungle",
+          "collection": "submissions",
+          "publicRows": 32,
+          "generatedRows": 32,
+          "sameIds": true,
+          "aggregateMatches": true
+        }
+      ],
+      "differences": []
+    },
+    "perTrackRouteDataShareEvents": 4
+  },
+  "sourceAudits": [
+    "archive/halloween2019-nu10446-earlier-original-video-share-reconciliation-20261012.json",
+    "archive/halloween2019-nu10446-three-exact-video-discord-references-20261012.json"
+  ],
+  "limitations": [
+    "Video share clocks remain independent from achievement, submission and platform publication clocks.",
+    "No fresh footage certification or tour completion. Railway exact deployment 314b8f7a-16c0-4b5f-95b3-c2b59558240f remains Queued / Waiting for build slot."
+  ]
+}

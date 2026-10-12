@@ -41,6 +41,25 @@ function recordingIdentity(value) {
   return null;
 }
 
+export function mergeRecordingShareEvents(record, matches) {
+  const identity = recordingIdentity(record.video);
+  if (!identity) return false;
+  const events = [...(record.videoShareEvents || [])];
+  for (const row of matches) {
+    if (row.playerId !== record.playerId || row.courseId !== record.courseId ||
+        row.timeCs !== record.timeCs) continue;
+    for (const event of row.videoShareEvents || []) {
+      // Unavailable originals may be retained as references rather than videos.
+      // The event's exact video link still identifies its share clock.
+      if (recordingIdentity(event.video || row.video) === identity) events.push(event);
+    }
+  }
+  if (!events.length) return false;
+  record.videoShareEvents = [...new Map(events.map(event =>
+    [event.source?.url + "|" + event.sharedAt, event])).values()];
+  return true;
+}
+
 export function enrichRecordingEvidence(record, matches) {
   const identity = recordingIdentity(record.video);
   if (!identity) return false;

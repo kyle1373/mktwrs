@@ -4,6 +4,7 @@ import { screenshotPublicationDate } from "./record-date.mjs";
 import { videoKey } from "../lib/video.mjs";
 import {
   importSources,
+  mergeRecordingShareEvents,
   norm,
   findCourse,
   centiseconds,
@@ -263,6 +264,7 @@ for (const c of courses) {
   }
   c.records = [...distinct.values()];
   for (const r of [...c.records, ...c.submissions]) {
+    mergeRecordingShareEvents(r, c.submissions);
     attachReviewedVideoShares(c, r, reviewedVideoShares);
     const attribution = videoAttribution[videoKey(r.video)];
     if (attribution && !attribution.playerIds.includes(r.playerId)) {
