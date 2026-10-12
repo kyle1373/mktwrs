@@ -1,0 +1,75 @@
+{
+  "tourId": "tour-6",
+  "checkedAt": "2026-10-12",
+  "sourceCommit": "22dca602",
+  "deploymentId": "6e5c224c-5059-437e-8a4d-eb8f2c9eb0c8",
+  "liveCompletionEqualsCommitted": true,
+  "courseChecks": [
+    {
+      "courseId": "3ds-daisy-hills",
+      "liveSectionsVerified": true,
+      "videoPublishedAt": "2019-12-05T12:58:40+00:00"
+    },
+    {
+      "courseId": "snes-mario-circuit-2",
+      "liveSectionsVerified": true,
+      "videoPublishedAt": "2019-12-04T09:49:55+00:00"
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "liveSectionsVerified": true,
+      "videoPublishedAt": "2019-12-14T13:06:47+00:00"
+    }
+  ],
+  "recordingRangeChecks": [
+    {
+      "url": "https://media.mktwrs.com/assets/video/london2019-daisy-hills-12363-da3f2b894b9a.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "passed": true
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/london2019-mario-circuit-2-10046-133844a6b0c0.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "passed": true
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/london2019-yoshi-circuit-14586-baad3191d775.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "passed": true
+    }
+  ],
+  "imageProofChecks": {
+    "count": 43,
+    "passed": 43
+  },
+  "generationFidelity": [
+    {
+      "courseId": "3ds-daisy-hills",
+      "reviewedRows": 26,
+      "differences": 0
+    },
+    {
+      "courseId": "snes-mario-circuit-2",
+      "reviewedRows": 22,
+      "differences": 0
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "reviewedRows": 28,
+      "differences": 0
+    }
+  ],
+  "browserInteractionChecks": [
+    "Daisy documented-results disclosure expanded; opening1:23.54 retained, earlier1:24.14 omitted; sources and image links present.",
+    "Mario Circuit2 recording disclosure expanded: result post09:44:08.611 and video published09:49:55 shown separately."
+  ],
+  "validation": {
+    "productionBuildPassed": true,
+    "componentRenderChecksPassed": 3,
+    "focusedBoundaryTestsPassed": 6
+  },
+  "note": "Practical London completion with documented gaps is live. Holiday2019 may proceed; full2019–2026 archive remains incomplete."
+}
