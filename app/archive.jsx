@@ -587,7 +587,7 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       {r.recordingContinuityPending && <p className="table-note">The prior review identifies the result, but uninterrupted start-to-finish race coverage still needs verification. This selection is provisional.</p>}
       <p className="video-links">{r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}{r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <EvidenceTimes r={r} />
-    </> : <p>No full-race recording has been documented in the reviewed evidence yet.</p>}
+    </> : <p>No recording has an explicit full-race continuity certification in this archive.</p>}
     {!!comparison.pendingRecordings?.length && <details className="sources">
       <summary>Faster video references awaiting verification ({comparison.pendingRecordings.length})</summary>
       <p className="table-note">These references have not established an available complete race. Their reported times do not replace the reviewed recording above.</p>
