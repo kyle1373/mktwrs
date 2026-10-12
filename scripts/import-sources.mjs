@@ -1,3 +1,14 @@
+export function enrichOriginalProofReviews(record, evidence) {
+  if (record.playerId !== evidence.playerId || record.courseId !== evidence.courseId ||
+      record.timeCs !== evidence.timeCs || !record.proofImageLocal ||
+      record.proofImageLocal !== evidence.proofImageLocal || !evidence.proofImageVerified) return false;
+  // Preserve the original post and later repost clocks of this exact proof.
+  // Neither clock resolves an undated previous-best race.
+  for (const key of ["originalPostSourceReview", "laterOriginalScreenshotRepostReview"])
+    if (evidence[key] !== undefined && record[key] === undefined) record[key] = evidence[key];
+  return true;
+}
+
 export function applySubmissionSourceEvidence(submission, reviews) {
   const review = reviews[submission.id];
   if (!review) return false;
@@ -769,6 +780,7 @@ export function importSources(courses, players) {
           if (verifiedProof.proofImageLocal) {
             r.proofImageLocal = verifiedProof.proofImageLocal;
           }
+          enrichOriginalProofReviews(r, verifiedProof);
         } else {
           r.proofImage ||= s.proofImage;
         }

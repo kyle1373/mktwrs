@@ -11,6 +11,7 @@ import {
   exactReviewedRecordSubmission,
   enrichRecordingEvidence,
   applySubmissionSourceEvidence,
+  enrichOriginalProofReviews,
 } from "../scripts/import-sources.mjs";
 test("historical announcement tour wins over its later posting date", () => {
   const appearances = [
@@ -146,4 +147,16 @@ test("retained result reports and video shares keep their own clocks with exact 
  assert.equal(applySubmissionSourceEvidence(row,{[row.id]:review}),true);
  assert.deepEqual(row.resultReportEvents,[report]);assert.equal(row.submittedAt,null);
  assert.throws(()=>applySubmissionSourceEvidence({...row,source:{url:"https://example.org/other"}},{[row.id]:review}),/mismatch/);
+});
+
+
+test("original proof reviews retain separate original and repost clocks without dating previous best",()=>{
+ const record={courseId:"ddj",playerId:"tome",timeCs:9416,proofImageLocal:"/original.webp",achievedAt:null,dateUnresolved:true};
+ const evidence={...record,proofImageVerified:true,originalPostSourceReview:{postedAt:"2019-11-04T18:21:02Z"},laterOriginalScreenshotRepostReview:{evidenceSharedAt:"2020-07-15T13:16:07.517Z"}};
+ assert.equal(enrichOriginalProofReviews(record,evidence),true);
+ assert.deepEqual(record.originalPostSourceReview,evidence.originalPostSourceReview);
+ assert.deepEqual(record.laterOriginalScreenshotRepostReview,evidence.laterOriginalScreenshotRepostReview);
+ assert.equal(record.achievedAt,null);assert.equal(record.dateUnresolved,true);
+ for(const change of [{playerId:"other"},{courseId:"other"},{timeCs:9423},{proofImageLocal:"/rerun.webp"},{proofImageVerified:false}])
+  assert.equal(enrichOriginalProofReviews({...record},{...evidence,...change}),false);
 });
