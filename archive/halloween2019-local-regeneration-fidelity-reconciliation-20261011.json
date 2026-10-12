@@ -487,10 +487,65 @@
   ],
   "sourceLinksRemoved": false,
   "performanceDatesClocksAndVerificationUnchanged": true,
-  "validationPending": true,
   "limits": [
     "Note deduplication removes repeated text only. Source URL consolidation preserves annotated source and does not remove a distinct URL.",
     "Local regeneration fidelity does not prove historical source coverage or live publication.",
     "Halloween unresolved dates and original media gaps remain."
-  ]
+  ],
+  "validation": {
+    "scopedComparison": [
+      {
+        "courseId": "3ds-toad-circuit",
+        "collection": "records",
+        "scopedRows": 25,
+        "sameScopedIdSet": true,
+        "allScopedFieldsMatch": true,
+        "individualAndAggregateRowsMatch": true
+      },
+      {
+        "courseId": "3ds-toad-circuit",
+        "collection": "submissions",
+        "scopedRows": 98,
+        "sameScopedIdSet": true,
+        "allScopedFieldsMatch": true,
+        "individualAndAggregateRowsMatch": true
+      },
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "collection": "records",
+        "scopedRows": 14,
+        "sameScopedIdSet": true,
+        "allScopedFieldsMatch": true,
+        "individualAndAggregateRowsMatch": true
+      },
+      {
+        "courseId": "3ds-neo-bowser-city",
+        "collection": "submissions",
+        "scopedRows": 57,
+        "sameScopedIdSet": true,
+        "allScopedFieldsMatch": true,
+        "individualAndAggregateRowsMatch": true
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle",
+        "collection": "records",
+        "scopedRows": 22,
+        "sameScopedIdSet": true,
+        "allScopedFieldsMatch": true,
+        "individualAndAggregateRowsMatch": true
+      },
+      {
+        "courseId": "gcn-dino-dino-jungle",
+        "collection": "submissions",
+        "scopedRows": 28,
+        "sameScopedIdSet": true,
+        "allScopedFieldsMatch": true,
+        "individualAndAggregateRowsMatch": true
+      }
+    ],
+    "scopedRowsTotal": 244,
+    "differentRows": 0,
+    "normalization": "Null and absent optional fields treated as equivalent; order of notes/additionalSources/share/report lists ignored with duplicates preserved. Other fields compared exactly.",
+    "scope": "Explicit Halloween tour range, Halloween date interval, original2019WR and Halloween identifiers. Does not verify full2019–2026archive."
+  }
 }
