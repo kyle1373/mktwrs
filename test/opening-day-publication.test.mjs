@@ -10,7 +10,7 @@ test('opening day keeps the fastest tie and later history without creating profi
  assert.deepEqual(result.omittedProfileIds,['early']);
  assert.equal(courses[0].records.length,5);assert.equal(result.courses[0].submissions.length,1);
 });
-test('exact opening day uses 06 UTC rollover and other tours stay untouched',()=>{
+test('exact opening day uses 06 UTC rollover and unrelated dates stay untouched',()=>{
  const records=[{id:'first',playerId:'a',timeCs:7000,achievedAt:'2019-10-24T05:59:59Z'},{id:'best',playerId:'b',timeCs:6500,achievedAt:'2019-10-23T06:00:00Z'},{id:'next',playerId:'c',timeCs:6400,achievedAt:'2019-10-24T06:00:00Z'}];
  const course={records,appearances:[{tourId:'tour-3'}]};
  assert.deepEqual(openingDayPublication([course],[]).courses[0].records.map(r=>r.id),['best','next']);
@@ -39,4 +39,12 @@ test('supporting results and WR history share exact opening-day boundary without
  assert.equal(isHalloween2019OpeningDay({achievedAt:'2019-10-24T06:00:00Z'}),false);
  assert.equal(isHalloween2019OpeningDay({achievedAt:'2019-10-23',dateUnresolved:true}),false);
  assert.equal(isHalloween2019OpeningDay({submittedAt:'2019-10-23T12:00:00Z'}),false);
+});
+
+
+test('Paris opening day retains only its fastest run while preserving later records',()=>{
+ const records=[{id:'early',playerId:'a',timeCs:4867,achievedAt:'2019-11-06'},
+  {id:'best',playerId:'b',timeCs:4850,achievedAt:'2019-11-06'},
+  {id:'later',playerId:'c',timeCs:4847,achievedAt:'2019-11-07'}];
+ assert.deepEqual(openingDayPublication([{records,appearances:[{tourId:'tour-4'}]}],[]).courses[0].records.map(r=>r.id),['best','later']);
 });

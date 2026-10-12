@@ -24,7 +24,7 @@ test('recovered Nova report renders its source clock without inventing a submiss
  assert.deepEqual(r.resultReportTimes,[{
   reportedAt:'2019-10-25T10:04:36.476Z',
   url:'https://discord.com/channels/629221606064914442/636461740162416640/637230022293323806',
-  originalRunnerSubmission:false,
+  originalRunnerSubmission:false,imageReport:false,writtenTotalExplicit:undefined,
  }]);
  const html=render(r);
  assert.match(html,/Third-party result report:/);

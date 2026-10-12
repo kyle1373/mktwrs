@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 1
+    "practicallyCompletedTours": 2
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -309,7 +309,7 @@
       "endDate": "2019-11-20",
       "tourSource": "https://www.mariowiki.com/Paris_Tour_(2019)",
       "historyComplete": false,
-      "reviewStatus": "chronological-original-source-review-started",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "ds-luigi-s-mansion",
@@ -373,7 +373,9 @@
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
       ],
-      "sourceReviewCrosswalk": "archive/paris2019-chronological-discussion-source-crosswalk-20261010.json"
+      "sourceReviewCrosswalk": "archive/paris2019-chronological-discussion-source-crosswalk-20261010.json",
+      "practicalCompletionEvidence": "archive/paris2019-practical-tour-completion-20261012.json",
+      "practicallyComplete": true
     },
     {
       "tourId": "tour-5",
@@ -10718,8 +10720,8 @@
   },
   "singleTourPolicy": {
     "effectiveAt": "2026-10-11",
-    "activeTourId": "tour-4",
-    "nextTourId": "tour-5",
+    "activeTourId": "tour-5",
+    "nextTourId": "tour-6",
     "advanceRequiresCurrentTourCertified": false,
     "laterTourWorkDeferred": true,
     "scope": "Complete full2019–2026 archive sequentially; starting with first applicable TTtour Halloween2019.",
@@ -10740,7 +10742,7 @@
     "advanceOnlyAfterEvidenceReportProvesCompletion": true,
     "activeTourId": "tour-3"
   },
-  "activeTourCompletionEvidenceAudit": "archive/halloween2019-practical-tour-completion-20261012.json",
+  "activeTourCompletionEvidenceAudit": "archive/paris2019-practical-tour-completion-20261012.json",
   "currentProofPolicy": {
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true

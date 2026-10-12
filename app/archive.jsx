@@ -75,7 +75,7 @@ function EvidenceTimes({ r }) {
   if (!r.submittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
-    {r.submittedAt && <div>Submitted: {format(r.submittedAt)}</div>}
+    {r.submittedAt && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
       Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
       {source.forumTimezoneKnown !== true && " (timezone unknown)"}
@@ -571,14 +571,14 @@ function FastestVideo({ course: c, players }) {
     </> : <p className="table-note">No available video has been verified for this course yet.</p>}
   </section>;
 }
-function HalloweenRecording({ comparison, players }) {
+function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (2019)", completed = true }) {
   if (!comparison) return null;
   const { worldRecord: wr, recording: r } = comparison;
   return <section className="fastest-video">
-    <h2>Halloween Tour (2019) recording comparison</h2>
+    <h2>{tourLabel} recording comparison</h2>
     {wr && <p>Archived tour WR: <strong>{wr.time}</strong> · <Player id={wr.playerId} players={players} /></p>}
     {comparison.documentedRecording && comparison.documentedRecording.timeCs !== r?.timeCs && <>
-      <p>Fastest documented available recording: <strong>{comparison.documentedRecording.time}</strong> · <Player id={comparison.documentedRecording.playerId} players={players} /> · <a href={comparison.documentedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a></p>
+      <p>Fastest documented available recording: <strong>{comparison.documentedRecording.time}</strong> · <Player id={comparison.documentedRecording.playerId} players={players} /> · <a href={comparison.documentedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.documentedRecording.videoBackup?.url && <> · <a href={comparison.documentedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The prior review identifies the result. Uninterrupted race coverage has not been freshly certified.</p>
       <EvidenceTimes r={comparison.documentedRecording} />
     </>}
@@ -598,7 +598,7 @@ function HalloweenRecording({ comparison, players }) {
         <EvidenceTimes r={candidate} />
       </div>)}
     </details>}
-    <p className="table-note">Practical tour review completed with documented gaps. Faster unverified references remain preserved; recording continuity and unavailable originals retain their stated limitations.</p>
+    <p className="table-note">{completed ? "Practical tour review completed with documented gaps. " : "Tour review in progress. "}Faster unverified references remain preserved; recording continuity and unavailable originals retain their stated limitations.</p>
   </section>;
 }
 function HalloweenSupportingResults({ results, players }) {
@@ -620,6 +620,16 @@ function HalloweenSupportingResults({ results, players }) {
     </table></div>
   </details>;
 }
+function ParisSupportingResults({ results, players }) {
+  if (!results?.length) return null;
+  return <details className="sources">
+    <summary>Paris Tour (2019) documented results ({results.length})</summary>
+    <p className="table-note">Earlier results, rival times and personal bests are preserved here. They are not certified as world records. Opening day shows the fastest documented result; exact finish times remain unknown where only a report date survives.</p>
+    <div className="table-wrap"><table className="wr-table"><thead><tr><th>Time + video</th><th>Player</th><th>Documented day</th><th>Evidence</th></tr></thead>
+      <tbody>{results.map(r => <tr key={r.id}><td><Time record={r} /></td><td><Player id={r.playerId} players={players} /></td><td>{date(r.achievedAt || r.chronologyDate)}</td><td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}<EvidenceTimes r={r} /></td></tr>)}</tbody>
+    </table></div>
+  </details>;
+}
 function CoursePage({ data: c, players, tours, manifest }) {
   const events = historyEvents(c, tours, manifest.updatedAt);
   const fragments = c.records.flatMap(r => (r.videoFragments || []).map(fragment => ({ record: r, ...fragment })));
@@ -632,6 +642,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <FastestVideo course={c} players={players} />
       <HalloweenRecording comparison={c.halloween2019Recording} players={players} />
       <HalloweenSupportingResults results={c.halloweenSupportingResults} players={players} />
+      <HalloweenRecording comparison={c.paris2019Recording} players={players} tourLabel="Paris Tour (2019)" />
+      <ParisSupportingResults results={c.parisSupportingResults} players={players} />
       {fragments.length > 0 && <section className="fastest-video">
         <h2>Preserved video fragments</h2>
         {fragments.map(f => <div key={f.originalUrl}>
@@ -644,6 +656,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       </section>}
       <h2>History</h2>
       {c.halloween2019Recording && <p className="table-note">Halloween Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive. Runs with unresolved dates remain under review.</p>}
+      {c.paris2019Recording && <p className="table-note">Paris Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive.</p>}
       <RecordTable records={c.records} events={events} players={players} />
       <DateKey />
       <p className="table-note">

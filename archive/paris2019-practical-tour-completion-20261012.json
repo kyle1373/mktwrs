@@ -1,0 +1,59 @@
+{
+  "tourId": "tour-4",
+  "tour": "Paris Tour (2019)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence: retained original reports, prior image/video reviews and unavailable references; unresolved global precedence is documented, not guessed.",
+  "exhaustiveHistoryProven": false,
+  "sourceCommit": "7ef51031bad033c8335566df9dbabb5cf2d00585",
+  "window": {
+    "start": "2019-11-06T06:00:00Z",
+    "endExclusive": "2019-11-20T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "ds-luigi-s-mansion",
+      "archivedWr": "1:23.14",
+      "fastestDocumentedRecording": "1:23.30"
+    },
+    {
+      "id": "snes-mario-circuit-1",
+      "archivedWr": "0:48.29",
+      "fastestDocumentedRecording": "0:48.36"
+    },
+    {
+      "id": "3ds-shy-guy-bazaar",
+      "archivedWr": "1:38.96",
+      "fastestDocumentedRecording": "1:38.96"
+    }
+  ],
+  "evidence": [
+    "archive/paris2019-chronological-discussion-source-crosswalk-20261010.json",
+    "archive/paris2019-preserved-discussion-practical-review-20261012.json",
+    "archive/paris2019-course-by-course-evidence-reconciliation-20261004.json",
+    "archive/paris2019-serverwide-image-census-20261003.json",
+    "archive/paris2019-server-video-review-ledger-20261004.json",
+    "archive/paris2019-three-selected-recording-r2-preservation-20261012.json"
+  ],
+  "coverage": {
+    "discussionSourceRows": 47,
+    "serverwideImageSearchResults": 306,
+    "withinImageTourWindow": 246,
+    "preservedServerMessagesInVideoCensus": 3824,
+    "uniqueYouTubeReferencesWithPriorDisposition": 33,
+    "proofImageUrlsChecked": 79,
+    "proofImageUrlsPassed": 79,
+    "selectedRecordingsPreservedOnR2": 3
+  },
+  "remainingLimitations": [
+    "Opening Luigi and Bazaar global WR precedence is unresolved. Earlier documented results are published separately without unsupported WR promotion.",
+    "Unknown dates, tentative identities, deleted originals and sampled broadcast scope remain explicit; no claim of exhaustive source recovery or freshly certified uninterrupted playback.",
+    "Only the fastest documented opening-day result and ties are shown. Raw intermediate results remain preserved."
+  ],
+  "nextTourId": "tour-5",
+  "validation": {
+    "productionBuildPages": 910,
+    "focusedChecksPassed": 21,
+    "proofImageChecks": "/archive/paris2019-r2-proof-image-link-check-20261012.json"
+  }
+}
