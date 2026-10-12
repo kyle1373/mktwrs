@@ -1,0 +1,70 @@
+{
+  "reviewedAt": "2026-10-12T04:42:23.262916+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "canonicalIds": [
+    "nu11-halloween-2019-1189347136720310272-original-10446",
+    "original-2019-wr-row-22",
+    "original-2019-wr-row-21"
+  ],
+  "waybackAvailabilityChecks": [
+    {
+      "videoId": "G1_Z2_9JICA",
+      "httpStatus": 200,
+      "response": {
+        "url": "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+        "archived_snapshots": {},
+        "timestamp": "20191030"
+      }
+    },
+    {
+      "videoId": "5mQGD5k9V5k",
+      "requestUrl": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5mQGD5k9V5k&timestamp=20191030",
+      "httpStatus": 200,
+      "response": {
+        "url": "https://www.youtube.com/watch?v=5mQGD5k9V5k",
+        "archived_snapshots": {},
+        "timestamp": "20191030"
+      }
+    },
+    {
+      "videoId": "rjLIW36EQgA",
+      "requestUrl": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrjLIW36EQgA&timestamp=20191030",
+      "errorType": "URLError",
+      "error": "<urlopen error timed out>"
+    }
+  ],
+  "initialTransientFailures": [
+    {
+      "videoId": "5mQGD5k9V5k",
+      "errorType": "URLError",
+      "error": "timed out"
+    },
+    {
+      "videoId": "rjLIW36EQgA",
+      "errorType": "RemoteDisconnected"
+    }
+  ],
+  "exaFetch": {
+    "urls": [
+      "https://www.youtube.com/watch?v=G1_Z2_9JICA",
+      "https://www.youtube.com/watch?v=5mQGD5k9V5k",
+      "https://www.youtube.com/watch?v=rjLIW36EQgA"
+    ],
+    "result": "CRAWL_NOT_FOUND for all three exact original watch URLs",
+    "footageOrMetadataRecovered": false
+  },
+  "limitations": [
+    "Empty availability response for two exact watch URLs is scoped endpoint evidence, not exhaustive capture enumeration or permanent loss.",
+    "Repeated timeout for1:04.73 leaves archive availability unresolved.",
+    "Exa crawl failures provide no publication date or footage. Original documented video links and share events retained.",
+    "Public references receive recovery disposition only; no race times, lap splits, dates, video promotion or WR classification changed."
+  ],
+  "validation": {
+    "isolatedGeneratorExitCode": 0,
+    "scopedRows": 269,
+    "differentRows": 0,
+    "recoveryDispositionsRetained": true
+  }
+}
