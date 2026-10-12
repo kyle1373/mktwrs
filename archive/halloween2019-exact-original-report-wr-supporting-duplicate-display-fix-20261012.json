@@ -1,0 +1,25 @@
+{
+  "reviewedAt": "2026-10-12T06:49:16.917260+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "sourceDataCommit": "9b7d8c9d",
+  "finding": "New report-event supporting selection exposed same original 10446 evidence twice through differing original and announcement IDs.",
+  "decision": "Suppress supporting candidate when WR history carries same player, total, reviewed report URL and report clock. Existing source archive rows retained.",
+  "validation": {
+    "renderChecksPassed": 7,
+    "productionBuildExitCode": 0,
+    "staticPages": 910,
+    "scopedRows": 269,
+    "generatedDifferences": 0,
+    "aggregateMatches": true,
+    "matchingGeneratedTableRows": 1,
+    "htmlSha256": "db977b716841f4660218b450abfb69a76f32120c134a616e087472af6684db65",
+    "retainedWrRowText": "2019-10-29 1:04.46 · Original video unavailable Submission, report and video times Forum report: 10/29/19 at 19:38:13 (timezone unknown) Displayed source clocks; exact race time and historical edit contents unconfirmed. Runner result report: 2019-10-30 01:03:49 UTC Report posting time; exact race completion time is unconfirmed. Video shared: 2019-10-30 01:16:10 UTC Video shared: 2021-10-09 09:43:25 UTC Video shared: 2020-10-08 08:14:52 UTC Video shared: 2019-10-30 01:22:06 UTC Nu11 🇯🇵 9 32.14 32.32"
+  },
+  "limitations": [
+    "Presentation deduplication is limited to the additional reviewed-report selection. Existing sheet and forum supporting selections retain their existing behavior.",
+    "Matching report evidence controls display, not proof of complete chronology or full-race recording. Original submission preserved.",
+    "Latest observed Railway deployment dfe04bc0-d823-476d-9413-300ea43bf2af is Queued. No new build result or live publication established."
+  ]
+}

@@ -81,3 +81,14 @@ test('reviewed later-tour runner report exposes an undated previous best without
  const nbc=routeData(['course','3ds-neo-bowser-city']).data;
  assert.ok(!nbc.halloweenSupportingResults.some(r=>r.id==='curated-639542633336930354-verified'));
 });
+
+
+test('same reviewed original report is shown once across WR and supporting tables',()=>{
+ const c=routeData(['course','3ds-toad-circuit']).data;
+ const original='curated-nu11-halloween-2019-1189347136720310272-original-10446';
+ assert.ok(!c.halloweenSupportingResults.some(r=>r.id===original));
+ const wr=c.records.find(r=>r.id==='896332014423261204');
+ assert.equal(wr.time,'1:04.46');
+ assert.ok(wr.resultReportTimes.some(e=>e.url==='https://twitter.com/_Kaguya_Games/status/1189347136720310272' && e.reportedAt==='2019-10-30T01:03:49Z'));
+ assert.ok(c.halloweenSupportingResults.some(r=>r.id==='curated-nu11-halloween-2019-1187741228168810497-previous'));
+});
