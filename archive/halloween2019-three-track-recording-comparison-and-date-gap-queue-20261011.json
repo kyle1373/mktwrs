@@ -138,28 +138,40 @@
         "videoAvailability": "available"
       },
       "fastestExplicitlyScopedCandidate": {
-        "id": "curated-637525126929449000-opening2019-proof-review",
-        "playerId": "meester-tweester",
-        "time": "1:31.08",
-        "video": "https://www.youtube.com/watch?v=jVra4OHC8ek",
+        "id": "896332037437403157",
+        "playerId": "astre",
+        "time": "1:25.70",
+        "video": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19",
         "videoScope": "full-run",
         "videoScopeReview": {
-          "reviewAudit": "archive/halloween2019-meester13108-original-play-day-and-full-recording-scope-reconciliation-20261011.json",
-          "priorVisualReview": "archive/halloween2019-meester-nbc-video-recovery-20261004.json",
-          "assessmentCarriedForward": true,
-          "freshFootageReviewed": false,
-          "originalFile": "archive/video-backup-files/halloween2019-meester-nbc-13108/original.mp4",
-          "sha256": "ed45b70edf867e455b06db40f0c30d663d93c8db42a20891ff0c5e72e60e7632",
-          "bytes": 16994812,
-          "basis": "Preserved original full-video review explicitly describes full recording and finish result1:31.08.",
-          "exactLapSplitsVerified": false
+          "reviewAudit": "archive/halloween2019-astre12570-visible-full-course-coverage-review-20261011.json",
+          "originalFile": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
+          "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
+          "bytes": 28073686,
+          "durationSeconds": 99.334966,
+          "freshFootageReviewed": true,
+          "status": "full-course-coverage-confirmed-from-visible-one-second-samples",
+          "method": "ffmpeg fps=1, scale=176:383, tile=5x4; all five rendered pages inspected. Additional larger fourth page inspected.",
+          "countdownPresent": true,
+          "bothLapsPresent": true,
+          "finishPresent": true,
+          "resultPresent": true,
+          "observedLap1": "42.89",
+          "observedTotal": "1:25.70",
+          "observedPreviousBest": "1:25.80",
+          "lap2": "42.81",
+          "lap2Basis": "original-caption-and-total-minus-lap1",
+          "fullRaceCoverageVerified": true,
+          "startToFinishContinuityVerified": true,
+          "continuityReviewBasis": "Consistent course position, lap counter and race timer across one-second samples from start through finish. This flag denotes documented race coverage, not frame-by-frame or forensic editing analysis.",
+          "noObviousJumpInSampledFrames": true,
+          "forensicUncutCertification": false
         },
-        "submittedAt": "2019-10-24T05:46:46.150Z",
-        "videoPublishedAt": "2019-10-24T05:45:00Z",
-        "videoSharedAt": "2019-10-24T05:46:46.150Z",
-        "videoBackup": null
+        "videoPublishedAt": "2019-11-05T22:14:22Z",
+        "submittedAt": "2019-11-05T22:14:22.000Z",
+        "videoSharedAt": "2019-11-06T17:47:31.249Z"
       },
-      "scopedCandidateSlowerThanFinalWr": true,
+      "scopedCandidateSlowerThanFinalWr": false,
       "fasterOrEqualVideoReferencesRequiringDisposition": [
         {
           "id": "curated-original-2019-wr-row-29",
@@ -194,8 +206,9 @@
           "time": "1:25.70",
           "video": "https://twitter.com/Astre_HD/status/1191841211063164929?s=19",
           "availability": "available",
-          "scope": null,
-          "verified": true
+          "scope": "full-run",
+          "verified": true,
+          "scopeReview": "archive/halloween2019-astre12570-visible-full-course-coverage-review-20261011.json"
         }
       ],
       "fastestFullRecordingCertified": false,
@@ -208,7 +221,8 @@
         "videoReferenceMatchesWr": true,
         "freshDomTextReviewed": true,
         "freshFootageReviewed": false
-      }
+      },
+      "latestScopeReview": "archive/halloween2019-astre12570-visible-full-course-coverage-review-20261011.json"
     },
     {
       "courseId": "gcn-dino-dino-jungle",

@@ -1,0 +1,85 @@
+{
+  "reviewedAt": "2026-10-12T00:32:21.048523+00:00",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "review": {
+    "reviewAudit": "archive/halloween2019-astre12570-visible-full-course-coverage-review-20261011.json",
+    "originalFile": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
+    "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
+    "bytes": 28073686,
+    "durationSeconds": 99.334966,
+    "freshFootageReviewed": true,
+    "status": "full-course-coverage-confirmed-from-visible-one-second-samples",
+    "method": "ffmpeg fps=1, scale=176:383, tile=5x4; all five rendered pages inspected. Additional larger fourth page inspected.",
+    "countdownPresent": true,
+    "bothLapsPresent": true,
+    "finishPresent": true,
+    "resultPresent": true,
+    "observedLap1": "42.89",
+    "observedTotal": "1:25.70",
+    "observedPreviousBest": "1:25.80",
+    "lap2": "42.81",
+    "lap2Basis": "original-caption-and-total-minus-lap1",
+    "fullRaceCoverageVerified": true,
+    "startToFinishContinuityVerified": true,
+    "continuityReviewBasis": "Consistent course position, lap counter and race timer across one-second samples from start through finish. This flag denotes documented race coverage, not frame-by-frame or forensic editing analysis.",
+    "noObviousJumpInSampledFrames": true,
+    "forensicUncutCertification": false
+  },
+  "frameEvidence": [
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-01-20261011.jpg",
+      "sha256": "9942ccdec7b6c44865e0eeab0bb017a3b578fdbdd11bb4d452f0201fe2d359f4",
+      "bytes": 146956,
+      "actualPixelsReviewed": true
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-02-20261011.jpg",
+      "sha256": "e988f98c08281c7d36e3239508785065d322d0beb0ccf5b722bdb7b761d661de",
+      "bytes": 164318,
+      "actualPixelsReviewed": true
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-03-20261011.jpg",
+      "sha256": "22315ed4ddbbecfe459285ef6bea324d14f4dd696a2502cb19c2490eb689eebb",
+      "bytes": 191146,
+      "actualPixelsReviewed": true
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-04-20261011.jpg",
+      "sha256": "25c7c144cad667c3fd0946e80d32b25681ee4453c868d4d449a648897f80db45",
+      "bytes": 330190,
+      "actualPixelsReviewed": true
+    },
+    {
+      "path": "archive/proof-of-work/halloween2019-astre12570-visible-1fps-page-05-20261011.jpg",
+      "sha256": "1e2558ab4b7f833aaba0172c5b5b38721c7c639e43016ad17c772f550a07c84c",
+      "bytes": 322974,
+      "actualPixelsReviewed": true
+    }
+  ],
+  "visibleObservations": {
+    "page01": "Starting grid and countdown followed by lap1 timer0:00.94 through0:16.93. BowserJr driving NeoBowserCity.",
+    "page02": "Lap1 timer0:17.94 through0:36.94 with consistent course progress.",
+    "page03": "Lap1 timer0:37.97 through0:41.95, crossing at0:42.89 and lap2/2 overlay. Lap2 timer resumes0:45.95 through0:56.95.",
+    "page04": "Lap2 timer0:57.94 through1:16.94, consistent route progress.",
+    "page05": "Lap2 timer1:17.94 through1:24.95, success1:25.70, result1:25.70 and previousbest1:25.80."
+  },
+  "validation": {
+    "originalMp4HashMatches": true,
+    "onlyFourScopeFieldsChanged": true,
+    "raceTimesLapsDatesAndSubmissionClocksUnchanged": true,
+    "recordingTestsPassed": 15,
+    "recordingTestsFailed": 0,
+    "isolatedRegenerationExitCode": 0,
+    "generatedAnnouncementScopeReviewPreserved": true,
+    "generatedComparisonWrAndRecordingBoth12570": true
+  },
+  "limitations": [
+    "Larger pages01–03 were omitted by the image tool and were not used as visual evidence. Smaller pages01–05 returned actual visible pixels and were individually inspected.",
+    "One-second sampling documents complete course coverage; it cannot exclude edits between sampled frames. No forensic uncut certification.",
+    "Original-post metadata establishes attribution and publication clock separately from these visible content checks.",
+    "No new earliest achievement instant, video availability, public backup upload, or complete-tour certification."
+  ]
+}
