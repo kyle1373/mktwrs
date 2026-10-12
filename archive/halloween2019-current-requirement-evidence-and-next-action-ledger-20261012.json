@@ -171,17 +171,17 @@
       "id": "live-coverage-and-publication",
       "requirement": "Source coverage and published result verification",
       "status": "publication-build-in-progress-live-unverified",
-      "detail": "Latest retained Railway observation: obsolete f96552a7 build at57:41; deployment not started. Five additional image-post submission labels corrected and pushed. Last live comparison remains historical, not a current-head comparison.",
+      "detail": "Current288-row observation-inclusive comparison:74matching,165different,49missing. Live manifest2026-10-08T18:39:25.861Z; health200ok. Compared sourceadd639a9 remains queued waiting build slot; actual latest publication unverified.",
       "evidence": "archive/halloween2019-forum-clock-and-latest-course-publication-comparison-20261011.json",
       "latestRailwayDashboardReview": "archive/halloween2019-post-recovery-citations-live-publication-comparison-20261012.json",
       "latestDeploymentReview": "archive/halloween2019-current-three-course-live-publication-and-exact-head-deployment-check-20261012.json",
-      "latestReviewAudit": "archive/halloween2019-current-live269-row-publication-gap-and-active-build-20261012.json",
+      "latestReviewAudit": "archive/halloween2019-live-observation-inclusive-288-row-publication-comparison-20261012.json",
       "latestDeploymentStatusAudit": "archive/halloween2019-tome10529-original-tweet-vs-submission-clock-correction-20261012.json",
       "latestPushedCommit": "2b863b0c3a7a148a470776484f73d0ebbcd13476",
       "latestDeploymentState": "Building",
       "railwayDeploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
       "additionalLatestQueuedCommitObservation": "archive/halloween2019-tome13463-live-successor-caption-and-current-deployment-review-20261012.json",
-      "latestFullScopedLiveDataComparison": "archive/halloween2019-current-live269-row-publication-gap-and-active-build-20261012.json",
+      "latestFullScopedLiveDataComparison": "archive/halloween2019-live-observation-inclusive-288-row-publication-comparison-20261012.json",
       "latestSourceAccessFailureAudit": "archive/halloween2019-railway-original-source-access-failure-and-reselection-20261012.json",
       "sourceConnectionRepairVerified": false,
       "sourceRepairNextAction": {
@@ -191,7 +191,7 @@
       },
       "latestFailureNotificationAudit": "archive/halloween2019-railway-newest-failure-notification-snapshot-disposition-20261012.json",
       "completionProven": false,
-      "nextAction": "Inspect actual source checkout/build outcome; after deployment success compare live scoped data against its exact source commit.",
+      "nextAction": "Inspect confirmed queued build05b5a592or older buildf96552a7 outcome; after actual deployment compare live288scope against exact deployed source commit.",
       "latestPublicationObservation": {
         "deploymentId": "f96552a7-5daa-4b41-b3a5-e40fbcd6620e",
         "commit": "f204b7039ceb3842377625394fb570468623d5a7",
@@ -207,12 +207,12 @@
         "reviewAudit": "archive/halloween2019-tome10529-original-tweet-vs-submission-clock-correction-20261012.json"
       },
       "latestQueuedDeploymentObservation": {
-        "latestQueuedDeploymentId": "b2392a0a-32e9-4ad8-9152-f2ced6060818",
-        "latestQueuedCommit": "722b5e18",
+        "deploymentId": "05b5a592-716b-4d9d-a78c-74fd150547b4",
+        "sourceCommit": "add639a980fa2f90373b9c6e28a87d12a6980287",
         "state": "QUEUED",
         "reason": "Waiting for build slot",
-        "olderActiveDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
-        "liveCurrentRevisionVerified": false
+        "activeOlderDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
+        "actualQueuedCheckoutVerified": false
       }
     },
     {
@@ -1167,5 +1167,6 @@
   },
   "latestObservationInclusiveRegenerationFidelityReview": "archive/halloween2019-observation-inclusive-288-row-regeneration-fidelity-review-20261012.json",
   "latestTome10529TweetVsSubmissionClockCorrection": "archive/halloween2019-tome10529-original-tweet-vs-submission-clock-correction-20261012.json",
-  "latestLaterForumKekAddressAndAliasLimitReview": "archive/halloween2019-later-forum-kek-address-and-alias-limit-review-20261012.json"
+  "latestLaterForumKekAddressAndAliasLimitReview": "archive/halloween2019-later-forum-kek-address-and-alias-limit-review-20261012.json",
+  "latestObservationInclusiveLivePublicationComparison": "archive/halloween2019-live-observation-inclusive-288-row-publication-comparison-20261012.json"
 }

@@ -1,0 +1,3212 @@
+{
+  "checkedAt": "2026-10-12T08:36:08.783059+00:00",
+  "sourceCommit": "add639a980fa2f90373b9c6e28a87d12a6980287",
+  "tourId": "tour-3",
+  "historyComplete": false,
+  "certifiedThrough": null,
+  "scope": "Same observation-inclusive predicate as local288-row audit; every expected ID checked against entire live collection, so clock migration cannot hide rows.",
+  "normalization": "Ignore optional nulls; notes,additionalSources,videoShareEvents,resultReportEvents unordered; remaining fields ordered.",
+  "responses": [
+    {
+      "url": "https://mktwrs.com/data/courses/3ds-toad-circuit.json",
+      "httpStatus": 200,
+      "sha256": "c3dd3b71a0a0900642d05c8dc2a7366f70089172b03f5374ad2074767bc03c8d",
+      "responseDate": "Mon, 12 Oct 2026 08:36:08 GMT",
+      "contentType": "application/json; charset=UTF-8",
+      "preservedPath": "archive/halloween2019-live-observation-inclusive-288-row-snapshot-20261012/data-courses-3ds-toad-circuit.json.gz"
+    },
+    {
+      "url": "https://mktwrs.com/data/courses/3ds-neo-bowser-city.json",
+      "httpStatus": 200,
+      "sha256": "1935ff437720d6904e27593b894a3a47890d168cd7947a8284be727fb0a50f25",
+      "responseDate": "Mon, 12 Oct 2026 08:36:08 GMT",
+      "contentType": "application/json; charset=UTF-8",
+      "preservedPath": "archive/halloween2019-live-observation-inclusive-288-row-snapshot-20261012/data-courses-3ds-neo-bowser-city.json.gz"
+    },
+    {
+      "url": "https://mktwrs.com/data/courses/gcn-dino-dino-jungle.json",
+      "httpStatus": 200,
+      "sha256": "89b39c11dea29910ef2ea925ff88c958131b8bb499f804690941b61d630ca072",
+      "responseDate": "Mon, 12 Oct 2026 08:36:08 GMT",
+      "contentType": "application/json; charset=UTF-8",
+      "preservedPath": "archive/halloween2019-live-observation-inclusive-288-row-snapshot-20261012/data-courses-gcn-dino-dino-jungle.json.gz"
+    },
+    {
+      "url": "https://mktwrs.com/data/manifest.json",
+      "httpStatus": 200,
+      "sha256": "c5d7a67732c18e666498e5357b0b9d3071192c27104948026d3a6190feb495dc",
+      "responseDate": "Mon, 12 Oct 2026 08:36:08 GMT",
+      "contentType": "application/json; charset=UTF-8",
+      "preservedPath": "archive/halloween2019-live-observation-inclusive-288-row-snapshot-20261012/data-manifest.json.gz"
+    },
+    {
+      "url": "https://mktwrs.com/health",
+      "httpStatus": 200,
+      "sha256": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+      "responseDate": "Mon, 12 Oct 2026 08:36:08 GMT",
+      "contentType": "text/plain;charset=UTF-8",
+      "preservedPath": "archive/halloween2019-live-observation-inclusive-288-row-snapshot-20261012/health.gz"
+    }
+  ],
+  "liveManifestUpdatedAt": "2026-10-08T18:39:25.861Z",
+  "healthResponse": "ok",
+  "summary": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "expectedRows": 25,
+      "counts": {
+        "different": 25
+      },
+      "extraLiveScopedIds": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "expectedRows": 124,
+      "counts": {
+        "matching": 42,
+        "different": 60,
+        "missing": 22
+      },
+      "extraLiveScopedIds": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "expectedRows": 14,
+      "counts": {
+        "different": 14
+      },
+      "extraLiveScopedIds": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "expectedRows": 66,
+      "counts": {
+        "different": 15,
+        "matching": 26,
+        "missing": 25
+      },
+      "extraLiveScopedIds": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "expectedRows": 22,
+      "counts": {
+        "different": 22
+      },
+      "extraLiveScopedIds": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "expectedRows": 37,
+      "counts": {
+        "different": 29,
+        "matching": 6,
+        "missing": 2
+      },
+      "extraLiveScopedIds": []
+    }
+  ],
+  "rows": [
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-4",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "additionalSources",
+        "lapSourceDiscrepancyReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-5",
+      "status": "different",
+      "differentFields": [
+        "lapSource",
+        "videoShareEvents",
+        "notes",
+        "videoPublicationSource",
+        "lapMatchBasis",
+        "submissionSourceReview",
+        "videoPublishedAt",
+        "lapDerivation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-6",
+      "status": "different",
+      "differentFields": [
+        "lapSource",
+        "lapMatchBasis",
+        "dateBasis",
+        "submissionSourceReview",
+        "lapDerivation",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-7",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-636488639341264898-2019-image-support",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-8",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-9",
+      "status": "different",
+      "differentFields": [
+        "videoShareEvents",
+        "notes",
+        "videoPublicationSource",
+        "videoPublicationClockDiscrepancy",
+        "sourceLinkRestorationAudit",
+        "videoRunnerContextReview",
+        "videoPublishedAt",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-10",
+      "status": "different",
+      "differentFields": [
+        "dateBasis",
+        "submittedAt",
+        "submissionClockRestorationAudit"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-11",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "originalPostRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-12",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-13",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-14",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "videoPublicationSource",
+        "dateBasis",
+        "evidencePublishedAt",
+        "announcedAt",
+        "evidenceNote",
+        "submissionClockSourceReview",
+        "videoPublishedAt",
+        "evidenceBasis",
+        "observedAt",
+        "submittedAt",
+        "lapSourceDiscrepancyReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-15",
+      "status": "different",
+      "differentFields": [
+        "recoveredImagePendingReview",
+        "notes",
+        "additionalSources",
+        "evidenceNote",
+        "originalPostSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-16",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-17",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "recoveredImagePendingReview",
+        "notes",
+        "originalPostRecoveryReview",
+        "evidenceNote",
+        "priorOriginalPostRecoveryReview",
+        "additionalSources",
+        "originalPostSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-18",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "archivedVideoAvailabilityReview",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-tomegome-halloween-2019-1187626117403824128-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "notes",
+        "dateBasis",
+        "submissionClockSourceReview",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-19",
+      "status": "different",
+      "differentFields": [
+        "lapSource",
+        "publicationReconciliation",
+        "additionalSources",
+        "dateBasis",
+        "submittedAt",
+        "forumPerformanceSourceReview",
+        "submissionClockRestorationAudit",
+        "lapReportSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-637479815665942539-3ds-toad-circuit",
+      "status": "different",
+      "differentFields": [
+        "videoShareEvents",
+        "videoPublicationSource",
+        "submissionClockRestorationAudit",
+        "sourceLinkRestorationAudit",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation",
+        "dateBasisReconciliationAudit",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-nu11-halloween-2019-1187958115284611072-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "submissionClockSourceReview",
+        "submittedAt",
+        "dateBasis"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-21",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-nu11-halloween-2019-1188527578614652928-previous-10468",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "submissionClockSourceReview",
+        "lapMatchBasis",
+        "submittedAt",
+        "dateBasis"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-22",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "durationBoundaryReview",
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "durationEnd",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "curated-nu11-halloween-2019-1189347136720310272-previous-10451",
+      "status": "different",
+      "differentFields": [
+        "achievementDateBounds",
+        "notes",
+        "lapMatchBasis",
+        "dateBoundReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "records",
+      "id": "896332014423261204",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-637466465229864960-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH10",
+      "status": "different",
+      "differentFields": [
+        "videoShareEvents"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1189347136720310272-original-10446",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "resultReportEvents",
+        "videoShareEvents",
+        "videoReference",
+        "additionalSources",
+        "videoRepostSearchReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1189347136720310272-previous-10451",
+      "status": "different",
+      "differentFields": [
+        "achievementDateBounds",
+        "notes",
+        "lapMatchBasis",
+        "dateBoundReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-22",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "durationBoundaryReview",
+        "resultReportEvents",
+        "videoShareEvents",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-halloween2019-a98306460-1191695543908519938-10462",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1189467490109120512-recovered-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1188527578614652928-previous-10468",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "lapMatchBasis",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1188571702201999360-recovered-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-21",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "resultReportEvents",
+        "videoShareEvents",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-halloween2019-a98306460-1191186117749424128-10474",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1188571702201999360-previous-10476",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-early2019-1191186117749424128-previous-10477",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187958115284611072-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH11",
+      "status": "different",
+      "differentFields": [
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "dateSourceDiscrepancyReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-637479815665942539-3ds-toad-circuit",
+      "status": "different",
+      "differentFields": [
+        "sourceLinkRestorationAudit",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "additionalSources",
+        "videoPreservation",
+        "dateBasisReconciliationAudit",
+        "submissionClockRestorationAudit",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH12",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-19",
+      "status": "different",
+      "differentFields": [
+        "lapSource",
+        "publicationReconciliation",
+        "additionalSources",
+        "forumPerformanceSourceReview",
+        "submissionClockRestorationAudit",
+        "lapReportSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187908955424489473-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "submissionClockSourceReview",
+        "additionalSources",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tomegome-halloween-2019-1187626117403824128-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "submissionClockSourceReview",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH13",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-18",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "additionalSources",
+        "archivedVideoAvailabilityReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187748510839513091-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tomegome-halloween-2019-1187626117403824128-previous",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-17",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "recoveredImagePendingReview",
+        "priorOriginalPostRecoveryReview",
+        "notes",
+        "additionalSources",
+        "originalPostRecoveryReview",
+        "evidenceNote",
+        "originalPostSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-16",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tome-playlist-2019-CcliUa_mVwY",
+      "status": "different",
+      "differentFields": [
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-sam-original-channel-2019-2iIrWCRdnUA",
+      "status": "different",
+      "differentFields": [
+        "sourceLinkRestorationAudit",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH14",
+      "status": "different",
+      "differentFields": [
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoPublishedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-15",
+      "status": "different",
+      "differentFields": [
+        "recoveredImagePendingReview",
+        "notes",
+        "additionalSources",
+        "evidenceNote",
+        "originalPostSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636940091843018752-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "derivedLap",
+        "videoShareSource",
+        "lapSource",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "lapMatchBasis",
+        "lapDerivation",
+        "videoMetadataReconciliationAudit",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636940437554462732-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "derivedLap",
+        "videoShareSource",
+        "lapSource",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "lapMatchBasis",
+        "lapDerivation",
+        "videoMetadataReconciliationAudit",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187748510839513091-previous",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187741228168810497-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tome-playlist-2019-DSKvYqCinp0",
+      "status": "different",
+      "differentFields": [
+        "videoPublicationSource",
+        "videoPublishedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-14",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "videoPublicationSource",
+        "submissionClockSourceReview",
+        "videoPublishedAt",
+        "evidenceBasis",
+        "submittedAt",
+        "evidenceNote",
+        "lapSourceDiscrepancyReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tome-playlist-2019-zVk8bdke4wY",
+      "status": "different",
+      "differentFields": [
+        "videoPublicationSource",
+        "videoPublishedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-637254274052784138-previous-10517-early2019-recheck",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-13",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636940091843018752-previous-10519-early2019-recheck",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187741228168810497-previous",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-12",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187348359784230912-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH15",
+      "status": "different",
+      "differentFields": [
+        "videoPublicationSource",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "videoVerified",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636680600090050591-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "additionalSources",
+        "contemporaryRivalTieReportReview",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tome-playlist-2019-meP1Qa_qTIE",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoPublicationSource",
+        "submissionClockSourceReview",
+        "videoPublishedAt",
+        "submittedAt",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-2019-video-SshWBUXOU7U",
+      "status": "different",
+      "differentFields": [
+        "submissionClockReconciliation",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-11",
+      "status": "different",
+      "differentFields": [
+        "originalPostRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-2019-video--9dS1ZLugsE",
+      "status": "different",
+      "differentFields": [
+        "submissionClockReconciliation",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187348359784230912-previous",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636678013701980190-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH16",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187312477014392834-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636678013701980190-previous-10567-early2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "dateUnresolved",
+        "achievedAt",
+        "achievementDayReview",
+        "datePrecision",
+        "achievementDateBounds",
+        "dateEvidence",
+        "raceAchievementInstantUnresolved",
+        "dateIsPublication"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH17",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-10",
+      "status": "different",
+      "differentFields": [
+        "submissionClockRestorationAudit"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-sam-2019-mjaGrx2x5Zo",
+      "status": "different",
+      "differentFields": [
+        "submissionClockReconciliation",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-tome-playlist-2019-59IO8W4oEQs",
+      "status": "different",
+      "differentFields": [
+        "submissionClockReconciliation",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "submittedAt",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636564638154358797-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH18",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187142430191042560-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636506458883883009-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH20",
+      "status": "different",
+      "differentFields": [
+        "videoPublicationSource",
+        "videoPublishedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-sam-2019-msA7EwYYw1M",
+      "status": "different",
+      "differentFields": [
+        "submissionClockReconciliation",
+        "videoPublicationSource",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-637220047655534592-halloween2019-text-report",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH21",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH22",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636665778913017892-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636504390844547082-2019-image-support",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-8",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-9",
+      "status": "different",
+      "differentFields": [
+        "sourceLinkRestorationAudit",
+        "videoShareEvents",
+        "videoRunnerContextReview",
+        "videoPublicationSource",
+        "videoPublicationClockDiscrepancy",
+        "videoPublishedAt",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636488639341264898-2019-image-support",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-nu11-halloween-2019-1187142430191042560-result-previous-10626",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH23",
+      "status": "different",
+      "differentFields": [
+        "source",
+        "publicSubmissionReconciliation",
+        "videoShareSource",
+        "videoPublicationSource",
+        "notes",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "player",
+        "additionalSources",
+        "messageId",
+        "observedAt",
+        "submittedAt",
+        "discordAccountId",
+        "includeInProgression",
+        "sourceReviewAudit"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636488639341264898-previous-10633-opening2019",
+      "status": "different",
+      "differentFields": [
+        "dateUnresolved",
+        "achievedAt",
+        "achievementDayReview",
+        "datePrecision",
+        "achievementDateBounds",
+        "dateEvidence",
+        "raceAchievementInstantUnresolved",
+        "dateIsPublication"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-7",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH24",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-6",
+      "status": "different",
+      "differentFields": [
+        "derivedLap",
+        "lapSource",
+        "notes",
+        "submissionSourceReview",
+        "lapMatchBasis",
+        "lapDerivation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636478026699505678-2019-image-support",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636665778913017892-previous-10654-early2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "dateUnresolved",
+        "achievedAt",
+        "achievementDayReview",
+        "datePrecision",
+        "achievementDateBounds",
+        "dateEvidence",
+        "raceAchievementInstantUnresolved",
+        "dateIsPublication"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636475318185623562-result-10667",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636462215297236992-previous-10708-opening2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "dateUnresolved",
+        "achievedAt",
+        "datePrecision",
+        "achievementDateBounds",
+        "notes",
+        "dateEvidence",
+        "additionalSources",
+        "observedAt",
+        "earlierPreviousBestObservationReview",
+        "raceAchievementInstantUnresolved",
+        "dateIsPublication"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH25",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH26",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH27",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636472126936973313-toad2019-text-report",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH28",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636475318185623562-previous-10787",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH29",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636521385258123282-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH30",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-637532044599230475-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "forumPlayDayReview",
+        "dateUnresolved",
+        "achievedAt",
+        "datePrecision",
+        "notes",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-5",
+      "status": "different",
+      "differentFields": [
+        "lapSource",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "submissionSourceReview",
+        "videoPublishedAt",
+        "lapMatchBasis",
+        "lapDerivation"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636471730960859156-toad2019-text-report",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH31",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-4",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "additionalSources",
+        "lapSourceDiscrepancyReview"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636469403235647488-toad2019-text-report",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636521385258123282-previous-10931-opening2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "dateUnresolved",
+        "achievedAt",
+        "datePrecision",
+        "achievementDateBounds",
+        "notes",
+        "dateEvidence",
+        "raceAchievementInstantUnresolved",
+        "dateIsPublication"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH32",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH33",
+      "status": "different",
+      "differentFields": [
+        "videoReferenceReview",
+        "videoPublicationSource",
+        "videoPublishedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH34",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH35",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "sheet-AH36",
+      "status": "different",
+      "differentFields": [
+        "videoPublicationSource",
+        "videoPublishedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636525631991054368-halloween2019-written-result",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-636963010237431829-halloween2019-written-personal-best",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samh-reply-2-10868",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samh-reply-2-10741",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samh-reply-2-10662",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samh-reply-14-10615",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samf-reply-17-10541",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samf-reply-24-10527",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samf-reply-24-10520",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-harambey-reply-12-10627",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-harambey-reply-20-10600",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-15-10771",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-15-10674",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-25-10596",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-33-10584",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-39-10582",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-harambey-reply-0-10804",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-jaydeko-forum-reply-3-10793",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-no-control-forum-reply-7-10990",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-mk64mr-forum-reply-8-10966",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-samh-reply-31-10575",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-27",
+      "status": "different",
+      "differentFields": [
+        "lapSource",
+        "notes",
+        "submissionSourceReview",
+        "lapMatchBasis",
+        "lapDerivation",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-28",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-636533102411251753-previous-12898-opening2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-29",
+      "status": "different",
+      "differentFields": [
+        "originalVideoShareSourceReview",
+        "videoShareEvents",
+        "notes",
+        "videoPublicationSource",
+        "videoShareSource",
+        "videoClockSourceConflictReview",
+        "videoShareClockAudit",
+        "videoScopeReview",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "recordingPromiseSourceReview",
+        "additionalSources",
+        "originalVideoMachineTextReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-30",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-31",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-32",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "videoPublicationSource",
+        "originalVideoPostTextReview",
+        "dateBasis",
+        "evidenceNote",
+        "submissionClockSourceReview",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "evidenceBasis",
+        "submittedAt",
+        "videoPreservation",
+        "originalVideoMachineTextReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-33",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview",
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-34",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "videoPublicationSource",
+        "originalVideoPostTextReview",
+        "dateBasis",
+        "evidenceNote",
+        "submissionClockSourceReview",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "evidenceBasis",
+        "submittedAt",
+        "videoPreservation",
+        "originalVideoMachineTextReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-35",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-637479815665942539-3ds-neo-bowser-city",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "additionalSources",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-639542633336930354-verified",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "additionalSources",
+        "originalPublicationReviewAudit",
+        "screenshotSourceEvents"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "curated-twitter-1191841211063164929-previous-12580",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "dateBasis",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "records",
+      "id": "896332037437403157",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "videoPublicationSource",
+        "dateBasis",
+        "videoShareSource",
+        "videoDecodeIntegrity",
+        "videoShareClockAudit",
+        "videoScopeReview",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-637479815665942539-3ds-neo-bowser-city",
+      "status": "different",
+      "differentFields": [
+        "additionalSources",
+        "forumPerformanceSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-27",
+      "status": "different",
+      "differentFields": [
+        "lapSource",
+        "submissionSourceReview",
+        "lapMatchBasis",
+        "lapDerivation",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-28",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-29",
+      "status": "different",
+      "differentFields": [
+        "originalVideoShareSourceReview",
+        "videoShareSource",
+        "videoClockSourceConflictReview",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "videoShareClockAudit",
+        "videoScopeReview",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "recordingPromiseSourceReview",
+        "additionalSources",
+        "originalVideoMachineTextReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-35",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-639542633336930354-verified",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "additionalSources",
+        "originalPublicationReviewAudit",
+        "screenshotSourceEvents"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-30",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-31",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-32",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "videoPublicationSource",
+        "submissionClockSourceReview",
+        "videoScopeReview",
+        "originalVideoPostTextReview",
+        "videoPublishedAt",
+        "evidenceBasis",
+        "observedAt",
+        "submittedAt",
+        "videoPreservation",
+        "originalVideoMachineTextReview",
+        "evidenceNote"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-33",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-34",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "videoPublicationSource",
+        "submissionClockSourceReview",
+        "videoScopeReview",
+        "originalVideoPostTextReview",
+        "videoPublishedAt",
+        "evidenceBasis",
+        "observedAt",
+        "submittedAt",
+        "videoPreservation",
+        "originalVideoMachineTextReview",
+        "evidenceNote"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-twitter-1191841211063164929-verified",
+      "status": "different",
+      "differentFields": [
+        "videoShareSource",
+        "sourceLinkRestorationAudit",
+        "videoDecodeIntegrity",
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "videoPublicationSource",
+        "videoShareClockAudit",
+        "submissionClockSourceReview",
+        "videoScopeReview",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "additionalSources",
+        "observedAt",
+        "submittedAt",
+        "videoPreservation",
+        "originalVideoMachineTextReview",
+        "originalCaptionSourceReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-twitter-1191841211063164929-previous-12580",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636537248350863360-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636543329441677332-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636551042351235106-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636551670758899752-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636553298941575189-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636554091358584882-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636555043658661946-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636594019601874966-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636594497349877765-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636595380775026718-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636596893874651156-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636603885288554497-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636609927766474773-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636758802146000898-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636853682620858388-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "originalVideoShareSourceReview",
+        "videoShareSource",
+        "tourAssociationReview",
+        "videoPublicationSource",
+        "videoShareClockAudit",
+        "videoScopeReview",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "additionalSources",
+        "videoPreservation",
+        "forumPerformanceSourceReview",
+        "originalVideoMachineTextReview",
+        "tourDateRange"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636867687091273739-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "derivedLap",
+        "lapSource",
+        "lapMatchBasis",
+        "lapDerivation"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636894586735820831-opening2019-proof-review",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-637525126929449000-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "videoShareSource",
+        "achievementDateSource",
+        "lapSource",
+        "achievedAt",
+        "datePrecision",
+        "videoShareEvents",
+        "videoPublicationSource",
+        "notes",
+        "videoShareClockAudit",
+        "videoScopeReview",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "laps",
+        "lapMatchBasis",
+        "lapDerivation",
+        "additionalSources",
+        "screenshotSourceEvents",
+        "videoMetadataReconciliationAudit",
+        "videoPreservation",
+        "sourceEventReconciliation",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-637527483398357003-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "originalForumConflictSourceReview",
+        "originalImagePreservation",
+        "preservedResultMachineTextReview",
+        "oct26NbcSourceConflictReview",
+        "notes",
+        "additionalSources"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636594019601874966-opening2019-proof-review-previous-12822",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636603885288554497-opening2019-proof-review-previous-12744",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636609927766474773-opening2019-proof-review-previous-12847",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636853682620858388-previous-12687-early2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "originalTextReportSource",
+        "notes",
+        "additionalSources",
+        "submittedAt",
+        "forumPerformanceSourceReview",
+        "sourceReviewAudit"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636894586735820831-previous-12644-early2019-recheck",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-639542633336930354-previous-12609-early2019-recheck",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636758802146000898-previous-13040-early2019-recheck",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-636533102411251753-previous-12898-opening2019-recheck",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-menu-638495899164737551",
+      "status": "different",
+      "differentFields": [
+        "publicationRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-8",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-10",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-18",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-22",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-9",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-11",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-12",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-16",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-17",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-19",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-21",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-23",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-24",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-25",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-26",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-27",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-28",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-29",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-30",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-31",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-32",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-halloween2019-original-nbc-row-33",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-meester-nbc-reply-22-13272",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-25-13094",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-39-12879",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-41",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview",
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-42",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview",
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-43",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview",
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-44",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview",
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-637479815665942539-gcn-dino-dino-jungle",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-46",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "videoPublicationSource",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "videoPreservation",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-47",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview",
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-48",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-49",
+      "status": "different",
+      "differentFields": [
+        "notes"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-original-2019-wr-row-50",
+      "status": "different",
+      "differentFields": [
+        "durationBoundaryReview",
+        "notes",
+        "durationEnd"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-639823450353041419-previous-13547-early2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "achievementDateBounds",
+        "notes",
+        "calendarBoundReview",
+        "lapMatchBasis",
+        "evidencePublishedAt",
+        "announcedAt",
+        "additionalSources",
+        "observedAt",
+        "screenshotSourceEvents",
+        "observationSourceCorrection"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-639823450353041419-verified",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "durationEnd",
+        "additionalSources",
+        "originalPublicationReviewAudit",
+        "screenshotSourceEvents"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1189550387839160320-previous-13538",
+      "status": "different",
+      "differentFields": [
+        "predecessorOrderReviewAudit",
+        "relativeOrderAfter",
+        "notes",
+        "lapMatchBasis",
+        "dateBasis",
+        "relativeOrderBefore",
+        "recordDate",
+        "chronologyDate",
+        "tourDateRange"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1189550387839160320-recovered-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "submissionClockSourceReview",
+        "durationEnd",
+        "submittedAt",
+        "dateBasis"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1189952485982519297-previous-13518",
+      "status": "different",
+      "differentFields": [
+        "predecessorOrderReviewAudit",
+        "relativeOrderAfter",
+        "notes",
+        "lapMatchBasis",
+        "dateBasis",
+        "relativeOrderBefore",
+        "recordDate",
+        "chronologyDate"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1189952485982519297-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "lapTextSourceReview",
+        "notes",
+        "submissionClockSourceReview",
+        "lapMatchBasis",
+        "submittedAt",
+        "dateBasis"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1189968242225209344-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "submissionClockSourceReview",
+        "submittedAt",
+        "dateBasis"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1189979384314093568-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "durationIntervals",
+        "resultReportEvents",
+        "notes",
+        "submissionClockSourceReview",
+        "durationEnd",
+        "durationBasis",
+        "submittedAt",
+        "dateBasis",
+        "durationDays"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1190007816288796673-previous-13463",
+      "status": "different",
+      "differentFields": [
+        "predecessorOrderReviewAudit",
+        "dateUnresolved",
+        "datePrecision",
+        "achievementDateBounds",
+        "relativeOrderAfter",
+        "notes",
+        "durationBasis",
+        "lapMatchBasis",
+        "dateEvidence",
+        "dateBasis",
+        "durationDays",
+        "durationIntervals",
+        "relativeOrderBefore",
+        "achievedAt",
+        "recordDate",
+        "chronologyDate"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-639765459633307668-tomegome",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "videoPublicationSource",
+        "originalVideoShareCaptionReview",
+        "dateBasis",
+        "communityRecordingComparisonSourceReview",
+        "videoBackupAvailabilityReview",
+        "videoShareSource",
+        "videoShareClockAudit",
+        "submissionClockSourceReview",
+        "videoScopeReview",
+        "videoSharedAt",
+        "videoPublishedAt",
+        "additionalSources",
+        "submittedAt",
+        "videoPreservation",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "curated-tomegome-2019-1190619765959622657-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "notes",
+        "submissionClockSourceReview",
+        "durationEnd",
+        "submittedAt",
+        "dateBasis"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "records",
+      "id": "896332063081390090",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "additionalSources",
+        "laterOriginalScreenshotRepostReview",
+        "originalPostSourceReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-1191420102056402944-previous-13416",
+      "status": "different",
+      "differentFields": [
+        "previousBenchmarkSourceReview",
+        "notes",
+        "additionalSources",
+        "communityRecordingComparisonSourceReview",
+        "laterOriginalScreenshotRepostReview",
+        "originalPostSourceReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-1191420102056402944-current-13423-reviewed",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "publicationRecoveryReview",
+        "observedAt",
+        "submittedAt",
+        "originalPostSourceReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1190619765959622657-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-639765459633307668-tomegome",
+      "status": "different",
+      "differentFields": [
+        "videoBackupAvailabilityReview",
+        "videoShareSource",
+        "resultReportEvents",
+        "videoShareEvents",
+        "notes",
+        "videoPublicationSource",
+        "videoShareClockAudit",
+        "submissionClockSourceReview",
+        "originalVideoShareCaptionReview",
+        "videoSharedAt",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "additionalSources",
+        "observedAt",
+        "submittedAt",
+        "videoPreservation",
+        "communityRecordingComparisonSourceReview",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1190007816288796673-previous-13463",
+      "status": "different",
+      "differentFields": [
+        "predecessorOrderReviewAudit",
+        "dateUnresolved",
+        "relativeOrderBefore",
+        "achievedAt",
+        "datePrecision",
+        "achievementDateBounds",
+        "relativeOrderAfter",
+        "notes",
+        "lapMatchBasis",
+        "dateEvidence"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1189979384314093568-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1189968242225209344-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1189952485982519297-result-recovered",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "lapTextSourceReview",
+        "submissionClockSourceReview",
+        "lapMatchBasis",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1189952485982519297-previous-13518",
+      "status": "different",
+      "differentFields": [
+        "predecessorOrderReviewAudit",
+        "relativeOrderBefore",
+        "relativeOrderAfter",
+        "notes",
+        "lapMatchBasis"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1189550387839160320-recovered-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1189550387839160320-previous-13538",
+      "status": "different",
+      "differentFields": [
+        "predecessorOrderReviewAudit",
+        "relativeOrderBefore",
+        "relativeOrderAfter",
+        "notes",
+        "lapMatchBasis",
+        "tourDateRange"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-639823450353041419-verified",
+      "status": "different",
+      "differentFields": [
+        "additionalSources",
+        "originalPublicationReviewAudit",
+        "screenshotSourceEvents"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-639823450353041419-previous-13547-early2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "achievementDateBounds",
+        "notes",
+        "calendarBoundReview",
+        "lapMatchBasis",
+        "additionalSources",
+        "observedAt",
+        "screenshotSourceEvents",
+        "announcedAt",
+        "observationSourceCorrection"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-50",
+      "status": "different",
+      "differentFields": [
+        "durationBoundaryReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-astre-2019-1188874475548401665-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-49",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-48",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-47",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-46",
+      "status": "different",
+      "differentFields": [
+        "videoPublicationSource",
+        "videoScopeReview",
+        "videoPublishedAt",
+        "videoPreservation",
+        "videoScope"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-637479815665942539-gcn-dino-dino-jungle",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1188361691181940736-recovered-result",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "submissionClockSourceReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-639821685490712596-previous-13593-early2019-recheck",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-astre-2019-1188874475548401665-previous",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-44",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-tomegome-2019-1188361691181940736-previous-13614",
+      "status": "matching",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-43",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-1188770496294412288-original-social-video-reviewed",
+      "status": "different",
+      "differentFields": [
+        "resultReportEvents",
+        "videoPublicationSource",
+        "submissionClockSourceReview",
+        "videoPublishedAt",
+        "publicationRecoveryReview",
+        "observedAt",
+        "submittedAt"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-42",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-641427625775988752-halloween2019-text-report",
+      "status": "missing",
+      "differentFields": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-original-2019-wr-row-41",
+      "status": "different",
+      "differentFields": [
+        "originalProofRecoveryReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-639941460220706816-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "discordUserId",
+        "playerAttributionBeforeReconciliation",
+        "playerIdBeforeAttributionReconciliation",
+        "player",
+        "playerId",
+        "playerAttributionSourceReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-639941460220706816-previous-14055-early2019-recheck",
+      "status": "different",
+      "differentFields": [
+        "discordUserId",
+        "playerAttributionBeforeReconciliation",
+        "playerIdBeforeAttributionReconciliation",
+        "player",
+        "playerId",
+        "playerAttributionSourceReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-637897903301591050-opening2019-proof-review",
+      "status": "different",
+      "differentFields": [
+        "dateUnresolved",
+        "achievedAt",
+        "datePrecision",
+        "notes",
+        "dateEvidence",
+        "additionalSources",
+        "originalForumPlayDayReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-636633151283789874-ddj-14550-supporting",
+      "status": "different",
+      "differentFields": [
+        "evidenceClockRestorationAudit"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-halloween2019-menu-641292865829470238",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "publicationRecoveryReview",
+        "proofSourceReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-halloween2019-menu-641295432021966869",
+      "status": "different",
+      "differentFields": [
+        "notes",
+        "publicationRecoveryReview",
+        "proofSourceReview"
+      ]
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "collection": "submissions",
+      "id": "curated-forum-halloween2019-innov-forum-reply-39-13856",
+      "status": "missing",
+      "differentFields": []
+    }
+  ],
+  "counts": {
+    "different": 165,
+    "matching": 74,
+    "missing": 49
+  },
+  "limitations": [
+    "Differences identify current source vs live bytes under normalization, not a claim all differences affect rendering.",
+    "No video or image content certified by this comparison. No global completeness established.",
+    "Latest HEAD is comparison reference, not proof of active deployed commit."
+  ],
+  "queuedDeploymentObservation": {
+    "deploymentId": "05b5a592-716b-4d9d-a78c-74fd150547b4",
+    "sourceCommit": "add639a980fa2f90373b9c6e28a87d12a6980287",
+    "state": "QUEUED",
+    "reason": "Waiting for build slot",
+    "activeOlderDeploymentId": "0eaae2ad-61dd-4680-8167-474704871db9",
+    "actualQueuedCheckoutVerified": false
+  }
+}
