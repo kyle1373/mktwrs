@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-66",
+  "activeDetailedReview": "tour-67",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,10 +32,10 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 63,
+      "completed-with-documented-gaps": 64,
       "source-and-publication-review": 21,
       "carry-in-and-sparse-history-check": 62,
-      "data-quality-and-history-check": 2,
+      "data-quality-and-history-check": 1,
       "candidate-and-source-review": 22,
       "faster-result-reconciliation": 6,
       "sparse-history-review": 1,
@@ -62,9 +62,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 5,
+        "practicallyCompleted": 6,
         "notApplicable": 0,
-        "open": 21
+        "open": 20
       },
       "2023": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 9
     },
-    "toursRequiringInvestigation": 118
+    "toursRequiringInvestigation": 117
   },
   "tours": [
     {
@@ -6788,10 +6788,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check implausible parsed times against the original image; do not promote them.",
-            "Resolve pending candidates with surviving good-enough proof.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-vanilla-lake-1",
@@ -6828,8 +6825,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 2,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-wario-shipyard-r",
@@ -6849,8 +6845,20 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "data-quality-and-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/samurai2022-completion.json",
+      "documentedLimitations": [
+        "Six visible previous-best runs lack independently established dates or competing-record order; retained outside confirmed WR succession.",
+        "Three slower Vanilla Lake leaderboard entries have identity/original-source gaps; retained as supporting leads, not new WRs.",
+        "Opening WR labels slower than standing Wins1:02.44 do not establish new all-time WRs. Day-one Wario R shows final fastest1:37.69, with raw earlier1:38.31 and1:37.92 preserved.",
+        "Two unavailable cancelled receipt attachments have separately preserved corrected1:02.24 and1:38.31 result evidence.",
+        "Wins1:02.22 recording uploaded/shared April6 after rollover; original March25 result establishes historical tour membership.",
+        "Nu11 phone overlay March31 is not independently certified achievement date. Original upload April6T00:50:57 and submissionT00:52:05 remain distinct.",
+        "Two full race recordings and two technique clips preserved on R2; clips and best isolated laps do not establish complete totals.",
+        "Prior visual source dispositions retained; two selected race finishes freshly sampled and files decoded. No every-frame uninterrupted playback or worldwide fastest-recording certification.",
+        "Current Discord session requires login again; preserved source review cannot establish absence of deleted/private/unindexed material."
+      ]
     },
     {
       "id": "tour-67",
@@ -19076,6 +19084,6 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/mii2022-final-publication-audit-20261013.json",
-  "activeDetailedTourId": "tour-66"
+  "latestCompletionAudit": "archive/samurai2022-final-publication-audit-20261013.json",
+  "activeDetailedTourId": "tour-67"
 }

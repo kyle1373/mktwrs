@@ -37,17 +37,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 63,
+      "completed-with-documented-gaps": 64,
       "sparse-history-review": 1,
       "source-and-publication-review": 39,
       "carry-in-and-sparse-history-check": 23,
-      "candidate-and-source-review": 45,
+      "candidate-and-source-review": 44,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 63,
-    "toursRequiringInvestigation": 118,
+    "practicallyCompletedTours": 64,
+    "toursRequiringInvestigation": 117,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -63,7 +63,7 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 21
+        "requiringInvestigation": 20
       },
       "2023": {
         "catalogTours": 26,
@@ -3118,10 +3118,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3136,13 +3133,24 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "https://mktwrs.com/data/samurai2022-completion.json",
+      "documentedLimitations": [
+        "Six visible previous-best runs lack independently established dates or competing-record order; retained outside confirmed WR succession.",
+        "Three slower Vanilla Lake leaderboard entries have identity/original-source gaps; retained as supporting leads, not new WRs.",
+        "Opening WR labels slower than standing Wins1:02.44 do not establish new all-time WRs. Day-one Wario R shows final fastest1:37.69, with raw earlier1:38.31 and1:37.92 preserved.",
+        "Two unavailable cancelled receipt attachments have separately preserved corrected1:02.24 and1:38.31 result evidence.",
+        "Wins1:02.22 recording uploaded/shared April6 after rollover; original March25 result establishes historical tour membership.",
+        "Nu11 phone overlay March31 is not independently certified achievement date. Original upload April6T00:50:57 and submissionT00:52:05 remain distinct.",
+        "Two full race recordings and two technique clips preserved on R2; clips and best isolated laps do not establish complete totals.",
+        "Prior visual source dispositions retained; two selected race finishes freshly sampled and files decoded. No every-frame uninterrupted playback or worldwide fastest-recording certification.",
+        "Current Discord session requires login again; preserved source review cannot establish absence of deleted/private/unindexed material."
+      ]
     },
     {
       "id": "tour-67",
@@ -11114,7 +11122,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-66",
+  "activeDetailedTourId": "tour-67",
   "completionStatusLiveCheck": {
     "tourId": "tour-12",
     "checkedAt": "2026-10-13T07:42:22.603527+00:00",
@@ -11137,6 +11145,6 @@
     "liveLatestPublicationAudit": "archive/mariobros2020-final-publication-audit-20261013.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-66",
-  "latestCompletionAudit": "archive/mii2022-final-publication-audit-20261013.json"
+  "activeDetailedReview": "tour-67",
+  "latestCompletionAudit": "archive/samurai2022-final-publication-audit-20261013.json"
 }

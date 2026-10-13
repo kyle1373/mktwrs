@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 63,
+    "practicallyCompletedTours": 64,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4449,7 +4449,7 @@
       "endDate": "2022-04-06",
       "tourSource": "https://www.mariowiki.com/Samurai_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "rmx-vanilla-lake-1",
@@ -4469,7 +4469,8 @@
             "archive/samurai-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/samurai2022-final-publication-audit-20261013.json"
         },
         {
           "courseId": "3ds-wario-shipyard-r",
@@ -4492,13 +4493,17 @@
             "archive/samurai-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/samurai2022-final-publication-audit-20261013.json"
         }
       ],
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "candidate-and-source-review"
+      "investigationCategory": "candidate-and-source-review",
+      "practicallyComplete": true,
+      "practicalCompletionEvidence": "public/data/samurai2022-completion.json",
+      "latestPublicationAudit": "archive/samurai2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-67",
@@ -11865,9 +11870,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/mii2022-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-66",
+  "latestLivePublicationVerification": "archive/samurai2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-67",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-66"
+  "activeDetailedTourId": "tour-67"
 }
