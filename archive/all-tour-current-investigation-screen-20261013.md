@@ -1,8 +1,8 @@
 # Current tour investigation checklist — 13 October 2026
 
-Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `0cd77ea9`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags matched at screening time; Autumn completion was subsequently updated after its separate live publication audit.
+Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `48f58df0`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags were also fetched live and match the committed flags.
 
-**54 practical reviews are closed with documented gaps; 127 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Space 2021 is next after live completion-label verification; review and publish one tour at a time.
+**54 practical reviews are closed with documented gaps; 127 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Space 2021 remains active; review and publish one tour at a time.
 
 | Year | Reviewed with documented gaps | Still open | Not applicable |
 |---|---:|---:|---:|
@@ -22,7 +22,7 @@ The catalogue ends at 30 September 2026. The interval from then through 13 Octob
 - **33** tours with unresolved candidates.
 - **10** tours with unresolved WR dates/order.
 - **8** tours with linked footage lacking an upload/share/submission clock.
-- **10** tours with remote-only Discord WR images.
+- **11** tours with remote-only Discord WR images.
 - **77** tours with at least one course lacking linked footage.
 - **101** tours with at most two WR rows and at least five supporting results on a course.
 - **27** tours with one-day range discrepancies.
@@ -792,15 +792,51 @@ Reviewed with documented gaps. [Completion evidence](https://mktwrs.com/data/ann
 
 ### 54. Autumn Tour (2021) (2021-10-06 → 2021-10-20)
 
-Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/autumn2021-completion.json). 549 exact-window discussion messages, 19 attachment dispositions and 149 submission-file hashes reconciled. Three distinct completed recordings, one additional original of the same result and four partial clips preserved on R2. Two selected finishes freshly sampled and files decoded. 232 live snapshot rows match; 54 rendered R2 links readable. Global precedence, original achievement dates, fractional splits and unavailable outside sources remain qualified.
+Reviewed with documented gaps. [Completion evidence](https://mktwrs.com/data/autumn2021-completion.json).
+
+- Kaguya 1:01.40 was already published October 6. Slower DIT/Wins/Seboss submissions before Seboss 1:01.38 are personal bests, not intermediate WRs.
+- The same old SuperFX 1:10.53 screenshot was reposted by Nick, Wins and Haruru with clown context. These are not three new tied records.
+- Spart 1:10.90 screenshot is 1:10.90, not 1:09.90; enlarged original and explicit 35.39/35.51 final-board splits agree.
+- SuperFX 1:10.40 fractional split message .95 .45 is retained in notes; integer lap seconds need corroboration.
+- N 1:02.00, Kaguya 1:01.86 and Seboss 1:01.35 previous-best fields have no established original chronology against opponents.
+- October 20 discussion reposts an old Dino Dino Jungle R 1:40.18 image while recalling January 2020. Player and original date need further research; do not assign the repost date.
+- The old Snow Tour Rosalina Ice World leaderboard repost is historical context, not new Autumn results.
+- Private, deleted and unindexed global material not proven fully recovered.
+- Three distinct completed recordings, one additional original of the same SuperFX result, and four partial clips preserved on R2. Partial clips do not establish completed race totals.
+- Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.
+- Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.
 
 ### 55. Halloween Tour (2021) (2021-10-20 → 2021-11-03)
 
-Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/halloween2021-completion.json). 86 exact-window discussion messages, nine attachment dispositions and 86 submission-file hashes reconciled. Four current-tour full recordings (two later player recoveries), one historical original and four partial clips preserved on R2. Two selected finishes freshly sampled and files decoded. 252 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, the final-board typo and unavailable outside sources remain qualified.
+Reviewed with documented gaps. [Completion evidence](https://mktwrs.com/data/halloween2021-completion.json).
+
+- DIT 1:40.16 and 1:39.60 previous best fields establish earlier runs but not exact original dates or ordering against other players.
+- January 26, 2020 Tome Twitter video 1221415967315709952 shows 1:40.32, lap one 50.04 and lap two 50.28. It is not proof of the later 1:40.18. Its original WR standing remains unresolved.
+- November 3 message 905335934634049536 reports an unsaved SuperFX WR. Attached IMG_8101 shows error 805-1414 over Rosalina’s Ice World without a readable result time. Preserve as unresolved lead; no invented record value.
+- Final Rosalina board IMG_6642 shows Spart 1:29.99 with 45.04/45.95, which sums to 1:30.99. Discussion explicitly flags this one-second typo; do not copy the bad split.
+- Sucha’s 44.92 lap clip, Spart’s underwater technique clip and two Wins clips do not establish a two-lap WR result.
+- Reading this tour cohort does not establish complete coverage of all earlier tours or channels.
+- Private, deleted and unindexed global material not proven fully recovered.
+- Two original Sucha full recordings, two later DIT player recoveries, one historical Tome recording, and four partial clips preserved on R2. Partial clips do not establish completed race totals.
+- Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.
+- Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.
 
 ### 56. Toad vs. Toadette Tour (2021) (2021-11-03 → 2021-11-17)
 
-Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/toadette2021-completion.json). 312 exact-window discussion messages, 15 attachment dispositions and 130 submission-file hashes reconciled. Four full recordings and four partial clips preserved on R2. Three selected finishes freshly sampled and files decoded. 822 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, the final-board typo and unavailable AKI footage remain qualified.
+Reviewed with documented gaps. [Completion evidence](https://mktwrs.com/data/toadette2021-completion.json).
+
+- Shiraui 1:12.03 is confirmed, but its exact original date remains unresolved. Post-reset video and migrated screenshot dates must not be substituted.
+- Previous bests 1:13.97, 1:12.92, 1:12.78 and 1:12.18 establish earlier runs with unresolved original dates and ordering.
+- AKI 49.57 original YouTube video is unavailable; AKI Twitter comparison 1457512632970190849 also leads to a deleted post. No recovered backup is claimed.
+- N explicitly reported having no video for 49.67 in discussion message 905951370748772402.
+- Final RC board gives Sucha 1:12.52 as 36.28/26.24, a typo. The original submission 908175845351383080 says .28/.24, correctly summing as 36.28/36.24.
+- Wins Kalimari 1:03.48 and NHSpeedy 1:03.46/1:03.45 do not beat Astre’s January 2021 1:03.39. They are not added to WR progression.
+- Haruru’s joking WR message shows RMX Choco 1:52.83, not a WR. JuicyJack’s 1:39.64 is a slow Donut Plains run, not Dino Dino Jungle R.
+- Reading this tour cohort does not establish complete coverage of all earlier tours or channels.
+- Private, deleted and unindexed global material not proven fully recovered.
+- Four full original recordings and four partial clips preserved on R2. Partial clips do not establish completed race totals.
+- Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.
+- Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.
 
 ### 57. Space Tour (2021) (2021-11-17 → 2021-12-01)
 
@@ -943,6 +979,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
+- Check suspicious parsed times: 0:01.03.
 
 **[3DS Wario Shipyard R](https://mktwrs.com/course/3ds-wario-shipyard-r)** — 8 WR rows, 45 supporting results, 0 candidates, 5 linked-video rows.
 
@@ -988,6 +1025,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
+- Check suspicious parsed times: 0:01.12.
 
 **[3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r)** — 10 WR rows, 108 supporting results, 0 candidates, 8 linked-video rows.
 
@@ -1072,11 +1110,12 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 
 **Open.** candidate and source review.
 
-**[RMX Rainbow Road 2R](https://mktwrs.com/course/rmx-rainbow-road-2r)** — 1 WR rows, 50 supporting results, 3 candidates, 4 linked-video rows.
+**[RMX Rainbow Road 2R](https://mktwrs.com/course/rmx-rainbow-road-2r)** — 1 WR rows, 51 supporting results, 3 candidates, 5 linked-video rows.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - Reconcile 1 rows using a one-day-different tour range.
 
@@ -1236,6 +1275,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
+- Faster supporting leads: 1:26.53.
 
 **[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)** — 0 WR rows, 21 supporting results, 0 candidates, 1 linked-video rows.
 
@@ -2201,6 +2241,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 - Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
+- Faster supporting leads: 1:15.95.
 
 ### 138. New Year's Tour (2024) (2024-12-25 → 2025-01-08)
 
@@ -2212,6 +2253,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 - Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
+- Faster supporting leads: 1:35.51.
 
 **[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)** — 0 WR rows, 8 supporting results, 0 candidates, 2 linked-video rows.
 
@@ -2599,6 +2641,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 - Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
+- Faster supporting leads: 1:30.53, 1:30.58, 1:30.63.
 
 ### 162. Peach vs. Bowser Tour (November–December 2022) (2025) (2025-11-26 → 2025-12-10)
 
