@@ -1,0 +1,65 @@
+{
+  "tourId": "tour-23",
+  "checkedAt": "2026-10-13T09:44:52.589454+00:00",
+  "sources": [
+    {
+      "path": "archive/wildwest2020-discussion-census.json",
+      "sha256": "bf8a96c51c108993323c4a258c55afdf7d5ff4da130c9d33434834d930fcd302",
+      "messages": 2945,
+      "firstMessage": "chat-messages-636461740162416640-737877007055978547",
+      "lastMessage": "chat-messages-636461740162416640-742989742236237835"
+    }
+  ],
+  "discussionImageHashesVerified": 387,
+  "freshAuthenticatedSourceRead": false,
+  "priorProgress": {
+    "tour": "Wild West Tour 2020",
+    "complete": false,
+    "lastForwardPage": 186,
+    "uniqueMessagesCaptured": 2945,
+    "bodiesReadThrough": "2020-08-12T06:15:58.631Z",
+    "nextCursor": "742989742236237835",
+    "note": "Continuous tt-discussion bodies read from tour opening through August12 tour boundary; all 387 observed image attachments preserved and visually reviewed. Full server, external media and intermediate-record reconciliation remain incomplete. No complete-year claim.",
+    "preservedAttachmentsVisuallyRead": 387,
+    "recoveredThisPass": [
+      "SuperFX 1:20.10 laps 39.98/40.12 from adjacent message.",
+      "SuperFX 1:20.44 and Nu11 1:20.36 original text WR reports with exact submission timestamps.",
+      "Player->1.13 0:50.67 original Twitter video preserved and visually verified, supporting footage outside WR progression.",
+      "Nu11 0:50.24 missing laps restored from adjacent message: 25.26 / 24.98.",
+      "Kaguya August7 DP1R corner demonstration downloaded and visually inspected. Preserved separately from full-run WR proof."
+    ],
+    "pendingReconciliation": [
+      {
+        "courseId": "gba-bowser-s-castle-2",
+        "player": "SuperFX",
+        "time": "1:20.30",
+        "sourceMessage": "737927586394669077",
+        "submittedAt": "2020-07-29T07:00:46.628Z",
+        "reason": "Original text reports .30 and later result screenshot confirms previous best 1:20.30. Order against Nu11 1:20.25 before 07:10 is unresolved."
+      },
+      {
+        "courseId": "gba-bowser-s-castle-2",
+        "player": "Nu11",
+        "time": "1:19.66",
+        "reason": "Recording sent by DM to Kazuo; public YouTube link LujBzWpQUS4 posted August2 and now unavailable. Recovery from the existing recipient remains unresolved."
+      },
+      {
+        "courseId": "snes-donut-plains-1r",
+        "player": "Player->1.13",
+        "time": "0:50.67",
+        "video": "https://twitter.com/Road2Gold2/status/1288904126902878208",
+        "sourceMessage": "738462974834114630",
+        "reason": "Original Twitter recording downloaded and visually verified: 0:50.67, laps 25.36/25.31. Published as supporting footage outside WR progression. SuperFX64 backup upload remains pending."
+      },
+      {
+        "courseId": "snes-donut-plains-1r",
+        "player": "Troy",
+        "time": "0:50.30",
+        "sourceMessage": "738454555372683374",
+        "reason": "Troy explicitly states he did not record because recording freezes his phone. This explains absent video for the current July30 WR; retain image proof."
+      }
+    ],
+    "discussionReadThroughTourEnd": true,
+    "discussionImagesReviewedThroughTourEnd": true
+  }
+}
