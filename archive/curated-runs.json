@@ -1659,16 +1659,29 @@
       "decision": "Preserve both observed clocks as separate source properties; neither alone certifies first public viewing instant."
     },
     "videoScopeReview": {
-      "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+      "reviewAudit": "archive/halloween2019-two-unreal-sampled-recordings-and-nova-previous-best-proof-20261012.json",
       "priorVisualReview": "archive/early-original-channel-video-recovery.json",
       "originalFile": "archive/video-backup-files/original-channel-jeZCQCMQgPE/original.mp4",
       "bytes": 5989963,
       "sha256": "829240ff27fbd680f1d5e34ccef9c165336f7d82bce8b4ed07780eb0c3d420de",
       "priorResultAndLapReviewRetained": true,
-      "freshFootageReviewed": false,
+      "freshFootageReviewed": true,
       "startToFinishContinuityVerified": false,
-      "status": "full-race-continuity-review-pending",
-      "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof."
+      "status": "sampled-countdown-both-laps-finish-visible",
+      "basis": "Directly inspected all three-second contact-sheet samples across the original recording. Countdown, both laps and finish total visible; intervening frames not certified uncut.",
+      "visibleTotal": "1:28.48",
+      "sampleEvidence": [
+        {
+          "path": "archive/proof-of-work/halloween2019-unreal12848-3second-samples-page-1-20261012.jpg",
+          "sha256": "59d37426649803d18ce124799f8b8283c621a80bf5295d465b21536ce1ba4158",
+          "actualPixelsReviewed": true
+        },
+        {
+          "path": "archive/proof-of-work/halloween2019-unreal12848-3second-samples-page-2-20261012.jpg",
+          "sha256": "d9f1ad54272ae689131a9e6c62f9e374737cc0e4ca94b2e1772f1edd5105106e",
+          "actualPixelsReviewed": true
+        }
+      ]
     },
     "videoSharedAt": "2019-10-23T14:13:24.286Z",
     "videoShareSource": {
@@ -12650,7 +12663,7 @@
     "sourceClock": "07:36:00",
     "sourceZoneLabel": "CST",
     "submittedAt": null,
-    "proofImage": null,
+    "proofImage": "https://media.mktwrs.com/assets/proof/halloween2019-nova10503-original-ed2aa1e3ad89.jpg",
     "proofImageReference": "https://pbs.twimg.com/media/EHpN7oXUUAA5ZHT?format=jpg&name=medium",
     "video": null,
     "videoReference": null,
@@ -12659,15 +12672,38 @@
       "sheet": "WR history",
       "range": "A16:J16"
     },
-    "additionalSources": [],
+    "additionalSources": [
+      {
+        "url": "https://twitter.com/40pairs/status/1187405290657857539",
+        "kind": "later-original-result-previous-best-proof",
+        "postedAt": "2019-10-24T16:27:36Z",
+        "reviewAudit": "archive/halloween2019-two-unreal-sampled-recordings-and-nova-previous-best-proof-20261012.json"
+      }
+    ],
     "evidenceBasis": "contemporary-wr-history",
-    "evidenceNote": "Documented in the 2019 WR history; original proof unavailable or not yet recovered.",
+    "evidenceNote": "Later Nova1:05.03 original result menu visibly shows previous best1:05.04. This supports the earlier total; no earlier achievement date or lap splits are inferred.",
     "notes": [
       "Explicitly listed as a successive world record in the contemporary WR history updated November 1, 2019. This is documentary confirmation, not a newly verified screenshot.",
       "Date and lap 1 are transcribed from that WR-history row. The source labels its clock CST while some October entries align with daylight time; the source clock is retained without inventing an exact UTC achievement timestamp.",
       "The original proof file is unavailable or has not yet been recovered. Its reference is retained for future recovery.",
       "Original source comment: https://twitter.com/40pairs/status/1187347143083741185"
-    ]
+    ],
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/halloween2019-nova10503-original-ed2aa1e3ad89.jpg",
+    "proofImageVerified": true,
+    "originalImageReview": {
+      "reviewAudit": "archive/halloween2019-two-unreal-sampled-recordings-and-nova-previous-best-proof-20261012.json",
+      "kind": "later-result-menu-previous-best",
+      "originalFile": "archive/halloween2019-nova10503-source-recovery/EHqC0S6U0AAPAX5-original.jpg",
+      "sha256": "ed2aa1e3ad89d000d4b38e3d177b1e2781775285afb5871195edf327cd247b68",
+      "freshPixelsReviewed": true,
+      "currentTimeShown": "1:05.03",
+      "previousBestShown": "1:05.04",
+      "lapSplitsVisible": false,
+      "achievementDateEstablishedByImage": false,
+      "sourcePostUrl": "https://twitter.com/40pairs/status/1187405290657857539",
+      "sourcePostPublishedAt": "2019-10-24T16:27:36Z",
+      "attributionEvidence": "archive/halloween2019-nova10503-original-post-and-image-file-recovery-20261012.json"
+    }
   },
   {
     "messageId": "original-2019-wr-row-17",
@@ -12709,7 +12745,7 @@
     "notes": [
       "Explicitly listed as a successive world record in the contemporary WR history updated November 1, 2019. This is documentary confirmation, not a newly verified screenshot.",
       "Date and lap 1 are transcribed from that WR-history row. The source labels its clock CST while some October entries align with daylight time; the source clock is retained without inventing an exact UTC achievement timestamp.",
-      "Original 40pairs post and exact referenced JPEG recovered from Wayback. Post publication is October 24, 2019 at 16:27:36 UTC; caption is “クッソwww” with an attached photo and no video element in the archived original post. Image content remains unverified; this recovery does not establish a full-race recording or change the documentary achievement date."
+      "Original 40pairs post and exact referenced JPEG recovered from Wayback. Post publication is October 24, 2019 at 16:27:36 UTC; caption is “クッソwww” with an attached photo and no video element in the archived original post. Image content visually reviewed: current1:05.03 and previous best1:05.04, no splits; this recovery does not establish a full-race recording or change the documentary achievement date."
     ],
     "originalPostRecoveryReview": {
       "reviewAudit": "archive/halloween2019-nova10503-stale-recovery-status-and-photo-reference-reconciliation-20261012.json",
@@ -88615,18 +88651,31 @@
       "freshFootageReviewed": false
     },
     "videoScopeReview": {
-      "reviewAudit": "archive/halloween2019-two-unreal-recording-scope-and-yerson-date-basis-reconciliation-20261011.json",
+      "reviewAudit": "archive/halloween2019-two-unreal-sampled-recordings-and-nova-previous-best-proof-20261012.json",
       "priorVisualReview": "archive/early-original-channel-video-recovery.json",
       "originalFile": "archive/video-backup-files/original-channel-KzDZ2O9_YZM/original.mp4",
       "bytes": 4196712,
       "sha256": "c62cddf939d06c1b9423ffe2fd368d97c2453dce89f1c87e8ab607949b4f6be9",
       "priorResultAndLapReviewRetained": true,
-      "freshFootageReviewed": false,
+      "freshFootageReviewed": true,
       "startToFinishContinuityVerified": false,
-      "status": "full-race-continuity-review-pending",
-      "basis": "Preserved source review identifies recording, total and laps but does not explicitly certify complete start-to-finish continuity. Hash verifies source identity; duration is not full-race proof.",
+      "status": "sampled-countdown-both-laps-finish-visible",
+      "basis": "Directly inspected all three-second contact-sheet samples across the original recording. Countdown, both laps and finish total visible; intervening frames not certified uncut.",
       "unsupportedCoverageClaimWithdrawal": "archive/halloween2019-unreal12659-unsupported-visible-coverage-withdrawal-20261012.json",
-      "latestUnsupportedCoverageClaimWithdrawal": "archive/halloween2019-unreal12659-second-omitted-image-coverage-withdrawal-20261012.json"
+      "latestUnsupportedCoverageClaimWithdrawal": "archive/halloween2019-unreal12659-second-omitted-image-coverage-withdrawal-20261012.json",
+      "visibleTotal": "1:26.59",
+      "sampleEvidence": [
+        {
+          "path": "archive/proof-of-work/halloween2019-unreal12659-3second-samples-page-1-20261012.jpg",
+          "sha256": "82fd1a4396b3a47c0e38c94a5df9d98649a9e2310b3609cfa02434a2cd3d71af",
+          "actualPixelsReviewed": true
+        },
+        {
+          "path": "archive/proof-of-work/halloween2019-unreal12659-3second-samples-page-2-20261012.jpg",
+          "sha256": "ff9ad54f06a7153510ae1ba10828ca80f40a89114cb53550a0ac1d6a01b2f19e",
+          "actualPixelsReviewed": true
+        }
+      ]
     },
     "forumPerformanceSourceReview": {
       "reviewAudit": "archive/halloween2019-unreal-five-original-forum-performance-reconciliation-20261011.json",
