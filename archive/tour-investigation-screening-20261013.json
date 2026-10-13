@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-48",
+  "activeDetailedReview": "tour-49",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 45,
-      "source-and-publication-review": 34,
+      "completed-with-documented-gaps": 46,
+      "source-and-publication-review": 33,
       "carry-in-and-sparse-history-check": 67,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -57,9 +57,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 13,
+        "practicallyCompleted": 14,
         "notApplicable": 0,
-        "open": 13
+        "open": 12
       },
       "2022": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 136
+    "toursRequiringInvestigation": 135
   },
   "tours": [
     {
@@ -4774,8 +4774,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 1,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-kalimari-desert-r",
@@ -4819,8 +4818,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-mario-circuit-3",
@@ -4843,8 +4841,30 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/la2021-completion.json",
+      "documentedLimitations": [
+        "N1:18.48 video is earlier than final1:18.33; not attached to faster result.",
+        "Tomegome1:06.61 footage not1:06.44 screenshot; no Discord share time inferred.",
+        "NuJuly14Twitter1415236314283220999 unavailable; previous-best dates and some standings ordering unresolved.",
+        "Prior full recording review retained without fresh uninterrupted certification.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+        "Selected66.61 and78.48 recordings remain slower than final WRs66.44 and78.33.",
+        "Original upload/share/report clocks are separate from exact race instants.",
+        "Indexed-image and focused-search coverage does not establish a full message census.",
+        "Earlier Mario Circuit 3 1:07.18 still lacks its original achievement date.",
+        "Five previous-best times lack original dated evidence.",
+        "Nu11’s July 14 Twitter recording 1415236314283220999 is unavailable; surrounding replies identify the newly posted 1:06.59, but footage cannot be checked.",
+        "Later per-tour leaderboard claims of Summer Airship 1:36.47 are slower than the surviving January 1:36.44; they do not reset the all-time WR progression.",
+        "The July 22 Royal Raceway R standings show Sucha 1:33.47; original achievement date and whether it preceded SuperFX’s faster results remain unresolved.",
+        "A 10mp RMX Choco Island 1 screenshot posted after the July 14 reset was recognized as a late prior-tour submission from its artwork and thresholds, not mapped to the new tour solely by date.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+        "Partial route clips remain separate from completed runs.",
+        "Two slower Wins completed originals preserved with prior footage review retained. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-49",
@@ -18850,5 +18870,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/summer2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/la2021-final-publication-audit-20261013.json"
 }
