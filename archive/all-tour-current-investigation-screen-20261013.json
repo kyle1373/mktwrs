@@ -3,7 +3,7 @@
   "sourceCommit": "48f58df0de751e39d0b4b0c6a769f6dc111e8e0a",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-64",
+  "activeDetailedReview": "tour-65",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -34,9 +34,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 61,
+      "completed-with-documented-gaps": 62,
       "carry-in-and-sparse-history-check": 60,
-      "source-and-publication-review": 23,
+      "source-and-publication-review": 22,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 30,
       "sparse-history-review": 1,
@@ -63,9 +63,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 3,
+        "practicallyCompleted": 4,
         "notApplicable": 0,
-        "open": 23
+        "open": 22
       },
       "2023": {
         "catalogTours": 26,
@@ -92,7 +92,7 @@
         "open": 19
       }
     },
-    "openTours": 120,
+    "openTours": 119,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 33,
       "unresolvedWrDatesOrOrder": 10,
@@ -6728,8 +6728,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-ghost-valley-1r",
@@ -6752,8 +6751,21 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/sky2022-completion.json",
+      "documentedLimitations": [
+        "Previous-best displays do not establish original record dates or competing-record order. Five such leads remain outside confirmed progression.",
+        "LaLanterne’s 1:01.47 and GOTEN’s 1:00.80 were explicitly withdrawn as input errors; neither is counted as a WR. Their original attachments remain unavailable.",
+        "An Astre attachment is unavailable; its surviving bot entry is slower than the contemporary WR.",
+        "The 16-second Wins technique clip and hypothetical best splits do not establish a completed overall run.",
+        "Contemporaneous discussion reports loss of old WR channels. This review cannot establish exhaustive recovery of deleted sources or all years.",
+        "Original video-share exact clock unresolved; correction acknowledgement is not a video-share timestamp.",
+        "Five supporting image originals unavailable on authenticated browser retrieval; source links and original references retained, image unavailable shown.",
+        "Five completed original recordings and one technique clip preserved on R2. Partial clips do not establish completed race totals.",
+        "One selected full recording freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-65",
@@ -19414,6 +19426,6 @@
     "subsequentPenguinCompletionAudit": "archive/penguin2021-completion-label-live-publication-check-20261013.json",
     "subsequentNewYearCompletionAudit": "archive/newyear2022-completion-label-live-publication-check-20261013.json"
   },
-  "remainingCurrentTourWork": "Verify live Los Angeles completion label before beginning Sky 2022.",
-  "latestCompletionAudit": "archive/losangeles2022-final-publication-audit-20261013.json"
+  "remainingCurrentTourWork": "Verify live Sky completion label before beginning Mii 2022.",
+  "latestCompletionAudit": "archive/sky2022-final-publication-audit-20261013.json"
 }

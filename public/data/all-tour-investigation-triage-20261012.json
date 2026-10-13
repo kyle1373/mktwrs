@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 61,
+      "completed-with-documented-gaps": 62,
       "sparse-history-review": 1,
-      "source-and-publication-review": 40,
+      "source-and-publication-review": 39,
       "carry-in-and-sparse-history-check": 24,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 61,
-    "toursRequiringInvestigation": 120,
+    "practicallyCompletedTours": 62,
+    "toursRequiringInvestigation": 119,
     "years": {
       "2019": {
         "tours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "tours": 26,
-        "requiringInvestigation": 23,
+        "requiringInvestigation": 22,
         "categories": {
-          "source-and-publication-review": 4,
+          "source-and-publication-review": 3,
           "carry-in-and-sparse-history-check": 4,
           "candidate-and-source-review": 11,
           "data-quality-and-history-check": 1,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 3
+          "completed-with-documented-gaps": 4
         }
       },
       "2023": {
@@ -3040,14 +3040,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/sky2022-completion.json",
+      "note": "Practical source/media review and live publication verified with documented gaps."
     },
     {
       "id": "tour-65",
@@ -11243,5 +11243,5 @@
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
   "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
-  "activeDetailedTourId": "tour-64"
+  "activeDetailedTourId": "tour-65"
 }

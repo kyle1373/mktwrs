@@ -9,7 +9,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 3 | 23 | 0 |
+| 2022 | 4 | 22 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -754,12 +754,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/lo
 
 ### 64. Sky Tour (2022) — 2022-02-23 to 2022-03-09
 
-Source and publication review.
-
-**[RMX Ghost Valley 1R](https://mktwrs.com/course/rmx-ghost-valley-1r)**: 10 WR rows; 130 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sky2022-completion.json). 294 exact-window discussion messages, 11 discussion-media dispositions and 180 submission messages backed by 103 original-file hashes reconciled. Five completed recordings and one technique clip preserved on R2. One selected finish freshly sampled and file decoded. 142 live snapshot rows match; rendered R2 links readable. Withdrawn input-error claims remain excluded; original share clock, previous-best chronology and unavailable supporting images retain their qualifications.
 
 ### 65. Mii Tour (2022) — 2022-03-09 to 2022-03-23
 

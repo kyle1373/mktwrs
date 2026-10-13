@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 61,
+    "practicallyCompletedTours": 62,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4345,7 +4345,7 @@
       "endDate": "2022-03-09",
       "tourSource": "https://www.mariowiki.com/Sky_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "rmx-ghost-valley-1r",
@@ -4367,16 +4367,18 @@
             "archive/sky-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/sky2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/sky2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/sky2022-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/sky2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-65",
@@ -11858,9 +11860,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/losangeles2022-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-64",
+  "latestLivePublicationVerification": "archive/sky2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-65",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-64"
+  "activeDetailedTourId": "tour-65"
 }
