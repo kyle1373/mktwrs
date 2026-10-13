@@ -2,13 +2,13 @@
 
 Freshly checked all 142 live course pages and their JSON files against `e1d322b2`: all returned HTTP 200 and all matched the latest isolated publication data. Screened all 183 catalog tours and 381 course appearances.
 
-**36 practical reviews closed; 145 tours open; 2 pre-time-trial tours not applicable.** Practical closure retains documented gaps. It does not certify complete historical succession. Cat 2021 is now practically closed; Mario 2021 is the active detailed review.
+**37 practical reviews closed; 144 tours open; 2 pre-time-trial tours not applicable.** Practical closure retains documented gaps. It does not certify complete historical succession. Cat 2021 is now practically closed; Yoshi 2021 is the active detailed review.
 
 | Year (tour start) | Practical reviews closed | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 4 | 22 | 0 |
+| 2021 | 5 | 21 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -39,7 +39,7 @@ Earlier screening exaggerated several debut gaps and faster-result flags. Some r
 - 28 open tours: oneDayTourRangeDiscrepancies.
 - 77 open tours: courseWithoutLinkedVideo.
 
-All 145 open tours need source coverage and publication sign-off, including fastest available completed footage, video links and known upload/share/submission clocks. The catalog additionally omits **30 September–13 October 2026**.
+All 144 open tours need source coverage and publication sign-off, including fastest available completed footage, video links and known upload/share/submission clocks. The catalog additionally omits **30 September–13 October 2026**.
 
 ## Closed reviews with remaining gaps
 
@@ -2490,7 +2490,7 @@ carry in and sparse history check.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - 0 unresolved WR dates/order; 0 video-linked rows; 0 video rows lacking known clocks.
 
-### 145. Yoshi Tour (2025) — 2025-04-02 to 2025-04-16
+### 144. Yoshi Tour (2025) — 2025-04-02 to 2025-04-16
 
 carry in and sparse history check.
 
@@ -2508,7 +2508,7 @@ carry in and sparse history check.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - 0 unresolved WR dates/order; 2 video-linked rows; 0 video rows lacking known clocks.
 
-### 145. Spring Tour (2025) — 2025-04-16 to 2025-04-30
+### 144. Spring Tour (2025) — 2025-04-16 to 2025-04-30
 
 source and publication review.
 
@@ -2525,7 +2525,7 @@ source and publication review.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - 0 unresolved WR dates/order; 0 video-linked rows; 0 video rows lacking known clocks.
 
-### 145. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
+### 144. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
 
 carry in and sparse history check.
 

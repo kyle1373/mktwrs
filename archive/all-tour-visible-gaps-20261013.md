@@ -4,13 +4,13 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 rendered WR counts match the prior publication check. Counts and investigation leads below use freshly fetched live data. The isolated source baseline includes unpublished Mario vs. Luigi evidence, so its data comparisons are reported separately in the JSON.
 
-Practical reviews are complete for Halloween 2019 through Snow 2021 (36 tours), with documented gaps. Mario 2021 is the next detailed review. 145 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Mario 2021 (37 tours), with documented gaps. Yoshi 2021 is the next detailed review. 144 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
 | 2020 | 27 | 27 | 0 | 0 |
-| 2021 | 26 | 4 | 22 | 0 |
+| 2021 | 26 | 5 | 21 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
 | 2024 | 26 | 0 | 26 | 0 |
@@ -34,7 +34,7 @@ Practical reviews are complete for Halloween 2019 through Snow 2021 (36 tours), 
 
 ## What still needs investigation
 
-**145 catalog tours are still open.** All tours beginning in 2020 now have practical completion reviews. Berlin 2021 has a practical completion review; the remaining 2021–2026 tours require individual source and publication sign-off.
+**144 catalog tours are still open.** All tours beginning in 2020 now have practical completion reviews. Berlin 2021 has a practical completion review; the remaining 2021–2026 tours require individual source and publication sign-off.
 
 The visible flags overlap:
 
@@ -47,9 +47,9 @@ The visible flags overlap:
 
 The four debut-gap tours cover five tracks. The six faster-result tours and two parser-error tours are listed above. Faster supporting times need date, tour assignment and completed-race checks before promotion.
 
-The catalogue omits the current interval beginning **30 September 2026**. That is additional work beyond the 145 open catalog tours.
+The catalogue omits the current interval beginning **30 September 2026**. That is additional work beyond the 144 open catalog tours.
 
-The 36 completed tours have practical evidence reviews with documented limitations. This does not certify that every historical run has survived. Videos, source clocks, and WR versus fastest completed recording remain part of each tour’s closure.
+The 37 completed tours have practical evidence reviews with documented limitations. This does not certify that every historical run has survived. Videos, source clocks, and WR versus fastest completed recording remain part of each tour’s closure.
 
 ## Every tour in chronological order
 
@@ -2507,7 +2507,7 @@ Carry in and sparse history check.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-### 145. Yoshi Tour (2025) — 2025-04-02 to 2025-04-16
+### 144. Yoshi Tour (2025) — 2025-04-02 to 2025-04-16
 
 Carry in and sparse history check.
 
@@ -2525,7 +2525,7 @@ Carry in and sparse history check.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-### 145. Spring Tour (2025) — 2025-04-16 to 2025-04-30
+### 144. Spring Tour (2025) — 2025-04-16 to 2025-04-30
 
 Source and publication review.
 
@@ -2542,7 +2542,7 @@ Source and publication review.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-### 145. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
+### 144. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
 
 Carry in and sparse history check.
 
@@ -2560,7 +2560,7 @@ Carry in and sparse history check.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-### 145. Mii Tour (2025) — 2025-05-14 to 2025-05-28
+### 144. Mii Tour (2025) — 2025-05-14 to 2025-05-28
 
 Carry in and sparse history check.
 

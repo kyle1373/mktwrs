@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-39",
+  "activeDetailedReview": "tour-40",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 36,
-      "source-and-publication-review": 41,
+      "completed-with-documented-gaps": 37,
+      "source-and-publication-review": 40,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -57,9 +57,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 4,
+        "practicallyCompleted": 5,
         "notApplicable": 0,
-        "open": 22
+        "open": 21
       },
       "2022": {
         "catalogTours": 26,
@@ -3621,8 +3621,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-bowser-s-castle-1",
@@ -3660,8 +3659,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 1,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "ds-luigi-s-mansion-r",
@@ -3698,8 +3696,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "tokyo-blur-4",
@@ -3721,8 +3718,27 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/mario2021-completion.json",
+      "documentedLimitations": [
+        "DIT Bowser Castle1 WR footage preserved from player recovery uploaded2026; original2021 Twitter link retained without claiming byte-identical original recovery.",
+        "Mansion R Wins1:22.79 original41.41/41.38 recording distinct from tied screenshot; race date and relation to faster Nu111:22.75 unknown. Source publication identifies tour association, not achievement date.",
+        "Tokyo Blur4 Nu110:46.31 image WR; Spartacurt0:46.94 full footage preserved; edited original source does not establish exact video-share clock.",
+        "Prior full recording reviews retained without fresh uninterrupted certification.",
+        "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved.",
+        "Previous-best fields reveal potential missing intermediate runs; dates must be recovered from original evidence.",
+        "Wins 1:22.79 original video survives, but its race date and relation to Nu11 1:22.83 and 1:22.75 remain unresolved.",
+        "One deleted-account Tokyo Blur 4 47.48 remains unattributed.",
+        "Wins 1:23.39 has conflicting lap shorthand, so no exact splits are asserted.",
+        "Twenty-five of twenty-six link-query matches were captured in this query. Earlier Chris95 video appears in the Snow closing search.",
+        "Several original Twitter links failed download; that alone does not establish that the media is lost.",
+        "Indexed image coverage and keyword queries do not establish an exhaustive message census.",
+        "Tokyo Blur 4 has no accepted opening-day WR in the published history; earliest global leadership remains unproved.",
+        "Prior gameplay/finish reviews retained. Video upload day used only for scope when original source clock absent; no race date inferred.",
+        "Technique and finish fragments remain distinct from completed race evidence.",
+        "Seven additional completed recordings retained with prior reviews; five short route/lap/finish clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-40",
@@ -18702,5 +18718,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/snow2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/mario2021-final-publication-audit-20261013.json"
 }
