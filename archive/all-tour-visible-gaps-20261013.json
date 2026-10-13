@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-35",
+  "activeDetailedReview": "tour-36",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,8 +32,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 32,
-      "source-and-publication-review": 45,
+      "completed-with-documented-gaps": 33,
+      "source-and-publication-review": 44,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 0,
+        "practicallyCompleted": 1,
         "notApplicable": 0,
-        "open": 26
+        "open": 25
       },
       "2022": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 19
     },
-    "toursRequiringInvestigation": 149
+    "toursRequiringInvestigation": 148
   },
   "tours": [
     {
@@ -3166,9 +3166,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Review unresolved order/date bounds; keep race, report and submission dates distinct.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed with documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-kalimari-desert-2",
@@ -3206,9 +3204,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 2,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Review unresolved order/date bounds; keep race, report and submission dates distinct.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed with documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-rock-rock-mountain-r",
@@ -3230,8 +3226,25 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/berlin2021-completion.json",
+      "documentedLimitations": [
+        "Rock final 1:42.43 recording preserved; Kalimari selected 1:03.49 is slower than final 1:03.39. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
+        "Previous-best dates and unavailable originals remain unresolved.",
+        "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+        "Baseball Club 1:43.40 is corroborated in contemporary text; original result was deleted. Its date and the earlier chronology remain unresolved.",
+        "Astre 1:03.62 repost is delayed; no exact achievement date assigned.",
+        "Astre 1:03.59 video is preserved but WR chronology remains unresolved. Astre 1:03.49 recording shows a faster previous best and is only a video fallback.",
+        "Two Nu11 Twitter images remain unavailable; their written 1:03.47 and 1:42.87 totals are slower than already documented records.",
+        "Earlier previous-best values, including Nu11 1:04.01 and Astre 1:03.90, lack original dated submissions.",
+        "New image importer recovers encoded Twitter image URLs previously skipped; this review does not prove every Discord message was captured.",
+        "2,270 messages and 326 surviving images are tour-only inventory counts, not a fresh exhaustive source reading.",
+        "Final Kalimari 1:03.39 result proof has no selected matching recording; Astre 1:03.49 is a different run.",
+        "Timestamp-order diagnostics occurred during full decode; process exit 0 and visible finish do not certify unedited continuity.",
+        "Prior pending broadcast, original-proof and precedence leads are retained unresolved here. No complete-history claim.",
+        "One partial clip is not completed WR proof; nine additional files retain prior completed-run review, including another encoding of the selected Astre run. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-36",
@@ -18649,5 +18662,6 @@
       "category": "source-and-publication-review"
     }
   ],
-  "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags."
+  "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
+  "latestCompletionAudit": "archive/berlin2021-final-publication-audit-20261013.json"
 }

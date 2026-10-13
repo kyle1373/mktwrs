@@ -2,8 +2,8 @@
   "tourId": "tour-35",
   "tour": "Berlin Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-01-13T06:00:00Z",
@@ -29,7 +29,16 @@
     "archive/berlin2021-late-video-original-share-clock-reconciliation-20261010.json",
     "archive/berlin2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/berlin2021-selected-recording-r2-preservation-20261012.json",
-    "archive/berlin2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/berlin2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/berlin2021-final-publication-audit-20261013.json",
+    "archive/berlin2021-practical-source-coverage-disposition-20261013.json",
+    "archive/berlin2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/berlin2021-ten-written-and-broadcast-lead-practical-dispositions-20261013.json",
+    "archive/berlin2021-source-gaps-and-reference-disposition-20261013.json",
+    "archive/berlin2021-tour-only-additional-media-r2-preservation-20261013.json",
+    "archive/berlin2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/berlin2021-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/berlin2021-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/winter2020-discussion-review-progress.json",
@@ -39,34 +48,45 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 304
+    "proofImageUrlsPassed": 304,
+    "completedRunRecordingsPreservedOnR2": 2,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 9,
+    "partialClipsPreservedOnR2": 1,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 326,
+    "discussionImageHashesVerified": 326,
+    "discussionMessagesIndexed": 2270
   },
   "remainingLimitations": [
-    "Kalimari final WR 1:03.39 has result proof; Astre 1:03.49 recording explicitly a different run. Kazuo final Rock Rock Mountain R 1:42.43 recording preserved.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Rock final 1:42.43 recording preserved; Kalimari selected 1:03.49 is slower than final 1:03.39. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Baseball Club 1:43.40 is corroborated in contemporary text; original result was deleted. Its date and the earlier chronology remain unresolved.",
+    "Astre 1:03.62 repost is delayed; no exact achievement date assigned.",
+    "Astre 1:03.59 video is preserved but WR chronology remains unresolved. Astre 1:03.49 recording shows a faster previous best and is only a video fallback.",
+    "Two Nu11 Twitter images remain unavailable; their written 1:03.47 and 1:42.87 totals are slower than already documented records.",
+    "Earlier previous-best values, including Nu11 1:04.01 and Astre 1:03.90, lack original dated submissions.",
+    "New image importer recovers encoded Twitter image URLs previously skipped; this review does not prove every Discord message was captured.",
+    "2,270 messages and 326 surviving images are tour-only inventory counts, not a fresh exhaustive source reading.",
+    "Final Kalimari 1:03.39 result proof has no selected matching recording; Astre 1:03.49 is a different run.",
+    "Timestamp-order diagnostics occurred during full decode; process exit 0 and visible finish do not certify unedited continuity.",
+    "Prior pending broadcast, original-proof and precedence leads are retained unresolved here. No complete-history claim.",
+    "One partial clip is not completed WR proof; nine additional files retain prior completed-run review, including another encoding of the selected Astre run. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 903,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      115,
-      120
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "n64-kalimari-desert-2",
-        "reviewedRows": 203,
-        "differences": 0
-      },
-      {
-        "courseId": "3ds-rock-rock-mountain-r",
-        "reviewedRows": 146,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 721,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 281,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-36"
+  "nextTourId": "tour-36",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/berlin2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/berlin2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "5dc2d0d0b11e60b3f40464103d344e38d5ac98c9"
 }

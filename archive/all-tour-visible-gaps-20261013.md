@@ -4,13 +4,13 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 rendered WR counts match the prior publication check. Counts and investigation leads below use freshly fetched live data. The isolated source baseline includes unpublished Mario vs. Luigi evidence, so its data comparisons are reported separately in the JSON.
 
-Practical reviews are complete for Halloween 2019 through New Year 2021 (32 tours), with documented gaps. Berlin 2021 is the next detailed review. 149 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Berlin 2021 (33 tours), with documented gaps. Cat 2021 is the next detailed review. 148 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
 | 2020 | 27 | 27 | 0 | 0 |
-| 2021 | 26 | 0 | 26 | 0 |
+| 2021 | 26 | 1 | 25 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
 | 2024 | 26 | 0 | 26 | 0 |
@@ -34,7 +34,7 @@ Practical reviews are complete for Halloween 2019 through New Year 2021 (32 tour
 
 ## What still needs investigation
 
-**149 catalog tours are still open.** All tours beginning in 2020 now have practical completion reviews. All 2021–2026 tours require an individual source and publication sign-off.
+**148 catalog tours are still open.** All tours beginning in 2020 now have practical completion reviews. Berlin 2021 has a practical completion review; the remaining 2021–2026 tours require individual source and publication sign-off.
 
 The visible flags overlap:
 
@@ -47,9 +47,9 @@ The visible flags overlap:
 
 The four debut-gap tours cover five tracks. The six faster-result tours and two parser-error tours are listed above. Faster supporting times need date, tour assignment and completed-race checks before promotion.
 
-The catalogue omits the current interval beginning **30 September 2026**. That is additional work beyond the 149 open catalog tours.
+The catalogue omits the current interval beginning **30 September 2026**. That is additional work beyond the 148 open catalog tours.
 
-The 32 completed tours have practical evidence reviews with documented limitations. This does not certify that every historical run has survived. Videos, source clocks, and WR versus fastest completed recording remain part of each tour’s closure.
+The 33 completed tours have practical evidence reviews with documented limitations. This does not certify that every historical run has survived. Videos, source clocks, and WR versus fastest completed recording remain part of each tour’s closure.
 
 ## Every tour in chronological order
 
@@ -469,21 +469,7 @@ Practical review completed with documented gaps. [Completion evidence](https://m
 
 ### 35. Berlin Tour (2021) — 2021-01-13 to 2021-01-27
 
-Source and publication review.
-
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 18 WR rows; 186 supporting rows; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 12 linked-video rows; 0 remote-only Discord WR images.
-
-**[3DS Rock Rock Mountain R](https://mktwrs.com/course/3ds-rock-rock-mountain-r)**: 13 WR rows; 185 supporting rows; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/berlin2021-completion.json). Both live course snapshots verified: 721 rows match and 281 R2 links readable. Ten written/broadcast leads practically disposed; Twitch clip categorized Mario Kart Wii, Mirrativ replay expired, repeated/ambiguous reports not promoted. Selected Kalimari 1:03.49 remains distinct from WR 1:03.39; Rock 1:42.43 footage matches final WR. Deleted originals, exact previous-best chronology and uninterrupted footage coverage remain qualified.
 
 ### 36. Cat Tour (2021) — 2021-01-27 to 2021-02-10
 

@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 32,
-      "source-and-publication-review": 63,
+      "completed-with-documented-gaps": 33,
+      "source-and-publication-review": 62,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
@@ -45,8 +45,8 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 32,
-    "toursRequiringInvestigation": 149,
+    "practicallyCompletedTours": 33,
+    "toursRequiringInvestigation": 148,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -58,7 +58,7 @@
       },
       "2021": {
         "catalogTours": 26,
-        "requiringInvestigation": 26
+        "requiringInvestigation": 25
       },
       "2022": {
         "catalogTours": 26,
@@ -1508,9 +1508,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check meaningful chronology gaps; retain unknown exact achievement dates where source/report clocks suffice.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -1525,13 +1523,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check meaningful chronology gaps; retain unknown exact achievement dates where source/report clocks suffice.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/berlin2021-completion.json",
+      "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified."
     },
     {
       "id": "tour-36",
@@ -11104,5 +11103,5 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-35"
+  "activeDetailedTourId": "tour-36"
 }
