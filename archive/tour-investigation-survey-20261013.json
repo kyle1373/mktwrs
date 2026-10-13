@@ -3,7 +3,7 @@
   "sourceCommit": "fc689aa71342ec12384225f19f5a0af8d49d4837",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-32",
+  "activeDetailedReview": "tour-33",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 29,
-      "source-and-publication-review": 48,
+      "completed-with-documented-gaps": 30,
+      "source-and-publication-review": 47,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -51,9 +51,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 24,
+        "practicallyCompleted": 25,
         "notApplicable": 0,
-        "open": 3
+        "open": 2
       },
       "2021": {
         "catalogTours": 26,
@@ -2833,8 +2833,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 6,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-choco-island-1",
@@ -2871,8 +2870,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "wii-maple-treeway",
@@ -2895,8 +2893,25 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/winter2020-completion.json",
+      "documentedLimitations": [
+        "Both final WR recordings preserved; four unavailable images, unknown previous-best dates, a conflicting Phillish text report and Choco tie attribution remain qualified.",
+        "Previous-best dates and unavailable originals remain unresolved.",
+        "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+        "Four captured images unavailable, including one avatar. Wakinyo 40.29 is supported by surviving original embed text, not a surviving image.",
+        "Original post embeds for Wakinyo 40.17 and 1:47.54 survive; both are slower than already published records and are excluded.",
+        "A text mention of Phillish 1:47.07 conflicts with original 1:47.09 screenshot and contemporary leaderboards; not promoted without corresponding proof.",
+        "Previous-best times in screenshots may document additional runs but cannot establish their exact date or position in history.",
+        "Astre 1:47.02 has no recovered splits; original message says the run was not recorded.",
+        "Unreviewed or uncaptured server evidence can still add or correct history.",
+        "Winter-only inventory: 4,867 captured messages and 370 reviewed surviving images. Prior 14,558 messages/1,749 images span December through February and are not Winter-only counts.",
+        "Two unrecovered early attached clips have no completed result in surviving text; one Reddit reference has no run total in captured context. No additional WR inferred.",
+        "Original Choco recording is credited to SuperFX; later Wins share does not create a second runner attribution. Maple recording uploaded after tour end is linked to December 8 submitted result.",
+        "Fresh representative start/gameplay/finish review plus full decode retains prior recording assessment; uninterrupted race coverage is not newly certified.",
+        "Eleven partial/lap/failed-attempt clips are not completed WR proof; three additional completed personal-best recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-33",
@@ -18582,5 +18597,5 @@
     }
   ],
   "completionStatusUpdatedAt": "2026-10-13",
-  "latestCompletionAudit": "archive/marioluigi2020-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/winter2020-final-publication-audit-20261013.json"
 }

@@ -2,8 +2,8 @@
   "tourId": "tour-32",
   "tour": "Winter Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-12-02T06:00:00Z",
@@ -29,7 +29,15 @@
     "archive/winter2020-video-preservation.json",
     "archive/winter2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/winter2020-selected-recording-r2-preservation-20261012.json",
-    "archive/winter2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/winter2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/winter2020-final-publication-audit-20261013.json",
+    "archive/winter2020-practical-source-coverage-disposition-20261013.json",
+    "archive/winter2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/winter2020-source-gaps-and-reference-disposition-20261013.json",
+    "archive/winter2020-tour-only-additional-media-r2-preservation-20261013.json",
+    "archive/winter2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/winter2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/winter2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/winter2020-discussion-review-progress.json",
@@ -39,34 +47,45 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 154
+    "proofImageUrlsPassed": 154,
+    "completedRunRecordingsPreservedOnR2": 2,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 3,
+    "partialClipsPreservedOnR2": 11,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 370,
+    "discussionImageHashesVerified": 370,
+    "discussionMessagesIndexed": 4867
   },
   "remainingLimitations": [
-    "Both final WR recordings preserved; Maple Treeway video published after tour end belongs to December 8 result. Choco Island tie footage credits SuperFX, later share credits Wins.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Both final WR recordings preserved; four unavailable images, unknown previous-best dates, a conflicting Phillish text report and Choco tie attribution remain qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Four captured images unavailable, including one avatar. Wakinyo 40.29 is supported by surviving original embed text, not a surviving image.",
+    "Original post embeds for Wakinyo 40.17 and 1:47.54 survive; both are slower than already published records and are excluded.",
+    "A text mention of Phillish 1:47.07 conflicts with original 1:47.09 screenshot and contemporary leaderboards; not promoted without corresponding proof.",
+    "Previous-best times in screenshots may document additional runs but cannot establish their exact date or position in history.",
+    "Astre 1:47.02 has no recovered splits; original message says the run was not recorded.",
+    "Unreviewed or uncaptured server evidence can still add or correct history.",
+    "Winter-only inventory: 4,867 captured messages and 370 reviewed surviving images. Prior 14,558 messages/1,749 images span December through February and are not Winter-only counts.",
+    "Two unrecovered early attached clips have no completed result in surviving text; one Reddit reference has no run total in captured context. No additional WR inferred.",
+    "Original Choco recording is credited to SuperFX; later Wins share does not create a second runner attribution. Maple recording uploaded after tour end is linked to December 8 submitted result.",
+    "Fresh representative start/gameplay/finish review plus full decode retains prior recording assessment; uninterrupted race coverage is not newly certified.",
+    "Eleven partial/lap/failed-attempt clips are not completed WR proof; three additional completed personal-best recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 906,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      88,
-      46
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "snes-choco-island-1",
-        "reviewedRows": 113,
-        "differences": 0
-      },
-      {
-        "courseId": "wii-maple-treeway",
-        "reviewedRows": 69,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 400,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 177,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-33"
+  "nextTourId": "tour-33",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/winter2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/winter2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "5dd40189670f6310049ab2716991665ae68ba60a"
 }
