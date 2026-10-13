@@ -2,17 +2,78 @@
   "tourId": "tour-72",
   "patchRows": [
     {
-      "courseId": "berlin-byways",
+      "courseId": "amsterdam-drift",
       "collection": "submissions",
-      "generatedId": "curated-986813184851705906-cat2022-image-reviewed",
-      "reviewedId": "curated-986813184851705906-cat2022-image-reviewed",
+      "generatedId": "curated-986633870629810246-cat2022-image-reviewed",
+      "reviewedId": "curated-986633870629810246-cat2022-image-reviewed",
       "fields": [
         "videoAudit"
       ]
     }
   ],
-  "additionalCanonicalSupportingRows": [],
-  "rowsCompared": 244,
+  "additionalCanonicalSupportingRows": [
+    {
+      "courseId": "berlin-byways",
+      "collection": "submissions",
+      "row": {
+        "messageId": "metropolitan2022-n-manual-dcdy9CaNPks",
+        "player": "N",
+        "courseId": "berlin-byways",
+        "time": "1:15.03",
+        "laps": [
+          null,
+          null
+        ],
+        "status": "documented-submission",
+        "includeInProgression": false,
+        "video": "https://youtu.be/dcdy9CaNPks",
+        "videoVerified": true,
+        "videoBackup": {
+          "url": "https://media.mktwrs.com/assets/video/metropolitan2022-0868b1b1b5c9669ed51f.mp4",
+          "originalUrl": "https://youtu.be/dcdy9CaNPks",
+          "status": "available",
+          "kind": "r2-preserved-original",
+          "sha256": "0868b1b1b5c9669ed51fbfc8fa1f1d938370ff88f9e05e6e094a4efa448bd88c",
+          "bytes": 12328077,
+          "preservedOriginalFile": "archive/video-backup-files/metropolitan2022-dcdy9CaNPks/original.mp4",
+          "videoScope": "full-run"
+        },
+        "videoPublishedAt": "2022-06-28T15:28:00Z",
+        "chronologyDate": "2022-06-28T15:28:00Z",
+        "videoShareEvents": [
+          {
+            "sharedAt": "2022-06-28T15:32:26.769Z",
+            "source": {
+              "url": "https://discord.com/channels/629221606064914442/636461740162416640/991365470173270146",
+              "messageId": "991365470173270146"
+            },
+            "reviewAudit": "archive/metropolitan2022-discussion-clips-r2-scope-review-20261013.json"
+          }
+        ],
+        "source": {
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/991365470173270146",
+          "channel": "tt-discussion",
+          "messageId": "991365470173270146"
+        },
+        "videoScopeReview": {
+          "freshSampledVisualReview": true,
+          "fullFileDecodeVerified": true,
+          "startToFinishContinuityVerified": false,
+          "reviewAudit": "archive/metropolitan2022-discussion-clips-r2-scope-review-20261013.json"
+        },
+        "notes": [
+          "Completed1:15.03 manual-driving recording; original upload/share separate, exact race and result-submission clocks unknown. Previousbest1:15.28 undated. Supporting evidence, no WR promotion."
+        ],
+        "id": "curated-metropolitan2022-n-manual-dcdy9CaNPks",
+        "playerId": "n",
+        "timeCs": 7503,
+        "achievedAt": null,
+        "datePrecision": "unknown",
+        "proofUploadedAt": null
+      }
+    }
+  ],
+  "rowsCompared": 245,
   "differences": 0,
   "duplicateIds": 0,
   "passed": true,
