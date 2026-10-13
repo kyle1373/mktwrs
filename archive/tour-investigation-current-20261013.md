@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-44 tours have completed practical reviews with documented gaps; 137 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Paris 2021. Summer 2021 is the next detailed review. These counts do not certify exhaustive history.
+45 tours have completed practical reviews with documented gaps; 136 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Summer 2021. Los Angeles 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 12 | 14 | 0 |
+| 2021 | 13 | 13 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -672,18 +672,9 @@ Completed with documented gaps.
 
 ### 47. Summer Tour (2021) — 2021-06-30 to 2021-07-14
 
-Carry in and sparse history check.
+Completed with documented gaps.
 
-**[DS Airship Fortress R](https://mktwrs.com/course/ds-airship-fortress-r)**: 0 WR rows; 47 supporting results; 0 pending candidates; carried-in WR 1:36.44.
-
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Choco Island 1](https://mktwrs.com/course/rmx-choco-island-1)**: 4 WR rows; 68 supporting results; 0 pending candidates; carried-in WR 1:12.36.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/summer2021-completion.json). 323 preserved messages indexed and 116 image hashes checked. Two selected recordings freshly sampled and decoded. Original2020 Kazuo example and unrelated BowserCastle clip preserved as context. Airship96.44 standing WR retained; faster WR footage and exact intermediate dates remain qualified.
 
 ### 48. Los Angeles Tour (2021) — 2021-07-14 to 2021-07-28
 

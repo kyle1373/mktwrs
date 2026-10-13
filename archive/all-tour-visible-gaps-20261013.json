@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-47",
+  "activeDetailedReview": "tour-48",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,9 +32,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 44,
+      "completed-with-documented-gaps": 45,
       "source-and-publication-review": 34,
-      "carry-in-and-sparse-history-check": 68,
+      "carry-in-and-sparse-history-check": 67,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
       "faster-result-reconciliation": 6,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 12,
+        "practicallyCompleted": 13,
         "notApplicable": 0,
-        "open": 14
+        "open": 13
       },
       "2022": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 12
     },
-    "toursRequiringInvestigation": 137
+    "toursRequiringInvestigation": 136
   },
   "tours": [
     {
@@ -4663,9 +4663,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "ds-airship-fortress-r",
@@ -4710,8 +4708,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-choco-island-1",
@@ -4734,8 +4731,28 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/summer2021-completion.json",
+      "documentedLimitations": [
+        "Airship standing January1:36.44 not beaten among reviewed Summer submissions; best result1:36.47 has no reviewed footage.",
+        "NHSpeedy1:36.64 original2021 publication and2026Discordrepost kept separate; no race instant inferred.",
+        "Choco finalNu1:12.08 no reviewed available footage; Tomegome1:12.24 selected separately.",
+        "One Isun unavailable indexed Twitter image andNu retrospective1:12.23 date remain unresolved.",
+        "Prior full recording review retained without fresh uninterrupted certification.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+        "Selected72.24 and96.64 recordings remain slower than WRs72.08 and96.44.",
+        "Original upload/share/report clocks are separate from exact race instants.",
+        "Indexed-image and focused-search coverage does not establish a complete server-message census.",
+        "Isun’s July 9 indexed Twitter result image f27bdb9173b2f164b6e4d4cb cannot be retrieved; original tweet 1413514490587488264 also reports unavailable. No time is inferred from its surrounding conversation.",
+        "Nu11’s prior 1:12.23 requires an original dated source.",
+        "July 14 search results after 06:00 UTC belong to Los Angeles Tour and are reviewed separately.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+        "Partial route clips remain separate from completed runs.",
+        "An older Kazuo72.42 example recording from July2020 and an unrelated BowserCastle starting clip are preserved as context; neither is a Summer2021 result. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-48",
@@ -18837,5 +18854,5 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/paris2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/summer2021-final-publication-audit-20261013.json"
 }
