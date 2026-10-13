@@ -4,7 +4,7 @@ Live screening: **2026-10-13T20:43:54.088852+00:00**. Review-status commit: `3ff
 
 Fetched all **142 course pages and 142 data files**, and screened **183 tours / 381 course appearances**. Every request returned HTTP 200. This identifies investigation leads; it does not verify every original proof.
 
-**112 reviews remain open. 69 tours have practical reviews closed with documented gaps, chronologically through Cat 2022. Metropolitan 2022 is next.** Two 2019 tours predate time trials.
+**111 reviews remain open. 70 tours have practical reviews closed with documented gaps, chronologically through Metropolitan 2022. Bangkok 2022 is next.** Two 2019 tours predate time trials.
 
 The catalog ends 30 September 2026. The 30 September–13 October interval still needs cataloguing. Later 2026 history cannot be completed before it happens.
 
@@ -13,7 +13,7 @@ The catalog ends 30 September 2026. The 30 September–13 October interval still
 | 2019 | 5 | 0 |
 | 2020 | 27 | 0 |
 | 2021 | 26 | 0 |
-| 2022 | 11 | 15 |
+| 2022 | 12 | 14 |
 | 2023 | 0 | 26 |
 | 2024 | 0 | 26 |
 | 2025 | 0 | 26 |
@@ -132,7 +132,7 @@ Counts overlap. Repeat tours may legitimately have no new WR if a carried-in rec
 | 69 | Doctor Tour (2022) | 2022-05-04–2022-05-18 | Closed with documented gaps | sparse progression |
 | 70 | Peach vs. Bowser Tour (May 2022) (2022) | 2022-05-18–2022-06-01 | Closed with documented gaps | candidates, remote Discord proof, sparse progression |
 | 71 | Cat Tour (2022) | 2022-06-01–2022-06-15 | Closed with documented gaps | candidates, date/order, remote Discord proof |
-| 72 | Metropolitan Tour (2022) | 2022-06-15–2022-06-29 | Open | missing video clocks, remote Discord proof |
+| 72 | Metropolitan Tour (2022) | 2022-06-15–2022-06-29 | Closed with documented gaps | missing video clocks, remote Discord proof |
 | 73 | Bangkok Tour (2022) | 2022-06-29–2022-07-13 | Open | date/order, missing video clocks, remote Discord proof |
 | 74 | Piranha Plant Tour (2022) | 2022-07-13–2022-07-27 | Open | Source/publication review |
 | 75 | Ocean Tour (2022) | 2022-07-27–2022-08-10 | Open | candidates, remote Discord proof, sparse progression |
@@ -1446,13 +1446,15 @@ Closed with gaps. [Completion evidence](https://mktwrs.com/data/peachbowsermay20
 
 ### 72. Metropolitan Tour (2022)
 
-- [Amsterdam Drift](https://mktwrs.com/course/amsterdam-drift): **7 WR / 39 supporting / 0 candidates**. Flags: missing video clocks.
-  Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-  Finish tour source coverage and verify the public tour section before marking practical completion.
-- [Berlin Byways](https://mktwrs.com/course/berlin-byways): **4 WR / 47 supporting / 0 candidates**. Flags: remote Discord proof.
-  Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-  Check remaining remote-only Discord WR images and preserve surviving originals on R2.
-  Finish tour source coverage and verify the public tour section before marking practical completion.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/metropolitan2022-completion.json). 57 original hashes,33 exact-window discussion messages, eight full recordings and two partial clips preserved on R2. 245whole-course rows match live publication;58R2 evidence links readable.
+
+- SuperFX finalBerlin1:14.54 accepted from the Metropolitan WR announcement and original result. June29submission13:19 is after06:00rollover; exact achievement day remains unknown and no dated reign duration is claimed.
+- NHSpeedyBerlin1:14.69 is faster than contemporaneousSucha1:14.83 but private/global precedence against SuperFXpreviousbest1:14.71 remains unresolved. It is supporting evidence and selected available recording, not promoted to confirmed WR.
+- Original upload/share/result submission clocks remain separate. NHSpeedy2022uploads have a capturedOctober2026Discordrepost; original2022submission unknown. Shine1:15.12 video uploadedJune29T05:59 beforeend and submitted06:04 afterward.
+- Only fastest documented opening-day results are shown: Nu11Amsterdam1:21.69 andBerlin1:14.88. Global opening WR succession remains unproved; raw intermediates preserved without WR profile awards.
+- Eight full-race recordings and two partial clips preserved on R2. Seven original recordings and N discussionrecording sampled/decoded; SuperFXstrategyclip carries prior visual disposition. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.
+- Prior57original-image visual dispositions and final standings/command/receipt reviews retained; files hashchecked,33exact-window discussionmessages indexed. Unidentified/deleted original supporting sources and unindexed/private/global material may remain.
+- Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred.
 
 ### 73. Bangkok Tour (2022)
 

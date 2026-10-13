@@ -37,17 +37,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 69,
+      "completed-with-documented-gaps": 70,
       "sparse-history-review": 1,
       "source-and-publication-review": 37,
       "carry-in-and-sparse-history-check": 23,
-      "candidate-and-source-review": 42,
+      "candidate-and-source-review": 41,
       "data-quality-and-history-check": 0,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 69,
-    "toursRequiringInvestigation": 112,
+    "practicallyCompletedTours": 70,
+    "toursRequiringInvestigation": 111,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -63,7 +63,7 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 15
+        "requiringInvestigation": 14
       },
       "2023": {
         "catalogTours": 26,
@@ -3461,9 +3461,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3478,15 +3476,22 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Check meaningful chronology gaps; retain unknown exact achievement dates where source/report clocks suffice.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "https://mktwrs.com/data/metropolitan2022-completion.json",
+      "documentedLimitations": [
+        "SuperFX finalBerlin1:14.54 accepted from the Metropolitan WR announcement and original result. June29submission13:19 is after06:00rollover; exact achievement day remains unknown and no dated reign duration is claimed.",
+        "NHSpeedyBerlin1:14.69 is faster than contemporaneousSucha1:14.83 but private/global precedence against SuperFXpreviousbest1:14.71 remains unresolved. It is supporting evidence and selected available recording, not promoted to confirmed WR.",
+        "Original upload/share/result submission clocks remain separate. NHSpeedy2022uploads have a capturedOctober2026Discordrepost; original2022submission unknown. Shine1:15.12 video uploadedJune29T05:59 beforeend and submitted06:04 afterward.",
+        "Only fastest documented opening-day results are shown: Nu11Amsterdam1:21.69 andBerlin1:14.88. Global opening WR succession remains unproved; raw intermediates preserved without WR profile awards.",
+        "Eight full-race recordings and two partial clips preserved on R2. Seven original recordings and N discussionrecording sampled/decoded; SuperFXstrategyclip carries prior visual disposition. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.",
+        "Prior57original-image visual dispositions and final standings/command/receipt reviews retained; files hashchecked,33exact-window discussionmessages indexed. Unidentified/deleted original supporting sources and unindexed/private/global material may remain.",
+        "Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred."
+      ]
     },
     {
       "id": "tour-73",
@@ -11151,7 +11156,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-72",
+  "activeDetailedTourId": "tour-73",
   "completionStatusLiveCheck": {
     "tourId": "tour-12",
     "checkedAt": "2026-10-13T07:42:22.603527+00:00",
@@ -11174,6 +11179,6 @@
     "liveLatestPublicationAudit": "archive/mariobros2020-final-publication-audit-20261013.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-72",
-  "latestCompletionAudit": "archive/cat2022-final-publication-audit-20261013.json"
+  "activeDetailedReview": "tour-73",
+  "latestCompletionAudit": "archive/metropolitan2022-final-publication-audit-20261013.json"
 }

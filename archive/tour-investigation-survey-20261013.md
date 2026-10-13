@@ -9,7 +9,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 11 | 15 | 0 |
+| 2022 | 12 | 14 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -825,18 +825,15 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sk
 
 ### 72. Metropolitan Tour (2022) — 2022-06-15 to 2022-06-29
 
-Source and publication review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/metropolitan2022-completion.json). 57 original hashes,33 exact-window discussion messages, eight full recordings and two partial clips preserved on R2. 245whole-course rows match live publication;58R2 evidence links readable.
 
-**[Amsterdam Drift](https://mktwrs.com/course/amsterdam-drift)**: 7 WR rows; 39 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 4 WR rows; 47 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- SuperFX finalBerlin1:14.54 accepted from the Metropolitan WR announcement and original result. June29submission13:19 is after06:00rollover; exact achievement day remains unknown and no dated reign duration is claimed.
+- NHSpeedyBerlin1:14.69 is faster than contemporaneousSucha1:14.83 but private/global precedence against SuperFXpreviousbest1:14.71 remains unresolved. It is supporting evidence and selected available recording, not promoted to confirmed WR.
+- Original upload/share/result submission clocks remain separate. NHSpeedy2022uploads have a capturedOctober2026Discordrepost; original2022submission unknown. Shine1:15.12 video uploadedJune29T05:59 beforeend and submitted06:04 afterward.
+- Only fastest documented opening-day results are shown: Nu11Amsterdam1:21.69 andBerlin1:14.88. Global opening WR succession remains unproved; raw intermediates preserved without WR profile awards.
+- Eight full-race recordings and two partial clips preserved on R2. Seven original recordings and N discussionrecording sampled/decoded; SuperFXstrategyclip carries prior visual disposition. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.
+- Prior57original-image visual dispositions and final standings/command/receipt reviews retained; files hashchecked,33exact-window discussionmessages indexed. Unidentified/deleted original supporting sources and unindexed/private/global material may remain.
+- Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred.
 
 ### 73. Bangkok Tour (2022) — 2022-06-29 to 2022-07-13
 

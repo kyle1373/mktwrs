@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 69,
+    "practicallyCompletedTours": 70,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4829,7 +4829,7 @@
       "endDate": "2022-06-29",
       "tourSource": "https://www.mariowiki.com/Metropolitan_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "amsterdam-drift",
@@ -4850,7 +4850,8 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/metropolitan2022-final-publication-audit-20261013.json"
         },
         {
           "courseId": "berlin-byways",
@@ -4873,13 +4874,17 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/metropolitan2022-final-publication-audit-20261013.json"
         }
       ],
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "candidate-and-source-review"
+      "investigationCategory": "candidate-and-source-review",
+      "practicallyComplete": true,
+      "practicalCompletionEvidence": "public/data/metropolitan2022-completion.json",
+      "latestPublicationAudit": "archive/metropolitan2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-73",
@@ -11895,9 +11900,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/cat2022-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-72",
+  "latestLivePublicationVerification": "archive/metropolitan2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-73",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-72"
+  "activeDetailedTourId": "tour-73"
 }

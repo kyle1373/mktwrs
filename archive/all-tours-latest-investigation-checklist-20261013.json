@@ -3,7 +3,7 @@
   "sourceCommit": "3ffea908a5feb0ecfc3799e80d983d0fe532ffed",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-72",
+  "activeDetailedReview": "tour-73",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "http200DataFiles": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 69,
+      "completed-with-documented-gaps": 70,
       "candidate-and-source-review": 28,
-      "source-and-publication-review": 20,
+      "source-and-publication-review": 19,
       "carry-in-and-sparse-history-check": 59,
       "sparse-history-review": 1,
       "faster-result-reconciliation": 4
@@ -61,9 +61,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 11,
+        "practicallyCompleted": 12,
         "notApplicable": 0,
-        "open": 15
+        "open": 14
       },
       "2023": {
         "catalogTours": 26,
@@ -90,8 +90,8 @@
         "open": 19
       }
     },
-    "openTours": 112,
-    "practicallyReviewedTours": 69,
+    "openTours": 111,
+    "practicallyReviewedTours": 70,
     "openTourFlagsOverlapping": {
       "missing video clocks": 3,
       "remote Discord proof": 8,
@@ -7582,8 +7582,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 2,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "amsterdam-drift",
@@ -7620,9 +7619,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 1,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Check remaining remote-only Discord WR images and preserve surviving originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "berlin-byways",
@@ -7644,8 +7641,18 @@
           ]
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/metropolitan2022-completion.json",
+      "documentedLimitations": [
+        "SuperFX finalBerlin1:14.54 accepted from the Metropolitan WR announcement and original result. June29submission13:19 is after06:00rollover; exact achievement day remains unknown and no dated reign duration is claimed.",
+        "NHSpeedyBerlin1:14.69 is faster than contemporaneousSucha1:14.83 but private/global precedence against SuperFXpreviousbest1:14.71 remains unresolved. It is supporting evidence and selected available recording, not promoted to confirmed WR.",
+        "Original upload/share/result submission clocks remain separate. NHSpeedy2022uploads have a capturedOctober2026Discordrepost; original2022submission unknown. Shine1:15.12 video uploadedJune29T05:59 beforeend and submitted06:04 afterward.",
+        "Only fastest documented opening-day results are shown: Nu11Amsterdam1:21.69 andBerlin1:14.88. Global opening WR succession remains unproved; raw intermediates preserved without WR profile awards.",
+        "Eight full-race recordings and two partial clips preserved on R2. Seven original recordings and N discussionrecording sampled/decoded; SuperFXstrategyclip carries prior visual disposition. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.",
+        "Prior57original-image visual dispositions and final standings/command/receipt reviews retained; files hashchecked,33exact-window discussionmessages indexed. Unidentified/deleted original supporting sources and unindexed/private/global material may remain.",
+        "Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred."
+      ]
     },
     {
       "id": "tour-73",
@@ -20082,5 +20089,5 @@
       "action": "Review retained succession/carry-in/source gaps if surviving evidence can resolve them; sparse counts alone do not prove omitted WRs."
     }
   ],
-  "latestCompletionAudit": "archive/cat2022-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/metropolitan2022-final-publication-audit-20261013.json"
 }
