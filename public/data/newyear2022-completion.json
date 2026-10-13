@@ -2,8 +2,8 @@
   "tourId": "tour-60",
   "tour": "New Year's 2022 Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-12-29T06:00:00Z",
@@ -38,7 +38,18 @@
     "archive/new-year-2022-reconciliation.json",
     "archive/newyear2022-selected-recording-clocks-and-scope-20261012.json",
     "archive/newyear2022-selected-recording-r2-preservation-20261012.json",
-    "archive/newyear2022-r2-proof-and-video-link-check-20261012.json"
+    "archive/newyear2022-r2-proof-and-video-link-check-20261012.json",
+    "archive/newyear2022-discussion-image-integrity-index-20261013.json",
+    "archive/newyear2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/newyear2022-opening-day-publication-policy-check-20261013.json",
+    "archive/newyear2022-source-media-production-build-check-20261013.json",
+    "archive/newyear2022-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/newyear2022-final-announcement-source-check-20261013.json",
+    "archive/newyear2022-all-original-video-upload-share-clocks-20261013.json",
+    "archive/newyear2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+    "archive/newyear2022-exact-window-discussion-source-index-20261013.json",
+    "archive/newyear2022-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/newyear2022-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/new-year-2022-reconciliation.json",
@@ -54,7 +65,15 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 3,
-    "proofImageUrlsPassed": 65
+    "exactWindowDiscussionMessagesIndexed": 116,
+    "discussionImagesWithPriorDispositionsAndHashes": 7,
+    "submissionSourceMessages": 168,
+    "uniqueSubmissionOriginalFilesHashChecked": 137,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 6,
+    "historicalCompletedOriginalOnR2": 0,
+    "additionalOriginalSameResultOnR2": 0,
+    "partialClipsPreservedOnR2": 8
   },
   "remainingLimitations": [
     "Initial capture omitted 23 New Year images, including three intermediate WRs. Earlier tours require the same attachment-completeness audit; no global completion claim is made.",
@@ -63,34 +82,25 @@
     "Two Isun Twitter video posts (1480353594260230152 and 1480360138058137601) could not be downloaded; result screenshots and lap text survive.",
     "Course history outside this tour remains under audit.",
     "Three selected final recordings preserved on R2; prior visual review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered."
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Six full original recordings and eight partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
   ],
   "validation": {
-    "productionBuildPages": 894,
-    "recordingComparisonRenderChecks": 3,
-    "documentedResultsRows": [
-      3,
-      5,
-      15
-    ],
-    "videoRangeChecksPassed": 3,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-cheep-cheep-lagoon-r",
-        "reviewedRows": 42,
-        "differences": 0
-      },
-      {
-        "courseId": "n64-kalimari-desert",
-        "reviewedRows": 16,
-        "differences": 0
-      },
-      {
-        "courseId": "snes-vanilla-lake-1",
-        "reviewedRows": 50,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 631,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 145,
+    "selectedRecordingsWithFreshSampledVisualChecks": 3,
+    "selectedRecordingsWithFreshHashDecodeChecks": 3,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-61"
+  "nextTourId": "tour-61",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "e9371b8d7bba393ea5115ef82f6e0574207f8f45",
+  "latestPublicationAudit": "archive/newyear2022-final-publication-audit-20261013.json"
 }

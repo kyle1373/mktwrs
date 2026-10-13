@@ -8,7 +8,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 25 | 1 | 0 |
+| 2021 | 26 | 0 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -738,22 +738,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/pe
 
 ### 60. New Year's 2022 Tour (2021) — 2021-12-29 to 2022-01-12
 
-Source and publication review.
-
-**[3DS Cheep Cheep Lagoon R](https://mktwrs.com/course/3ds-cheep-cheep-lagoon-r)**: 14 WR rows; 55 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Kalimari Desert](https://mktwrs.com/course/n64-kalimari-desert)**: 4 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:15.29.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1)**: 7 WR rows; 42 supporting results; 0 pending candidates; carried-in WR 0:34.62.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/newyear2022-completion.json). 116 exact-window discussion messages, 7 discussion-image dispositions and 168 submission messages backed by 137 original-file hashes reconciled. Six full recordings and eight partial clips preserved on R2. Three selected finishes freshly sampled and files decoded. 631 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, unavailable Isun footage and deleted outside sources remain qualified.
 
 ### 61. Singapore Tour (2022) — 2022-01-12 to 2022-01-26
 

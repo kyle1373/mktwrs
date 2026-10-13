@@ -2,13 +2,13 @@
 
 Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `48f58df0`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags were also fetched live and match the committed flags.
 
-**57 practical reviews are closed with documented gaps; 124 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. New Year 2022 is next after live completion-label verification; review and publish one tour at a time.
+**58 practical reviews are closed with documented gaps; 123 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Singapore 2022 is next after live completion-label verification; review and publish one tour at a time.
 
 | Year | Reviewed with documented gaps | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 25 | 1 | 0 |
+| 2021 | 26 | 0 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -21,7 +21,7 @@ The catalogue ends at 30 September 2026. The interval from then through 13 Octob
 
 - **33** tours with unresolved candidates.
 - **10** tours with unresolved WR dates/order.
-- **7** tours with linked footage lacking an upload/share/submission clock.
+- **6** tours with linked footage lacking an upload/share/submission clock.
 - **11** tours with remote-only Discord WR images.
 - **77** tours with at least one course lacking linked footage.
 - **98** tours with at most two WR rows and at least five supporting results on a course.
@@ -852,22 +852,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/pe
 
 ### 60. New Year's 2022 Tour (2021) (2021-12-29 → 2022-01-12)
 
-**Open.** source and publication review.
-
-**[3DS Cheep Cheep Lagoon R](https://mktwrs.com/course/3ds-cheep-cheep-lagoon-r)** — 14 WR rows, 55 supporting results, 0 candidates, 10 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Kalimari Desert](https://mktwrs.com/course/n64-kalimari-desert)** — 4 WR rows, 9 supporting results, 0 candidates, 3 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1)** — 7 WR rows, 42 supporting results, 0 candidates, 2 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/newyear2022-completion.json). 116 exact-window discussion messages, 7 discussion-image dispositions and 168 submission messages backed by 137 original-file hashes reconciled. Six full recordings and eight partial clips preserved on R2. Three selected finishes freshly sampled and files decoded. 631 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, unavailable Isun footage and deleted outside sources remain qualified.
 
 ### 61. Singapore Tour (2022) (2022-01-12 → 2022-01-26)
 

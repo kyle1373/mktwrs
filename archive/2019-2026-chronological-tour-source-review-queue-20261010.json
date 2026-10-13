@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 57,
+    "practicallyCompletedTours": 58,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4061,7 +4061,7 @@
       "endDate": "2022-01-12",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_2022_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "3ds-cheep-cheep-lagoon-r",
@@ -4083,7 +4083,8 @@
             "archive/new-year-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/newyear2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         },
         {
           "courseId": "n64-kalimari-desert",
@@ -4106,7 +4107,8 @@
             "archive/new-year-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/newyear2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         },
         {
           "courseId": "snes-vanilla-lake-1",
@@ -4128,16 +4130,18 @@
             "archive/new-year-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/newyear2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/newyear2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/newyear2022-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/newyear2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-61",
@@ -11845,9 +11849,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/penguin2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-60",
+  "latestLivePublicationVerification": "archive/newyear2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-61",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-60"
+  "activeDetailedTourId": "tour-61"
 }

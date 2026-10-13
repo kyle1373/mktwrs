@@ -3,7 +3,7 @@
   "sourceCommit": "48f58df0de751e39d0b4b0c6a769f6dc111e8e0a",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-60",
+  "activeDetailedReview": "tour-61",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -34,9 +34,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 57,
+      "completed-with-documented-gaps": 58,
       "carry-in-and-sparse-history-check": 60,
-      "source-and-publication-review": 27,
+      "source-and-publication-review": 26,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 30,
       "sparse-history-review": 1,
@@ -57,9 +57,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 25,
+        "practicallyCompleted": 26,
         "notApplicable": 0,
-        "open": 1
+        "open": 0
       },
       "2022": {
         "catalogTours": 26,
@@ -92,11 +92,11 @@
         "open": 19
       }
     },
-    "openTours": 124,
+    "openTours": 123,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 33,
       "unresolvedWrDatesOrOrder": 10,
-      "missingVideoClocks": 7,
+      "missingVideoClocks": 6,
       "remoteOnlyDiscordWrImages": 11,
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98,
@@ -6262,8 +6262,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 3,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-cheep-cheep-lagoon-r",
@@ -6308,8 +6307,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-kalimari-desert",
@@ -6355,8 +6353,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-vanilla-lake-1",
@@ -6380,8 +6377,21 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/newyear2022-completion.json",
+      "documentedLimitations": [
+        "Initial capture omitted 23 New Year images, including three intermediate WRs. Earlier tours require the same attachment-completeness audit; no global completion claim is made.",
+        "Nu11 previous 1:14.92 date and ordering remain unresolved. DIT’s screenshot repeats a previous 34.20; its first attainment timestamp is unknown.",
+        "Wins previous 1:15.21/1:15.17 and other earlier personal-best dates require independent evidence before promotion to WR history.",
+        "Two Isun Twitter video posts (1480353594260230152 and 1480360138058137601) could not be downloaded; result screenshots and lap text survive.",
+        "Course history outside this tour remains under audit.",
+        "Three selected final recordings preserved on R2; prior visual review retained without fresh uninterrupted certification.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Six full original recordings and eight partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-61",
@@ -19374,6 +19384,6 @@
     "subsequentHolidayCompletionAudit": "archive/holiday2021-completion-label-live-publication-check-20261013.json",
     "subsequentPenguinCompletionAudit": "archive/penguin2021-completion-label-live-publication-check-20261013.json"
   },
-  "remainingCurrentTourWork": "Penguin 2021 completed labels verified live; New Year 2022 is next.",
-  "latestCompletionAudit": "archive/penguin2021-final-publication-audit-20261013.json"
+  "remainingCurrentTourWork": "Verify live New Year completion label before beginning Singapore 2022.",
+  "latestCompletionAudit": "archive/newyear2022-final-publication-audit-20261013.json"
 }

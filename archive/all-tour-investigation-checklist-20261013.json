@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 57,
-      "source-and-publication-review": 44,
+      "completed-with-documented-gaps": 58,
+      "source-and-publication-review": 43,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 24,
       "candidate-and-source-review": 45,
@@ -45,8 +45,8 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 57,
-    "toursRequiringInvestigation": 124,
+    "practicallyCompletedTours": 58,
+    "toursRequiringInvestigation": 123,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -69,11 +69,11 @@
       },
       "2021": {
         "catalogTours": 26,
-        "requiringInvestigation": 1,
+        "requiringInvestigation": 0,
         "categories": {
-          "source-and-publication-review": 1,
+          "source-and-publication-review": 0,
           "carry-in-and-sparse-history-check": 0,
-          "completed-with-documented-gaps": 25
+          "completed-with-documented-gaps": 26
         }
       },
       "2022": {
@@ -2832,9 +2832,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -2854,8 +2852,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -2875,13 +2872,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/newyear2022-completion.json",
+      "note": "Practical source/media review and live publication verified with documented gaps."
     },
     {
       "id": "tour-61",
@@ -11124,7 +11122,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-60",
+  "activeDetailedTourId": "tour-61",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
