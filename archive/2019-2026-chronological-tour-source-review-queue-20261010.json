@@ -12,7 +12,7 @@
       "endExclusive": "2027-01-01",
       "status": "tour-catalog-and-source-coverage-reconciliation-required",
       "futureDatesIncluded": true,
-      "basis": "Requested scope is full 2026; no future WRs can yet be archived. Current environment date is 2026-10-10."
+      "basis": "Catalogue ends 2026-09-30. Current interval through 2026-10-12 needs catalog/source reconciliation; later dates are future coverage."
     }
   },
   "summary": {
@@ -32,7 +32,13 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 62
+    "practicallyCompletedTours": 0,
+    "practicallyReviewedTours": 62,
+    "investigationClassifications": {
+      "not-applicable": 2,
+      "needs-history-reconstruction": 149,
+      "needs-source-coverage-and-media-review": 32
+    }
   },
   "reviewOrder": "Ascending tour start date. Preserve current New Year2021 source work, then use chronological unresolved queue; existing report or record counts never certify completeness.",
   "completionRequirements": [
@@ -54,7 +60,9 @@
       "reviewStatus": "not-applicable-before-documented-time-trial-introduction",
       "courses": [],
       "timeTrialApplicable": false,
-      "applicabilityReviewAudit": "archive/2019-opening-two-tour-applicability-and-halloween-challenges-review-20261010.json"
+      "applicabilityReviewAudit": "archive/2019-opening-two-tour-applicability-and-halloween-challenges-review-20261010.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "not-applicable"
     },
     {
       "tourId": "tour-2",
@@ -66,7 +74,9 @@
       "reviewStatus": "not-applicable-before-documented-time-trial-introduction",
       "courses": [],
       "timeTrialApplicable": false,
-      "applicabilityReviewAudit": "archive/2019-opening-two-tour-applicability-and-halloween-challenges-review-20261010.json"
+      "applicabilityReviewAudit": "archive/2019-opening-two-tour-applicability-and-halloween-challenges-review-20261010.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "not-applicable"
     },
     {
       "tourId": "tour-3",
@@ -75,7 +85,7 @@
       "endDate": "2019-11-06",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2019)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gcn-dino-dino-jungle",
@@ -300,7 +310,9 @@
         "railwayCause": "unresolved"
       },
       "practicalCompletionEvidence": "archive/halloween2019-practical-tour-completion-20261012.json",
-      "exhaustiveHistoryProven": false
+      "exhaustiveHistoryProven": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-4",
@@ -309,7 +321,7 @@
       "endDate": "2019-11-20",
       "tourSource": "https://www.mariowiki.com/Paris_Tour_(2019)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-luigi-s-mansion",
@@ -375,7 +387,10 @@
       ],
       "sourceReviewCrosswalk": "archive/paris2019-chronological-discussion-source-crosswalk-20261010.json",
       "practicalCompletionEvidence": "archive/paris2019-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-5",
@@ -384,7 +399,7 @@
       "endDate": "2019-12-04",
       "tourSource": "https://www.mariowiki.com/Winter_Tour_(2019)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-choco-island-2",
@@ -478,7 +493,10 @@
       "latestPreviousBestProofRevalidation": "archive/winter2019-mc3-11223-previous-best-original-proof-revalidation-20261010.json",
       "latestAggregatePublicationReconciliation": "archive/winter2019-individual-track-to-aggregate-publication-reconciliation-20261010.json",
       "practicalCompletionEvidence": "archive/winter2019-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-6",
@@ -487,7 +505,7 @@
       "endDate": "2019-12-18",
       "tourSource": "https://www.mariowiki.com/London_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-daisy-hills",
@@ -561,7 +579,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/london2019-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-7",
@@ -570,7 +591,7 @@
       "endDate": "2020-01-01",
       "tourSource": "https://www.mariowiki.com/Holiday_Tour_(2019)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-cheep-cheep-lagoon",
@@ -617,7 +638,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/holiday2019-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-8",
@@ -626,7 +650,7 @@
       "endDate": "2020-01-15",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-waluigi-pinball",
@@ -653,7 +677,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/newyear2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-9",
@@ -662,7 +689,7 @@
       "endDate": "2020-01-29",
       "tourSource": "https://www.mariowiki.com/Ice_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-1",
@@ -711,8 +738,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/ice2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/ice2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/ice2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-10",
@@ -721,7 +751,7 @@
       "endDate": "2020-02-12",
       "tourSource": "https://www.mariowiki.com/Valentine%27s_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-koopa-troopa-beach",
@@ -769,8 +799,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/valentines2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/valentines2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/valentines2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-11",
@@ -779,7 +812,7 @@
       "endDate": "2020-02-26",
       "tourSource": "https://www.mariowiki.com/Vancouver_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-choco-island-2r",
@@ -828,8 +861,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/vancouver2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/vancouver2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/vancouver2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-12",
@@ -838,7 +874,7 @@
       "endDate": "2020-03-11",
       "tourSource": "https://www.mariowiki.com/Mario_Bros._Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-ghost-valley-1",
@@ -888,8 +924,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/mariobros2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/mariobros2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/mariobros2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-13",
@@ -898,7 +937,7 @@
       "endDate": "2020-03-25",
       "tourSource": "https://www.mariowiki.com/Baby_Rosalina_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-mario-circuit-2r",
@@ -925,8 +964,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/babyrosalina2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/babyrosalina2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/babyrosalina2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-14",
@@ -935,7 +977,7 @@
       "endDate": "2020-04-08",
       "tourSource": "https://www.mariowiki.com/Hammer_Bro_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-frappe-snowland",
@@ -985,8 +1027,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/hammer2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/hammer2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/hammer2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-15",
@@ -995,7 +1040,7 @@
       "endDate": "2020-04-22",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-daisy-hills-r",
@@ -1040,8 +1085,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/yoshi2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/yoshi2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/yoshi2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-16",
@@ -1050,7 +1098,7 @@
       "endDate": "2020-05-06",
       "tourSource": "https://www.mariowiki.com/Trick_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-neo-bowser-city-r",
@@ -1094,8 +1142,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/trick2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/trick2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/trick2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-17",
@@ -1104,7 +1155,7 @@
       "endDate": "2020-05-20",
       "tourSource": "https://www.mariowiki.com/Flower_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-shy-guy-bazaar-r",
@@ -1128,8 +1179,11 @@
         }
       ],
       "practicalCompletionEvidence": "archive/flower2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true,
-      "livePublicationEvidence": "archive/flower2020-live-publication-verification-20261012.json"
+      "practicallyComplete": false,
+      "livePublicationEvidence": "archive/flower2020-live-publication-verification-20261012.json",
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-18",
@@ -1138,7 +1192,7 @@
       "endDate": "2020-06-03",
       "tourSource": "https://www.mariowiki.com/Jungle_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "snes-mario-circuit-1r",
@@ -1162,7 +1216,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/jungle2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-19",
@@ -1171,7 +1228,7 @@
       "endDate": "2020-06-17",
       "tourSource": "https://www.mariowiki.com/Cooking_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "snes-donut-plains-1",
@@ -1216,7 +1273,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/cooking2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-20",
@@ -1225,7 +1285,7 @@
       "endDate": "2020-07-01",
       "tourSource": "https://www.mariowiki.com/Peach_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "n64-frappe-snowland-r",
@@ -1269,7 +1329,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/peach2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-21",
@@ -1278,7 +1341,7 @@
       "endDate": "2020-07-15",
       "tourSource": "https://www.mariowiki.com/Marine_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-mario-circuit",
@@ -1322,7 +1385,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/marine2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-22",
@@ -1331,7 +1397,7 @@
       "endDate": "2020-07-29",
       "tourSource": "https://www.mariowiki.com/Exploration_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "gcn-dino-dino-jungle",
@@ -1377,7 +1443,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/exploration2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-23",
@@ -1386,7 +1455,7 @@
       "endDate": "2020-08-12",
       "tourSource": "https://www.mariowiki.com/Wild_West_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-2",
@@ -1431,7 +1500,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/wildwest2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-24",
@@ -1440,7 +1512,7 @@
       "endDate": "2020-08-26",
       "tourSource": "https://www.mariowiki.com/Pirate_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-1r",
@@ -1484,7 +1556,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/pirate2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-25",
@@ -1493,7 +1568,7 @@
       "endDate": "2020-09-09",
       "tourSource": "https://www.mariowiki.com/Summer_Festival_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-choco-island-2",
@@ -1537,7 +1612,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/summerfest2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-26",
@@ -1546,7 +1624,7 @@
       "endDate": "2020-09-23",
       "tourSource": "https://www.mariowiki.com/Super_Mario_Kart_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-ghost-valley-1r",
@@ -1590,7 +1668,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/supermario2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-27",
@@ -1599,7 +1680,7 @@
       "endDate": "2020-10-07",
       "tourSource": "https://www.mariowiki.com/Los_Angeles_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "ds-dk-pass",
@@ -1625,7 +1706,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/losangeles2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-28",
@@ -1634,7 +1718,7 @@
       "endDate": "2020-10-21",
       "tourSource": "https://www.mariowiki.com/1st_Anniversary_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-toad-circuit",
@@ -1660,7 +1744,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/anniversary2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-29",
@@ -1669,7 +1756,7 @@
       "endDate": "2020-11-04",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "ds-airship-fortress",
@@ -1717,7 +1804,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/halloween2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-30",
@@ -1726,7 +1816,7 @@
       "endDate": "2020-11-18",
       "tourSource": "https://www.mariowiki.com/Sunset_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-neo-bowser-city",
@@ -1772,7 +1862,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/sunset2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-31",
@@ -1781,7 +1874,7 @@
       "endDate": "2020-12-02",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Luigi_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "snes-mario-circuit-2",
@@ -1827,7 +1920,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/marioluigi2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-32",
@@ -1836,7 +1932,7 @@
       "endDate": "2020-12-16",
       "tourSource": "https://www.mariowiki.com/Winter_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "snes-choco-island-1",
@@ -1882,7 +1978,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/winter2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-33",
@@ -1891,7 +1990,7 @@
       "endDate": "2020-12-30",
       "tourSource": "https://www.mariowiki.com/Rosalina_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "n64-choco-mountain",
@@ -1939,7 +2038,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/rosalina2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-34",
@@ -1948,7 +2050,7 @@
       "endDate": "2021-01-13",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_2021_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "ds-airship-fortress-r",
@@ -1992,7 +2094,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/newyear2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-35",
@@ -2001,7 +2106,7 @@
       "endDate": "2021-01-27",
       "tourSource": "https://www.mariowiki.com/Berlin_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-kalimari-desert-2",
@@ -2045,7 +2150,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/berlin2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-36",
@@ -2054,7 +2162,7 @@
       "endDate": "2021-02-10",
       "tourSource": "https://www.mariowiki.com/Cat_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "wii-maple-treeway-r",
@@ -2103,7 +2211,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/cat2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-37",
@@ -2112,7 +2223,7 @@
       "endDate": "2021-02-24",
       "tourSource": "https://www.mariowiki.com/Peach_vs._Daisy_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-choco-mountain-r",
@@ -2183,7 +2294,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/peachdaisy2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-38",
@@ -2192,7 +2306,7 @@
       "endDate": "2021-03-10",
       "tourSource": "https://www.mariowiki.com/Snow_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "rmx-rainbow-road-1r",
@@ -2240,7 +2354,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/snow2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-39",
@@ -2249,7 +2366,7 @@
       "endDate": "2021-03-24",
       "tourSource": "https://www.mariowiki.com/Mario_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-1",
@@ -2317,7 +2434,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/mario2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-40",
@@ -2326,7 +2446,7 @@
       "endDate": "2021-04-07",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "tokyo-blur-4r",
@@ -2374,7 +2494,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/yoshi2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-41",
@@ -2383,7 +2506,7 @@
       "endDate": "2021-04-21",
       "tourSource": "https://www.mariowiki.com/Ninja_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-mario-circuit-r",
@@ -2431,7 +2554,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/ninja2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-42",
@@ -2440,7 +2566,7 @@
       "endDate": "2021-05-05",
       "tourSource": "https://www.mariowiki.com/Sydney_Tour_(April%E2%80%93May_2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-neo-bowser-city-r",
@@ -2486,7 +2612,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/sydney2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-43",
@@ -2495,7 +2624,7 @@
       "endDate": "2021-05-19",
       "tourSource": "https://www.mariowiki.com/Bowser_vs._DK_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-airship-fortress",
@@ -2595,7 +2724,10 @@
         "archive/may2021-may9-five-time-standings-context-reconciliation-20261011.json"
       ],
       "practicalCompletionEvidence": "archive/bowserdk2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-44",
@@ -2604,7 +2736,7 @@
       "endDate": "2021-06-02",
       "tourSource": "https://www.mariowiki.com/Trick_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "snes-ghost-valley-1",
@@ -2697,7 +2829,10 @@
         "archive/may2021-five-written-report-context-dispositions-20261011.json"
       ],
       "practicalCompletionEvidence": "archive/trick2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-45",
@@ -2706,7 +2841,7 @@
       "endDate": "2021-06-16",
       "tourSource": "https://www.mariowiki.com/Wedding_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-mario-circuit",
@@ -2757,7 +2892,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/wedding2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-46",
@@ -2766,7 +2904,7 @@
       "endDate": "2021-06-30",
       "tourSource": "https://www.mariowiki.com/Paris_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-2r",
@@ -2836,7 +2974,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/paris2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-47",
@@ -2845,7 +2986,7 @@
       "endDate": "2021-07-14",
       "tourSource": "https://www.mariowiki.com/Summer_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-airship-fortress-r",
@@ -2891,7 +3032,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/summer2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-48",
@@ -2900,7 +3044,7 @@
       "endDate": "2021-07-28",
       "tourSource": "https://www.mariowiki.com/Los_Angeles_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-kalimari-desert-r",
@@ -2949,7 +3093,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/la2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-49",
@@ -2958,7 +3105,7 @@
       "endDate": "2021-08-11",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Peach_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-cheep-cheep-island",
@@ -3004,7 +3151,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/mariopeach2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-50",
@@ -3013,7 +3163,7 @@
       "endDate": "2021-08-25",
       "tourSource": "https://www.mariowiki.com/Frost_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-dk-summit",
@@ -3061,7 +3211,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/frost2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-51",
@@ -3070,7 +3223,7 @@
       "endDate": "2021-09-08",
       "tourSource": "https://www.mariowiki.com/Kamek_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-rainbow-road-r",
@@ -3119,7 +3272,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/kamek2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-52",
@@ -3128,7 +3284,7 @@
       "endDate": "2021-09-22",
       "tourSource": "https://www.mariowiki.com/Sydney_Tour_(September_2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "rmx-vanilla-lake-1r",
@@ -3176,7 +3332,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/sydneysep2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-53",
@@ -3185,7 +3344,7 @@
       "endDate": "2021-10-06",
       "tourSource": "https://www.mariowiki.com/2nd_Anniversary_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "berlin-byways-2",
@@ -3234,7 +3393,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/anniversary2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-54",
@@ -3243,7 +3405,7 @@
       "endDate": "2021-10-20",
       "tourSource": "https://www.mariowiki.com/Autumn_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "rmx-ghost-valley-1",
@@ -3290,7 +3452,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/autumn2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-55",
@@ -3299,7 +3464,7 @@
       "endDate": "2021-11-03",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "gcn-dino-dino-jungle-r",
@@ -3345,7 +3510,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/halloween2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-56",
@@ -3354,7 +3522,7 @@
       "endDate": "2021-11-17",
       "tourSource": "https://www.mariowiki.com/Toad_vs._Toadette_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-1",
@@ -3421,7 +3589,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/toadette2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-57",
@@ -3430,7 +3601,7 @@
       "endDate": "2021-12-01",
       "tourSource": "https://www.mariowiki.com/Space_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-koopa-troopa-beach-2",
@@ -3476,7 +3647,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/space2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-58",
@@ -3485,7 +3659,7 @@
       "endDate": "2021-12-15",
       "tourSource": "https://www.mariowiki.com/Holiday_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-choco-mountain-r",
@@ -3529,7 +3703,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/holiday2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-59",
@@ -3538,7 +3715,7 @@
       "endDate": "2021-12-29",
       "tourSource": "https://www.mariowiki.com/Penguin_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-2r",
@@ -3584,7 +3761,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/penguin2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-60",
@@ -3593,7 +3773,7 @@
       "endDate": "2022-01-12",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_2022_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-cheep-cheep-lagoon-r",
@@ -3664,7 +3844,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/newyear2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-61",
@@ -3673,7 +3856,7 @@
       "endDate": "2022-01-26",
       "tourSource": "https://www.mariowiki.com/Singapore_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "singapore-speedway",
@@ -3721,7 +3904,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/singapore2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-62",
@@ -3730,7 +3916,7 @@
       "endDate": "2022-02-09",
       "tourSource": "https://www.mariowiki.com/Wario_vs._Waluigi_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle",
@@ -3778,7 +3964,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/wariowaluigi2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-63",
@@ -3787,7 +3976,7 @@
       "endDate": "2022-02-23",
       "tourSource": "https://www.mariowiki.com/Los_Angeles_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "wii-dk-summit-r",
@@ -3835,7 +4024,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/losangeles2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-64",
@@ -3844,7 +4036,7 @@
       "endDate": "2022-03-09",
       "tourSource": "https://www.mariowiki.com/Sky_Tour",
       "historyComplete": false,
-      "reviewStatus": "completed-with-documented-gaps",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "rmx-ghost-valley-1r",
@@ -3870,7 +4062,10 @@
         }
       ],
       "practicalCompletionEvidence": "archive/sky2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": true
+      "practicallyComplete": false,
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review",
+      "priorPracticalReviewCompleted": true
     },
     {
       "tourId": "tour-65",
@@ -3879,7 +4074,7 @@
       "endDate": "2022-03-23",
       "tourSource": "https://www.mariowiki.com/Mii_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-kalimari-desert-2r",
@@ -3923,7 +4118,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-66",
@@ -3932,7 +4129,7 @@
       "endDate": "2022-04-06",
       "tourSource": "https://www.mariowiki.com/Samurai_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "rmx-vanilla-lake-1",
@@ -3977,7 +4174,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-67",
@@ -3986,7 +4185,7 @@
       "endDate": "2022-04-20",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle-r",
@@ -4032,7 +4231,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review"
     },
     {
       "tourId": "tour-68",
@@ -4041,7 +4242,7 @@
       "endDate": "2022-05-04",
       "tourSource": "https://www.mariowiki.com/Amsterdam_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "snes-choco-island-1r",
@@ -4087,7 +4288,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review"
     },
     {
       "tourId": "tour-69",
@@ -4096,7 +4299,7 @@
       "endDate": "2022-05-18",
       "tourSource": "https://www.mariowiki.com/Doctor_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-cheep-cheep-island",
@@ -4141,7 +4344,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-70",
@@ -4150,7 +4355,7 @@
       "endDate": "2022-06-01",
       "tourSource": "https://www.mariowiki.com/Peach_vs._Bowser_Tour_(May_2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-koopa-troopa-beach-r",
@@ -4194,7 +4399,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-71",
@@ -4203,7 +4410,7 @@
       "endDate": "2022-06-15",
       "tourSource": "https://www.mariowiki.com/Cat_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-frappe-snowland-r",
@@ -4249,7 +4456,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-72",
@@ -4258,7 +4467,7 @@
       "endDate": "2022-06-29",
       "tourSource": "https://www.mariowiki.com/Metropolitan_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "amsterdam-drift",
@@ -4304,7 +4513,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-73",
@@ -4313,7 +4524,7 @@
       "endDate": "2022-07-13",
       "tourSource": "https://www.mariowiki.com/Bangkok_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-coconut-mall",
@@ -4359,7 +4570,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-74",
@@ -4368,7 +4581,7 @@
       "endDate": "2022-07-27",
       "tourSource": "https://www.mariowiki.com/Piranha_Plant_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-source-coverage-and-media-review",
       "courses": [
         {
           "courseId": "snes-ghost-valley-1r",
@@ -4392,7 +4605,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-source-coverage-and-media-review"
     },
     {
       "tourId": "tour-75",
@@ -4401,7 +4616,7 @@
       "endDate": "2022-08-10",
       "tourSource": "https://www.mariowiki.com/Ocean_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "rmx-rainbow-road-2r",
@@ -4423,7 +4638,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-76",
@@ -4432,7 +4649,7 @@
       "endDate": "2022-08-24",
       "tourSource": "https://www.mariowiki.com/Sundae_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle",
@@ -4477,7 +4694,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-77",
@@ -4486,7 +4705,7 @@
       "endDate": "2022-09-07",
       "tourSource": "https://www.mariowiki.com/Bowser_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-3",
@@ -4540,7 +4759,9 @@
       ],
       "sourceReviews": [
         "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json"
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-78",
@@ -4549,7 +4770,7 @@
       "endDate": "2022-09-21",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Luigi_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-dk-pass",
@@ -4647,7 +4868,9 @@
       "sourceReviews": [
         "archive/september2022-four-wins-receipt-attachment-source-reconciliation-20261011.json",
         "archive/september2022-four-additional-receipt-attachment-source-reconciliation-20261011.json"
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-79",
@@ -4656,7 +4879,7 @@
       "endDate": "2022-10-05",
       "tourSource": "https://www.mariowiki.com/Anniversary_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "berlin-byways-3",
@@ -4715,7 +4938,9 @@
       ],
       "sourceReviews": [
         "archive/september2022-four-wins-receipt-attachment-source-reconciliation-20261011.json"
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-80",
@@ -4724,7 +4949,7 @@
       "endDate": "2022-10-19",
       "tourSource": "https://www.mariowiki.com/Battle_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-1r",
@@ -4768,7 +4993,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-81",
@@ -4777,7 +5004,7 @@
       "endDate": "2022-11-02",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3",
@@ -4800,7 +5027,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-82",
@@ -4809,7 +5038,7 @@
       "endDate": "2022-11-16",
       "tourSource": "https://www.mariowiki.com/Autumn_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "los-angeles-laps-2",
@@ -4855,7 +5084,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-83",
@@ -4864,7 +5095,7 @@
       "endDate": "2022-11-30",
       "tourSource": "https://www.mariowiki.com/Animal_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-choco-mountain",
@@ -4907,7 +5138,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-84",
@@ -4916,7 +5149,7 @@
       "endDate": "2022-12-14",
       "tourSource": "https://www.mariowiki.com/Peach_vs._Bowser_Tour_(November%E2%80%93December_2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle-r",
@@ -4979,7 +5212,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-85",
@@ -4988,7 +5223,7 @@
       "endDate": "2022-12-28",
       "tourSource": "https://www.mariowiki.com/Holiday_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-snow-land",
@@ -5032,7 +5267,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-86",
@@ -5041,7 +5278,7 @@
       "endDate": "2023-01-11",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-koopa-cape",
@@ -5086,7 +5323,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-87",
@@ -5095,7 +5334,7 @@
       "endDate": "2023-01-25",
       "tourSource": "https://www.mariowiki.com/Space_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-cheep-cheep-island-r",
@@ -5142,7 +5381,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-88",
@@ -5151,7 +5392,7 @@
       "endDate": "2023-02-08",
       "tourSource": "https://www.mariowiki.com/Winter_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "bangkok-rush-2",
@@ -5216,7 +5457,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-89",
@@ -5225,7 +5468,7 @@
       "endDate": "2023-02-22",
       "tourSource": "https://www.mariowiki.com/Exploration_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "piranha-plant-cove",
@@ -5269,7 +5512,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-90",
@@ -5278,7 +5523,7 @@
       "endDate": "2023-03-08",
       "tourSource": "https://www.mariowiki.com/Doctor_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-peach-gardens-r",
@@ -5323,7 +5568,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-91",
@@ -5332,7 +5579,7 @@
       "endDate": "2023-03-22",
       "tourSource": "https://www.mariowiki.com/Mario_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3r",
@@ -5376,7 +5623,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-92",
@@ -5385,7 +5634,7 @@
       "endDate": "2023-04-05",
       "tourSource": "https://www.mariowiki.com/Ninja_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-rainbow-road",
@@ -5431,7 +5680,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-93",
@@ -5440,7 +5691,7 @@
       "endDate": "2023-04-19",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-2r",
@@ -5484,7 +5735,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-94",
@@ -5493,7 +5746,7 @@
       "endDate": "2023-05-03",
       "tourSource": "https://www.mariowiki.com/Spring_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-2",
@@ -5537,7 +5790,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-95",
@@ -5546,7 +5801,7 @@
       "endDate": "2023-05-17",
       "tourSource": "https://www.mariowiki.com/Bowser_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-4",
@@ -5589,7 +5844,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-96",
@@ -5598,7 +5855,7 @@
       "endDate": "2023-05-31",
       "tourSource": "https://www.mariowiki.com/Mii_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-maple-treeway-r",
@@ -5643,7 +5900,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-97",
@@ -5652,7 +5911,7 @@
       "endDate": "2023-06-14",
       "tourSource": "https://www.mariowiki.com/Princess_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-coconut-mall",
@@ -5694,7 +5953,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-98",
@@ -5703,7 +5964,7 @@
       "endDate": "2023-06-28",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Luigi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-luigi-raceway-r",
@@ -5726,7 +5987,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-99",
@@ -5735,7 +5998,7 @@
       "endDate": "2023-07-12",
       "tourSource": "https://www.mariowiki.com/Night_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "rome-avanti-2",
@@ -5801,7 +6064,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-100",
@@ -5810,7 +6075,7 @@
       "endDate": "2023-07-26",
       "tourSource": "https://www.mariowiki.com/Pipe_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-dry-dry-ruins",
@@ -5854,7 +6119,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-101",
@@ -5863,7 +6130,7 @@
       "endDate": "2023-08-09",
       "tourSource": "https://www.mariowiki.com/Sunshine_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-daisy-circuit",
@@ -5907,7 +6174,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-102",
@@ -5916,7 +6185,7 @@
       "endDate": "2023-08-23",
       "tourSource": "https://www.mariowiki.com/Vacation_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash",
@@ -5980,7 +6249,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-103",
@@ -5989,7 +6260,7 @@
       "endDate": "2023-09-06",
       "tourSource": "https://www.mariowiki.com/Summer_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "berlin-byways-2",
@@ -6056,7 +6327,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-104",
@@ -6065,7 +6338,7 @@
       "endDate": "2023-09-20",
       "tourSource": "https://www.mariowiki.com/Sundae_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-luigi-circuit",
@@ -6109,7 +6382,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-105",
@@ -6118,7 +6393,7 @@
       "endDate": "2023-10-04",
       "tourSource": "https://www.mariowiki.com/Anniversary_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-3",
@@ -6183,7 +6458,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-106",
@@ -6192,7 +6469,7 @@
       "endDate": "2023-10-18",
       "tourSource": "https://www.mariowiki.com/Battle_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-1r",
@@ -6235,7 +6512,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-107",
@@ -6244,7 +6523,7 @@
       "endDate": "2023-11-01",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3",
@@ -6266,7 +6545,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-108",
@@ -6275,7 +6556,7 @@
       "endDate": "2023-11-15",
       "tourSource": "https://www.mariowiki.com/Autumn_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "los-angeles-laps-2",
@@ -6318,7 +6599,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-109",
@@ -6327,7 +6610,7 @@
       "endDate": "2023-11-29",
       "tourSource": "https://www.mariowiki.com/Animal_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-choco-mountain",
@@ -6369,7 +6652,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-110",
@@ -6378,7 +6663,7 @@
       "endDate": "2023-12-13",
       "tourSource": "https://www.mariowiki.com/Peach_vs._Bowser_Tour_(November%E2%80%93December_2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle-r",
@@ -6443,7 +6728,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-111",
@@ -6452,7 +6739,7 @@
       "endDate": "2023-12-27",
       "tourSource": "https://www.mariowiki.com/Holiday_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-snow-land",
@@ -6495,7 +6782,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-112",
@@ -6504,7 +6793,7 @@
       "endDate": "2024-01-10",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-koopa-cape",
@@ -6549,7 +6838,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-113",
@@ -6558,7 +6849,7 @@
       "endDate": "2024-01-24",
       "tourSource": "https://www.mariowiki.com/Space_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-cheep-cheep-island-r",
@@ -6602,7 +6893,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-114",
@@ -6611,7 +6904,7 @@
       "endDate": "2024-02-07",
       "tourSource": "https://www.mariowiki.com/Winter_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "bangkok-rush-2",
@@ -6674,7 +6967,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-115",
@@ -6683,7 +6978,7 @@
       "endDate": "2024-02-21",
       "tourSource": "https://www.mariowiki.com/Exploration_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "piranha-plant-cove",
@@ -6726,7 +7021,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-116",
@@ -6735,7 +7032,7 @@
       "endDate": "2024-03-06",
       "tourSource": "https://www.mariowiki.com/Doctor_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-peach-gardens-r",
@@ -6780,7 +7077,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-117",
@@ -6789,7 +7088,7 @@
       "endDate": "2024-03-20",
       "tourSource": "https://www.mariowiki.com/Mario_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3r",
@@ -6832,7 +7131,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-118",
@@ -6841,7 +7142,7 @@
       "endDate": "2024-04-03",
       "tourSource": "https://www.mariowiki.com/Ninja_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-rainbow-road",
@@ -6887,7 +7188,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-119",
@@ -6896,7 +7199,7 @@
       "endDate": "2024-04-17",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-2r",
@@ -6940,7 +7243,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-120",
@@ -6949,7 +7254,7 @@
       "endDate": "2024-05-01",
       "tourSource": "https://www.mariowiki.com/Spring_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-2",
@@ -6993,7 +7298,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-121",
@@ -7002,7 +7309,7 @@
       "endDate": "2024-05-15",
       "tourSource": "https://www.mariowiki.com/Bowser_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-4",
@@ -7044,7 +7351,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-122",
@@ -7053,7 +7362,7 @@
       "endDate": "2024-05-29",
       "tourSource": "https://www.mariowiki.com/Mii_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-maple-treeway-r",
@@ -7095,7 +7404,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-123",
@@ -7104,7 +7415,7 @@
       "endDate": "2024-06-12",
       "tourSource": "https://www.mariowiki.com/Princess_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-coconut-mall",
@@ -7146,7 +7457,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-124",
@@ -7155,7 +7468,7 @@
       "endDate": "2024-06-26",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Luigi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-luigi-raceway-r",
@@ -7178,7 +7491,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-125",
@@ -7187,7 +7502,7 @@
       "endDate": "2024-07-10",
       "tourSource": "https://www.mariowiki.com/Night_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "rome-avanti-2",
@@ -7251,7 +7566,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-126",
@@ -7260,7 +7577,7 @@
       "endDate": "2024-07-24",
       "tourSource": "https://www.mariowiki.com/Pipe_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-dry-dry-ruins",
@@ -7303,7 +7620,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-127",
@@ -7312,7 +7631,7 @@
       "endDate": "2024-08-07",
       "tourSource": "https://www.mariowiki.com/Sunshine_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-daisy-circuit",
@@ -7357,7 +7676,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-128",
@@ -7366,7 +7687,7 @@
       "endDate": "2024-08-21",
       "tourSource": "https://www.mariowiki.com/Vacation_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash",
@@ -7431,7 +7752,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-129",
@@ -7440,7 +7763,7 @@
       "endDate": "2024-09-04",
       "tourSource": "https://www.mariowiki.com/Summer_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "berlin-byways-2",
@@ -7503,7 +7826,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-130",
@@ -7512,7 +7837,7 @@
       "endDate": "2024-09-18",
       "tourSource": "https://www.mariowiki.com/Sundae_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-luigi-circuit",
@@ -7555,7 +7880,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-131",
@@ -7564,7 +7891,7 @@
       "endDate": "2024-10-02",
       "tourSource": "https://www.mariowiki.com/Anniversary_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-3",
@@ -7627,7 +7954,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-132",
@@ -7636,7 +7965,7 @@
       "endDate": "2024-10-16",
       "tourSource": "https://www.mariowiki.com/Battle_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-1r",
@@ -7679,7 +8008,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-133",
@@ -7688,7 +8019,7 @@
       "endDate": "2024-10-30",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3",
@@ -7710,7 +8041,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-134",
@@ -7719,7 +8052,7 @@
       "endDate": "2024-11-13",
       "tourSource": "https://www.mariowiki.com/Autumn_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "los-angeles-laps-2",
@@ -7761,7 +8094,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-135",
@@ -7770,7 +8105,7 @@
       "endDate": "2024-11-27",
       "tourSource": "https://www.mariowiki.com/Animal_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-choco-mountain",
@@ -7812,7 +8147,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-136",
@@ -7821,7 +8158,7 @@
       "endDate": "2024-12-11",
       "tourSource": "https://www.mariowiki.com/Peach_vs._Bowser_Tour_(November%E2%80%93December_2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle-r",
@@ -7884,7 +8221,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-137",
@@ -7893,7 +8232,7 @@
       "endDate": "2024-12-25",
       "tourSource": "https://www.mariowiki.com/Holiday_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-snow-land",
@@ -7935,7 +8274,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-138",
@@ -7944,7 +8285,7 @@
       "endDate": "2025-01-08",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-koopa-cape",
@@ -7986,7 +8327,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-139",
@@ -7995,7 +8338,7 @@
       "endDate": "2025-01-22",
       "tourSource": "https://www.mariowiki.com/Space_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-cheep-cheep-island-r",
@@ -8039,7 +8382,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-140",
@@ -8048,7 +8393,7 @@
       "endDate": "2025-02-05",
       "tourSource": "https://www.mariowiki.com/Winter_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "bangkok-rush-2",
@@ -8110,7 +8455,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-141",
@@ -8119,7 +8466,7 @@
       "endDate": "2025-02-19",
       "tourSource": "https://www.mariowiki.com/Exploration_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "piranha-plant-cove",
@@ -8161,7 +8508,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-142",
@@ -8170,7 +8519,7 @@
       "endDate": "2025-03-05",
       "tourSource": "https://www.mariowiki.com/Doctor_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-peach-gardens-r",
@@ -8212,7 +8561,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-143",
@@ -8221,7 +8572,7 @@
       "endDate": "2025-03-19",
       "tourSource": "https://www.mariowiki.com/Mario_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3r",
@@ -8265,7 +8616,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-144",
@@ -8274,7 +8627,7 @@
       "endDate": "2025-04-02",
       "tourSource": "https://www.mariowiki.com/Ninja_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-rainbow-road",
@@ -8316,7 +8669,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-145",
@@ -8325,7 +8680,7 @@
       "endDate": "2025-04-16",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-2r",
@@ -8367,7 +8722,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-146",
@@ -8376,7 +8733,7 @@
       "endDate": "2025-04-30",
       "tourSource": "https://www.mariowiki.com/Spring_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-2",
@@ -8418,7 +8775,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-147",
@@ -8427,7 +8786,7 @@
       "endDate": "2025-05-14",
       "tourSource": "https://www.mariowiki.com/Bowser_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-4",
@@ -8469,7 +8828,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-148",
@@ -8478,7 +8839,7 @@
       "endDate": "2025-05-28",
       "tourSource": "https://www.mariowiki.com/Mii_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-maple-treeway-r",
@@ -8521,7 +8882,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-149",
@@ -8530,7 +8893,7 @@
       "endDate": "2025-06-11",
       "tourSource": "https://www.mariowiki.com/Princess_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-coconut-mall",
@@ -8572,7 +8935,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-150",
@@ -8581,7 +8946,7 @@
       "endDate": "2025-06-25",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Luigi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-luigi-raceway-r",
@@ -8603,7 +8968,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-151",
@@ -8612,7 +8979,7 @@
       "endDate": "2025-07-09",
       "tourSource": "https://www.mariowiki.com/Night_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "rome-avanti-2",
@@ -8674,7 +9041,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-152",
@@ -8683,7 +9052,7 @@
       "endDate": "2025-07-23",
       "tourSource": "https://www.mariowiki.com/Pipe_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-dry-dry-ruins",
@@ -8726,7 +9095,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-153",
@@ -8735,7 +9106,7 @@
       "endDate": "2025-08-06",
       "tourSource": "https://www.mariowiki.com/Sunshine_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-daisy-circuit",
@@ -8779,7 +9150,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-154",
@@ -8788,7 +9161,7 @@
       "endDate": "2025-08-20",
       "tourSource": "https://www.mariowiki.com/Vacation_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash",
@@ -8852,7 +9225,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-155",
@@ -8861,7 +9236,7 @@
       "endDate": "2025-09-03",
       "tourSource": "https://www.mariowiki.com/Summer_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "berlin-byways-2",
@@ -8924,7 +9299,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-156",
@@ -8933,7 +9310,7 @@
       "endDate": "2025-09-17",
       "tourSource": "https://www.mariowiki.com/Sundae_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-luigi-circuit",
@@ -8976,7 +9353,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-157",
@@ -8985,7 +9364,7 @@
       "endDate": "2025-10-01",
       "tourSource": "https://www.mariowiki.com/Anniversary_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-3",
@@ -9047,7 +9426,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-158",
@@ -9056,7 +9437,7 @@
       "endDate": "2025-10-15",
       "tourSource": "https://www.mariowiki.com/Battle_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-1r",
@@ -9098,7 +9479,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-159",
@@ -9107,7 +9490,7 @@
       "endDate": "2025-10-29",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3",
@@ -9129,7 +9512,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-160",
@@ -9138,7 +9523,7 @@
       "endDate": "2025-11-12",
       "tourSource": "https://www.mariowiki.com/Autumn_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "los-angeles-laps-2",
@@ -9181,7 +9566,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-161",
@@ -9190,7 +9577,7 @@
       "endDate": "2025-11-26",
       "tourSource": "https://www.mariowiki.com/Animal_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-choco-mountain",
@@ -9233,7 +9620,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-162",
@@ -9242,7 +9631,7 @@
       "endDate": "2025-12-10",
       "tourSource": "https://www.mariowiki.com/Peach_vs._Bowser_Tour_(November%E2%80%93December_2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle-r",
@@ -9306,7 +9695,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-163",
@@ -9315,7 +9706,7 @@
       "endDate": "2025-12-24",
       "tourSource": "https://www.mariowiki.com/Holiday_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-snow-land",
@@ -9358,7 +9749,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-164",
@@ -9367,7 +9760,7 @@
       "endDate": "2026-01-07",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-koopa-cape",
@@ -9410,7 +9803,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-165",
@@ -9419,7 +9814,7 @@
       "endDate": "2026-01-21",
       "tourSource": "https://www.mariowiki.com/Space_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-cheep-cheep-island-r",
@@ -9461,7 +9856,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-166",
@@ -9470,7 +9867,7 @@
       "endDate": "2026-02-04",
       "tourSource": "https://www.mariowiki.com/Winter_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "bangkok-rush-2",
@@ -9532,7 +9929,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-167",
@@ -9541,7 +9940,7 @@
       "endDate": "2026-02-18",
       "tourSource": "https://www.mariowiki.com/Exploration_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "piranha-plant-cove",
@@ -9584,7 +9983,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-168",
@@ -9593,7 +9994,7 @@
       "endDate": "2026-03-04",
       "tourSource": "https://www.mariowiki.com/Doctor_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "ds-peach-gardens-r",
@@ -9636,7 +10037,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-169",
@@ -9645,7 +10048,7 @@
       "endDate": "2026-03-18",
       "tourSource": "https://www.mariowiki.com/Mario_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-3r",
@@ -9687,7 +10090,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-170",
@@ -9696,7 +10101,7 @@
       "endDate": "2026-04-01",
       "tourSource": "https://www.mariowiki.com/Ninja_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-rainbow-road",
@@ -9739,7 +10144,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-171",
@@ -9748,7 +10155,7 @@
       "endDate": "2026-04-15",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "snes-donut-plains-2r",
@@ -9790,7 +10197,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-172",
@@ -9799,7 +10208,7 @@
       "endDate": "2026-04-29",
       "tourSource": "https://www.mariowiki.com/Spring_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-2",
@@ -9841,7 +10250,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-173",
@@ -9850,7 +10261,7 @@
       "endDate": "2026-05-13",
       "tourSource": "https://www.mariowiki.com/Bowser_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-4",
@@ -9893,7 +10304,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-174",
@@ -9902,7 +10315,7 @@
       "endDate": "2026-05-27",
       "tourSource": "https://www.mariowiki.com/Mii_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-maple-treeway-r",
@@ -9944,7 +10357,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-175",
@@ -9953,7 +10368,7 @@
       "endDate": "2026-06-10",
       "tourSource": "https://www.mariowiki.com/Princess_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-coconut-mall",
@@ -9995,7 +10410,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-176",
@@ -10004,7 +10421,7 @@
       "endDate": "2026-06-24",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Luigi_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "n64-luigi-raceway-r",
@@ -10027,7 +10444,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-177",
@@ -10036,7 +10455,7 @@
       "endDate": "2026-07-08",
       "tourSource": "https://www.mariowiki.com/Night_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "rome-avanti-2",
@@ -10099,7 +10518,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-178",
@@ -10108,7 +10529,7 @@
       "endDate": "2026-07-22",
       "tourSource": "https://www.mariowiki.com/Pipe_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-dry-dry-ruins",
@@ -10151,7 +10572,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-179",
@@ -10160,7 +10583,7 @@
       "endDate": "2026-08-05",
       "tourSource": "https://www.mariowiki.com/Sunshine_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "wii-daisy-circuit",
@@ -10204,7 +10627,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-180",
@@ -10213,7 +10638,7 @@
       "endDate": "2026-08-19",
       "tourSource": "https://www.mariowiki.com/Vacation_Tour",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash",
@@ -10275,7 +10700,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-181",
@@ -10284,7 +10711,7 @@
       "endDate": "2026-09-02",
       "tourSource": "https://www.mariowiki.com/Summer_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "berlin-byways-2",
@@ -10348,7 +10775,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-182",
@@ -10357,7 +10786,7 @@
       "endDate": "2026-09-16",
       "tourSource": "https://www.mariowiki.com/Sundae_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "gba-luigi-circuit",
@@ -10401,7 +10830,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     },
     {
       "tourId": "tour-183",
@@ -10410,7 +10841,7 @@
       "endDate": "2026-09-30",
       "tourSource": "https://www.mariowiki.com/Anniversary_Tour_(2023)",
       "historyComplete": false,
-      "reviewStatus": "chronological-review-required",
+      "reviewStatus": "needs-history-reconstruction",
       "courses": [
         {
           "courseId": "athens-dash-3",
@@ -10472,7 +10903,9 @@
           "historyComplete": false,
           "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
         }
-      ]
+      ],
+      "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
+      "investigationClassification": "needs-history-reconstruction"
     }
   ],
   "limitations": [
@@ -10877,5 +11310,6 @@
     "unknownDatesMayRemainUnknown": true
   },
   "latestLivePublicationVerification": "archive/losangeles2022-live-publication-verification-20261012.json",
-  "nextChronologicalTourId": "tour-64"
+  "nextChronologicalTourId": "tour-64",
+  "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json"
 }
