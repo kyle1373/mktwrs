@@ -2,8 +2,8 @@
   "tourId": "tour-17",
   "tour": "Flower Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: surviving completed-run proofs,129freshdiscussion-image dispositions,10additionalserverleads, prior server review, preserved source-index integrity and live publication checked. Unknown dates/identities and unavailable originals remain qualified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-05-06T06:00:00Z",
@@ -25,7 +25,15 @@
     "archive/flower2020-brandon-two-completed-video-review-20261005.json",
     "archive/winter2020-video-preservation.json",
     "archive/flower2020-selected-recording-r2-preservation-20261012.json",
-    "archive/flower2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/flower2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/flower2020-final-publication-audit-20261013.json",
+    "archive/flower2020-discussion-image-publication-crosswalk-20261013.json",
+    "archive/flower2020-selected-recording-fresh-visual-and-access-review-20261013.json",
+    "archive/flower2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/flower2020-additional-server-time-trial-leads-review-20261013.json",
+    "archive/flower2020-three-slower-originals-r2-preservation-20261013.json",
+    "archive/flower2020-media-and-preserved-ledger-validation-20261013.json",
+    "archive/flower2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/flower-2020-review-progress.json",
@@ -36,29 +44,33 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 11
+    "proofImageUrlsPassed": 11,
+    "slowerCompletedRecordingsPreservedOnR2": 3,
+    "discussionImageDispositions": 129,
+    "additionalServerLeadsReviewed": 10,
+    "preservedServerImageHashesVerified": 718
   },
   "remainingLimitations": [
-    "No available original final1:39.00WR recording recovered. Wins1:39.76 is fastest preserved reviewed completed footage.",
-    "Four prior unavailable server attachments and two stale viewer entries remain explicit gaps.",
-    "Deleted opening runner identity unresolved; opening-day fastest policy removes superseded opening WR profile claims while raw evidence remains.",
-    "Original race times and some intermediate rival order unresolved; report/upload/repost clocks are distinct.",
-    "Prior completed recording review retained without fresh uninterrupted certification. Deleted/private/global material not proven recovered."
+    "No original final1:39.00WR recording found; Wins1:39.76 is fastest preserved reviewed completed recording.",
+    "Four unavailable server attachments and two stale viewer entries remain explicit gaps.",
+    "Deleted opening runner identity and some exact race dates/intermediate order unresolved; source/report/upload/share clocks stay distinct.",
+    "Prior718serverimage visual review retained;129discussion images and10additionalserverleads freshly reviewed. This is not exhaustive all-server reconstruction.",
+    "Representative selected-video samples plus successful decode verified; continuous unedited-race certification not claimed."
   ],
   "validation": {
-    "productionBuildPages": 910,
-    "recordingComparisonRenderChecks": 1,
-    "documentedResultsRows": [
-      4
-    ],
-    "videoRangeChecksPassed": 1,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-shy-guy-bazaar-r",
-        "reviewedRows": 36,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 63,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 9,
+    "freshSelectedRecordingReviews": 1,
+    "finalResultImagesVerified": 1,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-18"
+  "nextTourId": "tour-18",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/flower2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/flower2020-discussion-image-publication-crosswalk-20261013.json",
+  "sourceCommit": "8c5545e6c0727f86c0f08b71453e5e8de15c9062"
 }

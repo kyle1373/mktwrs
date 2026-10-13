@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 14,
+    "practicallyCompletedTours": 15,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -1226,7 +1226,7 @@
       "endDate": "2020-05-20",
       "tourSource": "https://www.mariowiki.com/Flower_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "3ds-shy-guy-bazaar-r",
@@ -1246,17 +1246,19 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/flower2020-discussion-image-publication-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/flower2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/flower2020-completion.json",
+      "practicallyComplete": true,
       "livePublicationEvidence": "archive/flower2020-live-publication-verification-20261012.json",
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/flower2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-18",
@@ -11714,9 +11716,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/trick2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-17",
+  "latestLivePublicationVerification": "archive/flower2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-18",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-17"
+  "activeDetailedTourId": "tour-18"
 }

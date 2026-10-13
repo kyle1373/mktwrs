@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Trick 2020 (14 tours), with documented gaps. Flower 2020 is the active detailed review. 167 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Flower 2020 (15 tours), with documented gaps. Jungle 2020 is the next detailed review. 166 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 9 | 18 | 0 |
+| 2020 | 27 | 10 | 17 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -254,14 +254,7 @@ Completed with documented gaps.
 
 ### 17. Flower Tour (2020) — 2020-05-06 to 2020-05-20
 
-Source and publication review.
-
-**[3DS Shy Guy Bazaar R](https://mktwrs.com/course/3ds-shy-guy-bazaar-r)**: 16 WR rows; 46 supporting rows; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
+Completed with documented gaps on 13 October after the survey. [Completion evidence](https://mktwrs.com/data/flower2020-completion.json): 129 discussion-image dispositions, 718 preserved server-image hashes, 63 live publication rows and 9 readable R2 links. WR **1:39.00**; fastest available completed recording **Wins 1:39.76**. Four missing attachments, two stale viewer entries and unknown exact dates remain qualified.
 
 ### 18. Jungle Tour (2020) — 2020-05-20 to 2020-06-03
 

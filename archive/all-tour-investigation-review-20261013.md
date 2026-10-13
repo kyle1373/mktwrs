@@ -2,9 +2,9 @@
 
 Reviewed all **183 catalog tours / 381 track appearances**. Latest live recheck: 2026-10-13T07:42:55.745619+00:00. Refreshed 142 live course pages: 142 HTTP 200; 142 WR row counts match published source `afe8d56c`.
 
-This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Flower 2020 is next after fourteen completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
+This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Jungle 2020 is next after fifteen completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
 
-Fourteen practical reviews are completed with documented gaps: Halloween, Paris, Winter, London and Holiday 2019, plus New Year, Ice, Valentine’s, Vancouver and Mario Bros., Baby Rosalina, Hammer Bro, Yoshi and Trick 2020. **167 tours remain open**, including every catalogued tour from 2021 onward.
+Fifteen practical reviews are completed with documented gaps: Halloween, Paris, Winter, London and Holiday 2019, plus New Year, Ice, Valentine’s, Vancouver and Mario Bros., Baby Rosalina, Hammer Bro, Yoshi, Trick and Flower2020. **166 tours remain open**, including every catalogued tour from 2021 onward.
 
 ## Strongest visible gaps
 
@@ -24,7 +24,7 @@ Fourteen practical reviews are completed with documented gaps: Halloween, Paris,
 | Year | Catalog tours | Need investigation |
 |---|---:|---:|
 | 2019 | 7 | 0 |
-| 2020 | 27 | 18 |
+| 2020 | 27 | 17 |
 | 2021 | 26 | 26 |
 | 2022 | 26 | 26 |
 | 2023 | 26 | 26 |
@@ -54,7 +54,7 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 | 14 | Hammer Bro Tour (2020) · 2020-03-25 | completed with documented gaps | [N64 Frappe Snowland](https://mktwrs.com/course/n64-frappe-snowland): 1 WR / 32 support; [GCN Yoshi Circuit R](https://mktwrs.com/course/gcn-yoshi-circuit-r): 1 WR / 27 support |
 | 15 | Yoshi Tour (2020) · 2020-04-08 | completed with documented gaps | [3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r): 8 WR / 91 support; [N64 Kalimari Desert](https://mktwrs.com/course/n64-kalimari-desert): 3 WR / 78 support |
 | 16 | Trick Tour (2020) · 2020-04-22 | completed with documented gaps | [3DS Neo Bowser City R](https://mktwrs.com/course/3ds-neo-bowser-city-r): 19 WR / 138 support; [SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1): 6 WR / 126 support |
-| 17 | Flower Tour (2020) · 2020-05-06 | source and publication review | [3DS Shy Guy Bazaar R](https://mktwrs.com/course/3ds-shy-guy-bazaar-r): 5 WR / 46 support |
+| 17 | Flower Tour (2020) · 2020-05-06 | completed with documented gaps | [3DS Shy Guy Bazaar R](https://mktwrs.com/course/3ds-shy-guy-bazaar-r): 5 WR / 46 support |
 | 18 | Jungle Tour (2020) · 2020-05-20 | source and publication review | [SNES Mario Circuit 1R](https://mktwrs.com/course/snes-mario-circuit-1r): 6 WR / 84 support |
 | 19 | Cooking Tour (2020) · 2020-06-03 | source and publication review | [SNES Donut Plains 1](https://mktwrs.com/course/snes-donut-plains-1): 11 WR / 26 support; [DS Waluigi Pinball R](https://mktwrs.com/course/ds-waluigi-pinball-r): 4 WR / 6 support |
 | 20 | Peach Tour (2020) · 2020-06-17 | source and publication review | [N64 Frappe Snowland R](https://mktwrs.com/course/n64-frappe-snowland-r): 28 WR / 32 support; [RMX Mario Circuit 1](https://mktwrs.com/course/rmx-mario-circuit-1): 10 WR / 66 support |
@@ -224,7 +224,7 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 
 ## Sparse early histories to investigate
 
-Hammer Bro 2020’s practical review is complete with documented gaps. Flower 2020 is next. Baby Rosalina’s practical review is complete with documented gaps. Valentine’s, Vancouver and Mario Bros. practical reviews are complete with documented gaps. Hammer Bro includes GCN Yoshi Circuit R: one undated WR and 27 tour-attributed supporting results. The raw course file has 39 supporting results overall; these counts must not be confused with WR succession or tour-specific coverage. Autumn 2022 is also flagged for sparse history.
+Hammer Bro 2020’s practical review is complete with documented gaps. Jungle 2020 is next. Baby Rosalina’s practical review is complete with documented gaps. Valentine’s, Vancouver and Mario Bros. practical reviews are complete with documented gaps. Hammer Bro includes GCN Yoshi Circuit R: one undated WR and 27 tour-attributed supporting results. The raw course file has 39 supporting results overall; these counts must not be confused with WR succession or tour-specific coverage. Autumn 2022 is also flagged for sparse history.
 
 Mario Bros. completion labels and the final publication audit reference were verified live in this refresh.
 
