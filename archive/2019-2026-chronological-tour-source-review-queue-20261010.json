@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 40,
+    "practicallyCompletedTours": 41,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -2823,7 +2823,7 @@
       "endDate": "2021-05-19",
       "tourSource": "https://www.mariowiki.com/Bowser_vs._DK_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "ds-airship-fortress",
@@ -2843,7 +2843,7 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "reviewStatus": "completed-with-documented-gaps",
           "openSourceRelationships": [
             {
               "messageId": "839970248577122304",
@@ -2852,7 +2852,8 @@
               "reviewAudit": "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json",
               "status": "written-self-report-preserved-original-result-proof-unresolved"
             }
-          ]
+          ],
+          "latestReviewAudit": "archive/bowserdk2021-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "n64-kalimari-desert-2r",
@@ -2872,7 +2873,8 @@
             "archive/bowser-dk-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/bowserdk2021-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "3ds-rosalina-s-ice-world-r",
@@ -2894,7 +2896,7 @@
             "archive/bowser-dk-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required",
+          "reviewStatus": "completed-with-documented-gaps",
           "openSourceRelationships": [
             {
               "messageId": "840934074864500736",
@@ -2915,20 +2917,22 @@
               "reviewAudit": "archive/may2021-may9-five-time-standings-context-reconciliation-20261011.json",
               "status": "five-time-standings-crosswalk-six-original-candidates-equal-time-identity-unresolved"
             }
-          ]
+          ],
+          "latestReviewAudit": "archive/bowserdk2021-practical-source-coverage-disposition-20261013.json"
         }
       ],
       "sourceReviews": [
         "archive/may2021-three-kazuo-written-result-source-recovery-20261011.json",
         "archive/may2021-may9-five-time-standings-context-reconciliation-20261011.json"
       ],
-      "practicalCompletionEvidence": "archive/bowserdk2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/bowserdk2021-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "carry-in-and-sparse-history-check"
+      "investigationCategory": "carry-in-and-sparse-history-check",
+      "latestPublicationAudit": "archive/bowserdk2021-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-44",
@@ -11790,9 +11794,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/sydney2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-43",
+  "latestLivePublicationVerification": "archive/bowserdk2021-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-44",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-43"
+  "activeDetailedTourId": "tour-44"
 }

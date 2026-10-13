@@ -2,13 +2,13 @@
 
 Reviewed all **183 catalog tours, 381 course appearances, and 142 live course pages** against `496b5e73`. All 142 pages and JSON files returned HTTP 200; their data and rendered WR counts match the isolated publication output.
 
-**40 practical reviews closed; 141 tours open; 2 pre-time-trial tours not applicable.** Closed reviews retain documented gaps and do not certify exhaustive history. Detailed review moves to **Bowser vs. DK 2021**. The screening itself changes no completion flags; Yoshi, Ninja and Sydney April 2021 were subsequently closed using its separate source and live-publication audits.
+**41 practical reviews closed; 140 tours open; 2 pre-time-trial tours not applicable.** Closed reviews retain documented gaps and do not certify exhaustive history. Detailed review moves to **Trick 2021**. The screening itself changes no completion flags; Yoshi, Ninja and Sydney April 2021 were subsequently closed using its separate source and live-publication audits.
 
 | Year | Practical reviews closed | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 8 | 18 | 0 |
+| 2021 | 9 | 17 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -587,23 +587,9 @@ Completed with documented gaps.
 
 ### 43. Bowser vs. DK Tour (2021) — 2021-05-05 to 2021-05-19
 
-Carry in and sparse history check.
+Completed with documented gaps.
 
-**[DS Airship Fortress](https://mktwrs.com/course/ds-airship-fortress)**: 1 WR rows; 46 supporting results; 0 pending candidates; carried-in WR 1:30.07.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 21 WR rows; 85 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Rosalina's Ice World R](https://mktwrs.com/course/3ds-rosalina-s-ice-world-r)**: 7 WR rows; 82 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/bowserdk2021-completion.json). 1769 preserved messages and 229 image dispositions checked; all three final WR recordings freshly sampled including completed finish frames. Eleven completed runs, ten partial clips and a duplicate community WR copy preserved on R2. Kalimari debut-day leadership and global source completeness remain qualified.
 
 ### 44. Trick Tour (2021) — 2021-05-19 to 2021-06-02
 

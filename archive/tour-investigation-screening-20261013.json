@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-43",
+  "activeDetailedReview": "tour-44",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 40,
+      "completed-with-documented-gaps": 41,
       "source-and-publication-review": 37,
-      "carry-in-and-sparse-history-check": 69,
+      "carry-in-and-sparse-history-check": 68,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
       "faster-result-reconciliation": 6,
@@ -57,9 +57,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 8,
+        "practicallyCompleted": 9,
         "notApplicable": 0,
-        "open": 18
+        "open": 17
       },
       "2022": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 141
+    "toursRequiringInvestigation": 140
   },
   "tours": [
     {
@@ -4091,9 +4091,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "ds-airship-fortress",
@@ -4131,8 +4129,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-kalimari-desert-2r",
@@ -4169,8 +4166,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-rosalina-s-ice-world-r",
@@ -4192,8 +4188,24 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/bowserdk2021-completion.json",
+      "documentedLimitations": [
+        "Image indexing and keyword searches do not establish complete server-message coverage.",
+        "Some previous-best dates and lap splits remain unresolved.",
+        "N’s qualified lap recollection is retained in notes, not treated as exact.",
+        "Two same-player reties are retained as submissions without inflating WR changes.",
+        "Original Nu 1:29.85 video and first Kazuo 1:04.30 video post are unavailable; the latter has a surviving preserved repost.",
+        "All three Kazuo final WRs have preserved footage. Kalimari original tweet deleted; May15 surviving repost and May14 community copy retain earlier result date.",
+        "Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.",
+        "Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.",
+        "Kalimari Desert2R has no accepted debut-day WR; first accepted history beginsMay6. Opening global leadership remains unresolved.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Community Kalimari64.30 copy is separate preservation of the selected final run; share date does not reset original WR date.",
+        "Partial route clips remain separate from completed runs.",
+        "Eight additional completed recordings retained with prior reviews; ten short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-44",
@@ -18761,5 +18773,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/sydney2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/bowserdk2021-final-publication-audit-20261013.json"
 }
