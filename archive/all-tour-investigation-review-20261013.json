@@ -24,7 +24,7 @@
     "Refreshed all 142 live course pages against afe8d56c; all WR counts match. Mario Bros. practical completion labels and final audit reference verified live."
   ],
   "policy": [
-    "One tour at a time. Autumn2022 completion verified live; Animal2022 is active.",
+    "One tour at a time. Animal2022 completion prepared; verify live before tour84.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -37,15 +37,15 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 80,
-      "candidate-and-source-review": 37,
+      "completed-with-documented-gaps": 81,
       "faster-result-reconciliation": 4,
+      "candidate-and-source-review": 36,
       "debut-history-gap": 4,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 80,
-    "toursRequiringInvestigation": 101,
+    "practicallyCompletedTours": 81,
+    "toursRequiringInvestigation": 100,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -61,7 +61,7 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 4
+        "requiringInvestigation": 3
       },
       "2023": {
         "catalogTours": 26,
@@ -4086,10 +4086,9 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical review completed with documented gaps; qualifications remain in completion evidence."
+          ],
+          "renderedSupportingRows": 38
         },
         {
           "courseId": "n64-yoshi-valley-r",
@@ -4103,13 +4102,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical review completed with documented gaps; qualifications remain in completion evidence."
+          ],
+          "renderedSupportingRows": 56
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/animal2022-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-84",
@@ -11257,6 +11257,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-83",
-  "latestCompletionAudit": "archive/autumn2022-completion-label-live-check-20261013.json",
+  "latestCompletionAudit": "public/data/animal2022-completion.json",
   "updatedAt": "2026-10-13T23:15:48.419591+00:00"
 }
