@@ -641,7 +641,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <RecordTable records={c.currentHolders} players={players} />
       <CourseStats c={c} players={players} />
       <FastestVideo course={c} players={players} />
-      <HalloweenRecording comparison={c.halloween2019Recording} players={players} />
+      <HalloweenRecording comparison={c.halloween2019Recording} players={players} completed={c.halloween2019Recording?.practicalReviewComplete === true} />
       <HalloweenSupportingResults results={c.halloweenSupportingResults} players={players} />
       {!!c.preservedHalloweenRecordings?.length && <details className="sources">
         <summary>Additional preserved Halloween recordings ({c.preservedHalloweenRecordings.length})</summary>
