@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-71",
+  "activeDetailedReview": "tour-72",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,11 +33,11 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 68,
+      "completed-with-documented-gaps": 69,
       "source-and-publication-review": 19,
       "carry-in-and-sparse-history-check": 62,
       "data-quality-and-history-check": 0,
-      "candidate-and-source-review": 21,
+      "candidate-and-source-review": 20,
       "faster-result-reconciliation": 6,
       "sparse-history-review": 1,
       "debut-history-gap": 4
@@ -63,9 +63,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 10,
+        "practicallyCompleted": 11,
         "notApplicable": 0,
-        "open": 16
+        "open": 15
       },
       "2023": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 113
+    "toursRequiringInvestigation": 112
   },
   "tours": [
     {
@@ -7305,8 +7305,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-frappe-snowland-r",
@@ -7343,11 +7342,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 1,
           "nextActions": [
-            "Resolve pending candidates with surviving good-enough proof.",
-            "Review unresolved order/date bounds; keep race, report and submission dates distinct.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Check remaining remote-only Discord WR images and preserve surviving originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-yoshi-valley",
@@ -7367,8 +7362,17 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/cat2022-completion.json",
+      "documentedLimitations": [
+        "Nu11 final Yoshi Valley1:30.07 is documented by the preserved June21 final standings and WR announcement. Individual run image/recording, achievement date and lap splits remain unavailable. Sucha1:30.18 is shown separately as the fastest documented available recording.",
+        "Saki7 linked1:30.32 video returned unavailable during original-format recovery. Existing image/leaderboard proof retained; this is an access result, not permanent or worldwide footage-absence proof.",
+        "Opening Yoshi global WR precedence remains unknown. Only final fastest documented opening-daySaki7 1:30.51 is shown; 25 intermediate raw submissions remain preserved. Starin1:30.69 is slower supporting evidence against the earlier Saki7 result.",
+        "Prior original image, standings and command/receipt dispositions retained. Unidentified/deleted supporting sources and approximate/strategy-only discussion remain qualified; no exhaustive deleted/private/unindexed source recovery claim.",
+        "Four available recordings preserved on R2, start/race/lap-two/finish samples inspected and full files decoded. Every-frame continuity and worldwide fastest-footage completeness are not certified.",
+        "Upload/share/submission clocks remain distinct documentary bounds. June21 announcement/table publication does not establish an exact Nu11 achievement instant. Mutable video title2ndworldwide does not date rival precedence."
+      ]
     },
     {
       "id": "tour-72",
@@ -19106,6 +19110,6 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/peachbowsermay2022-final-publication-audit-20261013.json",
-  "activeDetailedTourId": "tour-71"
+  "latestCompletionAudit": "archive/cat2022-final-publication-audit-20261013.json",
+  "activeDetailedTourId": "tour-72"
 }

@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 68,
+    "practicallyCompletedTours": 69,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4765,7 +4765,7 @@
       "endDate": "2022-06-15",
       "tourSource": "https://www.mariowiki.com/Cat_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "n64-frappe-snowland-r",
@@ -4786,7 +4786,8 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/cat2022-final-publication-audit-20261013.json"
         },
         {
           "courseId": "n64-yoshi-valley",
@@ -4809,13 +4810,17 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/cat2022-final-publication-audit-20261013.json"
         }
       ],
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "candidate-and-source-review"
+      "investigationCategory": "candidate-and-source-review",
+      "practicallyComplete": true,
+      "practicalCompletionEvidence": "public/data/cat2022-completion.json",
+      "latestPublicationAudit": "archive/cat2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-72",
@@ -11890,9 +11895,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/peachbowsermay2022-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-71",
+  "latestLivePublicationVerification": "archive/cat2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-72",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-71"
+  "activeDetailedTourId": "tour-72"
 }

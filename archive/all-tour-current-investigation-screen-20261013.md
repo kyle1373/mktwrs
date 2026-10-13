@@ -2,14 +2,14 @@
 
 Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `48f58df0`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags were also fetched live and match the committed flags.
 
-**68 practical reviews are closed with documented gaps; 113 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Mii 2022 is next after live completion-label verification; review and publish one tour at a time.
+**69 practical reviews are closed with documented gaps; 112 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Mii 2022 is next after live completion-label verification; review and publish one tour at a time.
 
 | Year | Reviewed with documented gaps | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 10 | 16 | 0 |
+| 2022 | 11 | 15 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -928,20 +928,14 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sk
 
 ### 71. Cat Tour (2022) (2022-06-01 → 2022-06-15)
 
-**Open.** candidate and source review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/cat2022-completion.json). 94 original-file hashes,104 exact-window discussion messages, four R2 recordings sampled/decoded and two preserved final standings. 326whole-course rows match live publication,95R2 links readable.
 
-**[N64 Frappe Snowland R](https://mktwrs.com/course/n64-frappe-snowland-r)** — 5 WR rows, 87 supporting results, 0 candidates, 7 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Yoshi Valley](https://mktwrs.com/course/n64-yoshi-valley)** — 4 WR rows, 127 supporting results, 1 candidates, 8 linked-video rows.
-
-- Resolve pending candidates with surviving good-enough proof.
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Nu11 final Yoshi Valley1:30.07 is documented by the preserved June21 final standings and WR announcement. Individual run image/recording, achievement date and lap splits remain unavailable. Sucha1:30.18 is shown separately as the fastest documented available recording.
+- Saki7 linked1:30.32 video returned unavailable during original-format recovery. Existing image/leaderboard proof retained; this is an access result, not permanent or worldwide footage-absence proof.
+- Opening Yoshi global WR precedence remains unknown. Only final fastest documented opening-daySaki7 1:30.51 is shown; 25 intermediate raw submissions remain preserved. Starin1:30.69 is slower supporting evidence against the earlier Saki7 result.
+- Prior original image, standings and command/receipt dispositions retained. Unidentified/deleted supporting sources and approximate/strategy-only discussion remain qualified; no exhaustive deleted/private/unindexed source recovery claim.
+- Four available recordings preserved on R2, start/race/lap-two/finish samples inspected and full files decoded. Every-frame continuity and worldwide fastest-footage completeness are not certified.
+- Upload/share/submission clocks remain distinct documentary bounds. June21 announcement/table publication does not establish an exact Nu11 achievement instant. Mutable video title2ndworldwide does not date rival precedence.
 
 ### 72. Metropolitan Tour (2022) (2022-06-15 → 2022-06-29)
 

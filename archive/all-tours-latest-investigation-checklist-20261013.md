@@ -4,7 +4,7 @@ Live screening: **2026-10-13T20:43:54.088852+00:00**. Review-status commit: `3ff
 
 Fetched all **142 course pages and 142 data files**, and screened **183 tours / 381 course appearances**. Every request returned HTTP 200. This identifies investigation leads; it does not verify every original proof.
 
-**113 reviews remain open. 68 tours have practical reviews closed with documented gaps, chronologically through Peach vs. Bowser May 2022. Cat 2022 remains active and open.** Two 2019 tours predate time trials.
+**112 reviews remain open. 69 tours have practical reviews closed with documented gaps, chronologically through Cat 2022. Metropolitan 2022 is next.** Two 2019 tours predate time trials.
 
 The catalog ends 30 September 2026. The 30 September–13 October interval still needs cataloguing. Later 2026 history cannot be completed before it happens.
 
@@ -13,7 +13,7 @@ The catalog ends 30 September 2026. The 30 September–13 October interval still
 | 2019 | 5 | 0 |
 | 2020 | 27 | 0 |
 | 2021 | 26 | 0 |
-| 2022 | 10 | 16 |
+| 2022 | 11 | 15 |
 | 2023 | 0 | 26 |
 | 2024 | 0 | 26 |
 | 2025 | 0 | 26 |
@@ -131,7 +131,7 @@ Counts overlap. Repeat tours may legitimately have no new WR if a carried-in rec
 | 68 | Amsterdam Tour (2022) | 2022-04-20–2022-05-04 | Closed with documented gaps | Source/publication review |
 | 69 | Doctor Tour (2022) | 2022-05-04–2022-05-18 | Closed with documented gaps | sparse progression |
 | 70 | Peach vs. Bowser Tour (May 2022) (2022) | 2022-05-18–2022-06-01 | Closed with documented gaps | candidates, remote Discord proof, sparse progression |
-| 71 | Cat Tour (2022) | 2022-06-01–2022-06-15 | Active: Cat review | candidates, date/order, remote Discord proof |
+| 71 | Cat Tour (2022) | 2022-06-01–2022-06-15 | Closed with documented gaps | candidates, date/order, remote Discord proof |
 | 72 | Metropolitan Tour (2022) | 2022-06-15–2022-06-29 | Open | missing video clocks, remote Discord proof |
 | 73 | Bangkok Tour (2022) | 2022-06-29–2022-07-13 | Open | date/order, missing video clocks, remote Discord proof |
 | 74 | Piranha Plant Tour (2022) | 2022-07-13–2022-07-27 | Open | Source/publication review |
@@ -1435,15 +1435,14 @@ Closed with gaps. [Completion evidence](https://mktwrs.com/data/peachbowsermay20
 
 ### 71. Cat Tour (2022)
 
-- [N64 Frappe Snowland R](https://mktwrs.com/course/n64-frappe-snowland-r): **5 WR / 87 supporting / 0 candidates**. Flags: source/publication review.
-  Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-  Finish tour source coverage and verify the public tour section before marking practical completion.
-- [N64 Yoshi Valley](https://mktwrs.com/course/n64-yoshi-valley): **4 WR / 127 supporting / 1 candidates**. Flags: candidates, date/order, remote Discord proof.
-  Resolve pending candidates with surviving good-enough proof.
-  Review unresolved order/date bounds; keep race, report and submission dates distinct.
-  Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-  Check remaining remote-only Discord WR images and preserve surviving originals on R2.
-  Finish tour source coverage and verify the public tour section before marking practical completion.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/cat2022-completion.json). 94 original-file hashes,104 exact-window discussion messages, four R2 recordings sampled/decoded and two preserved final standings. 326whole-course rows match live publication,95R2 links readable.
+
+- Nu11 final Yoshi Valley1:30.07 is documented by the preserved June21 final standings and WR announcement. Individual run image/recording, achievement date and lap splits remain unavailable. Sucha1:30.18 is shown separately as the fastest documented available recording.
+- Saki7 linked1:30.32 video returned unavailable during original-format recovery. Existing image/leaderboard proof retained; this is an access result, not permanent or worldwide footage-absence proof.
+- Opening Yoshi global WR precedence remains unknown. Only final fastest documented opening-daySaki7 1:30.51 is shown; 25 intermediate raw submissions remain preserved. Starin1:30.69 is slower supporting evidence against the earlier Saki7 result.
+- Prior original image, standings and command/receipt dispositions retained. Unidentified/deleted supporting sources and approximate/strategy-only discussion remain qualified; no exhaustive deleted/private/unindexed source recovery claim.
+- Four available recordings preserved on R2, start/race/lap-two/finish samples inspected and full files decoded. Every-frame continuity and worldwide fastest-footage completeness are not certified.
+- Upload/share/submission clocks remain distinct documentary bounds. June21 announcement/table publication does not establish an exact Nu11 achievement instant. Mutable video title2ndworldwide does not date rival precedence.
 
 ### 72. Metropolitan Tour (2022)
 
