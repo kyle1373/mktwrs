@@ -594,6 +594,11 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <p className="video-links">{r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}{r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <EvidenceTimes r={r} />
     </> : <p>No recording has an explicit full-race continuity certification in this archive.</p>}
+    {comparison.reportedRecording && <>
+      <p>Faster available recording, using the uploader’s stated time: <strong>{comparison.reportedRecording.time}</strong> · <Player id={comparison.reportedRecording.playerId} players={players} /> · <a href={comparison.reportedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.reportedRecording.videoBackup?.url && <> · <a href={comparison.reportedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
+      <p className="table-note">{comparison.reportedRecording.evidenceNote}</p>
+      <EvidenceTimes r={comparison.reportedRecording} />
+    </>}
     {comparison.lateStartRecording && <>
       <p>Available recording starts late: <strong>{comparison.lateStartRecording.time}</strong> · <Player id={comparison.lateStartRecording.playerId} players={players} /> · <a href={comparison.lateStartRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.lateStartRecording.videoBackup?.url && <> · <a href={comparison.lateStartRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The finish and result are visible; the beginning of the race is missing.</p>
@@ -805,6 +810,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.halloween2022SupportingResults} players={players} tourLabel="Halloween Tour (2022)" />
       <HalloweenRecording comparison={c.autumn2022Recording} players={players} tourLabel="Autumn Tour (2022)" completed={c.autumn2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.autumn2022SupportingResults} players={players} tourLabel="Autumn Tour (2022)" />
+      <HalloweenRecording comparison={c.animal2022Recording} players={players} tourLabel="Animal Tour (2022)" completed={c.animal2022Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.animal2022SupportingResults} players={players} tourLabel="Animal Tour (2022)" />
       <HalloweenRecording comparison={c.samurai2022Recording} players={players} tourLabel="Samurai Tour (2022)" completed={c.samurai2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.samurai2022SupportingResults} players={players} tourLabel="Samurai Tour (2022)" />
       <HalloweenRecording comparison={c.supermario2020Recording} players={players} tourLabel="Super Mario Kart Tour (2020)" completed={c.supermario2020Recording?.practicalReviewComplete === true} />
