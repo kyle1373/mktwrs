@@ -1,0 +1,76 @@
+{
+  "reviewedAt": "2026-10-13T05:50:12.826936+00:00",
+  "tourId": "tour-3",
+  "status": "practical-source-review-finished-final-publication-check-pending",
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "standard": "User requested good-enough proof; accept documented unknown achievement dates, unavailable originals and minor conflicts; publish final fastest opening-day run and ties, genuine subsequent leaders and available footage separately.",
+  "requirements": [
+    {
+      "requirement": "Original WR and supporting-sheet reconciliation",
+      "status": "reviewed",
+      "evidence": "archive/halloween2019-full-original-leaderboard-crosswalk-and-supporting-recoveries-20261011.json",
+      "counts": {
+        "originalWrSheetRows": 41,
+        "supportingSheetRows": 92,
+        "unmatchedSupportingRows": 0
+      }
+    },
+    {
+      "requirement": "Preserved Discord coverage and tour boundary",
+      "status": "reviewed",
+      "evidence": "archive/halloween2019-preserved-server-census-count-and-tour-boundary-verification-20261011.json",
+      "counts": {
+        "pages": 151,
+        "uniqueMessages": 3757,
+        "withinTourWindow": 3711
+      }
+    },
+    {
+      "requirement": "Recordings and proof images",
+      "status": "reviewed-with-documented-limits",
+      "evidence": [
+        "archive/halloween2019-astre12570-preserved-original-and-visible-sample-review-20261012.json",
+        "archive/halloween2019-two-unreal-sampled-recordings-and-nova-previous-best-proof-20261012.json",
+        "archive/halloween2019-up-two-original-recording-sample-dispositions-20261012.json",
+        "archive/halloween2019-tome13443-selected-recording-r2-restoration-20261012.json"
+      ],
+      "limits": "Sampled race footage is not frame-by-frame uncut certification. Missing originals retain contemporary documentary references."
+    },
+    {
+      "requirement": "Publication fidelity and clickable preserved evidence",
+      "status": "one-final-deployment-check-pending",
+      "evidence": "archive/halloween2019-final-publication-audit-20261012.json",
+      "counts": {
+        "comparedRegeneratedRows": 552,
+        "matchingRows": 551,
+        "readableRenderedR2Links": 26
+      },
+      "pendingRecord": "896332063081390090",
+      "pendingFields": [
+        "preservedImageContentReview",
+        "evidenceNote",
+        "lapAvailability"
+      ],
+      "repairCommit": "9721ec12"
+    },
+    {
+      "requirement": "Unknown dates, aliases and minor disputes",
+      "status": "qualified-accepted-gaps-under-user-policy",
+      "evidence": "archive/halloween2019-current-requirement-evidence-and-next-action-ledger-20261012.json",
+      "limits": "Six achievement-day uncertainties remain. Source clocks retained separately. Do not restart already-disposed conflicts or excluded old-server pursuit."
+    },
+    {
+      "requirement": "General-stream leads",
+      "status": "screened-with-limits",
+      "evidence": [
+        "archive/halloween2019-fortyseven-discord-youtube-source-review-crosswalk-20261012.json",
+        "archive/halloween2019-carlos-opening-stream-tt11145-disposition-20261012.json",
+        "archive/halloween2019-carlos-nov1-complete-transcript-context-review-20261012.json",
+        "archive/halloween2019-four-remaining-stream-caption-context-dispositions-20261012.json"
+      ],
+      "limits": "General streams not watched end-to-end; caption/source screening found no distinct retained-WR lead beyond reviewed Carlos opening segment. Silent or mistranscribed performances may remain."
+    }
+  ],
+  "nextAction": "Verify9721ec12 finalWR qualification in live JSON and HTML, then publish completed-with-documented-gaps practical review evidence and proceed to Paris2019. Full2019\u20132026goal remains unfinished."
+}
