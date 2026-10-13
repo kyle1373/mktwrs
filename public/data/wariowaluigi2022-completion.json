@@ -1,0 +1,79 @@
+{
+  "tourId": "tour-62",
+  "tour": "Wario vs. Waluigi Tour",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2022-01-26T06:00:00Z",
+    "endExclusive": "2022-02-09T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "rmx-rainbow-road-1r",
+      "archivedWr": "1:16.75",
+      "fastestDocumentedAvailableRecording": "1:16.75",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "3ds-bowser-s-castle",
+      "archivedWr": "1:35.39",
+      "fastestDocumentedAvailableRecording": "1:35.39",
+      "recordingPlayerId": "wins"
+    }
+  ],
+  "evidence": [
+    "archive/wariowaluigi2022-original-results-practical-review-20261012.json",
+    "archive/wario-waluigi-2022-reconciliation.json",
+    "archive/wariowaluigi2022-selected-recording-clocks-and-scope-20261012.json",
+    "archive/wariowaluigi2022-selected-recording-r2-preservation-20261012.json",
+    "archive/wariowaluigi2022-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/wario-waluigi-2022-reconciliation.json",
+    "coverage": {
+      "freshSubmissionWindows": 6,
+      "freshMessagesIncludingBoundaryOverlap": 105,
+      "recoveredResultImages": 1,
+      "originalVideosAndClipsPreserved": 9,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 20
+  },
+  "remainingLimitations": [
+    "Spart’s 1:37.87 and 1:37.76 are held outside confirmed WR progression because Phillish’s nearby reply claims an earlier .5. Exact hundredths and date for that claimed run remain unresolved.",
+    "Five earlier previous-best runs lack independently established dates and ordering.",
+    "The nearby .97 first-lap message cannot securely be assigned to Wins’s 1:36.31; split fields remain empty.",
+    "The recovered Kirio 1:36.93 image is a late repost and slower than the standing WR.",
+    "This tour-level review does not certify every historical record across all years or sources.",
+    "Both selected originals preserved on R2. Nu11 original video-share clock unresolved.",
+    "Prior footage review retained without fresh uninterrupted certification."
+  ],
+  "validation": {
+    "productionBuildPages": 894,
+    "recordingComparisonRenderChecks": 2,
+    "documentedResultsRows": [
+      1,
+      4
+    ],
+    "videoRangeChecksPassed": 2,
+    "generationFidelity": [
+      {
+        "courseId": "rmx-rainbow-road-1r",
+        "reviewedRows": 4,
+        "differences": 0
+      },
+      {
+        "courseId": "3ds-bowser-s-castle",
+        "reviewedRows": 40,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-63"
+}
