@@ -1,0 +1,7 @@
+{
+  "tourId": "tour-53",
+  "cause": "archive/** excluded the reviewed field patches from Docker context despite local generation passing.",
+  "fix": "Explicitly include archive/reviewed-publication-field-patches.json in .dockerignore.",
+  "expectedPatchedRows": 31,
+  "liveVerificationPending": true
+}
