@@ -3,7 +3,7 @@
   "sourceCommit": "496b5e731afb7dc00a91f7e2f16435ab1ea53ab1",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-69",
+  "activeDetailedReview": "tour-70",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,10 +33,10 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 66,
+      "completed-with-documented-gaps": 67,
       "source-and-publication-review": 20,
       "carry-in-and-sparse-history-check": 60,
-      "data-quality-and-history-check": 1,
+      "data-quality-and-history-check": 0,
       "candidate-and-source-review": 29,
       "sparse-history-review": 1,
       "faster-result-reconciliation": 4
@@ -62,9 +62,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 8,
+        "practicallyCompleted": 9,
         "notApplicable": 0,
-        "open": 18
+        "open": 17
       },
       "2023": {
         "catalogTours": 26,
@@ -91,7 +91,7 @@
         "open": 19
       }
     },
-    "openTours": 115,
+    "openTours": 114,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 32,
       "wrRowsWithUnresolvedDateOrOrder": 11,
@@ -7265,11 +7265,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check implausible parsed times against the original image; do not promote them.",
-            "Resolve pending candidates with surviving good-enough proof.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-cheep-cheep-island",
@@ -7314,8 +7310,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-daisy-hills-r",
@@ -7338,8 +7333,18 @@
           "oneDayTourRangeDiscrepancies": []
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "data-quality-and-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/doctor2022-completion.json",
+      "documentedLimitations": [
+        "Four undated previous-best leads remain outside confirmed WR succession; original global opening ordering is not certified.",
+        "One unavailable cancelled attachment represents a separate malformed 0:01.12 receipt corrected to 1:12.10; the surviving GangstaTiger image establishes 1:12.39 for its different malformed receipt.",
+        "Earlier audits retain original-source gaps among slower supporting standings; these do not invalidate surviving final WR proof but are not claimed recovered.",
+        "Fireball 1:19.95 recording metadata indicates May13 upload, before May18 submission. Historical public visibility and earlier community WR precedence are unresolved; upload, submission and shares remain separate without silently erasing intervening accepted Wins records.",
+        "Four complete recordings and one 2.41-second strategy clip preserved on R2. Strategy clips, failed laps, and the older 2020 Reddit source do not establish completed Doctor runs.",
+        "Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
+        "Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain."
+      ]
     },
     {
       "id": "tour-70",
@@ -19841,6 +19846,6 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/amsterdam2022-final-publication-audit-20261013.json",
-  "activeDetailedTourId": "tour-69"
+  "latestCompletionAudit": "archive/doctor2022-final-publication-audit-20261013.json",
+  "activeDetailedTourId": "tour-70"
 }

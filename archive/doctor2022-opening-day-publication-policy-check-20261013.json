@@ -1,0 +1,41 @@
+{
+  "tourId": "tour-69",
+  "clockWindow": {
+    "start": "2022-05-04T06:00:00Z",
+    "endExclusive": "2022-05-05T06:00:00Z"
+  },
+  "method": "Actual committed publication predicate and filter. Slower opening WRs excluded; raw supporting submissions preserved. Source proof review separately documented.",
+  "rows": [
+    {
+      "courseId": "gba-cheep-cheep-island",
+      "rawOpeningRecords": [
+        {
+          "id": "977979960255979631",
+          "time": "1:11.75",
+          "submittedAt": "2022-05-05T05:03:04.671Z"
+        }
+      ],
+      "retainedOpeningRecords": [
+        {
+          "id": "977979960255979631",
+          "time": "1:11.75",
+          "submittedAt": "2022-05-05T05:03:04.671Z"
+        }
+      ],
+      "fastestOpeningTimeCs": 7175,
+      "passed": true
+    },
+    {
+      "courseId": "3ds-daisy-hills-r",
+      "rawOpeningRecords": [],
+      "retainedOpeningRecords": [],
+      "fastestOpeningTimeCs": null,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "No new Daisy Hills R opening-day WR identified; prior carried-in WR remains. Original-source reviews govern eligibility.",
+    "06:00 UTC clock check identifies Nu11 May5 05:03 submission as opening day; only a date-only field would misclassify it."
+  ]
+}

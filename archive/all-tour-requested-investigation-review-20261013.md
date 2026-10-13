@@ -2,7 +2,7 @@
 
 Reviewed all **183 catalog tours**, **381 course appearances**, and **142 live course pages** against committed publication output `8068ad57`. All pages and downloadable data returned HTTP 200. All 142 displayed WR counts match the publication output. Live completion flags match committed flags: **true**.
 
-**115 tours remain open**, starting with Doctor 2022. **66 practical reviews are closed with documented gaps**, ending with Amsterdam 2022 (20 April–4 May 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
+**114 tours remain open**, starting with Peach vs. Bowser May 2022. **67 practical reviews are closed with documented gaps**, ending with Doctor 2022 (4–18 May 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
 
 The catalogue ends on 30 September 2026; 30 September–13 October remains uncatalogued and needs review. Future results through December 2026 cannot yet be archived.
 
@@ -13,7 +13,7 @@ The catalogue ends on 30 September 2026; 30 September–13 October remains uncat
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 8 | 18 | 0 |
+| 2022 | 9 | 17 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -991,20 +991,15 @@ Before time trials.
 
 ### 69. Doctor Tour (2022) — 2022-05-04 to 2022-05-18
 
-**Open:** data quality and history check.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/doctor2022-completion.json). 225 submission messages including boundaries,125 original-file hashes,107 exact-window discussion messages. Four complete recordings and one strategy clip preserved on R2. 538 whole-course live rows match;159 rendered R2 links readable. Final1:11.75/1:19.95 recordings match archived WRs; earlier Fireball upload versus accepted submission chronology remains explicitly qualified.
 
-**[GBA Cheep-Cheep Island](https://mktwrs.com/course/gba-cheep-cheep-island)** — 1 attributed WR rows, 28 supporting results, 1 candidates, 2 linked-video rows.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check implausible parsed times against the original image; do not promote them.
-- Resolve pending candidates with surviving good-enough proof.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r)** — 10 attributed WR rows, 108 supporting results, 0 candidates, 8 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Four undated previous-best leads remain outside confirmed WR succession; original global opening ordering is not certified.
+- One unavailable cancelled attachment represents a separate malformed 0:01.12 receipt corrected to 1:12.10; the surviving GangstaTiger image establishes 1:12.39 for its different malformed receipt.
+- Earlier audits retain original-source gaps among slower supporting standings; these do not invalidate surviving final WR proof but are not claimed recovered.
+- Fireball 1:19.95 recording metadata indicates May13 upload, before May18 submission. Historical public visibility and earlier community WR precedence are unresolved; upload, submission and shares remain separate without silently erasing intervening accepted Wins records.
+- Four complete recordings and one 2.41-second strategy clip preserved on R2. Strategy clips, failed laps, and the older 2020 Reddit source do not establish completed Doctor runs.
+- Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.
+- Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain.
 
 ### 70. Peach vs. Bowser Tour (May 2022) (2022) — 2022-05-18 to 2022-06-01
 

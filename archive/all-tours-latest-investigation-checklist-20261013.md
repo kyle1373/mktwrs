@@ -2,7 +2,7 @@
 
 Freshly fetched all **142 live course pages and data files**, covering **183 tours / 381 course appearances**. All returned HTTP 200. This checks published evidence for leads; it does not certify original proofs or complete history.
 
-**66 tours are practically closed with documented gaps, through Amsterdam 2022 (20 April–4 May). 115 are open, beginning with Doctor 2022.** New York and Tokyo 2019 predate time trials. The current 30 September–13 October 2026 interval is not yet catalogued.
+**67 tours are practically closed with documented gaps, through Doctor 2022 (4–18 May). 114 are open, beginning with Peach vs. Bowser May 2022.** New York and Tokyo 2019 predate time trials. The current 30 September–13 October 2026 interval is not yet catalogued.
 
 ## Open tours by start year
 
@@ -11,7 +11,7 @@ Freshly fetched all **142 live course pages and data files**, covering **183 tou
 | 2019 | 0 |
 | 2020 | 0 |
 | 2021 | 0 |
-| 2022 | 18 |
+| 2022 | 17 |
 | 2023 | 26 |
 | 2024 | 26 |
 | 2025 | 26 |
@@ -19,8 +19,6 @@ Freshly fetched all **142 live course pages and data files**, covering **183 tou
 
 ## First concrete leads
 
-- **Samurai Tour (2022)**, RMX Vanilla Lake 1: suspicious parsed time **0:01.03**. Check original source, date and eligibility before changing WR history.
-- **Doctor Tour (2022)**, GBA Cheep-Cheep Island: suspicious parsed time **0:01.12**. Check original source, date and eligibility before changing WR history.
 - **Peach vs. Bowser Tour (November–December 2022) (2022)**, DS Peach Gardens: supporting time faster than screened WR/carry-in baseline **1:26.53**. Check original source, date and eligibility before changing WR history.
 - **Holiday Tour (2024)**, Vancouver Velocity 3: supporting time faster than screened WR/carry-in baseline **1:15.95**. Check original source, date and eligibility before changing WR history.
 - **New Year's Tour (2024)**, Wii Koopa Cape: supporting time faster than screened WR/carry-in baseline **1:35.51**. Check original source, date and eligibility before changing WR history.
@@ -1004,20 +1002,15 @@ Before time trials.
 
 ### 69. Doctor Tour (2022) · 2022-05-04 to 2022-05-18
 
-**Open.**
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/doctor2022-completion.json). 225 submission messages including boundaries,125 original-file hashes,107 exact-window discussion messages. Four complete recordings and one strategy clip preserved on R2. 538 whole-course live rows match;159 rendered R2 links readable. Final1:11.75/1:19.95 recordings match archived WRs; earlier Fireball upload versus accepted submission chronology remains explicitly qualified.
 
-**[GBA Cheep-Cheep Island](https://mktwrs.com/course/gba-cheep-cheep-island)**: 1 WR rows; 28 supporting results; 1 candidates. Earlier standing baseline: 1:11.79.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check implausible parsed times against the original image; do not promote them.
-- Resolve pending candidates with surviving good-enough proof.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r)**: 10 WR rows; 108 supporting results; 0 candidates. Earlier standing baseline: 1:20.94.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Four undated previous-best leads remain outside confirmed WR succession; original global opening ordering is not certified.
+- One unavailable cancelled attachment represents a separate malformed 0:01.12 receipt corrected to 1:12.10; the surviving GangstaTiger image establishes 1:12.39 for its different malformed receipt.
+- Earlier audits retain original-source gaps among slower supporting standings; these do not invalidate surviving final WR proof but are not claimed recovered.
+- Fireball 1:19.95 recording metadata indicates May13 upload, before May18 submission. Historical public visibility and earlier community WR precedence are unresolved; upload, submission and shares remain separate without silently erasing intervening accepted Wins records.
+- Four complete recordings and one 2.41-second strategy clip preserved on R2. Strategy clips, failed laps, and the older 2020 Reddit source do not establish completed Doctor runs.
+- Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.
+- Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain.
 
 ### 70. Peach vs. Bowser Tour (May 2022) (2022) · 2022-05-18 to 2022-06-01
 

@@ -37,17 +37,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 66,
+      "completed-with-documented-gaps": 67,
       "sparse-history-review": 1,
       "source-and-publication-review": 37,
       "carry-in-and-sparse-history-check": 23,
       "candidate-and-source-review": 44,
-      "data-quality-and-history-check": 1,
+      "data-quality-and-history-check": 0,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 66,
-    "toursRequiringInvestigation": 115,
+    "practicallyCompletedTours": 67,
+    "toursRequiringInvestigation": 114,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -63,7 +63,7 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 18
+        "requiringInvestigation": 17
       },
       "2023": {
         "catalogTours": 26,
@@ -3289,11 +3289,7 @@
             }
           ],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Inspect implausible parsed times against original image; do not treat them as missing WRs.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3313,13 +3309,22 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "data-quality-and-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "https://mktwrs.com/data/doctor2022-completion.json",
+      "documentedLimitations": [
+        "Four undated previous-best leads remain outside confirmed WR succession; original global opening ordering is not certified.",
+        "One unavailable cancelled attachment represents a separate malformed 0:01.12 receipt corrected to 1:12.10; the surviving GangstaTiger image establishes 1:12.39 for its different malformed receipt.",
+        "Earlier audits retain original-source gaps among slower supporting standings; these do not invalidate surviving final WR proof but are not claimed recovered.",
+        "Fireball 1:19.95 recording metadata indicates May13 upload, before May18 submission. Historical public visibility and earlier community WR precedence are unresolved; upload, submission and shares remain separate without silently erasing intervening accepted Wins records.",
+        "Four complete recordings and one 2.41-second strategy clip preserved on R2. Strategy clips, failed laps, and the older 2020 Reddit source do not establish completed Doctor runs.",
+        "Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
+        "Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain."
+      ]
     },
     {
       "id": "tour-70",
@@ -11137,7 +11142,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-69",
+  "activeDetailedTourId": "tour-70",
   "completionStatusLiveCheck": {
     "tourId": "tour-12",
     "checkedAt": "2026-10-13T07:42:22.603527+00:00",
@@ -11160,6 +11165,6 @@
     "liveLatestPublicationAudit": "archive/mariobros2020-final-publication-audit-20261013.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-69",
-  "latestCompletionAudit": "archive/amsterdam2022-final-publication-audit-20261013.json"
+  "activeDetailedReview": "tour-70",
+  "latestCompletionAudit": "archive/doctor2022-final-publication-audit-20261013.json"
 }

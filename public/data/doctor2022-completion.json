@@ -1,0 +1,79 @@
+{
+  "tourId": "tour-69",
+  "tour": "Doctor Tour (2022)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "standard": "User-authorized good-enough surviving proof; prior source reviews retained, original hashes checked, selected finishes sampled, recordings preserved, and live publication verified.",
+  "window": {
+    "start": "2022-05-04T06:00:00Z",
+    "endExclusive": "2022-05-18T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "gba-cheep-cheep-island",
+      "archivedWr": "1:11.75",
+      "wrPlayerId": "nu11",
+      "fastestDocumentedAvailableRecording": "1:11.75",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "3ds-daisy-hills-r",
+      "archivedWr": "1:19.95",
+      "wrPlayerId": "fireball",
+      "fastestDocumentedAvailableRecording": "1:19.95",
+      "recordingPlayerId": "fireball"
+    }
+  ],
+  "coverage": {
+    "submissionSourceMessagesIncludingBoundaries": 225,
+    "uniqueSubmissionOriginalFilesHashChecked": 125,
+    "exactWindowDiscussionMessagesIndexed": 107,
+    "discussionMediaWithPriorDispositionsAndHashes": 9,
+    "completedRunRecordingsPreservedOnR2": 4,
+    "partialClipsPreservedOnR2": 1,
+    "unavailableCancelledAttachmentDispositions": 1
+  },
+  "validation": {
+    "liveSnapshotRows": 538,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 159,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "openingDayPolicyCheck": "archive/doctor2022-opening-day-publication-policy-check-20261013.json",
+    "openingGlobalWrPrecedenceCertified": false
+  },
+  "remainingLimitations": [
+    "Four undated previous-best leads remain outside confirmed WR succession; original global opening ordering is not certified.",
+    "One unavailable cancelled attachment represents a separate malformed 0:01.12 receipt corrected to 1:12.10; the surviving GangstaTiger image establishes 1:12.39 for its different malformed receipt.",
+    "Earlier audits retain original-source gaps among slower supporting standings; these do not invalidate surviving final WR proof but are not claimed recovered.",
+    "Fireball 1:19.95 recording metadata indicates May13 upload, before May18 submission. Historical public visibility and earlier community WR precedence are unresolved; upload, submission and shares remain separate without silently erasing intervening accepted Wins records.",
+    "Four complete recordings and one 2.41-second strategy clip preserved on R2. Strategy clips, failed laps, and the older 2020 Reddit source do not establish completed Doctor runs.",
+    "Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
+    "Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain."
+  ],
+  "evidence": [
+    "archive/doctor2022-fireball-upload-vs-submission-chronology-disposition-20261013.json",
+    "archive/doctor2022-original-recording-clocks-and-selected-finish-review-20261013.json",
+    "archive/doctor2022-canonical-recording-clock-update-20261013.json",
+    "archive/doctor2022-exact-window-discussion-source-index-20261013.json",
+    "archive/doctor2022-source-build-recording-render-check-20261013.json",
+    "archive/doctor2022-discussion-media-integrity-index-20261013.json",
+    "archive/doctor2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+    "archive/doctor2022-gangstatiger-malformed-bot-time-original-image-correction-20261013.json",
+    "archive/doctor2022-opening-day-publication-policy-check-20261013.json",
+    "archive/doctor2022-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/doctor2022-final-publication-audit-20261013.json",
+    "archive/doctor2022-strategy-clip-r2-preservation-20261013.json",
+    "archive/doctor2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/doctor-2022-reconciliation.json",
+    "archive/doctor-2022-evidence-validation-20261008.json"
+  ],
+  "sourceCommit": "3d349f91509f2f471e4702b6b0cb222ed6ffcfad",
+  "latestPublicationAudit": "archive/doctor2022-final-publication-audit-20261013.json",
+  "completionLabelLiveVerified": false,
+  "nextTourId": "tour-70"
+}
