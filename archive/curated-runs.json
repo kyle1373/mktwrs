@@ -29009,7 +29009,19 @@
         },
         "reviewAudit": "archive/yoshi2021-selected-recording-clocks-and-scope-20261012.json"
       }
-    ]
+    ],
+    "originalVideoFreshAccessReview": {
+      "reviewedAt": "2026-10-13T12:31:44.899006+00:00",
+      "reviewAudit": "archive/yoshi2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+      "freshVisualReview": true,
+      "sampledFinishTime": "0:46.51",
+      "sampledCourseId": "tokyo-blur-4r",
+      "startToFinishContinuityVerified": false,
+      "decodeExitCode": 0,
+      "r2RangeVerified": true,
+      "preservedSha256": "40cb3ff83f93f6a2a940015a07f97b3ce0bb6e0b6b815c7cddb3e25f8958ab6b",
+      "priorLapReviewRetained": true
+    }
   },
   {
     "messageId": "yoshi-2021-828495725209583647-04647",
@@ -136004,6 +136016,18 @@
       ],
       "videoLinkObserved": false,
       "reviewAudit": "archive/yoshi2021-selected-recording-clocks-and-scope-20261012.json"
+    },
+    "originalVideoFreshAccessReview": {
+      "reviewedAt": "2026-10-13T12:31:44.899006+00:00",
+      "reviewAudit": "archive/yoshi2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+      "freshVisualReview": true,
+      "sampledFinishTime": "1:46.40",
+      "sampledCourseId": "ds-waluigi-pinball",
+      "startToFinishContinuityVerified": false,
+      "decodeExitCode": 0,
+      "r2RangeVerified": true,
+      "preservedSha256": "325b8545886f2f9490df4983cb13c517b414ffc2ea3ea0050f5210ed92fce11a",
+      "priorLapReviewRetained": true
     }
   },
   {
@@ -363426,7 +363450,7 @@
       "messageId": "828746891834949652"
     },
     "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/828746888844935238/image0.png",
-    "proofImageVerified": false,
+    "proofImageVerified": true,
     "originalPerformanceReportReview": {
       "reviewAudit": "archive/yoshi2021-nhspeedy-waluigi14710-report-and-seven-existing-source-crosswalks-20261010.json",
       "freshOriginalTextReviewed": true,
@@ -363435,24 +363459,24 @@
       "capturedText": "53.50/53.60",
       "totalBasis": "Sum of paired laps explicitly reported with an original result attachment.",
       "courseBasis": "Original WaluigiPinball discussion following Kaguya53.11/53.10 result and preceding other Pinball attempts; prior course mapping retained.",
-      "imageReviewPending": true,
+      "imageReviewPending": false,
       "dateBasis": "Original message creation timestamp, not inferred race completion instant."
     },
     "notes": [
-      "Reported paired-lap result53.50/53.60 sums to1:47.10. Original attachment preserved; visual confirmation pending.",
-      "WaluigiPinball discussion course mapping retained. Slower than established WR; no promotion or exact-result video established."
+      "WaluigiPinball discussion course mapping retained. Slower than established WR; no promotion or exact-result video established.",
+      "Fresh model-visible original cup overview confirms 1:47.10; original message supplies the paired laps. Saved-result evidence, not completed race footage or a new WR."
     ],
     "proofImageLocal": "/assets/proof/yoshi2021-828746888844935238.png",
     "originalImageResultReview": {
-      "reviewAudit": "archive/yoshi2021-nhspeedy-omitted-image-verification-correction-20261010.json",
-      "supersedesReviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+      "reviewAudit": "archive/yoshi2021-nhspeedy-two-cup-results-fresh-visible-review-20261013.json",
+      "supersedesReviewAudit": "archive/yoshi2021-nhspeedy-omitted-image-verification-correction-20261010.json",
       "attachmentId": "828746888844935238",
-      "freshVisualReviewed": false,
+      "freshVisualReviewed": true,
       "freshFootageReviewed": false,
-      "imageReviewPending": true,
-      "scope": "Original attachment preserved; tool image output omitted from model context. Prior visible-total, cup and backdrop claims are unverified.",
-      "reportedTotal": "1:47.10",
-      "totalBasis": "Sum of written paired laps in the original Discord caption; not visual image confirmation."
+      "imageReviewPending": false,
+      "visibleTotal": "1:47.10",
+      "visibleCup": "Peachette Cup",
+      "scope": "Cup overview Time Trial tile visibly confirms saved total and course backdrop; written paired laps retained separately. Device clock is not achievement date."
     }
   },
   {
@@ -363475,22 +363499,21 @@
     },
     "proofImage": "https://cdn.discordapp.com/attachments/636461740162416640/828112151322820658/image0.png",
     "proofImageLocal": "/assets/proof/yoshi2021-828112151322820658.png",
-    "proofImageVerified": false,
+    "proofImageVerified": true,
     "originalImageResultReview": {
-      "reviewAudit": "archive/yoshi2021-nhspeedy-omitted-image-verification-correction-20261010.json",
-      "supersedesReviewAudit": "archive/yoshi2021-nhspeedy-two-original-image-verification-20261010.json",
+      "reviewAudit": "archive/yoshi2021-nhspeedy-two-cup-results-fresh-visible-review-20261013.json",
+      "supersedesReviewAudit": "archive/yoshi2021-nhspeedy-omitted-image-verification-correction-20261010.json",
       "attachmentId": "828112151322820658",
-      "freshVisualReviewed": false,
+      "freshVisualReviewed": true,
       "freshFootageReviewed": false,
-      "imageReviewPending": true,
-      "scope": "Original attachment preserved; tool image output omitted from model context. Prior visible-total, cup and backdrop claims are unverified.",
-      "reportedTotal": "0:46.99",
-      "totalBasis": "Sum of written paired laps in the original Discord caption; not visual image confirmation."
+      "imageReviewPending": false,
+      "visibleTotal": "0:46.99",
+      "visibleCup": "Waluigi Cup",
+      "scope": "Cup overview Time Trial tile visibly confirms saved total and course backdrop; written paired laps retained separately. Device clock is not achievement date."
     },
     "notes": [
-      "Original written caption24.76/22.23 sums to0:46.99. Original image preserved but visual confirmation pending.",
-      "Prior TokyoBlur4R course mapping retained provisionally from tour/context; screenshot backdrop, driver and cup claims not visually verified.",
-      "Slower than earlier documented course record. No WR promotion; exact-result video unresolved."
+      "Slower than earlier documented course record. No WR promotion; exact-result video unresolved.",
+      "Fresh model-visible original cup overview confirms 0:46.99; original message supplies the paired laps. Saved-result evidence, not completed race footage or a new WR."
     ]
   },
   {
