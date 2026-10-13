@@ -1,0 +1,76 @@
+{
+  "tourId": "tour-20",
+  "reviewedAt": "2026-10-13T09:18:42.225876+00:00",
+  "rows": [
+    {
+      "preservedFile": "archive/video-backup-files/peach2020-recovered/1277473151434145792/original.mp4",
+      "sha256": "94e8dc3dc12febdf2cc81b5d8eb749b782c71d28b0f502694c42a65945d279f2",
+      "bytes": 19743903,
+      "durationSeconds": 84.681723,
+      "sampledSeconds": [
+        0,
+        4,
+        38.10677535000001,
+        42.3408615,
+        74.681723,
+        79.681723,
+        83.681723
+      ],
+      "contactSheet": "archive/peach2020-recordings-review-20261013/0-contact.jpg",
+      "decodeExitCode": 0,
+      "decodeDiagnostics": "[null @ 0x132f17ba0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 1700 >= 1700\n[null @ 0x132f17ba0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 1702 >= 1702\n[null @ 0x132f17ba0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 1708 >= 1708\n[null @ 0x132f17ba0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 1711 >= 1711\n[null @ 0x132f17ba0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 1715 >= 1715\n[null @ 0x132f17ba0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 1727 >= 1727\n[null @ 0x132f17ba0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 1730 >= 1730\n",
+      "additionalFinishSample": {
+        "seconds": 84.55,
+        "path": "archive/peach2020-recordings-review-20261013/0-finish.jpg",
+        "observedTime": "1:21.05",
+        "clearFinishVisible": true
+      },
+      "canonicalId": "727041212485337169-verified",
+      "courseId": "n64-frappe-snowland-r",
+      "time": "1:21.05",
+      "playerId": "tomegome",
+      "playerAttribution": "Retained from preserved original source review; no independent player-name overlay.",
+      "originalUrl": "https://x.com/tomegome_g/status/1277473151434145792",
+      "freshCourseAndFinishVisualReview": true,
+      "priorLapReviewRetained": true,
+      "startToFinishContinuityVerified": false,
+      "r2Url": "https://media.mktwrs.com/assets/video/peach2020-frappe-snowland-r-12105-94e8dc3dc12f.mp4",
+      "r2LengthMd5AndPublicPrefixVerified": true
+    },
+    {
+      "preservedFile": "archive/video-preservation/june2020-gpHHJtbWQe0.mp4",
+      "sha256": "11e062a5b6e204bfbc30666feedbca22fd9a39aff58abc712dd972b2636f31d8",
+      "bytes": 8482706,
+      "durationSeconds": 109.021,
+      "sampledSeconds": [
+        0,
+        4,
+        49.05945,
+        54.5105,
+        99.021,
+        104.021,
+        108.021
+      ],
+      "contactSheet": "archive/peach2020-recordings-review-20261013/1-contact.jpg",
+      "decodeExitCode": 0,
+      "decodeDiagnostics": "",
+      "canonicalId": "724072562228723782-verified",
+      "courseId": "rmx-mario-circuit-1",
+      "time": "1:30.38",
+      "playerId": "superfx",
+      "playerAttribution": "Retained from preserved original source review; no independent player-name overlay.",
+      "originalUrl": "https://youtu.be/gpHHJtbWQe0",
+      "freshCourseAndFinishVisualReview": true,
+      "priorLapReviewRetained": true,
+      "startToFinishContinuityVerified": false,
+      "r2Url": "https://media.mktwrs.com/assets/video/peach2020-rmx-mario-circuit-1-13038-11e062a5b6e2.mp4",
+      "r2LengthMd5AndPublicPrefixVerified": true
+    }
+  ],
+  "limitations": [
+    "Representative gameplay/finish samples inspected plus full decode; continuous unedited race not certified.",
+    "Both originals decode successfully; non-monotonic DTS diagnostics for the Frappe file are retained.",
+    "Frappe footage finishes at 1:21.05, slower than the accepted 1:20.85 WR. RMX footage matches the 1:30.38 WR.",
+    "Original result-post, video-upload and share clocks retained separately."
+  ]
+}
