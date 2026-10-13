@@ -2,13 +2,13 @@
 
 Freshly checked all 142 live course pages and their JSON files against `e1d322b2`: all returned HTTP 200 and all matched the latest isolated publication data. Screened all 183 catalog tours and 381 course appearances.
 
-**34 practical reviews closed; 147 tours open; 2 pre-time-trial tours not applicable.** Practical closure retains documented gaps. It does not certify complete historical succession. Cat 2021 is now practically closed; Peach vs. Daisy 2021 is the active detailed review.
+**35 practical reviews closed; 146 tours open; 2 pre-time-trial tours not applicable.** Practical closure retains documented gaps. It does not certify complete historical succession. Cat 2021 is now practically closed; Snow 2021 is the active detailed review.
 
 | Year (tour start) | Practical reviews closed | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 2 | 24 | 0 |
+| 2021 | 3 | 23 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -39,7 +39,7 @@ Earlier screening exaggerated several debut gaps and faster-result flags. Some r
 - 28 open tours: oneDayTourRangeDiscrepancies.
 - 77 open tours: courseWithoutLinkedVideo.
 
-All 147 open tours need source coverage and publication sign-off, including fastest available completed footage, video links and known upload/share/submission clocks. The catalog additionally omits **30 September–13 October 2026**.
+All 146 open tours need source coverage and publication sign-off, including fastest available completed footage, video links and known upload/share/submission clocks. The catalog additionally omits **30 September–13 October 2026**.
 
 ## Closed reviews with remaining gaps
 
@@ -415,7 +415,7 @@ WR/supporting/candidate counts below are attributed to this tour, not the whole 
 
 ### 37. Peach vs. Daisy Tour (2021) — 2021-02-10 to 2021-02-24
 
-source and publication review.
+Completed with documented gaps.
 
 **[N64 Choco Mountain R](https://mktwrs.com/course/n64-choco-mountain-r)** — 11 WR / 122 supporting / 0 candidate rows.
 
@@ -2525,7 +2525,7 @@ source and publication review.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - 0 unresolved WR dates/order; 0 video-linked rows; 0 video rows lacking known clocks.
 
-### 147. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
+### 146. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
 
 carry in and sparse history check.
 

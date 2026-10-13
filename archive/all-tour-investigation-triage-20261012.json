@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 34,
+      "completed-with-documented-gaps": 35,
       "sparse-history-review": 1,
-      "source-and-publication-review": 61,
+      "source-and-publication-review": 60,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 34,
-    "toursRequiringInvestigation": 147,
+    "practicallyCompletedTours": 35,
+    "toursRequiringInvestigation": 146,
     "years": {
       "2019": {
         "tours": 7,
@@ -69,11 +69,11 @@
       },
       "2021": {
         "tours": 26,
-        "requiringInvestigation": 24,
+        "requiringInvestigation": 23,
         "categories": {
-          "source-and-publication-review": 18,
+          "source-and-publication-review": 17,
           "carry-in-and-sparse-history-check": 6,
-          "completed-with-documented-gaps": 2
+          "completed-with-documented-gaps": 3
         }
       },
       "2022": {
@@ -1638,10 +1638,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure.",
-            "Preserve surviving Discord proof images on R2."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -1656,9 +1653,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -1673,15 +1668,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check meaningful chronology gaps; retain unknown exact achievement dates where source/report clocks suffice.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/peachdaisy2021-completion.json",
+      "note": "Practical review completed with documented gaps;Three live course snapshots and their R2 evidence links verified."
     },
     {
       "id": "tour-38",
@@ -11295,5 +11289,5 @@
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
   "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
-  "activeDetailedTourId": "tour-37"
+  "activeDetailedTourId": "tour-38"
 }

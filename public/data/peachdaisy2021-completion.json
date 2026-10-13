@@ -2,8 +2,8 @@
   "tourId": "tour-37",
   "tour": "Peach vs. Daisy Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-02-10T06:00:00Z",
@@ -35,7 +35,14 @@
     "archive/february2021-kaguya-delayed-choco-recording-disclosure-20261009.json",
     "archive/peachdaisy2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/peachdaisy2021-selected-recording-r2-preservation-20261012.json",
-    "archive/peachdaisy2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/peachdaisy2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/peachdaisy2021-final-publication-audit-20261013.json",
+    "archive/peachdaisy2021-practical-source-coverage-disposition-20261013.json",
+    "archive/peachdaisy2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/peachdaisy2021-four-later-source-media-r2-preservation-20261013.json",
+    "archive/peachdaisy2021-tour-only-additional-media-r2-preservation-20261013.json",
+    "archive/peachdaisy2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/peachdaisy2021-opening-day-policy-generation-check-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/peach-daisy-2021-reconciliation.json",
@@ -50,41 +57,47 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 3,
-    "proofImageUrlsPassed": 276
+    "completedRunRecordingsPreservedOnR2": 13,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 10,
+    "partialClipsPreservedOnR2": 1,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 303,
+    "discussionImageHashesVerified": 303,
+    "discussionMessagesIndexed": 1740,
+    "priorProofImageUrlsPassed": 276,
+    "priorProofImageCheckDate": "2026-10-12"
   },
   "remainingLimitations": [
     "Choco Mountain R 1:17.87 runner-reported February19 achievement disclosed February24; no video reported recorded, exact clock/laps unknown. Kazuo1:17.95 recording retained separately.",
     "Donut Plains2 1:00.73 original linked YouTube unavailable; Wins1:01.12 available prior-reviewed recording preserved.",
     "SuperFX Sunset Wilds R1:10.53 original footage preserved with original audio; publication after tour retained separately from original result and separate tie.",
     "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved.",
+    "Kaguya reports achieving 1:17.87 on Friday morning, February 19, in a delayed February 24 tweet. Exact time, timezone and same-day ordering remain unresolved; original image retrieval failed.",
+    "SuperFX 1:10.87 was submitted three days late; exact date and laps are unresolved.",
+    "Tomegome 1:01.08 and 1:00.97 screenshots are later reposts; original tweet dates need recovery before WR status can be established.",
+    "Previous-best values reveal potential additional intermediate records. These are retained separately until original dates can be established.",
+    "Indexed images and search results do not establish that every Discord message was captured.",
+    "303 indexed February attachments retain earlier visual or canonical dispositions; global deleted/private and unindexed sources are not certified recovered.",
+    "Tomegome repost chronology and unknown previous-best achievement dates remain qualified; no unproved WR promotion.",
+    "Choco Mountain R has no accepted opening-day WR; first published leader dated February11. Opening global succession remains unproven.",
+    "Prior completed-run reviews retained for three slower supporting recordings. Two preserved encodings of the lap-only clip have differing transition coverage; neither establishes a completed two-lap race.",
+    "Ten additional completed recordings retained with prior reviews, including delayed earlier-course footage. Two encodings of a lap-only clip have different transition coverage; neither proves a completed race. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 901,
-    "recordingComparisonRenderChecks": 3,
-    "documentedResultsRows": [
-      108,
-      62,
-      34
-    ],
-    "videoRangeChecksPassed": 3,
-    "generationFidelity": [
-      {
-        "courseId": "n64-choco-mountain-r",
-        "reviewedRows": 134,
-        "differences": 0
-      },
-      {
-        "courseId": "snes-donut-plains-2",
-        "reviewedRows": 116,
-        "differences": 0
-      },
-      {
-        "courseId": "gba-sunset-wilds-r",
-        "reviewedRows": 63,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 754,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 282,
+    "freshSelectedRecordingReviews": 3,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-38"
+  "nextTourId": "tour-38",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/peachdaisy2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/peachdaisy2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "84dbe9da4b3b88d8067959bb86fe9af7c10497b2"
 }
