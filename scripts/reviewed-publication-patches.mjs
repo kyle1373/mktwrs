@@ -11,6 +11,10 @@ export function applyReviewedPublicationPatches(courses, patches) {
     }
     if (!row || row.time !== patch.time || row.playerId !== patch.playerId)
       throw Error("Reviewed publication patch mismatch: " + patch.id);
+    if (patch.remove) {
+      course[patch.collection] = course[patch.collection].filter(r => r !== row);
+      continue;
+    }
     Object.assign(row, structuredClone(patch.set));
     for (const key of patch.unset || []) delete row[key];
   }

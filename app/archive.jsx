@@ -180,8 +180,8 @@ function Proof({ r }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`View image proof for ${r.time}`}
-      title="View image proof"
+      aria-label={`${r.documentaryProofReview ? "View final standings documenting" : "View image proof for"} ${r.time}`}
+      title={r.documentaryProofReview ? "Final standings; individual run image unavailable" : "View image proof"}
     >
       <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">
         <rect
