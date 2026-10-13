@@ -2,7 +2,7 @@
 
 Reviewed all **183 catalog tours**, **381 course appearances**, and **142 live course pages** against committed publication output `8068ad57`. All pages and downloadable data returned HTTP 200. All 142 displayed WR counts match the publication output. Live completion flags match committed flags: **true**.
 
-**116 tours remain open**, starting with Amsterdam 2022. **65 practical reviews are closed with documented gaps**, ending with Yoshi 2022 (6–20 April 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
+**115 tours remain open**, starting with Doctor 2022. **66 practical reviews are closed with documented gaps**, ending with Amsterdam 2022 (20 April–4 May 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
 
 The catalogue ends on 30 September 2026; 30 September–13 October remains uncatalogued and needs review. Future results through December 2026 cannot yet be archived.
 
@@ -13,7 +13,7 @@ The catalogue ends on 30 September 2026; 30 September–13 October remains uncat
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 7 | 19 | 0 |
+| 2022 | 8 | 18 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -979,17 +979,15 @@ Before time trials.
 
 ### 68. Amsterdam Tour (2022) — 2022-04-20 to 2022-05-04
 
-**Open:** source and publication review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/amsterdam2022-completion.json). 210 submission messages, 95 original-file hashes and 94 exact-window discussion messages indexed. Seven full recordings and one lap clip preserved on R2. 289 live course rows match; 90 rendered R2 links readable. Final recordings0:40.66/1:21.37 match archived WRs; runner submission/share clocks exclude bot receipts.
 
-**[SNES Choco Island 1R](https://mktwrs.com/course/snes-choco-island-1r)** — 5 attributed WR rows, 65 supporting results, 0 candidates, 12 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Rainbow Road 2](https://mktwrs.com/course/rmx-rainbow-road-2)** — 4 attributed WR rows, 76 supporting results, 0 candidates, 7 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Four previous-best date/order leads remain outside confirmed WR succession.
+- Four original attachments remain unavailable: two have preserved replacement images/videos; Nu111:21.52 uses a cancelled receipt and later previous-best corroboration; Promis1:24.75 is slower supporting evidence.
+- Reset opening leaderboard1:21.66 was slower than carried-in1:21.65, and is not promoted to an all-time WR.
+- Seven full recordings and one isolated-lap clip preserved. Sucha1:21.38 video was promised without an identified URL; final1:21.37 has a preserved matching recording.
+- Upload/share/submission clocks are publication bounds rather than certified achievement instants. Wins0:40.66 video was uploaded/shared after May4 rollover, retaining April25 result provenance.
+- Selected finishes freshly sampled and files decoded; prior proof dispositions retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.
+- Preserved source coverage does not establish absence of deleted/private/unindexed material; only final fastest documented opening-day leaders/ties are published.
 
 ### 69. Doctor Tour (2022) — 2022-05-04 to 2022-05-18
 

@@ -37,17 +37,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 65,
+      "completed-with-documented-gaps": 66,
       "sparse-history-review": 1,
-      "source-and-publication-review": 38,
+      "source-and-publication-review": 37,
       "carry-in-and-sparse-history-check": 23,
       "candidate-and-source-review": 44,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 65,
-    "toursRequiringInvestigation": 116,
+    "practicallyCompletedTours": 66,
+    "toursRequiringInvestigation": 115,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -63,7 +63,7 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 19
+        "requiringInvestigation": 18
       },
       "2023": {
         "catalogTours": 26,
@@ -3222,9 +3222,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3244,12 +3242,22 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "https://mktwrs.com/data/amsterdam2022-completion.json",
+      "documentedLimitations": [
+        "Four previous-best date/order leads remain outside confirmed WR succession.",
+        "Four original attachments remain unavailable: two have preserved replacement images/videos; Nu111:21.52 uses a cancelled receipt and later previous-best corroboration; Promis1:24.75 is slower supporting evidence.",
+        "Reset opening leaderboard1:21.66 was slower than carried-in1:21.65, and is not promoted to an all-time WR.",
+        "Seven full recordings and one isolated-lap clip preserved. Sucha1:21.38 video was promised without an identified URL; final1:21.37 has a preserved matching recording.",
+        "Upload/share/submission clocks are publication bounds rather than certified achievement instants. Wins0:40.66 video was uploaded/shared after May4 rollover, retaining April25 result provenance.",
+        "Selected finishes freshly sampled and files decoded; prior proof dispositions retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
+        "Preserved source coverage does not establish absence of deleted/private/unindexed material; only final fastest documented opening-day leaders/ties are published."
+      ]
     },
     {
       "id": "tour-69",
@@ -11129,7 +11137,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-68",
+  "activeDetailedTourId": "tour-69",
   "completionStatusLiveCheck": {
     "tourId": "tour-12",
     "checkedAt": "2026-10-13T07:42:22.603527+00:00",
@@ -11152,6 +11160,6 @@
     "liveLatestPublicationAudit": "archive/mariobros2020-final-publication-audit-20261013.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-68",
-  "latestCompletionAudit": "archive/yoshi2022-final-publication-audit-20261013.json"
+  "activeDetailedReview": "tour-69",
+  "latestCompletionAudit": "archive/amsterdam2022-final-publication-audit-20261013.json"
 }

@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 65,
+    "practicallyCompletedTours": 66,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4576,7 +4576,7 @@
       "endDate": "2022-05-04",
       "tourSource": "https://www.mariowiki.com/Amsterdam_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "snes-choco-island-1r",
@@ -4598,7 +4598,8 @@
             "archive/amsterdam-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/amsterdam2022-final-publication-audit-20261013.json"
         },
         {
           "courseId": "rmx-rainbow-road-2",
@@ -4620,13 +4621,17 @@
             "archive/amsterdam-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/amsterdam2022-final-publication-audit-20261013.json"
         }
       ],
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "practicallyComplete": true,
+      "practicalCompletionEvidence": "public/data/amsterdam2022-completion.json",
+      "latestPublicationAudit": "archive/amsterdam2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-69",
@@ -11875,9 +11880,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/yoshi2022-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-68",
+  "latestLivePublicationVerification": "archive/amsterdam2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-69",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-68"
+  "activeDetailedTourId": "tour-69"
 }

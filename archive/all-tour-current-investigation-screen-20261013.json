@@ -3,7 +3,7 @@
   "sourceCommit": "48f58df0de751e39d0b4b0c6a769f6dc111e8e0a",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-68",
+  "activeDetailedReview": "tour-69",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -34,9 +34,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 65,
+      "completed-with-documented-gaps": 66,
       "carry-in-and-sparse-history-check": 59,
-      "source-and-publication-review": 21,
+      "source-and-publication-review": 20,
       "data-quality-and-history-check": 1,
       "candidate-and-source-review": 30,
       "sparse-history-review": 1,
@@ -63,9 +63,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 7,
+        "practicallyCompleted": 8,
         "notApplicable": 0,
-        "open": 19
+        "open": 18
       },
       "2023": {
         "catalogTours": 26,
@@ -92,7 +92,7 @@
         "open": 19
       }
     },
-    "openTours": 116,
+    "openTours": 115,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 33,
       "unresolvedWrDatesOrOrder": 10,
@@ -7107,8 +7107,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 3,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-choco-island-1r",
@@ -7151,8 +7150,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-rainbow-road-2",
@@ -7175,8 +7173,18 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/amsterdam2022-completion.json",
+      "documentedLimitations": [
+        "Four previous-best date/order leads remain outside confirmed WR succession.",
+        "Four original attachments remain unavailable: two have preserved replacement images/videos; Nu111:21.52 uses a cancelled receipt and later previous-best corroboration; Promis1:24.75 is slower supporting evidence.",
+        "Reset opening leaderboard1:21.66 was slower than carried-in1:21.65, and is not promoted to an all-time WR.",
+        "Seven full recordings and one isolated-lap clip preserved. Sucha1:21.38 video was promised without an identified URL; final1:21.37 has a preserved matching recording.",
+        "Upload/share/submission clocks are publication bounds rather than certified achievement instants. Wins0:40.66 video was uploaded/shared after May4 rollover, retaining April25 result provenance.",
+        "Selected finishes freshly sampled and files decoded; prior proof dispositions retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
+        "Preserved source coverage does not establish absence of deleted/private/unindexed material; only final fastest documented opening-day leaders/ties are published."
+      ]
     },
     {
       "id": "tour-69",
@@ -19449,6 +19457,6 @@
     "subsequentNewYearCompletionAudit": "archive/newyear2022-completion-label-live-publication-check-20261013.json"
   },
   "remainingCurrentTourWork": "Verify live Sky completion label before beginning Mii 2022.",
-  "latestCompletionAudit": "archive/yoshi2022-final-publication-audit-20261013.json",
-  "activeDetailedTourId": "tour-68"
+  "latestCompletionAudit": "archive/amsterdam2022-final-publication-audit-20261013.json",
+  "activeDetailedTourId": "tour-69"
 }
