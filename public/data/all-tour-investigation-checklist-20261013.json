@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "Repair one tour at a time, continuing with London 2019 after Halloween, Paris and Winter 2019.",
+    "One tour at a time. Piranha Plant2022 practical review closed with documented gaps; verify live completion before Ocean2022.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 71,
-      "source-and-publication-review": 37,
+      "completed-with-documented-gaps": 72,
+      "source-and-publication-review": 36,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 23,
       "candidate-and-source-review": 40,
@@ -45,8 +45,8 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 71,
-    "toursRequiringInvestigation": 110,
+    "practicallyCompletedTours": 72,
+    "toursRequiringInvestigation": 109,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 13,
+        "requiringInvestigation": 12,
         "categories": {
-          "source-and-publication-review": 1,
+          "source-and-publication-review": 0,
           "carry-in-and-sparse-history-check": 3,
           "candidate-and-source-review": 6,
           "data-quality-and-history-check": 0,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 13
+          "completed-with-documented-gaps": 14
         }
       },
       "2023": {
@@ -3587,13 +3587,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task. Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/piranha2022-completion.json"
     },
     {
       "id": "tour-75",
@@ -11187,5 +11188,5 @@
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
   "activeDetailedReview": "tour-74",
-  "latestCompletionAudit": "archive/bangkok2022-final-practical-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/piranha2022-final-practical-publication-audit-20261013.json"
 }
