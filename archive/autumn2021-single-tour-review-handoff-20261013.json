@@ -3,8 +3,8 @@
   "practicalReviewComplete": false,
   "historyComplete": false,
   "sourceMediaCommit": "ea0dabb9",
-  "deploymentId": "376c2a1a-79aa-4fd7-94f8-0cbde474bdaf",
-  "lastObservedStatus": "Building; accepted source/media publication deployment.",
+  "deploymentId": "e74a1cc4-8d98-4bdc-9989-631f1c3c10b5",
+  "lastObservedStatus": "Building; accepted via GitHub after exact committed-source fidelity correction.",
   "coverage": {
     "exactWindowDiscussionMessages": 549,
     "discussionAttachmentsWithPriorReviewAndFiles": 19,
@@ -18,16 +18,21 @@
     "partialClipsOnR2": 4
   },
   "validation": {
-    "isolatedRowsCompared": 231,
+    "isolatedRowsCompared": 232,
     "isolatedDifferences": 0,
     "productionBuildPages": 891,
-    "productionBuildExitCode": 0
+    "productionBuildExitCode": 0,
+    "sourceBasis": "Fresh git archive committed inputs with required reviewed manifest; no stale raw inputs."
   },
   "remaining": [
-    "Wait on accepted376c2a1a and rerun /tmp/mkt-autumn-final-check.py.",
-    "Live prior build has38 February2021 IDs prefixed curated- versus saved IDs, plus one extra row; review canonical generation membership before certifying publication.",
-    "Review selected full-recording finish frames, opening-day output and WR/recording comparison; save final source disposition.",
-    "Only publish Autumn completion after live evidence matches; verify live label before Halloween2021."
+    "Wait for accepted e74a1cc4 (or99eaa942 same canonical build fields) to become active; run /tmp/mkt-autumn-final-check.py and require232rows, zero differences and all renderedR2 links readable.",
+    "Save final live audit; update Autumn completion/source evidence/status/triage counts to52closed129open, add completed display prop inlib/data.mjs/app/archive.jsx using index-safe edits.",
+    "Build in fresh root from /tmp/mkt-autumn-clean-root; verify rendered completed labels.",
+    "Push completion; verify live labels before Halloween2021."
   ],
-  "nextTourId": "tour-55"
+  "nextTourId": "tour-55",
+  "publicationFixCommit": "f0e94682",
+  "freshCommittedSourceFidelityAudit": "archive/autumn2021-fresh-committed-input-fidelity-verification-20261013.json",
+  "selectedRecordingReview": "archive/autumn2021-selected-recording-hash-decode-and-sampled-visual-review-20261013.json",
+  "openingDayAudit": "archive/autumn2021-opening-day-publication-policy-check-20261013.json"
 }
