@@ -610,7 +610,7 @@ function HalloweenSupportingResults({ results, players }) {
     <div className="table-wrap"><table className="wr-table">
       <thead><tr><th>Time + video</th><th>Player</th><th>Documented day</th><th>Sources</th></tr></thead>
       <tbody>{results.map(r => <tr key={r.id}>
-        <td><Time record={r} />{r.nbcSourceConflict && <p className="table-note">Unresolved source disagreement: sheet {r.nbcSourceConflict.sheetTime}; <a href={r.nbcSourceConflict.discordUrl} target="_blank" rel="noopener noreferrer">Discord image</a> previously read as {r.nbcSourceConflict.discordTime}. <a href={r.nbcSourceConflict.forumUrl} target="_blank" rel="noopener noreferrer">Forum text</a> says {r.nbcSourceConflict.forumTime} on NBC; that value is not accepted as a result. These sources have not been reconciled.</p>}{r.videoResultConflict && <p className="table-note">Unresolved video result: original post says {r.videoResultConflict.documentedTime}; automated reads of the linked video suggest {r.videoResultConflict.machineReadTime}. The video result still needs visual verification. The documented time is retained.</p>}</td>
+        <td><Time record={r} />{r.videoBackup?.url && <div><a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></div>}{r.nbcSourceConflict && <p className="table-note">Unresolved source disagreement: sheet {r.nbcSourceConflict.sheetTime}; <a href={r.nbcSourceConflict.discordUrl} target="_blank" rel="noopener noreferrer">Discord image</a> previously read as {r.nbcSourceConflict.discordTime}. <a href={r.nbcSourceConflict.forumUrl} target="_blank" rel="noopener noreferrer">Forum text</a> says {r.nbcSourceConflict.forumTime} on NBC; that value is not accepted as a result. These sources have not been reconciled.</p>}{r.videoResultConflict && <p className="table-note">Unresolved video result: original post says {r.videoResultConflict.documentedTime}; automated reads of the linked video suggest {r.videoResultConflict.machineReadTime}. The video result still needs visual verification. The documented time is retained.</p>}</td>
         <td><Player id={r.playerId} players={players} /></td>
         <td>{r.achievedAt ? date(r.achievedAt) : "Unknown; set during Halloween Tour"}{r.dateSourceDiscrepancyReview && <p className="table-note">Sheet day differs from reviewed WR-history day: <a href={r.dateSourceDiscrepancyReview.source.url} target="_blank" rel="noopener noreferrer">{r.dateSourceDiscrepancyReview.reviewedWrHistoryDay}</a>. Exact race time remains unconfirmed.</p>}</td>
         <td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}
@@ -643,6 +643,11 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <FastestVideo course={c} players={players} />
       <HalloweenRecording comparison={c.halloween2019Recording} players={players} />
       <HalloweenSupportingResults results={c.halloweenSupportingResults} players={players} />
+      {!!c.preservedHalloweenRecordings?.length && <details className="sources">
+        <summary>Additional preserved Halloween recordings ({c.preservedHalloweenRecordings.length})</summary>
+        <p className="table-note">Supporting recordings preserved separately from WR progression. Original posting clocks and footage limitations remain in the linked evidence.</p>
+        {c.preservedHalloweenRecordings.map(r => <p key={r.id}><strong>{r.time}</strong> · <a href={r.video || r.videoReference} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a><EvidenceTimes r={r} /></p>)}
+      </details>}
       <HalloweenRecording comparison={c.paris2019Recording} players={players} tourLabel="Paris Tour (2019)" />
       <ParisSupportingResults results={c.parisSupportingResults} players={players} />
       <HalloweenRecording comparison={c.winter2019Recording} players={players} tourLabel="Winter Tour (2019)" />
