@@ -1,0 +1,28 @@
+{
+  "tourId": "tour-53",
+  "practicalReviewComplete": false,
+  "checkedAt": "2026-10-13",
+  "requiredManifestCommit": "69058916",
+  "manifestPath": "scripts/reviewed-publication-field-patches.json",
+  "reason": "Live snapshot after df263897 healthcheck still omitted all31 reviewed patch rows, proving archive-path inclusion exception insufficient in current Docker context.",
+  "isolatedCanonicalRegeneration": {
+    "patchesChecked": 31,
+    "allSetFieldsMatch": true
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "pages": 891,
+    "log": "/tmp/mkt-patch-next-build.log"
+  },
+  "patchGuardTests": {
+    "passed": 2,
+    "failed": 0
+  },
+  "deploymentId": "788659a8-f124-4838-b13b-5d3aa622396f",
+  "lastObservedStatus": "Building; context loaded, base image and WORKDIR steps observed; nonterminal.",
+  "remaining": [
+    "Wait for accepted deployment; re-run scripts/verify-anniversary2021-publication.py.",
+    "Require zero differences and all rendered evidence links readable before completion publication.",
+    "Publish completion and verify live labels before beginning Autumn2021."
+  ]
+}
