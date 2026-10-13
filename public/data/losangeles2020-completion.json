@@ -2,8 +2,8 @@
   "tourId": "tour-27",
   "tour": "Los Angeles Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-09-23T06:00:00Z",
@@ -23,7 +23,15 @@
     "archive/losangeles2020-video-preservation.json",
     "archive/losangeles2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/losangeles2020-selected-recording-r2-preservation-20261012.json",
-    "archive/losangeles2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/losangeles2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/losangeles2020-final-publication-audit-20261013.json",
+    "archive/losangeles2020-practical-source-coverage-disposition-20261013.json",
+    "archive/losangeles2020-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/losangeles2020-external-reference-and-withheld-claim-disposition-20261013.json",
+    "archive/losangeles2020-three-context-clips-r2-preservation-20261013.json",
+    "archive/losangeles2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/losangeles2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/losangeles2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/losangeles2020-discussion-review-progress.json",
@@ -33,28 +41,34 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 9
+    "completedRunRecordingsPreservedOnR2": 1,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 0,
+    "partialClipsPreservedOnR2": 3,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 170,
+    "discussionImageHashesVerified": 170,
+    "discussionMessagesIndexed": 2520
   },
   "remainingLimitations": [
-    "Final DK Pass WR recording preserved; exact race-completion instant and earlier previous-best chronology remain unknown.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Final DK Pass WR 1:31.56 recording preserved; earlier previous-best dates remain qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 1,
-    "documentedResultsRows": [
-      1
-    ],
-    "videoRangeChecksPassed": 1,
-    "generationFidelity": [
-      {
-        "courseId": "ds-dk-pass",
-        "reviewedRows": 17,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 185,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 22,
+    "freshSelectedRecordingReviews": 1,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-28"
+  "nextTourId": "tour-28",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/losangeles2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/losangeles2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "5fdbaba77667927587041a1dd0d52fd1d126ec76"
 }
