@@ -571,7 +571,7 @@ function FastestVideo({ course: c, players }) {
     </> : <p className="table-note">No available video has been verified for this course yet.</p>}
   </section>;
 }
-function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (2019)", completed = true }) {
+function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (2019)", completed = false }) {
   if (!comparison) return null;
   const { worldRecord: wr, recording: r } = comparison;
   return <section className="fastest-video">

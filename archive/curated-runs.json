@@ -14252,12 +14252,12 @@
       "path": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
       "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
       "verifiedAt": "2026-10-04",
-      "backupStatus": "remote-backup-unverified",
+      "backupStatus": "available",
       "bytes": 28073686,
       "sourceCrosswalkReview": "archive/halloween2019-astre12570-original-delayed-share-and-preservation-crosswalk-20261011.json",
       "reviewAudit": "archive/halloween2019-three-faster-nbc-original-preservation-mapping-20261012.json",
       "integrityCensus": "archive/halloween2019-three-faster-nbc-social-recording-local-integrity-and-duration-review-20261012.json",
-      "status": "local-original-preserved",
+      "status": "r2-original-preserved",
       "files": [
         {
           "path": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
@@ -14275,7 +14275,9 @@
         }
       ],
       "freshFootageReviewed": false,
-      "fullRaceContinuityFreshlyVerified": false
+      "fullRaceContinuityFreshlyVerified": false,
+      "remoteBackupVerified": true,
+      "latestVisibleSampleReview": "archive/halloween2019-astre12570-preserved-original-and-visible-sample-review-20261012.json"
     },
     "originalCaptionSourceReview": {
       "reviewAudit": "archive/paris2019-delayed-astre-result-and-two-runner-attribution-caption-reviews-20261010.json",
@@ -14307,18 +14309,14 @@
       "platform": "Twitter"
     },
     "videoScopeReview": {
-      "reviewAudit": "archive/halloween2019-astre12570-original-delayed-share-and-preservation-crosswalk-20261011.json",
+      "reviewAudit": "archive/halloween2019-astre12570-preserved-original-and-visible-sample-review-20261012.json",
       "originalFile": "archive/video-backup-files/halloween2019-astre-nbc-1191841211063164929/original.mp4",
       "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
       "bytes": 28073686,
-      "durationSeconds": 99.334966,
-      "originalMetadataDurationSeconds": 99.326,
-      "priorVisualReview": "archive/halloween2019-dino-intermediate-and-astre-original-video-recovery-20261004.json",
-      "priorLapAndFinishFrameReviewRetained": true,
+      "freshFootageReviewed": true,
       "startToFinishContinuityVerified": false,
-      "freshFootageReviewed": false,
-      "status": "full-race-continuity-review-pending",
-      "basis": "Prior review identifies lap and finish frames; duration and dimensions match original media metadata but do not independently establish complete uncut race."
+      "status": "sampled-countdown-both-laps-finish-and-result-visible",
+      "basis": "Directly inspected pages2,4,5 of one-second samples and extracted countdown/start/lap frames. Both laps and 1:25.70 finish/result shown. Sampled frames do not independently prove every intervening frame is uncut."
     },
     "videoShareEvents": [
       {
@@ -14408,6 +14406,16 @@
       "verifiedMeaning": "original-result-report-publication",
       "acceptedSubmissionTimeKnown": false,
       "reason": "The matching reviewed source event explicitly does not establish an accepted submission clock."
+    },
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/halloween2019-astre-nbc-12570-f14178e7f272.mp4",
+      "originalUrl": "https://twitter.com/Astre_HD/status/1191841211063164929",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "f14178e7f2727be5b23fa66ec4992098bf4c1c2926a8e65c2a9b399e34e8ca44",
+      "bytes": 28073686,
+      "credit": "Astre",
+      "reviewAudit": "archive/halloween2019-astre12570-preserved-original-and-visible-sample-review-20261012.json"
     }
   },
   {
