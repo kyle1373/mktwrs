@@ -4,10 +4,10 @@
   "historyComplete": false,
   "sourceReconciliationCommit": "73232a8c",
   "publicationPreservationFixCommit": "ad64d496",
-  "deploymentId": "a3bedc5a-e040-4602-b0df-58ab69c46d8f",
-  "lastObservedStatus": "Building; current log at 08:46 PDT shows base image cached and build context loaded. Source archive 139.6 MB and uploaded snapshot 26.3 MB; nonterminal.",
+  "deploymentId": "788659a8-f124-4838-b13b-5d3aa622396f",
+  "lastObservedStatus": "Building; COPY package.json/package-lock.json observed at08:56 PDT. Job confirmed nonterminal.",
   "remaining": [
-    "Wait for accepted a3bedc5a Docker inclusion correction to become active; do not restart solely for slow logs.",
+    "Wait for accepted788659a8 required-manifest correction; do not restart solely for slow logs.",
     "Run scripts/verify-anniversary2021-publication.py; require zero field/membership differences and all rendered R2 links readable.",
     "Save passing audit, run completion/survey/docs helpers, also refresh all-tour-investigation-review-20261013.md totals and tour-53 row, then verify live completion label before tour-54."
   ],
@@ -29,5 +29,9 @@
     "readable": 37,
     "passed": false
   },
-  "previousDeploymentDisposition": "34c05d70 removed; 26ad314a active recording-clock deployment."
+  "previousDeploymentDisposition": "df263897 active but live31 reviewed metadata patches still absent; a3bedc5a removed.",
+  "requiredManifestFixCommit": "69058916",
+  "requiredManifestPath": "scripts/reviewed-publication-field-patches.json",
+  "buildValidationAudit": "archive/anniversary2021-required-publication-manifest-build-check-20261013.json",
+  "sampledVisualAudit": "archive/anniversary2021-selected-recording-sampled-visual-check-20261013.json"
 }
