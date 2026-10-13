@@ -3,7 +3,7 @@
   "sourceCommit": "496b5e731afb7dc00a91f7e2f16435ab1ea53ab1",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-55",
+  "activeDetailedReview": "tour-56",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 52,
-      "source-and-publication-review": 28,
+      "completed-with-documented-gaps": 53,
+      "source-and-publication-review": 27,
       "carry-in-and-sparse-history-check": 65,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 29,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 20,
+        "practicallyCompleted": 21,
         "notApplicable": 0,
-        "open": 6
+        "open": 5
       },
       "2022": {
         "catalogTours": 26,
@@ -91,7 +91,7 @@
         "open": 19
       }
     },
-    "openTours": 129,
+    "openTours": 128,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 32,
       "wrRowsWithUnresolvedDateOrOrder": 11,
@@ -5704,8 +5704,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gcn-dino-dino-jungle-r",
@@ -5751,8 +5750,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-rosalina-s-ice-world",
@@ -5776,8 +5774,21 @@
           "oneDayTourRangeDiscrepancies": []
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/halloween2021-completion.json",
+      "documentedLimitations": [
+        "DIT 1:40.16 and 1:39.60 previous best fields establish earlier runs but not exact original dates or ordering against other players.",
+        "January 26, 2020 Tome Twitter video 1221415967315709952 shows 1:40.32, lap one 50.04 and lap two 50.28. It is not proof of the later 1:40.18. Its original WR standing remains unresolved.",
+        "November 3 message 905335934634049536 reports an unsaved SuperFX WR. Attached IMG_8101 shows error 805-1414 over Rosalina’s Ice World without a readable result time. Preserve as unresolved lead; no invented record value.",
+        "Final Rosalina board IMG_6642 shows Spart 1:29.99 with 45.04/45.95, which sums to 1:30.99. Discussion explicitly flags this one-second typo; do not copy the bad split.",
+        "Sucha’s 44.92 lap clip, Spart’s underwater technique clip and two Wins clips do not establish a two-lap WR result.",
+        "Reading this tour cohort does not establish complete coverage of all earlier tours or channels.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Two original Sucha full recordings, two later DIT player recoveries, one historical Tome recording, and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-56",
@@ -19708,5 +19719,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/autumn2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/halloween2021-final-publication-audit-20261013.json"
 }

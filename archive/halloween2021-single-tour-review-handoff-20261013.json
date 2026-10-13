@@ -1,25 +1,10 @@
 {
   "tourId": "tour-55",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
-  "priorReview": "archive/halloween-2021-reconciliation.json",
-  "currentSourceIndex": "archive/halloween2021-tour-only-discussion-census-20261013.json",
-  "discussionAttachmentIndex": "archive/halloween2021-exact-window-discussion-attachment-index-20261013.json",
-  "submissionFileCrosswalk": "archive/halloween2021-submission-original-file-publication-crosswalk-20261013.json",
-  "coverage": {
-    "exactWindowDiscussionMessages": 86,
-    "priorBroaderDiscussionMessages": 238,
-    "discussionAttachmentsWithFilesAndPriorReview": 9,
-    "submissionOriginalFilesHashChecked": 86,
-    "publishedImageMatches": 11,
-    "unmatchedRawImages": 75
-  },
-  "nextActions": [
-    "Classify 75 raw unmatched images using retained prior visual readings and known carried-in WRs; do not promote slower opening PBs.",
-    "Preserve all surviving full and partial recordings on R2, including two later DIT player recoveries; retain original upload/share and recovery clocks separately.",
-    "Freshly hash/decode/sample selected course and finish recordings; compare fastest completed recordings separately from WR.",
-    "Check opening-day filtering in fresh committed-source generation; verify live snapshots and all rendered evidence links.",
-    "Update practical completion and verify live labels before next tour."
-  ],
-  "nextTourId": "tour-56"
+  "completionEvidence": "public/data/halloween2021-completion.json",
+  "finalPublicationAudit": "archive/halloween2021-final-publication-audit-20261013.json",
+  "nextTourId": "tour-56",
+  "nextAction": "Verify live completion labels before beginning Toad vs. Toadette 2021."
 }

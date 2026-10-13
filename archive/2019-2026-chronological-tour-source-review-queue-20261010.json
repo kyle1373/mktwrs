@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 52,
+    "practicallyCompletedTours": 53,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -3726,7 +3726,7 @@
       "endDate": "2021-11-03",
       "tourSource": "https://www.mariowiki.com/Halloween_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "gcn-dino-dino-jungle-r",
@@ -3748,7 +3748,8 @@
             "archive/halloween-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/halloween2021-submission-original-practical-dispositions-20261013.json"
         },
         {
           "courseId": "3ds-rosalina-s-ice-world",
@@ -3768,16 +3769,18 @@
             "archive/halloween-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/halloween2021-submission-original-practical-dispositions-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/halloween2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/halloween2021-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/halloween2021-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-56",
@@ -11829,9 +11832,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/autumn2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-55",
+  "latestLivePublicationVerification": "archive/halloween2021-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-56",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-55"
+  "activeDetailedTourId": "tour-56"
 }

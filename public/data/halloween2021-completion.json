@@ -2,8 +2,8 @@
   "tourId": "tour-55",
   "tour": "Halloween Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-10-20T06:00:00Z",
@@ -28,7 +28,17 @@
     "archive/halloween-2021-reconciliation.json",
     "archive/halloween2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/halloween2021-selected-recording-r2-preservation-20261012.json",
-    "archive/halloween2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/halloween2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/halloween2021-submission-original-practical-dispositions-20261013.json",
+    "archive/halloween2021-exact-window-discussion-attachment-index-20261013.json",
+    "archive/halloween2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/halloween2021-opening-day-publication-policy-check-20261013.json",
+    "archive/halloween2021-tour-only-discussion-census-20261013.json",
+    "archive/halloween2021-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/halloween2021-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/halloween2021-submission-original-file-publication-crosswalk-20261013.json",
+    "archive/halloween2021-original-video-upload-share-clock-reconciliation-20261013.json",
+    "archive/halloween2021-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/halloween-2021-reconciliation.json",
@@ -45,7 +55,19 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 11
+    "exactWindowDiscussionMessagesIndexed": 86,
+    "discussionAttachmentsWithPriorDispositionsAndFiles": 9,
+    "submissionOriginalFilesHashChecked": 86,
+    "currentTourSubmissionImages": 86,
+    "latePreviousTourImages": 0,
+    "publishedImageMatches": 11,
+    "openingDayRawPersonalBests": 19,
+    "slowerLaterPersonalBests": 56,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 4,
+    "historicalCompletedOriginalOnR2": 1,
+    "additionalOriginalSameResultOnR2": 0,
+    "partialClipsPreservedOnR2": 4
   },
   "supersededPriorLimitation": "Prior deleted-video gap resolved by later DIT player uploads preserved on R2; original Twitter media remains unavailable.",
   "remainingLimitations": [
@@ -54,31 +76,26 @@
     "November 3 message 905335934634049536 reports an unsaved SuperFX WR. Attached IMG_8101 shows error 805-1414 over Rosalina’s Ice World without a readable result time. Preserve as unresolved lead; no invented record value.",
     "Final Rosalina board IMG_6642 shows Spart 1:29.99 with 45.04/45.95, which sums to 1:30.99. Discussion explicitly flags this one-second typo; do not copy the bad split.",
     "Sucha’s 44.92 lap clip, Spart’s underwater technique clip and two Wins clips do not establish a two-lap WR result.",
-    "Seven recovered original videos are preserved locally. Sucha 1:29.85, Sucha 1:30.05 and Tome 1:40.32 have verified unlisted backups. Four partial clips remain queued after YouTube reported its daily upload limit; originals are preserved locally.",
     "Reading this tour cohort does not establish complete coverage of all earlier tours or channels.",
-    "Prior full recording review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered."
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Two original Sucha full recordings, two later DIT player recoveries, one historical Tome recording, and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
   ],
   "validation": {
-    "productionBuildPages": 895,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      0,
-      1
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "gcn-dino-dino-jungle-r",
-        "reviewedRows": 17,
-        "differences": 0
-      },
-      {
-        "courseId": "3ds-rosalina-s-ice-world",
-        "reviewedRows": 7,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 252,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 79,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-56"
+  "nextTourId": "tour-56",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "d9844ba162336b870e296b7760103eaeae32cb93",
+  "latestPublicationAudit": "archive/halloween2021-final-publication-audit-20261013.json"
 }

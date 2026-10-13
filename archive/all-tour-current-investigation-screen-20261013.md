@@ -2,13 +2,13 @@
 
 Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `0cd77ea9`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags matched at screening time; Autumn completion was subsequently updated after its separate live publication audit.
 
-**52 practical reviews are closed with documented gaps; 129 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Halloween 2021 is next after live completion-label verification; review and publish one tour at a time.
+**53 practical reviews are closed with documented gaps; 128 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Toad vs. Toadette 2021 is next after live completion-label verification; review and publish one tour at a time.
 
 | Year | Reviewed with documented gaps | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 20 | 6 | 0 |
+| 2021 | 21 | 5 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -796,17 +796,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/au
 
 ### 55. Halloween Tour (2021) (2021-10-20 → 2021-11-03)
 
-**Open.** source and publication review.
-
-**[GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r)** — 7 WR rows, 7 supporting results, 0 candidates, 2 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Rosalina's Ice World](https://mktwrs.com/course/3ds-rosalina-s-ice-world)** — 3 WR rows, 4 supporting results, 0 candidates, 5 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/halloween2021-completion.json). 86 exact-window discussion messages, nine attachment dispositions and 86 submission-file hashes reconciled. Four current-tour full recordings (two later player recoveries), one historical original and four partial clips preserved on R2. Two selected finishes freshly sampled and files decoded. 252 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, the final-board typo and unavailable outside sources remain qualified.
 
 ### 56. Toad vs. Toadette Tour (2021) (2021-11-03 → 2021-11-17)
 
