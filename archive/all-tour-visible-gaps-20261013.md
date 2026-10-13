@@ -4,13 +4,13 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 rendered WR counts match the prior publication check. Counts and investigation leads below use freshly fetched live data. The isolated source baseline includes unpublished Mario vs. Luigi evidence, so its data comparisons are reported separately in the JSON.
 
-Practical reviews are complete for Halloween 2019 through Ninja 2021 (39 tours), with documented gaps. Sydney 2021 is the next detailed review. 143 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Sydney April 2021 (40 tours), with documented gaps. Sydney 2021 is the next detailed review. 143 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
 | 2020 | 27 | 27 | 0 | 0 |
-| 2021 | 26 | 7 | 19 | 0 |
+| 2021 | 26 | 8 | 18 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
 | 2024 | 26 | 0 | 26 | 0 |
@@ -563,19 +563,9 @@ Completed with documented gaps.
 
 ### 42. Sydney Tour (April–May 2021) (2021) — 2021-04-21 to 2021-05-05
 
-Source and publication review.
+Completed with documented gaps.
 
-**[3DS Neo Bowser City R](https://mktwrs.com/course/3ds-neo-bowser-city-r)**: 5 WR rows; 109 supporting rows; 0 pending candidates; carry-in 1:23.88.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
-
-**[RMX Choco Island 2](https://mktwrs.com/course/rmx-choco-island-2)**: 6 WR rows; 154 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 11 linked-video rows; 0 remote-only Discord WR images.
+[Completion evidence](https://mktwrs.com/data/sydney2021-completion.json). 1358 preserved messages and 219 image dispositions checked; both final WR recordings freshly sampled with hash/decode/access checks. Seven completed recordings and three route clips preserved on R2. Opening chronology, unavailable slower footage and global source completeness remain qualified.
 
 ### 43. Bowser vs. DK Tour (2021) — 2021-05-05 to 2021-05-19
 

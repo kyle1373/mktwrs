@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 39,
-      "source-and-publication-review": 56,
+      "completed-with-documented-gaps": 40,
+      "source-and-publication-review": 55,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
@@ -45,8 +45,8 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 39,
-    "toursRequiringInvestigation": 142,
+    "practicallyCompletedTours": 40,
+    "toursRequiringInvestigation": 141,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -69,11 +69,11 @@
       },
       "2021": {
         "catalogTours": 26,
-        "requiringInvestigation": 19,
+        "requiringInvestigation": 18,
         "categories": {
-          "source-and-publication-review": 13,
+          "source-and-publication-review": 12,
           "carry-in-and-sparse-history-check": 6,
-          "completed-with-documented-gaps": 7
+          "completed-with-documented-gaps": 8
         }
       },
       "2022": {
@@ -1898,8 +1898,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -1914,12 +1913,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/sydney2021-completion.json",
+      "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified."
     },
     {
       "id": "tour-43",
@@ -11141,7 +11142,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-42",
+  "activeDetailedTourId": "tour-43",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [

@@ -2,13 +2,13 @@
 
 Reviewed all **183 catalog tours, 381 course appearances, and 142 live course pages** against `496b5e73`. All 142 pages and JSON files returned HTTP 200; their data and rendered WR counts match the isolated publication output.
 
-**39 practical reviews closed; 142 tours open; 2 pre-time-trial tours not applicable.** Closed reviews retain documented gaps and do not certify exhaustive history. Detailed review moves to **Sydney 2021**. The screening itself changes no completion flags; Yoshi and Ninja 2021 were subsequently closed using its separate source and live-publication audits.
+**40 practical reviews closed; 141 tours open; 2 pre-time-trial tours not applicable.** Closed reviews retain documented gaps and do not certify exhaustive history. Detailed review moves to **Bowser vs. DK 2021**. The screening itself changes no completion flags; Yoshi, Ninja and Sydney April 2021 were subsequently closed using its separate source and live-publication audits.
 
 | Year | Practical reviews closed | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 7 | 19 | 0 |
+| 2021 | 8 | 18 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -581,17 +581,9 @@ Completed with documented gaps.
 
 ### 42. Sydney Tour (April–May 2021) (2021) — 2021-04-21 to 2021-05-05
 
-Source and publication review.
+Completed with documented gaps.
 
-**[3DS Neo Bowser City R](https://mktwrs.com/course/3ds-neo-bowser-city-r)**: 5 WR rows; 109 supporting results; 0 pending candidates; carried-in WR 1:23.88.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Choco Island 2](https://mktwrs.com/course/rmx-choco-island-2)**: 6 WR rows; 154 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/sydney2021-completion.json). 1358 preserved messages and 219 image dispositions checked; both final WR recordings freshly sampled with hash/decode/access checks. Seven completed recordings and three route clips preserved on R2. Opening chronology, unavailable slower footage and global source completeness remain qualified.
 
 ### 43. Bowser vs. DK Tour (2021) — 2021-05-05 to 2021-05-19
 

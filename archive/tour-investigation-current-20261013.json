@@ -3,7 +3,7 @@
   "sourceCommit": "496b5e731afb7dc00a91f7e2f16435ab1ea53ab1",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-42",
+  "activeDetailedReview": "tour-43",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 39,
-      "source-and-publication-review": 39,
+      "completed-with-documented-gaps": 40,
+      "source-and-publication-review": 38,
       "carry-in-and-sparse-history-check": 67,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 29,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 7,
+        "practicallyCompleted": 8,
         "notApplicable": 0,
-        "open": 19
+        "open": 18
       },
       "2022": {
         "catalogTours": 26,
@@ -91,11 +91,11 @@
         "open": 19
       }
     },
-    "openTours": 142,
+    "openTours": 141,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 32,
       "wrRowsWithUnresolvedDateOrOrder": 14,
-      "videoRowsWithoutKnownUploadShareOrSubmissionClock": 14,
+      "videoRowsWithoutKnownUploadShareOrSubmissionClock": 13,
       "oneDayTourRangeDiscrepancies": 28,
       "remoteOnlyDiscordWrImages": 11,
       "courseWithoutLinkedVideo": 77
@@ -4080,8 +4080,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-neo-bowser-city-r",
@@ -4120,8 +4119,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 5,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-choco-island-2",
@@ -4144,8 +4142,25 @@
           "oneDayTourRangeDiscrepancies": []
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/sydney2021-completion.json",
+      "documentedLimitations": [
+        "Full server message coverage is not established by the image index or keyword searches.",
+        "Deleted-account 1:03.05 identity is unresolved; the dated evidence and adjacent splits are retained.",
+        "Previous-best fields expose earlier 1:03.54 and 1:03.11 whose exact original dates remain unresolved.",
+        "Akisame CI2 video VZu5-ZPHOrM is unavailable in the signed-in browser.",
+        "Opening NBC R tour-leading WR claims are slower than the already established 2020 1:23.88.",
+        "Kazuo1:23.68 and Wins1:02.41 final WR recordings preserved; original video upload dates remain separate from earlier screenshots.",
+        "Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.",
+        "Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.",
+        "No accepted opening-day Choco WR; first published accepted leader is April22. Early global leadership remains unresolved.",
+        "Nu11 RMX Choco1:02.58 video unavailable; original screenshot and contemporary world-second embed retained without playable proof.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Original final WR videos shared after earlier screenshots; publication dates do not reset achievement dates.",
+        "Three route/failed-attempt clips remain separate from completed runs.",
+        "Five additional completed recordings retained with prior reviews; three short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-43",
@@ -19494,5 +19509,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/ninja2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/sydney2021-final-publication-audit-20261013.json"
 }
