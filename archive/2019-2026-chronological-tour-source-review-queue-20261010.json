@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 18,
+    "practicallyCompletedTours": 19,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -1430,7 +1430,7 @@
       "endDate": "2020-07-15",
       "tourSource": "https://www.mariowiki.com/Marine_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "3ds-mario-circuit",
@@ -1450,7 +1450,8 @@
             "archive/marine-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/marine2020-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "rmx-choco-island-1",
@@ -1470,16 +1471,18 @@
             "archive/marine-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/marine2020-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/marine2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/marine2020-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/marine2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-22",
@@ -11724,9 +11727,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/peach2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-21",
+  "latestLivePublicationVerification": "archive/marine2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-22",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-21"
+  "activeDetailedTourId": "tour-22"
 }

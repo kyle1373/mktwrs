@@ -2,8 +2,8 @@
   "tourId": "tour-21",
   "tour": "Marine Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-07-01T06:00:00Z",
@@ -30,7 +30,16 @@
     "archive/marine-2020-reconciliation.json",
     "archive/marine2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/marine2020-selected-recording-r2-preservation-20261012.json",
-    "archive/marine2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/marine2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/marine2020-final-publication-audit-20261013.json",
+    "archive/marine2020-practical-source-coverage-disposition-20261013.json",
+    "archive/marine2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/marine2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/marine2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/marine2020-five-additional-completed-originals-r2-preservation-20261013.json",
+    "archive/marine2020-two-final-result-image-integrity-review-20261013.json",
+    "archive/marine2020-mario-opening-day-policy-generation-check-20261013.json",
+    "archive/marine2020-choco-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/marine2020-discussion-review-progress.json",
@@ -40,34 +49,31 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 44
+    "proofImageUrlsPassed": 44,
+    "additionalCompletedRecordingsPreservedOnR2": 5,
+    "discussionImageDispositions": 308,
+    "discussionImageHashesVerified": 308
   },
   "remainingLimitations": [
-    "SuperFX 1:35.47 Mario Circuit and Kazuo 1:12.36 Choco Island final WR recordings not recovered; slower completed recordings retained.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Final Mario Circuit 1:35.47 and RMX Choco Island 1:12.36 WR recordings unavailable; completed 1:36.24 and 1:12.42 footage shown separately.",
+    "Previous-best chronology and eight attachment retrievals remain unresolved; no unproven leaders inferred.",
+    "308 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
+    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      5,
-      6
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-mario-circuit",
-        "reviewedRows": 40,
-        "differences": 0
-      },
-      {
-        "courseId": "rmx-choco-island-1",
-        "reviewedRows": 36,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 411,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 142,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesIntegrityVerified": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-22"
+  "nextTourId": "tour-22",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/marine2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/marine2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "ef52a5942487144e8a562239ce13eafb94a866d7"
 }

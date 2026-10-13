@@ -3,7 +3,7 @@
   "sourceCommit": "fc689aa71342ec12384225f19f5a0af8d49d4837",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-21",
+  "activeDetailedReview": "tour-22",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 18,
-      "source-and-publication-review": 59,
+      "completed-with-documented-gaps": 19,
+      "source-and-publication-review": 58,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -51,9 +51,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 13,
+        "practicallyCompleted": 14,
         "notApplicable": 0,
-        "open": 14
+        "open": 13
       },
       "2021": {
         "catalogTours": 26,
@@ -1817,8 +1817,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-mario-circuit",
@@ -1856,8 +1855,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-choco-island-1",
@@ -1880,8 +1878,15 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/marine2020-completion.json",
+      "documentedLimitations": [
+        "Final Mario Circuit 1:35.47 and RMX Choco Island 1:12.36 WR recordings unavailable; completed 1:36.24 and 1:12.42 footage shown separately.",
+        "Previous-best chronology and eight attachment retrievals remain unresolved; no unproven leaders inferred.",
+        "308 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
+        "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
+      ]
     },
     {
       "id": "tour-22",
@@ -18521,5 +18526,5 @@
     }
   ],
   "completionStatusUpdatedAt": "2026-10-13",
-  "latestCompletionAudit": "archive/peach2020-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/marine2020-final-publication-audit-20261013.json"
 }
