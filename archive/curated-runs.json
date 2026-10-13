@@ -3550,7 +3550,20 @@
       "videoId": "3qfW7CGlRus",
       "offsetSeconds": 30.5
     },
-    "lapMatchBasis": "Original full-run recording: frozen lap-one split21.64 at30.5 seconds; total42.87, lap two derived by centisecond subtraction."
+    "lapMatchBasis": "Original full-run recording: frozen lap-one split21.64 at30.5 seconds; total42.87, lap two derived by centisecond subtraction.",
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/jungle2020-3qfW7CGlRus-e7440d226323.mp4",
+      "originalUrl": "https://youtu.be/3qfW7CGlRus",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "channel": "mktwrs media archive",
+      "uploadedAt": "2026-10-13T08:39:44.053170+00:00",
+      "sha256": "e7440d2263237393ebd05a51e1d7ca24204924ad5820fd6a06475344a7a8fe03",
+      "bytes": 7169030,
+      "credit": "Brandon",
+      "preservedOriginalFile": "archive/jungle-2020-videos/3qfW7CGlRus.mp4"
+    },
+    "videoAvailability": "available"
   },
   {
     "messageId": "712566180405051486-verified",
@@ -4107,6 +4120,12 @@
         "channel": "tt-discussion",
         "messageId": "713816619851317359",
         "kind": "screen-recorded-extract-of-Kazuo-lap2-video"
+      },
+      {
+        "url": "https://media.mktwrs.com/assets/video/jungle2020-partial-1264241584549302275-d4b577cdb2f0.mp4",
+        "kind": "preserved-partial-lap-video",
+        "postedAt": "2020-05-23T17:07:54.291Z",
+        "note": "Individual lap footage; not a completed two-lap recording."
       }
     ],
     "notes": [
@@ -4121,8 +4140,22 @@
       "originalFile": "archive/video-preservation/may2020-1264241526210789378.mp4",
       "sha256": "d4b577cdb2f0551bcf869c6c218d49ddaced16d2e87f56a7ee929a47e8e09f6f",
       "bytes": 1857398,
-      "backupUploadStatus": "pending",
-      "reviewAudit": "archive/jungle2020-kazuo-four-social-lap-videos-review-20261005.json"
+      "backupUploadStatus": "available",
+      "videoBackup": {
+        "url": "https://media.mktwrs.com/assets/video/jungle2020-partial-1264241584549302275-d4b577cdb2f0.mp4",
+        "originalUrl": "https://twitter.com/kazuomkt/status/1264241584549302275",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "channel": "mktwrs media archive",
+        "uploadedAt": "2026-10-13T08:40:17.772824+00:00",
+        "sha256": "d4b577cdb2f0551bcf869c6c218d49ddaced16d2e87f56a7ee929a47e8e09f6f",
+        "bytes": 1857398,
+        "credit": "Kazuo",
+        "preservedOriginalFile": "archive/video-preservation/may2020-1264241526210789378.mp4",
+        "scope": "partial-lap-or-strategy"
+      },
+      "classification": "lap2-of-existing42.13-WR",
+      "reviewAudit": "archive/jungle2020-six-partial-originals-r2-preservation-20261013.json"
     }
   },
   {
@@ -4191,13 +4224,41 @@
         "url": "https://discord.com/channels/629221606064914442/636461740162416640/714774364066807808",
         "channel": "tt-discussion",
         "messageId": "714774364066807808"
+      },
+      {
+        "url": "https://media.mktwrs.com/assets/video/jungle2020-partial-1265215566517846017-7a5683bce426.mp4",
+        "kind": "preserved-partial-lap-video",
+        "postedAt": "2020-05-26T09:38:08.259Z",
+        "note": "Individual lap footage; not a completed two-lap recording."
       }
     ],
     "notes": [
       "Original image total visually verified. Contemporary WR statements, the May 22 leaderboard and submission chronology establish the Jungle Tour progression.",
       "Exact UTC submission date retained. Each split belongs to this run; later self-ties and individual best laps are excluded.",
       "A separate Twitter clip shows only lap 1; no full-run video was found in the searched tour messages."
-    ]
+    ],
+    "partialVideoPreservation": {
+      "video": "https://twitter.com/kazuomkt/status/1265215566517846017",
+      "originalFile": "archive/video-preservation/may2020-1265215509877981186.mp4",
+      "sha256": "7a5683bce4268531d6ce55c4cc484cd4638a63e58e5d67a745b9defe40adf779",
+      "bytes": 1762219,
+      "backupUploadStatus": "available",
+      "videoBackup": {
+        "url": "https://media.mktwrs.com/assets/video/jungle2020-partial-1265215566517846017-7a5683bce426.mp4",
+        "originalUrl": "https://twitter.com/kazuomkt/status/1265215566517846017",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "channel": "mktwrs media archive",
+        "uploadedAt": "2026-10-13T08:40:19.069556+00:00",
+        "sha256": "7a5683bce4268531d6ce55c4cc484cd4638a63e58e5d67a745b9defe40adf779",
+        "bytes": 1762219,
+        "credit": "Kazuo",
+        "preservedOriginalFile": "archive/video-preservation/may2020-1265215509877981186.mp4",
+        "scope": "partial-lap-or-strategy"
+      },
+      "classification": "completed-lap1-only",
+      "reviewAudit": "archive/jungle2020-six-partial-originals-r2-preservation-20261013.json"
+    }
   },
   {
     "messageId": "712597270599565352-previous-best-4254",
@@ -56136,7 +56197,20 @@
       "Full recording downloaded and visually reviewed from countdown through finish. Frozen lap-one 21.39, finish 0:42.38. Lap two 20.99 is calculated from total minus lap one.",
       "This submitted run is slower than the already established WR. Retained as video footage; excluded from WR progression.",
       "The exact Discord sharing timestamp is retained; it does not establish an earlier achievement timestamp."
-    ]
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/jungle2020-DsI1gAhsyQ0-1b3ccff2c3e5.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=DsI1gAhsyQ0",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "channel": "mktwrs media archive",
+      "uploadedAt": "2026-10-13T08:39:46.349263+00:00",
+      "sha256": "1b3ccff2c3e505cecaefdb892ee641bdc1188fa8ed00e43e026d2f04e47675d7",
+      "bytes": 2277156,
+      "credit": "Phillish",
+      "preservedOriginalFile": "archive/jungle-2020-videos/DsI1gAhsyQ0.mp4"
+    },
+    "videoAvailability": "available"
   },
   {
     "messageId": "715090606875082802-full-video",
@@ -56168,7 +56242,20 @@
       "Full recording downloaded and visually reviewed from countdown through finish. Frozen lap-one 21.41, finish 0:42.33. Lap two 20.92 is calculated from total minus lap one.",
       "This submitted run is slower than the already established WR. Retained as video footage; excluded from WR progression.",
       "The exact Discord sharing timestamp is retained; it does not establish an earlier achievement timestamp."
-    ]
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/jungle2020-tgEwQ37RYf0-4a17d26aabea.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=tgEwQ37RYf0",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "channel": "mktwrs media archive",
+      "uploadedAt": "2026-10-13T08:39:49.277993+00:00",
+      "sha256": "4a17d26aabea9f25ade9c330716cbda73e00e1a15e714bb4f70dc2b9b4dcdd08",
+      "bytes": 2629274,
+      "credit": "Phillish",
+      "preservedOriginalFile": "archive/jungle-2020-videos/tgEwQ37RYf0.mp4"
+    },
+    "videoAvailability": "available"
   },
   {
     "messageId": "717455044076765364-full-video",
@@ -56226,6 +56313,18 @@
       "reviewAudit": "archive/jungle2020-selected-recording-clocks-and-scope-20261012.json",
       "clockType": "social-post-publication",
       "exactRaceFinishTimeKnown": false
+    },
+    "originalVideoFreshAccessReview": {
+      "reviewedAt": "2026-10-13T08:39:18.312988+00:00",
+      "reviewAudit": "archive/jungle2020-selected-recording-fresh-visual-and-access-review-20261013.json",
+      "freshVisualReview": true,
+      "sampledFinishTime": "0:42.11",
+      "sampledCourseId": "snes-mario-circuit-1r",
+      "startToFinishContinuityVerified": false,
+      "decodeExitCode": 0,
+      "r2RangeVerified": true,
+      "preservedSha256": "36c875c6c7f321b019fcdf19082c1952a70a52ad78183b547c857ab3bd37581d",
+      "priorLapReviewRetained": true
     }
   },
   {
@@ -56258,7 +56357,20 @@
       "Full recording downloaded and visually reviewed from countdown through finish. Frozen lap-one 21.55, finish 0:42.45. Lap two 20.90 is calculated from total minus lap one.",
       "This submitted run is slower than the already established WR. Retained as video footage; excluded from WR progression.",
       "The exact Discord sharing timestamp is retained; it does not establish an earlier achievement timestamp."
-    ]
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/jungle2020-1265228381706047489-f4d960978187.mp4",
+      "originalUrl": "https://twitter.com/heriawsity/status/1265228381706047489",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "channel": "mktwrs media archive",
+      "uploadedAt": "2026-10-13T08:39:51.817775+00:00",
+      "sha256": "f4d96097818760f800efb47366841b0e2182647dc312451a44a70ce1c9ccfe8a",
+      "bytes": 3485700,
+      "credit": "Heria",
+      "preservedOriginalFile": "archive/jungle-2020-videos/x-1265228381706047489.mp4"
+    },
+    "videoAvailability": "available"
   },
   {
     "messageId": "717619690049896459-snes-donut-plains-1-opening",
