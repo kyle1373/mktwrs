@@ -93,14 +93,6 @@
             "messageId": "964893921153003581"
           },
           "reviewAudit": "archive/yoshi2022-all-original-video-upload-share-clocks-20261013.json"
-        },
-        {
-          "sharedAt": "2022-04-16T14:24:02.985Z",
-          "source": {
-            "url": "https://discord.com/channels/629221606064914442/875784780573184010/964893943466688562",
-            "messageId": "964893943466688562"
-          },
-          "reviewAudit": "archive/yoshi2022-all-original-video-upload-share-clocks-20261013.json"
         }
       ],
       "scope": "full-run"
@@ -115,14 +107,6 @@
           "source": {
             "url": "https://discord.com/channels/629221606064914442/875784780573184010/965989433906196511",
             "messageId": "965989433906196511"
-          },
-          "reviewAudit": "archive/yoshi2022-all-original-video-upload-share-clocks-20261013.json"
-        },
-        {
-          "sharedAt": "2022-04-19T14:57:16.747Z",
-          "source": {
-            "url": "https://discord.com/channels/629221606064914442/875784780573184010/965989469507424306",
-            "messageId": "965989469507424306"
           },
           "reviewAudit": "archive/yoshi2022-all-original-video-upload-share-clocks-20261013.json"
         }
@@ -141,14 +125,6 @@
             "messageId": "964894132126515312"
           },
           "reviewAudit": "archive/yoshi2022-all-original-video-upload-share-clocks-20261013.json"
-        },
-        {
-          "sharedAt": "2022-04-16T14:24:53.309Z",
-          "source": {
-            "url": "https://discord.com/channels/629221606064914442/875784780573184010/964894154540855306",
-            "messageId": "964894154540855306"
-          },
-          "reviewAudit": "archive/yoshi2022-all-original-video-upload-share-clocks-20261013.json"
         }
       ],
       "scope": "full-run"
@@ -156,6 +132,13 @@
   ],
   "limitations": [
     "Original upload/share/submission clocks are not race achievement instants.",
-    "Isolated lap footage does not establish a complete overall result."
-  ]
+    "Isolated lap footage does not establish a complete overall result.",
+    "Bot receipt attachment/embed copies are excluded from runner video-share clocks."
+  ],
+  "nu11ClockCorrection": {
+    "submittedAt": "2022-04-19T14:57:08.259Z",
+    "commandId": "965989433906196511",
+    "videoPublishedAt": "2022-04-19T14:28:24Z",
+    "basis": "Captured human !submit wsr48.69/48.67 with video; upload is separate."
+  }
 }
