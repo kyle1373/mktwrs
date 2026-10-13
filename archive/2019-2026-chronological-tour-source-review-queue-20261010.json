@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 56,
+    "practicallyCompletedTours": 57,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -3998,7 +3998,7 @@
       "endDate": "2021-12-29",
       "tourSource": "https://www.mariowiki.com/Penguin_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-2r",
@@ -4018,7 +4018,8 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/penguin2021-preserved-submission-source-integrity-crosswalk-20261013.json"
         },
         {
           "courseId": "snes-vanilla-lake-2",
@@ -4040,16 +4041,18 @@
             "archive/penguin-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/penguin2021-preserved-submission-source-integrity-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/penguin2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/penguin2021-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "carry-in-and-sparse-history-check"
+      "investigationCategory": "carry-in-and-sparse-history-check",
+      "latestPublicationAudit": "archive/penguin2021-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-60",
@@ -11842,9 +11845,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/holiday2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-59",
+  "latestLivePublicationVerification": "archive/penguin2021-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-60",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-59"
+  "activeDetailedTourId": "tour-60"
 }

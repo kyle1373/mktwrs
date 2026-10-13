@@ -8,7 +8,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 24 | 2 | 0 |
+| 2021 | 25 | 1 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -734,18 +734,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/ho
 
 ### 59. Penguin Tour (2021) — 2021-12-15 to 2021-12-29
 
-Carry in and sparse history check.
-
-**[GBA Bowser's Castle 2R](https://mktwrs.com/course/gba-bowser-s-castle-2r)**: 1 WR rows; 46 supporting results; 0 pending candidates; carried-in WR 1:19.29.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[SNES Vanilla Lake 2](https://mktwrs.com/course/snes-vanilla-lake-2)**: 7 WR rows; 95 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/penguin2021-completion.json). 232 exact-window discussion messages, 12 discussion-image dispositions and 150 submission messages backed by 145 original-file hashes reconciled. Five full recordings, five partial clips and one excluded parody preserved on R2. Two selected finishes freshly sampled and files decoded. 284 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, anonymous faster reports and deleted outside sources remain qualified.
 
 ### 60. New Year's 2022 Tour (2021) — 2021-12-29 to 2022-01-12
 

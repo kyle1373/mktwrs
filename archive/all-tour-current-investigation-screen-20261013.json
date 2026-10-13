@@ -3,7 +3,7 @@
   "sourceCommit": "48f58df0de751e39d0b4b0c6a769f6dc111e8e0a",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-59",
+  "activeDetailedReview": "tour-60",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -34,8 +34,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 56,
-      "carry-in-and-sparse-history-check": 61,
+      "completed-with-documented-gaps": 57,
+      "carry-in-and-sparse-history-check": 60,
       "source-and-publication-review": 27,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 30,
@@ -57,9 +57,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 24,
+        "practicallyCompleted": 25,
         "notApplicable": 0,
-        "open": 2
+        "open": 1
       },
       "2022": {
         "catalogTours": 26,
@@ -92,14 +92,14 @@
         "open": 19
       }
     },
-    "openTours": 125,
+    "openTours": 124,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 33,
       "unresolvedWrDatesOrOrder": 10,
-      "missingVideoClocks": 8,
+      "missingVideoClocks": 7,
       "remoteOnlyDiscordWrImages": 11,
       "noLinkedFootage": 77,
-      "sparseCourseHistory": 99,
+      "sparseCourseHistory": 98,
       "oneDayTourRangeDiscrepancies": 27
     }
   },
@@ -6161,9 +6161,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-bowser-s-castle-2r",
@@ -6202,8 +6200,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 1,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-vanilla-lake-2",
@@ -6226,8 +6223,21 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/penguin2021-completion.json",
+      "documentedLimitations": [
+        "Nu11 opening sub-32 exact total is lost. Wins 31.87 WR ordering remains unresolved; later Phillish 32.13 and Lélé 32.10 are not WRs.",
+        "Astre 32.52, Wins 32.00 and Nu11 31.80 previous-best timestamps are unknown.",
+        "cabotsikalut submission matches Hilton 32.69 on final board, but profile identity remains unresolved.",
+        "Anonymous offsite 1:18.58 / 31.21 claims are unverified; no real player attribution or accepted proof was recovered. Offsite 20211228_123126.jpg failed to download.",
+        "FEX-obscured image, explicitly fake 1:11.11, unresolved 1:00.42 and parody 1:18.57 are excluded from WR progression.",
+        "Both final original social recordings now preserved on R2; deleted YouTube mirror does not remove recovered original Bowser footage. Nintendo anonymous faster totals remain documented without invented player identity.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Five full original recordings, five partial clips and one excluded parody preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-60",
@@ -19363,6 +19373,6 @@
     "subsequentSpaceCompletionAudit": "archive/space2021-completion-label-live-publication-check-20261013.json",
     "subsequentHolidayCompletionAudit": "archive/holiday2021-completion-label-live-publication-check-20261013.json"
   },
-  "remainingCurrentTourWork": "Holiday 2021 completed labels verified live; Penguin 2021 is next.",
-  "latestCompletionAudit": "archive/holiday2021-final-publication-audit-20261013.json"
+  "remainingCurrentTourWork": "Verify live Penguin completion label before beginning New Year 2022.",
+  "latestCompletionAudit": "archive/penguin2021-final-publication-audit-20261013.json"
 }
