@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Anniversary 2020 (26 tours), with documented gaps. Halloween 2020 is the next detailed review. 155 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Halloween 2020 (27 tours), with documented gaps. Sunset 2020 is the next detailed review. 154 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 21 | 6 | 0 |
+| 2020 | 27 | 22 | 5 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -320,19 +320,9 @@ Live Toad Circuit snapshot and rendered R2 links checked. Tomegome 1:04.04 origi
 
 ### 29. Halloween Tour (2020) — 2020-10-21 to 2020-11-04
 
-Source and publication review.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/halloween2020-completion.json).
 
-**[DS Airship Fortress](https://mktwrs.com/course/ds-airship-fortress)**: 11 WR rows; 13 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
-
-**[GBA Bowser's Castle 2R](https://mktwrs.com/course/gba-bowser-s-castle-2r)**: 14 WR rows; 14 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
+Both live course snapshots and rendered R2 links checked. Kazuo final Airship WR 1:30.07 and Tomegome final Bowser Castle 2R WR 1:19.29 recordings freshly reviewed. Three technique clips preserved. The 268 prior image dispositions are retained with fresh hashes and source crosschecks; 2,015 discussion messages indexed, including boundary context. Previous-best chronology, ambiguous 1:30.57 leaderboard entry and unavailable originals retain documented limits. Caption/video mismatch and edited-result exclusions retained.
 
 ### 30. Sunset Tour (2020) — 2020-11-04 to 2020-11-18
 

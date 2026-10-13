@@ -2,8 +2,8 @@
   "tourId": "tour-29",
   "tour": "Halloween Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-10-21T06:00:00Z",
@@ -29,7 +29,15 @@
     "archive/halloween2020-video-preservation.json",
     "archive/halloween2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/halloween2020-selected-recording-r2-preservation-20261012.json",
-    "archive/halloween2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/halloween2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/halloween2020-final-publication-audit-20261013.json",
+    "archive/halloween2020-practical-source-coverage-disposition-20261013.json",
+    "archive/halloween2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/halloween2020-external-reference-and-candidate-disposition-20261013.json",
+    "archive/halloween2020-three-context-clips-r2-preservation-20261013.json",
+    "archive/halloween2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/halloween2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/halloween2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/halloween2020-discussion-review-progress.json",
@@ -39,34 +47,34 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 28
+    "completedRunRecordingsPreservedOnR2": 2,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 0,
+    "partialClipsPreservedOnR2": 3,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 268,
+    "discussionImageHashesVerified": 268,
+    "discussionMessagesIndexed": 2015
   },
   "remainingLimitations": [
-    "Both final WR recordings preserved; unavailable Twitch replaced by surviving same-run Reddit copy.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Both final WR recordings preserved; prior previous-best and ambiguous intermediate leaderboard chronology retained as gaps.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      2,
-      0
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "ds-airship-fortress",
-        "reviewedRows": 25,
-        "differences": 0
-      },
-      {
-        "courseId": "gba-bowser-s-castle-2r",
-        "reviewedRows": 32,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 388,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 100,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-30"
+  "nextTourId": "tour-30",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/halloween2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/halloween2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "c20742986e3e1026eefcb6525e32935953605cb5"
 }
