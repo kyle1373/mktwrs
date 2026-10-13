@@ -274,15 +274,6 @@ for (const c of courses) {
       delete r.videoVerified;
       delete r.videoBackup;
       r.notes = [...(r.notes || []), attribution.reason];
-      // An explicit reviewed correction may link this player's own recording.
-      // Preserve the rejected shared URL and do not infer identity from a tie.
-      const ownVideo = c.submissions.find(s =>
-        s.enrichesRecordId === r.id && s.playerId === r.playerId &&
-        s.timeCs === r.timeCs && s.video &&
-        (!videoAttribution[videoKey(s.video)] ||
-          videoAttribution[videoKey(s.video)].playerIds.includes(r.playerId)),
-      );
-      r.video = ownVideo?.video || null;
     }
     if (visuallyVerifiedVideos.has(`${c.id}:${r.timeCs}:${videoKey(r.video)}`)) r.videoVerified = true;
     const backup = videoBackups[videoKey(r.video)];
@@ -479,6 +470,7 @@ for (const c of courses) {
   for (const r of [...c.records, ...c.submissions]) {
     const path = assetMap[r.proofImage]?.path || attachmentAssets.get(attachmentKey(r.proofImage));
     if (path) r.proofImageLocal = path;
+    if (!path && assetMap[r.proofImage]?.availability === "unavailable") r.proofImageAvailability = "unavailable";
   }
 }
 const portraits = fs.existsSync("archive/player-portraits.json")

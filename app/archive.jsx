@@ -626,7 +626,7 @@ function ParisSupportingResults({ results, players, tourLabel = "Paris Tour (201
     <summary>{tourLabel} documented results ({results.length})</summary>
     <p className="table-note">Earlier results, rival times and personal bests are preserved here. They are not certified as world records. Opening day shows the fastest documented result; exact finish times remain unknown where only a report date survives.</p>
     <div className="table-wrap"><table className="wr-table"><thead><tr><th>Time + video</th><th>Player</th><th>Documented day</th><th>Evidence</th></tr></thead>
-      <tbody>{results.map(r => <tr key={r.id}><td><Time record={r} /></td><td><Player id={r.playerId} players={players} /></td><td>{date(r.achievedAt || r.chronologyDate || r.submittedAt)}</td><td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}{(r.proofImageLocal || r.proofImage) && <> · <a href={r.proofImageLocal || r.proofImage} target="_blank" rel="noopener noreferrer">Image proof</a></>}<EvidenceTimes r={r} /></td></tr>)}</tbody>
+      <tbody>{results.map(r => <tr key={r.id}><td><Time record={r} /></td><td><Player id={r.playerId} players={players} /></td><td>{date(r.achievedAt || r.chronologyDate || r.submittedAt)}</td><td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}{(r.proofImageLocal || (r.proofImageAvailability !== "unavailable" && r.proofImage)) && <> · <a href={r.proofImageLocal || r.proofImage} target="_blank" rel="noopener noreferrer">Image proof</a></>}{r.proofImageAvailability === "unavailable" && !r.proofImageLocal && <> · Image unavailable</>}<EvidenceTimes r={r} /></td></tr>)}</tbody>
     </table></div>
   </details>;
 }
