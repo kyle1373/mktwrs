@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Jungle 2020 (16 tours), with documented gaps. Cooking 2020 is the next detailed review. 165 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Cooking 2020 (17 tours), with documented gaps. Peach 2020 is the next detailed review. 164 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 11 | 16 | 0 |
+| 2020 | 27 | 12 | 15 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -262,19 +262,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/ju
 
 ### 19. Cooking Tour (2020) — 2020-06-03 to 2020-06-17
 
-Source and publication review.
-
-**[SNES Donut Plains 1](https://mktwrs.com/course/snes-donut-plains-1)**: 24 WR rows; 31 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
-
-**[DS Waluigi Pinball R](https://mktwrs.com/course/ds-waluigi-pinball-r)**: 7 WR rows; 8 supporting rows; 0 pending candidates.
-
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/cooking2020-completion.json): 309 prior discussion-image dispositions crosschecked; 167 opening-image files verified; 295 live rows and 65 readable R2 links checked. Donut Plains 1 WR **0:49.77**; fastest available completed recording **Kazuo 0:49.90**. Waluigi Pinball R WR **1:45.91**; no completed recording recovered. Wins' preserved lap clip remains partial. Unidentified opening references, unavailable originals and exact race dates remain qualified.
 
 ### 20. Peach Tour (2020) — 2020-06-17 to 2020-07-01
 

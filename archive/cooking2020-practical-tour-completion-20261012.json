@@ -2,8 +2,8 @@
   "tourId": "tour-19",
   "tour": "Cooking Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-06-03T06:00:00Z",
@@ -30,7 +30,17 @@
     "archive/cooking2020-four-social-proof-performances-review-20261005.json",
     "archive/cooking2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/cooking2020-selected-recording-r2-preservation-20261012.json",
-    "archive/cooking2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/cooking2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/cooking2020-final-publication-audit-20261013.json",
+    "archive/cooking2020-practical-source-coverage-disposition-20261013.json",
+    "archive/cooking2020-selected-recording-fresh-visual-and-access-review-20261013.json",
+    "archive/cooking2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/cooking2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/cooking2020-three-additional-completed-originals-r2-preservation-20261013.json",
+    "archive/cooking2020-wins-partial-waluigi-recording-r2-preservation-20261013.json",
+    "archive/cooking2020-two-final-result-image-integrity-review-20261013.json",
+    "archive/cooking2020-donut-opening-day-policy-generation-check-20261013.json",
+    "archive/cooking2020-waluigi-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/cooking2020-discussion-review-progress.json",
@@ -41,34 +51,34 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 36
+    "proofImageUrlsPassed": 36,
+    "additionalCompletedRecordingsPreservedOnR2": 3,
+    "partialClipsPreservedOnR2": 1,
+    "discussionImageDispositions": 309,
+    "discussionImageHashesVerified": 309,
+    "openingExpandedImageHashesVerified": 167
   },
   "remainingLimitations": [
-    "Kazuo 49.77 final WR recording not recovered; 49.90 completed recording retained.",
-    "No completed Waluigi Pinball R recording recovered; Wins partial clips remain separate.",
-    "Exact race clocks and some earlier chronology remain unknown; opening day publishes fastest documented run only.",
-    "Deleted/private/global material not proven fully recovered."
+    "Kazuo final0:49.77completedrecording unavailable;0:49.90recording retained separately.",
+    "No completedWaluigiPinballRrecording recovered;Wins53.16firstlapclip remains partial.",
+    "Unidentifiedopening53.20reference andsomepreviousbestorderremainunresolved. Supersededopeningresults omittedunderrequestedpolicy.",
+    "309discussionimage and167expandedopeningimage priorvisualreviews retained;sourceIDs/hashes crosschecked withoutclaimingfreshvisualreviewofeveryimage.",
+    "Exactracefinishdates andunavailableNu11stream/Kaguya51.49original remainqualified. Noexhaustiveglobalhistory or uninterruptedselected-video certification."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 1,
-    "documentedResultsRows": [
-      6,
-      1
-    ],
-    "videoRangeChecksPassed": 1,
-    "generationFidelity": [
-      {
-        "courseId": "snes-donut-plains-1",
-        "reviewedRows": 55,
-        "differences": 0
-      },
-      {
-        "courseId": "ds-waluigi-pinball-r",
-        "reviewedRows": 15,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 295,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 65,
+    "freshSelectedRecordingReviews": 1,
+    "finalResultImagesIntegrityVerified": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-20"
+  "nextTourId": "tour-20",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/cooking2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/cooking2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "848740923a7338719616a1b97717af3123e0e545"
 }
