@@ -2,8 +2,8 @@
   "tourId": "tour-36",
   "tour": "Cat Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-01-27T06:00:00Z",
@@ -28,7 +28,15 @@
     "archive/cat-2021-reconciliation.json",
     "archive/cat2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/cat2021-selected-recording-r2-preservation-20261012.json",
-    "archive/cat2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/cat2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/cat2021-final-publication-audit-20261013.json",
+    "archive/cat2021-practical-source-coverage-disposition-20261013.json",
+    "archive/cat2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/cat2021-written-and-broadcast-reference-practical-dispositions-20261013.json",
+    "archive/cat2021-tour-only-additional-media-r2-preservation-20261013.json",
+    "archive/cat2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/cat2021-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/cat2021-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/winter2020-discussion-review-progress.json",
@@ -38,34 +46,39 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 198
+    "completedRunRecordingsPreservedOnR2": 4,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 2,
+    "partialClipsPreservedOnR2": 4,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 208,
+    "discussionImageHashesVerified": 208,
+    "discussionMessagesIndexed": 1239,
+    "priorProofImageUrlsPassed": 198,
+    "priorProofImageCheckDate": "2026-10-12"
   },
   "remainingLimitations": [
-    "Dit Maple Treeway R 1:49.98 result proof preserved; fastest available reviewed recording Maler Markus 1:50.37. Nu11 RMX Rainbow Road 1 1:18.95 result proof and unavailable original Twitter link retained; Spartacurt 1:20.61 available reviewed recording preserved.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Both final WR recordings unrecovered; selected Maple 1:50.37 and Rainbow 1:20.61 footage remain separate. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Deleted-account opening 1:51.95 identity unresolved.",
+    "Previous-best values may reveal more intermediate records or ties; original dates must still be recovered.",
+    "Search for numeric time strings does not reliably return known messages; empty numeric searches do not establish absence.",
+    "Original Nu11 Twitter video links are retained, but backup download attempts failed; no backup or playback verification is claimed.",
+    "Discord discussions and uncaptured sources may still change this chronology.",
+    "General broadcasts not watched end-to-end; silent TT appearances and deleted/private originals may remain.",
+    "Unresolved previous-best chronology and deleted opening identity remain explicit.",
+    "Prior source reviews retained; fresh preservation and file integrity checks do not certify exhaustive history.",
+    "Three additional short route/failed clips and the Saki lap-only clip are not completed WR proof. Wins and Spartacurt slower Maple completed recordings remain supporting evidence. Two delayed reposts belong to earlier tours. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 902,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      51,
-      81
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "wii-maple-treeway-r",
-        "reviewedRows": 109,
-        "differences": 0
-      },
-      {
-        "courseId": "rmx-rainbow-road-1",
-        "reviewedRows": 129,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 644,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 159,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
   "nextTourId": "tour-37",
   "priorTourSourceReview": {
@@ -75,5 +88,10 @@
     "linkSearchResultsReviewed": 24,
     "wrTextSearchResultsReviewed": 33,
     "exhaustive": false
-  }
+  },
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/cat2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/cat2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "9e680028349433df0003605fee99c630f633bba9"
 }

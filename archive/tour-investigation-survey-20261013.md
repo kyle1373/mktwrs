@@ -4,13 +4,13 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Berlin 2021 (33 tours), with documented gaps. Cat 2021 is the next detailed review. 148 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Cat 2021 (34 tours), with documented gaps. Peach vs. Daisy 2021 is the next detailed review. 147 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
 | 2020 | 27 | 27 | 0 | 0 |
-| 2021 | 26 | 1 | 25 | 0 |
+| 2021 | 26 | 2 | 24 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
 | 2024 | 26 | 0 | 26 | 0 |
@@ -360,7 +360,7 @@ Practical review completed with documented gaps. [Completion evidence](https://m
 
 ### 36. Cat Tour (2021) — 2021-01-27 to 2021-02-10
 
-Source and publication review.
+Completed with documented gaps.
 
 **[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 13 WR rows; 93 supporting rows; 0 pending candidates.
 
@@ -2447,7 +2447,7 @@ Carry in and sparse history check.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 - Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-### 148. Mii Tour (2025) — 2025-05-14 to 2025-05-28
+### 147. Mii Tour (2025) — 2025-05-14 to 2025-05-28
 
 Carry in and sparse history check.
 

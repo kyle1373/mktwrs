@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 33,
+      "completed-with-documented-gaps": 34,
       "sparse-history-review": 1,
-      "source-and-publication-review": 62,
+      "source-and-publication-review": 61,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 33,
-    "toursRequiringInvestigation": 148,
+    "practicallyCompletedTours": 34,
+    "toursRequiringInvestigation": 147,
     "years": {
       "2019": {
         "tours": 7,
@@ -69,11 +69,11 @@
       },
       "2021": {
         "tours": 26,
-        "requiringInvestigation": 25,
+        "requiringInvestigation": 24,
         "categories": {
-          "source-and-publication-review": 19,
+          "source-and-publication-review": 18,
           "carry-in-and-sparse-history-check": 6,
-          "completed-with-documented-gaps": 1
+          "completed-with-documented-gaps": 2
         }
       },
       "2022": {
@@ -1595,8 +1595,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -1611,14 +1610,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/cat2021-completion.json",
+      "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified."
     },
     {
       "id": "tour-37",
@@ -11296,5 +11295,5 @@
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
   "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
-  "activeDetailedTourId": "tour-36"
+  "activeDetailedTourId": "tour-37"
 }
