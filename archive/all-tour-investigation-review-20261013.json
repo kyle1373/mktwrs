@@ -37,17 +37,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 31,
+      "completed-with-documented-gaps": 32,
       "sparse-history-review": 1,
-      "source-and-publication-review": 64,
+      "source-and-publication-review": 63,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 31,
-    "toursRequiringInvestigation": 150,
+    "practicallyCompletedTours": 32,
+    "toursRequiringInvestigation": 149,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -55,7 +55,7 @@
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 1
+        "requiringInvestigation": 0
       },
       "2021": {
         "catalogTours": 26,
@@ -1494,9 +1494,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -1511,12 +1509,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/newyear2021-completion.json",
+      "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified."
     },
     {
       "id": "tour-35",
@@ -11133,7 +11133,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-34",
+  "activeDetailedTourId": "tour-35",
   "completionStatusLiveCheck": {
     "tourId": "tour-12",
     "checkedAt": "2026-10-13T07:42:22.603527+00:00",

@@ -3,7 +3,7 @@
   "sourceCommit": "fc689aa71342ec12384225f19f5a0af8d49d4837",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-34",
+  "activeDetailedReview": "tour-35",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 31,
-      "source-and-publication-review": 46,
+      "completed-with-documented-gaps": 32,
+      "source-and-publication-review": 45,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -51,9 +51,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 26,
+        "practicallyCompleted": 27,
         "notApplicable": 0,
-        "open": 1
+        "open": 0
       },
       "2021": {
         "catalogTours": 26,
@@ -3039,8 +3039,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "ds-airship-fortress-r",
@@ -3078,8 +3077,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-koopa-troopa-beach-2",
@@ -3102,8 +3100,25 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/newyear2021-completion.json",
+      "documentedLimitations": [
+        "Final WRs Airship R 1:36.44 and Koopa 0:57.59 have unavailable video references; selected Wins recordings 1:36.91 and 0:57.99 remain separate. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
+        "Previous-best dates and unavailable originals remain unresolved.",
+        "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+        "Previous-best fields reveal additional potential intermediate runs whose original submissions remain missing: Nu11 KTB2 0:58.69, 0:58.22, 0:58.03, 0:57.79. These are not assigned invented timestamps.",
+        "Opening KTB2 deleted-account results remain unattributed.",
+        "Nu11 1:37.21 lap annotation includes “maybe”; splits are left blank.",
+        "Both original final-tour YouTube links show “This video isn’t available anymore”. Keep original references; do not claim a backup exists.",
+        "Further uncaptured messages and original sources may alter this progression.",
+        "October5originalreviewcorrectedAFRprevious-bestgaps:1:37.14,not1:37.07,and1:36.87,not1:36.85. FourKTB2previousbestleadsstillrequireoriginaldates.",
+        "Tour-only index 2,511 messages and 326 reviewed surviving images; previous 14,558/1,749 totals span multiple tours. Reconciliation counts differ because extra sources/context were reviewed separately.",
+        "Final 1:36.44 and 0:57.59 originals unavailable; selected Wins 1:36.91 and 0:57.99 remain distinct from WRs.",
+        "Previous-best precedence, opening deleted identities and tentative splits remain qualified.",
+        "Representative gameplay and clear finishes viewed plus full decode; uninterrupted unedited coverage not newly certified.",
+        "Five partial/technique clips are not completed WR proof; three additional completed files include another encoding of the selected Airship run and two slower Koopa recordings. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-35",
@@ -18612,5 +18627,5 @@
     }
   ],
   "completionStatusUpdatedAt": "2026-10-13",
-  "latestCompletionAudit": "archive/rosalina2020-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/newyear2021-final-publication-audit-20261013.json"
 }
