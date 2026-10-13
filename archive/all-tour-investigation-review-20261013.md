@@ -1,6 +1,6 @@
 # Tour investigation checklist — refreshed 13 October 2026 UTC
 
-Reviewed all **183 catalog tours / 381 track appearances**. Refreshed 142 live course pages: 142 HTTP 200; 142 WR row counts match published source `5915fc55`.
+Reviewed all **183 catalog tours / 381 track appearances**. Latest live recheck: 2026-10-13T07:42:55.745619+00:00. Refreshed 142 live course pages: 142 HTTP 200; 142 WR row counts match published source `afe8d56c`.
 
 This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Baby Rosalina 2020 is next after ten completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
 
@@ -224,7 +224,9 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 
 ## Sparse early histories to investigate
 
-After Ice 2020, review Valentine’s, Vancouver, Mario Bros., Baby Rosalina and Hammer Bro 2020. Hammer Bro includes GCN Yoshi Circuit R: one undated WR and 27 tour-attributed supporting results. The raw course file has 39 supporting results overall; these counts must not be confused with WR succession or tour-specific coverage. Autumn 2022 is also flagged for sparse history.
+The next sparse histories are Baby Rosalina and Hammer Bro 2020. Valentine’s, Vancouver and Mario Bros. practical reviews are complete with documented gaps. Hammer Bro includes GCN Yoshi Circuit R: one undated WR and 27 tour-attributed supporting results. The raw course file has 39 supporting results overall; these counts must not be confused with WR succession or tour-specific coverage. Autumn 2022 is also flagged for sparse history.
+
+Mario Bros. completion labels and the final publication audit reference were verified live in this refresh.
 
 ## Shared completion work
 
