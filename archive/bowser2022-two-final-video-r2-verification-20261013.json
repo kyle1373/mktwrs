@@ -1,0 +1,81 @@
+{
+  "tourId": "tour-77",
+  "historyComplete": false,
+  "practicalReviewComplete": false,
+  "uploadedAt": "2026-10-13T22:33:31.028070+00:00",
+  "reviews": [
+    {
+      "courseId": "gba-bowser-s-castle-3",
+      "playerId": "nu11",
+      "time": "1:25.86",
+      "updatedRows": 4,
+      "freshFinishVisuallyVerified": false,
+      "priorVisualReviewRetained": true,
+      "fullDecodeExitCode": 0,
+      "objects": [
+        {
+          "playerId": "nu11",
+          "kind": "video",
+          "originalFile": "archive/video-backup-files/nu11-bc3-12586/original.mp4",
+          "url": "https://media.mktwrs.com/assets/video/bowser2022-nu11-e1939d536d15.mp4",
+          "key": "assets/video/bowser2022-nu11-e1939d536d15.mp4",
+          "sha256": "e1939d536d15e5169ae5091da52c5f19a85a32f777c7269ea8ff0da16637f5e7",
+          "bytes": 30135686,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        },
+        {
+          "playerId": "nu11",
+          "kind": "proof",
+          "originalFile": "/tmp/mkt-bowser-nu11-finish.png",
+          "url": "https://media.mktwrs.com/assets/proof/bowser2022-nu11-54c8abb44a98.png",
+          "key": "assets/proof/bowser2022-nu11-54c8abb44a98.png",
+          "sha256": "54c8abb44a987a5262a2119ceb1f72f9ae27ea664440dc917548cfd6250aaa82",
+          "bytes": 656062,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        }
+      ],
+      "nu11UnexposedFrameNotNewCertification": true
+    },
+    {
+      "courseId": "snes-choco-island-2r",
+      "playerId": "wins",
+      "time": "0:48.49",
+      "updatedRows": 3,
+      "freshFinishVisuallyVerified": true,
+      "priorVisualReviewRetained": false,
+      "fullDecodeExitCode": 0,
+      "objects": [
+        {
+          "playerId": "wins",
+          "kind": "video",
+          "originalFile": "archive/video-backup-files/a6bc2c864ac45020e5c1/original.mp4",
+          "url": "https://media.mktwrs.com/assets/video/bowser2022-wins-97e1518a6966.mp4",
+          "key": "assets/video/bowser2022-wins-97e1518a6966.mp4",
+          "sha256": "97e1518a6966caac26ec19f3be3301e6450247e8c49b2f8774b019bf3161a8aa",
+          "bytes": 8372740,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        },
+        {
+          "playerId": "wins",
+          "kind": "proof",
+          "originalFile": "/tmp/mkt-bowser-wins-finish58.png",
+          "url": "https://media.mktwrs.com/assets/proof/bowser2022-wins-58c0ebaf9eac.png",
+          "key": "assets/proof/bowser2022-wins-58c0ebaf9eac.png",
+          "sha256": "58c0ebaf9eacd824494daf776dd3adf177be9e2dd22b2a39df3ab59278ffe075",
+          "bytes": 475693,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        }
+      ],
+      "nu11UnexposedFrameNotNewCertification": false
+    }
+  ],
+  "limitations": [
+    "Nu11 prior lap/finish review retained; fresh frame output omitted and is not new visual evidence.",
+    "Wins sampled cleared0:48.49 at58seconds; full local decode passed, uninterrupted continuity not certified.",
+    "Saved upload metadata is publication information, not race achievement or Discord submission."
+  ]
+}
