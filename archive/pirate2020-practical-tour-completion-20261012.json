@@ -2,8 +2,8 @@
   "tourId": "tour-24",
   "tour": "Pirate Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-08-12T06:00:00Z",
@@ -13,9 +13,8 @@
     {
       "id": "gba-bowser-s-castle-1r",
       "archivedWr": "1:00.29",
-      "fastestDocumentedAvailableRecording": null,
-      "unverifiedRecordingReference": "https://www.youtube.com/watch?v=gMlt02DTps8",
-      "referenceTime": "1:00.31"
+      "fastestDocumentedAvailableRecording": "1:00.31",
+      "recordingPlayerId": "tomegome"
     },
     {
       "id": "snes-mario-circuit-1",
@@ -31,7 +30,19 @@
     "archive/pirate-2020-reconciliation.json",
     "archive/pirate2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/pirate2020-selected-recording-r2-preservation-20261012.json",
-    "archive/pirate2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/pirate2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/pirate2020-final-publication-audit-20261013.json",
+    "archive/pirate2020-practical-source-coverage-disposition-20261013.json",
+    "archive/pirate2020-selected-recording-fresh-visual-and-access-review-20261013.json",
+    "archive/pirate2020-recovered-bowser-recording-visual-review-20261013.json",
+    "archive/pirate2020-recovered-bowser-completed-original-r2-preservation-20261013.json",
+    "archive/pirate2020-phillish-lap-recording-r2-preservation-20261013.json",
+    "archive/pirate2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/pirate2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/pirate2020-two-additional-completed-originals-r2-preservation-20261013.json",
+    "archive/pirate2020-two-final-result-image-integrity-review-20261013.json",
+    "archive/pirate2020-bowser-opening-day-policy-generation-check-20261013.json",
+    "archive/pirate2020-mario-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/pirate2020-discussion-review-progress.json",
@@ -40,35 +51,33 @@
     "basis": "Prior local review ledger carried; no new exhaustive certification."
   },
   "coverage": {
-    "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 30
+    "selectedRecordingsPreservedOnR2": 2,
+    "proofImageUrlsPassed": 30,
+    "additionalCompletedRecordingsPreservedOnR2": 2,
+    "partialClipsPreservedOnR2": 1,
+    "discussionImageDispositions": 321,
+    "discussionImageHashesVerified": 321
   },
   "remainingLimitations": [
-    "Tymbuh 1:00.29 Bowser Castle 1R and Nu11 0:41.94 Mario Circuit final WR recordings not recovered. Tomegome 1:00.31 external link kept unverified; Wins 0:42.12 footage preserved.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Final Bowser Castle 1R 1:00.29 and Mario Circuit 1 0:41.94 WR recordings unrecovered; Tomegome 1:00.31 and Wins 0:42.12 completed footage shown separately. Phillish 21.19 lap clip is partial.",
+    "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
+    "321 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
+    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 1,
-    "documentedResultsRows": [
-      3,
-      1
-    ],
-    "videoRangeChecksPassed": 1,
-    "generationFidelity": [
-      {
-        "courseId": "gba-bowser-s-castle-1r",
-        "reviewedRows": 31,
-        "differences": 0
-      },
-      {
-        "courseId": "snes-mario-circuit-1",
-        "reviewedRows": 36,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 217,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 27,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesIntegrityVerified": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-25"
+  "nextTourId": "tour-25",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/pirate2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/pirate2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "ab2745caf9b66b37d92fe33b839f39c77db95af2"
 }

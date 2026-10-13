@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-24",
+  "activeDetailedReview": "tour-25",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 21,
-      "source-and-publication-review": 56,
+      "completed-with-documented-gaps": 22,
+      "source-and-publication-review": 55,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -51,9 +51,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 16,
+        "practicallyCompleted": 17,
         "notApplicable": 0,
-        "open": 11
+        "open": 10
       },
       "2021": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 160
+    "toursRequiringInvestigation": 159
   },
   "tours": [
     {
@@ -2123,9 +2123,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 5,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Review unresolved order/date bounds; keep race, report and submission dates distinct.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-bowser-s-castle-1r",
@@ -2169,8 +2167,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-mario-circuit-1",
@@ -2193,8 +2190,15 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/pirate2020-completion.json",
+      "documentedLimitations": [
+        "Final Bowser Castle 1R 1:00.29 and Mario Circuit 1 0:41.94 WR recordings unrecovered; Tomegome 1:00.31 and Wins 0:42.12 completed footage shown separately. Phillish 21.19 lap clip is partial.",
+        "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
+        "321 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
+        "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
+      ]
     },
     {
       "id": "tour-25",
@@ -18554,5 +18558,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/wildwest2020-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/pirate2020-final-publication-audit-20261013.json"
 }
