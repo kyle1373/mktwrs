@@ -2,8 +2,8 @@
   "tourId": "tour-14",
   "tour": "Hammer Bro Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; preserved reviews accepted with unresolved history stated.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-03-25T06:00:00Z",
@@ -37,7 +37,12 @@
     "archive/hammer2020-march27-29-ledger-reconciliation.json",
     "archive/hammer2020-march30-april6-ledger-reconciliation.json",
     "archive/hammer2020-selected-recording-r2-preservation-20261012.json",
-    "archive/hammer2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/hammer2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/hammer2020-final-publication-audit-20261013.json",
+    "archive/hammer2020-final-practical-source-dispositions-20261013.json",
+    "archive/hammer2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/hammer2020-server-source-integrity-check-20261013.json",
+    "archive/hammer2020-two-slower-originals-r2-preservation-20261013.json"
   ],
   "coverage": {
     "priorServerImageSearchMessages": 562,
@@ -52,31 +57,27 @@
     "proofImageUrlsPassed": 58
   },
   "remainingLimitations": [
-    "No known available recording of archived1:21.98 or1:31.31 WRs. Kaguya1:31.33 reference unavailable in prior review; retain reference without substituting footage.",
-    "Original achievement dates, opening rival progression and previous-best dates remain unresolved. Third-party reports do not set exact race dates.",
-    "Prior full-run recordings retained without fresh uninterrupted-race certification.",
-    "One prior unavailable server attachment and deleted/private/global material remain unrecovered."
+    "Opening global leadership, intermediate WR status and exact achievement clocks remain unproved; no invented succession or reign duration.",
+    "Yoshi 1:31.52 explicitly rejected as a joke; eight downstream performance comparisons now use genuine earlier dated results.",
+    "Birdo 1:33.02 mode/variant unresolved and excluded.",
+    "Accepted WRs 1:21.98 and1:31.31 have no known available matching recording. Frappe March26 report is third-party observation, not achievement time.",
+    "Preserved images and prior source dispositions verified; deleted/private/global source completeness not proved.",
+    "Two selected recordings freshly sampled and decoded; uninterrupted-race continuity not certified. Two slower originals preserved on R2 with prior reviews retained."
   ],
   "validation": {
-    "productionBuildPages": 910,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      28,
-      27
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "n64-frappe-snowland",
-        "reviewedRows": 49,
-        "differences": 0
-      },
-      {
-        "courseId": "gcn-yoshi-circuit-r",
-        "reviewedRows": 40,
-        "differences": 0
-      }
-    ]
+    "productionBuildPages": 891,
+    "liveSnapshotRows": 91,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 57,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesVerified": 0,
+    "finalRunnerSummaryTextVerified": 0,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-15"
+  "nextTourId": "tour-15",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/hammer2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/hammer2020-final-practical-source-dispositions-20261013.json",
+  "sourceCommit": "2218ca108c3419ff1f5b36ead2d9921bed56af93"
 }
