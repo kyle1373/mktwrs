@@ -1,0 +1,90 @@
+{
+  "tourId": "tour-80",
+  "historyComplete": false,
+  "practicalReviewComplete": false,
+  "reviews": [
+    {
+      "courseId": "snes-donut-plains-1r",
+      "time": "0:49.31",
+      "updatedRows": 2,
+      "freshFinishReview": false,
+      "priorVisualReviewRetained": true,
+      "videoPublishedAt": "2022-10-14T16:47:48Z",
+      "objects": [
+        {
+          "playerId": "nu11-dp1r",
+          "kind": "video",
+          "originalFile": "archive/video-backup-files/nu11-donut1r-4931/original.mp4",
+          "url": "https://media.mktwrs.com/assets/video/battle2022-nu11-dp1r-a92dfd9b6cdf.mp4",
+          "key": "assets/video/battle2022-nu11-dp1r-a92dfd9b6cdf.mp4",
+          "sha256": "a92dfd9b6cdf5f1bbe415c5e2b2abd7ddf985cb34009b9763735b4725cfca766",
+          "bytes": 12844617,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        },
+        {
+          "playerId": "nu11-dp1r",
+          "kind": "proof",
+          "originalFile": "archive/video-backup-files/nu11-donut1r-4931/result.png",
+          "url": "https://media.mktwrs.com/assets/proof/battle2022-nu11-dp1r-802f00c891b2.png",
+          "key": "assets/proof/battle2022-nu11-dp1r-802f00c891b2.png",
+          "sha256": "802f00c891b227968e7cc17e7995ca1b344739c03f317edec1ed83ce46af4b7c",
+          "bytes": 292828,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        }
+      ]
+    },
+    {
+      "courseId": "snes-donut-plains-2",
+      "time": "1:00.61",
+      "updatedRows": 3,
+      "freshFinishReview": true,
+      "priorVisualReviewRetained": false,
+      "videoPublishedAt": "2022-10-19T13:18:27Z",
+      "objects": [
+        {
+          "playerId": "nu11-dp2",
+          "kind": "video",
+          "originalFile": "archive/video-backup-files/b86a0dec5d86e5a3f9b5/original.mp4",
+          "url": "https://media.mktwrs.com/assets/video/battle2022-nu11-dp2-e6246b231c41.mp4",
+          "key": "assets/video/battle2022-nu11-dp2-e6246b231c41.mp4",
+          "sha256": "e6246b231c410339fa0f9466f20426f52e69e6d4ec63e6e95369c978ad0bb44c",
+          "bytes": 13334411,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        },
+        {
+          "playerId": "nu11-dp2",
+          "kind": "proof",
+          "originalFile": "/tmp/mkt-battle-dp2-finish.png",
+          "url": "https://media.mktwrs.com/assets/proof/battle2022-nu11-dp2-45ac098196f9.png",
+          "key": "assets/proof/battle2022-nu11-dp2-45ac098196f9.png",
+          "sha256": "45ac098196f9c2d50a9c3415c785f2f6849f6391ab1e1fa6b67bdeeb636a5756",
+          "bytes": 513346,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        }
+      ]
+    }
+  ],
+  "decodeChecks": [
+    {
+      "file": "archive/video-backup-files/nu11-donut1r-4931/original.mp4",
+      "exitCode": 0
+    },
+    {
+      "file": "archive/video-backup-files/b86a0dec5d86e5a3f9b5/original.mp4",
+      "exitCode": 0
+    }
+  ],
+  "preservedScreenshotReferencesHashChecked": 64,
+  "hashFailures": 0,
+  "limitations": [
+    "Hilton0:49.15 WR has screenshot and command proof; fastest preserved available completed recording is Nu110:49.31, shown separately.",
+    "DP2 fresh70sframe reads1:00.61 after both laps. DeviceOctober11 local clock is not an independently verified UTC achievement.",
+    "DP2 video publishedOctober19 13:18 aftertour06rollover; originalOctober11 screenshot establishes the prior result date.",
+    "Nu11DP1R prior sampled lap/finish review retained. Full decode and public byte checks do not certify uninterrupted continuity.",
+    "Cancelled4964 and undated previous4957/4921/10071 remain source gaps without fabricated reign dates."
+  ]
+}
