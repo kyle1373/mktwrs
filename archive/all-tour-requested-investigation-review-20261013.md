@@ -2,7 +2,7 @@
 
 Reviewed all **183 catalog tours**, **381 course appearances**, and **142 live course pages** against committed publication output `8068ad57`. All pages and downloadable data returned HTTP 200. All 142 displayed WR counts match the publication output. Live completion flags match committed flags: **true**.
 
-**120 tours remain open**, starting with Sky 2022. **61 practical reviews are closed with documented gaps**, ending with Los Angeles 2022 (9–23 February 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
+**119 tours remain open**, starting with Mii 2022. **62 practical reviews are closed with documented gaps**, ending with Sky 2022 (23 February–9 March 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
 
 The catalogue ends on 30 September 2026; 30 September–13 October remains uncatalogued and needs review. Future results through December 2026 cannot yet be archived.
 
@@ -13,7 +13,7 @@ The catalogue ends on 30 September 2026; 30 September–13 October remains uncat
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 3 | 23 | 0 |
+| 2022 | 4 | 22 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -944,12 +944,18 @@ Before time trials.
 
 ### 64. Sky Tour (2022) — 2022-02-23 to 2022-03-09
 
-**Open:** source and publication review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/sky2022-completion.json).
 
-**[RMX Ghost Valley 1R](https://mktwrs.com/course/rmx-ghost-valley-1r)** — 10 attributed WR rows, 130 supporting results, 0 candidates, 10 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Previous-best displays do not establish original record dates or competing-record order. Five such leads remain outside confirmed progression.
+- LaLanterne’s 1:01.47 and GOTEN’s 1:00.80 were explicitly withdrawn as input errors; neither is counted as a WR. Their original attachments remain unavailable.
+- An Astre attachment is unavailable; its surviving bot entry is slower than the contemporary WR.
+- The 16-second Wins technique clip and hypothetical best splits do not establish a completed overall run.
+- Contemporaneous discussion reports loss of old WR channels. This review cannot establish exhaustive recovery of deleted sources or all years.
+- Original video-share exact clock unresolved; correction acknowledgement is not a video-share timestamp.
+- Five supporting image originals unavailable on authenticated browser retrieval; source links and original references retained, image unavailable shown.
+- Five completed original recordings and one technique clip preserved on R2. Partial clips do not establish completed race totals.
+- One selected full recording freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.
+- Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.
 
 ### 65. Mii Tour (2022) — 2022-03-09 to 2022-03-23
 
@@ -3016,3 +3022,5 @@ Singapore completion update: source data verified live, 252 rows match and 35 re
 Wario vs. Waluigi completion update: 279 live data rows match and 82 rendered R2 links readable. Both completion labels and the final audit reference verified live.
 
 Los Angeles completion update: 291 live data rows match and 26 rendered R2 links readable. Both completion labels and the final audit reference verified live.
+
+Sky completion update: 142 live data rows match and 54 rendered R2 links readable. Completion label and final audit reference verified live.
