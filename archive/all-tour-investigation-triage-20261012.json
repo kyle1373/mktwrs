@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-10-13T05:35:46.481599+00:00",
-  "sourceCommit": "939ebf38a260128374426e298214605649d53d0c",
+  "reviewedAt": "2026-10-13T06:01:26.822501+00:00",
+  "sourceCommit": "31290f901be5c02544cf05dcdcb56827d23a0484",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
   "scope": {
@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "Repair one tour at a time, starting with active Halloween 2019.",
+    "Repair one tour at a time, continuing active Paris 2019 after completed Halloween 2019.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,13 +36,92 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "source-and-publication-review": 86,
+      "completed-with-documented-gaps": 1,
       "sparse-history-review": 10,
+      "source-and-publication-review": 85,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
+    },
+    "practicallyCompletedTours": 1,
+    "toursRequiringInvestigation": 180,
+    "years": {
+      "2019": {
+        "tours": 7,
+        "requiringInvestigation": 4,
+        "categories": {
+          "not-applicable": 2,
+          "completed-with-documented-gaps": 1,
+          "sparse-history-review": 3,
+          "source-and-publication-review": 1
+        }
+      },
+      "2020": {
+        "tours": 27,
+        "requiringInvestigation": 27,
+        "categories": {
+          "sparse-history-review": 6,
+          "source-and-publication-review": 21
+        }
+      },
+      "2021": {
+        "tours": 26,
+        "requiringInvestigation": 26,
+        "categories": {
+          "source-and-publication-review": 20,
+          "carry-in-and-sparse-history-check": 6
+        }
+      },
+      "2022": {
+        "tours": 26,
+        "requiringInvestigation": 26,
+        "categories": {
+          "source-and-publication-review": 7,
+          "carry-in-and-sparse-history-check": 4,
+          "candidate-and-source-review": 11,
+          "data-quality-and-history-check": 1,
+          "faster-result-reconciliation": 2,
+          "sparse-history-review": 1
+        }
+      },
+      "2023": {
+        "tours": 26,
+        "requiringInvestigation": 26,
+        "categories": {
+          "faster-result-reconciliation": 3,
+          "candidate-and-source-review": 15,
+          "debut-history-gap": 4,
+          "carry-in-and-sparse-history-check": 4
+        }
+      },
+      "2024": {
+        "tours": 26,
+        "requiringInvestigation": 26,
+        "categories": {
+          "carry-in-and-sparse-history-check": 11,
+          "candidate-and-source-review": 11,
+          "source-and-publication-review": 4
+        }
+      },
+      "2025": {
+        "tours": 26,
+        "requiringInvestigation": 26,
+        "categories": {
+          "source-and-publication-review": 25,
+          "candidate-and-source-review": 1
+        }
+      },
+      "2026": {
+        "tours": 19,
+        "requiringInvestigation": 19,
+        "categories": {
+          "source-and-publication-review": 7,
+          "candidate-and-source-review": 7,
+          "carry-in-and-sparse-history-check": 5
+        }
+      }
     }
   },
   "tours": [
@@ -85,9 +164,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check meaningful chronology gaps; retain unknown exact achievement dates where source/report clocks suffice.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task. Retain documented limitations; reopen only for new material evidence."
           ]
         },
         {
@@ -102,9 +179,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task. Retain documented limitations; reopen only for new material evidence."
           ]
         },
         {
@@ -119,16 +194,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check meaningful chronology gaps; retain unknown exact achievement dates where source/report clocks suffice.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task. Retain documented limitations; reopen only for new material evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review",
-      "currentDetailedReview": "public/data/halloween2019-current-review.json",
-      "note": "Active tour. Recent original-media restoration supersedes old screening media flags. Six qualified achievement-date unknowns are not automatically blocking."
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/halloween2019-completion.json",
+      "note": "Practical review completed under the requested good-enough proof standard; exhaustive history is not certified."
     },
     {
       "id": "tour-4",
@@ -189,7 +262,10 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false,
+      "currentDetailedReview": "archive/paris2019-bazaar-four-result-sequence-and-original-proof-review-20261012.json",
+      "note": "Active detailed tour: original Bazaar proofs reconciled; recording checks and final publication reconciliation remain."
     },
     {
       "id": "tour-5",
@@ -250,7 +326,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-6",
@@ -310,7 +387,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-7",
@@ -354,7 +432,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-8",
@@ -382,7 +461,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-9",
@@ -429,7 +509,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-10",
@@ -475,7 +556,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-11",
@@ -524,7 +606,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-12",
@@ -569,7 +652,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-13",
@@ -599,7 +683,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-14",
@@ -647,7 +732,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-15",
@@ -693,7 +779,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-16",
@@ -736,7 +823,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-17",
@@ -763,7 +851,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-18",
@@ -789,7 +878,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-19",
@@ -833,7 +923,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-20",
@@ -876,7 +967,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-21",
@@ -918,7 +1010,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-22",
@@ -966,7 +1059,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-23",
@@ -1011,7 +1105,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-24",
@@ -1060,7 +1155,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-25",
@@ -1110,7 +1206,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-26",
@@ -1155,7 +1252,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-27",
@@ -1187,7 +1285,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-28",
@@ -1217,7 +1316,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-29",
@@ -1259,7 +1359,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-30",
@@ -1310,7 +1411,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-31",
@@ -1357,7 +1459,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-32",
@@ -1400,7 +1503,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-33",
@@ -1443,7 +1547,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-34",
@@ -1486,7 +1591,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-35",
@@ -1530,7 +1636,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-36",
@@ -1573,7 +1680,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-37",
@@ -1636,7 +1744,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-38",
@@ -1679,7 +1788,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-39",
@@ -1743,7 +1853,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-40",
@@ -1792,7 +1903,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-41",
@@ -1834,7 +1946,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-42",
@@ -1881,7 +1994,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-43",
@@ -1947,7 +2061,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-44",
@@ -2012,7 +2127,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-45",
@@ -2062,7 +2178,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-46",
@@ -2127,7 +2244,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-47",
@@ -2179,7 +2297,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-48",
@@ -2228,7 +2347,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-49",
@@ -2278,7 +2398,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-50",
@@ -2327,7 +2448,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-51",
@@ -2377,7 +2499,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-52",
@@ -2425,7 +2548,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-53",
@@ -2469,7 +2593,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-54",
@@ -2517,7 +2642,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-55",
@@ -2569,7 +2695,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-56",
@@ -2640,7 +2767,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-57",
@@ -2688,7 +2816,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-58",
@@ -2741,7 +2870,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-59",
@@ -2790,7 +2920,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-60",
@@ -2860,7 +2991,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-61",
@@ -2909,7 +3041,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-62",
@@ -2956,7 +3089,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-63",
@@ -3000,7 +3134,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-64",
@@ -3027,7 +3162,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-65",
@@ -3081,7 +3217,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-66",
@@ -3131,7 +3268,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-67",
@@ -3175,7 +3313,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-68",
@@ -3223,7 +3362,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-69",
@@ -3285,7 +3425,8 @@
           ]
         }
       ],
-      "category": "data-quality-and-history-check"
+      "category": "data-quality-and-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-70",
@@ -3341,7 +3482,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-71",
@@ -3392,7 +3534,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-72",
@@ -3438,7 +3581,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-73",
@@ -3489,7 +3633,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-74",
@@ -3521,7 +3666,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-75",
@@ -3555,7 +3701,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-76",
@@ -3609,7 +3756,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-77",
@@ -3658,7 +3806,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-78",
@@ -3734,7 +3883,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-79",
@@ -3788,7 +3938,8 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "faster-result-reconciliation",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-80",
@@ -3841,7 +3992,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-81",
@@ -3868,7 +4020,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-82",
@@ -3913,7 +4066,8 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "sparse-history-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-83",
@@ -3962,7 +4116,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-84",
@@ -4042,7 +4197,8 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "faster-result-reconciliation",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-85",
@@ -4086,7 +4242,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-86",
@@ -4134,7 +4291,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-87",
@@ -4214,7 +4372,8 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "faster-result-reconciliation",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-88",
@@ -4282,7 +4441,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-89",
@@ -4334,7 +4494,8 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "faster-result-reconciliation",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-90",
@@ -4384,7 +4545,8 @@
           ]
         }
       ],
-      "category": "debut-history-gap"
+      "category": "debut-history-gap",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-91",
@@ -4431,7 +4593,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-92",
@@ -4538,7 +4701,8 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "faster-result-reconciliation",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-93",
@@ -4594,7 +4758,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-94",
@@ -4646,7 +4811,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-95",
@@ -4696,7 +4862,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-96",
@@ -4746,7 +4913,8 @@
           ]
         }
       ],
-      "category": "debut-history-gap"
+      "category": "debut-history-gap",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-97",
@@ -4796,7 +4964,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-98",
@@ -4824,7 +4993,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-99",
@@ -4893,7 +5063,8 @@
           ]
         }
       ],
-      "category": "debut-history-gap"
+      "category": "debut-history-gap",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-100",
@@ -4939,7 +5110,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-101",
@@ -4987,7 +5159,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-102",
@@ -5052,7 +5225,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-103",
@@ -5120,7 +5294,8 @@
           ]
         }
       ],
-      "category": "debut-history-gap"
+      "category": "debut-history-gap",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-104",
@@ -5169,7 +5344,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-105",
@@ -5236,7 +5412,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-106",
@@ -5292,7 +5469,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-107",
@@ -5324,7 +5502,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-108",
@@ -5379,7 +5558,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-109",
@@ -5433,7 +5613,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-110",
@@ -5509,7 +5690,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-111",
@@ -5563,7 +5745,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-112",
@@ -5618,7 +5801,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-113",
@@ -5673,7 +5857,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-114",
@@ -5750,7 +5935,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-115",
@@ -5804,7 +5990,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-116",
@@ -5858,7 +6045,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-117",
@@ -5912,7 +6100,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-118",
@@ -5967,7 +6156,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-119",
@@ -6022,7 +6212,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-120",
@@ -6078,7 +6269,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-121",
@@ -6132,7 +6324,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-122",
@@ -6186,7 +6379,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-123",
@@ -6241,7 +6435,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-124",
@@ -6274,7 +6469,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-125",
@@ -6350,7 +6546,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-126",
@@ -6405,7 +6602,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-127",
@@ -6460,7 +6658,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-128",
@@ -6536,7 +6735,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-129",
@@ -6611,7 +6811,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-130",
@@ -6665,7 +6866,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-131",
@@ -6739,7 +6941,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-132",
@@ -6792,7 +6995,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-133",
@@ -6824,7 +7028,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-134",
@@ -6878,7 +7083,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-135",
@@ -6931,7 +7137,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-136",
@@ -7007,7 +7214,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-137",
@@ -7059,7 +7267,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-138",
@@ -7113,7 +7322,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-139",
@@ -7166,7 +7376,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-140",
@@ -7242,7 +7453,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-141",
@@ -7296,7 +7508,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-142",
@@ -7349,7 +7562,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-143",
@@ -7402,7 +7616,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-144",
@@ -7456,7 +7671,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-145",
@@ -7507,7 +7723,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-146",
@@ -7561,7 +7778,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-147",
@@ -7614,7 +7832,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-148",
@@ -7666,7 +7885,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-149",
@@ -7719,7 +7939,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-150",
@@ -7750,7 +7971,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-151",
@@ -7824,7 +8046,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-152",
@@ -7875,7 +8098,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-153",
@@ -7925,7 +8149,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-154",
@@ -7997,7 +8222,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-155",
@@ -8070,7 +8296,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-156",
@@ -8122,7 +8349,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-157",
@@ -8196,7 +8424,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-158",
@@ -8250,7 +8479,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-159",
@@ -8281,7 +8511,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-160",
@@ -8336,7 +8567,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-161",
@@ -8387,7 +8619,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-162",
@@ -8460,7 +8693,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-163",
@@ -8510,7 +8744,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-164",
@@ -8561,7 +8796,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-165",
@@ -8614,7 +8850,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-166",
@@ -8690,7 +8927,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-167",
@@ -8742,7 +8980,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-168",
@@ -8793,7 +9032,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-169",
@@ -8847,7 +9087,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-170",
@@ -8899,7 +9140,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-171",
@@ -8951,7 +9193,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-172",
@@ -9004,7 +9247,8 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-173",
@@ -9059,7 +9303,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-174",
@@ -9113,7 +9358,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-175",
@@ -9167,7 +9413,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-176",
@@ -9200,7 +9447,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-177",
@@ -9277,7 +9525,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-178",
@@ -9332,7 +9581,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-179",
@@ -9389,7 +9639,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-180",
@@ -9465,7 +9716,8 @@
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "carry-in-and-sparse-history-check",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-181",
@@ -9542,7 +9794,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-182",
@@ -9596,7 +9849,8 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "candidate-and-source-review",
+      "practicalReviewComplete": false
     },
     {
       "id": "tour-183",
@@ -9672,1426 +9926,1427 @@
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false
     }
   ],
   "livePageChecks": [
     {
       "courseId": "ds-airship-fortress",
-      "url": "https://mktwrs.com/course/ds-airship-fortress?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-airship-fortress?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.147196+00:00",
-      "sha256": "669ee1cf6b85f1a97bdd023560e0ebc8babdfe2661dcfa9eb54c9ac86a814bb0",
+      "checkedAt": "2026-10-13T06:01:23.886597+00:00",
+      "sha256": "5078630b8f21d20fcbe7dc592b98ebaf8f6313608940dcf20491e1b710ffea7a",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-airship-fortress-r",
-      "url": "https://mktwrs.com/course/ds-airship-fortress-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-airship-fortress-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.580792+00:00",
-      "sha256": "63a97a83f866deb5aaf9bfde1ed67adf3e52d3a80662235531beeb426d831dd9",
+      "checkedAt": "2026-10-13T06:01:23.959977+00:00",
+      "sha256": "f8f5d072a638ba30301f68707af425e6dd5a196b7e1b1dd09a173ee8f2f07545",
       "renderedWrRows": 15,
       "expectedWrRows": 15,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "amsterdam-drift",
-      "url": "https://mktwrs.com/course/amsterdam-drift?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/amsterdam-drift?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.114300+00:00",
-      "sha256": "9854c17220e292cd1eefac3cb00fce9bc11d9e8a141eda8de7ba41913ba5a319",
+      "checkedAt": "2026-10-13T06:01:23.870799+00:00",
+      "sha256": "8742e8c518e6134db5cae20a7bb1d8e6c6dce3fa488a4325846301174e7c7839",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "athens-dash",
-      "url": "https://mktwrs.com/course/athens-dash?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/athens-dash?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.073432+00:00",
-      "sha256": "8359c52f37fa5e5a9602d43e67670b251511add5a53713f4dcf6b167f6232599",
+      "checkedAt": "2026-10-13T06:01:23.852823+00:00",
+      "sha256": "15bf5d2c2ef64759ad6c1f8f182af37428ee1e0dcfa56b652c9d59e6758ce364",
       "renderedWrRows": 2,
       "expectedWrRows": 2,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "athens-dash-2",
-      "url": "https://mktwrs.com/course/athens-dash-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/athens-dash-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.103221+00:00",
-      "sha256": "97754149b26be59b91ca4c2a8d38c3270db6574d5d8b1c23a7dc2d6abbab88ea",
+      "checkedAt": "2026-10-13T06:01:23.870256+00:00",
+      "sha256": "5163fb755266468049a2f4ad8888f56dee9268c7d68b8ee58a54447302feda1e",
       "renderedWrRows": 12,
       "expectedWrRows": 12,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "athens-dash-2r",
-      "url": "https://mktwrs.com/course/athens-dash-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/athens-dash-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.126999+00:00",
-      "sha256": "6d40c34a213a687fc23214c13641c9ef1a0ca8b959cf3c1c4e740031715166b2",
+      "checkedAt": "2026-10-13T06:01:23.845830+00:00",
+      "sha256": "4c0ad6b1719de7ba783ee1ec244459486bedc85281f503da5f6b204c082ef508",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "athens-dash-3",
-      "url": "https://mktwrs.com/course/athens-dash-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/athens-dash-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.090458+00:00",
-      "sha256": "130f8ad3c1fee96e3916149576cb9dae204f267ac574e923b55d13332820a9a0",
+      "checkedAt": "2026-10-13T06:01:23.827793+00:00",
+      "sha256": "9d9c4f0d5c5de79825d4628c4623995e174c9648693e1117a8b88997a2dc432a",
       "renderedWrRows": 3,
       "expectedWrRows": 3,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "bangkok-rush-2",
-      "url": "https://mktwrs.com/course/bangkok-rush-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/bangkok-rush-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.117014+00:00",
-      "sha256": "4e212afc5c610beee4cba439f1eccccf1e381cd173fd661e573f8892931d6da0",
+      "checkedAt": "2026-10-13T06:01:23.835990+00:00",
+      "sha256": "cc70554428cad62bbe320ca387308d43274a70dee5331e619acdf27715fe525f",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "berlin-byways",
-      "url": "https://mktwrs.com/course/berlin-byways?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/berlin-byways?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.417271+00:00",
-      "sha256": "20a837dc5108c24c643164627d1aeb21bacf8053a95832478db1d5c7dd7b5ba8",
+      "checkedAt": "2026-10-13T06:01:23.968055+00:00",
+      "sha256": "cb42a26e873f8620b3c943888ed0d5bd5ebe2457a1f1e48885e12bd2f0921eb1",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "berlin-byways-2",
-      "url": "https://mktwrs.com/course/berlin-byways-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/berlin-byways-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.662636+00:00",
-      "sha256": "8052914ecd81ac76096002f8d1326f278e292d033b3bcc5f7fd7ff906539eb71",
+      "checkedAt": "2026-10-13T06:01:23.993536+00:00",
+      "sha256": "4efab3285440ec0d86525456fe6c764a8db8f1d757fc7cfeddcbe257b4f5b1a6",
       "renderedWrRows": 18,
       "expectedWrRows": 18,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "berlin-byways-3",
-      "url": "https://mktwrs.com/course/berlin-byways-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/berlin-byways-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.543705+00:00",
-      "sha256": "e0a99abf4f2af8815d14c284c258821fa14f455c3ebe8439e1ae2d6cde36d1c7",
+      "checkedAt": "2026-10-13T06:01:24.000265+00:00",
+      "sha256": "9d03ee05dcde3a5a5a172e0573e4296084835eb1e8293dbf2110ecabfd18fcfa",
       "renderedWrRows": 3,
       "expectedWrRows": 3,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-bowser-s-castle",
-      "url": "https://mktwrs.com/course/3ds-bowser-s-castle?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-bowser-s-castle?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.605841+00:00",
-      "sha256": "f16d23b061650e1e7b4a3a87249eb6a78b7e92b18333b6c29da69f3bf7fa8fca",
+      "checkedAt": "2026-10-13T06:01:24.012263+00:00",
+      "sha256": "dea915d3ce72c93f7daeb171225658e1d772d753a0f97a146f5f46b23e20f057",
       "renderedWrRows": 14,
       "expectedWrRows": 14,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-bowser-s-castle-1",
-      "url": "https://mktwrs.com/course/gba-bowser-s-castle-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.651457+00:00",
-      "sha256": "0149edb03efb713bb936fc5e538791d7ce6c7befd1a24428c29ea835cdb55ae9",
+      "checkedAt": "2026-10-13T06:01:24.078978+00:00",
+      "sha256": "cbfa6b5c7d6dd5d062be39ccd0d12c15e711cd0cf895eb0adaa08fbd2ad4ddc4",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-bowser-s-castle-1r",
-      "url": "https://mktwrs.com/course/gba-bowser-s-castle-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.528677+00:00",
-      "sha256": "f8312dabd22f5f87af551703108a006452b365a18a5f97482810947e622ba0f4",
+      "checkedAt": "2026-10-13T06:01:24.103382+00:00",
+      "sha256": "e73ef50539dc3cd831e13321a66e219dc6702a5f927e48bde4c02826f68fde6f",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-bowser-s-castle-2",
-      "url": "https://mktwrs.com/course/gba-bowser-s-castle-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.589672+00:00",
-      "sha256": "456c4d96910328186db9eba24365550f57fa84ad4a9a614be4e806ddd40fc8fb",
+      "checkedAt": "2026-10-13T06:01:24.087247+00:00",
+      "sha256": "ac0ddf0e9014143e7e0491b79a742ec8491bde33bd631bdb863277d49c9b39f7",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-bowser-s-castle-2r",
-      "url": "https://mktwrs.com/course/gba-bowser-s-castle-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.732458+00:00",
-      "sha256": "ff28d90ea994f171eded153f82f5067ea3b8cc87d50321667e7fc612cd086691",
+      "checkedAt": "2026-10-13T06:01:24.147634+00:00",
+      "sha256": "4dd4240c141e8c4639c4b2784b1269270ba9135f8cc00901e9a7ea5f05f755a8",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-bowser-s-castle-3",
-      "url": "https://mktwrs.com/course/gba-bowser-s-castle-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.676908+00:00",
-      "sha256": "8c314a9a653b9113001f394a1b02fe2f88375fc514d226249443964fecdd38bd",
+      "checkedAt": "2026-10-13T06:01:24.094373+00:00",
+      "sha256": "d2bec44366ce6e224caf0a56bf4ceaf84a81f68e8da62397211504907d97b437",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-bowser-s-castle-4",
-      "url": "https://mktwrs.com/course/gba-bowser-s-castle-4?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-4?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.743293+00:00",
-      "sha256": "a997e2b31e3890c1df29ac6058dda033b9d8f4fb8e107ecf026ce64ea91d4a53",
+      "checkedAt": "2026-10-13T06:01:24.117986+00:00",
+      "sha256": "550a36b1bfc2b26042c59eb31314a59d622aa9f83560d71a37e96b507c217632",
       "renderedWrRows": 3,
       "expectedWrRows": 3,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-bowser-s-castle-r",
-      "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.994319+00:00",
-      "sha256": "b5f6630061ed4a045f05768345777f220a8f98e23f3a33b2d67219b7288e28fc",
+      "checkedAt": "2026-10-13T06:01:24.130098+00:00",
+      "sha256": "fe25e924f71a885d83acd154aabe134c535634b6ebe02719ab03911bc64f76db",
       "renderedWrRows": 18,
       "expectedWrRows": 18,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-cheep-cheep-lagoon",
-      "url": "https://mktwrs.com/course/3ds-cheep-cheep-lagoon?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-cheep-cheep-lagoon?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.760009+00:00",
-      "sha256": "d46792e4eb399444be9af83246dae9f36e7ba9fed2c989d51bdf7ce0a0b354eb",
+      "checkedAt": "2026-10-13T06:01:24.110420+00:00",
+      "sha256": "c74032184dbee3a33a6df43599a75b3b52b0b415cca1ee90fe618644f6355b2c",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-cheep-cheep-lagoon-r",
-      "url": "https://mktwrs.com/course/3ds-cheep-cheep-lagoon-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-cheep-cheep-lagoon-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.805322+00:00",
-      "sha256": "f951126b338900e8735274ae4255d2d8391d626ed116bb4d39c8905e05f6963c",
+      "checkedAt": "2026-10-13T06:01:24.197605+00:00",
+      "sha256": "3347449c62c8c4bb6914e482f987b742acbda45b3dd5514970a05cac3b2186da",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-cheep-cheep-island",
-      "url": "https://mktwrs.com/course/gba-cheep-cheep-island?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-cheep-cheep-island?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.018007+00:00",
-      "sha256": "a91a145a7bff73835112630651f0c58d33d9df7831e9e39576c81deeae87ba34",
+      "checkedAt": "2026-10-13T06:01:24.334978+00:00",
+      "sha256": "2d897855c222dd81d037752ef4ce6e2f64b6d45f0151b4872007679ca5f54113",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-cheep-cheep-island-r",
-      "url": "https://mktwrs.com/course/gba-cheep-cheep-island-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-cheep-cheep-island-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:42.809433+00:00",
-      "sha256": "25eda5c12c918df9fea406e121b8c31ed627c7aff3124939bb5f4164b3d424b0",
+      "checkedAt": "2026-10-13T06:01:24.235812+00:00",
+      "sha256": "96457a6bf073151aeff8050465808cb989db3043116b44ac5bc6c402f2094984",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-choco-island-1",
-      "url": "https://mktwrs.com/course/snes-choco-island-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-choco-island-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.061922+00:00",
-      "sha256": "c71e72ae2158b93e079f5b85c5e48cf2e92a0aa94f9ba7d9e5448296af4be396",
+      "checkedAt": "2026-10-13T06:01:24.295918+00:00",
+      "sha256": "f976c6b6cb4278d82585c8af8b1c62feb792a0564506501f36f3ec92a7d464cf",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-choco-island-1r",
-      "url": "https://mktwrs.com/course/snes-choco-island-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-choco-island-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.031138+00:00",
-      "sha256": "08a6b08f4801fadf54f208f3b83e611bc3fc8c40ee057a23c9b03c8707414768",
+      "checkedAt": "2026-10-13T06:01:24.303065+00:00",
+      "sha256": "601abb112dd8efc686fae05d486fa630de93b57958b8e78187b07787a61cccb5",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-choco-island-2",
-      "url": "https://mktwrs.com/course/snes-choco-island-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-choco-island-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.219696+00:00",
-      "sha256": "bdb895dcfe9a83ed90199d66de239384c2da9a36add8558aa7d08ff97383ff82",
+      "checkedAt": "2026-10-13T06:01:24.331943+00:00",
+      "sha256": "772ce59524ae943eb9844cb9bdb6e18fbe8900f4e9de7808126312f6df79711b",
       "renderedWrRows": 18,
       "expectedWrRows": 18,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-choco-island-2r",
-      "url": "https://mktwrs.com/course/snes-choco-island-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-choco-island-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.077645+00:00",
-      "sha256": "a8bbc045b465b18c89dc7821f398cdfc8592de9604bcc83047eef5d006c94ec4",
+      "checkedAt": "2026-10-13T06:01:24.346040+00:00",
+      "sha256": "7b71e27dc27c189df177bd05c31c6ec68baf3c855ed3f127e40371bc9b1c9d6b",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-choco-mountain",
-      "url": "https://mktwrs.com/course/n64-choco-mountain?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-choco-mountain?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.242056+00:00",
-      "sha256": "71b95a649799984318b5eada18bb92c712b8503854cb5b04c5b21c2fb2659faf",
+      "checkedAt": "2026-10-13T06:01:24.364846+00:00",
+      "sha256": "2a656afc3875a20b8804a2e32b99112059880d889315f76cffd19b915034a61a",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-choco-mountain-r",
-      "url": "https://mktwrs.com/course/n64-choco-mountain-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-choco-mountain-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.424380+00:00",
-      "sha256": "311c6263c20b2ad218ff5aae1b2b3291d3db5168b4c3752b65d1c53aeaa72aaf",
+      "checkedAt": "2026-10-13T06:01:24.402152+00:00",
+      "sha256": "c55883288b49b4314894efe1d814498c3b6c55ed0c5ee6bcb562e3b278115f76",
       "renderedWrRows": 11,
       "expectedWrRows": 11,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-coconut-mall",
-      "url": "https://mktwrs.com/course/wii-coconut-mall?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-coconut-mall?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.239871+00:00",
-      "sha256": "93cd151050838e5c6157d700050b0c1a8c8df8b9f8052d9fa530d9a32e2fa92a",
+      "checkedAt": "2026-10-13T06:01:24.414320+00:00",
+      "sha256": "c5cb954f3e8443c65425e1812b256f6e3a3b95ca131a3ec3d2886f7e03633e3a",
       "renderedWrRows": 14,
       "expectedWrRows": 14,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-daisy-circuit",
-      "url": "https://mktwrs.com/course/wii-daisy-circuit?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-daisy-circuit?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.255452+00:00",
-      "sha256": "53d12018715a04853cb48aab09a55c1e9e109b9c5cae71ef88d7533e9644ab49",
+      "checkedAt": "2026-10-13T06:01:24.431895+00:00",
+      "sha256": "927693fd4672e6b57c688f1eadc245418d48671d5c633824466cf54882de4400",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-daisy-hills",
-      "url": "https://mktwrs.com/course/3ds-daisy-hills?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-daisy-hills?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.251481+00:00",
-      "sha256": "5fa2b302839ea24078fad56026cb7908fa8d5e7cef86a3886928a2875e23bdcf",
+      "checkedAt": "2026-10-13T06:01:24.422711+00:00",
+      "sha256": "1d3817161a2cc70b578b62038ecfd6350ff570ed60fea1348926293ddde49656",
       "renderedWrRows": 3,
       "expectedWrRows": 3,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-daisy-hills-r",
-      "url": "https://mktwrs.com/course/3ds-daisy-hills-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-daisy-hills-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.449886+00:00",
-      "sha256": "b067f4baf331362cbd4c03ddecdcea6a7fa7ae6199ca564a31d1fd3f9432233f",
+      "checkedAt": "2026-10-13T06:01:24.571337+00:00",
+      "sha256": "a5f8ba037ec54260641f7c5af23ea7b85303ca75454144bb01d8bd6b3350d429",
       "renderedWrRows": 18,
       "expectedWrRows": 18,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gcn-dino-dino-jungle",
-      "url": "https://mktwrs.com/course/gcn-dino-dino-jungle?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gcn-dino-dino-jungle?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.422004+00:00",
-      "sha256": "8cebc4c3002746f5dc7c100ae1f2174fa4e071c0dc5c9729b93b4b0ee8817637",
+      "checkedAt": "2026-10-13T06:01:24.486244+00:00",
+      "sha256": "3c6d6a16c31219116667e8aae9a3af77f6e443095b602b907c683cc35f51e6e0",
       "renderedWrRows": 28,
       "expectedWrRows": 28,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gcn-dino-dino-jungle-r",
-      "url": "https://mktwrs.com/course/gcn-dino-dino-jungle-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gcn-dino-dino-jungle-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.517082+00:00",
-      "sha256": "bf7452526fa95b81122e758b795d7426a66b6527802fd8b08b7f3e40e1467814",
+      "checkedAt": "2026-10-13T06:01:24.533654+00:00",
+      "sha256": "3cfde58562ad9e463b43637c2cb161346764d0b2edaddea07e92fc1967fae2d1",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-dk-pass",
-      "url": "https://mktwrs.com/course/ds-dk-pass?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-dk-pass?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.492061+00:00",
-      "sha256": "19a459141602bd889577dbb4343d7aba90bdfd291e4be49a28294cb999ca1890",
+      "checkedAt": "2026-10-13T06:01:24.553500+00:00",
+      "sha256": "3d4739f5329691190000091f2ef6d15f052e07ee8ef843cad8850136a341c364",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-dk-summit",
-      "url": "https://mktwrs.com/course/wii-dk-summit?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-dk-summit?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.563381+00:00",
-      "sha256": "b30747ba84e82d048fd33d173efd3b374d511c464e4a85f1538b960ac4479c0d",
+      "checkedAt": "2026-10-13T06:01:24.590005+00:00",
+      "sha256": "65265406bd4fbe616772e06ca8f35ff018cacb49b2fd683adc9a21960577c6e8",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-dk-summit-r",
-      "url": "https://mktwrs.com/course/wii-dk-summit-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-dk-summit-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.509048+00:00",
-      "sha256": "d19b0cef2433d0753943ff219ff2667239ecba31c5cc8b28d9dc12c5ee79ef64",
+      "checkedAt": "2026-10-13T06:01:24.611863+00:00",
+      "sha256": "bf1dcd1fcce8311b1a6f6237d7ea96c062485bf95f5596ee8a62d003c0551729",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-donut-plains-1",
-      "url": "https://mktwrs.com/course/snes-donut-plains-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-donut-plains-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.542130+00:00",
-      "sha256": "8fb85dce57a52cd95639f687ca8e69b429f2c81dfa7ae5f1b777326c20676114",
+      "checkedAt": "2026-10-13T06:01:24.636358+00:00",
+      "sha256": "e837a6d090987716ae4c1fa1c7772dd2fed1b57df79c1254be7d41ac930c0cbc",
       "renderedWrRows": 15,
       "expectedWrRows": 15,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-donut-plains-1r",
-      "url": "https://mktwrs.com/course/snes-donut-plains-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-donut-plains-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.597439+00:00",
-      "sha256": "6cd4a37e80b74c0fce6b0fea45ae9b188fd9723e61ee9a502b9452dbe908e8f1",
+      "checkedAt": "2026-10-13T06:01:24.639507+00:00",
+      "sha256": "6e8b31bd2cdee3cc05f3541c4e792c23b78ead24820208179edbefedb6eefa98",
       "renderedWrRows": 33,
       "expectedWrRows": 33,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-donut-plains-2",
-      "url": "https://mktwrs.com/course/snes-donut-plains-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-donut-plains-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.619813+00:00",
-      "sha256": "a3bab625b076681a5cfe73bef50e7e225c414d4b63295bc51cc17bdbbd5d87db",
+      "checkedAt": "2026-10-13T06:01:24.679065+00:00",
+      "sha256": "79fc33ccb8a2183213b879c370d8f405abeebecb59c90d145a0d086d9315dec6",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-donut-plains-2r",
-      "url": "https://mktwrs.com/course/snes-donut-plains-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-donut-plains-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.617269+00:00",
-      "sha256": "f199d1b47f5ef7414aaccd4c91c2f6706b290fdbc87d2a28bd2248e024eb53f2",
+      "checkedAt": "2026-10-13T06:01:24.652961+00:00",
+      "sha256": "de2cc695650081004630272eb1796f9945a521dfb1b9a65761176a720380bd19",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-donut-plains-3",
-      "url": "https://mktwrs.com/course/snes-donut-plains-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-donut-plains-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.633650+00:00",
-      "sha256": "6ace8c9efd4efa2db1c99a186c5258dfadbe720856cd1764efb396e14e65664f",
+      "checkedAt": "2026-10-13T06:01:24.660270+00:00",
+      "sha256": "56c983a47cbca88681a27ab3c9e799fee2a7198a5de4b2fc2c94cf0edda3e998",
       "renderedWrRows": 3,
       "expectedWrRows": 3,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-donut-plains-3r",
-      "url": "https://mktwrs.com/course/snes-donut-plains-3r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-donut-plains-3r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.659081+00:00",
-      "sha256": "792f5725961c5092d1a746cf87a9786304e798406715475a080471b38dc14395",
+      "checkedAt": "2026-10-13T06:01:24.686566+00:00",
+      "sha256": "f142886adeffdd65da92b95abe7f3447625db94c7543aebc4a82c764241a38d9",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-dry-dry-ruins",
-      "url": "https://mktwrs.com/course/wii-dry-dry-ruins?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-dry-dry-ruins?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.648738+00:00",
-      "sha256": "9876b66a3b1e0c9bcfcb89832658aab6434fc33582c0aac7ce0b2bed2748a1ec",
+      "checkedAt": "2026-10-13T06:01:24.719533+00:00",
+      "sha256": "4dbf92cdf395acb1d8f48b7c3faf80bc93df274f0c61e5977d59ad51a887e16c",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-frappe-snowland",
-      "url": "https://mktwrs.com/course/n64-frappe-snowland?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-frappe-snowland?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.683024+00:00",
-      "sha256": "bd9d6e837deb8550dc9d184cea9fc39109d6a8d297e95a9ebce0c1141e34fbb1",
+      "checkedAt": "2026-10-13T06:01:24.746120+00:00",
+      "sha256": "b5c4e968f8124c1857ea081d6d3c9369c0b81522e55bda0c0d6d5df94071e496",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-frappe-snowland-r",
-      "url": "https://mktwrs.com/course/n64-frappe-snowland-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-frappe-snowland-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.868094+00:00",
-      "sha256": "b36290d9d0a61125a09a0b2621b8384896e0890ca737cc66294a88ee8b8a6a35",
+      "checkedAt": "2026-10-13T06:01:24.810494+00:00",
+      "sha256": "465fffd72ba5da030a70cc13e250f6b488e77c01d02828e060c1cec839fa5019",
       "renderedWrRows": 33,
       "expectedWrRows": 33,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-ghost-valley-1",
-      "url": "https://mktwrs.com/course/snes-ghost-valley-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-ghost-valley-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.002801+00:00",
-      "sha256": "4f598ff5d11dbf6dbddd13fa2876281b338cc6a7f067fe0c6b33741c23158082",
+      "checkedAt": "2026-10-13T06:01:24.876138+00:00",
+      "sha256": "c181a39a2a4d46ffd804fd213ccaa1d8a122c1081e1cd1fea1d1f17ad6560e07",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-ghost-valley-1r",
-      "url": "https://mktwrs.com/course/snes-ghost-valley-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-ghost-valley-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.903102+00:00",
-      "sha256": "8b2986f9418fee2cf5820436a363a6e800fed710f43c55f975641b38ea440ebd",
+      "checkedAt": "2026-10-13T06:01:24.867606+00:00",
+      "sha256": "1572a276811b18eefc4b84dc0a35ba6a63448e1cfd42f4934e1f3031ccb95b71",
       "renderedWrRows": 25,
       "expectedWrRows": 25,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-kalimari-desert",
-      "url": "https://mktwrs.com/course/n64-kalimari-desert?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.893233+00:00",
-      "sha256": "cff6b2337a3800432efd7034898285415d1fb68db8070c247acb5525ed281051",
+      "checkedAt": "2026-10-13T06:01:24.836359+00:00",
+      "sha256": "5af376cafcebcca68b04dc0e72a76548adf84279ba90e7310a0b030d111c1e83",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-kalimari-desert-2",
-      "url": "https://mktwrs.com/course/n64-kalimari-desert-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.029619+00:00",
-      "sha256": "4a08d8d0e1934bc5a290f2d9aaa9ff5fa56bd35115f41075039926a52f5dd6bf",
+      "checkedAt": "2026-10-13T06:01:24.964015+00:00",
+      "sha256": "43ce9bf6aece37f8d50eb592abedae854deb9cb4bb331314cfdb23c5e3a36fee",
       "renderedWrRows": 12,
       "expectedWrRows": 12,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-kalimari-desert-2r",
-      "url": "https://mktwrs.com/course/n64-kalimari-desert-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.992887+00:00",
-      "sha256": "ab2d06ece9d472a39da19c61c3fd5f14f4cacfd637cca23eac0c5d023eeab9d8",
+      "checkedAt": "2026-10-13T06:01:24.916512+00:00",
+      "sha256": "f8f243b1ca96f68a3ad78b2286e7077128e02ff3254a476596ade2ad50eb8358",
       "renderedWrRows": 22,
       "expectedWrRows": 22,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-kalimari-desert-r",
-      "url": "https://mktwrs.com/course/n64-kalimari-desert-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.932367+00:00",
-      "sha256": "86444a2bad0c2b4e574c6bafc1e03a0a5a577553c5284071af77fee500bd8a63",
+      "checkedAt": "2026-10-13T06:01:24.897921+00:00",
+      "sha256": "23bb8b23c4ac6c4dc4f7df29efa55e46fb4258d31878306c3b65cc9969cf1490",
       "renderedWrRows": 12,
       "expectedWrRows": 12,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-koopa-cape",
-      "url": "https://mktwrs.com/course/wii-koopa-cape?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-koopa-cape?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:43.956807+00:00",
-      "sha256": "a46cfe8d29bcdb724211bf03bb645d6b5ccd03070582dcc552ff1b81c19a5158",
+      "checkedAt": "2026-10-13T06:01:24.956036+00:00",
+      "sha256": "7e619850ab6ac7b498e7553d7c1ff3e0de3258b40fab2c83e8e7f0d9fdcba37d",
       "renderedWrRows": 11,
       "expectedWrRows": 11,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-koopa-troopa-beach",
-      "url": "https://mktwrs.com/course/n64-koopa-troopa-beach?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-koopa-troopa-beach?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.041705+00:00",
-      "sha256": "aec57c4e8a4c8c7b8708b985cca62f8c9b0cd2651a6c659edf748c2006f826f4",
+      "checkedAt": "2026-10-13T06:01:24.975394+00:00",
+      "sha256": "3b2467d273fee7fc6acc5a61e284faaeec6541e11cbce377d464ea0725f70873",
       "renderedWrRows": 3,
       "expectedWrRows": 3,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-koopa-troopa-beach-2",
-      "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.158384+00:00",
-      "sha256": "a7a59aeb5f4fdf214712a9ff6bfbfe00af74282f9499b4a9429f8c7aa936acff",
+      "checkedAt": "2026-10-13T06:01:25.058809+00:00",
+      "sha256": "811331cda13b16383ec13cc0ed37f59d7a937aa35c6a542867e0a5bb88316019",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-koopa-troopa-beach-2r",
-      "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.119211+00:00",
-      "sha256": "3909a35f191c89273e54133f817e0e49eedb4a1257b18fe24e7a149dce0a8ce8",
+      "checkedAt": "2026-10-13T06:01:24.995238+00:00",
+      "sha256": "d7cd119607baf5e6a21002580c990102a258438940d5c50fdc461889fdc35e2c",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-koopa-troopa-beach-r",
-      "url": "https://mktwrs.com/course/n64-koopa-troopa-beach-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-koopa-troopa-beach-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.057114+00:00",
-      "sha256": "9d5744d908e586f18cceb230fd74b370b74589bd0371a5a0192289c4a28c3b66",
+      "checkedAt": "2026-10-13T06:01:25.072484+00:00",
+      "sha256": "decdd8401d0b445dd7b306c0d3f6e0bf36f9b688cb9551177f3dcabc1e0b01b1",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "los-angeles-laps-2",
-      "url": "https://mktwrs.com/course/los-angeles-laps-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/los-angeles-laps-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.129105+00:00",
-      "sha256": "dd8a95230801a4daf1ac076d17723d85885580dece8b5fa5c7980c8df0899412",
+      "checkedAt": "2026-10-13T06:01:25.089369+00:00",
+      "sha256": "c9ca0f6635ae23a0bf41d7ac0ba066b4abe0e4c62e966569d604d48c55f885d3",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "los-angeles-laps-3",
-      "url": "https://mktwrs.com/course/los-angeles-laps-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/los-angeles-laps-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.167324+00:00",
-      "sha256": "732ac4ff08075f9a742e4d3c8b75166f193261ab2e89bcdc410092ad32755a2c",
+      "checkedAt": "2026-10-13T06:01:25.087314+00:00",
+      "sha256": "53c7167600d8d5587899513524d626282892f356315d781a7a5c2a0c50c57b3a",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-luigi-circuit",
-      "url": "https://mktwrs.com/course/gba-luigi-circuit?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-luigi-circuit?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.212981+00:00",
-      "sha256": "ce9d68d245a35004afc5d96d5d94cee0a2b0acf33e58b65f1d750730ec2c7e10",
+      "checkedAt": "2026-10-13T06:01:25.101694+00:00",
+      "sha256": "083c00dbbdbbbd3d6d431b924cf9a56dd8cb653c27b494d57a74f924d60cfa40",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-luigi-raceway",
-      "url": "https://mktwrs.com/course/n64-luigi-raceway?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-luigi-raceway?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.192378+00:00",
-      "sha256": "0f958be69192bd32cef9c85b9c17f8bdf79d65a1bbe9d34e842280f07b3c17cd",
+      "checkedAt": "2026-10-13T06:01:25.132719+00:00",
+      "sha256": "3b2159c257654259cb15b54605f5ad611f16dc6cd50c4dd65e5d256288f7072d",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-luigi-raceway-r",
-      "url": "https://mktwrs.com/course/n64-luigi-raceway-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-luigi-raceway-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.202924+00:00",
-      "sha256": "2958381c737bc27fa80bd669167789f50bd8a2d3c89a6e9dd2610b1f6f688d35",
+      "checkedAt": "2026-10-13T06:01:25.123642+00:00",
+      "sha256": "4047de870075b7b9d70a4471828be68ffca9e11cf64f8d3c5c5111597d80b9e3",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-luigi-s-mansion",
-      "url": "https://mktwrs.com/course/ds-luigi-s-mansion?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-luigi-s-mansion?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.231137+00:00",
-      "sha256": "aa57e27ad70609bc9b66058527490c2be9fc3d08a7a982d6226b65b752d51f09",
+      "checkedAt": "2026-10-13T06:01:25.150365+00:00",
+      "sha256": "9d503c2802fd312e903369aa5aa5cd1d7529a3b585925af4760e5ddac8a0f633",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-luigi-s-mansion-r",
-      "url": "https://mktwrs.com/course/ds-luigi-s-mansion-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-luigi-s-mansion-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.259227+00:00",
-      "sha256": "1b6db6e7352b24263705a90f75cf4391dcd2f005dbd9da75446aaeb5abc7b4e8",
+      "checkedAt": "2026-10-13T06:01:25.189759+00:00",
+      "sha256": "6018c55e5fadd1f2712a6aee1679d1134c97f88c3dae227ee0eb39a240ad96bc",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "madrid-drive",
-      "url": "https://mktwrs.com/course/madrid-drive?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/madrid-drive?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.238734+00:00",
-      "sha256": "e022ebbdae2c10dc5226b8174852e38f263e02ecd726250abea889accb648ed8",
+      "checkedAt": "2026-10-13T06:01:25.168738+00:00",
+      "sha256": "934043b9ac3e7bd31b3359c2265235360d9ff0a9db74493d1d8e471c27fb3086",
       "renderedWrRows": 2,
       "expectedWrRows": 2,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "madrid-drive-3",
-      "url": "https://mktwrs.com/course/madrid-drive-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/madrid-drive-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.268904+00:00",
-      "sha256": "1d71e7c84474438a8f3f2500478048697184a86f3cbda600c017b462dca9c034",
+      "checkedAt": "2026-10-13T06:01:25.197865+00:00",
+      "sha256": "b2856bbe01c6a8ac84d0166f7fed8599688734339bd5dc24377e18cf06c6ad1a",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-maple-treeway",
-      "url": "https://mktwrs.com/course/wii-maple-treeway?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-maple-treeway?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.299918+00:00",
-      "sha256": "f788b23c80aeb1c43fd49280b0784b0d4fc8009a1d86b129d8bbe37c144f0b07",
+      "checkedAt": "2026-10-13T06:01:25.224742+00:00",
+      "sha256": "111181f9a93c53e273fc3c7bba43d85cfffeeda8512a7accc6baaa7fbb2fb0f4",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-maple-treeway-r",
-      "url": "https://mktwrs.com/course/wii-maple-treeway-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-maple-treeway-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.324065+00:00",
-      "sha256": "566491b4f361945263db978b57d1eb146f3ff37c6525ac70a7dc383ad69c8cbb",
+      "checkedAt": "2026-10-13T06:01:25.245002+00:00",
+      "sha256": "9c8c59bba57f508f3c6afea3858951c053ce13af8a83d0ef3aa43b84955b31b2",
       "renderedWrRows": 12,
       "expectedWrRows": 12,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-mario-circuit",
-      "url": "https://mktwrs.com/course/3ds-mario-circuit?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-mario-circuit?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.430442+00:00",
-      "sha256": "bd013e8f3ac047bd0259d499a6bee53461d7f5ec1620cd637aea2237d1a951ec",
+      "checkedAt": "2026-10-13T06:01:25.325388+00:00",
+      "sha256": "dfab750b22ca5187a537e7fb488eef3b13c9b5ace3c6442afb041f79e4774dc4",
       "renderedWrRows": 22,
       "expectedWrRows": 22,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-mario-circuit-1",
-      "url": "https://mktwrs.com/course/snes-mario-circuit-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.353034+00:00",
-      "sha256": "78d4c57fca6909f6ed602e44b8b8a055520b4d62a417f50bb5ae61bad23c8efd",
+      "checkedAt": "2026-10-13T06:01:25.257879+00:00",
+      "sha256": "974d10adc318c3aed663290426fc7825d7cb90e39f49da19b9cbf12d98f16986",
       "renderedWrRows": 11,
       "expectedWrRows": 11,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-mario-circuit-1r",
-      "url": "https://mktwrs.com/course/snes-mario-circuit-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.475680+00:00",
-      "sha256": "35500edc200463007b63b50450aa0eb844f83bc256d021bf457fd34b30562201",
+      "checkedAt": "2026-10-13T06:01:25.323031+00:00",
+      "sha256": "8a34116b46d348463b0b8b9565e30dcc946cbc2f936507b288beaccef28c8f66",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-mario-circuit-2",
-      "url": "https://mktwrs.com/course/snes-mario-circuit-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.465610+00:00",
-      "sha256": "c1ae02b5b684f9d205ca91e818f47881e9db75a909b94ad1ed290860e16c3af6",
+      "checkedAt": "2026-10-13T06:01:25.346033+00:00",
+      "sha256": "afe727e2143b45f4faf913f8cbeb9d707989f34022247a0cc2b71cf1278f7304",
       "renderedWrRows": 11,
       "expectedWrRows": 11,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-mario-circuit-2r",
-      "url": "https://mktwrs.com/course/snes-mario-circuit-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.485035+00:00",
-      "sha256": "5a0f56109199c1d26147b5435399b949badec1d20370dd76cbe5258ae2301e72",
+      "checkedAt": "2026-10-13T06:01:25.347533+00:00",
+      "sha256": "d5231add4b5f4195e02eab7ce561642a64b2d99c10e10aad2cfa62fed3c9a6c5",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-mario-circuit-3",
-      "url": "https://mktwrs.com/course/snes-mario-circuit-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.511552+00:00",
-      "sha256": "6be72a8b234ee52aa4e550d0525c2b3fb419df2846325186e460bcbd13d0fef3",
+      "checkedAt": "2026-10-13T06:01:25.365861+00:00",
+      "sha256": "93659364e102cfdf7a37ca09b7ab655b4476e286672ee18d425bf7f5c7ff7883",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-mario-circuit-3r",
-      "url": "https://mktwrs.com/course/snes-mario-circuit-3r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-3r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.514905+00:00",
-      "sha256": "ccb6d8d110e8d839a8bce5c278860985c8ecd04365836fee00df1a304280be2c",
+      "checkedAt": "2026-10-13T06:01:25.375561+00:00",
+      "sha256": "514c8fdc229b622ac62051e804619ead9f6eae1788493e4e77c040f359602378",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-mario-circuit-r",
-      "url": "https://mktwrs.com/course/3ds-mario-circuit-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-mario-circuit-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.546567+00:00",
-      "sha256": "04010a9ba14510c1481a4005128e7a4d5b020c58d42200cbb369121a0c40a393",
+      "checkedAt": "2026-10-13T06:01:25.437367+00:00",
+      "sha256": "0fbe08da281d2d0c18840473efb19b0e8db17f82e2279f7143b2a4bf73048ce7",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gcn-mushroom-bridge",
-      "url": "https://mktwrs.com/course/gcn-mushroom-bridge?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gcn-mushroom-bridge?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.521658+00:00",
-      "sha256": "0a53edbb215fbc2b1e1e3dc485c7334926956dd31b8031873c54ac08a52bc5ea",
+      "checkedAt": "2026-10-13T06:01:25.451613+00:00",
+      "sha256": "237bf0c3f4518bbc7ffef0906b73703c507d41649a1674ae56a3eed0e38c609e",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-neo-bowser-city",
-      "url": "https://mktwrs.com/course/3ds-neo-bowser-city?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-neo-bowser-city?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.569865+00:00",
-      "sha256": "4dbda4978f82ab3b88ad865a857d2954370482e449c0a41c3e003d186a88fa1a",
+      "checkedAt": "2026-10-13T06:01:25.504061+00:00",
+      "sha256": "7cc0578123e4dbc3047fecfeac2738144a785c8692b0af462134d5f36238610a",
       "renderedWrRows": 14,
       "expectedWrRows": 14,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-neo-bowser-city-r",
-      "url": "https://mktwrs.com/course/3ds-neo-bowser-city-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-neo-bowser-city-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.746957+00:00",
-      "sha256": "9ffc99870f7d80109768fa5335057b5f2aede44fba62082bc87896d2faafe837",
+      "checkedAt": "2026-10-13T06:01:25.585561+00:00",
+      "sha256": "8d859ec35045964b919a4a3d3cf6daedcf734ce46cc5d68ac3c7df5b631e8ab9",
       "renderedWrRows": 24,
       "expectedWrRows": 24,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-peach-gardens",
-      "url": "https://mktwrs.com/course/ds-peach-gardens?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-peach-gardens?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.585384+00:00",
-      "sha256": "e0906eca9472c1e5ac66e930cd2b77a53123e1fd02415104975c094d7658eefa",
+      "checkedAt": "2026-10-13T06:01:25.460902+00:00",
+      "sha256": "2824716963642825b69ae7bcb8e81ab23162bb3be356bbf8195caa0db2f2f857",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-peach-gardens-r",
-      "url": "https://mktwrs.com/course/ds-peach-gardens-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-peach-gardens-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.626518+00:00",
-      "sha256": "f80c2bed249c417bf43ef03be469d2246aefcfe86741dd6e86abbc2f04301245",
+      "checkedAt": "2026-10-13T06:01:25.445014+00:00",
+      "sha256": "ff4569c62bf503f2df7d8ac1f3cbb6eb44cb51361782ac6b662833f32badfb94",
       "renderedWrRows": 2,
       "expectedWrRows": 2,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "piranha-plant-cove",
-      "url": "https://mktwrs.com/course/piranha-plant-cove?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/piranha-plant-cove?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.634930+00:00",
-      "sha256": "3bb26d1465ffb4fb0379df290592de32cf6d2805f544453418c530136ba4f591",
+      "checkedAt": "2026-10-13T06:01:25.468331+00:00",
+      "sha256": "f6e1d94a0e78f123f5d7617e512171362c687885c1aced5c2e7f4a84c789be83",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "piranha-plant-cove-2",
-      "url": "https://mktwrs.com/course/piranha-plant-cove-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/piranha-plant-cove-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.647196+00:00",
-      "sha256": "f674359e70323fcabcaba76ee3cbeb4c6bbb8d3fb79816bd9b6d960a376c3b8c",
+      "checkedAt": "2026-10-13T06:01:25.478063+00:00",
+      "sha256": "06e5bb60d652121efb0b49251e9161ebb0a54e5e87cb3031220a174ee446dee3",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "piranha-plant-cove-2r",
-      "url": "https://mktwrs.com/course/piranha-plant-cove-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/piranha-plant-cove-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.673200+00:00",
-      "sha256": "0cf4b763a0b7fb1e9ca9cde218d0adf6f79889a394756a55f4a68637462dec42",
+      "checkedAt": "2026-10-13T06:01:25.603297+00:00",
+      "sha256": "8bffcf70745faa73d04554aa56b49deb1d3e8307f72aa8d6383bf9195062199e",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "piranha-plant-cove-3",
-      "url": "https://mktwrs.com/course/piranha-plant-cove-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/piranha-plant-cove-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.717151+00:00",
-      "sha256": "bf4f415bf0f009258d8bd9f555e8282a5e8641b161ea2ab1088f3bd5f7ee5ca8",
+      "checkedAt": "2026-10-13T06:01:25.620891+00:00",
+      "sha256": "3296c9d959450da0be7d919d41a3907fc8db1d41202f3f942e616038d424ca18",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-piranha-plant-slide",
-      "url": "https://mktwrs.com/course/3ds-piranha-plant-slide?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-piranha-plant-slide?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.756347+00:00",
-      "sha256": "6867ccf63c192f9b2322b45aeee96186dfe4fb0b484d7105acd39beacfab0f81",
+      "checkedAt": "2026-10-13T06:01:25.612612+00:00",
+      "sha256": "08a796b4ad2861e0fe1de84a071183b831b7d2cc84b1b41871fa9ed0d406f622",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-rainbow-road",
-      "url": "https://mktwrs.com/course/snes-rainbow-road?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-rainbow-road?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.805181+00:00",
-      "sha256": "cfd4f0a28089a24b516e410489104def567fdc06b9d356c78c7c68fc12cea21b",
+      "checkedAt": "2026-10-13T06:01:25.657469+00:00",
+      "sha256": "512b7787d8ec3ac14ba5ecd8990cda690ecff04f02dd311fad73273286160bbd",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "wii-rainbow-road",
-      "url": "https://mktwrs.com/course/wii-rainbow-road?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/wii-rainbow-road?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.772003+00:00",
-      "sha256": "725b5ac93d12c12a20e07fdef0c0a9cac98f005996f4629e4e5708c7aa656068",
+      "checkedAt": "2026-10-13T06:01:25.595373+00:00",
+      "sha256": "f42ae86042b32915b910c4a0f04e4542e7a0f3dc5a435034e69114529f18e77c",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-rainbow-road",
-      "url": "https://mktwrs.com/course/3ds-rainbow-road?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-rainbow-road?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.779496+00:00",
-      "sha256": "a981b46ac35afe9d730193415825b76efba3a5c62fda607128bf1be22903dd48",
+      "checkedAt": "2026-10-13T06:01:25.669682+00:00",
+      "sha256": "8a22edb546a518ee119394ffced8af465a69d54a5a393a3bf9187db2c2ec58b1",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-rainbow-road-r",
-      "url": "https://mktwrs.com/course/snes-rainbow-road-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-rainbow-road-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.851816+00:00",
-      "sha256": "c0a1fd7ad67bc1d4ccf9a2ab0eb19d425b35c4139ded4921f582976867e7f053",
+      "checkedAt": "2026-10-13T06:01:25.703776+00:00",
+      "sha256": "b31c596edde04973894779609773b4a2e0e89d6c77007d66ef382b36fa8708f6",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-rainbow-road-r",
-      "url": "https://mktwrs.com/course/3ds-rainbow-road-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-rainbow-road-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.955679+00:00",
-      "sha256": "02d9c4c46cf94304093abf1afc95524fed9907cc4275bf3110df74a71a5ade23",
+      "checkedAt": "2026-10-13T06:01:25.763222+00:00",
+      "sha256": "6e860c6d86cced91d33543ab8f8931708f5d006f996d464c69816a2501ac91c9",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-choco-island-1",
-      "url": "https://mktwrs.com/course/rmx-choco-island-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-choco-island-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.987761+00:00",
-      "sha256": "f75d89280025a0a90223a3eb3168733a4500b9510a6374ede111b71b45d558f2",
+      "checkedAt": "2026-10-13T06:01:25.778306+00:00",
+      "sha256": "1b268db370cd7b71ad6e963f135aa7e977d2dbd4547c34d0f5030863afcda02a",
       "renderedWrRows": 18,
       "expectedWrRows": 18,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-choco-island-1r",
-      "url": "https://mktwrs.com/course/rmx-choco-island-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-choco-island-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.964624+00:00",
-      "sha256": "3ee385df2d31508ae47df6d00c6c7b532796c0fe817e4e92cc79d30f31d2cf09",
+      "checkedAt": "2026-10-13T06:01:25.792338+00:00",
+      "sha256": "5ee16d9bc2830a4a0801e621ea1ad455ee201abb3ade401d3b12e7a2a4589c6f",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-choco-island-2",
-      "url": "https://mktwrs.com/course/rmx-choco-island-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-choco-island-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.111622+00:00",
-      "sha256": "8096f34b2dfbc3b00b9e770d645546df2679e6c5a8b87eb8e5808ee527ca660e",
+      "checkedAt": "2026-10-13T06:01:25.863190+00:00",
+      "sha256": "380c7cf464ee8d2ec88da4fcc8b2b4fba7fe34b228b07e6c2cb9d7284b4d6ba8",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-ghost-valley-1",
-      "url": "https://mktwrs.com/course/rmx-ghost-valley-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-ghost-valley-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:44.997441+00:00",
-      "sha256": "5a97ec8f558db1313592fae26cac133d2b694073a192199a049afa979083acba",
+      "checkedAt": "2026-10-13T06:01:25.739291+00:00",
+      "sha256": "110b1df038ba7ad007cf5616bc9359efd6f695a47f094e49b4c8fc6f61000a80",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-ghost-valley-1r",
-      "url": "https://mktwrs.com/course/rmx-ghost-valley-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-ghost-valley-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.105044+00:00",
-      "sha256": "5c7267ecdedd43497cf8eac1ac4be9c2c2d1cb0103bce75b5e11c7c4f407c740",
+      "checkedAt": "2026-10-13T06:01:25.888732+00:00",
+      "sha256": "d9f0cd284d8ba8a7a6420713b873aa9fad2faea8bc0205c949c145df3a2b38ad",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-mario-circuit-1",
-      "url": "https://mktwrs.com/course/rmx-mario-circuit-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-mario-circuit-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.058240+00:00",
-      "sha256": "ec511f650758ee171c7d5dd86e1e94112281e8093ae0558f36e45a006cc2a856",
+      "checkedAt": "2026-10-13T06:01:25.862206+00:00",
+      "sha256": "26d5ce738a844831ec55e2fad31dd18d5af3b85b3e5b3be4c083e90e061b1c61",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-rainbow-road-1",
-      "url": "https://mktwrs.com/course/rmx-rainbow-road-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.139814+00:00",
-      "sha256": "ea17366f7e2960582a54185d1d308400cf6c60f08810d2436e2f9b3bf2bf3efe",
+      "checkedAt": "2026-10-13T06:01:25.914740+00:00",
+      "sha256": "f1a0ba63f0d5ae4486c10222dacd507159151e22f1ac0491022a9f4a9caf3609",
       "renderedWrRows": 15,
       "expectedWrRows": 15,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-rainbow-road-1r",
-      "url": "https://mktwrs.com/course/rmx-rainbow-road-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.300965+00:00",
-      "sha256": "73a130b7b6796f170c88129431e11f90b1f1ef2e55ac9a6d05c7efbf0986b6e7",
+      "checkedAt": "2026-10-13T06:01:25.937385+00:00",
+      "sha256": "edbde8ddfe115c56b51fce1e1214aa2d25bb15371301d81f78984aa307e86b11",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-rainbow-road-2",
-      "url": "https://mktwrs.com/course/rmx-rainbow-road-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.184930+00:00",
-      "sha256": "81b40b1ba0ef2c55ce3d3252dbb1730e7b000a61664134d4729f3b547bf464eb",
+      "checkedAt": "2026-10-13T06:01:26.038720+00:00",
+      "sha256": "993baec200577125ff0f503dbb2fee6580652f34c10335f65743d569af95a7da",
       "renderedWrRows": 14,
       "expectedWrRows": 14,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-rainbow-road-2r",
-      "url": "https://mktwrs.com/course/rmx-rainbow-road-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.256717+00:00",
-      "sha256": "93b031ab63692241038d1a8f44c76448d17a6cfe90692b29136f7cbc768c58a0",
+      "checkedAt": "2026-10-13T06:01:25.976094+00:00",
+      "sha256": "9c3d92482a82447b7b814f0355986c074dbdc3f74d7d33f7a3edd8f73754c040",
       "renderedWrRows": 30,
       "expectedWrRows": 30,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-vanilla-lake-1",
-      "url": "https://mktwrs.com/course/rmx-vanilla-lake-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-vanilla-lake-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.231502+00:00",
-      "sha256": "08804e97e0bdbf7cdc3fac024a18c311a1a7387c5cab263667c5d712dc8f5ed6",
+      "checkedAt": "2026-10-13T06:01:26.015275+00:00",
+      "sha256": "74c3ec2e6b87282926dcd14ab1c6d6dcdcaadb32d5423017993dfa3ded0f03bd",
       "renderedWrRows": 12,
       "expectedWrRows": 12,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rmx-vanilla-lake-1r",
-      "url": "https://mktwrs.com/course/rmx-vanilla-lake-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rmx-vanilla-lake-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.280557+00:00",
-      "sha256": "42d15d2c709e2095378f3193114e00ceed65ade9c9acc22b3476cfa906ba9762",
+      "checkedAt": "2026-10-13T06:01:25.998013+00:00",
+      "sha256": "5e93efbf98a972394689a844c0e45d2061967608f74af54e1ed724b842a99df1",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-rock-rock-mountain",
-      "url": "https://mktwrs.com/course/3ds-rock-rock-mountain?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-rock-rock-mountain?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.463303+00:00",
-      "sha256": "cc838f27b25aebcd21a6294d93b04f5e4cb0f0774c9070a5acb34bc97c1a88a6",
+      "checkedAt": "2026-10-13T06:01:26.105019+00:00",
+      "sha256": "fed0c17a6a55c937914107b747dbd7e23f3931032f1266d5ae41524f411d52d5",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-rock-rock-mountain-r",
-      "url": "https://mktwrs.com/course/3ds-rock-rock-mountain-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-rock-rock-mountain-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.428242+00:00",
-      "sha256": "4f9e80328461f62591d8a01595f4ce4250021cd4138051e8005ef85e9787e614",
+      "checkedAt": "2026-10-13T06:01:26.135654+00:00",
+      "sha256": "67ed4911fad3db447fca8a9252468c4622be07574135b7cae4b3ca929466bdd6",
       "renderedWrRows": 13,
       "expectedWrRows": 13,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rome-avanti-2",
-      "url": "https://mktwrs.com/course/rome-avanti-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rome-avanti-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.309634+00:00",
-      "sha256": "a2262604b0c78098d561a4ad426f4616274fce4cfe1326661ae67cfe16c5f6b6",
+      "checkedAt": "2026-10-13T06:01:26.102867+00:00",
+      "sha256": "f7f8d96e1f5ef46edf75e90ca9b8928b139743d044ca6aabea64b1af2ce58d45",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "rome-avanti-3",
-      "url": "https://mktwrs.com/course/rome-avanti-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/rome-avanti-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.444030+00:00",
-      "sha256": "00a158cde0d9e1e0b4c27022df80e1804a5b3afa35a38c410743e495cad1e450",
+      "checkedAt": "2026-10-13T06:01:26.144836+00:00",
+      "sha256": "6e961287b4f244fc6aa07a8d09d1c14e55d145eb6a7b9362b87650ee7db1c161",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-rosalina-s-ice-world",
-      "url": "https://mktwrs.com/course/3ds-rosalina-s-ice-world?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-rosalina-s-ice-world?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.544037+00:00",
-      "sha256": "f76c30fad2249c9c138fe770417922cea6dadceba32c6e850e85d0d137e1f908",
+      "checkedAt": "2026-10-13T06:01:26.172296+00:00",
+      "sha256": "9d431cd0b069718f967facf26adc116c25b26d83dd024135b7f3c1e9e5edcfda",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-rosalina-s-ice-world-r",
-      "url": "https://mktwrs.com/course/3ds-rosalina-s-ice-world-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-rosalina-s-ice-world-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.529333+00:00",
-      "sha256": "cac3a8ff3f0159b3f3e82bbc9c15e4a60ad0fcee8e3578c3f574ab6b7b4a1939",
+      "checkedAt": "2026-10-13T06:01:26.194607+00:00",
+      "sha256": "561d484bfc6ee602029416b090bf4f7dd5551811fc630c6cbe2e67a7d359683a",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-royal-raceway",
-      "url": "https://mktwrs.com/course/n64-royal-raceway?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-royal-raceway?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.485566+00:00",
-      "sha256": "4647af86289aaaca12fd4b2c50ec1db3e8cdcac06fad6e7ddd4aef31fce5f6cd",
+      "checkedAt": "2026-10-13T06:01:26.207811+00:00",
+      "sha256": "767ec4e919532a0534c02636ee98bb9f53c71eab25a8a4575e9a857200d8c56a",
       "renderedWrRows": 16,
       "expectedWrRows": 16,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-royal-raceway-r",
-      "url": "https://mktwrs.com/course/n64-royal-raceway-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-royal-raceway-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.499885+00:00",
-      "sha256": "2feafd65baa5c5c27edf174a18621b9923a0e2fa8357c72a8528a6d70de9fe35",
+      "checkedAt": "2026-10-13T06:01:26.221560+00:00",
+      "sha256": "2275c9ad416341680ff6d98e33065e29e10aef548c89b3c1cdb3830cd9e8422a",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-shy-guy-bazaar",
-      "url": "https://mktwrs.com/course/3ds-shy-guy-bazaar?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-shy-guy-bazaar?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.478457+00:00",
-      "sha256": "ee58726d49e6af04535c7b8838f62902892744a079ea15091dd14c008c43801c",
+      "checkedAt": "2026-10-13T06:01:26.238544+00:00",
+      "sha256": "1151dff71fb3c4a85fbfea9abb12fda7215b961b38d7690e89ec6c3b739bdae8",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
-      "url": "https://mktwrs.com/course/3ds-shy-guy-bazaar-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-shy-guy-bazaar-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.586094+00:00",
-      "sha256": "ee20e1003107952e2d4d5d7a95960f33ea0348855d0e35576eb2beb31f433b96",
+      "checkedAt": "2026-10-13T06:01:26.237492+00:00",
+      "sha256": "d6bc94a5dfe9b2cbb0ad85128b13368e305d9aa1907424295196a1211258323c",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "singapore-speedway",
-      "url": "https://mktwrs.com/course/singapore-speedway?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/singapore-speedway?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.620588+00:00",
-      "sha256": "7f094dbd7bb59ffee5e46c2d56d7c87a4ede797e870043ad6dadee5c4d6c5fd6",
+      "checkedAt": "2026-10-13T06:01:26.282992+00:00",
+      "sha256": "62383f550b3f7ebb38e0a3152cdefec49a6cd0d5ec503b9008b1ec6135553d16",
       "renderedWrRows": 21,
       "expectedWrRows": 21,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "singapore-speedway-2",
-      "url": "https://mktwrs.com/course/singapore-speedway-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/singapore-speedway-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.604100+00:00",
-      "sha256": "9b6de0de0b04a619a8bb8a53eb9bfe9a44717a5c130f16716d903d80dbdcb2ea",
+      "checkedAt": "2026-10-13T06:01:26.244901+00:00",
+      "sha256": "958d0bc29a56b568179e0366eec6f9b7aef678b448fadb0e65664c364a7e6eae",
       "renderedWrRows": 2,
       "expectedWrRows": 2,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "singapore-speedway-2r",
-      "url": "https://mktwrs.com/course/singapore-speedway-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/singapore-speedway-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.711111+00:00",
-      "sha256": "34a5e1e44ca87ecac7d87da89e9ba7c3a7294bd411ee50025190486673a1ea9b",
+      "checkedAt": "2026-10-13T06:01:26.275617+00:00",
+      "sha256": "713123dba91d68349fd5aee80c018bffdb4fea301d986c47c2aeba93baa74bd0",
       "renderedWrRows": 14,
       "expectedWrRows": 14,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "singapore-speedway-r",
-      "url": "https://mktwrs.com/course/singapore-speedway-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/singapore-speedway-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.627501+00:00",
-      "sha256": "9aa21aff25dd83d9cf8b5ea8615ec8bb50689c12821b7d26ab931ee760188f16",
+      "checkedAt": "2026-10-13T06:01:26.326704+00:00",
+      "sha256": "79f72d429b90d1889d950ee13606117ea795696143172d8c67df7356258ed0b1",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-sky-garden",
-      "url": "https://mktwrs.com/course/gba-sky-garden?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-sky-garden?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.683140+00:00",
-      "sha256": "6c17624875227db45f838b18dddd3fa7d43d648252e4322044da0e55b91691b5",
+      "checkedAt": "2026-10-13T06:01:26.333318+00:00",
+      "sha256": "fe45ea9d8d9bdb69fb9cc67a2ec1a042a86a46f66ab30245c6f0a8be3e6f1a79",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-snow-land",
-      "url": "https://mktwrs.com/course/gba-snow-land?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-snow-land?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.691803+00:00",
-      "sha256": "7f48cd5cd733078d7b191c467b73de61d2bb38473dc4e726626b4a20c1da47b0",
+      "checkedAt": "2026-10-13T06:01:26.341461+00:00",
+      "sha256": "99a7834cf8a395a0101da2d3179e95ce32ad06be4d7e9f7267d863bdbdac8cee",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-snow-land-r",
-      "url": "https://mktwrs.com/course/gba-snow-land-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-snow-land-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.705153+00:00",
-      "sha256": "f10bc297aa1d5267ca85511c57a243a55ae5e92c7a78f42a84a0551d74e121ad",
+      "checkedAt": "2026-10-13T06:01:26.371165+00:00",
+      "sha256": "82653ba1a6f1823561d176a11b27bcb0f8b8619e37777a74924737c07d6dc846",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "squeaky-clean-sprint",
-      "url": "https://mktwrs.com/course/squeaky-clean-sprint?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/squeaky-clean-sprint?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.719831+00:00",
-      "sha256": "0141ee223631caeff7eb58d4782fe4d48cc384d7ad56a8be292ae274a5dab1a6",
+      "checkedAt": "2026-10-13T06:01:26.386846+00:00",
+      "sha256": "d37f816a1e3eed0917d2a3f9a84213161b21c3a5be93580375549f4144757d16",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-sunset-wilds",
-      "url": "https://mktwrs.com/course/gba-sunset-wilds?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-sunset-wilds?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.879378+00:00",
-      "sha256": "58eb8c4ad6aea2824f475723a2d46c38d1e680470be0aae2292efaf4ea3845d6",
+      "checkedAt": "2026-10-13T06:01:26.417937+00:00",
+      "sha256": "6f57beb61147312361078b859ce161e0a434da95aca023d9dfd45ab6a4512b0e",
       "renderedWrRows": 24,
       "expectedWrRows": 24,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gba-sunset-wilds-r",
-      "url": "https://mktwrs.com/course/gba-sunset-wilds-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gba-sunset-wilds-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.899068+00:00",
-      "sha256": "67636646968fa14456f795cfc2892f59a3a983e80e27feb21e4321e696defb83",
+      "checkedAt": "2026-10-13T06:01:26.449284+00:00",
+      "sha256": "8a1061626f766068c5cb4248c2ac6795baeeb149f80f92456780a9b41fe1baee",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "sydney-sprint",
-      "url": "https://mktwrs.com/course/sydney-sprint?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/sydney-sprint?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.970537+00:00",
-      "sha256": "3aceefbe2c21188532e23c290393e731cf5e3885fdd244c038005e9428193fdf",
+      "checkedAt": "2026-10-13T06:01:26.432299+00:00",
+      "sha256": "b3d999aa91f3872c53abbaad08274f1238572e8726687adc49f2933638b4a125",
       "renderedWrRows": 10,
       "expectedWrRows": 10,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-toad-circuit",
-      "url": "https://mktwrs.com/course/3ds-toad-circuit?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-toad-circuit?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.264422+00:00",
-      "sha256": "3c0857147033bac5ebf9a3cee493ca4ab706fa490afb323641ec2bbff78f67f2",
+      "checkedAt": "2026-10-13T06:01:26.489870+00:00",
+      "sha256": "d010a86a2e83f479cb0cbedc8d3e66cf4dc1cf21cb7f9967bf88ca2a7cdd729d",
       "renderedWrRows": 23,
       "expectedWrRows": 23,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-toad-circuit-r",
-      "url": "https://mktwrs.com/course/3ds-toad-circuit-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-toad-circuit-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.092657+00:00",
-      "sha256": "66be1b4af9b5ad8ce54187dda8628286f9637a1e8e18415c9c462efa85572b78",
+      "checkedAt": "2026-10-13T06:01:26.541059+00:00",
+      "sha256": "8d0f6397c883f82990dd6a2ad50cd33f9047bb5c8078f8b5870b89f00238f4ae",
       "renderedWrRows": 11,
       "expectedWrRows": 11,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "tokyo-blur-4",
-      "url": "https://mktwrs.com/course/tokyo-blur-4?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/tokyo-blur-4?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.015079+00:00",
-      "sha256": "b181051efb25aa95f6d1f79ef89875b21fc2385840f1f5d1cfa1e51e30d2fdab",
+      "checkedAt": "2026-10-13T06:01:26.533530+00:00",
+      "sha256": "07f16247bceb0ccc90e11774a3f2e00b6bb3357e5b7a04ae546b6f9a442738c6",
       "renderedWrRows": 13,
       "expectedWrRows": 13,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "tokyo-blur-4r",
-      "url": "https://mktwrs.com/course/tokyo-blur-4r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/tokyo-blur-4r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.048347+00:00",
-      "sha256": "c10bca3866a12e19f04882d2aac4c7725b109fa1fe6f41640a2a39a9f7de749b",
+      "checkedAt": "2026-10-13T06:01:26.603802+00:00",
+      "sha256": "bf3a1a5ce1c4d497334ebff82f227d72b39a3f38f39118a12df842147d2b8407",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "vancouver-velocity-3",
-      "url": "https://mktwrs.com/course/vancouver-velocity-3?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/vancouver-velocity-3?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:45.955458+00:00",
-      "sha256": "ddd1469634d7b2463b4f30d89302063c69edd91a20944b2086da60b0b3ff84f2",
+      "checkedAt": "2026-10-13T06:01:26.550696+00:00",
+      "sha256": "19b091c17b245ec09c2342e56b8d2e5d59e13d18667c5f3e9f3566da75a6188f",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-vanilla-lake-1",
-      "url": "https://mktwrs.com/course/snes-vanilla-lake-1?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-1?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.313537+00:00",
-      "sha256": "323acf5c9519af6f4a47d4b8f0a00bd1c89da23276f074076fa3a01a5ce466f7",
+      "checkedAt": "2026-10-13T06:01:26.627919+00:00",
+      "sha256": "b1b73deb03ed3ffdda17e0fef83b9ed514d1eaa81dd014b03ca6a19b5de31ca8",
       "renderedWrRows": 13,
       "expectedWrRows": 13,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-vanilla-lake-1r",
-      "url": "https://mktwrs.com/course/snes-vanilla-lake-1r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-1r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.273854+00:00",
-      "sha256": "353dc1976b2e6028c69fa50063d1ae0b047037b45278a402f57210459e1c85ed",
+      "checkedAt": "2026-10-13T06:01:26.649108+00:00",
+      "sha256": "819104ad791acfe634ab96dd5146ed2330634788984502cb04c70e9b7846e8ae",
       "renderedWrRows": 7,
       "expectedWrRows": 7,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-vanilla-lake-2",
-      "url": "https://mktwrs.com/course/snes-vanilla-lake-2?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-2?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.287738+00:00",
-      "sha256": "2d77a159bf6bd2ae250d1bafafa52187d72b2a829a588c361982c2dcd05d2008",
+      "checkedAt": "2026-10-13T06:01:26.647967+00:00",
+      "sha256": "37542545ad6242e965a8a1b31d3b70d5dadbd2d36838931396fa447282aabb64",
       "renderedWrRows": 2,
       "expectedWrRows": 2,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "snes-vanilla-lake-2r",
-      "url": "https://mktwrs.com/course/snes-vanilla-lake-2r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-2r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.275789+00:00",
-      "sha256": "fa41abdb5e6c32a0df0e4e278e6ed4c23f5977b3d1c0e24a8fae23d3e01849eb",
+      "checkedAt": "2026-10-13T06:01:26.667740+00:00",
+      "sha256": "ecb15175127a24049ed3e38066e7c1038b9999aee25b039dc82b539a9218a7fd",
       "renderedWrRows": 5,
       "expectedWrRows": 5,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-waluigi-pinball",
-      "url": "https://mktwrs.com/course/ds-waluigi-pinball?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-waluigi-pinball?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.335299+00:00",
-      "sha256": "b1d6b727dd53fe9deb718b5e4e687fabc143ecd355335ba8da20bff232bf72d0",
+      "checkedAt": "2026-10-13T06:01:26.737302+00:00",
+      "sha256": "ed92cd1d8d5d77d59b9da5943fdc9a65a65ceba7838143d45a344a9dac41e938",
       "renderedWrRows": 9,
       "expectedWrRows": 9,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "ds-waluigi-pinball-r",
-      "url": "https://mktwrs.com/course/ds-waluigi-pinball-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/ds-waluigi-pinball-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.350539+00:00",
-      "sha256": "f605b8328ab428ca9ec9f2c7c323ca83c01e0e9f4f5f2b70a333e04bc7248094",
+      "checkedAt": "2026-10-13T06:01:26.681344+00:00",
+      "sha256": "4c9d9066b4cd66588f07a123c3bd52d8eefce6e8865b8daba4860f44c9cdc6a6",
       "renderedWrRows": 6,
       "expectedWrRows": 6,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-wario-shipyard",
-      "url": "https://mktwrs.com/course/3ds-wario-shipyard?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-wario-shipyard?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.356425+00:00",
-      "sha256": "79c512faaab023bde921cdf39ec6db9156e167c517f12dd4403b62921c75d1fd",
+      "checkedAt": "2026-10-13T06:01:26.707102+00:00",
+      "sha256": "245a511025a8fb646eb6191a146933d97d2765f236bde3e1cf9b972b3c410b97",
       "renderedWrRows": 13,
       "expectedWrRows": 13,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "3ds-wario-shipyard-r",
-      "url": "https://mktwrs.com/course/3ds-wario-shipyard-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/3ds-wario-shipyard-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.405445+00:00",
-      "sha256": "0fa19e14385e1a6b721440f58f3b72746223bc12895f1f4cb1ef4c686a913cc7",
+      "checkedAt": "2026-10-13T06:01:26.716110+00:00",
+      "sha256": "106edd1b53968ad468d0b3841983f303c603b375edb84d9c437db56e4d133a5e",
       "renderedWrRows": 8,
       "expectedWrRows": 8,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gcn-yoshi-circuit",
-      "url": "https://mktwrs.com/course/gcn-yoshi-circuit?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gcn-yoshi-circuit?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.440606+00:00",
-      "sha256": "0f32e3ef34fbb7901f6a3298ef9c7aac80552c5e07d75e96021e25b33ed19bf6",
+      "checkedAt": "2026-10-13T06:01:26.785208+00:00",
+      "sha256": "7ccee231f56c69fe419c9f28e6c2f3ab11b37ce16e0a9abb337b8becc7c5fe6f",
       "renderedWrRows": 11,
       "expectedWrRows": 11,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "gcn-yoshi-circuit-r",
-      "url": "https://mktwrs.com/course/gcn-yoshi-circuit-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/gcn-yoshi-circuit-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.397046+00:00",
-      "sha256": "70ab849db185b5ce41af65f726e1c50fa7738906c98c799bf9d180c16177a287",
+      "checkedAt": "2026-10-13T06:01:26.754952+00:00",
+      "sha256": "ff09913935deea6a6bc69b9375c848ca783d8fbeae556645ab30da8343630d33",
       "renderedWrRows": 1,
       "expectedWrRows": 1,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-yoshi-valley",
-      "url": "https://mktwrs.com/course/n64-yoshi-valley?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-yoshi-valley?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.413332+00:00",
-      "sha256": "4c3fb8308721e57e4f8ab64d521ebf174e4ac573f244bce19f4a32182f1aec3a",
+      "checkedAt": "2026-10-13T06:01:26.744327+00:00",
+      "sha256": "4eca469f8282356124be8105bea7162ff23bf05c23c912ce0a7f486ecc49edbf",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
     },
     {
       "courseId": "n64-yoshi-valley-r",
-      "url": "https://mktwrs.com/course/n64-yoshi-valley-r?tour-audit=939ebf38",
+      "url": "https://mktwrs.com/course/n64-yoshi-valley-r?tour-audit=31290f90",
       "httpStatus": 200,
-      "checkedAt": "2026-10-13T05:35:46.442723+00:00",
-      "sha256": "8ea445d15bf4b3d09066c66dae3dbe49c1ca45cceb54d36bcebc51b82e6fd187",
+      "checkedAt": "2026-10-13T06:01:26.762483+00:00",
+      "sha256": "7f3b3856121c0f4a201fb018b41a2df572eb281e5486dc8154359b1af52e0904",
       "renderedWrRows": 4,
       "expectedWrRows": 4,
       "matchesPublishedSnapshot": true
