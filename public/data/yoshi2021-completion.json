@@ -2,8 +2,8 @@
   "tourId": "tour-40",
   "tour": "Yoshi Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-03-24T06:00:00Z",
@@ -33,7 +33,15 @@
     "archive/april2021-three-original-recording-share-reconciliation-20261010.json",
     "archive/yoshi2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/yoshi2021-selected-recording-r2-preservation-20261012.json",
-    "archive/yoshi2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/yoshi2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/yoshi2021-final-publication-audit-20261013.json",
+    "archive/yoshi2021-practical-source-coverage-disposition-20261013.json",
+    "archive/yoshi2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/yoshi2021-additional-recordings-r2-preservation-20261013.json",
+    "archive/yoshi2021-nhspeedy-two-cup-results-fresh-visible-review-20261013.json",
+    "archive/yoshi2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/yoshi2021-image-source-publication-crosswalk-20261013.json",
+    "archive/yoshi2021-opening-day-policy-generation-check-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/yoshi-2021-reconciliation.json",
@@ -47,35 +55,45 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 192
+    "priorProofImageUrlsPassed": 192,
+    "priorProofImageCheckDate": "2026-10-12",
+    "completedRunRecordingsPreservedOnR2": 10,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 8,
+    "partialClipsPreservedOnR2": 6,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 206,
+    "discussionImageHashesVerified": 206,
+    "discussionMessagesIndexed": 969
   },
   "remainingLimitations": [
-    "Tokyo Blur4R0:46.47 shared WR Nu11/Tomegome; faster original video reference unavailable; Tomegome0:46.51 recording preserved.",
-    "Waluigi Pinball Nu111:46.21 original video unavailable; saki71:46.40 preserved as supporting footage, no WR promotion.",
-    "Original saki7 screenshot-post clock differs from later Twitter video publication; no video URL observed in screenshot post.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+    "Full server message coverage is not established by the image index or keyword searches.",
+    "Several early Pinball tour-leading claims are slower than the older announced all-time record; discrepancy remains unresolved.",
+    "Deleted-account 47.39 attribution remains unknown.",
+    "Previous-best fields expose additional intermediate runs whose original dates remain unresolved.",
+    "Tomegome 46.74 is a delayed repost; an exact original timestamp remains unavailable.",
+    "Nu11 Pinball 1:46.21 YouTube upload is unavailable in the signed-in browser.",
+    "Twitter 46.47 image tweet is not video proof and Nu11 footage must not be assigned to Tomegome.",
+    "Final Tokyo0:46.47 and Waluigi1:46.21 original videos unavailable; selected footage0:46.51 and1:46.40 separate.",
+    "Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.",
+    "Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.",
+    "Prior gameplay/finish reviews retained. Upload/publication day used for tour scope when original source clock absent; no race instant inferred.",
+    "Six route fragments remain separate from completed race proof.",
+    "Eight additional completed recordings retained with prior reviews; six short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 898,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      70,
-      58
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "tokyo-blur-4r",
-        "reviewedRows": 117,
-        "differences": 0
-      },
-      {
-        "courseId": "ds-waluigi-pinball",
-        "reviewedRows": 105,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 340,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 147,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-41"
+  "nextTourId": "tour-41",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/yoshi2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/yoshi2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "8df0d558d18061e271501e7f2ae93c9131b43a66"
 }

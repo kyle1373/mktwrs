@@ -4,13 +4,13 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 rendered WR counts match the prior publication check. Counts and investigation leads below use freshly fetched live data. The isolated source baseline includes unpublished Mario vs. Luigi evidence, so its data comparisons are reported separately in the JSON.
 
-Practical reviews are complete for Halloween 2019 through Mario 2021 (37 tours), with documented gaps. Yoshi 2021 is the next detailed review. 144 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Yoshi 2021 (38 tours), with documented gaps. Ninja 2021 is the next detailed review. 143 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
 | 2020 | 27 | 27 | 0 | 0 |
-| 2021 | 26 | 5 | 21 | 0 |
+| 2021 | 26 | 6 | 20 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
 | 2024 | 26 | 0 | 26 | 0 |
@@ -551,19 +551,9 @@ Source and publication review.
 
 ### 40. Yoshi Tour (2021) — 2021-03-24 to 2021-04-07
 
-Source and publication review.
+Completed with documented gaps.
 
-**[Tokyo Blur 4R](https://mktwrs.com/course/tokyo-blur-4r)**: 12 WR rows; 155 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 12 linked-video rows; 0 remote-only Discord WR images.
-
-**[DS Waluigi Pinball](https://mktwrs.com/course/ds-waluigi-pinball)**: 9 WR rows; 96 supporting rows; 0 pending candidates; carry-in 1:47.31.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
+[Completion evidence](https://mktwrs.com/data/yoshi2021-completion.json). 969 preserved messages and 206 image dispositions checked; two selected recordings freshly sampled, ten completed recordings and six route clips preserved on R2. Final faster WR videos remain unavailable; exact race dates and global source completeness remain qualified.
 
 ### 41. Ninja Tour (2021) — 2021-04-07 to 2021-04-21
 
