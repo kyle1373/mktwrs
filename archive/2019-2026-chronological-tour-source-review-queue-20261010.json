@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 50,
+    "practicallyCompletedTours": 51,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -3596,7 +3596,7 @@
       "endDate": "2021-10-06",
       "tourSource": "https://www.mariowiki.com/2nd_Anniversary_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "berlin-byways-2",
@@ -3618,7 +3618,8 @@
             "archive/second-anniversary-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/anniversary2021-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "sydney-sprint",
@@ -3641,16 +3642,18 @@
             "archive/second-anniversary-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/anniversary2021-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/anniversary2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/anniversary2021-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/anniversary2021-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-54",
@@ -11823,9 +11826,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/sydneysep2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-53",
+  "latestLivePublicationVerification": "archive/anniversary2021-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-54",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-53"
+  "activeDetailedTourId": "tour-54"
 }

@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-50 tours have completed practical reviews with documented gaps; 131 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Sydney September 2021. Anniversary 2021 is the next detailed review. These counts do not certify exhaustive history.
+51 tours have completed practical reviews with documented gaps; 130 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through 2nd Anniversary 2021. Autumn 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 18 | 8 | 0 |
+| 2021 | 19 | 7 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -708,17 +708,9 @@ Completed with documented gaps.
 
 ### 53. 2nd Anniversary Tour (2021) — 2021-09-22 to 2021-10-06
 
-Source and publication review.
+Completed with documented gaps.
 
-**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 14 WR rows; 86 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[Sydney Sprint](https://mktwrs.com/course/sydney-sprint)**: 14 WR rows; 104 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/anniversary2021-completion.json). 478 preserved discussion messages indexed in the exact playable window, four monthly-manifest image dispositions and thirteen broader image-search reviews retained. 153 in-window submission image hashes plus two late Kaguya originals checked. Ten full recordings and three partial technique clips preserved on R2; two selected originals freshly hashed and decoded. Prior visual assessments retained. Late-result chronology, previous-best dates and worldwide coverage remain qualified.
 
 ### 54. Autumn Tour (2021) — 2021-10-06 to 2021-10-20
 

@@ -1,0 +1,120 @@
+{
+  "tourId": "tour-53",
+  "tour": "2nd Anniversary Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-09-22T06:00:00Z",
+    "endExclusive": "2021-10-06T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "berlin-byways-2",
+      "archivedWr": "1:23.38",
+      "fastestDocumentedAvailableRecording": "1:23.38",
+      "recordingPlayerId": "astre"
+    },
+    {
+      "id": "sydney-sprint",
+      "archivedWr": "1:29.10",
+      "fastestDocumentedAvailableRecording": "1:29.10",
+      "recordingPlayerId": "nhspeedy"
+    }
+  ],
+  "evidence": [
+    "archive/anniversary2021-original-results-practical-review-20261012.json",
+    "archive/second-anniversary-2021-reconciliation.json",
+    "archive/anniversary2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/anniversary2021-selected-recording-r2-preservation-20261012.json",
+    "archive/anniversary2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/anniversary2021-final-publication-audit-20261013.json",
+    "archive/anniversary2021-practical-source-coverage-disposition-20261013.json",
+    "archive/anniversary2021-selected-recording-hash-decode-and-access-review-20261013.json",
+    "archive/anniversary2021-required-publication-manifest-build-check-20261013.json",
+    "archive/anniversary2021-selected-recording-sampled-visual-check-20261013.json",
+    "archive/anniversary2021-all-available-recordings-r2-preservation-20261013.json",
+    "archive/anniversary2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/anniversary2021-image-source-publication-crosswalk-20261013.json",
+    "archive/anniversary2021-opening-day-policy-generation-check-20261013.json",
+    "archive/anniversary2021-submission-source-file-and-publication-crosswalk-20261013.json",
+    "archive/anniversary2021-preserved-video-clock-reconciliation-20261013.json",
+    "archive/anniversary2021-broader-discussion-images-and-late-results-20261013.json",
+    "archive/anniversary2021-preserved-publication-generation-reconciliation-20261013.json",
+    "archive/anniversary2021-isolated-regeneration-fidelity-check-20261013.json",
+    "archive/anniversary2021-all-recording-access-recheck-20261013.json",
+    "archive/anniversary2021-ten-original-video-upload-clocks-20261013.json",
+    "archive/anniversary2021-canonical-extra-submission-snapshot-reconciliation-20261013.json",
+    "archive/anniversary2021-docker-publication-patch-inclusion-fix-20261013.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/second-anniversary-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 155,
+      "capturedSubmissionMessagesRead": 160,
+      "discussionContinuousWindowsRead": 57,
+      "discussionUniqueMessagesRead": 870,
+      "discussionMessagesWithinUTCDateWindow": 856,
+      "discussionSearchReportedMessages": 852,
+      "attachedTechniqueClipsDownloadedAndReviewed": 3,
+      "discussionImageSearchResults": 13,
+      "discussionImagesVisuallyReviewed": 13,
+      "fullOriginalVideosDownloaded": 10,
+      "originalVideosCourseLapAndFinishVisuallyChecked": 10
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "priorProofImageUrlsPassed": 33,
+    "priorProofImageCheckDate": "2026-10-12",
+    "duplicateOriginalRecordingFilesPreservedOnR2": 0,
+    "completedRunRecordingsPreservedOnR2": 10,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 8,
+    "partialClipsPreservedOnR2": 3,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 4,
+    "discussionImageHashesVerified": 4,
+    "discussionMessagesIndexed": 478
+  },
+  "remainingLimitations": [
+    "Kaguya 1:23.54 and 1:29.72 images were found in submissions at 07:28 UTC October 6, after reset. Earlier discussion and final boards corroborate the results, but original run/publication chronology is unresolved; no WR tie is inferred.",
+    "Submission index 522 is a leaderboard screenshot listing Astre, not a new run by the sender.",
+    "Late previous-tour Yoshi Circuit and RMX Vanilla Lake 1R submissions are not results on the two current-tour tracks.",
+    "LaLanterne 1:25.70 was called a WR in its message but is slower than an earlier Berlin 1:24.40 submission and is excluded.",
+    "Romain 1:23.64 and Sucha 1:23.55/1:23.58 recordings are personal best evidence; they did not beat the already-published WR.",
+    "Sucha wrote lap one 42.70 beside the 1:23.55 video; the recording visibly shows 41.70. Preserve the actual lap, not the message typo.",
+    "Nearby Romain 41.75/41.74 = 1:23.49 refers to combined best segments, not one completed run.",
+    "Previous-best fields alone are not assigned the later screenshot date as a race date.",
+    "All three attached technique clips were recovered through their visible Discord download links after direct downloads returned HTTP 403. They show partial course segments, not completed two-lap results. One MOV was found through the full census despite not appearing in has:video search.",
+    "Search reported 852 messages; continuous channel windows contain 856 unique messages within the UTC search-date range, plus 14 surrounding messages. Raw IDs are retained to document the discrepancy.",
+    "October 5 recollection of Donut Plains 1 times is a historical lead, not new dated race evidence. Historical Kalimari Desert 2 and Sunset Wilds R video links already have preservation copies.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Unmatched slower original submissions retained in raw archive; prior-tour and leaderboard sources remain separately attributed.",
+    "Prior four exact-window monthly-manifest discussion-image dispositions retained; not a fresh visual pass.",
+    "Discord now asks the saved accounts to log in again; fresh source access unavailable. Recovered original clips and prior source context remain preserved.",
+    "Prior lap, route and full-race assessments retained; fresh hashes and public access verified.",
+    "No claim that unavailable streams or worldwide recordings were exhausted.",
+    "Three partial technique clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+  ],
+  "validation": {
+    "liveSnapshotRows": 423,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 37,
+    "freshSelectedRecordingReviews": 0,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeAndAccessChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
+  },
+  "nextTourId": "tour-54",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/anniversary2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/anniversary2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "b5ed8061ba2c51ab57a89c9e1ea57590037ead31"
+}
