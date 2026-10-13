@@ -1,0 +1,88 @@
+{
+  "tourId": "tour-80",
+  "tour": "Battle Tour (2022)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
+  "window": {
+    "start": "2022-10-05T06:00:00Z",
+    "endExclusive": "2022-10-19T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-donut-plains-1r",
+      "archivedWr": "0:49.15",
+      "wrPlayerId": "hilton",
+      "fastestDocumentedAvailableRecording": "0:49.31",
+      "recordingPlayerId": "nu11",
+      "finalWrFootageRecovered": false,
+      "finalWrSubmittedAt": "2022-10-16T13:28:06.760Z",
+      "recordingResultSubmittedAt": "2022-10-14T16:42:26.559Z",
+      "videoPublishedAt": "2022-10-14T16:47:48Z",
+      "videoSharedAt": "2022-10-14T16:48:40.556Z",
+      "priorLapAndFinishVideoReviewRetained": true,
+      "freshVisualReview": false,
+      "openingTimedSubmissionRecovered": false
+    },
+    {
+      "id": "snes-donut-plains-2",
+      "archivedWr": "1:00.61",
+      "wrPlayerId": "nu11",
+      "fastestDocumentedAvailableRecording": "1:00.61",
+      "recordingPlayerId": "nu11",
+      "resultSubmittedAt": "2022-10-11T13:20:09.815Z",
+      "videoPublishedAt": "2022-10-19T13:18:27Z",
+      "freshFinishReview": true,
+      "openingTimedSubmissionRecovered": false
+    }
+  ],
+  "coverage": {
+    "preservedImageReferencesHashChecked": 80,
+    "hashFailures": 0,
+    "newRecordingsPreservedOnR2": 2,
+    "newPublicR2VideoAndFrameObjectsByteVerified": 4,
+    "proofLinksRepaired": 55,
+    "generatedReviewedRowsCompared": 146,
+    "materialFieldDifferences": 0
+  },
+  "validation": {
+    "renderedSupportingEntries": {
+      "snes-donut-plains-1r": 78,
+      "snes-donut-plains-2": 46
+    },
+    "renderedPreservedEvidenceLinksReadable": 74,
+    "wrProofImagesReadable": 6,
+    "failedLinks": 0,
+    "productionBuildPages": 891,
+    "focusedVideoAndOpeningTestsPassed": 14,
+    "completionLabelLiveVerified": false
+  },
+  "remainingLimitations": [
+    "Hilton0:49.15 final WR has screenshot and original-command proof; no final footage recovered. Nu110:49.31 available recording shown separately.",
+    "Nu110:49.31 prior sampled original-video lap/finish review retained. Full decode and byte checks do not certify uninterrupted continuity.",
+    "DP2 fresh70sframe reads1:00.61. Video publicationOctober19 13:18 follows06UTCtourrollover; screenshotOctober11 supplies prior result evidence. Local device date is not exact UTC achievement.",
+    "Cancelled4964, undated previous4957/4921/10071 and malformed input histories remain qualified. No invented predecessor or achievement dates.",
+    "Complete worldwide and intermediate chronology, missing source coverage and fastest-recording exhaustiveness remain unproved.",
+    "No timed opening-day submissions recovered for either course; no opening records or exact dates invented.",
+    "Closing adjacentOctober19 N image1:55.27 versus reportedPB1:00.62 occurs aftertour06UTCrollover; not added to Battle supporting results."
+  ],
+  "evidence": [
+    "archive/battle2022-final-practical-publication-audit-20261013.json",
+    "archive/battle2022-practical-source-disposition-index-20261013.json",
+    "archive/battle2022-two-recordings-r2-and-publication-clock-reconciliation-20261013.json",
+    "archive/battle2022-supporting-history-build-check-20261013.json",
+    "archive/battle2022-preserved-proof-and-video-build-link-audit-20261013.json",
+    "archive/battle2022-wr-proofs-and-opening-publication-check-20261013.json",
+    "archive/battle2022-final-hours-proof-link-reconciliation-20261013.json",
+    "archive/battle2022-original-preservation-source-reconciliation-20261008.json",
+    "archive/battle2022-closing-original-hash-reconciliation-20261013.json",
+    "archive/battle2022-nu114931-original-video-reconciliation-20261008.json",
+    "archive/battle2022-generated-publication-fidelity-repair-20261013.json",
+    "archive/battle2022-nu11-recording-share-clock-publication-20261013.json"
+  ],
+  "nextTourId": "tour-81",
+  "sourceCommit": "8742ecdb3f47d5ea9824dbcf54535fd5883ddc83"
+}

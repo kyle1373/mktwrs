@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "One tour at a time. Anniversary practical closure verified live; next active review is Battle Tour (2022), tour80.",
+    "One tour at a time. Battle practical review closed with documented gaps; verify live closure before tour81.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 77,
+      "completed-with-documented-gaps": 78,
       "source-and-publication-review": 36,
       "sparse-history-review": 1,
-      "carry-in-and-sparse-history-check": 21,
+      "carry-in-and-sparse-history-check": 20,
       "candidate-and-source-review": 38,
       "data-quality-and-history-check": 0,
       "faster-result-reconciliation": 4,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 77,
-    "toursRequiringInvestigation": 104,
+    "practicallyCompletedTours": 78,
+    "toursRequiringInvestigation": 103,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 7,
+        "requiringInvestigation": 6,
         "categories": {
           "source-and-publication-review": 0,
-          "carry-in-and-sparse-history-check": 1,
+          "carry-in-and-sparse-history-check": 0,
           "candidate-and-source-review": 4,
           "data-quality-and-history-check": 0,
           "faster-result-reconciliation": 1,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 19
+          "completed-with-documented-gaps": 20
         }
       },
       "2023": {
@@ -3876,8 +3876,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task. Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3897,13 +3896,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task. Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/battle2022-completion.json"
     },
     {
       "id": "tour-81",
@@ -11177,5 +11177,5 @@
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
   "activeDetailedReview": "tour-77",
-  "latestCompletionAudit": "archive/anniversary2022-final-practical-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/battle2022-final-practical-publication-audit-20261013.json"
 }
