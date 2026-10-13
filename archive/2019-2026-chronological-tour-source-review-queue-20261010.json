@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 9,
+    "practicallyCompletedTours": 10,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -921,7 +921,7 @@
       "endDate": "2020-03-11",
       "tourSource": "https://www.mariowiki.com/Mario_Bros._Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "snes-ghost-valley-1",
@@ -945,7 +945,8 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/mariobros2020-two-final-images-and-source-crosswalk-20261013.json"
         },
         {
           "courseId": "snes-rainbow-road-r",
@@ -967,17 +968,19 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/mariobros2020-two-final-images-and-source-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/mariobros2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/mariobros2020-completion.json",
+      "practicallyComplete": true,
       "livePublicationEvidence": "archive/mariobros2020-live-publication-verification-20261012.json",
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "sparse-history-review"
+      "investigationCategory": "sparse-history-review",
+      "latestPublicationAudit": "archive/mariobros2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-13",
@@ -11700,9 +11703,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/vancouver2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-12",
+  "latestLivePublicationVerification": "archive/mariobros2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-13",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-12"
+  "activeDetailedTourId": "tour-13"
 }

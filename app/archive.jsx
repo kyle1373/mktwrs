@@ -671,7 +671,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
         <p>These clips show lap-one footage and the beginning of lap two. No completed race total is shown.</p>
         {c.vancouverPartialClips.map(clip => <p key={clip.originalUrl}>{clip.player}{clip.firstLap ? ` · First lap ${clip.firstLap}` : ""} · <a href={clip.originalUrl} target="_blank" rel="noopener noreferrer">Original clip</a> · <a href={clip.preservedUrl} target="_blank" rel="noopener noreferrer">Preserved clip</a><br />Original publication: {clip.originalPublishedAt} · Achievement time unknown</p>)}
       </section>}
-      <HalloweenRecording comparison={c.mariobros2020Recording} players={players} tourLabel="Mario Bros. Tour (2020)" />
+      <HalloweenRecording comparison={c.mariobros2020Recording} players={players} tourLabel="Mario Bros. Tour (2020)" completed={c.mariobros2020Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.mariobrosSupportingResults} players={players} tourLabel="Mario Bros. Tour (2020)" />
       <HalloweenRecording comparison={c.babyrosalina2020Recording} players={players} tourLabel="Baby Rosalina Tour (2020)" />
       <ParisSupportingResults results={c.babyrosalinaSupportingResults} players={players} tourLabel="Baby Rosalina Tour (2020)" />

@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 9,
+      "completed-with-documented-gaps": 10,
       "source-and-publication-review": 83,
-      "sparse-history-review": 4,
+      "sparse-history-review": 3,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 9,
-    "toursRequiringInvestigation": 172,
+    "practicallyCompletedTours": 10,
+    "toursRequiringInvestigation": 171,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -54,7 +54,7 @@
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 23
+        "requiringInvestigation": 22
       },
       "2021": {
         "catalogTours": 26,
@@ -554,10 +554,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -572,13 +569,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/mariobros2020-completion.json",
+      "note": "Practical review complete with documented source coverage and opening-order gaps;362 live rows and162 preserved evidence links verified."
     },
     {
       "id": "tour-13",
@@ -11112,5 +11110,5 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-12"
+  "activeDetailedTourId": "tour-13"
 }
