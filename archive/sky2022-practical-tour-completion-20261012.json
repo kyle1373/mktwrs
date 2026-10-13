@@ -1,0 +1,68 @@
+{
+  "tourId": "tour-64",
+  "tour": "Sky Tour",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-12",
+  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2022-02-23T06:00:00Z",
+    "endExclusive": "2022-03-09T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "rmx-ghost-valley-1r",
+      "archivedWr": "1:01.50",
+      "fastestDocumentedAvailableRecording": "1:01.50",
+      "recordingPlayerId": "spartacurt"
+    }
+  ],
+  "evidence": [
+    "archive/sky2022-original-results-practical-review-20261012.json",
+    "archive/sky-2022-reconciliation.json",
+    "archive/sky2022-selected-recording-clocks-and-scope-20261012.json",
+    "archive/sky2022-selected-recording-r2-preservation-20261012.json",
+    "archive/sky2022-r2-proof-and-video-link-check-20261012.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/sky-2022-reconciliation.json",
+    "coverage": {
+      "freshSubmissionWindows": 11,
+      "freshMessagesIncludingBoundaryOverlap": 180,
+      "discussionMessagesIncludingBoundaryOverlap": 310,
+      "fullRaceVideosPreserved": 5,
+      "techniqueClipsPreserved": 1,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 1,
+    "proofImageUrlsPassed": 16
+  },
+  "remainingLimitations": [
+    "Previous-best displays do not establish original record dates or competing-record order. Five such leads remain outside confirmed progression.",
+    "LaLanterne’s 1:01.47 and GOTEN’s 1:00.80 were explicitly withdrawn as input errors; neither is counted as a WR. Their original attachments remain unavailable.",
+    "An Astre attachment is unavailable; its surviving bot entry is slower than the contemporary WR.",
+    "The 16-second Wins technique clip and hypothetical best splits do not establish a completed overall run.",
+    "Contemporaneous discussion reports loss of old WR channels. This review cannot establish exhaustive recovery of deleted sources or all years.",
+    "Selected final original preserved on R2; prior footage review retained without fresh uninterrupted certification.",
+    "Original video-share exact clock unresolved; correction acknowledgement is not a video-share timestamp."
+  ],
+  "validation": {
+    "productionBuildPages": 894,
+    "recordingComparisonRenderChecks": 1,
+    "documentedResultsRows": [
+      92
+    ],
+    "videoRangeChecksPassed": 1,
+    "generationFidelity": [
+      {
+        "courseId": "rmx-ghost-valley-1r",
+        "reviewedRows": 125,
+        "differences": 0
+      }
+    ]
+  },
+  "nextTourId": "tour-65"
+}
