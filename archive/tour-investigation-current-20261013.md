@@ -9,7 +9,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 4 | 22 | 0 |
+| 2022 | 5 | 21 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -758,19 +758,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sk
 
 ### 65. Mii Tour (2022) — 2022-03-09 to 2022-03-23
 
-Carry in and sparse history check.
-
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 1 WR rows; 26 supporting results; 0 pending candidates; carried-in WR 1:04.30.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Rainbow Road 1](https://mktwrs.com/course/rmx-rainbow-road-1)**: 2 WR rows; 60 supporting results; 0 pending candidates; carried-in WR 1:18.95.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/mii2022-completion.json). 180 submission messages, 98 original-file hashes and 139 exact-window discussion messages reconciled. Two race recordings and two result/technique clips preserved on R2. 557 live course rows match; 183 rendered R2 evidence links readable. Hilton1:04.30 tie is separate from Kazuo earlier footage; Nu11 upload March21 is separate from submission March23. Previous-best ordering and unavailable cancelled attachments retain documented limitations.
 
 ### 66. Samurai Tour (2022) — 2022-03-23 to 2022-04-06
 

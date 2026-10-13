@@ -2,7 +2,7 @@
 
 Reviewed all **183 catalog tours**, **381 course appearances**, and **142 live course pages** against committed publication output `8068ad57`. All pages and downloadable data returned HTTP 200. All 142 displayed WR counts match the publication output. Live completion flags match committed flags: **true**.
 
-**119 tours remain open**, starting with Mii 2022. **62 practical reviews are closed with documented gaps**, ending with Sky 2022 (23 February–9 March 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
+**118 tours remain open**, starting with Samurai 2022. **63 practical reviews are closed with documented gaps**, ending with Mii 2022 (9–23 March 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
 
 The catalogue ends on 30 September 2026; 30 September–13 October remains uncatalogued and needs review. Future results through December 2026 cannot yet be archived.
 
@@ -13,7 +13,7 @@ The catalogue ends on 30 September 2026; 30 September–13 October remains uncat
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 4 | 22 | 0 |
+| 2022 | 5 | 21 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -959,19 +959,7 @@ Before time trials.
 
 ### 65. Mii Tour (2022) — 2022-03-09 to 2022-03-23
 
-**Open:** carry in and sparse history check.
-
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)** — 1 attributed WR rows, 26 supporting results, 0 candidates, 0 linked-video rows.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Rainbow Road 1](https://mktwrs.com/course/rmx-rainbow-road-1)** — 2 attributed WR rows, 60 supporting results, 0 candidates, 5 linked-video rows.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/mii2022-completion.json). 180 submission messages, 98 original-file hashes and 139 exact-window discussion messages reconciled. Two race recordings and two result/technique clips preserved on R2. 557 live course rows match; 183 rendered R2 evidence links readable. Hilton1:04.30 tie is separate from Kazuo earlier footage; Nu11 upload March21 is separate from submission March23. Previous-best ordering and unavailable cancelled attachments retain documented limitations.
 
 ### 66. Samurai Tour (2022) — 2022-03-23 to 2022-04-06
 
