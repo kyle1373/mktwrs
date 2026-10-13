@@ -3,7 +3,7 @@
   "sourceCommit": "496b5e731afb7dc00a91f7e2f16435ab1ea53ab1",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-65",
+  "activeDetailedReview": "tour-66",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 62,
+      "completed-with-documented-gaps": 63,
       "source-and-publication-review": 22,
-      "carry-in-and-sparse-history-check": 61,
+      "carry-in-and-sparse-history-check": 60,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 29,
       "sparse-history-review": 1,
@@ -62,9 +62,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 4,
+        "practicallyCompleted": 5,
         "notApplicable": 0,
-        "open": 22
+        "open": 21
       },
       "2023": {
         "catalogTours": 26,
@@ -91,7 +91,7 @@
         "open": 19
       }
     },
-    "openTours": 119,
+    "openTours": 118,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 32,
       "wrRowsWithUnresolvedDateOrOrder": 11,
@@ -6837,9 +6837,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-kalimari-desert-2r",
@@ -6884,9 +6882,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-rainbow-road-1",
@@ -6909,8 +6905,18 @@
           "oneDayTourRangeDiscrepancies": []
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/mii2022-completion.json",
+      "documentedLimitations": [
+        "Nu111:18.84 previous best establishes an earlier result but has no independently established date/global position; retained outside confirmed WR succession.",
+        "Opening posts that label slower times WR do not override the standing all-time records. Opening global order and deleted/unindexed sources remain unproved.",
+        "Two cancelled attachments unavailable: Starin slower RMX1:19.71 and off-roster Wario Shipyard1:38.31; surviving source dispositions retained.",
+        "Hilton1:04.30 ties Kazuo May2021. Hilton1:04.45 menu clip is result-only; Kazuo earlier1:04.30 footage supplies the separately credited recording.",
+        "Prior image/video visual dispositions reused with source/hash checks. One Nu11 recording freshly sampled and decoded; no fresh every-frame uninterrupted playback or worldwide fastest-recording certification.",
+        "Current Discord account chooser requests login again; preserved source messages reviewed, no fresh authenticated recovery claimed.",
+        "Nu11 video upload March21 and Discord submission March23 are distinct; exact race-completion instant and original discussion share clock remain unknown."
+      ]
     },
     {
       "id": "tour-66",
@@ -19811,5 +19817,6 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/sky2022-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/mii2022-final-publication-audit-20261013.json",
+  "activeDetailedTourId": "tour-66"
 }

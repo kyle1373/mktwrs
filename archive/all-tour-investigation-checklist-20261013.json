@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 62,
+      "completed-with-documented-gaps": 63,
       "source-and-publication-review": 39,
       "sparse-history-review": 1,
-      "carry-in-and-sparse-history-check": 24,
+      "carry-in-and-sparse-history-check": 23,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 62,
-    "toursRequiringInvestigation": 119,
+    "practicallyCompletedTours": 63,
+    "toursRequiringInvestigation": 118,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 22,
+        "requiringInvestigation": 21,
         "categories": {
           "source-and-publication-review": 3,
-          "carry-in-and-sparse-history-check": 4,
+          "carry-in-and-sparse-history-check": 3,
           "candidate-and-source-review": 11,
           "data-quality-and-history-check": 1,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 4
+          "completed-with-documented-gaps": 5
         }
       },
       "2023": {
@@ -3073,9 +3073,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3095,13 +3093,22 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "https://mktwrs.com/data/mii2022-completion.json",
+      "documentedLimitations": [
+        "Nu111:18.84 previous best establishes an earlier result but has no independently established date/global position; retained outside confirmed WR succession.",
+        "Opening posts that label slower times WR do not override the standing all-time records. Opening global order and deleted/unindexed sources remain unproved.",
+        "Two cancelled attachments unavailable: Starin slower RMX1:19.71 and off-roster Wario Shipyard1:38.31; surviving source dispositions retained.",
+        "Hilton1:04.30 ties Kazuo May2021. Hilton1:04.45 menu clip is result-only; Kazuo earlier1:04.30 footage supplies the separately credited recording.",
+        "Prior image/video visual dispositions reused with source/hash checks. One Nu11 recording freshly sampled and decoded; no fresh every-frame uninterrupted playback or worldwide fastest-recording certification.",
+        "Current Discord account chooser requests login again; preserved source messages reviewed, no fresh authenticated recovery claimed.",
+        "Nu11 video upload March21 and Discord submission March23 are distinct; exact race-completion instant and original discussion share clock remain unknown."
+      ]
     },
     {
       "id": "tour-66",
@@ -11123,7 +11130,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-65",
+  "activeDetailedTourId": "tour-66",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11133,5 +11140,7 @@
     ],
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
-  }
+  },
+  "activeDetailedReview": "tour-66",
+  "latestCompletionAudit": "archive/mii2022-final-publication-audit-20261013.json"
 }
