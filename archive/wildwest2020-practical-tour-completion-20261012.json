@@ -2,8 +2,8 @@
   "tourId": "tour-23",
   "tour": "Wild West Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-07-29T06:00:00Z",
@@ -30,7 +30,17 @@
     "archive/wild-west-2020-reconciliation.json",
     "archive/wildwest2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/wildwest2020-selected-recording-r2-preservation-20261012.json",
-    "archive/wildwest2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/wildwest2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/wildwest2020-final-publication-audit-20261013.json",
+    "archive/wildwest2020-practical-source-coverage-disposition-20261013.json",
+    "archive/wildwest2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/wildwest2020-nu11-shortcut-r2-preservation-20261013.json",
+    "archive/wildwest2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/wildwest2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/wildwest2020-six-additional-completed-originals-r2-preservation-20261013.json",
+    "archive/wildwest2020-two-final-result-image-integrity-review-20261013.json",
+    "archive/wildwest2020-bowser-opening-day-policy-generation-check-20261013.json",
+    "archive/wildwest2020-donut-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/wildwest2020-discussion-review-progress.json",
@@ -40,34 +50,32 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 50
+    "proofImageUrlsPassed": 50,
+    "additionalCompletedRecordingsPreservedOnR2": 6,
+    "partialClipsPreservedOnR2": 1,
+    "discussionImageDispositions": 387,
+    "discussionImageHashesVerified": 387
   },
   "remainingLimitations": [
-    "SuperFX 1:19.65 Bowser Castle 2 and Nu11 0:49.69 Donut Plains 1R final WR recordings not recovered; slower completed recordings retained.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Final Bowser Castle 2 1:19.65 and Donut Plains 1R 0:49.69 WR recordings unavailable; completed 1:20.48 and 0:50.67 footage shown separately. Nu11 shortcut clip is partial.",
+    "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
+    "387 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
+    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      4,
-      5
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "gba-bowser-s-castle-2",
-        "reviewedRows": 42,
-        "differences": 0
-      },
-      {
-        "courseId": "snes-donut-plains-1r",
-        "reviewedRows": 73,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 420,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 43,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesIntegrityVerified": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-24"
+  "nextTourId": "tour-24",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/wildwest2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/wildwest2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "bc5f75ea6bd5c89350278209a5e1d1c65bcdbd6c"
 }
