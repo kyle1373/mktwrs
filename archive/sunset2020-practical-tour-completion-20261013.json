@@ -1,0 +1,80 @@
+{
+  "tourId": "tour-30",
+  "tour": "Sunset Tour (2020)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2020-11-04T06:00:00Z",
+    "endExclusive": "2020-11-18T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "3ds-neo-bowser-city",
+      "archivedWr": "1:24.70",
+      "fastestDocumentedAvailableRecording": "1:24.70",
+      "recordingPlayerId": "kazuo"
+    },
+    {
+      "id": "n64-royal-raceway",
+      "archivedWr": "1:33.97",
+      "fastestDocumentedAvailableRecording": null,
+      "recordingPlayerId": null
+    }
+  ],
+  "evidence": [
+    "archive/sunset2020-original-results-practical-review-20261012.json",
+    "archive/sunset-2020-reconciliation.json",
+    "archive/sunset2020-video-preservation.json",
+    "archive/sunset2020-selected-recording-clocks-and-scope-20261012.json",
+    "archive/sunset2020-selected-recording-r2-preservation-20261012.json",
+    "archive/sunset2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/sunset2020-final-publication-audit-20261013.json",
+    "archive/sunset2020-practical-source-coverage-disposition-20261013.json",
+    "archive/sunset2020-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/sunset2020-external-reference-and-chronology-disposition-20261013.json",
+    "archive/sunset2020-technique-clip-r2-preservation-20261013.json",
+    "archive/sunset2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/sunset2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/sunset2020-opening-day-policy-generation-check-20261013.json"
+  ],
+  "preservedLocalReview": {
+    "source": "archive/sunset2020-discussion-review-progress.json",
+    "discussionMessagesRead": 2280,
+    "preservedImagesVisuallyReviewed": 255,
+    "basis": "Prior local review ledger carried; no new exhaustive certification."
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 1,
+    "completedRunRecordingsPreservedOnR2": 1,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 0,
+    "partialClipsPreservedOnR2": 1,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 255,
+    "discussionImageHashesVerified": 255,
+    "discussionMessagesIndexed": 2280
+  },
+  "remainingLimitations": [
+    "Neo Bowser City final 1:24.70 recording preserved. Royal Raceway final 1:33.97 footage unavailable; previous-best chronology qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "One technique clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+  ],
+  "validation": {
+    "liveSnapshotRows": 419,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 39,
+    "freshSelectedRecordingReviews": 1,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
+  },
+  "nextTourId": "tour-31",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/sunset2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/sunset2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "c56b2f76c117cb851c893b9b8a5add5d7b21e09c"
+}

@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 27,
-      "source-and-publication-review": 68,
+      "completed-with-documented-gaps": 28,
+      "source-and-publication-review": 67,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
@@ -45,8 +45,8 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 27,
-    "toursRequiringInvestigation": 154,
+    "practicallyCompletedTours": 28,
+    "toursRequiringInvestigation": 153,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -60,11 +60,11 @@
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 5,
+        "requiringInvestigation": 4,
         "categories": {
           "sparse-history-review": 0,
-          "source-and-publication-review": 5,
-          "completed-with-documented-gaps": 22
+          "source-and-publication-review": 4,
+          "completed-with-documented-gaps": 23
         }
       },
       "2021": {
@@ -1326,8 +1326,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -1347,11 +1346,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Find fastest available recording or document unavailable footage, separately from the WR."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/sunset2020-completion.json",
+      "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified."
     },
     {
       "id": "tour-31",
@@ -11144,7 +11146,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-30",
+  "activeDetailedTourId": "tour-31",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
