@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { videoKey, fastestVideo, recordChronology } from '../lib/video.mjs';
+import { videoKey, fastestVideo, recordChronology, tourRecordingComparison } from '../lib/video.mjs';
 const run = (timeCs, extra={}) => ({playerId:'runner', timeCs, video:'https://youtu.be/X_wkkweScJU', videoAudit:{status:'title-time-matches'}, videoVerified:true, ...extra});
 test('fastest footage falls back from unavailable WR and excludes unverified submissions', () => {
  const current=run(9000,{videoAvailability:'unavailable',videoAudit:{status:'metadata-unavailable'}});
@@ -70,4 +70,16 @@ test('partial footage exclusions apply across equivalent original URL variants',
  const partial=run(8500,{videoScope:'partial'});
  const duplicate=run(8500,{video:'https://www.youtube.com/watch?v=X_wkkweScJU&feature=share'});
  assert.equal(fastestVideo({records:[partial],submissions:[duplicate]}),null);
+});
+
+
+test('Animal final announcement belongs to its declared tour despite a later publication clock',()=>{
+ const announced={id:'final',playerId:'nu11',timeCs:9047,announcedAt:'2022-12-17T03:57:02.355Z',tourDateRange:{start:'2022-11-15',end:'2022-11-29'}};
+ const earlier={id:'earlier',playerId:'wins',timeCs:9064,submittedAt:'2022-11-26T15:37:46.550Z'};
+ const nextTour={id:'next',playerId:'runner',timeCs:9040,submittedAt:'2022-11-30T06:00:00Z'};
+ const course={records:[announced,earlier,nextTour],submissions:[]};
+ const before=structuredClone(course);
+ assert.equal(tourRecordingComparison(course,'tour-83','2022-11-16','2022-11-30').worldRecord.id,'final');
+ assert.equal(tourRecordingComparison(course,'tour-84','2022-11-30','2022-12-14').worldRecord.id,'next');
+ assert.deepEqual(course,before);
 });
