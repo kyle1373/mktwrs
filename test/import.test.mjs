@@ -174,3 +174,15 @@ test("result reports follow exact original proof identity without inventing subm
   assert.equal(candidate.resultReportEvents,undefined);
  }
 });
+
+
+test("previous-best visual disposition follows exact original proof without changing race or laps",()=>{
+ const record={courseId:"ddj",playerId:"tome",timeCs:9416,proofImageLocal:"/previous.webp",achievedAt:null,laps:[null,null]};
+ const review={imageType:"menu-previous-best",currentRunShown:"1:34.23",previousBestShown:"1:34.16",lapSplitsDisplayed:false};
+ const evidence={...record,proofImageVerified:true,preservedImageContentReview:review,evidenceNote:"Later menu shows previous best1:34.16",lapAvailability:"not-displayed-in-reviewed-image"};
+ assert.equal(enrichOriginalProofReviews(record,evidence),true);
+ assert.deepEqual(record.preservedImageContentReview,review);assert.equal(record.evidenceNote,evidence.evidenceNote);assert.equal(record.lapAvailability,evidence.lapAvailability);
+ assert.equal(record.achievedAt,null);assert.deepEqual(record.laps,[null,null]);
+ const different={...record,proofImageLocal:"/different.webp"};delete different.preservedImageContentReview;delete different.evidenceNote;
+ assert.equal(enrichOriginalProofReviews(different,evidence),false);assert.equal(different.preservedImageContentReview,undefined);
+});
