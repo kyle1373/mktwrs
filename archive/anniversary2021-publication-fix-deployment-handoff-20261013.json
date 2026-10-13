@@ -1,0 +1,23 @@
+{
+  "tourId": "tour-53",
+  "practicalReviewComplete": false,
+  "historyComplete": false,
+  "sourceReconciliationCommit": "73232a8c",
+  "publicationPreservationFixCommit": "ad64d496",
+  "deploymentId": "34c05d70-371d-4125-ac17-242848a9b2b5",
+  "lastObservedStatus": "Building at05:02; archive unpacked and Dockerfile loaded; not terminal",
+  "remaining": [
+    "Wait on same accepted deployment; do not restart solely for slow logs.",
+    "Run /tmp/mkt-anniversary-final-check-current.py; require zero differences and all rendered R2 links readable.",
+    "Publish completion via /tmp/mkt-anniversary-complete-current.py and survey/docs helpers; verify live label before next tour."
+  ],
+  "validation": {
+    "productionBuildPages": 891,
+    "patchGuardTestsPassed": 2,
+    "savedFieldsSurviveGeneration": true,
+    "completedRecordingsPreserved": 10,
+    "partialClipsPreserved": 3,
+    "liveRenderedLinksReadable": 37
+  },
+  "nextTourId": "tour-54"
+}
