@@ -118,8 +118,9 @@ function SplitSourceNote({ r }) {
   </details>;
 }
 function Time({ record: r }) {
-  const video = r?.video || r?.originalVideo || r?.videoReference;
-  const referenceOnly = !r?.video && !r?.originalVideo && Boolean(r?.videoReference);
+  const photoReference = r?.videoReferenceReview?.kind === "archived-original-result-photo-post";
+  const video = r?.video || r?.originalVideo || (!photoReference && r?.videoReference);
+  const referenceOnly = !photoReference && !r?.video && !r?.originalVideo && Boolean(r?.videoReference);
   const partial = r?.videoScope === "single-lap-clip" || r?.videoScope === "incomplete-first-lap";
   const unavailable = r?.videoAvailability === "unavailable" || (!r?.video && r?.originalVideoAvailable === false);
   const original = video ? (
