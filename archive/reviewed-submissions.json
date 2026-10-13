@@ -7212,8 +7212,8 @@
     "playerId": "luaggz",
     "time": "1:04.72",
     "laps": [
-      null,
-      null
+      "32.25",
+      "32.47"
     ],
     "status": "documented-submission",
     "includeInProgression": false,
@@ -7229,9 +7229,21 @@
       "Sampled preserved original frames show SNES Rainbow Road lap1 and lap2, result screen1:04.72 previous1:04.82. No fresh uninterrupted continuity certification. Uploader attribution from preserved metadata; no Discord identity merge."
     ],
     "videoScopeReview": {
-      "assessmentCarriedForward": false,
-      "startToFinishContinuityVerified": null,
-      "reviewAudit": "archive/vancouver2020-preserved-rainbow-video-result-and-partial-choco-review-20261012.json"
+      "reviewAudit": "archive/vancouver2020-two-selected-recording-visual-and-access-review-20261013.json",
+      "freshVisualReview": true,
+      "courseAndTimeVerified": true,
+      "countdownGameplayAndFinishObserved": true,
+      "firstLapObserved": "32.25",
+      "secondLapBasis": "total-minus-first-lap",
+      "scope": "Selected frames and full decode; continuous playback not certified."
+    },
+    "derivedLap": 2,
+    "lapMatchBasis": "First lap32.25 visually frozen at lap2 transition; lap2 derived from1:04.72 minus32.25.",
+    "videoDecodeIntegrity": {
+      "reviewAudit": "archive/vancouver2020-two-selected-recording-visual-and-access-review-20261013.json",
+      "decodeExitCode": 0,
+      "sha256": "e44f325c8a00cfd6317beff80113aee7259697a1edf867fca3d413a202bfddff",
+      "bytes": 24112988
     }
   }
 ]
