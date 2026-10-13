@@ -1,0 +1,114 @@
+{
+  "tourId": "tour-46",
+  "tour": "Paris Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-06-16T06:00:00Z",
+    "endExclusive": "2021-06-30T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "snes-donut-plains-2r",
+      "archivedWr": "1:00.40",
+      "fastestDocumentedAvailableRecording": "1:00.45",
+      "recordingPlayerId": "n"
+    },
+    {
+      "id": "3ds-rock-rock-mountain",
+      "archivedWr": "1:46.99",
+      "fastestDocumentedAvailableRecording": "1:46.99",
+      "recordingPlayerId": "spartacus"
+    },
+    {
+      "id": "n64-royal-raceway-r",
+      "archivedWr": "1:33.24",
+      "fastestDocumentedAvailableRecording": "1:33.24",
+      "recordingPlayerId": "superfx"
+    }
+  ],
+  "evidence": [
+    "archive/paris2021-original-results-practical-review-20261012.json",
+    "archive/paris-2021-reconciliation.json",
+    "archive/junejuly2021-donut-recording-separation-and-royal-result-report-reconciliation-20261011.json",
+    "archive/june2021-superfx-original-encoding-clock-reconciliation-20261009.json",
+    "archive/paris2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/paris2021-selected-recording-r2-preservation-20261012.json",
+    "archive/paris2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/paris2021-live-publication-verification-20261012.json",
+    "archive/paris2021-final-publication-audit-20261013.json",
+    "archive/paris2021-practical-source-coverage-disposition-20261013.json",
+    "archive/paris2021-three-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/paris2021-additional-recordings-r2-preservation-20261013.json",
+    "archive/paris2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/paris2021-image-source-publication-crosswalk-20261013.json",
+    "archive/paris2021-opening-day-policy-generation-check-20261013.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/paris-2021-reconciliation.json",
+    "coverage": {
+      "indexedImages": 178,
+      "indexedImagesVisuallyReviewed": 178,
+      "wrSearchMatches": 22,
+      "linkSearchMatches": 16,
+      "videoSearchMatches": 22,
+      "directVideoAttachmentsDownloadedAndVisuallyReviewed": 10
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 3,
+    "priorProofImageUrlsPassed": 182,
+    "priorProofImageCheckDate": "2026-10-12",
+    "duplicateOriginalRecordingFilesPreservedOnR2": 2,
+    "completedRunRecordingsPreservedOnR2": 10,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 7,
+    "partialClipsPreservedOnR2": 10,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 191,
+    "discussionImageHashesVerified": 191,
+    "discussionMessagesIndexed": 820
+  },
+  "remainingLimitations": [
+    "N1:00.45 video is not footage of1:00.40; achievement instant remains unknown, associated with reviewed June29 result.",
+    "Rock Rock Mountain secret Phillish1:47.01 achievement ordering remains unresolved; faster final1:46.99 preserved.",
+    "Royal Raceway primaryYouTube share instant unresolved; later alternate encoding sources retained separately.",
+    "Original Nu1:47.38 footage unavailable and some previous-best dates unresolved.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Rock Rock Mountain YouTube metadata publication is later than original Discord share; exact first availability unresolved.",
+    "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+    "Donut WR60.40 footage unavailable; selected60.45 recording separate. RRM106.99 and Royal93.24 recordings match final WRs.",
+    "Original upload/share/report clocks are separate from exact race instants.",
+    "Indexed images and focused searches do not establish full server-message coverage.",
+    "Phillish’s secret 1:47.01 is a confirmed WR with unresolved achievement date and duration.",
+    "Several previous-best times lack original dated result evidence.",
+    "Two runner split claims conflict with their displayed totals and are retained as notes, not corrected guesses.",
+    "Nu11’s linked 1:47.38 YouTube video is unavailable.",
+    "An older November 23, 2019 Tomegome tweet showing 1:47.98 was rediscovered; full video survives in signed-in X, but downloader retrieval and chronology require follow-up review.",
+    "Remaining non-WR video references have not all been uploaded as unlisted copies.",
+    "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+    "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+    "Partial route clips remain separate from completed runs.",
+    "Seven additional completed runs retained with prior reviews, plus two alternate encodings of the selected Royal1:33.24; ten short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+  ],
+  "validation": {
+    "liveSnapshotRows": 458,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 167,
+    "freshSelectedRecordingReviews": 3,
+    "selectedRecordingsWithFreshHashDecodeAndAccessChecks": 3,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
+  },
+  "nextTourId": "tour-47",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/paris2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/paris2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "3d314a7143526dde84fcee33916f0675bfc4ff11"
+}

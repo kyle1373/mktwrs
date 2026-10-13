@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-46",
+  "activeDetailedReview": "tour-47",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,8 +32,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 43,
-      "source-and-publication-review": 35,
+      "completed-with-documented-gaps": 44,
+      "source-and-publication-review": 34,
       "carry-in-and-sparse-history-check": 68,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 11,
+        "practicallyCompleted": 12,
         "notApplicable": 0,
-        "open": 15
+        "open": 14
       },
       "2022": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 12
     },
-    "toursRequiringInvestigation": 138
+    "toursRequiringInvestigation": 137
   },
   "tours": [
     {
@@ -4502,8 +4502,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-donut-plains-2r",
@@ -4547,9 +4546,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Review unresolved order/date bounds; keep race, report and submission dates distinct.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-rock-rock-mountain",
@@ -4587,8 +4584,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-royal-raceway-r",
@@ -4610,8 +4606,32 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/paris2021-completion.json",
+      "documentedLimitations": [
+        "N1:00.45 video is not footage of1:00.40; achievement instant remains unknown, associated with reviewed June29 result.",
+        "Rock Rock Mountain secret Phillish1:47.01 achievement ordering remains unresolved; faster final1:46.99 preserved.",
+        "Royal Raceway primaryYouTube share instant unresolved; later alternate encoding sources retained separately.",
+        "Original Nu1:47.38 footage unavailable and some previous-best dates unresolved.",
+        "Prior full recording review retained without fresh uninterrupted certification.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Rock Rock Mountain YouTube metadata publication is later than original Discord share; exact first availability unresolved.",
+        "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+        "Donut WR60.40 footage unavailable; selected60.45 recording separate. RRM106.99 and Royal93.24 recordings match final WRs.",
+        "Original upload/share/report clocks are separate from exact race instants.",
+        "Indexed images and focused searches do not establish full server-message coverage.",
+        "Phillish’s secret 1:47.01 is a confirmed WR with unresolved achievement date and duration.",
+        "Several previous-best times lack original dated result evidence.",
+        "Two runner split claims conflict with their displayed totals and are retained as notes, not corrected guesses.",
+        "Nu11’s linked 1:47.38 YouTube video is unavailable.",
+        "An older November 23, 2019 Tomegome tweet showing 1:47.98 was rediscovered; full video survives in signed-in X, but downloader retrieval and chronology require follow-up review.",
+        "Remaining non-WR video references have not all been uploaded as unlisted copies.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+        "Partial route clips remain separate from completed runs.",
+        "Seven additional completed runs retained with prior reviews, plus two alternate encodings of the selected Royal1:33.24; ten short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-47",
@@ -18817,5 +18837,5 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/wedding2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/paris2021-final-publication-audit-20261013.json"
 }

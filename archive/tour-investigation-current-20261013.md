@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-43 tours have completed practical reviews with documented gaps; 138 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Wedding 2021. Paris 2021 is the next detailed review. These counts do not certify exhaustive history.
+44 tours have completed practical reviews with documented gaps; 137 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Paris 2021. Summer 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 11 | 15 | 0 |
+| 2021 | 12 | 14 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -666,26 +666,9 @@ Completed with documented gaps.
 
 ### 46. Paris Tour (2021) — 2021-06-16 to 2021-06-30
 
-Source and publication review.
+Completed with documented gaps.
 
-**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 6 WR rows; 50 supporting results; 0 pending candidates.
-
-- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Rock Rock Mountain](https://mktwrs.com/course/3ds-rock-rock-mountain)**: 4 WR rows; 76 supporting results; 0 pending candidates; carried-in WR 1:47.53.
-
-- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Royal Raceway R](https://mktwrs.com/course/n64-royal-raceway-r)**: 10 WR rows; 101 supporting results; 0 pending candidates.
-
-- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/paris2021-completion.json). 820 preserved messages indexed and 191 image hashes checked. Three selected recordings freshly sampled and decoded. Ten completed runs, two additional encodings of the Royal WR and ten partial clips preserved on R2. Donut60.45 is distinct from unavailable WR60.40 footage; global intermediate succession and exact race instants remain qualified.
 
 ### 47. Summer Tour (2021) — 2021-06-30 to 2021-07-14
 
