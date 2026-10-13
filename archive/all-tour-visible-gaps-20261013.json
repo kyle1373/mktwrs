@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-44",
+  "activeDetailedReview": "tour-45",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,8 +32,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 41,
-      "source-and-publication-review": 37,
+      "completed-with-documented-gaps": 42,
+      "source-and-publication-review": 36,
       "carry-in-and-sparse-history-check": 68,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 9,
+        "practicallyCompleted": 10,
         "notApplicable": 0,
-        "open": 17
+        "open": 16
       },
       "2022": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 12
     },
-    "toursRequiringInvestigation": 140
+    "toursRequiringInvestigation": 139
   },
   "tours": [
     {
@@ -4240,8 +4240,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-ghost-valley-1",
@@ -4279,8 +4278,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-koopa-troopa-beach-r",
@@ -4317,8 +4315,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-rainbow-road-r",
@@ -4340,8 +4337,31 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/trick2021-completion.json",
+      "documentedLimitations": [
+        "Final WR footage unavailable or absent from reviewed sources; selected slower recordings shown without WR promotion.",
+        "Nu11 Rainbow1:52.69 original RQ8FAnqakFc unavailable per preserved browser review.",
+        "10mp0:39.82 historical Discord title typo38.82 differs from prior visually reviewed video39.82; supporting status retained.",
+        "Broken attachment844464872828829706 and two deleted-account identities remain documented.",
+        "Prior full recording review retained without fresh uninterrupted certification.",
+        "Unindexed global material and some intermediate date ordering remain unresolved.",
+        "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+        "One broken attachment remains unavailable. Final WR footage unavailable; selected completed recordings slower than WRs.",
+        "Original upload/share/report clocks are separate from exact race instants.",
+        "Image indexing and focused searches do not establish full server-message coverage.",
+        "Attachment 844464872828829706 is broken in live Discord and returns 404; it has not been visually read.",
+        "Two deleted-account results have unresolved identities.",
+        "Previous-best fields reveal potential intermediate runs without exact original dates.",
+        "The original Nu11 1:52.69 YouTube video RQ8FAnqakFc is retained but unavailable in signed-in YouTube; earlier footage mentioned in discussion has not been located.",
+        "Saki7’s cumulative section shorthand is ambiguous; only the exact first section is published.",
+        "10mp 39.82 is preserved as a video submission without asserting that it held WR.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+        "Partial route clips remain separate from completed runs.",
+        "Thirteen additional completed runs retained with prior reviews, plus another encoding of the selected Wins1:53.83; four short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-45",
@@ -18777,5 +18797,5 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/bowserdk2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/trick2021-final-publication-audit-20261013.json"
 }

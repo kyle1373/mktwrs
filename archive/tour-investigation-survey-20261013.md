@@ -1,3087 +1,3022 @@
-# Tour investigation survey — 13 October 2026
+# All-tour investigation checklist — 13 October 2026
 
-Screened all 183 catalog tours, 381 course appearances and 142 live course pages against commit `fc689aa7`. This lists investigation work; it does not certify exhaustive history.
+Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
+42 tours have completed practical reviews with documented gaps; 139 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Trick 2021. Wedding 2021 is the next detailed review. These counts do not certify exhaustive history.
 
-Practical reviews are complete for Halloween 2019 through Bowser vs. DK 2021 (41 tours), with documented gaps. Sydney 2021 is the next detailed review. 143 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+| Year | Practical reviews complete | Open | Not applicable |
+|---|---:|---:|---:|
+| 2019 | 5 | 0 | 2 |
+| 2020 | 27 | 0 | 0 |
+| 2021 | 10 | 16 | 0 |
+| 2022 | 0 | 26 | 0 |
+| 2023 | 0 | 26 | 0 |
+| 2024 | 0 | 26 | 0 |
+| 2025 | 0 | 26 | 0 |
+| 2026 | 0 | 19 | 0 |
 
-| Year | Catalog tours | Practical reviews complete | Open | Not applicable |
-|---|---:|---:|---:|---:|
-| 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 27 | 0 | 0 |
-| 2021 | 26 | 9 | 17 | 0 |
-| 2022 | 26 | 0 | 26 | 0 |
-| 2023 | 26 | 0 | 26 | 0 |
-| 2024 | 26 | 0 | 26 | 0 |
-| 2025 | 26 | 0 | 26 | 0 |
-| 2026 | 19 | 0 | 19 | 0 |
+The catalogue ends at 30 September 2026. The interval from then through 13 October also needs cataloguing and investigation.
 
-## Strongest visible gaps
+## Clearest visible leads
 
-- **Samurai Tour (2022)** (2022-03-23): RMX Vanilla Lake 1: implausible parsed time 0:01.03.
-- **Doctor Tour (2022)** (2022-05-04): GBA Cheep-Cheep Island: implausible parsed time 0:01.12.
-- **Anniversary Tour (2022)** (2022-09-21): Berlin Byways 3: faster supporting results 1:14.32.
-- **Peach vs. Bowser Tour (November–December 2022) (2022)** (2022-11-30): DS Peach Gardens: faster supporting results 1:26.53.
-- **Space Tour (2023)** (2023-01-11): GBA Cheep-Cheep Island R: faster supporting results 1:11.78, 1:11.83; N64 Kalimari Desert 2: faster supporting results 1:03.36.
-- **Doctor Tour (2023)** (2023-02-22): DS Peach Gardens R: no debut WR, 37 supporting rows.
-- **Ninja Tour (2023)** (2023-03-22): Wii Rainbow Road: faster supporting results 1:15.60, 1:15.70, 1:15.71, 1:15.72, 1:15.80, 1:15.81.
-- **Mii Tour (2023)** (2023-05-17): GCN Mushroom Bridge: no debut WR, 91 supporting rows.
-- **Night Tour (2023)** (2023-06-28): Singapore Speedway 2R: no debut WR, 14 supporting rows.
-- **Summer Tour (2023)** (2023-08-23): Madrid Drive: no debut WR, 39 supporting rows; Piranha Plant Cove 3: no debut WR, 56 supporting rows.
-- **New Year's Tour (2024)** (2024-12-25): Wii Koopa Cape: faster supporting results 1:35.51.
-- **Animal Tour (2025)** (2025-11-12): N64 Yoshi Valley R: faster supporting results 1:30.53, 1:30.58, 1:30.63.
+- **Samurai Tour (2022)**: RMX Vanilla Lake 1: implausible parsed 0:01.03.
+- **Doctor Tour (2022)**: GBA Cheep-Cheep Island: implausible parsed 0:01.12.
+- **Autumn Tour (2022)**: Los Angeles Laps 2: 1 WR / 53 supporting results.
+- **Peach vs. Bowser Tour (November–December 2022) (2022)**: DS Peach Gardens: supporting 1:26.53 faster than screened WR baseline.
+- **Holiday Tour (2024)**: Vancouver Velocity 3: supporting 1:15.95 faster than screened WR baseline.
+- **New Year's Tour (2024)**: Wii Koopa Cape: supporting 1:35.51 faster than screened WR baseline.
+- **Animal Tour (2025)**: N64 Yoshi Valley R: supporting 1:30.53, 1:30.58, 1:30.63 faster than screened WR baseline.
+
+These are leads for original-source review, not automatic WR promotions. Sparse repeat-tour history may be valid when an earlier WR still stands.
+
+## Remaining work
+
+- 32 open tours have unresolved candidates.
+- 14 open tours have unresolved WR dates or order.
+- 13 open tours have recordings without a known upload, share or submission clock.
+- 28 open tours have one-day tour-range discrepancies.
+- 11 open tours have remote-only Discord WR images.
+- 77 open tours have at least one course without linked footage.
+
+Counts overlap. Every open tour also needs source coverage, the fastest available completed recording compared with the WR, and verification of published evidence. Review and finish one tour at a time.
+
+## GCN Yoshi Circuit R
+
+Its one published WR is Nu11’s 1:31.31. There are 38 supporting rows attributed to Hammer Bro 2020. The practical review retains an explicit gap: opening leadership, intermediate WR succession and exact achievement dates are unproved, and matching 1:31.31 footage is unavailable. The page is sparse because a fuller proven WR succession has not been established; its density alone cannot prove completeness. Reopen for material surviving evidence.
 
 ## Every tour in chronological order
-
-Counts refer to results attributed to this tour. “Carry-in” is an earlier published record to verify. Candidate rows can duplicate already-reviewed results; a nonzero count is a lead, not proof of missing WRs.
 
 ### 1. New York Tour (2019) — 2019-09-25 to 2019-10-09
 
 Not applicable.
 
-Before the documented introduction of time trials.
+Predates the documented introduction of time trials.
 
 ### 2. Tokyo Tour (2019) — 2019-10-09 to 2019-10-23
 
 Not applicable.
 
-Before the documented introduction of time trials.
+Predates the documented introduction of time trials.
 
 ### 3. Halloween Tour (2019) — 2019-10-23 to 2019-11-06
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/halloween2019-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/halloween2019-completion.json). Retained limitations:
 
-**[GCN Dino Dino Jungle](https://mktwrs.com/course/gcn-dino-dino-jungle)**: 22 WR rows; 25 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[3DS Neo Bowser City](https://mktwrs.com/course/3ds-neo-bowser-city)**: 14 WR rows; 58 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[3DS Toad Circuit](https://mktwrs.com/course/3ds-toad-circuit)**: 25 WR rows; 95 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Six achievement-day uncertainties retained; original report/publication/share clocks remain separate.
+- Unavailable standalone originals retain contemporary documentary sources; matching later previous-best menus corroborate selected totals.
+- Recordings directly sampled or prior-reviewed; full frame-by-frame uncut continuity and globally fastest recording are not certified.
+- General streams screened using captions/context; not watched end-to-end. No distinct material WR lead identified beyond the reviewedCarlos openingTT segment; silent/mistranscribed footage may remain.
+- Preserved source coverage cannot establish absence of deleted or unindexed runs. These are accepted documented gaps under the requested practical standard.
 
 ### 4. Paris Tour (2019) — 2019-11-06 to 2019-11-20
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/paris2019-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/paris2019-completion.json). Retained limitations:
 
-**[DS Luigi's Mansion](https://mktwrs.com/course/ds-luigi-s-mansion)**: 9 WR rows; 57 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[SNES Mario Circuit 1](https://mktwrs.com/course/snes-mario-circuit-1)**: 9 WR rows; 30 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[3DS Shy Guy Bazaar](https://mktwrs.com/course/3ds-shy-guy-bazaar)**: 1 WR rows; 20 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Opening Luigi and Bazaar global WR precedence is unresolved. Earlier documented results are published separately without unsupported WR promotion.
+- Unknown dates, tentative identities, deleted originals and sampled broadcast scope remain explicit; no claim of exhaustive source recovery or freshly certified uninterrupted playback.
+- Only the fastest documented opening-day result and ties are shown. Raw intermediate results remain preserved.
 
 ### 5. Winter Tour (2019) — 2019-11-20 to 2019-12-04
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/winter2019-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/winter2019-completion.json). Retained limitations:
 
-**[SNES Choco Island 2](https://mktwrs.com/course/snes-choco-island-2)**: 1 WR rows; 9 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[SNES Mario Circuit 3](https://mktwrs.com/course/snes-mario-circuit-3)**: 4 WR rows; 18 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[3DS Rock Rock Mountain](https://mktwrs.com/course/3ds-rock-rock-mountain)**: 1 WR rows; 21 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Early global WR ordering and three undated previous-best results remain unresolved; documented times shown outside certified WR history.
+- Benny0:50.52 footage is distinct from reported0:50.36 PB. Mark1:51.93 footage is not attributed to its DeletedUser sharer.
+- Unavailable faster RockRockMountain originals retained as references; no fresh continuous-footage certification or exhaustive archive claim.
+- Whole-footage reviews of general score/pipe broadcasts remain incomplete; brief intermediate TT appearances may exist.
+- 225 attachment references carry prior assessments except the three freshly resolved GamerunW cards; they are not newly recertified.
+- Early global WR ordering, three undated personal previous bests, unavailable originals and external-server coverage remain uncertain.
 
 ### 6. London Tour (2019) — 2019-12-04 to 2019-12-18
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/london2019-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/london2019-completion.json). Retained limitations:
 
-**[3DS Daisy Hills](https://mktwrs.com/course/3ds-daisy-hills)**: 3 WR rows; 24 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2)**: 1 WR rows; 13 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 2 WR rows; 20 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Original global opening WR exchange remains unproven. Slower early PBs and rival claims remain outside accepted WR succession.
+- Prior Discord search reviewed114of142 pages; omitted pages and broader broadcasts were not newly reviewed. Current session requires login again.
+- Yoshi1:33.81 original unavailable; verified1:45.86 recording shown separately, partial1:34.34-related footage is not a complete race.
+- Exact previous-best achievement dates, absent/disputed splits and frame-by-frame recording continuity remain unproven.
+- Five-track visual evidence and prior source dispositions support practical closure under user good-enough standard; exhaustive history is not certified.
 
 ### 7. Holiday Tour (2019) — 2019-12-18 to 2020-01-01
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/holiday2019-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/holiday2019-completion.json). Retained limitations:
 
-**[3DS Cheep Cheep Lagoon](https://mktwrs.com/course/3ds-cheep-cheep-lagoon)**: 1 WR rows; 15 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[DS DK Pass](https://mktwrs.com/course/ds-dk-pass)**: 1 WR rows; 13 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Original opening WR exchange remains uncertain; earliest slower day-one results stay in raw evidence without WR awards.
+- Prior3943-message date-search coverage does not certify all images, recordings or outside accounts. Current Discord session expired; preserved reviews retained.
+- DK Pass Nu11 original unavailable; Tomegome46.37 route clip is partial, no completed race time inferred.
+- Periawsity Lagoon1:19.91 advertised original unavailable and unverified.
+- Undated previous bests and missing/disputed splits retain uncertainty. Sampled frames and decode do not certify frame-by-frame continuity.
+- Closing interval includes January1 before06UTC; score-mode and incomplete broadcasts do not establish TT runs.
 
 ### 8. New Year's Tour (2020) — 2020-01-01 to 2020-01-15
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/newyear2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/newyear2020-completion.json). Retained limitations:
 
-**[DS Waluigi Pinball](https://mktwrs.com/course/ds-waluigi-pinball)**: 1 WR rows; 8 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Opening WR exchange remains incomplete; personal results and undated previous bests retained without automatic WR promotion.
+- No completed-race recording established in reviewed sources; January4 technique clip ends during lap1. Intermediate29.37 is not a completed lap or total.
+- Freekayz footage request has no identified author reply before tour end; this does not prove worldwide footage absence.
+- Approximate Vantox1:49 lacks hundredths and remains source lead, not1:49.00.
+- Prior2884-message date-search does not certify deleted/private or outside sources. Current Discord session requires login again.
+- Unavailable image, ambiguous references, sampled broadcasts and exact achievement-date gaps retained under agreed good-enough proof standard.
 
 ### 9. Ice Tour (2020) — 2020-01-15 to 2020-01-29
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/ice2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/ice2020-completion.json). Retained limitations:
 
-**[GBA Bowser's Castle 1](https://mktwrs.com/course/gba-bowser-s-castle-1)**: 2 WR rows; 5 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r)**: 2 WR rows; 8 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- The 181 matched preserved attachments rechecked by hash; prior image visual dispositions reused rather than claiming a fresh full-pixel review.
+- Opening-day global Jungle R order remains unknown. Nu11 Castle tie lacks its individual proof/date/splits.
+- Earlier Jungle R1:40.56 is previous-best evidence; Kaguya1:40.74 is a third-party report. Neither promoted to certified WR succession.
 
 ### 10. Valentine's Tour (2020) — 2020-01-29 to 2020-02-12
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/valentines2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/valentines2020-completion.json). Retained limitations:
 
-**[N64 Koopa Troopa Beach](https://mktwrs.com/course/n64-koopa-troopa-beach)**: 3 WR rows; 38 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[3DS Toad Circuit R](https://mktwrs.com/course/3ds-toad-circuit-r)**: 1 WR rows; 10 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Final Beach1:13.83 ties retain announcement status; original individual dates, images and splits unavailable.
+- Earlier global WR exchange order remains unknown; first attempts and previous-best evidence remain outside certified succession.
+- Selected recordings reviewed via samples and full decode; uninterrupted playback not certified.
+- Prior267 image visual dispositions reused; current hash checks establish preserved-file identity, not a new visual pass.
+- Deleted/private/unindexed global material not proven recovered.
 
 ### 11. Vancouver Tour (2020) — 2020-02-12 to 2020-02-26
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/vancouver2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/vancouver2020-completion.json). Retained limitations:
 
-**[SNES Choco Island 2R](https://mktwrs.com/course/snes-choco-island-2r)**: 2 WR rows; 17 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[SNES Rainbow Road](https://mktwrs.com/course/snes-rainbow-road)**: 1 WR rows; 13 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Prior406 server attachments visually reviewed, but current hash crosswalk covers only27 indexed TT images plus73 official-reply images.
+- FinalRainbow0:59.94 lacks original proof and date;1:04.72 video is separate.
+- Choco0:49.56 predecessor is contemporaneously reported, with missing original date/proof/splits.
+- First-lap Choco clips do not establish completed total; opening global order and deleted/private material remain qualified.
 
 ### 12. Mario Bros. Tour (2020) — 2020-02-26 to 2020-03-11
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/mariobros2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/mariobros2020-completion.json). Retained limitations:
 
-**[SNES Ghost Valley 1](https://mktwrs.com/course/snes-ghost-valley-1)**: 2 WR rows; 22 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[SNES Rainbow Road R](https://mktwrs.com/course/snes-rainbow-road-r)**: 1 WR rows; 12 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Final screenshots submitted before06UTC rollover; exact achievement dates and reigns remain unknown.
+- Previous-best values do not certify global WR succession; unavailable Adri originals and intermediary contenders remain qualified.
+- Current source hash checks reuse prior visual dispositions rather than claiming a fresh complete-server-image review.
+- Fresh video samples and full decode do not certify uninterrupted playback.
 
 ### 13. Baby Rosalina Tour (2020) — 2020-03-11 to 2020-03-25
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/babyrosalina2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/babyrosalina2020-completion.json). Retained limitations:
 
-**[SNES Mario Circuit 2R](https://mktwrs.com/course/snes-mario-circuit-2r)**: 1 WR rows; 29 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Opening global leader and exact WR achievement date remain unproved; no invented succession or reign duration.
+- Accepted migrated WR and contemporary video embed support Nu11/Kaguya 1:01.83; original video unavailable.
+- Anonymous opening rival 1:02.33 lacks attribution/proof and is retained as a report.
+- Fresh selected footage review uses representative frames plus full decode, without uninterrupted-race certification.
+- Prior complete-saved discussion dispositions retained; hash integrity confirms saved files, not exhaustive deleted/private/global source coverage.
 
 ### 14. Hammer Bro Tour (2020) — 2020-03-25 to 2020-04-08
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/hammer2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/hammer2020-completion.json). Retained limitations:
 
-**[N64 Frappe Snowland](https://mktwrs.com/course/n64-frappe-snowland)**: 1 WR rows; 50 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[GCN Yoshi Circuit R](https://mktwrs.com/course/gcn-yoshi-circuit-r)**: 1 WR rows; 38 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Opening global leadership, intermediate WR status and exact achievement clocks remain unproved; no invented succession or reign duration.
+- Yoshi 1:31.52 explicitly rejected as a joke; eight downstream performance comparisons now use genuine earlier dated results.
+- Birdo 1:33.02 mode/variant unresolved and excluded.
+- Accepted WRs 1:21.98 and1:31.31 have no known available matching recording. Frappe March26 report is third-party observation, not achievement time.
+- Preserved images and prior source dispositions verified; deleted/private/global source completeness not proved.
+- Two selected recordings freshly sampled and decoded; uninterrupted-race continuity not certified. Two slower originals preserved on R2 with prior reviews retained.
 
 ### 15. Yoshi Tour (2020) — 2020-04-08 to 2020-04-22
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/yoshi2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/yoshi2020-completion.json). Retained limitations:
 
-**[3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r)**: 8 WR rows; 91 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[N64 Kalimari Desert](https://mktwrs.com/course/n64-kalimari-desert)**: 8 WR rows; 79 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Original final WR footage unavailable or not recovered; Kazuo1:21.28 andBrandonSG1:16.06 are fastest documented available completed recordings in preserved reviewed evidence.
+- Tomegome partial second-lap and Gisko/Wins first-lap clips do not establish final totals.
+- Some migrated achievement dates and intermediate rival order remain unresolved. Original post, report and video share clocks remain separate.
+- Opening day retains fastest documented result and ties; superseded source rows remain in download.
+- Deleted/private/global material not proven fully recovered; prior review accepted under practical standard.
 
 ### 16. Trick Tour (2020) — 2020-04-22 to 2020-05-06
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/trick2020-completion.json). Documented limitations remain; exhaustive history is not certified.
+[Completion evidence](https://mktwrs.com/data/trick2020-completion.json). Retained limitations:
 
-**[3DS Neo Bowser City R](https://mktwrs.com/course/3ds-neo-bowser-city-r)**: 19 WR rows; 138 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
-
-**[SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1)**: 11 WR rows; 126 supporting rows; 0 pending candidates.
-
-- Practical review completed; retain documented gaps and reopen only for material new evidence.
+- Prior completed-race review identifies both final WR totals; fresh uninterrupted-race certification remains absent.
+- Some earlier rival chronology and exact race timestamps remain unresolved. Day-one fastest result policy applied; raw omitted rows remain preserved.
+- Vanilla originalMay2020 video recovered throughDecember2021 repost; repost is not a new record date.
+- Deleted/private/global source material not proven fully recovered.
 
 ### 17. Flower Tour (2020) — 2020-05-06 to 2020-05-20
 
-Completed with documented gaps on 13 October after the survey. [Completion evidence](https://mktwrs.com/data/flower2020-completion.json): 129 discussion-image dispositions, 718 preserved server-image hashes, 63 live publication rows and 9 readable R2 links. WR **1:39.00**; fastest available completed recording **Wins 1:39.76**. Four missing attachments, two stale viewer entries and unknown exact dates remain qualified.
+Completed with documented gaps.
+
+[Completion evidence](https://mktwrs.com/data/flower2020-completion.json). Retained limitations:
+
+- No original final1:39.00WR recording found; Wins1:39.76 is fastest preserved reviewed completed recording.
+- Four unavailable server attachments and two stale viewer entries remain explicit gaps.
+- Deleted opening runner identity and some exact race dates/intermediate order unresolved; source/report/upload/share clocks stay distinct.
+- Prior718serverimage visual review retained;129discussion images and10additionalserverleads freshly reviewed. This is not exhaustive all-server reconstruction.
+- Representative selected-video samples plus successful decode verified; continuous unedited-race certification not claimed.
 
 ### 18. Jungle Tour (2020) — 2020-05-20 to 2020-06-03
 
-Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/jungle2020-completion.json): 241 discussion images accounted for (209 fresh dispositions, 32 prior visual reviews with fresh OCR); 61 additional server images reviewed; 109 live rows and 10 readable R2 links checked. WR **0:42.07**; fastest available completed recording **Tomegome 0:42.11**. Six preserved clips remain partial footage. Exact race dates and unavailable originals remain qualified.
+Completed with documented gaps.
+
+[Completion evidence](https://mktwrs.com/data/jungle2020-completion.json). Retained limitations:
+
+- Kazuo0:42.07full completedrecording unavailable; survivingKazuo lapclips remainpartial. Tomegome0:42.11isfastestverifiedcompletedfootage.
+- 209discussionimagesfreshlydispositioned;32priorvisualreviews retainedwithfreshOCRcrosschecks;other expandedservervisualreviewcarriedforward.
+- Text-onlyopening44.09lead unresolved butsupersededopeningPBhistory omittedunderrequestedpolicy.
+- Exactracefinishdates andsomeintermediateprecedenceunknown;source/report/upload/shareclocks staydistinct.
+- Representative selectedvideosamples andsuccessfuldecodechecked;uninterruptedracecertificationnotclaimed. Deleted/private/globalmaterialsnotprovedrecovered.
 
 ### 19. Cooking Tour (2020) — 2020-06-03 to 2020-06-17
 
-Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/cooking2020-completion.json): 309 prior discussion-image dispositions crosschecked; 167 opening-image files verified; 295 live rows and 65 readable R2 links checked. Donut Plains 1 WR **0:49.77**; fastest available completed recording **Kazuo 0:49.90**. Waluigi Pinball R WR **1:45.91**; no completed recording recovered. Wins' preserved lap clip remains partial. Unidentified opening references, unavailable originals and exact race dates remain qualified.
+Completed with documented gaps.
+
+[Completion evidence](https://mktwrs.com/data/cooking2020-completion.json). Retained limitations:
+
+- Kazuo final0:49.77completedrecording unavailable;0:49.90recording retained separately.
+- No completedWaluigiPinballRrecording recovered;Wins53.16firstlapclip remains partial.
+- Unidentifiedopening53.20reference andsomepreviousbestorderremainunresolved. Supersededopeningresults omittedunderrequestedpolicy.
+- 309discussionimage and167expandedopeningimage priorvisualreviews retained;sourceIDs/hashes crosschecked withoutclaimingfreshvisualreviewofeveryimage.
+- Exactracefinishdates andunavailableNu11stream/Kaguya51.49original remainqualified. Noexhaustiveglobalhistory or uninterruptedselected-video certification.
 
 ### 20. Peach Tour (2020) — 2020-06-17 to 2020-07-01
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/peach2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots match canonical production output: 296 rows checked and 42 rendered R2 links readable. Two selected recordings freshly reviewed; one earlier completed recording additionally preserved. All 230 prior discussion image dispositions retained with file hashes and source crosschecks. Final Frappe WR footage and eight previous-best chronology questions remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/peach2020-completion.json). Retained limitations:
+
+- Final Frappe 1:20.85 WR recording unavailable; Tomegome 1:21.05 completed footage shown separately.
+- Eight previous-best chronology questions remain unproven; no additional leaders or ties inferred.
+- 230 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.
+- Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.
 
 ### 21. Marine Tour (2020) — 2020-07-01 to 2020-07-15
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/marine2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots match canonical production output: Both course snapshots and all rendered R2 links checked. Two selected recordings freshly reviewed; five other completed recordings additionally preserved. All 308 prior discussion image dispositions retained with file hashes and source crosschecks. Both final WR recordings, previous-best chronology and eight attachment retrievals remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/marine2020-completion.json). Retained limitations:
+
+- Final Mario Circuit 1:35.47 and RMX Choco Island 1:12.36 WR recordings unavailable; completed 1:36.24 and 1:12.42 footage shown separately.
+- Previous-best chronology and eight attachment retrievals remain unresolved; no unproven leaders inferred.
+- 308 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.
+- Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.
 
 ### 22. Exploration Tour (2020) — 2020-07-15 to 2020-07-29
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/exploration2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots match canonical production output: Both course snapshots and all rendered R2 links checked. Two selected recordings freshly reviewed; six other completed recordings additionally preserved. All 255 prior discussion image dispositions retained with file hashes and source crosschecks. Both final WR recordings, previous-best chronology and unavailable originals remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/exploration2020-completion.json). Retained limitations:
+
+- Final Dino Dino Jungle 1:33.66 and Vanilla Lake 1R 0:34.38 WR recordings unavailable; completed 1:34.43 and 0:34.50 footage shown separately.
+- Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.
+- 255 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.
+- Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.
 
 ### 23. Wild West Tour (2020) — 2020-07-29 to 2020-08-12
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/wildwest2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots match canonical production output: Both course snapshots and all rendered R2 links checked. Two selected recordings freshly reviewed; six other completed recordings and a partial shortcut clip additionally preserved. All 387 prior discussion image dispositions retained with file hashes and source crosschecks. Both final WR recordings, previous-best chronology and unavailable originals remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/wildwest2020-completion.json). Retained limitations:
+
+- Final Bowser Castle 2 1:19.65 and Donut Plains 1R 0:49.69 WR recordings unavailable; completed 1:20.48 and 0:50.67 footage shown separately. Nu11 shortcut clip is partial.
+- Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.
+- 387 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.
+- Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.
 
 ### 24. Pirate Tour (2020) — 2020-08-12 to 2020-08-26
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/pirate2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots match canonical production output: Both course snapshots and all rendered R2 links checked. Two selected recordings freshly reviewed; two other completed recordings and a partial lap clip additionally preserved; Tomegome 1:00.31 Bowser recording freshly recovered and verified. All 321 prior discussion image dispositions retained with file hashes and source crosschecks. Both final WR recordings, previous-best chronology and unavailable originals remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/pirate2020-completion.json). Retained limitations:
+
+- Final Bowser Castle 1R 1:00.29 and Mario Circuit 1 0:41.94 WR recordings unrecovered; Tomegome 1:00.31 and Wins 0:42.12 completed footage shown separately. Phillish 21.19 lap clip is partial.
+- Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.
+- 321 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.
+- Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.
 
 ### 25. Summer Festival Tour (2020) — 2020-08-26 to 2020-09-09
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/summerfest2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots and rendered R2 links checked. Two completed recordings freshly reviewed, seven technique clips and two result-screen clips preserved. The 314 prior image dispositions are retained with fresh hashes and source crosschecks; 3,425 discussion messages indexed. Wins's 0:47.87 final Choco WR footage is preserved. Mario Circuit 3R 1:06.41 footage is unavailable; available 1:06.53 shown separately. Previous-best chronology and unavailable originals remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/summerfest2020-completion.json). Retained limitations:
+
+- Wins 0:47.87 final Choco Island 2 WR recording preserved. Mario Circuit 3R 1:06.41 WR recording unavailable; completed 1:06.53 footage shown separately.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Seven technique and two result-screen clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified.
 
 ### 26. Super Mario Kart Tour (2020) — 2020-09-09 to 2020-09-23
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/supermario2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots and rendered R2 links checked. Heria 0:40.89 completed Ghost Valley footage and SuperFX 1:34.87 late-start Royal footage freshly reviewed; ten technique clips and one result-screen clip preserved. The 266 prior image dispositions are retained with fresh hashes and source crosschecks; 3,060 discussion messages indexed, including boundary context. Final 0:40.52 and 1:34.04 WR footage, previous-best chronology and unavailable originals remain documented gaps. Video upload, share and result clocks remain separate.
+[Completion evidence](https://mktwrs.com/data/supermario2020-completion.json). Retained limitations:
+
+- Both final WR recordings unavailable. Ghost Valley 0:40.89 completed footage and Royal Raceway 1:34.87 late-start footage shown separately.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Ten technique and one result-screen clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified.
 
 ### 27. Los Angeles Tour (2020) — 2020-09-23 to 2020-10-07
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/losangeles2020-completion.json).
+Completed with documented gaps.
 
-Live DK Pass course snapshot and rendered R2 links checked. Tomegome final WR 1:31.56 recording freshly reviewed; three technique clips preserved. The 170 prior image dispositions are retained with fresh hashes and source crosschecks; 2,520 discussion messages indexed, including boundary context. Earlier previous-best chronology, inaccessible media and the contemporary withheld 1:31.52 claim retain their documented limits. Video upload, share and result clocks remain separate.
+[Completion evidence](https://mktwrs.com/data/losangeles2020-completion.json). Retained limitations:
+
+- Final DK Pass WR 1:31.56 recording preserved; earlier previous-best dates remain qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified.
 
 ### 28. 1st Anniversary Tour (2020) — 2020-10-07 to 2020-10-21
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/anniversary2020-completion.json).
+Completed with documented gaps.
 
-Live Toad Circuit snapshot and rendered R2 links checked. Tomegome 1:04.04 original-player YouTube recording freshly reviewed and preserved separately from final 1:03.96 WR. The 216 prior image dispositions are retained with fresh hashes and source crosschecks; 2,069 discussion messages indexed, including boundary context. Previous-best 1:04.26 and 1:04.12 chronology, final WR footage and inaccessible originals retain documented limits. Earlier-tour video references do not establish new Anniversary WRs.
+[Completion evidence](https://mktwrs.com/data/anniversary2020-completion.json). Retained limitations:
+
+- Final 1:03.96 result proof retained; available 1:04.04 recording shown separately. Previous-best chronology remains qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Earlier-tour and slower video references retain their documented scope. Exact race dates and inaccessible originals remain qualified.
 
 ### 29. Halloween Tour (2020) — 2020-10-21 to 2020-11-04
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/halloween2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots and rendered R2 links checked. Kazuo final Airship WR 1:30.07 and Tomegome final Bowser Castle 2R WR 1:19.29 recordings freshly reviewed. Three technique clips preserved. The 268 prior image dispositions are retained with fresh hashes and source crosschecks; 2,015 discussion messages indexed, including boundary context. Previous-best chronology, ambiguous 1:30.57 leaderboard entry and unavailable originals retain documented limits. Caption/video mismatch and edited-result exclusions retained.
+[Completion evidence](https://mktwrs.com/data/halloween2020-completion.json). Retained limitations:
+
+- Both final WR recordings preserved; prior previous-best and ambiguous intermediate leaderboard chronology retained as gaps.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified.
 
 ### 30. Sunset Tour (2020) — 2020-11-04 to 2020-11-18
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sunset2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots and rendered R2 links checked. Kazuo final Neo Bowser WR 1:24.70 recording freshly reviewed with a clear finish; one technique clip preserved. The 255 prior image dispositions are retained with fresh hashes and source crosschecks; 2,280 discussion messages indexed, including boundary context. Royal Raceway 1:33.97 footage, previous-best chronology and unavailable originals retain documented gaps. Missing Wakinyo image remains missing; surviving split text describes a slower result.
+[Completion evidence](https://mktwrs.com/data/sunset2020-completion.json). Retained limitations:
+
+- Neo Bowser City final 1:24.70 recording preserved. Royal Raceway final 1:33.97 footage unavailable; previous-best chronology qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- One technique clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified.
 
 ### 31. Mario vs. Luigi Tour (2020) — 2020-11-18 to 2020-12-02
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/marioluigi2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots and rendered R2 links checked. Kazuo final WR recordings 0:57.28 (Mario Circuit 2) and 1:58.80 (Rainbow Road) freshly reviewed with clear finishes. Seventeen additional files preserved: two same-run Reddit copies and fifteen partial/lap clips. The 315 prior image dispositions retain fresh hashes and source crosschecks. 4,446 unique messages indexed; prior 4,431-message review retained. Unidentified opening runners, disputed tie precedence, early text reports, previous-best dates and unavailable originals remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/marioluigi2020-completion.json). Retained limitations:
+
+- Both final WR recordings preserved; early reported Mario Circuit times and Rainbow previous-best dates remain qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Three opening Rainbow Road leading times are preserved with unresolved deleted-account attribution, excluded from named-player WR history pending identification.
+- Kazuo 1:59.26 tie chronology is disputed by Nu11’s immediate response; not promoted.
+- Nine captured images remain unavailable, including three avatar images; their original URLs remain in the capture index.
+- Mario Circuit 2 previous-best times 59.25, 58.33, 57.73 and 57.68 have no confirmed exact chronology.
+- Kazuo 59.08 has inconsistent written splits (29.44 + 29.54 = 58.98); laps withheld.
+- This is a reconciliation of captured evidence, not proof that the entire server has been exhausted.
+- Raw inventory differs by fifteen boundary/context rows from prior ledger. Inventory is not a new full source reading.
+- Early Kazuo 59.32/59.27 reports, Astre 1:59.20 previous best and unidentified opening Rainbow runners remain qualified; no unproven WR precedence inferred.
+- Seventeen additional preserved files reviewed previously; two same-run Reddit copies, fifteen partial/lap clips.
+- Fifteen lap/technique clips are contextual evidence, not completed runs; two additional completed Reddit copies show the same final WRs. Exact race dates and inaccessible originals remain qualified.
 
 ### 32. Winter Tour (2020) — 2020-12-02 to 2020-12-16
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/winter2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots and rendered R2 links checked. SuperFX Choco Island 1 0:39.76 and Wins Maple Treeway 1:46.16 selected recordings freshly reviewed with clear finishes. Fourteen additional tour-only files preserved: three completed personal-best runs and eleven partial/lap/failed-attempt clips. The 370 Winter image dispositions have verified hashes; 4,867 Winter messages indexed separately from the multi-tour ledger. Unknown clip contents, previous-best dates, unavailable images and disputed text remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/winter2020-completion.json). Retained limitations:
+
+- Both final WR recordings preserved; four unavailable images, unknown previous-best dates, a conflicting Phillish text report and Choco tie attribution remain qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Four captured images unavailable, including one avatar. Wakinyo 40.29 is supported by surviving original embed text, not a surviving image.
+- Original post embeds for Wakinyo 40.17 and 1:47.54 survive; both are slower than already published records and are excluded.
+- A text mention of Phillish 1:47.07 conflicts with original 1:47.09 screenshot and contemporary leaderboards; not promoted without corresponding proof.
+- Previous-best times in screenshots may document additional runs but cannot establish their exact date or position in history.
+- Astre 1:47.02 has no recovered splits; original message says the run was not recorded.
+- Unreviewed or uncaptured server evidence can still add or correct history.
+- Winter-only inventory: 4,867 captured messages and 370 reviewed surviving images. Prior 14,558 messages/1,749 images span December through February and are not Winter-only counts.
+- Two unrecovered early attached clips have no completed result in surviving text; one Reddit reference has no run total in captured context. No additional WR inferred.
+- Original Choco recording is credited to SuperFX; later Wins share does not create a second runner attribution. Maple recording uploaded after tour end is linked to December 8 submitted result.
+- Fresh representative start/gameplay/finish review plus full decode retains prior recording assessment; uninterrupted race coverage is not newly certified.
+- Eleven partial/lap/failed-attempt clips are not completed WR proof; three additional completed personal-best recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified.
 
 ### 33. Rosalina Tour (2020) — 2020-12-16 to 2020-12-30
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/rosalina2020-completion.json).
+Completed with documented gaps.
 
-Both live course snapshots and rendered R2 links checked. Selected SuperFX Choco Mountain 1:18.93 footage remains separately displayed from final WR 1:18.51 without recovered full footage; Kazuo Sunset Wilds 1:10.30 matches the WR. Two additional completed recordings and ten partial/technique clips preserved. The 316 image dispositions have verified hashes; 2,808 tour-only messages indexed separately from larger multi-tour ledger. Unknown clip contents, previous-best dates, disputed claims and unavailable originals remain documented gaps.
+[Completion evidence](https://mktwrs.com/data/rosalina2020-completion.json). Retained limitations:
 
-### 34. New Year’s 2021 Tour — 2020-12-30 to 2021-01-13
+- Sunset final WR recording preserved; Choco Mountain selected footage 1:18.93 is slower than final 1:18.51 with no recovered full recording. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Three unavailable indexed external images have surviving Discord repost copies that were visually reviewed.
+- Previous-best values can reveal missing intermediate runs but do not prove their dates or precedence. Examples: Nu11 Sunset Wilds 1:11.75, Kazuo 1:10.82 and 1:10.57, Tome Choco Mountain 1:19.49.
+- SuperFX Choco Mountain 1:18.92 appears in a later leaderboard after Nu11 1:18.62; original submission date and WR status remain unresolved.
+- A Reddit 1:09.98 claim has no recovered image or video and was challenged for proof; it is not promoted.
+- Nu11 final 1:18.51 image recovered from his January 3 request to update the previous-tour WR; original December 29 date evidence is retained.
+- Further uncaptured messages and originals may change this progression.
+- Tour-only captured messages 2,808 and surviving image census rows 316; prior larger ledger spans multiple tours. Additional January context and unavailable external duplicates are recorded separately in reconciliation.
+- Dash run-video has no total in preserved embed; one unrecovered lap/failed-attempt clip remains unknown. Access originals have unavailable download logs. No unproven total inferred.
+- Choco Mountain final 1:18.51 result evidence has no recovered full recording; selected SuperFX 1:18.93 footage is slower.
+- Fresh representative start/gameplay/finish samples plus decode retain prior recording assessment; uninterrupted unedited race coverage is not certified.
+- Ten partial/technique clips are not completed WR proof; two additional completed recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified.
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/newyear2021-completion.json).
+### 34. New Year's 2021 Tour (2020) — 2020-12-30 to 2021-01-13
 
-Both live course snapshots and rendered R2 links checked. Selected Wins recordings Koopa 0:57.99 and Airship R 1:36.91 remain distinct from final WRs 0:57.59 and 1:36.44 with unavailable originals. Eight additional files preserved: three completed files (including another selected-run encoding), five partial/technique clips. The 326 image dispositions have verified hashes; 2,511 tour-only messages indexed separately from larger multi-tour ledger. Previous-best precedence, tentative splits and unknown identities remain documented gaps.
+Completed with documented gaps.
+
+[Completion evidence](https://mktwrs.com/data/newyear2021-completion.json). Retained limitations:
+
+- Final WRs Airship R 1:36.44 and Koopa 0:57.59 have unavailable video references; selected Wins recordings 1:36.91 and 0:57.99 remain separate. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Previous-best fields reveal additional potential intermediate runs whose original submissions remain missing: Nu11 KTB2 0:58.69, 0:58.22, 0:58.03, 0:57.79. These are not assigned invented timestamps.
+- Opening KTB2 deleted-account results remain unattributed.
+- Nu11 1:37.21 lap annotation includes “maybe”; splits are left blank.
+- Both original final-tour YouTube links show “This video isn’t available anymore”. Keep original references; do not claim a backup exists.
+- Further uncaptured messages and original sources may alter this progression.
+- October5originalreviewcorrectedAFRprevious-bestgaps:1:37.14,not1:37.07,and1:36.87,not1:36.85. FourKTB2previousbestleadsstillrequireoriginaldates.
+- Tour-only index 2,511 messages and 326 reviewed surviving images; previous 14,558/1,749 totals span multiple tours. Reconciliation counts differ because extra sources/context were reviewed separately.
+- Final 1:36.44 and 0:57.59 originals unavailable; selected Wins 1:36.91 and 0:57.99 remain distinct from WRs.
+- Previous-best precedence, opening deleted identities and tentative splits remain qualified.
+- Representative gameplay and clear finishes viewed plus full decode; uninterrupted unedited coverage not newly certified.
+- Five partial/technique clips are not completed WR proof; three additional completed files include another encoding of the selected Airship run and two slower Koopa recordings. Exact race dates and inaccessible originals remain qualified.
 
 ### 35. Berlin Tour (2021) — 2021-01-13 to 2021-01-27
 
-Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/berlin2021-completion.json). Both live course snapshots verified: 721 rows match and 281 R2 links readable. Ten written/broadcast leads practically disposed; Twitch clip categorized Mario Kart Wii, Mirrativ replay expired, repeated/ambiguous reports not promoted. Selected Kalimari 1:03.49 remains distinct from WR 1:03.39; Rock 1:42.43 footage matches final WR. Deleted originals, exact previous-best chronology and uninterrupted footage coverage remain qualified.
+Completed with documented gaps.
+
+[Completion evidence](https://mktwrs.com/data/berlin2021-completion.json). Retained limitations:
+
+- Rock final 1:42.43 recording preserved; Kalimari selected 1:03.49 is slower than final 1:03.39. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Baseball Club 1:43.40 is corroborated in contemporary text; original result was deleted. Its date and the earlier chronology remain unresolved.
+- Astre 1:03.62 repost is delayed; no exact achievement date assigned.
+- Astre 1:03.59 video is preserved but WR chronology remains unresolved. Astre 1:03.49 recording shows a faster previous best and is only a video fallback.
+- Two Nu11 Twitter images remain unavailable; their written 1:03.47 and 1:42.87 totals are slower than already documented records.
+- Earlier previous-best values, including Nu11 1:04.01 and Astre 1:03.90, lack original dated submissions.
+- New image importer recovers encoded Twitter image URLs previously skipped; this review does not prove every Discord message was captured.
+- 2,270 messages and 326 surviving images are tour-only inventory counts, not a fresh exhaustive source reading.
+- Final Kalimari 1:03.39 result proof has no selected matching recording; Astre 1:03.49 is a different run.
+- Timestamp-order diagnostics occurred during full decode; process exit 0 and visible finish do not certify unedited continuity.
+- Prior pending broadcast, original-proof and precedence leads are retained unresolved here. No complete-history claim.
+- One partial clip is not completed WR proof; nine additional files retain prior completed-run review, including another encoding of the selected Astre run. Exact race dates and inaccessible originals remain qualified.
 
 ### 36. Cat Tour (2021) — 2021-01-27 to 2021-02-10
 
 Completed with documented gaps.
 
-**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 13 WR rows; 93 supporting rows; 0 pending candidates.
+[Completion evidence](https://mktwrs.com/data/cat2021-completion.json). Retained limitations:
 
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
-
-**[RMX Rainbow Road 1](https://mktwrs.com/course/rmx-rainbow-road-1)**: 16 WR rows; 109 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
+- Both final WR recordings unrecovered; selected Maple 1:50.37 and Rainbow 1:20.61 footage remain separate. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.
+- Previous-best dates and unavailable originals remain unresolved.
+- Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.
+- Deleted-account opening 1:51.95 identity unresolved.
+- Previous-best values may reveal more intermediate records or ties; original dates must still be recovered.
+- Search for numeric time strings does not reliably return known messages; empty numeric searches do not establish absence.
+- Original Nu11 Twitter video links are retained, but backup download attempts failed; no backup or playback verification is claimed.
+- Discord discussions and uncaptured sources may still change this chronology.
+- General broadcasts not watched end-to-end; silent TT appearances and deleted/private originals may remain.
+- Unresolved previous-best chronology and deleted opening identity remain explicit.
+- Prior source reviews retained; fresh preservation and file integrity checks do not certify exhaustive history.
+- Three additional short route/failed clips and the Saki lap-only clip are not completed WR proof. Wins and Spartacurt slower Maple completed recordings remain supporting evidence. Two delayed reposts belong to earlier tours. Exact race dates and inaccessible originals remain qualified.
 
 ### 37. Peach vs. Daisy Tour (2021) — 2021-02-10 to 2021-02-24
 
 Completed with documented gaps.
 
-**[N64 Choco Mountain R](https://mktwrs.com/course/n64-choco-mountain-r)**: 11 WR rows; 122 supporting rows; 0 pending candidates.
+[Completion evidence](https://mktwrs.com/data/peachdaisy2021-completion.json). Retained limitations:
 
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 1 remote-only Discord WR images.
-
-**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 6 WR rows; 110 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
-
-**[GBA Sunset Wilds R](https://mktwrs.com/course/gba-sunset-wilds-r)**: 9 WR rows; 52 supporting rows; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
+- Choco Mountain R 1:17.87 runner-reported February19 achievement disclosed February24; no video reported recorded, exact clock/laps unknown. Kazuo1:17.95 recording retained separately.
+- Donut Plains2 1:00.73 original linked YouTube unavailable; Wins1:01.12 available prior-reviewed recording preserved.
+- SuperFX Sunset Wilds R1:10.53 original footage preserved with original audio; publication after tour retained separately from original result and separate tie.
+- Prior full recording reviews retained without fresh uninterrupted certification.
+- Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved.
+- Kaguya reports achieving 1:17.87 on Friday morning, February 19, in a delayed February 24 tweet. Exact time, timezone and same-day ordering remain unresolved; original image retrieval failed.
+- SuperFX 1:10.87 was submitted three days late; exact date and laps are unresolved.
+- Tomegome 1:01.08 and 1:00.97 screenshots are later reposts; original tweet dates need recovery before WR status can be established.
+- Previous-best values reveal potential additional intermediate records. These are retained separately until original dates can be established.
+- Indexed images and search results do not establish that every Discord message was captured.
+- 303 indexed February attachments retain earlier visual or canonical dispositions; global deleted/private and unindexed sources are not certified recovered.
+- Tomegome repost chronology and unknown previous-best achievement dates remain qualified; no unproved WR promotion.
+- Choco Mountain R has no accepted opening-day WR; first published leader dated February11. Opening global succession remains unproven.
+- Prior completed-run reviews retained for three slower supporting recordings. Two preserved encodings of the lap-only clip have differing transition coverage; neither establishes a completed two-lap race.
+- Ten additional completed recordings retained with prior reviews, including delayed earlier-course footage. Two encodings of a lap-only clip have different transition coverage; neither proves a completed race. Exact race dates and inaccessible originals remain qualified.
 
 ### 38. Snow Tour (2021) — 2021-02-24 to 2021-03-10
 
-Source and publication review.
+Completed with documented gaps.
 
-**[RMX Rainbow Road 1R](https://mktwrs.com/course/rmx-rainbow-road-1r)**: 12 WR rows; 66 supporting rows; 0 pending candidates.
+[Completion evidence](https://mktwrs.com/data/snow2021-completion.json). Retained limitations:
 
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
-
-**[3DS Rosalina's Ice World](https://mktwrs.com/course/3ds-rosalina-s-ice-world)**: 9 WR rows; 74 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
+- Nu11 RMX Rainbow Road1R1:17.13 WR linked original YouTube unavailable; Spartacurt1:17.96 available recording preserved.
+- Dit Rosalinas Ice World1:29.87 image WR; faster Nu111:29.91 linked video unavailable; NHSpeedy1:30.26 available recording preserved.
+- One prior unrecovered image concerns earlier Choco Mountain disclosure; raw source retained.
+- Prior full recording reviews retained without fresh uninterrupted certification; some share/publication clocks unknown.
+- Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved.
+- The one unavailable indexed image is Kaguya’s delayed Peach vs Daisy 1:17.87 tweet, not an unread Snow result. Its image could not be recovered; surrounding text was reconciled separately.
+- Six previous-best values may hide intermediate records; original dates need recovery.
+- Opening deleted-account 1:31.87 identity is unresolved.
+- Both original Kaguya YouTube links are preserved, but their signed-in pages say the videos are no longer available. No backup has been recovered for those videos.
+- All twenty-nine matches from the dated WR query were read using a narrower date query for the final four matches; these refer to the delayed Peach vs Daisy record. This keyword search is not a complete message census.
+- Indexed images and search results do not establish complete message coverage.
+- March attachment manifest begins March10, so tour attachments rebuilt from actual message images/links and dated canonical source rows.
+- Prior visual dispositions retained; missing files and unmatched images require explicit dispositions.
+- Message capture begins March1 16:16 UTC; preceding March1 interval not shown by these files. Wider preserved Snow source reviews retained without full-message completeness certification.
+- Prior visual lap/finish reviews retained. Lap-only footage excluded from completed-record proof.
+- Three additional slower completed Ice World recordings retained; one lap-only clip excluded from completed race proof. March manifest gap repaired using actual message links and original source dispositions. Exact race dates and inaccessible originals remain qualified.
 
 ### 39. Mario Tour (2021) — 2021-03-10 to 2021-03-24
 
-Source and publication review.
+Completed with documented gaps.
 
-**[GBA Bowser's Castle 1](https://mktwrs.com/course/gba-bowser-s-castle-1)**: 8 WR rows; 115 supporting rows; 0 pending candidates; carry-in 0:59.96.
+[Completion evidence](https://mktwrs.com/data/mario2021-completion.json). Retained limitations:
 
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 14 linked-video rows; 0 remote-only Discord WR images.
-
-**[DS Luigi's Mansion R](https://mktwrs.com/course/ds-luigi-s-mansion-r)**: 18 WR rows; 162 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
-
-**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 8 WR rows; 80 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
+- DIT Bowser Castle1 WR footage preserved from player recovery uploaded2026; original2021 Twitter link retained without claiming byte-identical original recovery.
+- Mansion R Wins1:22.79 original41.41/41.38 recording distinct from tied screenshot; race date and relation to faster Nu111:22.75 unknown. Source publication identifies tour association, not achievement date.
+- Tokyo Blur4 Nu110:46.31 image WR; Spartacurt0:46.94 full footage preserved; edited original source does not establish exact video-share clock.
+- Prior full recording reviews retained without fresh uninterrupted certification.
+- Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved.
+- Previous-best fields reveal potential missing intermediate runs; dates must be recovered from original evidence.
+- Wins 1:22.79 original video survives, but its race date and relation to Nu11 1:22.83 and 1:22.75 remain unresolved.
+- One deleted-account Tokyo Blur 4 47.48 remains unattributed.
+- Wins 1:23.39 has conflicting lap shorthand, so no exact splits are asserted.
+- Twenty-five of twenty-six link-query matches were captured in this query. Earlier Chris95 video appears in the Snow closing search.
+- Several original Twitter links failed download; that alone does not establish that the media is lost.
+- Indexed image coverage and keyword queries do not establish an exhaustive message census.
+- Tokyo Blur 4 has no accepted opening-day WR in the published history; earliest global leadership remains unproved.
+- Prior gameplay/finish reviews retained. Video upload day used only for scope when original source clock absent; no race date inferred.
+- Technique and finish fragments remain distinct from completed race evidence.
+- Seven additional completed recordings retained with prior reviews; five short route/lap/finish clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 40. Yoshi Tour (2021) — 2021-03-24 to 2021-04-07
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/yoshi2021-completion.json). 969 preserved messages and 206 image dispositions checked; two selected recordings freshly sampled, ten completed recordings and six route clips preserved on R2. Final faster WR videos remain unavailable; exact race dates and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/yoshi2021-completion.json). Retained limitations:
+
+- Full server message coverage is not established by the image index or keyword searches.
+- Several early Pinball tour-leading claims are slower than the older announced all-time record; discrepancy remains unresolved.
+- Deleted-account 47.39 attribution remains unknown.
+- Previous-best fields expose additional intermediate runs whose original dates remain unresolved.
+- Tomegome 46.74 is a delayed repost; an exact original timestamp remains unavailable.
+- Nu11 Pinball 1:46.21 YouTube upload is unavailable in the signed-in browser.
+- Twitter 46.47 image tweet is not video proof and Nu11 footage must not be assigned to Tomegome.
+- Final Tokyo0:46.47 and Waluigi1:46.21 original videos unavailable; selected footage0:46.51 and1:46.40 separate.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- Prior gameplay/finish reviews retained. Upload/publication day used for tour scope when original source clock absent; no race instant inferred.
+- Six route fragments remain separate from completed race proof.
+- Eight additional completed recordings retained with prior reviews; six short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 41. Ninja Tour (2021) — 2021-04-07 to 2021-04-21
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/ninja2021-completion.json). 1849 preserved messages and 252 image dispositions checked; prior selected recording reviews retained with fresh hash/decode/access checks. Twelve completed runs and four route clips preserved on R2, plus a duplicate original SuperFX recording. Rainbow Road WR footage remains unavailable; exact race dates and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/ninja2021-completion.json). Retained limitations:
+
+- Full server message coverage is not established by the image index or keyword searches.
+- Previous-best fields expose additional intermediate runs whose original dates remain unresolved.
+- Nu11 58.99 original YouTube video is unavailable in the signed-in browser.
+- N’s April 21 Twitter post is protected and unavailable to the signed-in browser; it has not been archived.
+- Slower Rainbow Road tour-opening times do not supersede the pre-existing Vancouver Tour 59.94.
+- Several early submissions omit splits; nearby replies were read without inventing unprovided lap times.
+- Mario Circuit R1:35.84 WR footage preserved; Rainbow0:58.99 original unavailable and Astre0:59.49 separate.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.
+- Original SuperFX Discord video shared after tour end corroborates earlier April16 result; its share date does not reset WR date.
+- Four route/failed-attempt clips remain separate from completed runs.
+- Ten additional completed recordings retained with prior reviews; four short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 42. Sydney Tour (April–May 2021) (2021) — 2021-04-21 to 2021-05-05
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/sydney2021-completion.json). 1358 preserved messages and 219 image dispositions checked; both final WR recordings freshly sampled with hash/decode/access checks. Seven completed recordings and three route clips preserved on R2. Opening chronology, unavailable slower footage and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/sydney2021-completion.json). Retained limitations:
+
+- Full server message coverage is not established by the image index or keyword searches.
+- Deleted-account 1:03.05 identity is unresolved; the dated evidence and adjacent splits are retained.
+- Previous-best fields expose earlier 1:03.54 and 1:03.11 whose exact original dates remain unresolved.
+- Akisame CI2 video VZu5-ZPHOrM is unavailable in the signed-in browser.
+- Opening NBC R tour-leading WR claims are slower than the already established 2020 1:23.88.
+- Kazuo1:23.68 and Wins1:02.41 final WR recordings preserved; original video upload dates remain separate from earlier screenshots.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- No accepted opening-day Choco WR; first published accepted leader is April22. Early global leadership remains unresolved.
+- Nu11 RMX Choco1:02.58 video unavailable; original screenshot and contemporary world-second embed retained without playable proof.
+- Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.
+- Original final WR videos shared after earlier screenshots; publication dates do not reset achievement dates.
+- Three route/failed-attempt clips remain separate from completed runs.
+- Five additional completed recordings retained with prior reviews; three short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 43. Bowser vs. DK Tour (2021) — 2021-05-05 to 2021-05-19
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/bowserdk2021-completion.json). 1769 preserved messages and 229 image dispositions checked; all three final WR recordings freshly sampled including completed finish frames. Eleven completed runs, ten partial clips and a duplicate community WR copy preserved on R2. Kalimari debut-day leadership and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/bowserdk2021-completion.json). Retained limitations:
+
+- Image indexing and keyword searches do not establish complete server-message coverage.
+- Some previous-best dates and lap splits remain unresolved.
+- N’s qualified lap recollection is retained in notes, not treated as exact.
+- Two same-player reties are retained as submissions without inflating WR changes.
+- Original Nu 1:29.85 video and first Kazuo 1:04.30 video post are unavailable; the latter has a surviving preserved repost.
+- All three Kazuo final WRs have preserved footage. Kalimari original tweet deleted; May15 surviving repost and May14 community copy retain earlier result date.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- Kalimari Desert2R has no accepted debut-day WR; first accepted history beginsMay6. Opening global leadership remains unresolved.
+- Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.
+- Community Kalimari64.30 copy is separate preservation of the selected final run; share date does not reset original WR date.
+- Partial route clips remain separate from completed runs.
+- Eight additional completed recordings retained with prior reviews; ten short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 44. Trick Tour (2021) — 2021-05-19 to 2021-06-02
 
-Source and publication review.
+Completed with documented gaps.
 
-**[SNES Ghost Valley 1](https://mktwrs.com/course/snes-ghost-valley-1)**: 5 WR rows; 123 supporting rows; 0 pending candidates; carry-in 0:39.93.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
-
-**[N64 Koopa Troopa Beach R](https://mktwrs.com/course/n64-koopa-troopa-beach-r)**: 12 WR rows; 67 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
-
-**[3DS Rainbow Road R](https://mktwrs.com/course/3ds-rainbow-road-r)**: 21 WR rows; 135 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
+[Completion evidence](https://mktwrs.com/data/trick2021-completion.json). 1900 preserved messages indexed, 318 image hashes checked and one broken attachment retained. Three selected recordings freshly sampled and decoded. Sixteen completed runs plus a second encoding of the selected Wins run and four partial clips preserved on R2. Final WR footage and global intermediate succession remain unavailable or unproved.
 
 ### 45. Wedding Tour (2021) — 2021-06-02 to 2021-06-16
 
 Source and publication review.
 
-**[3DS Mario Circuit](https://mktwrs.com/course/3ds-mario-circuit)**: 15 WR rows; 85 supporting rows; 0 pending candidates; carry-in 1:35.47.
+**[3DS Mario Circuit](https://mktwrs.com/course/3ds-mario-circuit)**: 15 WR rows; 85 supporting results; 0 pending candidates; carried-in WR 1:35.47.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 11 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Rainbow Road 2](https://mktwrs.com/course/rmx-rainbow-road-2)**: 10 WR rows; 85 supporting rows; 0 pending candidates.
+**[RMX Rainbow Road 2](https://mktwrs.com/course/rmx-rainbow-road-2)**: 10 WR rows; 85 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 1 remote-only Discord WR images.
 
 ### 46. Paris Tour (2021) — 2021-06-16 to 2021-06-30
 
 Source and publication review.
 
-**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 6 WR rows; 50 supporting rows; 0 pending candidates.
+**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 6 WR rows; 50 supporting results; 0 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Rock Rock Mountain](https://mktwrs.com/course/3ds-rock-rock-mountain)**: 4 WR rows; 76 supporting rows; 0 pending candidates; carry-in 1:47.53.
+**[3DS Rock Rock Mountain](https://mktwrs.com/course/3ds-rock-rock-mountain)**: 4 WR rows; 76 supporting results; 0 pending candidates; carried-in WR 1:47.53.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Royal Raceway R](https://mktwrs.com/course/n64-royal-raceway-r)**: 10 WR rows; 101 supporting rows; 0 pending candidates.
+**[N64 Royal Raceway R](https://mktwrs.com/course/n64-royal-raceway-r)**: 10 WR rows; 101 supporting results; 0 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 47. Summer Tour (2021) — 2021-06-30 to 2021-07-14
 
 Carry in and sparse history check.
 
-**[DS Airship Fortress R](https://mktwrs.com/course/ds-airship-fortress-r)**: 0 WR rows; 47 supporting rows; 0 pending candidates; carry-in 1:36.44.
+**[DS Airship Fortress R](https://mktwrs.com/course/ds-airship-fortress-r)**: 0 WR rows; 47 supporting results; 0 pending candidates; carried-in WR 1:36.44.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Choco Island 1](https://mktwrs.com/course/rmx-choco-island-1)**: 4 WR rows; 68 supporting rows; 0 pending candidates; carry-in 1:12.36.
+**[RMX Choco Island 1](https://mktwrs.com/course/rmx-choco-island-1)**: 4 WR rows; 68 supporting results; 0 pending candidates; carried-in WR 1:12.36.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 48. Los Angeles Tour (2021) — 2021-07-14 to 2021-07-28
 
 Source and publication review.
 
-**[N64 Kalimari Desert R](https://mktwrs.com/course/n64-kalimari-desert-r)**: 12 WR rows; 77 supporting rows; 0 pending candidates.
+**[N64 Kalimari Desert R](https://mktwrs.com/course/n64-kalimari-desert-r)**: 12 WR rows; 77 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Mario Circuit 3](https://mktwrs.com/course/snes-mario-circuit-3)**: 5 WR rows; 73 supporting rows; 0 pending candidates; carry-in 1:07.18.
+**[SNES Mario Circuit 3](https://mktwrs.com/course/snes-mario-circuit-3)**: 5 WR rows; 73 supporting results; 0 pending candidates; carried-in WR 1:07.18.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 49. Mario vs. Peach Tour (2021) — 2021-07-28 to 2021-08-11
 
 Source and publication review.
 
-**[GBA Cheep-Cheep Island](https://mktwrs.com/course/gba-cheep-cheep-island)**: 5 WR rows; 59 supporting rows; 0 pending candidates.
+**[GBA Cheep-Cheep Island](https://mktwrs.com/course/gba-cheep-cheep-island)**: 5 WR rows; 59 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 2 WR rows; 57 supporting rows; 0 pending candidates; carry-in 1:18.51.
+**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 2 WR rows; 57 supporting results; 0 pending candidates; carried-in WR 1:18.51.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 50. Frost Tour (2021) — 2021-08-11 to 2021-08-25
 
 Source and publication review.
 
-**[Wii DK Summit](https://mktwrs.com/course/wii-dk-summit)**: 14 WR rows; 112 supporting rows; 0 pending candidates.
+**[Wii DK Summit](https://mktwrs.com/course/wii-dk-summit)**: 14 WR rows; 112 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Toad Circuit R](https://mktwrs.com/course/3ds-toad-circuit-r)**: 10 WR rows; 113 supporting rows; 0 pending candidates; carry-in 1:03.09.
+**[3DS Toad Circuit R](https://mktwrs.com/course/3ds-toad-circuit-r)**: 10 WR rows; 113 supporting results; 0 pending candidates; carried-in WR 1:03.09.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
 
 ### 51. Kamek Tour (2021) — 2021-08-25 to 2021-09-08
 
 Source and publication review.
 
-**[SNES Rainbow Road R](https://mktwrs.com/course/snes-rainbow-road-r)**: 5 WR rows; 90 supporting rows; 0 pending candidates; carry-in 1:00.16.
+**[SNES Rainbow Road R](https://mktwrs.com/course/snes-rainbow-road-r)**: 5 WR rows; 90 supporting results; 0 pending candidates; carried-in WR 1:00.16.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)**: 12 WR rows; 78 supporting rows; 0 pending candidates.
+**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)**: 12 WR rows; 78 supporting results; 0 pending candidates.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 52. Sydney Tour (September 2021) (2021) — 2021-09-08 to 2021-09-22
 
 Source and publication review.
 
-**[RMX Vanilla Lake 1R](https://mktwrs.com/course/rmx-vanilla-lake-1r)**: 5 WR rows; 30 supporting rows; 0 pending candidates.
+**[RMX Vanilla Lake 1R](https://mktwrs.com/course/rmx-vanilla-lake-1r)**: 5 WR rows; 30 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 7 WR rows; 73 supporting rows; 0 pending candidates; carry-in 1:33.68.
+**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 7 WR rows; 73 supporting results; 0 pending candidates; carried-in WR 1:33.68.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
 ### 53. 2nd Anniversary Tour (2021) — 2021-09-22 to 2021-10-06
 
 Source and publication review.
 
-**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 14 WR rows; 86 supporting rows; 0 pending candidates.
+**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 14 WR rows; 86 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 11 linked-video rows; 0 remote-only Discord WR images.
 
-**[Sydney Sprint](https://mktwrs.com/course/sydney-sprint)**: 14 WR rows; 104 supporting rows; 0 pending candidates.
+**[Sydney Sprint](https://mktwrs.com/course/sydney-sprint)**: 14 WR rows; 104 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 9 linked-video rows; 0 remote-only Discord WR images.
 
 ### 54. Autumn Tour (2021) — 2021-10-06 to 2021-10-20
 
 Source and publication review.
 
-**[RMX Ghost Valley 1](https://mktwrs.com/course/rmx-ghost-valley-1)**: 8 WR rows; 77 supporting rows; 0 pending candidates.
+**[RMX Ghost Valley 1](https://mktwrs.com/course/rmx-ghost-valley-1)**: 8 WR rows; 77 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Sunset Wilds R](https://mktwrs.com/course/gba-sunset-wilds-r)**: 3 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:10.53.
+**[GBA Sunset Wilds R](https://mktwrs.com/course/gba-sunset-wilds-r)**: 3 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:10.53.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
 ### 55. Halloween Tour (2021) — 2021-10-20 to 2021-11-03
 
 Source and publication review.
 
-**[GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r)**: 7 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:40.18.
+**[GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r)**: 7 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:40.18.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Rosalina's Ice World](https://mktwrs.com/course/3ds-rosalina-s-ice-world)**: 3 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:29.87.
+**[3DS Rosalina's Ice World](https://mktwrs.com/course/3ds-rosalina-s-ice-world)**: 3 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:29.87.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 56. Toad vs. Toadette Tour (2021) — 2021-11-03 to 2021-11-17
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 1](https://mktwrs.com/course/snes-donut-plains-1)**: 4 WR rows; 51 supporting rows; 0 pending candidates; carry-in 0:49.77.
+**[SNES Donut Plains 1](https://mktwrs.com/course/snes-donut-plains-1)**: 4 WR rows; 51 supporting results; 0 pending candidates; carried-in WR 0:49.77.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 1 WR rows; 32 supporting rows; 0 pending candidates; carry-in 1:03.39.
+**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 1 WR rows; 32 supporting results; 0 pending candidates; carried-in WR 1:03.39.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Choco Island 1R](https://mktwrs.com/course/rmx-choco-island-1r)**: 7 WR rows; 84 supporting rows; 0 pending candidates.
+**[RMX Choco Island 1R](https://mktwrs.com/course/rmx-choco-island-1r)**: 7 WR rows; 84 supporting results; 0 pending candidates.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 57. Space Tour (2021) — 2021-11-17 to 2021-12-01
 
 Carry in and sparse history check.
 
-**[SNES Koopa Troopa Beach 2](https://mktwrs.com/course/snes-koopa-troopa-beach-2)**: 1 WR rows; 49 supporting rows; 0 pending candidates; carry-in 0:57.59.
+**[SNES Koopa Troopa Beach 2](https://mktwrs.com/course/snes-koopa-troopa-beach-2)**: 1 WR rows; 49 supporting results; 0 pending candidates; carried-in WR 0:57.59.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Rainbow Road 2R](https://mktwrs.com/course/rmx-rainbow-road-2r)**: 29 WR rows; 70 supporting rows; 0 pending candidates.
+**[RMX Rainbow Road 2R](https://mktwrs.com/course/rmx-rainbow-road-2r)**: 29 WR rows; 70 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 9 linked-video rows; 0 remote-only Discord WR images.
 
 ### 58. Holiday Tour (2021) — 2021-12-01 to 2021-12-15
 
 Carry in and sparse history check.
 
-**[N64 Choco Mountain R](https://mktwrs.com/course/n64-choco-mountain-r)**: 0 WR rows; 49 supporting rows; 0 pending candidates; carry-in 1:17.87.
+**[N64 Choco Mountain R](https://mktwrs.com/course/n64-choco-mountain-r)**: 0 WR rows; 49 supporting results; 0 pending candidates; carried-in WR 1:17.87.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[Wii Maple Treeway](https://mktwrs.com/course/wii-maple-treeway)**: 3 WR rows; 39 supporting rows; 0 pending candidates; carry-in 1:46.16.
+**[Wii Maple Treeway](https://mktwrs.com/course/wii-maple-treeway)**: 3 WR rows; 39 supporting results; 0 pending candidates; carried-in WR 1:46.16.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 59. Penguin Tour (2021) — 2021-12-15 to 2021-12-29
 
 Carry in and sparse history check.
 
-**[GBA Bowser's Castle 2R](https://mktwrs.com/course/gba-bowser-s-castle-2r)**: 1 WR rows; 46 supporting rows; 0 pending candidates; carry-in 1:19.29.
+**[GBA Bowser's Castle 2R](https://mktwrs.com/course/gba-bowser-s-castle-2r)**: 1 WR rows; 46 supporting results; 0 pending candidates; carried-in WR 1:19.29.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Vanilla Lake 2](https://mktwrs.com/course/snes-vanilla-lake-2)**: 7 WR rows; 95 supporting rows; 0 pending candidates.
+**[SNES Vanilla Lake 2](https://mktwrs.com/course/snes-vanilla-lake-2)**: 7 WR rows; 95 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 60. New Year's 2022 Tour (2021) — 2021-12-29 to 2022-01-12
 
 Source and publication review.
 
-**[3DS Cheep Cheep Lagoon R](https://mktwrs.com/course/3ds-cheep-cheep-lagoon-r)**: 14 WR rows; 55 supporting rows; 0 pending candidates.
+**[3DS Cheep Cheep Lagoon R](https://mktwrs.com/course/3ds-cheep-cheep-lagoon-r)**: 14 WR rows; 55 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 10 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert](https://mktwrs.com/course/n64-kalimari-desert)**: 4 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:15.29.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
-
-**[SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1)**: 7 WR rows; 42 supporting rows; 0 pending candidates; carry-in 0:34.62.
+**[N64 Kalimari Desert](https://mktwrs.com/course/n64-kalimari-desert)**: 4 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:15.29.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
+
+**[SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1)**: 7 WR rows; 42 supporting results; 0 pending candidates; carried-in WR 0:34.62.
+
+- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 61. Singapore Tour (2022) — 2022-01-12 to 2022-01-26
 
 Source and publication review.
 
-**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 22 WR rows; 26 supporting rows; 0 pending candidates.
+**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 22 WR rows; 26 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 11 linked-video rows; 0 remote-only Discord WR images.
 
-**[DS Waluigi Pinball R](https://mktwrs.com/course/ds-waluigi-pinball-r)**: 4 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:45.91.
+**[DS Waluigi Pinball R](https://mktwrs.com/course/ds-waluigi-pinball-r)**: 4 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:45.91.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 62. Wario vs. Waluigi Tour (2022) — 2022-01-26 to 2022-02-09
 
 Source and publication review.
 
-**[3DS Bowser's Castle](https://mktwrs.com/course/3ds-bowser-s-castle)**: 16 WR rows; 20 supporting rows; 0 pending candidates.
+**[3DS Bowser's Castle](https://mktwrs.com/course/3ds-bowser-s-castle)**: 16 WR rows; 20 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Rainbow Road 1R](https://mktwrs.com/course/rmx-rainbow-road-1r)**: 1 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:17.13.
+**[RMX Rainbow Road 1R](https://mktwrs.com/course/rmx-rainbow-road-1r)**: 1 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:17.13.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 63. Los Angeles Tour (2022) — 2022-02-09 to 2022-02-23
 
 Source and publication review.
 
-**[Wii DK Summit R](https://mktwrs.com/course/wii-dk-summit-r)**: 10 WR rows; 33 supporting rows; 0 pending candidates.
+**[Wii DK Summit R](https://mktwrs.com/course/wii-dk-summit-r)**: 10 WR rows; 33 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 16 WR rows; 16 supporting rows; 0 pending candidates.
+**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 16 WR rows; 16 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
 ### 64. Sky Tour (2022) — 2022-02-23 to 2022-03-09
 
 Source and publication review.
 
-**[RMX Ghost Valley 1R](https://mktwrs.com/course/rmx-ghost-valley-1r)**: 10 WR rows; 130 supporting rows; 0 pending candidates.
+**[RMX Ghost Valley 1R](https://mktwrs.com/course/rmx-ghost-valley-1r)**: 10 WR rows; 130 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 10 linked-video rows; 0 remote-only Discord WR images.
 
 ### 65. Mii Tour (2022) — 2022-03-09 to 2022-03-23
 
 Carry in and sparse history check.
 
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 1 WR rows; 26 supporting rows; 0 pending candidates; carry-in 1:04.30.
+**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 1 WR rows; 26 supporting results; 0 pending candidates; carried-in WR 1:04.30.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Rainbow Road 1](https://mktwrs.com/course/rmx-rainbow-road-1)**: 2 WR rows; 60 supporting rows; 0 pending candidates; carry-in 1:18.95.
+**[RMX Rainbow Road 1](https://mktwrs.com/course/rmx-rainbow-road-1)**: 2 WR rows; 60 supporting results; 0 pending candidates; carried-in WR 1:18.95.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 66. Samurai Tour (2022) — 2022-03-23 to 2022-04-06
 
 Data quality and history check.
 
-**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)**: 4 WR rows; 34 supporting rows; 1 pending candidates; carry-in 1:02.44.
+**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)**: 4 WR rows; 34 supporting results; 1 pending candidates; carried-in WR 1:02.44.
 
 - Check implausible parsed times against the original image; do not promote them.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Wario Shipyard R](https://mktwrs.com/course/3ds-wario-shipyard-r)**: 8 WR rows; 45 supporting rows; 0 pending candidates.
+**[3DS Wario Shipyard R](https://mktwrs.com/course/3ds-wario-shipyard-r)**: 8 WR rows; 45 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 67. Yoshi Tour (2022) — 2022-04-06 to 2022-04-20
 
 Source and publication review.
 
-**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 14 WR rows; 77 supporting rows; 0 pending candidates.
+**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 14 WR rows; 77 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 11 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 5 WR rows; 70 supporting rows; 0 pending candidates.
+**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 5 WR rows; 70 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 68. Amsterdam Tour (2022) — 2022-04-20 to 2022-05-04
 
 Source and publication review.
 
-**[SNES Choco Island 1R](https://mktwrs.com/course/snes-choco-island-1r)**: 5 WR rows; 65 supporting rows; 0 pending candidates.
+**[SNES Choco Island 1R](https://mktwrs.com/course/snes-choco-island-1r)**: 5 WR rows; 65 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 12 linked-video rows; 0 remote-only Discord WR images.
 
-**[RMX Rainbow Road 2](https://mktwrs.com/course/rmx-rainbow-road-2)**: 4 WR rows; 76 supporting rows; 0 pending candidates; carry-in 1:21.65.
+**[RMX Rainbow Road 2](https://mktwrs.com/course/rmx-rainbow-road-2)**: 4 WR rows; 76 supporting results; 0 pending candidates; carried-in WR 1:21.65.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
 ### 69. Doctor Tour (2022) — 2022-05-04 to 2022-05-18
 
 Data quality and history check.
 
-**[GBA Cheep-Cheep Island](https://mktwrs.com/course/gba-cheep-cheep-island)**: 1 WR rows; 28 supporting rows; 1 pending candidates; carry-in 1:11.79.
+**[GBA Cheep-Cheep Island](https://mktwrs.com/course/gba-cheep-cheep-island)**: 1 WR rows; 28 supporting results; 1 pending candidates; carried-in WR 1:11.79.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check implausible parsed times against the original image; do not promote them.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r)**: 10 WR rows; 108 supporting rows; 0 pending candidates; carry-in 1:20.94.
+**[3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r)**: 10 WR rows; 108 supporting results; 0 pending candidates; carried-in WR 1:20.94.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
 
 ### 70. Peach vs. Bowser Tour (May 2022) (2022) — 2022-05-18 to 2022-06-01
 
 Candidate and source review.
 
-**[N64 Koopa Troopa Beach R](https://mktwrs.com/course/n64-koopa-troopa-beach-r)**: 1 WR rows; 27 supporting rows; 4 pending candidates; carry-in 1:15.33.
+**[N64 Koopa Troopa Beach R](https://mktwrs.com/course/n64-koopa-troopa-beach-r)**: 1 WR rows; 27 supporting results; 4 pending candidates; carried-in WR 1:15.33.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 1 remote-only Discord WR images.
 
-**[GBA Sunset Wilds](https://mktwrs.com/course/gba-sunset-wilds)**: 7 WR rows; 74 supporting rows; 0 pending candidates; carry-in 1:10.30.
+**[GBA Sunset Wilds](https://mktwrs.com/course/gba-sunset-wilds)**: 7 WR rows; 74 supporting results; 0 pending candidates; carried-in WR 1:10.30.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 9 linked-video rows; 0 remote-only Discord WR images.
 
 ### 71. Cat Tour (2022) — 2022-06-01 to 2022-06-15
 
 Candidate and source review.
 
-**[N64 Frappe Snowland R](https://mktwrs.com/course/n64-frappe-snowland-r)**: 5 WR rows; 87 supporting rows; 0 pending candidates; carry-in 1:20.85.
+**[N64 Frappe Snowland R](https://mktwrs.com/course/n64-frappe-snowland-r)**: 5 WR rows; 87 supporting results; 0 pending candidates; carried-in WR 1:20.85.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Yoshi Valley](https://mktwrs.com/course/n64-yoshi-valley)**: 4 WR rows; 127 supporting rows; 1 pending candidates.
+**[N64 Yoshi Valley](https://mktwrs.com/course/n64-yoshi-valley)**: 4 WR rows; 127 supporting results; 1 pending candidates.
 
 - Resolve pending candidates with surviving good-enough proof.
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 8 linked-video rows; 1 remote-only Discord WR images.
 
 ### 72. Metropolitan Tour (2022) — 2022-06-15 to 2022-06-29
 
 Source and publication review.
 
-**[Amsterdam Drift](https://mktwrs.com/course/amsterdam-drift)**: 7 WR rows; 39 supporting rows; 0 pending candidates.
+**[Amsterdam Drift](https://mktwrs.com/course/amsterdam-drift)**: 7 WR rows; 39 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
-**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 4 WR rows; 47 supporting rows; 0 pending candidates.
+**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 4 WR rows; 47 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 1 remote-only Discord WR images.
 
 ### 73. Bangkok Tour (2022) — 2022-06-29 to 2022-07-13
 
 Source and publication review.
 
-**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 8 WR rows; 137 supporting rows; 0 pending candidates.
+**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 8 WR rows; 137 supporting results; 0 pending candidates.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 3 linked-video rows; 1 remote-only Discord WR images.
 
-**[RMX Vanilla Lake 1R](https://mktwrs.com/course/rmx-vanilla-lake-1r)**: 3 WR rows; 57 supporting rows; 0 pending candidates; carry-in 1:01.32.
+**[RMX Vanilla Lake 1R](https://mktwrs.com/course/rmx-vanilla-lake-1r)**: 3 WR rows; 57 supporting results; 0 pending candidates; carried-in WR 1:01.32.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 74. Piranha Plant Tour (2022) — 2022-07-13 to 2022-07-27
 
 Source and publication review.
 
-**[SNES Ghost Valley 1R](https://mktwrs.com/course/snes-ghost-valley-1r)**: 7 WR rows; 94 supporting rows; 0 pending candidates; carry-in 0:40.52.
+**[SNES Ghost Valley 1R](https://mktwrs.com/course/snes-ghost-valley-1r)**: 7 WR rows; 94 supporting results; 0 pending candidates; carried-in WR 0:40.52.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 75. Ocean Tour (2022) — 2022-07-27 to 2022-08-10
 
 Candidate and source review.
 
-**[RMX Rainbow Road 2R](https://mktwrs.com/course/rmx-rainbow-road-2r)**: 1 WR rows; 50 supporting rows; 3 pending candidates; carry-in 1:21.57.
+**[RMX Rainbow Road 2R](https://mktwrs.com/course/rmx-rainbow-road-2r)**: 1 WR rows; 50 supporting results; 3 pending candidates; carried-in WR 1:21.57.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
 ### 76. Sundae Tour (2022) — 2022-08-10 to 2022-08-24
 
-Carry in and sparse history check.
+Source and publication review.
 
-**[3DS Bowser's Castle](https://mktwrs.com/course/3ds-bowser-s-castle)**: 1 WR rows; 50 supporting rows; 0 pending candidates; carry-in 1:35.39.
+**[3DS Bowser's Castle](https://mktwrs.com/course/3ds-bowser-s-castle)**: 2 WR rows; 50 supporting results; 0 pending candidates; carried-in WR 1:35.39.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
+- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
+
+**[3DS Rosalina's Ice World R](https://mktwrs.com/course/3ds-rosalina-s-ice-world-r)**: 2 WR rows; 53 supporting results; 0 pending candidates; carried-in WR 1:29.62.
+
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
-
-**[3DS Rosalina's Ice World R](https://mktwrs.com/course/3ds-rosalina-s-ice-world-r)**: 2 WR rows; 53 supporting rows; 0 pending candidates; carry-in 1:29.62.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 77. Bowser Tour (2022) — 2022-08-24 to 2022-09-07
 
 Candidate and source review.
 
-**[GBA Bowser's Castle 3](https://mktwrs.com/course/gba-bowser-s-castle-3)**: 3 WR rows; 115 supporting rows; 1 pending candidates.
+**[GBA Bowser's Castle 3](https://mktwrs.com/course/gba-bowser-s-castle-3)**: 4 WR rows; 115 supporting results; 1 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Resolve pending candidates with surviving good-enough proof.
+- Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Choco Island 2R](https://mktwrs.com/course/snes-choco-island-2r)**: 5 WR rows; 54 supporting rows; 0 pending candidates; carry-in 0:49.55.
+**[SNES Choco Island 2R](https://mktwrs.com/course/snes-choco-island-2r)**: 5 WR rows; 54 supporting results; 0 pending candidates; carried-in WR 0:49.55.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
 ### 78. Mario vs. Luigi Tour (2022) — 2022-09-07 to 2022-09-21
 
 Carry in and sparse history check.
 
-**[DS DK Pass](https://mktwrs.com/course/ds-dk-pass)**: 0 WR rows; 48 supporting rows; 0 pending candidates; carry-in 1:31.56.
+**[DS DK Pass](https://mktwrs.com/course/ds-dk-pass)**: 0 WR rows; 48 supporting results; 0 pending candidates; carried-in WR 1:31.56.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Wii DK Summit](https://mktwrs.com/course/wii-dk-summit)**: 2 WR rows; 59 supporting rows; 0 pending candidates; carry-in 1:32.90.
+**[Wii DK Summit](https://mktwrs.com/course/wii-dk-summit)**: 2 WR rows; 59 supporting results; 0 pending candidates; carried-in WR 1:32.90.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 5 WR rows; 46 supporting rows; 0 pending candidates; carry-in 1:49.98.
+**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 5 WR rows; 46 supporting results; 0 pending candidates; carried-in WR 1:49.98.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 79. Anniversary Tour (2022) — 2022-09-21 to 2022-10-05
 
-Faster result reconciliation.
+Candidate and source review.
 
-**[Berlin Byways 3](https://mktwrs.com/course/berlin-byways-3)**: 2 WR rows; 131 supporting rows; 1 pending candidates.
+**[Berlin Byways 3](https://mktwrs.com/course/berlin-byways-3)**: 3 WR rows; 131 supporting results; 1 pending candidates.
 
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check faster supporting results for date, eligibility and WR precedence before adding them to history.
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Resolve pending candidates with surviving good-enough proof.
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 10 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway 2](https://mktwrs.com/course/singapore-speedway-2)**: 2 WR rows; 92 supporting rows; 2 pending candidates.
+**[Singapore Speedway 2](https://mktwrs.com/course/singapore-speedway-2)**: 2 WR rows; 92 supporting results; 2 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 12 linked-video rows; 0 remote-only Discord WR images.
 
 ### 80. Battle Tour (2022) — 2022-10-05 to 2022-10-19
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 5 WR rows; 92 supporting rows; 0 pending candidates; carry-in 0:49.69.
+**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 5 WR rows; 92 supporting results; 0 pending candidates; carried-in WR 0:49.69.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 1 WR rows; 47 supporting rows; 0 pending candidates; carry-in 1:00.73.
+**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 1 WR rows; 47 supporting results; 0 pending candidates; carried-in WR 1:00.73.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 81. Halloween Tour (2022) — 2022-10-19 to 2022-11-02
 
 Source and publication review.
 
-**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 3 WR rows; 80 supporting rows; 0 pending candidates.
+**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 3 WR rows; 80 supporting results; 0 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
 ### 82. Autumn Tour (2022) — 2022-11-02 to 2022-11-16
 
 Sparse history review.
 
-**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 1 WR rows; 53 supporting rows; 0 pending candidates.
+**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 1 WR rows; 53 supporting results; 0 pending candidates.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 3 WR rows; 24 supporting rows; 0 pending candidates.
+**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 3 WR rows; 24 supporting results; 0 pending candidates.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 83. Animal Tour (2022) — 2022-11-16 to 2022-11-30
 
 Candidate and source review.
 
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 0 WR rows; 38 supporting rows; 0 pending candidates; carry-in 1:18.38.
+**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 0 WR rows; 38 supporting results; 0 pending candidates; carried-in WR 1:18.38.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 3 WR rows; 88 supporting rows; 4 pending candidates.
+**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 4 WR rows; 88 supporting results; 4 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Resolve pending candidates with surviving good-enough proof.
+- Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 13 linked-video rows; 0 remote-only Discord WR images.
 
 ### 84. Peach vs. Bowser Tour (November–December 2022) (2022) — 2022-11-30 to 2022-12-14
 
 Faster result reconciliation.
 
-**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 0 WR rows; 35 supporting rows; 0 pending candidates; carry-in 1:38.39.
+**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 0 WR rows; 35 supporting results; 0 pending candidates; carried-in WR 1:38.39.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 2 WR rows; 76 supporting rows; 1 pending candidates.
+**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 2 WR rows; 76 supporting results; 1 pending candidates.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 0 WR rows; 21 supporting rows; 0 pending candidates; carry-in 1:33.97.
+**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 0 WR rows; 21 supporting results; 0 pending candidates; carried-in WR 1:33.97.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 85. Holiday Tour (2022) — 2022-12-14 to 2022-12-28
 
 Candidate and source review.
 
-**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 3 WR rows; 64 supporting rows; 0 pending candidates.
+**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 3 WR rows; 64 supporting results; 0 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
-**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 5 WR rows; 97 supporting rows; 1 pending candidates.
+**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 5 WR rows; 97 supporting results; 1 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
 ### 86. New Year's Tour (2022) — 2022-12-28 to 2023-01-11
 
 Candidate and source review.
 
-**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 3 WR rows; 25 supporting rows; 0 pending candidates.
+**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 3 WR rows; 25 supporting results; 0 pending candidates.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 2 WR rows; 27 supporting rows; 2 pending candidates.
+**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 2 WR rows; 27 supporting results; 2 pending candidates.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 87. Space Tour (2023) — 2023-01-11 to 2023-01-25
 
-Faster result reconciliation.
+Candidate and source review.
 
-**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 2 WR rows; 75 supporting rows; 1 pending candidates.
+**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 3 WR rows; 75 supporting results; 1 pending candidates.
 
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check faster supporting results for date, eligibility and WR precedence before adding them to history.
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 1 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 0 WR rows; 58 supporting rows; 0 pending candidates; carry-in 1:03.39.
+**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 1 WR rows; 58 supporting results; 0 pending candidates; carried-in WR 1:03.39.
 
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Check faster supporting results for date, eligibility and WR precedence before adding them to history.
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 88. Winter Tour (2023) — 2023-01-25 to 2023-02-08
 
 Candidate and source review.
 
-**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 2 WR rows; 38 supporting rows; 1 pending candidates.
+**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 2 WR rows; 38 supporting results; 1 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 1 WR rows; 69 supporting rows; 3 pending candidates.
+**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 1 WR rows; 69 supporting results; 3 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 9 linked-video rows; 0 remote-only Discord WR images.
 
-**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 4 WR rows; 54 supporting rows; 0 pending candidates; carry-in 0:46.31.
+**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 4 WR rows; 54 supporting results; 0 pending candidates; carried-in WR 0:46.31.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 15 linked-video rows; 0 remote-only Discord WR images.
 
 ### 89. Exploration Tour (2023) — 2023-02-08 to 2023-02-22
 
 Source and publication review.
 
-**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 5 WR rows; 59 supporting rows; 0 pending candidates.
+**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 5 WR rows; 59 supporting results; 0 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 5 WR rows; 50 supporting rows; 0 pending candidates.
+**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 5 WR rows; 50 supporting results; 0 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
 ### 90. Doctor Tour (2023) — 2023-02-22 to 2023-03-08
 
-Debut history gap.
+Candidate and source review.
 
-**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 0 WR rows; 37 supporting rows; 4 pending candidates.
+**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 1 WR rows; 37 supporting results; 4 pending candidates.
 
-- Recover the debut final opening-day leader and genuine later improvements.
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 1 WR rows; 42 supporting rows; 0 pending candidates; carry-in 1:04.13.
+**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 1 WR rows; 42 supporting results; 0 pending candidates; carried-in WR 1:04.13.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 91. Mario Tour (2023) — 2023-03-08 to 2023-03-22
 
 Candidate and source review.
 
-**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 1 WR rows; 52 supporting rows; 7 pending candidates.
+**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 1 WR rows; 52 supporting results; 7 pending candidates.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 1 remote-only Discord WR images.
 
-**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 1 WR rows; 31 supporting rows; 1 pending candidates.
+**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 1 WR rows; 31 supporting results; 1 pending candidates.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 92. Ninja Tour (2023) — 2023-03-22 to 2023-04-05
 
-Faster result reconciliation.
+Candidate and source review.
 
-**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 1 WR rows; 132 supporting rows; 15 pending candidates.
+**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 2 WR rows; 132 supporting results; 15 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 1 WR rows; 72 supporting rows; 0 pending candidates; carry-in 1:33.59.
+**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 1 WR rows; 72 supporting results; 0 pending candidates; carried-in WR 1:33.59.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 93. Yoshi Tour (2023) — 2023-04-05 to 2023-04-19
 
 Candidate and source review.
 
-**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 1 WR rows; 46 supporting rows; 3 pending candidates; carry-in 1:00.40.
+**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 1 WR rows; 46 supporting results; 3 pending candidates; carried-in WR 1:00.40.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 1 WR rows; 55 supporting rows; 1 pending candidates; carry-in 1:31.79.
+**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 1 WR rows; 55 supporting results; 1 pending candidates; carried-in WR 1:31.79.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 94. Spring Tour (2023) — 2023-04-19 to 2023-05-03
 
 Candidate and source review.
 
-**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 1 WR rows; 70 supporting rows; 9 pending candidates.
+**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 1 WR rows; 70 supporting results; 9 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 1 WR rows; 34 supporting rows; 2 pending candidates; carry-in 1:14.54.
+**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 1 WR rows; 34 supporting results; 2 pending candidates; carried-in WR 1:14.54.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 95. Bowser Tour (2023) — 2023-05-03 to 2023-05-17
 
 Candidate and source review.
 
-**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 1 WR rows; 80 supporting rows; 6 pending candidates.
+**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 1 WR rows; 80 supporting results; 6 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 13 supporting rows; 0 pending candidates; carry-in 1:04.30.
+**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 13 supporting results; 0 pending candidates; carried-in WR 1:04.30.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 96. Mii Tour (2023) — 2023-05-17 to 2023-05-31
 
-Debut history gap.
+Candidate and source review.
 
-**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 0 WR rows; 47 supporting rows; 0 pending candidates; carry-in 1:49.29.
+**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 0 WR rows; 47 supporting results; 0 pending candidates; carried-in WR 1:49.29.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 0 WR rows; 91 supporting rows; 4 pending candidates.
+**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 1 WR rows; 91 supporting results; 4 pending candidates.
 
-- Recover the debut final opening-day leader and genuine later improvements.
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 97. Princess Tour (2023) — 2023-05-31 to 2023-06-14
 
 Candidate and source review.
 
-**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 0 WR rows; 66 supporting rows; 0 pending candidates; carry-in 1:14.04.
+**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 0 WR rows; 66 supporting results; 0 pending candidates; carried-in WR 1:14.04.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 1 WR rows; 73 supporting rows; 4 pending candidates.
+**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 1 WR rows; 73 supporting results; 4 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
 ### 98. Mario vs. Luigi Tour (2023) — 2023-06-14 to 2023-06-28
 
 Candidate and source review.
 
-**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 1 WR rows; 55 supporting rows; 8 pending candidates.
+**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 1 WR rows; 55 supporting results; 8 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 99. Night Tour (2023) — 2023-06-28 to 2023-07-12
 
-Debut history gap.
+Candidate and source review.
 
-**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 1 WR rows; 35 supporting rows; 8 pending candidates.
+**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 1 WR rows; 35 supporting results; 8 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 39 supporting rows; 0 pending candidates; carry-in 1:09.43.
+**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 39 supporting results; 0 pending candidates; carried-in WR 1:09.43.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 0 WR rows; 14 supporting rows; 3 pending candidates.
+**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 1 WR rows; 14 supporting results; 3 pending candidates.
 
-- Recover the debut final opening-day leader and genuine later improvements.
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 100. Pipe Tour (2023) — 2023-07-12 to 2023-07-26
 
 Candidate and source review.
 
-**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 1 WR rows; 53 supporting rows; 1 pending candidates.
+**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 1 WR rows; 53 supporting results; 1 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 1 WR rows; 23 supporting rows; 6 pending candidates.
+**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 1 WR rows; 23 supporting results; 6 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 101. Sunshine Tour (2023) — 2023-07-26 to 2023-08-09
 
 Candidate and source review.
 
-**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 1 WR rows; 34 supporting rows; 2 pending candidates.
+**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 1 WR rows; 34 supporting results; 2 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 1 WR rows; 52 supporting rows; 4 pending candidates.
+**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 1 WR rows; 52 supporting results; 4 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 102. Vacation Tour (2023) — 2023-08-09 to 2023-08-23
 
 Candidate and source review.
 
-**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 1 WR rows; 45 supporting rows; 7 pending candidates.
+**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 1 WR rows; 45 supporting results; 7 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 1 WR rows; 63 supporting rows; 7 pending candidates.
+**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 1 WR rows; 63 supporting results; 7 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 2 WR rows; 169 supporting rows; 11 pending candidates.
+**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 2 WR rows; 169 supporting results; 11 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 103. Summer Tour (2023) — 2023-08-23 to 2023-09-06
 
-Debut history gap.
+Candidate and source review.
 
-**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 1 WR rows; 49 supporting rows; 0 pending candidates; carry-in 1:23.38.
+**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 1 WR rows; 49 supporting results; 0 pending candidates; carried-in WR 1:23.38.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 0 WR rows; 39 supporting rows; 5 pending candidates.
+**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 1 WR rows; 40 supporting results; 5 pending candidates.
 
-- Recover the debut final opening-day leader and genuine later improvements.
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
+- Resolve pending candidates with surviving good-enough proof.
+- Review unresolved order/date bounds; keep race, report and submission dates distinct.
+- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
+
+**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 1 WR rows; 56 supporting results; 2 pending candidates.
+
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
-
-**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 0 WR rows; 56 supporting rows; 2 pending candidates.
-
-- Recover the debut final opening-day leader and genuine later improvements.
-- Resolve pending candidates with surviving good-enough proof.
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 104. Sundae Tour (2023) — 2023-09-06 to 2023-09-20
 
 Candidate and source review.
 
-**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 1 WR rows; 67 supporting rows; 1 pending candidates.
+**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 1 WR rows; 67 supporting results; 1 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 2 WR rows; 107 supporting rows; 4 pending candidates.
+**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 2 WR rows; 107 supporting results; 4 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 105. Anniversary Tour (2023) — 2023-09-20 to 2023-10-04
 
 Candidate and source review.
 
-**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 1 WR rows; 88 supporting rows; 8 pending candidates.
+**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 1 WR rows; 88 supporting results; 8 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 1 WR rows; 53 supporting rows; 11 pending candidates.
+**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 1 WR rows; 53 supporting results; 11 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
 
-**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 1 WR rows; 33 supporting rows; 1 pending candidates.
+**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 1 WR rows; 33 supporting results; 1 pending candidates.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 106. Battle Tour (2023) — 2023-10-04 to 2023-10-18
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 0 WR rows; 19 supporting rows; 0 pending candidates; carry-in 0:49.15.
+**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 0 WR rows; 19 supporting results; 0 pending candidates; carried-in WR 0:49.15.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 2 WR rows; 23 supporting rows; 0 pending candidates; carry-in 1:00.61.
+**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 2 WR rows; 23 supporting results; 0 pending candidates; carried-in WR 1:00.61.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
 ### 107. Halloween Tour (2023) — 2023-10-18 to 2023-11-01
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 0 WR rows; 28 supporting rows; 0 pending candidates; carry-in 0:56.42.
+**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 0 WR rows; 28 supporting results; 0 pending candidates; carried-in WR 0:56.42.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 108. Autumn Tour (2023) — 2023-11-01 to 2023-11-15
 
 Candidate and source review.
 
-**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 1 WR rows; 56 supporting rows; 1 pending candidates; carry-in 1:13.46.
+**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 1 WR rows; 56 supporting results; 1 pending candidates; carried-in WR 1:13.46.
 
+- Resolve the one-day tour-range discrepancy against the original source; current attribution is provisional.
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
-**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 0 WR rows; 31 supporting rows; 0 pending candidates; carry-in 1:18.78.
+**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 0 WR rows; 31 supporting results; 0 pending candidates; carried-in WR 1:18.78.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 109. Animal Tour (2023) — 2023-11-15 to 2023-11-29
 
 Carry in and sparse history check.
 
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 0 WR rows; 24 supporting rows; 0 pending candidates; carry-in 1:18.38.
+**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 0 WR rows; 24 supporting results; 0 pending candidates; carried-in WR 1:18.38.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 0 WR rows; 36 supporting rows; 0 pending candidates; carry-in 1:30.64.
+**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 0 WR rows; 36 supporting results; 0 pending candidates; carried-in WR 1:30.64.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 110. Peach vs. Bowser Tour (November–December 2022) (2023) — 2023-11-29 to 2023-12-13
 
 Carry in and sparse history check.
 
-**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 0 WR rows; 36 supporting rows; 0 pending candidates; carry-in 1:38.39.
+**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 0 WR rows; 36 supporting results; 0 pending candidates; carried-in WR 1:38.39.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 1 WR rows; 24 supporting rows; 0 pending candidates; carry-in 1:26.60.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
-
-**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 2 WR rows; 22 supporting rows; 0 pending candidates; carry-in 1:33.97.
+**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 1 WR rows; 24 supporting results; 0 pending candidates; carried-in WR 1:26.60.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
+
+**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 2 WR rows; 22 supporting results; 0 pending candidates; carried-in WR 1:33.97.
+
+- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
+- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 111. Holiday Tour (2023) — 2023-12-13 to 2023-12-27
 
 Carry in and sparse history check.
 
-**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 0 WR rows; 17 supporting rows; 0 pending candidates; carry-in 1:08.42.
+**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 0 WR rows; 17 supporting results; 0 pending candidates; carried-in WR 1:08.42.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 1 WR rows; 24 supporting rows; 0 pending candidates; carry-in 1:15.99.
+**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 1 WR rows; 24 supporting results; 0 pending candidates; carried-in WR 1:15.99.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 112. New Year's Tour (2023) — 2023-12-27 to 2024-01-10
 
 Source and publication review.
 
-**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 4 WR rows; 16 supporting rows; 0 pending candidates; carry-in 1:36.08.
+**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 4 WR rows; 16 supporting results; 0 pending candidates; carried-in WR 1:36.08.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 6 WR rows; 29 supporting rows; 0 pending candidates; carry-in 1:28.43.
+**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 6 WR rows; 29 supporting results; 0 pending candidates; carried-in WR 1:28.43.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 13 linked-video rows; 0 remote-only Discord WR images.
 
 ### 113. Space Tour (2024) — 2024-01-10 to 2024-01-24
 
 Carry in and sparse history check.
 
-**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 0 WR rows; 21 supporting rows; 0 pending candidates; carry-in 1:11.78.
+**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 0 WR rows; 21 supporting results; 0 pending candidates; carried-in WR 1:11.78.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 1 WR rows; 35 supporting rows; 0 pending candidates; carry-in 1:03.36.
+**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 1 WR rows; 35 supporting results; 0 pending candidates; carried-in WR 1:03.36.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 114. Winter Tour (2024) — 2024-01-24 to 2024-02-07
 
 Carry in and sparse history check.
 
-**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 0 WR rows; 60 supporting rows; 0 pending candidates; carry-in 1:32.39.
+**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 0 WR rows; 60 supporting results; 0 pending candidates; carried-in WR 1:32.39.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 0 WR rows; 34 supporting rows; 0 pending candidates; carry-in 1:10.44.
+**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 0 WR rows; 34 supporting results; 0 pending candidates; carried-in WR 1:10.44.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 1 WR rows; 40 supporting rows; 0 pending candidates; carry-in 0:45.94.
+**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 1 WR rows; 40 supporting results; 0 pending candidates; carried-in WR 0:45.94.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 115. Exploration Tour (2024) — 2024-02-07 to 2024-02-21
 
 Carry in and sparse history check.
 
-**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 0 WR rows; 19 supporting rows; 0 pending candidates; carry-in 1:08.46.
+**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 0 WR rows; 19 supporting results; 0 pending candidates; carried-in WR 1:08.46.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 1 WR rows; 29 supporting rows; 0 pending candidates; carry-in 1:29.38.
+**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 1 WR rows; 29 supporting results; 0 pending candidates; carried-in WR 1:29.38.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 116. Doctor Tour (2024) — 2024-02-21 to 2024-03-06
 
 Carry in and sparse history check.
 
-**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 1 WR rows; 24 supporting rows; 0 pending candidates; carry-in 1:27.21.
+**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 1 WR rows; 24 supporting results; 0 pending candidates; carried-in WR 1:27.21.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 1 WR rows; 19 supporting rows; 0 pending candidates; carry-in 1:04.09.
+**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 1 WR rows; 19 supporting results; 0 pending candidates; carried-in WR 1:04.09.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 117. Mario Tour (2024) — 2024-03-06 to 2024-03-20
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 0 WR rows; 16 supporting rows; 0 pending candidates; carry-in 0:57.13.
+**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 0 WR rows; 16 supporting results; 0 pending candidates; carried-in WR 0:57.13.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 3 WR rows; 49 supporting rows; 0 pending candidates; carry-in 1:12.20.
+**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 3 WR rows; 49 supporting results; 0 pending candidates; carried-in WR 1:12.20.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 118. Ninja Tour (2024) — 2024-03-20 to 2024-04-03
 
 Source and publication review.
 
-**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 7 WR rows; 34 supporting rows; 0 pending candidates; carry-in 1:15.60.
+**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 7 WR rows; 34 supporting results; 0 pending candidates; carried-in WR 1:15.60.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 2 WR rows; 25 supporting rows; 0 pending candidates; carry-in 1:33.45.
+**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 2 WR rows; 25 supporting results; 0 pending candidates; carried-in WR 1:33.45.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 119. Yoshi Tour (2024) — 2024-04-03 to 2024-04-17
 
 Source and publication review.
 
-**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 0 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:00.08.
+**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 0 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:00.08.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 4 WR rows; 25 supporting rows; 0 pending candidates; carry-in 1:31.46.
+**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 4 WR rows; 25 supporting results; 0 pending candidates; carried-in WR 1:31.46.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
 ### 120. Spring Tour (2024) — 2024-04-17 to 2024-05-01
 
 Carry in and sparse history check.
 
-**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 2 WR rows; 23 supporting rows; 0 pending candidates; carry-in 1:33.49.
+**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 2 WR rows; 23 supporting results; 0 pending candidates; carried-in WR 1:33.49.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 0 WR rows; 29 supporting rows; 0 pending candidates; carry-in 1:14.41.
+**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 0 WR rows; 29 supporting results; 0 pending candidates; carried-in WR 1:14.41.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 121. Bowser Tour (2024) — 2024-05-01 to 2024-05-15
 
 Carry in and sparse history check.
 
-**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 0 WR rows; 45 supporting rows; 0 pending candidates; carry-in 1:10.80.
+**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 0 WR rows; 45 supporting results; 0 pending candidates; carried-in WR 1:10.80.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 39 supporting rows; 0 pending candidates; carry-in 1:04.30.
+**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 39 supporting results; 0 pending candidates; carried-in WR 1:04.30.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 122. Mii Tour (2024) — 2024-05-15 to 2024-05-29
 
 Carry in and sparse history check.
 
-**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 0 WR rows; 28 supporting rows; 0 pending candidates; carry-in 1:49.29.
+**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 0 WR rows; 28 supporting results; 0 pending candidates; carried-in WR 1:49.29.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 0 WR rows; 18 supporting rows; 0 pending candidates; carry-in 1:10.37.
+**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 0 WR rows; 18 supporting results; 0 pending candidates; carried-in WR 1:10.37.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 123. Princess Tour (2024) — 2024-05-29 to 2024-06-12
 
 Carry in and sparse history check.
 
-**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 6 WR rows; 45 supporting rows; 0 pending candidates; carry-in 1:14.04.
+**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 6 WR rows; 45 supporting results; 0 pending candidates; carried-in WR 1:14.04.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 11 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 0 WR rows; 22 supporting rows; 0 pending candidates; carry-in 1:09.09.
+**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 0 WR rows; 22 supporting results; 0 pending candidates; carried-in WR 1:09.09.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 124. Mario vs. Luigi Tour (2024) — 2024-06-12 to 2024-06-26
 
 Source and publication review.
 
-**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 5 WR rows; 39 supporting rows; 0 pending candidates; carry-in 1:11.96.
+**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 5 WR rows; 39 supporting results; 0 pending candidates; carried-in WR 1:11.96.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 125. Night Tour (2024) — 2024-06-26 to 2024-07-10
 
 Candidate and source review.
 
-**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 1 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:18.87.
+**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 1 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:18.87.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:09.43.
+**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:09.43.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 13 WR rows; 47 supporting rows; 1 pending candidates; carry-in 1:24.98.
+**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 13 WR rows; 47 supporting results; 1 pending candidates; carried-in WR 1:24.98.
 
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
 
 ### 126. Pipe Tour (2024) — 2024-07-10 to 2024-07-24
 
 Carry in and sparse history check.
 
-**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 0 WR rows; 18 supporting rows; 0 pending candidates; carry-in 1:17.90.
+**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 0 WR rows; 18 supporting results; 0 pending candidates; carried-in WR 1:17.90.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 2 WR rows; 26 supporting rows; 0 pending candidates; carry-in 1:31.41.
+**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 2 WR rows; 26 supporting results; 0 pending candidates; carried-in WR 1:31.41.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 127. Sunshine Tour (2024) — 2024-07-24 to 2024-08-07
 
 Source and publication review.
 
-**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 3 WR rows; 23 supporting rows; 0 pending candidates; carry-in 1:18.30.
+**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 3 WR rows; 23 supporting results; 0 pending candidates; carried-in WR 1:18.30.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 3 WR rows; 26 supporting rows; 0 pending candidates; carry-in 0:57.55.
+**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 3 WR rows; 26 supporting results; 0 pending candidates; carried-in WR 0:57.55.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 128. Vacation Tour (2024) — 2024-08-07 to 2024-08-21
 
 Carry in and sparse history check.
 
-**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 1 WR rows; 13 supporting rows; 0 pending candidates; carry-in 1:17.75.
+**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 1 WR rows; 13 supporting results; 0 pending candidates; carried-in WR 1:17.75.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 5 WR rows; 27 supporting rows; 0 pending candidates; carry-in 1:22.29.
-
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
-
-**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 3 WR rows; 25 supporting rows; 0 pending candidates; carry-in 1:21.62.
+**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 5 WR rows; 27 supporting results; 0 pending candidates; carried-in WR 1:22.29.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
+
+**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 3 WR rows; 25 supporting results; 0 pending candidates; carried-in WR 1:21.62.
+
+- Find the fastest available recording or document unavailable footage separately from the WR.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 129. Summer Tour (2024) — 2024-08-21 to 2024-09-04
 
 Carry in and sparse history check.
 
-**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 0 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:23.38.
+**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 0 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:23.38.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 0 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:17.31.
+**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 0 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:17.31.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 4 WR rows; 26 supporting rows; 0 pending candidates; carry-in 1:16.28.
+**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 4 WR rows; 26 supporting results; 0 pending candidates; carried-in WR 1:16.28.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 130. Sundae Tour (2024) — 2024-09-04 to 2024-09-18
 
 Carry in and sparse history check.
 
-**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 1 WR rows; 21 supporting rows; 0 pending candidates; carry-in 0:49.27.
+**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 1 WR rows; 21 supporting results; 0 pending candidates; carried-in WR 0:49.27.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 0 WR rows; 12 supporting rows; 0 pending candidates; carry-in 0:31.48.
+**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 0 WR rows; 12 supporting results; 0 pending candidates; carried-in WR 0:31.48.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 131. Anniversary Tour (2024) — 2024-09-18 to 2024-10-02
 
 Carry in and sparse history check.
 
-**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 0 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:11.73.
+**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 0 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:11.73.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 0 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:19.45.
+**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 0 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:19.45.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 2 WR rows; 10 supporting rows; 0 pending candidates; carry-in 1:17.27.
+**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 2 WR rows; 10 supporting results; 0 pending candidates; carried-in WR 1:17.27.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
 ### 132. Battle Tour (2024) — 2024-10-02 to 2024-10-16
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 0 WR rows; 0 supporting rows; 0 pending candidates; carry-in 0:49.15.
+**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 0 WR rows; 0 supporting results; 0 pending candidates; carried-in WR 0:49.15.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 1 WR rows; 11 supporting rows; 0 pending candidates; carry-in 1:00.50.
+**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 1 WR rows; 11 supporting results; 0 pending candidates; carried-in WR 1:00.50.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 133. Halloween Tour (2024) — 2024-10-16 to 2024-10-30
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 0 WR rows; 24 supporting rows; 0 pending candidates; carry-in 0:56.42.
+**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 0 WR rows; 24 supporting results; 0 pending candidates; carried-in WR 0:56.42.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 134. Autumn Tour (2024) — 2024-10-30 to 2024-11-13
 
 Carry in and sparse history check.
 
-**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 0 WR rows; 14 supporting rows; 0 pending candidates; carry-in 1:13.41.
+**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 0 WR rows; 14 supporting results; 0 pending candidates; carried-in WR 1:13.41.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 0 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:18.78.
+**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 0 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:18.78.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 135. Animal Tour (2024) — 2024-11-13 to 2024-11-27
 
 Carry in and sparse history check.
 
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:18.38.
+**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:18.38.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 0 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:30.64.
+**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 0 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:30.64.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 136. Peach vs. Bowser Tour (November–December 2022) (2024) — 2024-11-27 to 2024-12-11
 
 Carry in and sparse history check.
 
-**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 2 WR rows; 19 supporting rows; 0 pending candidates; carry-in 1:38.39.
+**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 2 WR rows; 19 supporting results; 0 pending candidates; carried-in WR 1:38.39.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 0 WR rows; 11 supporting rows; 0 pending candidates; carry-in 1:26.58.
-
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
-
-**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 0 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:33.66.
+**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 0 WR rows; 11 supporting results; 0 pending candidates; carried-in WR 1:26.58.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
+
+**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 0 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:33.66.
+
+- Check the carried-in record and final standings; zero new WRs may be legitimate.
+- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 137. Holiday Tour (2024) — 2024-12-11 to 2024-12-25
 
-Carry in and sparse history check.
+Faster result reconciliation.
 
-**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 0 WR rows; 10 supporting rows; 0 pending candidates; carry-in 1:08.42.
+**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 0 WR rows; 10 supporting results; 0 pending candidates; carried-in WR 1:08.42.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 1 WR rows; 5 supporting rows; 0 pending candidates; carry-in 1:15.96.
+**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 0 WR rows; 5 supporting results; 0 pending candidates; carried-in WR 1:15.96.
 
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
+- Check the carried-in record and final standings; zero new WRs may be legitimate.
+- Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 138. New Year's Tour (2024) — 2024-12-25 to 2025-01-08
 
 Faster result reconciliation.
 
-**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 2 WR rows; 16 supporting rows; 0 pending candidates; carry-in 1:35.65.
+**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 2 WR rows; 16 supporting results; 0 pending candidates; carried-in WR 1:35.65.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 0 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:28.03.
+**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 0 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:28.03.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 139. Space Tour (2025) — 2025-01-08 to 2025-01-22
 
 Carry in and sparse history check.
 
-**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 1 WR rows; 5 supporting rows; 0 pending candidates; carry-in 1:11.78.
+**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 1 WR rows; 5 supporting results; 0 pending candidates; carried-in WR 1:11.78.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 0 WR rows; 5 supporting rows; 0 pending candidates; carry-in 1:03.32.
+**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 0 WR rows; 5 supporting results; 0 pending candidates; carried-in WR 1:03.32.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 140. Winter Tour (2025) — 2025-01-22 to 2025-02-05
 
 Carry in and sparse history check.
 
-**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 0 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:32.39.
+**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 0 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:32.39.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 0 WR rows; 17 supporting rows; 0 pending candidates; carry-in 1:10.44.
+**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 0 WR rows; 17 supporting results; 0 pending candidates; carried-in WR 1:10.44.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 0:45.90.
+**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 0:45.90.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 141. Exploration Tour (2025) — 2025-02-05 to 2025-02-19
 
 Carry in and sparse history check.
 
-**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 0 WR rows; 11 supporting rows; 0 pending candidates; carry-in 1:08.46.
+**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 0 WR rows; 11 supporting results; 0 pending candidates; carried-in WR 1:08.46.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 0 WR rows; 12 supporting rows; 0 pending candidates; carry-in 1:29.34.
+**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 0 WR rows; 12 supporting results; 0 pending candidates; carried-in WR 1:29.34.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 142. Doctor Tour (2025) — 2025-02-19 to 2025-03-05
 
 Carry in and sparse history check.
 
-**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 0 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:27.16.
+**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 0 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:27.16.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 0 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:03.97.
+**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 0 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:03.97.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 143. Mario Tour (2025) — 2025-03-05 to 2025-03-19
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 0 WR rows; 4 supporting rows; 0 pending candidates; carry-in 0:57.13.
+**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 0 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 0:57.13.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 1 WR rows; 10 supporting rows; 0 pending candidates; carry-in 1:12.13.
+**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 1 WR rows; 10 supporting results; 0 pending candidates; carried-in WR 1:12.13.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 144. Ninja Tour (2025) — 2025-03-19 to 2025-04-02
 
 Carry in and sparse history check.
 
-**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 0 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:13.83.
+**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 0 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:13.83.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 0 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:33.36.
+**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 0 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:33.36.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-### 144. Yoshi Tour (2025) — 2025-04-02 to 2025-04-16
+### 145. Yoshi Tour (2025) — 2025-04-02 to 2025-04-16
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 0 WR rows; 1 supporting rows; 0 pending candidates; carry-in 1:00.08.
+**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 0 WR rows; 1 supporting results; 0 pending candidates; carried-in WR 1:00.08.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 1 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:31.19.
+**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 1 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:31.19.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-### 144. Spring Tour (2025) — 2025-04-16 to 2025-04-30
+### 146. Spring Tour (2025) — 2025-04-16 to 2025-04-30
 
 Source and publication review.
 
-**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 7 WR rows; 56 supporting rows; 0 pending candidates; carry-in 1:33.42.
+**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 7 WR rows; 56 supporting results; 0 pending candidates; carried-in WR 1:33.42.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
-**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 0 WR rows; 1 supporting rows; 0 pending candidates; carry-in 1:14.41.
+**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 0 WR rows; 1 supporting results; 0 pending candidates; carried-in WR 1:14.41.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-### 144. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
+### 147. Bowser Tour (2025) — 2025-04-30 to 2025-05-14
 
 Carry in and sparse history check.
 
-**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:10.80.
+**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:10.80.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:04.30.
+**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:04.30.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-### 144. Mii Tour (2025) — 2025-05-14 to 2025-05-28
+### 148. Mii Tour (2025) — 2025-05-14 to 2025-05-28
 
 Carry in and sparse history check.
 
-**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 1 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:49.29.
+**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 1 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:49.29.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 0 WR rows; 1 supporting rows; 0 pending candidates; carry-in 1:10.37.
+**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 0 WR rows; 1 supporting results; 0 pending candidates; carried-in WR 1:10.37.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 149. Princess Tour (2025) — 2025-05-28 to 2025-06-11
 
 Carry in and sparse history check.
 
-**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 0 WR rows; 0 supporting rows; 0 pending candidates; carry-in 1:13.51.
+**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 0 WR rows; 0 supporting results; 0 pending candidates; carried-in WR 1:13.51.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 0 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:09.09.
+**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 0 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:09.09.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 150. Mario vs. Luigi Tour (2025) — 2025-06-11 to 2025-06-25
 
 Source and publication review.
 
-**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 0 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:11.86.
+**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 0 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:11.86.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 151. Night Tour (2025) — 2025-06-25 to 2025-07-09
 
 Carry in and sparse history check.
 
-**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 0 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:18.84.
+**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 0 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:18.84.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:09.43.
-
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
-
-**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 0 WR rows; 1 supporting rows; 0 pending candidates; carry-in 1:24.28.
+**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:09.43.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
+
+**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 0 WR rows; 1 supporting results; 0 pending candidates; carried-in WR 1:24.28.
+
+- Check the carried-in record and final standings; zero new WRs may be legitimate.
+- Find the fastest available recording or document unavailable footage separately from the WR.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 152. Pipe Tour (2025) — 2025-07-09 to 2025-07-23
 
 Carry in and sparse history check.
 
-**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 4 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:17.90.
+**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 4 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:17.90.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 0 WR rows; 5 supporting rows; 0 pending candidates; carry-in 1:31.28.
+**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 0 WR rows; 5 supporting results; 0 pending candidates; carried-in WR 1:31.28.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 153. Sunshine Tour (2025) — 2025-07-23 to 2025-08-06
 
 Carry in and sparse history check.
 
-**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 1 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:18.15.
+**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 1 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:18.15.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 1 WR rows; 2 supporting rows; 0 pending candidates; carry-in 0:57.17.
+**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 1 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 0:57.17.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 154. Vacation Tour (2025) — 2025-08-06 to 2025-08-20
 
 Carry in and sparse history check.
 
-**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 0 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:17.72.
+**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 0 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:17.72.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 1 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:21.95.
+**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 1 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:21.95.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 1 WR rows; 10 supporting rows; 0 pending candidates; carry-in 1:21.48.
+**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 1 WR rows; 10 supporting results; 0 pending candidates; carried-in WR 1:21.48.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 155. Summer Tour (2025) — 2025-08-20 to 2025-09-03
 
 Carry in and sparse history check.
 
-**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 3 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:23.38.
+**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 3 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:23.38.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 0 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:17.31.
-
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
-
-**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:16.06.
+**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 0 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:17.31.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
+
+**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:16.06.
+
+- Check the carried-in record and final standings; zero new WRs may be legitimate.
+- Find the fastest available recording or document unavailable footage separately from the WR.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 156. Sundae Tour (2025) — 2025-09-03 to 2025-09-17
 
 Carry in and sparse history check.
 
-**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 2 WR rows; 6 supporting rows; 0 pending candidates; carry-in 0:49.13.
+**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 2 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 0:49.13.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 0:31.48.
+**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 0:31.48.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 157. Anniversary Tour (2025) — 2025-09-17 to 2025-10-01
 
 Carry in and sparse history check.
 
-**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 0 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:11.73.
+**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 0 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:11.73.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 0 WR rows; 0 supporting rows; 0 pending candidates; carry-in 1:19.45.
+**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 0 WR rows; 0 supporting results; 0 pending candidates; carried-in WR 1:19.45.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 1 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:16.96.
+**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 1 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:16.96.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 158. Battle Tour (2025) — 2025-10-01 to 2025-10-15
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 0 WR rows; 10 supporting rows; 0 pending candidates; carry-in 0:49.15.
+**[SNES Donut Plains 1R](https://mktwrs.com/course/snes-donut-plains-1r)**: 0 WR rows; 10 supporting results; 0 pending candidates; carried-in WR 0:49.15.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 0 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:00.46.
+**[SNES Donut Plains 2](https://mktwrs.com/course/snes-donut-plains-2)**: 0 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:00.46.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 159. Halloween Tour (2025) — 2025-10-15 to 2025-10-29
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 0 WR rows; 8 supporting rows; 0 pending candidates; carry-in 0:56.42.
+**[SNES Donut Plains 3](https://mktwrs.com/course/snes-donut-plains-3)**: 0 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 0:56.42.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 160. Autumn Tour (2025) — 2025-10-29 to 2025-11-12
 
 Source and publication review.
 
-**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 6 WR rows; 21 supporting rows; 0 pending candidates; carry-in 1:13.41.
+**[Los Angeles Laps 2](https://mktwrs.com/course/los-angeles-laps-2)**: 6 WR rows; 21 supporting results; 0 pending candidates; carried-in WR 1:13.41.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 9 linked-video rows; 0 remote-only Discord WR images.
 
-**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 2 WR rows; 13 supporting rows; 0 pending candidates; carry-in 1:18.78.
+**[Los Angeles Laps 3](https://mktwrs.com/course/los-angeles-laps-3)**: 2 WR rows; 13 supporting results; 0 pending candidates; carried-in WR 1:18.78.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 161. Animal Tour (2025) — 2025-11-12 to 2025-11-26
 
 Faster result reconciliation.
 
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 1 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:18.38.
+**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 1 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:18.38.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 0 WR rows; 19 supporting rows; 0 pending candidates; carry-in 1:30.64.
+**[N64 Yoshi Valley R](https://mktwrs.com/course/n64-yoshi-valley-r)**: 0 WR rows; 19 supporting results; 0 pending candidates; carried-in WR 1:30.64.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check faster supporting results for date, eligibility and WR precedence before adding them to history.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
 ### 162. Peach vs. Bowser Tour (November–December 2022) (2025) — 2025-11-26 to 2025-12-10
 
 Source and publication review.
 
-**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 2 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:38.27.
+**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 2 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:38.27.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
 
-**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 3 WR rows; 11 supporting rows; 0 pending candidates; carry-in 1:26.58.
+**[DS Peach Gardens](https://mktwrs.com/course/ds-peach-gardens)**: 3 WR rows; 11 supporting results; 0 pending candidates; carried-in WR 1:26.58.
 
 - Review unresolved order/date bounds; keep race, report and submission dates distinct.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 2 WR rows; 7 supporting rows; 0 pending candidates; carry-in 1:33.66.
+**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 2 WR rows; 7 supporting results; 0 pending candidates; carried-in WR 1:33.66.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 163. Holiday Tour (2025) — 2025-12-10 to 2025-12-24
 
 Source and publication review.
 
-**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 1 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:08.42.
+**[GBA Snow Land](https://mktwrs.com/course/gba-snow-land)**: 1 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:08.42.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 2 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:15.95.
+**[Vancouver Velocity 3](https://mktwrs.com/course/vancouver-velocity-3)**: 2 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:15.95.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 164. New Year's Tour (2025) — 2025-12-24 to 2026-01-07
 
 Source and publication review.
 
-**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 2 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:35.55.
+**[Wii Koopa Cape](https://mktwrs.com/course/wii-koopa-cape)**: 2 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:35.55.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 0 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:28.03.
+**[3DS Piranha Plant Slide](https://mktwrs.com/course/3ds-piranha-plant-slide)**: 0 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:28.03.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 165. Space Tour (2026) — 2026-01-07 to 2026-01-21
 
 Source and publication review.
 
-**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 0 WR rows; 0 supporting rows; 0 pending candidates; carry-in 1:11.77.
+**[GBA Cheep-Cheep Island R](https://mktwrs.com/course/gba-cheep-cheep-island-r)**: 0 WR rows; 0 supporting results; 0 pending candidates; carried-in WR 1:11.77.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 0 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:03.32.
+**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 0 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:03.32.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 166. Winter Tour (2026) — 2026-01-21 to 2026-02-04
 
 Carry in and sparse history check.
 
-**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 2 WR rows; 14 supporting rows; 0 pending candidates; carry-in 1:32.39.
+**[Bangkok Rush 2](https://mktwrs.com/course/bangkok-rush-2)**: 2 WR rows; 14 supporting results; 0 pending candidates; carried-in WR 1:32.39.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 0 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:10.44.
-
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
-
-**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 0 WR rows; 2 supporting rows; 0 pending candidates; carry-in 0:45.90.
+**[Singapore Speedway R](https://mktwrs.com/course/singapore-speedway-r)**: 0 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:10.44.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
+
+**[Tokyo Blur 4](https://mktwrs.com/course/tokyo-blur-4)**: 0 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 0:45.90.
+
+- Check the carried-in record and final standings; zero new WRs may be legitimate.
+- Find the fastest available recording or document unavailable footage separately from the WR.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 167. Exploration Tour (2026) — 2026-02-04 to 2026-02-18
 
 Carry in and sparse history check.
 
-**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 0 WR rows; 5 supporting rows; 0 pending candidates; carry-in 1:08.46.
+**[Piranha Plant Cove](https://mktwrs.com/course/piranha-plant-cove)**: 0 WR rows; 5 supporting results; 0 pending candidates; carried-in WR 1:08.46.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 1 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:29.34.
+**[Piranha Plant Cove 2](https://mktwrs.com/course/piranha-plant-cove-2)**: 1 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:29.34.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 168. Doctor Tour (2026) — 2026-02-18 to 2026-03-04
 
 Carry in and sparse history check.
 
-**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 0 WR rows; 5 supporting rows; 0 pending candidates; carry-in 1:27.16.
+**[DS Peach Gardens R](https://mktwrs.com/course/ds-peach-gardens-r)**: 0 WR rows; 5 supporting results; 0 pending candidates; carried-in WR 1:27.16.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 1 WR rows; 4 supporting rows; 0 pending candidates; carry-in 1:03.97.
+**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 1 WR rows; 4 supporting results; 0 pending candidates; carried-in WR 1:03.97.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
 ### 169. Mario Tour (2026) — 2026-03-04 to 2026-03-18
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 0 WR rows; 5 supporting rows; 0 pending candidates; carry-in 0:57.13.
+**[SNES Donut Plains 3R](https://mktwrs.com/course/snes-donut-plains-3r)**: 0 WR rows; 5 supporting results; 0 pending candidates; carried-in WR 0:57.13.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 1 WR rows; 21 supporting rows; 0 pending candidates; carry-in 1:12.08.
+**[N64 Luigi Raceway](https://mktwrs.com/course/n64-luigi-raceway)**: 1 WR rows; 21 supporting results; 0 pending candidates; carried-in WR 1:12.08.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
 
 ### 170. Ninja Tour (2026) — 2026-03-18 to 2026-04-01
 
 Source and publication review.
 
-**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 0 WR rows; 1 supporting rows; 0 pending candidates; carry-in 1:13.83.
+**[Wii Rainbow Road](https://mktwrs.com/course/wii-rainbow-road)**: 0 WR rows; 1 supporting results; 0 pending candidates; carried-in WR 1:13.83.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 1 WR rows; 3 supporting rows; 0 pending candidates; carry-in 1:33.36.
+**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)**: 1 WR rows; 3 supporting results; 0 pending candidates; carried-in WR 1:33.36.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 171. Yoshi Tour (2026) — 2026-04-01 to 2026-04-15
 
 Carry in and sparse history check.
 
-**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 0 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:00.08.
+**[SNES Donut Plains 2R](https://mktwrs.com/course/snes-donut-plains-2r)**: 0 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:00.08.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 0 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:31.17.
+**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 0 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:31.17.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 172. Spring Tour (2026) — 2026-04-15 to 2026-04-29
 
 Carry in and sparse history check.
 
-**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 2 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:30.90.
+**[Athens Dash 2](https://mktwrs.com/course/athens-dash-2)**: 2 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:30.90.
 
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 0 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:14.41.
+**[Berlin Byways](https://mktwrs.com/course/berlin-byways)**: 0 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:14.41.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 173. Bowser Tour (2026) — 2026-04-29 to 2026-05-13
 
 Carry in and sparse history check.
 
-**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 2 WR rows; 19 supporting rows; 0 pending candidates; carry-in 1:10.80.
+**[GBA Bowser's Castle 4](https://mktwrs.com/course/gba-bowser-s-castle-4)**: 2 WR rows; 19 supporting results; 0 pending candidates; carried-in WR 1:10.80.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
-**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 6 supporting rows; 0 pending candidates; carry-in 1:04.30.
+**[N64 Kalimari Desert 2R](https://mktwrs.com/course/n64-kalimari-desert-2r)**: 0 WR rows; 6 supporting results; 0 pending candidates; carried-in WR 1:04.30.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 174. Mii Tour (2026) — 2026-05-13 to 2026-05-27
 
 Carry in and sparse history check.
 
-**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 0 WR rows; 8 supporting rows; 0 pending candidates; carry-in 1:48.93.
+**[Wii Maple Treeway R](https://mktwrs.com/course/wii-maple-treeway-r)**: 0 WR rows; 8 supporting results; 0 pending candidates; carried-in WR 1:48.93.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 0 WR rows; 15 supporting rows; 0 pending candidates; carry-in 1:10.37.
+**[GCN Mushroom Bridge](https://mktwrs.com/course/gcn-mushroom-bridge)**: 0 WR rows; 15 supporting results; 0 pending candidates; carried-in WR 1:10.37.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
 
 ### 175. Princess Tour (2026) — 2026-05-27 to 2026-06-10
 
 Carry in and sparse history check.
 
-**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 0 WR rows; 9 supporting rows; 0 pending candidates; carry-in 1:13.51.
+**[Wii Coconut Mall](https://mktwrs.com/course/wii-coconut-mall)**: 0 WR rows; 9 supporting results; 0 pending candidates; carried-in WR 1:13.51.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 0 WR rows; 37 supporting rows; 0 pending candidates; carry-in 1:09.09.
+**[GBA Snow Land R](https://mktwrs.com/course/gba-snow-land-r)**: 0 WR rows; 37 supporting results; 0 pending candidates; carried-in WR 1:09.09.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 176. Mario vs. Luigi Tour (2026) — 2026-06-10 to 2026-06-24
 
 Carry in and sparse history check.
 
-**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 1 WR rows; 17 supporting rows; 0 pending candidates; carry-in 1:11.86.
+**[N64 Luigi Raceway R](https://mktwrs.com/course/n64-luigi-raceway-r)**: 1 WR rows; 17 supporting results; 0 pending candidates; carried-in WR 1:11.86.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 177. Night Tour (2026) — 2026-06-24 to 2026-07-08
 
 Carry in and sparse history check.
 
-**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 2 WR rows; 14 supporting rows; 0 pending candidates; carry-in 1:18.84.
+**[Rome Avanti 2](https://mktwrs.com/course/rome-avanti-2)**: 2 WR rows; 14 supporting results; 0 pending candidates; carried-in WR 1:18.84.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 6 linked-video rows; 0 remote-only Discord WR images.
 
-**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 2 supporting rows; 0 pending candidates; carry-in 1:09.43.
-
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Find the fastest available recording or document unavailable footage separately from the WR.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
-
-**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 0 WR rows; 32 supporting rows; 0 pending candidates; carry-in 1:24.28.
+**[Singapore Speedway](https://mktwrs.com/course/singapore-speedway)**: 0 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:09.43.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
+
+**[Singapore Speedway 2R](https://mktwrs.com/course/singapore-speedway-2r)**: 0 WR rows; 32 supporting results; 0 pending candidates; carried-in WR 1:24.28.
+
+- Check the carried-in record and final standings; zero new WRs may be legitimate.
+- Find the fastest available recording or document unavailable footage separately from the WR.
+- Finish tour source coverage and verify the public tour section before marking practical completion.
 
 ### 178. Pipe Tour (2026) — 2026-07-08 to 2026-07-22
 
 Carry in and sparse history check.
 
-**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 0 WR rows; 31 supporting rows; 0 pending candidates; carry-in 1:17.65.
+**[Wii Dry Dry Ruins](https://mktwrs.com/course/wii-dry-dry-ruins)**: 0 WR rows; 31 supporting results; 0 pending candidates; carried-in WR 1:17.65.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 2 WR rows; 20 supporting rows; 0 pending candidates; carry-in 1:31.28.
+**[Piranha Plant Cove 2R](https://mktwrs.com/course/piranha-plant-cove-2r)**: 2 WR rows; 20 supporting results; 0 pending candidates; carried-in WR 1:31.28.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
 
 ### 179. Sunshine Tour (2026) — 2026-07-22 to 2026-08-05
 
 Candidate and source review.
 
-**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 1 WR rows; 42 supporting rows; 1 pending candidates; carry-in 1:18.02.
+**[Wii Daisy Circuit](https://mktwrs.com/course/wii-daisy-circuit)**: 1 WR rows; 42 supporting results; 1 pending candidates; carried-in WR 1:18.02.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Resolve pending candidates with surviving good-enough proof.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Check remaining remote-only Discord WR images and preserve surviving originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 4 linked-video rows; 1 remote-only Discord WR images.
 
-**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 3 WR rows; 26 supporting rows; 0 pending candidates; carry-in 0:57.09.
+**[SNES Koopa Troopa Beach 2R](https://mktwrs.com/course/snes-koopa-troopa-beach-2r)**: 3 WR rows; 26 supporting results; 0 pending candidates; carried-in WR 0:57.09.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 180. Vacation Tour (2026) — 2026-08-05 to 2026-08-19
 
 Carry in and sparse history check.
 
-**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 0 WR rows; 23 supporting rows; 0 pending candidates; carry-in 1:17.72.
+**[Athens Dash](https://mktwrs.com/course/athens-dash)**: 0 WR rows; 23 supporting results; 0 pending candidates; carried-in WR 1:17.72.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 0 WR rows; 14 supporting rows; 0 pending candidates; carry-in 1:21.91.
+**[Athens Dash 2R](https://mktwrs.com/course/athens-dash-2r)**: 0 WR rows; 14 supporting results; 0 pending candidates; carried-in WR 1:21.91.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 0 WR rows; 32 supporting rows; 0 pending candidates; carry-in 1:21.38.
+**[Squeaky Clean Sprint](https://mktwrs.com/course/squeaky-clean-sprint)**: 0 WR rows; 32 supporting results; 0 pending candidates; carried-in WR 1:21.38.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 181. Summer Tour (2026) — 2026-08-19 to 2026-09-02
 
 Carry in and sparse history check.
 
-**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 2 WR rows; 36 supporting rows; 0 pending candidates; carry-in 1:23.35.
+**[Berlin Byways 2](https://mktwrs.com/course/berlin-byways-2)**: 2 WR rows; 36 supporting results; 0 pending candidates; carried-in WR 1:23.35.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 1 WR rows; 20 supporting rows; 0 pending candidates; carry-in 1:17.31.
+**[Madrid Drive](https://mktwrs.com/course/madrid-drive)**: 1 WR rows; 20 supporting results; 0 pending candidates; carried-in WR 1:17.31.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 0 WR rows; 32 supporting rows; 0 pending candidates; carry-in 1:16.06.
+**[Piranha Plant Cove 3](https://mktwrs.com/course/piranha-plant-cove-3)**: 0 WR rows; 32 supporting results; 0 pending candidates; carried-in WR 1:16.06.
 
 - Check the carried-in record and final standings; zero new WRs may be legitimate.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
 ### 182. Sundae Tour (2026) — 2026-09-02 to 2026-09-16
 
 Carry in and sparse history check.
 
-**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 1 WR rows; 42 supporting rows; 0 pending candidates; carry-in 0:48.94.
+**[GBA Luigi Circuit](https://mktwrs.com/course/gba-luigi-circuit)**: 1 WR rows; 42 supporting results; 0 pending candidates; carried-in WR 0:48.94.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
-**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 3 WR rows; 51 supporting rows; 0 pending candidates; carry-in 0:31.48.
+**[SNES Vanilla Lake 2R](https://mktwrs.com/course/snes-vanilla-lake-2r)**: 3 WR rows; 51 supporting results; 0 pending candidates; carried-in WR 0:31.48.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 1 linked-video rows; 0 remote-only Discord WR images.
 
 ### 183. Anniversary Tour (2026) — 2026-09-16 to 2026-09-30
 
 Source and publication review.
 
-**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 2 WR rows; 25 supporting rows; 0 pending candidates; carry-in 1:11.73.
+**[Athens Dash 3](https://mktwrs.com/course/athens-dash-3)**: 2 WR rows; 25 supporting results; 0 pending candidates; carried-in WR 1:11.73.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 3 WR rows; 42 supporting rows; 0 pending candidates; carry-in 1:19.45.
+**[Madrid Drive 3](https://mktwrs.com/course/madrid-drive-3)**: 3 WR rows; 42 supporting results; 0 pending candidates; carried-in WR 1:19.45.
 
 - Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
 
-**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 2 WR rows; 36 supporting rows; 0 pending candidates; carry-in 1:16.95.
+**[Rome Avanti 3](https://mktwrs.com/course/rome-avanti-3)**: 2 WR rows; 36 supporting results; 0 pending candidates; carried-in WR 1:16.95.
 
 - Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 0 linked-video rows; 0 remote-only Discord WR images.
 
-[Full machine-readable survey](tour-investigation-survey-20261013.json).
+Full machine-readable evidence: [fresh screening](all-tour-investigation-refresh-after-bowserdk-20261013.json).

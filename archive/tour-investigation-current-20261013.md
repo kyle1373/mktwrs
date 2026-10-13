@@ -1,46 +1,50 @@
-# Tours still needing investigation — 13 October 2026
+# All-tour investigation checklist — 13 October 2026
 
-Reviewed all **183 catalog tours, 381 course appearances, and 142 live course pages** against `496b5e73`. All 142 pages and JSON files returned HTTP 200; their data and rendered WR counts match the isolated publication output.
+Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-**41 practical reviews closed; 140 tours open; 2 pre-time-trial tours not applicable.** Closed reviews retain documented gaps and do not certify exhaustive history. Detailed review moves to **Trick 2021**. The screening itself changes no completion flags; Yoshi, Ninja and Sydney April 2021 were subsequently closed using its separate source and live-publication audits.
+42 tours have completed practical reviews with documented gaps; 139 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Trick 2021. Wedding 2021 is the next detailed review. These counts do not certify exhaustive history.
 
-| Year | Practical reviews closed | Still open | Not applicable |
+| Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 9 | 17 | 0 |
+| 2021 | 10 | 16 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
 | 2026 | 0 | 19 | 0 |
 
+The catalogue ends at 30 September 2026. The interval from then through 13 October also needs cataloguing and investigation.
+
 ## Clearest visible leads
 
-- **Samurai Tour (2022)**: RMX Vanilla Lake 1: implausible 0:01.03.
-- **Doctor Tour (2022)**: GBA Cheep-Cheep Island: implausible 0:01.12.
+- **Samurai Tour (2022)**: RMX Vanilla Lake 1: implausible parsed 0:01.03.
+- **Doctor Tour (2022)**: GBA Cheep-Cheep Island: implausible parsed 0:01.12.
 - **Autumn Tour (2022)**: Los Angeles Laps 2: 1 WR / 53 supporting results.
 - **Peach vs. Bowser Tour (November–December 2022) (2022)**: DS Peach Gardens: supporting 1:26.53 faster than screened WR baseline.
 - **Holiday Tour (2024)**: Vancouver Velocity 3: supporting 1:15.95 faster than screened WR baseline.
 - **New Year's Tour (2024)**: Wii Koopa Cape: supporting 1:35.51 faster than screened WR baseline.
 - **Animal Tour (2025)**: N64 Yoshi Valley R: supporting 1:30.53, 1:30.58, 1:30.63 faster than screened WR baseline.
 
-These are investigation leads; original evidence, eligibility, attribution and chronology determine whether history needs changing. Sparse repeat-tour history can be legitimate when an earlier record still stands.
+These are leads for original-source review, not automatic WR promotions. Sparse repeat-tour history may be valid when an earlier WR still stands.
 
-## Work counts
+## Remaining work
 
-- 32 open tours: pendingCandidates.
-- 14 open tours: wrRowsWithUnresolvedDateOrOrder.
-- 16 open tours: videoRowsWithoutKnownUploadShareOrSubmissionClock.
-- 28 open tours: oneDayTourRangeDiscrepancies.
-- 11 open tours: remoteOnlyDiscordWrImages.
-- 77 open tours: courseWithoutLinkedVideo.
+- 32 open tours have unresolved candidates.
+- 14 open tours have unresolved WR dates or order.
+- 13 open tours have recordings without a known upload, share or submission clock.
+- 28 open tours have one-day tour-range discrepancies.
+- 11 open tours have remote-only Discord WR images.
+- 77 open tours have at least one course without linked footage.
 
-Counts overlap. Every open tour still needs practical source coverage, fastest available completed footage versus WR, known video/report/submission clocks, and public evidence verification. The catalogue also omits **30 September–13 October 2026**.
+Counts overlap. Every open tour also needs source coverage, the fastest available completed recording compared with the WR, and verification of published evidence. Review and finish one tour at a time.
 
-## All tours in chronological order
+## GCN Yoshi Circuit R
 
-Counts below refer to provisionally attributed results, not newly certified WRs. Only final fastest opening-day leaders/ties should enter public WR history. Slower early PBs stay in raw evidence.
+Its one published WR is Nu11’s 1:31.31. There are 38 supporting rows attributed to Hammer Bro 2020. The practical review retains an explicit gap: opening leadership, intermediate WR succession and exact achievement dates are unproved, and matching 1:31.31 footage is unavailable. The page is sparse because a fuller proven WR succession has not been established; its density alone cannot prove completeness. Reopen for material surviving evidence.
+
+## Every tour in chronological order
 
 ### 1. New York Tour (2019) — 2019-09-25 to 2019-10-09
 
@@ -571,44 +575,88 @@ Completed with documented gaps.
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/yoshi2021-completion.json). 969 preserved messages and 206 image dispositions checked; two selected recordings freshly sampled, ten completed recordings and six route clips preserved on R2. Final faster WR videos remain unavailable; exact race dates and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/yoshi2021-completion.json). Retained limitations:
+
+- Full server message coverage is not established by the image index or keyword searches.
+- Several early Pinball tour-leading claims are slower than the older announced all-time record; discrepancy remains unresolved.
+- Deleted-account 47.39 attribution remains unknown.
+- Previous-best fields expose additional intermediate runs whose original dates remain unresolved.
+- Tomegome 46.74 is a delayed repost; an exact original timestamp remains unavailable.
+- Nu11 Pinball 1:46.21 YouTube upload is unavailable in the signed-in browser.
+- Twitter 46.47 image tweet is not video proof and Nu11 footage must not be assigned to Tomegome.
+- Final Tokyo0:46.47 and Waluigi1:46.21 original videos unavailable; selected footage0:46.51 and1:46.40 separate.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- Prior gameplay/finish reviews retained. Upload/publication day used for tour scope when original source clock absent; no race instant inferred.
+- Six route fragments remain separate from completed race proof.
+- Eight additional completed recordings retained with prior reviews; six short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 41. Ninja Tour (2021) — 2021-04-07 to 2021-04-21
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/ninja2021-completion.json). 1849 preserved messages and 252 image dispositions checked; prior selected recording reviews retained with fresh hash/decode/access checks. Twelve completed runs and four route clips preserved on R2, plus a duplicate original SuperFX recording. Rainbow Road WR footage remains unavailable; exact race dates and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/ninja2021-completion.json). Retained limitations:
+
+- Full server message coverage is not established by the image index or keyword searches.
+- Previous-best fields expose additional intermediate runs whose original dates remain unresolved.
+- Nu11 58.99 original YouTube video is unavailable in the signed-in browser.
+- N’s April 21 Twitter post is protected and unavailable to the signed-in browser; it has not been archived.
+- Slower Rainbow Road tour-opening times do not supersede the pre-existing Vancouver Tour 59.94.
+- Several early submissions omit splits; nearby replies were read without inventing unprovided lap times.
+- Mario Circuit R1:35.84 WR footage preserved; Rainbow0:58.99 original unavailable and Astre0:59.49 separate.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.
+- Original SuperFX Discord video shared after tour end corroborates earlier April16 result; its share date does not reset WR date.
+- Four route/failed-attempt clips remain separate from completed runs.
+- Ten additional completed recordings retained with prior reviews; four short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 42. Sydney Tour (April–May 2021) (2021) — 2021-04-21 to 2021-05-05
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/sydney2021-completion.json). 1358 preserved messages and 219 image dispositions checked; both final WR recordings freshly sampled with hash/decode/access checks. Seven completed recordings and three route clips preserved on R2. Opening chronology, unavailable slower footage and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/sydney2021-completion.json). Retained limitations:
+
+- Full server message coverage is not established by the image index or keyword searches.
+- Deleted-account 1:03.05 identity is unresolved; the dated evidence and adjacent splits are retained.
+- Previous-best fields expose earlier 1:03.54 and 1:03.11 whose exact original dates remain unresolved.
+- Akisame CI2 video VZu5-ZPHOrM is unavailable in the signed-in browser.
+- Opening NBC R tour-leading WR claims are slower than the already established 2020 1:23.88.
+- Kazuo1:23.68 and Wins1:02.41 final WR recordings preserved; original video upload dates remain separate from earlier screenshots.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- No accepted opening-day Choco WR; first published accepted leader is April22. Early global leadership remains unresolved.
+- Nu11 RMX Choco1:02.58 video unavailable; original screenshot and contemporary world-second embed retained without playable proof.
+- Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.
+- Original final WR videos shared after earlier screenshots; publication dates do not reset achievement dates.
+- Three route/failed-attempt clips remain separate from completed runs.
+- Five additional completed recordings retained with prior reviews; three short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 43. Bowser vs. DK Tour (2021) — 2021-05-05 to 2021-05-19
 
 Completed with documented gaps.
 
-[Completion evidence](https://mktwrs.com/data/bowserdk2021-completion.json). 1769 preserved messages and 229 image dispositions checked; all three final WR recordings freshly sampled including completed finish frames. Eleven completed runs, ten partial clips and a duplicate community WR copy preserved on R2. Kalimari debut-day leadership and global source completeness remain qualified.
+[Completion evidence](https://mktwrs.com/data/bowserdk2021-completion.json). Retained limitations:
+
+- Image indexing and keyword searches do not establish complete server-message coverage.
+- Some previous-best dates and lap splits remain unresolved.
+- N’s qualified lap recollection is retained in notes, not treated as exact.
+- Two same-player reties are retained as submissions without inflating WR changes.
+- Original Nu 1:29.85 video and first Kazuo 1:04.30 video post are unavailable; the latter has a surviving preserved repost.
+- All three Kazuo final WRs have preserved footage. Kalimari original tweet deleted; May15 surviving repost and May14 community copy retain earlier result date.
+- Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.
+- Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.
+- Kalimari Desert2R has no accepted debut-day WR; first accepted history beginsMay6. Opening global leadership remains unresolved.
+- Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.
+- Community Kalimari64.30 copy is separate preservation of the selected final run; share date does not reset original WR date.
+- Partial route clips remain separate from completed runs.
+- Eight additional completed recordings retained with prior reviews; ten short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.
 
 ### 44. Trick Tour (2021) — 2021-05-19 to 2021-06-02
 
-Source and publication review.
+Completed with documented gaps.
 
-**[SNES Ghost Valley 1](https://mktwrs.com/course/snes-ghost-valley-1)**: 5 WR rows; 123 supporting results; 0 pending candidates; carried-in WR 0:39.93.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Koopa Troopa Beach R](https://mktwrs.com/course/n64-koopa-troopa-beach-r)**: 12 WR rows; 67 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Rainbow Road R](https://mktwrs.com/course/3ds-rainbow-road-r)**: 21 WR rows; 135 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/trick2021-completion.json). 1900 preserved messages indexed, 318 image hashes checked and one broken attachment retained. Three selected recordings freshly sampled and decoded. Sixteen completed runs plus a second encoding of the selected Wins run and four partial clips preserved on R2. Final WR footage and global intermediate succession remain unavailable or unproved.
 
 ### 45. Wedding Tour (2021) — 2021-06-02 to 2021-06-16
 
@@ -2971,4 +3019,4 @@ Source and publication review.
 - Find the fastest available recording or document unavailable footage separately from the WR.
 - Finish tour source coverage and verify the public tour section before marking practical completion.
 
-[Full counts, source leads, date-assignment discrepancies and live checks](all-tour-live-investigation-refresh-20261013.json).
+Full machine-readable evidence: [fresh screening](all-tour-investigation-refresh-after-bowserdk-20261013.json).
