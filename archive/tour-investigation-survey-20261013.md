@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Marine 2020 (19 tours), with documented gaps. Exploration 2020 is the next detailed review. 162 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Exploration 2020 (20 tours), with documented gaps. Wild West 2020 is the next detailed review. 161 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 14 | 13 | 0 |
+| 2020 | 27 | 15 | 12 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -278,19 +278,9 @@ Both live course snapshots match canonical production output: Both course snapsh
 
 ### 22. Exploration Tour (2020) — 2020-07-15 to 2020-07-29
 
-Source and publication review.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/exploration2020-completion.json).
 
-**[GCN Dino Dino Jungle](https://mktwrs.com/course/gcn-dino-dino-jungle)**: 6 WR rows; 18 supporting rows; 0 pending candidates; carry-in 1:34.16.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
-
-**[SNES Vanilla Lake 1R](https://mktwrs.com/course/snes-vanilla-lake-1r)**: 10 WR rows; 48 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 10 linked-video rows; 0 remote-only Discord WR images.
+Both live course snapshots match canonical production output: Both course snapshots and all rendered R2 links checked. Two selected recordings freshly reviewed; six other completed recordings additionally preserved. All 255 prior discussion image dispositions retained with file hashes and source crosschecks. Both final WR recordings, previous-best chronology and unavailable originals remain documented gaps.
 
 ### 23. Wild West Tour (2020) — 2020-07-29 to 2020-08-12
 
