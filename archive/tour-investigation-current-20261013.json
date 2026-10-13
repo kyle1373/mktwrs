@@ -3,7 +3,7 @@
   "sourceCommit": "496b5e731afb7dc00a91f7e2f16435ab1ea53ab1",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-58",
+  "activeDetailedReview": "tour-59",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 55,
+      "completed-with-documented-gaps": 56,
       "source-and-publication-review": 27,
-      "carry-in-and-sparse-history-check": 63,
+      "carry-in-and-sparse-history-check": 62,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 29,
       "sparse-history-review": 1,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 23,
+        "practicallyCompleted": 24,
         "notApplicable": 0,
-        "open": 3
+        "open": 2
       },
       "2022": {
         "catalogTours": 26,
@@ -91,7 +91,7 @@
         "open": 19
       }
     },
-    "openTours": 126,
+    "openTours": 125,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 32,
       "wrRowsWithUnresolvedDateOrOrder": 11,
@@ -6084,9 +6084,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-choco-mountain-r",
@@ -6132,8 +6130,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "wii-maple-treeway",
@@ -6157,8 +6154,22 @@
           "oneDayTourRangeDiscrepancies": []
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/holiday2021-completion.json",
+      "documentedLimitations": [
+        "DIT original image is lost; original embedded lap text survives in tt-submission and establishes the intermediate total.",
+        "Nu11’s hop-cancellation tutorial eyGInGqKK1E is unavailable.",
+        "Wins December 1 post is a repost linking to his 2020 video 1339106433351159808, already preserved with its original date and unlisted backup. It is not a new 2021 record.",
+        "Sucha 1:47.79 is a no-item category run, not a main-category WR.",
+        "All reviewed Choco Mountain R totals are slower than the existing February 1:17.87; no new main-category WR added.",
+        "Later post-reset Holiday results remain supporting submissions; no post-reset timestamp is assigned as a race date.",
+        "Nu11 full run and Sucha no-item run preserved on R2. No-item category excluded from main-category comparison; earlier Wins recording retains 2020 date.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Two full original recordings (including one no-item category) and two partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-59",
@@ -19739,5 +19750,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/space2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/holiday2021-final-publication-audit-20261013.json"
 }

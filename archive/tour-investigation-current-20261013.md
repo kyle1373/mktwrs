@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-55 tours have completed practical reviews with documented gaps; 126 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Space 2021. Holiday 2021 is the next detailed review. These counts do not certify exhaustive history.
+56 tours have completed practical reviews with documented gaps; 125 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Space 2021. Holiday 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 23 | 3 | 0 |
+| 2021 | 24 | 2 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -730,18 +730,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sp
 
 ### 58. Holiday Tour (2021) — 2021-12-01 to 2021-12-15
 
-Carry in and sparse history check.
-
-**[N64 Choco Mountain R](https://mktwrs.com/course/n64-choco-mountain-r)**: 0 WR rows; 49 supporting results; 0 pending candidates; carried-in WR 1:17.87.
-
-- Check the carried-in record and final standings; zero new WRs may be legitimate.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[Wii Maple Treeway](https://mktwrs.com/course/wii-maple-treeway)**: 3 WR rows; 39 supporting results; 0 pending candidates; carried-in WR 1:46.16.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/holiday2021-completion.json). 87 broader exact-window and 85 monthly-search discussion messages, 4 discussion-image dispositions and 126 submission messages backed by 118 original-file hashes reconciled. Two full recordings (including one no-item category) and two partial clips preserved on R2. Earlier Wins 2020 main-category recording retained separately. Two selected finishes freshly sampled and files decoded. 478 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, unavailable Maple WR footage and deleted outside sources remain qualified.
 
 ### 59. Penguin Tour (2021) — 2021-12-15 to 2021-12-29
 

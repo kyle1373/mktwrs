@@ -1,0 +1,104 @@
+{
+  "tourId": "tour-58",
+  "tour": "Holiday Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-12-01T06:00:00Z",
+    "endExclusive": "2021-12-15T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "n64-choco-mountain-r",
+      "archivedWr": "1:17.87",
+      "standingWrRetained": true,
+      "fastestDocumentedAvailableRecording": "1:17.90",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "wii-maple-treeway",
+      "archivedWr": "1:45.75",
+      "fastestDocumentedAvailableRecording": "1:46.16",
+      "recordingPlayerId": "wins",
+      "recordingFromEarlierTour": true,
+      "finalWrRecordingUnavailable": true
+    }
+  ],
+  "evidence": [
+    "archive/holiday2021-original-results-practical-review-20261012.json",
+    "archive/holiday-2021-reconciliation.json",
+    "archive/holiday2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/holiday2021-selected-recording-r2-preservation-20261012.json",
+    "archive/holiday2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/holiday2021-source-media-production-build-check-20261013.json",
+    "archive/holiday2021-preserved-recording-integrity-index-20261013.json",
+    "archive/holiday2021-exact-window-discussion-source-index-20261013.json",
+    "archive/holiday2021-preserved-submission-source-integrity-crosswalk-20261013.json",
+    "archive/holiday2021-opening-day-publication-policy-check-20261013.json",
+    "archive/holiday2021-final-standings-source-and-visual-check-20261013.json",
+    "archive/holiday2021-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/holiday2021-all-original-video-upload-share-clocks-20261013.json",
+    "archive/holiday2021-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/holiday2021-discussion-image-integrity-index-20261013.json",
+    "archive/holiday2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/holiday2021-final-publication-audit-20261013.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/holiday-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 92,
+      "submissionMessagesRead": 126,
+      "discussionUniqueMessagesRead": 106,
+      "discussionImagesVisuallyReviewed": 6,
+      "originalVideosDownloadedAndVisuallyReviewed": 4,
+      "newUnlistedBackupsVerified": 0
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "tourRecordingsPreservedOnR2": 2,
+    "earlierComparisonRecordingAlreadyOnR2": 1,
+    "exactWindowDiscussionMessagesIndexed": 87,
+    "monthlySearchWindowMessages": 85,
+    "discussionImagesWithPriorDispositionsAndHashes": 4,
+    "submissionSourceMessages": 126,
+    "uniqueSubmissionOriginalFilesHashChecked": 118,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 2,
+    "noItemCompletedRecordingsPreservedOnR2": 1,
+    "historicalCompletedOriginalOnR2": 1,
+    "additionalOriginalSameResultOnR2": 0,
+    "partialClipsPreservedOnR2": 2
+  },
+  "remainingLimitations": [
+    "DIT original image is lost; original embedded lap text survives in tt-submission and establishes the intermediate total.",
+    "Nu11’s hop-cancellation tutorial eyGInGqKK1E is unavailable.",
+    "Wins December 1 post is a repost linking to his 2020 video 1339106433351159808, already preserved with its original date and unlisted backup. It is not a new 2021 record.",
+    "Sucha 1:47.79 is a no-item category run, not a main-category WR.",
+    "All reviewed Choco Mountain R totals are slower than the existing February 1:17.87; no new main-category WR added.",
+    "Later post-reset Holiday results remain supporting submissions; no post-reset timestamp is assigned as a race date.",
+    "Nu11 full run and Sucha no-item run preserved on R2. No-item category excluded from main-category comparison; earlier Wins recording retains 2020 date.",
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Two full original recordings (including one no-item category) and two partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+  ],
+  "validation": {
+    "liveSnapshotRows": 478,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 251,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
+  },
+  "nextTourId": "tour-59",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "8f330dc75340d1d23d6e13f992e6b5d425be6103",
+  "latestPublicationAudit": "archive/holiday2021-final-publication-audit-20261013.json"
+}
