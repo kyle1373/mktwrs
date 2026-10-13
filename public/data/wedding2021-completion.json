@@ -2,8 +2,8 @@
   "tourId": "tour-45",
   "tour": "Wedding Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-06-02T06:00:00Z",
@@ -29,7 +29,14 @@
     "archive/june2021-june6-seven-later-results-and-phillish-full-video-review-20261007.json",
     "archive/wedding2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/wedding2021-selected-recording-r2-preservation-20261012.json",
-    "archive/wedding2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/wedding2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/wedding2021-final-publication-audit-20261013.json",
+    "archive/wedding2021-practical-source-coverage-disposition-20261013.json",
+    "archive/wedding2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/wedding2021-additional-recordings-r2-preservation-20261013.json",
+    "archive/wedding2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/wedding2021-image-source-publication-crosswalk-20261013.json",
+    "archive/wedding2021-opening-day-policy-generation-check-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/wedding-2021-reconciliation.json",
@@ -44,7 +51,17 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 156
+    "priorProofImageUrlsPassed": 156,
+    "priorProofImageCheckDate": "2026-10-12",
+    "duplicateOriginalRecordingFilesPreservedOnR2": 1,
+    "completedRunRecordingsPreservedOnR2": 8,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 6,
+    "partialClipsPreservedOnR2": 11,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 166,
+    "discussionImageHashesVerified": 166,
+    "discussionMessagesIndexed": 947
   },
   "remainingLimitations": [
     "Nu11 final WR videos Gz3Napklgzk and mjgcJcGE4Aw unavailable per preserved review; selected slower footage shown separately.",
@@ -52,28 +69,36 @@
     "Timael opening claims and retrospective previous best dates retain documented ordering limits.",
     "SuperFX1:34.55 conflicting shorthand left with unknown splits.",
     "Prior full recording review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered."
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+    "Final WR footage unavailable; selected completed recordings slower than WRs.",
+    "Original upload/share/report clocks are separate from exact race instants.",
+    "Indexed images and focused searches do not establish complete server-message coverage.",
+    "Timaël’s early claimed WR and later improvements remain held because the intervening standing is unresolved.",
+    "Previous-best fields reveal potential intermediate runs with unknown original dates.",
+    "SuperFX 1:34.55 adjacent lap shorthand conflicts with its total; both splits remain unknown.",
+    "Nu11’s final two WR videos are unavailable; RMX Rainbow Road 2 original result image is also unavailable.",
+    "Single-lap strategy recordings and short clips are preserved privately, not attached as full-run video proof.",
+    "Remaining non-WR YouTube recordings require visual review and preservation.",
+    "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+    "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+    "Partial route clips remain separate from completed runs.",
+    "Six additional completed runs retained with prior reviews, plus another encoding of the selected Phillish1:21.98; eleven route/incident clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 896,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      48,
-      72
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-mario-circuit",
-        "reviewedRows": 100,
-        "differences": 0
-      },
-      {
-        "courseId": "rmx-rainbow-road-2",
-        "reviewedRows": 97,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 435,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 155,
+    "freshSelectedRecordingReviews": 2,
+    "selectedRecordingsWithFreshHashDecodeAndAccessChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-46"
+  "nextTourId": "tour-46",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/wedding2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/wedding2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "6945bfde967d5ff330da80fd07441377b19b4540"
 }

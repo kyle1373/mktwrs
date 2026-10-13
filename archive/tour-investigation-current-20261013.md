@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-42 tours have completed practical reviews with documented gaps; 139 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Trick 2021. Wedding 2021 is the next detailed review. These counts do not certify exhaustive history.
+43 tours have completed practical reviews with documented gaps; 138 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Wedding 2021. Paris 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 10 | 16 | 0 |
+| 2021 | 11 | 15 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -660,18 +660,9 @@ Completed with documented gaps.
 
 ### 45. Wedding Tour (2021) — 2021-06-02 to 2021-06-16
 
-Source and publication review.
+Completed with documented gaps.
 
-**[3DS Mario Circuit](https://mktwrs.com/course/3ds-mario-circuit)**: 15 WR rows; 85 supporting results; 0 pending candidates; carried-in WR 1:35.47.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Rainbow Road 2](https://mktwrs.com/course/rmx-rainbow-road-2)**: 10 WR rows; 85 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/wedding2021-completion.json). 947 preserved messages indexed and 166 image hashes checked. Two selected recordings freshly sampled and decoded. Eight completed runs, another encoding of the selected Phillish run and eleven partial clips preserved on R2. Final WR videos are unavailable; global intermediate succession and exact race instants remain qualified.
 
 ### 46. Paris Tour (2021) — 2021-06-16 to 2021-06-30
 

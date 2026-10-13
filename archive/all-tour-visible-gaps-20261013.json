@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-45",
+  "activeDetailedReview": "tour-46",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,8 +32,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 42,
-      "source-and-publication-review": 36,
+      "completed-with-documented-gaps": 43,
+      "source-and-publication-review": 35,
       "carry-in-and-sparse-history-check": 68,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 10,
+        "practicallyCompleted": 11,
         "notApplicable": 0,
-        "open": 16
+        "open": 15
       },
       "2022": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 12
     },
-    "toursRequiringInvestigation": 139
+    "toursRequiringInvestigation": 138
   },
   "tours": [
     {
@@ -4393,8 +4393,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-mario-circuit",
@@ -4432,9 +4431,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 1,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Check remaining remote-only Discord WR images and preserve surviving originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-rainbow-road-2",
@@ -4456,8 +4453,31 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/wedding2021-completion.json",
+      "documentedLimitations": [
+        "Nu11 final WR videos Gz3Napklgzk and mjgcJcGE4Aw unavailable per preserved review; selected slower footage shown separately.",
+        "Tomegome publication clock is a result post, not known race instant; Starin later Discord share retained.",
+        "Timael opening claims and retrospective previous best dates retain documented ordering limits.",
+        "SuperFX1:34.55 conflicting shorthand left with unknown splits.",
+        "Prior full recording review retained without fresh uninterrupted certification.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+        "Final WR footage unavailable; selected completed recordings slower than WRs.",
+        "Original upload/share/report clocks are separate from exact race instants.",
+        "Indexed images and focused searches do not establish complete server-message coverage.",
+        "Timaël’s early claimed WR and later improvements remain held because the intervening standing is unresolved.",
+        "Previous-best fields reveal potential intermediate runs with unknown original dates.",
+        "SuperFX 1:34.55 adjacent lap shorthand conflicts with its total; both splits remain unknown.",
+        "Nu11’s final two WR videos are unavailable; RMX Rainbow Road 2 original result image is also unavailable.",
+        "Single-lap strategy recordings and short clips are preserved privately, not attached as full-run video proof.",
+        "Remaining non-WR YouTube recordings require visual review and preservation.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+        "Partial route clips remain separate from completed runs.",
+        "Six additional completed runs retained with prior reviews, plus another encoding of the selected Phillish1:21.98; eleven route/incident clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-46",
@@ -18797,5 +18817,5 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/trick2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/wedding2021-final-publication-audit-20261013.json"
 }
