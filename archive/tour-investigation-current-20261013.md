@@ -9,7 +9,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 6 | 20 | 0 |
+| 2022 | 7 | 19 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -766,17 +766,15 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sk
 
 ### 67. Yoshi Tour (2022) — 2022-04-06 to 2022-04-20
 
-Source and publication review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/yoshi2022-completion.json). 180 submission messages, 100 original-file hashes and 66 exact-window discussion messages indexed. Five full recordings and three lap clips preserved on R2. 485 live course rows match; 26 rendered R2 links readable. Final recordings1:04.13/1:38.39 match archived WRs; runner submission/share clocks exclude bot receipts.
 
-**[3DS Bowser's Castle R](https://mktwrs.com/course/3ds-bowser-s-castle-r)**: 14 WR rows; 77 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[GBA Sky Garden](https://mktwrs.com/course/gba-sky-garden)**: 5 WR rows; 70 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Eleven visible previous-best date/order leads remain outside confirmed WR succession; N and Nu11 are separate players.
+- One deleted bot-query attachment reported Sky Garden1:02.68. Independently reviewed correction and later standings establish1:04.68; the erroneous query is excluded from WR evidence.
+- Five full-run recordings and three isolated-lap clips preserved on R2. A mentioned Spart49.37 lap has no identified recording URL; isolated laps do not establish a total.
+- Original upload times and runner share/submission times are separate publication bounds, not certified achievement timestamps. Bot receipt clocks are excluded from runner share events.
+- Two selected finishes freshly sampled and files fully decoded; prior source reviews retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.
+- Only the final fastest documented opening-day leader/ties are published; worldwide opening-day precedence is not independently certified.
+- Current Discord session requires login; preserved sources cannot establish absence of deleted/private/unindexed material.
 
 ### 68. Amsterdam Tour (2022) — 2022-04-20 to 2022-05-04
 

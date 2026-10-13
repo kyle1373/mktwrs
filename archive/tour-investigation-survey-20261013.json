@@ -3,7 +3,7 @@
   "sourceCommit": "fc689aa71342ec12384225f19f5a0af8d49d4837",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-67",
+  "activeDetailedReview": "tour-68",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 64,
-      "source-and-publication-review": 21,
+      "completed-with-documented-gaps": 65,
+      "source-and-publication-review": 20,
       "carry-in-and-sparse-history-check": 62,
       "data-quality-and-history-check": 1,
       "candidate-and-source-review": 22,
@@ -63,9 +63,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 6,
+        "practicallyCompleted": 7,
         "notApplicable": 0,
-        "open": 20
+        "open": 19
       },
       "2023": {
         "catalogTours": 26,
@@ -6860,8 +6860,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-bowser-s-castle-r",
@@ -6896,8 +6895,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-sky-garden",
@@ -6917,8 +6915,18 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/yoshi2022-completion.json",
+      "documentedLimitations": [
+        "Eleven visible previous-best date/order leads remain outside confirmed WR succession; N and Nu11 are separate players.",
+        "One deleted bot-query attachment reported Sky Garden1:02.68. Independently reviewed correction and later standings establish1:04.68; the erroneous query is excluded from WR evidence.",
+        "Five full-run recordings and three isolated-lap clips preserved on R2. A mentioned Spart49.37 lap has no identified recording URL; isolated laps do not establish a total.",
+        "Original upload times and runner share/submission times are separate publication bounds, not certified achievement timestamps. Bot receipt clocks are excluded from runner share events.",
+        "Two selected finishes freshly sampled and files fully decoded; prior source reviews retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
+        "Only the final fastest documented opening-day leader/ties are published; worldwide opening-day precedence is not independently certified.",
+        "Current Discord session requires login; preserved sources cannot establish absence of deleted/private/unindexed material."
+      ]
     },
     {
       "id": "tour-68",
@@ -19061,6 +19069,6 @@
     }
   ],
   "completionStatusUpdatedAt": "2026-10-13",
-  "latestCompletionAudit": "archive/samurai2022-final-publication-audit-20261013.json",
-  "activeDetailedTourId": "tour-67"
+  "latestCompletionAudit": "archive/yoshi2022-final-publication-audit-20261013.json",
+  "activeDetailedTourId": "tour-68"
 }

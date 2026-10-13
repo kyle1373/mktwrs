@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 64,
+      "completed-with-documented-gaps": 65,
       "sparse-history-review": 1,
-      "source-and-publication-review": 39,
+      "source-and-publication-review": 38,
       "carry-in-and-sparse-history-check": 23,
       "candidate-and-source-review": 44,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 64,
-    "toursRequiringInvestigation": 117,
+    "practicallyCompletedTours": 65,
+    "toursRequiringInvestigation": 116,
     "years": {
       "2019": {
         "tours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "tours": 26,
-        "requiringInvestigation": 20,
+        "requiringInvestigation": 19,
         "categories": {
-          "source-and-publication-review": 3,
+          "source-and-publication-review": 2,
           "carry-in-and-sparse-history-check": 3,
           "candidate-and-source-review": 10,
           "data-quality-and-history-check": 1,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 6
+          "completed-with-documented-gaps": 7
         }
       },
       "2023": {
@@ -3187,9 +3187,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3204,14 +3202,22 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "https://mktwrs.com/data/yoshi2022-completion.json",
+      "documentedLimitations": [
+        "Eleven visible previous-best date/order leads remain outside confirmed WR succession; N and Nu11 are separate players.",
+        "One deleted bot-query attachment reported Sky Garden1:02.68. Independently reviewed correction and later standings establish1:04.68; the erroneous query is excluded from WR evidence.",
+        "Five full-run recordings and three isolated-lap clips preserved on R2. A mentioned Spart49.37 lap has no identified recording URL; isolated laps do not establish a total.",
+        "Original upload times and runner share/submission times are separate publication bounds, not certified achievement timestamps. Bot receipt clocks are excluded from runner share events.",
+        "Two selected finishes freshly sampled and files fully decoded; prior source reviews retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
+        "Only the final fastest documented opening-day leader/ties are published; worldwide opening-day precedence is not independently certified.",
+        "Current Discord session requires login; preserved sources cannot establish absence of deleted/private/unindexed material."
+      ]
     },
     {
       "id": "tour-68",
@@ -11256,7 +11262,7 @@
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
   "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
-  "activeDetailedTourId": "tour-67",
-  "activeDetailedReview": "tour-67",
-  "latestCompletionAudit": "archive/samurai2022-final-publication-audit-20261013.json"
+  "activeDetailedTourId": "tour-68",
+  "activeDetailedReview": "tour-68",
+  "latestCompletionAudit": "archive/yoshi2022-final-publication-audit-20261013.json"
 }
