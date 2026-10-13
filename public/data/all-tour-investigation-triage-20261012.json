@@ -36,26 +36,26 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 3,
+      "completed-with-documented-gaps": 4,
       "sparse-history-review": 8,
-      "source-and-publication-review": 85,
+      "source-and-publication-review": 84,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 3,
-    "toursRequiringInvestigation": 178,
+    "practicallyCompletedTours": 4,
+    "toursRequiringInvestigation": 177,
     "years": {
       "2019": {
         "tours": 7,
-        "requiringInvestigation": 2,
+        "requiringInvestigation": 1,
         "categories": {
           "not-applicable": 2,
-          "completed-with-documented-gaps": 3,
+          "completed-with-documented-gaps": 4,
           "sparse-history-review": 1,
-          "source-and-publication-review": 1
+          "source-and-publication-review": 0
         }
       },
       "2020": {
@@ -338,9 +338,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -355,8 +353,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -371,14 +368,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure.",
-            "Preserve surviving Discord proof images on R2."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/london2019-completion.json",
+      "note": "Practical review complete with documented source coverage and opening-order gaps;484 live rows and62 preserved evidence links verified."
     },
     {
       "id": "tour-7",
@@ -11348,5 +11345,6 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
-  "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json"
+  "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
+  "activeDetailedTourId": "tour-7"
 }

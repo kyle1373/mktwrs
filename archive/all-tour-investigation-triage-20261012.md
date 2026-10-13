@@ -28,7 +28,7 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 | 3 | Halloween Tour (2019) · 2019-10-23 | completed with documented gaps | [GCN Dino Dino Jungle](https://mktwrs.com/course/gcn-dino-dino-jungle): 22 WR / 25 support; [3DS Neo Bowser City](https://mktwrs.com/course/3ds-neo-bowser-city): 8 WR / 58 support; [3DS Toad Circuit](https://mktwrs.com/course/3ds-toad-circuit): 15 WR / 95 support |
 | 4 | Paris Tour (2019) · 2019-11-06 | completed with documented gaps | [DS Luigi's Mansion](https://mktwrs.com/course/ds-luigi-s-mansion): 9 WR / 55 support; [SNES Mario Circuit 1](https://mktwrs.com/course/snes-mario-circuit-1): 6 WR / 29 support; [3DS Shy Guy Bazaar](https://mktwrs.com/course/3ds-shy-guy-bazaar): 1 WR / 20 support |
 | 5 | Winter Tour (2019) · 2019-11-20 | completed with documented gaps | [SNES Choco Island 2](https://mktwrs.com/course/snes-choco-island-2): 1 WR / 9 support; [SNES Mario Circuit 3](https://mktwrs.com/course/snes-mario-circuit-3): 4 WR / 18 support; [3DS Rock Rock Mountain](https://mktwrs.com/course/3ds-rock-rock-mountain): 1 WR / 21 support |
-| 6 | London Tour (2019) · 2019-12-04 | source and publication review | [3DS Daisy Hills](https://mktwrs.com/course/3ds-daisy-hills): 3 WR / 15 support; [SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2): 1 WR / 4 support; [GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit): 2 WR / 4 support |
+| 6 | London Tour (2019) · 2019-12-04 | completed with documented gaps | [3DS Daisy Hills](https://mktwrs.com/course/3ds-daisy-hills): 3 WR / 15 support; [SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2): 1 WR / 4 support; [GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit): 2 WR / 4 support |
 | 7 | Holiday Tour (2019) · 2019-12-18 | sparse history review | [3DS Cheep Cheep Lagoon](https://mktwrs.com/course/3ds-cheep-cheep-lagoon): 1 WR / 15 support; [DS DK Pass](https://mktwrs.com/course/ds-dk-pass): 1 WR / 11 support |
 | 8 | New Year's Tour (2020) · 2020-01-01 | sparse history review | [DS Waluigi Pinball](https://mktwrs.com/course/ds-waluigi-pinball): 1 WR / 8 support |
 | 9 | Ice Tour (2020) · 2020-01-15 | source and publication review | [GBA Bowser's Castle 1](https://mktwrs.com/course/gba-bowser-s-castle-1): 2 WR / 5 support; [GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r): 2 WR / 8 support |
@@ -245,26 +245,9 @@ Practical review complete with documented gaps. All 395 course snapshot rows mat
 
 [Completion evidence](../public/data/winter2019-completion.json).
 
-### 6. London Tour (2019) (2019-12-04)
+### 6. London Tour (2019) · 2019-12-04
 
-source and publication review
-
-**[3DS Daisy Hills](https://mktwrs.com/course/3ds-daisy-hills)** — 3 WR entries; 15 supporting results; 0 candidates.
-
-- Verify video identity/access and available submission/share clocks; compare fastest recording with WR.
-- Review useful later-day evidence for track-page display; omit slower opening-day PBs.
-- Use legible existing splits; missing splits alone do not prevent practical closure.
-
-**[SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2)** — 1 WR entries; 4 supporting results; 0 candidates.
-
-- Find fastest available recording or document unavailable footage, separately from the WR.
-- Review useful later-day evidence for track-page display; omit slower opening-day PBs.
-
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)** — 2 WR entries; 4 supporting results; 0 candidates.
-
-- Find fastest available recording or document unavailable footage, separately from the WR.
-- Use legible existing splits; missing splits alone do not prevent practical closure.
-- Preserve surviving Discord proof images on R2.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/london2019-completion.json). 484 live snapshot rows matched; 62 preserved evidence links readable.
 
 ### 7. Holiday Tour (2019) (2019-12-18)
 
