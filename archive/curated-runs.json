@@ -13411,16 +13411,22 @@
     "proofImageLocal": "/assets/proof/oct2019-1187013758511648768.webp",
     "proofImageVerified": true,
     "videoScopeReview": {
-      "reviewAudit": "archive/halloween2019-two-up-nbc-preserved-recording-scope-dispositions-20261011.json",
+      "reviewAudit": "archive/halloween2019-up-two-original-recording-sample-dispositions-20261012.json",
       "priorVisualReview": "archive/october2019-recovered-videos.json",
       "originalFile": "archive/video-backup-files/october2019-recovered/1187013758511648768/original.mp4",
       "sha256": "0b8754833ee9d37cb3222ad2b9203716b1a11ea213c391ac99984aa12764b58c",
       "bytes": 28996804,
       "priorVisualReviewRetained": true,
-      "freshFootageReviewed": false,
+      "freshFootageReviewed": true,
       "startToFinishContinuityVerified": false,
-      "status": "full-race-continuity-review-pending",
-      "basis": "Prior ledger and canonical notes establish course, first-lap overlay and finish result. They do not explicitly certify start-to-finish continuity; matching file hash preserves source identity, not complete-race coverage."
+      "status": "sampled-countdown-both-laps-finish-visible",
+      "basis": "Directly viewed four-second samples across preserved original; countdown, both lap counters and finish total visible. Intervening frames not certified uncut.",
+      "visibleTotal": "1:26.83",
+      "sampleEvidence": {
+        "path": "archive/proof-of-work/halloween2019-up12683-four-second-samples-20261012.jpg",
+        "sha256": "56166c6b33ea6037523e9f58dc9d0e8ef71bb12b0ce13307c564b5c1f843af4a",
+        "actualPixelsReviewed": true
+      }
     },
     "videoPreservation": {
       "reviewAudit": "archive/halloween2019-three-faster-nbc-original-preservation-mapping-20261012.json",
@@ -13524,7 +13530,7 @@
     "sourceClock": "03:43:00",
     "sourceZoneLabel": "CST",
     "submittedAt": null,
-    "proofImage": null,
+    "proofImage": "https://media.mktwrs.com/assets/proof/halloween2019-up12636-previous-best-3604ff3d9a0d.jpg",
     "proofImageReference": "https://cdn.discordapp.com/attachments/636531202534277140/636847303931723776/image0.png",
     "video": null,
     "videoReference": null,
@@ -13533,9 +13539,15 @@
       "sheet": "WR history",
       "range": "A33:J33"
     },
-    "additionalSources": [],
+    "additionalSources": [
+      {
+        "url": "https://x.com/Fonsi_up2k/status/1187301786379575297",
+        "kind": "later-original-video-previous-best-evidence",
+        "reviewAudit": "archive/halloween2019-up-two-original-recording-sample-dispositions-20261012.json"
+      }
+    ],
     "evidenceBasis": "contemporary-wr-history",
-    "evidenceNote": "Documented in the 2019 WR history; original proof unavailable or not yet recovered.",
+    "evidenceNote": "Later original up1:26.31recording result menu shows previous best1:26.36. This corroborates the earlier total; no earlier exact achievement clock or splits are inferred.",
     "notes": [
       "Explicitly listed as a successive world record in the contemporary WR history updated November 1, 2019. This is documentary confirmation, not a newly verified screenshot.",
       "Date and lap 1 are transcribed from that WR-history row. The source labels its clock CST while some October entries align with daylight time; the source clock is retained without inventing an exact UTC achievement timestamp.",
@@ -13574,6 +13586,22 @@
       "permanentLossEstablished": false,
       "originalGuildKnown": false,
       "status": "original-proof-unrecovered-recovery-checks-preserved"
+    },
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/halloween2019-up12636-previous-best-3604ff3d9a0d.jpg",
+    "proofImageVerified": true,
+    "originalImageReview": {
+      "reviewAudit": "archive/halloween2019-up-two-original-recording-sample-dispositions-20261012.json",
+      "kind": "later-original-video-result-previous-best",
+      "originalFile": "archive/video-backup-files/october2019-recovered/1187301786379575297/original.mp4",
+      "frameFile": "archive/proof-of-work/halloween2019-up12631-result-previous12636-20261012.jpg",
+      "framePositionSeconds": 99,
+      "sha256": "3604ff3d9a0da42519a956993ca5cd14744dda9e7e819497ab43008cc57256b5",
+      "currentTimeShown": "1:26.31",
+      "previousBestShown": "1:26.36",
+      "freshPixelsReviewed": true,
+      "lapSplitsVisible": false,
+      "achievementDateEstablishedByFrame": false,
+      "sourceUrl": "https://x.com/Fonsi_up2k/status/1187301786379575297"
     }
   },
   {
@@ -13613,16 +13641,22 @@
     "proofImageLocal": "/assets/proof/oct2019-1187301786379575297.webp",
     "proofImageVerified": true,
     "videoScopeReview": {
-      "reviewAudit": "archive/halloween2019-two-up-nbc-preserved-recording-scope-dispositions-20261011.json",
+      "reviewAudit": "archive/halloween2019-up-two-original-recording-sample-dispositions-20261012.json",
       "priorVisualReview": "archive/october2019-recovered-videos.json",
       "originalFile": "archive/video-backup-files/october2019-recovered/1187301786379575297/original.mp4",
       "sha256": "ca2f851dec3a5d7caf75b3ceb524001ac92c2b478a7fcbed947753445f230be8",
       "bytes": 30703028,
       "priorVisualReviewRetained": true,
-      "freshFootageReviewed": false,
+      "freshFootageReviewed": true,
       "startToFinishContinuityVerified": false,
-      "status": "full-race-continuity-review-pending",
-      "basis": "Prior ledger and canonical notes establish course, first-lap overlay and finish result. They do not explicitly certify start-to-finish continuity; matching file hash preserves source identity, not complete-race coverage."
+      "status": "sampled-countdown-both-laps-finish-visible",
+      "basis": "Directly viewed four-second samples across preserved original; countdown, both lap counters and finish total visible. Intervening frames not certified uncut.",
+      "visibleTotal": "1:26.31",
+      "sampleEvidence": {
+        "path": "archive/proof-of-work/halloween2019-up12631-four-second-samples-20261012.jpg",
+        "sha256": "64f351dee9cf35bbd5f8ae4eb4aa1715a5d0721326e31da4da649c7cd3663d09",
+        "actualPixelsReviewed": true
+      }
     },
     "videoPreservation": {
       "reviewAudit": "archive/halloween2019-three-faster-nbc-original-preservation-mapping-20261012.json",
