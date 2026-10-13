@@ -76,7 +76,7 @@ test('partial footage exclusions apply across equivalent original URL variants',
 test('Animal final announcement belongs to its declared tour despite a later publication clock',()=>{
  const announced={id:'final',playerId:'nu11',timeCs:9047,announcedAt:'2022-12-17T03:57:02.355Z',tourDateRange:{start:'2022-11-15',end:'2022-11-29'}};
  const earlier={id:'earlier',playerId:'wins',timeCs:9064,submittedAt:'2022-11-26T15:37:46.550Z'};
- const nextTour={id:'next',playerId:'runner',timeCs:9040,submittedAt:'2022-11-30T06:00:00Z'};
+ const nextTour={id:'next',playerId:'runner',timeCs:9040,recordDate:'2022-11-30',submittedAt:'2022-11-30T06:00:00Z'};
  const course={records:[announced,earlier,nextTour],submissions:[]};
  const before=structuredClone(course);
  assert.equal(tourRecordingComparison(course,'tour-83','2022-11-16','2022-11-30').worldRecord.id,'final');
