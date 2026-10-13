@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 46,
+    "practicallyCompletedTours": 47,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -3337,7 +3337,7 @@
       "endDate": "2021-08-11",
       "tourSource": "https://www.mariowiki.com/Mario_vs._Peach_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "gba-cheep-cheep-island",
@@ -3359,7 +3359,8 @@
             "archive/mario-peach-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/mariopeach2021-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "n64-choco-mountain",
@@ -3379,16 +3380,18 @@
             "archive/mario-peach-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/mariopeach2021-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/mariopeach2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/mariopeach2021-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/mariopeach2021-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-50",
@@ -11811,9 +11814,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/la2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-49",
+  "latestLivePublicationVerification": "archive/mariopeach2021-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-50",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-49"
+  "activeDetailedTourId": "tour-50"
 }

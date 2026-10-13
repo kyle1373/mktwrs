@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-46 tours have completed practical reviews with documented gaps; 135 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Los Angeles 2021. Mario vs. Peach 2021 is the next detailed review. These counts do not certify exhaustive history.
+47 tours have completed practical reviews with documented gaps; 134 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Mario vs. Peach 2021. Frost 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 14 | 12 | 0 |
+| 2021 | 15 | 11 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -684,18 +684,9 @@ Completed with documented gaps.
 
 ### 49. Mario vs. Peach Tour (2021) — 2021-07-28 to 2021-08-11
 
-Source and publication review.
+Completed with documented gaps.
 
-**[GBA Cheep-Cheep Island](https://mktwrs.com/course/gba-cheep-cheep-island)**: 5 WR rows; 59 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 2 WR rows; 57 supporting results; 0 pending candidates; carried-in WR 1:18.51.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/mariopeach2021-completion.json). 358 preserved messages indexed and 125 image hashes checked. Two selected recordings freshly sampled and decoded; four partial clips preserved on R2. Final WR footage unavailable; previous-best achievement dates and global source completeness remain qualified.
 
 ### 50. Frost Tour (2021) — 2021-08-11 to 2021-08-25
 

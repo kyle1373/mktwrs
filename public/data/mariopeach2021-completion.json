@@ -2,8 +2,8 @@
   "tourId": "tour-49",
   "tour": "Mario vs. Peach Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-07-28T06:00:00Z",
@@ -28,7 +28,14 @@
     "archive/mario-peach-2021-reconciliation.json",
     "archive/mariopeach2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/mariopeach2021-selected-recording-r2-preservation-20261012.json",
-    "archive/mariopeach2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/mariopeach2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/mariopeach2021-final-publication-audit-20261013.json",
+    "archive/mariopeach2021-practical-source-coverage-disposition-20261013.json",
+    "archive/mariopeach2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/mariopeach2021-additional-recordings-r2-preservation-20261013.json",
+    "archive/mariopeach2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/mariopeach2021-image-source-publication-crosswalk-20261013.json",
+    "archive/mariopeach2021-opening-day-policy-generation-check-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/mario-peach-2021-reconciliation.json",
@@ -44,35 +51,53 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 113
+    "priorProofImageUrlsPassed": 113,
+    "priorProofImageCheckDate": "2026-10-12",
+    "duplicateOriginalRecordingFilesPreservedOnR2": 0,
+    "completedRunRecordingsPreservedOnR2": 2,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 0,
+    "partialClipsPreservedOnR2": 4,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 125,
+    "discussionImageHashesVerified": 125,
+    "discussionMessagesIndexed": 358
   },
   "remainingLimitations": [
     "Final WRs lack reviewed available recordings; selected slower footage shown separately.",
     "Nu1:18.38 datedAugust8fromsurvivingoriginalTwitter screenshot; exact clock and laps unresolved.",
     "Previous-best achievement dates unresolved; lateFrostbuffer excluded.",
     "Prior full recording review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered."
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Preserved source coverage does not prove worldwide/deleted/private coverage.",
+    "Selected71.88 and79.16 recordings remain slower than final WRs71.79 and78.38.",
+    "Original upload/share/report clocks are separate from exact race instants.",
+    "Indexed-image and focused-search coverage does not establish a full message census.",
+    "Nu11/Kaguya’s 1:18.38 is dated August 8 by a surviving screenshot of the original Twitter post; its precise UTC instant and lap splits remain unresolved.",
+    "The later 2025 DIT 1:18.33 likewise still needs its original submission date reconciled.",
+    "Two previous-best fields lack original dated evidence.",
+    "The search buffer includes August 11 Frost Tour results; these are reviewed separately.",
+    "The original 2020 Kaguya Choco Mountain video link was rediscovered, but restoration remains unresolved.",
+    "A Twitch channel link alone does not identify a surviving historical recording.",
+    "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+    "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+    "Partial route clips remain separate from completed runs.",
+    "Four partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 896,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      51,
-      43
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "gba-cheep-cheep-island",
-        "reviewedRows": 64,
-        "differences": 0
-      },
-      {
-        "courseId": "n64-choco-mountain",
-        "reviewedRows": 59,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 521,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 115,
+    "freshSelectedRecordingReviews": 2,
+    "selectedRecordingsWithFreshHashDecodeAndAccessChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-50"
+  "nextTourId": "tour-50",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/mariopeach2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/mariopeach2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "c61ac4560925aaad0e6d5470c689a7858fdc0f67"
 }
