@@ -20,6 +20,7 @@ test('pending footage deduplicates source identities and excludes known partial 
  run('duplicate',6000,'https://www.youtube.com/watch?v=12345678901'),
  run('partial',5000,'https://youtu.be/12345678902',{videoScope:'incomplete-first-lap'}),
  run('photo',4000,'https://x.com/u/status/1',{photoReferenceReview:{kind:'archived-original-result-photo-post'}}),
+ run('reviewed-photo',3900,'https://x.com/u/status/2',{videoReferenceReview:{kind:'archived-original-result-photo-post'}}),
  ]});
  assert.deepEqual(c.pendingRecordings.map(r=>r.id),['pending']);
  assert.equal(c.recording.id,'full');
