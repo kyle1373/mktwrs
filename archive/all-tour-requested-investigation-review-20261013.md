@@ -2,7 +2,7 @@
 
 Reviewed all **183 catalog tours**, **381 course appearances**, and **142 live course pages** against committed publication output `8068ad57`. All pages and downloadable data returned HTTP 200. All 142 displayed WR counts match the publication output. Live completion flags match committed flags: **true**.
 
-**122 tours remain open**, starting with Wario vs. Waluigi 2022. **59 practical reviews are closed with documented gaps**, ending with Singapore 2022 (12–26 January 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
+**121 tours remain open**, starting with Los Angeles 2022. **60 practical reviews are closed with documented gaps**, ending with Wario vs. Waluigi 2022 (26 January–9 February 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
 
 The catalogue ends on 30 September 2026; 30 September–13 October remains uncatalogued and needs review. Future results through December 2026 cannot yet be archived.
 
@@ -13,7 +13,7 @@ The catalogue ends on 30 September 2026; 30 September–13 October remains uncat
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 1 | 25 | 0 |
+| 2022 | 2 | 24 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -917,17 +917,17 @@ Before time trials.
 
 ### 62. Wario vs. Waluigi Tour (2022) — 2022-01-26 to 2022-02-09
 
-**Open:** source and publication review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/wariowaluigi2022-completion.json).
 
-**[3DS Bowser's Castle](https://mktwrs.com/course/3ds-bowser-s-castle)** — 16 attributed WR rows, 20 supporting results, 0 candidates, 4 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Rainbow Road 1R](https://mktwrs.com/course/rmx-rainbow-road-1r)** — 1 attributed WR rows, 2 supporting results, 0 candidates, 3 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Spart’s 1:37.87 and 1:37.76 are held outside confirmed WR progression because Phillish’s nearby reply claims an earlier .5. Exact hundredths and date for that claimed run remain unresolved.
+- Five earlier previous-best runs lack independently established dates and ordering.
+- The nearby .97 first-lap message cannot securely be assigned to Wins’s 1:36.31; split fields remain empty.
+- The recovered Kirio 1:36.93 image is a late repost and slower than the standing WR.
+- This tour-level review does not certify every historical record across all years or sources.
+- Three completed original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.
+- Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.
+- Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.
+- Nu11 original video-share clock remains unresolved; the February10 upload and January27 result submission are separate events.
 
 ### 63. Los Angeles Tour (2022) — 2022-02-09 to 2022-02-23
 
@@ -3013,3 +3013,5 @@ Before time trials.
 This is a fresh published-data screening, not a new exhaustive review of original images or every video. Sparse pages remain investigation leads; documented gaps in closed reviews remain visible.
 
 Singapore completion update: source data verified live, 252 rows match and 35 rendered R2 links readable. Both live completion labels and the final publication audit reference verified.
+
+Wario vs. Waluigi completion update: 279 live data rows match and 82 rendered R2 links readable. Both completion labels and the final audit reference verified live.
