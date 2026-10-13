@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 5,
+      "completed-with-documented-gaps": 6,
       "source-and-publication-review": 84,
-      "sparse-history-review": 7,
+      "sparse-history-review": 6,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 5,
-    "toursRequiringInvestigation": 176,
+    "practicallyCompletedTours": 6,
+    "toursRequiringInvestigation": 175,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -60,10 +60,11 @@
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 27,
+        "requiringInvestigation": 26,
         "categories": {
-          "sparse-history-review": 6,
-          "source-and-publication-review": 21
+          "sparse-history-review": 5,
+          "source-and-publication-review": 21,
+          "completed-with-documented-gaps": 1
         }
       },
       "2021": {
@@ -439,14 +440,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/newyear2020-completion.json",
+      "note": "Practical review complete with documented source coverage and opening-order gaps;173 live rows and71 preserved evidence links verified."
     },
     {
       "id": "tour-9",
@@ -11167,7 +11168,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-8",
+  "activeDetailedTourId": "tour-9",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [

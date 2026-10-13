@@ -2,14 +2,14 @@
 
 Reviewed all **183 catalog tours / 381 track appearances**. Refreshed 142 live course pages: 142 HTTP 200; 142 WR row counts match published source `a68315a0`.
 
-Five practical reviews are complete with documented gaps: Halloween, Paris, Winter, London and Holiday 2019. **176 catalog tours still need investigation; two predate time trials.** This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; New Year 2020 is next after the five completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
+Six practical reviews are complete with documented gaps: Halloween, Paris, Winter, London and Holiday 2019, plus New Year 2020. **175 catalog tours still need investigation; two predate time trials.** This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Ice 2020 is next after the six completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
 
 ## Work remaining by year
 
 | Year | Catalog tours | Need investigation |
 |---|---:|---:|
 | 2019 | 7 | 0 |
-| 2020 | 27 | 27 |
+| 2020 | 27 | 26 |
 | 2021 | 26 | 26 |
 | 2022 | 26 | 26 |
 | 2023 | 26 | 26 |
@@ -45,7 +45,7 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 | 5 | Winter Tour (2019) · 2019-11-20 | completed with documented gaps | [SNES Choco Island 2](https://mktwrs.com/course/snes-choco-island-2): 1 WR / 9 support; [SNES Mario Circuit 3](https://mktwrs.com/course/snes-mario-circuit-3): 4 WR / 18 support; [3DS Rock Rock Mountain](https://mktwrs.com/course/3ds-rock-rock-mountain): 1 WR / 21 support |
 | 6 | London Tour (2019) · 2019-12-04 | completed with documented gaps | [3DS Daisy Hills](https://mktwrs.com/course/3ds-daisy-hills): 3 WR / 15 support; [SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2): 1 WR / 4 support; [GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit): 2 WR / 4 support |
 | 7 | Holiday Tour (2019) · 2019-12-18 | completed with documented gaps | [3DS Cheep Cheep Lagoon](https://mktwrs.com/course/3ds-cheep-cheep-lagoon): 1 WR / 15 support; [DS DK Pass](https://mktwrs.com/course/ds-dk-pass): 1 WR / 11 support |
-| 8 | New Year's Tour (2020) · 2020-01-01 | sparse history review | [DS Waluigi Pinball](https://mktwrs.com/course/ds-waluigi-pinball): 1 WR / 8 support |
+| 8 | New Year's Tour (2020) · 2020-01-01 | completed with documented gaps | [DS Waluigi Pinball](https://mktwrs.com/course/ds-waluigi-pinball): 1 WR / 8 support |
 | 9 | Ice Tour (2020) · 2020-01-15 | source and publication review | [GBA Bowser's Castle 1](https://mktwrs.com/course/gba-bowser-s-castle-1): 2 WR / 5 support; [GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r): 2 WR / 8 support |
 | 10 | Valentine's Tour (2020) · 2020-01-29 | sparse history review | [N64 Koopa Troopa Beach](https://mktwrs.com/course/n64-koopa-troopa-beach): 3 WR / 29 support; [3DS Toad Circuit R](https://mktwrs.com/course/3ds-toad-circuit-r): 1 WR / 10 support |
 | 11 | Vancouver Tour (2020) · 2020-02-12 | sparse history review | [SNES Choco Island 2R](https://mktwrs.com/course/snes-choco-island-2r): 2 WR / 17 support; [SNES Rainbow Road](https://mktwrs.com/course/snes-rainbow-road): 1 WR / 13 support |
@@ -262,15 +262,9 @@ Practical review completed with documented gaps. [Completion evidence](https://m
 
 Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/holiday2019-completion.json). 201 live snapshot rows matched; 29 preserved evidence links readable.
 
-### 8. New Year's Tour (2020) · 2020-01-01
+### 8. New Year’s Tour (2020) · 2020-01-01
 
-
-**[DS Waluigi Pinball](https://mktwrs.com/course/ds-waluigi-pinball)** — 1 WR rows, 8 supporting results, 0 pending candidates.
-
-- Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.
-- Find fastest available recording or document unavailable footage, separately from the WR.
-- Review useful later-day evidence for track-page display; omit slower opening-day PBs.
-- Use legible existing splits; missing splits alone do not prevent practical closure.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/newyear2020-completion.json). 173 live snapshot rows matched; 71 preserved evidence links readable.
 
 ### 9. Ice Tour (2020) · 2020-01-15
 

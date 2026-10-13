@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 5,
+    "practicallyCompletedTours": 6,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -678,7 +678,7 @@
       "endDate": "2020-01-15",
       "tourSource": "https://www.mariowiki.com/New_Year%27s_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "ds-waluigi-pinball",
@@ -701,16 +701,18 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/newyear2020-practical-source-disposition-consolidation-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/newyear2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/newyear2020-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "sparse-history-review"
+      "investigationCategory": "sparse-history-review",
+      "latestPublicationAudit": "archive/newyear2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-9",
@@ -11689,9 +11691,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/holiday2019-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-8",
+  "latestLivePublicationVerification": "archive/newyear2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-9",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-8"
+  "activeDetailedTourId": "tour-9"
 }
