@@ -1,0 +1,92 @@
+{
+  "tourId": "tour-79",
+  "tour": "Anniversary Tour (2022)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
+  "window": {
+    "start": "2022-09-21T06:00:00Z",
+    "endExclusive": "2022-10-05T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "berlin-byways-3",
+      "archivedWr": "1:14.32",
+      "wrPlayerId": "nu11",
+      "fastestDocumentedAvailableRecording": "1:14.32",
+      "recordingPlayerId": "nu11",
+      "announcementAssignsTour": true,
+      "raceBeforeRolloverProven": false,
+      "videoPublishedAt": "2022-10-05T06:11:46Z",
+      "screenshotSubmittedAt": "2022-10-05T06:15:04.738Z",
+      "achievedAt": null,
+      "priorLapAndFinishVideoReviewRetained": true,
+      "freshFinalVisualReview": false,
+      "additionalPreservedVerifiedRecording": "1:14.37",
+      "openingTimedSubmissionRecovered": false
+    },
+    {
+      "id": "singapore-speedway-2",
+      "archivedWr": "1:22.99",
+      "wrPlayerId": "nu11",
+      "fastestDocumentedAvailableRecording": "1:22.99",
+      "recordingPlayerId": "nu11",
+      "earliestSurvivingSubmissionReceiptAt": "2022-09-29T16:13:46.531Z",
+      "originalHumanSubmissionTimeVerified": false,
+      "videoPublishedAt": "2022-09-29T16:16:55Z",
+      "videoSubmittedAt": "2022-09-29T16:21:59.644Z",
+      "freshFinishReview": true,
+      "openingTimedSubmissionRecovered": false
+    }
+  ],
+  "coverage": {
+    "preservedImageReferencesHashChecked": 80,
+    "hashFailures": 0,
+    "newRecordingsPreservedOnR2": 3,
+    "newPublicR2VideoAndFrameObjectsByteVerified": 6,
+    "additionalOriginalProofUploadedOnR2": 1,
+    "proofLinksRepaired": 33,
+    "generatedReviewedRowsCompared": 135,
+    "materialFieldDifferences": 0
+  },
+  "validation": {
+    "renderedSupportingEntries": {
+      "berlin-byways-3": 75,
+      "singapore-speedway-2": 46
+    },
+    "renderedPreservedEvidenceLinksReadable": 88,
+    "wrProofImagesReadable": 5,
+    "failedLinks": 0,
+    "productionBuildPages": 891,
+    "focusedVideoAndOpeningTestsPassed": 14,
+    "completionLabelLiveVerified": false
+  },
+  "remainingLimitations": [
+    "Berlinfinal1:14.32 assigned by final announcement; October5video06:11:46 and screenshot06:15:04 follow06UTCrollover. Exact race relation to rollover unproved; the page states this qualification.",
+    "Berlin1:14.33 Twitter reference is unverified and its earlier September26 original remains unresolved. No invented earlier reign dates.",
+    "Singapore original earlier human submission missing. Survivingreceipt16:13:46.531 and actualvideo command16:21:59.644 onSeptember29 shown separately; legacy inferredhumanclock is not exposed as verified.",
+    "Singapore deviceSeptember28 and Berlinfinal deviceOctober5 dates are local unverified clocks, not exact UTC achievements.",
+    "Berlin1:14.37 and Singapore1:22.99 finishes freshly read. Berlinfinal1:14.32 prior original-video lap/finish review retained. Full decode/byte checks do not certify uninterrupted continuity.",
+    "Complete worldwide/intermediate chronology and fastest-recording exhaustiveness are unproved. Missing sources and opening evidence remain qualified.",
+    "No timed opening-day submissions recovered for either course; no dates or opening records invented.",
+    "Zed late command1:14.56 and screenshot1:14.59 retained separately with visible mismatch note. Neither is promoted as a WR."
+  ],
+  "evidence": [
+    "archive/anniversary2022-final-practical-publication-audit-20261013.json",
+    "archive/anniversary2022-practical-source-disposition-index-20261013.json",
+    "archive/anniversary2022-three-recordings-r2-and-clock-reconciliation-20261013.json",
+    "archive/anniversary2022-supporting-history-build-check-20261013.json",
+    "archive/anniversary2022-preserved-proof-and-video-build-link-audit-20261013.json",
+    "archive/anniversary2022-wr-proofs-and-opening-publication-check-20261013.json",
+    "archive/anniversary2022-final-hours-proof-link-reconciliation-20261013.json",
+    "archive/anniversary2022-late-zed-mismatched-attachment-link-repair-20261013.json",
+    "archive/anniversary2022-original-preservation-source-reconciliation-20261008.json",
+    "archive/anniversary2022-nu1111432-original-video-date-reconciliation-20261008.json",
+    "archive/anniversary2022-generated-publication-fidelity-repair-20261013.json"
+  ],
+  "nextTourId": "tour-80",
+  "sourceCommit": "e48e4ed6fa837612ab6797071227971869870bad"
+}
