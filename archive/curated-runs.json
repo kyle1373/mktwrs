@@ -84303,8 +84303,8 @@
       null
     ],
     "mushrooms": null,
-    "status": "documented-submission",
-    "includeInProgression": false,
+    "status": "community-wr",
+    "includeInProgression": true,
     "submittedAt": "2022-11-02T14:48:28.399Z",
     "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1037377662903128174/B2CF9D1C-AB94-4516-83C0-1A710ECE421E.jpg?ex=6abdc9fc&is=6abc787c&hm=b4eb1ccafc701fc566065dae74fc78aa20d81f81e7f3a2ce5f99e62de36c178a&",
     "proofImageVerified": true,
@@ -84316,7 +84316,17 @@
     },
     "notes": [
       "Original image visually read, course identified by tour roster and target times/scenery. Los Angeles debut-course opening WR sequence requires competitor chronology; preserve dated candidates without automatic promotion."
-    ]
+    ],
+    "recordDate": "2022-11-02",
+    "dateBasis": "original-submission-and-surviving-opening-comparison",
+    "evidenceNote": "Fastest recovered opening-day result,1:19.84. Original image review retained; full worldwide opening coverage is not proven.",
+    "openingPublicationReview": {
+      "audit": "archive/autumn2022-opening-leader-and-sucha-intermediate-source-review-20261013.json",
+      "openingStart": "2022-11-02T06:00:00Z",
+      "openingEndExclusive": "2022-11-03T06:00:00Z",
+      "bestRecovered": true,
+      "freshVisualReview": false
+    }
   },
   {
     "messageId": "1037408773247090769-1037408772978638898-august2022-image-reviewed",
@@ -392132,5 +392142,57 @@
       "Troy reports Tomegone has1:32:28; normalized to1:32.28. Third-party written report only, no matching original image or video found.",
       "Report posted March27 11:43:19UTC; exact achievement time and global WR status remain unknown."
     ]
+  },
+  {
+    "messageId": "1040579173812539392-lal3-video-title-previousbest-corroborated",
+    "player": "Sucha",
+    "playerId": "player-e38199e38184e3819df09f90ba",
+    "courseId": "los-angeles-laps-3",
+    "time": "1:18.81",
+    "laps": [
+      null,
+      null
+    ],
+    "status": "community-wr",
+    "includeInProgression": true,
+    "recordDate": "2022-11-11",
+    "submittedAt": "2022-11-11T10:50:08.063Z",
+    "submissionClockIsReport": true,
+    "video": "https://youtu.be/f5prxZD5Zwo",
+    "videoVerified": false,
+    "videoAvailability": "available",
+    "videoPublishedAt": "2022-11-11T10:41:12Z",
+    "videoSharedAt": "2022-11-11T10:50:08.063Z",
+    "videoShareSource": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1040579173812539392",
+      "messageId": "1040579173812539392"
+    },
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1040579173812539392",
+      "channel": "tt-submission",
+      "messageId": "1040579173812539392"
+    },
+    "dateBasis": "original-runner-video-post-publication-not-private-achievement",
+    "evidenceNote": "Own video title states1:18.81; later reviewed1:18.78 screenshot shows previous best1:18.81. Original posting date retained. Video time/laps have not been freshly visually certified.",
+    "videoReferenceReview": {
+      "audit": "archive/autumn2022-opening-leader-and-sucha-intermediate-source-review-20261013.json",
+      "originalVideoTitle": "【タイムアタック】ロサンゼルスコースト3 1:18.81",
+      "laterReviewedPreviousBest": "1:18.81",
+      "resultVisuallyVerified": false
+    },
+    "notes": [
+      "Intermediate1:18.81 corroborated by own public video title and later reviewed previous-best field. Run date is original posting date; exact private achievement time unknown."
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/autumn2022-sucha-lal3-11881-60c1fb4d880c.mp4",
+      "originalUrl": "https://youtu.be/f5prxZD5Zwo",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "uploadedAt": "2026-10-13T23:22:33.753156+00:00",
+      "sha256": "60c1fb4d880c1c33e428e3ccb7f65c0752f73ad8f0ae8008494779a9273d5a9d",
+      "bytes": 86507959,
+      "credit": "Sucha",
+      "preservedOriginalFile": "archive/video-backup-files/sucha-lal3-11881/original.mp4"
+    }
   }
 ]

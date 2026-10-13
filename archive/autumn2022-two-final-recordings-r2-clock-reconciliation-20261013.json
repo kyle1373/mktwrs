@@ -1,0 +1,92 @@
+{
+  "tourId": "tour-82",
+  "historyComplete": false,
+  "reviews": [
+    {
+      "courseId": "los-angeles-laps-2",
+      "time": "1:13.46",
+      "updatedRows": 3,
+      "videoPublishedAt": "2022-11-03T11:08:21Z",
+      "videoSharedAt": "2022-11-03T11:10:34.693Z",
+      "objects": [
+        {
+          "playerId": "wins-lal2",
+          "kind": "video",
+          "originalFile": "archive/video-backup-files/wins-lal2-1346/original.mp4",
+          "url": "https://media.mktwrs.com/assets/video/autumn2022-wins-lal2-c54cc8e904ac.mp4",
+          "key": "assets/video/autumn2022-wins-lal2-c54cc8e904ac.mp4",
+          "sha256": "c54cc8e904acf101477d9a073f112f7224233380161815db1d5620a91252bb78",
+          "bytes": 12090035,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        },
+        {
+          "playerId": "wins-lal2",
+          "kind": "proof",
+          "originalFile": "archive/video-backup-files/wins-lal2-1346/finish.png",
+          "url": "https://media.mktwrs.com/assets/proof/autumn2022-wins-lal2-4a41361fd6fa.png",
+          "key": "assets/proof/autumn2022-wins-lal2-4a41361fd6fa.png",
+          "sha256": "4a41361fd6fab66bce206874cc3fdfb7446efad212ec026dd0f98a1c28d1be65",
+          "bytes": 363979,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        }
+      ]
+    },
+    {
+      "courseId": "los-angeles-laps-3",
+      "time": "1:18.78",
+      "updatedRows": 4,
+      "videoPublishedAt": "2022-11-11T20:14:33Z",
+      "videoSharedAt": null,
+      "objects": [
+        {
+          "playerId": "sucha-lal3",
+          "kind": "video",
+          "originalFile": "archive/video-backup-files/b3324d0245bdb94de163/original.mp4",
+          "url": "https://media.mktwrs.com/assets/video/autumn2022-sucha-lal3-c445b7f269ce.mp4",
+          "key": "assets/video/autumn2022-sucha-lal3-c445b7f269ce.mp4",
+          "sha256": "c445b7f269cecc42008080e1add38594fc340dde41576b3b20184d79daaf3992",
+          "bytes": 26272534,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        },
+        {
+          "playerId": "sucha-lal3",
+          "kind": "proof",
+          "originalFile": "/tmp/mkt-autumn-sucha-finish.png",
+          "url": "https://media.mktwrs.com/assets/proof/autumn2022-sucha-lal3-3f8331d6282b.png",
+          "key": "assets/proof/autumn2022-sucha-lal3-3f8331d6282b.png",
+          "sha256": "3f8331d6282bef636353de5f0e7383d1d9302c8242cc9987919af5b4a0014fe7",
+          "bytes": 784386,
+          "headVerified": true,
+          "publicRangeBytesMatched": true
+        }
+      ]
+    }
+  ],
+  "decodeChecks": [
+    {
+      "file": "archive/video-backup-files/wins-lal2-1346/original.mp4",
+      "sha256": "c54cc8e904acf101477d9a073f112f7224233380161815db1d5620a91252bb78",
+      "bytes": 12090035,
+      "exitCode": 0,
+      "errors": ""
+    },
+    {
+      "file": "archive/video-backup-files/b3324d0245bdb94de163/original.mp4",
+      "sha256": "c445b7f269cecc42008080e1add38594fc340dde41576b3b20184d79daaf3992",
+      "bytes": 26272534,
+      "exitCode": 0,
+      "errors": ""
+    }
+  ],
+  "originalReferencesHashChecked": 80,
+  "hashFailures": 0,
+  "limitations": [
+    "Prior sampled Wins result/lap review retained. Sucha final image/laps and prior supplied-video review retained; original metadata matches exact videoID. Current preserved encoding hashc445b7 differs prior supplied-video61a29 hash, not asserted byte-identical.",
+    "Fresh sampled image outputs omitted; no fresh visual or full-race continuity certification.",
+    "Sucha17:20 image result predates20:14:33 video publication; player-supplied row20:14:33 is not a verified Discord submission clock.",
+    "WinsNovember2 opening result predatesNovember3 video/publicshare."
+  ]
+}
