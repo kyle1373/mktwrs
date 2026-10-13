@@ -5,7 +5,6 @@
   "previousTourCompletionEvidence": "public/data/paris2019-completion.json",
   "scope": "Winter Tour 2019 only, November 20–December 4; preserve good-enough evidence and finish before London.",
   "nextActions": [
-    "Reconcile final totals with original/summary proofs and preserve practical source limitations.",
     "Check opening-day fastest-only policy, supporting-result display and canonical/live publication fidelity.",
     "Publish completion evidence and status after checks pass."
   ],
@@ -24,7 +23,12 @@
     {
       "check": "Three selected recording totals, byte identity, R2 access and decode verified",
       "evidence": "archive/winter2019-three-selected-recording-visual-and-access-review-20261012.json"
+    },
+    {
+      "check": "Three final WR totals visually verified with full-hash R2 preservation",
+      "evidence": "archive/winter2019-three-final-wr-result-image-review-20261012.json"
     }
   ],
-  "selectedRecordingReview": "archive/winter2019-three-selected-recording-visual-and-access-review-20261012.json"
+  "selectedRecordingReview": "archive/winter2019-three-selected-recording-visual-and-access-review-20261012.json",
+  "finalWrImageReview": "archive/winter2019-three-final-wr-result-image-review-20261012.json"
 }
