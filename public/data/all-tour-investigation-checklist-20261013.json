@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "One tour at a time. Piranha Plant2022 practical review closed with documented gaps and live evidence; Ocean2022 is next.",
+    "One tour at a time. Ocean practical review closed with documented gaps; verify live closure before tour76.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 72,
+      "completed-with-documented-gaps": 73,
       "source-and-publication-review": 36,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 23,
-      "candidate-and-source-review": 40,
+      "candidate-and-source-review": 39,
       "data-quality-and-history-check": 0,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 72,
-    "toursRequiringInvestigation": 109,
+    "practicallyCompletedTours": 73,
+    "toursRequiringInvestigation": 108,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 12,
+        "requiringInvestigation": 11,
         "categories": {
           "source-and-publication-review": 0,
           "carry-in-and-sparse-history-check": 3,
-          "candidate-and-source-review": 6,
+          "candidate-and-source-review": 5,
           "data-quality-and-history-check": 0,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 14
+          "completed-with-documented-gaps": 15
         }
       },
       "2023": {
@@ -3620,15 +3620,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
+            "No outstanding practical-review task. Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/ocean2022-completion.json"
     },
     {
       "id": "tour-76",
@@ -11188,5 +11187,5 @@
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
   "activeDetailedReview": "tour-75",
-  "latestCompletionAudit": "archive/piranha2022-final-practical-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/ocean2022-final-practical-publication-audit-20261013.json"
 }
