@@ -8604,6 +8604,22 @@
         }
       ],
       "freshFootageReviewed": false
+    },
+    "videoScopeReview": {
+      "reviewAudit": "archive/paris2019-three-selected-recording-visual-and-access-review-20261012.json",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "Seven sampled frames: start/countdown, gameplay, later lap, finish and available result screen.",
+      "sampledCourseAndTotalVerified": true,
+      "displayedTime": "0:48.36",
+      "fullFrameByFrameContinuityCertified": false,
+      "contactSheet": "archive/paris2019-selected-video-review/contact-1.jpg"
+    },
+    "videoDecodeIntegrity": {
+      "reviewAudit": "archive/paris2019-three-selected-recording-visual-and-access-review-20261012.json",
+      "fullFileDecoded": true,
+      "exitCode": 0,
+      "diagnostics": "",
+      "note": "No ffmpeg diagnostics."
     }
   },
   {
@@ -8754,7 +8770,23 @@
       "bytes": 85369,
       "publicFullHashMatches": true
     },
-    "evidenceNote": "Original result shows current1:38.96 and previous best1:39.14. No splits or exact earlier achievement clock shown."
+    "evidenceNote": "Original result shows current1:38.96 and previous best1:39.14. No splits or exact earlier achievement clock shown.",
+    "videoScopeReview": {
+      "reviewAudit": "archive/paris2019-three-selected-recording-visual-and-access-review-20261012.json",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "Seven sampled frames: start/countdown, gameplay, later lap, finish and available result screen.",
+      "sampledCourseAndTotalVerified": true,
+      "displayedTime": "1:38.96",
+      "fullFrameByFrameContinuityCertified": false,
+      "contactSheet": "archive/paris2019-selected-video-review/contact-2.jpg"
+    },
+    "videoDecodeIntegrity": {
+      "reviewAudit": "archive/paris2019-three-selected-recording-visual-and-access-review-20261012.json",
+      "fullFileDecoded": true,
+      "exitCode": 0,
+      "diagnostics": "",
+      "note": "No ffmpeg diagnostics."
+    }
   },
   {
     "messageId": "twitter-1194309635135565825-verified",
@@ -8853,6 +8885,22 @@
         }
       ],
       "freshFootageReviewed": false
+    },
+    "videoScopeReview": {
+      "reviewAudit": "archive/paris2019-three-selected-recording-visual-and-access-review-20261012.json",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "Seven sampled frames: start/countdown, gameplay, later lap, finish and available result screen.",
+      "sampledCourseAndTotalVerified": true,
+      "displayedTime": "1:23.30",
+      "fullFrameByFrameContinuityCertified": false,
+      "contactSheet": "archive/paris2019-selected-video-review/contact-0.jpg"
+    },
+    "videoDecodeIntegrity": {
+      "reviewAudit": "archive/paris2019-three-selected-recording-visual-and-access-review-20261012.json",
+      "fullFileDecoded": true,
+      "exitCode": 0,
+      "diagnostics": "[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 134 >= 134\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 143 >= 143\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 146 >= 146\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 149 >= 149\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 152 >= 152\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 158 >= 158\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 161 >= 161\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 165 >= 165\n[null @ 0x108c05250] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 175 >= 175\n",
+      "note": "Original bytes retained. Luigi recording emits duplicate timestamp warnings to the null output muxer; no decode failure."
     }
   },
   {
