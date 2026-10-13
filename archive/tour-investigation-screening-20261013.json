@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-31",
+  "activeDetailedReview": "tour-32",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 28,
-      "source-and-publication-review": 49,
+      "completed-with-documented-gaps": 29,
+      "source-and-publication-review": 48,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -51,9 +51,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 23,
+        "practicallyCompleted": 24,
         "notApplicable": 0,
-        "open": 4
+        "open": 3
       },
       "2021": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 153
+    "toursRequiringInvestigation": 152
   },
   "tours": [
     {
@@ -2751,8 +2751,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-mario-circuit-2",
@@ -2790,8 +2789,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 4,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-rainbow-road",
@@ -2813,8 +2811,24 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/marioluigi2020-completion.json",
+      "documentedLimitations": [
+        "Both final WR recordings preserved; early reported Mario Circuit times and Rainbow previous-best dates remain qualified.",
+        "Previous-best dates and unavailable originals remain unresolved.",
+        "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+        "Three opening Rainbow Road leading times are preserved with unresolved deleted-account attribution, excluded from named-player WR history pending identification.",
+        "Kazuo 1:59.26 tie chronology is disputed by Nu11’s immediate response; not promoted.",
+        "Nine captured images remain unavailable, including three avatar images; their original URLs remain in the capture index.",
+        "Mario Circuit 2 previous-best times 59.25, 58.33, 57.73 and 57.68 have no confirmed exact chronology.",
+        "Kazuo 59.08 has inconsistent written splits (29.44 + 29.54 = 58.98); laps withheld.",
+        "This is a reconciliation of captured evidence, not proof that the entire server has been exhausted.",
+        "Raw inventory differs by fifteen boundary/context rows from prior ledger. Inventory is not a new full source reading.",
+        "Early Kazuo 59.32/59.27 reports, Astre 1:59.20 previous best and unidentified opening Rainbow runners remain qualified; no unproven WR precedence inferred.",
+        "Seventeen additional preserved files reviewed previously; two same-run Reddit copies, fifteen partial/lap clips.",
+        "Fifteen lap/technique clips are contextual evidence, not completed runs; two additional completed Reddit copies show the same final WRs. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-32",
@@ -18587,5 +18601,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/sunset2020-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/marioluigi2020-final-publication-audit-20261013.json"
 }

@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Sunset 2020 (28 tours), with documented gaps. Mario vs. Luigi 2020 is the next detailed review. 153 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Mario vs. Luigi 2020 (29 tours), with documented gaps. Winter 2020 is the next detailed review. 152 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 23 | 4 | 0 |
+| 2020 | 27 | 24 | 3 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -332,19 +332,9 @@ Both live course snapshots and rendered R2 links checked. Kazuo final Neo Bowser
 
 ### 31. Mario vs. Luigi Tour (2020) — 2020-11-18 to 2020-12-02
 
-Source and publication review.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/marioluigi2020-completion.json).
 
-**[SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2)**: 10 WR rows; 16 supporting rows; 0 pending candidates; carry-in 0:59.38.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 3 linked-video rows; 0 remote-only Discord WR images.
-
-**[3DS Rainbow Road](https://mktwrs.com/course/3ds-rainbow-road)**: 19 WR rows; 107 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 17 linked-video rows; 0 remote-only Discord WR images.
+Both live course snapshots and rendered R2 links checked. Kazuo final WR recordings 0:57.28 (Mario Circuit 2) and 1:58.80 (Rainbow Road) freshly reviewed with clear finishes. Seventeen additional files preserved: two same-run Reddit copies and fifteen partial/lap clips. The 315 prior image dispositions retain fresh hashes and source crosschecks. 4,446 unique messages indexed; prior 4,431-message review retained. Unidentified opening runners, disputed tie precedence, early text reports, previous-best dates and unavailable originals remain documented gaps.
 
 ### 32. Winter Tour (2020) — 2020-12-02 to 2020-12-16
 
