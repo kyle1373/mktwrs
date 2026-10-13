@@ -2,13 +2,13 @@
 
 Reviewed all **183 catalog tours, 381 course appearances, and 142 live course pages** against `496b5e73`. All 142 pages and JSON files returned HTTP 200; their data and rendered WR counts match the isolated publication output.
 
-**38 practical reviews closed; 143 tours open; 2 pre-time-trial tours not applicable.** Closed reviews retain documented gaps and do not certify exhaustive history. Detailed review moves to **Ninja 2021**. The screening itself changes no completion flags; Yoshi 2021 was subsequently closed using its separate source and live-publication audits.
+**39 practical reviews closed; 142 tours open; 2 pre-time-trial tours not applicable.** Closed reviews retain documented gaps and do not certify exhaustive history. Detailed review moves to **Sydney 2021**. The screening itself changes no completion flags; Yoshi and Ninja 2021 were subsequently closed using its separate source and live-publication audits.
 
 | Year | Practical reviews closed | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 6 | 20 | 0 |
+| 2021 | 7 | 19 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -575,17 +575,9 @@ Completed with documented gaps.
 
 ### 41. Ninja Tour (2021) — 2021-04-07 to 2021-04-21
 
-Source and publication review.
+Completed with documented gaps.
 
-**[3DS Mario Circuit R](https://mktwrs.com/course/3ds-mario-circuit-r)**: 17 WR rows; 160 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[SNES Rainbow Road](https://mktwrs.com/course/snes-rainbow-road)**: 6 WR rows; 118 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/ninja2021-completion.json). 1849 preserved messages and 252 image dispositions checked; prior selected recording reviews retained with fresh hash/decode/access checks. Twelve completed runs and four route clips preserved on R2, plus a duplicate original SuperFX recording. Rainbow Road WR footage remains unavailable; exact race dates and global source completeness remain qualified.
 
 ### 42. Sydney Tour (April–May 2021) (2021) — 2021-04-21 to 2021-05-05
 

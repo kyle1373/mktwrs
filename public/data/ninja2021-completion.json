@@ -2,8 +2,8 @@
   "tourId": "tour-41",
   "tour": "Ninja Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-04-07T06:00:00Z",
@@ -29,7 +29,14 @@
     "archive/april2021-three-original-recording-share-reconciliation-20261010.json",
     "archive/ninja2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/ninja2021-selected-recording-r2-preservation-20261012.json",
-    "archive/ninja2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/ninja2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/ninja2021-final-publication-audit-20261013.json",
+    "archive/ninja2021-practical-source-coverage-disposition-20261013.json",
+    "archive/ninja2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/ninja2021-additional-recordings-r2-preservation-20261013.json",
+    "archive/ninja2021-image-source-publication-crosswalk-20261013.json",
+    "archive/ninja2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/ninja2021-opening-day-policy-generation-check-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/ninja-2021-reconciliation.json",
@@ -43,34 +50,47 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 217
+    "priorProofImageUrlsPassed": 217,
+    "priorProofImageCheckDate": "2026-10-12",
+    "duplicateOriginalRecordingFilesPreservedOnR2": 1,
+    "completedRunRecordingsPreservedOnR2": 12,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 10,
+    "partialClipsPreservedOnR2": 4,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 252,
+    "discussionImageHashesVerified": 252,
+    "discussionMessagesIndexed": 1849
   },
   "remainingLimitations": [
-    "SuperFX Mario Circuit R1:35.84 original footage preserved; later video publication retained separately from April16 result.",
-    "Nu11 Rainbow Road0:58.99 original YouTube unavailable; Astre0:59.49 preserved supporting footage, no WR promotion.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered; intermediate ordering may remain unresolved."
+    "Full server message coverage is not established by the image index or keyword searches.",
+    "Previous-best fields expose additional intermediate runs whose original dates remain unresolved.",
+    "Nu11 58.99 original YouTube video is unavailable in the signed-in browser.",
+    "N’s April 21 Twitter post is protected and unavailable to the signed-in browser; it has not been archived.",
+    "Slower Rainbow Road tour-opening times do not supersede the pre-existing Vancouver Tour 59.94.",
+    "Several early submissions omit splits; nearby replies were read without inventing unprovided lap times.",
+    "Mario Circuit R1:35.84 WR footage preserved; Rainbow0:58.99 original unavailable and Astre0:59.49 separate.",
+    "Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.",
+    "Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.",
+    "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+    "Original SuperFX Discord video shared after tour end corroborates earlier April16 result; its share date does not reset WR date.",
+    "Four route/failed-attempt clips remain separate from completed runs.",
+    "Ten additional completed recordings retained with prior reviews; four short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 898,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      84,
-      81
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-mario-circuit-r",
-        "reviewedRows": 127,
-        "differences": 0
-      },
-      {
-        "courseId": "snes-rainbow-road",
-        "reviewedRows": 124,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 392,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 186,
+    "freshSelectedRecordingReviews": 0,
+    "selectedRecordingsWithFreshHashDecodeAndAccessChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-42"
+  "nextTourId": "tour-42",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/ninja2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/ninja2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "96e86948de870518ee5717670398313e675c1924"
 }
