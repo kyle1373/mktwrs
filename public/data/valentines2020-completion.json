@@ -2,10 +2,10 @@
   "tourId": "tour-10",
   "tour": "Valentine’s Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; preserved reviews accepted with chronology and recording gaps stated.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
-  "sourceCommit": "43c012e9608c095fa61c0bb477e5b3feb2d90887",
+  "sourceCommit": "8c0c4a0e8703d315222fc27ce41ec29cab6e6043",
   "window": {
     "start": "2020-01-29T06:00:00Z",
     "endExclusive": "2020-02-12T06:00:00Z"
@@ -38,7 +38,13 @@
     "archive/february2020-feb1-12-ledger-reconciliation.json",
     "archive/valentines2020-live-original-discussion-practical-review-20261012.json",
     "archive/valentines2020-two-selected-recording-r2-preservation-20261012.json",
-    "archive/valentines2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/valentines2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/valentines2020-final-publication-audit-20261013.json",
+    "archive/valentines2020-final-toad-image-and-preserved-source-crosswalk-20261013.json",
+    "archive/valentines2020-two-ledger-source-integrity-check-20261013.json",
+    "archive/valentines2020-final-beach-announcement-proof-availability-20261013.json",
+    "archive/valentines2020-two-selected-recording-visual-and-access-review-20261013.json",
+    "archive/valentines2020-opening-day-policy-generation-check-20261013.json"
   ],
   "coverage": {
     "priorDiscussionWindows": 7,
@@ -50,28 +56,25 @@
     "proofImageUrlsPassed": 37
   },
   "remainingLimitations": [
-    "Final beach1:13.83 tied records retain unknown original dates and individual proofs.1:13.86 recording remains separate, with community report clock separate from original publication.",
-    "Opening WR exchange order, deleted parent posts and previous-best race dates remain unresolved. Documentary results retained outside certified succession.",
-    "Kaguya31.34 lap reference cannot establish a full race total. Separate1:14:67 video title retained as pending reference, not verified result or runner.",
-    "Prior originals and media reviews retained without fresh uninterrupted-race certification.",
-    "Saved source coverage does not prove deleted/private/global material was recovered."
+    "Final Beach1:13.83 ties retain announcement status; original individual dates, images and splits unavailable.",
+    "Earlier global WR exchange order remains unknown; first attempts and previous-best evidence remain outside certified succession.",
+    "Selected recordings reviewed via samples and full decode; uninterrupted playback not certified.",
+    "Prior267 image visual dispositions reused; current hash checks establish preserved-file identity, not a new visual pass.",
+    "Deleted/private/unindexed global material not proven recovered."
   ],
   "validation": {
-    "productionBuildPages": 910,
-    "recordingComparisonRenderChecks": 2,
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "n64-koopa-troopa-beach",
-        "reviewedRows": 32,
-        "differences": 0
-      },
-      {
-        "courseId": "3ds-toad-circuit-r",
-        "reviewedRows": 12,
-        "differences": 0
-      }
-    ]
+    "productionBuildPages": 891,
+    "liveSnapshotRows": 218,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 68,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesVerified": 1,
+    "finalRunnerSummaryTextVerified": 0,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-11"
+  "nextTourId": "tour-11",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/valentines2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/valentines2020-final-toad-image-and-preserved-source-crosswalk-20261013.json"
 }

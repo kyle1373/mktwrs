@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 7,
+    "practicallyCompletedTours": 8,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -788,7 +788,7 @@
       "endDate": "2020-02-12",
       "tourSource": "https://www.mariowiki.com/Valentine%27s_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "n64-koopa-troopa-beach",
@@ -810,7 +810,8 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/valentines2020-final-toad-image-and-preserved-source-crosswalk-20261013.json"
         },
         {
           "courseId": "3ds-toad-circuit-r",
@@ -832,17 +833,19 @@
             "archive/valentines-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/valentines2020-final-toad-image-and-preserved-source-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/valentines2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/valentines2020-completion.json",
+      "practicallyComplete": true,
       "livePublicationEvidence": "archive/valentines2020-live-publication-verification-20261012.json",
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "sparse-history-review"
+      "investigationCategory": "sparse-history-review",
+      "latestPublicationAudit": "archive/valentines2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-11",
@@ -11694,9 +11697,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/ice2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-10",
+  "latestLivePublicationVerification": "archive/valentines2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-11",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-10"
+  "activeDetailedTourId": "tour-11"
 }
