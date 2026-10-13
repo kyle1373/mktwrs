@@ -72,7 +72,7 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!r.submittedAt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
+  if (!r.submittedAt && !r.earlierSubmissionReceipt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
     {r.submittedAt && !shares.some(event => event.sharedAt === r.submittedAt) && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
@@ -98,6 +98,7 @@ function EvidenceTimes({ r }) {
       Original source posted: <a href={r.recoveredSourcePost.url} target="_blank" rel="noopener noreferrer">{format(r.recoveredSourcePost.postedAt)}</a>
       <div>Post metadata recovered; image contents and result total remain unverified. This is not a confirmed race or submission time.</div>
     </div>}
+    {r.earlierSubmissionReceipt?.publishedAt && <div>Earlier submission receipt: <a href={r.earlierSubmissionReceipt.url} target="_blank" rel="noopener noreferrer">{format(r.earlierSubmissionReceipt.publishedAt)}</a>{r.earlierSubmissionReceipt.originalHumanMessageUnavailableInLiveWindow && <div>Original human submission time remains unverified.</div>}</div>}
     {r.videoSubmittedAt && r.videoSubmittedAt !== r.submittedAt && <div>Video submitted: {r.videoSubmissionSource?.url ? <a href={r.videoSubmissionSource.url} target="_blank" rel="noopener noreferrer">{format(r.videoSubmittedAt)}</a> : format(r.videoSubmittedAt)}</div>}
     {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
     {shares.map((event, index) => <div key={event.source?.url || index}>
@@ -581,6 +582,7 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
   return <section className="fastest-video">
     <h2>{tourLabel} recording comparison</h2>
     {wr && <p>Archived tour WR: <strong>{wr.time}</strong> · <Player id={wr.playerId} players={players} /></p>}
+    {comparison.dateBoundaryNote && <p className="table-note">{comparison.dateBoundaryNote}</p>}
     {comparison.documentedRecording && comparison.documentedRecording.timeCs !== r?.timeCs && <>
       <p>Fastest documented available recording: <strong>{comparison.documentedRecording.time}</strong> · <Player id={comparison.documentedRecording.playerId} players={players} /> · <a href={comparison.documentedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.documentedRecording.videoBackup?.url && <> · <a href={comparison.documentedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The prior review identifies the result. Uninterrupted race coverage has not been freshly certified.</p>
@@ -795,6 +797,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.bowser2022SupportingResults} players={players} tourLabel="Bowser Tour (2022)" />
       <HalloweenRecording comparison={c.marioluigi2022Recording} players={players} tourLabel="Mario vs. Luigi Tour (2022)" completed={c.marioluigi2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.marioluigi2022SupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2022)" />
+      <HalloweenRecording comparison={c.anniversary2022Recording} players={players} tourLabel="Anniversary Tour (2022)" completed={c.anniversary2022Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.anniversary2022SupportingResults} players={players} tourLabel="Anniversary Tour (2022)" />
       <HalloweenRecording comparison={c.samurai2022Recording} players={players} tourLabel="Samurai Tour (2022)" completed={c.samurai2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.samurai2022SupportingResults} players={players} tourLabel="Samurai Tour (2022)" />
       <HalloweenRecording comparison={c.supermario2020Recording} players={players} tourLabel="Super Mario Kart Tour (2020)" completed={c.supermario2020Recording?.practicalReviewComplete === true} />
