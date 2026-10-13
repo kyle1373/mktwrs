@@ -12562,7 +12562,7 @@
     "sourceClock": "06:29:00",
     "sourceZoneLabel": "CST",
     "submittedAt": null,
-    "proofImage": null,
+    "proofImage": "https://media.mktwrs.com/assets/proof/halloween2019-nova10511-original-692611db06e4.jpg",
     "proofImageReference": "https://pbs.twimg.com/media/EHo-sR6UwAAiat2?format=jpg&name=medium",
     "video": null,
     "videoReference": null,
@@ -12582,7 +12582,7 @@
       }
     ],
     "evidenceBasis": "contemporary-wr-history",
-    "evidenceNote": "Contemporary WR-history documentary confirmation; original image file recovered but content verification remains pending.",
+    "evidenceNote": "Original archived screenshot visually confirms 1:05.11 on lap2/2 at Toad Circuit. No splits or calendar date shown; existing documentary race day retained.",
     "notes": [
       "Explicitly listed as a successive world record in the contemporary WR history updated November 1, 2019. This is documentary confirmation, not a newly verified screenshot.",
       "Date and lap 1 are transcribed from that WR-history row. The source labels its clock CST while some October entries align with daylight time; the source clock is retained without inventing an exact UTC achievement timestamp.",
@@ -12602,16 +12602,36 @@
       "sourcePath": "archive/halloween2019-nova10511-source-recovery/1187330385950064640-wayback.html.gz",
       "sourceSha256": "f5770be8435503f76890a129641bfe7f5a32bcbb21a66522870f417d06a00417",
       "basis": "Archived original HTML exact tweet id/account attributes/data-time epoch and image URL token match canonical row15 reference.",
-      "freshPixelsReviewed": false,
-      "originalImageContentsVerified": false,
-      "exactRaceCompletionVerified": false
+      "freshPixelsReviewed": true,
+      "originalImageContentsVerified": true,
+      "exactRaceCompletionVerified": false,
+      "latestImageContentReview": "archive/halloween2019-nova10511-original-image-final-content-and-r2-review-20261012.json"
     },
     "recoveredImagePendingReview": {
       "reviewAudit": "archive/halloween2019-nova10511-image-content-claim-withdrawal-20261011.json",
       "originalFile": "archive/halloween2019-nova10511-source-recovery/EHo-sR6UwAAiat2-original.jpg",
       "sha256": "692611db06e4ddd6cb73cdc2c29ef32a9ee623f16842219e3b5cf55a7ddca9e7",
-      "contentsVerified": false,
-      "status": "recovered-file-content-review-pending"
+      "contentsVerified": true,
+      "status": "content-reviewed-original-preserved-on-r2",
+      "latestReview": "archive/halloween2019-nova10511-original-image-final-content-and-r2-review-20261012.json"
+    },
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/halloween2019-nova10511-original-692611db06e4.jpg",
+    "proofImageVerified": true,
+    "originalImageReview": {
+      "reviewAudit": "archive/halloween2019-nova10511-original-image-final-content-and-r2-review-20261012.json",
+      "originalFile": "archive/halloween2019-nova10511-source-recovery/EHo-sR6UwAAiat2-original.jpg",
+      "sha256": "692611db06e4ddd6cb73cdc2c29ef32a9ee623f16842219e3b5cf55a7ddca9e7",
+      "visibleTime": "1:05.11",
+      "visibleLapCounter": "2/2",
+      "courseVisualContext": "Toad Circuit scenery and minimap",
+      "lapSplitsVisible": false,
+      "calendarDateVisible": false,
+      "visiblePhoneClock": "20:26",
+      "phoneClockNotRaceDate": true,
+      "method": "Direct view_image pixels read in current turn",
+      "freshPixelsReviewed": true,
+      "originalImageContentsVerified": true,
+      "fullRaceContinuityVerified": false
     }
   },
   {
