@@ -664,7 +664,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.iceSupportingResults} players={players} tourLabel="Ice Tour (2020)" />
       <HalloweenRecording comparison={c.valentines2020Recording} players={players} tourLabel="Valentine’s Tour (2020)" completed={c.valentines2020Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.valentinesSupportingResults} players={players} tourLabel="Valentine’s Tour (2020)" />
-      <HalloweenRecording comparison={c.vancouver2020Recording} players={players} tourLabel="Vancouver Tour (2020)" />
+      <HalloweenRecording comparison={c.vancouver2020Recording} players={players} tourLabel="Vancouver Tour (2020)" completed={c.vancouver2020Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.vancouverSupportingResults} players={players} tourLabel="Vancouver Tour (2020)" />
       {!!c.vancouverPartialClips?.length && c.id === "snes-choco-island-2r" && <section className="fastest-video">
         <h2>Vancouver Tour (2020) partial recordings</h2>

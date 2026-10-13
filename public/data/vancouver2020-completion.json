@@ -2,10 +2,10 @@
   "tourId": "tour-11",
   "tour": "Vancouver Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; preserved reviews accepted with chronology and recording gaps stated.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
-  "sourceCommit": "334b04b045667d2b55e1a28f5b4faed25cf9d877",
+  "sourceCommit": "dd6ddac2a2b34b28321ac76f50306b19c3074a58",
   "window": {
     "start": "2020-02-12T06:00:00Z",
     "endExclusive": "2020-02-26T06:00:00Z"
@@ -38,7 +38,13 @@
     "archive/vancouver2020-preserved-rainbow-video-result-and-partial-choco-review-20261012.json",
     "archive/january2021-astre-historical-choco2462-original-lap-review-20261005.json",
     "archive/vancouver2020-selected-rainbow-recording-r2-preservation-20261012.json",
-    "archive/vancouver2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/vancouver2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/vancouver2020-final-publication-audit-20261013.json",
+    "archive/vancouver2020-final-choco-image-and-source-crosswalk-20261013.json",
+    "archive/vancouver2020-two-ledger-source-integrity-check-20261013.json",
+    "archive/vancouver2020-two-partial-choco-clips-r2-and-visual-review-20261013.json",
+    "archive/vancouver2020-two-selected-recording-visual-and-access-review-20261013.json",
+    "archive/vancouver2020-opening-day-policy-generation-check-20261013.json"
   ],
   "coverage": {
     "priorDiscussionMessagesWithBoundaries": 90,
@@ -50,28 +56,24 @@
     "proofImageUrlsPassed": 27
   },
   "remainingLimitations": [
-    "Nu11Choco49.56 original proof, exact race date and splits remain unknown; separate contemporaneous report clock retained.",
-    "Nu11Rainbow59.94 original full-race proof and exact date remain unknown.1:04.72 footage is a slower documented result.",
-    "Opening WR exchange order and previous-best dates remain incomplete; documentary rivals retained outside certified succession.",
-    "Choco partial clips cannot establish complete totals or final49.55 splits. Sampled Rainbow frame review establishes displayed result but not uninterrupted continuity.",
-    "Saved source coverage does not prove deleted/private/global material was recovered."
+    "Prior406 server attachments visually reviewed, but current hash crosswalk covers only27 indexed TT images plus73 official-reply images.",
+    "FinalRainbow0:59.94 lacks original proof and date;1:04.72 video is separate.",
+    "Choco0:49.56 predecessor is contemporaneously reported, with missing original date/proof/splits.",
+    "First-lap Choco clips do not establish completed total; opening global order and deleted/private material remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 910,
-    "recordingComparisonRenderChecks": 2,
-    "videoRangeChecksPassed": 1,
-    "generationFidelity": [
-      {
-        "courseId": "snes-choco-island-2r",
-        "reviewedRows": 18,
-        "differences": 0
-      },
-      {
-        "courseId": "snes-rainbow-road",
-        "reviewedRows": 14,
-        "differences": 0
-      }
-    ]
+    "productionBuildPages": 891,
+    "liveSnapshotRows": 345,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 115,
+    "freshSelectedRecordingReviews": 1,
+    "finalResultImagesVerified": 1,
+    "finalRunnerSummaryTextVerified": 0,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-12"
+  "nextTourId": "tour-12",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/vancouver2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/vancouver2020-final-choco-image-and-source-crosswalk-20261013.json"
 }
