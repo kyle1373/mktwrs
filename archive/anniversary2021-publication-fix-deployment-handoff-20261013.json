@@ -4,12 +4,12 @@
   "historyComplete": false,
   "sourceReconciliationCommit": "73232a8c",
   "publicationPreservationFixCommit": "ad64d496",
-  "deploymentId": "34c05d70-371d-4125-ac17-242848a9b2b5",
-  "lastObservedStatus": "Building at05:02; archive unpacked and Dockerfile loaded; not terminal",
+  "deploymentId": "a3bedc5a-e040-4602-b0df-58ab69c46d8f",
+  "lastObservedStatus": "Building; current log at 08:46 PDT shows base image cached and build context loaded. Source archive 139.6 MB and uploaded snapshot 26.3 MB; nonterminal.",
   "remaining": [
-    "Wait on same accepted deployment; do not restart solely for slow logs.",
-    "Run /tmp/mkt-anniversary-final-check-current.py; require zero differences and all rendered R2 links readable.",
-    "Publish completion via /tmp/mkt-anniversary-complete-current.py and survey/docs helpers; verify live label before next tour."
+    "Wait for accepted a3bedc5a Docker inclusion correction to become active; do not restart solely for slow logs.",
+    "Run scripts/verify-anniversary2021-publication.py; require zero field/membership differences and all rendered R2 links readable.",
+    "Save passing audit, run completion/survey/docs helpers, also refresh all-tour-investigation-review-20261013.md totals and tour-53 row, then verify live completion label before tour-54."
   ],
   "validation": {
     "productionBuildPages": 891,
@@ -19,5 +19,15 @@
     "partialClipsPreserved": 3,
     "liveRenderedLinksReadable": 37
   },
-  "nextTourId": "tour-54"
+  "nextTourId": "tour-54",
+  "dockerContextFixCommit": "16779cdc",
+  "publicationVerifier": "scripts/verify-anniversary2021-publication.py",
+  "latestLiveCheck": {
+    "rows": 423,
+    "differences": 31,
+    "r2Links": 37,
+    "readable": 37,
+    "passed": false
+  },
+  "previousDeploymentDisposition": "34c05d70 removed; 26ad314a active recording-clock deployment."
 }
