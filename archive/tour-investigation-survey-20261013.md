@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-48 tours have completed practical reviews with documented gaps; 133 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Frost 2021. Kamek 2021 is the next detailed review. These counts do not certify exhaustive history.
+49 tours have completed practical reviews with documented gaps; 132 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Kamek 2021. Sydney September 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 16 | 10 | 0 |
+| 2021 | 17 | 9 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -32,8 +32,8 @@ These are leads for original-source review, not automatic WR promotions. Sparse 
 ## Remaining work
 
 - 32 open tours have unresolved candidates.
-- 12 open tours have unresolved WR dates or order.
-- 12 open tours have recordings without a known upload, share or submission clock.
+- 11 open tours have unresolved WR dates or order.
+- 11 open tours have recordings without a known upload, share or submission clock.
 - 27 open tours have one-day tour-range discrepancies.
 - 10 open tours have remote-only Discord WR images.
 - 77 open tours have at least one course without linked footage.
@@ -696,19 +696,9 @@ Completed with documented gaps.
 
 ### 51. Kamek Tour (2021) — 2021-08-25 to 2021-09-08
 
-Source and publication review.
+Completed with documented gaps.
 
-**[SNES Rainbow Road R](https://mktwrs.com/course/snes-rainbow-road-r)**: 5 WR rows; 90 supporting results; 0 pending candidates; carried-in WR 1:00.16.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)**: 12 WR rows; 78 supporting results; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/kamek2021-completion.json). 215 preserved discussion messages indexed; nine discussion-image dispositions and 155 submission-image assessments crosschecked. Seven completed recordings and eight partial clips preserved on R2. Both whole-course snapshots match production and all 35 rendered R2 links are readable. Matching final WR footage retained; prior-PB dates, original record achievement dates and deleted-account identities remain qualified.
 
 ### 52. Sydney Tour (September 2021) (2021) — 2021-09-08 to 2021-09-22
 
