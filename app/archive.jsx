@@ -648,7 +648,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
         <p className="table-note">Supporting recordings preserved separately from WR progression. Original posting clocks and footage limitations remain in the linked evidence.</p>
         {c.preservedHalloweenRecordings.map(r => <p key={r.id}><strong>{r.time}</strong> · <a href={r.video || r.videoReference} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a><EvidenceTimes r={r} /></p>)}
       </details>}
-      <HalloweenRecording comparison={c.paris2019Recording} players={players} tourLabel="Paris Tour (2019)" />
+      <HalloweenRecording comparison={c.paris2019Recording} players={players} tourLabel="Paris Tour (2019)" completed={c.paris2019Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.parisSupportingResults} players={players} />
       <HalloweenRecording comparison={c.winter2019Recording} players={players} tourLabel="Winter Tour (2019)" />
       <ParisSupportingResults results={c.winterSupportingResults} players={players} tourLabel="Winter Tour (2019)" />

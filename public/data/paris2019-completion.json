@@ -5,7 +5,7 @@
   "completedAt": "2026-10-12",
   "standard": "User-authorized practical evidence: retained original reports, prior image/video reviews and unavailable references; unresolved global precedence is documented, not guessed.",
   "exhaustiveHistoryProven": false,
-  "sourceCommit": "7ef51031bad033c8335566df9dbabb5cf2d00585",
+  "sourceCommit": "8a38634414d106f4fbca7dabf50330fc8a4f95af",
   "window": {
     "start": "2019-11-06T06:00:00Z",
     "endExclusive": "2019-11-20T06:00:00Z"
@@ -33,7 +33,12 @@
     "archive/paris2019-course-by-course-evidence-reconciliation-20261004.json",
     "archive/paris2019-serverwide-image-census-20261003.json",
     "archive/paris2019-server-video-review-ledger-20261004.json",
-    "archive/paris2019-three-selected-recording-r2-preservation-20261012.json"
+    "archive/paris2019-three-selected-recording-r2-preservation-20261012.json",
+    "archive/paris2019-final-publication-audit-20261012.json",
+    "archive/paris2019-three-selected-recording-visual-and-access-review-20261012.json",
+    "archive/paris2019-final-luigi-mario-result-image-review-20261012.json",
+    "archive/paris2019-bazaar-four-result-sequence-and-original-proof-review-20261012.json",
+    "archive/paris2019-selected-recording-preservation-status-reconciliation-20261012.json"
   ],
   "coverage": {
     "discussionSourceRows": 47,
@@ -52,8 +57,17 @@
   ],
   "nextTourId": "tour-5",
   "validation": {
-    "productionBuildPages": 910,
+    "productionBuildPages": 891,
     "focusedChecksPassed": 21,
-    "proofImageChecks": "/archive/paris2019-r2-proof-image-link-check-20261012.json"
-  }
+    "proofImageChecks": "/archive/paris2019-r2-proof-image-link-check-20261012.json",
+    "finalPublishedRowsCompared": 219,
+    "finalPublicationDifferences": 0,
+    "renderedR2LinksChecked": 9,
+    "renderedR2LinksReadable": 9,
+    "openingDayFastestOnlyPolicyPassed": true
+  },
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestFinalPublicationAudit": "archive/paris2019-final-publication-audit-20261012.json",
+  "latestEvidenceReconciliation": "2026-10-12"
 }

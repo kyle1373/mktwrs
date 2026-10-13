@@ -2,7 +2,7 @@
 
 Reviewed all **183 catalog tours / 381 track appearances**. Refreshed 142 live course pages: 142 HTTP 200; 142 WR row counts match published source `31290f90`.
 
-This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Halloween 2019 is complete with documented gaps. Paris 2019 remains the active detailed review. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
+This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Halloween and Paris 2019 are complete with documented gaps. Winter 2019 is the next detailed review. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
 
 ## Strongest visible gaps
 
@@ -26,7 +26,7 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 | 1 | New York Tour (2019) · 2019-09-25 | not applicable | Before time-trial introduction |
 | 2 | Tokyo Tour (2019) · 2019-10-09 | not applicable | Before time-trial introduction |
 | 3 | Halloween Tour (2019) · 2019-10-23 | completed with documented gaps | [GCN Dino Dino Jungle](https://mktwrs.com/course/gcn-dino-dino-jungle): 22 WR / 25 support; [3DS Neo Bowser City](https://mktwrs.com/course/3ds-neo-bowser-city): 8 WR / 58 support; [3DS Toad Circuit](https://mktwrs.com/course/3ds-toad-circuit): 15 WR / 95 support |
-| 4 | Paris Tour (2019) · 2019-11-06 | sparse history review | [DS Luigi's Mansion](https://mktwrs.com/course/ds-luigi-s-mansion): 9 WR / 55 support; [SNES Mario Circuit 1](https://mktwrs.com/course/snes-mario-circuit-1): 6 WR / 29 support; [3DS Shy Guy Bazaar](https://mktwrs.com/course/3ds-shy-guy-bazaar): 1 WR / 20 support |
+| 4 | Paris Tour (2019) · 2019-11-06 | completed with documented gaps | [DS Luigi's Mansion](https://mktwrs.com/course/ds-luigi-s-mansion): 9 WR / 55 support; [SNES Mario Circuit 1](https://mktwrs.com/course/snes-mario-circuit-1): 6 WR / 29 support; [3DS Shy Guy Bazaar](https://mktwrs.com/course/3ds-shy-guy-bazaar): 1 WR / 20 support |
 | 5 | Winter Tour (2019) · 2019-11-20 | sparse history review | [SNES Choco Island 2](https://mktwrs.com/course/snes-choco-island-2): 1 WR / 9 support; [SNES Mario Circuit 3](https://mktwrs.com/course/snes-mario-circuit-3): 4 WR / 18 support; [3DS Rock Rock Mountain](https://mktwrs.com/course/3ds-rock-rock-mountain): 1 WR / 21 support |
 | 6 | London Tour (2019) · 2019-12-04 | source and publication review | [3DS Daisy Hills](https://mktwrs.com/course/3ds-daisy-hills): 3 WR / 15 support; [SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2): 1 WR / 4 support; [GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit): 2 WR / 4 support |
 | 7 | Holiday Tour (2019) · 2019-12-18 | sparse history review | [3DS Cheep Cheep Lagoon](https://mktwrs.com/course/3ds-cheep-cheep-lagoon): 1 WR / 15 support; [DS DK Pass](https://mktwrs.com/course/ds-dk-pass): 1 WR / 11 support |
@@ -235,25 +235,9 @@ Practical review completed under the requested good-enough proof standard; exhau
 
 ### 4. Paris Tour (2019) (2019-11-06)
 
-Active detailed tour: original Bazaar proofs reconciled; recording checks and final publication reconciliation remain.
+Practical review complete with documented gaps. All 219 course snapshot rows match canonical regeneration; nine rendered R2 links are readable. Opening-day fastest-only policy passes for all three tracks. Earlier global precedence, unavailable originals and sampled broadcast scope remain qualified.
 
-**[DS Luigi's Mansion](https://mktwrs.com/course/ds-luigi-s-mansion)** — 9 WR entries; 55 supporting results; 0 candidates.
-
-- Verify video identity/access and available submission/share clocks; compare fastest recording with WR.
-- Review useful later-day evidence for track-page display; omit slower opening-day PBs.
-- Use legible existing splits; missing splits alone do not prevent practical closure.
-
-**[SNES Mario Circuit 1](https://mktwrs.com/course/snes-mario-circuit-1)** — 6 WR entries; 29 supporting results; 0 candidates.
-
-- Verify video identity/access and available submission/share clocks; compare fastest recording with WR.
-- Review useful later-day evidence for track-page display; omit slower opening-day PBs.
-- Use legible existing splits; missing splits alone do not prevent practical closure.
-
-**[3DS Shy Guy Bazaar](https://mktwrs.com/course/3ds-shy-guy-bazaar)** — 1 WR entries; 20 supporting results; 0 candidates.
-
-- Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.
-- Verify video identity/access and available submission/share clocks; compare fastest recording with WR.
-- Review useful later-day evidence for track-page display; omit slower opening-day PBs.
+[Completion evidence](../public/data/paris2019-completion.json).
 
 ### 5. Winter Tour (2019) (2019-11-20)
 
