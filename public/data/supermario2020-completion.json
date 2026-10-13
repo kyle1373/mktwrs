@@ -2,8 +2,8 @@
   "tourId": "tour-26",
   "tour": "Super Mario Kart Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-09-09T06:00:00Z",
@@ -32,7 +32,14 @@
     "archive/super-mario-external-video-review.json",
     "archive/supermario2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/supermario2020-selected-recording-r2-preservation-20261012.json",
-    "archive/supermario2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/supermario2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/supermario2020-final-publication-audit-20261013.json",
+    "archive/supermario2020-practical-source-coverage-disposition-20261013.json",
+    "archive/supermario2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/supermario2020-eleven-context-clips-r2-preservation-20261013.json",
+    "archive/supermario2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/supermario2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/supermario2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/supermario2020-discussion-review-progress.json",
@@ -42,34 +49,34 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 40
+    "completedRunRecordingsPreservedOnR2": 1,
+    "lateStartRecordingsPreservedOnR2": 1,
+    "additionalCompletedRecordingsPreservedOnR2": 0,
+    "partialClipsPreservedOnR2": 10,
+    "resultScreenClipsPreservedOnR2": 1,
+    "discussionImageDispositions": 266,
+    "discussionImageHashesVerified": 266,
+    "discussionMessagesIndexed": 3060
   },
   "remainingLimitations": [
-    "Kazuo 0:40.52 Ghost Valley and Nu11 1:34.04 Royal Raceway final WR recordings not recovered. Ghost40.59 menu clip is result-only; Royal1:34.87 archive video starts late and 2026 upload is separate from 2020 result.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Both final WR recordings unavailable. Ghost Valley 0:40.89 completed footage and Royal Raceway 1:34.87 late-start footage shown separately.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Ten technique and one result-screen clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 1,
-    "documentedResultsRows": [
-      2,
-      0
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "snes-ghost-valley-1r",
-        "reviewedRows": 41,
-        "differences": 0
-      },
-      {
-        "courseId": "n64-royal-raceway",
-        "reviewedRows": 42,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 489,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 43,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-27"
+  "nextTourId": "tour-27",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/supermario2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/supermario2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "e15115bdf015bcf5f23721a26d8965bebf347c4c"
 }

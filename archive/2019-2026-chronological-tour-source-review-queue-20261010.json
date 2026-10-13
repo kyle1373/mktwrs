@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 23,
+    "practicallyCompletedTours": 24,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -1738,7 +1738,7 @@
       "endDate": "2020-09-23",
       "tourSource": "https://www.mariowiki.com/Super_Mario_Kart_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "snes-ghost-valley-1r",
@@ -1758,7 +1758,8 @@
             "archive/super-mario-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/supermario2020-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "n64-royal-raceway",
@@ -1778,16 +1779,18 @@
             "archive/super-mario-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/supermario2020-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/supermario2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/supermario2020-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/supermario2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-27",
@@ -11739,9 +11742,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/summerfest2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-26",
+  "latestLivePublicationVerification": "archive/supermario2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-27",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-26"
+  "activeDetailedTourId": "tour-27"
 }

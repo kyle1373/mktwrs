@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Summer Festival 2020 (23 tours), with documented gaps. Super Mario Kart 2020 is the next detailed review. 158 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Super Mario Kart 2020 (24 tours), with documented gaps. Los Angeles 2020 is the next detailed review. 157 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 18 | 9 | 0 |
+| 2020 | 27 | 19 | 8 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -302,20 +302,9 @@ Both live course snapshots and rendered R2 links checked. Two completed recordin
 
 ### 26. Super Mario Kart Tour (2020) — 2020-09-09 to 2020-09-23
 
-Source and publication review.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/supermario2020-completion.json).
 
-**[SNES Ghost Valley 1R](https://mktwrs.com/course/snes-ghost-valley-1r)**: 20 WR rows; 21 supporting rows; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 4 linked-video rows; 0 remote-only Discord WR images.
-
-**[N64 Royal Raceway](https://mktwrs.com/course/n64-royal-raceway)**: 21 WR rows; 21 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 2 linked-video rows; 0 remote-only Discord WR images.
+Both live course snapshots and rendered R2 links checked. Heria 0:40.89 completed Ghost Valley footage and SuperFX 1:34.87 late-start Royal footage freshly reviewed; ten technique clips and one result-screen clip preserved. The 266 prior image dispositions are retained with fresh hashes and source crosschecks; 3,060 discussion messages indexed, including boundary context. Final 0:40.52 and 1:34.04 WR footage, previous-best chronology and unavailable originals remain documented gaps. Video upload, share and result clocks remain separate.
 
 ### 27. Los Angeles Tour (2020) — 2020-09-23 to 2020-10-07
 
