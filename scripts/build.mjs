@@ -497,8 +497,7 @@ for (const p of players.values()) {
     p.avatar = null;
   }
 }
-if (fs.existsSync("archive/reviewed-publication-field-patches.json"))
-  applyReviewedPublicationPatches(courses, JSON.parse(fs.readFileSync("archive/reviewed-publication-field-patches.json", "utf8")));
+applyReviewedPublicationPatches(courses, JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8")));
 for (const [name, data] of Object.entries({
   manifest,
   courses,
