@@ -2,9 +2,9 @@
 
 Reviewed all **183 catalog tours / 381 track appearances**. Refreshed 142 live course pages: 142 HTTP 200; 142 WR row counts match published source `5915fc55`.
 
-This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Ice 2020 remains active after six completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
+This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Valentine’s 2020 is next after seven completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
 
-Six practical reviews are completed with documented gaps: Halloween, Paris, Winter, London and Holiday 2019, plus New Year 2020. **175 tours remain open**, including every catalogued tour from 2021 onward.
+Seven practical reviews are completed with documented gaps: Halloween, Paris, Winter, London and Holiday 2019, plus New Year and Ice 2020. **174 tours remain open**, including every catalogued tour from 2021 onward.
 
 ## Strongest visible gaps
 
@@ -24,7 +24,7 @@ Six practical reviews are completed with documented gaps: Halloween, Paris, Wint
 | Year | Catalog tours | Need investigation |
 |---|---:|---:|
 | 2019 | 7 | 0 |
-| 2020 | 27 | 26 |
+| 2020 | 27 | 25 |
 | 2021 | 26 | 26 |
 | 2022 | 26 | 26 |
 | 2023 | 26 | 26 |
@@ -46,7 +46,7 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 | 6 | London Tour (2019) · 2019-12-04 | completed with documented gaps | [3DS Daisy Hills](https://mktwrs.com/course/3ds-daisy-hills): 3 WR / 15 support; [SNES Mario Circuit 2](https://mktwrs.com/course/snes-mario-circuit-2): 1 WR / 4 support; [GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit): 2 WR / 4 support |
 | 7 | Holiday Tour (2019) · 2019-12-18 | completed with documented gaps | [3DS Cheep Cheep Lagoon](https://mktwrs.com/course/3ds-cheep-cheep-lagoon): 1 WR / 15 support; [DS DK Pass](https://mktwrs.com/course/ds-dk-pass): 1 WR / 11 support |
 | 8 | New Year's Tour (2020) · 2020-01-01 | completed with documented gaps | [DS Waluigi Pinball](https://mktwrs.com/course/ds-waluigi-pinball): 1 WR / 8 support |
-| 9 | Ice Tour (2020) · 2020-01-15 | source and publication review | [GBA Bowser's Castle 1](https://mktwrs.com/course/gba-bowser-s-castle-1): 2 WR / 5 support; [GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r): 2 WR / 8 support |
+| 9 | Ice Tour (2020) · 2020-01-15 | completed with documented gaps | [GBA Bowser's Castle 1](https://mktwrs.com/course/gba-bowser-s-castle-1): 2 WR / 5 support; [GCN Dino Dino Jungle R](https://mktwrs.com/course/gcn-dino-dino-jungle-r): 2 WR / 8 support |
 | 10 | Valentine's Tour (2020) · 2020-01-29 | sparse history review | [N64 Koopa Troopa Beach](https://mktwrs.com/course/n64-koopa-troopa-beach): 3 WR / 29 support; [3DS Toad Circuit R](https://mktwrs.com/course/3ds-toad-circuit-r): 1 WR / 10 support |
 | 11 | Vancouver Tour (2020) · 2020-02-12 | sparse history review | [SNES Choco Island 2R](https://mktwrs.com/course/snes-choco-island-2r): 2 WR / 17 support; [SNES Rainbow Road](https://mktwrs.com/course/snes-rainbow-road): 1 WR / 13 support |
 | 12 | Mario Bros. Tour (2020) · 2020-02-26 | sparse history review | [SNES Ghost Valley 1](https://mktwrs.com/course/snes-ghost-valley-1): 2 WR / 22 support; [SNES Rainbow Road R](https://mktwrs.com/course/snes-rainbow-road-r): 1 WR / 11 support |

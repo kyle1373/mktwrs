@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 6,
+    "practicallyCompletedTours": 7,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -721,7 +721,7 @@
       "endDate": "2020-01-29",
       "tourSource": "https://www.mariowiki.com/Ice_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "gba-bowser-s-castle-1",
@@ -744,7 +744,8 @@
             "archive/ice-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/ice2020-preserved-source-crosswalk-and-production-check-20261013.json"
         },
         {
           "courseId": "gcn-dino-dino-jungle-r",
@@ -766,17 +767,19 @@
             "archive/ice-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/ice2020-preserved-source-crosswalk-and-production-check-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/ice2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/ice2020-completion.json",
+      "practicallyComplete": true,
       "livePublicationEvidence": "archive/ice2020-live-publication-verification-20261012.json",
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/ice2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-10",
@@ -11691,9 +11694,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/newyear2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-9",
+  "latestLivePublicationVerification": "archive/ice2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-10",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-9"
+  "activeDetailedTourId": "tour-10"
 }
