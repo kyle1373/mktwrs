@@ -2,13 +2,13 @@
 
 Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `0cd77ea9`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags matched at screening time; Autumn completion was subsequently updated after its separate live publication audit.
 
-**53 practical reviews are closed with documented gaps; 128 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Toad vs. Toadette 2021 is next after live completion-label verification; review and publish one tour at a time.
+**54 practical reviews are closed with documented gaps; 127 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Space 2021 is next after live completion-label verification; review and publish one tour at a time.
 
 | Year | Reviewed with documented gaps | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 21 | 5 | 0 |
+| 2021 | 22 | 4 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -20,11 +20,11 @@ The catalogue ends at 30 September 2026. The interval from then through 13 Octob
 ## Visible investigation flags
 
 - **33** tours with unresolved candidates.
-- **11** tours with unresolved WR dates/order.
-- **9** tours with linked footage lacking an upload/share/submission clock.
+- **10** tours with unresolved WR dates/order.
+- **8** tours with linked footage lacking an upload/share/submission clock.
 - **10** tours with remote-only Discord WR images.
 - **77** tours with at least one course lacking linked footage.
-- **102** tours with at most two WR rows and at least five supporting results on a course.
+- **101** tours with at most two WR rows and at least five supporting results on a course.
 - **27** tours with one-day range discrepancies.
 
 Flags overlap. Linked footage can be partial. Every open tour needs source coverage, opening-day final leader/ties, later genuine improvements, a separate fastest completed recording where available, preserved evidence and live publication verification.
@@ -800,24 +800,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/ha
 
 ### 56. Toad vs. Toadette Tour (2021) (2021-11-03 → 2021-11-17)
 
-**Open.** carry in and sparse history check.
-
-**[SNES Donut Plains 1](https://mktwrs.com/course/snes-donut-plains-1)** — 4 WR rows, 51 supporting results, 0 candidates, 5 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)** — 1 WR rows, 32 supporting results, 0 candidates, 2 linked-video rows.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Choco Island 1R](https://mktwrs.com/course/rmx-choco-island-1r)** — 7 WR rows, 84 supporting results, 0 candidates, 5 linked-video rows.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/toadette2021-completion.json). 312 exact-window discussion messages, 15 attachment dispositions and 130 submission-file hashes reconciled. Four full recordings and four partial clips preserved on R2. Three selected finishes freshly sampled and files decoded. 822 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, the final-board typo and unavailable AKI footage remain qualified.
 
 ### 57. Space Tour (2021) (2021-11-17 → 2021-12-01)
 

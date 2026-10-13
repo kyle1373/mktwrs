@@ -2,8 +2,8 @@
   "tourId": "tour-56",
   "tour": "Toad vs. Toadette Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-11-03T06:00:00Z",
@@ -38,7 +38,19 @@
     "archive/toad-toadette-2021-reconciliation.json",
     "archive/toadette2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/toadette2021-selected-recording-r2-preservation-20261012.json",
-    "archive/toadette2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/toadette2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/toadette2021-source-media-production-build-check-20261013.json",
+    "archive/toadette2021-preserved-broader-discussion-window-index-20261013.json",
+    "archive/toadette2021-tour-only-discussion-census-20261013.json",
+    "archive/toadette2021-all-original-video-clocks-and-scope-20261013.json",
+    "archive/toadette2021-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/toadette2021-opening-day-publication-policy-check-20261013.json",
+    "archive/toadette2021-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/toadette2021-submission-original-practical-dispositions-20261013.json",
+    "archive/toadette2021-submission-original-file-publication-crosswalk-20261013.json",
+    "archive/toadette2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/toadette2021-exact-window-discussion-attachment-index-20261013.json",
+    "archive/toadette2021-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/toad-toadette-2021-reconciliation.json",
@@ -56,7 +68,21 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 3,
-    "proofImageUrlsPassed": 114
+    "exactWindowDiscussionMessagesIndexed": 312,
+    "monthlySearchWindowMessages": 123,
+    "discussionAttachmentsWithPriorDispositionsAndFiles": 15,
+    "submissionOriginalFilesHashChecked": 130,
+    "currentTourSubmissionImages": 123,
+    "postResetImages": 7,
+    "latePreviousTourImages": 1,
+    "publishedImageMatches": 121,
+    "openingDayRawPersonalBests": 0,
+    "slowerLaterPersonalBests": 1,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 4,
+    "historicalCompletedOriginalOnR2": 0,
+    "additionalOriginalSameResultOnR2": 0,
+    "partialClipsPreservedOnR2": 4
   },
   "remainingLimitations": [
     "Shiraui 1:12.03 is confirmed, but its exact original date remains unresolved. Post-reset video and migrated screenshot dates must not be substituted.",
@@ -66,37 +92,26 @@
     "Final RC board gives Sucha 1:12.52 as 36.28/26.24, a typo. The original submission 908175845351383080 says .28/.24, correctly summing as 36.28/36.24.",
     "Wins Kalimari 1:03.48 and NHSpeedy 1:03.46/1:03.45 do not beat Astre’s January 2021 1:03.39. They are not added to WR progression.",
     "Haruru’s joking WR message shows RMX Choco 1:52.83, not a WR. JuicyJack’s 1:39.64 is a slow Donut Plains run, not Dino Dino Jungle R.",
-    "Eight original videos are locally preserved; unlisted uploads remain queued after YouTube reported its daily upload limit.",
     "Reading this tour cohort does not establish complete coverage of all earlier tours or channels.",
-    "Prior full recording review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered."
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Four full original recordings and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
   ],
   "validation": {
-    "productionBuildPages": 895,
-    "recordingComparisonRenderChecks": 3,
-    "documentedResultsRows": [
-      39,
-      29,
-      29
-    ],
-    "videoRangeChecksPassed": 3,
-    "generationFidelity": [
-      {
-        "courseId": "snes-donut-plains-1",
-        "reviewedRows": 56,
-        "differences": 0
-      },
-      {
-        "courseId": "n64-kalimari-desert-2",
-        "reviewedRows": 31,
-        "differences": 0
-      },
-      {
-        "courseId": "rmx-choco-island-1r",
-        "reviewedRows": 47,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 822,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 245,
+    "selectedRecordingsWithFreshSampledVisualChecks": 3,
+    "selectedRecordingsWithFreshHashDecodeChecks": 3,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-57"
+  "nextTourId": "tour-57",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "a09dc46730d2948397c60088a2a207461cba29a0",
+  "latestPublicationAudit": "archive/toadette2021-final-publication-audit-20261013.json"
 }

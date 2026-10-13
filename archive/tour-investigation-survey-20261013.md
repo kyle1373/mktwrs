@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-53 tours have completed practical reviews with documented gaps; 128 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Halloween 2021. Toad vs. Toadette 2021 is the next detailed review. These counts do not certify exhaustive history.
+54 tours have completed practical reviews with documented gaps; 127 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Toad vs. Toadette 2021. Space 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 21 | 5 | 0 |
+| 2021 | 22 | 4 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -722,24 +722,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/ha
 
 ### 56. Toad vs. Toadette Tour (2021) — 2021-11-03 to 2021-11-17
 
-Carry in and sparse history check.
-
-**[SNES Donut Plains 1](https://mktwrs.com/course/snes-donut-plains-1)**: 4 WR rows; 51 supporting results; 0 pending candidates; carried-in WR 0:49.77.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[N64 Kalimari Desert 2](https://mktwrs.com/course/n64-kalimari-desert-2)**: 1 WR rows; 32 supporting results; 0 pending candidates; carried-in WR 1:03.39.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Choco Island 1R](https://mktwrs.com/course/rmx-choco-island-1r)**: 7 WR rows; 84 supporting results; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/toadette2021-completion.json). 312 exact-window discussion messages, 15 attachment dispositions and 130 submission-file hashes reconciled. Four full recordings and four partial clips preserved on R2. Three selected finishes freshly sampled and files decoded. 822 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, the final-board typo and unavailable AKI footage remain qualified.
 
 ### 57. Space Tour (2021) — 2021-11-17 to 2021-12-01
 
