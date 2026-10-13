@@ -591,6 +591,11 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <p className="video-links">{r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}{r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <EvidenceTimes r={r} />
     </> : <p>No recording has an explicit full-race continuity certification in this archive.</p>}
+    {comparison.lateStartRecording && <>
+      <p>Available recording starts late: <strong>{comparison.lateStartRecording.time}</strong> · <Player id={comparison.lateStartRecording.playerId} players={players} /> · <a href={comparison.lateStartRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.lateStartRecording.videoBackup?.url && <> · <a href={comparison.lateStartRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
+      <p className="table-note">The finish and result are visible; the beginning of the race is missing.</p>
+      <EvidenceTimes r={comparison.lateStartRecording} />
+    </>}
     {!!comparison.pendingRecordings?.length && <details className="sources">
       <summary>Faster video references awaiting verification ({comparison.pendingRecordings.length})</summary>
       <p className="table-note">These references have not established an available complete race. Their reported times do not replace the reviewed recording above.</p>
