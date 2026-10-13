@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Flower 2020 (15 tours), with documented gaps. Jungle 2020 is the next detailed review. 166 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Jungle 2020 (16 tours), with documented gaps. Cooking 2020 is the next detailed review. 165 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 10 | 17 | 0 |
+| 2020 | 27 | 11 | 16 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -258,13 +258,7 @@ Completed with documented gaps on 13 October after the survey. [Completion evide
 
 ### 18. Jungle Tour (2020) — 2020-05-20 to 2020-06-03
 
-Source and publication review.
-
-**[SNES Mario Circuit 1R](https://mktwrs.com/course/snes-mario-circuit-1r)**: 22 WR rows; 87 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 10 linked-video rows; 0 remote-only Discord WR images.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/jungle2020-completion.json): 241 discussion images accounted for (209 fresh dispositions, 32 prior visual reviews with fresh OCR); 61 additional server images reviewed; 109 live rows and 10 readable R2 links checked. WR **0:42.07**; fastest available completed recording **Tomegome 0:42.11**. Six preserved clips remain partial footage. Exact race dates and unavailable originals remain qualified.
 
 ### 19. Cooking Tour (2020) — 2020-06-03 to 2020-06-17
 

@@ -2,8 +2,8 @@
   "tourId": "tour-18",
   "tour": "Jungle Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: surviving result receipts,209freshdiscussion-image dispositions,32priorvisualreviews withfreshOCR,61additionalserverimage dispositions, sourceindexintegrity andlivepublicationchecked. Unavailableoriginals andunknowndates remainqualified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-05-20T06:00:00Z",
@@ -22,7 +22,15 @@
     "archive/jungle2020-kazuo-four-social-lap-videos-review-20261005.json",
     "archive/jungle2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/jungle2020-selected-recording-r2-preservation-20261012.json",
-    "archive/jungle2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/jungle2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/jungle2020-final-publication-audit-20261013.json",
+    "archive/jungle2020-discussion-image-publication-crosswalk-20261013.json",
+    "archive/jungle2020-selected-recording-fresh-visual-and-access-review-20261013.json",
+    "archive/jungle2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/jungle2020-sixtyone-additional-server-image-dispositions-20261013.json",
+    "archive/jungle2020-four-additional-completed-originals-r2-preservation-20261013.json",
+    "archive/jungle2020-six-partial-originals-r2-preservation-20261013.json",
+    "archive/jungle2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/jungle-2020-review-progress.json",
@@ -35,28 +43,37 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 23
+    "proofImageUrlsPassed": 23,
+    "additionalCompletedRecordingsPreservedOnR2": 4,
+    "partialClipsPreservedOnR2": 6,
+    "discussionImageDispositions": 241,
+    "freshDiscussionImageDispositions": 209,
+    "priorVisualReviewsWithFreshOcr": 32,
+    "additionalServerImagesFreshlyReviewed": 61,
+    "discussionImageHashesVerified": 241,
+    "expandedImageHashesVerified": 378
   },
   "remainingLimitations": [
-    "Kazuo42.07 full original recording not recovered; survivingKazuo individual-lap clips are not full-raceproof.",
-    "Original race finish clocks and some intermediateprecedence unresolved. Knownopening42.54previous-best is omittedwithsupersededopeningrecords; rawsourcesremain.",
-    "Prior completedrecording review retainedwithoutfreshuninterruptedcertification.",
-    "Deleted/private/globalmaterialnotprovenfullyrecovered."
+    "Kazuo0:42.07full completedrecording unavailable; survivingKazuo lapclips remainpartial. Tomegome0:42.11isfastestverifiedcompletedfootage.",
+    "209discussionimagesfreshlydispositioned;32priorvisualreviews retainedwithfreshOCRcrosschecks;other expandedservervisualreviewcarriedforward.",
+    "Text-onlyopening44.09lead unresolved butsupersededopeningPBhistory omittedunderrequestedpolicy.",
+    "Exactracefinishdates andsomeintermediateprecedenceunknown;source/report/upload/shareclocks staydistinct.",
+    "Representative selectedvideosamples andsuccessfuldecodechecked;uninterruptedracecertificationnotclaimed. Deleted/private/globalmaterialsnotprovedrecovered."
   ],
   "validation": {
-    "productionBuildPages": 910,
-    "recordingComparisonRenderChecks": 1,
-    "documentedResultsRows": [
-      7
-    ],
-    "videoRangeChecksPassed": 1,
-    "generationFidelity": [
-      {
-        "courseId": "snes-mario-circuit-1r",
-        "reviewedRows": 52,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 109,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 10,
+    "freshSelectedRecordingReviews": 1,
+    "finalResultImagesIntegrityVerified": 1,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-19"
+  "nextTourId": "tour-19",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/jungle2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/jungle2020-discussion-image-publication-crosswalk-20261013.json",
+  "sourceCommit": "6fe4e428942fab72847a5abfdc68d1dbc088de09"
 }

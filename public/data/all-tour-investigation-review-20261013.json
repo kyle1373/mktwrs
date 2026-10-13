@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 15,
-      "source-and-publication-review": 80,
+      "completed-with-documented-gaps": 16,
+      "source-and-publication-review": 79,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
@@ -45,8 +45,8 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 15,
-    "toursRequiringInvestigation": 166,
+    "practicallyCompletedTours": 16,
+    "toursRequiringInvestigation": 165,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -54,7 +54,7 @@
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 17
+        "requiringInvestigation": 16
       },
       "2021": {
         "catalogTours": 26,
@@ -782,12 +782,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/jungle2020-completion.json",
+      "note": "Practical review completed with documented gaps;109live rows and10R2 evidence links verified."
     },
     {
       "id": "tour-19",
@@ -11101,5 +11103,5 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-18"
+  "activeDetailedTourId": "tour-19"
 }
