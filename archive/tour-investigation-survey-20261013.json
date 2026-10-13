@@ -3,7 +3,7 @@
   "sourceCommit": "fc689aa71342ec12384225f19f5a0af8d49d4837",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-70",
+  "activeDetailedReview": "tour-71",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,11 +33,11 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 67,
+      "completed-with-documented-gaps": 68,
       "source-and-publication-review": 19,
       "carry-in-and-sparse-history-check": 62,
       "data-quality-and-history-check": 0,
-      "candidate-and-source-review": 22,
+      "candidate-and-source-review": 21,
       "faster-result-reconciliation": 6,
       "sparse-history-review": 1,
       "debut-history-gap": 4
@@ -63,9 +63,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 9,
+        "practicallyCompleted": 10,
         "notApplicable": 0,
-        "open": 17
+        "open": 16
       },
       "2023": {
         "catalogTours": 26,
@@ -7176,11 +7176,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 1,
           "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Resolve pending candidates with surviving good-enough proof.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Check remaining remote-only Discord WR images and preserve surviving originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-koopa-troopa-beach-r",
@@ -7224,8 +7220,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Retain documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-sunset-wilds",
@@ -7247,8 +7242,18 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/peachbowsermay2022-completion.json",
+      "documentedLimitations": [
+        "Four Wins KoopaBeach improvements1:15.31/1:15.24/1:15.19/1:15.11 retain surviving proof outside certified WR succession. HisMay27second-worldwide claim leaves earlier rival/global precedence unresolved.",
+        "Fabi1:11.57/1:16.05 retain contemporary leaderboard/workbook sources; individual original/account not recovered. Slower supporting source gaps remain documented.",
+        "Retro1:11.33 original freshly read; previousbest1:11.53 remains undated supporting evidence. Nalive1:18.44 footage sampled; reported38.66/39.88 sum1:18.54, so public splits remain unknown.",
+        "NHSpeedy1:15.02 submittedJune1 01:34 before06:00rollover; video uploaded06:28 afterward. RestoredSunset1:10.73 uploadMay21 is distinct from actualOctober2026Discord repost; original2022submission unknown.",
+        "Ten recordings preserved on R2, selected finishes sampled and final originals decoded. Nalive includes an earlier restart. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.",
+        "87exact-window early source messages/45originalfiles and24late preserved images checked;138discussion messages indexed. Earlier standings/original reviews retained, without claiming all deleted/private/indexing-gap sources recovered.",
+        "Only final fastest documented opening-day leaders/ties published; global opening ordering and precise achievement instants remain uncertain."
+      ]
     },
     {
       "id": "tour-71",
@@ -19082,6 +19087,6 @@
     }
   ],
   "completionStatusUpdatedAt": "2026-10-13",
-  "latestCompletionAudit": "archive/doctor2022-final-publication-audit-20261013.json",
-  "activeDetailedTourId": "tour-70"
+  "latestCompletionAudit": "archive/peachbowsermay2022-final-publication-audit-20261013.json",
+  "activeDetailedTourId": "tour-71"
 }

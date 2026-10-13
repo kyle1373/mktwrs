@@ -9,7 +9,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 9 | 17 | 0 |
+| 2022 | 10 | 16 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -802,20 +802,15 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sk
 
 ### 70. Peach vs. Bowser Tour (May 2022) (2022) — 2022-05-18 to 2022-06-01
 
-Candidate and source review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/peachbowsermay2022-completion.json). 87 early exact-window source messages,45 original-file hashes,24 late image hashes and138 discussion messages indexed. Ten recordings preserved on R2;354whole-course rows match live publication. Selected1:15.02/1:09.82 recordings match archived WRs.
 
-**[N64 Koopa Troopa Beach R](https://mktwrs.com/course/n64-koopa-troopa-beach-r)**: 1 WR rows; 27 supporting results; 4 pending candidates; carried-in WR 1:15.33.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Resolve pending candidates with surviving good-enough proof.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Check remaining remote-only Discord WR images and preserve surviving originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[GBA Sunset Wilds](https://mktwrs.com/course/gba-sunset-wilds)**: 7 WR rows; 74 supporting results; 0 pending candidates; carried-in WR 1:10.30.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Four Wins KoopaBeach improvements1:15.31/1:15.24/1:15.19/1:15.11 retain surviving proof outside certified WR succession. HisMay27second-worldwide claim leaves earlier rival/global precedence unresolved.
+- Fabi1:11.57/1:16.05 retain contemporary leaderboard/workbook sources; individual original/account not recovered. Slower supporting source gaps remain documented.
+- Retro1:11.33 original freshly read; previousbest1:11.53 remains undated supporting evidence. Nalive1:18.44 footage sampled; reported38.66/39.88 sum1:18.54, so public splits remain unknown.
+- NHSpeedy1:15.02 submittedJune1 01:34 before06:00rollover; video uploaded06:28 afterward. RestoredSunset1:10.73 uploadMay21 is distinct from actualOctober2026Discord repost; original2022submission unknown.
+- Ten recordings preserved on R2, selected finishes sampled and final originals decoded. Nalive includes an earlier restart. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.
+- 87exact-window early source messages/45originalfiles and24late preserved images checked;138discussion messages indexed. Earlier standings/original reviews retained, without claiming all deleted/private/indexing-gap sources recovered.
+- Only final fastest documented opening-day leaders/ties published; global opening ordering and precise achievement instants remain uncertain.
 
 ### 71. Cat Tour (2022) — 2022-06-01 to 2022-06-15
 

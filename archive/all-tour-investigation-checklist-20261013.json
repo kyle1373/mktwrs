@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 67,
+      "completed-with-documented-gaps": 68,
       "source-and-publication-review": 37,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 23,
-      "candidate-and-source-review": 44,
+      "candidate-and-source-review": 43,
       "data-quality-and-history-check": 0,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 67,
-    "toursRequiringInvestigation": 114,
+    "practicallyCompletedTours": 68,
+    "toursRequiringInvestigation": 113,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 17,
+        "requiringInvestigation": 16,
         "categories": {
           "source-and-publication-review": 1,
           "carry-in-and-sparse-history-check": 3,
-          "candidate-and-source-review": 10,
+          "candidate-and-source-review": 9,
           "data-quality-and-history-check": 0,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 9
+          "completed-with-documented-gaps": 10
         }
       },
       "2023": {
@@ -3366,11 +3366,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         },
         {
@@ -3390,13 +3386,22 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps; reopen for material new evidence."
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "https://mktwrs.com/data/peachbowsermay2022-completion.json",
+      "documentedLimitations": [
+        "Four Wins KoopaBeach improvements1:15.31/1:15.24/1:15.19/1:15.11 retain surviving proof outside certified WR succession. HisMay27second-worldwide claim leaves earlier rival/global precedence unresolved.",
+        "Fabi1:11.57/1:16.05 retain contemporary leaderboard/workbook sources; individual original/account not recovered. Slower supporting source gaps remain documented.",
+        "Retro1:11.33 original freshly read; previousbest1:11.53 remains undated supporting evidence. Nalive1:18.44 footage sampled; reported38.66/39.88 sum1:18.54, so public splits remain unknown.",
+        "NHSpeedy1:15.02 submittedJune1 01:34 before06:00rollover; video uploaded06:28 afterward. RestoredSunset1:10.73 uploadMay21 is distinct from actualOctober2026Discord repost; original2022submission unknown.",
+        "Ten recordings preserved on R2, selected finishes sampled and final originals decoded. Nalive includes an earlier restart. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.",
+        "87exact-window early source messages/45originalfiles and24late preserved images checked;138discussion messages indexed. Earlier standings/original reviews retained, without claiming all deleted/private/indexing-gap sources recovered.",
+        "Only final fastest documented opening-day leaders/ties published; global opening ordering and precise achievement instants remain uncertain."
+      ]
     },
     {
       "id": "tour-71",
@@ -11158,7 +11163,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-70",
+  "activeDetailedTourId": "tour-71",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11169,6 +11174,6 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-70",
-  "latestCompletionAudit": "archive/doctor2022-final-publication-audit-20261013.json"
+  "activeDetailedReview": "tour-71",
+  "latestCompletionAudit": "archive/peachbowsermay2022-final-publication-audit-20261013.json"
 }
