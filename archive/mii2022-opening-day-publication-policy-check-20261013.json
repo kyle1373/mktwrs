@@ -3,20 +3,21 @@
   "rows": [
     {
       "courseId": "rmx-rainbow-road-1",
-      "openingSourceRows": 0,
-      "fastestOpeningSourceTime": null,
-      "policy": "Course display filters opening day to final fastest documented result/ties; raw results remain preserved. Earlier standing WR takes precedence for WR eligibility."
+      "rawOpeningRecords": [],
+      "publishedOpeningRecords": [],
+      "policyPassed": true
     },
     {
       "courseId": "n64-kalimari-desert-2r",
-      "openingSourceRows": 1,
-      "fastestOpeningSourceTime": "1:04.83",
-      "policy": "Course display filters opening day to final fastest documented result/ties; raw results remain preserved. Earlier standing WR takes precedence for WR eligibility."
+      "rawOpeningRecords": [],
+      "publishedOpeningRecords": [],
+      "policyPassed": true
     }
   ],
-  "policyCode": "lib/data.mjs mii2022SupportingResults and publicationArchive",
-  "limits": [
-    "Source-row screen; opening global order and absence of deleted material are not certified."
-  ],
-  "passed": true
+  "passed": true,
+  "globalOpeningLeaderCertified": false,
+  "limitations": [
+    "Only final fastest opening-day published record and ties retained. Raw earlier results remain in source data.",
+    "Opening original screenshot evidence and worldwide precedence retain existing qualifications."
+  ]
 }
