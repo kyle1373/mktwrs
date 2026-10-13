@@ -2,8 +2,8 @@
   "tourId": "tour-15",
   "tour": "Yoshi Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with limits explicit.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-04-08T06:00:00Z",
@@ -32,7 +32,15 @@
     "archive/yoshi2020-remaining-preserved-clips-reconciliation-20261005.json",
     "archive/yoshi2020-three-brandonsg-recording-source-publication-reconciliation-20261011.json",
     "archive/yoshi2020-selected-recording-r2-preservation-20261012.json",
-    "archive/yoshi2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/yoshi2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/yoshi2020-final-publication-audit-20261013.json",
+    "archive/yoshi2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json",
+    "archive/yoshi2020-two-final-result-images-fresh-review-20261013.json",
+    "archive/yoshi2020-preserved-source-index-integrity-20261013.json",
+    "archive/yoshi2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/yoshi2020-three-slower-originals-r2-preservation-20261013.json",
+    "archive/yoshi2020-opening-day-policy-generation-check-20261013.json",
+    "archive/yoshi2020-ryukano-slower-original-r2-preservation-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/yoshi-2020-review-progress.json",
@@ -54,25 +62,19 @@
     "Deleted/private/global material not proven fully recovered; prior review accepted under practical standard."
   ],
   "validation": {
-    "productionBuildPages": 910,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      80,
-      43
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-daisy-hills-r",
-        "reviewedRows": 120,
-        "differences": 0
-      },
-      {
-        "courseId": "n64-kalimari-desert",
-        "reviewedRows": 111,
-        "differences": 0
-      }
-    ]
+    "productionBuildPages": 891,
+    "liveSnapshotRows": 584,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 147,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesVerified": 2,
+    "finalRunnerSummaryTextVerified": 0,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-16"
+  "nextTourId": "tour-16",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/yoshi2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/yoshi2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json",
+  "sourceCommit": "fc9c59fe49c7b23a7d2908a3443b9e4696e8575a"
 }

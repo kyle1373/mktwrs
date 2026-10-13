@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 12,
+    "practicallyCompletedTours": 13,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -1101,7 +1101,7 @@
       "endDate": "2020-04-22",
       "tourSource": "https://www.mariowiki.com/Yoshi_Tour_(2020)",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "3ds-daisy-hills-r",
@@ -1121,7 +1121,8 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/yoshi2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json"
         },
         {
           "courseId": "n64-kalimari-desert",
@@ -1142,17 +1143,19 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/yoshi2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/yoshi2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/yoshi2020-completion.json",
+      "practicallyComplete": true,
       "livePublicationEvidence": "archive/yoshi2020-live-publication-verification-20261012.json",
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/yoshi2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-16",
@@ -11708,9 +11711,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/hammer2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-15",
+  "latestLivePublicationVerification": "archive/yoshi2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-16",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-15"
+  "activeDetailedTourId": "tour-16"
 }
