@@ -1,0 +1,101 @@
+{
+  "tourId": "tour-50",
+  "tour": "Frost Tour (2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, fresh selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-08-11T06:00:00Z",
+    "endExclusive": "2021-08-25T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "wii-dk-summit",
+      "archivedWr": "1:32.90",
+      "fastestDocumentedAvailableRecording": "1:32.97",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "3ds-toad-circuit-r",
+      "archivedWr": "1:02.62",
+      "fastestDocumentedAvailableRecording": "1:02.74",
+      "recordingPlayerId": "astre"
+    }
+  ],
+  "evidence": [
+    "archive/frost2021-original-results-practical-review-20261012.json",
+    "archive/frost-2021-reconciliation.json",
+    "archive/frost2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/frost2021-selected-recording-r2-preservation-20261012.json",
+    "archive/frost2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/frost2021-final-publication-audit-20261013.json",
+    "archive/frost2021-practical-source-coverage-disposition-20261013.json",
+    "archive/frost2021-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/frost2021-additional-recordings-r2-preservation-20261013.json",
+    "archive/frost2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/frost2021-image-source-publication-crosswalk-20261013.json",
+    "archive/frost2021-opening-day-policy-generation-check-20261013.json",
+    "archive/frost2021-submission-source-file-and-canonical-crosswalk-20261013.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/frost-2021-reconciliation.json",
+    "coverage": {
+      "discussionIndexedImages": 113,
+      "discussionIndexedImagesVisuallyReviewed": 113,
+      "submissionImagesVisuallyReviewed": 111,
+      "capturedSubmissionMessagesRead": 123,
+      "discussionWrMatches": 15,
+      "discussionLinkMatches": 18,
+      "discussionVideoMatches": 15,
+      "originalVideosDownloadedAndVisuallyReviewed": 6,
+      "discordTechniqueClipsDownloadedAndVisuallyReviewed": 10
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "priorProofImageUrlsPassed": 113,
+    "priorProofImageCheckDate": "2026-10-12",
+    "duplicateOriginalRecordingFilesPreservedOnR2": 0,
+    "completedRunRecordingsPreservedOnR2": 6,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 4,
+    "partialClipsPreservedOnR2": 10,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 114,
+    "discussionImageHashesVerified": 114,
+    "discussionMessagesIndexed": 794
+  },
+  "remainingLimitations": [
+    "Final WRs lack reviewed available recordings; selected earlier slower footage shown separately.",
+    "Astre1:02.74 exact achievement date unresolved withinAugust15–16; laterOctober7video publication not assigned as run date.",
+    "Deleted-account identity and Nu previous-best1:33.03 date unresolved.",
+    "Three old Kaguya links unavailable; Mirrativ broadcast archive not recovered.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Annie1:35.60 cropped tile and Maki1:19.33 result have unresolved courses; preserved without assigning them to Frost.",
+    "Nu11previous-best1:32.91 exact achievement date remains unknown before theAugust21result.",
+    "Discussion census and submission captures are preserved-channel coverage, not a guarantee against deleted/private or external-server history.",
+    "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+    "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+    "Partial route clips remain separate from completed runs.",
+    "Ten partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+  ],
+  "validation": {
+    "liveSnapshotRows": 445,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 77,
+    "freshSelectedRecordingReviews": 2,
+    "selectedRecordingsWithFreshHashDecodeAndAccessChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
+  },
+  "nextTourId": "tour-51",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/frost2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/frost2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "258d30d89ebae36289eec79fc4b0e6e25759fff3"
+}

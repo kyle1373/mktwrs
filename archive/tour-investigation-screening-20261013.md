@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-47 tours have completed practical reviews with documented gaps; 134 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Mario vs. Peach 2021. Frost 2021 is the next detailed review. These counts do not certify exhaustive history.
+48 tours have completed practical reviews with documented gaps; 133 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Frost 2021. Kamek 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 15 | 11 | 0 |
+| 2021 | 16 | 10 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -32,10 +32,10 @@ These are leads for original-source review, not automatic WR promotions. Sparse 
 ## Remaining work
 
 - 32 open tours have unresolved candidates.
-- 14 open tours have unresolved WR dates or order.
-- 13 open tours have recordings without a known upload, share or submission clock.
-- 28 open tours have one-day tour-range discrepancies.
-- 11 open tours have remote-only Discord WR images.
+- 12 open tours have unresolved WR dates or order.
+- 12 open tours have recordings without a known upload, share or submission clock.
+- 27 open tours have one-day tour-range discrepancies.
+- 10 open tours have remote-only Discord WR images.
 - 77 open tours have at least one course without linked footage.
 
 Counts overlap. Every open tour also needs source coverage, the fastest available completed recording compared with the WR, and verification of published evidence. Review and finish one tour at a time.
@@ -690,18 +690,9 @@ Completed with documented gaps.
 
 ### 50. Frost Tour (2021) — 2021-08-11 to 2021-08-25
 
-Source and publication review.
+Completed with documented gaps.
 
-**[Wii DK Summit](https://mktwrs.com/course/wii-dk-summit)**: 14 WR rows; 112 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Toad Circuit R](https://mktwrs.com/course/3ds-toad-circuit-r)**: 10 WR rows; 113 supporting results; 0 pending candidates; carried-in WR 1:03.09.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/frost2021-completion.json). 794 preserved discussion messages indexed; 114 discussion-image dispositions and 110 submission-image assessments crosschecked. Six completed recordings and ten technique clips preserved on R2. Both whole-course snapshots match production and all 77 rendered R2 links are readable. Final WR footage unavailable; course holds, prior-PB achievement dates and global source completeness remain qualified.
 
 ### 51. Kamek Tour (2021) — 2021-08-25 to 2021-09-08
 

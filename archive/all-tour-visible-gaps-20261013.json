@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-50",
+  "activeDetailedReview": "tour-51",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,8 +32,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 47,
-      "source-and-publication-review": 32,
+      "completed-with-documented-gaps": 48,
+      "source-and-publication-review": 31,
       "carry-in-and-sparse-history-check": 67,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 15,
+        "practicallyCompleted": 16,
         "notApplicable": 0,
-        "open": 11
+        "open": 10
       },
       "2022": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 11
     },
-    "toursRequiringInvestigation": 134
+    "toursRequiringInvestigation": 133
   },
   "tours": [
     {
@@ -5007,8 +5007,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "wii-dk-summit",
@@ -5052,9 +5051,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Review unresolved order/date bounds; keep race, report and submission dates distinct.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-toad-circuit-r",
@@ -5077,8 +5074,24 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/frost2021-completion.json",
+      "documentedLimitations": [
+        "Final WRs lack reviewed available recordings; selected earlier slower footage shown separately.",
+        "Astre1:02.74 exact achievement date unresolved withinAugust15–16; laterOctober7video publication not assigned as run date.",
+        "Deleted-account identity and Nu previous-best1:33.03 date unresolved.",
+        "Three old Kaguya links unavailable; Mirrativ broadcast archive not recovered.",
+        "Prior full recording review retained without fresh uninterrupted certification.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Annie1:35.60 cropped tile and Maki1:19.33 result have unresolved courses; preserved without assigning them to Frost.",
+        "Nu11previous-best1:32.91 exact achievement date remains unknown before theAugust21result.",
+        "Discussion census and submission captures are preserved-channel coverage, not a guarantee against deleted/private or external-server history.",
+        "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
+        "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
+        "Partial route clips remain separate from completed runs.",
+        "Ten partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-51",
@@ -18893,5 +18906,5 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/mariopeach2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/frost2021-final-publication-audit-20261013.json"
 }
