@@ -1,0 +1,16 @@
+{
+  "tourId": "tour-53",
+  "scope": "Preserve previously reviewed fields on two course snapshots across deployment regeneration.",
+  "patchRows": 31,
+  "fieldsGuardedBy": [
+    "courseId",
+    "collection",
+    "id",
+    "time",
+    "playerId"
+  ],
+  "source": "Committed course snapshots at73232a8c",
+  "limitations": [
+    "No new WR claim or original source review made for unrelated later-year rows. Existing reviewed snapshot fields retained exactly."
+  ]
+}

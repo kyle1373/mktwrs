@@ -1,3 +1,4 @@
+import {applyReviewedPublicationPatches} from "./reviewed-publication-patches.mjs";
 import fs from "node:fs";
 import {attachReviewedVideoShares} from "./reviewed-video-shares.mjs";
 import { screenshotPublicationDate } from "./record-date.mjs";
@@ -496,6 +497,8 @@ for (const p of players.values()) {
     p.avatar = null;
   }
 }
+if (fs.existsSync("archive/reviewed-publication-field-patches.json"))
+  applyReviewedPublicationPatches(courses, JSON.parse(fs.readFileSync("archive/reviewed-publication-field-patches.json", "utf8")));
 for (const [name, data] of Object.entries({
   manifest,
   courses,
