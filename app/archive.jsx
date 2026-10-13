@@ -171,6 +171,8 @@ function Player({ id, players }) {
   return p ? (p.hasProfile === false ? p.name : <SiteLink href={`/player/${p.id}`}>{p.name}</SiteLink>) : "—";
 }
 function Proof({ r }) {
+  if (r.proofImageAvailability === "unavailable" && !r.proofImageLocal)
+    return <span title="Original image unavailable">Image unavailable</span>;
   const url = r.proofImageLocal || r.proofImage;
   return url ? (
     <a
