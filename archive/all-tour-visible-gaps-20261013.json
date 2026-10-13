@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-57",
+  "activeDetailedReview": "tour-58",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,9 +32,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 54,
+      "completed-with-documented-gaps": 55,
       "source-and-publication-review": 26,
-      "carry-in-and-sparse-history-check": 66,
+      "carry-in-and-sparse-history-check": 65,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
       "faster-result-reconciliation": 6,
@@ -56,9 +56,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 22,
+        "practicallyCompleted": 23,
         "notApplicable": 0,
-        "open": 4
+        "open": 3
       },
       "2022": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 9
     },
-    "toursRequiringInvestigation": 127
+    "toursRequiringInvestigation": 126
   },
   "tours": [
     {
@@ -5825,9 +5825,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "snes-koopa-troopa-beach-2",
@@ -5865,8 +5863,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-rainbow-road-2r",
@@ -5888,8 +5885,21 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/space2021-completion.json",
+      "documentedLimitations": [
+        "Prior-best dates and ordering are unresolved for N 1:24.15, 1:23.63 and 1:23.22, Nu11 1:22.75 and SuperFX 1:21.88.",
+        "Haruru 1:21.60 image is a repost of N, not a second record holder.",
+        "SuperFX 1:21.69 recording failed; repeat screenshot does not provide video.",
+        "Earliest known published RR2R result is N 1:23.95; this does not prove no earlier unpublished WRs existed.",
+        "KTB 57.54 and 57.57 are slower than Nu11 57.51 and excluded from WR progression.",
+        "Selected final originals now preserved on R2; previous YouTube upload limitation superseded for these two recordings.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Six full original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-58",
@@ -18988,5 +18998,5 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/toadette2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/space2021-final-publication-audit-20261013.json"
 }

@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 54,
+      "completed-with-documented-gaps": 55,
       "sparse-history-review": 1,
       "source-and-publication-review": 44,
-      "carry-in-and-sparse-history-check": 27,
+      "carry-in-and-sparse-history-check": 26,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 54,
-    "toursRequiringInvestigation": 127,
+    "practicallyCompletedTours": 55,
+    "toursRequiringInvestigation": 126,
     "years": {
       "2019": {
         "tours": 7,
@@ -69,11 +69,11 @@
       },
       "2021": {
         "tours": 26,
-        "requiringInvestigation": 4,
+        "requiringInvestigation": 3,
         "categories": {
           "source-and-publication-review": 1,
-          "carry-in-and-sparse-history-check": 3,
-          "completed-with-documented-gaps": 22
+          "carry-in-and-sparse-history-check": 2,
+          "completed-with-documented-gaps": 23
         }
       },
       "2022": {
@@ -2688,9 +2688,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -2705,13 +2703,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "carry-in-and-sparse-history-check",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/space2021-completion.json",
+      "note": "Practical source/media review and live publication verified with documented gaps."
     },
     {
       "id": "tour-58",
@@ -11253,5 +11252,5 @@
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
   "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
-  "activeDetailedTourId": "tour-57"
+  "activeDetailedTourId": "tour-58"
 }

@@ -2,8 +2,8 @@
   "tourId": "tour-57",
   "tour": "Space Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-11-17T06:00:00Z",
@@ -28,7 +28,18 @@
     "archive/space-2021-reconciliation.json",
     "archive/space2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/space2021-selected-recording-r2-preservation-20261012.json",
-    "archive/space2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/space2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/space2021-discussion-image-integrity-index-20261013.json",
+    "archive/space2021-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/space2021-exact-window-discussion-source-index-20261013.json",
+    "archive/space2021-source-media-production-build-check-20261013.json",
+    "archive/space2021-retained-source-disposition-reference-check-20261013.json",
+    "archive/space2021-preserved-submission-source-integrity-crosswalk-20261013.json",
+    "archive/space2021-opening-day-publication-policy-check-20261013.json",
+    "archive/space2021-all-original-video-upload-share-clocks-20261013.json",
+    "archive/space2021-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/space2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/space2021-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/space-2021-reconciliation.json",
@@ -44,7 +55,16 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 116
+    "exactWindowDiscussionMessagesIndexed": 250,
+    "monthlySearchWindowMessages": 250,
+    "discussionImagesWithPriorDispositionsAndHashes": 12,
+    "submissionSourceMessages": 148,
+    "uniqueSubmissionOriginalFilesHashChecked": 136,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 6,
+    "historicalCompletedOriginalOnR2": 0,
+    "additionalOriginalSameResultOnR2": 0,
+    "partialClipsPreservedOnR2": 6
   },
   "remainingLimitations": [
     "Prior-best dates and ordering are unresolved for N 1:24.15, 1:23.63 and 1:23.22, Nu11 1:22.75 and SuperFX 1:21.88.",
@@ -53,29 +73,25 @@
     "Earliest known published RR2R result is N 1:23.95; this does not prove no earlier unpublished WRs existed.",
     "KTB 57.54 and 57.57 are slower than Nu11 57.51 and excluded from WR progression.",
     "Selected final originals now preserved on R2; previous YouTube upload limitation superseded for these two recordings.",
-    "Prior full recording review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered."
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Six full original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
   ],
   "validation": {
-    "productionBuildPages": 895,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      35,
-      41
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "snes-koopa-troopa-beach-2",
-        "reviewedRows": 49,
-        "differences": 0
-      },
-      {
-        "courseId": "rmx-rainbow-road-2r",
-        "reviewedRows": 104,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 505,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 173,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-58"
+  "nextTourId": "tour-58",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "b8e7c783e38e5720ecd7ffcccbd329ba3e77e6aa",
+  "latestPublicationAudit": "archive/space2021-final-publication-audit-20261013.json"
 }

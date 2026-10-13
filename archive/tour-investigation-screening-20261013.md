@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-54 tours have completed practical reviews with documented gaps; 127 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Toad vs. Toadette 2021. Space 2021 is the next detailed review. These counts do not certify exhaustive history.
+55 tours have completed practical reviews with documented gaps; 126 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Space 2021. Holiday 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 22 | 4 | 0 |
+| 2021 | 23 | 3 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -726,18 +726,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/to
 
 ### 57. Space Tour (2021) — 2021-11-17 to 2021-12-01
 
-Carry in and sparse history check.
-
-**[SNES Koopa Troopa Beach 2](https://mktwrs.com/course/snes-koopa-troopa-beach-2)**: 1 WR rows; 49 supporting results; 0 pending candidates; carried-in WR 0:57.59.
-
-- Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Rainbow Road 2R](https://mktwrs.com/course/rmx-rainbow-road-2r)**: 29 WR rows; 70 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/space2021-completion.json). 250 exact-window discussion messages, 12 discussion-image dispositions and 148 submission messages backed by 136 original-file hashes reconciled. Six full recordings and six partial clips preserved on R2. Two selected finishes freshly sampled and files decoded. 505 live snapshot rows match; rendered R2 links readable. Original achievement dates, previous-best chronology, unavailable SuperFX footage and deleted outside sources remain qualified.
 
 ### 58. Holiday Tour (2021) — 2021-12-01 to 2021-12-15
 
