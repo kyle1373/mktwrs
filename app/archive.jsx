@@ -666,6 +666,11 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.valentinesSupportingResults} players={players} tourLabel="Valentine’s Tour (2020)" />
       <HalloweenRecording comparison={c.vancouver2020Recording} players={players} tourLabel="Vancouver Tour (2020)" />
       <ParisSupportingResults results={c.vancouverSupportingResults} players={players} tourLabel="Vancouver Tour (2020)" />
+      {!!c.vancouverPartialClips?.length && c.id === "snes-choco-island-2r" && <section className="fastest-video">
+        <h2>Vancouver Tour (2020) partial recordings</h2>
+        <p>These clips show lap-one footage and the beginning of lap two. No completed race total is shown.</p>
+        {c.vancouverPartialClips.map(clip => <p key={clip.originalUrl}>{clip.player}{clip.firstLap ? ` · First lap ${clip.firstLap}` : ""} · <a href={clip.originalUrl} target="_blank" rel="noopener noreferrer">Original clip</a> · <a href={clip.preservedUrl} target="_blank" rel="noopener noreferrer">Preserved clip</a><br />Original publication: {clip.originalPublishedAt} · Achievement time unknown</p>)}
+      </section>}
       <HalloweenRecording comparison={c.mariobros2020Recording} players={players} tourLabel="Mario Bros. Tour (2020)" />
       <ParisSupportingResults results={c.mariobrosSupportingResults} players={players} tourLabel="Mario Bros. Tour (2020)" />
       <HalloweenRecording comparison={c.babyrosalina2020Recording} players={players} tourLabel="Baby Rosalina Tour (2020)" />
