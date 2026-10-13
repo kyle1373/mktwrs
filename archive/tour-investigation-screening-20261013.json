@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-54",
+  "activeDetailedReview": "tour-55",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 51,
-      "source-and-publication-review": 28,
+      "completed-with-documented-gaps": 52,
+      "source-and-publication-review": 27,
       "carry-in-and-sparse-history-check": 67,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -57,9 +57,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 19,
+        "practicallyCompleted": 20,
         "notApplicable": 0,
-        "open": 7
+        "open": 6
       },
       "2022": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 130
+    "toursRequiringInvestigation": 129
   },
   "tours": [
     {
@@ -5441,8 +5441,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 2,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-ghost-valley-1",
@@ -5486,8 +5485,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-sunset-wilds-r",
@@ -5510,8 +5508,22 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/autumn2021-completion.json",
+      "documentedLimitations": [
+        "Kaguya 1:01.40 was already published October 6. Slower DIT/Wins/Seboss submissions before Seboss 1:01.38 are personal bests, not intermediate WRs.",
+        "The same old SuperFX 1:10.53 screenshot was reposted by Nick, Wins and Haruru with clown context. These are not three new tied records.",
+        "Spart 1:10.90 screenshot is 1:10.90, not 1:09.90; enlarged original and explicit 35.39/35.51 final-board splits agree.",
+        "SuperFX 1:10.40 fractional split message .95 .45 is retained in notes; integer lap seconds need corroboration.",
+        "N 1:02.00, Kaguya 1:01.86 and Seboss 1:01.35 previous-best fields have no established original chronology against opponents.",
+        "October 20 discussion reposts an old Dino Dino Jungle R 1:40.18 image while recalling January 2020. Player and original date need further research; do not assign the repost date.",
+        "The old Snow Tour Rosalina Ice World leaderboard repost is historical context, not new Autumn results.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Three distinct completed recordings, one additional original of the same SuperFX result, and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-55",
@@ -18951,5 +18963,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/anniversary2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/autumn2021-final-publication-audit-20261013.json"
 }

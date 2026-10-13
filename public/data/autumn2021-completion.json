@@ -2,8 +2,8 @@
   "tourId": "tour-54",
   "tour": "Autumn Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-10-06T06:00:00Z",
@@ -32,7 +32,19 @@
     "archive/autumn-2021-reconciliation.json",
     "archive/autumn2021-selected-recording-clocks-and-scope-20261012.json",
     "archive/autumn2021-selected-recording-r2-preservation-20261012.json",
-    "archive/autumn2021-r2-proof-and-video-link-check-20261012.json"
+    "archive/autumn2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/autumn2021-exact-window-discussion-attachment-dispositions-20261013.json",
+    "archive/autumn2021-submission-original-file-publication-crosswalk-20261013.json",
+    "archive/autumn2021-tour-only-discussion-census-20261013.json",
+    "archive/autumn2021-submission-original-practical-dispositions-20261013.json",
+    "archive/autumn2021-selected-recording-hash-decode-and-sampled-visual-review-20261013.json",
+    "archive/autumn2021-opening-day-publication-policy-check-20261013.json",
+    "archive/autumn2021-preserved-original-video-upload-share-clocks-20261013.json",
+    "archive/autumn2021-preserved-discussion-and-clip-integrity-index-20261013.json",
+    "archive/autumn2021-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/autumn2021-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/autumn2021-fresh-committed-input-fidelity-verification-20261013.json",
+    "archive/autumn2021-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/autumn-2021-reconciliation.json",
@@ -52,7 +64,18 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 13
+    "exactWindowDiscussionMessagesIndexed": 549,
+    "discussionAttachmentsWithPriorDispositionsAndFiles": 19,
+    "submissionOriginalFilesHashChecked": 149,
+    "currentTourSubmissionImages": 147,
+    "latePreviousTourImages": 2,
+    "publishedImageMatches": 11,
+    "openingDayRawPersonalBests": 41,
+    "slowerLaterPersonalBests": 95,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 3,
+    "additionalOriginalSameResultOnR2": 1,
+    "partialClipsPreservedOnR2": 4
   },
   "remainingLimitations": [
     "Kaguya 1:01.40 was already published October 6. Slower DIT/Wins/Seboss submissions before Seboss 1:01.38 are personal bests, not intermediate WRs.",
@@ -62,30 +85,25 @@
     "N 1:02.00, Kaguya 1:01.86 and Seboss 1:01.35 previous-best fields have no established original chronology against opponents.",
     "October 20 discussion reposts an old Dino Dino Jungle R 1:40.18 image while recalling January 2020. Player and original date need further research; do not assign the repost date.",
     "The old Snow Tour Rosalina Ice World leaderboard repost is historical context, not new Autumn results.",
-    "Sucha’s 30.84 lap-one video and two Wins jump-comparison clips are preserved locally. They do not establish a completed two-lap result; their unlisted uploads remain pending.",
-    "Prior full recording review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered."
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Three distinct completed recordings, one additional original of the same SuperFX result, and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
   ],
   "validation": {
-    "productionBuildPages": 895,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      1,
-      1
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "rmx-ghost-valley-1",
-        "reviewedRows": 21,
-        "differences": 0
-      },
-      {
-        "courseId": "gba-sunset-wilds-r",
-        "reviewedRows": 7,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 232,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 54,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-55"
+  "nextTourId": "tour-55",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "9b901c70903b7382bc18ec7c21f8c2d9c2879e1d",
+  "latestPublicationAudit": "archive/autumn2021-final-publication-audit-20261013.json"
 }

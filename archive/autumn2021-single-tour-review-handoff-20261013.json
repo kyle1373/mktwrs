@@ -1,38 +1,10 @@
 {
   "tourId": "tour-54",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
-  "sourceMediaCommit": "ea0dabb9",
-  "deploymentId": "e74a1cc4-8d98-4bdc-9989-631f1c3c10b5",
-  "lastObservedStatus": "Building; accepted via GitHub after exact committed-source fidelity correction.",
-  "coverage": {
-    "exactWindowDiscussionMessages": 549,
-    "discussionAttachmentsWithPriorReviewAndFiles": 19,
-    "submissionFilesChecked": 149,
-    "latePreviousTourImages": 2,
-    "publishedImageMatches": 11,
-    "openingDayRawPBs": 41,
-    "slowerLaterPBs": 95,
-    "distinctCompletedRecordingsOnR2": 3,
-    "additionalOriginalSameResultOnR2": 1,
-    "partialClipsOnR2": 4
-  },
-  "validation": {
-    "isolatedRowsCompared": 232,
-    "isolatedDifferences": 0,
-    "productionBuildPages": 891,
-    "productionBuildExitCode": 0,
-    "sourceBasis": "Fresh git archive committed inputs with required reviewed manifest; no stale raw inputs."
-  },
-  "remaining": [
-    "Wait for accepted e74a1cc4 (or99eaa942 same canonical build fields) to become active; run /tmp/mkt-autumn-final-check.py and require232rows, zero differences and all renderedR2 links readable.",
-    "Save final live audit; update Autumn completion/source evidence/status/triage counts to52closed129open, add completed display prop inlib/data.mjs/app/archive.jsx using index-safe edits.",
-    "Build in fresh root from /tmp/mkt-autumn-clean-root; verify rendered completed labels.",
-    "Push completion; verify live labels before Halloween2021."
-  ],
+  "completionEvidence": "public/data/autumn2021-completion.json",
+  "finalPublicationAudit": "archive/autumn2021-final-publication-audit-20261013.json",
   "nextTourId": "tour-55",
-  "publicationFixCommit": "f0e94682",
-  "freshCommittedSourceFidelityAudit": "archive/autumn2021-fresh-committed-input-fidelity-verification-20261013.json",
-  "selectedRecordingReview": "archive/autumn2021-selected-recording-hash-decode-and-sampled-visual-review-20261013.json",
-  "openingDayAudit": "archive/autumn2021-opening-day-publication-policy-check-20261013.json"
+  "nextAction": "Verify live completion labels before beginning Halloween 2021."
 }

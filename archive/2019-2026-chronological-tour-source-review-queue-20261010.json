@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 51,
+    "practicallyCompletedTours": 52,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -3662,7 +3662,7 @@
       "endDate": "2021-10-20",
       "tourSource": "https://www.mariowiki.com/Autumn_Tour_(2021)",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "rmx-ghost-valley-1",
@@ -3685,7 +3685,8 @@
             "archive/autumn-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/autumn2021-submission-original-practical-dispositions-20261013.json"
         },
         {
           "courseId": "gba-sunset-wilds-r",
@@ -3705,16 +3706,18 @@
             "archive/autumn-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/autumn2021-submission-original-practical-dispositions-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/autumn2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/autumn2021-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/autumn2021-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-55",
@@ -11826,9 +11829,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/anniversary2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-54",
+  "latestLivePublicationVerification": "archive/autumn2021-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-55",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-54"
+  "activeDetailedTourId": "tour-55"
 }

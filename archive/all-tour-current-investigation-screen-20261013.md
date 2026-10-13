@@ -1,14 +1,14 @@
 # Current tour investigation checklist — 13 October 2026
 
-Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `0cd77ea9`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags were also fetched live and match the committed flags.
+Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `0cd77ea9`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags matched at screening time; Autumn completion was subsequently updated after its separate live publication audit.
 
-**51 practical reviews are closed with documented gaps; 130 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Autumn 2021 remains active; review and publish one tour at a time.
+**52 practical reviews are closed with documented gaps; 129 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Halloween 2021 is next after live completion-label verification; review and publish one tour at a time.
 
 | Year | Reviewed with documented gaps | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 19 | 7 | 0 |
+| 2021 | 20 | 6 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -21,7 +21,7 @@ The catalogue ends at 30 September 2026. The interval from then through 13 Octob
 
 - **33** tours with unresolved candidates.
 - **11** tours with unresolved WR dates/order.
-- **10** tours with linked footage lacking an upload/share/submission clock.
+- **9** tours with linked footage lacking an upload/share/submission clock.
 - **10** tours with remote-only Discord WR images.
 - **77** tours with at least one course lacking linked footage.
 - **102** tours with at most two WR rows and at least five supporting results on a course.
@@ -792,17 +792,7 @@ Reviewed with documented gaps. [Completion evidence](https://mktwrs.com/data/ann
 
 ### 54. Autumn Tour (2021) (2021-10-06 → 2021-10-20)
 
-**Open.** source and publication review.
-
-**[RMX Ghost Valley 1](https://mktwrs.com/course/rmx-ghost-valley-1)** — 8 WR rows, 77 supporting results, 0 candidates, 5 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[GBA Sunset Wilds R](https://mktwrs.com/course/gba-sunset-wilds-r)** — 3 WR rows, 4 supporting results, 0 candidates, 4 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/autumn2021-completion.json). 549 exact-window discussion messages, 19 attachment dispositions and 149 submission-file hashes reconciled. Three distinct completed recordings, one additional original of the same result and four partial clips preserved on R2. Two selected finishes freshly sampled and files decoded. 232 live snapshot rows match; 54 rendered R2 links readable. Global precedence, original achievement dates, fractional splits and unavailable outside sources remain qualified.
 
 ### 55. Halloween Tour (2021) (2021-10-20 → 2021-11-03)
 
