@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 59,
+    "practicallyCompletedTours": 60,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4215,7 +4215,7 @@
       "endDate": "2022-02-09",
       "tourSource": "https://www.mariowiki.com/Wario_vs._Waluigi_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "3ds-bowser-s-castle",
@@ -4237,7 +4237,8 @@
             "archive/wario-waluigi-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/wariowaluigi2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         },
         {
           "courseId": "rmx-rainbow-road-1r",
@@ -4259,16 +4260,18 @@
             "archive/wario-waluigi-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/wariowaluigi2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/wariowaluigi2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/wariowaluigi2022-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/wariowaluigi2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-63",
@@ -11852,9 +11855,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/singapore2022-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-62",
+  "latestLivePublicationVerification": "archive/wariowaluigi2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-63",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-62"
+  "activeDetailedTourId": "tour-63"
 }

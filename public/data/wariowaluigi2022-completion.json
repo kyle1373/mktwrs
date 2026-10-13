@@ -2,8 +2,8 @@
   "tourId": "tour-62",
   "tour": "Wario vs. Waluigi Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2022-01-26T06:00:00Z",
@@ -28,7 +28,18 @@
     "archive/wario-waluigi-2022-reconciliation.json",
     "archive/wariowaluigi2022-selected-recording-clocks-and-scope-20261012.json",
     "archive/wariowaluigi2022-selected-recording-r2-preservation-20261012.json",
-    "archive/wariowaluigi2022-r2-proof-and-video-link-check-20261012.json"
+    "archive/wariowaluigi2022-r2-proof-and-video-link-check-20261012.json",
+    "archive/wariowaluigi2022-all-original-video-upload-share-clocks-20261013.json",
+    "archive/wariowaluigi2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+    "archive/wariowaluigi2022-exact-window-discussion-source-index-20261013.json",
+    "archive/wariowaluigi2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/wariowaluigi2022-opening-day-publication-policy-check-20261013.json",
+    "archive/wariowaluigi2022-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/wariowaluigi2022-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/wariowaluigi2022-final-announcement-source-check-20261013.json",
+    "archive/wariowaluigi2022-discussion-image-integrity-index-20261013.json",
+    "archive/wariowaluigi2022-source-build-recording-render-check-20261013.json",
+    "archive/wariowaluigi2022-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/wario-waluigi-2022-reconciliation.json",
@@ -43,7 +54,15 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 20
+    "exactWindowDiscussionMessagesIndexed": 114,
+    "discussionImagesWithPriorDispositionsAndHashes": 2,
+    "submissionSourceMessages": 105,
+    "uniqueSubmissionOriginalFilesHashChecked": 101,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 3,
+    "historicalCompletedOriginalOnR2": 0,
+    "additionalOriginalSameResultOnR2": 0,
+    "partialClipsPreservedOnR2": 6
   },
   "remainingLimitations": [
     "Spart’s 1:37.87 and 1:37.76 are held outside confirmed WR progression because Phillish’s nearby reply claims an earlier .5. Exact hundredths and date for that claimed run remain unresolved.",
@@ -51,29 +70,25 @@
     "The nearby .97 first-lap message cannot securely be assigned to Wins’s 1:36.31; split fields remain empty.",
     "The recovered Kirio 1:36.93 image is a late repost and slower than the standing WR.",
     "This tour-level review does not certify every historical record across all years or sources.",
-    "Both selected originals preserved on R2. Nu11 original video-share clock unresolved.",
-    "Prior footage review retained without fresh uninterrupted certification."
+    "Three completed original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "Nu11 original video-share clock remains unresolved; the February10 upload and January27 result submission are separate events."
   ],
   "validation": {
-    "productionBuildPages": 894,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      1,
-      4
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "rmx-rainbow-road-1r",
-        "reviewedRows": 4,
-        "differences": 0
-      },
-      {
-        "courseId": "3ds-bowser-s-castle",
-        "reviewedRows": 40,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 279,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 82,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-63"
+  "nextTourId": "tour-63",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "8c56503249f556af547d9d2e1d182271f3305371",
+  "latestPublicationAudit": "archive/wariowaluigi2022-final-publication-audit-20261013.json"
 }

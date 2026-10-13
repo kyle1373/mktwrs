@@ -36,17 +36,17 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 59,
+      "completed-with-documented-gaps": 60,
       "sparse-history-review": 1,
-      "source-and-publication-review": 42,
+      "source-and-publication-review": 41,
       "carry-in-and-sparse-history-check": 24,
       "candidate-and-source-review": 45,
       "data-quality-and-history-check": 1,
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 59,
-    "toursRequiringInvestigation": 122,
+    "practicallyCompletedTours": 60,
+    "toursRequiringInvestigation": 121,
     "years": {
       "2019": {
         "tours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "tours": 26,
-        "requiringInvestigation": 25,
+        "requiringInvestigation": 24,
         "categories": {
-          "source-and-publication-review": 6,
+          "source-and-publication-review": 5,
           "carry-in-and-sparse-history-check": 4,
           "candidate-and-source-review": 11,
           "data-quality-and-history-check": 1,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 1
+          "completed-with-documented-gaps": 2
         }
       },
       "2023": {
@@ -2949,9 +2949,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -2971,12 +2969,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/wariowaluigi2022-completion.json",
+      "note": "Practical source/media review and live publication verified with documented gaps."
     },
     {
       "id": "tour-63",
@@ -11245,5 +11245,5 @@
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
   "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
-  "activeDetailedTourId": "tour-62"
+  "activeDetailedTourId": "tour-63"
 }

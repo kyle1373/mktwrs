@@ -9,7 +9,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 1 | 25 | 0 |
+| 2022 | 2 | 24 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -746,17 +746,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/si
 
 ### 62. Wario vs. Waluigi Tour (2022) — 2022-01-26 to 2022-02-09
 
-Source and publication review.
-
-**[3DS Bowser's Castle](https://mktwrs.com/course/3ds-bowser-s-castle)**: 16 WR rows; 20 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[RMX Rainbow Road 1R](https://mktwrs.com/course/rmx-rainbow-road-1r)**: 1 WR rows; 2 supporting results; 0 pending candidates; carried-in WR 1:17.13.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/wariowaluigi2022-completion.json). 114 exact-window discussion messages, 2 discussion-image dispositions and 105 submission messages backed by 101 original-file hashes reconciled. Three completed recordings and six partial clips preserved on R2. Two selected finishes freshly sampled and files decoded. 279 live snapshot rows match; rendered R2 links readable. Unresolved intermediate claims, undated previous bests and Nu11’s original video share clock retain their qualifications.
 
 ### 63. Los Angeles Tour (2022) — 2022-02-09 to 2022-02-23
 

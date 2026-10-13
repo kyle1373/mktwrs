@@ -3,7 +3,7 @@
   "sourceCommit": "fc689aa71342ec12384225f19f5a0af8d49d4837",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-62",
+  "activeDetailedReview": "tour-63",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 59,
-      "source-and-publication-review": 24,
+      "completed-with-documented-gaps": 60,
+      "source-and-publication-review": 23,
       "carry-in-and-sparse-history-check": 63,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -63,9 +63,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 1,
+        "practicallyCompleted": 2,
         "notApplicable": 0,
-        "open": 25
+        "open": 24
       },
       "2023": {
         "catalogTours": 26,
@@ -6378,8 +6378,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-bowser-s-castle",
@@ -6423,8 +6422,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-rainbow-road-1r",
@@ -6447,8 +6445,20 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/wariowaluigi2022-completion.json",
+      "documentedLimitations": [
+        "Spart’s 1:37.87 and 1:37.76 are held outside confirmed WR progression because Phillish’s nearby reply claims an earlier .5. Exact hundredths and date for that claimed run remain unresolved.",
+        "Five earlier previous-best runs lack independently established dates and ordering.",
+        "The nearby .97 first-lap message cannot securely be assigned to Wins’s 1:36.31; split fields remain empty.",
+        "The recovered Kirio 1:36.93 image is a late repost and slower than the standing WR.",
+        "This tour-level review does not certify every historical record across all years or sources.",
+        "Three completed original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+        "Nu11 original video-share clock remains unresolved; the February10 upload and January27 result submission are separate events."
+      ]
     },
     {
       "id": "tour-63",
@@ -19016,5 +19026,5 @@
     }
   ],
   "completionStatusUpdatedAt": "2026-10-13",
-  "latestCompletionAudit": "archive/singapore2022-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/wariowaluigi2022-final-publication-audit-20261013.json"
 }
