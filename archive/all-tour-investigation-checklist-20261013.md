@@ -2,14 +2,14 @@
 
 Reviewed all **183 catalog tours / 381 track appearances**. Refreshed 142 live course pages: 142 HTTP 200; 142 WR row counts match published source `a68315a0`.
 
-Thirteen practical reviews are complete with documented gaps: Halloween, Paris, Winter, London and Holiday 2019, plus New Year, Ice, Valentine’s, Vancouver and Mario Bros., Baby Rosalina, Hammer Bro and Yoshi 2020. **171 catalog tours still need investigation; two predate time trials.** This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Valentine’s 2020 is next after the seven completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
+Fourteen practical reviews are complete with documented gaps: Halloween, Paris, Winter, London and Holiday 2019, plus New Year, Ice, Valentine’s, Vancouver and Mario Bros., Baby Rosalina, Hammer Bro, Yoshi and Trick 2020. **171 catalog tours still need investigation; two predate time trials.** This is a completed screening pass, not completed historical reconstruction. Repair one tour at a time; Valentine’s 2020 is next after the seven completed practical reviews. Exact unknown dates and dead originals are acceptable documented gaps under the requested proof standard.
 
 ## Work remaining by year
 
 | Year | Catalog tours | Need investigation |
 |---|---:|---:|
 | 2019 | 7 | 0 |
-| 2020 | 27 | 19 |
+| 2020 | 27 | 18 |
 | 2021 | 26 | 26 |
 | 2022 | 26 | 26 |
 | 2023 | 26 | 26 |
@@ -53,7 +53,7 @@ WR/support counts refer to this tour. Carry-in times are earlier published WRs t
 | 13 | Baby Rosalina Tour (2020) · 2020-03-11 | completed with documented gaps | [SNES Mario Circuit 2R](https://mktwrs.com/course/snes-mario-circuit-2r): 1 WR / 17 support |
 | 14 | Hammer Bro Tour (2020) · 2020-03-25 | completed with documented gaps | [N64 Frappe Snowland](https://mktwrs.com/course/n64-frappe-snowland): 1 WR / 32 support; [GCN Yoshi Circuit R](https://mktwrs.com/course/gcn-yoshi-circuit-r): 1 WR / 27 support |
 | 15 | Yoshi Tour (2020) · 2020-04-08 | completed with documented gaps | [3DS Daisy Hills R](https://mktwrs.com/course/3ds-daisy-hills-r): 8 WR / 91 support; [N64 Kalimari Desert](https://mktwrs.com/course/n64-kalimari-desert): 3 WR / 78 support |
-| 16 | Trick Tour (2020) · 2020-04-22 | source and publication review | [3DS Neo Bowser City R](https://mktwrs.com/course/3ds-neo-bowser-city-r): 19 WR / 138 support; [SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1): 6 WR / 126 support |
+| 16 | Trick Tour (2020) · 2020-04-22 | completed with documented gaps | [3DS Neo Bowser City R](https://mktwrs.com/course/3ds-neo-bowser-city-r): 19 WR / 138 support; [SNES Vanilla Lake 1](https://mktwrs.com/course/snes-vanilla-lake-1): 6 WR / 126 support |
 | 17 | Flower Tour (2020) · 2020-05-06 | source and publication review | [3DS Shy Guy Bazaar R](https://mktwrs.com/course/3ds-shy-guy-bazaar-r): 5 WR / 46 support |
 | 18 | Jungle Tour (2020) · 2020-05-20 | source and publication review | [SNES Mario Circuit 1R](https://mktwrs.com/course/snes-mario-circuit-1r): 6 WR / 84 support |
 | 19 | Cooking Tour (2020) · 2020-06-03 | source and publication review | [SNES Donut Plains 1](https://mktwrs.com/course/snes-donut-plains-1): 11 WR / 26 support; [DS Waluigi Pinball R](https://mktwrs.com/course/ds-waluigi-pinball-r): 4 WR / 6 support |

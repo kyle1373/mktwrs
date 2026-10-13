@@ -2,8 +2,8 @@
   "tourId": "tour-16",
   "tour": "Trick Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-04-22T06:00:00Z",
@@ -36,7 +36,13 @@
     "archive/december2021-last-six-external-video-reconciliation-20261009.json",
     "archive/trick2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/trick2020-selected-recording-r2-preservation-20261012.json",
-    "archive/trick2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/trick2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/trick2020-final-publication-audit-20261013.json",
+    "archive/trick2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json",
+    "archive/trick2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/trick2020-preserved-source-index-integrity-20261013.json",
+    "archive/trick2020-three-slower-originals-r2-preservation-20261013.json",
+    "archive/trick2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/trick-2020-review-progress.json",
@@ -57,25 +63,19 @@
     "Deleted/private/global source material not proven fully recovered."
   ],
   "validation": {
-    "productionBuildPages": 910,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      118,
-      56
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-neo-bowser-city-r",
-        "reviewedRows": 173,
-        "differences": 0
-      },
-      {
-        "courseId": "snes-vanilla-lake-1",
-        "reviewedRows": 166,
-        "differences": 0
-      }
-    ]
+    "productionBuildPages": 891,
+    "liveSnapshotRows": 728,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 302,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesVerified": 0,
+    "finalRunnerSummaryTextVerified": 0,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-17"
+  "nextTourId": "tour-17",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/trick2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/trick2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json",
+  "sourceCommit": "205dbcec25264abef358f5da59461f43c2fafcef"
 }
