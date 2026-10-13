@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-28",
+  "activeDetailedReview": "tour-29",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 25,
-      "source-and-publication-review": 52,
+      "completed-with-documented-gaps": 26,
+      "source-and-publication-review": 51,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -51,9 +51,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 20,
+        "practicallyCompleted": 21,
         "notApplicable": 0,
-        "open": 7
+        "open": 6
       },
       "2021": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 156
+    "toursRequiringInvestigation": 155
   },
   "tours": [
     {
@@ -2486,8 +2486,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-toad-circuit",
@@ -2510,8 +2509,15 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/anniversary2020-completion.json",
+      "documentedLimitations": [
+        "Final 1:03.96 result proof retained; available 1:04.04 recording shown separately. Previous-best chronology remains qualified.",
+        "Previous-best dates and unavailable originals remain unresolved.",
+        "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+        "Earlier-tour and slower video references retain their documented scope. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-29",
@@ -18571,5 +18577,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/losangeles2020-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/anniversary2020-final-publication-audit-20261013.json"
 }

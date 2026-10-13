@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 25,
+    "practicallyCompletedTours": 26,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -1841,7 +1841,7 @@
       "endDate": "2020-10-21",
       "tourSource": "https://www.mariowiki.com/1st_Anniversary_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "3ds-toad-circuit",
@@ -1863,16 +1863,18 @@
             "archive/anniversary-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/anniversary2020-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/anniversary2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/anniversary2020-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/anniversary2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-29",
@@ -11744,9 +11746,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/losangeles2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-28",
+  "latestLivePublicationVerification": "archive/anniversary2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-29",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-28"
+  "activeDetailedTourId": "tour-29"
 }
