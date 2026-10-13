@@ -26,5 +26,5 @@ test('actual NBC comparison renders faster pending video and separate share/publ
  assert.match(html,/2019-10-23 14:13:24 UTC/);
  assert.match(html,/2019-10-23 15:02:49 UTC/);
  assert.match(html,/reported times do not replace the reviewed recording/);
- assert.match(html,/Fastest full-race recording in the reviewed evidence/);
+ assert.match(html,/Selected recording from prior review/);
 });

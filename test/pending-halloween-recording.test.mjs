@@ -25,3 +25,10 @@ test('pending footage deduplicates source identities and excludes known partial 
  assert.deepEqual(c.pendingRecordings.map(r=>r.id),['pending']);
  assert.equal(c.recording.id,'full');
 });
+
+test('documented Hammer Bro recording is not duplicated or outranked by slower pending footage',()=>{
+ const c=routeData(['course','gcn-yoshi-circuit-r']).data.hammer2020Recording;
+ assert.equal(c.documentedRecording.time,'1:31.74');
+ assert.ok(c.pendingRecordings.every(r=>r.timeCs < c.documentedRecording.timeCs));
+ assert.ok(!c.pendingRecordings.some(r=>r.video===c.documentedRecording.video));
+});

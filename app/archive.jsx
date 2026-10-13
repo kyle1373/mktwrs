@@ -597,7 +597,7 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <EvidenceTimes r={comparison.lateStartRecording} />
     </>}
     {!!comparison.pendingRecordings?.length && <details className="sources">
-      <summary>Faster video references awaiting verification ({comparison.pendingRecordings.length})</summary>
+      <summary>{r || comparison.documentedRecording ? "Faster video references awaiting verification" : "Video references awaiting verification"} ({comparison.pendingRecordings.length})</summary>
       <p className="table-note">These references have not established an available complete race. Their reported times do not replace the reviewed recording above.</p>
       {comparison.pendingRecordings.map(candidate => <div key={candidate.id}>
         <p><strong>{candidate.time}</strong> · <Player id={candidate.playerId} players={players} /> · <a href={candidate.video || candidate.videoReference} target="_blank" rel="noopener noreferrer">Original video reference</a></p>
@@ -606,7 +606,7 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
         <EvidenceTimes r={candidate} />
       </div>)}
     </details>}
-    <p className="table-note">{completed ? "Practical tour review completed with documented gaps. " : "Tour review in progress. "}Faster unverified references remain preserved; recording continuity and unavailable originals retain their stated limitations.</p>
+    <p className="table-note">{completed ? "Practical tour review completed with documented gaps. " : "Tour review in progress. "}Unverified video references remain preserved in supporting results; recording continuity and unavailable originals retain their stated limitations.</p>
   </section>;
 }
 function HalloweenSupportingResults({ results, players }) {
