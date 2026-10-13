@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "One tour at a time. Halloween2022 completion verified live; Autumn2022 is active.",
+    "One tour at a time. Autumn2022 practical completion prepared; verify live publication before tour83.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,16 +36,15 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 79,
-      "sparse-history-review": 1,
+      "completed-with-documented-gaps": 80,
       "candidate-and-source-review": 37,
       "faster-result-reconciliation": 4,
       "debut-history-gap": 4,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 79,
-    "toursRequiringInvestigation": 102,
+    "practicallyCompletedTours": 80,
+    "toursRequiringInvestigation": 101,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -71,10 +70,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 5,
+        "requiringInvestigation": 4,
         "categories": {
-          "completed-with-documented-gaps": 21,
-          "sparse-history-review": 1,
+          "completed-with-documented-gaps": 22,
           "candidate-and-source-review": 3,
           "faster-result-reconciliation": 1
         }
@@ -4035,11 +4033,9 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Practical review completed; original-date and worldwide coverage gaps remain in completion evidence."
+          ],
+          "renderedSupportingRows": 31
         },
         {
           "courseId": "los-angeles-laps-3",
@@ -4053,13 +4049,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Practical review completed; original-date and worldwide coverage gaps remain in completion evidence."
+          ],
+          "renderedSupportingRows": 21
         }
       ],
-      "category": "sparse-history-review"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/autumn2022-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-83",
@@ -11256,6 +11253,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-82",
-  "latestCompletionAudit": "archive/halloween2022-completion-label-live-check-20261013.json",
+  "latestCompletionAudit": "public/data/autumn2022-completion.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00"
 }
