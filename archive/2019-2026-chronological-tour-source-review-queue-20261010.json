@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 60,
+    "practicallyCompletedTours": 61,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -4280,7 +4280,7 @@
       "endDate": "2022-02-23",
       "tourSource": "https://www.mariowiki.com/Los_Angeles_Tour_(2022)",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "wii-dk-summit-r",
@@ -4302,7 +4302,8 @@
             "archive/los-angeles-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/losangeles2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         },
         {
           "courseId": "3ds-wario-shipyard",
@@ -4324,16 +4325,18 @@
             "archive/los-angeles-2022-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/losangeles2022-preserved-submission-source-integrity-crosswalk-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/losangeles2022-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/losangeles2022-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/losangeles2022-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-64",
@@ -11855,9 +11858,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/wariowaluigi2022-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-63",
+  "latestLivePublicationVerification": "archive/losangeles2022-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-64",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-63"
+  "activeDetailedTourId": "tour-64"
 }

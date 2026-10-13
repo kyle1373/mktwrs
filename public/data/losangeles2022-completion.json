@@ -2,8 +2,8 @@
   "tourId": "tour-63",
   "tour": "Los Angeles Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2022-02-09T06:00:00Z",
@@ -28,7 +28,18 @@
     "archive/los-angeles-2022-reconciliation.json",
     "archive/losangeles2022-selected-recording-clocks-and-scope-20261012.json",
     "archive/losangeles2022-selected-recording-r2-preservation-20261012.json",
-    "archive/losangeles2022-r2-proof-and-video-link-check-20261012.json"
+    "archive/losangeles2022-r2-proof-and-video-link-check-20261012.json",
+    "archive/losangeles2022-source-build-recording-render-check-20261013.json",
+    "archive/losangeles2022-opening-day-publication-policy-check-20261013.json",
+    "archive/losangeles2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+    "archive/losangeles2022-exact-window-discussion-source-index-20261013.json",
+    "archive/losangeles2022-final-record-source-check-20261013.json",
+    "archive/losangeles2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/losangeles2022-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/losangeles2022-discussion-image-integrity-index-20261013.json",
+    "archive/losangeles2022-all-original-video-upload-share-clocks-20261013.json",
+    "archive/losangeles2022-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/losangeles2022-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/los-angeles-2022-reconciliation.json",
@@ -45,7 +56,15 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 26
+    "exactWindowDiscussionMessagesIndexed": 133,
+    "discussionImagesWithPriorDispositionsAndHashes": 3,
+    "submissionSourceMessages": 150,
+    "uniqueSubmissionOriginalFilesHashChecked": 147,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 6,
+    "historicalCompletedOriginalOnR2": 0,
+    "additionalOriginalSameResultOnR2": 0,
+    "partialClipsPreservedOnR2": 9
   },
   "remainingLimitations": [
     "Ten visible previous-best runs lack independently established publication dates and competing-record order; they remain outside confirmed progression.",
@@ -53,28 +72,24 @@
     "The original 1:33.82 video is unavailable, but its image and posted lap splits survive.",
     "Single-lap demonstrations and no-item runs are preserved separately and do not count as overall WRs.",
     "This tour-level review does not establish complete coverage across all years, channels, or deleted evidence.",
-    "Both final originals preserved on R2; prior footage review retained without fresh uninterrupted certification."
+    "Six completed original recordings (including two no-item runs) and nine partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
   ],
   "validation": {
-    "productionBuildPages": 894,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      0,
-      1
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "3ds-wario-shipyard",
-        "reviewedRows": 39,
-        "differences": 0
-      },
-      {
-        "courseId": "wii-dk-summit-r",
-        "reviewedRows": 24,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 291,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 26,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-64"
+  "nextTourId": "tour-64",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "48927367281c440adb59a1bac215c61ae0f25678",
+  "latestPublicationAudit": "archive/losangeles2022-final-publication-audit-20261013.json"
 }

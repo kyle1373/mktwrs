@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 60,
-      "source-and-publication-review": 41,
+      "completed-with-documented-gaps": 61,
+      "source-and-publication-review": 40,
       "sparse-history-review": 1,
       "carry-in-and-sparse-history-check": 24,
       "candidate-and-source-review": 45,
@@ -45,8 +45,8 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 60,
-    "toursRequiringInvestigation": 121,
+    "practicallyCompletedTours": 61,
+    "toursRequiringInvestigation": 120,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -78,15 +78,15 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 24,
+        "requiringInvestigation": 23,
         "categories": {
-          "source-and-publication-review": 5,
+          "source-and-publication-review": 4,
           "carry-in-and-sparse-history-check": 4,
           "candidate-and-source-review": 11,
           "data-quality-and-history-check": 1,
           "faster-result-reconciliation": 2,
           "sparse-history-review": 1,
-          "completed-with-documented-gaps": 2
+          "completed-with-documented-gaps": 3
         }
       },
       "2023": {
@@ -2997,9 +2997,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         },
         {
@@ -3014,13 +3012,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "Retain documented gaps and reopen for material new evidence."
           ]
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/losangeles2022-completion.json",
+      "note": "Practical source/media review and live publication verified with documented gaps."
     },
     {
       "id": "tour-64",
@@ -11123,7 +11122,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-63",
+  "activeDetailedTourId": "tour-64",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [

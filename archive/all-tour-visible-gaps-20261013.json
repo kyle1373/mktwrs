@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-63",
+  "activeDetailedReview": "tour-64",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,8 +32,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 60,
-      "source-and-publication-review": 23,
+      "completed-with-documented-gaps": 61,
+      "source-and-publication-review": 22,
       "carry-in-and-sparse-history-check": 63,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -62,9 +62,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 2,
+        "practicallyCompleted": 3,
         "notApplicable": 0,
-        "open": 24
+        "open": 23
       },
       "2023": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 9
     },
-    "toursRequiringInvestigation": 121
+    "toursRequiringInvestigation": 120
   },
   "tours": [
     {
@@ -6506,8 +6506,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "wii-dk-summit-r",
@@ -6544,8 +6543,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "3ds-wario-shipyard",
@@ -6567,8 +6565,19 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/losangeles2022-completion.json",
+      "documentedLimitations": [
+        "Ten visible previous-best runs lack independently established publication dates and competing-record order; they remain outside confirmed progression.",
+        "Nozomi’s 1:34.78 message gives 37.33/37.45; those splits conflict with the image. Seboss’s 1:33.96 message also has conflicting splits. Neither is a confirmed WR.",
+        "The original 1:33.82 video is unavailable, but its image and posted lap splits survive.",
+        "Single-lap demonstrations and no-item runs are preserved separately and do not count as overall WRs.",
+        "This tour-level review does not establish complete coverage across all years, channels, or deleted evidence.",
+        "Six completed original recordings (including two no-item runs) and nine partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-64",
@@ -19049,5 +19058,5 @@
     }
   ],
   "subsequentCompletionUpdate": "Completion updates through New Year 2021 followed the live page survey; separate live publication audits supersede prior open flags.",
-  "latestCompletionAudit": "archive/wariowaluigi2022-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/losangeles2022-final-publication-audit-20261013.json"
 }
