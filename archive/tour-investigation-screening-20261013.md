@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match current source; 142 rendered WR counts match.
 
-Practical reviews are complete for Halloween 2019 through Winter 2020 (30 tours), with documented gaps. Rosalina 2020 is the next detailed review. 151 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Rosalina 2020 (31 tours), with documented gaps. New Year 2021 is the next detailed review. 150 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 25 | 2 | 0 |
+| 2020 | 27 | 26 | 1 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -34,7 +34,7 @@ Practical reviews are complete for Halloween 2019 through Winter 2020 (30 tours)
 
 ## Work still required
 
-151 catalogued tours remain open. The priority groups above identify the clearest published gaps; each open tour still needs its own source and publication check.
+150 catalogued tours remain open. The priority groups above identify the clearest published gaps; each open tour still needs its own source and publication check.
 
 - **Five missing debut histories across four tours:** Doctor 2023 — DS Peach Gardens R; Mii 2023 — GCN Mushroom Bridge; Night 2023 — Singapore Speedway 2R; Summer 2023 — Madrid Drive and Piranha Plant Cove 3.
 - **Six tours with faster supporting results to reconcile:** Anniversary 2022; Peach vs. Bowser (November–December 2022); Space 2023; Ninja 2023; New Year's starting 25 December 2024; Animal 2025. Their source, eligibility and chronology must be checked before assigning WR status.
@@ -388,19 +388,9 @@ Both live course snapshots and rendered R2 links checked. SuperFX Choco Island 1
 
 ### 33. Rosalina Tour (2020) — 2020-12-16 to 2020-12-30
 
-Source and publication review.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/rosalina2020-completion.json).
 
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 13 WR rows; 18 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
-
-**[GBA Sunset Wilds](https://mktwrs.com/course/gba-sunset-wilds)**: 22 WR rows; 24 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
+Both live course snapshots and rendered R2 links checked. Selected SuperFX Choco Mountain 1:18.93 footage remains separately displayed from final WR 1:18.51 without recovered full footage; Kazuo Sunset Wilds 1:10.30 matches the WR. Two additional completed recordings and ten partial/technique clips preserved. The 316 image dispositions have verified hashes; 2,808 tour-only messages indexed separately from larger multi-tour ledger. Unknown clip contents, previous-best dates, disputed claims and unavailable originals remain documented gaps.
 
 ### 34. New Year's 2021 Tour (2020) — 2020-12-30 to 2021-01-13
 

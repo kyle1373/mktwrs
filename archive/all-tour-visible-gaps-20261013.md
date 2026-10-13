@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 rendered WR counts match the prior publication check. Counts and investigation leads below use freshly fetched live data. The isolated source baseline includes unpublished Mario vs. Luigi evidence, so its data comparisons are reported separately in the JSON.
 
-Practical reviews are complete for Halloween 2019 through Winter 2020 (30 tours), with documented gaps. Rosalina 2020 is the next detailed review. 151 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Rosalina 2020 (31 tours), with documented gaps. New Year 2021 is the next detailed review. 150 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 25 | 2 | 0 |
+| 2020 | 27 | 26 | 1 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -34,7 +34,7 @@ Practical reviews are complete for Halloween 2019 through Winter 2020 (30 tours)
 
 ## What still needs investigation
 
-**151 catalog tours are still open.** The two remaining 2020 tours are Rosalina Tour (2020); New Year's 2021 Tour (2020). All 2021–2026 tours require an individual source and publication sign-off.
+**150 catalog tours are still open.** The remaining tour beginning in 2020 is New Year's 2021 Tour (2020). All 2021–2026 tours require an individual source and publication sign-off.
 
 The visible flags overlap:
 
@@ -47,9 +47,9 @@ The visible flags overlap:
 
 The four debut-gap tours cover five tracks. The six faster-result tours and two parser-error tours are listed above. Faster supporting times need date, tour assignment and completed-race checks before promotion.
 
-The catalogue omits the current interval beginning **30 September 2026**. That is additional work beyond the 151 open catalog tours.
+The catalogue omits the current interval beginning **30 September 2026**. That is additional work beyond the 150 open catalog tours.
 
-The 30 completed tours have practical evidence reviews with documented limitations. This does not certify that every historical run has survived. Videos, source clocks, and WR versus fastest completed recording remain part of each tour’s closure.
+The 31 completed tours have practical evidence reviews with documented limitations. This does not certify that every historical run has survived. Videos, source clocks, and WR versus fastest completed recording remain part of each tour’s closure.
 
 ## Every tour in chronological order
 
@@ -461,19 +461,7 @@ Practical review completed with documented gaps. [Completion evidence](https://m
 
 ### 33. Rosalina Tour (2020) — 2020-12-16 to 2020-12-30
 
-Source and publication review.
-
-**[N64 Choco Mountain](https://mktwrs.com/course/n64-choco-mountain)**: 13 WR rows; 18 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
-
-**[GBA Sunset Wilds](https://mktwrs.com/course/gba-sunset-wilds)**: 22 WR rows; 24 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/rosalina2020-completion.json). Subsequent live publication audit verified all 513 rows across both course snapshots and 83 R2 links. Choco Mountain WR 1:18.51 and selected footage 1:18.93 remain distinct; Sunset Wilds 1:10.30 selected footage matches WR. Two additional completed recordings and ten partial/technique clips preserved. Unknown content, unavailable faster footage and previous-best precedence retain documented limitations.
 
 ### 34. New Year's 2021 Tour (2020) — 2020-12-30 to 2021-01-13
 

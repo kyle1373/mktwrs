@@ -2,8 +2,8 @@
   "tourId": "tour-33",
   "tour": "Rosalina Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-12-16T06:00:00Z",
@@ -29,7 +29,16 @@
     "archive/rosalina2020-video-preservation.json",
     "archive/rosalina2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/rosalina2020-selected-recording-r2-preservation-20261012.json",
-    "archive/rosalina2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/rosalina2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/rosalina2020-final-publication-audit-20261013.json",
+    "archive/rosalina2020-practical-source-coverage-disposition-20261013.json",
+    "archive/rosalina2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/rosalina2020-two-additional-completed-recordings-r2-review-20261013.json",
+    "archive/rosalina2020-source-gaps-and-reference-disposition-20261013.json",
+    "archive/rosalina2020-tour-only-additional-media-r2-preservation-20261013.json",
+    "archive/rosalina2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/rosalina2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/rosalina2020-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/winter2020-discussion-review-progress.json",
@@ -39,34 +48,45 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 42
+    "proofImageUrlsPassed": 42,
+    "completedRunRecordingsPreservedOnR2": 2,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 2,
+    "partialClipsPreservedOnR2": 10,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 316,
+    "discussionImageHashesVerified": 316,
+    "discussionMessagesIndexed": 2808
   },
   "remainingLimitations": [
-    "Final Sunset Wilds WR recording preserved. Choco Mountain final WR 1:18.51 has result evidence; fastest available full recording 1:18.93 is SuperFX.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Sunset final WR recording preserved; Choco Mountain selected footage 1:18.93 is slower than final 1:18.51 with no recovered full recording. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Three unavailable indexed external images have surviving Discord repost copies that were visually reviewed.",
+    "Previous-best values can reveal missing intermediate runs but do not prove their dates or precedence. Examples: Nu11 Sunset Wilds 1:11.75, Kazuo 1:10.82 and 1:10.57, Tome Choco Mountain 1:19.49.",
+    "SuperFX Choco Mountain 1:18.92 appears in a later leaderboard after Nu11 1:18.62; original submission date and WR status remain unresolved.",
+    "A Reddit 1:09.98 claim has no recovered image or video and was challenged for proof; it is not promoted.",
+    "Nu11 final 1:18.51 image recovered from his January 3 request to update the previous-tour WR; original December 29 date evidence is retained.",
+    "Further uncaptured messages and originals may change this progression.",
+    "Tour-only captured messages 2,808 and surviving image census rows 316; prior larger ledger spans multiple tours. Additional January context and unavailable external duplicates are recorded separately in reconciliation.",
+    "Dash run-video has no total in preserved embed; one unrecovered lap/failed-attempt clip remains unknown. Access originals have unavailable download logs. No unproven total inferred.",
+    "Choco Mountain final 1:18.51 result evidence has no recovered full recording; selected SuperFX 1:18.93 footage is slower.",
+    "Fresh representative start/gameplay/finish samples plus decode retain prior recording assessment; uninterrupted unedited race coverage is not certified.",
+    "Ten partial/technique clips are not completed WR proof; two additional completed recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified."
   ],
   "validation": {
-    "productionBuildPages": 905,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      4,
-      1
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "n64-choco-mountain",
-        "reviewedRows": 32,
-        "differences": 0
-      },
-      {
-        "courseId": "gba-sunset-wilds",
-        "reviewedRows": 47,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 513,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 83,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-34"
+  "nextTourId": "tour-34",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/rosalina2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/rosalina2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "7159799a54defd0280a3a9f20a9f9ad980486d10"
 }

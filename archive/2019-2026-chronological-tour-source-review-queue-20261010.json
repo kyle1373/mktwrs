@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 30,
+    "practicallyCompletedTours": 31,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -2137,7 +2137,7 @@
       "endDate": "2020-12-30",
       "tourSource": "https://www.mariowiki.com/Rosalina_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "n64-choco-mountain",
@@ -2159,7 +2159,8 @@
             "archive/rosalina-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/rosalina2020-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "gba-sunset-wilds",
@@ -2181,16 +2182,18 @@
             "archive/rosalina-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/rosalina2020-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/rosalina2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/rosalina2020-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/rosalina2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-34",
@@ -11758,9 +11761,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/winter2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-33",
+  "latestLivePublicationVerification": "archive/rosalina2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-34",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-33"
+  "activeDetailedTourId": "tour-34"
 }

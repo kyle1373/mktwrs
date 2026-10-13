@@ -3,7 +3,7 @@
   "sourceCommit": "ec5f90db7a1027de062fbcaa7ea6b2379d1a6252",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-33",
+  "activeDetailedReview": "tour-34",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -32,8 +32,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 30,
-      "source-and-publication-review": 47,
+      "completed-with-documented-gaps": 31,
+      "source-and-publication-review": 46,
       "carry-in-and-sparse-history-check": 69,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -50,9 +50,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 25,
+        "practicallyCompleted": 26,
         "notApplicable": 0,
-        "open": 2
+        "open": 1
       },
       "2021": {
         "catalogTours": 26,
@@ -98,7 +98,7 @@
       "atLeastOneCourseWithoutLinkedVideo": 77,
       "videoRowsWithoutKnownUploadShareOrSubmissionClock": 19
     },
-    "toursRequiringInvestigation": 151
+    "toursRequiringInvestigation": 150
   },
   "tours": [
     {
@@ -2957,8 +2957,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed with documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "n64-choco-mountain",
@@ -2996,8 +2995,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed with documented gaps; reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gba-sunset-wilds",
@@ -3019,8 +3017,26 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/rosalina2020-completion.json",
+      "latestPublicationAudit": "archive/rosalina2020-final-publication-audit-20261013.json",
+      "documentedLimitations": [
+        "Sunset final WR recording preserved; Choco Mountain selected footage 1:18.93 is slower than final 1:18.51 with no recovered full recording. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
+        "Previous-best dates and unavailable originals remain unresolved.",
+        "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+        "Three unavailable indexed external images have surviving Discord repost copies that were visually reviewed.",
+        "Previous-best values can reveal missing intermediate runs but do not prove their dates or precedence. Examples: Nu11 Sunset Wilds 1:11.75, Kazuo 1:10.82 and 1:10.57, Tome Choco Mountain 1:19.49.",
+        "SuperFX Choco Mountain 1:18.92 appears in a later leaderboard after Nu11 1:18.62; original submission date and WR status remain unresolved.",
+        "A Reddit 1:09.98 claim has no recovered image or video and was challenged for proof; it is not promoted.",
+        "Nu11 final 1:18.51 image recovered from his January 3 request to update the previous-tour WR; original December 29 date evidence is retained.",
+        "Further uncaptured messages and originals may change this progression.",
+        "Tour-only captured messages 2,808 and surviving image census rows 316; prior larger ledger spans multiple tours. Additional January context and unavailable external duplicates are recorded separately in reconciliation.",
+        "Dash run-video has no total in preserved embed; one unrecovered lap/failed-attempt clip remains unknown. Access originals have unavailable download logs. No unproven total inferred.",
+        "Choco Mountain final 1:18.51 result evidence has no recovered full recording; selected SuperFX 1:18.93 footage is slower.",
+        "Fresh representative start/gameplay/finish samples plus decode retain prior recording assessment; uninterrupted unedited race coverage is not certified.",
+        "Ten partial/technique clips are not completed WR proof; two additional completed recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-34",
@@ -18617,5 +18633,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "subsequentCompletionUpdate": "Mario vs. Luigi and Winter completion updates followed the live page survey; their separate live publication audits supersede prior open flags."
+  "subsequentCompletionUpdate": "Mario vs. Luigi, Winter and Rosalina completion updates followed the live page survey; separate live publication audits supersede prior open flags."
 }
