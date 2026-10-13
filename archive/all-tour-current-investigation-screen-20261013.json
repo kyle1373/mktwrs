@@ -3,7 +3,7 @@
   "sourceCommit": "48f58df0de751e39d0b4b0c6a769f6dc111e8e0a",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-61",
+  "activeDetailedReview": "tour-62",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -34,9 +34,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 58,
+      "completed-with-documented-gaps": 59,
       "carry-in-and-sparse-history-check": 60,
-      "source-and-publication-review": 26,
+      "source-and-publication-review": 25,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 30,
       "sparse-history-review": 1,
@@ -63,9 +63,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 0,
+        "practicallyCompleted": 1,
         "notApplicable": 0,
-        "open": 26
+        "open": 25
       },
       "2023": {
         "catalogTours": 26,
@@ -92,15 +92,15 @@
         "open": 19
       }
     },
-    "openTours": 123,
+    "openTours": 122,
     "openTourFlagsOverlapping": {
       "pendingCandidates": 33,
       "unresolvedWrDatesOrOrder": 10,
       "missingVideoClocks": 6,
       "remoteOnlyDiscordWrImages": 11,
+      "oneDayTourRangeDiscrepancies": 27,
       "noLinkedFootage": 77,
-      "sparseCourseHistory": 98,
-      "oneDayTourRangeDiscrepancies": 27
+      "sparseCourseHistory": 98
     }
   },
   "tours": [
@@ -6416,8 +6416,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "singapore-speedway",
@@ -6462,8 +6461,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "ds-waluigi-pinball-r",
@@ -6487,8 +6485,20 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/singapore2022-completion.json",
+      "documentedLimitations": [
+        "Twenty result images were absent from the original capture. All were recovered and visually reviewed; six restore intermediate WRs. Earlier and later tours require the same capture audit.",
+        "Nine visible previous-best leads have unresolved dates and are excluded from progression.",
+        "The January 12 Wins route short PnKptyLllnw is unavailable.",
+        "Final standings contain a 53.34 typo for Nu11 lap 2; the original video and submission establish 53.24.",
+        "This does not certify that every historical WR was posted or that every source across all years has been reviewed.",
+        "Sucha original video share clock unresolved; lap-caption post not treated as video share.",
+        "Seven completed original recordings, one alternate encode and five partial clips preserved on R2. Partial clips do not establish completed race totals.",
+        "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+        "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+      ]
     },
     {
       "id": "tour-62",
@@ -19385,6 +19395,6 @@
     "subsequentPenguinCompletionAudit": "archive/penguin2021-completion-label-live-publication-check-20261013.json",
     "subsequentNewYearCompletionAudit": "archive/newyear2022-completion-label-live-publication-check-20261013.json"
   },
-  "remainingCurrentTourWork": "New Year 2022 completed labels verified live; Singapore 2022 is next.",
-  "latestCompletionAudit": "archive/newyear2022-final-publication-audit-20261013.json"
+  "remainingCurrentTourWork": "Verify live Singapore completion label before beginning Wario vs. Waluigi 2022.",
+  "latestCompletionAudit": "archive/singapore2022-final-publication-audit-20261013.json"
 }

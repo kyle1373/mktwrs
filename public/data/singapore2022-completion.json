@@ -2,8 +2,8 @@
   "tourId": "tour-61",
   "tour": "Singapore Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2022-01-12T06:00:00Z",
@@ -30,7 +30,18 @@
     "archive/singapore-2022-reconciliation.json",
     "archive/singapore2022-selected-recording-clocks-and-scope-20261012.json",
     "archive/singapore2022-selected-recording-r2-preservation-20261012.json",
-    "archive/singapore2022-r2-proof-and-video-link-check-20261012.json"
+    "archive/singapore2022-r2-proof-and-video-link-check-20261012.json",
+    "archive/singapore2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+    "archive/singapore2022-final-announcement-source-check-20261013.json",
+    "archive/singapore2022-source-build-recording-render-check-20261013.json",
+    "archive/singapore2022-exact-window-discussion-source-index-20261013.json",
+    "archive/singapore2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
+    "archive/singapore2022-opening-day-publication-policy-check-20261013.json",
+    "archive/singapore2022-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
+    "archive/singapore2022-discussion-image-integrity-index-20261013.json",
+    "archive/singapore2022-all-original-video-upload-share-clocks-20261013.json",
+    "archive/singapore2022-all-surviving-recordings-r2-preservation-20261013.json",
+    "archive/singapore2022-final-publication-audit-20261013.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/singapore-2022-reconciliation.json",
@@ -46,7 +57,15 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 27
+    "exactWindowDiscussionMessagesIndexed": 204,
+    "discussionImagesWithPriorDispositionsAndHashes": 8,
+    "submissionSourceMessages": 150,
+    "uniqueSubmissionOriginalFilesHashChecked": 138,
+    "actionableFasterUnmatchedLeads": 0,
+    "completedRunRecordingsPreservedOnR2": 7,
+    "historicalCompletedOriginalOnR2": 0,
+    "additionalOriginalSameResultOnR2": 1,
+    "partialClipsPreservedOnR2": 5
   },
   "remainingLimitations": [
     "Twenty result images were absent from the original capture. All were recovered and visually reviewed; six restore intermediate WRs. Earlier and later tours require the same capture audit.",
@@ -54,30 +73,25 @@
     "The January 12 Wins route short PnKptyLllnw is unavailable.",
     "Final standings contain a 53.34 typo for Nu11 lap 2; the original video and submission establish 53.24.",
     "This does not certify that every historical WR was posted or that every source across all years has been reviewed.",
-    "Two selected recordings preserved on R2; N final WR video not recovered.",
     "Sucha original video share clock unresolved; lap-caption post not treated as video share.",
-    "Prior footage review retained without fresh uninterrupted certification."
+    "Seven completed original recordings, one alternate encode and five partial clips preserved on R2. Partial clips do not establish completed race totals.",
+    "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
   ],
   "validation": {
-    "productionBuildPages": 894,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      4,
-      0
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "singapore-speedway",
-        "reviewedRows": 56,
-        "differences": 0
-      },
-      {
-        "courseId": "ds-waluigi-pinball-r",
-        "reviewedRows": 12,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 252,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 35,
+    "selectedRecordingsWithFreshSampledVisualChecks": 2,
+    "selectedRecordingsWithFreshHashDecodeChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "freshCommittedSourceBuildPassed": true,
+    "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": "tour-62"
+  "nextTourId": "tour-62",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "sourceCommit": "302630752ffc8e2c65f11ffae90f40c3629b62d5",
+  "latestPublicationAudit": "archive/singapore2022-final-publication-audit-20261013.json"
 }
