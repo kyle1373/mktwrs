@@ -2,7 +2,7 @@
 
 Reviewed all **183 catalog tours**, **381 course appearances**, and **142 live course pages** against committed publication output `8068ad57`. All pages and downloadable data returned HTTP 200. All 142 displayed WR counts match the publication output. Live completion flags match committed flags: **true**.
 
-**121 tours remain open**, starting with Los Angeles 2022. **60 practical reviews are closed with documented gaps**, ending with Wario vs. Waluigi 2022 (26 January–9 February 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
+**120 tours remain open**, starting with Sky 2022. **61 practical reviews are closed with documented gaps**, ending with Los Angeles 2022 (9–23 February 2022). New York and Tokyo 2019 predate time trials. No date is certified as exhaustively complete.
 
 The catalogue ends on 30 September 2026; 30 September–13 October remains uncatalogued and needs review. Future results through December 2026 cannot yet be archived.
 
@@ -13,7 +13,7 @@ The catalogue ends on 30 September 2026; 30 September–13 October remains uncat
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 2 | 24 | 0 |
+| 2022 | 3 | 23 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -931,17 +931,16 @@ Before time trials.
 
 ### 63. Los Angeles Tour (2022) — 2022-02-09 to 2022-02-23
 
-**Open:** source and publication review.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/losangeles2022-completion.json).
 
-**[Wii DK Summit R](https://mktwrs.com/course/wii-dk-summit-r)** — 10 attributed WR rows, 33 supporting results, 0 candidates, 3 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Wario Shipyard](https://mktwrs.com/course/3ds-wario-shipyard)** — 16 attributed WR rows, 16 supporting results, 0 candidates, 6 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Ten visible previous-best runs lack independently established publication dates and competing-record order; they remain outside confirmed progression.
+- Nozomi’s 1:34.78 message gives 37.33/37.45; those splits conflict with the image. Seboss’s 1:33.96 message also has conflicting splits. Neither is a confirmed WR.
+- The original 1:33.82 video is unavailable, but its image and posted lap splits survive.
+- Single-lap demonstrations and no-item runs are preserved separately and do not count as overall WRs.
+- This tour-level review does not establish complete coverage across all years, channels, or deleted evidence.
+- Six completed original recordings (including two no-item runs) and nine partial clips preserved on R2. Partial clips do not establish completed race totals.
+- Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.
+- Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.
 
 ### 64. Sky Tour (2022) — 2022-02-23 to 2022-03-09
 
@@ -3015,3 +3014,5 @@ This is a fresh published-data screening, not a new exhaustive review of origina
 Singapore completion update: source data verified live, 252 rows match and 35 rendered R2 links readable. Both live completion labels and the final publication audit reference verified.
 
 Wario vs. Waluigi completion update: 279 live data rows match and 82 rendered R2 links readable. Both completion labels and the final audit reference verified live.
+
+Los Angeles completion update: 291 live data rows match and 26 rendered R2 links readable. Both completion labels and the final audit reference verified live.
