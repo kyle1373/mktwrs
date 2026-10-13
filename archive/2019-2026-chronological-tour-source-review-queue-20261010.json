@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 22,
+    "practicallyCompletedTours": 23,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -1677,7 +1677,7 @@
       "endDate": "2020-09-09",
       "tourSource": "https://www.mariowiki.com/Summer_Festival_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-history-reconstruction",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "snes-choco-island-2",
@@ -1697,7 +1697,8 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/summerfest2020-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "snes-mario-circuit-3r",
@@ -1717,16 +1718,18 @@
           ],
           "priorRelatedReports": [],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/summerfest2020-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/summerfest2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/summerfest2020-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-history-reconstruction",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/summerfest2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-26",
@@ -11736,9 +11739,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/pirate2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-25",
+  "latestLivePublicationVerification": "archive/summerfest2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-26",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-25"
+  "activeDetailedTourId": "tour-26"
 }

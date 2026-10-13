@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match current source; 142 rendered WR counts match.
 
-Practical reviews are complete for Halloween 2019 through Pirate 2020 (22 tours), with documented gaps. Summer Festival 2020 is the next detailed review. 159 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Summer Festival 2020 (23 tours), with documented gaps. Super Mario Kart 2020 is the next detailed review. 158 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 17 | 10 | 0 |
+| 2020 | 27 | 18 | 9 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -34,7 +34,7 @@ Practical reviews are complete for Halloween 2019 through Pirate 2020 (22 tours)
 
 ## Work still required
 
-159 catalogued tours remain open. The priority groups above identify the clearest published gaps; each open tour still needs its own source and publication check.
+158 catalogued tours remain open. The priority groups above identify the clearest published gaps; each open tour still needs its own source and publication check.
 
 - **Five missing debut histories across four tours:** Doctor 2023 — DS Peach Gardens R; Mii 2023 — GCN Mushroom Bridge; Night 2023 — Singapore Speedway 2R; Summer 2023 — Madrid Drive and Piranha Plant Cove 3.
 - **Six tours with faster supporting results to reconcile:** Anniversary 2022; Peach vs. Bowser (November–December 2022); Space 2023; Ninja 2023; New Year's starting 25 December 2024; Animal 2025. Their source, eligibility and chronology must be checked before assigning WR status.
@@ -340,21 +340,9 @@ Both live course snapshots match canonical production output: Both course snapsh
 
 ### 25. Summer Festival Tour (2020) — 2020-08-26 to 2020-09-09
 
-Source and publication review.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/summerfest2020-completion.json).
 
-**[SNES Choco Island 2](https://mktwrs.com/course/snes-choco-island-2)**: 17 WR rows; 18 supporting rows; 0 pending candidates; carry-in 0:49.65.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 2 WR rows with unresolved date/order; 10 linked-video rows; 0 remote-only Discord WR images.
-
-**[SNES Mario Circuit 3R](https://mktwrs.com/course/snes-mario-circuit-3r)**: 25 WR rows; 81 supporting rows; 0 pending candidates.
-
-- Review unresolved order/date bounds; keep race, report and submission dates distinct.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 1 WR rows with unresolved date/order; 8 linked-video rows; 0 remote-only Discord WR images.
+Both live course snapshots and rendered R2 links checked. Two completed recordings freshly reviewed, seven technique clips and two result-screen clips preserved. The 314 prior image dispositions are retained with fresh hashes and source crosschecks; 3,425 discussion messages indexed. Wins's 0:47.87 final Choco WR footage is preserved. Mario Circuit 3R 1:06.41 footage is unavailable; available 1:06.53 shown separately. Previous-best chronology and unavailable originals remain documented gaps.
 
 ### 26. Super Mario Kart Tour (2020) — 2020-09-09 to 2020-09-23
 
