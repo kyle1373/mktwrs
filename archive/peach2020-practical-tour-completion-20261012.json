@@ -2,8 +2,8 @@
   "tourId": "tour-20",
   "tour": "Peach Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
-  "standard": "User-authorized practical evidence standard; prior preserved reviews retained with stated limits.",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-06-17T06:00:00Z",
@@ -29,7 +29,16 @@
     "archive/peach-2020-reconciliation.json",
     "archive/peach2020-selected-recording-clocks-and-scope-20261012.json",
     "archive/peach2020-selected-recording-r2-preservation-20261012.json",
-    "archive/peach2020-r2-proof-and-video-link-check-20261012.json"
+    "archive/peach2020-r2-proof-and-video-link-check-20261012.json",
+    "archive/peach2020-final-publication-audit-20261013.json",
+    "archive/peach2020-practical-source-coverage-disposition-20261013.json",
+    "archive/peach2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
+    "archive/peach2020-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/peach2020-discussion-image-source-publication-crosswalk-20261013.json",
+    "archive/peach2020-additional-completed-originals-r2-preservation-20261013.json",
+    "archive/peach2020-two-final-result-image-integrity-review-20261013.json",
+    "archive/peach2020-frappe-opening-day-policy-generation-check-20261013.json",
+    "archive/peach2020-rmx-opening-day-policy-generation-check-20261013.json"
   ],
   "preservedLocalReview": {
     "source": "archive/peach2020-discussion-review-progress.json",
@@ -39,34 +48,31 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 57
+    "proofImageUrlsPassed": 57,
+    "additionalCompletedRecordingsPreservedOnR2": 1,
+    "discussionImageDispositions": 230,
+    "discussionImageHashesVerified": 230
   },
   "remainingLimitations": [
-    "Kazuo 1:20.85 full Frappe recording not recovered; Tomegome 1:21.05 retained.",
-    "Exact race clocks and some previous-best chronology remain unknown; raw sources preserved.",
-    "Prior full recording reviews retained without fresh uninterrupted certification.",
-    "Deleted/private/global material not proven fully recovered."
+    "Final Frappe 1:20.85 WR recording unavailable; Tomegome 1:21.05 completed footage shown separately.",
+    "Eight previous-best chronology questions remain unproven; no additional leaders or ties inferred.",
+    "230 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
+    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
   ],
   "validation": {
-    "productionBuildPages": 907,
-    "recordingComparisonRenderChecks": 2,
-    "documentedResultsRows": [
-      1,
-      1
-    ],
-    "videoRangeChecksPassed": 2,
-    "generationFidelity": [
-      {
-        "courseId": "n64-frappe-snowland-r",
-        "reviewedRows": 63,
-        "differences": 0
-      },
-      {
-        "courseId": "rmx-mario-circuit-1",
-        "reviewedRows": 71,
-        "differences": 0
-      }
-    ]
+    "liveSnapshotRows": 296,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 42,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesIntegrityVerified": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-21"
+  "nextTourId": "tour-21",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/peach2020-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/peach2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "637d496d500df325d235babd023e38b2e2901b09"
 }

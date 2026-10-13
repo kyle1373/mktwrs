@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 17,
+    "practicallyCompletedTours": 18,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -1369,7 +1369,7 @@
       "endDate": "2020-07-01",
       "tourSource": "https://www.mariowiki.com/Peach_Tour",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "n64-frappe-snowland-r",
@@ -1389,7 +1389,8 @@
             "archive/peach-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/peach2020-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "rmx-mario-circuit-1",
@@ -1409,16 +1410,18 @@
             "archive/peach-2020-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/peach2020-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/peach2020-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/peach2020-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/peach2020-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-21",
@@ -11721,9 +11724,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/cooking2020-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-20",
+  "latestLivePublicationVerification": "archive/peach2020-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-21",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-20"
+  "activeDetailedTourId": "tour-21"
 }

@@ -4,12 +4,12 @@ Screened all 183 catalog tours, 381 course appearances and 142 live course pages
 
 Live verification: 142/142 pages and 142/142 JSON files returned HTTP 200; 142 data files match the regenerated production source; 142 rendered WR counts match after opening-day filtering.
 
-Practical reviews are complete for Halloween 2019 through Cooking 2020 (17 tours), with documented gaps. Peach 2020 is the next detailed review. 164 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
+Practical reviews are complete for Halloween 2019 through Peach 2020 (18 tours), with documented gaps. Peach 2020 is the next detailed review. 163 catalog tours remain open; New York and Tokyo 2019 predate time trials. The current catalogue also omits the interval beginning 30 September 2026.
 
 | Year | Catalog tours | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|---:|
 | 2019 | 7 | 5 | 0 | 2 |
-| 2020 | 27 | 12 | 15 | 0 |
+| 2020 | 27 | 13 | 14 | 0 |
 | 2021 | 26 | 0 | 26 | 0 |
 | 2022 | 26 | 0 | 26 | 0 |
 | 2023 | 26 | 0 | 26 | 0 |
@@ -266,19 +266,9 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/co
 
 ### 20. Peach Tour (2020) — 2020-06-17 to 2020-07-01
 
-Source and publication review.
+Practical review completed with documented gaps. [Completion evidence](https://mktwrs.com/data/peach2020-completion.json).
 
-**[N64 Frappe Snowland R](https://mktwrs.com/course/n64-frappe-snowland-r)**: 31 WR rows; 32 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 5 linked-video rows; 0 remote-only Discord WR images.
-
-**[RMX Mario Circuit 1](https://mktwrs.com/course/rmx-mario-circuit-1)**: 35 WR rows; 66 supporting rows; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Visible evidence: 0 WR rows with unresolved date/order; 7 linked-video rows; 0 remote-only Discord WR images.
+Both live course snapshots match canonical production output: 296 rows checked and 42 rendered R2 links readable. Two selected recordings freshly reviewed; one earlier completed recording additionally preserved. All 230 prior discussion image dispositions retained with file hashes and source crosschecks. Final Frappe WR footage and eight previous-best chronology questions remain documented gaps.
 
 ### 21. Marine Tour (2020) — 2020-07-01 to 2020-07-15
 
