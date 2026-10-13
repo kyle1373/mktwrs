@@ -36,8 +36,8 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 2,
-      "sparse-history-review": 9,
+      "completed-with-documented-gaps": 3,
+      "sparse-history-review": 8,
       "source-and-publication-review": 85,
       "carry-in-and-sparse-history-check": 30,
       "candidate-and-source-review": 45,
@@ -45,16 +45,16 @@
       "faster-result-reconciliation": 5,
       "debut-history-gap": 4
     },
-    "practicallyCompletedTours": 2,
-    "toursRequiringInvestigation": 179,
+    "practicallyCompletedTours": 3,
+    "toursRequiringInvestigation": 178,
     "years": {
       "2019": {
         "tours": 7,
-        "requiringInvestigation": 3,
+        "requiringInvestigation": 2,
         "categories": {
           "not-applicable": 2,
-          "completed-with-documented-gaps": 2,
-          "sparse-history-review": 2,
+          "completed-with-documented-gaps": 3,
+          "sparse-history-review": 1,
           "source-and-publication-review": 1
         }
       },
@@ -280,9 +280,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task. Retain documented limitations; reopen only for new material evidence."
           ]
         },
         {
@@ -297,9 +295,7 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
+            "No outstanding practical-review task. Retain documented limitations; reopen only for new material evidence."
           ]
         },
         {
@@ -314,14 +310,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
+            "No outstanding practical-review task. Retain documented limitations; reopen only for new material evidence."
           ]
         }
       ],
-      "category": "sparse-history-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/winter2019-completion.json",
+      "note": "Practical review complete with documented coverage gaps; 395 live rows and 12 rendered R2 links verified."
     },
     {
       "id": "tour-6",
@@ -11352,5 +11348,5 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween source-specific reports supersede them."
   ],
-  "latestPracticalCompletionEvidence": "archive/paris2019-final-publication-audit-20261012.json"
+  "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json"
 }
