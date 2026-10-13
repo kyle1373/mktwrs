@@ -2,14 +2,14 @@
 
 Screened all **183 catalogued tours**, **381 course appearances**, and **142 live course pages** against `48f58df0`. All 142 HTML pages and JSON files returned HTTP 200; data and rendered WR counts match the fresh committed-source production build. Completion flags were also fetched live and match the committed flags.
 
-**63 practical reviews are closed with documented gaps; 118 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Mii 2022 is next after live completion-label verification; review and publish one tour at a time.
+**64 practical reviews are closed with documented gaps; 117 remain open; 2 pre-time-trial tours are not applicable.** Closed does not mean exhaustive recovery. Mii 2022 is next after live completion-label verification; review and publish one tour at a time.
 
 | Year | Reviewed with documented gaps | Still open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 5 | 21 | 0 |
+| 2022 | 6 | 20 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -876,20 +876,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sk
 
 ### 66. Samurai Tour (2022) (2022-03-23 → 2022-04-06)
 
-**Open.** data quality and history check.
-
-**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)** — 4 WR rows, 34 supporting results, 1 candidates, 2 linked-video rows.
-
-- Check implausible parsed times against the original image; do not promote them.
-- Resolve pending candidates with surviving good-enough proof.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-- Check suspicious parsed times: 0:01.03.
-
-**[3DS Wario Shipyard R](https://mktwrs.com/course/3ds-wario-shipyard-r)** — 8 WR rows, 45 supporting results, 0 candidates, 5 linked-video rows.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/samurai2022-completion.json). 135 submission messages, 80 original-file hashes and39 exact-window discussion messages indexed. Two race recordings and two technique clips preserved on R2. 246 live course rows match and25 rendered R2 links readable. Parser error0:01.03 corrected to1:03.38; final fastest day-one record retained. Unknown previous-best order, three slower identity/source leads and cancelled originals remain documented.
 
 ### 67. Yoshi Tour (2022) (2022-04-06 → 2022-04-20)
 

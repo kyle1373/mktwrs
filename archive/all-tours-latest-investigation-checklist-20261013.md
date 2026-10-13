@@ -2,7 +2,7 @@
 
 Freshly fetched all **142 live course pages and data files**, covering **183 tours / 381 course appearances**. All returned HTTP 200. This checks published evidence for leads; it does not certify original proofs or complete history.
 
-**63 tours are practically closed with documented gaps, through Mii 2022 (9–23 March). 118 are open, beginning with Samurai 2022.** New York and Tokyo 2019 predate time trials. The current 30 September–13 October 2026 interval is not yet catalogued.
+**64 tours are practically closed with documented gaps, through Samurai 2022 (23 March–6 April). 117 are open, beginning with Yoshi 2022.** New York and Tokyo 2019 predate time trials. The current 30 September–13 October 2026 interval is not yet catalogued.
 
 ## Open tours by start year
 
@@ -11,7 +11,7 @@ Freshly fetched all **142 live course pages and data files**, covering **183 tou
 | 2019 | 0 |
 | 2020 | 0 |
 | 2021 | 0 |
-| 2022 | 21 |
+| 2022 | 20 |
 | 2023 | 26 |
 | 2024 | 26 |
 | 2025 | 26 |
@@ -966,19 +966,17 @@ Before time trials.
 
 ### 66. Samurai Tour (2022) · 2022-03-23 to 2022-04-06
 
-**Open.**
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/samurai2022-completion.json).
 
-**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)**: 4 WR rows; 34 supporting results; 1 candidates. Earlier standing baseline: 1:02.44.
-
-- Check implausible parsed times against the original image; do not promote them.
-- Resolve pending candidates with surviving good-enough proof.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Wario Shipyard R](https://mktwrs.com/course/3ds-wario-shipyard-r)**: 8 WR rows; 45 supporting results; 0 candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+- Six visible previous-best runs lack independently established dates or competing-record order; retained outside confirmed WR succession.
+- Three slower Vanilla Lake leaderboard entries have identity/original-source gaps; retained as supporting leads, not new WRs.
+- Opening WR labels slower than standing Wins1:02.44 do not establish new all-time WRs. Day-one Wario R shows final fastest1:37.69, with raw earlier1:38.31 and1:37.92 preserved.
+- Two unavailable cancelled receipt attachments have separately preserved corrected1:02.24 and1:38.31 result evidence.
+- Wins1:02.22 recording uploaded/shared April6 after rollover; original March25 result establishes historical tour membership.
+- Nu11 phone overlay March31 is not independently certified achievement date. Original upload April6T00:50:57 and submissionT00:52:05 remain distinct.
+- Two full race recordings and two technique clips preserved on R2; clips and best isolated laps do not establish complete totals.
+- Prior visual source dispositions retained; two selected race finishes freshly sampled and files decoded. No every-frame uninterrupted playback or worldwide fastest-recording certification.
+- Current Discord session requires login again; preserved source review cannot establish absence of deleted/private/unindexed material.
 
 ### 67. Yoshi Tour (2022) · 2022-04-06 to 2022-04-20
 

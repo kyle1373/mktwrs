@@ -9,7 +9,7 @@ Freshly screened all 183 catalogued tours, 381 course appearances and 142 live c
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
 | 2021 | 26 | 0 | 0 |
-| 2022 | 5 | 21 | 0 |
+| 2022 | 6 | 20 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
 | 2025 | 0 | 26 | 0 |
@@ -762,19 +762,7 @@ Completed with documented gaps. [Completion evidence](https://mktwrs.com/data/sk
 
 ### 66. Samurai Tour (2022) — 2022-03-23 to 2022-04-06
 
-Data quality and history check.
-
-**[RMX Vanilla Lake 1](https://mktwrs.com/course/rmx-vanilla-lake-1)**: 4 WR rows; 34 supporting results; 1 pending candidates; carried-in WR 1:02.44.
-
-- Check implausible parsed times against the original image; do not promote them.
-- Resolve pending candidates with surviving good-enough proof.
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[3DS Wario Shipyard R](https://mktwrs.com/course/3ds-wario-shipyard-r)**: 8 WR rows; 45 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+**Closed with documented gaps.** [Completion evidence](https://mktwrs.com/data/samurai2022-completion.json). 135 submission messages, 80 original-file hashes and39 exact-window discussion messages indexed. Two race recordings and two technique clips preserved on R2. 246 live course rows match and25 rendered R2 links readable. Parser error0:01.03 corrected to1:03.38; final fastest day-one record retained. Unknown previous-best order, three slower identity/source leads and cancelled originals remain documented.
 
 ### 67. Yoshi Tour (2022) — 2022-04-06 to 2022-04-20
 
