@@ -32,7 +32,7 @@
     },
     "documentedNotApplicableTours": 2,
     "firstDocumentedApplicableTour": "tour-3",
-    "practicallyCompletedTours": 49,
+    "practicallyCompletedTours": 50,
     "practicallyReviewedTours": 62,
     "investigationClassifications": {
       "not-applicable": 2,
@@ -3531,7 +3531,7 @@
       "endDate": "2021-09-22",
       "tourSource": "https://www.mariowiki.com/Sydney_Tour_(September_2021)",
       "historyComplete": false,
-      "reviewStatus": "needs-source-coverage-and-media-review",
+      "reviewStatus": "completed-with-documented-gaps",
       "courses": [
         {
           "courseId": "rmx-vanilla-lake-1r",
@@ -3553,7 +3553,8 @@
             "archive/sydney-september-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/sydneysep2021-practical-source-coverage-disposition-20261013.json"
         },
         {
           "courseId": "gcn-yoshi-circuit",
@@ -3575,16 +3576,18 @@
             "archive/sydney-september-2021-reconciliation.json"
           ],
           "historyComplete": false,
-          "reviewStatus": "source-coverage-original-results-chronology-and-recordings-reconciliation-required"
+          "reviewStatus": "completed-with-documented-gaps",
+          "latestReviewAudit": "archive/sydneysep2021-practical-source-coverage-disposition-20261013.json"
         }
       ],
-      "practicalCompletionEvidence": "archive/sydneysep2021-practical-tour-completion-20261012.json",
-      "practicallyComplete": false,
+      "practicalCompletionEvidence": "public/data/sydneysep2021-completion.json",
+      "practicallyComplete": true,
       "investigationAudit": "archive/all-tour-investigation-audit-20261012.json",
       "investigationClassification": "needs-source-coverage-and-media-review",
       "priorPracticalReviewCompleted": true,
       "latestInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-      "investigationCategory": "source-and-publication-review"
+      "investigationCategory": "source-and-publication-review",
+      "latestPublicationAudit": "archive/sydneysep2021-final-publication-audit-20261013.json"
     },
     {
       "tourId": "tour-53",
@@ -11820,9 +11823,9 @@
     "conflictingProofsBlockCompletion": false,
     "unknownDatesMayRemainUnknown": true
   },
-  "latestLivePublicationVerification": "archive/kamek2021-final-publication-audit-20261013.json",
-  "nextChronologicalTourId": "tour-52",
+  "latestLivePublicationVerification": "archive/sydneysep2021-final-publication-audit-20261013.json",
+  "nextChronologicalTourId": "tour-53",
   "latestAllTourInvestigationAudit": "archive/all-tour-investigation-audit-20261012.json",
   "latestAllTourInvestigationTriage": "archive/all-tour-investigation-triage-20261012.json",
-  "activeDetailedTourId": "tour-52"
+  "activeDetailedTourId": "tour-53"
 }

@@ -2,13 +2,13 @@
 
 Freshly screened all 183 catalogued tours, 381 course appearances and 142 live course pages against commit `97dce2a4`. All 142 pages and their data returned HTTP 200 and matched the isolated publication output.
 
-49 tours have completed practical reviews with documented gaps; 132 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Kamek 2021. Sydney September 2021 is the next detailed review. These counts do not certify exhaustive history.
+50 tours have completed practical reviews with documented gaps; 131 remain open; two pre-time-trial tours are not applicable. Completion runs from Halloween 2019 through Sydney September 2021. Anniversary 2021 is the next detailed review. These counts do not certify exhaustive history.
 
 | Year | Practical reviews complete | Open | Not applicable |
 |---|---:|---:|---:|
 | 2019 | 5 | 0 | 2 |
 | 2020 | 27 | 0 | 0 |
-| 2021 | 17 | 9 | 0 |
+| 2021 | 18 | 8 | 0 |
 | 2022 | 0 | 26 | 0 |
 | 2023 | 0 | 26 | 0 |
 | 2024 | 0 | 26 | 0 |
@@ -702,17 +702,9 @@ Completed with documented gaps.
 
 ### 52. Sydney Tour (September 2021) (2021) — 2021-09-08 to 2021-09-22
 
-Source and publication review.
+Completed with documented gaps.
 
-**[RMX Vanilla Lake 1R](https://mktwrs.com/course/rmx-vanilla-lake-1r)**: 5 WR rows; 30 supporting results; 0 pending candidates.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
-
-**[GCN Yoshi Circuit](https://mktwrs.com/course/gcn-yoshi-circuit)**: 7 WR rows; 73 supporting results; 0 pending candidates; carried-in WR 1:33.68.
-
-- Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.
-- Finish tour source coverage and verify the public tour section before marking practical completion.
+[Completion evidence](https://mktwrs.com/data/sydneysep2021-completion.json). 243 preserved tour-window discussion messages indexed, 22 prior discussion-image dispositions retained and 118 submission image hashes checked. Twenty unmatched images dispositioned: two late Kamek sources and eighteen slower supporting originals. Three completed recordings and five partial clips preserved on R2; one following-tour boundary clip separately attributed. Prior visual assessments retained; two selected originals freshly hashed and decoded. Previous-best dates, unavailable social originals and global coverage remain qualified.
 
 ### 53. 2nd Anniversary Tour (2021) — 2021-09-22 to 2021-10-06
 

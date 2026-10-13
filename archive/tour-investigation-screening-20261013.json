@@ -3,7 +3,7 @@
   "sourceCommit": "28d7dc4f9749f375ee4a1cbf93a6fa867aa36767",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-52",
+  "activeDetailedReview": "tour-53",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 49,
-      "source-and-publication-review": 30,
+      "completed-with-documented-gaps": 50,
+      "source-and-publication-review": 29,
       "carry-in-and-sparse-history-check": 67,
       "data-quality-and-history-check": 2,
       "candidate-and-source-review": 22,
@@ -57,9 +57,9 @@
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 17,
+        "practicallyCompleted": 18,
         "notApplicable": 0,
-        "open": 9
+        "open": 8
       },
       "2022": {
         "catalogTours": 26,
@@ -99,7 +99,7 @@
       "toursWithAtLeastOneCourseWithoutLinkedVideo": 78,
       "toursWithVideoRowsWithoutKnownClock": 24
     },
-    "toursRequiringInvestigation": 132
+    "toursRequiringInvestigation": 131
   },
   "tours": [
     {
@@ -5223,8 +5223,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "rmx-vanilla-lake-1r",
@@ -5268,8 +5267,7 @@
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
           "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
+            "Practical review completed; retain documented gaps and reopen for material new evidence."
           ],
           "liveCheck": {
             "courseId": "gcn-yoshi-circuit",
@@ -5292,8 +5290,26 @@
           }
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "https://mktwrs.com/data/sydneysep2021-completion.json",
+      "documentedLimitations": [
+        "The continuous discussion windows include preceding-tour and following-tour messages. Search counts and visible channel counts differ; retain the raw message IDs rather than claim the entire server is complete.",
+        "Nu11 1:32.14, saki7 1:02.13 and shiraui 1:03.60 are previous-best leads without independently verified original publication chronology.",
+        "Choco Mountain leaderboard 1:18.37 is a typo: the previously reviewed original screenshot and announcement establish 1:18.38. September discussion confirms Kaguya was the holder despite omission from the leaderboard.",
+        "An incorrect Mario Circuit 3 graphic was subsequently corrected; a joke Vanilla Lake leaderboard was excluded.",
+        "Manzinma tweet 1435643834063458307 is unavailable. Nozomi’s linked image shows a slower Yoshi Circuit 1:34.52; it is not a WR. Shoronpo’s linked post restricts access.",
+        "Single-lap and technique clips are not proof of a completed two-lap record.",
+        "Prior full recording review retained without fresh uninterrupted certification.",
+        "Private, deleted and unindexed global material not proven fully recovered.",
+        "Eighteen slower original submission images retained in raw archive without new WR promotion; two late Kamek sources kept outside Sydney chronology.",
+        "Prior 22 discussion-image dispositions retained; not a fresh visual pass.",
+        "Discord now asks the saved accounts to log in again; fresh source access unavailable. Recovered original clips and prior source context remain preserved.",
+        "Prior lap, route and full-race assessments retained; fresh hashes and public access verified.",
+        "Boundary Sydney Sprint clip belongs to Anniversary 2021, not Sydney September 2021.",
+        "No claim that unavailable streams or worldwide recordings were exhausted.",
+        "Five partial technique/lap clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+      ]
     },
     {
       "id": "tour-53",
@@ -18915,5 +18931,5 @@
       "category": "source-and-publication-review"
     }
   ],
-  "latestCompletionAudit": "archive/kamek2021-final-publication-audit-20261013.json"
+  "latestCompletionAudit": "archive/sydneysep2021-final-publication-audit-20261013.json"
 }

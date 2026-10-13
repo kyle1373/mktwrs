@@ -1,0 +1,102 @@
+{
+  "tourId": "tour-52",
+  "tour": "Sydney Tour (September 2021)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-13",
+  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2021-09-08T06:00:00Z",
+    "endExclusive": "2021-09-22T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "gcn-yoshi-circuit",
+      "archivedWr": "1:31.79",
+      "fastestDocumentedAvailableRecording": "1:31.79",
+      "recordingPlayerId": "nu11"
+    },
+    {
+      "id": "rmx-vanilla-lake-1r",
+      "archivedWr": "1:01.32",
+      "fastestDocumentedAvailableRecording": "1:01.32",
+      "recordingPlayerId": "wins"
+    }
+  ],
+  "evidence": [
+    "archive/sydneysep2021-original-results-practical-review-20261012.json",
+    "archive/sydney-september-2021-reconciliation.json",
+    "archive/sydneysep2021-selected-recording-clocks-and-scope-20261012.json",
+    "archive/sydneysep2021-selected-recording-r2-preservation-20261012.json",
+    "archive/sydneysep2021-r2-proof-and-video-link-check-20261012.json",
+    "archive/sydneysep2021-final-publication-audit-20261013.json",
+    "archive/sydneysep2021-practical-source-coverage-disposition-20261013.json",
+    "archive/sydneysep2021-selected-recording-hash-decode-and-access-review-20261013.json",
+    "archive/sydneysep2021-all-available-recordings-r2-preservation-20261013.json",
+    "archive/sydneysep2021-preserved-source-index-and-image-integrity-20261013.json",
+    "archive/sydneysep2021-image-source-publication-crosswalk-20261013.json",
+    "archive/sydneysep2021-opening-day-policy-generation-check-20261013.json",
+    "archive/sydneysep2021-submission-source-file-and-publication-crosswalk-20261013.json",
+    "archive/sydneysep2021-preserved-video-clock-reconciliation-20261013.json"
+  ],
+  "priorTourSourceReview": {
+    "source": "archive/sydney-september-2021-reconciliation.json",
+    "coverage": {
+      "submissionImagesVisuallyReviewed": 118,
+      "capturedSubmissionMessagesRead": 131,
+      "discussionSearchReportedMessages": 292,
+      "discussionContinuousWindowUniqueMessagesRead": 299,
+      "discussionImageSearchMatches": 10,
+      "discussionImagesVisuallyReviewed": 23,
+      "fullOriginalVideosDownloadedAndVisuallyReviewed": 3
+    },
+    "exhaustive": false
+  },
+  "coverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "priorProofImageUrlsPassed": 12,
+    "priorProofImageCheckDate": "2026-10-12",
+    "duplicateOriginalRecordingFilesPreservedOnR2": 0,
+    "completedRunRecordingsPreservedOnR2": 3,
+    "lateStartRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 1,
+    "partialClipsPreservedOnR2": 5,
+    "resultScreenClipsPreservedOnR2": 0,
+    "discussionImageDispositions": 22,
+    "discussionImageHashesVerified": 22,
+    "discussionMessagesIndexed": 243
+  },
+  "remainingLimitations": [
+    "The continuous discussion windows include preceding-tour and following-tour messages. Search counts and visible channel counts differ; retain the raw message IDs rather than claim the entire server is complete.",
+    "Nu11 1:32.14, saki7 1:02.13 and shiraui 1:03.60 are previous-best leads without independently verified original publication chronology.",
+    "Choco Mountain leaderboard 1:18.37 is a typo: the previously reviewed original screenshot and announcement establish 1:18.38. September discussion confirms Kaguya was the holder despite omission from the leaderboard.",
+    "An incorrect Mario Circuit 3 graphic was subsequently corrected; a joke Vanilla Lake leaderboard was excluded.",
+    "Manzinma tweet 1435643834063458307 is unavailable. Nozomi’s linked image shows a slower Yoshi Circuit 1:34.52; it is not a WR. Shoronpo’s linked post restricts access.",
+    "Single-lap and technique clips are not proof of a completed two-lap record.",
+    "Prior full recording review retained without fresh uninterrupted certification.",
+    "Private, deleted and unindexed global material not proven fully recovered.",
+    "Eighteen slower original submission images retained in raw archive without new WR promotion; two late Kamek sources kept outside Sydney chronology.",
+    "Prior 22 discussion-image dispositions retained; not a fresh visual pass.",
+    "Discord now asks the saved accounts to log in again; fresh source access unavailable. Recovered original clips and prior source context remain preserved.",
+    "Prior lap, route and full-race assessments retained; fresh hashes and public access verified.",
+    "Boundary Sydney Sprint clip belongs to Anniversary 2021, not Sydney September 2021.",
+    "No claim that unavailable streams or worldwide recordings were exhausted.",
+    "Five partial technique/lap clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+  ],
+  "validation": {
+    "liveSnapshotRows": 511,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 35,
+    "freshSelectedRecordingReviews": 0,
+    "selectedRecordingsWithFreshHashDecodeAndAccessChecks": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false
+  },
+  "nextTourId": "tour-53",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "archive/sydneysep2021-final-publication-audit-20261013.json",
+  "sourceDispositionAudit": "archive/sydneysep2021-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "28ba2d2133d1f1fc3db59146278f08b99835ac1d"
+}
