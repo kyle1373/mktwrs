@@ -46,7 +46,10 @@
     "archive/hammer2020-yoshi-original-announcement-and-alias-reconciliation-20261013.json",
     "archive/hammer2020-yoshi-nu11-timeline-fresh-image-review-20261013.json",
     "archive/hammer2020-yoshi-recording-list-correction-live-check-20261013.json",
-    "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json"
+    "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
+    "archive/hammer2020-recovered-leader-progression-source-review-20261014.json",
+    "archive/hammer2020-recovered-leader-isolated-generation-check-20261014.json",
+    "archive/hammer2020-recovered-leader-production-build-check-20261014.json"
   ],
   "coverage": {
     "priorServerImageSearchMessages": 562,
@@ -96,5 +99,68 @@
   },
   "reopenedAt": "2026-10-14",
   "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
-  "reopeningReason": "User rejects final-only WR history as unfinished; earlier recovered leaders need chronology reconciliation."
+  "reopeningReason": "User rejects final-only WR history as unfinished; earlier recovered leaders need chronology reconciliation.",
+  "recoveredLeaderProgression": {
+    "status": "built-awaiting-live-check",
+    "sourceReview": "archive/hammer2020-recovered-leader-progression-source-review-20261014.json",
+    "buildEvidence": "archive/hammer2020-recovered-leader-production-build-check-20261014.json",
+    "courses": {
+      "gcn-yoshi-circuit-r": [
+        {
+          "time": "1:32.78",
+          "playerId": "nu11",
+          "reportedAt": "2020-03-27T09:50:20.577Z",
+          "kind": "contemporary-report"
+        },
+        {
+          "time": "1:32.28",
+          "playerId": "tomegome",
+          "reportedAt": "2020-03-27T11:43:19.858Z",
+          "kind": "contemporary-report"
+        },
+        {
+          "time": "1:31.96",
+          "playerId": "nu11",
+          "repostedAt": "2020-03-28T12:23:30.427Z",
+          "kind": "image-repost"
+        },
+        {
+          "time": "1:31.74",
+          "playerId": "tomegome",
+          "publishedAt": "2020-03-29T09:18:51Z",
+          "kind": "original-video-publication"
+        },
+        {
+          "time": "1:31.31",
+          "playerId": "nu11",
+          "kind": "final-wr-announcement",
+          "privateAchievementAt": null
+        }
+      ],
+      "n64-frappe-snowland": [
+        {
+          "time": "1:22.40",
+          "playerId": "astre",
+          "postedAt": "2020-03-25T17:10:18.872Z",
+          "kind": "original-result-image",
+          "openingDayFinalFastestRecovered": true
+        },
+        {
+          "time": "1:22.14",
+          "playerId": "tomegome",
+          "publishedAt": "2020-03-26T06:45:42Z",
+          "kind": "original-video-publication"
+        },
+        {
+          "time": "1:21.98",
+          "playerId": "nu11",
+          "reportedAt": "2020-03-26T11:00:33.390Z",
+          "kind": "final-wr-announcement-with-contemporary-report",
+          "privateAchievementAt": null
+        }
+      ]
+    },
+    "confirmedWrCredit": false,
+    "worldwidePrecedenceVerified": false
+  }
 }
