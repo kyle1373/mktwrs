@@ -595,14 +595,19 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <EvidenceTimes r={r} />
     </> : <p>No recording has an explicit full-race continuity certification in this archive.</p>}
     {comparison.reportedRecording && <>
-      <p>Available recording, using the uploader’s stated time: <strong>{comparison.reportedRecording.time}</strong> · <Player id={comparison.reportedRecording.playerId} players={players} /> · <a href={comparison.reportedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.reportedRecording.videoBackup?.url && <> · <a href={comparison.reportedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
+      <p>{comparison.reportedRecordingLabel || "Available recording, using the uploader’s stated time: "}<strong>{comparison.reportedRecording.time}</strong> · <Player id={comparison.reportedRecording.playerId} players={players} /> · <a href={comparison.reportedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.reportedRecording.videoBackup?.url && <> · <a href={comparison.reportedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <p className="table-note">{comparison.reportedRecording.evidenceNote}</p>
       <EvidenceTimes r={comparison.reportedRecording} />
     </>}
     {comparison.referenceRecording && <>
-      <p>Unavailable recording reference: <strong>{comparison.referenceRecording.time}</strong> · <Player id={comparison.referenceRecording.playerId} players={players} /> · <a href={comparison.referenceRecording.video} target="_blank" rel="noopener noreferrer">Original reference</a></p>
+      <p>{comparison.referenceRecordingLabel || "Unavailable recording reference: "}<strong>{comparison.referenceRecording.time}</strong> · <Player id={comparison.referenceRecording.playerId} players={players} /> · <a href={comparison.referenceRecording.video || comparison.referenceRecording.videoReference} target="_blank" rel="noopener noreferrer">Original reference</a></p>
       <p className="table-note">{comparison.referenceRecording.evidenceNote}</p>
       <EvidenceTimes r={comparison.referenceRecording} />
+    </>}
+    {comparison.strategyReference && <>
+      <p>Technique reference · <Player id={comparison.strategyReference.playerId} players={players} /> · <a href={comparison.strategyReference.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={comparison.strategyReference.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
+      <p className="table-note">Technique footage is preserved separately and does not establish a completed record.</p>
+      <EvidenceTimes r={comparison.strategyReference} />
     </>}
     {comparison.lapDemonstration && <>
       <p>Single-lap demonstration: <strong>{comparison.lapDemonstration.time}</strong> · <Player id={comparison.lapDemonstration.playerId} players={players} /> · <a href={comparison.lapDemonstration.video} target="_blank" rel="noopener noreferrer">Original video</a> · <a href={comparison.lapDemonstration.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
@@ -844,6 +849,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.yoshi2023SupportingResults} players={players} tourLabel="Yoshi Tour (2023)" />
       <HalloweenRecording comparison={c.spring2023Recording} players={players} tourLabel="Spring Tour (2023)" completed={c.spring2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.spring2023SupportingResults} players={players} tourLabel="Spring Tour (2023)" />
+      <HalloweenRecording comparison={c.bowser2023Recording} players={players} tourLabel="Bowser Tour (2023)" completed={c.bowser2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.bowser2023SupportingResults} players={players} tourLabel="Bowser Tour (2023)" />
       {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}
       {!!c.doctor2023PartialRecordings?.length && <section className="fastest-video">
         <h2>Doctor Tour (2023) partial recordings</h2>
