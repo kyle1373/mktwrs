@@ -822,6 +822,12 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.space2023SupportingResults} players={players} tourLabel="Space Tour (2023)" />
       <HalloweenRecording comparison={c.winter2023Recording} players={players} tourLabel="Winter Tour (2023)" completed={c.winter2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.winter2023SupportingResults} players={players} tourLabel="Winter Tour (2023)" />
+      <HalloweenRecording comparison={c.exploration2023Recording} players={players} tourLabel="Exploration Tour (2023)" completed={c.exploration2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.exploration2023SupportingResults} players={players} tourLabel="Exploration Tour (2023)" />
+      {!!c.exploration2023PartialRecordings?.length && <section className="fastest-video">
+        <h2>Exploration Tour (2023) partial recordings</h2>
+        {c.exploration2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}
+      </section>}
       <HalloweenRecording comparison={c.samurai2022Recording} players={players} tourLabel="Samurai Tour (2022)" completed={c.samurai2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.samurai2022SupportingResults} players={players} tourLabel="Samurai Tour (2022)" />
       <HalloweenRecording comparison={c.supermario2020Recording} players={players} tourLabel="Super Mario Kart Tour (2020)" completed={c.supermario2020Recording?.practicalReviewComplete === true} />
