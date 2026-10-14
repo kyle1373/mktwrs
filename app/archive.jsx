@@ -885,7 +885,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <p className="table-note">
         {c.hammerRecoveredProgression?.length > 0
           ? "The final WR is supported by its announcement. Earlier recovered leaders are documented results; their worldwide WR status is unconfirmed."
-          : "Records are confirmed by WR announcements or explicit community WR confirmation. Exact dates remain unknown for some migrated records."}
+          : "History is supported by WR announcements, community confirmations and progression reconstructed from preserved submissions. Dates use source posts unless the evidence establishes another date."}
       </p>
       <details className="sources">
         <summary>Record sources &amp; archive data</summary>
