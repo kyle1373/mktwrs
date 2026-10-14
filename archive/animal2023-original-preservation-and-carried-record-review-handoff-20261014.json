@@ -1,0 +1,71 @@
+{
+  "tourId": "tour-109",
+  "tour": "Animal Tour (2023)",
+  "checkedAt": "2026-10-14",
+  "status": "in-progress",
+  "historyComplete": false,
+  "practicalReviewComplete": false,
+  "completedEvidence": [
+    "archive/animal2023-complete-original-image-preservation-20261014.json",
+    "archive/animal2023-two-strategy-clips-r2-and-source-clocks-20261014.json"
+  ],
+  "canonicalImageReferencesVerified": 36,
+  "currentTourImages": 35,
+  "lateAutumnImages": 1,
+  "partialStrategyClips": 2,
+  "carriedRecords": {
+    "n64-choco-mountain": {
+      "id": "curated-animal2022-1044131789247098930-choco-11837-leaderboard",
+      "playerId": "nu11",
+      "time": "1:18.37",
+      "recordDate": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/636461740162416640/1044131789247098930",
+        "channel": "tt-discussion",
+        "messageId": "1044131789247098930",
+        "kind": "documentary-leaderboard-observation"
+      },
+      "documentaryProofReview": {
+        "audit": "archive/animal2022-publication-record-and-media-reconciliation-20261013.json",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1044131789247098930",
+        "sourceTextReviewed": true,
+        "displayedPlayer": "Kaguya(かぐやん)",
+        "displayedRank": 1,
+        "individualImageUnavailable": true,
+        "observedAt": "2022-11-21T06:06:57.587Z"
+      },
+      "dateLimit": "Contemporary leaderboard observation",
+      "originalMovieForWrAvailable": false
+    },
+    "n64-yoshi-valley-r": {
+      "id": "1053521178179932180",
+      "playerId": "nu11",
+      "time": "1:30.47",
+      "recordDate": null,
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/896050730216095765/1053521178179932180",
+        "channel": "wr-history",
+        "messageId": "1053521178179932180"
+      },
+      "documentaryProofReview": {
+        "audit": "archive/animal2022-publication-record-and-media-reconciliation-20261013.json",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/896050730216095765/1053521178179932180",
+        "kind": "archived-bot-final-announcement",
+        "sourceTextReviewed": true,
+        "individualImageUnavailable": true,
+        "originalAchievementDateUnknown": true
+      },
+      "dateLimit": "Retrospective Animal2022 announcement",
+      "originalMovieForWrAvailable": false
+    }
+  },
+  "nextActions": [
+    "Reconcile bounded submission/context capture rows and preserve the six Ryo sources without account merge or WR credit.",
+    "Publish35 current-tour supporting results and both partial strategy references, using source post dates.",
+    "Choose fastest documented available recording separately from78.37/90.47 documentary WRs; investigate Choco78.72 availability and distinguish YVR uploader-reported90.62 from result-verified90.67.",
+    "Run full generation and production build; preserve existing and later-year rows/fields.",
+    "Publish completion evidence and verify exact Railway LIVE commit before tour110."
+  ],
+  "browserRestriction": "Discord only through Codex in-app browser2; source tab115",
+  "sourceBaselineCommit": "d59f8c4131d5e77f97a8545654d519307fc14bb9"
+}
