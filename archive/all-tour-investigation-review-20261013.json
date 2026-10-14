@@ -24,7 +24,7 @@
     "Refreshed all 142 live course pages against afe8d56c; all WR counts match. Mario Bros. practical completion labels and final audit reference verified live."
   ],
   "policy": [
-    "One tour at a time. Ninja2023 completion verified live; Yoshi2023 is active.",
+    "One tour at a time. Yoshi2023 completion prepared; verify live before tour94.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -37,14 +37,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 90,
-      "candidate-and-source-review": 32,
+      "completed-with-documented-gaps": 91,
+      "candidate-and-source-review": 31,
       "debut-history-gap": 3,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 90,
-    "toursRequiringInvestigation": 91,
+    "practicallyCompletedTours": 91,
+    "toursRequiringInvestigation": 90,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -64,7 +64,7 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 20
+        "requiringInvestigation": 19
       },
       "2024": {
         "catalogTours": 26,
@@ -4586,9 +4586,9 @@
           "course": "SNES Donut Plains 2R",
           "url": "https://mktwrs.com/course/snes-donut-plains-2r",
           "firstAppearance": false,
-          "wrRows": 1,
+          "wrRows": 5,
           "supportingRows": 46,
-          "pendingCandidates": 3,
+          "pendingCandidates": 0,
           "carriedInWr": {
             "id": "896334353595006977",
             "playerId": "n",
@@ -4598,20 +4598,18 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical source review completed with documented gaps; separate upload/submission clocks and unavailable-source qualifications retained."
+          ],
+          "renderedSupportingRows": 39
         },
         {
           "courseId": "gcn-yoshi-circuit",
           "course": "GCN Yoshi Circuit",
           "url": "https://mktwrs.com/course/gcn-yoshi-circuit",
           "firstAppearance": false,
-          "wrRows": 1,
+          "wrRows": 5,
           "supportingRows": 55,
-          "pendingCandidates": 1,
+          "pendingCandidates": 0,
           "carriedInWr": {
             "id": "897020617281392690",
             "playerId": "nu11",
@@ -4621,14 +4619,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical source review completed with documented gaps; separate upload/submission clocks and unavailable-source qualifications retained."
+          ],
+          "renderedSupportingRows": 47
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/yoshi2023-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-94",
@@ -11144,6 +11142,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-93",
-  "latestCompletionAudit": "archive/ninja2023-completion-label-live-check-20261014.json",
+  "latestCompletionAudit": "public/data/yoshi2023-completion.json",
   "updatedAt": "2026-10-13T23:15:48.419591+00:00"
 }
