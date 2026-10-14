@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T00:38:28.252630+00:00",
+  "checkedAt": "2026-10-14",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "reviewedAvailableOriginals": 95,
@@ -8,33 +8,19 @@
   "identityUnresolvedOriginals": 21,
   "evidenceLimitedOriginals": 1,
   "sourceCounts": {
-    "total": 114,
     "reviewed": 73,
-    "original-recovery-required": 19,
+    "original-recovered-reviewed-canonical-reconciliation-pending": 15,
     "reviewed-identity-unresolved": 21,
-    "reviewed-evidence-limited": 1
+    "cancelled-original-unavailable": 3,
+    "reviewed-evidence-limited": 1,
+    "original-movie-preserved-practice-not-leaderboard-proof": 1,
+    "total": 114
   },
   "accounting": "95=72 supporting entries+21 identity-unresolved originals+1 limited-evidence original+1 merged repost",
   "missingOriginalIds": [
-    "1143843861676957807",
-    "1143847101399302184",
-    "1143902564098769047",
-    "1143907767166455858",
-    "1143924148427571220",
-    "1143926444846756031",
-    "1143928843325939814",
-    "1144067285217189898",
-    "1144487385200070696",
-    "1144721077700935882",
-    "1146110135543017562",
-    "1146242213613948961",
-    "1146374806913163334",
-    "1147108412203733102",
     "1147690161791041536",
     "1148234032702836896",
-    "1148402354740269207",
-    "1148449915547168898",
-    "1148620387333197924"
+    "1148449915547168898"
   ],
   "unresolvedOriginals": [
     {
@@ -1116,11 +1102,10 @@
     }
   ],
   "remainingWork": [
-    "Recover19 missing attachments and resolve source identities/cropped timer limitations.",
-    "Resolve Tai caption conflicts and inspect NR linked Berlin footage.",
-    "Reconcile worldwide chronology, delayed achievements and playable reigns.",
-    "Verify publication on existing Railway site.",
-    "Continue2019–2026 coverage; completed local image queue is not complete historical coverage."
+    "Reconcile 107 current-tour original result images and bounded text source rows into canonical performances and account identities without duplicates.",
+    "Apply final fastest opening-day result/ties only to WR progression; retain other evidence as supporting results.",
+    "Finish movie lap/source reconciliation and compare available documented recordings per course.",
+    "Run complete-course generation, player WR identity checks, production build, rendered proof-link checks and exact-commit Railway live verification before declaring practical completion."
   ],
   "nextTour": {
     "index": "archive/sundae2023-source-review-index-20261008.json",
@@ -1132,5 +1117,47 @@
     },
     "priorReviewsPreserved": true
   },
-  "validation": "Counts checked against committed originals and canonical data; passed."
+  "validation": "Counts checked against committed originals and canonical data; passed.",
+  "practicalReviewComplete": false,
+  "publicationReady": false,
+  "completeOriginalRecoveryAudit": "archive/summer2023-complete-original-recovery-and-r2-source-audit-20261014.json",
+  "preservedOriginalImages": 110,
+  "currentTourOriginalImages": 107,
+  "latePriorTourOriginalImages": 3,
+  "preservedOriginalMovies": 4,
+  "freshlyVisuallyReviewedRecoveredImages": 15,
+  "unavailableOriginals": [
+    {
+      "attachmentId": "1147690161791041536",
+      "receiptStatus": "Cancelled by Ryo",
+      "reportedTotal": "1:17.76",
+      "disposition": "cancelled-original-unavailable"
+    },
+    {
+      "attachmentId": "1148234032702836896",
+      "receiptStatus": "Cancelled by Ryo",
+      "reportedTotal": "1:17.39",
+      "disposition": "cancelled-original-unavailable"
+    },
+    {
+      "attachmentId": "1148449915547168898",
+      "receiptStatus": "Cancelled by Ryo",
+      "reportedTotal": "1:17.38",
+      "disposition": "cancelled-original-unavailable"
+    }
+  ],
+  "sourceAccounting": {
+    "uniqueBoundedSourceRows": 209,
+    "attachmentLinkedSourceRows": 192,
+    "contextOnlySourceRows": 17,
+    "indexedAttachments": 114,
+    "originalImagesPreservedOnR2": 110,
+    "currentSummerOriginalImages": 107,
+    "lateVacationOriginalImages": 3,
+    "indexedOriginalMoviePreservedOnR2": 1,
+    "cancelledUnavailableOriginals": 3,
+    "indexedAttachmentsWithoutDisposition": 0,
+    "sourceRowsWithoutAccounting": 0,
+    "additionalYouTubeMoviesPreservedOnR2": 3
+  }
 }
