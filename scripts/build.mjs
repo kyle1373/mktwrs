@@ -344,52 +344,7 @@ for (const c of courses) {
           ? "proof-upload-date"
           : null;
   }
-  for (const r of c.records) {
-    const later = c.records.filter((n) => n.timeCs < r.timeCs);
-    // Position an undated intermediate WR before its dated successor in the
-    // same tour. This is an ordering anchor, never an achievement date.
-    delete r.chronologyDate;
-    if (!r.recordDate && r.tourDateRange) {
-      const nextDate = later.filter(n => n.recordDate && timestampWithinTour(
-        n.submittedAt || `${n.recordDate}T12:00:00Z`, r.tourDateRange,
-      )).map(n => n.recordDate).sort()[0];
-      if (nextDate) r.chronologyDate = nextDate;
-    }
-    const nextTime = Math.max(...later.map((n) => n.timeCs));
-    const nextRecords = later.filter((n) => n.timeCs === nextTime);
-    // An undated successor does end the reign, but its date remains unknown.
-    r.durationEnd = nextRecords.length
-      ? (nextRecords.every(n => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
-        ? nextRecords.map(n => n.recordDate).sort()[0]
-        : null)
-      : new Date().toISOString().slice(0, 10);
-    r.durationDays =
-      r.recordDate && !r.dateUnresolved && !r.delayedSubmission && !r.reignUnresolved && nextRecords.every((n) => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
-        ? playableDays(
-            r.recordDate,
-            nextRecords.map((n) => n.recordDate).sort()[0] ||
-              new Date().toISOString().slice(0, 10),
-            c.appearances.map((a) => ({ start: a.startDate, end: a.endDate })),
-          )
-        : null;
-    r.durationBasis =
-      r.durationDays === null
-        ? (r.reignUnresolved
-          ? "Faster preserved evidence disputes the end of this reign; duration is unresolved."
-          : r.delayedSubmission || nextRecords.some((n) => n.delayedSubmission)
-          ? "Achievement date is unknown for a delayed submission; reign duration is unresolved."
-          : null)
-        : "documented dates; chronology incomplete";
-    r.durationIntervals =
-      r.durationDays === null
-        ? null
-        : c.appearances
-            .map((a) => ({
-              start: a.startDate > r.recordDate ? a.startDate : r.recordDate,
-              end: a.endDate < r.durationEnd ? a.endDate : r.durationEnd,
-            }))
-            .filter((a) => a.start < a.end);
-  }
+  recomputeRecordDurations(c);
   c.current = c.records.length
     ? c.records.reduce((a, b) => (a.timeCs <= b.timeCs ? a : b))
     : null;
@@ -497,7 +452,69 @@ for (const p of players.values()) {
     p.avatar = null;
   }
 }
-applyReviewedPublicationPatches(courses, JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8")));
+function recomputeRecordDurations(c) {
+  for (const r of c.records) {
+    const later = c.records.filter((n) => n.timeCs < r.timeCs);
+    // Position an undated intermediate WR before its dated successor in the
+    // same tour. This is an ordering anchor, never an achievement date.
+    delete r.chronologyDate;
+    if (!r.recordDate && r.tourDateRange) {
+      const nextDate = later.filter(n => n.recordDate && timestampWithinTour(
+        n.submittedAt || `${n.recordDate}T12:00:00Z`, r.tourDateRange,
+      )).map(n => n.recordDate).sort()[0];
+      if (nextDate) r.chronologyDate = nextDate;
+    }
+    const nextTime = Math.max(...later.map((n) => n.timeCs));
+    const nextRecords = later.filter((n) => n.timeCs === nextTime);
+    // An undated successor does end the reign, but its date remains unknown.
+    r.durationEnd = nextRecords.length
+      ? (nextRecords.every(n => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
+        ? nextRecords.map(n => n.recordDate).sort()[0]
+        : null)
+      : new Date().toISOString().slice(0, 10);
+    r.durationDays =
+      r.recordDate && !r.dateUnresolved && !r.delayedSubmission && !r.reignUnresolved && nextRecords.every((n) => n.recordDate && !n.dateUnresolved && !n.delayedSubmission)
+        ? playableDays(
+            r.recordDate,
+            nextRecords.map((n) => n.recordDate).sort()[0] ||
+              new Date().toISOString().slice(0, 10),
+            c.appearances.map((a) => ({ start: a.startDate, end: a.endDate })),
+          )
+        : null;
+    r.durationBasis =
+      r.durationDays === null
+        ? (r.reignUnresolved
+          ? "Faster preserved evidence disputes the end of this reign; duration is unresolved."
+          : r.delayedSubmission || nextRecords.some((n) => n.delayedSubmission)
+          ? "Achievement date is unknown for a delayed submission; reign duration is unresolved."
+          : null)
+        : "documented dates; chronology incomplete";
+    r.durationIntervals =
+      r.durationDays === null
+        ? null
+        : c.appearances
+            .map((a) => ({
+              start: a.startDate > r.recordDate ? a.startDate : r.recordDate,
+              end: a.endDate < r.durationEnd ? a.endDate : r.durationEnd,
+            }))
+            .filter((a) => a.start < a.end);
+  }
+}
+const publicationPatches = JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8"));
+applyReviewedPublicationPatches(courses, publicationPatches);
+// Account corrections run after source import; keep the stable WR ID credited to its reviewed owner.
+for (const patch of publicationPatches.rows || []) {
+  if (patch.collection !== "records" || !patch.set?.playerId || patch.set.playerId === patch.playerId) continue;
+  const row = courses.find(c => c.id === patch.courseId)?.records.find(r => r.id === patch.id);
+  if (row?.playerId !== patch.set.playerId) throw Error("Reviewed record owner mismatch: " + patch.id);
+  const previous = players.get(patch.playerId), owner = players.get(row.playerId);
+  if (!owner) throw Error("Reviewed record owner missing: " + row.playerId);
+  if (previous) previous.records = previous.records.filter(id => id !== row.id);
+  owner.records = [...new Set([...owner.records, row.id])];
+}
+for (const courseId of new Set((publicationPatches.rows || []).filter(p => p.collection === "records" && p.set?.playerId && p.set.playerId !== p.playerId).map(p => p.courseId))) {
+  recomputeRecordDurations(courses.find(c => c.id === courseId));
+}
 for (const [name, data] of Object.entries({
   manifest,
   courses,
