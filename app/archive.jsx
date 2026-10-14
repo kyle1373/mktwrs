@@ -875,12 +875,12 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <h2>History</h2>
       {c.halloween2019Recording && <p className="table-note">Halloween Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive. Runs with unresolved dates remain under review.</p>}
       {c.paris2019Recording && <p className="table-note">Paris Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive.</p>}
-      {c.hammerRecoveredProgression?.length > 0 && <p className="table-note">Hammer Bro Tour history includes recovered leaders in surviving source posting order. Reports, screenshots and videos are labelled; their posting dates are used as submission dates unless other evidence establishes a different date. Recovered leaders receive no confirmed-WR count or reign credit until worldwide precedence is established. The final announced WR remains dated to the tour window.</p>}
+      {c.hammerRecoveredProgression?.length > 0 && <p className="table-note">Hammer Bro Tour history includes recovered leaders in surviving source posting order. Reports, screenshots and videos are labelled; their posting dates are used as submission dates unless other evidence establishes a different date. Recovered leaders receive no confirmed-WR count or reign credit until worldwide precedence is established. Retrospective records use the tour window when no contemporary post date survives.</p>}
       <RecordTable records={historyRecords} events={events} players={players} />
       <DateKey />
       <p className="table-note">
         {c.hammerRecoveredProgression?.length > 0
-          ? "The final WR is supported by its announcement. Intermediate recovered leaders remain under WR-status review."
+          ? "The final WR is supported by its announcement. Earlier recovered leaders are documented results; their worldwide WR status is unconfirmed."
           : "Records are confirmed by WR announcements or explicit community WR confirmation. Exact dates remain unknown for some migrated records."}
       </p>
       <details className="sources">
