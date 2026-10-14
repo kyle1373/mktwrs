@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 94,
-      "candidate-and-source-review": 29,
+      "completed-with-documented-gaps": 95,
+      "candidate-and-source-review": 28,
       "debut-history-gap": 2,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 94,
-    "toursRequiringInvestigation": 87,
+    "practicallyCompletedTours": 95,
+    "toursRequiringInvestigation": 86,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -76,10 +76,10 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 16,
+        "requiringInvestigation": 15,
         "categories": {
-          "completed-with-documented-gaps": 10,
-          "candidate-and-source-review": 10,
+          "completed-with-documented-gaps": 11,
+          "candidate-and-source-review": 9,
           "debut-history-gap": 2,
           "carry-in-and-sparse-history-check": 4
         }
@@ -4854,39 +4854,49 @@
           "supportingRows": 66,
           "pendingCandidates": 0,
           "carriedInWr": {
-            "id": "curated-996391633983651861-996391632331083846-bangkok2022-image-reviewed",
-            "playerId": "player-e382bce38389",
-            "time": "1:14.04",
-            "recordDate": "2022-07-12"
+            "id": "1000615548633227364",
+            "playerId": "dit",
+            "time": "1:13.93",
+            "announcedAt": "2022-07-24T04:08:57.332Z"
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify publication LIVE before moving to the next tour."
+          ],
+          "renderedHistoryEntries": 14
         },
         {
           "courseId": "gba-snow-land-r",
           "course": "GBA Snow Land R",
           "url": "https://mktwrs.com/course/gba-snow-land-r",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 4,
           "supportingRows": 73,
-          "pendingCandidates": 4,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify publication LIVE before moving to the next tour."
+          ],
+          "renderedHistoryEntries": 4
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/princess2023-completion.json",
+      "documentedLimitations": [
+        "NR’s prior 1:09.21 result has no recovered posting date; its place in the dated WR sequence is not assigned.",
+        "One cancelled NR attachment did not download. Its accepted replacement is separately preserved and hash matched; no extra record is awarded.",
+        "81 prior original-image assessments matched their preserved bytes. Two further originals have accepted source receipts and are preserved; their pixels were not freshly reviewed because image output was unavailable.",
+        "The final NR video result matches the retained prior sampled assessment. Fresh uninterrupted start-to-finish certification is not claimed.",
+        "DIT’s carried 1:13.93 movie is currently unavailable. The available 1:14.36 Y146 movie is explicitly earlier Bangkok Tour (2022) footage.",
+        "The Phillish video download remains unverified; its original reference is retained.",
+        "Bounded surviving sources support this practical review. Deleted/private sources and exhaustive worldwide history are not certified."
+      ],
+      "latestCompletionAudit": "archive/princess2023-production-build-and-complete-course-fidelity-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-98",
@@ -11195,7 +11205,7 @@
   ],
   "activeDetailedTourId": "tour-97",
   "activeDetailedReview": "tour-97",
-  "latestCompletionAudit": "archive/hammer2020-reopened-review-resolved-live-check-20261014.json",
-  "nextPriorityTourId": "tour-97",
-  "nextPriorityReason": "Hammer reference and practical-review labels verified LIVE; next chronological tour after Mii2023."
+  "latestCompletionAudit": "archive/princess2023-production-build-and-complete-course-fidelity-20261014.json",
+  "nextPriorityTourId": "tour-98",
+  "nextPriorityReason": "Activate only after Princess 2023 LIVE evidence."
 }
