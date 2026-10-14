@@ -595,7 +595,7 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <EvidenceTimes r={r} />
     </> : <p>No recording has an explicit full-race continuity certification in this archive.</p>}
     {comparison.reportedRecording && <>
-      <p>Faster available recording, using the uploader’s stated time: <strong>{comparison.reportedRecording.time}</strong> · <Player id={comparison.reportedRecording.playerId} players={players} /> · <a href={comparison.reportedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.reportedRecording.videoBackup?.url && <> · <a href={comparison.reportedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
+      <p>Available recording, using the uploader’s stated time: <strong>{comparison.reportedRecording.time}</strong> · <Player id={comparison.reportedRecording.playerId} players={players} /> · <a href={comparison.reportedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.reportedRecording.videoBackup?.url && <> · <a href={comparison.reportedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <p className="table-note">{comparison.reportedRecording.evidenceNote}</p>
       <EvidenceTimes r={comparison.reportedRecording} />
     </>}
@@ -812,6 +812,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.autumn2022SupportingResults} players={players} tourLabel="Autumn Tour (2022)" />
       <HalloweenRecording comparison={c.animal2022Recording} players={players} tourLabel="Animal Tour (2022)" completed={c.animal2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.animal2022SupportingResults} players={players} tourLabel="Animal Tour (2022)" />
+      <HalloweenRecording comparison={c.peachbowser2022Recording} players={players} tourLabel="Peach vs. Bowser Tour (2022)" completed={c.peachbowser2022Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.peachbowser2022SupportingResults} players={players} tourLabel="Peach vs. Bowser Tour (2022)" />
       <HalloweenRecording comparison={c.samurai2022Recording} players={players} tourLabel="Samurai Tour (2022)" completed={c.samurai2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.samurai2022SupportingResults} players={players} tourLabel="Samurai Tour (2022)" />
       <HalloweenRecording comparison={c.supermario2020Recording} players={players} tourLabel="Super Mario Kart Tour (2020)" completed={c.supermario2020Recording?.practicalReviewComplete === true} />
