@@ -2,10 +2,10 @@
   "checkedAt": "2026-10-14",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
-  "reviewedAvailableOriginals": 95,
-  "supportingCanonicalEntries": 72,
+  "reviewedAvailableOriginals": 111,
+  "supportingCanonicalEntries": 107,
   "byteIdenticalRepostsMerged": 1,
-  "identityUnresolvedOriginals": 21,
+  "identityUnresolvedOriginals": 0,
   "evidenceLimitedOriginals": 1,
   "sourceCounts": {
     "reviewed": 73,
@@ -1102,10 +1102,7 @@
     }
   ],
   "remainingWork": [
-    "Reconcile 107 current-tour original result images and bounded text source rows into canonical performances and account identities without duplicates.",
-    "Apply final fastest opening-day result/ties only to WR progression; retain other evidence as supporting results.",
-    "Finish movie lap/source reconciliation and compare available documented recordings per course.",
-    "Run complete-course generation, player WR identity checks, production build, rendered proof-link checks and exact-commit Railway live verification before declaring practical completion."
+    "Verify exact production commit and LIVE publication before activating tour104."
   ],
   "nextTour": {
     "index": "archive/sundae2023-source-review-index-20261008.json",
@@ -1118,13 +1115,13 @@
     "priorReviewsPreserved": true
   },
   "validation": "Counts checked against committed originals and canonical data; passed.",
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "publicationReady": false,
   "completeOriginalRecoveryAudit": "archive/summer2023-complete-original-recovery-and-r2-source-audit-20261014.json",
   "preservedOriginalImages": 110,
   "currentTourOriginalImages": 107,
   "latePriorTourOriginalImages": 3,
-  "preservedOriginalMovies": 4,
+  "preservedOriginalMovies": 5,
   "freshlyVisuallyReviewedRecoveredImages": 0,
   "unavailableOriginals": [
     {
@@ -1160,6 +1157,9 @@
     "sourceRowsWithoutAccounting": 0,
     "additionalYouTubeMoviesPreservedOnR2": 3
   },
-  "freshlyMachineReviewedRecoveredImages": 15,
-  "freshReviewBasisCorrection": "archive/summer2023-complete-original-recovery-and-r2-source-audit-20261014.json"
+  "freshlyMachineReviewedRecoveredImages": 16,
+  "freshReviewBasisCorrection": "archive/summer2023-complete-original-recovery-and-r2-source-audit-20261014.json",
+  "status": "source-review-complete-publication-pending",
+  "completionEvidence": "public/data/summer2023-completion.json",
+  "nextTourId": "tour-104"
 }

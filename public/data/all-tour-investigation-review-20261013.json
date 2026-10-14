@@ -36,14 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 100,
-      "debut-history-gap": 1,
+      "completed-with-documented-gaps": 101,
       "candidate-and-source-review": 24,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 100,
-    "toursRequiringInvestigation": 81,
+    "practicallyCompletedTours": 101,
+    "toursRequiringInvestigation": 80,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -76,10 +75,9 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 10,
+        "requiringInvestigation": 9,
         "categories": {
-          "completed-with-documented-gaps": 16,
-          "debut-history-gap": 1,
+          "completed-with-documented-gaps": 17,
           "candidate-and-source-review": 5,
           "carry-in-and-sparse-history-check": 4
         }
@@ -5228,7 +5226,7 @@
           "course": "Berlin Byways 2",
           "url": "https://mktwrs.com/course/berlin-byways-2",
           "firstAppearance": false,
-          "wrRows": 1,
+          "wrRows": 6,
           "supportingRows": 49,
           "pendingCandidates": 0,
           "carriedInWr": {
@@ -5240,49 +5238,67 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 23,
+          "publicSupportingRows": 22
         },
         {
           "courseId": "madrid-drive",
           "course": "Madrid Drive",
           "url": "https://mktwrs.com/course/madrid-drive",
           "firstAppearance": true,
-          "wrRows": 0,
+          "wrRows": 11,
           "supportingRows": 39,
-          "pendingCandidates": 5,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Recover debut opening-day final leader, then later WR improvements; check reset-day attribution.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 12,
+          "publicSupportingRows": 18
         },
         {
           "courseId": "piranha-plant-cove-3",
           "course": "Piranha Plant Cove 3",
           "url": "https://mktwrs.com/course/piranha-plant-cove-3",
           "firstAppearance": true,
-          "wrRows": 0,
+          "wrRows": 4,
           "supportingRows": 56,
-          "pendingCandidates": 2,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Recover debut opening-day final leader, then later WR improvements; check reset-day attribution.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 8,
+          "publicSupportingRows": 29
         }
       ],
-      "category": "debut-history-gap"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/summer2023-completion.json",
+      "documentedLimitations": [
+        "Bounded surviving sources; worldwide exhaustive completeness is not proved.",
+        "Six recovered originals have cancelled receipts and remain outside WR progression; three unavailable cancelled originals retained separately.",
+        "One accepted2:07.56 row has limited original image/movie result coverage and receives no WR or eligible-recording claim.",
+        "New result assessments use preserved original OCR plus source receipts/captions; fresh pixel outputs were unavailable and no fresh visual certification is claimed.",
+        "Older original visual reviews retained only by exact SHA match.",
+        "Original movies have prior SHA-matched or machine/source result review; none has uninterrupted full-race certification.",
+        "Final Madrid posted06:08:57UTC after reset; posting date is used and no earlier private achievement day is inferred.",
+        "111 original images and five original movies are R2 preserved with exact SHA/length and public byte-range checks;108 images concern Summer, including the final late Madrid proof, and three belong to late Vacation results.",
+        "21 recovered leader/tie entries use posting order; only final fastest first-day results/ties receive progression/profile credit.",
+        "NR1:23.41 is the fastest documented available Berlin movie, below the1:23.38 WR; its X caption has erroneous lap prefixes, so the accepted receipt/screenshot-caption41.62/41.79 supplies lap evidence.",
+        "NR and kNo2 edited receipts do not establish first Discord video-share clocks. Sucha original video-share post is separately dated12:41:36UTC.",
+        "Two2024 candidates retain their existing status; no later-tour completion claim.",
+        "209 bounded saved rows account for192 attachment-linked rows and17 context rows; the final Madrid proof is an explicitly reviewed extra late submission."
+      ],
+      "latestCompletionAudit": "archive/summer2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-104",
@@ -11267,8 +11283,8 @@
   ],
   "activeDetailedTourId": "tour-103",
   "activeDetailedReview": "tour-103",
-  "latestCompletionAudit": "archive/vacation2023-surviving-source-review-decision-20261014.json",
-  "nextPriorityTourId": "tour-103",
-  "nextPriorityReason": "Vacation2023 review and live publication verified; continue Summer2023 alone.",
+  "latestCompletionAudit": "archive/summer2023-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-104",
+  "nextPriorityReason": "Activate only after Summer2023 LIVE verification.",
   "latestLiveCompletionAudit": "archive/vacation2023-live-publication-verification-20261014.json"
 }
