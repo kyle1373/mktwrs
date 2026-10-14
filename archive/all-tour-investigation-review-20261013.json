@@ -24,7 +24,7 @@
     "Refreshed all 142 live course pages against afe8d56c; all WR counts match. Mario Bros. practical completion labels and final audit reference verified live."
   ],
   "policy": [
-    "One tour at a time. Spring2023 completion verified live; Bowser2023 is active.",
+    "One tour at a time. Bowser2023 completion prepared; verify live before tour96.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -37,14 +37,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 92,
-      "candidate-and-source-review": 30,
+      "completed-with-documented-gaps": 93,
       "debut-history-gap": 3,
+      "candidate-and-source-review": 29,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 92,
-    "toursRequiringInvestigation": 89,
+    "practicallyCompletedTours": 93,
+    "toursRequiringInvestigation": 88,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -64,7 +64,7 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 18
+        "requiringInvestigation": 17
       },
       "2024": {
         "catalogTours": 26,
@@ -4689,25 +4689,23 @@
           "course": "GBA Bowser's Castle 4",
           "url": "https://mktwrs.com/course/gba-bowser-s-castle-4",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 5,
           "supportingRows": 80,
-          "pendingCandidates": 6,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical surviving-source review completed with documented gaps; provisional N footage, unavailable DIT reference and unclassified source leads retained."
+          ],
+          "renderedSupportingRows": 60
         },
         {
           "courseId": "n64-kalimari-desert-2r",
           "course": "N64 Kalimari Desert 2R",
           "url": "https://mktwrs.com/course/n64-kalimari-desert-2r",
           "firstAppearance": false,
-          "wrRows": 0,
+          "wrRows": 1,
           "supportingRows": 13,
           "pendingCandidates": 0,
           "carriedInWr": {
@@ -4719,13 +4717,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical surviving-source review completed with documented gaps; provisional N footage, unavailable DIT reference and unclassified source leads retained."
+          ],
+          "renderedSupportingRows": 12
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/bowser2023-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-96",
@@ -11139,6 +11138,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-95",
-  "latestCompletionAudit": "archive/spring2023-completion-label-live-check-20261014.json",
+  "latestCompletionAudit": "public/data/bowser2023-completion.json",
   "updatedAt": "2026-10-13T23:15:48.419591+00:00"
 }
