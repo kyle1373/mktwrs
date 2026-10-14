@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import {routeData} from '../lib/data.mjs';
 import {isReviewedOpeningDay} from '../lib/opening-day.mjs';
 test('Sunshine opening window includes hours before July27 rollover',()=>{
@@ -20,5 +21,6 @@ test('Koopa2R publishes six leaders and excludes the incorrect Daisy receipt',()
  assert.deepEqual(c.records.filter(r=>r.tourDateRange?.start==='2023-07-26').map(r=>[r.time,r.recordDate]),[['0:57.93','2023-07-27'],['0:57.73','2023-07-29'],['0:57.63','2023-07-31'],['0:57.61','2023-08-02'],['0:57.57','2023-08-06'],['0:57.55','2023-08-06']]);
  assert.equal(c.sunshine2023Recording.documentedRecording,null);
  assert(!c.sunshine2023SupportingResults.some(r=>r.id==='discord-1137356709413789786'));
- assert.equal(c.submissions.find(r=>r.id==='discord-1137356709413789786').status,'erroneous-reported-input');
+ const raw=JSON.parse(fs.readFileSync('public/data/courses/snes-koopa-troopa-beach-2r.json','utf8'));
+ assert.equal(raw.submissions.find(r=>r.id==='discord-1137356709413789786').status,'erroneous-reported-input');
 });
