@@ -1,0 +1,104 @@
+{
+  "tourId": "tour-99",
+  "tour": "Night Tour (2023)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-14",
+  "standard": "User-authorized practical surviving proofs. Source posting date is submission/archive date unless earlier or contrary evidence establishes another date.",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2023-06-28T06:00:00Z",
+    "endExclusive": "2023-07-12T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "rome-avanti-2",
+      "archivedWr": "1:18.87",
+      "wrPlayerId": "nu11",
+      "datedTourHistory": [
+        "1:19.41",
+        "1:19.14",
+        "1:18.96",
+        "1:18.94",
+        "1:18.87"
+      ],
+      "fastestDocumentedAvailableRecording": "1:18.87",
+      "recordingPlayerId": "nu11",
+      "recordingAvailability": "available",
+      "moviePublishedAt": "2023-07-11T15:12:19Z",
+      "openingOriginalRecovered": false
+    },
+    {
+      "id": "singapore-speedway",
+      "archivedWr": "1:09.43",
+      "wrPlayerId": "player-e38199e38184e3819df09f90ba",
+      "carriedInWr": true,
+      "datedTourHistory": [],
+      "fastestRecoveredTourSubmission": "1:10.75",
+      "fastestDocumentedAvailableRecording": "1:09.43",
+      "recordingIsEarlierTour": true
+    },
+    {
+      "id": "singapore-speedway-2r",
+      "archivedWr": "1:24.98",
+      "wrPlayerId": "mb3",
+      "datedTourHistory": [
+        "1:26.02",
+        "1:25.84",
+        "1:25.68",
+        "1:25.08",
+        "1:24.98"
+      ],
+      "finalSubmittedAt": "2023-07-12T05:58:26.898Z",
+      "finalBeforeReset": true,
+      "fastestDocumentedAvailableRecording": "1:25.08",
+      "recordingPlayerId": "phillish",
+      "recordingAvailability": "available",
+      "recordingPublishedAt": "2023-07-07T20:09:50Z",
+      "firstDayFinalFastestRecovered": "1:26.02",
+      "firstDayPlayerId": "rubix"
+    }
+  ],
+  "coverage": {
+    "boundedSavedSourceRows": 113,
+    "originalImagesPreservedOnR2": 63,
+    "freshOriginalImagesRecoveredAndReviewed": 22,
+    "priorOriginalAssessmentHashesMatched": 41,
+    "newOriginalVideosPreservedOnR2": 4,
+    "reusedEarlierTourR2Recordings": 1,
+    "tourDatedHistoryEntries": 10,
+    "tourPendingCandidates": 0,
+    "completeCourseRowsCompared": 405,
+    "fieldDifferences": 0,
+    "publicSupportingResults": {
+      "rome-avanti-2": 22,
+      "singapore-speedway": 25,
+      "singapore-speedway-2r": 6
+    },
+    "renderedR2MediaLinksPassed": 110,
+    "focusedTestsPassed": 29
+  },
+  "remainingLimitations": [
+    "No original Rome result from the opening playable day was recovered; its dated progression starts with the earliest recovered June30 result.",
+    "Undated previous personal-best values remain preserved without invented dated WR entries.",
+    "mb3 final1:24.98 has a verified original result screenshot and announcement, but no final-run movie was recovered. Phillish1:25.08 is the fastest recovered available same-tour recording.",
+    "Original image and video assessments retained by matchingSHA256 where previously reviewed. Two new videos were reviewed at start,laptransition andfinish; uninterrupted full-race continuity was not freshly certified.",
+    "The113saved source rows form a bounded surviving set. Deleted/private sources and exhaustive worldwide history remain unproven.",
+    "One image posted duringNight belongs to delayedprior-tourLuigiRacewayR evidence and is excluded fromNightprogression."
+  ],
+  "evidence": [
+    "archive/night2023-source-review-index-20261008.json",
+    "archive/night2023-63-originals-r2-and-source-recovery-20261014.json",
+    "archive/night2023-four-original-video-r2-and-posting-date-review-20261014.json",
+    "archive/night2023-posted-progression-and-canonical-source-review-20261014.json",
+    "archive/night2023-written-caption-split-retention-20261014.json",
+    "archive/night2023-complete-course-generation-and-player-record-check-20261014.json",
+    "archive/night2023-production-build-and-complete-course-fidelity-20261014.json",
+    "archive/night2023-surviving-source-review-decision-20261014.json"
+  ],
+  "productionBuildVerified": true,
+  "productionBuildEvidence": "archive/night2023-production-build-and-complete-course-fidelity-20261014.json",
+  "livePublicationVerified": false,
+  "nextTourId": "tour-100"
+}

@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 96,
-      "debut-history-gap": 2,
+      "completed-with-documented-gaps": 97,
       "candidate-and-source-review": 27,
+      "debut-history-gap": 1,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 96,
-    "toursRequiringInvestigation": 85,
+    "practicallyCompletedTours": 97,
+    "toursRequiringInvestigation": 84,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -76,11 +76,11 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 14,
+        "requiringInvestigation": 13,
         "categories": {
-          "completed-with-documented-gaps": 12,
-          "debut-history-gap": 2,
+          "completed-with-documented-gaps": 13,
           "candidate-and-source-review": 8,
+          "debut-history-gap": 1,
           "carry-in-and-sparse-history-check": 4
         }
       },
@@ -4949,19 +4949,17 @@
           "course": "Rome Avanti 2",
           "url": "https://mktwrs.com/course/rome-avanti-2",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 5,
           "supportingRows": 34,
-          "pendingCandidates": 8,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
-          ]
+            "VerifyLIVEpublicationbeforeadvancing."
+          ],
+          "renderedHistoryEntries": 8,
+          "publicSupportingRows": 22
         },
         {
           "courseId": "singapore-speedway",
@@ -4980,31 +4978,43 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "VerifyLIVEpublicationbeforeadvancing."
+          ],
+          "renderedHistoryEntries": 21,
+          "publicSupportingRows": 25
         },
         {
           "courseId": "singapore-speedway-2r",
           "course": "Singapore Speedway 2R",
           "url": "https://mktwrs.com/course/singapore-speedway-2r",
           "firstAppearance": true,
-          "wrRows": 0,
+          "wrRows": 5,
           "supportingRows": 14,
-          "pendingCandidates": 3,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Recover debut opening-day final leader, then later WR improvements; check reset-day attribution.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "VerifyLIVEpublicationbeforeadvancing."
+          ],
+          "renderedHistoryEntries": 18,
+          "publicSupportingRows": 6
         }
       ],
-      "category": "debut-history-gap"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/night2023-completion.json",
+      "documentedLimitations": [
+        "No original Rome result from the opening playable day was recovered; its dated progression starts with the earliest recovered June30 result.",
+        "Undated previous personal-best values remain preserved without invented dated WR entries.",
+        "mb3 final1:24.98 has a verified original result screenshot and announcement, but no final-run movie was recovered. Phillish1:25.08 is the fastest recovered available same-tour recording.",
+        "Original image and video assessments retained by matchingSHA256 where previously reviewed. Two new videos were reviewed at start,laptransition andfinish; uninterrupted full-race continuity was not freshly certified.",
+        "The113saved source rows form a bounded surviving set. Deleted/private sources and exhaustive worldwide history remain unproven.",
+        "One image posted duringNight belongs to delayedprior-tourLuigiRacewayR evidence and is excluded fromNightprogression."
+      ],
+      "latestCompletionAudit": "archive/night2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-100",
@@ -11226,7 +11236,7 @@
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
   "activeDetailedReview": "tour-99",
-  "latestCompletionAudit": "archive/marioluigi2023-live-publication-verification-20261014.json",
-  "nextPriorityTourId": "tour-99",
-  "nextPriorityReason": "Mario vs. Luigi 2023 source, full course fidelity and LIVE publication verified with documented gaps."
+  "latestCompletionAudit": "archive/night2023-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-100",
+  "nextPriorityReason": "ActivateonlyafterNight2023LIVEverification."
 }
