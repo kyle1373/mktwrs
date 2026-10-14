@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "One tour at a time. Winter2023 completion verified live; Exploration2023 is active.",
+    "One tour at a time. Exploration2023 completion prepared; verify live before Doctor2023.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,15 +36,15 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 86,
-      "faster-result-reconciliation": 2,
+      "completed-with-documented-gaps": 87,
       "debut-history-gap": 4,
       "candidate-and-source-review": 33,
+      "faster-result-reconciliation": 1,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 86,
-    "toursRequiringInvestigation": 95,
+    "practicallyCompletedTours": 87,
+    "toursRequiringInvestigation": 94,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -77,12 +77,12 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 24,
+        "requiringInvestigation": 23,
         "categories": {
-          "completed-with-documented-gaps": 2,
-          "faster-result-reconciliation": 2,
+          "completed-with-documented-gaps": 3,
           "debut-history-gap": 4,
           "candidate-and-source-review": 14,
+          "faster-result-reconciliation": 1,
           "carry-in-and-sparse-history-check": 4
         }
       },
@@ -4396,45 +4396,37 @@
           "course": "Piranha Plant Cove",
           "url": "https://mktwrs.com/course/piranha-plant-cove",
           "firstAppearance": true,
-          "wrRows": 5,
+          "wrRows": 8,
           "supportingRows": 27,
-          "pendingCandidates": 2,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Practical review completed with documented gaps; opening video report, corrected duplicate, unavailable media and partial-footage qualifications retained in completion evidence."
+          ],
+          "renderedSupportingRows": 48
         },
         {
           "courseId": "piranha-plant-cove-2",
           "course": "Piranha Plant Cove 2",
           "url": "https://mktwrs.com/course/piranha-plant-cove-2",
           "firstAppearance": true,
-          "wrRows": 5,
+          "wrRows": 7,
           "supportingRows": 17,
-          "pendingCandidates": 2,
+          "pendingCandidates": 0,
           "carriedInWr": null,
-          "fasterSupportingLeads": [
-            {
-              "id": "discord-1074078385703227422",
-              "time": "1:09.95",
-              "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1074078384302338128"
-            }
-          ],
+          "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Reconcile supporting times faster than the best published tour/carry-in WR; inspect date, eligibility and source before promotion.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical review completed with documented gaps; opening video report, corrected duplicate, unavailable media and partial-footage qualifications retained in completion evidence."
+          ],
+          "renderedSupportingRows": 26
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/exploration2023-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-90",
@@ -11210,6 +11202,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-89",
-  "latestCompletionAudit": "archive/winter2023-completion-label-live-check-20261014.json",
+  "latestCompletionAudit": "public/data/exploration2023-completion.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00"
 }
