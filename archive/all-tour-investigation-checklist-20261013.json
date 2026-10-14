@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "One tour at a time. Bowser2023 completion verified live; Mii2023 is active.",
+    "One tour at a time. Mii2023 remains active; reopened Hammer Bro2020 is next before Princess2023.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 93,
+      "completed-with-documented-gaps": 92,
+      "source-and-publication-review": 37,
       "debut-history-gap": 3,
       "candidate-and-source-review": 29,
-      "carry-in-and-sparse-history-check": 20,
-      "source-and-publication-review": 36
+      "carry-in-and-sparse-history-check": 20
     },
-    "practicallyCompletedTours": 93,
-    "toursRequiringInvestigation": 88,
+    "practicallyCompletedTours": 92,
+    "toursRequiringInvestigation": 89,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -55,9 +55,10 @@
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 0,
+        "requiringInvestigation": 1,
         "categories": {
-          "completed-with-documented-gaps": 27
+          "completed-with-documented-gaps": 26,
+          "source-and-publication-review": 1
         }
       },
       "2021": {
@@ -666,7 +667,10 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
+            "Reconcile recovered Yoshi Circuit R leaders in original publication order, using final fastest recovered opening-day result only.",
+            "Recover good-enough original result or source evidence and known submission/share clocks; preserve final unknown chronology honestly.",
+            "Expose dated progression in the WR history; distinguish slower supporting results from true leaders.",
+            "Reassess both Hammer Bro courses before replacing completion status, then build and verify live."
           ]
         },
         {
@@ -681,15 +685,20 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
-          ]
+            "Reconcile recovered Yoshi Circuit R leaders in original publication order, using final fastest recovered opening-day result only.",
+            "Recover good-enough original result or source evidence and known submission/share clocks; preserve final unknown chronology honestly.",
+            "Expose dated progression in the WR history; distinguish slower supporting results from true leaders.",
+            "Reassess both Hammer Bro courses before replacing completion status, then build and verify live."
+          ],
+          "renderedSupportingRows": 28
         }
       ],
-      "category": "completed-with-documented-gaps",
-      "practicalReviewComplete": true,
+      "category": "source-and-publication-review",
+      "practicalReviewComplete": false,
       "completionEvidence": "/data/hammer2020-completion.json",
       "note": "Practical review complete with documented source coverage and opening-order gaps;91 live rows and57 preserved evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json"
     },
     {
       "id": "tour-15",
@@ -11133,5 +11142,7 @@
   },
   "activeDetailedReview": "tour-96",
   "latestCompletionAudit": "archive/bowser2023-completion-label-live-check-20261014.json",
-  "updatedAt": "2026-10-13T23:15:48.472931+00:00"
+  "updatedAt": "2026-10-13T23:15:48.472931+00:00",
+  "nextPriorityTourId": "tour-14",
+  "nextPriorityReason": "User-requested Yoshi Circuit R progression review"
 }
