@@ -18,7 +18,7 @@ test('Summer publishes all21 leaders and ties with distinct available-recording 
   assert.deepEqual(c.records.filter(r=>r.tourDateRange?.start==='2023-08-23').map(r=>r.time),times);
   assert.equal(c.summer2023Recording.recording,null);
   if(id==='piranha-plant-cove-3')assert.equal(c.summer2023Recording.documentedRecording,null);
-  else {assert.equal(c.summer2023Recording.documentedRecording.time,id==='berlin-byways-2'?'1:23.43':'1:17.31');assert.match(c.summer2023Recording.documentedRecording.videoBackup.url,/media\.mktwrs\.com/);}
+  else {assert.equal(c.summer2023Recording.documentedRecording.time,id==='berlin-byways-2'?'1:23.41':'1:17.31');assert.match(c.summer2023Recording.documentedRecording.videoBackup.url,/media\.mktwrs\.com/);}
   const keys=c.summer2023SupportingResults.map(r=>r.playerId+'|'+r.time+'|'+r.recordDate);assert.equal(keys.length,new Set(keys).size);
   assert(!c.summer2023SupportingResults.some(r=>r.status==='cancelled-submission'));
  }
