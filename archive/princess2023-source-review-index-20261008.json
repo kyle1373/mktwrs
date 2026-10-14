@@ -2133,7 +2133,8 @@
       ],
       "localFiles": [],
       "canonicalMatches": [],
-      "disposition": "original-recovery-required"
+      "disposition": "cancelled-receipt-reviewed-original-download-failed-unverified",
+      "latestSourceReview": "archive/princess2023-three-missing-attachment-source-dispositions-20261014.json"
     },
     {
       "attachmentId": "1115922197068926986",
@@ -4247,9 +4248,13 @@
           "text": "ぴーまる\n — \n6/1/23, 4:43 AM\nThursday, June 1, 2023 at 4:43 AM\n35.00/34.95"
         }
       ],
-      "localFiles": [],
+      "localFiles": [
+        "archive/princess2023-original-attachments/1113795033376763965.png"
+      ],
       "canonicalMatches": [],
-      "disposition": "original-recovery-required"
+      "disposition": "accepted-receipt-reviewed-original-preserved-image-content-not-freshly-reviewed",
+      "latestSourceReview": "archive/princess2023-three-missing-attachment-source-dispositions-20261014.json",
+      "originalPreservation": "archive/princess2023-eighty-three-original-images-r2-and-source-integrity-20261014.json"
     },
     {
       "attachmentId": "1113767365734305823",
@@ -4330,19 +4335,24 @@
           "text": "kuRi\n — \n6/1/23, 1:56 AM\nThursday, June 1, 2023 at 1:56 AM"
         }
       ],
-      "localFiles": [],
+      "localFiles": [
+        "archive/princess2023-original-attachments/1113752873608679494.png"
+      ],
       "canonicalMatches": [],
-      "disposition": "original-recovery-required"
+      "disposition": "accepted-receipt-reviewed-original-preserved-image-content-not-freshly-reviewed",
+      "latestSourceReview": "archive/princess2023-three-missing-attachment-source-dispositions-20261014.json",
+      "originalPreservation": "archive/princess2023-eighty-three-original-images-r2-and-source-integrity-20261014.json"
     }
   ],
   "counts": {
-    "total": 84,
     "reviewed": 81,
-    "original-recovery-required": 3
+    "cancelled-receipt-reviewed-original-download-failed-unverified": 1,
+    "accepted-receipt-reviewed-original-preserved-image-content-not-freshly-reviewed": 2
   },
   "nextActions": [
     "Review local originals in publication order and reconcile existing evidence without duplicate performances.",
     "Recover missing originals and original videos.",
     "Reconcile intermediate WR chronology and course identity."
-  ]
+  ],
+  "latestSourceReconciliation": "archive/princess2023-three-missing-attachment-source-dispositions-20261014.json"
 }
