@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "One tour at a time. Animal2022 completion verified live; Peach vs. Bowser2022 is active.",
+    "One tour at a time. PeachBowser2022 completion prepared; verify live before tour85.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,15 +36,15 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 81,
-      "faster-result-reconciliation": 4,
+      "completed-with-documented-gaps": 82,
       "candidate-and-source-review": 36,
+      "faster-result-reconciliation": 3,
       "debut-history-gap": 4,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 81,
-    "toursRequiringInvestigation": 100,
+    "practicallyCompletedTours": 82,
+    "toursRequiringInvestigation": 99,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -70,10 +70,9 @@
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 3,
+        "requiringInvestigation": 2,
         "categories": {
-          "completed-with-documented-gaps": 23,
-          "faster-result-reconciliation": 1,
+          "completed-with-documented-gaps": 24,
           "candidate-and-source-review": 2
         }
       },
@@ -4131,10 +4130,9 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical review completed with documented gaps; qualifications remain in completion evidence."
+          ],
+          "renderedSupportingRows": 35
         },
         {
           "courseId": "ds-peach-gardens",
@@ -4154,13 +4152,9 @@
           ],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Reconcile supporting times faster than the best published tour/carry-in WR; inspect date, eligibility and source before promotion.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Practical review completed with documented gaps; qualifications remain in completion evidence."
+          ],
+          "renderedSupportingRows": 59
         },
         {
           "courseId": "n64-royal-raceway",
@@ -4179,13 +4173,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical review completed with documented gaps; qualifications remain in completion evidence."
+          ],
+          "renderedSupportingRows": 19
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/peachbowser2022-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-85",
@@ -11253,6 +11248,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-84",
-  "latestCompletionAudit": "archive/animal2022-completion-label-live-check-20261013.json",
+  "latestCompletionAudit": "public/data/peachbowser2022-completion.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00"
 }
