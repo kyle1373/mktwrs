@@ -24,7 +24,7 @@
     "Refreshed all 142 live course pages against afe8d56c; all WR counts match. Mario Bros. practical completion labels and final audit reference verified live."
   ],
   "policy": [
-    "One tour at a time. New Year2023 completion verified live; Space2023 is active.",
+    "One tour at a time. Space2023 completion prepared; verify live before Winter2023.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -37,15 +37,15 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 84,
-      "faster-result-reconciliation": 3,
+      "completed-with-documented-gaps": 85,
       "candidate-and-source-review": 34,
+      "faster-result-reconciliation": 2,
       "debut-history-gap": 4,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 84,
-    "toursRequiringInvestigation": 97,
+    "practicallyCompletedTours": 85,
+    "toursRequiringInvestigation": 96,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -65,7 +65,7 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 26
+        "requiringInvestigation": 25
       },
       "2024": {
         "catalogTours": 26,
@@ -4287,43 +4287,23 @@
           "course": "GBA Cheep-Cheep Island R",
           "url": "https://mktwrs.com/course/gba-cheep-cheep-island-r",
           "firstAppearance": true,
-          "wrRows": 2,
+          "wrRows": 4,
           "supportingRows": 39,
-          "pendingCandidates": 3,
+          "pendingCandidates": 0,
           "carriedInWr": null,
-          "fasterSupportingLeads": [
-            {
-              "id": "discord-1067637958569623674",
-              "time": "1:11.78",
-              "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1067637958569623674"
-            },
-            {
-              "id": "discord-1067119118593052672",
-              "time": "1:11.83",
-              "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1067119118593052672"
-            },
-            {
-              "id": "curated-sucha-supplied-7SZWl2HgFug",
-              "time": "1:11.78",
-              "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1067637958569623674"
-            }
-          ],
+          "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Reconcile supporting times faster than the best published tour/carry-in WR; inspect date, eligibility and source before promotion.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
-          ]
+            "Practical review completed with documented gaps; opening, late-publication and footage qualifications retained in completion evidence."
+          ],
+          "renderedSupportingRows": 67
         },
         {
           "courseId": "n64-kalimari-desert-2",
           "course": "N64 Kalimari Desert 2",
           "url": "https://mktwrs.com/course/n64-kalimari-desert-2",
           "firstAppearance": false,
-          "wrRows": 0,
+          "wrRows": 1,
           "supportingRows": 29,
           "pendingCandidates": 0,
           "carriedInWr": {
@@ -4332,28 +4312,17 @@
             "time": "1:03.39",
             "recordDate": "2021-01-25"
           },
-          "fasterSupportingLeads": [
-            {
-              "id": "discord-1067642753980321833",
-              "time": "1:03.36",
-              "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1067642753980321833"
-            },
-            {
-              "id": "curated-1067642753980321833-space2023-video-proof-reviewed",
-              "time": "1:03.36",
-              "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1067642753980321833"
-            }
-          ],
+          "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Reconcile supporting times faster than the best published tour/carry-in WR; inspect date, eligibility and source before promotion.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical review completed with documented gaps; opening, late-publication and footage qualifications retained in completion evidence."
+          ],
+          "renderedSupportingRows": 56
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/space2023-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-88",
@@ -11249,6 +11218,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-87",
-  "latestCompletionAudit": "archive/newyear2023-completion-label-live-check-20261014.json",
+  "latestCompletionAudit": "public/data/space2023-completion.json",
   "updatedAt": "2026-10-13T23:15:48.419591+00:00"
 }
