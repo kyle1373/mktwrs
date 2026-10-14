@@ -839,6 +839,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.mii2023SupportingResults} players={players} tourLabel="Mii Tour (2023)" />
       <HalloweenRecording comparison={c.princess2023Recording} players={players} tourLabel="Princess Tour (2023)" completed={c.princess2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.princess2023SupportingResults} players={players} tourLabel="Princess Tour (2023)" />
+      <HalloweenRecording comparison={c.marioLuigi2023Recording} players={players} tourLabel="Mario vs. Luigi Tour (2023)" completed={c.marioLuigi2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.marioLuigi2023SupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2023)" />
       {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}
       {!!c.doctor2023PartialRecordings?.length && <section className="fastest-video">
         <h2>Doctor Tour (2023) partial recordings</h2>
