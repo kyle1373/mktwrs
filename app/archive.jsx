@@ -604,16 +604,16 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <p className="table-note">{comparison.referenceRecording.evidenceNote}</p>
       <EvidenceTimes r={comparison.referenceRecording} />
     </>}
-    {comparison.strategyReference && <>
-      <p>Technique reference · <Player id={comparison.strategyReference.playerId} players={players} /> · <a href={comparison.strategyReference.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={comparison.strategyReference.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
+    {[comparison.strategyReference, ...(comparison.strategyReferences || [])].filter(Boolean).map(ref => <div key={ref.video}>
+      <p>Technique reference · <Player id={ref.playerId} players={players} /> · <a href={ref.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={ref.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
       <p className="table-note">Technique footage is preserved separately and does not establish a completed record.</p>
-      <EvidenceTimes r={comparison.strategyReference} />
-    </>}
-    {comparison.lapDemonstration && <>
-      <p>Single-lap demonstration: <strong>{comparison.lapDemonstration.time}</strong> · <Player id={comparison.lapDemonstration.playerId} players={players} /> · <a href={comparison.lapDemonstration.video} target="_blank" rel="noopener noreferrer">Original video</a> · <a href={comparison.lapDemonstration.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
+      <EvidenceTimes r={ref} />
+    </div>)}
+    {[comparison.lapDemonstration, ...(comparison.lapDemonstrations || [])].filter(Boolean).map(lap => <div key={lap.video}>
+      <p>Single-lap demonstration: <strong>{lap.time}</strong> · <Player id={lap.playerId} players={players} /> · <a href={lap.video} target="_blank" rel="noopener noreferrer">Original video</a> · <a href={lap.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
       <p className="table-note">The uploader identifies one lap; this clip does not establish a whole-race time.</p>
-      <EvidenceTimes r={comparison.lapDemonstration} />
-    </>}
+      <EvidenceTimes r={lap} />
+    </div>)}
     {comparison.lateStartRecording && <>
       <p>Available recording starts late: <strong>{comparison.lateStartRecording.time}</strong> · <Player id={comparison.lateStartRecording.playerId} players={players} /> · <a href={comparison.lateStartRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.lateStartRecording.videoBackup?.url && <> · <a href={comparison.lateStartRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The finish and result are visible; the beginning of the race is missing.</p>
@@ -851,6 +851,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.spring2023SupportingResults} players={players} tourLabel="Spring Tour (2023)" />
       <HalloweenRecording comparison={c.bowser2023Recording} players={players} tourLabel="Bowser Tour (2023)" completed={c.bowser2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.bowser2023SupportingResults} players={players} tourLabel="Bowser Tour (2023)" />
+      <HalloweenRecording comparison={c.mii2023Recording} players={players} tourLabel="Mii Tour (2023)" completed={c.mii2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.mii2023SupportingResults} players={players} tourLabel="Mii Tour (2023)" />
       {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}
       {!!c.doctor2023PartialRecordings?.length && <section className="fastest-video">
         <h2>Doctor Tour (2023) partial recordings</h2>
