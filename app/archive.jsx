@@ -671,7 +671,7 @@ function ParisSupportingResults({ results, players, tourLabel = "Paris Tour (201
 }
 function CoursePage({ data: c, players, tours, manifest }) {
   const historyRecords = [...c.records, ...(c.hammerRecoveredProgression || [])];
-  const events = historyEvents({...c, records: historyRecords}, tours, manifest.updatedAt);
+  const events = historyEvents({...c, records: historyRecords}, tours, manifest.updatedAt, {includeRecoveredLeaders: true});
   const fragments = c.records.flatMap(r => (r.videoFragments || []).map(fragment => ({ record: r, ...fragment })));
   return (
     <>

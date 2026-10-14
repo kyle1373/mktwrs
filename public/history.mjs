@@ -111,9 +111,10 @@ export function courseStatistics(records, players) {
   };
 }
 
-export function historyEvents(course, tours, asOf) {
+export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = false } = {}) {
   const records = course.records.filter((r) =>
-    ["announced", "community-wr", "leaderboard-wr"].includes(r.status),
+    ["announced", "community-wr", "leaderboard-wr"].includes(r.status) ||
+    (includeRecoveredLeaders && r.recoveredLeaderEvidence?.reviewAudit && r.recoveredLeaderEvidence?.publishedAt),
   );
   const events = records.map((r) => ({
     type: "record",
