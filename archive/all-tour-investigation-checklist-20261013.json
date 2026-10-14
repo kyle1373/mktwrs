@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 105,
-      "candidate-and-source-review": 21,
+      "completed-with-documented-gaps": 106,
       "carry-in-and-sparse-history-check": 19,
+      "candidate-and-source-review": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 105,
-    "toursRequiringInvestigation": 76,
+    "practicallyCompletedTours": 106,
+    "toursRequiringInvestigation": 75,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -75,11 +75,11 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 5,
+        "requiringInvestigation": 4,
         "categories": {
-          "completed-with-documented-gaps": 21,
-          "candidate-and-source-review": 2,
-          "carry-in-and-sparse-history-check": 3
+          "completed-with-documented-gaps": 22,
+          "carry-in-and-sparse-history-check": 3,
+          "candidate-and-source-review": 1
         }
       },
       "2024": {
@@ -5559,7 +5559,7 @@
           "firstAppearance": false,
           "wrRows": 1,
           "supportingRows": 27,
-          "pendingCandidates": 1,
+          "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1042968893146284035",
             "playerId": "wins",
@@ -5569,11 +5569,10 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 8,
+          "publicSupportingRows": 27
         },
         {
           "courseId": "los-angeles-laps-3",
@@ -5592,13 +5591,30 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 7,
+          "publicSupportingRows": 16
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/autumn2023-completion.json",
+      "documentedLimitations": [
+        "Existing kuRi73.41 WR retained and dated to earliest original Nov3 post; cancelled earliest receipt and byte-identical corrected repost do not erase source publication.",
+        "Two opening-day kuRi results retained as evidence; only final fastest73.54 shown in opening-day support, both slower than carried Wins73.46. No opening-day WR credit.",
+        "Ryo ten sources use accepted receipt association with existingryo; no account merge or WR credit.",
+        "Recovered Sucha original shows73.42 and contradicts73.41 receipt; candidate resolved as input error and preserved separately, no WR tie credit. Simon original JPG result74.32 freshly checked; old proxy preserved separately.",
+        "LA3 carried Sucha78.78 WR and movie retained; best reviewed2023 result78.80 is slower.",
+        "Movie publication clocks remain separate from human submission/share. Only Sucha first saved human share is known; edited receipts do not prove missing video-share clocks.",
+        "Previous bests and device dates are not invented submissions; worldwide exhaustive capture and fresh uninterrupted-race certification remain unproved.",
+        "All48 indexed originals and3 current-tour movies preserved and R2-verified;2 images are late Halloween posts and1 is a byte-identical repost.",
+        "Two previously unavailable original uploads recovered and freshly checked; the earlier Simon proxy remains separately labelled.",
+        "Two prior carried WR movies preserved and R2-verified."
+      ],
+      "latestCompletionAudit": "archive/autumn2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-109",
@@ -11329,9 +11345,9 @@
     "passed": true
   },
   "activeDetailedReview": "tour-108",
-  "latestCompletionAudit": "archive/halloween2023-surviving-source-review-decision-20261014.json",
+  "latestCompletionAudit": "archive/autumn2023-surviving-source-review-decision-20261014.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00",
-  "nextPriorityTourId": "tour-108",
-  "nextPriorityReason": "Halloween 2023 review and live publication verified; continue Autumn 2023 alone.",
+  "nextPriorityTourId": "tour-109",
+  "nextPriorityReason": "Activate only after Autumn2023 LIVE verification.",
   "latestLiveCompletionAudit": "archive/halloween2023-live-publication-verification-20261014.json"
 }
