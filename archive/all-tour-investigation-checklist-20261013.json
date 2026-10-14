@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 99,
-      "candidate-and-source-review": 25,
+      "completed-with-documented-gaps": 100,
       "debut-history-gap": 1,
+      "candidate-and-source-review": 24,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 99,
-    "toursRequiringInvestigation": 82,
+    "practicallyCompletedTours": 100,
+    "toursRequiringInvestigation": 81,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -76,11 +76,11 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 11,
+        "requiringInvestigation": 10,
         "categories": {
-          "completed-with-documented-gaps": 15,
-          "candidate-and-source-review": 6,
+          "completed-with-documented-gaps": 16,
           "debut-history-gap": 1,
+          "candidate-and-source-review": 5,
           "carry-in-and-sparse-history-check": 4
         }
       },
@@ -5127,58 +5127,73 @@
           "course": "Athens Dash",
           "url": "https://mktwrs.com/course/athens-dash",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 9,
           "supportingRows": 45,
-          "pendingCandidates": 7,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 10,
+          "publicSupportingRows": 21
         },
         {
           "courseId": "athens-dash-2r",
           "course": "Athens Dash 2R",
           "url": "https://mktwrs.com/course/athens-dash-2r",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 7,
           "supportingRows": 63,
-          "pendingCandidates": 7,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 13,
+          "publicSupportingRows": 33
         },
         {
           "courseId": "squeaky-clean-sprint",
           "course": "Squeaky Clean Sprint",
           "url": "https://mktwrs.com/course/squeaky-clean-sprint",
           "firstAppearance": true,
-          "wrRows": 2,
+          "wrRows": 9,
           "supportingRows": 169,
-          "pendingCandidates": 11,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 13,
+          "publicSupportingRows": 76
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/vacation2023-completion.json",
+      "documentedLimitations": [
+        "Bounded surviving sources; worldwide completeness remains unproved.",
+        "Four result sources have no recoverable account identity and receive no WR credit.",
+        "Two unavailable cancelled receipts remain evidence gaps, with no independent WR claim.",
+        "Source account Rόmάίή receives one account-based supporting identity, without a speculative old-profile merge.",
+        "Source posting date is the default submission/archive date; earlier original video publication retained separately.",
+        "Original movies have sampled total/lap review, not uninterrupted-race certification.",
+        "No same-tour Athens Dash2R movie found in the bounded sources.",
+        "Full source preservation includes174originals and4movies;173images concern this tour andonelateDaisy original belongs to priorSunshine.",
+        "Twenty-five leader/tie entries reconstructed from surviving posting order; earlier first-day submissions remain raw without transient WR/profile credit.",
+        "Litchi finaltie uses independent source/account proof datedAugust22; Phillish movie is not footage of Litchi.",
+        "Two2024candidates are retained with existing status; no later tour completion claim.",
+        "349bounded savedrows account for329image-linked rows and20additionalcontext/conversation rows; deleted/private/external history may remain absent."
+      ],
+      "latestCompletionAudit": "archive/vacation2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-103",
@@ -11236,9 +11251,9 @@
     "passed": true
   },
   "activeDetailedReview": "tour-102",
-  "latestCompletionAudit": "archive/sunshine2023-surviving-source-review-decision-20261014.json",
+  "latestCompletionAudit": "archive/vacation2023-surviving-source-review-decision-20261014.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00",
-  "nextPriorityTourId": "tour-102",
-  "nextPriorityReason": "Sunshine Tour 2023 review and live publication verified; continue Vacation Tour 2023 alone.",
+  "nextPriorityTourId": "tour-103",
+  "nextPriorityReason": "Activate only after Vacation2023 LIVE verification.",
   "latestLiveCompletionAudit": "archive/sunshine2023-live-publication-verification-20261014.json"
 }
