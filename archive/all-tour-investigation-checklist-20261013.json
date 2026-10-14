@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 93,
-      "source-and-publication-review": 37,
+      "completed-with-documented-gaps": 94,
       "candidate-and-source-review": 29,
       "debut-history-gap": 2,
-      "carry-in-and-sparse-history-check": 20
+      "carry-in-and-sparse-history-check": 20,
+      "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 93,
-    "toursRequiringInvestigation": 88,
+    "practicallyCompletedTours": 94,
+    "toursRequiringInvestigation": 87,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -55,10 +55,9 @@
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 1,
+        "requiringInvestigation": 0,
         "categories": {
-          "completed-with-documented-gaps": 26,
-          "source-and-publication-review": 1
+          "completed-with-documented-gaps": 27
         }
       },
       "2021": {
@@ -667,17 +666,15 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Reconcile recovered Yoshi Circuit R leaders in original publication order, using final fastest recovered opening-day result only.",
-            "Recover good-enough original result or source evidence and known submission/share clocks; preserve final unknown chronology honestly.",
-            "Expose dated progression in the WR history; distinguish slower supporting results from true leaders.",
-            "Reassess both Hammer Bro courses before replacing completion status, then build and verify live."
+            "Surviving-source review resolved; retain documented gaps and reopen only for material new evidence."
           ],
           "renderedSupportingRows": 26,
           "renderedRecoveredLeaderRows": 2,
           "recoveredProgressionEvidence": "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json",
           "historyComplete": false,
           "practicalReviewComplete": false,
-          "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json"
+          "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
+          "renderedHistoryEntries": 3
         },
         {
           "courseId": "gcn-yoshi-circuit-r",
@@ -691,26 +688,33 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Reconcile recovered Yoshi Circuit R leaders in original publication order, using final fastest recovered opening-day result only.",
-            "Recover good-enough original result or source evidence and known submission/share clocks; preserve final unknown chronology honestly.",
-            "Expose dated progression in the WR history; distinguish slower supporting results from true leaders.",
-            "Reassess both Hammer Bro courses before replacing completion status, then build and verify live."
+            "Surviving-source review resolved; retain documented gaps and reopen only for material new evidence."
           ],
           "renderedSupportingRows": 26,
           "renderedRecoveredLeaderRows": 4,
           "recoveredProgressionEvidence": "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json",
           "historyComplete": false,
           "practicalReviewComplete": false,
-          "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json"
+          "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
+          "renderedHistoryEntries": 5
         }
       ],
-      "category": "source-and-publication-review",
-      "practicalReviewComplete": false,
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
       "completionEvidence": "/data/hammer2020-completion.json",
       "note": "Practical review complete with documented source coverage and opening-order gaps;91 live rows and57 preserved evidence links verified.",
       "historyComplete": false,
       "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
-      "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json"
+      "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
+      "documentedLimitations": [
+        "No surviving Yoshi opening-day result was recovered. No opening leader is invented.",
+        "Six recovered leaders have surviving reports, images or movies; their worldwide WR precedence is unconfirmed. They remain labelled and receive no confirmed-WR/profile credit.",
+        "The final announced Yoshi 1:31.31 has only a retrospective tour date; its original image is unavailable. Frappe 1:21.98 has a March 26 report date, but its final image is unverified.",
+        "The reported closest Yoshi recording is 1:31.33; its original video is unavailable. The fastest preserved available movie is 1:31.74.",
+        "One further historical repost is unavailable; rejected Photoshop and unresolved Birdo variant are excluded.",
+        "Matching original hashes retain prior image/movie assessments. Complete movie continuity and deleted/private/global source completeness are not certified."
+      ],
+      "latestCompletionAudit": "archive/hammer2020-reopened-surviving-source-review-decision-20261014.json"
     },
     {
       "id": "tour-15",
@@ -3636,7 +3640,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/bangkok2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-74",
@@ -3670,7 +3675,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/piranha2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-75",
@@ -3706,7 +3712,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/ocean2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-76",
@@ -3762,7 +3769,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/sundae2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-77",
@@ -3813,7 +3821,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/bowser2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-78",
@@ -3891,7 +3900,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/marioluigi2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-79",
@@ -3947,7 +3957,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/anniversary2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-80",
@@ -4002,7 +4013,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/battle2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-81",
@@ -4030,7 +4042,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/halloween2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-82",
@@ -4074,7 +4087,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/autumn2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-83",
@@ -4123,7 +4137,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/animal2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-84",
@@ -4199,7 +4214,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/peachbowser2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-85",
@@ -4243,7 +4259,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/holiday2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-86",
@@ -4287,7 +4304,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/newyear2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-87",
@@ -4336,7 +4354,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/space2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-88",
@@ -4401,7 +4420,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/winter2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-89",
@@ -4445,7 +4465,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/exploration2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-90",
@@ -4494,7 +4515,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/doctor2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-91",
@@ -4538,7 +4560,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/mario2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-92",
@@ -4587,7 +4610,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/ninja2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-93",
@@ -4641,7 +4665,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/yoshi2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-94",
@@ -4690,7 +4715,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/spring2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-95",
@@ -4739,7 +4765,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/bowser2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-96",
@@ -4788,7 +4815,8 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/mii2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true
     },
     {
       "id": "tour-97",
@@ -11152,8 +11180,8 @@
     "passed": true
   },
   "activeDetailedReview": "tour-14",
-  "latestCompletionAudit": "archive/mii2023-completion-label-live-check-20261014.json",
+  "latestCompletionAudit": "archive/hammer2020-reopened-surviving-source-review-decision-20261014.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00",
-  "nextPriorityTourId": "tour-14",
-  "nextPriorityReason": "User-requested Yoshi Circuit R progression review"
+  "nextPriorityTourId": "tour-97",
+  "nextPriorityReason": "Activate after Hammer final-reference and review-label LIVE verification."
 }

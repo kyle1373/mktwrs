@@ -36,49 +36,79 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 78,
-      "source-and-publication-review": 36,
-      "sparse-history-review": 1,
+      "completed-with-documented-gaps": 94,
+      "candidate-and-source-review": 29,
+      "debut-history-gap": 2,
       "carry-in-and-sparse-history-check": 20,
-      "candidate-and-source-review": 38,
-      "data-quality-and-history-check": 0,
-      "faster-result-reconciliation": 4,
-      "debut-history-gap": 4
+      "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 78,
-    "toursRequiringInvestigation": 103,
+    "practicallyCompletedTours": 94,
+    "toursRequiringInvestigation": 87,
     "years": {
       "2019": {
         "catalogTours": 7,
-        "requiringInvestigation": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "not-applicable": 2,
+          "completed-with-documented-gaps": 5
+        }
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 27
+        }
       },
       "2021": {
         "catalogTours": 26,
-        "requiringInvestigation": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 26
+        }
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 6
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 26
+        }
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 26
+        "requiringInvestigation": 16,
+        "categories": {
+          "completed-with-documented-gaps": 10,
+          "candidate-and-source-review": 10,
+          "debut-history-gap": 2,
+          "carry-in-and-sparse-history-check": 4
+        }
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 26
+        "requiringInvestigation": 26,
+        "categories": {
+          "carry-in-and-sparse-history-check": 11,
+          "candidate-and-source-review": 11,
+          "source-and-publication-review": 4
+        }
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 26
+        "requiringInvestigation": 26,
+        "categories": {
+          "source-and-publication-review": 25,
+          "candidate-and-source-review": 1
+        }
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 19
+        "requiringInvestigation": 19,
+        "categories": {
+          "source-and-publication-review": 7,
+          "candidate-and-source-review": 7,
+          "carry-in-and-sparse-history-check": 5
+        }
       }
     }
   },
@@ -625,8 +655,9 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
-          ]
+            "Surviving-source review resolved; retain documented gaps and reopen only for material new evidence."
+          ],
+          "renderedHistoryEntries": 3
         },
         {
           "courseId": "gcn-yoshi-circuit-r",
@@ -640,14 +671,24 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "No outstanding practical-review task; retain documented gaps and reopen for material new evidence."
-          ]
+            "Surviving-source review resolved; retain documented gaps and reopen only for material new evidence."
+          ],
+          "renderedHistoryEntries": 5
         }
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
       "completionEvidence": "/data/hammer2020-completion.json",
-      "note": "Practical review complete with documented source coverage and opening-order gaps;91 live rows and57 preserved evidence links verified."
+      "note": "Practical review complete with documented source coverage and opening-order gaps;91 live rows and57 preserved evidence links verified.",
+      "documentedLimitations": [
+        "No surviving Yoshi opening-day result was recovered. No opening leader is invented.",
+        "Six recovered leaders have surviving reports, images or movies; their worldwide WR precedence is unconfirmed. They remain labelled and receive no confirmed-WR/profile credit.",
+        "The final announced Yoshi 1:31.31 has only a retrospective tour date; its original image is unavailable. Frappe 1:21.98 has a March 26 report date, but its final image is unverified.",
+        "The reported closest Yoshi recording is 1:31.33; its original video is unavailable. The fastest preserved available movie is 1:31.74.",
+        "One further historical repost is unavailable; rejected Photoshop and unresolved Birdo variant are excluded.",
+        "Matching original hashes retain prior image/movie assessments. Complete movie continuity and deleted/private/global source completeness are not certified."
+      ],
+      "latestCompletionAudit": "archive/hammer2020-reopened-surviving-source-review-decision-20261014.json"
     },
     {
       "id": "tour-15",
@@ -3054,7 +3095,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/mii2022-completion.json",
+      "completionEvidence": "/data/mii2022-completion.json",
       "documentedLimitations": [
         "Nu111:18.84 previous best establishes an earlier result but has no independently established date/global position; retained outside confirmed WR succession.",
         "Opening posts that label slower times WR do not override the standing all-time records. Opening global order and deleted/unindexed sources remain unproved.",
@@ -3110,7 +3151,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/samurai2022-completion.json",
+      "completionEvidence": "/data/samurai2022-completion.json",
       "documentedLimitations": [
         "Six visible previous-best runs lack independently established dates or competing-record order; retained outside confirmed WR succession.",
         "Three slower Vanilla Lake leaderboard entries have identity/original-source gaps; retained as supporting leads, not new WRs.",
@@ -3163,7 +3204,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/yoshi2022-completion.json",
+      "completionEvidence": "/data/yoshi2022-completion.json",
       "documentedLimitations": [
         "Eleven visible previous-best date/order leads remain outside confirmed WR succession; N and Nu11 are separate players.",
         "One deleted bot-query attachment reported Sky Garden1:02.68. Independently reviewed correction and later standings establish1:04.68; the erroneous query is excluded from WR evidence.",
@@ -3219,7 +3260,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/amsterdam2022-completion.json",
+      "completionEvidence": "/data/amsterdam2022-completion.json",
       "documentedLimitations": [
         "Four previous-best date/order leads remain outside confirmed WR succession.",
         "Four original attachments remain unavailable: two have preserved replacement images/videos; Nu111:21.52 uses a cancelled receipt and later previous-best corroboration; Promis1:24.75 is slower supporting evidence.",
@@ -3286,7 +3327,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/doctor2022-completion.json",
+      "completionEvidence": "/data/doctor2022-completion.json",
       "documentedLimitations": [
         "Four undated previous-best leads remain outside confirmed WR succession; original global opening ordering is not certified.",
         "One unavailable cancelled attachment represents a separate malformed 0:01.12 receipt corrected to 1:12.10; the surviving GangstaTiger image establishes 1:12.39 for its different malformed receipt.",
@@ -3347,7 +3388,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/peachbowsermay2022-completion.json",
+      "completionEvidence": "/data/peachbowsermay2022-completion.json",
       "documentedLimitations": [
         "Four Wins KoopaBeach improvements1:15.31/1:15.24/1:15.19/1:15.11 retain surviving proof outside certified WR succession. HisMay27second-worldwide claim leaves earlier rival/global precedence unresolved.",
         "Fabi1:11.57/1:16.05 retain contemporary leaderboard/workbook sources; individual original/account not recovered. Slower supporting source gaps remain documented.",
@@ -3403,7 +3444,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/cat2022-completion.json",
+      "completionEvidence": "/data/cat2022-completion.json",
       "documentedLimitations": [
         "Nu11 final Yoshi Valley1:30.07 is documented by the preserved June21 final standings and WR announcement. Individual run image/recording, achievement date and lap splits remain unavailable. Sucha1:30.18 is shown separately as the fastest documented available recording.",
         "Saki7 linked1:30.32 video returned unavailable during original-format recovery. Existing image/leaderboard proof retained; this is an access result, not permanent or worldwide footage-absence proof.",
@@ -3453,7 +3494,7 @@
       ],
       "category": "completed-with-documented-gaps",
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/metropolitan2022-completion.json",
+      "completionEvidence": "/data/metropolitan2022-completion.json",
       "documentedLimitations": [
         "SuperFX finalBerlin1:14.54 accepted from the Metropolitan WR announcement and original result. June29submission13:19 is after06:00rollover; exact achievement day remains unknown and no dated reign duration is claimed.",
         "NHSpeedyBerlin1:14.69 is faster than contemporaneousSucha1:14.83 but private/global precedence against SuperFXpreviousbest1:14.71 remains unresolved. It is supporting evidence and selected available recording, not promoted to confirmed WR.",
@@ -3885,7 +3926,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/halloween2022-completion.json"
     },
     {
       "id": "tour-82",
@@ -3930,7 +3973,9 @@
           ]
         }
       ],
-      "category": "sparse-history-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/autumn2022-completion.json"
     },
     {
       "id": "tour-83",
@@ -3979,7 +4024,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/animal2022-completion.json"
     },
     {
       "id": "tour-84",
@@ -4059,7 +4106,9 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/peachbowser2022-completion.json"
     },
     {
       "id": "tour-85",
@@ -4103,7 +4152,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/holiday2022-completion.json"
     },
     {
       "id": "tour-86",
@@ -4151,7 +4202,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/newyear2023-completion.json"
     },
     {
       "id": "tour-87",
@@ -4231,7 +4284,9 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/space2023-completion.json"
     },
     {
       "id": "tour-88",
@@ -4299,7 +4354,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/winter2023-completion.json"
     },
     {
       "id": "tour-89",
@@ -4351,7 +4408,9 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/exploration2023-completion.json"
     },
     {
       "id": "tour-90",
@@ -4401,7 +4460,9 @@
           ]
         }
       ],
-      "category": "debut-history-gap"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/doctor2023-completion.json"
     },
     {
       "id": "tour-91",
@@ -4448,7 +4509,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/mario2023-completion.json"
     },
     {
       "id": "tour-92",
@@ -4555,7 +4618,9 @@
           ]
         }
       ],
-      "category": "faster-result-reconciliation"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/ninja2023-completion.json"
     },
     {
       "id": "tour-93",
@@ -4611,7 +4676,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/yoshi2023-completion.json"
     },
     {
       "id": "tour-94",
@@ -4663,7 +4730,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/spring2023-completion.json"
     },
     {
       "id": "tour-95",
@@ -4713,7 +4782,9 @@
           ]
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/bowser2023-completion.json"
     },
     {
       "id": "tour-96",
@@ -4763,7 +4834,9 @@
           ]
         }
       ],
-      "category": "debut-history-gap"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/mii2023-completion.json"
     },
     {
       "id": "tour-97",
@@ -11120,7 +11193,9 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-77",
-  "activeDetailedReview": "tour-77",
-  "latestCompletionAudit": "archive/battle2022-final-practical-publication-audit-20261013.json"
+  "activeDetailedTourId": "tour-14",
+  "activeDetailedReview": "tour-14",
+  "latestCompletionAudit": "archive/hammer2020-reopened-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-97",
+  "nextPriorityReason": "Activate after Hammer final-reference and review-label LIVE verification."
 }
