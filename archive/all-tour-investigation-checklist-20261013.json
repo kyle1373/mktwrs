@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 102,
-      "candidate-and-source-review": 23,
+      "completed-with-documented-gaps": 103,
+      "candidate-and-source-review": 22,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 102,
-    "toursRequiringInvestigation": 79,
+    "practicallyCompletedTours": 103,
+    "toursRequiringInvestigation": 78,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -75,10 +75,10 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 8,
+        "requiringInvestigation": 7,
         "categories": {
-          "completed-with-documented-gaps": 18,
-          "candidate-and-source-review": 4,
+          "completed-with-documented-gaps": 19,
+          "candidate-and-source-review": 3,
           "carry-in-and-sparse-history-check": 4
         }
       },
@@ -5356,60 +5356,73 @@
           "course": "Athens Dash 3",
           "url": "https://mktwrs.com/course/athens-dash-3",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 6,
           "supportingRows": 38,
-          "pendingCandidates": 8,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 8,
+          "publicSupportingRows": 28
         },
         {
           "courseId": "madrid-drive-3",
           "course": "Madrid Drive 3",
           "url": "https://mktwrs.com/course/madrid-drive-3",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 6,
           "supportingRows": 21,
-          "pendingCandidates": 11,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 9,
+          "publicSupportingRows": 27
         },
         {
           "courseId": "rome-avanti-3",
           "course": "Rome Avanti 3",
           "url": "https://mktwrs.com/course/rome-avanti-3",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 3,
           "supportingRows": 15,
-          "pendingCandidates": 1,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 8,
+          "publicSupportingRows": 15
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/anniversary2023-completion.json",
+      "documentedLimitations": [
+        "Worldwide exhaustive history remains unproved; bounded sources reviewed under good-enough-proof standard.",
+        "Two cancelled original attachments remain unavailable; six available cancelled proofs receive no WR promotion.",
+        "Six late Sundae images are preserved separately.",
+        "DIT final1:11.73 movie is unavailable; Sucha1:11.77 is the fastest documented available Athens movie.",
+        "Remon movie title1:20.28 differs from recorded1:20.29. Movie first lap40.16 differs from screenshot caption40.18; evidence sources and clocks remain distinct.",
+        "Ryo supporting images use source name/accepted receipt association; no account merge or new WR credit.",
+        "Prior exact-SHA result/lap frame assessments retained; two additional movies freshly frame-reviewed. No uninterrupted-race certification.",
+        "Two cancelled originals remain unavailable; bounded receipt evidence and documented recovery attempts are retained.",
+        "DIT1:11.73 final Athens movie is unavailable; Sucha1:11.77 is the fastest documented available recording. kuRi1:17.69 is the fastest documented available Rome recording, slower than Fireball1:17.27 WR.",
+        "110 preserved source images and twelve movies are on R2; six images are late Sundae evidence. Eleven movies show completed results; one is a lap technique. No exhaustive full-race continuity certification is asserted.",
+        "No opening-day September20 Rome result survives in the reviewed sources. Remon Madrid movie finishes1:20.29 despite its1:20.28 title; different movie and screenshot-caption splits remain separately documented.",
+        "Existing later-tour records remain retained; this review does not close later tours."
+      ],
+      "latestCompletionAudit": "archive/anniversary2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-106",
@@ -11283,9 +11296,9 @@
     "passed": true
   },
   "activeDetailedReview": "tour-105",
-  "latestCompletionAudit": "archive/sundae2023-surviving-source-review-decision-20261014.json",
+  "latestCompletionAudit": "archive/anniversary2023-surviving-source-review-decision-20261014.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00",
-  "nextPriorityTourId": "tour-105",
-  "nextPriorityReason": "Sundae 2023 review and live publication verified; continue Anniversary 2023 alone.",
+  "nextPriorityTourId": "tour-106",
+  "nextPriorityReason": "Activate only after Anniversary2023 LIVE verification.",
   "latestLiveCompletionAudit": "archive/sundae2023-live-publication-verification-20261014.json"
 }
