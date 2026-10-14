@@ -60,7 +60,8 @@
     "archive/hammer2020-surviving-source-wr-status-adjudication-20261014.json",
     "archive/hammer2020-posted-dates-original-proofs-production-build-check-20261014.json",
     "archive/hammer2020-posted-submission-date-policy-20261014.json",
-    "archive/hammer2020-full-original-proof-isolated-generation-check-20261014.json"
+    "archive/hammer2020-full-original-proof-isolated-generation-check-20261014.json",
+    "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json"
   ],
   "coverage": {
     "priorServerImageSearchMessages": 562,
@@ -83,16 +84,16 @@
     "Two selected recordings freshly sampled and decoded; uninterrupted-race continuity not certified. Two slower originals preserved on R2 with prior reviews retained."
   ],
   "validation": {
-    "productionBuildPages": 891,
-    "liveSnapshotRows": 91,
+    "productionBuildPages": 892,
+    "liveSnapshotRows": 95,
     "livePublicationDifferences": 0,
-    "renderedPreservedEvidenceLinksReadable": 57,
+    "renderedPreservedEvidenceLinksReadable": 59,
     "freshSelectedRecordingReviews": 2,
     "finalResultImagesVerified": 0,
     "finalRunnerSummaryTextVerified": 0,
     "openingWrGlobalLeaderCertified": false,
     "priorPublicationChecksRetained": true,
-    "latestRecoveredProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json"
+    "latestRecoveredProgressionLiveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json"
   },
   "nextTourId": "tour-15",
   "practicalReviewComplete": false,
@@ -113,7 +114,7 @@
   "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
   "reopeningReason": "User rejects final-only WR history as unfinished; earlier recovered leaders need chronology reconciliation.",
   "recoveredLeaderProgression": {
-    "status": "built-awaiting-live-verification",
+    "status": "source-adjudicated-original-proofs-live-verified",
     "sourceReview": "archive/hammer2020-recovered-leader-progression-source-review-20261014.json",
     "buildEvidence": "archive/hammer2020-posted-dates-original-proofs-production-build-check-20261014.json",
     "courses": {
@@ -179,8 +180,8 @@
       "gcn-yoshi-circuit-r": "1:31.74",
       "n64-frappe-snowland": "1:22.14"
     },
-    "liveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
-    "livePublicationVerified": false,
+    "liveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json",
+    "livePublicationVerified": true,
     "openingDayFinalOnly": true,
     "wrStatusAdjudication": "archive/hammer2020-surviving-source-wr-status-adjudication-20261014.json"
   },
@@ -196,12 +197,16 @@
     "knownUnavailableRepost": 1,
     "storedContentDigestsMatched": 58,
     "publishedProofRows": 84,
-    "publicationBuildEvidence": "archive/hammer2020-posted-dates-original-proofs-production-build-check-20261014.json"
+    "publicationBuildEvidence": "archive/hammer2020-posted-dates-original-proofs-production-build-check-20261014.json",
+    "livePublicationVerified": true,
+    "liveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json"
   },
   "submissionDatePolicy": {
     "evidence": "archive/hammer2020-posted-submission-date-policy-20261014.json",
     "policy": "Source posting date is the default submission date unless evidence establishes another date.",
     "retrospectiveYoshiFinalUsesTourRange": true,
-    "frappeFinalSubmissionDate": "2020-03-26"
+    "frappeFinalSubmissionDate": "2020-03-26",
+    "liveVerified": true,
+    "liveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json"
   }
 }
