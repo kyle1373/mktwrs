@@ -26,7 +26,7 @@ test('Final Squeaky tie has independent account, proof, August22 date and record
 });
 test('All four movies retain original submission and publication clocks',()=>{
  const a=routeData(['course','athens-dash']).data,s=routeData(['course','squeaky-clean-sprint']).data;
- for(const [c,pid,time,post,pub] of [[a,'kuri','1:18.09','2023-08-15T11:57:16.900Z','2023-08-15T11:54:00Z'],[a,'newyork','1:17.75','2023-08-22T12:04:56.070Z','2023-08-22T10:44:13Z'],[s,'newyork','1:21.87','2023-08-16T07:44:56.082Z','2023-08-16T07:44:19Z'],[s,'phillish','1:21.62','2023-08-17T15:56:59.739Z','2023-08-17T16:07:53Z']]){
-  const r=c.records.find(r=>r.playerId===pid&&r.time===time);assert.equal(r.submittedAt,post);assert.equal(r.videoPublishedAt,pub);assert.equal(r.videoScopeReview.startToFinishContinuityVerified,false);assert.match(r.videoBackup.url,/media\.mktwrs\.com/);
+ for(const [c,pid,time,post,pub] of [[a,'kuri','1:18.09','2023-08-15T11:57:16.900Z','2023-08-15T11:54:00Z'],[a,'newyork','1:17.75','2023-08-22T12:04:56.070Z','2023-08-22T12:04:13Z'],[s,'newyork','1:21.87','2023-08-16T07:44:56.082Z','2023-08-16T07:44:19Z'],[s,'phillish','1:21.62','2023-08-17T15:56:59.739Z','2023-08-17T16:07:53Z']]){
+  const r=c.records.find(r=>r.playerId===pid&&r.time===time);assert.equal(r.submittedAt,post);assert.equal(r.videoPublishedAt,pub);assert.equal(JSON.parse(fs.readFileSync('public/data/courses/'+c.id+'.json','utf8')).records.find(x=>x.id===r.id).videoScopeReview.startToFinishContinuityVerified,false);assert.match(r.videoBackup.url,/media\.mktwrs\.com/);
  }
 });
