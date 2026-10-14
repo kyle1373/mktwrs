@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 103,
-      "candidate-and-source-review": 22,
+      "completed-with-documented-gaps": 104,
       "carry-in-and-sparse-history-check": 20,
+      "candidate-and-source-review": 21,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 103,
-    "toursRequiringInvestigation": 78,
+    "practicallyCompletedTours": 104,
+    "toursRequiringInvestigation": 77,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -75,11 +75,11 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 7,
+        "requiringInvestigation": 6,
         "categories": {
-          "completed-with-documented-gaps": 19,
-          "candidate-and-source-review": 3,
-          "carry-in-and-sparse-history-check": 4
+          "completed-with-documented-gaps": 20,
+          "carry-in-and-sparse-history-check": 4,
+          "candidate-and-source-review": 2
         }
       },
       "2024": {
@@ -5469,10 +5469,10 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 33,
+          "publicSupportingRows": 11
         },
         {
           "courseId": "snes-donut-plains-2",
@@ -5481,7 +5481,7 @@
           "firstAppearance": false,
           "wrRows": 2,
           "supportingRows": 11,
-          "pendingCandidates": 1,
+          "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1032524579744251935",
             "playerId": "nu11",
@@ -5491,15 +5491,29 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Preserve surviving Discord proof images on R2."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 6,
+          "publicSupportingRows": 11
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/battle2023-completion.json",
+      "documentedLimitations": [
+        "No October4 opening-day result survives in this bounded review; slower later submissions do not beat carried-in WRs.",
+        "Nu11 prior0:49.31 movie is the fastest dated documented available DP1R recording by this tour; Hilton0:49.15 has no movie link in surviving reviewed evidence. Undated/later49.28 source is not assigned to2023.",
+        "Ryo sources use source name and accepted receipt association with existingryo; no account merge or WR credit.",
+        "Cup-menu best images remain distinct from completed result proof; previous best values are not invented submissions.",
+        "Worldwide exhaustive capture and fresh uninterrupted-race certification remain unproved.",
+        "Existing intermediate WR ID retained separately from its duplicate Discord receipt; canonical raw result retains its stable ID.",
+        "26 indexed source images and3 Battle original movies are preserved and R2-verified; one image is a late Anniversary repost and one is an excluded slow result.",
+        "The earlier Nu110:49.31 original movie is also preserved for comparison with carried Hilton0:49.15 WR.",
+        "Prior exact-SHA image/movie assessment remains provenance; newly recovered Shine screenshot has OCR/source/receipt corroboration, not a fresh visual certification."
+      ],
+      "latestCompletionAudit": "archive/battle2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-107",
@@ -11312,8 +11326,8 @@
   ],
   "activeDetailedTourId": "tour-106",
   "activeDetailedReview": "tour-106",
-  "latestCompletionAudit": "archive/anniversary2023-surviving-source-review-decision-20261014.json",
-  "nextPriorityTourId": "tour-106",
-  "nextPriorityReason": "Anniversary 2023 review and live publication verified; continue Battle 2023 alone.",
+  "latestCompletionAudit": "archive/battle2023-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-107",
+  "nextPriorityReason": "Activate only after Battle2023 LIVE verification.",
   "latestLiveCompletionAudit": "archive/anniversary2023-live-publication-verification-20261014.json"
 }
