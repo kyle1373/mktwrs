@@ -1,0 +1,76 @@
+{
+  "tourId": "tour-87",
+  "historyComplete": false,
+  "materialRowsRepaired": 3,
+  "rows": [
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "records",
+      "id": "1068224700599255101",
+      "time": "1:11.78",
+      "playerId": "player-e38199e38184e3819df09f90ba",
+      "fields": [
+        "proofFrame",
+        "proofField",
+        "notes"
+      ],
+      "set": {
+        "proofFrame": {
+          "originalVideo": "https://www.youtube.com/watch?v=7SZWl2HgFug",
+          "offsetSeconds": 83,
+          "sourceFile": "archive/video-backup-files/sucha-recovered/7SZWl2HgFug/original.mp4",
+          "sourceSha256": "c704d02c7147b14210432694f84a62ce185f5e8840ba19c81001807693616c2d"
+        },
+        "proofField": "video-finish-frame",
+        "notes": [
+          "Achievement date and intermediate progression require submission reconciliation.",
+          "Player-supplied Sucha playlist: course, first-lap crossing, and final time visually verified from the preserved video. Lap 2 calculated as total minus lap 1.",
+          "2026-10-04 preserved original video finish directly visually inspected as1:11.78. Local image proof is a frame from that recording, not a separately submitted screenshot. Exact source publication retained; no duplicate WR intended."
+        ]
+      },
+      "unset": []
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "records",
+      "id": "curated-1067119118593052672-space2023-video-submission-reviewed",
+      "time": "1:11.83",
+      "playerId": "player-e38199e38184e3819df09f90ba",
+      "fields": [
+        "durationBasis",
+        "lapMatchBasis",
+        "lapSource",
+        "announcedAt",
+        "additionalSources",
+        "tourLabel",
+        "dateBasis"
+      ],
+      "set": {
+        "dateBasis": "accepted-original-video-submission-in-recovered-chronology"
+      },
+      "unset": [
+        "durationBasis",
+        "lapMatchBasis",
+        "lapSource",
+        "announcedAt",
+        "additionalSources",
+        "tourLabel"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1066595883178795078-space2023-proof-reviewed",
+      "time": "1:12.32",
+      "playerId": "tactical",
+      "fields": [
+        "additionalSources"
+      ],
+      "set": {},
+      "unset": [
+        "additionalSources"
+      ]
+    }
+  ],
+  "method": "Durably retain prior frame provenance, reviewed source joins and new WR date basis across generator reconstruction."
+}
