@@ -23,7 +23,7 @@
     "Categories are investigation leads. No original Discord source reconstruction of other tours is claimed."
   ],
   "policy": [
-    "One tour at a time. Mii2023 remains active; reopened Hammer Bro2020 is next before Princess2023.",
+    "One tour at a time. Mii2023 completion prepared; verify LIVE before reopened Hammer Bro2020.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 92,
+      "completed-with-documented-gaps": 93,
       "source-and-publication-review": 37,
-      "debut-history-gap": 3,
       "candidate-and-source-review": 29,
+      "debut-history-gap": 2,
       "carry-in-and-sparse-history-check": 20
     },
-    "practicallyCompletedTours": 92,
-    "toursRequiringInvestigation": 89,
+    "practicallyCompletedTours": 93,
+    "toursRequiringInvestigation": 88,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -77,11 +77,11 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 17,
+        "requiringInvestigation": 16,
         "categories": {
-          "completed-with-documented-gaps": 9,
-          "debut-history-gap": 3,
+          "completed-with-documented-gaps": 10,
           "candidate-and-source-review": 10,
+          "debut-history-gap": 2,
           "carry-in-and-sparse-history-check": 4
         }
       },
@@ -4741,7 +4741,7 @@
           "course": "Wii Maple Treeway R",
           "url": "https://mktwrs.com/course/wii-maple-treeway-r",
           "firstAppearance": false,
-          "wrRows": 0,
+          "wrRows": 1,
           "supportingRows": 47,
           "pendingCandidates": 0,
           "carriedInWr": {
@@ -4753,31 +4753,30 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical surviving-source review completed with documented gaps; qualified final recording and separate lap examples preserved."
+          ],
+          "renderedSupportingRows": 46
         },
         {
           "courseId": "gcn-mushroom-bridge",
           "course": "GCN Mushroom Bridge",
           "url": "https://mktwrs.com/course/gcn-mushroom-bridge",
           "firstAppearance": true,
-          "wrRows": 0,
+          "wrRows": 6,
           "supportingRows": 91,
-          "pendingCandidates": 4,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Recover debut opening-day final leader, then later WR improvements; check reset-day attribution.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical surviving-source review completed with documented gaps; qualified final recording and separate lap examples preserved."
+          ],
+          "renderedSupportingRows": 73
         }
       ],
-      "category": "debut-history-gap"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/mii2023-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-97",
@@ -11141,7 +11140,7 @@
     "passed": true
   },
   "activeDetailedReview": "tour-96",
-  "latestCompletionAudit": "archive/bowser2023-completion-label-live-check-20261014.json",
+  "latestCompletionAudit": "public/data/mii2023-completion.json",
   "updatedAt": "2026-10-13T23:15:48.472931+00:00",
   "nextPriorityTourId": "tour-14",
   "nextPriorityReason": "User-requested Yoshi Circuit R progression review"
