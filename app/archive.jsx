@@ -145,7 +145,7 @@ function BackupProof({ r }) {
     aria-label={`Watch backup video for ${r.time}`}
     title={r.videoBackup.kind === "player-recovery"
       ? `Watch recovered video supplied by ${r.videoBackup.channel}`
-      : r.videoBackup.kind?.startsWith("r2-") ? "Watch preserved video" : `Watch ${r.videoBackup.visibility || "unlisted"} video backup on ${r.videoBackup.channel || "SuperFX64"}`}
+      : (r.videoBackup.url?.startsWith("https://media.mktwrs.com/") || r.videoBackup.kind?.startsWith("r2-")) ? "Watch preserved video" : `Watch ${r.videoBackup.visibility || "unlisted"} video backup on ${r.videoBackup.channel || "SuperFX64"}`}
   ><BackupIcon /></a> : null;
 }
 function Player({ id, players }) {
