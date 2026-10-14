@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 97,
-      "candidate-and-source-review": 27,
+      "completed-with-documented-gaps": 98,
+      "candidate-and-source-review": 26,
       "debut-history-gap": 1,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 97,
-    "toursRequiringInvestigation": 84,
+    "practicallyCompletedTours": 98,
+    "toursRequiringInvestigation": 83,
     "years": {
       "2019": {
         "tours": 7,
@@ -76,10 +76,10 @@
       },
       "2023": {
         "tours": 26,
-        "requiringInvestigation": 13,
+        "requiringInvestigation": 12,
         "categories": {
-          "completed-with-documented-gaps": 13,
-          "candidate-and-source-review": 8,
+          "completed-with-documented-gaps": 14,
+          "candidate-and-source-review": 7,
           "debut-history-gap": 1,
           "carry-in-and-sparse-history-check": 4
         }
@@ -5052,40 +5052,50 @@
           "course": "Wii Dry Dry Ruins",
           "url": "https://mktwrs.com/course/wii-dry-dry-ruins",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 6,
           "supportingRows": 53,
-          "pendingCandidates": 1,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "VerifyLIVEpublicationbeforeadvancing."
+          ],
+          "renderedHistoryEntries": 10,
+          "publicSupportingRows": 22
         },
         {
           "courseId": "piranha-plant-cove-2r",
           "course": "Piranha Plant Cove 2R",
           "url": "https://mktwrs.com/course/piranha-plant-cove-2r",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 8,
           "supportingRows": 23,
-          "pendingCandidates": 6,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "VerifyLIVEpublicationbeforeadvancing."
+          ],
+          "renderedHistoryEntries": 12,
+          "publicSupportingRows": 7
         }
       ],
-      "category": "candidate-and-source-review",
-      "practicalReviewComplete": false
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/pipe2023-completion.json",
+      "documentedLimitations": [
+        "The first newyork1:17.90 screenshot could not be recovered. Its accepted submission, matching later resubmission original and SHA-matched reviewed original movie provide surviving evidence.",
+        "Undated previous-best values remain preserved without invented dated WR entries.",
+        "The104saved source rows form a bounded surviving set; deleted/private sources and exhaustive worldwide history remain unproved.",
+        "Nine late originals concern Night Tour courses and are excluded from Pipe progression.",
+        "Three fresh sampled movie reviews and one SHA-matched prior review verify course, lap transition and final result; uninterrupted full-race continuity has not been certified. kuRi’s movie sample at51seconds is black.",
+        "Twenty-six duplicate curated originals merge into accepted submissions, including the documented kawa display alias correction. Later source submissions are retained without later tour completion claims."
+      ],
+      "latestCompletionAudit": "archive/pipe2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-101",
@@ -11335,8 +11345,8 @@
   "latestPracticalCompletionEvidence": "archive/winter2019-final-publication-audit-20261012.json",
   "activeDetailedTourId": "tour-100",
   "activeDetailedReview": "tour-100",
-  "latestCompletionAudit": "archive/night2023-surviving-source-review-decision-20261014.json",
-  "nextPriorityTourId": "tour-100",
-  "nextPriorityReason": "Night Tour 2023 review and live publication verified; continue Pipe Tour 2023 alone.",
+  "latestCompletionAudit": "archive/pipe2023-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-101",
+  "nextPriorityReason": "ActivateonlyafterPipe2023LIVEverification.",
   "latestLiveCompletionAudit": "archive/night2023-live-publication-verification-20261014.json"
 }
