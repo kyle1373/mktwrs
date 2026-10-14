@@ -824,6 +824,12 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.winter2023SupportingResults} players={players} tourLabel="Winter Tour (2023)" />
       <HalloweenRecording comparison={c.exploration2023Recording} players={players} tourLabel="Exploration Tour (2023)" completed={c.exploration2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.exploration2023SupportingResults} players={players} tourLabel="Exploration Tour (2023)" />
+      <HalloweenRecording comparison={c.doctor2023Recording} players={players} tourLabel="Doctor Tour (2023)" completed={c.doctor2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.doctor2023SupportingResults} players={players} tourLabel="Doctor Tour (2023)" />
+      {!!c.doctor2023PartialRecordings?.length && <section className="fastest-video">
+        <h2>Doctor Tour (2023) partial recordings</h2>
+        {c.doctor2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}
+      </section>}
       {!!c.exploration2023PartialRecordings?.length && <section className="fastest-video">
         <h2>Exploration Tour (2023) partial recordings</h2>
         {c.exploration2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}
