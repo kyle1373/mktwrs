@@ -26,7 +26,9 @@ function RecordDate({ r }) {
   return (
     <span
       title={
-        r.dateBasis === "first-screenshot-publication"
+        r.dateBasis === "recovered-source-publication"
+          ? "Recovered source posting date; exact run date and worldwide precedence unconfirmed"
+          : r.dateBasis === "first-screenshot-publication"
           ? "Earliest known screenshot publication; race completion date unconfirmed"
           : r.dateBasis === "submission-date"
           ? "Date posted in the original submission"
@@ -39,7 +41,9 @@ function RecordDate({ r }) {
               : undefined
       }
     >
-      {r.dateBasis === "first-screenshot-publication"
+      {r.dateBasis === "recovered-source-publication"
+        ? `Source posted: ${date(r.recordDate)}; run date unknown`
+        : r.dateBasis === "first-screenshot-publication"
         ? `Screenshot published: ${date(r.recordDate)}; achievement date unknown`
         : r.dateBasis === "proof-upload-date"
           ? `Proof uploaded: ${date(r.recordDate)}; achievement date unknown`
@@ -213,7 +217,7 @@ function Course({ c }) {
 function Notice() {
   return (
     <p className="notice">
-      History reconstruction in progress. Only confirmed WRs are listed.{" "}
+      History reconstruction in progress.{" "}
       <SiteLink href="/archive">Source coverage</SiteLink>.
     </p>
   );
@@ -350,6 +354,10 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                     )}
                     <td>
                       <Time record={r} />
+                      {r.recoveredLeaderEvidence && <div className="table-note">
+                        Recovered leader · {r.recoveredLeaderEvidence.evidenceKind === "contemporary-report" ? "reported result" : r.recoveredLeaderEvidence.evidenceKind === "image-repost" ? "reposted screenshot" : r.recoveredLeaderEvidence.evidenceKind === "original-result-image" ? "result screenshot" : "preserved video"}
+                        <details className="evidence-times"><summary>Leader evidence</summary><p>{r.evidenceNote}</p><p>Worldwide WR precedence remains unconfirmed.</p></details>
+                      </div>}
                     </td>
                     <td>
                       <Player id={r.playerId} players={players} />
@@ -662,7 +670,8 @@ function ParisSupportingResults({ results, players, tourLabel = "Paris Tour (201
   </details>;
 }
 function CoursePage({ data: c, players, tours, manifest }) {
-  const events = historyEvents(c, tours, manifest.updatedAt);
+  const historyRecords = [...c.records, ...(c.hammerRecoveredProgression || [])];
+  const events = historyEvents({...c, records: historyRecords}, tours, manifest.updatedAt);
   const fragments = c.records.flatMap(r => (r.videoFragments || []).map(fragment => ({ record: r, ...fragment })));
   return (
     <>
@@ -891,16 +900,18 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <h2>History</h2>
       {c.halloween2019Recording && <p className="table-note">Halloween Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive. Runs with unresolved dates remain under review.</p>}
       {c.paris2019Recording && <p className="table-note">Paris Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive.</p>}
-      <RecordTable records={c.records} events={events} players={players} />
+      {c.hammerRecoveredProgression?.length > 0 && <p className="table-note">Hammer Bro Tour history includes recovered leaders in surviving source posting order. Reports, screenshots and videos are labelled; posting dates are separate from unknown run dates. Recovered leaders receive no confirmed-WR count or reign credit until worldwide precedence is established. The final announced WR remains dated to the tour window.</p>}
+      <RecordTable records={historyRecords} events={events} players={players} />
       <DateKey />
       <p className="table-note">
-        Records are confirmed by WR announcements or explicit community WR
-        confirmation. Exact dates remain unknown for some migrated records.
+        {c.hammerRecoveredProgression?.length > 0
+          ? "The final WR is supported by its announcement. Intermediate recovered leaders remain under WR-status review."
+          : "Records are confirmed by WR announcements or explicit community WR confirmation. Exact dates remain unknown for some migrated records."}
       </p>
       <details className="sources">
         <summary>Record sources &amp; archive data</summary>
         <ul>
-          {c.records.map((r) => (
+          {historyRecords.map((r) => (
             <li key={r.id}>
               <a href={r.source.url}>
                 {r.time} · {players.find((p) => p.id === r.playerId)?.name}
