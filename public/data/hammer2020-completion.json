@@ -57,7 +57,10 @@
     "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json",
     "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
     "archive/hammer2020-fiftyeight-tour-original-images-r2-preservation-20261014.json",
-    "archive/hammer2020-surviving-source-wr-status-adjudication-20261014.json"
+    "archive/hammer2020-surviving-source-wr-status-adjudication-20261014.json",
+    "archive/hammer2020-posted-dates-original-proofs-production-build-check-20261014.json",
+    "archive/hammer2020-posted-submission-date-policy-20261014.json",
+    "archive/hammer2020-full-original-proof-isolated-generation-check-20261014.json"
   ],
   "coverage": {
     "priorServerImageSearchMessages": 562,
@@ -72,10 +75,10 @@
     "proofImageUrlsPassed": 58
   },
   "remainingLimitations": [
-    "Opening global leadership, intermediate WR status and exact achievement clocks remain unproved; no invented succession or reign duration.",
+    "Opening global leadership, intermediate WR status and private achievement clocks remain unproved; no invented succession or reign duration.",
     "Yoshi 1:31.52 explicitly rejected as a joke; eight downstream performance comparisons now use genuine earlier dated results.",
     "Birdo 1:33.02 mode/variant unresolved and excluded.",
-    "Accepted WRs 1:21.98 and1:31.31 have no known available matching recording. Frappe March26 report is third-party observation, not achievement time.",
+    "Accepted WRs 1:21.98 and1:31.31 have no known available matching recording. Frappe uses its March 26 report as the default submission date.",
     "Preserved images and prior source dispositions verified; deleted/private/global source completeness not proved.",
     "Two selected recordings freshly sampled and decoded; uninterrupted-race continuity not certified. Two slower originals preserved on R2 with prior reviews retained."
   ],
@@ -110,9 +113,9 @@
   "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
   "reopeningReason": "User rejects final-only WR history as unfinished; earlier recovered leaders need chronology reconciliation.",
   "recoveredLeaderProgression": {
-    "status": "source-adjudicated-awaiting-original-proof-publication",
+    "status": "built-awaiting-live-verification",
     "sourceReview": "archive/hammer2020-recovered-leader-progression-source-review-20261014.json",
-    "buildEvidence": "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json",
+    "buildEvidence": "archive/hammer2020-posted-dates-original-proofs-production-build-check-20261014.json",
     "courses": {
       "gcn-yoshi-circuit-r": [
         {
@@ -190,6 +193,15 @@
     "priorHashesMatched": 58,
     "originalsOnR2": true,
     "newlyPreserved": 56,
-    "knownUnavailableRepost": 1
+    "knownUnavailableRepost": 1,
+    "storedContentDigestsMatched": 58,
+    "publishedProofRows": 84,
+    "publicationBuildEvidence": "archive/hammer2020-posted-dates-original-proofs-production-build-check-20261014.json"
+  },
+  "submissionDatePolicy": {
+    "evidence": "archive/hammer2020-posted-submission-date-policy-20261014.json",
+    "policy": "Source posting date is the default submission date unless evidence establishes another date.",
+    "retrospectiveYoshiFinalUsesTourRange": true,
+    "frappeFinalSubmissionDate": "2020-03-26"
   }
 }
