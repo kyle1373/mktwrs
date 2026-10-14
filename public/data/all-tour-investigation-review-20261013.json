@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 95,
-      "candidate-and-source-review": 28,
+      "completed-with-documented-gaps": 96,
       "debut-history-gap": 2,
+      "candidate-and-source-review": 27,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 95,
-    "toursRequiringInvestigation": 86,
+    "practicallyCompletedTours": 96,
+    "toursRequiringInvestigation": 85,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -76,11 +76,11 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 15,
+        "requiringInvestigation": 14,
         "categories": {
-          "completed-with-documented-gaps": 11,
-          "candidate-and-source-review": 9,
+          "completed-with-documented-gaps": 12,
           "debut-history-gap": 2,
+          "candidate-and-source-review": 8,
           "carry-in-and-sparse-history-check": 4
         }
       },
@@ -4911,21 +4911,30 @@
           "course": "N64 Luigi Raceway R",
           "url": "https://mktwrs.com/course/n64-luigi-raceway-r",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 7,
           "supportingRows": 55,
-          "pendingCandidates": 8,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 13
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "completionEvidence": "/data/marioluigi2023-completion.json",
+      "documentedLimitations": [
+        "One cancelled original attachment failed to download; its accepted replacement is separately preserved without duplicate WR credit.",
+        "The announcement’s closest recorded time, DIT1:12.15, links to a video YouTube says was removed by the uploader. No available same-tour movie was recovered from the bounded surviving source set. The original reference and movie-share time are retained.",
+        "Undated screenshot personal-best predecessors are preserved without invented posting dates or additional dated WR entries.",
+        "Thirty prior original-image assessments matched their preserved bytes; nine newly recovered result panels were freshly reviewed.",
+        "This practical review uses bounded surviving sources. Deleted/private material and exhaustive worldwide precedence remain unproven."
+      ],
+      "latestCompletionAudit": "archive/marioluigi2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-99",
@@ -11206,7 +11215,7 @@
   ],
   "activeDetailedTourId": "tour-98",
   "activeDetailedReview": "tour-98",
-  "latestCompletionAudit": "archive/princess2023-live-publication-verification-20261014.json",
-  "nextPriorityTourId": "tour-98",
-  "nextPriorityReason": "Princess 2023 source, production, full data fidelity and LIVE verification complete with documented gaps."
+  "latestCompletionAudit": "archive/marioluigi2023-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-99",
+  "nextPriorityReason": "Activate only after Mario vs. Luigi 2023 LIVE verification."
 }
