@@ -1,0 +1,217 @@
+{
+  "tourId": "tour-109",
+  "checkedAt": "2026-10-14",
+  "expectedCommit": "707e0d1d85f56dbc4702bfc4574791e6bfa86db1",
+  "railway": {
+    "deploymentId": "85b81a61-2466-444b-97c2-3340fc4486ec",
+    "details": "Deployment successful\n\nView more\n\n0 Variables\n\nDeployed via GitHub\n\nPublish Animal 2023 history, preserved recordings and completion evidence\n\nkyle1373/mktwrs\n\nmain\n\nConfiguration\n\nPretty\n\nCode\n\nBuild\n\nBuilder\n\nDockerfile\n\nBuild command\n\nnpm run build\n\nDockerfile path\n\n/Dockerfile\n\nDeploy\n\nRegion\n\nsfo\n\nNumber of replicas\n\n1\n\nHealthcheck path\n\n/health\n\nRestart policy\n\non failure\n\nRestart policy max retries\n\n10",
+    "links": [
+      {
+        "href": "https://github.com/kyle1373/mktwrs/commit/707e0d1d85f56dbc4702bfc4574791e6bfa86db1",
+        "text": "Publish Animal 2023 history, preserved recordings and completion evidencekyle1373/mktwrsmain"
+      }
+    ],
+    "state": "- banner:\n  - link \"Railway Logo\":\n    - /url: /dashboard\n    - img \"Railway Logo\"\n  - button \"mktwrs.com\":\n    - generic \"Kyle Wade's Projects\"\n    - generic: mktwrs.com\n  - button \"production\":\n    - generic: production\n  - navigation:\n    - button \"Toggle activity\":\n    - button \"Notifications, 4 unread, warning\":\n    - button \"Agent\":\n      - generic: Agent\n- navigation \"Project navigation\":\n  - link \"Architecture\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - link \"Observability\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/observability?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - link \"Logs\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/logs?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - link \"Sandboxes\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/sandboxes?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - link \"Settings\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/settings?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - button:\n    - generic \"Kyle Wade\"\n- region:\n  - button \"mktwrs mktwrs.com Online\":\n    - link \"mktwrs mktwrs.com Online\":\n      - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n      - paragraph: mktwrs\n      - paragraph: mktwrs.com\n      - paragraph: Online\n  - toolbar \"Canvas options\":\n    - button \"Canvas settings\":\n    - group \"canvas action\":\n      - button \"Zoom in\":\n      - button \"Zoom out\":\n      - button \"Center canvas\":\n    - group \"canvas action\":\n      - button \"Undo\":\n      - button \"Redo\":\n    - button \"Visibility layers\":\n  - button:\n  - heading \"mktwrs\" [level=1]:\n    - button \"mktwrs\":\n      - generic \"mktwrs\"\n  - link:\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - link \"Deployments\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n    - generic: Deployments\n  - link \"Variables\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5/variables?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n    - generic: Variables\n  - link \"Metrics\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5/metrics?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n    - generic: Metrics\n  - link \"Console\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5/console?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n    - generic: Console\n  - link \"Settings\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5/settings?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n    - generic: Settings\n  - link \"mktwrs.com\":\n    - /url: https://mktwrs.com\n  - img \"22.23.3\"\n  - text: node@22.23.3\n  - link \"US West\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5/settings?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d#deploy-region-config\n  - link \"1 Replica\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5/settings?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d#deploy-region-config\n  - paragraph: There is no active deployment for this service.\n  - button \"Deploy the repo kyle1373/mktwrs\":\n    - generic: Deploy the repo kyle1373/mktwrs\n  - link \"mktwrs\":\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - generic: /\n  - button \"85b81a61\"\n  - generic: Active\n  - button \"Deployment actions\":\n  - time: 2026-10-14 06:46 PDT\n  - link:\n    - /url: /project/80b026c9-fa2d-4e7d-9b01-657a2f631ff0/service/dc662fe0-1295-439f-ba7f-d957436f93c5?environmentId=95b0853a-b78e-4a2d-b302-ab2e97e82e7d\n  - link \"mktwrs.com\":\n    - /url: https://mktwrs.com\n  - tablist:\n    - tab \"Details\" [active] [selected]: Details\n    - tab \"Build Logs\"\n    - tab \"Deploy Logs\"\n    - tab \"Network Logs\"\n  - tabpanel \"Details\":\n    - button \"Deployment successful View more\":\n      - paragraph: Deployment successful\n      - paragraph: View more\n    - button \"0 Variables\" [disabled]:\n      - paragraph: 0 Variables\n    - paragraph: Deployed via GitHub\n    - link \"Publish Animal 2023 history, preserved recordings and completion evidence kyle1373/mktwrs main\":\n      - /url: https://github.com/kyle1373/mktwrs/commit/707e0d1d85f56dbc4702bfc4574791e6bfa86db1\n      - generic \"kyle1373\"\n      - paragraph: Publish Animal 2023 history, preserved recordings and completion evidence\n      - paragraph: kyle1373/mktwrs\n      - paragraph: main\n    - paragraph: Configuration\n    - tablist:\n      - tab \"Pretty\" [selected]:\n        - paragraph: Pretty\n      - tab \"Code\":\n        - paragraph: Code\n    - tabpanel \"Pretty\":\n      - paragraph: Build\n      - paragraph: Builder\n      - paragraph:\n        - generic: Dockerfile\n      - separator\n      - paragraph: Build command\n      - paragraph: npm run build\n      - separator\n      - paragraph: Dockerfile path\n      - paragraph: /Dockerfile\n      - paragraph: Deploy\n      - paragraph: Region\n      - paragraph: sfo\n      - separator\n      - paragraph: Number of replicas\n      - paragraph: \"1\"\n      - separator\n      - paragraph: Healthcheck path\n      - paragraph: /health\n      - separator\n      - paragraph: Restart policy\n      - paragraph: on failure\n      - separator\n      - paragraph: Restart policy max retries\n      - paragraph: \"10\""
+  },
+  "courses": {
+    "n64-choco-mountain": {
+      "fullCollectionsAndFieldsMatched": true,
+      "reviewLabelRendered": true
+    },
+    "n64-yoshi-valley-r": {
+      "fullCollectionsAndFieldsMatched": true,
+      "reviewLabelRendered": true
+    }
+  },
+  "fullCourseRowsMatched": 508,
+  "renderedR2LinkSetMatchesBuiltPages": true,
+  "readableRenderedR2Links": [
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2022-original-1042917322823827557-bb9db23dbd45.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2022-original-1043386796106600478-e7ab494c884a.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2022-original-1046338642722963456-cda8e6cdf523.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1174347676381347941-636fd5c9a13296d7c751.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1174975864107192380-91c7a64862e63f960a3e.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1175084628416147466-fb3de88cedbe8f918eb9.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1175327445663109131-2311b58cbae67e86410b.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1175503155006554322-ff6fe39cfe6e3d701084.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1175743503859462144-470ad3a2fac298678977.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176168103055478824-425b6eb039b1cb9ae19e.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176199118675259452-138c39e4c552e64385fe.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176216771909394482-c36f49c59c25fa7db079.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176224180048502964-496722663c7f878a45a7.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176262632991359026-5c3eedd5f6a79eb41f4c.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176758310842679377-975062bd74756483be44.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176775547964112947-c083c93650366cc4ae6b.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176878071379406900-bcaf4962e62d3fdf248f.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176895607877664858-374dd1e6675de2895c68.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1176951729292578927-10a39235a9c73aa359f8.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177213711660888084-88d7e7da19523930d319.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177294306801893468-4df7f1704b035771154c.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177297889265991680-fb9ab2d66bf23164c905.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177408689041313882-17a22581fad19ccd1a61.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177408743063957525-3efb6b93b688da1e2875.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177549206718775336-cdb5fed9a8a3263678e2.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177580081250574376-32022e4b43972799041d.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177596989505028116-d605526d0b890e306be0.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1177600104463605872-ea083de97d9f41d11ecd.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1178252550789672970-9be577ab2e1664e80a75.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1178786867269865562-3ce492fe8a33731c63ec.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1179035130606661682-a6bd90bfb4653f0707d8.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1179055113055248444-f8a5e962cdb9d40245c0.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1179189487461486662-b40446769cff1dff2f75.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1179189570718416957-08dbcfd59913fd35fd54.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1179255858522247199-72048a9a4e8531532e51.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1179255980790386738-c60ff36e95bde140dc62.png",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/proof/animal2023-1179282429677162496-7cd583e0765cc08eb249.jpg",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/animal2022-nu11-yvr-13062-310d47299847.mp4",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/animal2022-sucha-yvr-13067-84b7eda3838f.mp4",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/animal2022-sucha-yvr-13071-50d501a98d9e.mp4",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/animal2022-sucha-yvr-13081-d6a621b09343.mp4",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/animal2022-sucha-yvr-13091-7aa517c93c4d.mp4",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/animal2023-1175741124137209956-546770bbe7fec22282f1.mov",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/animal2023-1178814463919525939-36207a0d524cc6328b07.mp4",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/mariopeach2021-choco-11916-8943108f55d4.mp4",
+      "bytesRead": 1024
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/rosalina2020-choco-mountain-11893-db606bad6e3a.mp4",
+      "bytesRead": 1024
+    }
+  ],
+  "liveCompletionEvidenceMatches": true,
+  "passed": true,
+  "historyComplete": false
+}

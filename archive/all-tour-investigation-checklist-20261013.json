@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 106,
-      "carry-in-and-sparse-history-check": 19,
+      "completed-with-documented-gaps": 107,
+      "carry-in-and-sparse-history-check": 18,
       "candidate-and-source-review": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 106,
-    "toursRequiringInvestigation": 75,
+    "practicallyCompletedTours": 107,
+    "toursRequiringInvestigation": 74,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -75,7 +75,7 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 4,
+        "requiringInvestigation": 3,
         "categories": {
           "completed-with-documented-gaps": 22,
           "carry-in-and-sparse-history-check": 3,
@@ -5715,7 +5715,10 @@
           "carriedRecordReviewAudit": "archive/animal2023-original-preservation-and-carried-record-review-handoff-20261014.json"
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/animal2023-completion.json",
+      "liveCompletionAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json",
+      "action": "Reviewed surviving-source archive and LIVE publication verified."
     },
     {
       "id": "tour-110",
@@ -11385,16 +11388,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-109",
+  "activeDetailedTourId": "tour-110",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-109",
-  "latestCompletionAudit": "archive/autumn2023-surviving-source-review-decision-20261014.json",
-  "updatedAt": "2026-10-13T23:15:48.472931+00:00",
-  "nextPriorityTourId": "tour-109",
-  "nextPriorityReason": "Animal2023 original images and strategy clips preserved; finish canonical display, recording comparison and publication before another tour.",
-  "latestLiveCompletionAudit": "archive/autumn2023-live-publication-verification-20261014.json"
+  "activeDetailedReview": "tour-110",
+  "latestCompletionAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json",
+  "updatedAt": "2026-10-14",
+  "nextPriorityTourId": "tour-110",
+  "nextPriorityReason": "Animal2023 source review and exact LIVE publication verified; continue Peach vs. Bowser2023 alone.",
+  "latestLiveCompletionAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json"
 }
