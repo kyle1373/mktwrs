@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 104,
-      "carry-in-and-sparse-history-check": 20,
+      "completed-with-documented-gaps": 105,
       "candidate-and-source-review": 21,
+      "carry-in-and-sparse-history-check": 19,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 104,
-    "toursRequiringInvestigation": 77,
+    "practicallyCompletedTours": 105,
+    "toursRequiringInvestigation": 76,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -75,11 +75,11 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 6,
+        "requiringInvestigation": 5,
         "categories": {
-          "completed-with-documented-gaps": 20,
-          "carry-in-and-sparse-history-check": 4,
-          "candidate-and-source-review": 2
+          "completed-with-documented-gaps": 21,
+          "candidate-and-source-review": 2,
+          "carry-in-and-sparse-history-check": 3
         }
       },
       "2024": {
@@ -5540,13 +5540,29 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 3,
+          "publicSupportingRows": 17
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/halloween2023-completion.json",
+      "documentedLimitations": [
+        "No opening-day result survives in this bounded review; all seventeen current-tour performances are slower than the carried WR.",
+        "Troy prior2022 0:56.42 original movie remains available and preserved. No new WR or profile credit.",
+        "Ryo source name and accepted receipt association retained; no account merge.",
+        "Two recovered PNGs corroborated using OCR against prior proxy result review and original post/receipt, without fresh visual certification. Cup-menu best images remain explicitly limited proof.",
+        "Partial technique clip and slow discussion result retained separately; previous best values are not invented dated submissions.",
+        "Worldwide exhaustive capture and fresh uninterrupted-race certification remain unproved.",
+        "All21 indexed originals plus1 separate discussion result image preserved and R2-verified;3 indexed images are late Battle posts and1 is an excluded slow result.",
+        "Two recovered PNG originals retain their earlier proxy copies separately; original OCR supports the prior proxy result review, without fresh visual certification.",
+        "One partial technique movie and the carried 2022 Troy WR movie are preserved and R2-verified."
+      ],
+      "latestCompletionAudit": "archive/halloween2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-108",
@@ -11337,8 +11353,8 @@
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
   "activeDetailedReview": "tour-107",
-  "latestCompletionAudit": "archive/battle2023-surviving-source-review-decision-20261014.json",
-  "nextPriorityTourId": "tour-107",
-  "nextPriorityReason": "Battle 2023 review and live publication verified; continue Halloween 2023 alone.",
+  "latestCompletionAudit": "archive/halloween2023-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-108",
+  "nextPriorityReason": "Activate only after Halloween2023 LIVE verification.",
   "latestLiveCompletionAudit": "archive/battle2023-live-publication-verification-20261014.json"
 }

@@ -18,7 +18,7 @@ test('Halloween 2023 carries the existing WR and adds no slower WR credit',()=>{
 });
 test('Recovered originals retain human submission dates and preserved evidence links',()=>{
  const c=read('courses/snes-donut-plains-3');
- for(const [mid,date,time] of [['1165725437180268554','2023-10-22T18:56:42.355Z','0:57.27'],['1166139886131216586','2023-10-23T22:23:36.598Z','0:57.00']]){
+ for(const [mid,date,time] of [['1165725437180268554','2023-10-22T18:56:42.355Z','0:57.27'],['1166139886131216586','2023-10-23T22:23:34.685Z','0:57.00']]){
   const r=c.submissions.find(r=>r.source?.messageId===mid&&r.time===time);
   assert(r);assert.equal(r.submittedAt,date);assert.equal(r.recordDate,date.slice(0,10));assert.equal(r.dateUnresolved,false);
   assert.match(r.proofImageLocal,/media\.mktwrs\.com\/assets\/proof\/halloween2023-.*\.png$/);
