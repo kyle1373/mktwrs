@@ -1,0 +1,104 @@
+{
+  "tourId": "tour-101",
+  "tour": "Sunshine Tour (2023)",
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-14",
+  "standard": "User-authorized practical surviving proofs. Posting date is submission/archive date unless earlier or contrary evidence establishes another date.",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2023-07-26T06:00:00Z",
+    "endExclusive": "2023-08-09T06:00:00Z"
+  },
+  "courses": [
+    {
+      "id": "wii-daisy-circuit",
+      "archivedWr": "1:18.30",
+      "wrPlayerId": "saki7",
+      "datedTourHistory": [
+        "1:18.60",
+        "1:18.43",
+        "1:18.37",
+        "1:18.30"
+      ],
+      "fastestDocumentedAvailableRecording": "1:18.31",
+      "recordingPlayerId": "player-e38199e38184e3819df09f90ba",
+      "recordingAvailability": "available",
+      "moviePublishedAt": "2023-08-05T12:36:22Z",
+      "movieOriginalSubmittedAt": "2023-08-05T12:09:30.590Z",
+      "movieCorrectedReceiptAt": "2023-08-05T12:51:55.163Z",
+      "firstDayFinalFastestRecovered": "1:18.60",
+      "firstDayPlayerId": "kuri",
+      "finalSubmittedAt": "2023-08-01T14:48:18.285Z"
+    },
+    {
+      "id": "snes-koopa-troopa-beach-2r",
+      "archivedWr": "0:57.55",
+      "wrPlayerId": "nekozuki",
+      "datedTourHistory": [
+        "0:57.93",
+        "0:57.73",
+        "0:57.63",
+        "0:57.61",
+        "0:57.57",
+        "0:57.55"
+      ],
+      "fastestDocumentedAvailableRecording": null,
+      "recordingAvailability": "not-recovered-in-bounded-sources",
+      "firstDayOriginalRecovered": false,
+      "earliestRecoveredLeaderDate": "2023-07-27",
+      "finalSubmittedAt": "2023-08-06T16:39:53.985Z"
+    }
+  ],
+  "coverage": {
+    "boundedSavedSourceRows": 103,
+    "imageLinkedSourceRows": 99,
+    "additionalNonPerformanceRows": 4,
+    "sourceRowsUnaccounted": 0,
+    "originalImagesPreservedOnR2": 56,
+    "currentTourOriginalImages": 53,
+    "priorTourLateOriginalImages": 3,
+    "unavailableOriginalImages": 0,
+    "freshOriginalImagesRecoveredAndReviewed": 6,
+    "priorOriginalAssessmentHashesMatched": 50,
+    "originalVideosPreservedOnR2": 1,
+    "tourDatedHistoryEntries": 10,
+    "tourPendingCandidates": 0,
+    "laterYearCandidatesRetained": 1,
+    "completeCourseRowsCompared": 303,
+    "fieldDifferences": 0,
+    "canonicalDistinctPerformanceRows": 52,
+    "duplicateCuratedRowsMerged": 33,
+    "publicSupportingResults": {
+      "wii-daisy-circuit": 15,
+      "snes-koopa-troopa-beach-2r": 23
+    },
+    "renderedR2MediaLinksPassed": 59,
+    "focusedTestsPassed": 35
+  },
+  "remainingLimitations": [
+    "No original Koopa2R result was recovered from the first playable day; its dated progression starts with the July27 earliest surviving leader.",
+    "Daisy finalWR1:18.30 has original result evidence but no final-run movie recovered. Sucha1:18.31 is the fastest documented available same-tour recording, with original submission, publication and corrected receipt clocks shown separately.",
+    "No Koopa2R movie was identified in the bounded saved source set; not proof that no movie exists elsewhere.",
+    "One prior sampled video-only movie review retained by exact SHA256; audio is absent and uninterrupted full-race continuity has not been certified.",
+    "The103saved rows are a bounded surviving set:99 image-linked rows plusfour non-performance rows. Deleted/private sources and exhaustive worldwide history remain unproved.",
+    "Three late originals concern Pipe Tour courses and are excluded from Sunshine progression.",
+    "Thirty-three duplicate curated originals merge into accepted submissions, including four documented display-alias corrections. One2026Daisy candidate remains open; later tour reviews are not completed by this work.",
+    "Undated previous-best values remain preserved without invented dated WR entries."
+  ],
+  "evidence": [
+    "archive/sunshine2023-source-review-index-20261008.json",
+    "archive/sunshine2023-56-originals-r2-and-source-recovery-20261014.json",
+    "archive/sunshine2023-original-video-r2-and-posting-date-review-20261014.json",
+    "archive/sunshine2023-four-additional-saved-source-row-review-20261014.json",
+    "archive/sunshine2023-posted-progression-and-canonical-source-review-20261014.json",
+    "archive/sunshine2023-complete-course-generation-and-player-record-check-20261014.json",
+    "archive/sunshine2023-production-build-and-complete-course-fidelity-20261014.json",
+    "archive/sunshine2023-surviving-source-review-decision-20261014.json"
+  ],
+  "productionBuildVerified": true,
+  "productionBuildEvidence": "archive/sunshine2023-production-build-and-complete-course-fidelity-20261014.json",
+  "livePublicationVerified": false,
+  "nextTourId": "tour-102"
+}

@@ -36,14 +36,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 98,
-      "candidate-and-source-review": 26,
+      "completed-with-documented-gaps": 99,
+      "candidate-and-source-review": 25,
       "debut-history-gap": 1,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 98,
-    "toursRequiringInvestigation": 83,
+    "practicallyCompletedTours": 99,
+    "toursRequiringInvestigation": 82,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -76,10 +76,10 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 12,
+        "requiringInvestigation": 11,
         "categories": {
-          "completed-with-documented-gaps": 14,
-          "candidate-and-source-review": 7,
+          "completed-with-documented-gaps": 15,
+          "candidate-and-source-review": 6,
           "debut-history-gap": 1,
           "carry-in-and-sparse-history-check": 4
         }
@@ -5087,41 +5087,52 @@
           "course": "Wii Daisy Circuit",
           "url": "https://mktwrs.com/course/wii-daisy-circuit",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 4,
           "supportingRows": 34,
-          "pendingCandidates": 2,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 10,
+          "publicSupportingRows": 15
         },
         {
           "courseId": "snes-koopa-troopa-beach-2r",
           "course": "SNES Koopa Troopa Beach 2R",
           "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2r",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 6,
           "supportingRows": 52,
-          "pendingCandidates": 4,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Verify LIVE publication before advancing."
+          ],
+          "renderedHistoryEntries": 13,
+          "publicSupportingRows": 23
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/sunshine2023-completion.json",
+      "documentedLimitations": [
+        "No original Koopa2R result was recovered from the first playable day; its dated progression starts with the July27 earliest surviving leader.",
+        "Daisy finalWR1:18.30 has original result evidence but no final-run movie recovered. Sucha1:18.31 is the fastest documented available same-tour recording, with original submission, publication and corrected receipt clocks shown separately.",
+        "No Koopa2R movie was identified in the bounded saved source set; not proof that no movie exists elsewhere.",
+        "One prior sampled video-only movie review retained by exact SHA256; audio is absent and uninterrupted full-race continuity has not been certified.",
+        "The103saved rows are a bounded surviving set:99 image-linked rows plusfour non-performance rows. Deleted/private sources and exhaustive worldwide history remain unproved.",
+        "Three late originals concern Pipe Tour courses and are excluded from Sunshine progression.",
+        "Thirty-three duplicate curated originals merge into accepted submissions, including four documented display-alias corrections. One2026Daisy candidate remains open; later tour reviews are not completed by this work.",
+        "Undated previous-best values remain preserved without invented dated WR entries."
+      ],
+      "latestCompletionAudit": "archive/sunshine2023-surviving-source-review-decision-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-102",
@@ -11249,8 +11260,8 @@
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
   "activeDetailedReview": "tour-101",
-  "latestCompletionAudit": "archive/pipe2023-surviving-source-review-decision-20261014.json",
-  "nextPriorityTourId": "tour-101",
-  "nextPriorityReason": "Pipe Tour 2023 review and live publication verified; continue Sunshine Tour 2023 alone.",
+  "latestCompletionAudit": "archive/sunshine2023-surviving-source-review-decision-20261014.json",
+  "nextPriorityTourId": "tour-102",
+  "nextPriorityReason": "Activate only after Sunshine2023 LIVE verification.",
   "latestLiveCompletionAudit": "archive/pipe2023-live-publication-verification-20261014.json"
 }
