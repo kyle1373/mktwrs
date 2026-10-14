@@ -52,7 +52,9 @@
     "archive/hammer2020-recovered-leader-production-build-check-20261014.json",
     "archive/hammer2020-final-announcement-proof-availability-and-fastest-card-review-20261014.json",
     "archive/hammer2020-fastest-card-final-proof-production-build-check-20261014.json",
-    "archive/hammer2020-recovered-progression-fastest-card-and-proof-live-check-20261014.json"
+    "archive/hammer2020-recovered-progression-fastest-card-and-proof-live-check-20261014.json",
+    "archive/hammer2020-recovered-opening-leader-supporting-baseline-fix-20261014.json",
+    "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json"
   ],
   "coverage": {
     "priorServerImageSearchMessages": 562,
@@ -105,9 +107,9 @@
   "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
   "reopeningReason": "User rejects final-only WR history as unfinished; earlier recovered leaders need chronology reconciliation.",
   "recoveredLeaderProgression": {
-    "status": "live-verified",
+    "status": "built-awaiting-opening-filter-live-check",
     "sourceReview": "archive/hammer2020-recovered-leader-progression-source-review-20261014.json",
-    "buildEvidence": "archive/hammer2020-fastest-card-final-proof-production-build-check-20261014.json",
+    "buildEvidence": "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json",
     "courses": {
       "gcn-yoshi-circuit-r": [
         {
@@ -172,7 +174,8 @@
       "n64-frappe-snowland": "1:22.14"
     },
     "liveEvidence": "archive/hammer2020-recovered-progression-fastest-card-and-proof-live-check-20261014.json",
-    "livePublicationVerified": true
+    "livePublicationVerified": false,
+    "openingDayFinalOnly": true
   },
   "finalProofAvailabilityReview": "archive/hammer2020-final-announcement-proof-availability-and-fastest-card-review-20261014.json"
 }
