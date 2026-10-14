@@ -24,7 +24,7 @@
     "Refreshed all 142 live course pages against afe8d56c; all WR counts match. Mario Bros. practical completion labels and final audit reference verified live."
   ],
   "policy": [
-    "One tour at a time. Yoshi2023 completion verified live; Spring2023 is active.",
+    "One tour at a time. Spring2023 completion prepared; verify live before tour95.",
     "Final fastest opening-day run and ties; genuine later leaders only.",
     "Use good-enough surviving proof; exact unknown dates and unavailable originals can remain documented.",
     "Show videos and available submission/share clocks; show fastest recorded run separately from WR."
@@ -37,14 +37,14 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 91,
-      "candidate-and-source-review": 31,
+      "completed-with-documented-gaps": 92,
+      "candidate-and-source-review": 30,
       "debut-history-gap": 3,
       "carry-in-and-sparse-history-check": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 91,
-    "toursRequiringInvestigation": 90,
+    "practicallyCompletedTours": 92,
+    "toursRequiringInvestigation": 89,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -64,7 +64,7 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 19
+        "requiringInvestigation": 18
       },
       "2024": {
         "catalogTours": 26,
@@ -4640,28 +4640,25 @@
           "course": "Athens Dash 2",
           "url": "https://mktwrs.com/course/athens-dash-2",
           "firstAppearance": true,
-          "wrRows": 1,
+          "wrRows": 7,
           "supportingRows": 70,
-          "pendingCandidates": 9,
+          "pendingCandidates": 0,
           "carriedInWr": null,
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+            "Practical surviving-source review completed with documented gaps; unavailable Athens footage and unreviewed image-only leads retained."
+          ],
+          "renderedSupportingRows": 60
         },
         {
           "courseId": "berlin-byways",
           "course": "Berlin Byways",
           "url": "https://mktwrs.com/course/berlin-byways",
           "firstAppearance": false,
-          "wrRows": 1,
+          "wrRows": 4,
           "supportingRows": 34,
-          "pendingCandidates": 2,
+          "pendingCandidates": 0,
           "carriedInWr": {
             "id": "994782085011226700",
             "playerId": "superfx",
@@ -4671,14 +4668,14 @@
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
           "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+            "Practical surviving-source review completed with documented gaps; unavailable Athens footage and unreviewed image-only leads retained."
+          ],
+          "renderedSupportingRows": 30
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "completionEvidence": "/data/spring2023-completion.json",
+      "historyComplete": false
     },
     {
       "id": "tour-95",
@@ -11142,6 +11139,6 @@
     "passed": true
   },
   "activeDetailedReview": "tour-94",
-  "latestCompletionAudit": "archive/yoshi2023-completion-label-live-check-20261014.json",
+  "latestCompletionAudit": "public/data/spring2023-completion.json",
   "updatedAt": "2026-10-13T23:15:48.419591+00:00"
 }
