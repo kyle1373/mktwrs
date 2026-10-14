@@ -76743,7 +76743,7 @@
       "courseId": "piranha-plant-cove-2",
       "collection": "candidates",
       "id": "discord-1074078385703227422",
-      "time": "1:09.95",
+      "time": "1:29.95",
       "playerId": "phillish",
       "remove": true,
       "restoreCandidate": true,
@@ -76751,16 +76751,16 @@
         "id": "discord-1074078385703227422",
         "courseId": "piranha-plant-cove-2",
         "playerId": "phillish",
-        "time": "1:09.95",
-        "timeCs": 6995,
+        "time": "1:29.95",
+        "timeCs": 8995,
         "laps": [
-          "34.90",
-          "35.05"
+          "44.90",
+          "45.05"
         ],
         "mushrooms": null,
         "achievedAt": null,
         "datePrecision": "unknown",
-        "status": "accepted-submission",
+        "status": "corrected-submission-duplicate",
         "notes": [],
         "submittedAt": "2023-02-11T21:24:02.229Z",
         "proofUploadedAt": "2023-02-11T21:24:02.153Z",
@@ -76770,7 +76770,15 @@
           "url": "https://discord.com/channels/629221606064914442/875784780573184010/1074078384302338128",
           "channel": "tt-submission",
           "messageId": "1074078384302338128"
-        }
+        },
+        "originalReportedInput": {
+          "time": "1:09.95",
+          "laps": [
+            "34.90",
+            "35.05"
+          ]
+        },
+        "evidenceNote": "Corrected same-performance duplicate: original input1:09.95,34.90/35.05 is retained in the source history. The preserved image and resubmission supply1:29.95,44.90/45.05. Existing corrected WR entry receives the single competitive credit."
       }
     },
     {
@@ -76811,12 +76819,25 @@
       "courseId": "piranha-plant-cove-2",
       "collection": "submissions",
       "id": "discord-1074078385703227422",
-      "time": "1:09.95",
+      "time": "1:29.95",
       "playerId": "phillish",
       "set": {
-        "status": "erroneous-reported-input",
-        "evidenceNote": "Original input1:09.95 and34.90/35.05 were mistaken. The preserved result and same-run resubmission correct this to1:29.95,44.90/45.05. Original input retained without competitive credit.",
-        "correctedPerformanceId": "curated-1074078385703227422-exploration2023-original-correction-reviewed"
+        "status": "corrected-submission-duplicate",
+        "evidenceNote": "Corrected same-performance duplicate: original input1:09.95,34.90/35.05 is retained in the source history. The preserved image and resubmission supply1:29.95,44.90/45.05. Existing corrected WR entry receives the single competitive credit.",
+        "correctedPerformanceId": "curated-1074078385703227422-exploration2023-original-correction-reviewed",
+        "time": "1:29.95",
+        "timeCs": 8995,
+        "laps": [
+          "44.90",
+          "45.05"
+        ],
+        "originalReportedInput": {
+          "time": "1:09.95",
+          "laps": [
+            "34.90",
+            "35.05"
+          ]
+        }
       },
       "unset": []
     },
@@ -77368,7 +77389,7 @@
       "courseId": "piranha-plant-cove-2",
       "collection": "submissions",
       "id": "discord-1074078385703227422",
-      "time": "1:09.95",
+      "time": "1:29.95",
       "playerId": "phillish",
       "set": {
         "proofImageLocal": "https://media.mktwrs.com/assets/proof/exploration2023-original-1074078383983558656-3baa2728c639.png",
@@ -77377,7 +77398,22 @@
           "matchBasis": "preserved-original-attachment-id",
           "originalSourceUrlRetained": true,
           "freshVisualReview": false
-        }
+        },
+        "time": "1:29.95",
+        "timeCs": 8995,
+        "laps": [
+          "44.90",
+          "45.05"
+        ],
+        "status": "corrected-submission-duplicate",
+        "originalReportedInput": {
+          "time": "1:09.95",
+          "laps": [
+            "34.90",
+            "35.05"
+          ]
+        },
+        "evidenceNote": "Corrected same-performance duplicate: original input1:09.95,34.90/35.05 is retained in the source history. The preserved image and resubmission supply1:29.95,44.90/45.05. Existing corrected WR entry receives the single competitive credit."
       },
       "unset": []
     },
@@ -79261,11 +79297,25 @@
       "courseId": "piranha-plant-cove-2",
       "collection": "submissions",
       "id": "discord-1074078385703227422",
-      "time": "1:09.95",
+      "time": "1:29.95",
       "playerId": "phillish",
       "set": {
         "notes": [],
-        "status": "erroneous-reported-input"
+        "status": "corrected-submission-duplicate",
+        "time": "1:29.95",
+        "timeCs": 8995,
+        "laps": [
+          "44.90",
+          "45.05"
+        ],
+        "originalReportedInput": {
+          "time": "1:09.95",
+          "laps": [
+            "34.90",
+            "35.05"
+          ]
+        },
+        "evidenceNote": "Corrected same-performance duplicate: original input1:09.95,34.90/35.05 is retained in the source history. The preserved image and resubmission supply1:29.95,44.90/45.05. Existing corrected WR entry receives the single competitive credit."
       },
       "unset": [
         "additionalSources",
