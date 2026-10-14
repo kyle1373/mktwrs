@@ -820,6 +820,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.newyear2023SupportingResults} players={players} tourLabel="New Year's Tour (2023)" />
       <HalloweenRecording comparison={c.space2023Recording} players={players} tourLabel="Space Tour (2023)" completed={c.space2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.space2023SupportingResults} players={players} tourLabel="Space Tour (2023)" />
+      <HalloweenRecording comparison={c.winter2023Recording} players={players} tourLabel="Winter Tour (2023)" completed={c.winter2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.winter2023SupportingResults} players={players} tourLabel="Winter Tour (2023)" />
       <HalloweenRecording comparison={c.samurai2022Recording} players={players} tourLabel="Samurai Tour (2022)" completed={c.samurai2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.samurai2022SupportingResults} players={players} tourLabel="Samurai Tour (2022)" />
       <HalloweenRecording comparison={c.supermario2020Recording} players={players} tourLabel="Super Mario Kart Tour (2020)" completed={c.supermario2020Recording?.practicalReviewComplete === true} />
