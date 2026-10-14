@@ -1,0 +1,130 @@
+{
+  "tourId": "tour-95",
+  "reason": "MOV direct browser navigation aborts; provide MP4 playback copies while preserving original MOV objects",
+  "objects": [
+    {
+      "time": "1:10.86",
+      "original": {
+        "courseId": "gba-bowser-s-castle-4",
+        "time": "1:10.86",
+        "url": "https://media.mktwrs.com/assets/video/bowser2023-71d5892993478c27bd0a.mov",
+        "originalFile": "archive/video-backup-files/bowser2023-n-discussion/original.mov",
+        "sha256": "71d5892993478c27bd0a56b221094076e42ccf79cc4f4bfc7472d9bdd2ed69d3",
+        "bytes": 19789335,
+        "fullDecodeExitCode": 0,
+        "headVerified": true,
+        "publicRangeBytesMatched": true,
+        "publishedAt": null,
+        "containerCreatedAt": "2023-05-11T11:20:58.000000Z",
+        "sharedAt": "2023-05-11T11:21:11.198Z",
+        "metadata": {
+          "id": null,
+          "title": null,
+          "timestamp": null,
+          "duration": null
+        },
+        "freshVisualReview": false,
+        "priorVideoReviewRetained": false,
+        "fullRaceContinuityVerified": false
+      },
+      "playback": {
+        "url": "https://media.mktwrs.com/assets/video/bowser2023-675cc4a5e36c35e119ca.mp4",
+        "sha256": "675cc4a5e36c35e119ca034aba1e17f1934e9d77d4f900751242d7c2abd0fd9d",
+        "bytes": 19825844,
+        "file": "archive/video-backup-files/bowser2023-n-discussion/playback.mp4",
+        "kind": "lossless-stream-remux-mp4",
+        "headVerified": true,
+        "publicRangeBytesMatched": true,
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 360,
+            "height": 778,
+            "duration": "74.300000"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "duration": "74.287007"
+          }
+        ]
+      },
+      "freshVisualReview": false,
+      "fullRaceContinuityVerified": false
+    },
+    {
+      "time": "strategy-reference",
+      "original": {
+        "courseId": "gba-bowser-s-castle-4",
+        "time": "strategy-reference",
+        "url": "https://media.mktwrs.com/assets/video/bowser2023-d6cd93b515ad635c4f8c.mov",
+        "originalFile": "archive/video-backup-files/bowser2023-rubix-technique/original.mov",
+        "sha256": "d6cd93b515ad635c4f8c81d5b227012575845d892aa27a47770cd132db296955",
+        "bytes": 15485242,
+        "fullDecodeExitCode": 0,
+        "headVerified": true,
+        "publicRangeBytesMatched": true,
+        "publishedAt": null,
+        "containerCreatedAt": "2023-05-04T15:22:25.000000Z",
+        "sharedAt": "2023-05-04T15:22:41.960Z",
+        "metadata": {
+          "id": null,
+          "title": null,
+          "timestamp": null,
+          "duration": null
+        },
+        "freshVisualReview": false,
+        "priorVideoReviewRetained": false,
+        "fullRaceContinuityVerified": false
+      },
+      "playback": {
+        "url": "https://media.mktwrs.com/assets/video/bowser2023-6436ed64ec13766ac76b.mp4",
+        "sha256": "6436ed64ec13766ac76b7e4f82663e1fc79408a91056b62f933195183fa54ed2",
+        "bytes": 15508161,
+        "file": "archive/video-backup-files/bowser2023-rubix-technique/playback.mp4",
+        "kind": "lossless-stream-remux-mp4",
+        "headVerified": true,
+        "publicRangeBytesMatched": true,
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 480,
+            "height": 1038,
+            "duration": "47.066667"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "duration": "47.063991"
+          }
+        ]
+      },
+      "freshVisualReview": false,
+      "fullRaceContinuityVerified": false
+    }
+  ],
+  "browserNavigationChecks": [
+    {
+      "url": "https://media.mktwrs.com/assets/video/bowser2023-675cc4a5e36c35e119ca.mp4",
+      "browser": "Codex in-app browser",
+      "navigationOpened": true,
+      "nativeVideoElementWithControls": true,
+      "mediaType": "video/mp4",
+      "fullRaceContinuityVerified": false
+    },
+    {
+      "url": "https://media.mktwrs.com/assets/video/bowser2023-6436ed64ec13766ac76b.mp4",
+      "browser": "Codex in-app browser",
+      "navigationOpened": true,
+      "nativeVideoElementWithControls": true,
+      "mediaType": "video/mp4",
+      "fullRaceContinuityVerified": false
+    }
+  ]
+}
