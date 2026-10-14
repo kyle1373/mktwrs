@@ -55,7 +55,9 @@
     "archive/hammer2020-recovered-progression-fastest-card-and-proof-live-check-20261014.json",
     "archive/hammer2020-recovered-opening-leader-supporting-baseline-fix-20261014.json",
     "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json",
-    "archive/hammer2020-recovered-opening-final-live-check-20261014.json"
+    "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
+    "archive/hammer2020-fiftyeight-tour-original-images-r2-preservation-20261014.json",
+    "archive/hammer2020-surviving-source-wr-status-adjudication-20261014.json"
   ],
   "coverage": {
     "priorServerImageSearchMessages": 562,
@@ -108,7 +110,7 @@
   "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
   "reopeningReason": "User rejects final-only WR history as unfinished; earlier recovered leaders need chronology reconciliation.",
   "recoveredLeaderProgression": {
-    "status": "live-verified",
+    "status": "source-adjudicated-awaiting-original-proof-publication",
     "sourceReview": "archive/hammer2020-recovered-leader-progression-source-review-20261014.json",
     "buildEvidence": "archive/hammer2020-recovered-opening-final-production-build-check-20261014.json",
     "courses": {
@@ -175,8 +177,19 @@
       "n64-frappe-snowland": "1:22.14"
     },
     "liveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
-    "livePublicationVerified": true,
-    "openingDayFinalOnly": true
+    "livePublicationVerified": false,
+    "openingDayFinalOnly": true,
+    "wrStatusAdjudication": "archive/hammer2020-surviving-source-wr-status-adjudication-20261014.json"
   },
-  "finalProofAvailabilityReview": "archive/hammer2020-final-announcement-proof-availability-and-fastest-card-review-20261014.json"
+  "finalProofAvailabilityReview": "archive/hammer2020-final-announcement-proof-availability-and-fastest-card-review-20261014.json",
+  "survivingSourceWrStatusAdjudication": "archive/hammer2020-surviving-source-wr-status-adjudication-20261014.json",
+  "originalImagePreservation": {
+    "evidence": "archive/hammer2020-fiftyeight-tour-original-images-r2-preservation-20261014.json",
+    "originalImageCount": 58,
+    "bytes": 53487502,
+    "priorHashesMatched": 58,
+    "originalsOnR2": true,
+    "newlyPreserved": 56,
+    "knownUnavailableRepost": 1
+  }
 }
