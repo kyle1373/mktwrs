@@ -2,10 +2,10 @@
   "checkedAt": "2026-10-14",
   "tourId": "tour-102",
   "tourName": "Vacation Tour 2023",
-  "status": "source-review-complete-publication-pending",
+  "status": "completed-with-documented-gaps",
   "historyComplete": false,
   "practicalReviewComplete": true,
-  "livePublicationVerified": false,
+  "livePublicationVerified": true,
   "activeDetailedReview": "tour-102",
   "tourWindowUtc": {
     "start": "2023-08-09T06:00:00Z",
@@ -33,7 +33,7 @@
     "archive/vacation2023-recovered-leader-sequence-draft-20261014.json"
   ],
   "nextActions": [
-    "Verify final production review labels and LIVE publication before activating tour103."
+    "Continue Summer Tour 2023, tour103, as the sole next detailed review after final metadata LIVE verification."
   ],
   "limits": [
     "Draft is not yet canonical or live publication.",
@@ -43,5 +43,6 @@
     "99 tours reviewed with documented gaps and 82 remain; global archive remains unfinished."
   ],
   "completionEvidence": "public/data/vacation2023-completion.json",
-  "nextTourId": "tour-103"
+  "nextTourId": "tour-103",
+  "latestLiveEvidence": "archive/vacation2023-live-publication-verification-20261014.json"
 }
