@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T01:26:12.029659+00:00",
+  "checkedAt": "2026-10-14",
   "historyComplete": false,
   "certifiedAccuracyCutoff": null,
   "scope": "Anniversary Tour 2023, September20 06:00 UTC through October4 06:00 UTC; bounded saved submission captures, including all observed attachment host channels.",
@@ -10,9 +10,11 @@
   ],
   "savedSourceRowCount": 194,
   "counts": {
-    "original-recovery-required": 3,
+    "cancelled-original-unavailable": 2,
     "reviewed": 99,
-    "reviewed-identity-unresolved": 10
+    "reviewed-identity-unresolved": 10,
+    "recovered-original-machine-reviewed-canonical-pending": 1,
+    "total": 112
   },
   "attachments": [
     {
@@ -48,9 +50,10 @@
       "localFiles": [],
       "canonicalMatches": [],
       "priorReviewAudits": [],
-      "disposition": "original-recovery-required",
+      "disposition": "cancelled-original-unavailable",
       "lastRecoveryHTTPStatus": 403,
-      "recoveryAudit": "archive/anniversary2023-missing-original-recovery-attempt-20261008.json"
+      "recoveryAudit": "archive/anniversary2023-missing-original-recovery-attempt-20261008.json",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json"
     },
     {
       "attachmentId": "1153934156171067483",
@@ -143,7 +146,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1153934156171067483.jpg",
       "originalSHA256": "963d8b34e51490fa3a172d9d8065aff72d52259332447c14d2ae3d9e5843e1ae",
-      "reviewAudit": "archive/anniversary2023-opening-repost-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-opening-repost-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1153934156171067483-963d8b34e514.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1153934156171067483-963d8b34e514.jpg",
+        "bytes": 109300,
+        "sha256": "963d8b34e51490fa3a172d9d8065aff72d52259332447c14d2ae3d9e5843e1ae",
+        "etag": "\"02ffd34970673c97c625e142f59b224d\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1153934156171067483.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "late-Sundae-result-retained-separately"
     },
     {
       "attachmentId": "1153948345799299144",
@@ -208,7 +223,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1153948345799299144.png",
       "originalSHA256": "9b6abb960414eee3b0218976c7218247344304626205ab6ca05f4300bf12bcc7",
-      "reviewAudit": "archive/anniversary2023-opening-repost-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-opening-repost-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1153948345799299144-9b6abb960414.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1153948345799299144-9b6abb960414.png",
+        "bytes": 766016,
+        "sha256": "9b6abb960414eee3b0218976c7218247344304626205ab6ca05f4300bf12bcc7",
+        "etag": "\"b91963f7df7a3c0a1a8bf2a1a0bcae0c\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1153948345799299144.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "late-Sundae-result-retained-separately"
     },
     {
       "attachmentId": "1153952296200323142",
@@ -284,7 +311,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1153952296200323142.png",
       "originalSHA256": "1c6a16523aa3d5121ebb486359e83be67b22a871de3b035d661a84e5e2f8b8d6",
-      "reviewAudit": "archive/anniversary2023-opening-repost-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-opening-repost-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1153952296200323142-1c6a16523aa3.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1153952296200323142-1c6a16523aa3.png",
+        "bytes": 653495,
+        "sha256": "1c6a16523aa3d5121ebb486359e83be67b22a871de3b035d661a84e5e2f8b8d6",
+        "etag": "\"7836ad5c0ac3aa6db59251313ab8ddf9\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1153952296200323142.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "late-Sundae-result-retained-separately"
     },
     {
       "attachmentId": "1153959354375090186",
@@ -352,7 +391,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1153959354375090186.jpg",
       "originalSHA256": "ac8518cb3c0abfd0a160df1364bb9cf2f75fab64332291c514bd6cc8de14ece1",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1153959354375090186-ac8518cb3c0a.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1153959354375090186-ac8518cb3c0a.jpg",
+        "bytes": 90983,
+        "sha256": "ac8518cb3c0abfd0a160df1364bb9cf2f75fab64332291c514bd6cc8de14ece1",
+        "etag": "\"d0580fc05ae042edcd094d9f07fc1e6b\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1153959354375090186.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "late-Sundae-result-retained-separately"
     },
     {
       "attachmentId": "1153963373487206420",
@@ -420,7 +471,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1153963373487206420.png",
       "originalSHA256": "9a6e5a638ceea7398688e711ab4af023563f18ecee7b099d4e859c69530ad4bc",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1153963373487206420-9a6e5a638cee.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1153963373487206420-9a6e5a638cee.png",
+        "bytes": 858903,
+        "sha256": "9a6e5a638ceea7398688e711ab4af023563f18ecee7b099d4e859c69530ad4bc",
+        "etag": "\"419f4e892e97bd88cb06093e598a674d\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1153963373487206420.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "late-Sundae-result-retained-separately"
     },
     {
       "attachmentId": "1153991475646963733",
@@ -471,7 +534,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1153991475646963733.jpg",
       "originalSHA256": "b43b9b867fe184ad07dcef8916ae0e38c44c6fd6a83cb8d68e32e1d7211d0568",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1153991475646963733-b43b9b867fe1.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1153991475646963733-b43b9b867fe1.jpg",
+        "bytes": 49682,
+        "sha256": "b43b9b867fe184ad07dcef8916ae0e38c44c6fd6a83cb8d68e32e1d7211d0568",
+        "etag": "\"923ab11fe7a0943dc5e0388f6b7f3414\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1153991475646963733.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1153994964020248597",
@@ -518,7 +593,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1153994964020248597.png",
       "originalSHA256": "4dca1162fc8d163347698ea4277788fffcd4fb261041520c3ba7fd6b1635050a",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1153994964020248597-4dca1162fc8d.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1153994964020248597-4dca1162fc8d.png",
+        "bytes": 1671439,
+        "sha256": "4dca1162fc8d163347698ea4277788fffcd4fb261041520c3ba7fd6b1635050a",
+        "etag": "\"73da59cbf06aa5874a62a2ed58a03b70\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1153994964020248597.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154021416589611099",
@@ -565,7 +652,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154021416589611099.png",
       "originalSHA256": "bd0d89e2881901ff1f9183c7928436cececa04b8d20b69e95a1746f54169de45",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154021416589611099-bd0d89e28819.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154021416589611099-bd0d89e28819.png",
+        "bytes": 2180840,
+        "sha256": "bd0d89e2881901ff1f9183c7928436cececa04b8d20b69e95a1746f54169de45",
+        "etag": "\"b9c68b54778e961812dc6d188c7ff192\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154021416589611099.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154057086280417330",
@@ -620,7 +719,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154057086280417330.jpg",
       "originalSHA256": "e5af91f0781fb992e008a962343aac58c5c5f34776d1e2f5d20b1dd479194d95",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154057086280417330-e5af91f0781f.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154057086280417330-e5af91f0781f.jpg",
+        "bytes": 105185,
+        "sha256": "e5af91f0781fb992e008a962343aac58c5c5f34776d1e2f5d20b1dd479194d95",
+        "etag": "\"daa8a504aae22addfee18bda66ec44aa\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154057086280417330.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154057086687268934",
@@ -675,7 +786,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154057086687268934.jpg",
       "originalSHA256": "a972ef18e21787b30144977dbf1cef1757aa74d0ee87e228576438b128a03176",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154057086687268934-a972ef18e217.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154057086687268934-a972ef18e217.jpg",
+        "bytes": 104757,
+        "sha256": "a972ef18e21787b30144977dbf1cef1757aa74d0ee87e228576438b128a03176",
+        "etag": "\"4015ce143fb097c834704749b47f0fdd\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154057086687268934.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154096736386691142",
@@ -718,7 +841,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154096736386691142.png",
       "originalSHA256": "5a9a3aeadf85958c71f7d665c16f2e5e5f1373dfa5c918694ac6e6c9386ac186",
-      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154096736386691142-5a9a3aeadf85.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154096736386691142-5a9a3aeadf85.png",
+        "bytes": 1670266,
+        "sha256": "5a9a3aeadf85958c71f7d665c16f2e5e5f1373dfa5c918694ac6e6c9386ac186",
+        "etag": "\"bafef0f3d4416c5e2610de08db400adb\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154096736386691142.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154141613954699334",
@@ -761,7 +896,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154141613954699334.jpg",
       "originalSHA256": "51d6569051f8fe25286ff8338c4eac2227f14222592f562fc089f2f55d5686ad",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154141613954699334-51d6569051f8.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154141613954699334-51d6569051f8.jpg",
+        "bytes": 98983,
+        "sha256": "51d6569051f8fe25286ff8338c4eac2227f14222592f562fc089f2f55d5686ad",
+        "etag": "\"9459443a662abcb315d002c8aa9f3125\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154141613954699334.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154160227093074102",
@@ -804,7 +951,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154160227093074102.jpg",
       "originalSHA256": "b65f4a9acbb5de429c16c5a1d12b270c64147eb391998ea2e34f857427203d2a",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154160227093074102-b65f4a9acbb5.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154160227093074102-b65f4a9acbb5.jpg",
+        "bytes": 110673,
+        "sha256": "b65f4a9acbb5de429c16c5a1d12b270c64147eb391998ea2e34f857427203d2a",
+        "etag": "\"df713b646e90b2164751a9b6071f0f58\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154160227093074102.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154192976768159774",
@@ -877,7 +1036,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154192976768159774.jpg",
       "originalSHA256": "3453049011fb9d145eefc7eaab3c6a66c4519ec798a4600f95af890c87cfc7dc",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154192976768159774-3453049011fb.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154192976768159774-3453049011fb.jpg",
+        "bytes": 108140,
+        "sha256": "3453049011fb9d145eefc7eaab3c6a66c4519ec798a4600f95af890c87cfc7dc",
+        "etag": "\"f22de9f0d6e2de7ab81744b6f2166c3b\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154192976768159774.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154193014437204038",
@@ -950,7 +1121,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154193014437204038.jpg",
       "originalSHA256": "ac01ff7834c0e0226886be9241d02e51488b06dd617a2216ba8cdaba4185abf3",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154193014437204038-ac01ff7834c0.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154193014437204038-ac01ff7834c0.jpg",
+        "bytes": 109846,
+        "sha256": "ac01ff7834c0e0226886be9241d02e51488b06dd617a2216ba8cdaba4185abf3",
+        "etag": "\"8205e2191c960d1a98248d561347cd6f\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154193014437204038.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154194889379156039",
@@ -1023,7 +1206,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154194889379156039.png",
       "originalSHA256": "e74d9b8305125c1dd241dc502b8e1bb877c0105601de5a14be14c8c7155f813e",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154194889379156039-e74d9b830512.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154194889379156039-e74d9b830512.png",
+        "bytes": 3281264,
+        "sha256": "e74d9b8305125c1dd241dc502b8e1bb877c0105601de5a14be14c8c7155f813e",
+        "etag": "\"415a23b86a8727e5f73d5b7a370c611c\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154194889379156039.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154209232833478737",
@@ -1091,7 +1286,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154209232833478737.png",
       "originalSHA256": "7c574f575c3243ad80d98febb3a61327b9bc1e2e5a389ad6826d772ce173466e",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154209232833478737-7c574f575c32.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154209232833478737-7c574f575c32.png",
+        "bytes": 1534448,
+        "sha256": "7c574f575c3243ad80d98febb3a61327b9bc1e2e5a389ad6826d772ce173466e",
+        "etag": "\"21b57d9da5e59e7fe5b4fd357291e437\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154209232833478737.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154230294656852028",
@@ -1159,7 +1366,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154230294656852028.png",
       "originalSHA256": "4177e2fcb884bef42044183b8e9b8e861f3f3e8d7df747caee18933dfd852aea",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154230294656852028-4177e2fcb884.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154230294656852028-4177e2fcb884.png",
+        "bytes": 1537732,
+        "sha256": "4177e2fcb884bef42044183b8e9b8e861f3f3e8d7df747caee18933dfd852aea",
+        "etag": "\"f2b085c76f991f414c25af4f9e6d7033\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154230294656852028.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154254045758902312",
@@ -1232,7 +1451,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154254045758902312.png",
       "originalSHA256": "19490822244718fbe37a6f58b5c8d6397fb4e86263228a11f39b49c9f83124c5",
-      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep20-21-next8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154254045758902312-194908222447.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154254045758902312-194908222447.png",
+        "bytes": 3279972,
+        "sha256": "19490822244718fbe37a6f58b5c8d6397fb4e86263228a11f39b49c9f83124c5",
+        "etag": "\"0ff9d249b49017a0acbda32f64833238\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154254045758902312.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154294166919069788",
@@ -1301,7 +1532,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154294166919069788.png",
       "originalSHA256": "607cc8647a470529081374da7ccc9b44cbf2e453444f41a0ebefe2037e89affc",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154294166919069788-607cc8647a47.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154294166919069788-607cc8647a47.png",
+        "bytes": 972638,
+        "sha256": "607cc8647a470529081374da7ccc9b44cbf2e453444f41a0ebefe2037e89affc",
+        "etag": "\"78a126e6ea075f808a0d16433e6e54c4\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154294166919069788.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154327322896384070",
@@ -1373,7 +1616,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154327322896384070.png",
       "originalSHA256": "23e508d613932f93a6964568784ad81d87f40243a8272c87f53675927cc8434c",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154327322896384070-23e508d61393.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154327322896384070-23e508d61393.png",
+        "bytes": 3284130,
+        "sha256": "23e508d613932f93a6964568784ad81d87f40243a8272c87f53675927cc8434c",
+        "etag": "\"633f8aa792a6029aa7de37de22e7810b\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154327322896384070.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154327389380284426",
@@ -1416,7 +1671,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154327389380284426.png",
       "originalSHA256": "f98b8d732c4b91aab23ab9d93bd0b8d31f29a97e1ea19f2ead3388fb0f990cba",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154327389380284426-f98b8d732c4b.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154327389380284426-f98b8d732c4b.png",
+        "bytes": 4241936,
+        "sha256": "f98b8d732c4b91aab23ab9d93bd0b8d31f29a97e1ea19f2ead3388fb0f990cba",
+        "etag": "\"d3d8294b065bab11fa4ea534679fe04d\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154327389380284426.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154329099158962267",
@@ -1497,7 +1764,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154329099158962267.jpg",
       "originalSHA256": "c9acb2be5d303fc3bb98fc4a3bf4967df1c15dbdc25a6521a3da458497e18d84",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154329099158962267-c9acb2be5d30.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154329099158962267-c9acb2be5d30.jpg",
+        "bytes": 106398,
+        "sha256": "c9acb2be5d303fc3bb98fc4a3bf4967df1c15dbdc25a6521a3da458497e18d84",
+        "etag": "\"7de6fc5befb81d65edb7aad8c5f0a3ed\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154329099158962267.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154337424357478431",
@@ -1573,7 +1852,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154337424357478431.jpg",
       "originalSHA256": "c5fa94252770b2db6c97221f00a663bf8426643f530071ad4956fafb42e962c2",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154337424357478431-c5fa94252770.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154337424357478431-c5fa94252770.jpg",
+        "bytes": 96403,
+        "sha256": "c5fa94252770b2db6c97221f00a663bf8426643f530071ad4956fafb42e962c2",
+        "etag": "\"5842af94842e0dfafe5a9b45d8149de1\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154337424357478431.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154368613143289907",
@@ -1616,7 +1907,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154368613143289907.png",
       "originalSHA256": "57cdaf623624bccf29f9f88075a7e4df7ea834131d5d64eb7e6c590f68852865",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154368613143289907-57cdaf623624.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154368613143289907-57cdaf623624.png",
+        "bytes": 1836311,
+        "sha256": "57cdaf623624bccf29f9f88075a7e4df7ea834131d5d64eb7e6c590f68852865",
+        "etag": "\"c1787e8fd34965340feddc738b7e1aa4\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154368613143289907.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154374904511213628",
@@ -1688,7 +1991,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154374904511213628.jpg",
       "originalSHA256": "9be3cf5c8f7a73434c139f35da6b8c9cb7636be93aa0c704abe539c9d6bed517",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154374904511213628-9be3cf5c8f7a.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154374904511213628-9be3cf5c8f7a.jpg",
+        "bytes": 109143,
+        "sha256": "9be3cf5c8f7a73434c139f35da6b8c9cb7636be93aa0c704abe539c9d6bed517",
+        "etag": "\"938d82fdde2bdfde3d1b1d6b27a83e48\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154374904511213628.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154379288745889812",
@@ -1735,7 +2050,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154379288745889812.png",
       "originalSHA256": "f49bb03af3b67e81751d80be477971811baa2f67e9431401c7b3d50f428dc3b3",
-      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154379288745889812-f49bb03af3b6.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154379288745889812-f49bb03af3b6.png",
+        "bytes": 2580783,
+        "sha256": "f49bb03af3b67e81751d80be477971811baa2f67e9431401c7b3d50f428dc3b3",
+        "etag": "\"4aa67c31bdbe15df61f1ae44a478755e\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154379288745889812.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154385185178136596",
@@ -1778,7 +2105,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154385185178136596.png",
       "originalSHA256": "7c9519abd460a93878f2efe791e4d32f453e3bd97ebb3b21eff6e508080f1bb2",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154385185178136596-7c9519abd460.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154385185178136596-7c9519abd460.png",
+        "bytes": 1838653,
+        "sha256": "7c9519abd460a93878f2efe791e4d32f453e3bd97ebb3b21eff6e508080f1bb2",
+        "etag": "\"b2b553ba8ad1b5a5456c71f3e57a585e\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154385185178136596.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154387696396021820",
@@ -1850,7 +2189,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154387696396021820.jpg",
       "originalSHA256": "abcd652e18e2c4753b4a55caab6b3ab5b6db572be1124a7032f88159f6b0d31a",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154387696396021820-abcd652e18e2.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154387696396021820-abcd652e18e2.jpg",
+        "bytes": 112154,
+        "sha256": "abcd652e18e2c4753b4a55caab6b3ab5b6db572be1124a7032f88159f6b0d31a",
+        "etag": "\"f1df43f72944f3679604564f0575d747\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154387696396021820.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154390974286532618",
@@ -1897,7 +2248,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154390974286532618.png",
       "originalSHA256": "0831de335d921b9151766ff6c566301e58f67d18975cdb259cfa5998369dda59",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154390974286532618-0831de335d92.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154390974286532618-0831de335d92.png",
+        "bytes": 2571816,
+        "sha256": "0831de335d921b9151766ff6c566301e58f67d18975cdb259cfa5998369dda59",
+        "etag": "\"3de052e5a92bbade43f6f4c8a73aa0be\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154390974286532618.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154399894845530183",
@@ -1965,7 +2328,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154399894845530183.jpg",
       "originalSHA256": "2a0f4c786e87d93800259ba7fadc62295d27e98c7dedcfffa3792858dcb7cefe",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154399894845530183-2a0f4c786e87.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154399894845530183-2a0f4c786e87.jpg",
+        "bytes": 99279,
+        "sha256": "2a0f4c786e87d93800259ba7fadc62295d27e98c7dedcfffa3792858dcb7cefe",
+        "etag": "\"fc0c6413f6312413acf34c56b591dc79\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154399894845530183.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154404662418604113",
@@ -2008,7 +2383,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154404662418604113.png",
       "originalSHA256": "3f99eb849966fd4d158c4416b499ea19e5c8ffc76d33699a039770a50f682bfe",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154404662418604113-3f99eb849966.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154404662418604113-3f99eb849966.png",
+        "bytes": 2057267,
+        "sha256": "3f99eb849966fd4d158c4416b499ea19e5c8ffc76d33699a039770a50f682bfe",
+        "etag": "\"4d5385821793163b70b51867a924d6cd\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154404662418604113.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154407344332083292",
@@ -2051,7 +2438,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154407344332083292.png",
       "originalSHA256": "5b29ed02071fd5c00c4e9f7b8e6e0073631fe09aa9a3191730ce07de2a0ed92f",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154407344332083292-5b29ed02071f.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154407344332083292-5b29ed02071f.png",
+        "bytes": 2056001,
+        "sha256": "5b29ed02071fd5c00c4e9f7b8e6e0073631fe09aa9a3191730ce07de2a0ed92f",
+        "etag": "\"55440b03166640ce134719d64da3ce17\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154407344332083292.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154408054574563408",
@@ -2094,7 +2493,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154408054574563408.png",
       "originalSHA256": "115de45231e8b220f17918835ef4596524e70d79917e27f79fcf561317f5a643",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154408054574563408-115de45231e8.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154408054574563408-115de45231e8.png",
+        "bytes": 851626,
+        "sha256": "115de45231e8b220f17918835ef4596524e70d79917e27f79fcf561317f5a643",
+        "etag": "\"7351f0838b63e90b0fa723db858c3b0b\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154408054574563408.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154460606041174116",
@@ -2141,7 +2552,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154460606041174116.png",
       "originalSHA256": "e5d174eb61909d8ea0baf780417fb2d513368e30c8cdc710a35cadd5184ae0b6",
-      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-afternoon8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154460606041174116-e5d174eb6190.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154460606041174116-e5d174eb6190.png",
+        "bytes": 1086332,
+        "sha256": "e5d174eb61909d8ea0baf780417fb2d513368e30c8cdc710a35cadd5184ae0b6",
+        "etag": "\"a53a78b6c6d5e0d82a0da556086197a1\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154460606041174116.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154464052869869680",
@@ -2184,7 +2607,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154464052869869680.png",
       "originalSHA256": "46ebc4c23d35b27006fe61d37be0f1a267f1e285b6b9819b0ad456becd8f208f",
-      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154464052869869680-46ebc4c23d35.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154464052869869680-46ebc4c23d35.png",
+        "bytes": 2034132,
+        "sha256": "46ebc4c23d35b27006fe61d37be0f1a267f1e285b6b9819b0ad456becd8f208f",
+        "etag": "\"40a0e8e0105a67f38bdf9107670a0e0f\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154464052869869680.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154554570899472404",
@@ -2252,7 +2687,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154554570899472404.jpg",
       "originalSHA256": "0b00b7560a17193c2f294aec4557bf2c5ab5b6655c6c2bfebf710e95d5d0aea8",
-      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154554570899472404-0b00b7560a17.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154554570899472404-0b00b7560a17.jpg",
+        "bytes": 103905,
+        "sha256": "0b00b7560a17193c2f294aec4557bf2c5ab5b6655c6c2bfebf710e95d5d0aea8",
+        "etag": "\"e9635459e4a13df103e91da628e45359\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154554570899472404.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154554739619532830",
@@ -2324,7 +2771,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154554739619532830.jpg",
       "originalSHA256": "cdd45891c0bd261102066becdd18538175fd6c2697a44c0c449b6896c11fe4ba",
-      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154554739619532830-cdd45891c0bd.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154554739619532830-cdd45891c0bd.jpg",
+        "bytes": 97287,
+        "sha256": "cdd45891c0bd261102066becdd18538175fd6c2697a44c0c449b6896c11fe4ba",
+        "etag": "\"7f00f9d7f4ad4d5094f854688424a4d1\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154554739619532830.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154748927128649748",
@@ -2396,7 +2855,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154748927128649748.png",
       "originalSHA256": "7eefcaa0efba764ca9cde42d122f087f03af54d4e485d075f95f2decd3ab9831",
-      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154748927128649748-7eefcaa0efba.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154748927128649748-7eefcaa0efba.png",
+        "bytes": 1807634,
+        "sha256": "7eefcaa0efba764ca9cde42d122f087f03af54d4e485d075f95f2decd3ab9831",
+        "etag": "\"42f626ab7656e6ca4ccba65cf427cb35\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154748927128649748.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154776770164314132",
@@ -2439,7 +2910,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154776770164314132.png",
       "originalSHA256": "ca06ddaecb50ff4b96d4a483e56aa82b1237205a911a62421c13817ce66b1183",
-      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154776770164314132-ca06ddaecb50.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154776770164314132-ca06ddaecb50.png",
+        "bytes": 1183851,
+        "sha256": "ca06ddaecb50ff4b96d4a483e56aa82b1237205a911a62421c13817ce66b1183",
+        "etag": "\"e830fe19a3bc499d4b1dd3fa00ff849e\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154776770164314132.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154777479354011658",
@@ -2507,7 +2990,19 @@
       "disposition": "reviewed",
       "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154777479354011658.jpg",
-      "originalSHA256": "2a0f4c786e87d93800259ba7fadc62295d27e98c7dedcfffa3792858dcb7cefe"
+      "originalSHA256": "2a0f4c786e87d93800259ba7fadc62295d27e98c7dedcfffa3792858dcb7cefe",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154777479354011658-2a0f4c786e87.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154777479354011658-2a0f4c786e87.jpg",
+        "bytes": 99279,
+        "sha256": "2a0f4c786e87d93800259ba7fadc62295d27e98c7dedcfffa3792858dcb7cefe",
+        "etag": "\"fc0c6413f6312413acf34c56b591dc79\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154777479354011658.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154802067743981599",
@@ -2580,7 +3075,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154802067743981599.jpg",
       "originalSHA256": "5082ad04c4518f2feb74527bd2194b96d24c603ba3441e1bd434dfb557478752",
-      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154802067743981599-5082ad04c451.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154802067743981599-5082ad04c451.jpg",
+        "bytes": 106187,
+        "sha256": "5082ad04c4518f2feb74527bd2194b96d24c603ba3441e1bd434dfb557478752",
+        "etag": "\"8fa29e576057396ca4767684cac47637\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154802067743981599.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154806551220068493",
@@ -2649,7 +3156,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1154806551220068493.jpg",
       "originalSHA256": "3034913a6fbaaf96effcd2d89b2c8573cb18fff80e73c1a87973fc3d1559f0aa",
-      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep21-22-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154806551220068493-3034913a6fba.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154806551220068493-3034913a6fba.jpg",
+        "bytes": 98201,
+        "sha256": "3034913a6fbaaf96effcd2d89b2c8573cb18fff80e73c1a87973fc3d1559f0aa",
+        "etag": "\"bec97e767de17de69e5b86ba81d684d4\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1154806551220068493.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154871261097382078",
@@ -2717,7 +3236,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154871261097382078.png",
       "originalSHA256": "b42887e9b8ef7d3d2cb809868da7304b75878a1df6bc818a528d5a31bfb84362",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154871261097382078-b42887e9b8ef.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154871261097382078-b42887e9b8ef.png",
+        "bytes": 1835509,
+        "sha256": "b42887e9b8ef7d3d2cb809868da7304b75878a1df6bc818a528d5a31bfb84362",
+        "etag": "\"d932860fdf76eee9699f75fdcf7dce16\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154871261097382078.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1154905755577749544",
@@ -2789,7 +3320,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1154905755577749544.png",
       "originalSHA256": "9ca767aeee1afd8f4ba3a9597d1a04bf8bb1377206c81632a899e49b5c7b1ac5",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1154905755577749544-9ca767aeee1a.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1154905755577749544-9ca767aeee1a.png",
+        "bytes": 1089568,
+        "sha256": "9ca767aeee1afd8f4ba3a9597d1a04bf8bb1377206c81632a899e49b5c7b1ac5",
+        "etag": "\"2daf125647ed14b013f47aba6d4306f3\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1154905755577749544.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155140116189298818",
@@ -2841,7 +3384,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1155140116189298818.png",
       "originalSHA256": "c9190498a0392d265e3446a920f717cdbd9d4cb48e1ff67d90247c86102b8811",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155140116189298818-c9190498a039.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155140116189298818-c9190498a039.png",
+        "bytes": 1710599,
+        "sha256": "c9190498a0392d265e3446a920f717cdbd9d4cb48e1ff67d90247c86102b8811",
+        "etag": "\"6663e5891ab85267f6e5ea8d655c5a17\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1155140116189298818.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155155169772843100",
@@ -2892,7 +3447,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155155169772843100.png",
       "originalSHA256": "a84ec8fd7413f7426cc7447d6d1b5ce5e04e3f647e8f56bba39b0242c2a0f667",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155155169772843100-a84ec8fd7413.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155155169772843100-a84ec8fd7413.png",
+        "bytes": 1056113,
+        "sha256": "a84ec8fd7413f7426cc7447d6d1b5ce5e04e3f647e8f56bba39b0242c2a0f667",
+        "etag": "\"82b712c6a5cd8a267180744a447b8965\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155155169772843100.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155158289869443163",
@@ -2919,9 +3486,34 @@
       "localFiles": [],
       "canonicalMatches": [],
       "priorReviewAudits": [],
-      "disposition": "original-recovery-required",
+      "disposition": "recovered-original-machine-reviewed-canonical-pending",
       "lastRecoveryHTTPStatus": 403,
-      "recoveryAudit": "archive/anniversary2023-missing-original-recovery-attempt-20261008.json"
+      "recoveryAudit": "archive/anniversary2023-missing-original-recovery-attempt-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155158289869443163-33b78e509059.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155158289869443163-33b78e509059.png",
+        "bytes": 2006145,
+        "sha256": "33b78e5090595ed8d65c6290e638ac18571d3b4a7496fb59d94814ffbfe89834",
+        "etag": "\"89affdf8b572b44a909dc7aa869e81ce\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155158289869443163.png",
+      "originalSHA256": "33b78e5090595ed8d65c6290e638ac18571d3b4a7496fb59d94814ffbfe89834",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source",
+      "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155158289869443163.png",
+      "freshRecoveryReview": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "sourceResult": {
+        "courseId": "madrid-drive-3",
+        "player": "Remon",
+        "time": "1:20.29",
+        "laps": [
+          "40.18",
+          "40.11"
+        ],
+        "submittedAt": "2023-09-23T15:06:38.171Z"
+      }
     },
     {
       "attachmentId": "1155178167913418752",
@@ -2998,7 +3590,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1155178167913418752.jpg",
       "originalSHA256": "33eb94efce2bfb755ababa794644c9743d542c685a4aba7b2a516ecb65ed0e25",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155178167913418752-33eb94efce2b.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155178167913418752-33eb94efce2b.jpg",
+        "bytes": 96034,
+        "sha256": "33eb94efce2bfb755ababa794644c9743d542c685a4aba7b2a516ecb65ed0e25",
+        "etag": "\"c1447956b2c8dba8e70c5857b6d85492\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1155178167913418752.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155216798082420888",
@@ -3070,7 +3674,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155216798082420888.jpg",
       "originalSHA256": "03f87e269884ae550ec630ff339e67169b3c8ebacd562db84a82b4a49cc7e0b0",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155216798082420888-03f87e269884.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155216798082420888-03f87e269884.jpg",
+        "bytes": 92907,
+        "sha256": "03f87e269884ae550ec630ff339e67169b3c8ebacd562db84a82b4a49cc7e0b0",
+        "etag": "\"b7f67acc17e53e6154b69aae3426bde5\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155216798082420888.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155230394069831731",
@@ -3146,7 +3762,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155230394069831731.jpg",
       "originalSHA256": "d003b4c60782ab7837e51d2673d1e2935c649437c8a517ef952ab17ad092fcd0",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155230394069831731-d003b4c60782.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155230394069831731-d003b4c60782.jpg",
+        "bytes": 80374,
+        "sha256": "d003b4c60782ab7837e51d2673d1e2935c649437c8a517ef952ab17ad092fcd0",
+        "etag": "\"2f827df93163998fb0dfdb4786ed7030\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155230394069831731.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155232294114705550",
@@ -3214,7 +3842,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155232294114705550.jpg",
       "originalSHA256": "2a11c837c59a26abfd04376691308a24c88c688df55c79c7cb997be01ed6fb49",
-      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep22-23-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155232294114705550-2a11c837c59a.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155232294114705550-2a11c837c59a.jpg",
+        "bytes": 104094,
+        "sha256": "2a11c837c59a26abfd04376691308a24c88c688df55c79c7cb997be01ed6fb49",
+        "etag": "\"d364eab5963c47b3cbb1d88ccd8b60aa\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155232294114705550.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155235672949530765",
@@ -3258,7 +3898,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155235672949530765.webp",
       "originalSHA256": "0a9eae7f48e4038cc8efb06d8f10c4d37902058bd6db17ed67391e2f17c63b53",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155235672949530765-0a9eae7f48e4.webp",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155235672949530765-0a9eae7f48e4.webp",
+        "bytes": 18576,
+        "sha256": "0a9eae7f48e4038cc8efb06d8f10c4d37902058bd6db17ed67391e2f17c63b53",
+        "etag": "\"49cdd95b0845d144cba3807e6f7921da\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155235672949530765.webp",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155271027765563423",
@@ -3327,7 +3979,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155271027765563423.jpg",
       "originalSHA256": "9d9f3fa139e5bde4062e1e19831a63f526116fadf78201204a769a13ad3abadb",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155271027765563423-9d9f3fa139e5.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155271027765563423-9d9f3fa139e5.jpg",
+        "bytes": 97943,
+        "sha256": "9d9f3fa139e5bde4062e1e19831a63f526116fadf78201204a769a13ad3abadb",
+        "etag": "\"c3e631df95e7bb485c6c0ca70b973395\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155271027765563423.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155303011950788618",
@@ -3370,7 +4034,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155303011950788618.png",
       "originalSHA256": "3a777e6e462da56dffb020e0a8182e622a867d3dec345b794bade245c32bc9ca",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155303011950788618-3a777e6e462d.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155303011950788618-3a777e6e462d.png",
+        "bytes": 4239643,
+        "sha256": "3a777e6e462da56dffb020e0a8182e622a867d3dec345b794bade245c32bc9ca",
+        "etag": "\"1c08d959d4dea05b47f14089d186769f\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155303011950788618.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155311519513464923",
@@ -3422,7 +4098,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1155311519513464923.png",
       "originalSHA256": "7f3f395ee28c0b048ff05aaa98a643eebfdd8a6253e0f98fee2eb85e3ed1c5c1",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155311519513464923-7f3f395ee28c.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155311519513464923-7f3f395ee28c.png",
+        "bytes": 2064987,
+        "sha256": "7f3f395ee28c0b048ff05aaa98a643eebfdd8a6253e0f98fee2eb85e3ed1c5c1",
+        "etag": "\"568c055bd74ff895cf15c4d31607cb67\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1155311519513464923.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155324577673650197",
@@ -3494,7 +4182,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155324577673650197.png",
       "originalSHA256": "22b0e4cca2f9b4907e6044de9e5dd71aa45304eb802a79b4e8036e8afe9ba07d",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155324577673650197-22b0e4cca2f9.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155324577673650197-22b0e4cca2f9.png",
+        "bytes": 2161668,
+        "sha256": "22b0e4cca2f9b4907e6044de9e5dd71aa45304eb802a79b4e8036e8afe9ba07d",
+        "etag": "\"431efa0b2be6e2c0f07fe25551cb13e0\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155324577673650197.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155333757813919784",
@@ -3567,7 +4267,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1155333757813919784.png",
       "originalSHA256": "e51703582c3439910abfadd1929bae25dea28ce31d2a19fa86497b99854ed2dc",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155333757813919784-e51703582c34.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155333757813919784-e51703582c34.png",
+        "bytes": 2108196,
+        "sha256": "e51703582c3439910abfadd1929bae25dea28ce31d2a19fa86497b99854ed2dc",
+        "etag": "\"cb9a8e96eaced0aeace6c390a8fbed92\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1155333757813919784.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155404845503742043",
@@ -3619,7 +4331,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1155404845503742043.png",
       "originalSHA256": "908ec3b40d3f22dc203963ffa9b517d8057678dfc8ca271b8c6b40583093d906",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155404845503742043-908ec3b40d3f.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155404845503742043-908ec3b40d3f.png",
+        "bytes": 2088357,
+        "sha256": "908ec3b40d3f22dc203963ffa9b517d8057678dfc8ca271b8c6b40583093d906",
+        "etag": "\"298183dcc024301b7557142a9e2eda43\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1155404845503742043.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155404972238835803",
@@ -3671,7 +4395,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155404972238835803.png",
       "originalSHA256": "8bdf20de8ecbf305c7be6347f4f30eaf4cbeed7ee4f8a86502dc22603b812982",
-      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep23-24-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155404972238835803-8bdf20de8ecb.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155404972238835803-8bdf20de8ecb.png",
+        "bytes": 1687592,
+        "sha256": "8bdf20de8ecbf305c7be6347f4f30eaf4cbeed7ee4f8a86502dc22603b812982",
+        "etag": "\"7461309eea7efb7ba8ca1292bf5aa806\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155404972238835803.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155405088622395423",
@@ -3722,7 +4458,19 @@
       "disposition": "reviewed",
       "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155405088622395423.png",
-      "originalSHA256": "8bdf20de8ecbf305c7be6347f4f30eaf4cbeed7ee4f8a86502dc22603b812982"
+      "originalSHA256": "8bdf20de8ecbf305c7be6347f4f30eaf4cbeed7ee4f8a86502dc22603b812982",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155405088622395423-8bdf20de8ecb.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155405088622395423-8bdf20de8ecb.png",
+        "bytes": 1687592,
+        "sha256": "8bdf20de8ecbf305c7be6347f4f30eaf4cbeed7ee4f8a86502dc22603b812982",
+        "etag": "\"7461309eea7efb7ba8ca1292bf5aa806\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155405088622395423.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155419389668110418",
@@ -3794,7 +4542,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155419389668110418.jpg",
       "originalSHA256": "a71737496fd1425441f56fd4f9bb1482295060cded436b9446537703203db7e5",
-      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155419389668110418-a71737496fd1.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155419389668110418-a71737496fd1.jpg",
+        "bytes": 98525,
+        "sha256": "a71737496fd1425441f56fd4f9bb1482295060cded436b9446537703203db7e5",
+        "etag": "\"daab95ce210f74668d53f5cf28ade3d4\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155419389668110418.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155446088568946708",
@@ -3831,9 +4591,10 @@
       "priorReviewAudits": [
         "archive/anniversary2023-missing-m3-original-proof-check-20261005.json"
       ],
-      "disposition": "original-recovery-required",
+      "disposition": "cancelled-original-unavailable",
       "lastRecoveryHTTPStatus": 403,
-      "recoveryAudit": "archive/anniversary2023-missing-original-recovery-attempt-20261008.json"
+      "recoveryAudit": "archive/anniversary2023-missing-original-recovery-attempt-20261008.json",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json"
     },
     {
       "attachmentId": "1155446896177975386",
@@ -3906,7 +4667,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1155446896177975386.png",
       "originalSHA256": "c8f08a04f1ab0698c2de2dbb5c8c444fa97bf85d658089d818886970e377d474",
-      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155446896177975386-c8f08a04f1ab.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155446896177975386-c8f08a04f1ab.png",
+        "bytes": 1853690,
+        "sha256": "c8f08a04f1ab0698c2de2dbb5c8c444fa97bf85d658089d818886970e377d474",
+        "etag": "\"aa6cb531a8ca1dbe60cee43d33d48be0\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1155446896177975386.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155463036182736966",
@@ -3974,7 +4747,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155463036182736966.png",
       "originalSHA256": "59351c26660ff794496d11771286ac7ab5f1dfff561a9acceaf275738e3c6c8a",
-      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155463036182736966-59351c26660f.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155463036182736966-59351c26660f.png",
+        "bytes": 1626767,
+        "sha256": "59351c26660ff794496d11771286ac7ab5f1dfff561a9acceaf275738e3c6c8a",
+        "etag": "\"5c2fc4a7005f5c939d7615cd29b2e066\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155463036182736966.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155463319851909130",
@@ -4054,7 +4839,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155463319851909130.jpg",
       "originalSHA256": "920f2d35c8c22c844b02ad789989512bc7df2454189e605378a58b262f882da0",
-      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155463319851909130-920f2d35c8c2.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155463319851909130-920f2d35c8c2.jpg",
+        "bytes": 97141,
+        "sha256": "920f2d35c8c22c844b02ad789989512bc7df2454189e605378a58b262f882da0",
+        "etag": "\"d8f389a48fc8e513b29801607b3c04d4\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155463319851909130.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155477904688427019",
@@ -4122,7 +4919,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155477904688427019.png",
       "originalSHA256": "9d0de5dabd67a8ff48092cae6d2741c706d10fd59d197b1d09a1e71d9470b1d0",
-      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155477904688427019-9d0de5dabd67.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155477904688427019-9d0de5dabd67.png",
+        "bytes": 1640591,
+        "sha256": "9d0de5dabd67a8ff48092cae6d2741c706d10fd59d197b1d09a1e71d9470b1d0",
+        "etag": "\"64737eedf53333a4031c39c73a754c7f\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155477904688427019.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155493983905132555",
@@ -4190,7 +4999,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155493983905132555.png",
       "originalSHA256": "bca23fb303ef701c78962f837361bbfe36562c0581f76694b4535c48e5bbe54e",
-      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155493983905132555-bca23fb303ef.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155493983905132555-bca23fb303ef.png",
+        "bytes": 1836011,
+        "sha256": "bca23fb303ef701c78962f837361bbfe36562c0581f76694b4535c48e5bbe54e",
+        "etag": "\"d789326aa25569e26ab33770b292ac3c\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155493983905132555.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155502001656954900",
@@ -4258,7 +5079,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155502001656954900.jpg",
       "originalSHA256": "b463fec21befa23bdff1dbf4d73d6df0bd1a10fd308c9c9ce77933940bd08849",
-      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-morning8-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155502001656954900-b463fec21bef.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155502001656954900-b463fec21bef.jpg",
+        "bytes": 140279,
+        "sha256": "b463fec21befa23bdff1dbf4d73d6df0bd1a10fd308c9c9ce77933940bd08849",
+        "etag": "\"4f4ba6b23d7970c2d786f91dc2f53385\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155502001656954900.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155523624606900254",
@@ -4327,7 +5160,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1155523624606900254.png",
       "originalSHA256": "ee141bc05054a2f324741ba2108019b2ef3801483d840e688199a7687205110d",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155523624606900254-ee141bc05054.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155523624606900254-ee141bc05054.png",
+        "bytes": 945452,
+        "sha256": "ee141bc05054a2f324741ba2108019b2ef3801483d840e688199a7687205110d",
+        "etag": "\"04c030b0d8181098bca9a0c964b31a06\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1155523624606900254.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155561238558949526",
@@ -4399,7 +5244,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155561238558949526.png",
       "originalSHA256": "7192d5aeed8a4a57550bcbf5455fd474e130706c6a977565e02d051405ecbaf7",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155561238558949526-7192d5aeed8a.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155561238558949526-7192d5aeed8a.png",
+        "bytes": 2048428,
+        "sha256": "7192d5aeed8a4a57550bcbf5455fd474e130706c6a977565e02d051405ecbaf7",
+        "etag": "\"e47dcb64142e1e465892b9872bb7788e\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155561238558949526.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155579969217499146",
@@ -4471,7 +5328,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155579969217499146.jpg",
       "originalSHA256": "7cb7d3ff7476b99b18f967b722a8dc6f4c37bd938c53c6b7c112feaa6a79e127",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155579969217499146-7cb7d3ff7476.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155579969217499146-7cb7d3ff7476.jpg",
+        "bytes": 97232,
+        "sha256": "7cb7d3ff7476b99b18f967b722a8dc6f4c37bd938c53c6b7c112feaa6a79e127",
+        "etag": "\"9a4d1a434f646f1b0e224673e0200e79\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155579969217499146.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155609283182985246",
@@ -4543,7 +5412,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155609283182985246.png",
       "originalSHA256": "f9b1bba6230a8376a60f83fb887ce98b19e9c26e8d9609e489ecdd7d65650305",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155609283182985246-f9b1bba6230a.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155609283182985246-f9b1bba6230a.png",
+        "bytes": 1873096,
+        "sha256": "f9b1bba6230a8376a60f83fb887ce98b19e9c26e8d9609e489ecdd7d65650305",
+        "etag": "\"fdaa14764b7277252458ac97a83610dd\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155609283182985246.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155668116722942063",
@@ -4611,7 +5492,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155668116722942063.png",
       "originalSHA256": "f6dbf0f5b177212c1aab6b56c92911db4f054a9446aa02205e30f1929817a577",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155668116722942063-f6dbf0f5b177.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155668116722942063-f6dbf0f5b177.png",
+        "bytes": 1865805,
+        "sha256": "f6dbf0f5b177212c1aab6b56c92911db4f054a9446aa02205e30f1929817a577",
+        "etag": "\"dbaa1e98905b958cfc3648fe50215ea9\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155668116722942063.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155681002849570976",
@@ -4683,7 +5576,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155681002849570976.png",
       "originalSHA256": "1de7bb68bd8cdcfdbac9387aef34967e01c92179bf087af87be6a6d6c436d177",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155681002849570976-1de7bb68bd8c.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155681002849570976-1de7bb68bd8c.png",
+        "bytes": 826761,
+        "sha256": "1de7bb68bd8cdcfdbac9387aef34967e01c92179bf087af87be6a6d6c436d177",
+        "etag": "\"984f43d109149d658c4bdda842cc6c03\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155681002849570976.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155833135796338768",
@@ -4755,7 +5660,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155833135796338768.png",
       "originalSHA256": "337f6394abb243779cfafe16dca7682967d95531a169d59a6c7329338091afe3",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155833135796338768-337f6394abb2.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155833135796338768-337f6394abb2.png",
+        "bytes": 3243468,
+        "sha256": "337f6394abb243779cfafe16dca7682967d95531a169d59a6c7329338091afe3",
+        "etag": "\"0bdedd5ef0feb72ef8043b67b0ad42ad\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155833135796338768.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155865766017650728",
@@ -4827,7 +5744,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155865766017650728.jpg",
       "originalSHA256": "13736daa6772cd096f1c42b1ca59c15dca851c51479d6151f03e56764a823c84",
-      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep24-25-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155865766017650728-13736daa6772.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155865766017650728-13736daa6772.jpg",
+        "bytes": 106595,
+        "sha256": "13736daa6772cd096f1c42b1ca59c15dca851c51479d6151f03e56764a823c84",
+        "etag": "\"893d09504d8a354a33d7194ac262aca5\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155865766017650728.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155873021622489241",
@@ -4899,7 +5828,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155873021622489241.jpg",
       "originalSHA256": "21d775d9f3e9919d44d9c94f88ad08cdfe2fff459b2f399857fae1a069e8d260",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155873021622489241-21d775d9f3e9.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155873021622489241-21d775d9f3e9.jpg",
+        "bytes": 104255,
+        "sha256": "21d775d9f3e9919d44d9c94f88ad08cdfe2fff459b2f399857fae1a069e8d260",
+        "etag": "\"35e84eac7d084c989a63072c59ca9d07\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155873021622489241.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1155879519551488122",
@@ -4967,7 +5908,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1155879519551488122.jpg",
       "originalSHA256": "4769c483947db43c8ef23d808d5f94417893a87eac9a8c94fe32b2d8af5f7f5a",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1155879519551488122-4769c483947d.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1155879519551488122-4769c483947d.jpg",
+        "bytes": 104101,
+        "sha256": "4769c483947db43c8ef23d808d5f94417893a87eac9a8c94fe32b2d8af5f7f5a",
+        "etag": "\"40dc9f5a49774036c752f0e32d075f78\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1155879519551488122.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156529955237285938",
@@ -5043,7 +5996,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156529955237285938.jpg",
       "originalSHA256": "8b7bb4de3ba7cbad1f9d3c0ad12adfc64d5a6bf30f5692f508f3c82b3f1d8f1d",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156529955237285938-8b7bb4de3ba7.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156529955237285938-8b7bb4de3ba7.jpg",
+        "bytes": 97797,
+        "sha256": "8b7bb4de3ba7cbad1f9d3c0ad12adfc64d5a6bf30f5692f508f3c82b3f1d8f1d",
+        "etag": "\"cdd4b49625defce57d3928f66b2fd1ee\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156529955237285938.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156559419329499166",
@@ -5115,7 +6080,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156559419329499166.jpg",
       "originalSHA256": "7eaab46cf8332545fe30ac647412145fa9200bf241d3340a7ab561da1c2fcf59",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156559419329499166-7eaab46cf833.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156559419329499166-7eaab46cf833.jpg",
+        "bytes": 98682,
+        "sha256": "7eaab46cf8332545fe30ac647412145fa9200bf241d3340a7ab561da1c2fcf59",
+        "etag": "\"f0fd988c79ec3ad80104580283dce8b5\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156559419329499166.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156559475063398520",
@@ -5187,7 +6164,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156559475063398520.jpg",
       "originalSHA256": "9296338bcc44a8b7c6aeaf9c844a1f28500cdcd2511ea7b2db59a778132e272c",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156559475063398520-9296338bcc44.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156559475063398520-9296338bcc44.jpg",
+        "bytes": 97732,
+        "sha256": "9296338bcc44a8b7c6aeaf9c844a1f28500cdcd2511ea7b2db59a778132e272c",
+        "etag": "\"fb5f0b362e0e25acfdb763d331eb5a7b\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156559475063398520.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156561115543777330",
@@ -5259,7 +6248,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156561115543777330.png",
       "originalSHA256": "d5402ecf3452c73b637116a37bf18fe1f928e0ddbc4cbdc8d786e9861bc71c46",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156561115543777330-d5402ecf3452.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156561115543777330-d5402ecf3452.png",
+        "bytes": 2285211,
+        "sha256": "d5402ecf3452c73b637116a37bf18fe1f928e0ddbc4cbdc8d786e9861bc71c46",
+        "etag": "\"3d484970aa95af1dee18211d6008773d\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156561115543777330.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156724756477902858",
@@ -5327,7 +6328,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156724756477902858.jpg",
       "originalSHA256": "d049ce008fa572f5773153841dceba42cbedd790bc2e62d808d75d84519068c0",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156724756477902858-d049ce008fa5.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156724756477902858-d049ce008fa5.jpg",
+        "bytes": 98498,
+        "sha256": "d049ce008fa572f5773153841dceba42cbedd790bc2e62d808d75d84519068c0",
+        "etag": "\"3c471e1e66ccaffe06d3a4da45a05a23\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156724756477902858.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156753219284901978",
@@ -5395,7 +6408,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156753219284901978.png",
       "originalSHA256": "975c81db56a792fca56d14feacfdbc3e5ff85f6e172b218edefb79057e18f282",
-      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep25-27-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156753219284901978-975c81db56a7.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156753219284901978-975c81db56a7.png",
+        "bytes": 1699819,
+        "sha256": "975c81db56a792fca56d14feacfdbc3e5ff85f6e172b218edefb79057e18f282",
+        "etag": "\"49db93b5bd05d51ee9b3eff18ba6d482\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156753219284901978.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156766913272217620",
@@ -5438,7 +6463,19 @@
       "disposition": "reviewed-identity-unresolved",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156766913272217620.png",
       "originalSHA256": "7d212e7c6779be021f2df0a504637e6fff6cc52c09c03e5b065aabe223bd4c2f",
-      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156766913272217620-7d212e7c6779.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156766913272217620-7d212e7c6779.png",
+        "bytes": 2055252,
+        "sha256": "7d212e7c6779be021f2df0a504637e6fff6cc52c09c03e5b065aabe223bd4c2f",
+        "etag": "\"ffadd8cd1e3b731e53c5d5c83d56ff8d\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156766913272217620.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156909770721206354",
@@ -5514,7 +6551,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156909770721206354.jpg",
       "originalSHA256": "51acb3ae124d6beaeaeae6c36319fa34b2a6fa4d3cd738aa6c29d9e7d7f0bede",
-      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156909770721206354-51acb3ae124d.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156909770721206354-51acb3ae124d.jpg",
+        "bytes": 95549,
+        "sha256": "51acb3ae124d6beaeaeae6c36319fa34b2a6fa4d3cd738aa6c29d9e7d7f0bede",
+        "etag": "\"468ca11ed2ec2e0263d5fa64548745f4\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156909770721206354.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156920908888424468",
@@ -5586,7 +6635,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156920908888424468.png",
       "originalSHA256": "f0b38d22b83468f03cd89b615878d548cde967ec2199265828f0816d00c28ef5",
-      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156920908888424468-f0b38d22b834.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156920908888424468-f0b38d22b834.png",
+        "bytes": 3459836,
+        "sha256": "f0b38d22b83468f03cd89b615878d548cde967ec2199265828f0816d00c28ef5",
+        "etag": "\"04dae96c49a574a5f4cb51d76363f3e1\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156920908888424468.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156921106704375920",
@@ -5628,7 +6689,19 @@
       "disposition": "reviewed",
       "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156921106704375920.png",
-      "originalSHA256": "3a777e6e462da56dffb020e0a8182e622a867d3dec345b794bade245c32bc9ca"
+      "originalSHA256": "3a777e6e462da56dffb020e0a8182e622a867d3dec345b794bade245c32bc9ca",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156921106704375920-3a777e6e462d.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156921106704375920-3a777e6e462d.png",
+        "bytes": 4239643,
+        "sha256": "3a777e6e462da56dffb020e0a8182e622a867d3dec345b794bade245c32bc9ca",
+        "etag": "\"1c08d959d4dea05b47f14089d186769f\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156921106704375920.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156941239556522044",
@@ -5700,7 +6773,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156941239556522044.png",
       "originalSHA256": "738285fb6df183c9d4c2a59bbbea16ac4bb00a04e147f8359461d11fa810709a",
-      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156941239556522044-738285fb6df1.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156941239556522044-738285fb6df1.png",
+        "bytes": 909205,
+        "sha256": "738285fb6df183c9d4c2a59bbbea16ac4bb00a04e147f8359461d11fa810709a",
+        "etag": "\"350912c10fe6ebe8b3c858921ab77633\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156941239556522044.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156950245599617084",
@@ -5752,7 +6837,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1156950245599617084.png",
       "originalSHA256": "a40fea7d7bbe3e4dabeed793d98ed6a8901308d1df8ca819abc8abe680edfe60",
-      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156950245599617084-a40fea7d7bbe.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156950245599617084-a40fea7d7bbe.png",
+        "bytes": 1684340,
+        "sha256": "a40fea7d7bbe3e4dabeed793d98ed6a8901308d1df8ca819abc8abe680edfe60",
+        "etag": "\"87dd68805f889f3c5e91b1d90bd3912d\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1156950245599617084.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156954009966481449",
@@ -5832,7 +6929,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156954009966481449.png",
       "originalSHA256": "4be7e838e1e5c3fce0751cfbe79ff7552833f3dc1fbd15a5cba63da2ca88509e",
-      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156954009966481449-4be7e838e1e5.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156954009966481449-4be7e838e1e5.png",
+        "bytes": 2231536,
+        "sha256": "4be7e838e1e5c3fce0751cfbe79ff7552833f3dc1fbd15a5cba63da2ca88509e",
+        "etag": "\"5a03757bb1306bec875ea51495d4d31d\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156954009966481449.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156959681323995156",
@@ -5900,7 +7009,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156959681323995156.png",
       "originalSHA256": "2e8dee907e003b32a104b34ec00e41482d543a92ce22727bac774c37fe33fcb7",
-      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep27-28-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156959681323995156-2e8dee907e00.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156959681323995156-2e8dee907e00.png",
+        "bytes": 1638204,
+        "sha256": "2e8dee907e003b32a104b34ec00e41482d543a92ce22727bac774c37fe33fcb7",
+        "etag": "\"436870511b525e50bb46a7ddb212e1ea\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156959681323995156.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156976980332392599",
@@ -5952,7 +7073,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1156976980332392599.png",
       "originalSHA256": "0bbf20b40bf57ee2991e3aa8978e9b46409f16e99f1141ca2177e890cb7e524f",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156976980332392599-0bbf20b40bf5.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156976980332392599-0bbf20b40bf5.png",
+        "bytes": 1733191,
+        "sha256": "0bbf20b40bf57ee2991e3aa8978e9b46409f16e99f1141ca2177e890cb7e524f",
+        "etag": "\"dd0486dd1810606c5371eab4aa239c21\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1156976980332392599.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1156982386857345146",
@@ -6025,7 +7158,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1156982386857345146.jpg",
       "originalSHA256": "254e55ad7d60e13e539b80401961d4ccb167e318323bfbf50430b702d1d64646",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1156982386857345146-254e55ad7d60.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1156982386857345146-254e55ad7d60.jpg",
+        "bytes": 93690,
+        "sha256": "254e55ad7d60e13e539b80401961d4ccb167e318323bfbf50430b702d1d64646",
+        "etag": "\"c28bcfa9f3d3c85c517c3a2b7c0c2a91\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1156982386857345146.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "late-Sundae-result-retained-separately"
     },
     {
       "attachmentId": "1157001764197896334",
@@ -6093,7 +7238,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1157001764197896334.jpg",
       "originalSHA256": "6fc3e422ac7caaba7bd674d95b513aba7441cc998b89c037bbae3d7c25afbadc",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157001764197896334-6fc3e422ac7c.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157001764197896334-6fc3e422ac7c.jpg",
+        "bytes": 93935,
+        "sha256": "6fc3e422ac7caaba7bd674d95b513aba7441cc998b89c037bbae3d7c25afbadc",
+        "etag": "\"cde97c8be696c9956b0571f9cded840c\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1157001764197896334.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157102529713295470",
@@ -6161,7 +7318,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1157102529713295470.png",
       "originalSHA256": "0615ac096bb6d683beadcca3a31f54ea3168164080b6cabd1ad1207c15d4f06e",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157102529713295470-0615ac096bb6.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157102529713295470-0615ac096bb6.png",
+        "bytes": 1690323,
+        "sha256": "0615ac096bb6d683beadcca3a31f54ea3168164080b6cabd1ad1207c15d4f06e",
+        "etag": "\"4d664926aec27ce4b8ec920517321670\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1157102529713295470.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157148223434149898",
@@ -6234,7 +7403,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1157148223434149898.png",
       "originalSHA256": "cca3c22edac8503ed84c6a44d06d483a627b879d337ed9c27c32fefbef84ea6a",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157148223434149898-cca3c22edac8.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157148223434149898-cca3c22edac8.png",
+        "bytes": 2078949,
+        "sha256": "cca3c22edac8503ed84c6a44d06d483a627b879d337ed9c27c32fefbef84ea6a",
+        "etag": "\"0ee965eba99a00807d67dc56a377216b\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1157148223434149898.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157224506289565706",
@@ -6306,7 +7487,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1157224506289565706.jpg",
       "originalSHA256": "f2eb843b393be7f6fd24c3c0377a5889dc24ac53765844f2cfa227bda52bd774",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157224506289565706-f2eb843b393b.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157224506289565706-f2eb843b393b.jpg",
+        "bytes": 97954,
+        "sha256": "f2eb843b393be7f6fd24c3c0377a5889dc24ac53765844f2cfa227bda52bd774",
+        "etag": "\"e253c9c58b66cb5ea5001a76b8c476cf\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1157224506289565706.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157227748755001354",
@@ -6378,7 +7571,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1157227748755001354.jpg",
       "originalSHA256": "a97f7e9a50ebe86ad96273d5fbd45680e3f22df460639eabfc1edb31a44e5337",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157227748755001354-a97f7e9a50eb.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157227748755001354-a97f7e9a50eb.jpg",
+        "bytes": 108221,
+        "sha256": "a97f7e9a50ebe86ad96273d5fbd45680e3f22df460639eabfc1edb31a44e5337",
+        "etag": "\"b636025c0711440263ac997772f54967\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1157227748755001354.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157240791996039209",
@@ -6446,7 +7651,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1157240791996039209.jpg",
       "originalSHA256": "9367512bc3010fcb3ca7d7662ce16a219a4e74e8789a397ce00f749cc1248502",
-      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-sep28-29-eight-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157240791996039209-9367512bc301.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157240791996039209-9367512bc301.jpg",
+        "bytes": 103447,
+        "sha256": "9367512bc3010fcb3ca7d7662ce16a219a4e74e8789a397ce00f749cc1248502",
+        "etag": "\"e3a9402cd382618da63d8c5d3e7bb9fd\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1157240791996039209.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157256195963367464",
@@ -6515,7 +7732,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1157256195963367464.jpg",
       "originalSHA256": "12b0e0d76f5394d78c0d3ebf3900727ad615327513fe8c5179caabbbdcdc55e1",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157256195963367464-12b0e0d76f53.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157256195963367464-12b0e0d76f53.jpg",
+        "bytes": 105278,
+        "sha256": "12b0e0d76f5394d78c0d3ebf3900727ad615327513fe8c5179caabbbdcdc55e1",
+        "etag": "\"03de4e973f75c45e82027887f918dfe0\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1157256195963367464.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157309813798228121",
@@ -6587,7 +7816,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1157309813798228121.png",
       "originalSHA256": "013bba0acd33ec1f7c457a59c8ab708e713496ddb62d1cf034f218ef0e87170a",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157309813798228121-013bba0acd33.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157309813798228121-013bba0acd33.png",
+        "bytes": 4213851,
+        "sha256": "013bba0acd33ec1f7c457a59c8ab708e713496ddb62d1cf034f218ef0e87170a",
+        "etag": "\"667ccbdb648902c6f3a6a8e5d31f1d28\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1157309813798228121.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1157354593303400540",
@@ -6651,7 +7892,19 @@
       ],
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/anniversary2023-1157354593303400540.png",
       "originalSHA256": "e2f93f39d095a869ee2433d99b2f4f9037b01321ef8be2a44255b1d3bbfafd7e",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1157354593303400540-e2f93f39d095.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1157354593303400540-e2f93f39d095.png",
+        "bytes": 3061177,
+        "sha256": "e2f93f39d095a869ee2433d99b2f4f9037b01321ef8be2a44255b1d3bbfafd7e",
+        "etag": "\"585e5a367841ca15aa125caf8a8182a3\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/anniversary2023-1157354593303400540.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1158089992606847006",
@@ -6723,7 +7976,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1158089992606847006.png",
       "originalSHA256": "9781e428e4c19084f36886d182fc54ad6485f55a8309ed6939eb64d2e1fd03cd",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1158089992606847006-9781e428e4c1.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1158089992606847006-9781e428e4c1.png",
+        "bytes": 1914757,
+        "sha256": "9781e428e4c19084f36886d182fc54ad6485f55a8309ed6939eb64d2e1fd03cd",
+        "etag": "\"eb16cd93219a5590238ca415cf195ae9\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1158089992606847006.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1158090136739905645",
@@ -6791,7 +8056,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1158090136739905645.png",
       "originalSHA256": "084681c0d3d4f739bd12ab13480c4e96d4cc5985d15b1a8972c77afd55c31fdb",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1158090136739905645-084681c0d3d4.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1158090136739905645-084681c0d3d4.png",
+        "bytes": 1778252,
+        "sha256": "084681c0d3d4f739bd12ab13480c4e96d4cc5985d15b1a8972c77afd55c31fdb",
+        "etag": "\"2f7bbd6be2b314d27d1fa5cf165d34f9\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1158090136739905645.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1158090477736824952",
@@ -6859,7 +8136,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1158090477736824952.png",
       "originalSHA256": "87b98bcfb3a1ced54c3479983e1b1f64c73eaf012c36d3744a796bfabc0852d9",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1158090477736824952-87b98bcfb3a1.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1158090477736824952-87b98bcfb3a1.png",
+        "bytes": 1934084,
+        "sha256": "87b98bcfb3a1ced54c3479983e1b1f64c73eaf012c36d3744a796bfabc0852d9",
+        "etag": "\"2ad36f1083d053541b28228c086cfaf8\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1158090477736824952.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1158894486953410600",
@@ -6914,7 +8203,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1158894486953410600.png",
       "originalSHA256": "1e51cbf025288b119e0e0ea3363639e0d765ba99267ae1ae62aacd2c15337881",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1158894486953410600-1e51cbf02528.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1158894486953410600-1e51cbf02528.png",
+        "bytes": 2046730,
+        "sha256": "1e51cbf025288b119e0e0ea3363639e0d765ba99267ae1ae62aacd2c15337881",
+        "etag": "\"5c6413287c45cc94aea67f27cf9f828f\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1158894486953410600.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1158910192214343700",
@@ -6957,7 +8258,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1158910192214343700.png",
       "originalSHA256": "9121a01441a388a81aea2b983d6ac07bf349e213a2dcae7ff8c516a35386d21b",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1158910192214343700-9121a01441a3.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1158910192214343700-9121a01441a3.png",
+        "bytes": 2424092,
+        "sha256": "9121a01441a388a81aea2b983d6ac07bf349e213a2dcae7ff8c516a35386d21b",
+        "etag": "\"620d990b861ef78b0fe9699c23b60fce\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1158910192214343700.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1158915117996593272",
@@ -7025,7 +8338,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1158915117996593272.jpg",
       "originalSHA256": "9f770a12e245b1a97dd99ee48288cb78a239384e0971467039e0c8f5a4b8575e",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1158915117996593272-9f770a12e245.jpg",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1158915117996593272-9f770a12e245.jpg",
+        "bytes": 50056,
+        "sha256": "9f770a12e245b1a97dd99ee48288cb78a239384e0971467039e0c8f5a4b8575e",
+        "etag": "\"af5b7539c3e53e5783434e9111ef32f1\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1158915117996593272.jpg",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     },
     {
       "attachmentId": "1158979456652820480",
@@ -7076,7 +8401,19 @@
       "disposition": "reviewed",
       "preservedOriginal": "archive/anniversary2023-preserved-original-images/1158979456652820480.png",
       "originalSHA256": "c4e2f6e830108c3044072ace081ecb61a4221b56864a13c99ec3f95a609beae3",
-      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json"
+      "reviewAudit": "archive/anniversary2023-final-ten-original-reconciliation-20261008.json",
+      "r2Original": {
+        "key": "assets/proof/anniversary2023-original-1158979456652820480-c4e2f6e83010.png",
+        "url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-1158979456652820480-c4e2f6e83010.png",
+        "bytes": 2085208,
+        "sha256": "c4e2f6e830108c3044072ace081ecb61a4221b56864a13c99ec3f95a609beae3",
+        "etag": "\"373f08093b67d4db08a0d28ad23dc016\"",
+        "r2FullObjectHashAndLengthVerified": true,
+        "publicByteRangeMatched": true
+      },
+      "originalFile": "archive/anniversary2023-preserved-original-images/1158979456652820480.png",
+      "preservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+      "tourDisposition": "Anniversary-result-source"
     }
   ],
   "priorReviewSources": [
@@ -7100,9 +8437,12 @@
   ],
   "priorReviewHandling": "Prior visual-review labels are provenance, not proof that canonical reconciliation or worldwide chronology is complete. Source-message-only canonical matches require course-specific checks.",
   "nextActions": [
-    "Reconcile available originals and earlier audits with canonical/public entries without duplicates.",
-    "Recover missing attachments and preserve original video evidence.",
-    "Resolve player attribution, caption discrepancies, worldwide precedence and playable reigns.",
-    "Continue 2019–2026 coverage; bounded source review is not historical completeness."
-  ]
+    "Reconcile104 current Anniversary image sources, nine completed-result movies, other bounded source context and ten Ryo attributions into unique canonical performances.",
+    "Retain final fastest first playable day and ties only; reconstruct later leaders by submission posting order.",
+    "Register preserved video URLs and distinguish original result submission, movie publication and first known share clocks; retain DIT unavailable video reference.",
+    "Generate all three complete course collections; verify full field/ID fidelity, player WR ownership, production build, rendered evidence links and exact Railway LIVE source before completion."
+  ],
+  "completeOriginalPreservationAudit": "archive/anniversary2023-complete-original-preservation-and-source-audit-20261014.json",
+  "practicalReviewComplete": false,
+  "publicationReady": false
 }
