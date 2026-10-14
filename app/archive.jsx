@@ -23,38 +23,10 @@ function Nation({ country }) {
   );
 }
 function RecordDate({ r }) {
-  if (!r.recordDate && !r.achievedAt && r.tourDateRange?.start === "2020-03-25")
-    return <span title={`Exact day unknown; set during ${r.tourDateRange.start} – ${r.tourDateRange.end}`}>Unknown; set during Hammer Bro Tour</span>;
-  return (
-    <span
-      title={
-        r.dateBasis === "recovered-source-publication"
-          ? "Recovered source posting date; exact run date and worldwide precedence unconfirmed"
-          : r.dateBasis === "first-screenshot-publication"
-          ? "Earliest known screenshot publication; race completion date unconfirmed"
-          : r.dateBasis === "submission-date"
-          ? "Date posted in the original submission"
-          : r.dateBasis === "proof-upload-date"
-            ? "Proof upload date within the recorded tour; achievement date unconfirmed"
-            : r.dateBasis === "source-date"
-              ? "Date documented in the linked historical source"
-            : r.tourDateRange
-              ? `Set during ${r.tourDateRange.start} – ${r.tourDateRange.end}; exact day unknown`
-              : undefined
-      }
-    >
-      {r.dateBasis === "recovered-source-publication"
-        ? `Source posted: ${date(r.recordDate)}; run date unknown`
-        : r.dateBasis === "first-screenshot-publication"
-        ? `Screenshot published: ${date(r.recordDate)}; achievement date unknown`
-        : r.dateBasis === "proof-upload-date"
-          ? `Proof uploaded: ${date(r.recordDate)}; achievement date unknown`
-          : r.dateUnresolved && !r.achievedAt
-            ? "Achievement date unknown"
-            : date(r.recordDate || r.achievedAt)}
-
-    </span>
-  );
+  const day = r.recordDate || r.achievedAt || r.submittedAt;
+  if (!day && r.tourDateRange)
+    return <span title="The retrospective source identifies this tour, rather than a submission day.">{r.tourDateRange.start} – {r.tourDateRange.end}</span>;
+  return <span title="Submission date (UTC). The source posting date is used unless the evidence establishes another date.">{date(day)}</span>;
 }
 function Duration({ r }) {
   return (
@@ -81,29 +53,29 @@ function EvidenceTimes({ r }) {
   if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
-    {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Retrospective announcement; exact run date is unknown.</div></div>}
+    {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Retrospective announcement of the earlier tour result.</div></div>}
     {r.submittedAt && !shares.some(event => event.sharedAt === r.submittedAt) && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
       Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
       {source.forumTimezoneKnown !== true && " (timezone unknown)"}
       {source.forumLastEditDisplayed && <div>Last forum edit: {source.forumLastEditDisplayed}{source.forumTimezoneKnown !== true && " (timezone unknown)"}</div>}
-      <div>Displayed source clocks; exact race time and historical edit contents unconfirmed.</div>
+      <div>Dates follow the surviving posts. Historical edit contents remain unconfirmed.</div>
     </div>)}
 
     {(r.sourceReportTimes || []).map(source => <div key={source.url}>
       Discord report: <a href={source.url} target="_blank" rel="noopener noreferrer">{format(source.postedAt)}</a>
-      <div>Source-message posting time; race completion time is separate.</div>
+      <div>Source posting date used as the submission date unless other evidence establishes a different date.</div>
       {source.kind === "archived-cup-menu-image-post" && <div>Cup-menu result retained from prior image review; image contents have not been freshly verified. The poster does not establish the runner's identity.</div>}
     </div>)}
     {(r.resultReportTimes || []).map(report => <div key={report.url + "|" + report.reportedAt}>
       {report.imageReport ? "Runner result image posted: " : report.originalRunnerSubmission ? "Runner result report: " : "Third-party result report: "}
       <a href={report.url} target="_blank" rel="noopener noreferrer">{format(report.reportedAt)}</a>
       {report.imageReport && report.writtenTotalExplicit === false && <div>The caption does not state the exact total; this post is linked to the archived result image.</div>}
-      <div>Report posting time; exact race completion time is unconfirmed.</div>
+      <div>Posting date used as the submission date.</div>
     </div>)}
     {r.recoveredSourcePost && <div>
       Original source posted: <a href={r.recoveredSourcePost.url} target="_blank" rel="noopener noreferrer">{format(r.recoveredSourcePost.postedAt)}</a>
-      <div>Post metadata recovered; image contents and result total remain unverified. This is not a confirmed race or submission time.</div>
+      <div>Post metadata recovered; image contents and result total remain unverified. Posting metadata supplies the default submission date; it does not verify the result.</div>
     </div>}
     {r.earlierSubmissionReceipt?.publishedAt && <div>Earlier submission receipt: <a href={r.earlierSubmissionReceipt.url} target="_blank" rel="noopener noreferrer">{format(r.earlierSubmissionReceipt.publishedAt)}</a>{r.earlierSubmissionReceipt.originalHumanMessageUnavailableInLiveWindow && <div>Original human submission time remains unverified.</div>}</div>}
     {r.videoSubmittedAt && r.videoSubmittedAt !== r.submittedAt && <div>Video submitted: {r.videoSubmissionSource?.url ? <a href={r.videoSubmissionSource.url} target="_blank" rel="noopener noreferrer">{format(r.videoSubmittedAt)}</a> : format(r.videoSubmittedAt)}</div>}
@@ -228,7 +200,7 @@ function Notice() {
 function DateKey() {
   return (
     <p className="table-note">
-      Dates use original submissions (UTC) where available. Days count only playable
+      Dates use source posting dates as submission dates (UTC), unless the evidence establishes another date. Days count only playable
       Time Trial tours. — unknown. Times link to videos;{" "}
       <svg viewBox="0 0 20 16" width="13" height="11" aria-hidden="true">
         <rect
@@ -647,7 +619,7 @@ function HalloweenSupportingResults({ results, players }) {
   if (!results?.length) return null;
   return <details className="sources">
     <summary>Halloween Tour (2019) supporting results ({results.length})</summary>
-    <p className="table-note">Forum personal bests and original leaderboard entries preserved outside WR progression. Dates are documented source days; exact race times and missing videos remain unknown.</p>
+    <p className="table-note">Forum personal bests and original leaderboard entries preserved outside WR progression. Dates use the surviving posts as submission dates unless another date is established.</p>
     <div className="table-wrap"><table className="wr-table">
       <thead><tr><th>Time + video</th><th>Player</th><th>Documented day</th><th>Sources</th></tr></thead>
       <tbody>{results.map(r => <tr key={r.id}>
@@ -903,7 +875,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <h2>History</h2>
       {c.halloween2019Recording && <p className="table-note">Halloween Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive. Runs with unresolved dates remain under review.</p>}
       {c.paris2019Recording && <p className="table-note">Paris Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive.</p>}
-      {c.hammerRecoveredProgression?.length > 0 && <p className="table-note">Hammer Bro Tour history includes recovered leaders in surviving source posting order. Reports, screenshots and videos are labelled; posting dates are separate from unknown run dates. Recovered leaders receive no confirmed-WR count or reign credit until worldwide precedence is established. The final announced WR remains dated to the tour window.</p>}
+      {c.hammerRecoveredProgression?.length > 0 && <p className="table-note">Hammer Bro Tour history includes recovered leaders in surviving source posting order. Reports, screenshots and videos are labelled; their posting dates are used as submission dates unless other evidence establishes a different date. Recovered leaders receive no confirmed-WR count or reign credit until worldwide precedence is established. The final announced WR remains dated to the tour window.</p>}
       <RecordTable records={historyRecords} events={events} players={players} />
       <DateKey />
       <p className="table-note">
