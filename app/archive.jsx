@@ -46,7 +46,7 @@ function Duration({ r }) {
   );
 }
 function EvidenceTimes({ r }) {
-  const format = value => value ? value.replace("T", " ").replace(/\.\d+Z$/, " UTC").replace(/Z$/, " UTC") : null;
+  const format = value => value ? value.replace("T", " ").replace(/(?:\.\d+)?(?:Z|\+00:00)$/, " UTC") : null;
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
