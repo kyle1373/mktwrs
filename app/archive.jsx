@@ -599,6 +599,16 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <p className="table-note">{comparison.reportedRecording.evidenceNote}</p>
       <EvidenceTimes r={comparison.reportedRecording} />
     </>}
+    {comparison.referenceRecording && <>
+      <p>Unavailable recording reference: <strong>{comparison.referenceRecording.time}</strong> · <Player id={comparison.referenceRecording.playerId} players={players} /> · <a href={comparison.referenceRecording.video} target="_blank" rel="noopener noreferrer">Original reference</a></p>
+      <p className="table-note">{comparison.referenceRecording.evidenceNote}</p>
+      <EvidenceTimes r={comparison.referenceRecording} />
+    </>}
+    {comparison.lapDemonstration && <>
+      <p>Single-lap demonstration: <strong>{comparison.lapDemonstration.time}</strong> · <Player id={comparison.lapDemonstration.playerId} players={players} /> · <a href={comparison.lapDemonstration.video} target="_blank" rel="noopener noreferrer">Original video</a> · <a href={comparison.lapDemonstration.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
+      <p className="table-note">The uploader identifies one lap; this clip does not establish a whole-race time.</p>
+      <EvidenceTimes r={comparison.lapDemonstration} />
+    </>}
     {comparison.lateStartRecording && <>
       <p>Available recording starts late: <strong>{comparison.lateStartRecording.time}</strong> · <Player id={comparison.lateStartRecording.playerId} players={players} /> · <a href={comparison.lateStartRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.lateStartRecording.videoBackup?.url && <> · <a href={comparison.lateStartRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The finish and result are visible; the beginning of the race is missing.</p>
@@ -832,6 +842,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.ninja2023SupportingResults} players={players} tourLabel="Ninja Tour (2023)" />
       <HalloweenRecording comparison={c.yoshi2023Recording} players={players} tourLabel="Yoshi Tour (2023)" completed={c.yoshi2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.yoshi2023SupportingResults} players={players} tourLabel="Yoshi Tour (2023)" />
+      <HalloweenRecording comparison={c.spring2023Recording} players={players} tourLabel="Spring Tour (2023)" completed={c.spring2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.spring2023SupportingResults} players={players} tourLabel="Spring Tour (2023)" />
       {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}
       {!!c.doctor2023PartialRecordings?.length && <section className="fastest-video">
         <h2>Doctor Tour (2023) partial recordings</h2>
