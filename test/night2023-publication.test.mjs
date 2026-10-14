@@ -10,6 +10,8 @@ test('Night Rome chronology uses earlier original video publication', () => {
     ['1:19.41', '2023-06-30'], ['1:19.14', '2023-07-01'],
     ['1:18.96', '2023-07-04'], ['1:18.94', '2023-07-11'], ['1:18.87', '2023-07-11']
   ]);
+  assert.deepEqual(rows.find(r => r.time === '1:19.41').laps, ['39.63', '39.78']);
+  assert.deepEqual(rows.find(r => r.time === '1:18.94').laps, ['39.45', '39.49']);
   const earlier = rows.find(r => r.time === '1:18.96');
   assert.equal(earlier.submittedAt, '2023-07-09T12:16:36.649Z');
   assert.equal(earlier.videoPublishedAt, '2023-07-04T08:39:14Z');
