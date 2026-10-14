@@ -23,6 +23,8 @@ function Nation({ country }) {
   );
 }
 function RecordDate({ r }) {
+  if (!r.recordDate && !r.achievedAt && r.tourDateRange?.start === "2020-03-25")
+    return <span title={`Exact day unknown; set during ${r.tourDateRange.start} – ${r.tourDateRange.end}`}>Unknown; set during Hammer Bro Tour</span>;
   return (
     <span
       title={
@@ -76,9 +78,10 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!r.submittedAt && !r.earlierSubmissionReceipt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
+  if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
+    {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Retrospective announcement; exact run date is unknown.</div></div>}
     {r.submittedAt && !shares.some(event => event.sharedAt === r.submittedAt) && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
       Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
@@ -177,8 +180,8 @@ function Player({ id, players }) {
   return p ? (p.hasProfile === false ? p.name : <SiteLink href={`/player/${p.id}`}>{p.name}</SiteLink>) : "—";
 }
 function Proof({ r }) {
-  if (r.proofImageAvailability === "unavailable" && !r.proofImageLocal)
-    return <span title="Original image unavailable">Image unavailable</span>;
+  if (["unavailable", "unverified"].includes(r.proofImageAvailability) && !r.proofImageLocal)
+    return <><span title="Original image has no verified recovered copy">{r.proofImageAvailability === "unavailable" ? "Image unavailable" : "Image unverified"}</span>{r.announcementOnlyProof && r.source?.url && <div><a href={r.source.url} target="_blank" rel="noopener noreferrer">WR announcement</a></div>}</>;
   const url = r.proofImageLocal || r.proofImage;
   return url ? (
     <a
@@ -570,9 +573,9 @@ function CourseStats({ c, players }) {
 function FastestVideo({ course: c, players }) {
   const r = c.fastestVideo;
   return <section className="fastest-video">
-    <h2>{r?.recordingContinuityPending ? "Recording awaiting continuity review" : "Fastest available video"}</h2>
+    <h2>{r?.documentedRecordingSelection ? "Fastest documented available recording" : r?.recordingContinuityPending ? "Recording awaiting continuity review" : "Fastest available video"}</h2>
     {r ? <>
-      <p><strong>{r.time}</strong> · <Player id={r.playerId} players={players} /> · {r.recordingContinuityPending ? "Selected recording from prior review" : r.isCurrent ? "Current world record" : "Fastest documented run with available footage"}</p>
+      <p><strong>{r.time}</strong> · <Player id={r.playerId} players={players} /> · {r.documentedRecordingSelection ? "Fastest documented result with available footage" : r.recordingContinuityPending ? "Selected recording from prior review" : r.isCurrent ? "Current world record" : "Fastest documented run with available footage"}</p>
       <p className="video-links">
         {r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}
         {r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">{r.videoBackup.kind === "player-recovery"
