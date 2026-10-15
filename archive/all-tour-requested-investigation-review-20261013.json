@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-117",
+  "activeDetailedReview": "tour-118",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 114,
-      "carry-in-and-sparse-history-check": 48,
+      "completed-with-documented-gaps": 115,
       "source-and-publication-review": 13,
+      "carry-in-and-sparse-history-check": 47,
       "candidate-and-source-review": 3,
       "faster-result-reconciliation": 3
     },
@@ -78,11 +78,11 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 22,
+        "requiringInvestigation": 21,
         "categories": {
-          "completed-with-documented-gaps": 4,
-          "carry-in-and-sparse-history-check": 15,
+          "completed-with-documented-gaps": 5,
           "source-and-publication-review": 4,
+          "carry-in-and-sparse-history-check": 14,
           "candidate-and-source-review": 1,
           "faster-result-reconciliation": 2
         }
@@ -116,8 +116,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 114,
-    "toursRequiringInvestigation": 67
+    "practicallyCompletedTours": 115,
+    "toursRequiringInvestigation": 66
   },
   "tours": [
     {
@@ -12109,7 +12109,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-3r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 16,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1089608065063596185",
@@ -12125,11 +12125,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "snes-donut-plains-3r",
             "checkedAt": "2026-10-13T18:38:30.611675+00:00",
@@ -12153,7 +12149,7 @@
           "url": "https://mktwrs.com/course/n64-luigi-raceway",
           "firstAppearance": false,
           "wrRows": 3,
-          "supportingRows": 49,
+          "supportingRows": 21,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1089607541148889108",
@@ -12169,10 +12165,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-luigi-raceway",
             "checkedAt": "2026-10-13T18:38:31.254339+00:00",
@@ -12191,8 +12184,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/mario2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-118",
@@ -19327,10 +19325,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-117",
-  "latestCompletionAudit": "public/data/doctor2024-completion.json",
+  "activeDetailedTourId": "tour-118",
+  "latestCompletionAudit": "public/data/mario2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-117",
-  "nextPriorityReason": "One tour at a time: Doctor 2024 has exact LIVE completion evidence. Review Mario 2024 next.",
-  "latestLiveCompletionAudit": "archive/doctor2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-118",
+  "nextPriorityReason": "One tour at a time: Mario 2024 has exact LIVE completion evidence. Review Ninja 2024 next.",
+  "latestLiveCompletionAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json"
 }

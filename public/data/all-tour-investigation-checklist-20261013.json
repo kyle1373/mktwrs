@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 114,
-      "candidate-and-source-review": 19,
+      "completed-with-documented-gaps": 115,
+      "candidate-and-source-review": 18,
       "carry-in-and-sparse-history-check": 12,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 114,
-    "toursRequiringInvestigation": 67,
+    "practicallyCompletedTours": 115,
+    "toursRequiringInvestigation": 66,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -82,10 +82,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 22,
+        "requiringInvestigation": 21,
         "categories": {
-          "completed-with-documented-gaps": 4,
-          "candidate-and-source-review": 11,
+          "completed-with-documented-gaps": 5,
+          "candidate-and-source-review": 10,
           "carry-in-and-sparse-history-check": 7,
           "source-and-publication-review": 4
         }
@@ -6289,7 +6289,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-3r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 7,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1089608065063596185",
@@ -6299,11 +6299,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-luigi-raceway",
@@ -6311,7 +6307,7 @@
           "url": "https://mktwrs.com/course/n64-luigi-raceway",
           "firstAppearance": false,
           "wrRows": 3,
-          "supportingRows": 26,
+          "supportingRows": 21,
           "pendingCandidates": 2,
           "carriedInWr": {
             "id": "1089607541148889108",
@@ -6321,14 +6317,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/mario2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-118",
@@ -11519,7 +11517,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-117",
+  "activeDetailedTourId": "tour-118",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11530,10 +11528,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-117",
-  "latestCompletionAudit": "public/data/doctor2024-completion.json",
-  "nextPriorityTourId": "tour-117",
-  "nextPriorityReason": "One tour at a time: Doctor 2024 has exact LIVE completion evidence. Review Mario 2024 next.",
-  "latestLiveCompletionAudit": "archive/doctor2024-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-118",
+  "latestCompletionAudit": "public/data/mario2024-completion.json",
+  "nextPriorityTourId": "tour-118",
+  "nextPriorityReason": "One tour at a time: Mario 2024 has exact LIVE completion evidence. Review Ninja 2024 next.",
+  "latestLiveCompletionAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
