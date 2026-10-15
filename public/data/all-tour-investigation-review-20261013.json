@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 129,
-      "carry-in-and-sparse-history-check": 9,
+      "completed-with-documented-gaps": 130,
+      "carry-in-and-sparse-history-check": 8,
       "source-and-publication-review": 35,
       "candidate-and-source-review": 8
     },
-    "practicallyCompletedTours": 129,
-    "toursRequiringInvestigation": 52,
+    "practicallyCompletedTours": 130,
+    "toursRequiringInvestigation": 51,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -82,10 +82,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 7,
+        "requiringInvestigation": 6,
         "categories": {
-          "completed-with-documented-gaps": 19,
-          "carry-in-and-sparse-history-check": 4,
+          "completed-with-documented-gaps": 20,
+          "carry-in-and-sparse-history-check": 3,
           "source-and-publication-review": 3
         }
       },
@@ -7132,10 +7132,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "snes-donut-plains-2",
@@ -7153,14 +7150,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/battle2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/battle2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-133",
@@ -11471,11 +11470,11 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-132",
-  "activeDetailedReview": "tour-132",
-  "latestCompletionAudit": "public/data/anniversary2024-completion.json",
-  "nextPriorityTourId": "tour-132",
-  "nextPriorityReason": "One tour at a time: Anniversary 2024 has exact LIVE completion evidence. Review Battle 2024 next.",
-  "latestLiveCompletionAudit": "archive/anniversary2024-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedTourId": "tour-133",
+  "activeDetailedReview": "tour-133",
+  "latestCompletionAudit": "public/data/battle2024-completion.json",
+  "nextPriorityTourId": "tour-133",
+  "nextPriorityReason": "One tour at a time: Battle 2024 has exact LIVE completion evidence. Review Halloween 2024 next.",
+  "latestLiveCompletionAudit": "archive/battle2024-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
