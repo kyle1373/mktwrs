@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-159",
+  "activeDetailedReview": "tour-160",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,10 +33,10 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 156,
-      "carry-in-and-sparse-history-check": 15,
+      "completed-with-documented-gaps": 157,
       "source-and-publication-review": 7,
       "faster-result-reconciliation": 1,
+      "carry-in-and-sparse-history-check": 14,
       "candidate-and-source-review": 2
     },
     "years": {
@@ -85,10 +85,9 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 6,
+        "requiringInvestigation": 5,
         "categories": {
-          "completed-with-documented-gaps": 20,
-          "carry-in-and-sparse-history-check": 1,
+          "completed-with-documented-gaps": 21,
           "source-and-publication-review": 4,
           "faster-result-reconciliation": 1
         }
@@ -113,8 +112,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 156,
-    "toursRequiringInvestigation": 25
+    "practicallyCompletedTours": 157,
+    "toursRequiringInvestigation": 24
   },
   "tours": [
     {
@@ -16516,11 +16515,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "snes-donut-plains-3",
             "checkedAt": "2026-10-13T18:38:30.611288+00:00",
@@ -16539,8 +16534,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/halloween2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-160",
@@ -19189,10 +19189,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-159",
-  "latestCompletionAudit": "public/data/battle2025-completion.json",
+  "activeDetailedTourId": "tour-160",
+  "latestCompletionAudit": "public/data/halloween2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-159",
-  "nextPriorityReason": "One tour at a time: Battle2025 has core exact LIVE completion evidence. Start Halloween2025 tour159 October15–October29 only after final Battle LIVE verification.",
-  "latestLiveCompletionAudit": "archive/battle2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-160",
+  "nextPriorityReason": "One tour at a time: Halloween2025 has core exact LIVE completion evidence. Start Autumn2025 tour160 October29–November12 only after final Halloween LIVE verification.",
+  "latestLiveCompletionAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json"
 }

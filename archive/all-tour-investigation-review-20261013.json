@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 156,
-      "source-and-publication-review": 13,
+      "completed-with-documented-gaps": 157,
+      "source-and-publication-review": 12,
       "candidate-and-source-review": 7,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 156,
-    "toursRequiringInvestigation": 25,
+    "practicallyCompletedTours": 157,
+    "toursRequiringInvestigation": 24,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -90,10 +90,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 6,
+        "requiringInvestigation": 5,
         "categories": {
-          "completed-with-documented-gaps": 20,
-          "source-and-publication-review": 6
+          "completed-with-documented-gaps": 21,
+          "source-and-publication-review": 5
         }
       },
       "2026": {
@@ -8467,7 +8467,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-3",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 0,
+          "supportingRows": 8,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1039950316147322890",
@@ -8477,13 +8477,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/halloween2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-160",
@@ -11305,16 +11308,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-159",
+  "activeDetailedTourId": "tour-160",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-159",
-  "latestCompletionAudit": "public/data/battle2025-completion.json",
+  "activeDetailedReview": "tour-160",
+  "latestCompletionAudit": "public/data/halloween2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-159",
-  "nextPriorityReason": "One tour at a time: Battle2025 has core exact LIVE completion evidence. Start Halloween2025 tour159 October15–October29 only after final Battle LIVE verification.",
-  "latestLiveCompletionAudit": "archive/battle2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-160",
+  "nextPriorityReason": "One tour at a time: Halloween2025 has core exact LIVE completion evidence. Start Autumn2025 tour160 October29–November12 only after final Halloween LIVE verification.",
+  "latestLiveCompletionAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json"
 }
