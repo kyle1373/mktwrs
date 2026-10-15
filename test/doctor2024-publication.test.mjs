@@ -8,7 +8,7 @@ test('Doctor final WRs retain contemporary posting dates and separate carried re
  for(const [cid,id,time,date,doc] of [['ds-peach-gardens-r','1219694565657804833','1:27.16','2024-03-06T06:02:56.277Z','1:27.21'],['gba-sky-garden','1219694774953443399','1:03.97','2024-03-01T11:27:49.434Z','1:04.09']]){
   const c=course(cid),r=c.doctor2024Recording.worldRecord;
   assert.equal(r.id,id);assert.equal(r.time,time);assert.equal(r.submittedAt,date);assert.equal(r.recordDate,date.slice(0,10));assert.match(r.proofImageLocal,/^https:\/\/media.mktwrs.com\//);
-  assert.equal(c.doctor2024Recording.documentedRecording.time,doc);assert.equal(c.doctor2024Recording.recording,null);
+  assert.equal(c.doctor2024Recording.documentedRecording.time,doc);assert.equal(c.fastestVideo.time,cid === "ds-peach-gardens-r" ? doc : "1:03.85");assert.equal(c.doctor2024Recording.recording,null);
  }
 });
 test('Doctor carried movie publication and result submission clocks stay distinct',()=>{
