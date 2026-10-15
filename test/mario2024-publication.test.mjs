@@ -6,7 +6,7 @@ const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'
 const course=cid=>routeData(['course',cid]).data;
 test('Mario final WR and documented recording remain distinct and dated',()=>{
  const c=course('n64-luigi-raceway'),r=c.mario2024Recording.worldRecord,v=c.mario2024Recording.documentedRecording;
- assert.equal(r.time,'1:12.13');assert.equal(r.submittedAt,'2024-03-12T05:19:46.244Z');assert.equal(v.time,'1:12.32');assert.equal(v.submittedAt,'2024-03-07T08:48:44.267Z');assert.match(v.videoBackup.url,/^https:\/\/media.mktwrs.com\//);
+ assert.equal(r.time,'1:12.13');assert.equal(r.playerId,'nekozuki');assert.equal(c.records.find(r=>r.time==='1:12.17').playerId,'nekozuki');assert.equal(r.submittedAt,'2024-03-12T05:19:46.244Z');assert.equal(v.time,'1:12.32');assert.equal(v.submittedAt,'2024-03-07T08:48:44.267Z');assert.match(v.videoBackup.url,/^https:\/\/media.mktwrs.com\//);
  const dp=course('snes-donut-plains-3r').mario2024Recording;assert.equal(dp.worldRecord.time,'0:57.13');assert.equal(dp.documentedRecording.time,'0:57.13');assert.equal(dp.documentedRecording.videoPublishedAt,'2023-03-14T14:27:27Z');
 });
 test('Earlier REMON discussion image does not collapse later receipts into the same clock',()=>{
