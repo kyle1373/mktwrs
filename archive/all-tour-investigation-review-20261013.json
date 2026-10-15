@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 148,
-      "source-and-publication-review": 21,
+      "completed-with-documented-gaps": 149,
+      "source-and-publication-review": 20,
       "candidate-and-source-review": 7,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 148,
-    "toursRequiringInvestigation": 33,
+    "practicallyCompletedTours": 149,
+    "toursRequiringInvestigation": 32,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -90,10 +90,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 14,
+        "requiringInvestigation": 13,
         "categories": {
-          "completed-with-documented-gaps": 12,
-          "source-and-publication-review": 14
+          "completed-with-documented-gaps": 13,
+          "source-and-publication-review": 13
         }
       },
       "2026": {
@@ -7979,7 +7979,7 @@
           "url": "https://mktwrs.com/course/rome-avanti-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 1,
+          "supportingRows": 2,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1264395735814635612",
@@ -7989,11 +7989,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "singapore-speedway",
@@ -8001,7 +7997,7 @@
           "url": "https://mktwrs.com/course/singapore-speedway",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 0,
+          "supportingRows": 7,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "935931716575559721",
@@ -8011,10 +8007,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "singapore-speedway-2r",
@@ -8022,7 +8015,7 @@
           "url": "https://mktwrs.com/course/singapore-speedway-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 0,
+          "supportingRows": 1,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1264395851904585738",
@@ -8032,13 +8025,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/night2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/night2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-152",
@@ -11317,16 +11313,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-151",
+  "activeDetailedTourId": "tour-152",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-151",
-  "latestCompletionAudit": "public/data/marioluigi2025-completion.json",
+  "activeDetailedReview": "tour-152",
+  "latestCompletionAudit": "public/data/night2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-151",
-  "nextPriorityReason": "One tour at a time: MarioLuigi2025 has core exact LIVE completion evidence. Start Night2025 tour151 June25–July9 only after final MarioLuigi LIVE verification.",
-  "latestLiveCompletionAudit": "archive/marioluigi2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-152",
+  "nextPriorityReason": "One tour at a time: Night2025 has core exact LIVE completion evidence. Start Pipe2025 tour152 July9–July23 only after final Night LIVE verification.",
+  "latestLiveCompletionAudit": "archive/night2025-exact-live-publication-and-full-field-check-20261015.json"
 }

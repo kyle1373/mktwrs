@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-151",
+  "activeDetailedReview": "tour-152",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 148,
-      "carry-in-and-sparse-history-check": 23,
+      "completed-with-documented-gaps": 149,
+      "carry-in-and-sparse-history-check": 22,
       "source-and-publication-review": 7,
       "faster-result-reconciliation": 1,
       "candidate-and-source-review": 2
@@ -85,10 +85,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 14,
+        "requiringInvestigation": 13,
         "categories": {
-          "completed-with-documented-gaps": 12,
-          "carry-in-and-sparse-history-check": 9,
+          "completed-with-documented-gaps": 13,
+          "carry-in-and-sparse-history-check": 8,
           "source-and-publication-review": 4,
           "faster-result-reconciliation": 1
         }
@@ -113,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 148,
-    "toursRequiringInvestigation": 33
+    "practicallyCompletedTours": 149,
+    "toursRequiringInvestigation": 32
   },
   "tours": [
     {
@@ -15564,7 +15564,7 @@
           "url": "https://mktwrs.com/course/rome-avanti-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 3,
+          "supportingRows": 2,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1264395735814635612",
@@ -15580,11 +15580,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "rome-avanti-2",
             "checkedAt": "2026-10-13T18:38:33.473198+00:00",
@@ -15624,11 +15620,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "singapore-speedway",
             "checkedAt": "2026-10-13T18:38:33.847062+00:00",
@@ -15670,11 +15662,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "singapore-speedway-2r",
             "checkedAt": "2026-10-13T18:38:33.920147+00:00",
@@ -15693,8 +15681,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/night2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/night2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-152",
@@ -19226,10 +19219,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-151",
-  "latestCompletionAudit": "public/data/marioluigi2025-completion.json",
+  "activeDetailedTourId": "tour-152",
+  "latestCompletionAudit": "public/data/night2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-151",
-  "nextPriorityReason": "One tour at a time: MarioLuigi2025 has core exact LIVE completion evidence. Start Night2025 tour151 June25–July9 only after final MarioLuigi LIVE verification.",
-  "latestLiveCompletionAudit": "archive/marioluigi2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-152",
+  "nextPriorityReason": "One tour at a time: Night2025 has core exact LIVE completion evidence. Start Pipe2025 tour152 July9–July23 only after final Night LIVE verification.",
+  "latestLiveCompletionAudit": "archive/night2025-exact-live-publication-and-full-field-check-20261015.json"
 }
