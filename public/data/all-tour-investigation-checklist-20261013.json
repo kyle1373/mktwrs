@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 124,
-      "candidate-and-source-review": 11,
+      "completed-with-documented-gaps": 125,
+      "candidate-and-source-review": 10,
       "carry-in-and-sparse-history-check": 10,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 124,
-    "toursRequiringInvestigation": 57,
+    "practicallyCompletedTours": 125,
+    "toursRequiringInvestigation": 56,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -82,10 +82,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 12,
+        "requiringInvestigation": 11,
         "categories": {
-          "completed-with-documented-gaps": 14,
-          "candidate-and-source-review": 3,
+          "completed-with-documented-gaps": 15,
+          "candidate-and-source-review": 2,
           "carry-in-and-sparse-history-check": 5,
           "source-and-publication-review": 4
         }
@@ -6809,7 +6809,7 @@
           "url": "https://mktwrs.com/course/wii-daisy-circuit",
           "firstAppearance": false,
           "wrRows": 3,
-          "supportingRows": 10,
+          "supportingRows": 13,
           "pendingCandidates": 1,
           "carriedInWr": {
             "id": "1139362445480177824",
@@ -6819,11 +6819,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "snes-koopa-troopa-beach-2r",
@@ -6841,15 +6837,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/sunshine2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/sunshine2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-128",
@@ -11492,7 +11489,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-127",
+  "activeDetailedTourId": "tour-128",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11503,10 +11500,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-127",
-  "latestCompletionAudit": "public/data/pipe2024-completion.json",
-  "nextPriorityTourId": "tour-127",
-  "nextPriorityReason": "One tour at a time: Pipe 2024 has exact LIVE completion evidence. Review Sunshine 2024 next.",
-  "latestLiveCompletionAudit": "archive/pipe2024-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-128",
+  "latestCompletionAudit": "public/data/sunshine2024-completion.json",
+  "nextPriorityTourId": "tour-128",
+  "nextPriorityReason": "One tour at a time: Sunshine 2024 has exact LIVE completion evidence. Review Vacation 2024 next.",
+  "latestLiveCompletionAudit": "archive/sunshine2024-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
