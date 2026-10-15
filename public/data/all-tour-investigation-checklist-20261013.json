@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 155,
-      "source-and-publication-review": 14,
+      "completed-with-documented-gaps": 156,
+      "source-and-publication-review": 13,
       "candidate-and-source-review": 7,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 155,
-    "toursRequiringInvestigation": 26,
+    "practicallyCompletedTours": 156,
+    "toursRequiringInvestigation": 25,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -89,10 +89,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 7,
+        "requiringInvestigation": 6,
         "categories": {
-          "completed-with-documented-gaps": 19,
-          "source-and-publication-review": 7
+          "completed-with-documented-gaps": 20,
+          "source-and-publication-review": 6
         }
       },
       "2026": {
@@ -8551,7 +8551,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-1r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 3,
+          "supportingRows": 7,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1032525641465200660",
@@ -8561,11 +8561,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "snes-donut-plains-2",
@@ -8583,14 +8579,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/battle2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/battle2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-159",
@@ -11443,7 +11441,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-158",
+  "activeDetailedTourId": "tour-159",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11454,10 +11452,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-158",
-  "latestCompletionAudit": "public/data/anniversary2025-completion.json",
-  "nextPriorityTourId": "tour-158",
-  "nextPriorityReason": "One tour at a time: Anniversary2025 has core exact LIVE completion evidence. Start Battle2025 tour158 October1–October15 only after final Anniversary LIVE verification.",
-  "latestLiveCompletionAudit": "archive/anniversary2025-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-159",
+  "latestCompletionAudit": "public/data/battle2025-completion.json",
+  "nextPriorityTourId": "tour-159",
+  "nextPriorityReason": "One tour at a time: Battle2025 has core exact LIVE completion evidence. Start Halloween2025 tour159 October15–October29 only after final Battle LIVE verification.",
+  "latestLiveCompletionAudit": "archive/battle2025-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
