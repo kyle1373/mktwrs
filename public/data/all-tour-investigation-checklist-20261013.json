@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 142,
-      "source-and-publication-review": 26,
+      "completed-with-documented-gaps": 143,
       "candidate-and-source-review": 8,
+      "source-and-publication-review": 25,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 142,
-    "toursRequiringInvestigation": 39,
+    "practicallyCompletedTours": 143,
+    "toursRequiringInvestigation": 38,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -89,11 +89,11 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 20,
+        "requiringInvestigation": 19,
         "categories": {
-          "completed-with-documented-gaps": 6,
-          "source-and-publication-review": 19,
-          "candidate-and-source-review": 1
+          "completed-with-documented-gaps": 7,
+          "candidate-and-source-review": 1,
+          "source-and-publication-review": 18
         }
       },
       "2026": {
@@ -7817,7 +7817,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 0,
+          "supportingRows": 1,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1099917584113090641",
@@ -7827,10 +7827,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "gcn-yoshi-circuit",
@@ -7838,7 +7835,7 @@
           "url": "https://mktwrs.com/course/gcn-yoshi-circuit",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 1,
+          "supportingRows": 8,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1232480525512343592",
@@ -7848,12 +7845,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/yoshi2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/yoshi2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-146",
@@ -11449,7 +11450,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-145",
+  "activeDetailedTourId": "tour-146",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11460,10 +11461,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-145",
-  "latestCompletionAudit": "public/data/ninja2025-completion.json",
-  "nextPriorityTourId": "tour-145",
-  "nextPriorityReason": "One tour at a time: Ninja2025 has exact LIVE completion evidence. Review Yoshi2025 tour145 April2–16 next.",
-  "latestLiveCompletionAudit": "archive/ninja2025-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-146",
+  "latestCompletionAudit": "public/data/yoshi2025-completion.json",
+  "nextPriorityTourId": "tour-146",
+  "nextPriorityReason": "One tour at a time: Yoshi2025 has exact LIVE completion evidence. Review Spring2025 tour146 April16–30 next.",
+  "latestLiveCompletionAudit": "archive/yoshi2025-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
