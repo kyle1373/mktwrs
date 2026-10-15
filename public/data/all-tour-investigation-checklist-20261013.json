@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 141,
-      "source-and-publication-review": 27,
+      "completed-with-documented-gaps": 142,
+      "source-and-publication-review": 26,
       "candidate-and-source-review": 8,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 141,
-    "toursRequiringInvestigation": 40,
+    "practicallyCompletedTours": 142,
+    "toursRequiringInvestigation": 39,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -89,10 +89,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 21,
+        "requiringInvestigation": 20,
         "categories": {
-          "completed-with-documented-gaps": 5,
-          "source-and-publication-review": 20,
+          "completed-with-documented-gaps": 6,
+          "source-and-publication-review": 19,
           "candidate-and-source-review": 1
         }
       },
@@ -7765,7 +7765,7 @@
           "url": "https://mktwrs.com/course/wii-rainbow-road",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 1,
+          "supportingRows": 2,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1229525362023858277",
@@ -7775,11 +7775,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "3ds-wario-shipyard",
@@ -7787,7 +7783,7 @@
           "url": "https://mktwrs.com/course/3ds-wario-shipyard",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 2,
+          "supportingRows": 7,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1229525504084934686",
@@ -7797,14 +7793,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/ninja2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/ninja2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-145",
@@ -11451,7 +11449,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-144",
+  "activeDetailedTourId": "tour-145",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11462,10 +11460,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-144",
-  "latestCompletionAudit": "public/data/mario2025-completion.json",
-  "nextPriorityTourId": "tour-144",
-  "nextPriorityReason": "One tour at a time: Mario2025 has exact LIVE completion evidence. Review Ninja2025 tour144 March19–April2 next.",
-  "latestLiveCompletionAudit": "archive/mario2025-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-145",
+  "latestCompletionAudit": "public/data/ninja2025-completion.json",
+  "nextPriorityTourId": "tour-145",
+  "nextPriorityReason": "One tour at a time: Ninja2025 has exact LIVE completion evidence. Review Yoshi2025 tour145 April2–16 next.",
+  "latestLiveCompletionAudit": "archive/ninja2025-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
