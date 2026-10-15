@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 143,
-      "candidate-and-source-review": 8,
+      "completed-with-documented-gaps": 144,
       "source-and-publication-review": 25,
+      "candidate-and-source-review": 7,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 143,
-    "toursRequiringInvestigation": 38,
+    "practicallyCompletedTours": 144,
+    "toursRequiringInvestigation": 37,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -90,10 +90,9 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 19,
+        "requiringInvestigation": 18,
         "categories": {
-          "completed-with-documented-gaps": 7,
-          "candidate-and-source-review": 1,
+          "completed-with-documented-gaps": 8,
           "source-and-publication-review": 18
         }
       },
@@ -7420,7 +7419,7 @@
           "url": "https://mktwrs.com/course/singapore-speedway-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 14,
+          "supportingRows": 15,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903599689248788",
@@ -7458,7 +7457,8 @@
       "completionEvidence": "/data/winter2025-completion.json",
       "livePublicationVerified": true,
       "livePublicationAudit": "archive/winter2025-exact-live-publication-and-full-field-check-20261015.json",
-      "nextActions": []
+      "nextActions": [],
+      "latestLateSubmissionSupplement": "archive/spring2025-original-preservation-and-source-review-20261015.json"
     },
     {
       "id": "tour-141",
@@ -7629,7 +7629,7 @@
           "url": "https://mktwrs.com/course/wii-rainbow-road",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 2,
+          "supportingRows": 3,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1229525362023858277",
@@ -7666,7 +7666,8 @@
       "completionEvidence": "/data/ninja2025-completion.json",
       "livePublicationVerified": true,
       "livePublicationAudit": "archive/ninja2025-exact-live-publication-and-full-field-check-20261015.json",
-      "nextActions": []
+      "nextActions": [],
+      "latestLateSubmissionSupplement": "archive/spring2025-original-preservation-and-source-review-20261015.json"
     },
     {
       "id": "tour-145",
@@ -7681,7 +7682,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 1,
+          "supportingRows": 2,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1099917584113090641",
@@ -7699,7 +7700,7 @@
           "url": "https://mktwrs.com/course/gcn-yoshi-circuit",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 8,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1232480525512343592",
@@ -7718,7 +7719,8 @@
       "completionEvidence": "/data/yoshi2025-completion.json",
       "livePublicationVerified": true,
       "livePublicationAudit": "archive/yoshi2025-exact-live-publication-and-full-field-check-20261015.json",
-      "nextActions": []
+      "nextActions": [],
+      "latestLateSubmissionSupplement": "archive/spring2025-original-preservation-and-source-review-20261015.json"
     },
     {
       "id": "tour-146",
@@ -7733,7 +7735,7 @@
           "url": "https://mktwrs.com/course/athens-dash-2",
           "firstAppearance": false,
           "wrRows": 7,
-          "supportingRows": 30,
+          "supportingRows": 26,
           "pendingCandidates": 2,
           "carriedInWr": {
             "id": "1241780457365049465",
@@ -7743,12 +7745,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "berlin-byways",
@@ -7756,7 +7753,7 @@
           "url": "https://mktwrs.com/course/berlin-byways",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 0,
+          "supportingRows": 1,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1104263697943240844",
@@ -7766,13 +7763,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/spring2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/spring2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-147",
@@ -11314,16 +11314,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-146",
+  "activeDetailedTourId": "tour-147",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-146",
-  "latestCompletionAudit": "public/data/yoshi2025-completion.json",
+  "activeDetailedReview": "tour-147",
+  "latestCompletionAudit": "public/data/spring2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-146",
-  "nextPriorityReason": "One tour at a time: Yoshi2025 has exact LIVE completion evidence. Review Spring2025 tour146 April16–30 next.",
-  "latestLiveCompletionAudit": "archive/yoshi2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-147",
+  "nextPriorityReason": "One tour at a time: Spring2025 has exact LIVE completion evidence. Review Bowser2025 tour147 April30–May14 next.",
+  "latestLiveCompletionAudit": "archive/spring2025-exact-live-publication-and-full-field-check-20261015.json"
 }
