@@ -12,7 +12,7 @@ test('Vacation 2024 final WRs remain separate from available historical recordin
 });
 test('Three final results retain original posting clocks, caption splits and later announcements',()=>{
  const expected=[['1279827290620035093','2024-08-10T19:55:44.394Z',['38.87','38.85']],['1279827479288086618','2024-08-12T10:32:57.791Z',['40.94','41.01']],['1279827694330187799','2024-08-12T07:03:55.300Z',['40.77','40.71']]];
- cids.forEach((cid,i)=>{const r=read('public/data/courses/'+cid+'.json').records.find(r=>r.id===expected[i][0]);assert.equal(r.submittedAt,expected[i][1]);assert.equal(r.recordDate,expected[i][1].slice(0,10));assert.deepEqual(r.laps,expected[i][2]);assert.ok(r.additionalSources.some(s=>s.url?.includes(r.id)));assert.ok(r.proofImageLocal.startsWith('https://media.mktwrs.com/'));});
+ cids.forEach((cid,i)=>{const r=read('public/data/courses/'+cid+'.json').records.find(r=>r.id===expected[i][0]);assert.equal(r.submittedAt,expected[i][1]);assert.equal(r.recordDate,expected[i][1].slice(0,10));assert.equal(r.chronologyDate,r.submittedAt);assert.deepEqual(r.laps,expected[i][2]);assert.ok(r.additionalSources.some(s=>s.url?.includes(r.id)));assert.ok(r.proofImageLocal.startsWith('https://media.mktwrs.com/'));});
 });
 test('SYUN paired images remain distinct courses and late1:18.27 retains its corrected course and date',()=>{
  const a=course('athens-dash-2r').vacation2024SupportingResults.find(r=>r.time==='1:22.38'&&r.playerId==='syun'),s=course('squeaky-clean-sprint').vacation2024SupportingResults.find(r=>r.time==='1:22.25'&&r.playerId==='syun');assert.ok(a&&s);assert.equal(a.submittedAt,'2024-08-13T16:35:26.088Z');assert.equal(s.submittedAt,a.submittedAt);assert.notEqual(a.proofImageLocal,s.proofImageLocal);

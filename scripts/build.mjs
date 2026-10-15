@@ -596,6 +596,13 @@ for (const patch of publicationPatches.rows || []) {
 for (const courseId of new Set((publicationPatches.rows || []).filter(p => p.collection === "records" && p.set?.playerId && p.set.playerId !== p.playerId).map(p => p.courseId))) {
   recomputeRecordDurations(courses.find(c => c.id === courseId));
 }
+// Keep reviewed submission clocks after the historical Squeaky Clean Sprint owner correction.
+const vacation2024Sprint = courses.find(c => c.id === "squeaky-clean-sprint");
+for (const id of ["curated-1271070148345856111-vacation2024-image-reviewed", "curated-1272179508409012254-vacation2024-image-reviewed", "1279827694330187799"]) {
+  const row = vacation2024Sprint.records.find(r => r.id === id);
+  if (!row?.submittedAt || row.recordDate !== row.submittedAt.slice(0, 10)) throw Error("Vacation 2024 submission-clock mismatch: " + id);
+  row.chronologyDate = row.submittedAt;
+}
 // The reviewed closing submission fixes the successor date for these two reigns.
 const space2024Kd2 = courses.find(c => c.id === "n64-kalimari-desert-2");
 const space2024DurationRows = ["1068224230715559956", "1204260087687024680"].map(id => space2024Kd2.records.find(r => r.id === id));
