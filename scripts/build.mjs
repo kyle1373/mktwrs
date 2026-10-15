@@ -525,6 +525,16 @@ for(const [id,wrId] of Object.entries(mario2024Receipts)) {
  mario2024Luigi.submissions.push({...receipt,status:"matched-existing-wr-receipt",includeInProgression:false,recordDate:receipt.submittedAt.slice(0,10),dateBasis:"original-post-submission-date",dateUnresolved:false,matchedWrId:wrId});
 }
 
+const ninja2024Rainbow=courses.find(c=>c.id==="wii-rainbow-road");
+const ninja2024ReceiptId="discord-1223547992510955562";
+const ninja2024Receipt=[...ninja2024Rainbow.candidates,...ninja2024Rainbow.submissions].find(r=>r.id===ninja2024ReceiptId);
+const ninja2024Result=ninja2024Rainbow.submissions.find(r=>r.id==="curated-1223547981308104745-ninja2024-image-reviewed");
+if(ninja2024Receipt) {
+ if(!ninja2024Result || ninja2024Receipt.timeCs!==ninja2024Result.timeCs || ninja2024Receipt.playerId!==ninja2024Result.playerId) throw Error("Ninja 2024 receipt mismatch");
+ ninja2024Rainbow.candidates=ninja2024Rainbow.candidates.filter(r=>r.id!==ninja2024ReceiptId);ninja2024Rainbow.submissions=ninja2024Rainbow.submissions.filter(r=>r.id!==ninja2024ReceiptId);
+ ninja2024Rainbow.submissions.push({...ninja2024Receipt,status:"matched-existing-documented-result-receipt",includeInProgression:false,recordDate:ninja2024Receipt.submittedAt.slice(0,10),dateBasis:"original-post-submission-date",dateUnresolved:false,matchedSubmissionId:ninja2024Result.id});
+}
+
 const publicationPatches = JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8"));
 for (const preserved of publicationPatches.preservedRows || []) {
   const rows = courses.find(c => c.id === preserved.courseId)?.[preserved.collection];
@@ -591,6 +601,8 @@ const doctor2024 = tours.find(t => t.id === "tour-116" && t.startDate === "2024-
 if (doctor2024) doctor2024.name = "Doctor Tour (2024)";
 const mario2024=tours.find(t=>t.id==="tour-117" && t.startDate==="2024-03-06");
 if(mario2024) mario2024.name="Mario Tour (2024)";
+const ninja2024=tours.find(t=>t.id==="tour-118" && t.startDate==="2024-03-20");
+if(ninja2024) ninja2024.name="Ninja Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
