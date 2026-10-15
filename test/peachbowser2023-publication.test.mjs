@@ -7,6 +7,7 @@ const read=cid=>JSON.parse(fs.readFileSync(`public/data/courses/${cid}.json`,'ut
 test('Peach vs Bowser 2023 keeps stable WRs and distinguishes the carried record from current support',()=>{
  for(const [cid,id,time] of [['3ds-bowser-s-castle-r','966559082955821056','1:38.39'],['ds-peach-gardens','1189361589913124894','1:26.58'],['n64-royal-raceway','1189361686306619392','1:33.66']]){
   const d=routeData(['course',cid]).data;
+  assert(read(cid).appearances.some(a=>a.tourId==='tour-110'));
   assert.equal(d.peachbowser2023Recording.worldRecord.id,id);
   assert.equal(d.peachbowser2023Recording.worldRecord.time,time);
   assert.equal(d.peachbowser2023Recording.documentedRecording.time,time);

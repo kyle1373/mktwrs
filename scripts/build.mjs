@@ -82,9 +82,6 @@ for (const row of grid($, $("table").first())) {
       "https://www.mariowiki.com" + $(row[1]).find("a").first().attr("href"),
   });
 }
-// The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
-const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
-if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
 $ = cheerio.load(fs.readFileSync(root + "/wiki-time-trial.html", "utf8"));
 const courses = [];
 const courseMap = new Map();
@@ -518,6 +515,9 @@ for (const patch of publicationPatches.rows || []) {
 for (const courseId of new Set((publicationPatches.rows || []).filter(p => p.collection === "records" && p.set?.playerId && p.set.playerId !== p.playerId).map(p => p.courseId))) {
   recomputeRecordDurations(courses.find(c => c.id === courseId));
 }
+// The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
+const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
+if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,

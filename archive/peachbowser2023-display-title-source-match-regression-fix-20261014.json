@@ -1,0 +1,23 @@
+{
+  "tourId": "tour-110",
+  "checkedAt": "2026-10-14",
+  "observedDeployment": "448ed15b-08ea-4fdd-8550-23d6d5cba0a5",
+  "observedCommit": "440ec074f92722239188ebb579f624e2da5a76b6",
+  "liveFullFieldCheckPassed": false,
+  "affectedFields": [
+    "durationDays",
+    "durationIntervals",
+    "course.appearances"
+  ],
+  "affectedRecords": 6,
+  "cause": "Display-name normalization occurred before the wiki course matching by original tour title.",
+  "fix": "Keep the preserved source title through matching; normalize only the final tours output title.",
+  "addedRegressionCheck": "All three current courses must retain tour-110 appearance.",
+  "validation": {
+    "fullRegenerationExitCode": 0,
+    "allThreeAppearancesRetained": true,
+    "all669FullRowsMatched": true,
+    "focusedTestsPassed": 21,
+    "productionBuildExitCode": 0
+  }
+}
