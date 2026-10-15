@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-130",
+  "activeDetailedReview": "tour-131",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 127,
-      "carry-in-and-sparse-history-check": 40,
+      "completed-with-documented-gaps": 128,
+      "carry-in-and-sparse-history-check": 39,
       "faster-result-reconciliation": 3,
       "source-and-publication-review": 9,
       "candidate-and-source-review": 2
@@ -78,10 +78,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 9,
+        "requiringInvestigation": 8,
         "categories": {
-          "completed-with-documented-gaps": 17,
-          "carry-in-and-sparse-history-check": 7,
+          "completed-with-documented-gaps": 18,
+          "carry-in-and-sparse-history-check": 6,
           "faster-result-reconciliation": 2
         }
       },
@@ -114,8 +114,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 127,
-    "toursRequiringInvestigation": 54
+    "practicallyCompletedTours": 128,
+    "toursRequiringInvestigation": 53
   },
   "tours": [
     {
@@ -13450,7 +13450,7 @@
           "url": "https://mktwrs.com/course/gba-luigi-circuit",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 21,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1157161238137163826",
@@ -13466,11 +13466,7 @@
           "linkedVideoRows": 3,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-luigi-circuit",
             "checkedAt": "2026-10-13T18:38:31.250347+00:00",
@@ -13494,7 +13490,7 @@
           "url": "https://mktwrs.com/course/snes-vanilla-lake-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 12,
+          "supportingRows": 6,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1157160735848267859",
@@ -13510,11 +13506,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "snes-vanilla-lake-2r",
             "checkedAt": "2026-10-13T18:38:35.030788+00:00",
@@ -13533,8 +13525,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/sundae2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/sundae2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-131",
@@ -19288,10 +19285,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-130",
-  "latestCompletionAudit": "public/data/summer2024-completion.json",
+  "activeDetailedTourId": "tour-131",
+  "latestCompletionAudit": "public/data/sundae2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-130",
-  "nextPriorityReason": "One tour at a time: Summer 2024 has exact LIVE completion evidence. Review Sundae 2024 next.",
-  "latestLiveCompletionAudit": "archive/summer2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-131",
+  "nextPriorityReason": "One tour at a time: Sundae 2024 has exact LIVE completion evidence. Review Anniversary 2024 next.",
+  "latestLiveCompletionAudit": "archive/sundae2024-exact-live-publication-and-full-field-check-20261015.json"
 }
