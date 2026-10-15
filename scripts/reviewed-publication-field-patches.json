@@ -3185,7 +3185,7 @@
       "time": "1:03.36",
       "playerId": "kno2",
       "set": {
-        "durationBasis": null,
+        "durationBasis": "documented dates; chronology incomplete",
         "proofField": "video-finish-frame",
         "notes": [
           "Achievement date and intermediate progression require submission reconciliation.",
@@ -3198,7 +3198,7 @@
           "sourceFile": "archive/video-backup-files/kno2-10336/original.mp4",
           "sourceSha256": "e63242ea9470a2d7fa1c5861714ac3f6d02b112877ca1d62af08ba93f49ef385"
         },
-        "durationEnd": "2026-10-04",
+        "durationEnd": "2024-01-24",
         "additionalSources": [
           {
             "url": "https://discord.com/channels/629221606064914442/875784780573184010/1067642753980321833",
@@ -3210,9 +3210,18 @@
             "sheet": "Admin Panel",
             "range": "ATP45:ATW45"
           }
+        ],
+        "durationDays": 14,
+        "durationIntervals": [
+          {
+            "start": "2024-01-10",
+            "end": "2024-01-24"
+          }
         ]
       },
-      "unset": []
+      "unset": [
+        "chronologyDate"
+      ]
     },
     {
       "courseId": "n64-kalimari-desert-2",
@@ -3223,7 +3232,7 @@
       "set": {
         "submittedAt": "2024-01-24T06:03:32.560Z",
         "dateBasis": "original-post-submission-date",
-        "durationBasis": null,
+        "durationBasis": "documented dates; chronology incomplete",
         "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
         "lapSource": {
           "url": "https://discord.com/channels/629221606064914442/875784780573184010/1199595323643932672",
@@ -3231,7 +3240,7 @@
           "messageId": "1199595323643932672"
         },
         "recordDate": "2024-01-24",
-        "durationEnd": "2026-10-04",
+        "durationEnd": "2026-10-15",
         "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
         "proofImageVerified": true,
         "originalImageLocal": "archive/space2024-preserved-original-images/1199595323350327456.png",
@@ -3257,17 +3266,28 @@
           "33.78"
         ],
         "chronologyDate": "2024-01-24T06:03:32.560Z",
-        "tourLabel": "Space Tour (2024)"
+        "tourLabel": "Space Tour (2024)",
+        "durationDays": 28,
+        "durationIntervals": [
+          {
+            "start": "2025-01-08",
+            "end": "2025-01-22"
+          },
+          {
+            "start": "2026-01-07",
+            "end": "2026-01-21"
+          }
+        ]
       },
       "unset": [
-        "delayedSubmission",
-        "observedAt",
-        "evidencePublishedAt",
         "additionalProofImages",
+        "observedAt",
         "dateEvidenceNote",
+        "delayedSubmission",
         "proofImageAvailability",
+        "videoShareSource",
         "videoSharedAt",
-        "videoShareSource"
+        "evidencePublishedAt"
       ]
     },
     {

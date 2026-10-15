@@ -15,7 +15,7 @@ test('Space 2024 retains the carried WR and distinguishes the improved WR from a
 });
 test('kNo2 closing screenshot supplies the January 24 date while retaining documented tour attribution',()=>{
  const r=read(kd2).records.find(r=>r.id==='1204260087687024680');
- assert.equal(r.submittedAt,'2024-01-24T06:03:32.560Z');assert.equal(r.recordDate,'2024-01-24');assert.equal(r.dateUnresolved,false);assert.equal(r.lateTourSubmission,true);assert.equal(r.courseAppearance,'Space Tour (2024)');assert.deepEqual(r.laps,['29.54','33.78']);assert.match(r.proofImageLocal,/media\.mktwrs\.com/);assert(!r.video);
+ assert.equal(r.submittedAt,'2024-01-24T06:03:32.560Z');assert.equal(r.recordDate,'2024-01-24');assert.equal(r.dateUnresolved,false);assert.equal(r.lateTourSubmission,true);assert.equal(r.courseAppearance,'Space Tour (2024)');assert.equal(r.durationDays,28);assert.equal(read(kd2).records.find(r=>r.id==='1068224230715559956').durationEnd,'2024-01-24');assert.equal(read(kd2).records.find(r=>r.id==='1068224230715559956').durationDays,14);assert.deepEqual(r.laps,['29.54','33.78']);assert.match(r.proofImageLocal,/media\.mktwrs\.com/);assert(!r.video);
  const carried=read(ccir).records.find(r=>r.id==='1068224700599255101');assert.equal(carried.videoPublishedAt,'2023-01-25T02:47:41Z');assert.equal(carried.submittedAt,'2023-01-25T02:52:05.077Z');
 });
 test('Only fastest first-day support is shown and closing results retain real posting dates',()=>{

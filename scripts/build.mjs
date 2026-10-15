@@ -530,6 +530,12 @@ for (const patch of publicationPatches.rows || []) {
 for (const courseId of new Set((publicationPatches.rows || []).filter(p => p.collection === "records" && p.set?.playerId && p.set.playerId !== p.playerId).map(p => p.courseId))) {
   recomputeRecordDurations(courses.find(c => c.id === courseId));
 }
+// The reviewed closing submission fixes the successor date for these two reigns.
+const space2024Kd2 = courses.find(c => c.id === "n64-kalimari-desert-2");
+const space2024DurationRows = ["1068224230715559956", "1204260087687024680"].map(id => space2024Kd2.records.find(r => r.id === id));
+if (space2024DurationRows.some(r => !r) || space2024DurationRows[0].timeCs !== 6336 || space2024DurationRows[1].recordDate !== "2024-01-24") throw Error("Space 2024 duration source mismatch");
+recomputeRecordDurations({records: space2024DurationRows, appearances: space2024Kd2.appearances});
+space2024DurationRows[1].chronologyDate = space2024DurationRows[1].submittedAt;
 // The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
 const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
