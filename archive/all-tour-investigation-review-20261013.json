@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 136,
-      "source-and-publication-review": 32,
+      "completed-with-documented-gaps": 137,
+      "source-and-publication-review": 31,
       "candidate-and-source-review": 8,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 136,
-    "toursRequiringInvestigation": 45,
+    "practicallyCompletedTours": 137,
+    "toursRequiringInvestigation": 44,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -90,9 +90,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 26,
+        "requiringInvestigation": 25,
         "categories": {
-          "source-and-publication-review": 25,
+          "completed-with-documented-gaps": 1,
+          "source-and-publication-review": 24,
           "candidate-and-source-review": 1
         }
       },
@@ -7349,7 +7350,7 @@
           "url": "https://mktwrs.com/course/gba-cheep-cheep-island-r",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 1,
+          "supportingRows": 4,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1068224700599255101",
@@ -7359,10 +7360,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-kalimari-desert-2",
@@ -7370,7 +7368,7 @@
           "url": "https://mktwrs.com/course/n64-kalimari-desert-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 1,
+          "supportingRows": 5,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1068224230715559956",
@@ -7380,14 +7378,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/space2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/space2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-140",
@@ -11324,16 +11324,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-139",
+  "activeDetailedTourId": "tour-140",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-139",
-  "latestCompletionAudit": "public/data/newyear2025-completion.json",
+  "activeDetailedReview": "tour-140",
+  "latestCompletionAudit": "public/data/space2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-139",
-  "nextPriorityReason": "One tour at a time: New Year 2025 has exact LIVE completion evidence. Review Winter2025 next.",
-  "latestLiveCompletionAudit": "archive/newyear2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-140",
+  "nextPriorityReason": "One tour at a time: Space2025 has exact LIVE completion evidence. Review Winter2025 tour140 January22–February5 next.",
+  "latestLiveCompletionAudit": "archive/space2025-exact-live-publication-and-full-field-check-20261015.json"
 }
