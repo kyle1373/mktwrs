@@ -546,6 +546,13 @@ const winter2024DurationRows = ["1074903169542389840", "1209624145000792084"].ma
 if (winter2024DurationRows.some(r => !r) || winter2024DurationRows[0].timeCs !== 4594 || winter2024DurationRows[1].recordDate !== "2024-02-06") throw Error("Winter 2024 duration source mismatch");
 recomputeRecordDurations({records: winter2024DurationRows, appearances: winter2024Tokyo.appearances});
 winter2024DurationRows[1].chronologyDate = winter2024DurationRows[1].submittedAt;
+const exploration2024Cove = courses.find(c => c.id === "piranha-plant-cove"), exploration2024Cove2 = courses.find(c => c.id === "piranha-plant-cove-2");
+const exploration2024Carried = exploration2024Cove.records.find(r => r.id === "1078514612225441792");
+const exploration2024DurationRows = ["1078515335923257476", "1215068996248936541"].map(id => exploration2024Cove2.records.find(r => r.id === id));
+if (!exploration2024Carried || exploration2024Carried.timeCs !== 6846 || exploration2024DurationRows.some(r => !r) || exploration2024DurationRows[1].recordDate !== "2024-02-12") throw Error("Exploration 2024 duration source mismatch");
+recomputeRecordDurations({records:[exploration2024Carried], appearances:exploration2024Cove.appearances});
+recomputeRecordDurations({records:exploration2024DurationRows, appearances:exploration2024Cove2.appearances});
+exploration2024DurationRows[1].chronologyDate = exploration2024DurationRows[1].submittedAt;
 // The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
 const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
@@ -557,6 +564,8 @@ const space2024 = tours.find(t => t.id === "tour-113" && t.startDate === "2024-0
 if (space2024) space2024.name = "Space Tour (2024)";
 const winter2024 = tours.find(t => t.id === "tour-114" && t.startDate === "2024-01-24");
 if (winter2024) winter2024.name = "Winter Tour (2024)";
+const exploration2024 = tours.find(t => t.id === "tour-115" && t.startDate === "2024-02-07");
+if (exploration2024) exploration2024.name = "Exploration Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
