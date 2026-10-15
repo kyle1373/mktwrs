@@ -574,6 +574,14 @@ for(const original of bowser2024PublicationPreservation.preservedFutureCandidate
  for(const collection of ["records","submissions","candidates"]) bowser2024PreservedCourse[collection]=bowser2024PreservedCourse[collection].filter(r=>r.id!==original.id);
  bowser2024PreservedCourse.candidates.push({...original});
 }
+const mii2024PublicationPreservation=JSON.parse(fs.readFileSync("scripts/mii2024-publication-preservation.json","utf8"));
+const mii2024DeferredIds=new Set(mii2024PublicationPreservation.deferredNewRows);
+for(const c of courses) for(const collection of ["records","submissions","candidates"]) c[collection]=(c[collection]||[]).filter(r=>!mii2024DeferredIds.has(r.id));
+for(const p of mii2024PublicationPreservation.preservedRows) {
+ const c=courses.find(c=>c.id===p.courseId);
+ for(const collection of ["records","submissions","candidates"]) c[collection]=c[collection].filter(r=>r.id!==p.row.id);
+ c[p.collection].push(structuredClone(p.row));
+}
 applyReviewedPublicationPatches(courses, publicationPatches);
 // Account corrections run after source import; keep the stable WR ID credited to its reviewed owner.
 for (const patch of publicationPatches.rows || []) {
@@ -642,6 +650,8 @@ const spring2024=tours.find(t=>t.id==="tour-120" && t.startDate==="2024-04-17");
 if(spring2024) spring2024.name="Spring Tour (2024)";
 const bowser2024=tours.find(t=>t.id==="tour-121" && t.startDate==="2024-05-01");
 if(bowser2024) bowser2024.name="Bowser Tour (2024)";
+const mii2024=tours.find(t=>t.id==="tour-122" && t.startDate==="2024-05-15");
+if(mii2024) mii2024.name="Mii Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
