@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 140,
-      "source-and-publication-review": 28,
+      "completed-with-documented-gaps": 141,
+      "source-and-publication-review": 27,
       "candidate-and-source-review": 8,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 140,
-    "toursRequiringInvestigation": 41,
+    "practicallyCompletedTours": 141,
+    "toursRequiringInvestigation": 40,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -90,10 +90,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 22,
+        "requiringInvestigation": 21,
         "categories": {
-          "completed-with-documented-gaps": 4,
-          "source-and-publication-review": 21,
+          "completed-with-documented-gaps": 5,
+          "source-and-publication-review": 20,
           "candidate-and-source-review": 1
         }
       },
@@ -7577,7 +7577,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-3r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 1,
+          "supportingRows": 3,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1089608065063596185",
@@ -7587,11 +7587,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-luigi-raceway",
@@ -7599,7 +7595,7 @@
           "url": "https://mktwrs.com/course/n64-luigi-raceway",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 1,
+          "supportingRows": 8,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1224448025263345876",
@@ -7609,13 +7605,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/mario2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/mario2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-144",
@@ -11316,16 +11315,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-143",
+  "activeDetailedTourId": "tour-144",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-143",
-  "latestCompletionAudit": "public/data/doctor2025-completion.json",
+  "activeDetailedReview": "tour-144",
+  "latestCompletionAudit": "public/data/mario2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-143",
-  "nextPriorityReason": "One tour at a time: Doctor2025 has exact LIVE completion evidence. Review Mario2025 tour143 March5–19 next.",
-  "latestLiveCompletionAudit": "archive/doctor2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-144",
+  "nextPriorityReason": "One tour at a time: Mario2025 has exact LIVE completion evidence. Review Ninja2025 tour144 March19–April2 next.",
+  "latestLiveCompletionAudit": "archive/mario2025-exact-live-publication-and-full-field-check-20261015.json"
 }
