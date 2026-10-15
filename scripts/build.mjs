@@ -553,6 +553,17 @@ if (!exploration2024Carried || exploration2024Carried.timeCs !== 6846 || explora
 recomputeRecordDurations({records:[exploration2024Carried], appearances:exploration2024Cove.appearances});
 recomputeRecordDurations({records:exploration2024DurationRows, appearances:exploration2024Cove2.appearances});
 exploration2024DurationRows[1].chronologyDate = exploration2024DurationRows[1].submittedAt;
+
+const doctor2024Pgr = courses.find(c => c.id === "ds-peach-gardens-r"), doctor2024Sky = courses.find(c => c.id === "gba-sky-garden");
+const doctor2024PgrRows = ["1084274701741862943", "1219694565657804833"].map(id => doctor2024Pgr.records.find(r => r.id === id));
+const doctor2024SkyRows = ["1084274769643454484", "1219694774953443399"].map(id => doctor2024Sky.records.find(r => r.id === id));
+const doctor2024Successor = doctor2024Sky.records.find(r => r.id === "1480018610201301063");
+if (doctor2024PgrRows.some(r => !r) || doctor2024PgrRows[1].recordDate !== "2024-03-06" || doctor2024SkyRows.some(r => !r) || doctor2024SkyRows[1].recordDate !== "2024-03-01" || doctor2024Successor?.recordDate !== "2026-02-26" || doctor2024Successor?.timeCs !== 6385) throw Error("Doctor 2024 duration source mismatch");
+recomputeRecordDurations({records:doctor2024PgrRows, appearances:doctor2024Pgr.appearances});
+// The later record supplies only the known reign boundary; its evidence stays unchanged.
+recomputeRecordDurations({records:[...doctor2024SkyRows, {...doctor2024Successor}], appearances:doctor2024Sky.appearances});
+for (const r of [...doctor2024PgrRows, ...doctor2024SkyRows]) r.chronologyDate = r.submittedAt;
+
 // The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
 const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
@@ -566,6 +577,8 @@ const winter2024 = tours.find(t => t.id === "tour-114" && t.startDate === "2024-
 if (winter2024) winter2024.name = "Winter Tour (2024)";
 const exploration2024 = tours.find(t => t.id === "tour-115" && t.startDate === "2024-02-07");
 if (exploration2024) exploration2024.name = "Exploration Tour (2024)";
+const doctor2024 = tours.find(t => t.id === "tour-116" && t.startDate === "2024-02-21");
+if (doctor2024) doctor2024.name = "Doctor Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
