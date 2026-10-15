@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-147",
+  "activeDetailedReview": "tour-148",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 144,
-      "carry-in-and-sparse-history-check": 26,
+      "completed-with-documented-gaps": 145,
+      "carry-in-and-sparse-history-check": 25,
       "source-and-publication-review": 8,
       "faster-result-reconciliation": 1,
       "candidate-and-source-review": 2
@@ -85,10 +85,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 18,
+        "requiringInvestigation": 17,
         "categories": {
-          "completed-with-documented-gaps": 8,
-          "carry-in-and-sparse-history-check": 12,
+          "completed-with-documented-gaps": 9,
+          "carry-in-and-sparse-history-check": 11,
           "source-and-publication-review": 5,
           "faster-result-reconciliation": 1
         }
@@ -113,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 144,
-    "toursRequiringInvestigation": 37
+    "practicallyCompletedTours": 145,
+    "toursRequiringInvestigation": 36
   },
   "tours": [
     {
@@ -15118,7 +15118,7 @@
           "url": "https://mktwrs.com/course/athens-dash-2",
           "firstAppearance": false,
           "wrRows": 7,
-          "supportingRows": 26,
+          "supportingRows": 27,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1241780457365049465",
@@ -15150,7 +15150,8 @@
             "recordingComparisons": [],
             "pageSha256": "54a34bffe87902e4c4de6676ebe6001a38eac949cb5378db32d98c4fb996ce6e"
           },
-          "oneDayRangeDiscrepancyRows": 0
+          "oneDayRangeDiscrepancyRows": 0,
+          "lateSourceSupplementAudit": "archive/bowser2025-exact-live-publication-and-full-field-check-20261015.json"
         },
         {
           "courseId": "berlin-byways",
@@ -15214,7 +15215,7 @@
           "url": "https://mktwrs.com/course/gba-bowser-s-castle-4",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 7,
+          "supportingRows": 6,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1109324308658004028",
@@ -15230,11 +15231,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-bowser-s-castle-4",
             "checkedAt": "2026-10-13T18:38:29.351790+00:00",
@@ -15274,11 +15271,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-kalimari-desert-2r",
             "checkedAt": "2026-10-13T18:38:30.919403+00:00",
@@ -15299,8 +15292,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/bowser2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/bowser2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-148",
@@ -19232,10 +19230,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-147",
-  "latestCompletionAudit": "public/data/spring2025-completion.json",
+  "activeDetailedTourId": "tour-148",
+  "latestCompletionAudit": "public/data/bowser2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-147",
-  "nextPriorityReason": "One tour at a time: Spring2025 has exact LIVE completion evidence. Review Bowser2025 tour147 April30–May14 next.",
-  "latestLiveCompletionAudit": "archive/spring2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-148",
+  "nextPriorityReason": "One tour at a time: Bowser2025 has exact LIVE completion evidence. Review Mii2025 tour148 May14–May28 next.",
+  "latestLiveCompletionAudit": "archive/bowser2025-exact-live-publication-and-full-field-check-20261015.json"
 }

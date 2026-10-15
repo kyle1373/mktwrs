@@ -48,15 +48,17 @@
       ],
       "openingFinalFastest": "DIT 1:11.12",
       "fastestRecoveredAvailableRecording": "1:10.86",
-      "recordingMatchStatus": "provisional-automated-finish-and-adjacent-result-match",
+      "recordingMatchStatus": "visually-verified-completed-result",
       "recordingPublishedAt": null,
       "recordingSharedAt": "2023-05-11T11:21:11.198Z",
       "recordingContainerCreatedAt": "2023-05-11T11:20:58.000000Z",
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/bowser2023-675cc4a5e36c35e119ca.mp4",
       "priorSampledVideoReviewRetained": false,
-      "freshVisualReview": false,
+      "freshVisualReview": true,
       "recordingOriginalBackupUrl": "https://media.mktwrs.com/assets/video/bowser2023-71d5892993478c27bd0a.mov",
-      "recordingPlaybackKind": "lossless-stream-remux-mp4"
+      "recordingPlaybackKind": "lossless-stream-remux-mp4",
+      "recordingReviewAudit": "archive/bowser2025-original-preservation-and-source-review-20261015.json",
+      "startToFinishContinuityVerified": false
     },
     {
       "id": "n64-kalimari-desert-2r",
@@ -191,5 +193,13 @@
     }
   ],
   "nextTourId": "tour-96",
-  "sourceCommit": "0f595e6653567186f8240867987deb7cb9d25264"
+  "sourceCommit": "0f595e6653567186f8240867987deb7cb9d25264",
+  "lateRecordingVerificationSupplement": {
+    "sourceTour": "Bowser Tour (2025)",
+    "reviewAudit": "archive/bowser2025-original-preservation-and-source-review-20261015.json",
+    "time": "1:10.86",
+    "resultVisuallyVerified": true,
+    "uninterruptedRaceContinuityVerified": false,
+    "originalSubmissionAndSharingClocksRetained": true
+  }
 }
