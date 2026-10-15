@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-135",
+  "activeDetailedReview": "tour-136",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 132,
-      "carry-in-and-sparse-history-check": 35,
+      "completed-with-documented-gaps": 133,
+      "carry-in-and-sparse-history-check": 34,
       "faster-result-reconciliation": 3,
       "source-and-publication-review": 9,
       "candidate-and-source-review": 2
@@ -78,10 +78,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 4,
+        "requiringInvestigation": 3,
         "categories": {
-          "completed-with-documented-gaps": 22,
-          "carry-in-and-sparse-history-check": 2,
+          "completed-with-documented-gaps": 23,
+          "carry-in-and-sparse-history-check": 1,
           "faster-result-reconciliation": 2
         }
       },
@@ -114,8 +114,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 132,
-    "toursRequiringInvestigation": 49
+    "practicallyCompletedTours": 133,
+    "toursRequiringInvestigation": 48
   },
   "tours": [
     {
@@ -13934,7 +13934,7 @@
           "url": "https://mktwrs.com/course/n64-choco-mountain",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 7,
+          "supportingRows": 4,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "896340977839656990",
@@ -13950,11 +13950,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-choco-mountain",
             "checkedAt": "2026-10-13T18:38:29.712343+00:00",
@@ -13981,7 +13977,7 @@
           "url": "https://mktwrs.com/course/n64-yoshi-valley-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 3,
+          "supportingRows": 2,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "curated-1046087379137601596-1046087378831429734-august2022-image-reviewed",
@@ -13997,11 +13993,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-yoshi-valley-r",
             "checkedAt": "2026-10-13T18:38:35.503667+00:00",
@@ -14020,8 +14012,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/animal2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/animal2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-136",
@@ -19273,10 +19270,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-135",
-  "latestCompletionAudit": "public/data/autumn2024-completion.json",
+  "activeDetailedTourId": "tour-136",
+  "latestCompletionAudit": "public/data/animal2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-135",
-  "nextPriorityReason": "One tour at a time: Autumn 2024 has exact LIVE completion evidence. Review Animal 2024 next.",
-  "latestLiveCompletionAudit": "archive/autumn2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-136",
+  "nextPriorityReason": "One tour at a time: Animal 2024 has exact LIVE completion evidence. Review Peach vs. Bowser 2024 next.",
+  "latestLiveCompletionAudit": "archive/animal2024-exact-live-publication-and-full-field-check-20261015.json"
 }
