@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-138",
+  "activeDetailedReview": "tour-139",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,10 +33,10 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 135,
-      "faster-result-reconciliation": 2,
+      "completed-with-documented-gaps": 136,
       "carry-in-and-sparse-history-check": 33,
       "source-and-publication-review": 9,
+      "faster-result-reconciliation": 1,
       "candidate-and-source-review": 2
     },
     "years": {
@@ -78,10 +78,9 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 1,
+        "requiringInvestigation": 0,
         "categories": {
-          "completed-with-documented-gaps": 25,
-          "faster-result-reconciliation": 1
+          "completed-with-documented-gaps": 26
         }
       },
       "2025": {
@@ -113,8 +112,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 135,
-    "toursRequiringInvestigation": 46
+    "practicallyCompletedTours": 136,
+    "toursRequiringInvestigation": 45
   },
   "tours": [
     {
@@ -14267,7 +14266,7 @@
     {
       "id": "tour-138",
       "number": 138,
-      "displayName": "New Year's Tour (2024)",
+      "displayName": "New Year Tour (2025)",
       "startDate": "2024-12-25",
       "endDate": "2025-01-08",
       "courses": [
@@ -14277,7 +14276,7 @@
           "url": "https://mktwrs.com/course/wii-koopa-cape",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 16,
+          "supportingRows": 11,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1197596670645518491",
@@ -14310,12 +14309,7 @@
           "linkedVideoRows": 4,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check faster supporting results for date, eligibility and WR precedence before adding them to history.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "wii-koopa-cape",
             "checkedAt": "2026-10-13T18:38:31.002349+00:00",
@@ -14339,7 +14333,7 @@
           "url": "https://mktwrs.com/course/3ds-piranha-plant-slide",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 8,
+          "supportingRows": 6,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1197596509772984370",
@@ -14355,11 +14349,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "3ds-piranha-plant-slide",
             "checkedAt": "2026-10-13T18:38:32.497677+00:00",
@@ -14378,8 +14368,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "faster-result-reconciliation"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/newyear2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/newyear2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-139",
@@ -19259,10 +19254,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-138",
-  "latestCompletionAudit": "public/data/holiday2024-completion.json",
+  "activeDetailedTourId": "tour-139",
+  "latestCompletionAudit": "public/data/newyear2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-138",
-  "nextPriorityReason": "One tour at a time: Holiday 2024 has exact LIVE completion evidence. Review New Year2025 next.",
-  "latestLiveCompletionAudit": "archive/holiday2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-139",
+  "nextPriorityReason": "One tour at a time: New Year 2025 has exact LIVE completion evidence. Review Winter2025 next.",
+  "latestLiveCompletionAudit": "archive/newyear2025-exact-live-publication-and-full-field-check-20261015.json"
 }
