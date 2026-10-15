@@ -54,7 +54,7 @@ function EvidenceTimes({ r }) {
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
     {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Source posting date used as the submission date. This retrospective post attributes the result to {r.tourDateRange ? `${r.tourDateRange.start} – ${r.tourDateRange.end}` : "the earlier tour"}.</div></div>}
-    {r.submittedAt && !shares.some(event => event.sharedAt === r.submittedAt) && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
+    {r.submittedAt && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
     {r.correctedReceiptAt && <div>Corrected submission receipt: {format(r.correctedReceiptAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
       Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>

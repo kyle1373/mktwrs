@@ -1,9 +1,9 @@
 {
   "tourId": "tour-122",
   "tour": "Mii Tour (2024)",
-  "status": "in-progress",
+  "status": "completed-with-documented-gaps",
   "historyComplete": false,
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "previousTourLiveCompletion": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json",
   "courses": [
     "wii-maple-treeway-r",
@@ -12,7 +12,7 @@
   "startDate": "2024-05-15",
   "endDate": "2024-05-29",
   "nextActions": [
-    "Publish prepared Mii 2024 source reconciliation, then verify exact LIVE deployment and full data before moving to Princess 2024."
+    "Tour review and exact LIVE publication completed; continue sole next tour-123."
   ],
   "browserRestriction": "Discord only through Codex in-app browser 2.",
   "sourcePreservationAudit": "archive/mii2024-original-preservation-and-source-review-20261015.json",
@@ -23,5 +23,7 @@
   "productionBuildExitCode": 0,
   "focusedTestsPassed": 15,
   "fullGeneratedRowsMatched": 558,
-  "renderedR2UrlsReadable": 107
+  "renderedR2UrlsReadable": 107,
+  "livePublicationVerified": true,
+  "livePublicationAudit": "archive/mii2024-exact-live-publication-and-full-field-check-20261015.json"
 }
