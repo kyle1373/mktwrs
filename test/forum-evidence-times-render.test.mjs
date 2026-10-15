@@ -30,7 +30,7 @@ test('forum-only evidence and displayed edit clocks appear without fabricated UT
  const html=render({forumSourceTimes:[{url:'https://example.com/forum/31',forumPostedAtDisplayed:'10/25/19 at 07:07:00',forumLastEditDisplayed:'10/25/19 at 08:00:00',forumTimezoneKnown:false}]});
  assert.match(html,/Forum report:/);assert.match(html,/Last forum edit:/);
  assert.doesNotMatch(html,/UTC|Submitted:/);
- assert.match(html,/exact race time and historical edit contents unconfirmed/);
+ assert.match(html,/Historical edit contents remain unconfirmed/);
 });
 test('absent clocks render no panel',()=>assert.equal(render({}),''));
 
@@ -41,7 +41,7 @@ test('retained Toad report clocks reach the rendered page independently from sub
  assert.match(html,/Discord report:/);
  assert.match(html,/2019-10-27 03:39:16 UTC/);
  assert.match(html,/637857824130465801/);
- assert.match(html,/race completion time is separate/);
+ assert.match(html,/Source posting date used as the submission date unless other evidence establishes a different date/);
  assert.doesNotMatch(html,/Submitted:/);
 });
 test('report-only evidence renders without inventing submission or video clocks',()=>{

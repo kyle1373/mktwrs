@@ -747,6 +747,8 @@ if(anniversary2025) anniversary2025.name="Anniversary Tour (2025)";
 for (const c of courses) for (const r of c.records) {
   if (r.canonicalSourceReviewAudit === "archive/anniversary2025-posted-results-and-source-clock-reconciliation-20261015.json" && r.submittedAt) r.chronologyDate = r.submittedAt;
 }
+const battle2025=tours.find(t=>t.id==="tour-158" && t.startDate==="2025-10-01");
+if(battle2025) battle2025.name="Battle Tour (2025)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
