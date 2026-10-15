@@ -598,6 +598,11 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <p className="table-note">The uploader identifies one lap; this clip does not establish a whole-race time.</p>
       <EvidenceTimes r={lap} />
     </div>)}
+    {(comparison.sourceImages || []).map(image => <div key={image.url}>
+      <p>Discussion screenshot · <Player id={image.playerId} players={players} /> · <a href={image.url} target="_blank" rel="noopener noreferrer">Preserved original image</a> · <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Original post</a></p>
+      <p className="table-note">{image.note}</p>
+      <EvidenceTimes r={{submittedAt: image.postedAt}} />
+    </div>)}
     {comparison.lateStartRecording && <>
       <p>Available recording starts late: <strong>{comparison.lateStartRecording.time}</strong> · <Player id={comparison.lateStartRecording.playerId} players={players} /> · <a href={comparison.lateStartRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.lateStartRecording.videoBackup?.url && <> · <a href={comparison.lateStartRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The finish and result are visible; the beginning of the race is missing.</p>
@@ -866,6 +871,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.animal2023SupportingResults} players={players} tourLabel="Animal Tour (2023)" />
       <HalloweenRecording comparison={c.peachbowser2023Recording} players={players} tourLabel="Peach vs. Bowser Tour (2023)" completed={c.peachbowser2023Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.peachbowser2023SupportingResults} players={players} tourLabel="Peach vs. Bowser Tour (2023)" />
+      <HalloweenRecording comparison={c.holiday2023Recording} players={players} tourLabel="Holiday Tour (2023)" completed={c.holiday2023Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.holiday2023SupportingResults} players={players} tourLabel="Holiday Tour (2023)" />
       {c.autumn2023InputCorrection && <section className="fastest-video"><h2>Autumn Tour (2023) corrected submission</h2><p><Player id={c.autumn2023InputCorrection.playerId} players={players} /> · Receipt input: <strong>{c.autumn2023InputCorrection.reportedTime}</strong> · Screenshot and video: <strong>{c.autumn2023InputCorrection.verifiedTime}</strong></p><p className="table-note">The recovered original screenshot and linked movie contradict the receipt total and second split. This input does not receive WR tie credit.</p><p><a href={c.autumn2023InputCorrection.source.url} target="_blank" rel="noopener noreferrer">Original receipt</a> · <a href={c.autumn2023InputCorrection.proofImageLocal} target="_blank" rel="noopener noreferrer">Preserved original screenshot</a> · <a href={c.autumn2023InputCorrection.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video (1:13.42)</a></p><EvidenceTimes r={c.autumn2023InputCorrection} /></section>}
 
       {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}

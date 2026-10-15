@@ -1,0 +1,75 @@
+{
+  "tourId": "tour-111",
+  "tour": "Holiday Tour (2023)",
+  "status": "completed-with-documented-gaps",
+  "standard": "Captured surviving sources reconciled with good-enough documentary proof; exhaustive worldwide history is not certified.",
+  "completedAt": "2026-10-14",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2023-12-13T06:00:00Z",
+    "endExclusive": "2023-12-27T06:00:00Z"
+  },
+  "courses": [
+    {
+      "courseId": "gba-snow-land",
+      "archivedWr": "1:08.42",
+      "fastestDocumentedRecording": null,
+      "reportedAvailableRecording": "1:08.42",
+      "supportingDisplayed": 10
+    },
+    {
+      "courseId": "vancouver-velocity-3",
+      "archivedWr": "1:15.96",
+      "fastestDocumentedRecording": "1:15.96",
+      "reportedAvailableRecording": null,
+      "supportingDisplayed": 17
+    }
+  ],
+  "coverage": {
+    "indexedSubmissionImages": 30,
+    "lateHolidayImages": 3,
+    "latePeachBowserImagesPreservedOnly": 2,
+    "currentCourseImages": 31,
+    "newDiscussionImages": 1,
+    "completedMovies": 2,
+    "lapClips": 1,
+    "carriedSnowMovieReverified": 1,
+    "r2OriginalFilesVerified": 37,
+    "boundedSubmissionRows": 53,
+    "freshDiscussionQueryRows": 41,
+    "freshWithinTourDiscussionRows": 40,
+    "currentCanonicalPerformances": 32,
+    "newWrIds": 0,
+    "existingWrIdsRetained": 18
+  },
+  "evidence": [
+    "archive/holiday2023-complete-original-preservation-and-bounded-source-audit-20261014.json",
+    "archive/holiday2023-posted-results-and-source-clock-reconciliation-20261014.json",
+    "archive/holiday2023-live-three-video-source-clock-review-20261014.json",
+    "archive/holiday2023-carried-snow-recording-revalidation-20261014.json",
+    "archive/holiday2023-fresh-discussion-context-and-preserved-image-review-20261014.json",
+    "archive/holiday2023-full-course-generation-and-source-field-preservation-20261014.json"
+  ],
+  "submissionDatePolicy": "Use source posting dates as submission dates unless other evidence establishes another date. Videos keep separate publication and observed sharing clocks. Late submissions keep actual posting dates.",
+  "remainingLimitations": [
+    "Carried Snow movie retains uploader-reported 1:08.42 without independently verified video result.",
+    "Matching hashes retain earlier image and lap/result movie assessments. No fresh uninterrupted race certification.",
+    "Single-lap movie and new discussion image do not establish completed race totals.",
+    "Best-split projections and previous personal best fields do not receive new WR or profile credit.",
+    "Two source identities retain existing associations without claimed account merge.",
+    "Two late Peach/Bowser images are preserved outside the current Holiday publication scope.",
+    "Bounded surviving source review does not establish exhaustive worldwide history."
+  ],
+  "validation": {
+    "focusedTestsPassed": 12,
+    "fullGeneratedRowsMatched": 374,
+    "productionBuildExitCode": 0,
+    "livePublicationVerified": false,
+    "productionBuildAudit": "archive/holiday2023-production-build-and-rendered-evidence-link-check-20261014.json",
+    "allRenderedR2LinksReadable": true,
+    "renderedR2UrlsChecked": 40
+  },
+  "nextTourId": "tour-112"
+}
