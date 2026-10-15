@@ -603,6 +603,8 @@ const mario2024=tours.find(t=>t.id==="tour-117" && t.startDate==="2024-03-06");
 if(mario2024) mario2024.name="Mario Tour (2024)";
 const ninja2024=tours.find(t=>t.id==="tour-118" && t.startDate==="2024-03-20");
 if(ninja2024) ninja2024.name="Ninja Tour (2024)";
+const yoshi2024=tours.find(t=>t.id==="tour-119" && t.startDate==="2024-04-03");
+if(yoshi2024) yoshi2024.name="Yoshi Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,

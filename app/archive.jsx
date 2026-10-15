@@ -23,7 +23,7 @@ function Nation({ country }) {
   );
 }
 function RecordDate({ r }) {
-  const day = r.recordDate || r.achievedAt || r.submittedAt;
+  const day = r.recordDate || r.achievedAt || r.submittedAt || r.announcedAt;
   if (!day && r.tourDateRange)
     return <span title="The retrospective source identifies this tour, rather than a submission day.">{r.tourDateRange.start} – {r.tourDateRange.end}</span>;
   return <span title="Submission date (UTC). The source posting date is used unless the evidence establishes another date.">{date(day)}</span>;
@@ -53,7 +53,7 @@ function EvidenceTimes({ r }) {
   if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.correctedReceiptAt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
-    {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Retrospective announcement of the earlier tour result.</div></div>}
+    {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Source posting date used as the submission date. This retrospective post attributes the result to {r.tourDateRange ? `${r.tourDateRange.start} – ${r.tourDateRange.end}` : "the earlier tour"}.</div></div>}
     {r.submittedAt && !shares.some(event => event.sharedAt === r.submittedAt) && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
     {r.correctedReceiptAt && <div>Corrected submission receipt: {format(r.correctedReceiptAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
@@ -887,6 +887,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.mario2024SupportingResults} players={players} tourLabel="Mario Tour (2024)" />
       <HalloweenRecording comparison={c.ninja2024Recording} players={players} tourLabel="Ninja Tour (2024)" completed={c.ninja2024Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.ninja2024SupportingResults} players={players} tourLabel="Ninja Tour (2024)" />
+      <HalloweenRecording comparison={c.yoshi2024Recording} players={players} tourLabel="Yoshi Tour (2024)" completed={c.yoshi2024Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.yoshi2024SupportingResults} players={players} tourLabel="Yoshi Tour (2024)" />
       {c.autumn2023InputCorrection && <section className="fastest-video"><h2>Autumn Tour (2023) corrected submission</h2><p><Player id={c.autumn2023InputCorrection.playerId} players={players} /> · Receipt input: <strong>{c.autumn2023InputCorrection.reportedTime}</strong> · Screenshot and video: <strong>{c.autumn2023InputCorrection.verifiedTime}</strong></p><p className="table-note">The recovered original screenshot and linked movie contradict the receipt total and second split. This input does not receive WR tie credit.</p><p><a href={c.autumn2023InputCorrection.source.url} target="_blank" rel="noopener noreferrer">Original receipt</a> · <a href={c.autumn2023InputCorrection.proofImageLocal} target="_blank" rel="noopener noreferrer">Preserved original screenshot</a> · <a href={c.autumn2023InputCorrection.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video (1:13.42)</a></p><EvidenceTimes r={c.autumn2023InputCorrection} /></section>}
 
       {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}
