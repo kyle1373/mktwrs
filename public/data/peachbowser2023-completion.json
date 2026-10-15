@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-110",
+  "tour": "Peach vs. Bowser Tour (2023)",
+  "status": "completed-with-documented-gaps",
+  "standard": "Captured surviving sources reconciled with good-enough documentary proof; exhaustive worldwide history is not certified.",
+  "completedAt": "2026-10-14",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2023-11-29T06:00:00Z",
+    "endExclusive": "2023-12-13T06:00:00Z"
+  },
+  "courses": [
+    {
+      "courseId": "3ds-bowser-s-castle-r",
+      "archivedWr": "1:38.39",
+      "fastestDocumentedRecording": "1:38.39",
+      "supportingDisplayed": 19
+    },
+    {
+      "courseId": "ds-peach-gardens",
+      "archivedWr": "1:26.58",
+      "fastestDocumentedRecording": "1:26.58",
+      "supportingDisplayed": 13
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "archivedWr": "1:33.66",
+      "fastestDocumentedRecording": "1:33.66",
+      "supportingDisplayed": 12
+    }
+  ],
+  "coverage": {
+    "indexedSubmissionImages": 57,
+    "currentTourImages": 54,
+    "uniqueCurrentImagePerformances": 51,
+    "lateAnimalImages": 3,
+    "discussionContextImages": 3,
+    "currentOriginalMovies": 4,
+    "earlierWrMovieReverified": 1,
+    "r2OriginalFilesVerified": 64,
+    "boundedSourceRows": 111,
+    "otherContextRows": 19,
+    "newWrIds": 0,
+    "existingWrIdsRetained": 50
+  },
+  "evidence": [
+    "archive/peachbowser2023-complete-original-preservation-and-source-audit-20261014.json",
+    "archive/peachbowser2023-posted-results-and-source-clock-reconciliation-20261014.json",
+    "archive/peachbowser2023-bounded-context-disposition-20261014.json",
+    "archive/peachbowser2023-full-course-generation-and-source-field-preservation-20261014.json",
+    "archive/peachbowser2023-production-build-and-rendered-evidence-link-check-20261014.json"
+  ],
+  "submissionDatePolicy": "Use original source post dates as submission dates unless other evidence establishes another date. Videos retain separate publication and observed sharing clocks. Late submissions keep their actual posting dates.",
+  "remainingLimitations": [
+    "Undated previous-best 1:33.86 has no invented WR date or profile credit.",
+    "Two DeletedUser results retain existing anonymous associations; no claimed account merge.",
+    "Recovered Shine original PNG is corroborated by OCR and prior image assessment; no fresh visual certification.",
+    "Matching hashes retain earlier image and first-lap/result movie assessments. No fresh uninterrupted-race certification.",
+    "Preserved discussions, cancelled receipts and late Animal sources do not invent new current-tour results.",
+    "Bounded surviving source review does not establish exhaustive worldwide history."
+  ],
+  "validation": {
+    "focusedTestsPassed": 21,
+    "fullGeneratedRowsMatched": 669,
+    "productionBuildExitCode": 0,
+    "livePublicationVerified": false,
+    "renderedR2LinksReadable": 63
+  },
+  "nextTourId": "tour-111"
+}
