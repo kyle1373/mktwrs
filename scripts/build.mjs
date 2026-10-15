@@ -535,11 +535,29 @@ if(ninja2024Receipt) {
  ninja2024Rainbow.submissions.push({...ninja2024Receipt,status:"matched-existing-documented-result-receipt",includeInProgression:false,recordDate:ninja2024Receipt.submittedAt.slice(0,10),dateBasis:"original-post-submission-date",dateUnresolved:false,matchedSubmissionId:ninja2024Result.id});
 }
 
+const spring2024Rainbow=courses.find(c=>c.id==="athens-dash-2");
+const spring2024ReceiptId="discord-1232671283821412372";
+const spring2024Receipt=[...spring2024Rainbow.candidates,...spring2024Rainbow.submissions].find(r=>r.id===spring2024ReceiptId);
+const spring2024Result=spring2024Rainbow.records.find(r=>r.id==="curated-1232671276146098277-spring2024-image-reviewed");
+if(spring2024Receipt) {
+ if(!spring2024Result || spring2024Receipt.timeCs!==spring2024Result.timeCs || spring2024Receipt.playerId!==spring2024Result.playerId) throw Error("Spring 2024 receipt mismatch");
+ spring2024Rainbow.candidates=spring2024Rainbow.candidates.filter(r=>r.id!==spring2024ReceiptId);spring2024Rainbow.submissions=spring2024Rainbow.submissions.filter(r=>r.id!==spring2024ReceiptId);
+ spring2024Rainbow.submissions.push({...spring2024Receipt,status:"matched-existing-wr-receipt",includeInProgression:false,recordDate:spring2024Receipt.submittedAt.slice(0,10),dateBasis:"original-post-submission-date",dateUnresolved:false,matchedWrId:spring2024Result.id});
+}
+
 const publicationPatches = JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8"));
 for (const preserved of publicationPatches.preservedRows || []) {
   const rows = courses.find(c => c.id === preserved.courseId)?.[preserved.collection];
   if (!rows) throw Error("Preserved collection missing: " + preserved.courseId);
   if (!rows.some(r => r.id === preserved.row.id)) rows.push({...preserved.row});
+}
+const spring2024PublicationPreservation=JSON.parse(fs.readFileSync("scripts/spring2024-publication-preservation.json","utf8"));
+const spring2024PreservedCourse=courses.find(c=>c.id===spring2024PublicationPreservation.courseId);
+const spring2024DeferredIds=new Set(spring2024PublicationPreservation.deferredNewFutureRows);
+for(const collection of ["records","submissions","candidates"]) spring2024PreservedCourse[collection]=spring2024PreservedCourse[collection].filter(r=>!spring2024DeferredIds.has(r.id));
+for(const original of spring2024PublicationPreservation.preservedFutureCandidates) {
+ for(const collection of ["records","submissions","candidates"]) spring2024PreservedCourse[collection]=spring2024PreservedCourse[collection].filter(r=>r.id!==original.id);
+ spring2024PreservedCourse.candidates.push({...original});
 }
 applyReviewedPublicationPatches(courses, publicationPatches);
 // Account corrections run after source import; keep the stable WR ID credited to its reviewed owner.
@@ -605,6 +623,8 @@ const ninja2024=tours.find(t=>t.id==="tour-118" && t.startDate==="2024-03-20");
 if(ninja2024) ninja2024.name="Ninja Tour (2024)";
 const yoshi2024=tours.find(t=>t.id==="tour-119" && t.startDate==="2024-04-03");
 if(yoshi2024) yoshi2024.name="Yoshi Tour (2024)";
+const spring2024=tours.find(t=>t.id==="tour-120" && t.startDate==="2024-04-17");
+if(spring2024) spring2024.name="Spring Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
