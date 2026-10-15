@@ -660,6 +660,8 @@ const night2024=tours.find(t=>t.id==="tour-125" && t.startDate==="2024-06-26");
 if(night2024) night2024.name="Night Tour (2024)";
 const pipe2024=tours.find(t=>t.id==="tour-126" && t.startDate==="2024-07-10");
 if(pipe2024) pipe2024.name="Pipe Tour (2024)";
+const sunshine2024=tours.find(t=>t.id==="tour-127" && t.startDate==="2024-07-24");
+if(sunshine2024) sunshine2024.name="Sunshine Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,

@@ -1,0 +1,80 @@
+{
+  "tourId": "tour-127",
+  "tour": "Sunshine Tour (2024)",
+  "status": "completed-with-documented-gaps",
+  "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
+  "completedAt": "2026-10-15",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2024-07-24T06:00:00Z",
+    "endExclusive": "2024-08-07T06:00:00Z"
+  },
+  "courses": [
+    {
+      "courseId": "wii-daisy-circuit",
+      "archivedWr": "1:18.15",
+      "fastestDocumentedRecording": "1:18.15",
+      "beforeCloseRecording": "1:18.23",
+      "supportingDisplayed": 13
+    },
+    {
+      "courseId": "snes-koopa-troopa-beach-2r",
+      "archivedWr": "0:57.17",
+      "fastestDocumentedRecording": "0:57.42",
+      "beforeCloseRecording": null,
+      "supportingDisplayed": 12
+    }
+  ],
+  "coverage": {
+    "indexedAttachments": 30,
+    "availableOriginalSubmissionImages": 30,
+    "unavailableOriginalSubmissionImages": 0,
+    "currentCanonicalSourceRows": 33,
+    "uniqueCurrentPerformances": 32,
+    "repeatIndexedScreenshots": 1,
+    "currentCompletedMoviePerformances": 6,
+    "currentPartialClips": 4,
+    "discussionOriginalImages": 6,
+    "lateSunshineOriginalImages": 1,
+    "latePreviousPipeContextImages": 1,
+    "derivedTutorialResultFrames": 1,
+    "r2FilesVerified": 48,
+    "existingWrIdsRetained": 23,
+    "newWrIds": 0,
+    "currentTourBoundedDiscussionRows": 93,
+    "postCloseContextRows": 22,
+    "canonicalSourceRowsReconciled": 33,
+    "matchedReceiptsRetainedAsSourceOnly": 19,
+    "freshBrowserCensusCompleted": false
+  },
+  "evidence": [
+    "archive/sunshine2024-original-preservation-and-source-review-20261015.json",
+    "archive/sunshine2024-preserved-bounded-source-census-20261015.json",
+    "archive/sunshine2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+    "archive/sunshine2024-daisy-strategy-video-result-review-20261015.json",
+    "archive/sunshine2024-full-course-generation-and-source-field-preservation-20261015.json",
+    "archive/sunshine2024-edited-receipt-source-dispositions-20261015.json"
+  ],
+  "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
+  "remainingLimitations": [
+    "Indexed original image assessments with prior SHA256 retain matching-byte provenance; discussion images and recovered YouTube files retain prior URL/source assessments where no old hash exists.",
+    "Strategy tutorial finish1:18.23 visually reviewed; edited playback not certified uninterrupted.",
+    "Four partial clips do not establish full-run totals; no splits synthesized for57.17.",
+    "Sucha1:18.15 is explicitly late, submittedAug7at13:26after06UTC closing; device header not used to backdate.",
+    "Sucha57.60 earlier discussion movie and later submission image are the same performance with separate source clocks.",
+    "Carried Daisy1:18.30 andKTB2R57.55 records remain prior-year baselines without2025results entering2024.",
+    "No fresh exhaustive Discord/worldwide census or frame-by-frame continuity certification."
+  ],
+  "validation": {
+    "focusedTestsPassed": 24,
+    "fullGeneratedRowsMatched": 304,
+    "productionBuildExitCode": 0,
+    "livePublicationVerified": false,
+    "productionAudit": "archive/sunshine2024-production-build-and-rendered-evidence-link-check-20261015.json",
+    "allRenderedR2LinksReadable": true,
+    "renderedEvidenceUrlsChecked": 95
+  },
+  "nextTourId": "tour-128"
+}
