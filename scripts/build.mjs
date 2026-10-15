@@ -685,6 +685,8 @@ const autumn2024=tours.find(t=>t.id==="tour-134" && t.startDate==="2024-10-30");
 if(autumn2024) autumn2024.name="Autumn Tour (2024)";
 const animal2024=tours.find(t=>t.id==="tour-135" && t.startDate==="2024-11-13");
 if(animal2024) animal2024.name="Animal Tour (2024)";
+const peachbowser2024=tours.find(t=>t.id==="tour-136" && t.startDate==="2024-11-27");
+if(peachbowser2024) peachbowser2024.name="Peach vs. Bowser Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
