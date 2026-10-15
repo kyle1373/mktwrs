@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 118,
-      "carry-in-and-sparse-history-check": 12,
+      "completed-with-documented-gaps": 119,
+      "carry-in-and-sparse-history-check": 11,
       "candidate-and-source-review": 15,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 118,
-    "toursRequiringInvestigation": 63,
+    "practicallyCompletedTours": 119,
+    "toursRequiringInvestigation": 62,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -83,10 +83,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 18,
+        "requiringInvestigation": 17,
         "categories": {
-          "completed-with-documented-gaps": 8,
-          "carry-in-and-sparse-history-check": 7,
+          "completed-with-documented-gaps": 9,
+          "carry-in-and-sparse-history-check": 6,
           "candidate-and-source-review": 7,
           "source-and-publication-review": 4
         }
@@ -6361,7 +6361,7 @@
           "url": "https://mktwrs.com/course/gba-bowser-s-castle-4",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 8,
+          "supportingRows": 23,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1109324308658004028",
@@ -6371,11 +6371,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-kalimari-desert-2r",
@@ -6383,7 +6379,7 @@
           "url": "https://mktwrs.com/course/n64-kalimari-desert-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 16,
+          "supportingRows": 23,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "896334182928760863",
@@ -6393,14 +6389,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/bowser2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-122",
@@ -11371,16 +11369,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-121",
+  "activeDetailedTourId": "tour-122",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-121",
-  "latestCompletionAudit": "public/data/spring2024-completion.json",
+  "activeDetailedReview": "tour-122",
+  "latestCompletionAudit": "public/data/bowser2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-121",
-  "nextPriorityReason": "One tour at a time: Spring 2024 has exact LIVE completion evidence. Review Bowser 2024 next.",
-  "latestLiveCompletionAudit": "archive/spring2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-122",
+  "nextPriorityReason": "One tour at a time: Bowser 2024 has exact LIVE completion evidence. Review Mii 2024 next.",
+  "latestLiveCompletionAudit": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json"
 }

@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-121",
+  "activeDetailedReview": "tour-122",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 118,
-      "carry-in-and-sparse-history-check": 46,
+      "completed-with-documented-gaps": 119,
+      "carry-in-and-sparse-history-check": 45,
       "source-and-publication-review": 11,
       "candidate-and-source-review": 3,
       "faster-result-reconciliation": 3
@@ -78,10 +78,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 18,
+        "requiringInvestigation": 17,
         "categories": {
-          "completed-with-documented-gaps": 8,
-          "carry-in-and-sparse-history-check": 13,
+          "completed-with-documented-gaps": 9,
+          "carry-in-and-sparse-history-check": 12,
           "source-and-publication-review": 2,
           "candidate-and-source-review": 1,
           "faster-result-reconciliation": 2
@@ -116,8 +116,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 118,
-    "toursRequiringInvestigation": 63
+    "practicallyCompletedTours": 119,
+    "toursRequiringInvestigation": 62
   },
   "tours": [
     {
@@ -12500,7 +12500,7 @@
           "url": "https://mktwrs.com/course/gba-bowser-s-castle-4",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 45,
+          "supportingRows": 23,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1109324308658004028",
@@ -12516,11 +12516,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-bowser-s-castle-4",
             "checkedAt": "2026-10-13T18:38:29.351790+00:00",
@@ -12544,7 +12540,7 @@
           "url": "https://mktwrs.com/course/n64-kalimari-desert-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 39,
+          "supportingRows": 23,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "896334182928760863",
@@ -12560,11 +12556,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-kalimari-desert-2r",
             "checkedAt": "2026-10-13T18:38:30.919403+00:00",
@@ -12585,8 +12577,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/bowser2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-122",
@@ -19318,10 +19315,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-121",
-  "latestCompletionAudit": "public/data/spring2024-completion.json",
+  "activeDetailedTourId": "tour-122",
+  "latestCompletionAudit": "public/data/bowser2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-121",
-  "nextPriorityReason": "One tour at a time: Spring 2024 has exact LIVE completion evidence. Review Bowser 2024 next.",
-  "latestLiveCompletionAudit": "archive/spring2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-122",
+  "nextPriorityReason": "One tour at a time: Bowser 2024 has exact LIVE completion evidence. Review Mii 2024 next.",
+  "latestLiveCompletionAudit": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json"
 }
