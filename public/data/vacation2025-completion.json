@@ -1,8 +1,8 @@
 {
   "tourId": "tour-154",
   "tour": "Vacation Tour (2025)",
-  "status": "publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -62,16 +62,20 @@
     "Dates from original submissions, uploads, announcements and later sharing remain separate.",
     "No completed total inferred from lap-only footage; no identity merge for unresolved uploader B.",
     "Later 2026 sources remain protected outside this tour review.",
-    "Sampled DIT finish and REMON lap boundary confirmed; uninterrupted start-to-finish continuity not certified. Canonical reconciliation and exact live publication remain pending."
+    "Sampled DIT finish and REMON lap boundary confirmed; uninterrupted start-to-finish continuity not certified."
   ],
   "validation": {
-    "livePublicationVerified": false,
+    "livePublicationVerified": true,
     "focusedTestsPassed": 18,
-    "productionBuildsPassed": 2,
+    "productionBuildsPassed": 3,
     "productionBuildExitCode": 0,
     "productionAudit": "archive/vacation2025-production-build-and-rendered-evidence-link-check-20261015.json",
-    "renderedR2LinksReadable": 229
+    "renderedR2LinksReadable": 229,
+    "livePublicationAudit": "archive/vacation2025-exact-live-publication-and-full-field-check-20261015.json",
+    "completionLabelRenderedOnAllThreeCourses": true
   },
   "nextTourId": "tour-155",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/vacation2025-exact-live-publication-and-full-field-check-20261015.json"
 }
