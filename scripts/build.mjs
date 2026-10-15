@@ -537,6 +537,8 @@ const holiday2023 = tours.find(t => t.id === "tour-111" && t.startDate === "2023
 if (holiday2023) holiday2023.name = "Holiday Tour (2023)";
 const newYear2024 = tours.find(t => t.id === "tour-112" && t.startDate === "2023-12-27");
 if (newYear2024) newYear2024.name = "New Year's Tour (2024)";
+const space2024 = tours.find(t => t.id === "tour-113" && t.startDate === "2024-01-10");
+if (space2024) space2024.name = "Space Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,

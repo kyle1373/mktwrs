@@ -3222,25 +3222,52 @@
       "playerId": "kno2",
       "set": {
         "submittedAt": "2024-01-24T06:03:32.560Z",
-        "dateBasis": null,
+        "dateBasis": "original-post-submission-date",
         "durationBasis": null,
-        "proofImage": "https://media.mktbots.com/1706078514540_screenshot.png",
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
         "lapSource": {
           "url": "https://discord.com/channels/629221606064914442/875784780573184010/1199595323643932672",
           "channel": "tt-submission",
           "messageId": "1199595323643932672"
         },
-        "recordDate": null,
-        "durationEnd": "2026-10-04"
+        "recordDate": "2024-01-24",
+        "durationEnd": "2026-10-04",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199595323350327456.png",
+        "originalImageSHA256": "5307fb678502deee0ee6c1927b74eb47196ded364de6dc5737a043278c8a3683",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs. Posted after tour close; the actual January 24 date is retained. Tour attribution follows the documented result and retrospective WR announcement.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": true,
+        "laps": [
+          "29.54",
+          "33.78"
+        ],
+        "chronologyDate": "2024-01-24T06:03:32.560Z",
+        "tourLabel": "Space Tour (2024)"
       },
       "unset": [
-        "dateUnresolved",
-        "proofImageVerified",
         "delayedSubmission",
-        "proofImageLocal",
         "observedAt",
         "evidencePublishedAt",
-        "additionalProofImages"
+        "additionalProofImages",
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
       ]
     },
     {
@@ -3695,9 +3722,37 @@
       "playerId": "shoa",
       "set": {
         "sourcePlayerIdBeforeAliasReconciliation": "shoa9973",
-        "playerIdentityReconciliationAudit": "archive/published-six-stale-player-alias-reference-reconciliation-20261010.json"
+        "playerIdentityReconciliationAudit": "archive/published-six-stale-player-alias-reference-reconciliation-20261010.json",
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199483005220159498-5a313743a254dd6e088c.jpg",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199483005220159498-5a313743a254dd6e088c.jpg",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199483005220159498.jpg",
+        "originalImageSHA256": "5a313743a254dd6e088cbfa0b213c9c07da5711e256d6ff908fedde6fb559ce6",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
       },
-      "unset": []
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
     },
     {
       "courseId": "n64-kalimari-desert-2",
@@ -73651,7 +73706,15 @@
       "playerId": "player-e38199e38184e3819df09f90ba",
       "set": {
         "proofImageAvailability": "unavailable",
-        "proofImageReference": "https://cdn.discordapp.com/ephemeral-attachments/1006759466143850558/1065666326456184892/3F015295-2F61-4A4C-96FD-98DD05515BCA.png?ex=6abddedb&is=6abc8d5b&hm=0488e92179f2ed815eca063b1a78f2d0e57c89dfb8eac97fe8e5741e475d54e4&"
+        "proofImageReference": "https://cdn.discordapp.com/ephemeral-attachments/1006759466143850558/1065666326456184892/3F015295-2F61-4A4C-96FD-98DD05515BCA.png?ex=6abddedb&is=6abc8d5b&hm=0488e92179f2ed815eca063b1a78f2d0e57c89dfb8eac97fe8e5741e475d54e4&",
+        "durationEnd": "2023-01-25",
+        "durationDays": 6,
+        "durationIntervals": [
+          {
+            "start": "2023-01-19",
+            "end": "2023-01-25"
+          }
+        ]
       },
       "unset": []
     },
@@ -154113,6 +154176,2535 @@
           "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192771775981961276",
           "kind": "executed-submit-receipt"
         }
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "records",
+      "id": "1332604220695904306",
+      "time": "1:11.77",
+      "playerId": "kuri",
+      "set": {
+        "proofImage": "/assets/proof/space2025-1328722341001171047.png",
+        "notes": [
+          "Achievement date and intermediate progression require submission reconciliation.",
+          "Original finish screenshot visually reviewed; CheepCheepIslandRtargets1:44/1:34/1:26;KalimariDesert2targets1:30/1:23/1:17 matchscenery. NewyorkKoopaCapelate submissionidentifiedbyscenery/2:12/2:04/1:58targets. First known publication retained.",
+          "ImprovespriorSucha1:11.78fromSpace2023. ExactJan14humanpublication/splitsrestored.",
+          "Archive day represents first preserved original screenshot publication; exact race completion instant remains unknown."
+        ],
+        "durationEnd": "2026-10-08",
+        "dateIsPublication": true,
+        "dateEvidence": "first-known-original-screenshot-publication",
+        "videoSharedAt": "2025-01-21T14:09:16.371Z",
+        "videoShareSource": {
+          "url": "https://discord.com/channels/629221606064914442/875784780573184010/1331264356859514881",
+          "channel": "tt-submission",
+          "messageId": "1331264356859514881"
+        },
+        "videoShareAudit": "archive/two-2025-original-video-share-source-reconciliation-20261009.json"
+      },
+      "unset": []
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "sheet-CCJ10",
+      "time": "1:11.77",
+      "playerId": "kuri",
+      "set": {
+        "videoSharedAt": "2025-01-21T14:09:16.371Z",
+        "videoShareSource": {
+          "url": "https://discord.com/channels/629221606064914442/875784780573184010/1331264356859514881",
+          "channel": "tt-submission",
+          "messageId": "1331264356859514881"
+        },
+        "videoShareAudit": "archive/two-2025-original-video-share-source-reconciliation-20261009.json"
+      },
+      "unset": []
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1196247812724236399",
+      "time": "1:12.73",
+      "playerId": "mr-electro",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196247804859916328-327ec1abb9472aaa08a8.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196247804859916328-327ec1abb9472aaa08a8.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196247804859916328.png",
+        "originalImageSHA256": "327ec1abb9472aaa08a8126108ba9a6dcf997e0299c4bb144b082919333f3bb5",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-15",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1196449738996846623",
+      "time": "1:11.94",
+      "playerId": "kuri",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196449728624328784-0672ed48accdfc0e267f.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196449728624328784-0672ed48accdfc0e267f.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196449728624328784.png",
+        "originalImageSHA256": "0672ed48accdfc0e267fe90cd7cda1da137a8e2912a665d5c0c75c8527e6ee0e",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-15",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1197861784778965063",
+      "time": "1:13.47",
+      "playerId": "ryo",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197861770770006047-6dcdb4551a34523716aa.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197861770770006047-6dcdb4551a34523716aa.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197861770770006047.png",
+        "originalImageSHA256": "6dcdb4551a34523716aa58d17576ab40ebdb7498edf76a75052391e1cefad9ce",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1197875140843806763",
+      "time": "1:13.06",
+      "playerId": "ryo",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197875125316501585-205257abf0f4667d3710.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197875125316501585-205257abf0f4667d3710.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197875125316501585.png",
+        "originalImageSHA256": "205257abf0f4667d371051c81dcfa68acdbfb37e3ef8d3890c3628a3303d820d",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1198240557735084063",
+      "time": "1:12.27",
+      "playerId": "starin",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1198240541247283320-4ddcde30e8dc253be763.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1198240541247283320-4ddcde30e8dc253be763.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1198240541247283320.png",
+        "originalImageSHA256": "4ddcde30e8dc253be7637fa5378d0523f7dec83f6377aca13d7b7b0232500362",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-20",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "36.09",
+          "36.18"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1199392105383071744",
+      "time": "1:12.51",
+      "playerId": "shine",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199392097707511940-b0e0fb181a09374aecc7.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199392097707511940-b0e0fb181a09374aecc7.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199392097707511940.png",
+        "originalImageSHA256": "b0e0fb181a09374aecc7cde9f1efcf9ec2136d1745d2d26546eb9382273ee439",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1199581423993110679",
+      "time": "1:12.47",
+      "playerId": "jpdrrr",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199581406649663558-f63420f789336d174d93.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199581406649663558-f63420f789336d174d93.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199581406649663558.png",
+        "originalImageSHA256": "f63420f789336d174d93d5118ffc9a08310fd9f8d3b57b0419c38ffdc71ef201",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1199587988456349808",
+      "time": "1:12.93",
+      "playerId": "retro",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199587399886458970-78685e24e4c891cd664b.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199587399886458970-78685e24e4c891cd664b.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199587399886458970.png",
+        "originalImageSHA256": "78685e24e4c891cd664ba89c1ddfa1be992b187017cf4f95d672da649ecce911",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1199595826251571270",
+      "time": "1:12.28",
+      "playerId": "kno2",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199595820358578176-ba722712e10d85d7827f.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199595820358578176-ba722712e10d85d7827f.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199595820358578176.png",
+        "originalImageSHA256": "ba722712e10d85d7827fc1c3db076684aeb11e2793c3040879d1dfd70fff43ec",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs. Posted after tour close; the actual January 24 date is retained. Tour attribution follows the documented result and retrospective WR announcement.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": false,
+        "laps": [
+          "36.12",
+          "36.16"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "discord-1199678253271621652",
+      "time": "1:12.59",
+      "playerId": "rui",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199678236402126948-3abd5c574ddc8a778260.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199678236402126948-3abd5c574ddc8a778260.png",
+        "proofImageVerified": false,
+        "originalImageLocal": "archive/space2024-preserved-closing-images/1199678236402126948.png",
+        "originalImageSHA256": "3abd5c574ddc8a77826076a97284a5959cae5a2492abd6cbc2d166530f5b2647",
+        "proofField": "receipt-documented-result-with-unverified-linked-image",
+        "freshVisualReview": false,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Course and total documented by the accepted receipt. Original screenshot preserved without fresh visual certification. Actual January 24 posting date retained after tour close.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": false,
+        "laps": [],
+        "additionalSources": [
+          {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/1199678253271621652",
+            "kind": "accepted-result-receipt"
+          }
+        ],
+        "receiptResultVerified": true
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1194574410636607619-space2024-image-reviewed",
+      "time": "1:12.04",
+      "playerId": "kuri",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1194574410154258473-40b2bfa0bd641035c931.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1194574410154258473-40b2bfa0bd641035c931.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1194574410154258473.png",
+        "originalImageSHA256": "40b2bfa0bd641035c931d6eaa0b755490dc895e4985f4b9147e869760edb1dad",
+        "originalImageReviewAudit": "archive/space2024-opening-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-10",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1194644411825537134-space2024-image-reviewed",
+      "time": "1:11.98",
+      "playerId": "kuri",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1194644411603243038-1ac2476f2485d4b49ed8.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1194644411603243038-1ac2476f2485d4b49ed8.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1194644411603243038.png",
+        "originalImageSHA256": "1ac2476f2485d4b49ed8ed973bd5734b38f48416397a5f8d66f0f32aad1df4ea",
+        "originalImageReviewAudit": "archive/space2024-opening-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-10",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1196247805191262218-space2024-image-reviewed",
+      "time": "1:12.73",
+      "playerId": "mr-electro",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196247804859916328-327ec1abb9472aaa08a8.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196247804859916328-327ec1abb9472aaa08a8.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196247804859916328.png",
+        "originalImageSHA256": "327ec1abb9472aaa08a8126108ba9a6dcf997e0299c4bb144b082919333f3bb5",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-15",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1196449728926335006-space2024-image-reviewed",
+      "time": "1:11.94",
+      "playerId": "kuri",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196449728624328784-0672ed48accdfc0e267f.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196449728624328784-0672ed48accdfc0e267f.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196449728624328784.png",
+        "originalImageSHA256": "0672ed48accdfc0e267fe90cd7cda1da137a8e2912a665d5c0c75c8527e6ee0e",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-15",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1197861771642404884-space2024-image-reviewed",
+      "time": "1:13.47",
+      "playerId": "ryo",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197861770770006047-6dcdb4551a34523716aa.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197861770770006047-6dcdb4551a34523716aa.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197861770770006047.png",
+        "originalImageSHA256": "6dcdb4551a34523716aa58d17576ab40ebdb7498edf76a75052391e1cefad9ce",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1197875125555580999-space2024-image-reviewed",
+      "time": "1:13.06",
+      "playerId": "ryo",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197875125316501585-205257abf0f4667d3710.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197875125316501585-205257abf0f4667d3710.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197875125316501585.png",
+        "originalImageSHA256": "205257abf0f4667d371051c81dcfa68acdbfb37e3ef8d3890c3628a3303d820d",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1198240541461188668-space2024-image-reviewed",
+      "time": "1:12.27",
+      "playerId": "starin",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1198240541247283320-4ddcde30e8dc253be763.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1198240541247283320-4ddcde30e8dc253be763.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1198240541247283320.png",
+        "originalImageSHA256": "4ddcde30e8dc253be7637fa5378d0523f7dec83f6377aca13d7b7b0232500362",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-20",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "36.09",
+          "36.18"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1198683704067895476-space2024-image-reviewed",
+      "time": "1:13.59",
+      "playerId": "deleted-user",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1198683703820439652-8a921de1d72432e7993b.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1198683703820439652-8a921de1d72432e7993b.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1198683703820439652.png",
+        "originalImageSHA256": "8a921de1d72432e7993b760d5429ce44f777383b7b63d1eb3068c6707af14eef",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-21",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1198697148703854613-space2024-image-reviewed",
+      "time": "1:13.18",
+      "playerId": "deleted-user",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1198697148519292989-7b050f0b12a3d6bd75fa.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1198697148519292989-7b050f0b12a3d6bd75fa.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1198697148519292989.png",
+        "originalImageSHA256": "7b050f0b12a3d6bd75fa91117469b4d22c76fe2052fe3ac5d8c80b62325ea233",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-21",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1199392098286317578-space2024-image-reviewed",
+      "time": "1:12.51",
+      "playerId": "shine",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199392097707511940-b0e0fb181a09374aecc7.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199392097707511940-b0e0fb181a09374aecc7.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199392097707511940.png",
+        "originalImageSHA256": "b0e0fb181a09374aecc7cde9f1efcf9ec2136d1745d2d26546eb9382273ee439",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1199581406939058347-space2024-image-reviewed",
+      "time": "1:12.47",
+      "playerId": "jpdrrr",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199581406649663558-f63420f789336d174d93.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199581406649663558-f63420f789336d174d93.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199581406649663558.png",
+        "originalImageSHA256": "f63420f789336d174d93d5118ffc9a08310fd9f8d3b57b0419c38ffdc71ef201",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1199587400121327626-space2024-image-reviewed",
+      "time": "1:12.93",
+      "playerId": "retro",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199587399886458970-78685e24e4c891cd664b.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199587399886458970-78685e24e4c891cd664b.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199587399886458970.png",
+        "originalImageSHA256": "78685e24e4c891cd664ba89c1ddfa1be992b187017cf4f95d672da649ecce911",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1199595820618616852-space2024-image-reviewed",
+      "time": "1:12.28",
+      "playerId": "kno2",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199595820358578176-ba722712e10d85d7827f.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199595820358578176-ba722712e10d85d7827f.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199595820358578176.png",
+        "originalImageSHA256": "ba722712e10d85d7827fc1c3db076684aeb11e2793c3040879d1dfd70fff43ec",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs. Posted after tour close; the actual January 24 date is retained. Tour attribution follows the documented result and retrospective WR announcement.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": false,
+        "laps": [
+          "36.12",
+          "36.16"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1199598985069989939-space2024-image-reviewed",
+      "time": "1:12.94",
+      "playerId": "mish",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199598984902234152-d7d50b0075c6021737da.jpg",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199598984902234152-d7d50b0075c6021737da.jpg",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199598984902234152.jpg",
+        "originalImageSHA256": "d7d50b0075c6021737da831fcd5152d8168dae725bb51d67b1a0125d1751a807",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs. Posted after tour close; the actual January 24 date is retained. Tour attribution follows the documented result and retrospective WR announcement.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1195894556894429267-space2024-image-reviewed",
+      "time": "1:12.63",
+      "playerId": "luismx",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195894556663754792-a4abf5e978debe5af89c.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195894556663754792-a4abf5e978debe5af89c.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195894556663754792.png",
+        "originalImageSHA256": "a4abf5e978debe5af89c16188a97de19a951a662ec473d7734050efaa4063908",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-14",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "additionalProofs": [
+          {
+            "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195907364210081823-4cd5adff2a8f8d66ef2f.png",
+            "originalImageLocal": "archive/space2024-preserved-original-images/discussion-1195907364210081823.png",
+            "originalImageSHA256": "4cd5adff2a8f8d66ef2ff9a6edb769a25ba4a08438fb6ae2898a97f68ff53433",
+            "samePerformance": true,
+            "sourceReviewAudit": "archive/space2024-discussion-and-proxy-provenance-reconciliation-20261008.json",
+            "sourceRows": [
+              {
+                "datetime": "2024-01-14T01:48:54.530Z",
+                "links": [
+                  "https://cdn.discordapp.com/attachments/636461740162416640/1195907364210081823/image.png?ex=6ac45386&is=6ac30206&hm=d5f6b1471f0fa2129b17f943303be46998fec4755c8b95beb2401140eeae8186&"
+                ],
+                "messageId": "1195907364285591644",
+                "text": "LuisMX [[MT]], \nServer Tag: [MT]\n[MT]\n — \n1/13/24, 5:48 PM\nSaturday, January 13, 2024 at 5:48 PM\nIs it normal that the MKT Time Trial bot didn't take the tt-submission information automatically on this course? (edited)\nSaturday, January 13, 2024 at 5:49 PM"
+              }
+            ]
+          }
+        ],
+        "additionalProofImages": [
+          "https://media.mktwrs.com/assets/proof/space2024-1195907364210081823-4cd5adff2a8f8d66ef2f.png"
+        ],
+        "includeInProgression": false,
+        "laps": [
+          "36.29",
+          "36.34"
+        ],
+        "additionalSources": [
+          {
+            "url": "https://discord.com/channels/629221606064914442/636461740162416640/1195907364285591644",
+            "channel": "tt-discussion",
+            "messageId": "1195907364285591644",
+            "publishedAt": "2024-01-14T01:48:54.530Z",
+            "kind": "repost-of-existing-submission-bot-read-failure-context"
+          }
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1199678236683149402-winter2024-image-reviewed",
+      "time": "1:12.59",
+      "playerId": "rui",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199678236402126948-3abd5c574ddc8a778260.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199678236402126948-3abd5c574ddc8a778260.png",
+        "proofImageVerified": false,
+        "originalImageLocal": "archive/space2024-preserved-closing-images/1199678236402126948.png",
+        "originalImageSHA256": "3abd5c574ddc8a77826076a97284a5959cae5a2492abd6cbc2d166530f5b2647",
+        "proofField": "receipt-documented-result-with-unverified-linked-image",
+        "freshVisualReview": false,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Course and total documented by the accepted receipt. Original screenshot preserved without fresh visual certification. Actual January 24 posting date retained after tour close.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": false,
+        "laps": [],
+        "additionalSources": [
+          {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/1199678253271621652",
+            "kind": "accepted-result-receipt"
+          }
+        ],
+        "receiptResultVerified": true
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "collection": "submissions",
+      "id": "curated-1199678236683149402-space2024-closing-receipt-reviewed",
+      "time": "1:12.59",
+      "playerId": "rui",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199678236402126948-3abd5c574ddc8a778260.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199678236402126948-3abd5c574ddc8a778260.png",
+        "proofImageVerified": false,
+        "originalImageLocal": "archive/space2024-preserved-closing-images/1199678236402126948.png",
+        "originalImageSHA256": "3abd5c574ddc8a77826076a97284a5959cae5a2492abd6cbc2d166530f5b2647",
+        "proofField": "receipt-documented-result-with-unverified-linked-image",
+        "freshVisualReview": false,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Course and total documented by the accepted receipt. Original screenshot preserved without fresh visual certification. Actual January 24 posting date retained after tour close.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": false,
+        "laps": [],
+        "additionalSources": [
+          {
+            "url": "https://discord.com/channels/629221606064914442/875784780573184010/1199678253271621652",
+            "kind": "accepted-result-receipt"
+          }
+        ],
+        "receiptResultVerified": true
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1195421727996530749",
+      "time": "1:03.55",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195421711089291325-c4d2a0995ff5d2e2d199.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195421711089291325-c4d2a0995ff5d2e2d199.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195421711089291325.png",
+        "originalImageSHA256": "c4d2a0995ff5d2e2d199d0e4b07d5915998a5db90cc3a2715226c13ae24a451b",
+        "originalImageReviewAudit": "archive/space2024-opening-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-12",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.61",
+          "33.94"
+        ],
+        "lapVerification": "reported-bot-splits-sum-matches-image-total-not-gameplay-verified"
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1195565494867075133",
+      "time": "1:03.44",
+      "playerId": "starin",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195565476080791622-cd8695b52dfe5c9773d0.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195565476080791622-cd8695b52dfe5c9773d0.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195565476080791622.png",
+        "originalImageSHA256": "cd8695b52dfe5c9773d045d284817749709a636d600441262db56ec03c7c15ff",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-13",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.55",
+          "33.89"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1195906699492593858",
+      "time": "1:03.75",
+      "playerId": "luismx",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195906687551422515-f1d38bb5bce99fa0427d.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195906687551422515-f1d38bb5bce99fa0427d.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195906687551422515.png",
+        "originalImageSHA256": "f1d38bb5bce99fa0427db070661c020dfb8915aeaeaed77317b729c9121ac56b",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-14",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.71",
+          "34.04"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1195914977769422932",
+      "time": "1:03.65",
+      "playerId": "rui",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195914972635603105-ba8145dcdd2bc90d2ef5.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195914972635603105-ba8145dcdd2bc90d2ef5.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195914972635603105.png",
+        "originalImageSHA256": "ba8145dcdd2bc90d2ef5fe963264b1cb5cc1c759dffa8ab79718e7800ca02727",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-14",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1196684913043324979",
+      "time": "1:03.48",
+      "playerId": "nekozuki",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196684903761318009-d0acf5ae10fa1ea176d2.jpg",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196684903761318009-d0acf5ae10fa1ea176d2.jpg",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196684903761318009.jpg",
+        "originalImageSHA256": "d0acf5ae10fa1ea176d249811c38e94495a13b6dc33b5910a52d65717dcbe80d",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-16",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1196804082615189596",
+      "time": "1:03.49",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196804073790382221-c37c4ca872e6c08bc48c.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196804073790382221-c37c4ca872e6c08bc48c.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196804073790382221.png",
+        "originalImageSHA256": "c37c4ca872e6c08bc48ce7de3b3d91c1547ee04851c26e41f134204428de6679",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-16",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1197489876506001489",
+      "time": "1:03.91",
+      "playerId": "jpdrrr",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197489864699039785-a2ad78e2e5764fcf07d0.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197489864699039785-a2ad78e2e5764fcf07d0.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197489864699039785.png",
+        "originalImageSHA256": "a2ad78e2e5764fcf07d091eee78e8c63557f6848454524ef3c6991bc5b01aa33",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-18",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.69",
+          "34.22"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1197720009514942574",
+      "time": "1:03.55",
+      "playerId": "rui",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197720000820150392-154083871d53f50efa83.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197720000820150392-154083871d53f50efa83.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197720000820150392.png",
+        "originalImageSHA256": "154083871d53f50efa83fbdba5fc22fb2158bc2ba727ff5d9346cb68f4b84fee",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1197764748226351186",
+      "time": "1:03.80",
+      "playerId": "seven6223",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197764740307505152-f5ccfffd2c08ef8f8867.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197764740307505152-f5ccfffd2c08ef8f8867.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197764740307505152.png",
+        "originalImageSHA256": "f5ccfffd2c08ef8f886752dfce23fe5bc9aa145b5e22a863a0399eb23c1811ae",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1198120521305432105",
+      "time": "1:03.46",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1198120507338408038-b3745ad4771ad03c3983.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1198120507338408038-b3745ad4771ad03c3983.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1198120507338408038.png",
+        "originalImageSHA256": "b3745ad4771ad03c3983a8b57c49c6fa4e17b04c5ea6ec16a6a022d1686f3a9c",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-20",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1199353863229157379",
+      "time": "1:03.79",
+      "playerId": "seven6223",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199353846024126544-6db1ea056d1e521f2be1.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199353846024126544-6db1ea056d1e521f2be1.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199353846024126544.png",
+        "originalImageSHA256": "6db1ea056d1e521f2be1c29c5b4267ecfacf419e308954ebe39bae2ccd685765",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1199387841180995745",
+      "time": "1:13.74",
+      "playerId": "keron",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199387825968250907-3fc0114a566f4b390502.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199387825968250907-3fc0114a566f4b390502.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199387825968250907.png",
+        "originalImageSHA256": "3fc0114a566f4b390502beb30469bd8d407cc905715abf9de80ad85ad8f65dfd",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1199392043542249543",
+      "time": "1:03.50",
+      "playerId": "shine",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199392037066264616-0aebf61cbc03933651f0.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199392037066264616-0aebf61cbc03933651f0.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199392037066264616.png",
+        "originalImageSHA256": "0aebf61cbc03933651f0acc03c2a564f10dc970e0aecae1ab909298510253b37",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1199576715027034203",
+      "time": "1:03.74",
+      "playerId": "retro",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199576697528389652-db0010957150cbca656a.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199576697528389652-db0010957150cbca656a.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199576697528389652.png",
+        "originalImageSHA256": "db0010957150cbca656a41a488c40a9ab0f0afca24e1e31960bb3c53f7e4692b",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1199585428353851392",
+      "time": "1:03.40",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199585409475301468-1541c4a21a7cebabb031.jpg",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199585409475301468-1541c4a21a7cebabb031.jpg",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199585409475301468.jpg",
+        "originalImageSHA256": "1541c4a21a7cebabb0315f1e7137c746d0678eb2a9579fda75caf0361b100043",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.58",
+          "33.82"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "discord-1199595334851104768",
+      "time": "1:03.32",
+      "playerId": "kno2",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199595323350327456.png",
+        "originalImageSHA256": "5307fb678502deee0ee6c1927b74eb47196ded364de6dc5737a043278c8a3683",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs. Posted after tour close; the actual January 24 date is retained. Tour attribution follows the documented result and retrospective WR announcement.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": true,
+        "laps": [
+          "29.54",
+          "33.78"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1195379562238980198-space2024-image-reviewed",
+      "time": "1:04.97",
+      "playerId": "ryo",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195379561957969940-849bc3500f77d084dec2.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195379561957969940-849bc3500f77d084dec2.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195379561957969940.png",
+        "originalImageSHA256": "849bc3500f77d084dec25427a0729e2ae5723e2a14377a08d55ab886278af993",
+        "originalImageReviewAudit": "archive/space2024-opening-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-12",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1195421711366103162-space2024-image-reviewed",
+      "time": "1:03.55",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195421711089291325-c4d2a0995ff5d2e2d199.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195421711089291325-c4d2a0995ff5d2e2d199.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195421711089291325.png",
+        "originalImageSHA256": "c4d2a0995ff5d2e2d199d0e4b07d5915998a5db90cc3a2715226c13ae24a451b",
+        "originalImageReviewAudit": "archive/space2024-opening-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-12",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.61",
+          "33.94"
+        ],
+        "lapVerification": "reported-bot-splits-sum-matches-image-total-not-gameplay-verified"
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1195565476374396948-space2024-image-reviewed",
+      "time": "1:03.44",
+      "playerId": "starin",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195565476080791622-cd8695b52dfe5c9773d0.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195565476080791622-cd8695b52dfe5c9773d0.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195565476080791622.png",
+        "originalImageSHA256": "cd8695b52dfe5c9773d045d284817749709a636d600441262db56ec03c7c15ff",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-13",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.55",
+          "33.89"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1195899880225378385-space2024-image-reviewed",
+      "time": "1:03.83",
+      "playerId": "luismx",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195899880019865651-3765311178c48cf0eb7b.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195899880019865651-3765311178c48cf0eb7b.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195899880019865651.png",
+        "originalImageSHA256": "3765311178c48cf0eb7be55df84fff6ca0e4daa37246501a64a3f6a686f6d631",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-14",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "additionalProofs": [
+          {
+            "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195900306836443206-3765311178c48cf0eb7b.png",
+            "originalImageLocal": "archive/space2024-preserved-original-images/1195900306836443206.png",
+            "originalImageSHA256": "3765311178c48cf0eb7be55df84fff6ca0e4daa37246501a64a3f6a686f6d631",
+            "samePerformance": true,
+            "sourceReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+            "sourceRows": [
+              {
+                "messageId": "1195900312070922321",
+                "publishedAt": "2024-01-14T01:20:53.151Z",
+                "text": "MKT Time Trial BotAPP — 1/13/24, 5:20 PMSaturday, January 13, 2024 at 5:20 PMSubmission | @LuisMX\n\nStatus: Cancelled by @LuisMX\nluismx | Kalimari Desert 2 | 1:03.83 | 29.79 | 34.04 | No MediaUpdate,Cancel,Edit,, (edited)Saturday, January 13, 2024 at 5:46 PM"
+              }
+            ]
+          }
+        ],
+        "additionalProofImages": [
+          "https://media.mktwrs.com/assets/proof/space2024-1195900306836443206-3765311178c48cf0eb7b.png"
+        ],
+        "includeInProgression": false,
+        "laps": [
+          "29.79",
+          "34.04"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1195906687857610752-space2024-image-reviewed",
+      "time": "1:03.75",
+      "playerId": "luismx",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195906687551422515-f1d38bb5bce99fa0427d.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195906687551422515-f1d38bb5bce99fa0427d.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195906687551422515.png",
+        "originalImageSHA256": "f1d38bb5bce99fa0427db070661c020dfb8915aeaeaed77317b729c9121ac56b",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-14",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.71",
+          "34.04"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1195914972866293861-space2024-image-reviewed",
+      "time": "1:03.65",
+      "playerId": "rui",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1195914972635603105-ba8145dcdd2bc90d2ef5.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1195914972635603105-ba8145dcdd2bc90d2ef5.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1195914972635603105.png",
+        "originalImageSHA256": "ba8145dcdd2bc90d2ef5fe963264b1cb5cc1c759dffa8ab79718e7800ca02727",
+        "originalImageReviewAudit": "archive/space2024-jan13-15-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-14",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1196684903937482772-space2024-image-reviewed",
+      "time": "1:03.48",
+      "playerId": "nekozuki",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196684903761318009-d0acf5ae10fa1ea176d2.jpg",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196684903761318009-d0acf5ae10fa1ea176d2.jpg",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196684903761318009.jpg",
+        "originalImageSHA256": "d0acf5ae10fa1ea176d249811c38e94495a13b6dc33b5910a52d65717dcbe80d",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-16",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1196804074079801414-space2024-image-reviewed",
+      "time": "1:03.49",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1196804073790382221-c37c4ca872e6c08bc48c.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1196804073790382221-c37c4ca872e6c08bc48c.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1196804073790382221.png",
+        "originalImageSHA256": "c37c4ca872e6c08bc48ce7de3b3d91c1547ee04851c26e41f134204428de6679",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-16",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1197489864904540180-space2024-image-reviewed",
+      "time": "1:03.91",
+      "playerId": "jpdrrr",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197489864699039785-a2ad78e2e5764fcf07d0.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197489864699039785-a2ad78e2e5764fcf07d0.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197489864699039785.png",
+        "originalImageSHA256": "a2ad78e2e5764fcf07d091eee78e8c63557f6848454524ef3c6991bc5b01aa33",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-18",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.69",
+          "34.22"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1197720001067630612-space2024-image-reviewed",
+      "time": "1:03.55",
+      "playerId": "rui",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197720000820150392-154083871d53f50efa83.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197720000820150392-154083871d53f50efa83.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197720000820150392.png",
+        "originalImageSHA256": "154083871d53f50efa83fbdba5fc22fb2158bc2ba727ff5d9346cb68f4b84fee",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1197764740580114452-space2024-image-reviewed",
+      "time": "1:03.80",
+      "playerId": "seven6223",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1197764740307505152-f5ccfffd2c08ef8f8867.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1197764740307505152-f5ccfffd2c08ef8f8867.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1197764740307505152.png",
+        "originalImageSHA256": "f5ccfffd2c08ef8f886752dfce23fe5bc9aa145b5e22a863a0399eb23c1811ae",
+        "originalImageReviewAudit": "archive/space2024-jan16-19-eight-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-19",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1198120507552313404-space2024-image-reviewed",
+      "time": "1:03.46",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1198120507338408038-b3745ad4771ad03c3983.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1198120507338408038-b3745ad4771ad03c3983.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1198120507338408038.png",
+        "originalImageSHA256": "b3745ad4771ad03c3983a8b57c49c6fa4e17b04c5ea6ec16a6a022d1686f3a9c",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-20",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1199353846384840734-space2024-image-reviewed",
+      "time": "1:03.79",
+      "playerId": "seven6223",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199353846024126544-6db1ea056d1e521f2be1.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199353846024126544-6db1ea056d1e521f2be1.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199353846024126544.png",
+        "originalImageSHA256": "6db1ea056d1e521f2be1c29c5b4267ecfacf419e308954ebe39bae2ccd685765",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1199387826152808519-space2024-image-reviewed",
+      "time": "1:13.74",
+      "playerId": "keron",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199387825968250907-3fc0114a566f4b390502.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199387825968250907-3fc0114a566f4b390502.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199387825968250907.png",
+        "originalImageSHA256": "3fc0114a566f4b390502beb30469bd8d407cc905715abf9de80ad85ad8f65dfd",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1199392037376634900-space2024-image-reviewed",
+      "time": "1:03.50",
+      "playerId": "shine",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199392037066264616-0aebf61cbc03933651f0.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199392037066264616-0aebf61cbc03933651f0.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199392037066264616.png",
+        "originalImageSHA256": "0aebf61cbc03933651f0acc03c2a564f10dc970e0aecae1ab909298510253b37",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1199483005425684681-space2024-image-reviewed",
+      "time": "1:04.36",
+      "playerId": "shoa",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199483005220159498-5a313743a254dd6e088c.jpg",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199483005220159498-5a313743a254dd6e088c.jpg",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199483005220159498.jpg",
+        "originalImageSHA256": "5a313743a254dd6e088cbfa0b213c9c07da5711e256d6ff908fedde6fb559ce6",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-23",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1199576697893302312-space2024-image-reviewed",
+      "time": "1:03.74",
+      "playerId": "retro",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199576697528389652-db0010957150cbca656a.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199576697528389652-db0010957150cbca656a.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199576697528389652.png",
+        "originalImageSHA256": "db0010957150cbca656a41a488c40a9ab0f0afca24e1e31960bb3c53f7e4692b",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": []
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1199585409718550538-space2024-image-reviewed",
+      "time": "1:03.40",
+      "playerId": "10mp",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199585409475301468-1541c4a21a7cebabb031.jpg",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199585409475301468-1541c4a21a7cebabb031.jpg",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199585409475301468.jpg",
+        "originalImageSHA256": "1541c4a21a7cebabb0315f1e7137c746d0678eb2a9579fda75caf0361b100043",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "includeInProgression": false,
+        "laps": [
+          "29.58",
+          "33.82"
+        ]
+      },
+      "unset": [
+        "dateEvidenceNote",
+        "proofImageAvailability",
+        "videoSharedAt",
+        "videoShareSource"
+      ]
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "collection": "submissions",
+      "id": "curated-1199595323643932672-space2024-image-reviewed",
+      "time": "1:03.32",
+      "playerId": "kno2",
+      "set": {
+        "proofImage": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/space2024-1199595323350327456-5307fb678502deee0ee6.png",
+        "proofImageVerified": true,
+        "originalImageLocal": "archive/space2024-preserved-original-images/1199595323350327456.png",
+        "originalImageSHA256": "5307fb678502deee0ee6c1927b74eb47196ded364de6dc5737a043278c8a3683",
+        "originalImageReviewAudit": "archive/space2024-final16-image-reconciliation-20261008.json",
+        "proofField": "result-total",
+        "freshVisualReview": false,
+        "priorImageReviewRetainedByMatchingSha256": true,
+        "recordDate": "2024-01-24",
+        "dateBasis": "original-post-submission-date",
+        "dateUnresolved": false,
+        "dateEvidenceUnresolved": false,
+        "chronologyUnresolved": false,
+        "tourDateRange": {
+          "start": "2024-01-10",
+          "end": "2024-01-23"
+        },
+        "courseAppearance": "Space Tour (2024)",
+        "evidenceNote": "Source posting date supplies the submission date. Previous best fields do not establish separately dated WRs. Posted after tour close; the actual January 24 date is retained. Tour attribution follows the documented result and retrospective WR announcement.",
+        "canonicalSourceReviewAudit": "archive/space2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+        "lateTourSubmission": true,
+        "includeInProgression": true,
+        "laps": [
+          "29.54",
+          "33.78"
+        ]
       },
       "unset": [
         "dateEvidenceNote",
