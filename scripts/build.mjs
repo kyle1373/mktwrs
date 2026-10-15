@@ -584,7 +584,7 @@ for(const p of mii2024PublicationPreservation.preservedRows) {
 }
 // Keep reviewed Spring 2025 sources after older future-row deferrals.
 for (const preserved of publicationPatches.preservedRows || []) {
-  if (preserved.row.canonicalSourceReviewAudit !== "archive/spring2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/bowser2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/mii2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/princess2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.receiptSourceReviewAudit !== "archive/spring2025-edited-receipt-source-dispositions-20261015.json") continue;
+  if (preserved.row.canonicalSourceReviewAudit !== "archive/spring2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/bowser2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/mii2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/princess2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/marioluigi2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.receiptSourceReviewAudit !== "archive/spring2025-edited-receipt-source-dispositions-20261015.json") continue;
   const rows = courses.find(c=>c.id===preserved.courseId)?.[preserved.collection];
   if (rows && !rows.some(r=>r.id===preserved.row.id)) rows.push(structuredClone(preserved.row));
 }
@@ -719,6 +719,8 @@ const mii2025=tours.find(t=>t.id==="tour-148" && t.startDate==="2025-05-14");
 if(mii2025) mii2025.name="Mii Tour (2025)";
 const princess2025=tours.find(t=>t.id==="tour-149" && t.startDate==="2025-05-28");
 if(princess2025) princess2025.name="Princess Tour (2025)";
+const marioluigi2025=tours.find(t=>t.id==="tour-150" && t.startDate==="2025-06-11");
+if(marioluigi2025) marioluigi2025.name="Mario vs. Luigi Tour (2025)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
