@@ -16,6 +16,7 @@ test('Holiday 2023 distinguishes carried Snow WR from current results and report
 test('Phillish WR screenshot and later movie keep their independent source clocks',()=>{
  const d=routeData(['course','vancouver-velocity-3']).data,c=d.holiday2023Recording,r=read('vancouver-velocity-3').records.find(r=>r.id==='1192533972043964436');
  assert(read('vancouver-velocity-3').appearances.some(a=>a.tourId==='tour-111'));
+ assert.equal(d.fastestVideo.time,'1:15.96');assert.equal(d.fastestVideo.documentedRecordingSelection,true);
  assert.equal(c.worldRecord.id,r.id);assert.equal(c.worldRecord.time,'1:15.96');assert.equal(c.documentedRecording.time,'1:15.96');
  assert.equal(r.submittedAt,'2023-12-17T17:43:10.516Z');assert.equal(r.recordDate,'2023-12-17');
  assert.equal(r.videoPublishedAt,'2023-12-20T11:25:26Z');assert.equal(r.videoSharedAt,'2023-12-20T12:28:24.893Z');assert.equal(r.videoSubmittedAt,r.videoSharedAt);

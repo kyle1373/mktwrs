@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-111",
+  "activeDetailedReview": "tour-112",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 108,
-      "carry-in-and-sparse-history-check": 53,
+      "completed-with-documented-gaps": 109,
       "source-and-publication-review": 14,
+      "carry-in-and-sparse-history-check": 52,
       "candidate-and-source-review": 3,
       "faster-result-reconciliation": 3
     },
@@ -71,10 +71,9 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 2,
+        "requiringInvestigation": 1,
         "categories": {
-          "completed-with-documented-gaps": 24,
-          "carry-in-and-sparse-history-check": 1,
+          "completed-with-documented-gaps": 25,
           "source-and-publication-review": 1
         }
       },
@@ -117,8 +116,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 108,
-    "toursRequiringInvestigation": 73
+    "practicallyCompletedTours": 109,
+    "toursRequiringInvestigation": 72
   },
   "tours": [
     {
@@ -11489,7 +11488,7 @@
           "url": "https://mktwrs.com/course/gba-snow-land",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 17,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1058253597781000283",
@@ -11505,11 +11504,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-snow-land",
             "checkedAt": "2026-10-13T18:38:34.233306+00:00",
@@ -11533,7 +11528,7 @@
           "url": "https://mktwrs.com/course/vancouver-velocity-3",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 24,
+          "supportingRows": 17,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1058254544313782272",
@@ -11549,11 +11544,7 @@
           "linkedVideoRows": 3,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "vancouver-velocity-3",
             "checkedAt": "2026-10-13T18:38:34.710629+00:00",
@@ -11572,8 +11563,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/holiday2023-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/holiday2023-exact-live-publication-and-full-field-check-20261014.json",
+      "nextActions": []
     },
     {
       "id": "tour-112",
@@ -19350,10 +19346,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-111",
-  "latestCompletionAudit": "public/data/peachbowser2023-completion.json",
-  "updatedAt": "2026-10-14",
-  "nextPriorityTourId": "tour-111",
-  "nextPriorityReason": "One tour at a time: Peach vs. Bowser 2023 has exact LIVE completion evidence. Review Holiday 2023 next.",
-  "latestLiveCompletionAudit": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json"
+  "activeDetailedTourId": "tour-112",
+  "latestCompletionAudit": "public/data/holiday2023-completion.json",
+  "updatedAt": "2026-10-15",
+  "nextPriorityTourId": "tour-112",
+  "nextPriorityReason": "One tour at a time: Holiday 2023 has exact LIVE completion evidence. Review New Year 2024 next.",
+  "latestLiveCompletionAudit": "archive/holiday2023-exact-live-publication-and-full-field-check-20261014.json"
 }

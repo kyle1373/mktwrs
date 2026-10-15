@@ -518,6 +518,8 @@ for (const courseId of new Set((publicationPatches.rows || []).filter(p => p.col
 // The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
 const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
+const holiday2023 = tours.find(t => t.id === "tour-111" && t.startDate === "2023-12-13");
+if (holiday2023) holiday2023.name = "Holiday Tour (2023)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,

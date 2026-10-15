@@ -1,7 +1,7 @@
 {
   "tourId": "tour-111",
   "tour": "Holiday Tour (2023)",
-  "status": "reviewed-awaiting-live-publication",
+  "status": "completed-with-documented-gaps",
   "historyComplete": false,
   "practicalReviewComplete": true,
   "previousTourLiveCompletion": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json",
@@ -12,9 +12,11 @@
   "startDate": "2023-12-13",
   "endDate": "2023-12-27",
   "nextActions": [
-    "Verify exact Railway LIVE and full source fields before moving to tour-112."
+    "Tour review and exact LIVE publication completed; continue sole next tour-112."
   ],
   "browserRestriction": "Discord only through Codex in-app browser 2.",
   "completionEvidence": "public/data/holiday2023-completion.json",
-  "publicationPending": true
+  "publicationPending": false,
+  "livePublicationVerified": true,
+  "livePublicationAudit": "archive/holiday2023-exact-live-publication-and-full-field-check-20261014.json"
 }
