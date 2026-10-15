@@ -1,9 +1,9 @@
 {
   "tourId": "tour-157",
   "tour": "Anniversary Tour (2025)",
-  "status": "publication-pending",
+  "status": "completed-with-documented-gaps",
   "historyComplete": false,
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "actualTourWindow": {
     "start": "2025-09-17T06:00:00Z",
     "endExclusive": "2025-10-01T06:00:00Z"
@@ -65,21 +65,24 @@
   "remainingLimitations": [
     "Saved surviving sources reviewed; fresh exhaustive Discord/worldwide recovery is not certified.",
     "Original screenshot assessments retained by exact SHA256; movie result assessments retained by preserved source association.",
-    "KuRi Rome1:16.95 screenshot submissionSeptember20 predates October4 video upload. Edited bot source does not establish the later link-sharing date.",
+    "KuRi Rome1:16.95 screenshot submissionSeptember20 predates October5 at06:26:35UTC video upload (October4 inPDT). Edited bot source does not establish the later link-sharing date.",
     "Original Athens1:11.73 WR footage remains unavailable; available slower completed footage stays separate.",
     "Opening-day slower sources remain preserved without new WR/profile credit.",
     "Uninterrupted start-to-finish movie continuity is not freshly certified.",
-    "Publication and exact live verification remain pending.",
-    "Later2026records and original source dates remain protected."
+    "Later2026records and original source dates remain protected.",
+    "Broader historical date and presentation correction remains a later archive-wide pass."
   ],
   "validation": {
-    "livePublicationVerified": false,
+    "livePublicationVerified": true,
     "focusedTestsPassed": 18,
     "productionBuildExitCode": 0,
     "productionAudit": "archive/anniversary2025-production-build-and-rendered-evidence-link-check-20261015.json",
     "renderedR2LinksReadable": 123,
-    "productionBuildsPassed": 2
+    "productionBuildsPassed": 3,
+    "livePublicationAudit": "archive/anniversary2025-exact-live-publication-and-full-field-check-20261015.json"
   },
   "nextTourId": "tour-158",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/anniversary2025-exact-live-publication-and-full-field-check-20261015.json"
 }
