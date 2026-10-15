@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 138,
-      "source-and-publication-review": 30,
+      "completed-with-documented-gaps": 139,
+      "source-and-publication-review": 29,
       "candidate-and-source-review": 8,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 138,
-    "toursRequiringInvestigation": 43,
+    "practicallyCompletedTours": 139,
+    "toursRequiringInvestigation": 42,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -90,10 +90,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 24,
+        "requiringInvestigation": 23,
         "categories": {
-          "completed-with-documented-gaps": 2,
-          "source-and-publication-review": 23,
+          "completed-with-documented-gaps": 3,
+          "source-and-publication-review": 22,
           "candidate-and-source-review": 1
         }
       },
@@ -7420,7 +7420,7 @@
           "url": "https://mktwrs.com/course/singapore-speedway-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 13,
+          "supportingRows": 14,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903599689248788",
@@ -7430,7 +7430,8 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": []
+          "nextActions": [],
+          "lateSupplementalEvidence": "archive/exploration2025-posted-results-and-source-clock-reconciliation-20261015.json"
         },
         {
           "courseId": "tokyo-blur-4",
@@ -7472,7 +7473,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 2,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1078514612225441792",
@@ -7482,11 +7483,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "piranha-plant-cove-2",
@@ -7494,7 +7491,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 2,
+          "supportingRows": 9,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1215068996248936541",
@@ -7504,14 +7501,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/exploration2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/exploration2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-142",
@@ -11318,16 +11317,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-141",
+  "activeDetailedTourId": "tour-142",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-141",
-  "latestCompletionAudit": "public/data/winter2025-completion.json",
+  "activeDetailedReview": "tour-142",
+  "latestCompletionAudit": "public/data/exploration2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-141",
-  "nextPriorityReason": "One tour at a time: Winter2025 has exact LIVE completion evidence. Review Exploration2025 tour141 February5–19 next.",
-  "latestLiveCompletionAudit": "archive/winter2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-142",
+  "nextPriorityReason": "One tour at a time: Exploration2025 has exact LIVE completion evidence. Review Doctor2025 tour142 February19–March5 next.",
+  "latestLiveCompletionAudit": "archive/exploration2025-exact-live-publication-and-full-field-check-20261015.json"
 }
