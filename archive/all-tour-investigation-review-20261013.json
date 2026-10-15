@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 112,
-      "carry-in-and-sparse-history-check": 14,
+      "completed-with-documented-gaps": 113,
+      "carry-in-and-sparse-history-check": 13,
       "candidate-and-source-review": 19,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 112,
-    "toursRequiringInvestigation": 69,
+    "practicallyCompletedTours": 113,
+    "toursRequiringInvestigation": 68,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -83,10 +83,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 24,
+        "requiringInvestigation": 23,
         "categories": {
-          "completed-with-documented-gaps": 2,
-          "carry-in-and-sparse-history-check": 9,
+          "completed-with-documented-gaps": 3,
+          "carry-in-and-sparse-history-check": 8,
           "candidate-and-source-review": 11,
           "source-and-publication-review": 4
         }
@@ -6049,7 +6049,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 7,
+          "supportingRows": 14,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1078514612225441792",
@@ -6059,11 +6059,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "piranha-plant-cove-2",
@@ -6071,7 +6067,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove-2",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 13,
+          "supportingRows": 16,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1078515335923257476",
@@ -6081,14 +6077,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/exploration2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/exploration2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-116",
@@ -11387,16 +11385,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-115",
+  "activeDetailedTourId": "tour-116",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-115",
-  "latestCompletionAudit": "public/data/winter2024-completion.json",
+  "activeDetailedReview": "tour-116",
+  "latestCompletionAudit": "public/data/exploration2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-115",
-  "nextPriorityReason": "One tour at a time: Winter 2024 has exact LIVE completion evidence. Review Exploration 2024 next.",
-  "latestLiveCompletionAudit": "archive/winter2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-116",
+  "nextPriorityReason": "One tour at a time: Exploration 2024 has exact LIVE completion evidence. Review Doctor 2024 next.",
+  "latestLiveCompletionAudit": "archive/exploration2024-exact-live-publication-and-full-field-check-20261015.json"
 }
