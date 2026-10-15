@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-160",
+  "activeDetailedReview": "tour-161",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 157,
-      "source-and-publication-review": 7,
+      "completed-with-documented-gaps": 158,
       "faster-result-reconciliation": 1,
+      "source-and-publication-review": 6,
       "carry-in-and-sparse-history-check": 14,
       "candidate-and-source-review": 2
     },
@@ -85,11 +85,11 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 5,
+        "requiringInvestigation": 4,
         "categories": {
-          "completed-with-documented-gaps": 21,
-          "source-and-publication-review": 4,
-          "faster-result-reconciliation": 1
+          "completed-with-documented-gaps": 22,
+          "faster-result-reconciliation": 1,
+          "source-and-publication-review": 3
         }
       },
       "2026": {
@@ -112,8 +112,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 157,
-    "toursRequiringInvestigation": 24
+    "practicallyCompletedTours": 158,
+    "toursRequiringInvestigation": 23
   },
   "tours": [
     {
@@ -16555,7 +16555,7 @@
           "url": "https://mktwrs.com/course/los-angeles-laps-2",
           "firstAppearance": false,
           "wrRows": 6,
-          "supportingRows": 21,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1178887189124370537",
@@ -16571,10 +16571,7 @@
           "linkedVideoRows": 9,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "los-angeles-laps-2",
             "checkedAt": "2026-10-13T18:38:31.183188+00:00",
@@ -16598,7 +16595,7 @@
           "url": "https://mktwrs.com/course/los-angeles-laps-3",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 13,
+          "supportingRows": 7,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1042970214414950400",
@@ -16614,11 +16611,7 @@
           "linkedVideoRows": 5,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "los-angeles-laps-3",
             "checkedAt": "2026-10-13T18:38:31.206454+00:00",
@@ -16637,8 +16630,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/autumn2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/autumn2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-161",
@@ -19189,10 +19187,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-160",
-  "latestCompletionAudit": "public/data/halloween2025-completion.json",
+  "activeDetailedTourId": "tour-161",
+  "latestCompletionAudit": "public/data/autumn2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-160",
-  "nextPriorityReason": "One tour at a time: Halloween2025 has core exact LIVE completion evidence. Start Autumn2025 tour160 October29–November12 only after final Halloween LIVE verification.",
-  "latestLiveCompletionAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-161",
+  "nextPriorityReason": "One tour at a time: Autumn2025 has core exact LIVE completion evidence. Start Animal2025 tour161 November12–November26 only after final Autumn LIVE verification.",
+  "latestLiveCompletionAudit": "archive/autumn2025-exact-live-publication-and-full-field-check-20261015.json"
 }

@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 157,
-      "source-and-publication-review": 12,
+      "completed-with-documented-gaps": 158,
+      "source-and-publication-review": 11,
       "candidate-and-source-review": 7,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 157,
-    "toursRequiringInvestigation": 24,
+    "practicallyCompletedTours": 158,
+    "toursRequiringInvestigation": 23,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -89,10 +89,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 5,
+        "requiringInvestigation": 4,
         "categories": {
-          "completed-with-documented-gaps": 21,
-          "source-and-publication-review": 5
+          "completed-with-documented-gaps": 22,
+          "source-and-publication-review": 4
         }
       },
       "2026": {
@@ -8637,7 +8637,7 @@
           "url": "https://mktwrs.com/course/los-angeles-laps-2",
           "firstAppearance": false,
           "wrRows": 6,
-          "supportingRows": 9,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1178887189124370537",
@@ -8647,11 +8647,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "los-angeles-laps-3",
@@ -8659,7 +8655,7 @@
           "url": "https://mktwrs.com/course/los-angeles-laps-3",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 5,
+          "supportingRows": 7,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1042970214414950400",
@@ -8669,15 +8665,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/autumn2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/autumn2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-161",
@@ -11444,7 +11441,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-160",
+  "activeDetailedTourId": "tour-161",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11455,10 +11452,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-160",
-  "latestCompletionAudit": "public/data/halloween2025-completion.json",
-  "nextPriorityTourId": "tour-160",
-  "nextPriorityReason": "One tour at a time: Halloween2025 has core exact LIVE completion evidence. Start Autumn2025 tour160 October29–November12 only after final Halloween LIVE verification.",
-  "latestLiveCompletionAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-161",
+  "latestCompletionAudit": "public/data/autumn2025-completion.json",
+  "nextPriorityTourId": "tour-161",
+  "nextPriorityReason": "One tour at a time: Autumn2025 has core exact LIVE completion evidence. Start Animal2025 tour161 November12–November26 only after final Autumn LIVE verification.",
+  "latestLiveCompletionAudit": "archive/autumn2025-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
