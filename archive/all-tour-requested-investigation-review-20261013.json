@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-136",
+  "activeDetailedReview": "tour-137",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 133,
-      "carry-in-and-sparse-history-check": 34,
+      "completed-with-documented-gaps": 134,
       "faster-result-reconciliation": 3,
+      "carry-in-and-sparse-history-check": 33,
       "source-and-publication-review": 9,
       "candidate-and-source-review": 2
     },
@@ -78,10 +78,9 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 3,
+        "requiringInvestigation": 2,
         "categories": {
-          "completed-with-documented-gaps": 23,
-          "carry-in-and-sparse-history-check": 1,
+          "completed-with-documented-gaps": 24,
           "faster-result-reconciliation": 2
         }
       },
@@ -114,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 133,
-    "toursRequiringInvestigation": 48
+    "practicallyCompletedTours": 134,
+    "toursRequiringInvestigation": 47
   },
   "tours": [
     {
@@ -14023,7 +14022,7 @@
     {
       "id": "tour-136",
       "number": 136,
-      "displayName": "Peach vs. Bowser Tour (November–December 2022) (2024)",
+      "displayName": "Peach vs. Bowser Tour (2024)",
       "startDate": "2024-11-27",
       "endDate": "2024-12-11",
       "courses": [
@@ -14033,7 +14032,7 @@
           "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 19,
+          "supportingRows": 12,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "966559082955821056",
@@ -14049,11 +14048,7 @@
           "linkedVideoRows": 4,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "3ds-bowser-s-castle-r",
             "checkedAt": "2026-10-13T18:38:29.365409+00:00",
@@ -14077,7 +14072,7 @@
           "url": "https://mktwrs.com/course/ds-peach-gardens",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 11,
+          "supportingRows": 6,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1189361589913124894",
@@ -14093,11 +14088,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "ds-peach-gardens",
             "checkedAt": "2026-10-13T18:38:32.277155+00:00",
@@ -14121,7 +14112,7 @@
           "url": "https://mktwrs.com/course/n64-royal-raceway",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 9,
+          "supportingRows": 4,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1189361686306619392",
@@ -14137,11 +14128,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-royal-raceway",
             "checkedAt": "2026-10-13T18:38:33.677033+00:00",
@@ -14163,8 +14150,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/peachbowser2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/peachbowser2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-137",
@@ -19270,10 +19262,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-136",
-  "latestCompletionAudit": "public/data/animal2024-completion.json",
+  "activeDetailedTourId": "tour-137",
+  "latestCompletionAudit": "public/data/peachbowser2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-136",
-  "nextPriorityReason": "One tour at a time: Animal 2024 has exact LIVE completion evidence. Review Peach vs. Bowser 2024 next.",
-  "latestLiveCompletionAudit": "archive/animal2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-137",
+  "nextPriorityReason": "One tour at a time: Peach vs. Bowser 2024 has exact LIVE completion evidence. Review Holiday 2024 next.",
+  "latestLiveCompletionAudit": "archive/peachbowser2024-exact-live-publication-and-full-field-check-20261015.json"
 }
