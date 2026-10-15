@@ -1,9 +1,9 @@
 {
   "tourId": "tour-123",
   "tour": "Princess Tour (2024)",
-  "status": "in-progress",
+  "status": "awaiting-exact-live-publication",
   "historyComplete": false,
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "previousTourLiveCompletion": "archive/mii2024-exact-live-publication-and-full-field-check-20261015.json",
   "courses": [
     "wii-coconut-mall",
@@ -12,9 +12,13 @@
   "startDate": "2024-05-29",
   "endDate": "2024-06-12",
   "nextActions": [
-    "Review this tour only after exact final Mii LIVE verification.",
-    "Reconcile preserved source images and movies using posting dates, preserve separate video clocks.",
-    "Publish completion evidence and verify exact LIVE before moving onward."
+    "Verify the exact deployed commit, complete public course collections and actual rendered evidence links before advancing."
   ],
-  "browserRestriction": "Discord only through Codex in-app browser 2."
+  "browserRestriction": "Discord only through Codex in-app browser 2.",
+  "sourcePreservationAudit": "archive/princess2024-original-preservation-and-source-review-20261015.json",
+  "sourceReconciliationAudit": "archive/princess2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+  "r2FilesVerified": 62,
+  "canonicalRowsReconciled": 46,
+  "publicationPending": true,
+  "livePublicationVerified": false
 }

@@ -652,6 +652,8 @@ const bowser2024=tours.find(t=>t.id==="tour-121" && t.startDate==="2024-05-01");
 if(bowser2024) bowser2024.name="Bowser Tour (2024)";
 const mii2024=tours.find(t=>t.id==="tour-122" && t.startDate==="2024-05-15");
 if(mii2024) mii2024.name="Mii Tour (2024)";
+const princess2024=tours.find(t=>t.id==="tour-123" && t.startDate==="2024-05-29");
+if(princess2024) princess2024.name="Princess Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
