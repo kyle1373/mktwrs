@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-149",
+  "activeDetailedReview": "tour-150",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 146,
-      "carry-in-and-sparse-history-check": 24,
+      "completed-with-documented-gaps": 147,
       "source-and-publication-review": 8,
+      "carry-in-and-sparse-history-check": 23,
       "faster-result-reconciliation": 1,
       "candidate-and-source-review": 2
     },
@@ -85,11 +85,11 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 16,
+        "requiringInvestigation": 15,
         "categories": {
-          "completed-with-documented-gaps": 10,
-          "carry-in-and-sparse-history-check": 10,
+          "completed-with-documented-gaps": 11,
           "source-and-publication-review": 5,
+          "carry-in-and-sparse-history-check": 9,
           "faster-result-reconciliation": 1
         }
       },
@@ -113,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 146,
-    "toursRequiringInvestigation": 35
+    "practicallyCompletedTours": 147,
+    "toursRequiringInvestigation": 34
   },
   "tours": [
     {
@@ -15428,11 +15428,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "wii-coconut-mall",
             "checkedAt": "2026-10-13T18:38:29.818270+00:00",
@@ -15456,7 +15452,7 @@
           "url": "https://mktwrs.com/course/gba-snow-land-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 9,
+          "supportingRows": 4,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1124182218407944233",
@@ -15472,11 +15468,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-snow-land-r",
             "checkedAt": "2026-10-13T18:38:34.408050+00:00",
@@ -15495,8 +15487,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/princess2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/princess2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-150",
@@ -19228,10 +19225,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-149",
-  "latestCompletionAudit": "public/data/mii2025-completion.json",
+  "activeDetailedTourId": "tour-150",
+  "latestCompletionAudit": "public/data/princess2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-149",
-  "nextPriorityReason": "One tour at a time: Mii2025 has core exact LIVE completion evidence. Start Princess2025 tour149 May28–June11 only after final Mii LIVE verification.",
-  "latestLiveCompletionAudit": "archive/mii2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-150",
+  "nextPriorityReason": "One tour at a time: Princess2025 has core exact LIVE completion evidence. Start MarioLuigi2025 tour150 June11–June25 only after final Princess LIVE verification.",
+  "latestLiveCompletionAudit": "archive/princess2025-exact-live-publication-and-full-field-check-20261015.json"
 }

@@ -1,8 +1,8 @@
 {
   "tourId": "tour-149",
   "tour": "Princess Tour (2025)",
-  "status": "publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -53,8 +53,16 @@
     "Original posting supplies submission date; menu posting supplies evidence publication, not proof of private achievement date."
   ],
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "livePublicationAudit": "archive/princess2025-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 18,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 126,
+    "productionAudit": "archive/princess2025-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
   "nextTourId": "tour-150",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/princess2025-exact-live-publication-and-full-field-check-20261015.json"
 }
