@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 121,
-      "candidate-and-source-review": 14,
+      "completed-with-documented-gaps": 122,
+      "candidate-and-source-review": 13,
       "carry-in-and-sparse-history-check": 10,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 121,
-    "toursRequiringInvestigation": 60,
+    "practicallyCompletedTours": 122,
+    "toursRequiringInvestigation": 59,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -82,10 +82,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 15,
+        "requiringInvestigation": 14,
         "categories": {
-          "completed-with-documented-gaps": 11,
-          "candidate-and-source-review": 6,
+          "completed-with-documented-gaps": 12,
+          "candidate-and-source-review": 5,
           "carry-in-and-sparse-history-check": 5,
           "source-and-publication-review": 4
         }
@@ -6653,7 +6653,7 @@
           "url": "https://mktwrs.com/course/n64-luigi-raceway-r",
           "firstAppearance": false,
           "wrRows": 5,
-          "supportingRows": 20,
+          "supportingRows": 17,
           "pendingCandidates": 3,
           "carriedInWr": {
             "id": "1124183833839939655",
@@ -6663,15 +6663,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/marioluigi2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/marioluigi2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-125",
@@ -11500,11 +11501,11 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-124",
-  "activeDetailedReview": "tour-124",
-  "latestCompletionAudit": "public/data/princess2024-completion.json",
-  "nextPriorityTourId": "tour-124",
-  "nextPriorityReason": "One tour at a time: Princess 2024 has exact LIVE completion evidence. Review Mario vs. Luigi 2024 next.",
-  "latestLiveCompletionAudit": "archive/princess2024-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedTourId": "tour-125",
+  "activeDetailedReview": "tour-125",
+  "latestCompletionAudit": "public/data/marioluigi2024-completion.json",
+  "nextPriorityTourId": "tour-125",
+  "nextPriorityReason": "One tour at a time: Mario vs. Luigi 2024 has exact LIVE completion evidence. Review Night 2024 next.",
+  "latestLiveCompletionAudit": "archive/marioluigi2024-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }

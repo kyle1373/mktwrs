@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-124",
+  "activeDetailedReview": "tour-125",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,10 +33,10 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 121,
-      "source-and-publication-review": 11,
+      "completed-with-documented-gaps": 122,
       "candidate-and-source-review": 3,
       "carry-in-and-sparse-history-check": 43,
+      "source-and-publication-review": 10,
       "faster-result-reconciliation": 3
     },
     "years": {
@@ -78,12 +78,12 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 15,
+        "requiringInvestigation": 14,
         "categories": {
-          "completed-with-documented-gaps": 11,
-          "source-and-publication-review": 2,
+          "completed-with-documented-gaps": 12,
           "candidate-and-source-review": 1,
           "carry-in-and-sparse-history-check": 10,
+          "source-and-publication-review": 1,
           "faster-result-reconciliation": 2
         }
       },
@@ -116,8 +116,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 121,
-    "toursRequiringInvestigation": 60
+    "practicallyCompletedTours": 122,
+    "toursRequiringInvestigation": 59
   },
   "tours": [
     {
@@ -12792,7 +12792,7 @@
           "url": "https://mktwrs.com/course/n64-luigi-raceway-r",
           "firstAppearance": false,
           "wrRows": 5,
-          "supportingRows": 39,
+          "supportingRows": 17,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1124183833839939655",
@@ -12808,10 +12808,7 @@
           "linkedVideoRows": 3,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-luigi-raceway-r",
             "checkedAt": "2026-10-13T18:38:31.419097+00:00",
@@ -12830,8 +12827,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/marioluigi2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/marioluigi2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-125",
@@ -19310,10 +19312,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-124",
-  "latestCompletionAudit": "public/data/princess2024-completion.json",
+  "activeDetailedTourId": "tour-125",
+  "latestCompletionAudit": "public/data/marioluigi2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-124",
-  "nextPriorityReason": "One tour at a time: Princess 2024 has exact LIVE completion evidence. Review Mario vs. Luigi 2024 next.",
-  "latestLiveCompletionAudit": "archive/princess2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-125",
+  "nextPriorityReason": "One tour at a time: Mario vs. Luigi 2024 has exact LIVE completion evidence. Review Night 2024 next.",
+  "latestLiveCompletionAudit": "archive/marioluigi2024-exact-live-publication-and-full-field-check-20261015.json"
 }
