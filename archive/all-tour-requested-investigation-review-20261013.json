@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-118",
+  "activeDetailedReview": "tour-119",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 115,
-      "source-and-publication-review": 13,
+      "completed-with-documented-gaps": 116,
+      "source-and-publication-review": 12,
       "carry-in-and-sparse-history-check": 47,
       "candidate-and-source-review": 3,
       "faster-result-reconciliation": 3
@@ -78,10 +78,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 21,
+        "requiringInvestigation": 20,
         "categories": {
-          "completed-with-documented-gaps": 5,
-          "source-and-publication-review": 4,
+          "completed-with-documented-gaps": 6,
+          "source-and-publication-review": 3,
           "carry-in-and-sparse-history-check": 14,
           "candidate-and-source-review": 1,
           "faster-result-reconciliation": 2
@@ -116,8 +116,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 115,
-    "toursRequiringInvestigation": 66
+    "practicallyCompletedTours": 116,
+    "toursRequiringInvestigation": 65
   },
   "tours": [
     {
@@ -12205,7 +12205,7 @@
           "url": "https://mktwrs.com/course/wii-rainbow-road",
           "firstAppearance": false,
           "wrRows": 7,
-          "supportingRows": 34,
+          "supportingRows": 24,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1093745302051242004",
@@ -12221,10 +12221,7 @@
           "linkedVideoRows": 5,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "wii-rainbow-road",
             "checkedAt": "2026-10-13T18:38:32.564939+00:00",
@@ -12248,7 +12245,7 @@
           "url": "https://mktwrs.com/course/3ds-wario-shipyard",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 25,
+          "supportingRows": 18,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1093745717182472272",
@@ -12264,11 +12261,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "3ds-wario-shipyard",
             "checkedAt": "2026-10-13T18:38:35.074155+00:00",
@@ -12289,8 +12282,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/ninja2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/ninja2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-119",
@@ -19325,10 +19323,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-118",
-  "latestCompletionAudit": "public/data/mario2024-completion.json",
+  "activeDetailedTourId": "tour-119",
+  "latestCompletionAudit": "public/data/ninja2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-118",
-  "nextPriorityReason": "One tour at a time: Mario 2024 has exact LIVE completion evidence. Review Ninja 2024 next.",
-  "latestLiveCompletionAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-119",
+  "nextPriorityReason": "One tour at a time: Ninja 2024 has exact LIVE completion evidence. Review Yoshi 2024 next.",
+  "latestLiveCompletionAudit": "archive/ninja2024-exact-live-publication-and-full-field-check-20261015.json"
 }

@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 115,
-      "candidate-and-source-review": 18,
+      "completed-with-documented-gaps": 116,
+      "candidate-and-source-review": 17,
       "carry-in-and-sparse-history-check": 12,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 115,
-    "toursRequiringInvestigation": 66,
+    "practicallyCompletedTours": 116,
+    "toursRequiringInvestigation": 65,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -83,10 +83,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 21,
+        "requiringInvestigation": 20,
         "categories": {
-          "completed-with-documented-gaps": 5,
-          "candidate-and-source-review": 10,
+          "completed-with-documented-gaps": 6,
+          "candidate-and-source-review": 9,
           "carry-in-and-sparse-history-check": 7,
           "source-and-publication-review": 4
         }
@@ -6205,7 +6205,7 @@
           "url": "https://mktwrs.com/course/wii-rainbow-road",
           "firstAppearance": false,
           "wrRows": 7,
-          "supportingRows": 9,
+          "supportingRows": 24,
           "pendingCandidates": 2,
           "carriedInWr": {
             "id": "1093745302051242004",
@@ -6215,12 +6215,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "3ds-wario-shipyard",
@@ -6228,7 +6223,7 @@
           "url": "https://mktwrs.com/course/3ds-wario-shipyard",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 9,
+          "supportingRows": 18,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1093745717182472272",
@@ -6238,14 +6233,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/ninja2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/ninja2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-119",
@@ -11381,16 +11378,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-118",
+  "activeDetailedTourId": "tour-119",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-118",
-  "latestCompletionAudit": "public/data/mario2024-completion.json",
+  "activeDetailedReview": "tour-119",
+  "latestCompletionAudit": "public/data/ninja2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-118",
-  "nextPriorityReason": "One tour at a time: Mario 2024 has exact LIVE completion evidence. Review Ninja 2024 next.",
-  "latestLiveCompletionAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-119",
+  "nextPriorityReason": "One tour at a time: Ninja 2024 has exact LIVE completion evidence. Review Yoshi 2024 next.",
+  "latestLiveCompletionAudit": "archive/ninja2024-exact-live-publication-and-full-field-check-20261015.json"
 }

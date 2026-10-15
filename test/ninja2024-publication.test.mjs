@@ -6,7 +6,7 @@ import {isReviewedOpeningDay} from '../lib/opening-day.mjs';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const course=cid=>routeData(['course',cid]).data;
 test('Ninja final results retain their posted dates and separate available recordings',()=>{
- const rr=course('wii-rainbow-road').ninja2024Recording;
+ const c=course('wii-rainbow-road'),rr=c.ninja2024Recording;assert.equal(c.fastestVideo.time,'1:13.83');assert.equal(c.fastestVideo.documentedRecordingSelection,true);
  assert.equal(rr.worldRecord.time,'1:13.83');assert.equal(rr.worldRecord.playerId,'kuri');assert.equal(rr.worldRecord.submittedAt,'2024-03-22T14:06:39.117Z');assert.equal(rr.documentedRecording.time,'1:13.83');assert.match(rr.documentedRecording.videoBackup.url,/^https:\/\/media.mktwrs.com\//);
  const ws=course('3ds-wario-shipyard').ninja2024Recording;
  assert.equal(ws.worldRecord.time,'1:33.36');assert.equal(ws.worldRecord.playerId,'nekozuki');assert.equal(ws.worldRecord.submittedAt,'2024-03-25T05:26:42.420Z');assert.equal(ws.reportedRecording.time,'1:33.45');assert.equal(ws.reportedRecording.playerId,'n');
