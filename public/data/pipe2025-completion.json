@@ -1,8 +1,8 @@
 {
   "tourId": "tour-152",
   "tour": "Pipe Tour (2025)",
-  "status": "publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -57,8 +57,16 @@
     "Later 2026 rows remain intact and outside this tour review."
   ],
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "livePublicationAudit": "archive/pipe2025-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 18,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 93,
+    "productionAudit": "archive/pipe2025-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
   "nextTourId": "tour-153",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/pipe2025-exact-live-publication-and-full-field-check-20261015.json"
 }
