@@ -1,9 +1,9 @@
 {
   "tourId": "tour-124",
   "tour": "Mario vs. Luigi Tour (2024)",
-  "status": "in-progress",
+  "status": "awaiting-exact-live-publication",
   "historyComplete": false,
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "previousTourLiveCompletion": "archive/princess2024-exact-live-publication-and-full-field-check-20261015.json",
   "courses": [
     "n64-luigi-raceway-r"
@@ -11,9 +11,13 @@
   "startDate": "2024-06-12",
   "endDate": "2024-06-26",
   "nextActions": [
-    "Review this tour only after exact final Princess LIVE verification.",
-    "Reconcile preserved source images and movies using posting dates, preserve separate video clocks.",
-    "Publish completion evidence and verify exact LIVE before moving onward."
+    "Verify the exact deployed commit, full course collections and actual rendered evidence links before advancing."
   ],
-  "browserRestriction": "Discord only through Codex in-app browser 2."
+  "browserRestriction": "Discord only through Codex in-app browser 2.",
+  "sourcePreservationAudit": "archive/marioluigi2024-original-preservation-and-source-review-20261015.json",
+  "sourceReconciliationAudit": "archive/marioluigi2024-posted-results-and-preserved-source-reconciliation-20261015.json",
+  "r2FilesVerified": 34,
+  "canonicalRowsReconciled": 23,
+  "publicationPending": true,
+  "livePublicationVerified": false
 }
