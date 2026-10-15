@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-73",
+  "activeDetailedReview": "tour-111",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,62 +33,78 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 70,
-      "source-and-publication-review": 19,
-      "carry-in-and-sparse-history-check": 59,
-      "data-quality-and-history-check": 0,
-      "candidate-and-source-review": 28,
-      "sparse-history-review": 1,
-      "faster-result-reconciliation": 4
+      "completed-with-documented-gaps": 108,
+      "carry-in-and-sparse-history-check": 53,
+      "source-and-publication-review": 14,
+      "candidate-and-source-review": 3,
+      "faster-result-reconciliation": 3
     },
     "years": {
       "2019": {
         "catalogTours": 7,
-        "practicallyCompleted": 5,
-        "notApplicable": 2,
-        "open": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "not-applicable": 2,
+          "completed-with-documented-gaps": 5
+        }
       },
       "2020": {
         "catalogTours": 27,
-        "practicallyCompleted": 27,
-        "notApplicable": 0,
-        "open": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 27
+        }
       },
       "2021": {
         "catalogTours": 26,
-        "practicallyCompleted": 26,
-        "notApplicable": 0,
-        "open": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 26
+        }
       },
       "2022": {
         "catalogTours": 26,
-        "practicallyCompleted": 12,
-        "notApplicable": 0,
-        "open": 14
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 26
+        }
       },
       "2023": {
         "catalogTours": 26,
-        "practicallyCompleted": 0,
-        "notApplicable": 0,
-        "open": 26
+        "requiringInvestigation": 2,
+        "categories": {
+          "completed-with-documented-gaps": 24,
+          "carry-in-and-sparse-history-check": 1,
+          "source-and-publication-review": 1
+        }
       },
       "2024": {
         "catalogTours": 26,
-        "practicallyCompleted": 0,
-        "notApplicable": 0,
-        "open": 26
+        "requiringInvestigation": 26,
+        "categories": {
+          "carry-in-and-sparse-history-check": 19,
+          "source-and-publication-review": 4,
+          "candidate-and-source-review": 1,
+          "faster-result-reconciliation": 2
+        }
       },
       "2025": {
         "catalogTours": 26,
-        "practicallyCompleted": 0,
-        "notApplicable": 0,
-        "open": 26
+        "requiringInvestigation": 26,
+        "categories": {
+          "carry-in-and-sparse-history-check": 19,
+          "source-and-publication-review": 6,
+          "faster-result-reconciliation": 1
+        }
       },
       "2026": {
         "catalogTours": 19,
-        "practicallyCompleted": 0,
-        "notApplicable": 0,
-        "open": 19
+        "requiringInvestigation": 19,
+        "categories": {
+          "source-and-publication-review": 3,
+          "carry-in-and-sparse-history-check": 14,
+          "candidate-and-source-review": 2
+        }
       }
     },
     "openTours": 111,
@@ -100,7 +116,9 @@
       "oneDayTourRangeDiscrepancies": 27,
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
-    }
+    },
+    "practicallyCompletedTours": 108,
+    "toursRequiringInvestigation": 73
   },
   "tours": [
     {
@@ -246,7 +264,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/halloween2019-completion.json",
+      "completionEvidence": "/data/halloween2019-completion.json",
       "documentedLimitations": [
         "Six achievement-day uncertainties retained; original report/publication/share clocks remain separate.",
         "Unavailable standalone originals retain contemporary documentary sources; matching later previous-best menus corroborate selected totals.",
@@ -254,7 +272,9 @@
         "General streams screened using captions/context; not watched end-to-end. No distinct material WR lead identified beyond the reviewedCarlos openingTT segment; silent/mistranscribed footage may remain.",
         "Preserved source coverage cannot establish absence of deleted or unindexed runs. These are accepted documented gaps under the requested practical standard."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-4",
@@ -377,13 +397,15 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/paris2019-completion.json",
+      "completionEvidence": "/data/paris2019-completion.json",
       "documentedLimitations": [
         "Opening Luigi and Bazaar global WR precedence is unresolved. Earlier documented results are published separately without unsupported WR promotion.",
         "Unknown dates, tentative identities, deleted originals and sampled broadcast scope remain explicit; no claim of exhaustive source recovery or freshly certified uninterrupted playback.",
         "Only the fastest documented opening-day result and ties are shown. Raw intermediate results remain preserved."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-5",
@@ -508,7 +530,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/winter2019-completion.json",
+      "completionEvidence": "/data/winter2019-completion.json",
       "documentedLimitations": [
         "Early global WR ordering and three undated previous-best results remain unresolved; documented times shown outside certified WR history.",
         "Benny0:50.52 footage is distinct from reported0:50.36 PB. Mark1:51.93 footage is not attributed to its DeletedUser sharer.",
@@ -517,7 +539,9 @@
         "225 attachment references carry prior assessments except the three freshly resolved GamerunW cards; they are not newly recertified.",
         "Early global WR ordering, three undated personal previous bests, unavailable originals and external-server coverage remain uncertain."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-6",
@@ -641,7 +665,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/london2019-completion.json",
+      "completionEvidence": "/data/london2019-completion.json",
       "documentedLimitations": [
         "Original global opening WR exchange remains unproven. Slower early PBs and rival claims remain outside accepted WR succession.",
         "Prior Discord search reviewed114of142 pages; omitted pages and broader broadcasts were not newly reviewed. Current session requires login again.",
@@ -649,7 +673,9 @@
         "Exact previous-best achievement dates, absent/disputed splits and frame-by-frame recording continuity remain unproven.",
         "Five-track visual evidence and prior source dispositions support practical closure under user good-enough standard; exhaustive history is not certified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-7",
@@ -735,7 +761,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/holiday2019-completion.json",
+      "completionEvidence": "/data/holiday2019-completion.json",
       "documentedLimitations": [
         "Original opening WR exchange remains uncertain; earliest slower day-one results stay in raw evidence without WR awards.",
         "Prior3943-message date-search coverage does not certify all images, recordings or outside accounts. Current Discord session expired; preserved reviews retained.",
@@ -744,7 +770,9 @@
         "Undated previous bests and missing/disputed splits retain uncertainty. Sampled frames and decode do not certify frame-by-frame continuity.",
         "Closing interval includes January1 before06UTC; score-mode and incomplete broadcasts do not establish TT runs."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-8",
@@ -793,7 +821,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/newyear2020-completion.json",
+      "completionEvidence": "/data/newyear2020-completion.json",
       "documentedLimitations": [
         "Opening WR exchange remains incomplete; personal results and undated previous bests retained without automatic WR promotion.",
         "No completed-race recording established in reviewed sources; January4 technique clip ends during lap1. Intermediate29.37 is not a completed lap or total.",
@@ -802,7 +830,9 @@
         "Prior2884-message date-search does not certify deleted/private or outside sources. Current Discord session requires login again.",
         "Unavailable image, ambiguous references, sampled broadcasts and exact achievement-date gaps retained under agreed good-enough proof standard."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-9",
@@ -889,13 +919,15 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/ice2020-completion.json",
+      "completionEvidence": "/data/ice2020-completion.json",
       "documentedLimitations": [
         "The 181 matched preserved attachments rechecked by hash; prior image visual dispositions reused rather than claiming a fresh full-pixel review.",
         "Opening-day global Jungle R order remains unknown. Nu11 Castle tie lacks its individual proof/date/splits.",
         "Earlier Jungle R1:40.56 is previous-best evidence; Kaguya1:40.74 is a third-party report. Neither promoted to certified WR succession."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-10",
@@ -981,7 +1013,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/valentines2020-completion.json",
+      "completionEvidence": "/data/valentines2020-completion.json",
       "documentedLimitations": [
         "Final Beach1:13.83 ties retain announcement status; original individual dates, images and splits unavailable.",
         "Earlier global WR exchange order remains unknown; first attempts and previous-best evidence remain outside certified succession.",
@@ -989,7 +1021,9 @@
         "Prior267 image visual dispositions reused; current hash checks establish preserved-file identity, not a new visual pass.",
         "Deleted/private/unindexed global material not proven recovered."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-11",
@@ -1075,14 +1109,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/vancouver2020-completion.json",
+      "completionEvidence": "/data/vancouver2020-completion.json",
       "documentedLimitations": [
         "Prior406 server attachments visually reviewed, but current hash crosswalk covers only27 indexed TT images plus73 official-reply images.",
         "FinalRainbow0:59.94 lacks original proof and date;1:04.72 video is separate.",
         "Choco0:49.56 predecessor is contemporaneously reported, with missing original date/proof/splits.",
         "First-lap Choco clips do not establish completed total; opening global order and deleted/private material remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-12",
@@ -1169,14 +1205,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/mariobros2020-completion.json",
+      "completionEvidence": "/data/mariobros2020-completion.json",
       "documentedLimitations": [
         "Final screenshots submitted before06UTC rollover; exact achievement dates and reigns remain unknown.",
         "Previous-best values do not certify global WR succession; unavailable Adri originals and intermediary contenders remain qualified.",
         "Current source hash checks reuse prior visual dispositions rather than claiming a fresh complete-server-image review.",
         "Fresh video samples and full decode do not certify uninterrupted playback."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-13",
@@ -1224,7 +1262,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/babyrosalina2020-completion.json",
+      "completionEvidence": "/data/babyrosalina2020-completion.json",
       "documentedLimitations": [
         "Opening global leader and exact WR achievement date remain unproved; no invented succession or reign duration.",
         "Accepted migrated WR and contemporary video embed support Nu11/Kaguya 1:01.83; original video unavailable.",
@@ -1232,7 +1270,9 @@
         "Fresh selected footage review uses representative frames plus full decode, without uninterrupted-race certification.",
         "Prior complete-saved discussion dispositions retained; hash integrity confirms saved files, not exhaustive deleted/private/global source coverage."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-14",
@@ -1317,7 +1357,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/hammer2020-completion.json",
+      "completionEvidence": "/data/hammer2020-completion.json",
       "documentedLimitations": [
         "Opening global leadership, intermediate WR status and exact achievement clocks remain unproved; no invented succession or reign duration.",
         "Yoshi 1:31.52 explicitly rejected as a joke; eight downstream performance comparisons now use genuine earlier dated results.",
@@ -1326,7 +1366,9 @@
         "Preserved images and prior source dispositions verified; deleted/private/global source completeness not proved.",
         "Two selected recordings freshly sampled and decoded; uninterrupted-race continuity not certified. Two slower originals preserved on R2 with prior reviews retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-15",
@@ -1412,7 +1454,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/yoshi2020-completion.json",
+      "completionEvidence": "/data/yoshi2020-completion.json",
       "documentedLimitations": [
         "Original final WR footage unavailable or not recovered; Kazuo1:21.28 andBrandonSG1:16.06 are fastest documented available completed recordings in preserved reviewed evidence.",
         "Tomegome partial second-lap and Gisko/Wins first-lap clips do not establish final totals.",
@@ -1420,7 +1462,9 @@
         "Opening day retains fastest documented result and ties; superseded source rows remain in download.",
         "Deleted/private/global material not proven fully recovered; prior review accepted under practical standard."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-16",
@@ -1507,14 +1551,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/trick2020-completion.json",
+      "completionEvidence": "/data/trick2020-completion.json",
       "documentedLimitations": [
         "Prior completed-race review identifies both final WR totals; fresh uninterrupted-race certification remains absent.",
         "Some earlier rival chronology and exact race timestamps remain unresolved. Day-one fastest result policy applied; raw omitted rows remain preserved.",
         "Vanilla originalMay2020 video recovered throughDecember2021 repost; repost is not a new record date.",
         "Deleted/private/global source material not proven fully recovered."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-17",
@@ -1562,7 +1608,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/flower2020-completion.json",
+      "completionEvidence": "/data/flower2020-completion.json",
       "documentedLimitations": [
         "No original final1:39.00WR recording found; Wins1:39.76 is fastest preserved reviewed completed recording.",
         "Four unavailable server attachments and two stale viewer entries remain explicit gaps.",
@@ -1570,7 +1616,9 @@
         "Prior718serverimage visual review retained;129discussion images and10additionalserverleads freshly reviewed. This is not exhaustive all-server reconstruction.",
         "Representative selected-video samples plus successful decode verified; continuous unedited-race certification not claimed."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-18",
@@ -1618,7 +1666,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/jungle2020-completion.json",
+      "completionEvidence": "/data/jungle2020-completion.json",
       "documentedLimitations": [
         "Kazuo0:42.07full completedrecording unavailable; survivingKazuo lapclips remainpartial. Tomegome0:42.11isfastestverifiedcompletedfootage.",
         "209discussionimagesfreshlydispositioned;32priorvisualreviews retainedwithfreshOCRcrosschecks;other expandedservervisualreviewcarriedforward.",
@@ -1626,7 +1674,9 @@
         "Exactracefinishdates andsomeintermediateprecedenceunknown;source/report/upload/shareclocks staydistinct.",
         "Representative selectedvideosamples andsuccessfuldecodechecked;uninterruptedracecertificationnotclaimed. Deleted/private/globalmaterialsnotprovedrecovered."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-19",
@@ -1713,7 +1763,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/cooking2020-completion.json",
+      "completionEvidence": "/data/cooking2020-completion.json",
       "documentedLimitations": [
         "Kazuo final0:49.77completedrecording unavailable;0:49.90recording retained separately.",
         "No completedWaluigiPinballRrecording recovered;Wins53.16firstlapclip remains partial.",
@@ -1721,7 +1771,9 @@
         "309discussionimage and167expandedopeningimage priorvisualreviews retained;sourceIDs/hashes crosschecked withoutclaimingfreshvisualreviewofeveryimage.",
         "Exactracefinishdates andunavailableNu11stream/Kaguya51.49original remainqualified. Noexhaustiveglobalhistory or uninterruptedselected-video certification."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-20",
@@ -1806,14 +1858,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/peach2020-completion.json",
+      "completionEvidence": "/data/peach2020-completion.json",
       "documentedLimitations": [
         "Final Frappe 1:20.85 WR recording unavailable; Tomegome 1:21.05 completed footage shown separately.",
         "Eight previous-best chronology questions remain unproven; no additional leaders or ties inferred.",
         "230 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
         "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-21",
@@ -1900,14 +1954,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/marine2020-completion.json",
+      "completionEvidence": "/data/marine2020-completion.json",
       "documentedLimitations": [
         "Final Mario Circuit 1:35.47 and RMX Choco Island 1:12.36 WR recordings unavailable; completed 1:36.24 and 1:12.42 footage shown separately.",
         "Previous-best chronology and eight attachment retrievals remain unresolved; no unproven leaders inferred.",
         "308 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
         "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-22",
@@ -2000,14 +2056,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/exploration2020-completion.json",
+      "completionEvidence": "/data/exploration2020-completion.json",
       "documentedLimitations": [
         "Final Dino Dino Jungle 1:33.66 and Vanilla Lake 1R 0:34.38 WR recordings unavailable; completed 1:34.43 and 0:34.50 footage shown separately.",
         "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
         "255 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
         "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-23",
@@ -2092,14 +2150,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/wildwest2020-completion.json",
+      "completionEvidence": "/data/wildwest2020-completion.json",
       "documentedLimitations": [
         "Final Bowser Castle 2 1:19.65 and Donut Plains 1R 0:49.69 WR recordings unavailable; completed 1:20.48 and 0:50.67 footage shown separately. Nu11 shortcut clip is partial.",
         "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
         "387 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
         "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-24",
@@ -2192,14 +2252,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/pirate2020-completion.json",
+      "completionEvidence": "/data/pirate2020-completion.json",
       "documentedLimitations": [
         "Final Bowser Castle 1R 1:00.29 and Mario Circuit 1 0:41.94 WR recordings unrecovered; Tomegome 1:00.31 and Wins 0:42.12 completed footage shown separately. Phillish 21.19 lap clip is partial.",
         "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
         "321 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
         "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-25",
@@ -2292,14 +2354,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/summerfest2020-completion.json",
+      "completionEvidence": "/data/summerfest2020-completion.json",
       "documentedLimitations": [
         "Wins 0:47.87 final Choco Island 2 WR recording preserved. Mario Circuit 3R 1:06.41 WR recording unavailable; completed 1:06.53 footage shown separately.",
         "Previous-best dates and unavailable originals remain unresolved.",
         "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
         "Seven technique and two result-screen clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-26",
@@ -2385,14 +2449,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/supermario2020-completion.json",
+      "completionEvidence": "/data/supermario2020-completion.json",
       "documentedLimitations": [
         "Both final WR recordings unavailable. Ghost Valley 0:40.89 completed footage and Royal Raceway 1:34.87 late-start footage shown separately.",
         "Previous-best dates and unavailable originals remain unresolved.",
         "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
         "Ten technique and one result-screen clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-27",
@@ -2448,14 +2514,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/losangeles2020-completion.json",
+      "completionEvidence": "/data/losangeles2020-completion.json",
       "documentedLimitations": [
         "Final DK Pass WR 1:31.56 recording preserved; earlier previous-best dates remain qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
         "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
         "Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-28",
@@ -2511,14 +2579,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/anniversary2020-completion.json",
+      "completionEvidence": "/data/anniversary2020-completion.json",
       "documentedLimitations": [
         "Final 1:03.96 result proof retained; available 1:04.04 recording shown separately. Previous-best chronology remains qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
         "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
         "Earlier-tour and slower video references retain their documented scope. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-29",
@@ -2605,14 +2675,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/halloween2020-completion.json",
+      "completionEvidence": "/data/halloween2020-completion.json",
       "documentedLimitations": [
         "Both final WR recordings preserved; prior previous-best and ambiguous intermediate leaderboard chronology retained as gaps.",
         "Previous-best dates and unavailable originals remain unresolved.",
         "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
         "Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-30",
@@ -2713,14 +2785,16 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/sunset2020-completion.json",
+      "completionEvidence": "/data/sunset2020-completion.json",
       "documentedLimitations": [
         "Neo Bowser City final 1:24.70 recording preserved. Royal Raceway final 1:33.97 footage unavailable; previous-best chronology qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
         "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
         "One technique clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-31",
@@ -2813,7 +2887,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/marioluigi2020-completion.json",
+      "completionEvidence": "/data/marioluigi2020-completion.json",
       "documentedLimitations": [
         "Both final WR recordings preserved; early reported Mario Circuit times and Rainbow previous-best dates remain qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
@@ -2829,7 +2903,9 @@
         "Seventeen additional preserved files reviewed previously; two same-run Reddit copies, fifteen partial/lap clips.",
         "Fifteen lap/technique clips are contextual evidence, not completed runs; two additional completed Reddit copies show the same final WRs. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-32",
@@ -2915,7 +2991,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/winter2020-completion.json",
+      "completionEvidence": "/data/winter2020-completion.json",
       "documentedLimitations": [
         "Both final WR recordings preserved; four unavailable images, unknown previous-best dates, a conflicting Phillish text report and Choco tie attribution remain qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
@@ -2932,7 +3008,9 @@
         "Fresh representative start/gameplay/finish review plus full decode retains prior recording assessment; uninterrupted race coverage is not newly certified.",
         "Eleven partial/lap/failed-attempt clips are not completed WR proof; three additional completed personal-best recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-33",
@@ -3018,7 +3096,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/rosalina2020-completion.json",
+      "completionEvidence": "/data/rosalina2020-completion.json",
       "documentedLimitations": [
         "Sunset final WR recording preserved; Choco Mountain selected footage 1:18.93 is slower than final 1:18.51 with no recovered full recording. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
@@ -3035,7 +3113,9 @@
         "Fresh representative start/gameplay/finish samples plus decode retain prior recording assessment; uninterrupted unedited race coverage is not certified.",
         "Ten partial/technique clips are not completed WR proof; two additional completed recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-34",
@@ -3122,7 +3202,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/newyear2021-completion.json",
+      "completionEvidence": "/data/newyear2021-completion.json",
       "documentedLimitations": [
         "Final WRs Airship R 1:36.44 and Koopa 0:57.59 have unavailable video references; selected Wins recordings 1:36.91 and 0:57.99 remain separate. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
@@ -3139,7 +3219,9 @@
         "Representative gameplay and clear finishes viewed plus full decode; uninterrupted unedited coverage not newly certified.",
         "Five partial/technique clips are not completed WR proof; three additional completed files include another encoding of the selected Airship run and two slower Koopa recordings. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-35",
@@ -3225,7 +3307,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/berlin2021-completion.json",
+      "completionEvidence": "/data/berlin2021-completion.json",
       "documentedLimitations": [
         "Rock final 1:42.43 recording preserved; Kalimari selected 1:03.49 is slower than final 1:03.39. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
@@ -3242,7 +3324,9 @@
         "Prior pending broadcast, original-proof and precedence leads are retained unresolved here. No complete-history claim.",
         "One partial clip is not completed WR proof; nine additional files retain prior completed-run review, including another encoding of the selected Astre run. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-36",
@@ -3327,7 +3411,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/cat2021-completion.json",
+      "completionEvidence": "/data/cat2021-completion.json",
       "documentedLimitations": [
         "Both final WR recordings unrecovered; selected Maple 1:50.37 and Rainbow 1:20.61 footage remain separate. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
         "Previous-best dates and unavailable originals remain unresolved.",
@@ -3342,7 +3426,9 @@
         "Prior source reviews retained; fresh preservation and file integrity checks do not certify exhaustive history.",
         "Three additional short route/failed clips and the Saki lap-only clip are not completed WR proof. Wins and Spartacurt slower Maple completed recordings remain supporting evidence. Two delayed reposts belong to earlier tours. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-37",
@@ -3466,7 +3552,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/peachdaisy2021-completion.json",
+      "completionEvidence": "/data/peachdaisy2021-completion.json",
       "documentedLimitations": [
         "Choco Mountain R 1:17.87 runner-reported February19 achievement disclosed February24; no video reported recorded, exact clock/laps unknown. Kazuo1:17.95 recording retained separately.",
         "Donut Plains2 1:00.73 original linked YouTube unavailable; Wins1:01.12 available prior-reviewed recording preserved.",
@@ -3484,7 +3570,9 @@
         "Prior completed-run reviews retained for three slower supporting recordings. Two preserved encodings of the lap-only clip have differing transition coverage; neither establishes a completed two-lap race.",
         "Ten additional completed recordings retained with prior reviews, including delayed earlier-course footage. Two encodings of a lap-only clip have different transition coverage; neither proves a completed race. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-38",
@@ -3571,7 +3659,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/snow2021-completion.json",
+      "completionEvidence": "/data/snow2021-completion.json",
       "documentedLimitations": [
         "Nu11 RMX Rainbow Road1R1:17.13 WR linked original YouTube unavailable; Spartacurt1:17.96 available recording preserved.",
         "Dit Rosalinas Ice World1:29.87 image WR; faster Nu111:29.91 linked video unavailable; NHSpeedy1:30.26 available recording preserved.",
@@ -3590,7 +3678,9 @@
         "Prior visual lap/finish reviews retained. Lap-only footage excluded from completed-record proof.",
         "Three additional slower completed Ice World recordings retained; one lap-only clip excluded from completed race proof. March manifest gap repaired using actual message links and original source dispositions. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-39",
@@ -3720,7 +3810,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/mario2021-completion.json",
+      "completionEvidence": "/data/mario2021-completion.json",
       "documentedLimitations": [
         "DIT Bowser Castle1 WR footage preserved from player recovery uploaded2026; original2021 Twitter link retained without claiming byte-identical original recovery.",
         "Mansion R Wins1:22.79 original41.41/41.38 recording distinct from tied screenshot; race date and relation to faster Nu111:22.75 unknown. Source publication identifies tour association, not achievement date.",
@@ -3739,7 +3829,9 @@
         "Technique and finish fragments remain distinct from completed race evidence.",
         "Seven additional completed recordings retained with prior reviews; five short route/lap/finish clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-40",
@@ -3832,7 +3924,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/yoshi2021-completion.json",
+      "completionEvidence": "/data/yoshi2021-completion.json",
       "documentedLimitations": [
         "Full server message coverage is not established by the image index or keyword searches.",
         "Several early Pinball tour-leading claims are slower than the older announced all-time record; discrepancy remains unresolved.",
@@ -3848,7 +3940,9 @@
         "Six route fragments remain separate from completed race proof.",
         "Eight additional completed recordings retained with prior reviews; six short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-41",
@@ -3934,7 +4028,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/ninja2021-completion.json",
+      "completionEvidence": "/data/ninja2021-completion.json",
       "documentedLimitations": [
         "Full server message coverage is not established by the image index or keyword searches.",
         "Previous-best fields expose additional intermediate runs whose original dates remain unresolved.",
@@ -3950,7 +4044,9 @@
         "Four route/failed-attempt clips remain separate from completed runs.",
         "Ten additional completed recordings retained with prior reviews; four short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-42",
@@ -4043,7 +4139,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/sydney2021-completion.json",
+      "completionEvidence": "/data/sydney2021-completion.json",
       "documentedLimitations": [
         "Full server message coverage is not established by the image index or keyword searches.",
         "Deleted-account 1:03.05 identity is unresolved; the dated evidence and adjacent splits are retained.",
@@ -4060,7 +4156,9 @@
         "Three route/failed-attempt clips remain separate from completed runs.",
         "Five additional completed recordings retained with prior reviews; three short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-43",
@@ -4190,7 +4288,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/bowserdk2021-completion.json",
+      "completionEvidence": "/data/bowserdk2021-completion.json",
       "documentedLimitations": [
         "Image indexing and keyword searches do not establish complete server-message coverage.",
         "Some previous-best dates and lap splits remain unresolved.",
@@ -4206,7 +4304,9 @@
         "Partial route clips remain separate from completed runs.",
         "Eight additional completed recordings retained with prior reviews; ten short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-44",
@@ -4336,7 +4436,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/trick2021-completion.json",
+      "completionEvidence": "/data/trick2021-completion.json",
       "documentedLimitations": [
         "Final WR footage unavailable or absent from reviewed sources; selected slower recordings shown without WR promotion.",
         "Nu11 Rainbow1:52.69 original RQ8FAnqakFc unavailable per preserved browser review.",
@@ -4359,7 +4459,9 @@
         "Partial route clips remain separate from completed runs.",
         "Thirteen additional completed runs retained with prior reviews, plus another encoding of the selected Wins1:53.83; four short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-45",
@@ -4452,7 +4554,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/wedding2021-completion.json",
+      "completionEvidence": "/data/wedding2021-completion.json",
       "documentedLimitations": [
         "Nu11 final WR videos Gz3Napklgzk and mjgcJcGE4Aw unavailable per preserved review; selected slower footage shown separately.",
         "Tomegome publication clock is a result post, not known race instant; Starin later Discord share retained.",
@@ -4475,7 +4577,9 @@
         "Partial route clips remain separate from completed runs.",
         "Six additional completed runs retained with prior reviews, plus another encoding of the selected Phillish1:21.98; eleven route/incident clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-46",
@@ -4605,7 +4709,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/paris2021-completion.json",
+      "completionEvidence": "/data/paris2021-completion.json",
       "documentedLimitations": [
         "N1:00.45 video is not footage of1:00.40; achievement instant remains unknown, associated with reviewed June29 result.",
         "Rock Rock Mountain secret Phillish1:47.01 achievement ordering remains unresolved; faster final1:46.99 preserved.",
@@ -4629,7 +4733,9 @@
         "Partial route clips remain separate from completed runs.",
         "Seven additional completed runs retained with prior reviews, plus two alternate encodings of the selected Royal1:33.24; ten short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-47",
@@ -4730,7 +4836,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/summer2021-completion.json",
+      "completionEvidence": "/data/summer2021-completion.json",
       "documentedLimitations": [
         "Airship standing January1:36.44 not beaten among reviewed Summer submissions; best result1:36.47 has no reviewed footage.",
         "NHSpeedy1:36.64 original2021 publication and2026Discordrepost kept separate; no race instant inferred.",
@@ -4750,7 +4856,9 @@
         "Partial route clips remain separate from completed runs.",
         "An older Kazuo72.42 example recording from July2020 and an unrelated BowserCastle starting clip are preserved as context; neither is a Summer2021 result. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-48",
@@ -4843,7 +4951,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/la2021-completion.json",
+      "completionEvidence": "/data/la2021-completion.json",
       "documentedLimitations": [
         "N1:18.48 video is earlier than final1:18.33; not attached to faster result.",
         "Tomegome1:06.61 footage not1:06.44 screenshot; no Discord share time inferred.",
@@ -4865,7 +4973,9 @@
         "Partial route clips remain separate from completed runs.",
         "Two slower Wins completed originals preserved with prior footage review retained. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-49",
@@ -4958,7 +5068,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/mariopeach2021-completion.json",
+      "completionEvidence": "/data/mariopeach2021-completion.json",
       "documentedLimitations": [
         "Final WRs lack reviewed available recordings; selected slower footage shown separately.",
         "Nu1:18.38 datedAugust8fromsurvivingoriginalTwitter screenshot; exact clock and laps unresolved.",
@@ -4980,7 +5090,9 @@
         "Partial route clips remain separate from completed runs.",
         "Four partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-50",
@@ -5073,7 +5185,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/frost2021-completion.json",
+      "completionEvidence": "/data/frost2021-completion.json",
       "documentedLimitations": [
         "Final WRs lack reviewed available recordings; selected earlier slower footage shown separately.",
         "Astre1:02.74 exact achievement date unresolved withinAugust15–16; laterOctober7video publication not assigned as run date.",
@@ -5089,7 +5201,9 @@
         "Partial route clips remain separate from completed runs.",
         "Ten partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-51",
@@ -5182,7 +5296,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/kamek2021-completion.json",
+      "completionEvidence": "/data/kamek2021-completion.json",
       "documentedLimitations": [
         "Nu11 0:59.99, Wins 1:02.44 and Adrishi 1:00.16 original record dates remain unresolved.",
         "Tentative shiraui lap report remains in source notes; no guessed verified splits.",
@@ -5199,7 +5313,9 @@
         "Original result, upload and share clocks remain distinct.",
         "Eight partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-52",
@@ -5292,7 +5408,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/sydneysep2021-completion.json",
+      "completionEvidence": "/data/sydneysep2021-completion.json",
       "documentedLimitations": [
         "The continuous discussion windows include preceding-tour and following-tour messages. Search counts and visible channel counts differ; retain the raw message IDs rather than claim the entire server is complete.",
         "Nu11 1:32.14, saki7 1:02.13 and shiraui 1:03.60 are previous-best leads without independently verified original publication chronology.",
@@ -5310,7 +5426,9 @@
         "No claim that unavailable streams or worldwide recordings were exhausted.",
         "Five partial technique/lap clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-53",
@@ -5395,7 +5513,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/anniversary2021-completion.json",
+      "completionEvidence": "/data/anniversary2021-completion.json",
       "documentedLimitations": [
         "Kaguya 1:23.54 and 1:29.72 images were found in submissions at 07:28 UTC October 6, after reset. Earlier discussion and final boards corroborate the results, but original run/publication chronology is unresolved; no WR tie is inferred.",
         "Submission index 522 is a leaderboard screenshot listing Astre, not a new run by the sender.",
@@ -5417,7 +5535,9 @@
         "No claim that unavailable streams or worldwide recordings were exhausted.",
         "Three partial technique clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-54",
@@ -5510,7 +5630,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/autumn2021-completion.json",
+      "completionEvidence": "/data/autumn2021-completion.json",
       "documentedLimitations": [
         "Kaguya 1:01.40 was already published October 6. Slower DIT/Wins/Seboss submissions before Seboss 1:01.38 are personal bests, not intermediate WRs.",
         "The same old SuperFX 1:10.53 screenshot was reposted by Nick, Wins and Haruru with clown context. These are not three new tied records.",
@@ -5524,7 +5644,9 @@
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-55",
@@ -5625,7 +5747,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/halloween2021-completion.json",
+      "completionEvidence": "/data/halloween2021-completion.json",
       "documentedLimitations": [
         "DIT 1:40.16 and 1:39.60 previous best fields establish earlier runs but not exact original dates or ordering against other players.",
         "January 26, 2020 Tome Twitter video 1221415967315709952 shows 1:40.32, lap one 50.04 and lap two 50.28. It is not proof of the later 1:40.18. Its original WR standing remains unresolved.",
@@ -5638,7 +5760,9 @@
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-56",
@@ -5776,7 +5900,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/toadette2021-completion.json",
+      "completionEvidence": "/data/toadette2021-completion.json",
       "documentedLimitations": [
         "Shiraui 1:12.03 is confirmed, but its exact original date remains unresolved. Post-reset video and migrated screenshot dates must not be substituted.",
         "Previous bests 1:13.97, 1:12.92, 1:12.78 and 1:12.18 establish earlier runs with unresolved original dates and ordering.",
@@ -5791,7 +5915,9 @@
         "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-57",
@@ -5884,7 +6010,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/space2021-completion.json",
+      "completionEvidence": "/data/space2021-completion.json",
       "documentedLimitations": [
         "Prior-best dates and ordering are unresolved for N 1:24.15, 1:23.63 and 1:23.22, Nu11 1:22.75 and SuperFX 1:21.88.",
         "Haruru 1:21.60 image is a repost of N, not a second record holder.",
@@ -5897,7 +6023,9 @@
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-58",
@@ -5998,7 +6126,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/holiday2021-completion.json",
+      "completionEvidence": "/data/holiday2021-completion.json",
       "documentedLimitations": [
         "DIT original image is lost; original embedded lap text survives in tt-submission and establishes the intermediate total.",
         "Nu11’s hop-cancellation tutorial eyGInGqKK1E is unavailable.",
@@ -6012,7 +6140,9 @@
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-59",
@@ -6105,7 +6235,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/penguin2021-completion.json",
+      "completionEvidence": "/data/penguin2021-completion.json",
       "documentedLimitations": [
         "Nu11 opening sub-32 exact total is lost. Wins 31.87 WR ordering remains unresolved; later Phillish 32.13 and Lélé 32.10 are not WRs.",
         "Astre 32.52, Wins 32.00 and Nu11 31.80 previous-best timestamps are unknown.",
@@ -6118,7 +6248,9 @@
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-60",
@@ -6256,7 +6388,7 @@
         }
       ],
       "practicalReviewComplete": true,
-      "completionEvidence": "https://mktwrs.com/data/newyear2022-completion.json",
+      "completionEvidence": "/data/newyear2022-completion.json",
       "documentedLimitations": [
         "Initial capture omitted 23 New Year images, including three intermediate WRs. Earlier tours require the same attachment-completeness audit; no global completion claim is made.",
         "Nu11 previous 1:14.92 date and ordering remain unresolved. DIT’s screenshot repeats a previous 34.20; its first attainment timestamp is unknown.",
@@ -6269,7 +6401,9 @@
         "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-61",
@@ -6363,7 +6497,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/singapore2022-completion.json",
+      "completionEvidence": "/data/singapore2022-completion.json",
       "documentedLimitations": [
         "Twenty result images were absent from the original capture. All were recovered and visually reviewed; six restore intermediate WRs. Earlier and later tours require the same capture audit.",
         "Nine visible previous-best leads have unresolved dates and are excluded from progression.",
@@ -6374,7 +6508,9 @@
         "Seven completed original recordings, one alternate encode and five partial clips preserved on R2. Partial clips do not establish completed race totals.",
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-62",
@@ -6468,7 +6604,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/wariowaluigi2022-completion.json",
+      "completionEvidence": "/data/wariowaluigi2022-completion.json",
       "documentedLimitations": [
         "Spart’s 1:37.87 and 1:37.76 are held outside confirmed WR progression because Phillish’s nearby reply claims an earlier .5. Exact hundredths and date for that claimed run remain unresolved.",
         "Five earlier previous-best runs lack independently established dates and ordering.",
@@ -6479,7 +6615,9 @@
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
         "Nu11 original video-share clock remains unresolved; the February10 upload and January27 result submission are separate events."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-63",
@@ -6565,7 +6703,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/losangeles2022-completion.json",
+      "completionEvidence": "/data/losangeles2022-completion.json",
       "documentedLimitations": [
         "Ten visible previous-best runs lack independently established publication dates and competing-record order; they remain outside confirmed progression.",
         "Nozomi’s 1:34.78 message gives 37.33/37.45; those splits conflict with the image. Seboss’s 1:33.96 message also has conflicting splits. Neither is a confirmed WR.",
@@ -6575,7 +6713,9 @@
         "Six completed original recordings (including two no-item runs) and nine partial clips preserved on R2. Partial clips do not establish completed race totals.",
         "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-64",
@@ -6624,7 +6764,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/sky2022-completion.json",
+      "completionEvidence": "/data/sky2022-completion.json",
       "documentedLimitations": [
         "Previous-best displays do not establish original record dates or competing-record order. Five such leads remain outside confirmed progression.",
         "LaLanterne’s 1:01.47 and GOTEN’s 1:00.80 were explicitly withdrawn as input errors; neither is counted as a WR. Their original attachments remain unavailable.",
@@ -6636,7 +6776,9 @@
         "Five completed original recordings and one technique clip preserved on R2. Partial clips do not establish completed race totals.",
         "One selected full recording freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
         "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-65",
@@ -6736,7 +6878,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/mii2022-completion.json",
+      "completionEvidence": "/data/mii2022-completion.json",
       "documentedLimitations": [
         "Nu111:18.84 previous best establishes an earlier result but has no independently established date/global position; retained outside confirmed WR succession.",
         "Opening posts that label slower times WR do not override the standing all-time records. Opening global order and deleted/unindexed sources remain unproved.",
@@ -6745,7 +6887,9 @@
         "Prior image/video visual dispositions reused with source/hash checks. One Nu11 recording freshly sampled and decoded; no fresh every-frame uninterrupted playback or worldwide fastest-recording certification.",
         "Current Discord account chooser requests login again; preserved source messages reviewed, no fresh authenticated recovery claimed.",
         "Nu11 video upload March21 and Discord submission March23 are distinct; exact race-completion instant and original discussion share clock remain unknown."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-66",
@@ -6845,7 +6989,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/samurai2022-completion.json",
+      "completionEvidence": "/data/samurai2022-completion.json",
       "documentedLimitations": [
         "Six visible previous-best runs lack independently established dates or competing-record order; retained outside confirmed WR succession.",
         "Three slower Vanilla Lake leaderboard entries have identity/original-source gaps; retained as supporting leads, not new WRs.",
@@ -6856,7 +7000,9 @@
         "Two full race recordings and two technique clips preserved on R2; clips and best isolated laps do not establish complete totals.",
         "Prior visual source dispositions retained; two selected race finishes freshly sampled and files decoded. No every-frame uninterrupted playback or worldwide fastest-recording certification.",
         "Current Discord session requires login again; preserved source review cannot establish absence of deleted/private/unindexed material."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-67",
@@ -6938,7 +7084,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/yoshi2022-completion.json",
+      "completionEvidence": "/data/yoshi2022-completion.json",
       "documentedLimitations": [
         "Eleven visible previous-best date/order leads remain outside confirmed WR succession; N and Nu11 are separate players.",
         "One deleted bot-query attachment reported Sky Garden1:02.68. Independently reviewed correction and later standings establish1:04.68; the erroneous query is excluded from WR evidence.",
@@ -6947,7 +7093,9 @@
         "Two selected finishes freshly sampled and files fully decoded; prior source reviews retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
         "Only the final fastest documented opening-day leader/ties are published; worldwide opening-day precedence is not independently certified.",
         "Current Discord session requires login; preserved sources cannot establish absence of deleted/private/unindexed material."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-68",
@@ -7038,7 +7186,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/amsterdam2022-completion.json",
+      "completionEvidence": "/data/amsterdam2022-completion.json",
       "documentedLimitations": [
         "Four previous-best date/order leads remain outside confirmed WR succession.",
         "Four original attachments remain unavailable: two have preserved replacement images/videos; Nu111:21.52 uses a cancelled receipt and later previous-best corroboration; Promis1:24.75 is slower supporting evidence.",
@@ -7047,7 +7195,9 @@
         "Upload/share/submission clocks are publication bounds rather than certified achievement instants. Wins0:40.66 video was uploaded/shared after May4 rollover, retaining April25 result provenance.",
         "Selected finishes freshly sampled and files decoded; prior proof dispositions retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
         "Preserved source coverage does not establish absence of deleted/private/unindexed material; only final fastest documented opening-day leaders/ties are published."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-69",
@@ -7156,7 +7306,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/doctor2022-completion.json",
+      "completionEvidence": "/data/doctor2022-completion.json",
       "documentedLimitations": [
         "Four undated previous-best leads remain outside confirmed WR succession; original global opening ordering is not certified.",
         "One unavailable cancelled attachment represents a separate malformed 0:01.12 receipt corrected to 1:12.10; the surviving GangstaTiger image establishes 1:12.39 for its different malformed receipt.",
@@ -7165,7 +7315,9 @@
         "Four complete recordings and one 2.41-second strategy clip preserved on R2. Strategy clips, failed laps, and the older 2020 Reddit source do not establish completed Doctor runs.",
         "Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
         "Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-70",
@@ -7265,7 +7417,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/peachbowsermay2022-completion.json",
+      "completionEvidence": "/data/peachbowsermay2022-completion.json",
       "documentedLimitations": [
         "Four Wins KoopaBeach improvements1:15.31/1:15.24/1:15.19/1:15.11 retain surviving proof outside certified WR succession. HisMay27second-worldwide claim leaves earlier rival/global precedence unresolved.",
         "Fabi1:11.57/1:16.05 retain contemporary leaderboard/workbook sources; individual original/account not recovered. Slower supporting source gaps remain documented.",
@@ -7274,7 +7426,9 @@
         "Ten recordings preserved on R2, selected finishes sampled and final originals decoded. Nalive includes an earlier restart. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.",
         "87exact-window early source messages/45originalfiles and24late preserved images checked;138discussion messages indexed. Earlier standings/original reviews retained, without claiming all deleted/private/indexing-gap sources recovered.",
         "Only final fastest documented opening-day leaders/ties published; global opening ordering and precise achievement instants remain uncertain."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-71",
@@ -7365,7 +7519,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/cat2022-completion.json",
+      "completionEvidence": "/data/cat2022-completion.json",
       "documentedLimitations": [
         "Nu11 final Yoshi Valley1:30.07 is documented by the preserved June21 final standings and WR announcement. Individual run image/recording, achievement date and lap splits remain unavailable. Sucha1:30.18 is shown separately as the fastest documented available recording.",
         "Saki7 linked1:30.32 video returned unavailable during original-format recovery. Existing image/leaderboard proof retained; this is an access result, not permanent or worldwide footage-absence proof.",
@@ -7373,7 +7527,9 @@
         "Prior original image, standings and command/receipt dispositions retained. Unidentified/deleted supporting sources and approximate/strategy-only discussion remain qualified; no exhaustive deleted/private/unindexed source recovery claim.",
         "Four available recordings preserved on R2, start/race/lap-two/finish samples inspected and full files decoded. Every-frame continuity and worldwide fastest-footage completeness are not certified.",
         "Upload/share/submission clocks remain distinct documentary bounds. June21 announcement/table publication does not establish an exact Nu11 achievement instant. Mutable video title2ndworldwide does not date rival precedence."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-72",
@@ -7455,7 +7611,7 @@
       ],
       "practicalReviewComplete": true,
       "category": "completed-with-documented-gaps",
-      "completionEvidence": "https://mktwrs.com/data/metropolitan2022-completion.json",
+      "completionEvidence": "/data/metropolitan2022-completion.json",
       "documentedLimitations": [
         "SuperFX finalBerlin1:14.54 accepted from the Metropolitan WR announcement and original result. June29submission13:19 is after06:00rollover; exact achievement day remains unknown and no dated reign duration is claimed.",
         "NHSpeedyBerlin1:14.69 is faster than contemporaneousSucha1:14.83 but private/global precedence against SuperFXpreviousbest1:14.71 remains unresolved. It is supporting evidence and selected available recording, not promoted to confirmed WR.",
@@ -7464,7 +7620,9 @@
         "Eight full-race recordings and two partial clips preserved on R2. Seven original recordings and N discussionrecording sampled/decoded; SuperFXstrategyclip carries prior visual disposition. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.",
         "Prior57original-image visual dispositions and final standings/command/receipt reviews retained; files hashchecked,33exact-window discussionmessages indexed. Unidentified/deleted original supporting sources and unindexed/private/global material may remain.",
         "Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred."
-      ]
+      ],
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-73",
@@ -7557,8 +7715,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/bangkok2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-74",
@@ -7613,8 +7774,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/piranha2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-75",
@@ -7673,8 +7837,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/ocean2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-76",
@@ -7779,8 +7946,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/sundae2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-77",
@@ -7875,8 +8045,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/bowser2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-78",
@@ -8024,8 +8197,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/marioluigi2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-79",
@@ -8113,8 +8289,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/anniversary2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-80",
@@ -8217,8 +8396,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/battle2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-81",
@@ -8265,8 +8447,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/halloween2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-82",
@@ -8349,8 +8534,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "sparse-history-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/autumn2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-83",
@@ -8447,8 +8635,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/animal2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-84",
@@ -8597,8 +8788,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "faster-result-reconciliation"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/peachbowser2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-85",
@@ -8683,8 +8877,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/holiday2022-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-86",
@@ -8770,8 +8967,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/newyear2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-87",
@@ -8868,8 +9068,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/space2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-88",
@@ -9003,8 +9206,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/winter2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-89",
@@ -9088,8 +9294,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/exploration2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-90",
@@ -9183,8 +9392,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/doctor2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-91",
@@ -9271,8 +9483,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/mario2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-92",
@@ -9368,8 +9583,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/ninja2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-93",
@@ -9476,8 +9694,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/yoshi2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-94",
@@ -9572,8 +9793,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/spring2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-95",
@@ -9668,8 +9892,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/bowser2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-96",
@@ -9765,8 +9992,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/mii2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-97",
@@ -9859,8 +10089,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/princess2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-98",
@@ -9909,8 +10142,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/marioluigi2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-99",
@@ -10044,8 +10280,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/night2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-100",
@@ -10133,8 +10372,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/pipe2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-101",
@@ -10222,8 +10464,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/sunshine2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-102",
@@ -10350,8 +10595,11 @@
           "oneDayRangeDiscrepancyRows": 2
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/vacation2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-103",
@@ -10487,8 +10735,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/summer2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-104",
@@ -10576,8 +10827,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/sundae2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-105",
@@ -10704,8 +10958,11 @@
           "oneDayRangeDiscrepancyRows": 1
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/anniversary2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-106",
@@ -10807,8 +11064,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/battle2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-107",
@@ -10862,8 +11122,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/halloween2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-108",
@@ -10963,8 +11226,11 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/autumn2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-109",
@@ -11065,13 +11331,16 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/animal2023-completion.json",
+      "livePublicationVerified": true
     },
     {
       "id": "tour-110",
       "number": 110,
-      "displayName": "Peach vs. Bowser Tour (November–December 2022) (2023)",
+      "displayName": "Peach vs. Bowser Tour (2023)",
       "startDate": "2023-11-29",
       "endDate": "2023-12-13",
       "courses": [
@@ -11081,7 +11350,7 @@
           "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 36,
+          "supportingRows": 19,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "966559082955821056",
@@ -11097,11 +11366,7 @@
           "linkedVideoRows": 4,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "3ds-bowser-s-castle-r",
             "checkedAt": "2026-10-13T18:38:29.365409+00:00",
@@ -11125,7 +11390,7 @@
           "url": "https://mktwrs.com/course/ds-peach-gardens",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 24,
+          "supportingRows": 13,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1053522904882626601",
@@ -11141,11 +11406,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "ds-peach-gardens",
             "checkedAt": "2026-10-13T18:38:32.277155+00:00",
@@ -11169,7 +11430,7 @@
           "url": "https://mktwrs.com/course/n64-royal-raceway",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 22,
+          "supportingRows": 12,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "896333179479285770",
@@ -11185,11 +11446,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-royal-raceway",
             "checkedAt": "2026-10-13T18:38:33.677033+00:00",
@@ -11211,8 +11468,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/peachbowser2023-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json",
+      "nextActions": []
     },
     {
       "id": "tour-111",
@@ -19088,6 +19350,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-73",
-  "latestCompletionAudit": "archive/metropolitan2022-final-publication-audit-20261013.json"
+  "activeDetailedTourId": "tour-111",
+  "latestCompletionAudit": "public/data/peachbowser2023-completion.json",
+  "updatedAt": "2026-10-14",
+  "nextPriorityTourId": "tour-111",
+  "nextPriorityReason": "One tour at a time: Peach vs. Bowser 2023 has exact LIVE completion evidence. Review Holiday 2023 next.",
+  "latestLiveCompletionAudit": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json"
 }

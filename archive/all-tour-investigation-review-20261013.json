@@ -37,45 +37,77 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 107,
-      "carry-in-and-sparse-history-check": 18,
+      "completed-with-documented-gaps": 108,
+      "carry-in-and-sparse-history-check": 17,
       "candidate-and-source-review": 20,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 107,
-    "toursRequiringInvestigation": 74,
+    "practicallyCompletedTours": 108,
+    "toursRequiringInvestigation": 73,
     "years": {
       "2019": {
         "catalogTours": 7,
-        "requiringInvestigation": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "not-applicable": 2,
+          "completed-with-documented-gaps": 5
+        }
       },
       "2020": {
         "catalogTours": 27,
-        "requiringInvestigation": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 27
+        }
       },
       "2021": {
         "catalogTours": 26,
-        "requiringInvestigation": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 26
+        }
       },
       "2022": {
         "catalogTours": 26,
-        "requiringInvestigation": 0
+        "requiringInvestigation": 0,
+        "categories": {
+          "completed-with-documented-gaps": 26
+        }
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 3
+        "requiringInvestigation": 2,
+        "categories": {
+          "completed-with-documented-gaps": 24,
+          "carry-in-and-sparse-history-check": 1,
+          "candidate-and-source-review": 1
+        }
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 26
+        "requiringInvestigation": 26,
+        "categories": {
+          "carry-in-and-sparse-history-check": 11,
+          "candidate-and-source-review": 11,
+          "source-and-publication-review": 4
+        }
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 26
+        "requiringInvestigation": 26,
+        "categories": {
+          "source-and-publication-review": 25,
+          "candidate-and-source-review": 1
+        }
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 19
+        "requiringInvestigation": 19,
+        "categories": {
+          "source-and-publication-review": 7,
+          "candidate-and-source-review": 7,
+          "carry-in-and-sparse-history-check": 5
+        }
       }
     }
   },
@@ -162,7 +194,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/halloween2019-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-4",
@@ -225,7 +259,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/paris2019-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-5",
@@ -288,7 +324,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/winter2019-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-6",
@@ -350,7 +388,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/london2019-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-7",
@@ -396,7 +436,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/holiday2019-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-8",
@@ -426,7 +468,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/newyear2020-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-9",
@@ -475,7 +519,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/ice2020-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-10",
@@ -523,7 +569,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/valentines2020-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-11",
@@ -574,7 +622,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/vancouver2020-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-12",
@@ -621,7 +671,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/mariobros2020-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-13",
@@ -650,7 +702,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/babyrosalina2020-completion.json",
       "note": "Practical review complete with documented source coverage and opening-order gaps;30 live rows and13 preserved evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-14",
@@ -709,12 +762,13 @@
         }
       ],
       "category": "completed-with-documented-gaps",
-      "practicalReviewComplete": false,
+      "practicalReviewComplete": true,
       "completionEvidence": "/data/hammer2020-completion.json",
       "note": "Practical review complete with documented source coverage and opening-order gaps;91 live rows and57 preserved evidence links verified.",
       "historyComplete": false,
       "reopeningEvidence": "archive/hammer2020-yoshi-circuit-r-user-reopened-progression-audit-20261014.json",
-      "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json"
+      "latestProgressionLiveEvidence": "archive/hammer2020-recovered-opening-final-live-check-20261014.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-15",
@@ -758,7 +812,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/yoshi2020-completion.json",
       "note": "Practical review complete with documented source coverage and opening-order gaps;584 live rows and147 preserved evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-16",
@@ -802,7 +857,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/trick2020-completion.json",
       "note": "Practical review complete with documented source coverage and opening-order gaps;728 live rows and302 preserved evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-17",
@@ -831,7 +887,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/flower2020-completion.json",
       "note": "Practical review completed with documented gaps;63live rows and9R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-18",
@@ -860,7 +917,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/jungle2020-completion.json",
       "note": "Practical review completed with documented gaps;109live rows and10R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-19",
@@ -904,7 +962,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/cooking2020-completion.json",
       "note": "Practical review completed with documented gaps;295live rows and65R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-20",
@@ -948,7 +1007,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/peach2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-21",
@@ -992,7 +1052,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/marine2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-22",
@@ -1041,7 +1102,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/exploration2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-23",
@@ -1085,7 +1147,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/wildwest2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-24",
@@ -1134,7 +1197,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/pirate2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-25",
@@ -1183,7 +1247,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/summerfest2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-26",
@@ -1227,7 +1292,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/supermario2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-27",
@@ -1261,7 +1327,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/losangeles2020-completion.json",
       "note": "Practical review completed with documented gaps;Live DK Pass course snapshot and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-28",
@@ -1295,7 +1362,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/anniversary2020-completion.json",
       "note": "Practical review completed with documented gaps;Live Toad Circuit course snapshot and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-29",
@@ -1339,7 +1407,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/halloween2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-30",
@@ -1393,7 +1462,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/sunset2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-31",
@@ -1442,7 +1512,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/marioluigi2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-32",
@@ -1486,7 +1557,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/winter2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-33",
@@ -1530,7 +1602,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/rosalina2020-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-34",
@@ -1574,7 +1647,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/newyear2021-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-35",
@@ -1618,7 +1692,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/berlin2021-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-36",
@@ -1662,7 +1737,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/cat2021-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-37",
@@ -1721,7 +1797,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/peachdaisy2021-completion.json",
       "note": "Practical review completed with documented gaps;Three live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-38",
@@ -1765,7 +1842,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/snow2021-completion.json",
       "note": "Practical review completed with documented gaps;Both live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-39",
@@ -1829,7 +1907,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/mario2021-completion.json",
       "note": "Practical review completed with documented gaps;Three live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-40",
@@ -1878,7 +1957,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/yoshi2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-41",
@@ -1922,7 +2002,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/ninja2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-42",
@@ -1971,7 +2052,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/sydney2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-43",
@@ -2035,7 +2117,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/bowserdk2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-44",
@@ -2099,7 +2182,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/trick2021-completion.json",
       "note": "Practical review completed with documented gaps;Three live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-45",
@@ -2148,7 +2232,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/wedding2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-46",
@@ -2212,7 +2297,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/paris2021-completion.json",
       "note": "Practical review completed with documented gaps;Three live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-47",
@@ -2266,7 +2352,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/summer2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-48",
@@ -2315,7 +2402,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/la2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-49",
@@ -2364,7 +2452,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/mariopeach2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-50",
@@ -2413,7 +2502,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/frost2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-51",
@@ -2462,7 +2552,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/kamek2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-52",
@@ -2511,7 +2602,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/sydneysep2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-53",
@@ -2555,7 +2647,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/anniversary2021-completion.json",
       "note": "Practical review completed with documented gaps;Two live course snapshots and their R2 evidence links verified.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-54",
@@ -2604,7 +2697,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/autumn2021-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-55",
@@ -2658,7 +2752,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/halloween2021-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-56",
@@ -2727,7 +2822,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/toadette2021-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-57",
@@ -2776,7 +2872,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/space2021-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-58",
@@ -2830,7 +2927,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/holiday2021-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-59",
@@ -2879,7 +2977,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/penguin2021-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-60",
@@ -2948,7 +3047,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/newyear2022-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-61",
@@ -2997,7 +3097,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/singapore2022-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-62",
@@ -3046,7 +3147,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/wariowaluigi2022-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-63",
@@ -3090,7 +3192,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/losangeles2022-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-64",
@@ -3119,7 +3222,8 @@
       "practicalReviewComplete": true,
       "completionEvidence": "/data/sky2022-completion.json",
       "note": "Practical source/media review and live publication verified with documented gaps.",
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-65",
@@ -3181,7 +3285,8 @@
         "Current Discord account chooser requests login again; preserved source messages reviewed, no fresh authenticated recovery claimed.",
         "Nu11 video upload March21 and Discord submission March23 are distinct; exact race-completion instant and original discussion share clock remain unknown."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-66",
@@ -3240,7 +3345,8 @@
         "Prior visual source dispositions retained; two selected race finishes freshly sampled and files decoded. No every-frame uninterrupted playback or worldwide fastest-recording certification.",
         "Current Discord session requires login again; preserved source review cannot establish absence of deleted/private/unindexed material."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-67",
@@ -3292,7 +3398,8 @@
         "Only the final fastest documented opening-day leader/ties are published; worldwide opening-day precedence is not independently certified.",
         "Current Discord session requires login; preserved sources cannot establish absence of deleted/private/unindexed material."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-68",
@@ -3349,7 +3456,8 @@
         "Selected finishes freshly sampled and files decoded; prior proof dispositions retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
         "Preserved source coverage does not establish absence of deleted/private/unindexed material; only final fastest documented opening-day leaders/ties are published."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-69",
@@ -3417,7 +3525,8 @@
         "Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
         "Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-70",
@@ -3479,7 +3588,8 @@
         "87exact-window early source messages/45originalfiles and24late preserved images checked;138discussion messages indexed. Earlier standings/original reviews retained, without claiming all deleted/private/indexing-gap sources recovered.",
         "Only final fastest documented opening-day leaders/ties published; global opening ordering and precise achievement instants remain uncertain."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-71",
@@ -3535,7 +3645,8 @@
         "Four available recordings preserved on R2, start/race/lap-two/finish samples inspected and full files decoded. Every-frame continuity and worldwide fastest-footage completeness are not certified.",
         "Upload/share/submission clocks remain distinct documentary bounds. June21 announcement/table publication does not establish an exact Nu11 achievement instant. Mutable video title2ndworldwide does not date rival precedence."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-72",
@@ -3587,7 +3698,8 @@
         "Prior57original-image visual dispositions and final standings/command/receipt reviews retained; files hashchecked,33exact-window discussionmessages indexed. Unidentified/deleted original supporting sources and unindexed/private/global material may remain.",
         "Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred."
       ],
-      "historyComplete": false
+      "historyComplete": false,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-73",
@@ -3640,7 +3752,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/bangkok2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-74",
@@ -3674,7 +3788,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/piranha2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-75",
@@ -3710,7 +3826,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/ocean2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-76",
@@ -3766,7 +3884,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/sundae2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-77",
@@ -3817,7 +3937,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/bowser2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-78",
@@ -3895,7 +4017,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/marioluigi2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-79",
@@ -3951,7 +4075,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/anniversary2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-80",
@@ -4006,7 +4132,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/battle2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-81",
@@ -4034,7 +4162,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/halloween2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-82",
@@ -4078,7 +4208,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/autumn2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-83",
@@ -4127,7 +4259,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/animal2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-84",
@@ -4203,7 +4337,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/peachbowser2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-85",
@@ -4247,7 +4383,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/holiday2022-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-86",
@@ -4291,7 +4429,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/newyear2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-87",
@@ -4340,7 +4480,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/space2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-88",
@@ -4405,7 +4547,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/winter2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-89",
@@ -4449,7 +4593,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/exploration2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-90",
@@ -4498,7 +4644,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/doctor2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-91",
@@ -4542,7 +4690,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/mario2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-92",
@@ -4591,7 +4741,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/ninja2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-93",
@@ -4645,7 +4797,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/yoshi2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-94",
@@ -4694,7 +4848,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/spring2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-95",
@@ -4743,7 +4899,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/bowser2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-96",
@@ -4792,7 +4950,9 @@
       ],
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/mii2023-completion.json",
-      "historyComplete": false
+      "historyComplete": false,
+      "practicalReviewComplete": true,
+      "livePublicationVerified": false
     },
     {
       "id": "tour-97",
@@ -4842,7 +5002,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/princess2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-98",
@@ -4870,7 +5034,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/marioluigi2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-99",
@@ -4939,7 +5107,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/night2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-100",
@@ -4985,7 +5157,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/pipe2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-101",
@@ -5033,7 +5209,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/sunshine2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-102",
@@ -5098,7 +5278,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/vacation2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-103",
@@ -5166,7 +5350,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/summer2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-104",
@@ -5215,7 +5403,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/sundae2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-105",
@@ -5282,7 +5474,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/anniversary2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-106",
@@ -5338,7 +5534,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/battle2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-107",
@@ -5370,7 +5570,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/halloween2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-108",
@@ -5425,7 +5629,11 @@
           ]
         }
       ],
-      "category": "completed-with-documented-gaps"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/autumn2023-completion.json",
+      "livePublicationVerified": false
     },
     {
       "id": "tour-109",
@@ -5528,12 +5736,15 @@
       "category": "completed-with-documented-gaps",
       "completionEvidence": "/data/animal2023-completion.json",
       "liveCompletionAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json",
-      "action": "Reviewed surviving-source archive and LIVE publication verified."
+      "action": "Reviewed surviving-source archive and LIVE publication verified.",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "livePublicationVerified": true
     },
     {
       "id": "tour-110",
       "number": 110,
-      "displayName": "Peach vs. Bowser Tour (November–December 2022) (2023)",
+      "displayName": "Peach vs. Bowser Tour (2023)",
       "startDate": "2023-11-29",
       "endDate": "2023-12-13",
       "courses": [
@@ -5543,7 +5754,7 @@
           "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 17,
+          "supportingRows": 19,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "966559082955821056",
@@ -5553,11 +5764,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "ds-peach-gardens",
@@ -5565,7 +5772,7 @@
           "url": "https://mktwrs.com/course/ds-peach-gardens",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 10,
+          "supportingRows": 13,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1053522904882626601",
@@ -5575,11 +5782,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-royal-raceway",
@@ -5587,7 +5790,7 @@
           "url": "https://mktwrs.com/course/n64-royal-raceway",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 8,
+          "supportingRows": 12,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "896333179479285770",
@@ -5597,14 +5800,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/peachbowser2023-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json",
+      "nextActions": []
     },
     {
       "id": "tour-111",
@@ -11198,16 +11403,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-110",
+  "activeDetailedTourId": "tour-111",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-110",
-  "latestCompletionAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json",
+  "activeDetailedReview": "tour-111",
+  "latestCompletionAudit": "public/data/peachbowser2023-completion.json",
   "updatedAt": "2026-10-14",
-  "nextPriorityTourId": "tour-110",
-  "nextPriorityReason": "Animal2023 source review and exact LIVE publication verified; continue Peach vs. Bowser2023 alone.",
-  "latestLiveCompletionAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json"
+  "nextPriorityTourId": "tour-111",
+  "nextPriorityReason": "One tour at a time: Peach vs. Bowser 2023 has exact LIVE completion evidence. Review Holiday 2023 next.",
+  "latestLiveCompletionAudit": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json"
 }
