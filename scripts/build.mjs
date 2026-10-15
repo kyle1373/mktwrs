@@ -584,7 +584,7 @@ for(const p of mii2024PublicationPreservation.preservedRows) {
 }
 // Keep reviewed Spring 2025 sources after older future-row deferrals.
 for (const preserved of publicationPatches.preservedRows || []) {
-  if (preserved.row.canonicalSourceReviewAudit !== "archive/spring2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/bowser2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/mii2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/princess2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/marioluigi2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/night2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/pipe2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.receiptSourceReviewAudit !== "archive/spring2025-edited-receipt-source-dispositions-20261015.json") continue;
+  if (preserved.row.canonicalSourceReviewAudit !== "archive/spring2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/bowser2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/mii2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/princess2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/marioluigi2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/night2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/pipe2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.canonicalSourceReviewAudit !== "archive/sunshine2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.receiptSourceReviewAudit !== "archive/spring2025-edited-receipt-source-dispositions-20261015.json") continue;
   const rows = courses.find(c=>c.id===preserved.courseId)?.[preserved.collection];
   if (rows && !rows.some(r=>r.id===preserved.row.id)) rows.push(structuredClone(preserved.row));
 }
@@ -725,6 +725,8 @@ const night2025=tours.find(t=>t.id==="tour-151" && t.startDate==="2025-06-25");
 if(night2025) night2025.name="Night Tour (2025)";
 const pipe2025=tours.find(t=>t.id==="tour-152" && t.startDate==="2025-07-09");
 if(pipe2025) pipe2025.name="Pipe Tour (2025)";
+const sunshine2025=tours.find(t=>t.id==="tour-153" && t.startDate==="2025-07-23");
+if(sunshine2025) sunshine2025.name="Sunshine Tour (2025)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
