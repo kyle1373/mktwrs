@@ -60363,21 +60363,58 @@
       "43.93"
     ],
     "mushrooms": null,
-    "videoAvailability": "preserved-local",
+    "videoAvailability": "available",
     "videoPreservation": {
       "file": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.mp4",
-      "bytes": 9772565,
       "sha256": "97390772655d1fc400b75b0c6ec4286e7f32180ada52879c444161242b971a62",
-      "durationSeconds": 106.501,
-      "backupUploadStatus": "pending"
+      "bytes": 9772565,
+      "backupUploadStatus": "r2-verified"
     },
     "videoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "proofVideoUrl": "https://www.youtube.com/watch?v=GGx9ButjtbU",
     "proofVideoVerified": true,
-    "proofVideoLocal": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.mp4",
     "proofVideoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "lapVerification": "video-first-lap-and-total-verified-second-lap-derived",
-    "derivedLap2": true
+    "derivedLap2": true,
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/newyear2024-GGx9ButjtbU-97390772655d1fc400b7.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=GGx9ButjtbU",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "97390772655d1fc400b75b0c6ec4286e7f32180ada52879c444161242b971a62",
+      "bytes": 9772565,
+      "preservedOriginalFile": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.mp4",
+      "reviewAudit": "archive/newyear2024-original-preservation-and-source-review-20261015.json"
+    },
+    "videoPublishedAt": "2024-01-06T05:23:36Z",
+    "videoSubmittedAt": "2024-01-06T05:31:02.571Z",
+    "videoSubmissionDateBasis": "surviving-submit-receipt-post-date",
+    "videoSubmissionSource": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1193064163216461878",
+      "kind": "executed-submit-receipt"
+    },
+    "videoScope": "result-reviewed",
+    "videoScopeReview": {
+      "startToFinishContinuityVerified": false,
+      "priorLapAndResultAssessmentRetainedByMatchingSha256": true,
+      "reviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json"
+    },
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=GGx9ButjtbU",
+      "metadataFile": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.info.json",
+      "metadataSHA256": "bafa41987414f4867cdd6ef21772e48cab1749928ce7f285050310af8aa54e9d"
+    },
+    "recordDate": "2024-01-06",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "chronologyUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "courseAppearance": "New Year's Tour (2024)",
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json"
   },
   {
     "messageId": "sucha-supplied-16vI7eIWw-4",
@@ -161376,8 +161413,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2024-01-02T02:05:26.481Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1191562870169800754/IMG_9869.png?ex=6abdbfe6&is=6abc6e66&hm=6163bcf0a85371be4bdc89cb3272f113c1c2ff620e49f3065cbb211512f2e0bb&",
-    "proofImageLocal": "/assets/proof/newyear2024-1191562870169800754.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1191562870169800754-a8f5c40c22ac919e3dad.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191562870169800754-a8f5c40c22ac919e3dad.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191562870442446970",
@@ -161388,21 +161425,20 @@
       "Original finish total visually reviewed; course scenery and star thresholds match corresponding New Year Tour2024TT challenge.",
       "Exact first known screenshot publication retained; improvement over preceding known global WR.",
       "Historical progression remains provisional until surrounding tour evidence is fully reconciled.",
-      "Cancelled screenshot receipt was replaced by accepted video submission1191563961179590837 for same1:28.37; earlier human publication retained.",
-      "Full original video preserved and visually verified at lap1 crossing and finish; lap2 derived from total-lap1 agrees with receipt. Unlisted backup upload pending."
+      "Cancelled screenshot receipt was replaced by accepted video submission1191563961179590837 for same1:28.37; earlier human publication retained."
     ],
     "video": "https://www.youtube.com/watch?v=VVFNBBCXL9s",
     "videoVerified": true,
     "additionalProofImages": [
-      "/assets/proof/newyear2024-sucha8837-video-finish.jpg"
+      "https://media.mktwrs.com/assets/proof/newyear2024-1191563970096664717-a8f5c40c22ac919e3dad.png"
     ],
     "originalImageLocal": "archive/newyear2024-preserved-original-images/1191562870169800754.png",
     "originalImageSHA256": "a8f5c40c22ac919e3dad92a6f0294816f4703a9912fa1d0e0b5207989e9f97d9",
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.46",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "44.27",
       "44.10"
@@ -161425,21 +161461,83 @@
         "sameBytesAsFirstImage": true
       }
     ],
-    "videoAvailability": "preserved-local",
+    "videoAvailability": "available",
     "videoPreservation": {
       "file": "archive/video-backup-files/newyear2024-sucha8837/original.mp4",
-      "bytes": 26457688,
       "sha256": "480f6df8a25d1f12ac59b2ec5ec7cfd56e4ecf4c0fa3cf3b9e1caf9ef3cdbcde",
-      "durationSeconds": 106.081,
-      "backupUploadStatus": "pending"
+      "bytes": 26457688,
+      "backupUploadStatus": "r2-verified"
     },
     "videoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "proofVideoUrl": "https://www.youtube.com/watch?v=VVFNBBCXL9s",
     "proofVideoVerified": true,
-    "proofVideoLocal": "archive/video-backup-files/newyear2024-sucha8837/original.mp4",
     "proofVideoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "lapVerification": "video-first-lap-and-total-verified-second-lap-derived",
-    "derivedLap2": true
+    "derivedLap2": true,
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-02",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "additionalProofs": [
+      {
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191563970096664717-a8f5c40c22ac919e3dad.png",
+        "originalImageLocal": "archive/newyear2024-preserved-original-images/1191563970096664717.png",
+        "originalImageSHA256": "a8f5c40c22ac919e3dad92a6f0294816f4703a9912fa1d0e0b5207989e9f97d9",
+        "samePerformance": true,
+        "sourceReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
+        "sourceRows": [
+          {
+            "messageId": "1191563961179590837",
+            "publishedAt": "2024-01-02T02:09:46.533Z",
+            "text": "すいそ/Sucha♪ used submitMKT Time Trial BotAPP — 1/1/24, 6:09 PMMonday, January 1, 2024 at 6:09 PMSubmission | @すいそ/Sucha♪\n\nStatus: Updated by @Phillish\nSucha | Piranha Plant Slide | 01:28.37 | 44.27 | 44.10 | https://youtu.be/VVFNBBCXL9s?feature=sharedUpdate,Cancel,Edit,, (edited)Monday, January 1, 2024 at 9:15 PM"
+          }
+        ]
+      }
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/newyear2024-VVFNBBCXL9s-480f6df8a25d1f12ac59.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=VVFNBBCXL9s",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "480f6df8a25d1f12ac59b2ec5ec7cfd56e4ecf4c0fa3cf3b9e1caf9ef3cdbcde",
+      "bytes": 26457688,
+      "preservedOriginalFile": "archive/video-backup-files/newyear2024-sucha8837/original.mp4",
+      "reviewAudit": "archive/newyear2024-original-preservation-and-source-review-20261015.json"
+    },
+    "videoPublishedAt": "2024-01-02T02:08:46Z",
+    "videoSubmittedAt": "2024-01-02T02:09:46.533Z",
+    "videoSubmissionDateBasis": "surviving-submit-receipt-post-date",
+    "videoSubmissionSource": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191563961179590837",
+      "kind": "executed-submit-receipt"
+    },
+    "videoScope": "result-reviewed",
+    "videoScopeReview": {
+      "startToFinishContinuityVerified": false,
+      "priorLapAndResultAssessmentRetainedByMatchingSha256": true,
+      "reviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json"
+    },
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=VVFNBBCXL9s",
+      "metadataFile": "archive/video-backup-files/newyear2024-sucha8837/original.info.json",
+      "metadataSHA256": "231f5b33bd730168589e7ab5793b9869a24fc25f57e613124e554079ddcca0fb"
+    },
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191563961179590837",
+        "kind": "matched-existing-wr-receipt",
+        "receiptObservedAt": "2024-01-02T02:09:46.533Z",
+        "samePerformance": true
+      }
+    ]
   },
   {
     "messageId": "1192472083419115580-newyear2024-image-reviewed",
@@ -161450,8 +161548,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2024-01-04T14:18:19.747Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1192472083033243718/IMG_9950.png?ex=6abdc2eb&is=6abc716b&hm=09b096a9850298c81a01b8890bce3b344db6eaa3ff402948e7847143ddf5a079&",
-    "proofImageLocal": "/assets/proof/newyear2024-1192472083033243718.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192472083033243718-79ffa8e9c5e873cfc5e2.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192472083033243718-79ffa8e9c5e873cfc5e2.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192472083419115580",
@@ -161468,8 +161566,28 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.36",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-04",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192472098942226492",
+        "kind": "matched-existing-wr-receipt",
+        "receiptObservedAt": "2024-01-04T14:18:23.448Z",
+        "samePerformance": true
+      }
+    ]
   },
   {
     "messageId": "1192481093878824960-newyear2024-image-reviewed",
@@ -161483,8 +161601,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2024-01-04T14:54:08.008Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1192481093652324352/IMG_4544.png?ex=6abdcb4f&is=6abc79cf&hm=005a2c713ffa550ccbd0a037c358cca864b5296e8595f08331f6ae091cd6fc57&",
-    "proofImageLocal": "/assets/proof/newyear2024-1192481093652324352.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192481093652324352-b5e546ed6bcc14bacca5.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192481093652324352-b5e546ed6bcc14bacca5.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192481093878824960",
@@ -161501,13 +161619,33 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.69",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "44.17",
       "44.12"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-04",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192481107824889856",
+        "kind": "matched-existing-wr-receipt",
+        "receiptObservedAt": "2024-01-04T14:54:11.333Z",
+        "samePerformance": true
+      }
+    ]
   },
   {
     "messageId": "1192766591646048329-newyear2024-image-reviewed",
@@ -161518,8 +161656,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2024-01-05T09:48:35.980Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1192766591264370748/IMG_9959.png?ex=6abd83b3&is=6abc3233&hm=b07bced52f3abb660038d64db97a483b53300c49700505fa7900c870c2df89df&",
-    "proofImageLocal": "/assets/proof/newyear2024-1192766591264370748.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192766591264370748-8fd4af2089999beacc0e.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192766591264370748-8fd4af2089999beacc0e.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192766591646048329",
@@ -161536,8 +161674,84 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.30",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-05",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "additionalProofs": [
+      {
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192771855417872475-8fd4af2089999beacc0e.png",
+        "originalImageLocal": "archive/newyear2024-preserved-discussion-images/1192771855417872475.png",
+        "originalImageSHA256": "8fd4af2089999beacc0e0638f344b5bc82188a8402cb209b69a7416a875694c7",
+        "samePerformance": true,
+        "sourceReviewAudit": "archive/newyear2024-discussion-image-review-20261005.json",
+        "sourceRows": [
+          {
+            "id": "search-result-1192771856831352832",
+            "images": [
+              {
+                "alt": " ",
+                "url": "https://cdn.discordapp.com/avatars/711825990283952149/f721a2afad6749a7a663c6b26c68d912.webp?size=160"
+              },
+              {
+                "alt": " ",
+                "url": "https://cdn.discordapp.com/media/v1/collectibles-shop/1144307629225672846/static"
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAqUN/8Mkjb/EY81/xeKMv8fhC//J34s/zB3Kf84cSb/P2si/0RnIP9IZB7/SWId/0hiHP9EYx3/P2Ye/zhqH/8wbiH/J3Qj/x95Jv8XfSj/EIEp/wyEK/8Khiv/AF0Aov8ACpM4/wySN/8RjjX/F4oz/x+EMP8nfS3/MHcp/zhxJv8/ayP/RWYg/0hjH/9JYR3/SGEd/0ViHf8/ZR7/OGkg/zBuIv8ncyT/H3gm/xd9KP8RgSr/DIQr/wqFLP8AXQCi/wALkjn/DZE4/xGNNv8YiTT/H4Mx/yh8Lv8xdir/OXAn/0BqJP9FZSH/SWIf/0pgHv9JYB7/RWIe/0BkH/85aCH/MW0j/yhyJf8fdyf/GHwp/xGAK/8Ngyz/CoQt/wBdAKL/AAuROv8Ojzn/Eow3/xmHNf8ggTL/KXsv/zJ0LP86bij/QWkl/0ZkI/9KYSH/S18g/0pfH/9GYB//QWMg/zpnIv8xbCT/KXEm/yB2KP8Zeyr/En8s/w6BLf8Lgy7/AF0Aov8ADY88/w+NO/8Uijn/GoU3/yKANP8qeTH/M3Mt/ztsKv9CZyf/R2Ik/0tfIv9MXSH/S10h/0deIf9CYSL/O2Uk/zNqJv8qbyj/IXQq/xp5LP8TfS7/D4Av/w2BMP8AXQCi/wAOjT7/EYs9/xWIO/8bgzn/I302/yx3M/80cC//PGos/0NlKf9JYCb/TF0k/05bI/9MWyP/SVwj/0NfJP88Yyb/NGgo/yttKv8jciz/G3cu/xV7MP8QfjH/Dn8y/wBdAKL/ABCKQP8SiD//F4U9/x2BO/8lezj/LXU1/zZuMf8+aC7/RWIr/0teKf9OWif/T1kl/05ZJf9LWiX/RV0m/z5hKP82Zir/LWss/yVwLv8ddTD/F3ky/xJ8M/8QfTT/AF0Aov8AEodC/xSGQf8ZgkD/H349/yd4Ov8vcjf/OGs0/0BlMP9HYC3/TVsr/1BYKf9RVij/UFYn/01YKP9HWyn/QF8q/zhjLP8vaS7/J24x/x9zM/8ZdzX/FHk2/xJ7Nv8AXQCi/wAUhUX/F4NE/xuAQv8he0D/KXU9/zJvOf86aTb/QmIz/0ldMP9PWC3/UlUr/1NUKv9SVCr/T1Uq/0lYK/9CXC3/OmEv/zFmMf8pazP/IXA1/xt0N/8Wdzj/FHk5/wBdAKL/ABeCR/8ZgEb/HX1E/yR4Qv8scz//NGw8/z1mOP9FYDX/TFoy/1FWMP9VUy7/VlEt/1VRLP9RUy3/TFYu/0VaL/88XzH/NGQz/ytpNv8kbjj/HXI5/xl1O/8Wdjv/AF0Aov8AGX9J/xx9SP8gekf/JnZE/y5wQf83aj7/P2M7/0ddN/9PWDT/VFMy/1dQMP9ZTy//V08u/1RQL/9OUzD/R1cx/z9cM/82Yjb/Lmc4/yZsOv8gcDz/G3I9/xl0Pv8AXQCi/wAcfEv/H3tK/yN4Sf8pc0b/MW1D/zpnQP9CYT3/Sls5/1FVNv9XUTT/Wk4y/1tMMf9aTDD/V04x/1FRMv9KVTP/Qlo1/zlfOP8xZTr/KWo8/yNuPv8ecD//HHJA/wBdAKL/AB96Tf8ieEz/JnVK/yxxSP80a0X/PWVC/0VfPv9NWDv/VFM4/1pPNv9dTDT/Xkoz/11KMv9aTDP/VE80/01TNf9FWDf/PF45/zRjPP8saD7/Jmw//yFvQf8fcEH/AF0Aov8AInhO/yV2Tf8pc0z/L29J/zdpRv9AY0P/SF1A/1BXPf9XUTr/XU03/2BKNf9iSTT/YEk0/11KNP9XTTX/UFI3/0hXOf8/XDv/N2E9/y9mP/8pakH/JG1C/yJvQ/8AXQCi/wAmdk//KHVO/yxyTf8zbUr/OmdH/0NhRP9MW0H/VFU+/1tQO/9gSzj/ZEk2/2VHNf9jRzX/YEk1/1pMNv9TUTj/S1Y6/0JbPP86YD7/MmVA/yxpQv8nbEP/JW5E/wBdAKL/ACl1UP8rc0//MHBN/zZsS/8+Zkj/RmBF/09aQf9XVD7/Xk87/2NKOf9nSDf/aEY2/2dGNf9jSDb/Xks3/1dQOP9OVTr/Rlo8/z1gP/81ZUH/L2lD/ytsRP8obUT/AF0Aov8ALHRQ/y9zT/8zb03/OWtL/0FlSP9KX0X/UllB/1pTPv9hTjv/Z0o5/2pHN/9rRjb/akY1/2dINv9hSzf/Wk84/1JUOv9JWj3/QV8//zlkQf8yaEP/LmtE/yxtRf8AXQCi/wAwdE//MnJP/zZvTf89a0v/RGVI/01fRP9VWUH/XlM+/2VOO/9qSjj/bkc3/29GNf9tRjX/akg1/2RLNv9dTzj/VVU6/0xaPP9EYD//PGVB/zZpQv8xbET/L21E/wBdAKL/ADN0T/81ck7/Om9M/0BrSv9IZUf/UF9E/1lZQP9hUz3/aE46/21KOP9xRzb/ckY1/3FGNP9tSDX/aEw2/2FQN/9YVTn/UFs7/0dgPv8/ZUD/OWlC/zRsQ/8ybkP/AF0Aov8ANnRN/zlzTf89cEv/Q2tJ/0tmRv9TYEL/XFo//2RUPP9rTzn/cUs2/3RINf91RzP/dEcz/3BJM/9rTDT/ZFE2/1xWOP9TXDr/SmE9/0NmP/88akD/OG1C/zVvQv8AXQCi/wA5dUz/PHNL/0BwSf9GbEf/TmdE/1dhQf9fWj7/Z1U6/25QN/90TDX/d0kz/3hIMv93SDH/dEoy/25OM/9nUjX/X1c3/1ZdOf9NYjv/Rmc9/z9sP/87b0D/OHBB/wBdAKL/ADx2Sv8/dUn/Q3FH/0ptRf9RaEL/WmI//2JcPP9qVjj/cVE1/3dNM/96SjH/e0kw/3pKMP93TDD/cU8x/2pUM/9iWTX/WV83/1BkOf9JaTv/Qm09/z5wPv87cj//AF0Aov8AP3hI/0J2R/9Gc0X/TG5D/1RpQP9dYz3/ZV06/21XNv90UjP/ek4x/31ML/9+Sy7/fUsu/3lNLv90US//bVUx/2VbM/9cYDX/U2Y3/0xrOf9Fbzv/QXI8/z50Pf8AXQCi/wBCeUb/RHdF/0l0Q/9PcEH/V2s+/19lO/9oXzf/cFk0/3dUMf98UC//gE0t/4FMLP+ATSv/fE8s/3dTLf9vVy7/Z10x/15iM/9WaDX/Tm03/0hxOf9DdDr/QXY7/wBdAKL/AER7Q/9HeUP/S3ZB/1JyP/9ZbDz/YmY4/2pgNf9yWzL/eVYv/39SLP+CTyv/g04q/4JPKf9/USr/eVUr/3JZLP9qXy7/YWQx/1hqM/9RbzX/SnM3/0Z2OP9DeDn/AF0Aov8AR3xB/0l7QP9OeD//VHM8/1tuOf9kaDb/bWIz/3VcMP98Vy3/gVQq/4RRKP+GUCf/hFEn/4FTJ/97Vij/dFsq/2xgLP9jZi7/W2wx/1NxM/9MdTT/SHg2/0Z6Nv8AXQCi/wBJfj//S3w+/095Pf9WdTr/XXA3/2ZqNP9vZDH/d14u/35ZK/+DVSj/hlMm/4hSJf+GUyX/g1Ul/31YJv92XSj/bmIq/2VoLP9dbi//VXMx/053Mv9KejT/SHw0/wBdAKL/AEp/Pf9Nfjz/UXs7/1d2OP9fcTX/aGsy/3BlL/94YCz/f1sp/4VXJv+IVCT/iVMj/4hUI/+EViP/f1ok/3hfJv9vZCj/Z2oq/15vLf9WdS//UHkx/0x8Mv9JfTL/AF0Aov8ATIE8/05/O/9TfDn/WXg3/2ByNP9pbDH/cmYt/3phKv+BXCf/hlgl/4lWI/+LVSL/iVYh/4ZYIv+AWyP/eWAl/3FlJ/9oayn/YHEr/1h2Lf9Rei//TX0w/0t/Mf8AXQCi/wBNgjr/T4A5/1R9OP9aeTX/YnMz/2ptL/9zaCz/e2Ip/4JdJv+HWSP/ilci/4xWIP+KVyD/h1kh/4FcIv96YSP/cmcl/2lsKP9hcir/WXcs/1J8Lv9Ofy//TIAw/wBdAKL/AE2COf9QgTn/VH43/1t5Nf9idDL/a24v/3NoK/97Yyj/gl4l/4haI/+LWCH/jFcg/4tXH/+HWiD/gl0h/3tiIv9yZyT/am0n/2FzKf9ZeCv/U3wt/09/Lv9MgS//AV0Aov8AToM5/1CBOP9Vfjb/W3o0/2N0Mf9rby7/dGkr/3xjKP+DXiX/iFoi/4xYIP+NVx//i1gf/4haH/+CXiD/e2Ii/3NoJP9qbib/YnMp/1p4K/9TfSz/T4Au/02BLv9EEXBvMqzcaQAAAABJRU5ErkJggg=="
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAKTQP8EkT//CY88/xGLOP8ZhjT/I4Ev/y18Kf82dyT/P3Ig/0VvHP9JbBr/S2sY/0prGP9HbBr/QW8c/zlyIP8wdiT/J3so/x5/LP8VgzD/DoY0/wmJNv8Hijf/AF0Aov8AApJB/wWRP/8Kjj3/EYo5/xqGNP8jgS//LXsq/zd2Jf8/ciD/RW4d/0psGv9Lahn/SmoZ/0dsGv9Bbh3/OXIg/zF2JP8nein/Hn4t/xWCMf8OhjT/Cog3/weJOP8AXQCi/wACkUL/BZBA/wqNPv8RiTr/GoU1/yR/MP8ueiv/N3Um/0BxIf9GbR7/Smob/0xpGv9LaRr/R2ob/0JtHv86cCH/MXQl/yh5Kv8efS7/FoEy/w+ENf8Khzj/B4g5/wBdAKL/AAOPQ/8GjkL/C4s//xKHO/8bgzf/JX4y/y94LP84cyf/QG8j/0drH/9LaR3/TWcb/0xnHP9IaR3/Qmsf/ztvI/8ycyf/KHcr/x98MP8XgDT/EIM3/wuFOf8Ihjr/AF0Aov8ABI1F/weMRP8MiUH/E4U9/xyBOf8mezT/MHYu/zlxKf9BbSX/SGkh/0xnH/9OZR3/TWUd/0lnH/9DaSH/PG0l/zNxKf8pdS3/IHky/xh9Nv8RgTn/DIM7/wmEPP8AXQCi/wAGikf/CIlG/w6GQ/8Vgz//Hn47/yd5Nv8xdDH/O28r/0NqJ/9JZiP/TWQh/09jIP9OYyD/S2Qh/0VnJP89aif/NG4r/ytzMP8hdzT/GXs4/xJ+O/8NgT7/C4I//wBdAKL/AAeHSv8Khkj/D4NG/xaAQv8fez3/KXY4/zNxM/88bC7/RGcp/0tkJv9PYSP/UWAi/1BgIv9MYST/RmQm/z9nKv82ay7/LHAy/yN0N/8beDv/FHw+/w9+QP8Mf0H/AF0Aov8ACYRM/wyDS/8RgEj/GHxE/yF4QP8rczv/NW41/z5oMP9GZCz/TWAo/1FeJv9TXSX/Ul0l/05eJv9IYSn/QGQs/zhoMP8ubTX/JXE5/xx1Pf8VeUH/EHtD/w58RP8AXQCi/wAMgU//DoBN/xN9S/8beUf/I3VC/y1vPf83ajj/QGUz/0lhL/9PXSv/U1sp/1VaJ/9UWij/UFsp/0peLP9DYS//OmUz/zBqOP8nbjz/HnJA/xd2Q/8SeEb/EHlH/wBdAKL/AA5+Uf8RfFD/FnpN/x12Sf8mcUX/MGxA/zlnOv9DYjb/S14x/1FaLv9VWCv/V1Yq/1ZXKv9SWCz/TVsu/0VeMv88Yjb/Mmc6/ylrP/8hb0P/GnNG/xV1Sf8Sdkr/AF0Aov8AEXpT/xN5Uv8Zdk//IHJM/yluR/8yaUL/PGQ9/0VfOP9OWjP/VFcw/1hULf9aUyz/WVQt/1VVLv9PWDH/R1s0/z9fOP81ZD3/LGhB/yNsRf8ccEn/F3JL/xVzTP8AXQCi/wAUd1X/FnZU/xxzUf8jb03/K2tJ/zVmRP8/YT//SFw6/1BXNf9XVDL/W1Iw/11QLv9bUS//WFIw/1JVM/9KWDb/QV07/zhhP/8uZkT/JmpI/x9tS/8ab03/F3FP/wBdAKL/ABd0V/8ac1X/H3BT/yZtT/8vaEr/OGNF/0JeQP9LWTv/VFU3/1pRM/9eTzH/YE4w/15OMP9bUDL/VVI0/01WOP9EWjz/O19B/zFjRf8pZ0n/ImtN/x1tT/8ablD/AF0Aov8AGnJY/x1wVv8iblT/KWpQ/zJmS/88YUb/RVxB/09XPP9XUjj/XU81/2FNMv9jTDH/Ykwy/15NM/9YUDb/UFQ5/0dYPv8+XUL/NWFH/yxlS/8laU7/IGtR/x5sUv8AXQCi/wAecFj/IW5X/yZsVP8taFD/NmRM/z9fR/9JWkL/UlU9/1pQOf9hTTX/ZUsz/2ZKMv9lSjL/YUw0/1xONv9UUjr/S1Y+/0FbQ/84X0j/L2NM/yhnT/8jaVH/IWtT/wBdAKL/ACJuWP8kbVb/KWpU/zBnUP85Ykz/Q11H/01YQv9WUz3/Xk85/2RMNf9oSTP/akgy/2lJMv9lSjT/X003/1dROv9OVT//RVpD/zteSP8zYkz/LGZP/ydoUv8kaVP/AF0Aov8AJW1X/yhsVv8taVP/NGVP/z1hS/9HXEb/UFdB/1pSPP9iTjj/aEs1/2xIMv9tRzH/bEgy/2lJM/9jTDb/W1A6/1JUPv9IWUP/P11H/zZiTP8vZU//KmdR/yhpU/8AXQCi/wApbFb/LGtU/zFpUv84ZU7/QWBK/0pcRf9UV0D/XVI7/2VON/9sSjP/cEgx/3FHMP9wRzH/bEky/2ZMNf9fUDn/VlQ9/0xZQv9DXUb/OmFL/zNlTv8uZ1H/K2lS/wBdAKL/AC1sVP8wa1L/NWhQ/zxlTP9FYEj/TlxD/1hWPv9hUjn/aU41/3BKMv90SDD/dUcv/3RIL/9wSTH/akw0/2JQN/9ZVDz/UFlA/0ZeRf8+Ykn/N2VN/zJoT/8vaVD/AF0Aov8AMW1R/zRrUP85aU3/QGVK/0lhRf9SXEH/XFc8/2VSN/9tTjP/c0sv/3dJLf95SCz/eEgt/3RKL/9uTTH/ZlE1/11VOv9TWj7/Sl5D/0FjR/86Zkv/NWhN/zNqTv8AXQCi/wA1bk//N2xN/z1qS/9EZkf/TGJD/1ZdPv9gWDn/aVM0/3FPMP93TC3/e0or/3xJKv97SSr/d0ss/3FOL/9qUjP/YVY3/1dbPP9OYEH/RWRF/z5nSP85akv/NmtM/wBdAKL/ADlvS/87bUr/QGtH/0dnRP9QYz//Wl47/2NZNv9tVDH/dVAt/3tNKv9/Syj/gEon/39LJ/97TCn/dU8s/21TMP9kWDT/Wlw5/1FhPv9IZUL/QWlF/zxrSP86bEn/AF0Aov8APHBI/z9vR/9EbET/S2lA/1RkPP9dXzf/Z1sy/3BWLv94Uir/fk8m/4JNJP+ETCT/gkwk/39OJv94USn/cVUt/2hZMf9eXjb/VGM7/0xnP/9Fa0L/QG1F/z1uRv8AXQCi/wBAckT/QnBD/0duQf9Oaj3/V2Y5/2FhNP9qXC//c1gq/3tUJv+CUCP/hU4h/4dOIP+GTiH/glAj/3xTJv90Vyn/a1su/2FgM/9YZTf/T2k8/0htP/9Db0L/QHBD/wBdAKL/AEN0Qf9FckD/SnA9/1FsOf9aaDX/ZGMw/21eK/93WSf/flUj/4VSIP+JUB7/ilAd/4lQHf+FUh//f1Ui/3dZJv9uXSv/ZGIv/1tnNP9Sazj/S288/0ZxPv9DckD/AF0Aov8ARnU9/0h0PP9Ncjr/VG42/11qMv9mZS3/cGAo/3lbI/+BVx//h1Qc/4tSGv+NUhr/i1Ia/4hUHP+BVx//elsj/3BfJ/9nZCz/XWkx/1VtNf9OcTn/SXM7/0Z1Pf8AXQCi/wBIdzr/S3Y5/1BzNv9XcDP/X2su/2lnKv9zYiX/fF0g/4RZHP+KVhn/jlQX/49TFv+OVBf/ilYZ/4RZHP98XSD/c2Ek/2lmKf9gay7/V28y/1BzNv9LdTj/SHc6/wBdAKL/AEp5N/9Ndzb/UnUz/1lxMP9ibSz/a2gn/3VjIv9+Xx3/hlsZ/4xYFv+QVhT/kVUU/5BWFP+MWBb/hlsZ/35fHf91YyL/a2gn/2JtK/9ZcTD/UnUz/013Nv9KeDf/AF0Aov8ATHo1/095NP9UdjH/W3Mu/2NuKf9taiT/d2Ug/4BgG/+IXBf/jlkU/5JXEv+TVxH/klcS/45ZFP+IXBf/gGAb/3dlH/9taiT/ZG4p/1tzLf9UdjH/T3kz/0x6Nf8AXQCi/wBNezP/UHoy/1V3L/9cdCz/ZXAn/25rI/94Zh7/gWEZ/4ldFf+PWhL/k1gQ/5RYD/+TWBD/j1oS/4ldFf+BYRn/eGYe/25rIv9lbyf/XHQr/1V3L/9QejL/TXsz/wBdAKL/AE58Mv9RezD/Vngu/111Kv9mcCb/b2wh/3lnHP+CYhj/il4U/5BbEf+UWQ//lVkO/5RZD/+QWxH/il4U/4JiGP95Zxz/b2wh/2ZwJv9ddSr/Vngu/1F7MP9OfDL/AV0Aov8AT3wx/1F7MP9WeS3/XnUq/2ZxJf9wbCH/eWcc/4JjF/+KXxP/kFwQ/5RaDv+WWQ7/lFoO/5BcEP+KXxP/gmMX/3lnHP9wbCH/ZnEl/151Kv9WeS3/UXsw/098Mf8nznBgHx+0xwAAAABJRU5ErkJggg=="
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAKTQP8EkT//CY88/xGLOP8ZhjT/I4Ev/y18Kf82dyT/P3Ig/0VvHP9JbBr/S2sY/0prGP9HbBr/QW8c/zlyIP8wdiT/J3so/x5/LP8VgzD/DoY0/wmJNv8Hijf/AF0Aov8AApJB/wWRP/8Kjj3/EYo5/xqGNP8jgS//LXsq/zd2Jf8/ciD/RW4d/0psGv9Lahn/SmoZ/0dsGv9Bbh3/OXIg/zF2JP8nein/Hn4t/xWCMf8OhjT/Cog3/weJOP8AXQCi/wACkUL/BZBA/wqNPv8RiTr/GoU1/yR/MP8ueiv/N3Um/0BxIf9GbR7/Smob/0xpGv9LaRr/R2ob/0JtHv86cCH/MXQl/yh5Kv8efS7/FoEy/w+ENf8Khzj/B4g5/wBdAKL/AAOPQ/8GjkL/C4s//xKHO/8bgzf/JX4y/y94LP84cyf/QG8j/0drH/9LaR3/TWcb/0xnHP9IaR3/Qmsf/ztvI/8ycyf/KHcr/x98MP8XgDT/EIM3/wuFOf8Ihjr/AF0Aov8ABI1F/weMRP8MiUH/E4U9/xyBOf8mezT/MHYu/zlxKf9BbSX/SGkh/0xnH/9OZR3/TWUd/0lnH/9DaSH/PG0l/zNxKf8pdS3/IHky/xh9Nv8RgTn/DIM7/wmEPP8AXQCi/wAGikf/CIlG/w6GQ/8Vgz//Hn47/yd5Nv8xdDH/O28r/0NqJ/9JZiP/TWQh/09jIP9OYyD/S2Qh/0VnJP89aif/NG4r/ytzMP8hdzT/GXs4/xJ+O/8NgT7/C4I//wBdAKL/AAeHSv8Khkj/D4NG/xaAQv8fez3/KXY4/zNxM/88bC7/RGcp/0tkJv9PYSP/UWAi/1BgIv9MYST/RmQm/z9nKv82ay7/LHAy/yN0N/8beDv/FHw+/w9+QP8Mf0H/AF0Aov8ACYRM/wyDS/8RgEj/GHxE/yF4QP8rczv/NW41/z5oMP9GZCz/TWAo/1FeJv9TXSX/Ul0l/05eJv9IYSn/QGQs/zhoMP8ubTX/JXE5/xx1Pf8VeUH/EHtD/w58RP8AXQCi/wAMgU//DoBN/xN9S/8beUf/I3VC/y1vPf83ajj/QGUz/0lhL/9PXSv/U1sp/1VaJ/9UWij/UFsp/0peLP9DYS//OmUz/zBqOP8nbjz/HnJA/xd2Q/8SeEb/EHlH/wBdAKL/AA5+Uf8RfFD/FnpN/x12Sf8mcUX/MGxA/zlnOv9DYjb/S14x/1FaLv9VWCv/V1Yq/1ZXKv9SWCz/TVsu/0VeMv88Yjb/Mmc6/ylrP/8hb0P/GnNG/xV1Sf8Sdkr/AF0Aov8AEXpT/xN5Uv8Zdk//IHJM/yluR/8yaUL/PGQ9/0VfOP9OWjP/VFcw/1hULf9aUyz/WVQt/1VVLv9PWDH/R1s0/z9fOP81ZD3/LGhB/yNsRf8ccEn/F3JL/xVzTP8AXQCi/wAUd1X/FnZU/xxzUf8jb03/K2tJ/zVmRP8/YT//SFw6/1BXNf9XVDL/W1Iw/11QLv9bUS//WFIw/1JVM/9KWDb/QV07/zhhP/8uZkT/JmpI/x9tS/8ab03/F3FP/wBdAKL/ABd0V/8ac1X/H3BT/yZtT/8vaEr/OGNF/0JeQP9LWTv/VFU3/1pRM/9eTzH/YE4w/15OMP9bUDL/VVI0/01WOP9EWjz/O19B/zFjRf8pZ0n/ImtN/x1tT/8ablD/AF0Aov8AGnJY/x1wVv8iblT/KWpQ/zJmS/88YUb/RVxB/09XPP9XUjj/XU81/2FNMv9jTDH/Ykwy/15NM/9YUDb/UFQ5/0dYPv8+XUL/NWFH/yxlS/8laU7/IGtR/x5sUv8AXQCi/wAecFj/IW5X/yZsVP8taFD/NmRM/z9fR/9JWkL/UlU9/1pQOf9hTTX/ZUsz/2ZKMv9lSjL/YUw0/1xONv9UUjr/S1Y+/0FbQ/84X0j/L2NM/yhnT/8jaVH/IWtT/wBdAKL/ACJuWP8kbVb/KWpU/zBnUP85Ykz/Q11H/01YQv9WUz3/Xk85/2RMNf9oSTP/akgy/2lJMv9lSjT/X003/1dROv9OVT//RVpD/zteSP8zYkz/LGZP/ydoUv8kaVP/AF0Aov8AJW1X/yhsVv8taVP/NGVP/z1hS/9HXEb/UFdB/1pSPP9iTjj/aEs1/2xIMv9tRzH/bEgy/2lJM/9jTDb/W1A6/1JUPv9IWUP/P11H/zZiTP8vZU//KmdR/yhpU/8AXQCi/wApbFb/LGtU/zFpUv84ZU7/QWBK/0pcRf9UV0D/XVI7/2VON/9sSjP/cEgx/3FHMP9wRzH/bEky/2ZMNf9fUDn/VlQ9/0xZQv9DXUb/OmFL/zNlTv8uZ1H/K2lS/wBdAKL/AC1sVP8wa1L/NWhQ/zxlTP9FYEj/TlxD/1hWPv9hUjn/aU41/3BKMv90SDD/dUcv/3RIL/9wSTH/akw0/2JQN/9ZVDz/UFlA/0ZeRf8+Ykn/N2VN/zJoT/8vaVD/AF0Aov8AMW1R/zRrUP85aU3/QGVK/0lhRf9SXEH/XFc8/2VSN/9tTjP/c0sv/3dJLf95SCz/eEgt/3RKL/9uTTH/ZlE1/11VOv9TWj7/Sl5D/0FjR/86Zkv/NWhN/zNqTv8AXQCi/wA1bk//N2xN/z1qS/9EZkf/TGJD/1ZdPv9gWDn/aVM0/3FPMP93TC3/e0or/3xJKv97SSr/d0ss/3FOL/9qUjP/YVY3/1dbPP9OYEH/RWRF/z5nSP85akv/NmtM/wBdAKL/ADlvS/87bUr/QGtH/0dnRP9QYz//Wl47/2NZNv9tVDH/dVAt/3tNKv9/Syj/gEon/39LJ/97TCn/dU8s/21TMP9kWDT/Wlw5/1FhPv9IZUL/QWlF/zxrSP86bEn/AF0Aov8APHBI/z9vR/9EbET/S2lA/1RkPP9dXzf/Z1sy/3BWLv94Uir/fk8m/4JNJP+ETCT/gkwk/39OJv94USn/cVUt/2hZMf9eXjb/VGM7/0xnP/9Fa0L/QG1F/z1uRv8AXQCi/wBAckT/QnBD/0duQf9Oaj3/V2Y5/2FhNP9qXC//c1gq/3tUJv+CUCP/hU4h/4dOIP+GTiH/glAj/3xTJv90Vyn/a1su/2FgM/9YZTf/T2k8/0htP/9Db0L/QHBD/wBdAKL/AEN0Qf9FckD/SnA9/1FsOf9aaDX/ZGMw/21eK/93WSf/flUj/4VSIP+JUB7/ilAd/4lQHf+FUh//f1Ui/3dZJv9uXSv/ZGIv/1tnNP9Sazj/S288/0ZxPv9DckD/AF0Aov8ARnU9/0h0PP9Ncjr/VG42/11qMv9mZS3/cGAo/3lbI/+BVx//h1Qc/4tSGv+NUhr/i1Ia/4hUHP+BVx//elsj/3BfJ/9nZCz/XWkx/1VtNf9OcTn/SXM7/0Z1Pf8AXQCi/wBIdzr/S3Y5/1BzNv9XcDP/X2su/2lnKv9zYiX/fF0g/4RZHP+KVhn/jlQX/49TFv+OVBf/ilYZ/4RZHP98XSD/c2Ek/2lmKf9gay7/V28y/1BzNv9LdTj/SHc6/wBdAKL/AEp5N/9Ndzb/UnUz/1lxMP9ibSz/a2gn/3VjIv9+Xx3/hlsZ/4xYFv+QVhT/kVUU/5BWFP+MWBb/hlsZ/35fHf91YyL/a2gn/2JtK/9ZcTD/UnUz/013Nv9KeDf/AF0Aov8ATHo1/095NP9UdjH/W3Mu/2NuKf9taiT/d2Ug/4BgG/+IXBf/jlkU/5JXEv+TVxH/klcS/45ZFP+IXBf/gGAb/3dlH/9taiT/ZG4p/1tzLf9UdjH/T3kz/0x6Nf8AXQCi/wBNezP/UHoy/1V3L/9cdCz/ZXAn/25rI/94Zh7/gWEZ/4ldFf+PWhL/k1gQ/5RYD/+TWBD/j1oS/4ldFf+BYRn/eGYe/25rIv9lbyf/XHQr/1V3L/9QejL/TXsz/wBdAKL/AE58Mv9RezD/Vngu/111Kv9mcCb/b2wh/3lnHP+CYhj/il4U/5BbEf+UWQ//lVkO/5RZD/+QWxH/il4U/4JiGP95Zxz/b2wh/2ZwJv9ddSr/Vngu/1F7MP9OfDL/AV0Aov8AT3wx/1F7MP9WeS3/XnUq/2ZxJf9wbCH/eWcc/4JjF/+KXxP/kFwQ/5RaDv+WWQ7/lFoO/5BcEP+KXxP/gmMX/3lnHP9wbCH/ZnEl/151Kv9WeS3/UXsw/098Mf8nznBgHx+0xwAAAABJRU5ErkJggg=="
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAOUN/8Gkzb/CpA0/xGLMf8Zhi7/IoAr/yt6J/80dCT/O28h/0FqHv9FaBz/RmYb/0VmG/9CaBz/PWse/zZvIP8ucyL/JXkl/xx+KP8Vgiv/DoYt/wqJLv8Hii//AF0Aov8AA5Q3/waSNv8LjzT/EYsy/xmFL/8ifyv/K3ko/zRzJP87biH/QWoe/0VnHf9HZhz/RmYc/0JnHP89ah7/Nm4g/y5zI/8leCb/HX0p/xWCK/8Phi3/Cokv/wiKMP8AXQCi/wAEkzj/B5E3/wuONf8SijP/GoQw/yN+LP8seCj/NXIl/zxtIv9CaR//RmYe/0dlHf9GZR3/Q2Yd/z5pH/83bSH/L3Ik/yZ3J/8dfCn/FoEs/w+FLv8LiDD/CIkx/wBdAKL/AAWROf8IkDj/DIw3/xOINP8bgzH/JH0t/y13Kv82cSb/PWwj/0NnIf9HZB//SGMe/0djHv9EZR//P2gg/zhsIv8wcSX/J3Yo/x57K/8XgC3/EIMw/wyGMf8JiDL/AF0Aov8AB487/wmOOv8Oizj/FIY2/xyBMv8ley//LnUr/zdvKP8+aiX/RGUi/0hjIf9KYSD/SWEg/0VjIP9AZiL/OWok/zFvJ/8odCr/IHkt/xh+L/8SgjH/DYQz/wuGNP8AXQCi/wAIjT3/C4s8/w+IOv8WhDf/Hn40/yd4Mf8wci3/OW0q/0BnJ/9GYyT/SmAj/0tfIv9KXyL/R2Ei/0JkJP87aCb/M20p/ypyLP8hdy//Gnwx/xN/M/8PgjX/DIQ2/wBdAKL/AAqKP/8NiT7/EYU8/xiBOv8gfDb/KXYz/zJwL/87aiz/QmUp/0hhJ/9MXiX/TVwk/0xdJP9JXiX/RGEm/z1lKf80aiv/LG8u/yN0Mf8beTT/FX02/xCAN/8OgTj/AF0Aov8ADYdB/w+GQP8Ugz7/Gn48/yJ5Of8rczX/NG0y/z1nLv9EYiv/Sl4p/05bJ/9PWib/Tlom/0tcJ/9GXyn/P2Mr/zdnLv8ubTH/JXIz/x53Nv8Xejj/E306/xB/O/8AXQCi/wAPhEP/EoNC/xaAQf8dez7/JXY7/y5wOP83ajT/P2Qx/0dfLv9NWyv/UFgp/1JXKf9RVyn/Tlkq/0hcK/9BYC3/OWUw/zBqM/8obzb/IHQ5/xp4O/8Vezz/E3w9/wBdAKL/ABKBRv8UgEX/GX1D/yB4QP8ocz3/MG06/zlnNv9CYTP/Slww/09YLv9TVSz/VVQr/1RUK/9QViz/S1ku/0RdMP88YjP/M2c1/ypsOP8jcTv/HHU9/xh4P/8VeUD/AF0Aov8AFX5I/xd9R/8cekX/I3VD/ytwP/8zajz/PGQ5/0VeNf9NWTL/UlUw/1ZSLv9YUS3/V1Et/1NTLv9OVjD/R1oy/z9fNf82ZTj/LWo7/yZvPf8fc0D/G3VB/xh3Qv8AXQCi/wAYe0r/G3pJ/x93R/8mc0T/Lm1B/zdnPv9AYTr/SFw3/1BXNP9WUzL/WVAw/1tPL/9aTy//VlEw/1FUMv9KWDT/Ql03/zliOv8wZz3/KWxA/yJwQv8ec0P/G3RE/wBdAKL/ABx5S/8ed0r/I3RI/ylwRv8xa0P/OmVA/0NfPP9MWTn/U1Q2/1lQM/9dTTL/Xkwx/11NMf9aTjL/VFE0/01WNv9FWzn/PGA8/zRlP/8sakL/JW5E/yFxRf8eckb/AF0Aov8AH3dM/yJ1S/8mckr/LW5H/zVoRP8+Y0H/R109/09XOv9XUjf/XE41/2BLM/9hSjL/YEsz/11MNP9YUDX/UFQ4/0hZOv9AXj3/N2NA/y9oQ/8pbEX/JG9H/yJwSP8AXQCi/wAjdU3/JXNM/ypwS/8wbEj/OGdF/0FhQv9KWz7/U1U7/1pQOP9gTDb/ZEo0/2VIM/9kSTT/YUs1/1tONv9UUjn/TFc8/0NdP/86YkL/M2dE/yxrRv8obkj/JW9J/wBdAKL/ACZzTv8pck3/Lm5L/zRqSP88ZUX/RV9C/05ZP/9WVDv/Xk85/2RLNv9nSDX/aUc0/2hINP9kSTX/X003/1hROf9PVjz/R1s//z5hQv82ZkX/MGpH/ytsSf8pbkr/AF0Aov8AKnJO/y1wTf8xbUv/OGlI/0BkRf9JXkL/Ulg//1pTO/9iTjn/Z0o2/2tHNf9sRjT/a0c0/2hJNf9iTDf/W1A6/1NVPP9KWz//QmBD/zplRf8zaUj/L2xJ/yxtSv8AXQCi/wAucU3/MHBM/zVtSv88aEj/RGNF/0xeQv9VWD7/XlI7/2VNOP9rSTb/b0c0/3BGNP9vRjT/a0g1/2ZMN/9fUDn/V1U8/05aP/9FYEL/PWVF/zdpR/8ybEn/MG1K/wBdAKL/ADJxTP80b0v/OWxJ/z9oR/9HY0T/UF1B/1lYPf9iUjr/aU03/29JNf9yRzT/dEYz/3JGM/9vSDT/akw2/2JQOf9aVTz/UVs//0lgQv9BZUT/OmlH/zZsSP8zbUn/AF0Aov8ANXFL/zhwSv89bUj/Q2hG/0tjQ/9UXj//XVg8/2VSOf9tTTb/cko0/3ZHMv93RjL/dkcy/3NJM/9tTDX/ZlE4/15WOv9VWz7/TGFB/0RmQ/8+akb/OWxH/zduSP8AXQCi/wA5ckn/O3BI/0BtRv9HaUT/T2RB/1dePv9gWDr/aVM3/3BONP92SjL/eUgx/3tHMP96SDH/dkoy/3FNNP9pUTb/YVc5/1hcPP9QYj//SGZC/0FrRP89bUb/Om9H/wBdAKL/ADxzR/8/cUb/Q25E/0pqQv9SZT//W188/2RZOP9sVDX/c08z/3lLMP99SS//fkgu/31JL/95SzD/dE4y/21TNP9kWDf/W106/1NjPv9LaED/RGxD/0BvRP89cEX/AF0Aov8AQHRF/0JyRP9Hb0L/TWtA/1VmPf9eYDr/Z1s2/29VM/93UDD/fE0u/4BKLf+BSSz/gEot/3xMLv93UDD/cFQy/2dZNf9fXzn/VmQ8/05pPv9IbUH/Q3BC/0FyQ/8AXQCi/wBDdUL/RXNC/0pwQP9QbD3/WGc7/2FiN/9qXDT/clYx/3pSLv9/Tiz/g0wr/4RLKv+DSyv/f04s/3pRLv9zVjD/alsz/2FgNv9ZZjr/UWs8/0pvP/9GckD/Q3NB/wBdAKL/AEZ2QP9IdT//TXI9/1NuO/9baTj/ZGM1/21dMv91WC//fFMs/4JQKv+GTSj/h0wo/4ZNKP+CTyr/fVMs/3VXLv9tXTH/ZGI0/1toN/9UbTr/TXE9/0h0Pv9GdT//AF0Aov8ASHg+/0p2Pf9Pczv/Vm85/11qNv9mZTP/b18v/3daLP9/VSr/hFEo/4hPJv+JTib/iE8m/4VRJ/9/VCn/eFks/29eL/9nZDL/Xmk1/1ZuOP9Pcjr/S3U8/0h3Pf8AXQCi/wBKeTz/TXg7/1F1Of9YcTf/YGw0/2hmMf9xYC3/elsq/4FWKP+HUyX/ilAk/4tQJP+KUCT/h1Ml/4FWJ/96Wyr/cWAt/2lmMP9gazP/WHA2/1J0OP9Ndzr/S3k7/wBdAKL/AEx7Ov9OeTn/U3Y3/1pyNf9ibTL/amcv/3NiK/98XCj/g1gm/4hUJP+MUiL/jVEi/4xSIv+IVCP/g1gl/3xcKP9zYSv/amcu/2JtMf9acjT/U3Y3/095OP9Mejn/AF0Aov8ATnw4/1B6N/9VdzX/W3Mz/2NuMP9saS3/dWMq/31eJ/+EWST/ilUi/41TIf+PUiD/jVMh/4pVIv+EWST/fV0n/3VjKv9saC3/Y24w/1tzM/9VdzX/UHo3/057OP8AXQCi/wBPfTf/UXs2/1Z4NP9cdDL/ZG8v/21pLP92ZCj/fl4l/4VaI/+LViH/j1Qf/5BTH/+PVB//i1Yh/4VaI/9+XiX/dmQo/21pLP9kby//XHQy/1Z4NP9Rezb/T302/wBdAKL/AFB9Nv9SfDX/V3kz/111Mf9lcC7/bmor/3dkKP9/XyT/hlsi/4xXIP+PVR7/kVQe/49VHv+MVyD/hloi/39fJP93ZCf/bmor/2VwLv9ddTH/V3kz/1J8Nf9QfTb/AV0Aov8AUH41/1J8NP9XeTP/XXUw/2VwLf9uair/d2Un/39fJP+HWyH/jFcf/5BVHv+RVB7/kFUe/4xXH/+HWyH/f18k/3dlJ/9uair/ZXAt/111MP9XeTP/Unw0/1B+Nf9dSHByhpYpGAAAAABJRU5ErkJggg=="
+              }
+            ],
+            "links": [
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771854855843930/IMG_9961.png?ex=6ad14f1a&is=6acffd9a&hm=c4b64120ea82eb31d6cfb54538fbd9cd0b473114499bce1a996f44e20ef5197e&"
+              },
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771855417872475/IMG_9959.png?ex=6ad14f1a&is=6acffd9a&hm=5e5725bfcf891ecba524bc6ea5f938e5c459b16aa7ed09299ad49987a51baffa&"
+              },
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771855975718922/IMG_9958.png?ex=6ad14f1b&is=6acffd9b&hm=617a37a1b060450001a9aa00360125276f631c41614418e7f91aed82f3e63901&"
+              },
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771856550342656/IMG_9957.png?ex=6ad14f1b&is=6acffd9b&hm=f0454e9c35590e6263dc851f0561a9ae61064ebe510074b595be8291933a99cc&"
+              }
+            ],
+            "text": "Sucha — 1/5/24, 2:09 AMFriday, January 5, 2024 at 2:09 AM安定",
+            "sourceMessageId": "1192771856831352832",
+            "postedAt": "2024-01-05T10:09:31.298Z"
+          }
+        ]
+      }
+    ],
+    "additionalProofImages": [
+      "https://media.mktwrs.com/assets/proof/newyear2024-1192771855417872475-8fd4af2089999beacc0e.png"
+    ]
   },
   {
     "messageId": "1192770551832383549-newyear2024-image-reviewed",
@@ -161551,8 +161765,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2024-01-05T10:04:20.162Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1192770551530401814/IMG_9961.png?ex=6abd8764&is=6abc35e4&hm=ecf18b6c817496823da7f7a7bc6cf85b6d08b46868f3adb0115187fcf51f1588&",
-    "proofImageLocal": "/assets/proof/newyear2024-1192770551530401814.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192770551530401814-5c1f936bbfb16ff2fae6.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192770551530401814-5c1f936bbfb16ff2fae6.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192770551832383549",
@@ -161563,21 +161777,21 @@
       "Original finish total visually reviewed; course scenery and star thresholds match corresponding New Year Tour2024TT challenge.",
       "Exact first known screenshot publication retained; improvement over preceding known global WR.",
       "Historical progression remains provisional until surrounding tour evidence is fully reconciled.",
-      "Cancelled human screenshot receipt was replaced by accepted video submission1192771775981961276; preserve earlier human publication.",
-      "Full original video preserved and visually verified at lap1 crossing and finish; lap2 derived from total-lap1 agrees with receipt. Unlisted backup upload pending."
+      "Cancelled human screenshot receipt was replaced by accepted video submission1192771775981961276; preserve earlier human publication."
     ],
     "video": "https://www.youtube.com/watch?v=SamBv_-qaOY",
     "videoVerified": true,
     "additionalProofImages": [
-      "/assets/proof/newyear2024-sucha8818-video-finish.jpg"
+      "https://media.mktwrs.com/assets/proof/newyear2024-1192771782122410034-5c1f936bbfb16ff2fae6.png",
+      "https://media.mktwrs.com/assets/proof/newyear2024-1192771854855843930-4124223754d76d2e8ca0.png"
     ],
     "originalImageLocal": "archive/newyear2024-preserved-original-images/1192770551530401814.png",
     "originalImageSHA256": "5c1f936bbfb16ff2fae61366f8da687d92a5a6f92cba474c2e720ee5ba647fd3",
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.21",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "44.18",
       "44.00"
@@ -161600,21 +161814,142 @@
         "sameBytesAsFirstImage": true
       }
     ],
-    "videoAvailability": "preserved-local",
+    "videoAvailability": "available",
     "videoPreservation": {
       "file": "archive/video-backup-files/newyear2024-sucha8818/original.mp4",
-      "bytes": 25629828,
       "sha256": "4f3ab18f7dd631bf978e25516344831f93448552563f69d156f2c37fa851c75f",
-      "durationSeconds": 107.181,
-      "backupUploadStatus": "pending"
+      "bytes": 25629828,
+      "backupUploadStatus": "r2-verified"
     },
     "videoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "proofVideoUrl": "https://www.youtube.com/watch?v=SamBv_-qaOY",
     "proofVideoVerified": true,
-    "proofVideoLocal": "archive/video-backup-files/newyear2024-sucha8818/original.mp4",
     "proofVideoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "lapVerification": "video-first-lap-and-total-verified-second-lap-derived",
-    "derivedLap2": true
+    "derivedLap2": true,
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-05",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "additionalProofs": [
+      {
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192771782122410034-5c1f936bbfb16ff2fae6.png",
+        "originalImageLocal": "archive/newyear2024-preserved-original-images/1192771782122410034.png",
+        "originalImageSHA256": "5c1f936bbfb16ff2fae61366f8da687d92a5a6f92cba474c2e720ee5ba647fd3",
+        "samePerformance": true,
+        "sourceReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
+        "sourceRows": [
+          {
+            "messageId": "1192771775981961276",
+            "publishedAt": "2024-01-05T10:09:12.022Z",
+            "text": "すいそ/Sucha♪ used submitMKT Time Trial BotAPP — 1/5/24, 2:09 AMFriday, January 5, 2024 at 2:09 AMSubmission | @すいそ/Sucha♪\n\nStatus: Updated by @Phillish\nSucha | Piranha Plant Slide | 01:28.18 | 44.18 | 44.00 | https://youtu.be/SamBv_-qaOY?feature=sharedUpdate,Cancel,Edit,, (edited)Friday, January 5, 2024 at 5:43 AM"
+          }
+        ]
+      },
+      {
+        "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192771854855843930-4124223754d76d2e8ca0.png",
+        "originalImageLocal": "archive/newyear2024-preserved-discussion-images/1192771854855843930.png",
+        "originalImageSHA256": "4124223754d76d2e8ca043e1776afd4434f048d30ee99993f34d00b6c91cbbd4",
+        "samePerformance": true,
+        "sourceReviewAudit": "archive/newyear2024-discussion-image-review-20261005.json",
+        "sourceRows": [
+          {
+            "id": "search-result-1192771856831352832",
+            "images": [
+              {
+                "alt": " ",
+                "url": "https://cdn.discordapp.com/avatars/711825990283952149/f721a2afad6749a7a663c6b26c68d912.webp?size=160"
+              },
+              {
+                "alt": " ",
+                "url": "https://cdn.discordapp.com/media/v1/collectibles-shop/1144307629225672846/static"
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAqUN/8Mkjb/EY81/xeKMv8fhC//J34s/zB3Kf84cSb/P2si/0RnIP9IZB7/SWId/0hiHP9EYx3/P2Ye/zhqH/8wbiH/J3Qj/x95Jv8XfSj/EIEp/wyEK/8Khiv/AF0Aov8ACpM4/wySN/8RjjX/F4oz/x+EMP8nfS3/MHcp/zhxJv8/ayP/RWYg/0hjH/9JYR3/SGEd/0ViHf8/ZR7/OGkg/zBuIv8ncyT/H3gm/xd9KP8RgSr/DIQr/wqFLP8AXQCi/wALkjn/DZE4/xGNNv8YiTT/H4Mx/yh8Lv8xdir/OXAn/0BqJP9FZSH/SWIf/0pgHv9JYB7/RWIe/0BkH/85aCH/MW0j/yhyJf8fdyf/GHwp/xGAK/8Ngyz/CoQt/wBdAKL/AAuROv8Ojzn/Eow3/xmHNf8ggTL/KXsv/zJ0LP86bij/QWkl/0ZkI/9KYSH/S18g/0pfH/9GYB//QWMg/zpnIv8xbCT/KXEm/yB2KP8Zeyr/En8s/w6BLf8Lgy7/AF0Aov8ADY88/w+NO/8Uijn/GoU3/yKANP8qeTH/M3Mt/ztsKv9CZyf/R2Ik/0tfIv9MXSH/S10h/0deIf9CYSL/O2Uk/zNqJv8qbyj/IXQq/xp5LP8TfS7/D4Av/w2BMP8AXQCi/wAOjT7/EYs9/xWIO/8bgzn/I302/yx3M/80cC//PGos/0NlKf9JYCb/TF0k/05bI/9MWyP/SVwj/0NfJP88Yyb/NGgo/yttKv8jciz/G3cu/xV7MP8QfjH/Dn8y/wBdAKL/ABCKQP8SiD//F4U9/x2BO/8lezj/LXU1/zZuMf8+aC7/RWIr/0teKf9OWif/T1kl/05ZJf9LWiX/RV0m/z5hKP82Zir/LWss/yVwLv8ddTD/F3ky/xJ8M/8QfTT/AF0Aov8AEodC/xSGQf8ZgkD/H349/yd4Ov8vcjf/OGs0/0BlMP9HYC3/TVsr/1BYKf9RVij/UFYn/01YKP9HWyn/QF8q/zhjLP8vaS7/J24x/x9zM/8ZdzX/FHk2/xJ7Nv8AXQCi/wAUhUX/F4NE/xuAQv8he0D/KXU9/zJvOf86aTb/QmIz/0ldMP9PWC3/UlUr/1NUKv9SVCr/T1Uq/0lYK/9CXC3/OmEv/zFmMf8pazP/IXA1/xt0N/8Wdzj/FHk5/wBdAKL/ABeCR/8ZgEb/HX1E/yR4Qv8scz//NGw8/z1mOP9FYDX/TFoy/1FWMP9VUy7/VlEt/1VRLP9RUy3/TFYu/0VaL/88XzH/NGQz/ytpNv8kbjj/HXI5/xl1O/8Wdjv/AF0Aov8AGX9J/xx9SP8gekf/JnZE/y5wQf83aj7/P2M7/0ddN/9PWDT/VFMy/1dQMP9ZTy//V08u/1RQL/9OUzD/R1cx/z9cM/82Yjb/Lmc4/yZsOv8gcDz/G3I9/xl0Pv8AXQCi/wAcfEv/H3tK/yN4Sf8pc0b/MW1D/zpnQP9CYT3/Sls5/1FVNv9XUTT/Wk4y/1tMMf9aTDD/V04x/1FRMv9KVTP/Qlo1/zlfOP8xZTr/KWo8/yNuPv8ecD//HHJA/wBdAKL/AB96Tf8ieEz/JnVK/yxxSP80a0X/PWVC/0VfPv9NWDv/VFM4/1pPNv9dTDT/Xkoz/11KMv9aTDP/VE80/01TNf9FWDf/PF45/zRjPP8saD7/Jmw//yFvQf8fcEH/AF0Aov8AInhO/yV2Tf8pc0z/L29J/zdpRv9AY0P/SF1A/1BXPf9XUTr/XU03/2BKNf9iSTT/YEk0/11KNP9XTTX/UFI3/0hXOf8/XDv/N2E9/y9mP/8pakH/JG1C/yJvQ/8AXQCi/wAmdk//KHVO/yxyTf8zbUr/OmdH/0NhRP9MW0H/VFU+/1tQO/9gSzj/ZEk2/2VHNf9jRzX/YEk1/1pMNv9TUTj/S1Y6/0JbPP86YD7/MmVA/yxpQv8nbEP/JW5E/wBdAKL/ACl1UP8rc0//MHBN/zZsS/8+Zkj/RmBF/09aQf9XVD7/Xk87/2NKOf9nSDf/aEY2/2dGNf9jSDb/Xks3/1dQOP9OVTr/Rlo8/z1gP/81ZUH/L2lD/ytsRP8obUT/AF0Aov8ALHRQ/y9zT/8zb03/OWtL/0FlSP9KX0X/UllB/1pTPv9hTjv/Z0o5/2pHN/9rRjb/akY1/2dINv9hSzf/Wk84/1JUOv9JWj3/QV8//zlkQf8yaEP/LmtE/yxtRf8AXQCi/wAwdE//MnJP/zZvTf89a0v/RGVI/01fRP9VWUH/XlM+/2VOO/9qSjj/bkc3/29GNf9tRjX/akg1/2RLNv9dTzj/VVU6/0xaPP9EYD//PGVB/zZpQv8xbET/L21E/wBdAKL/ADN0T/81ck7/Om9M/0BrSv9IZUf/UF9E/1lZQP9hUz3/aE46/21KOP9xRzb/ckY1/3FGNP9tSDX/aEw2/2FQN/9YVTn/UFs7/0dgPv8/ZUD/OWlC/zRsQ/8ybkP/AF0Aov8ANnRN/zlzTf89cEv/Q2tJ/0tmRv9TYEL/XFo//2RUPP9rTzn/cUs2/3RINf91RzP/dEcz/3BJM/9rTDT/ZFE2/1xWOP9TXDr/SmE9/0NmP/88akD/OG1C/zVvQv8AXQCi/wA5dUz/PHNL/0BwSf9GbEf/TmdE/1dhQf9fWj7/Z1U6/25QN/90TDX/d0kz/3hIMv93SDH/dEoy/25OM/9nUjX/X1c3/1ZdOf9NYjv/Rmc9/z9sP/87b0D/OHBB/wBdAKL/ADx2Sv8/dUn/Q3FH/0ptRf9RaEL/WmI//2JcPP9qVjj/cVE1/3dNM/96SjH/e0kw/3pKMP93TDD/cU8x/2pUM/9iWTX/WV83/1BkOf9JaTv/Qm09/z5wPv87cj//AF0Aov8AP3hI/0J2R/9Gc0X/TG5D/1RpQP9dYz3/ZV06/21XNv90UjP/ek4x/31ML/9+Sy7/fUsu/3lNLv90US//bVUx/2VbM/9cYDX/U2Y3/0xrOf9Fbzv/QXI8/z50Pf8AXQCi/wBCeUb/RHdF/0l0Q/9PcEH/V2s+/19lO/9oXzf/cFk0/3dUMf98UC//gE0t/4FMLP+ATSv/fE8s/3dTLf9vVy7/Z10x/15iM/9WaDX/Tm03/0hxOf9DdDr/QXY7/wBdAKL/AER7Q/9HeUP/S3ZB/1JyP/9ZbDz/YmY4/2pgNf9yWzL/eVYv/39SLP+CTyv/g04q/4JPKf9/USr/eVUr/3JZLP9qXy7/YWQx/1hqM/9RbzX/SnM3/0Z2OP9DeDn/AF0Aov8AR3xB/0l7QP9OeD//VHM8/1tuOf9kaDb/bWIz/3VcMP98Vy3/gVQq/4RRKP+GUCf/hFEn/4FTJ/97Vij/dFsq/2xgLP9jZi7/W2wx/1NxM/9MdTT/SHg2/0Z6Nv8AXQCi/wBJfj//S3w+/095Pf9WdTr/XXA3/2ZqNP9vZDH/d14u/35ZK/+DVSj/hlMm/4hSJf+GUyX/g1Ul/31YJv92XSj/bmIq/2VoLP9dbi//VXMx/053Mv9KejT/SHw0/wBdAKL/AEp/Pf9Nfjz/UXs7/1d2OP9fcTX/aGsy/3BlL/94YCz/f1sp/4VXJv+IVCT/iVMj/4hUI/+EViP/f1ok/3hfJv9vZCj/Z2oq/15vLf9WdS//UHkx/0x8Mv9JfTL/AF0Aov8ATIE8/05/O/9TfDn/WXg3/2ByNP9pbDH/cmYt/3phKv+BXCf/hlgl/4lWI/+LVSL/iVYh/4ZYIv+AWyP/eWAl/3FlJ/9oayn/YHEr/1h2Lf9Rei//TX0w/0t/Mf8AXQCi/wBNgjr/T4A5/1R9OP9aeTX/YnMz/2ptL/9zaCz/e2Ip/4JdJv+HWSP/ilci/4xWIP+KVyD/h1kh/4FcIv96YSP/cmcl/2lsKP9hcir/WXcs/1J8Lv9Ofy//TIAw/wBdAKL/AE2COf9QgTn/VH43/1t5Nf9idDL/a24v/3NoK/97Yyj/gl4l/4haI/+LWCH/jFcg/4tXH/+HWiD/gl0h/3tiIv9yZyT/am0n/2FzKf9ZeCv/U3wt/09/Lv9MgS//AV0Aov8AToM5/1CBOP9Vfjb/W3o0/2N0Mf9rby7/dGkr/3xjKP+DXiX/iFoi/4xYIP+NVx//i1gf/4haH/+CXiD/e2Ii/3NoJP9qbib/YnMp/1p4K/9TfSz/T4Au/02BLv9EEXBvMqzcaQAAAABJRU5ErkJggg=="
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAKTQP8EkT//CY88/xGLOP8ZhjT/I4Ev/y18Kf82dyT/P3Ig/0VvHP9JbBr/S2sY/0prGP9HbBr/QW8c/zlyIP8wdiT/J3so/x5/LP8VgzD/DoY0/wmJNv8Hijf/AF0Aov8AApJB/wWRP/8Kjj3/EYo5/xqGNP8jgS//LXsq/zd2Jf8/ciD/RW4d/0psGv9Lahn/SmoZ/0dsGv9Bbh3/OXIg/zF2JP8nein/Hn4t/xWCMf8OhjT/Cog3/weJOP8AXQCi/wACkUL/BZBA/wqNPv8RiTr/GoU1/yR/MP8ueiv/N3Um/0BxIf9GbR7/Smob/0xpGv9LaRr/R2ob/0JtHv86cCH/MXQl/yh5Kv8efS7/FoEy/w+ENf8Khzj/B4g5/wBdAKL/AAOPQ/8GjkL/C4s//xKHO/8bgzf/JX4y/y94LP84cyf/QG8j/0drH/9LaR3/TWcb/0xnHP9IaR3/Qmsf/ztvI/8ycyf/KHcr/x98MP8XgDT/EIM3/wuFOf8Ihjr/AF0Aov8ABI1F/weMRP8MiUH/E4U9/xyBOf8mezT/MHYu/zlxKf9BbSX/SGkh/0xnH/9OZR3/TWUd/0lnH/9DaSH/PG0l/zNxKf8pdS3/IHky/xh9Nv8RgTn/DIM7/wmEPP8AXQCi/wAGikf/CIlG/w6GQ/8Vgz//Hn47/yd5Nv8xdDH/O28r/0NqJ/9JZiP/TWQh/09jIP9OYyD/S2Qh/0VnJP89aif/NG4r/ytzMP8hdzT/GXs4/xJ+O/8NgT7/C4I//wBdAKL/AAeHSv8Khkj/D4NG/xaAQv8fez3/KXY4/zNxM/88bC7/RGcp/0tkJv9PYSP/UWAi/1BgIv9MYST/RmQm/z9nKv82ay7/LHAy/yN0N/8beDv/FHw+/w9+QP8Mf0H/AF0Aov8ACYRM/wyDS/8RgEj/GHxE/yF4QP8rczv/NW41/z5oMP9GZCz/TWAo/1FeJv9TXSX/Ul0l/05eJv9IYSn/QGQs/zhoMP8ubTX/JXE5/xx1Pf8VeUH/EHtD/w58RP8AXQCi/wAMgU//DoBN/xN9S/8beUf/I3VC/y1vPf83ajj/QGUz/0lhL/9PXSv/U1sp/1VaJ/9UWij/UFsp/0peLP9DYS//OmUz/zBqOP8nbjz/HnJA/xd2Q/8SeEb/EHlH/wBdAKL/AA5+Uf8RfFD/FnpN/x12Sf8mcUX/MGxA/zlnOv9DYjb/S14x/1FaLv9VWCv/V1Yq/1ZXKv9SWCz/TVsu/0VeMv88Yjb/Mmc6/ylrP/8hb0P/GnNG/xV1Sf8Sdkr/AF0Aov8AEXpT/xN5Uv8Zdk//IHJM/yluR/8yaUL/PGQ9/0VfOP9OWjP/VFcw/1hULf9aUyz/WVQt/1VVLv9PWDH/R1s0/z9fOP81ZD3/LGhB/yNsRf8ccEn/F3JL/xVzTP8AXQCi/wAUd1X/FnZU/xxzUf8jb03/K2tJ/zVmRP8/YT//SFw6/1BXNf9XVDL/W1Iw/11QLv9bUS//WFIw/1JVM/9KWDb/QV07/zhhP/8uZkT/JmpI/x9tS/8ab03/F3FP/wBdAKL/ABd0V/8ac1X/H3BT/yZtT/8vaEr/OGNF/0JeQP9LWTv/VFU3/1pRM/9eTzH/YE4w/15OMP9bUDL/VVI0/01WOP9EWjz/O19B/zFjRf8pZ0n/ImtN/x1tT/8ablD/AF0Aov8AGnJY/x1wVv8iblT/KWpQ/zJmS/88YUb/RVxB/09XPP9XUjj/XU81/2FNMv9jTDH/Ykwy/15NM/9YUDb/UFQ5/0dYPv8+XUL/NWFH/yxlS/8laU7/IGtR/x5sUv8AXQCi/wAecFj/IW5X/yZsVP8taFD/NmRM/z9fR/9JWkL/UlU9/1pQOf9hTTX/ZUsz/2ZKMv9lSjL/YUw0/1xONv9UUjr/S1Y+/0FbQ/84X0j/L2NM/yhnT/8jaVH/IWtT/wBdAKL/ACJuWP8kbVb/KWpU/zBnUP85Ykz/Q11H/01YQv9WUz3/Xk85/2RMNf9oSTP/akgy/2lJMv9lSjT/X003/1dROv9OVT//RVpD/zteSP8zYkz/LGZP/ydoUv8kaVP/AF0Aov8AJW1X/yhsVv8taVP/NGVP/z1hS/9HXEb/UFdB/1pSPP9iTjj/aEs1/2xIMv9tRzH/bEgy/2lJM/9jTDb/W1A6/1JUPv9IWUP/P11H/zZiTP8vZU//KmdR/yhpU/8AXQCi/wApbFb/LGtU/zFpUv84ZU7/QWBK/0pcRf9UV0D/XVI7/2VON/9sSjP/cEgx/3FHMP9wRzH/bEky/2ZMNf9fUDn/VlQ9/0xZQv9DXUb/OmFL/zNlTv8uZ1H/K2lS/wBdAKL/AC1sVP8wa1L/NWhQ/zxlTP9FYEj/TlxD/1hWPv9hUjn/aU41/3BKMv90SDD/dUcv/3RIL/9wSTH/akw0/2JQN/9ZVDz/UFlA/0ZeRf8+Ykn/N2VN/zJoT/8vaVD/AF0Aov8AMW1R/zRrUP85aU3/QGVK/0lhRf9SXEH/XFc8/2VSN/9tTjP/c0sv/3dJLf95SCz/eEgt/3RKL/9uTTH/ZlE1/11VOv9TWj7/Sl5D/0FjR/86Zkv/NWhN/zNqTv8AXQCi/wA1bk//N2xN/z1qS/9EZkf/TGJD/1ZdPv9gWDn/aVM0/3FPMP93TC3/e0or/3xJKv97SSr/d0ss/3FOL/9qUjP/YVY3/1dbPP9OYEH/RWRF/z5nSP85akv/NmtM/wBdAKL/ADlvS/87bUr/QGtH/0dnRP9QYz//Wl47/2NZNv9tVDH/dVAt/3tNKv9/Syj/gEon/39LJ/97TCn/dU8s/21TMP9kWDT/Wlw5/1FhPv9IZUL/QWlF/zxrSP86bEn/AF0Aov8APHBI/z9vR/9EbET/S2lA/1RkPP9dXzf/Z1sy/3BWLv94Uir/fk8m/4JNJP+ETCT/gkwk/39OJv94USn/cVUt/2hZMf9eXjb/VGM7/0xnP/9Fa0L/QG1F/z1uRv8AXQCi/wBAckT/QnBD/0duQf9Oaj3/V2Y5/2FhNP9qXC//c1gq/3tUJv+CUCP/hU4h/4dOIP+GTiH/glAj/3xTJv90Vyn/a1su/2FgM/9YZTf/T2k8/0htP/9Db0L/QHBD/wBdAKL/AEN0Qf9FckD/SnA9/1FsOf9aaDX/ZGMw/21eK/93WSf/flUj/4VSIP+JUB7/ilAd/4lQHf+FUh//f1Ui/3dZJv9uXSv/ZGIv/1tnNP9Sazj/S288/0ZxPv9DckD/AF0Aov8ARnU9/0h0PP9Ncjr/VG42/11qMv9mZS3/cGAo/3lbI/+BVx//h1Qc/4tSGv+NUhr/i1Ia/4hUHP+BVx//elsj/3BfJ/9nZCz/XWkx/1VtNf9OcTn/SXM7/0Z1Pf8AXQCi/wBIdzr/S3Y5/1BzNv9XcDP/X2su/2lnKv9zYiX/fF0g/4RZHP+KVhn/jlQX/49TFv+OVBf/ilYZ/4RZHP98XSD/c2Ek/2lmKf9gay7/V28y/1BzNv9LdTj/SHc6/wBdAKL/AEp5N/9Ndzb/UnUz/1lxMP9ibSz/a2gn/3VjIv9+Xx3/hlsZ/4xYFv+QVhT/kVUU/5BWFP+MWBb/hlsZ/35fHf91YyL/a2gn/2JtK/9ZcTD/UnUz/013Nv9KeDf/AF0Aov8ATHo1/095NP9UdjH/W3Mu/2NuKf9taiT/d2Ug/4BgG/+IXBf/jlkU/5JXEv+TVxH/klcS/45ZFP+IXBf/gGAb/3dlH/9taiT/ZG4p/1tzLf9UdjH/T3kz/0x6Nf8AXQCi/wBNezP/UHoy/1V3L/9cdCz/ZXAn/25rI/94Zh7/gWEZ/4ldFf+PWhL/k1gQ/5RYD/+TWBD/j1oS/4ldFf+BYRn/eGYe/25rIv9lbyf/XHQr/1V3L/9QejL/TXsz/wBdAKL/AE58Mv9RezD/Vngu/111Kv9mcCb/b2wh/3lnHP+CYhj/il4U/5BbEf+UWQ//lVkO/5RZD/+QWxH/il4U/4JiGP95Zxz/b2wh/2ZwJv9ddSr/Vngu/1F7MP9OfDL/AV0Aov8AT3wx/1F7MP9WeS3/XnUq/2ZxJf9wbCH/eWcc/4JjF/+KXxP/kFwQ/5RaDv+WWQ7/lFoO/5BcEP+KXxP/gmMX/3lnHP9wbCH/ZnEl/151Kv9WeS3/UXsw/098Mf8nznBgHx+0xwAAAABJRU5ErkJggg=="
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAKTQP8EkT//CY88/xGLOP8ZhjT/I4Ev/y18Kf82dyT/P3Ig/0VvHP9JbBr/S2sY/0prGP9HbBr/QW8c/zlyIP8wdiT/J3so/x5/LP8VgzD/DoY0/wmJNv8Hijf/AF0Aov8AApJB/wWRP/8Kjj3/EYo5/xqGNP8jgS//LXsq/zd2Jf8/ciD/RW4d/0psGv9Lahn/SmoZ/0dsGv9Bbh3/OXIg/zF2JP8nein/Hn4t/xWCMf8OhjT/Cog3/weJOP8AXQCi/wACkUL/BZBA/wqNPv8RiTr/GoU1/yR/MP8ueiv/N3Um/0BxIf9GbR7/Smob/0xpGv9LaRr/R2ob/0JtHv86cCH/MXQl/yh5Kv8efS7/FoEy/w+ENf8Khzj/B4g5/wBdAKL/AAOPQ/8GjkL/C4s//xKHO/8bgzf/JX4y/y94LP84cyf/QG8j/0drH/9LaR3/TWcb/0xnHP9IaR3/Qmsf/ztvI/8ycyf/KHcr/x98MP8XgDT/EIM3/wuFOf8Ihjr/AF0Aov8ABI1F/weMRP8MiUH/E4U9/xyBOf8mezT/MHYu/zlxKf9BbSX/SGkh/0xnH/9OZR3/TWUd/0lnH/9DaSH/PG0l/zNxKf8pdS3/IHky/xh9Nv8RgTn/DIM7/wmEPP8AXQCi/wAGikf/CIlG/w6GQ/8Vgz//Hn47/yd5Nv8xdDH/O28r/0NqJ/9JZiP/TWQh/09jIP9OYyD/S2Qh/0VnJP89aif/NG4r/ytzMP8hdzT/GXs4/xJ+O/8NgT7/C4I//wBdAKL/AAeHSv8Khkj/D4NG/xaAQv8fez3/KXY4/zNxM/88bC7/RGcp/0tkJv9PYSP/UWAi/1BgIv9MYST/RmQm/z9nKv82ay7/LHAy/yN0N/8beDv/FHw+/w9+QP8Mf0H/AF0Aov8ACYRM/wyDS/8RgEj/GHxE/yF4QP8rczv/NW41/z5oMP9GZCz/TWAo/1FeJv9TXSX/Ul0l/05eJv9IYSn/QGQs/zhoMP8ubTX/JXE5/xx1Pf8VeUH/EHtD/w58RP8AXQCi/wAMgU//DoBN/xN9S/8beUf/I3VC/y1vPf83ajj/QGUz/0lhL/9PXSv/U1sp/1VaJ/9UWij/UFsp/0peLP9DYS//OmUz/zBqOP8nbjz/HnJA/xd2Q/8SeEb/EHlH/wBdAKL/AA5+Uf8RfFD/FnpN/x12Sf8mcUX/MGxA/zlnOv9DYjb/S14x/1FaLv9VWCv/V1Yq/1ZXKv9SWCz/TVsu/0VeMv88Yjb/Mmc6/ylrP/8hb0P/GnNG/xV1Sf8Sdkr/AF0Aov8AEXpT/xN5Uv8Zdk//IHJM/yluR/8yaUL/PGQ9/0VfOP9OWjP/VFcw/1hULf9aUyz/WVQt/1VVLv9PWDH/R1s0/z9fOP81ZD3/LGhB/yNsRf8ccEn/F3JL/xVzTP8AXQCi/wAUd1X/FnZU/xxzUf8jb03/K2tJ/zVmRP8/YT//SFw6/1BXNf9XVDL/W1Iw/11QLv9bUS//WFIw/1JVM/9KWDb/QV07/zhhP/8uZkT/JmpI/x9tS/8ab03/F3FP/wBdAKL/ABd0V/8ac1X/H3BT/yZtT/8vaEr/OGNF/0JeQP9LWTv/VFU3/1pRM/9eTzH/YE4w/15OMP9bUDL/VVI0/01WOP9EWjz/O19B/zFjRf8pZ0n/ImtN/x1tT/8ablD/AF0Aov8AGnJY/x1wVv8iblT/KWpQ/zJmS/88YUb/RVxB/09XPP9XUjj/XU81/2FNMv9jTDH/Ykwy/15NM/9YUDb/UFQ5/0dYPv8+XUL/NWFH/yxlS/8laU7/IGtR/x5sUv8AXQCi/wAecFj/IW5X/yZsVP8taFD/NmRM/z9fR/9JWkL/UlU9/1pQOf9hTTX/ZUsz/2ZKMv9lSjL/YUw0/1xONv9UUjr/S1Y+/0FbQ/84X0j/L2NM/yhnT/8jaVH/IWtT/wBdAKL/ACJuWP8kbVb/KWpU/zBnUP85Ykz/Q11H/01YQv9WUz3/Xk85/2RMNf9oSTP/akgy/2lJMv9lSjT/X003/1dROv9OVT//RVpD/zteSP8zYkz/LGZP/ydoUv8kaVP/AF0Aov8AJW1X/yhsVv8taVP/NGVP/z1hS/9HXEb/UFdB/1pSPP9iTjj/aEs1/2xIMv9tRzH/bEgy/2lJM/9jTDb/W1A6/1JUPv9IWUP/P11H/zZiTP8vZU//KmdR/yhpU/8AXQCi/wApbFb/LGtU/zFpUv84ZU7/QWBK/0pcRf9UV0D/XVI7/2VON/9sSjP/cEgx/3FHMP9wRzH/bEky/2ZMNf9fUDn/VlQ9/0xZQv9DXUb/OmFL/zNlTv8uZ1H/K2lS/wBdAKL/AC1sVP8wa1L/NWhQ/zxlTP9FYEj/TlxD/1hWPv9hUjn/aU41/3BKMv90SDD/dUcv/3RIL/9wSTH/akw0/2JQN/9ZVDz/UFlA/0ZeRf8+Ykn/N2VN/zJoT/8vaVD/AF0Aov8AMW1R/zRrUP85aU3/QGVK/0lhRf9SXEH/XFc8/2VSN/9tTjP/c0sv/3dJLf95SCz/eEgt/3RKL/9uTTH/ZlE1/11VOv9TWj7/Sl5D/0FjR/86Zkv/NWhN/zNqTv8AXQCi/wA1bk//N2xN/z1qS/9EZkf/TGJD/1ZdPv9gWDn/aVM0/3FPMP93TC3/e0or/3xJKv97SSr/d0ss/3FOL/9qUjP/YVY3/1dbPP9OYEH/RWRF/z5nSP85akv/NmtM/wBdAKL/ADlvS/87bUr/QGtH/0dnRP9QYz//Wl47/2NZNv9tVDH/dVAt/3tNKv9/Syj/gEon/39LJ/97TCn/dU8s/21TMP9kWDT/Wlw5/1FhPv9IZUL/QWlF/zxrSP86bEn/AF0Aov8APHBI/z9vR/9EbET/S2lA/1RkPP9dXzf/Z1sy/3BWLv94Uir/fk8m/4JNJP+ETCT/gkwk/39OJv94USn/cVUt/2hZMf9eXjb/VGM7/0xnP/9Fa0L/QG1F/z1uRv8AXQCi/wBAckT/QnBD/0duQf9Oaj3/V2Y5/2FhNP9qXC//c1gq/3tUJv+CUCP/hU4h/4dOIP+GTiH/glAj/3xTJv90Vyn/a1su/2FgM/9YZTf/T2k8/0htP/9Db0L/QHBD/wBdAKL/AEN0Qf9FckD/SnA9/1FsOf9aaDX/ZGMw/21eK/93WSf/flUj/4VSIP+JUB7/ilAd/4lQHf+FUh//f1Ui/3dZJv9uXSv/ZGIv/1tnNP9Sazj/S288/0ZxPv9DckD/AF0Aov8ARnU9/0h0PP9Ncjr/VG42/11qMv9mZS3/cGAo/3lbI/+BVx//h1Qc/4tSGv+NUhr/i1Ia/4hUHP+BVx//elsj/3BfJ/9nZCz/XWkx/1VtNf9OcTn/SXM7/0Z1Pf8AXQCi/wBIdzr/S3Y5/1BzNv9XcDP/X2su/2lnKv9zYiX/fF0g/4RZHP+KVhn/jlQX/49TFv+OVBf/ilYZ/4RZHP98XSD/c2Ek/2lmKf9gay7/V28y/1BzNv9LdTj/SHc6/wBdAKL/AEp5N/9Ndzb/UnUz/1lxMP9ibSz/a2gn/3VjIv9+Xx3/hlsZ/4xYFv+QVhT/kVUU/5BWFP+MWBb/hlsZ/35fHf91YyL/a2gn/2JtK/9ZcTD/UnUz/013Nv9KeDf/AF0Aov8ATHo1/095NP9UdjH/W3Mu/2NuKf9taiT/d2Ug/4BgG/+IXBf/jlkU/5JXEv+TVxH/klcS/45ZFP+IXBf/gGAb/3dlH/9taiT/ZG4p/1tzLf9UdjH/T3kz/0x6Nf8AXQCi/wBNezP/UHoy/1V3L/9cdCz/ZXAn/25rI/94Zh7/gWEZ/4ldFf+PWhL/k1gQ/5RYD/+TWBD/j1oS/4ldFf+BYRn/eGYe/25rIv9lbyf/XHQr/1V3L/9QejL/TXsz/wBdAKL/AE58Mv9RezD/Vngu/111Kv9mcCb/b2wh/3lnHP+CYhj/il4U/5BbEf+UWQ//lVkO/5RZD/+QWxH/il4U/4JiGP95Zxz/b2wh/2ZwJv9ddSr/Vngu/1F7MP9OfDL/AV0Aov8AT3wx/1F7MP9WeS3/XnUq/2ZxJf9wbCH/eWcc/4JjF/+KXxP/kFwQ/5RaDv+WWQ7/lFoO/5BcEP+KXxP/gmMX/3lnHP9wbCH/ZnEl/151Kv9WeS3/UXsw/098Mf8nznBgHx+0xwAAAABJRU5ErkJggg=="
+              },
+              {
+                "alt": "",
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD5VeO1AAAMRklEQVR4AQBdAKL/AAOUN/8Gkzb/CpA0/xGLMf8Zhi7/IoAr/yt6J/80dCT/O28h/0FqHv9FaBz/RmYb/0VmG/9CaBz/PWse/zZvIP8ucyL/JXkl/xx+KP8Vgiv/DoYt/wqJLv8Hii//AF0Aov8AA5Q3/waSNv8LjzT/EYsy/xmFL/8ifyv/K3ko/zRzJP87biH/QWoe/0VnHf9HZhz/RmYc/0JnHP89ah7/Nm4g/y5zI/8leCb/HX0p/xWCK/8Phi3/Cokv/wiKMP8AXQCi/wAEkzj/B5E3/wuONf8SijP/GoQw/yN+LP8seCj/NXIl/zxtIv9CaR//RmYe/0dlHf9GZR3/Q2Yd/z5pH/83bSH/L3Ik/yZ3J/8dfCn/FoEs/w+FLv8LiDD/CIkx/wBdAKL/AAWROf8IkDj/DIw3/xOINP8bgzH/JH0t/y13Kv82cSb/PWwj/0NnIf9HZB//SGMe/0djHv9EZR//P2gg/zhsIv8wcSX/J3Yo/x57K/8XgC3/EIMw/wyGMf8JiDL/AF0Aov8AB487/wmOOv8Oizj/FIY2/xyBMv8ley//LnUr/zdvKP8+aiX/RGUi/0hjIf9KYSD/SWEg/0VjIP9AZiL/OWok/zFvJ/8odCr/IHkt/xh+L/8SgjH/DYQz/wuGNP8AXQCi/wAIjT3/C4s8/w+IOv8WhDf/Hn40/yd4Mf8wci3/OW0q/0BnJ/9GYyT/SmAj/0tfIv9KXyL/R2Ei/0JkJP87aCb/M20p/ypyLP8hdy//Gnwx/xN/M/8PgjX/DIQ2/wBdAKL/AAqKP/8NiT7/EYU8/xiBOv8gfDb/KXYz/zJwL/87aiz/QmUp/0hhJ/9MXiX/TVwk/0xdJP9JXiX/RGEm/z1lKf80aiv/LG8u/yN0Mf8beTT/FX02/xCAN/8OgTj/AF0Aov8ADYdB/w+GQP8Ugz7/Gn48/yJ5Of8rczX/NG0y/z1nLv9EYiv/Sl4p/05bJ/9PWib/Tlom/0tcJ/9GXyn/P2Mr/zdnLv8ubTH/JXIz/x53Nv8Xejj/E306/xB/O/8AXQCi/wAPhEP/EoNC/xaAQf8dez7/JXY7/y5wOP83ajT/P2Qx/0dfLv9NWyv/UFgp/1JXKf9RVyn/Tlkq/0hcK/9BYC3/OWUw/zBqM/8obzb/IHQ5/xp4O/8Vezz/E3w9/wBdAKL/ABKBRv8UgEX/GX1D/yB4QP8ocz3/MG06/zlnNv9CYTP/Slww/09YLv9TVSz/VVQr/1RUK/9QViz/S1ku/0RdMP88YjP/M2c1/ypsOP8jcTv/HHU9/xh4P/8VeUD/AF0Aov8AFX5I/xd9R/8cekX/I3VD/ytwP/8zajz/PGQ5/0VeNf9NWTL/UlUw/1ZSLv9YUS3/V1Et/1NTLv9OVjD/R1oy/z9fNf82ZTj/LWo7/yZvPf8fc0D/G3VB/xh3Qv8AXQCi/wAYe0r/G3pJ/x93R/8mc0T/Lm1B/zdnPv9AYTr/SFw3/1BXNP9WUzL/WVAw/1tPL/9aTy//VlEw/1FUMv9KWDT/Ql03/zliOv8wZz3/KWxA/yJwQv8ec0P/G3RE/wBdAKL/ABx5S/8ed0r/I3RI/ylwRv8xa0P/OmVA/0NfPP9MWTn/U1Q2/1lQM/9dTTL/Xkwx/11NMf9aTjL/VFE0/01WNv9FWzn/PGA8/zRlP/8sakL/JW5E/yFxRf8eckb/AF0Aov8AH3dM/yJ1S/8mckr/LW5H/zVoRP8+Y0H/R109/09XOv9XUjf/XE41/2BLM/9hSjL/YEsz/11MNP9YUDX/UFQ4/0hZOv9AXj3/N2NA/y9oQ/8pbEX/JG9H/yJwSP8AXQCi/wAjdU3/JXNM/ypwS/8wbEj/OGdF/0FhQv9KWz7/U1U7/1pQOP9gTDb/ZEo0/2VIM/9kSTT/YUs1/1tONv9UUjn/TFc8/0NdP/86YkL/M2dE/yxrRv8obkj/JW9J/wBdAKL/ACZzTv8pck3/Lm5L/zRqSP88ZUX/RV9C/05ZP/9WVDv/Xk85/2RLNv9nSDX/aUc0/2hINP9kSTX/X003/1hROf9PVjz/R1s//z5hQv82ZkX/MGpH/ytsSf8pbkr/AF0Aov8AKnJO/y1wTf8xbUv/OGlI/0BkRf9JXkL/Ulg//1pTO/9iTjn/Z0o2/2tHNf9sRjT/a0c0/2hJNf9iTDf/W1A6/1NVPP9KWz//QmBD/zplRf8zaUj/L2xJ/yxtSv8AXQCi/wAucU3/MHBM/zVtSv88aEj/RGNF/0xeQv9VWD7/XlI7/2VNOP9rSTb/b0c0/3BGNP9vRjT/a0g1/2ZMN/9fUDn/V1U8/05aP/9FYEL/PWVF/zdpR/8ybEn/MG1K/wBdAKL/ADJxTP80b0v/OWxJ/z9oR/9HY0T/UF1B/1lYPf9iUjr/aU03/29JNf9yRzT/dEYz/3JGM/9vSDT/akw2/2JQOf9aVTz/UVs//0lgQv9BZUT/OmlH/zZsSP8zbUn/AF0Aov8ANXFL/zhwSv89bUj/Q2hG/0tjQ/9UXj//XVg8/2VSOf9tTTb/cko0/3ZHMv93RjL/dkcy/3NJM/9tTDX/ZlE4/15WOv9VWz7/TGFB/0RmQ/8+akb/OWxH/zduSP8AXQCi/wA5ckn/O3BI/0BtRv9HaUT/T2RB/1dePv9gWDr/aVM3/3BONP92SjL/eUgx/3tHMP96SDH/dkoy/3FNNP9pUTb/YVc5/1hcPP9QYj//SGZC/0FrRP89bUb/Om9H/wBdAKL/ADxzR/8/cUb/Q25E/0pqQv9SZT//W188/2RZOP9sVDX/c08z/3lLMP99SS//fkgu/31JL/95SzD/dE4y/21TNP9kWDf/W106/1NjPv9LaED/RGxD/0BvRP89cEX/AF0Aov8AQHRF/0JyRP9Hb0L/TWtA/1VmPf9eYDr/Z1s2/29VM/93UDD/fE0u/4BKLf+BSSz/gEot/3xMLv93UDD/cFQy/2dZNf9fXzn/VmQ8/05pPv9IbUH/Q3BC/0FyQ/8AXQCi/wBDdUL/RXNC/0pwQP9QbD3/WGc7/2FiN/9qXDT/clYx/3pSLv9/Tiz/g0wr/4RLKv+DSyv/f04s/3pRLv9zVjD/alsz/2FgNv9ZZjr/UWs8/0pvP/9GckD/Q3NB/wBdAKL/AEZ2QP9IdT//TXI9/1NuO/9baTj/ZGM1/21dMv91WC//fFMs/4JQKv+GTSj/h0wo/4ZNKP+CTyr/fVMs/3VXLv9tXTH/ZGI0/1toN/9UbTr/TXE9/0h0Pv9GdT//AF0Aov8ASHg+/0p2Pf9Pczv/Vm85/11qNv9mZTP/b18v/3daLP9/VSr/hFEo/4hPJv+JTib/iE8m/4VRJ/9/VCn/eFks/29eL/9nZDL/Xmk1/1ZuOP9Pcjr/S3U8/0h3Pf8AXQCi/wBKeTz/TXg7/1F1Of9YcTf/YGw0/2hmMf9xYC3/elsq/4FWKP+HUyX/ilAk/4tQJP+KUCT/h1Ml/4FWJ/96Wyr/cWAt/2lmMP9gazP/WHA2/1J0OP9Ndzr/S3k7/wBdAKL/AEx7Ov9OeTn/U3Y3/1pyNf9ibTL/amcv/3NiK/98XCj/g1gm/4hUJP+MUiL/jVEi/4xSIv+IVCP/g1gl/3xcKP9zYSv/amcu/2JtMf9acjT/U3Y3/095OP9Mejn/AF0Aov8ATnw4/1B6N/9VdzX/W3Mz/2NuMP9saS3/dWMq/31eJ/+EWST/ilUi/41TIf+PUiD/jVMh/4pVIv+EWST/fV0n/3VjKv9saC3/Y24w/1tzM/9VdzX/UHo3/057OP8AXQCi/wBPfTf/UXs2/1Z4NP9cdDL/ZG8v/21pLP92ZCj/fl4l/4VaI/+LViH/j1Qf/5BTH/+PVB//i1Yh/4VaI/9+XiX/dmQo/21pLP9kby//XHQy/1Z4NP9Rezb/T302/wBdAKL/AFB9Nv9SfDX/V3kz/111Mf9lcC7/bmor/3dkKP9/XyT/hlsi/4xXIP+PVR7/kVQe/49VHv+MVyD/hloi/39fJP93ZCf/bmor/2VwLv9ddTH/V3kz/1J8Nf9QfTb/AV0Aov8AUH41/1J8NP9XeTP/XXUw/2VwLf9uair/d2Un/39fJP+HWyH/jFcf/5BVHv+RVB7/kFUe/4xXH/+HWyH/f18k/3dlJ/9uair/ZXAt/111MP9XeTP/Unw0/1B+Nf9dSHByhpYpGAAAAABJRU5ErkJggg=="
+              }
+            ],
+            "links": [
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771854855843930/IMG_9961.png?ex=6ad14f1a&is=6acffd9a&hm=c4b64120ea82eb31d6cfb54538fbd9cd0b473114499bce1a996f44e20ef5197e&"
+              },
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771855417872475/IMG_9959.png?ex=6ad14f1a&is=6acffd9a&hm=5e5725bfcf891ecba524bc6ea5f938e5c459b16aa7ed09299ad49987a51baffa&"
+              },
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771855975718922/IMG_9958.png?ex=6ad14f1b&is=6acffd9b&hm=617a37a1b060450001a9aa00360125276f631c41614418e7f91aed82f3e63901&"
+              },
+              {
+                "text": "",
+                "url": "https://cdn.discordapp.com/attachments/636461740162416640/1192771856550342656/IMG_9957.png?ex=6ad14f1b&is=6acffd9b&hm=f0454e9c35590e6263dc851f0561a9ae61064ebe510074b595be8291933a99cc&"
+              }
+            ],
+            "text": "Sucha — 1/5/24, 2:09 AMFriday, January 5, 2024 at 2:09 AM安定",
+            "sourceMessageId": "1192771856831352832",
+            "postedAt": "2024-01-05T10:09:31.298Z"
+          }
+        ]
+      }
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/newyear2024-SamBv_-qaOY-4f3ab18f7dd631bf978e.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=SamBv_-qaOY",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "4f3ab18f7dd631bf978e25516344831f93448552563f69d156f2c37fa851c75f",
+      "bytes": 25629828,
+      "preservedOriginalFile": "archive/video-backup-files/newyear2024-sucha8818/original.mp4",
+      "reviewAudit": "archive/newyear2024-original-preservation-and-source-review-20261015.json"
+    },
+    "videoPublishedAt": "2024-01-05T10:08:54Z",
+    "videoSubmittedAt": "2024-01-05T10:09:12.022Z",
+    "videoSubmissionDateBasis": "surviving-submit-receipt-post-date",
+    "videoSubmissionSource": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192771775981961276",
+      "kind": "executed-submit-receipt"
+    },
+    "videoScope": "result-reviewed",
+    "videoScopeReview": {
+      "startToFinishContinuityVerified": false,
+      "priorLapAndResultAssessmentRetainedByMatchingSha256": true,
+      "reviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json"
+    },
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=SamBv_-qaOY",
+      "metadataFile": "archive/video-backup-files/newyear2024-sucha8818/original.info.json",
+      "metadataSHA256": "3f3e2cd9e470d1616caeea14ff1d2f927cf3eb5eb6a5aa427d647446b50cdf18"
+    },
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192771775981961276",
+        "kind": "matched-existing-wr-receipt",
+        "receiptObservedAt": "2024-01-05T10:09:12.022Z",
+        "samePerformance": true
+      }
+    ]
   },
   {
     "messageId": "1193064163216461878-newyear2024-image-reviewed",
@@ -161628,8 +161963,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2024-01-06T05:31:02.571Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/961399464529125436/1193064167490453514/IMG_9978.png?ex=6abd4757&is=6abbf5d7&hm=9065ac98ccc3511ffd67d58d4900e95b07fbde623db233a84e40502425fb5c94&",
-    "proofImageLocal": "/assets/proof/newyear2024-1193064167490453514.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1193064167490453514-b3a141087a268b09a0a7.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1193064167490453514-b3a141087a268b09a0a7.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1193064163216461878",
@@ -161648,29 +161983,67 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.18",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "44.10",
       "43.93"
     ],
     "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
     "videoVerified": true,
-    "videoAvailability": "preserved-local",
+    "videoAvailability": "available",
     "videoPreservation": {
       "file": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.mp4",
-      "bytes": 9772565,
       "sha256": "97390772655d1fc400b75b0c6ec4286e7f32180ada52879c444161242b971a62",
-      "durationSeconds": 106.501,
-      "backupUploadStatus": "pending"
+      "bytes": 9772565,
+      "backupUploadStatus": "r2-verified"
     },
     "videoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "proofVideoUrl": "https://www.youtube.com/watch?v=GGx9ButjtbU",
     "proofVideoVerified": true,
-    "proofVideoLocal": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.mp4",
     "proofVideoReviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json",
     "lapVerification": "video-first-lap-and-total-verified-second-lap-derived",
-    "derivedLap2": true
+    "derivedLap2": true,
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-06",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/newyear2024-GGx9ButjtbU-97390772655d1fc400b7.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=GGx9ButjtbU",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "97390772655d1fc400b75b0c6ec4286e7f32180ada52879c444161242b971a62",
+      "bytes": 9772565,
+      "preservedOriginalFile": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.mp4",
+      "reviewAudit": "archive/newyear2024-original-preservation-and-source-review-20261015.json"
+    },
+    "videoPublishedAt": "2024-01-06T05:23:36Z",
+    "videoSubmittedAt": "2024-01-06T05:31:02.571Z",
+    "videoSubmissionDateBasis": "surviving-submit-receipt-post-date",
+    "videoSubmissionSource": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1193064163216461878",
+      "kind": "executed-submit-receipt"
+    },
+    "videoScope": "result-reviewed",
+    "videoScopeReview": {
+      "startToFinishContinuityVerified": false,
+      "priorLapAndResultAssessmentRetainedByMatchingSha256": true,
+      "reviewAudit": "archive/newyear2024-five-original-video-revalidation-20261008.json"
+    },
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=GGx9ButjtbU",
+      "metadataFile": "archive/video-backup-files/sucha-recovered/GGx9ButjtbU/original.info.json",
+      "metadataSHA256": "bafa41987414f4867cdd6ef21772e48cab1749928ce7f285050310af8aa54e9d"
+    }
   },
   {
     "messageId": "1190203978185703514-newyear2024-image-reviewed",
@@ -161684,8 +162057,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2023-12-29T08:05:41.320Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1190203977992773632/2023-12-29-17-05-05.jpg?ex=6abd6b95&is=6abc1a15&hm=157c3d426417778c6cbb222f12b65f39ab0c8d5a7071e42bea557a0069fbe3f0&",
-    "proofImageLocal": "/assets/proof/newyear2024-1190203977992773632.jpg",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1190203977992773632-505e446e5d0ad5d80019.jpg",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1190203977992773632-505e446e5d0ad5d80019.jpg",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1190203978185703514",
@@ -161703,29 +162076,68 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:35.85",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "47.76",
       "48.01"
     ],
     "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
     "videoVerified": true,
-    "videoAvailability": "preserved-local",
+    "videoAvailability": "available",
     "videoPreservation": {
       "file": "archive/video-backup-files/newyear2024-nekozuki9577/original.mp4",
-      "bytes": 21343168,
       "sha256": "fb72ba0dd94014c3143f6b33672bb068e14008370e5ca18460bb984e8c39fa74",
-      "durationSeconds": 105.461,
-      "backupUploadStatus": "pending"
+      "bytes": 21343168,
+      "backupUploadStatus": "r2-verified"
     },
     "videoReviewAudit": "archive/newyear2024-two-recovered-original-video-review-20261008.json",
     "proofVideoUrl": "https://www.youtube.com/watch?v=sOBef-lkj0M",
     "proofVideoVerified": true,
-    "proofVideoLocal": "archive/video-backup-files/newyear2024-nekozuki9577/original.mp4",
     "proofVideoReviewAudit": "archive/newyear2024-two-recovered-original-video-review-20261008.json",
     "lapVerification": "video-first-lap-and-total-verified-second-lap-derived",
-    "derivedLap2": true
+    "derivedLap2": true,
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-29",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/newyear2024-sOBef-lkj0M-fb72ba0dd94014c3143f.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=sOBef-lkj0M",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "fb72ba0dd94014c3143f6b33672bb068e14008370e5ca18460bb984e8c39fa74",
+      "bytes": 21343168,
+      "preservedOriginalFile": "archive/video-backup-files/newyear2024-nekozuki9577/original.mp4",
+      "reviewAudit": "archive/newyear2024-original-preservation-and-source-review-20261015.json"
+    },
+    "videoPublishedAt": "2023-12-29T08:17:26Z",
+    "videoSubmittedAt": "2023-12-29T09:29:42.686Z",
+    "videoSubmissionDateBasis": "observed-human-video-post",
+    "videoSubmissionSource": null,
+    "videoScope": "result-reviewed",
+    "videoScopeReview": {
+      "startToFinishContinuityVerified": false,
+      "priorLapAndResultAssessmentRetainedByMatchingSha256": true,
+      "reviewAudit": "archive/newyear2024-two-recovered-original-video-review-20261008.json"
+    },
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=sOBef-lkj0M",
+      "metadataFile": "archive/video-backup-files/newyear2024-nekozuki9577/original.info.json",
+      "metadataSHA256": "4b11874e6b1a3e652f5f3ef8d0eb8852b06b83ab137314b8d4bd9de6b9757b43"
+    },
+    "videoSharedAt": "2023-12-29T09:29:42.686Z",
+    "videoShareSource": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/1190225123207282718"
+    }
   },
   {
     "messageId": "1190235618907787366-newyear2024-image-reviewed",
@@ -161739,8 +162151,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2023-12-29T10:11:25.056Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1190235618639355925/2023-12-29-19-08-51.jpg?ex=6abd890c&is=6abc378c&hm=83f5473df75680de966ad1282dbcacf010ae10737fa1b0ea474df93314581b54&",
-    "proofImageLocal": "/assets/proof/newyear2024-1190235618639355925.jpg",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1190235618639355925-40e9e0a4f55381ffdf4f.jpg",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1190235618639355925-40e9e0a4f55381ffdf4f.jpg",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1190235618907787366",
@@ -161757,13 +162169,25 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:35.77",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "47.91",
       "47.79"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-29",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1191705572303720488-newyear2024-image-reviewed",
@@ -161774,8 +162198,8 @@
     "status": "community-wr",
     "includeInProgression": true,
     "submittedAt": "2024-01-02T11:32:29.256Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1191705572098191360/2024-01-02-14-41-20.jpg?ex=6abd9c0d&is=6abc4a8d&hm=9d1fd5bd626210d9f7726f0a98d445afe8faa1c3c932059b214ba53af8811a1b&",
-    "proofImageLocal": "/assets/proof/newyear2024-1191705572098191360.jpg",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1191705572098191360-0961007c1138d1c9fe95.jpg",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191705572098191360-0961007c1138d1c9fe95.jpg",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191705572303720488",
@@ -161793,8 +162217,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:35.70",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-02",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1189566057212559360-newyear2024-support-image-reviewed",
@@ -161867,8 +162303,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2023-12-28T08:47:24.956Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1189852091095724113/IMG_0264.png?ex=6abd755c&is=6abc23dc&hm=a7df9841096826ddef3f649e96e19172d842aff7437e18bbc86ea9693446fbe5&",
-    "proofImageLocal": "/assets/proof/newyear2024-1189852091095724113.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1189852091095724113-2be14dcf881a3b0106e6.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1189852091095724113-2be14dcf881a3b0106e6.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1189852091330596944",
@@ -161884,9 +162320,21 @@
     "originalImageReviewAudit": "archive/newyear2024-opening-eight-image-reconciliation-20261008.json",
     "previousBest": null,
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
-    "attributionUnresolved": true
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "attributionUnresolved": true,
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-28",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1189872699321884712-newyear2024-support-image-reviewed",
@@ -161897,8 +162345,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2023-12-28T10:09:18.284Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1189872698910846977/IMG_9668.png?ex=6abd888e&is=6abc370e&hm=9ef28afd08f25f5c829255049792384b5686f57b26229c5d27160c3dabdb8c51&",
-    "proofImageLocal": "/assets/proof/newyear2024-1189872698910846977.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1189872698910846977-4358e0e9df5d38fbaed7.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1189872698910846977-4358e0e9df5d38fbaed7.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1189872699321884712",
@@ -161914,8 +162362,20 @@
     "originalImageReviewAudit": "archive/newyear2024-opening-eight-image-reconciliation-20261008.json",
     "previousBest": "1:28.71",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-28",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1189917882562392184-newyear2024-support-image-reviewed",
@@ -161926,8 +162386,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2023-12-28T13:08:50.808Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1189917882365267988/2023-12-28-22-07-48.jpg?ex=6abdb2a2&is=6abc6122&hm=fbd59b3025d3053a2af6ac0f3c1eb27680a77d270ee653d126d3c3b8c749c073&",
-    "proofImageLocal": "/assets/proof/newyear2024-1189917882365267988.jpg",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1189917882365267988-7de18cfa57e5a12e5e06.jpg",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1189917882365267988-7de18cfa57e5a12e5e06.jpg",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1189917882562392184",
@@ -161944,8 +162404,20 @@
     "originalImageReviewAudit": "archive/newyear2024-opening-eight-image-reconciliation-20261008.json",
     "previousBest": "1:35.89",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-28",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1189927965878919168-newyear2024-support-image-reviewed",
@@ -161956,8 +162428,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2023-12-28T13:48:54.858Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1189927965534994563/IMG_9691.png?ex=6abdbc06&is=6abc6a86&hm=7fdd951c0a49cb152675fab9293996304dfce1c80544320493ff9754e90d8bf4&",
-    "proofImageLocal": "/assets/proof/newyear2024-1189927965534994563.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1189927965534994563-c56138a9d3a851725d0e.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1189927965534994563-c56138a9d3a851725d0e.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1189927965878919168",
@@ -161973,8 +162445,20 @@
     "originalImageReviewAudit": "archive/newyear2024-opening-eight-image-reconciliation-20261008.json",
     "previousBest": "1:38.13",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-28",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1189928190215462912-newyear2024-support-image-reviewed",
@@ -161988,8 +162472,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2023-12-28T13:49:48.344Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1189928189963812944/IMG_0935.png?ex=6abdbc3c&is=6abc6abc&hm=49041a2d30aa2493c8c5958166caa632bdb3e3c4269233324223309379cd40a8&",
-    "proofImageLocal": "/assets/proof/newyear2024-1189928189963812944.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1189928189963812944-a8fc655ae089684f72b4.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1189928189963812944-a8fc655ae089684f72b4.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1189928190215462912",
@@ -162005,13 +162489,25 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.91",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "44.57",
       "44.26"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-28",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1191375675408527370-newyear2024-support-image-reviewed",
@@ -162022,8 +162518,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-01T13:41:35.707Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1191375675047809065/IMG_9852.png?ex=6abdba4f&is=6abc68cf&hm=c9a2b02c4de5956c9da4022ed1e962e9edfdf44ead713fc0dfeb63d148b158a7&",
-    "proofImageLocal": "/assets/proof/newyear2024-1191375675047809065.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1191375675047809065-e9fbcc8613b07ceb866c.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191375675047809065-e9fbcc8613b07ceb866c.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191375675408527370",
@@ -162039,8 +162535,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.55",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-01",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1191392533150978148-newyear2024-support-image-reviewed",
@@ -162051,8 +162559,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-01T14:48:34.906Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1191392532903506000/IMG_3855.png?ex=6abdca02&is=6abc7882&hm=fa9e98a6305f1376dd04b5e6dae6f5a3c6c0a6fd501d2eb91db34d9cb6461e3e&",
-    "proofImageLocal": "/assets/proof/newyear2024-1191392532903506000.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1191392532903506000-f3a12684d765eda99c6e.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191392532903506000-f3a12684d765eda99c6e.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191392533150978148",
@@ -162068,8 +162576,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.71",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-01",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1191432870967906454-newyear2024-support-image-reviewed",
@@ -162080,8 +162600,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-01T17:28:52.191Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1191432870686892093/IMG_3033.png?ex=6abd46d4&is=6abbf554&hm=c93260059855507c08f3eac81fa7c0659c07d2018615613a6f0a6d1117e2a384&",
-    "proofImageLocal": "/assets/proof/newyear2024-1191432870686892093.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1191432870686892093-6b9eb33960ee2a3b0dc3.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191432870686892093-6b9eb33960ee2a3b0dc3.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191432870967906454",
@@ -162098,8 +162618,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:36.32",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-01",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1191823053513048084-newyear2024-support-image-reviewed",
@@ -162110,8 +162642,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-02T19:19:18.959Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1191823053290745918/IMG_1271.png?ex=6abd60b6&is=6abc0f36&hm=2d2ad221fc12c3b5eb0d40ab8b0158154089803437147425e12279490b078c32&",
-    "proofImageLocal": "/assets/proof/newyear2024-1191823053290745918.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1191823053290745918-36c99d80b9df6dde89ec.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191823053290745918-36c99d80b9df6dde89ec.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191823053513048084",
@@ -162128,10 +162660,22 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:30.48",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "attributionUnresolved": true,
-    "slowRunExcludedFromProgression": true
+    "slowRunExcludedFromProgression": true,
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-02",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1191902499704160398-newyear2024-support-image-reviewed",
@@ -162145,8 +162689,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-03T00:35:00.407Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1191902499515400282/Screenshot_2024-01-03-01-33-23-844.jpg?ex=6abdaab4&is=6abc5934&hm=93d991e593f453eade2c5201e6dc58bf0795ce09238f113e751541658d8158ec&",
-    "proofImageLocal": "/assets/proof/newyear2024-1191902499515400282.jpg",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1191902499515400282-4af72f871367e2e173b8.jpg",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1191902499515400282-4af72f871367e2e173b8.jpg",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1191902499704160398",
@@ -162162,8 +162706,8 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:36.31",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "47.83",
       "48.09"
@@ -162176,7 +162720,19 @@
       "messageId": "1191902515546030180",
       "publishedAt": "2024-01-03T00:35:04.184Z",
       "basis": "Bot account619934359587389451 matches public profilemb3."
-    }
+    },
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-03",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1192040721457348668-newyear2024-support-image-reviewed",
@@ -162190,8 +162746,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-03T09:44:15.041Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1192040720970817546/IMG_0958.png?ex=6abd82ae&is=6abc312e&hm=2fb3a366a27b3144e372f6a6d0f10fa80da5001e6dfc02a26492bf0886249fc6&",
-    "proofImageLocal": "/assets/proof/newyear2024-1192040720970817546.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192040720970817546-e5ce9df4dc1d2f82b982.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192040720970817546-e5ce9df4dc1d2f82b982.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192040721457348668",
@@ -162207,13 +162763,25 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:36.54",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "48.10",
       "48.39"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-03",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1192421452050346045-newyear2024-support-image-reviewed",
@@ -162227,8 +162795,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-04T10:57:08.288Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1192421451777703998/IMG_1554.png?ex=6abd93c4&is=6abc4244&hm=405c489aa9c8cc60ea0d98927d641f44f2453c205cf1596c7127f81182bb2317&",
-    "proofImageLocal": "/assets/proof/newyear2024-1192421451777703998.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192421451777703998-d9eca216b00cc6c232f9.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192421451777703998-d9eca216b00cc6c232f9.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1192421452050346045",
@@ -162246,13 +162814,25 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:28.85",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "reportedSourceLaps": [
       "44.42",
       "44.35"
     ],
-    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified"
+    "sourceCaptionLapVerification": "reported-source-splits-sum-matches-total-not-gameplay-verified",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-04",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1193415678728867901-newyear2024-support-image-reviewed",
@@ -162263,8 +162843,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-07T04:47:50.400Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1193415678481420369/IMG_1321.png?ex=6abde5f6&is=6abc9476&hm=7fc79239229dffd50e113e02798e37c726e4b60311c2a810dd0e950c2bea1452&",
-    "proofImageLocal": "/assets/proof/newyear2024-1193415678481420369.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1193415678481420369-d5ce9891d81bfe3755b3.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1193415678481420369-d5ce9891d81bfe3755b3.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1193415678728867901",
@@ -162280,8 +162860,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:30.48",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-07",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1193935386645372958-newyear2024-support-image-reviewed",
@@ -162292,8 +162884,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-08T15:12:58.423Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1193935386234335272/IMG_8270.png?ex=6abdcfba&is=6abc7e3a&hm=f4580d122c905882b5241484bf651a2c6ec659dc950405ce0d633fbf1f06fd2d&",
-    "proofImageLocal": "/assets/proof/newyear2024-1193935386234335272.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1193935386234335272-8cd55216cd6eb27b08ff.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1193935386234335272-8cd55216cd6eb27b08ff.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1193935386645372958",
@@ -162309,8 +162901,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:30.08",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-08",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1193977040278388837-newyear2024-support-image-reviewed",
@@ -162321,8 +162925,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-08T17:58:29.423Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1193977040068685885/Screenshot_20240108-185513_Mario_Kart.jpg?ex=6abd4dc5&is=6abbfc45&hm=e3afc560dcdf4d893eb11046e097e7a83ad82311f3546f4da275158e6597beb1&",
-    "proofImageLocal": "/assets/proof/newyear2024-1193977040068685885.jpg",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1193977040068685885-ffbde02b0754b9c047e5.jpg",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1193977040068685885-ffbde02b0754b9c047e5.jpg",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1193977040278388837",
@@ -162338,8 +162942,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:29.80",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-08",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1194300544597106740-newyear2024-support-image-reviewed",
@@ -162350,8 +162966,8 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-09T15:23:58.863Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1194300544341258330/IMG_1657.png?ex=6abdd24e&is=6abc80ce&hm=34ca56bfa3b5965dfb51432fa266b301c657ede20e9b37a868b0c314063d7466&",
-    "proofImageLocal": "/assets/proof/newyear2024-1194300544341258330.png",
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1194300544341258330-427073be33dea9587d3b.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1194300544341258330-427073be33dea9587d3b.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1194300544597106740",
@@ -162367,8 +162983,20 @@
     "originalImageReviewAudit": "archive/newyear2024-remaining23-image-reconciliation-20261008.json",
     "previousBest": "1:37.34",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024"
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2024-01-09",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1192771856831352832-1192771855975718922-newyear2024-discussion-reviewed",
@@ -162379,7 +163007,7 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-05T10:09:31.298Z",
-    "proofImageLocal": "/assets/proof/newyear2024-1192771855975718922.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192771855975718922-ff848ad8b5618c141c1d.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/636461740162416640/1192771856831352832",
@@ -162389,7 +163017,26 @@
     "notes": [
       "Original completed screenshot visually reviewed in four-image discussion bundle.",
       "First known publication after REMON1:28.29andSucha1:28.18; cannot assume historical WR status without earlier publication evidence."
-    ]
+    ],
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192771855975718922-ff848ad8b5618c141c1d.png",
+    "originalImageLocal": "public/assets/proof/newyear2024-1192771855975718922.png",
+    "originalImageSHA256": "ff848ad8b5618c141c1dd17da0f848bf5601626bf6d35b15b206af295ba525b5",
+    "originalImageReviewAudit": "archive/newyear2024-discussion-image-review-20261005.json",
+    "proofField": "result-total",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": false,
+    "recordDate": "2024-01-05",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "chronologyUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "courseAppearance": "New Year's Tour (2024)",
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1192771856831352832-1192771856550342656-newyear2024-discussion-reviewed",
@@ -162400,7 +163047,7 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2024-01-05T10:09:31.298Z",
-    "proofImageLocal": "/assets/proof/newyear2024-1192771856550342656.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1192771856550342656-7e8ba4666935c290d73f.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/636461740162416640/1192771856831352832",
@@ -162410,7 +163057,26 @@
     "notes": [
       "Original completed screenshot visually reviewed in four-image discussion bundle.",
       "First known publication after REMON1:28.29andSucha1:28.18; cannot assume historical WR status without earlier publication evidence."
-    ]
+    ],
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1192771856550342656-7e8ba4666935c290d73f.png",
+    "originalImageLocal": "public/assets/proof/newyear2024-1192771856550342656.png",
+    "originalImageSHA256": "7e8ba4666935c290d73f4135206686db2dadf73fd410582bc72572693d53241c",
+    "originalImageReviewAudit": "archive/newyear2024-discussion-image-review-20261005.json",
+    "proofField": "result-total",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": false,
+    "recordDate": "2024-01-05",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "chronologyUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "courseAppearance": "New Year's Tour (2024)",
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1189553314866659358-newyear2024-omitted-image-reviewed",
@@ -162421,7 +163087,7 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2023-12-27T13:00:11.096Z",
-    "proofImageLocal": "/assets/proof/newyear2024-1189553314631790654.webp",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1189553314631790654-effb772a0f0922636fa4.webp",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1189553314866659358",
@@ -162437,8 +163103,8 @@
     "originalImageReviewAudit": "archive/newyear2024-opening-eight-image-reconciliation-20261008.json",
     "previousBest": "1:36.10",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "originalImageProvenance": {
       "kind": "saved-discord-webp-image",
       "savedFormat": "WEBP",
@@ -162448,7 +163114,20 @@
       ],
       "originalCDNBytesRecovered": false,
       "note": "Saved file is WebP while referenced attachment filename is JPEG. Recovered original CDN bytes are not established."
-    }
+    },
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1189553314631790654-effb772a0f0922636fa4.webp",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-27",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs."
   },
   {
     "messageId": "1189557762129150073-newyear2024-omitted-image-reviewed",
@@ -162462,7 +163141,7 @@
     "status": "documented-support",
     "includeInProgression": false,
     "submittedAt": "2023-12-27T13:17:51.406Z",
-    "proofImageLocal": "/assets/proof/newyear2024-1189557761864892518.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1189557761864892518-0120fe77ee2c6e81f2f1.png",
     "proofImageVerified": true,
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1189557762129150073",
@@ -162479,24 +163158,64 @@
     "originalImageReviewAudit": "archive/newyear2024-opening-eight-image-reconciliation-20261008.json",
     "previousBest": "1:28.93",
     "proofField": "result-total",
-    "chronologyUnresolved": true,
-    "courseAppearance": "New Year's Tour appearance 2024",
+    "chronologyUnresolved": false,
+    "courseAppearance": "New Year's Tour (2024)",
     "videoVerified": true,
-    "videoAvailability": "preserved-local",
+    "videoAvailability": "available",
     "videoPreservation": {
       "file": "archive/video-backup-files/newyear2024-sucha8871/original.mp4",
-      "bytes": 91428906,
       "sha256": "a7e3c7d060ff56e03a8901193ca6c70f3f29ad2d4331c5fe8b41c3a5aff32a9f",
-      "durationSeconds": 107.341,
-      "backupUploadStatus": "pending"
+      "bytes": 91428906,
+      "backupUploadStatus": "r2-verified"
     },
     "videoReviewAudit": "archive/newyear2024-two-recovered-original-video-review-20261008.json",
     "proofVideoUrl": "https://www.youtube.com/watch?v=lhI0-6NjqJI",
     "proofVideoVerified": true,
-    "proofVideoLocal": "archive/video-backup-files/newyear2024-sucha8871/original.mp4",
     "proofVideoReviewAudit": "archive/newyear2024-two-recovered-original-video-review-20261008.json",
     "lapVerification": "video-first-lap-and-total-verified-second-lap-derived",
-    "derivedLap2": true
+    "derivedLap2": true,
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1189557761864892518-0120fe77ee2c6e81f2f1.png",
+    "freshVisualReview": false,
+    "priorImageReviewRetainedByMatchingSha256": true,
+    "recordDate": "2023-12-27",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Original source posting date supplies the submission date. Previous-best fields do not establish separate dated WRs.",
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/newyear2024-lhI0-6NjqJI-a7e3c7d060ff56e03a89.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=lhI0-6NjqJI",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "a7e3c7d060ff56e03a8901193ca6c70f3f29ad2d4331c5fe8b41c3a5aff32a9f",
+      "bytes": 91428906,
+      "preservedOriginalFile": "archive/video-backup-files/newyear2024-sucha8871/original.mp4",
+      "reviewAudit": "archive/newyear2024-original-preservation-and-source-review-20261015.json"
+    },
+    "videoPublishedAt": "2023-12-27T13:39:25Z",
+    "videoSubmittedAt": "2023-12-27T21:55:20.721Z",
+    "videoSubmissionDateBasis": "observed-human-video-post",
+    "videoSubmissionSource": null,
+    "videoScope": "result-reviewed",
+    "videoScopeReview": {
+      "startToFinishContinuityVerified": false,
+      "priorLapAndResultAssessmentRetainedByMatchingSha256": true,
+      "reviewAudit": "archive/newyear2024-two-recovered-original-video-review-20261008.json"
+    },
+    "videoPublicationSource": {
+      "url": "https://www.youtube.com/watch?v=lhI0-6NjqJI",
+      "metadataFile": "archive/video-backup-files/newyear2024-sucha8871/original.info.json",
+      "metadataSHA256": "8d5194477a768b92102d59d80b5c26b76a20d4cbcbb318b0200690b72d23efbd"
+    },
+    "videoSharedAt": "2023-12-27T21:55:20.721Z",
+    "videoShareSource": {
+      "url": "https://discord.com/channels/629221606064914442/636461740162416640/1189687992395239444"
+    }
   },
   {
     "messageId": "1194537162054565889-space2024-image-reviewed",
@@ -418950,5 +419669,131 @@
     "wrStatusReview": "verified-not-wr-at-publication",
     "proofImageVerified": true,
     "evidenceNote": "Preserved original result; source posting date supplies submission date. A previous personal best is not an independently dated historical result."
+  },
+  {
+    "messageId": "1194662613175513188-newyear2024-closing-receipt-reviewed",
+    "player": "Retro",
+    "courseId": "wii-koopa-cape",
+    "time": "1:36.68",
+    "laps": [],
+    "status": "documented-support",
+    "includeInProgression": false,
+    "submittedAt": "2024-01-10T15:22:42.739Z",
+    "recordDate": "2024-01-10",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "chronologyUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "courseAppearance": "New Year's Tour (2024)",
+    "lateTourSubmission": true,
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1194662612940640287-62f814788812b45cf762.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1194662612940640287-62f814788812b45cf762.png",
+    "proofImageVerified": false,
+    "originalImageLocal": "archive/newyear2024-preserved-closing-images/1194662612940640287.png",
+    "originalImageSHA256": "62f814788812b45cf762c84e8fa031f2caaa8e32c210f776bb9943188f7480e4",
+    "proofField": "receipt-documented-result-with-unverified-linked-image",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1194662613175513188",
+      "channel": "tt-submission",
+      "messageId": "1194662613175513188"
+    },
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1194662618401611816",
+        "kind": "accepted-result-receipt"
+      }
+    ],
+    "receiptResultVerified": true,
+    "freshVisualReview": false,
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Course and result documented by the surviving accepted receipt. Original image preserved without fresh visual certification. Posted after tour close; actual January 10 submission date retained."
+  },
+  {
+    "messageId": "1194662588143911064-newyear2024-closing-receipt-reviewed",
+    "player": "Retro",
+    "courseId": "3ds-piranha-plant-slide",
+    "time": "1:29.09",
+    "laps": [],
+    "status": "documented-support",
+    "includeInProgression": false,
+    "submittedAt": "2024-01-10T15:22:36.771Z",
+    "recordDate": "2024-01-10",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "chronologyUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "courseAppearance": "New Year's Tour (2024)",
+    "lateTourSubmission": true,
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1194662583458861218-6147344c527fc111ddf1.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1194662583458861218-6147344c527fc111ddf1.png",
+    "proofImageVerified": false,
+    "originalImageLocal": "archive/newyear2024-preserved-closing-images/1194662583458861218.png",
+    "originalImageSHA256": "6147344c527fc111ddf19c008cc7920346e47aed4e31e730b3ff63e82e3e8f43",
+    "proofField": "receipt-documented-result-with-unverified-linked-image",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1194662588143911064",
+      "channel": "tt-submission",
+      "messageId": "1194662588143911064"
+    },
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1194662596826107957",
+        "kind": "accepted-result-receipt"
+      }
+    ],
+    "receiptResultVerified": true,
+    "freshVisualReview": false,
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Course and result documented by the surviving accepted receipt. Original image preserved without fresh visual certification. Posted after tour close; actual January 10 submission date retained."
+  },
+  {
+    "messageId": "1194537162054565889-newyear2024-closing-receipt-reviewed",
+    "player": "ebisu6062",
+    "courseId": "3ds-piranha-plant-slide",
+    "time": "1:29.41",
+    "laps": [],
+    "status": "documented-support",
+    "includeInProgression": false,
+    "submittedAt": "2024-01-10T07:04:12.861Z",
+    "recordDate": "2024-01-10",
+    "dateBasis": "original-post-submission-date",
+    "dateUnresolved": false,
+    "dateEvidenceUnresolved": false,
+    "chronologyUnresolved": false,
+    "tourDateRange": {
+      "start": "2023-12-27",
+      "end": "2024-01-09"
+    },
+    "courseAppearance": "New Year's Tour (2024)",
+    "lateTourSubmission": true,
+    "proofImage": "https://media.mktwrs.com/assets/proof/newyear2024-1194537161765175306-ed88b38b18e165199049.png",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/newyear2024-1194537161765175306-ed88b38b18e165199049.png",
+    "proofImageVerified": false,
+    "originalImageLocal": "archive/newyear2024-preserved-closing-images/1194537161765175306.png",
+    "originalImageSHA256": "ed88b38b18e1651990499583b0c1223f5f04cfb8fe5651d4979a7637bc351cc5",
+    "proofField": "receipt-documented-result-with-unverified-linked-image",
+    "source": {
+      "url": "https://discord.com/channels/629221606064914442/875784780573184010/1194537162054565889",
+      "channel": "tt-submission",
+      "messageId": "1194537162054565889"
+    },
+    "additionalSources": [
+      {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1194537171101700106",
+        "kind": "accepted-result-receipt"
+      }
+    ],
+    "receiptResultVerified": true,
+    "freshVisualReview": false,
+    "canonicalSourceReviewAudit": "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    "evidenceNote": "Course and result documented by the surviving accepted receipt. Original image preserved without fresh visual certification. Posted after tour close; actual January 10 submission date retained."
   }
 ]

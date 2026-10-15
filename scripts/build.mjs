@@ -500,6 +500,21 @@ function recomputeRecordDurations(c) {
             .filter((a) => a.start < a.end);
   }
 }
+// This review identifies accepted replacement/repeated receipts for already archived performances.
+const newYear2024Receipts = {"discord-1191563961179590837": {"wrId": "curated-1191562870442446970-newyear2024-image-reviewed", "time": "1:28.37"}, "discord-1192472098942226492": {"wrId": "curated-1192472083419115580-newyear2024-image-reviewed", "time": "1:28.33"}, "discord-1192481107824889856": {"wrId": "curated-1192481093878824960-newyear2024-image-reviewed", "time": "1:28.29"}, "discord-1192771775981961276": {"wrId": "curated-1192770551832383549-newyear2024-image-reviewed", "time": "1:28.18"}};
+const newYear2024Pps = courses.find(c => c.id === "3ds-piranha-plant-slide");
+for (const [id, match] of Object.entries(newYear2024Receipts)) {
+  const receipt = [...newYear2024Pps.candidates, ...newYear2024Pps.submissions].find(r => r.id === id);
+  if (!receipt) continue;
+  const wr = newYear2024Pps.records.find(r => r.id === match.wrId);
+  if (!wr || receipt.time !== match.time || receipt.timeCs !== wr.timeCs || receipt.playerId !== wr.playerId) throw Error("Reviewed receipt mismatch: " + id);
+  newYear2024Pps.candidates = newYear2024Pps.candidates.filter(r => r.id !== id);
+  newYear2024Pps.submissions = newYear2024Pps.submissions.filter(r => r.id !== id);
+  newYear2024Pps.submissions.push({...receipt, status: "matched-existing-wr-receipt", includeInProgression: false,
+    recordDate: receipt.submittedAt.slice(0,10), dateBasis: "original-post-submission-date", dateUnresolved: false,
+    matchedExistingWrId: match.wrId, receiptReviewAudit: "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
+    evidenceNote: "Accepted receipt for an already archived result. Preserved as source evidence, without a separate WR or performance."});
+}
 const publicationPatches = JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8"));
 applyReviewedPublicationPatches(courses, publicationPatches);
 // Account corrections run after source import; keep the stable WR ID credited to its reviewed owner.
@@ -520,6 +535,8 @@ const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
 const holiday2023 = tours.find(t => t.id === "tour-111" && t.startDate === "2023-12-13");
 if (holiday2023) holiday2023.name = "Holiday Tour (2023)";
+const newYear2024 = tours.find(t => t.id === "tour-112" && t.startDate === "2023-12-27");
+if (newYear2024) newYear2024.name = "New Year's Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
