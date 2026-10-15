@@ -582,6 +582,12 @@ for(const p of mii2024PublicationPreservation.preservedRows) {
  for(const collection of ["records","submissions","candidates"]) c[collection]=c[collection].filter(r=>r.id!==p.row.id);
  c[p.collection].push(structuredClone(p.row));
 }
+// Keep reviewed Spring 2025 sources after older future-row deferrals.
+for (const preserved of publicationPatches.preservedRows || []) {
+  if (preserved.row.canonicalSourceReviewAudit !== "archive/spring2025-posted-results-and-source-clock-reconciliation-20261015.json" && preserved.row.receiptSourceReviewAudit !== "archive/spring2025-edited-receipt-source-dispositions-20261015.json") continue;
+  const rows = courses.find(c=>c.id===preserved.courseId)?.[preserved.collection];
+  if (rows && !rows.some(r=>r.id===preserved.row.id)) rows.push(structuredClone(preserved.row));
+}
 applyReviewedPublicationPatches(courses, publicationPatches);
 // Account corrections run after source import; keep the stable WR ID credited to its reviewed owner.
 for (const patch of publicationPatches.rows || []) {
@@ -705,6 +711,8 @@ const ninja2025=tours.find(t=>t.id==="tour-144" && t.startDate==="2025-03-19");
 if(ninja2025) ninja2025.name="Ninja Tour (2025)";
 const yoshi2025=tours.find(t=>t.id==="tour-145" && t.startDate==="2025-04-02");
 if(yoshi2025) yoshi2025.name="Yoshi Tour (2025)";
+const spring2025=tours.find(t=>t.id==="tour-146" && t.startDate==="2025-04-16");
+if(spring2025) spring2025.name="Spring Tour (2025)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
