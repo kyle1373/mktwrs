@@ -675,6 +675,8 @@ const summer2024=tours.find(t=>t.id==="tour-129" && t.startDate==="2024-08-21");
 if(summer2024) summer2024.name="Summer Tour (2024)";
 const sundae2024=tours.find(t=>t.id==="tour-130" && t.startDate==="2024-09-04");
 if(sundae2024) sundae2024.name="Sundae Tour (2024)";
+const anniversary2024=tours.find(t=>t.id==="tour-131" && t.startDate==="2024-09-18");
+if(anniversary2024) anniversary2024.name="Anniversary Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
