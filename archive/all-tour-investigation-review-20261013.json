@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 109,
-      "candidate-and-source-review": 20,
+      "completed-with-documented-gaps": 110,
       "carry-in-and-sparse-history-check": 16,
+      "candidate-and-source-review": 19,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 109,
-    "toursRequiringInvestigation": 72,
+    "practicallyCompletedTours": 110,
+    "toursRequiringInvestigation": 71,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -76,10 +76,9 @@
       },
       "2023": {
         "catalogTours": 26,
-        "requiringInvestigation": 1,
+        "requiringInvestigation": 0,
         "categories": {
-          "completed-with-documented-gaps": 25,
-          "candidate-and-source-review": 1
+          "completed-with-documented-gaps": 26
         }
       },
       "2024": {
@@ -5865,7 +5864,7 @@
     {
       "id": "tour-112",
       "number": 112,
-      "displayName": "New Year's Tour (2023)",
+      "displayName": "New Year's Tour (2024)",
       "startDate": "2023-12-27",
       "endDate": "2024-01-10",
       "courses": [
@@ -5875,7 +5874,7 @@
           "url": "https://mktwrs.com/course/wii-koopa-cape",
           "firstAppearance": false,
           "wrRows": 4,
-          "supportingRows": 7,
+          "supportingRows": 9,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "curated-1060510185665343539-newyear2023-proof-reviewed",
@@ -5885,11 +5884,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "3ds-piranha-plant-slide",
@@ -5897,7 +5892,7 @@
           "url": "https://mktwrs.com/course/3ds-piranha-plant-slide",
           "firstAppearance": false,
           "wrRows": 6,
-          "supportingRows": 16,
+          "supportingRows": 14,
           "pendingCandidates": 4,
           "carriedInWr": {
             "id": "1062872650449436742",
@@ -5907,15 +5902,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/newyear2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/newyear2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-113",
@@ -11400,16 +11396,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-112",
+  "activeDetailedTourId": "tour-113",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-112",
-  "latestCompletionAudit": "public/data/holiday2023-completion.json",
+  "activeDetailedReview": "tour-113",
+  "latestCompletionAudit": "public/data/newyear2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-112",
-  "nextPriorityReason": "One tour at a time: Holiday 2023 has exact LIVE completion evidence. Review New Year 2024 next.",
-  "latestLiveCompletionAudit": "archive/holiday2023-exact-live-publication-and-full-field-check-20261014.json"
+  "nextPriorityTourId": "tour-113",
+  "nextPriorityReason": "One tour at a time: New Year 2024 has exact LIVE completion evidence. Review Space 2024 next.",
+  "latestLiveCompletionAudit": "archive/newyear2024-exact-live-publication-and-full-field-check-20261015.json"
 }
