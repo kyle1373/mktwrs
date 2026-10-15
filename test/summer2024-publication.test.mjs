@@ -9,6 +9,7 @@ test('Summer 2024 compares carried WRs and recordings without treating partial C
  const expected=[['1:23.38','1:23.38'],['1:17.31','1:17.31'],['1:16.06',null]];
  cids.forEach((cid,i)=>{const d=course(cid).summer2024Recording;assert.equal(d.worldRecord.time,expected[i][0]);assert.equal(d.documentedRecording?.time||null,expected[i][1]);if(d.documentedRecording)assert.ok(d.documentedRecording.videoBackup.url.startsWith('https://media.mktwrs.com/'));});
  const clips=course('piranha-plant-cove-3').summer2024Recording.strategyReferences;assert.equal(clips.length,3);assert.ok(clips.every(r=>!r.time && r.videoBackup.url.startsWith('https://media.mktwrs.com/')));
+ assert.equal(course('madrid-drive').fastestVideo.time,'1:17.31');assert.ok(course('madrid-drive').fastestVideo.videoBackup.url.includes('LN1sc__gZws'));
  const madrid=course('madrid-drive').summer2024Recording.documentedRecording;assert.equal(madrid.submittedAt,'2023-09-06T06:08:57.804Z');assert.equal(madrid.videoPublishedAt,'2023-09-06T06:11:22+00:00');
 });
 test('Cove3 progression retains posting clocks, separate identities, lap captions and final announcement',()=>{
