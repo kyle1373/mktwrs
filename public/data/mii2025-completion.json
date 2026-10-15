@@ -1,8 +1,8 @@
 {
   "tourId": "tour-148",
   "tour": "Mii Tour (2025)",
-  "status": "publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -56,8 +56,16 @@
     "Carried MushroomBridge1:10.37has original andplayback files; prior verified assessment retained by matching hashes."
   ],
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "livePublicationAudit": "archive/mii2025-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 18,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 193,
+    "productionAudit": "archive/mii2025-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
   "nextTourId": "tour-149",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/mii2025-exact-live-publication-and-full-field-check-20261015.json"
 }

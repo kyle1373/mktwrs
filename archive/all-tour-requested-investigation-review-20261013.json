@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-148",
+  "activeDetailedReview": "tour-149",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 145,
-      "carry-in-and-sparse-history-check": 25,
+      "completed-with-documented-gaps": 146,
+      "carry-in-and-sparse-history-check": 24,
       "source-and-publication-review": 8,
       "faster-result-reconciliation": 1,
       "candidate-and-source-review": 2
@@ -85,10 +85,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 17,
+        "requiringInvestigation": 16,
         "categories": {
-          "completed-with-documented-gaps": 9,
-          "carry-in-and-sparse-history-check": 11,
+          "completed-with-documented-gaps": 10,
+          "carry-in-and-sparse-history-check": 10,
           "source-and-publication-review": 5,
           "faster-result-reconciliation": 1
         }
@@ -113,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 145,
-    "toursRequiringInvestigation": 36
+    "practicallyCompletedTours": 146,
+    "toursRequiringInvestigation": 35
   },
   "tours": [
     {
@@ -15215,7 +15215,7 @@
           "url": "https://mktwrs.com/course/gba-bowser-s-castle-4",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 6,
+          "supportingRows": 8,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1109324308658004028",
@@ -15247,7 +15247,8 @@
             "recordingComparisons": [],
             "pageSha256": "87eecda0ab0011de102b7128a4f99a1db5e00b86c66f979c3e3612d89262b818"
           },
-          "oneDayRangeDiscrepancyRows": 0
+          "oneDayRangeDiscrepancyRows": 0,
+          "lateSourceSupplementAudit": "archive/mii2025-exact-live-publication-and-full-field-check-20261015.json"
         },
         {
           "courseId": "n64-kalimari-desert-2r",
@@ -15313,7 +15314,7 @@
           "url": "https://mktwrs.com/course/wii-maple-treeway-r",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 6,
+          "supportingRows": 4,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1022593479790043236",
@@ -15329,11 +15330,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "wii-maple-treeway-r",
             "checkedAt": "2026-10-13T18:38:31.584373+00:00",
@@ -15375,11 +15372,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gcn-mushroom-bridge",
             "checkedAt": "2026-10-13T18:38:32.173274+00:00",
@@ -15398,8 +15391,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/mii2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/mii2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-149",
@@ -19230,10 +19228,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-148",
-  "latestCompletionAudit": "public/data/bowser2025-completion.json",
+  "activeDetailedTourId": "tour-149",
+  "latestCompletionAudit": "public/data/mii2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-148",
-  "nextPriorityReason": "One tour at a time: Bowser2025 has exact LIVE completion evidence. Review Mii2025 tour148 May14–May28 next.",
-  "latestLiveCompletionAudit": "archive/bowser2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-149",
+  "nextPriorityReason": "One tour at a time: Mii2025 has core exact LIVE completion evidence. Start Princess2025 tour149 May28–June11 only after final Mii LIVE verification.",
+  "latestLiveCompletionAudit": "archive/mii2025-exact-live-publication-and-full-field-check-20261015.json"
 }
