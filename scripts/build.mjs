@@ -695,6 +695,8 @@ const space2025=tours.find(t=>t.id==="tour-139" && t.startDate==="2025-01-08");
 if(space2025) space2025.name="Space Tour (2025)";
 const winter2025=tours.find(t=>t.id==="tour-140" && t.startDate==="2025-01-22");
 if(winter2025) winter2025.name="Winter Tour (2025)";
+const exploration2025=tours.find(t=>t.id==="tour-141" && t.startDate==="2025-02-05");
+if(exploration2025) exploration2025.name="Exploration Tour (2025)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
