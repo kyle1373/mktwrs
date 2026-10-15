@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-137",
+  "activeDetailedReview": "tour-138",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 134,
-      "faster-result-reconciliation": 3,
+      "completed-with-documented-gaps": 135,
+      "faster-result-reconciliation": 2,
       "carry-in-and-sparse-history-check": 33,
       "source-and-publication-review": 9,
       "candidate-and-source-review": 2
@@ -78,10 +78,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 2,
+        "requiringInvestigation": 1,
         "categories": {
-          "completed-with-documented-gaps": 24,
-          "faster-result-reconciliation": 2
+          "completed-with-documented-gaps": 25,
+          "faster-result-reconciliation": 1
         }
       },
       "2025": {
@@ -113,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 134,
-    "toursRequiringInvestigation": 47
+    "practicallyCompletedTours": 135,
+    "toursRequiringInvestigation": 46
   },
   "tours": [
     {
@@ -14032,7 +14032,7 @@
           "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 12,
+          "supportingRows": 13,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "966559082955821056",
@@ -14156,7 +14156,8 @@
       "completionEvidence": "/data/peachbowser2024-completion.json",
       "livePublicationVerified": true,
       "livePublicationAudit": "archive/peachbowser2024-exact-live-publication-and-full-field-check-20261015.json",
-      "nextActions": []
+      "nextActions": [],
+      "lateSourceSupplementAudit": "archive/holiday2024-posted-results-and-preserved-source-reconciliation-20261015.json"
     },
     {
       "id": "tour-137",
@@ -14171,7 +14172,7 @@
           "url": "https://mktwrs.com/course/gba-snow-land",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 10,
+          "supportingRows": 8,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1058253597781000283",
@@ -14187,11 +14188,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-snow-land",
             "checkedAt": "2026-10-13T18:38:34.233306+00:00",
@@ -14215,7 +14212,7 @@
           "url": "https://mktwrs.com/course/vancouver-velocity-3",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 5,
+          "supportingRows": 3,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1192533972043964436",
@@ -14240,12 +14237,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check faster supporting results for date, eligibility and WR precedence before adding them to history.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "vancouver-velocity-3",
             "checkedAt": "2026-10-13T18:38:34.710629+00:00",
@@ -14264,8 +14256,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "faster-result-reconciliation"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/holiday2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/holiday2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-138",
@@ -19262,10 +19259,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-137",
-  "latestCompletionAudit": "public/data/peachbowser2024-completion.json",
+  "activeDetailedTourId": "tour-138",
+  "latestCompletionAudit": "public/data/holiday2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-137",
-  "nextPriorityReason": "One tour at a time: Peach vs. Bowser 2024 has exact LIVE completion evidence. Review Holiday 2024 next.",
-  "latestLiveCompletionAudit": "archive/peachbowser2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-138",
+  "nextPriorityReason": "One tour at a time: Holiday 2024 has exact LIVE completion evidence. Review New Year2025 next.",
+  "latestLiveCompletionAudit": "archive/holiday2024-exact-live-publication-and-full-field-check-20261015.json"
 }
