@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-150",
+  "activeDetailedReview": "tour-151",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 147,
-      "source-and-publication-review": 8,
+      "completed-with-documented-gaps": 148,
       "carry-in-and-sparse-history-check": 23,
+      "source-and-publication-review": 7,
       "faster-result-reconciliation": 1,
       "candidate-and-source-review": 2
     },
@@ -85,11 +85,11 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 15,
+        "requiringInvestigation": 14,
         "categories": {
-          "completed-with-documented-gaps": 11,
-          "source-and-publication-review": 5,
+          "completed-with-documented-gaps": 12,
           "carry-in-and-sparse-history-check": 9,
+          "source-and-publication-review": 4,
           "faster-result-reconciliation": 1
         }
       },
@@ -113,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 147,
-    "toursRequiringInvestigation": 34
+    "practicallyCompletedTours": 148,
+    "toursRequiringInvestigation": 33
   },
   "tours": [
     {
@@ -15524,11 +15524,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-luigi-raceway-r",
             "checkedAt": "2026-10-13T18:38:31.419097+00:00",
@@ -15547,8 +15543,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/marioluigi2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/marioluigi2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-151",
@@ -19225,10 +19226,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-150",
-  "latestCompletionAudit": "public/data/princess2025-completion.json",
+  "activeDetailedTourId": "tour-151",
+  "latestCompletionAudit": "public/data/marioluigi2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-150",
-  "nextPriorityReason": "One tour at a time: Princess2025 has core exact LIVE completion evidence. Start MarioLuigi2025 tour150 June11–June25 only after final Princess LIVE verification.",
-  "latestLiveCompletionAudit": "archive/princess2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-151",
+  "nextPriorityReason": "One tour at a time: MarioLuigi2025 has core exact LIVE completion evidence. Start Night2025 tour151 June25–July9 only after final MarioLuigi LIVE verification.",
+  "latestLiveCompletionAudit": "archive/marioluigi2025-exact-live-publication-and-full-field-check-20261015.json"
 }
