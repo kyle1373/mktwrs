@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 131,
-      "carry-in-and-sparse-history-check": 7,
+      "completed-with-documented-gaps": 132,
       "source-and-publication-review": 35,
+      "carry-in-and-sparse-history-check": 6,
       "candidate-and-source-review": 8
     },
-    "practicallyCompletedTours": 131,
-    "toursRequiringInvestigation": 50,
+    "practicallyCompletedTours": 132,
+    "toursRequiringInvestigation": 49,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -83,11 +83,11 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 5,
+        "requiringInvestigation": 4,
         "categories": {
-          "completed-with-documented-gaps": 21,
-          "carry-in-and-sparse-history-check": 2,
-          "source-and-publication-review": 3
+          "completed-with-documented-gaps": 22,
+          "source-and-publication-review": 3,
+          "carry-in-and-sparse-history-check": 1
         }
       },
       "2025": {
@@ -7072,7 +7072,7 @@
           "url": "https://mktwrs.com/course/los-angeles-laps-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 5,
+          "supportingRows": 9,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1178887189124370537",
@@ -7082,11 +7082,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "los-angeles-laps-3",
@@ -7104,14 +7100,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/autumn2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/autumn2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-135",
@@ -11336,16 +11334,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-134",
+  "activeDetailedTourId": "tour-135",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-134",
-  "latestCompletionAudit": "public/data/halloween2024-completion.json",
+  "activeDetailedReview": "tour-135",
+  "latestCompletionAudit": "public/data/autumn2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-134",
-  "nextPriorityReason": "One tour at a time: Halloween 2024 has exact LIVE completion evidence. Review Autumn 2024 next.",
-  "latestLiveCompletionAudit": "archive/halloween2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-135",
+  "nextPriorityReason": "One tour at a time: Autumn 2024 has exact LIVE completion evidence. Review Animal 2024 next.",
+  "latestLiveCompletionAudit": "archive/autumn2024-exact-live-publication-and-full-field-check-20261015.json"
 }
