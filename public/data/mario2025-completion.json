@@ -1,0 +1,71 @@
+{
+  "tourId": "tour-143",
+  "tour": "Mario Tour (2025)",
+  "status": "completed-with-documented-gaps",
+  "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
+  "completedAt": "2026-10-15",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "window": {
+    "start": "2025-03-05T06:00:00Z",
+    "endExclusive": "2025-03-19T06:00:00Z"
+  },
+  "courses": [
+    {
+      "courseId": "snes-donut-plains-3r",
+      "archivedWr": "0:57.13",
+      "fastestDocumentedRecording": "0:57.13",
+      "supportingDisplayed": 3
+    },
+    {
+      "courseId": "n64-luigi-raceway",
+      "archivedWr": "1:12.08",
+      "fastestDocumentedRecording": "1:12.08",
+      "supportingDisplayed": 8
+    }
+  ],
+  "coverage": {
+    "indexedAttachments": 13,
+    "availableOriginalSubmissionImages": 12,
+    "unavailableCancelledOriginals": 1,
+    "currentStandardPerformances": 12,
+    "canonicalSourceRows": 12,
+    "carriedPriorTourRecordings": 1,
+    "currentWrRecordings": 1,
+    "r2FilesVerified": 14,
+    "existingWrIdsRetainedInAffectedCourses": 19,
+    "newWrIds": 0,
+    "existingWrEnrichments": 1,
+    "currentTourBoundedDiscussionRows": 5,
+    "postCloseContextRows": 0,
+    "matchedReceiptsRetainedAsSourceOnly": 2,
+    "freshBrowserCensusCompleted": false,
+    "allAffectedCourseRows": 330
+  },
+  "evidence": [
+    "archive/mario2025-original-preservation-and-source-review-20261015.json",
+    "archive/mario2025-preserved-bounded-source-census-20261015.json",
+    "archive/mario2025-posted-results-and-source-clock-reconciliation-20261015.json",
+    "archive/mario2025-full-course-generation-and-source-field-preservation-20261015.json",
+    "archive/mario2025-edited-receipt-source-dispositions-20261015.json"
+  ],
+  "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
+  "remainingLimitations": [
+    "Preserved Discord captures reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
+    "One cancelled p_en submission lacks its original image; the later surviving1:12.28 screenshot is retained without assuming identical bytes.",
+    "REMON1:12.08 enriches the existing stable WR, without duplicate WR credit. Future2026 REMON1:12.03 remains in later history.",
+    "The original screenshot was posted March10; the recovered video was published August4. The edited Discord post does not establish when the video was first shared.",
+    "Prior hash-matching result assessments retained; the recovered movie finish and first-lap clock are freshly sampled, without uninterrupted-race certification.",
+    "The renamed Japanese display name retains its existing association; no account merge is invented."
+  ],
+  "validation": {
+    "focusedTestsPassed": 14,
+    "fullGeneratedRowsMatched": 330,
+    "productionBuildExitCode": 0,
+    "livePublicationVerified": false,
+    "productionEvidenceAudit": "archive/mario2025-production-build-and-rendered-evidence-link-check-20261015.json"
+  },
+  "nextTourId": "tour-144",
+  "publicationPending": true
+}
