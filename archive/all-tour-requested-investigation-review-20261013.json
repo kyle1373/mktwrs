@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-142",
+  "activeDetailedReview": "tour-143",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 139,
-      "carry-in-and-sparse-history-check": 30,
+      "completed-with-documented-gaps": 140,
+      "carry-in-and-sparse-history-check": 29,
       "source-and-publication-review": 9,
       "faster-result-reconciliation": 1,
       "candidate-and-source-review": 2
@@ -85,10 +85,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 23,
+        "requiringInvestigation": 22,
         "categories": {
-          "completed-with-documented-gaps": 3,
-          "carry-in-and-sparse-history-check": 16,
+          "completed-with-documented-gaps": 4,
+          "carry-in-and-sparse-history-check": 15,
           "source-and-publication-review": 6,
           "faster-result-reconciliation": 1
         }
@@ -113,8 +113,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 139,
-    "toursRequiringInvestigation": 42
+    "practicallyCompletedTours": 140,
+    "toursRequiringInvestigation": 41
   },
   "tours": [
     {
@@ -14724,7 +14724,7 @@
           "url": "https://mktwrs.com/course/ds-peach-gardens-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 4,
+          "supportingRows": 3,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1219694565657804833",
@@ -14740,11 +14740,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "ds-peach-gardens-r",
             "checkedAt": "2026-10-13T18:38:32.299693+00:00",
@@ -14784,11 +14780,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-sky-garden",
             "checkedAt": "2026-10-13T18:38:34.063236+00:00",
@@ -14807,8 +14799,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/doctor2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/doctor2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-143",
@@ -19243,10 +19240,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-142",
-  "latestCompletionAudit": "public/data/exploration2025-completion.json",
+  "activeDetailedTourId": "tour-143",
+  "latestCompletionAudit": "public/data/doctor2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-142",
-  "nextPriorityReason": "One tour at a time: Exploration2025 has exact LIVE completion evidence. Review Doctor2025 tour142 February19–March5 next.",
-  "latestLiveCompletionAudit": "archive/exploration2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-143",
+  "nextPriorityReason": "One tour at a time: Doctor2025 has exact LIVE completion evidence. Review Mario2025 tour143 March5–19 next.",
+  "latestLiveCompletionAudit": "archive/doctor2025-exact-live-publication-and-full-field-check-20261015.json"
 }
