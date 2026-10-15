@@ -1,0 +1,20 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {routeData} from '../lib/data.mjs';
+const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));const course=cid=>routeData(['course',cid]).data;
+test('Princess2025 separates image-only carried WR from footage and keeps two menus source-only',()=>{
+ const c=course('wii-coconut-mall'),s=course('gba-snow-land-r');assert.equal(c.princess2025Recording.worldRecord.time,'1:13.51');assert.equal(c.princess2025Recording.documentedRecording.time,'1:13.64');assert.equal(c.fastestVideo.time,'1:13.64');
+ assert.equal(s.princess2025Recording.worldRecord.time,'1:09.09');assert.equal(s.princess2025Recording.documentedRecording.time,'1:09.09');assert.equal(s.fastestVideo.time,'1:09.09');assert.equal(c.princess2025SupportingResults.length,0);assert.equal(s.princess2025SupportingResults.length,4);assert.equal(s.princess2025Recording.sourceImages.length,2);assert(!s.princess2025SupportingResults.some(r=>['1:11.70','1:11.30'].includes(r.time)));
+ assert.equal(read('public/data/courses/wii-coconut-mall.json').records.length,14);assert.equal(read('public/data/courses/gba-snow-land-r.json').records.length,4);
+});
+test('Princess2025 keeps original posting dates and menu evidence meanings without fabricated race dates',()=>{
+ const rs=read('public/data/courses/gba-snow-land-r.json').submissions;for(const [id,time,date] of [['1378002246108975195','1:11.76','2025-05-30T13:28:57.516Z'],['1378705203544457360','1:11.09','2025-06-01T12:02:15.629Z'],['1378728373328543844','1:11.22','2025-06-01T13:34:19.736Z'],['1380906397226500107','1:11.07','2025-06-07T13:49:01.099Z']]){const r=rs.find(r=>r.id==='curated-'+id+'-princess2025-image-reviewed');assert.equal(r.time,time);assert.equal(r.submittedAt,date);assert.equal(r.recordDate,date.slice(0,10));assert.equal(r.source.messageId,id);assert(r.originalImageSHA256&&r.proofImageLocal.startsWith('https://media.mktwrs.com/'));}
+ for(const id of ['1378008007530512414','1378583320710877275']){const r=rs.find(r=>r.id==='curated-'+id+'-princess2025-image-reviewed');assert.equal(r.status,'tour-personal-best-menu-source-only');assert(!r.includeInProgression);assert(!r.achievedAt);assert(r.submittedAt&&r.originalImageSHA256);}
+});
+test('All549Princess affected rows match aggregate and all six original sources survive',()=>{
+ const all=read('public/data/courses.json');let n=0;for(const cid of ['wii-coconut-mall','gba-snow-land-r']){const c=read('public/data/courses/'+cid+'.json'),a=all.find(c=>c.id===cid);for(const k of ['records','submissions','candidates']){assert.deepEqual(c[k],a[k]);n+=c[k].length;}}assert.equal(n,549);
+ const audit=read('archive/princess2025-original-preservation-and-source-review-20261015.json');for(const i of audit.originalImages){const m=i.canonicalMatches[0],c=read('public/data/courses/'+m.courseId+'.json');assert(c.submissions.some(r=>r.originalImageSHA256===i.sha256&&r.time===m.time&&r.submittedAt===m.submittedAt&&r.source?.messageId===i.sourceRows[0].messageId));}
+ const receipts=read('archive/princess2025-edited-receipt-source-dispositions-20261015.json');assert.equal(receipts.matchedReceipts,3);assert.equal(receipts.mismatchedReceipts,0);
+});
+test('Princess2025 nine R2 objects retain integrity and adjacent Luigi Circuit R discussion stays context',()=>{
+ const a=read('archive/princess2025-original-preservation-and-source-review-20261015.json');assert.equal(a.originalImages.length,6);assert.equal(a.originalMovies.length,3);assert.equal(a.distinctRecordings,2);assert.equal(a.r2FilesVerified,9);for(const f of [...a.originalImages,...a.originalMovies]){assert.equal(f.sha256,f.r2.sha256);assert(f.r2.publicRangeMatchesOriginal&&f.r2.shaMetadataMd5AndLengthVerified);}assert.equal(a.historyComplete,false);
+ const d=read('archive/princess2025-preserved-bounded-source-census-20261015.json');assert.equal(d.currentDiscussionRows,0);assert.equal(d.postCloseContextRows,2);assert(d.boundedDiscussionRows.some(r=>r.text.includes('1:11.87')));assert.equal(a.freshBrowserCensusCompleted,false);
+});
