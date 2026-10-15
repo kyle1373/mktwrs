@@ -40,9 +40,10 @@ test('Yoshi Circuit R recovered leaders display their source posting dates',()=>
   assert.doesNotMatch(render(r),/achievement date unknown|run date unknown/i);
  }
 });
-test('retrospective final announcement preserves the original tour window',()=>{
+test('retrospective announcement displays its posting date and retains the tour attribution',()=>{
  const r=routeData(['course','gcn-yoshi-circuit-r']).data.records.find(r=>r.id==='896332585544863754');
  assert.equal(r.announcedAt,'2021-10-09T09:45:41.448Z');
- assert.match(render(r),/>2020-03-25 – 2020-04-07</);
- assert.doesNotMatch(render(r),/>2021-10-09<|achievement date unknown|run date unknown/i);
+ assert.match(render(r),/>2021-10-09</);
+ assert.deepEqual(r.tourDateRange,{start:'2020-03-25',end:'2020-04-07'});
+ assert.doesNotMatch(render(r),/achievement date unknown|run date unknown/i);
 });

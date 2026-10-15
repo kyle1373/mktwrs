@@ -658,6 +658,8 @@ const marioluigi2024=tours.find(t=>t.id==="tour-124" && t.startDate==="2024-06-1
 if(marioluigi2024) marioluigi2024.name="Mario vs. Luigi Tour (2024)";
 const night2024=tours.find(t=>t.id==="tour-125" && t.startDate==="2024-06-26");
 if(night2024) night2024.name="Night Tour (2024)";
+const pipe2024=tours.find(t=>t.id==="tour-126" && t.startDate==="2024-07-10");
+if(pipe2024) pipe2024.name="Pipe Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
