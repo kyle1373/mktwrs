@@ -566,6 +566,10 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
   return <section className="fastest-video">
     <h2>{tourLabel} recording comparison</h2>
     {wr && <p>Archived tour WR: <strong>{wr.time}</strong> · <Player id={wr.playerId} players={players} /></p>}
+    {(comparison.worldRecordTies || []).filter(tie => tie.id !== wr?.id).map(tie => <div key={tie.id}>
+      <p>Archived tour WR tie: <strong>{tie.time}</strong> · <Player id={tie.playerId} players={players} />{tie.proofImageLocal && <> · <a href={tie.proofImageLocal} target="_blank" rel="noopener noreferrer">Image proof</a></>}</p>
+      <EvidenceTimes r={tie} />
+    </div>)}
     {comparison.dateBoundaryNote && <p className="table-note">{comparison.dateBoundaryNote}</p>}
     {comparison.documentedRecording && comparison.documentedRecording.timeCs !== r?.timeCs && <>
       <p>Fastest documented available recording: <strong>{comparison.documentedRecording.time}</strong> · <Player id={comparison.documentedRecording.playerId} players={players} /> · <a href={comparison.documentedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.documentedRecording.videoBackup?.url && <> · <a href={comparison.documentedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
@@ -959,6 +963,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.sunshine2025SupportingResults} players={players} tourLabel="Sunshine Tour (2025)" />
       <HalloweenRecording comparison={c.vacation2025Recording} players={players} tourLabel="Vacation Tour (2025)" completed={c.vacation2025Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.vacation2025SupportingResults} players={players} tourLabel="Vacation Tour (2025)" />
+      <HalloweenRecording comparison={c.summer2025Recording} players={players} tourLabel="Summer Tour (2025)" completed={c.summer2025Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.summer2025SupportingResults} players={players} tourLabel="Summer Tour (2025)" />
       {c.autumn2023InputCorrection && <section className="fastest-video"><h2>Autumn Tour (2023) corrected submission</h2><p><Player id={c.autumn2023InputCorrection.playerId} players={players} /> · Receipt input: <strong>{c.autumn2023InputCorrection.reportedTime}</strong> · Screenshot and video: <strong>{c.autumn2023InputCorrection.verifiedTime}</strong></p><p className="table-note">The recovered original screenshot and linked movie contradict the receipt total and second split. This input does not receive WR tie credit.</p><p><a href={c.autumn2023InputCorrection.source.url} target="_blank" rel="noopener noreferrer">Original receipt</a> · <a href={c.autumn2023InputCorrection.proofImageLocal} target="_blank" rel="noopener noreferrer">Preserved original screenshot</a> · <a href={c.autumn2023InputCorrection.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video (1:13.42)</a></p><EvidenceTimes r={c.autumn2023InputCorrection} /></section>}
 
       {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}
