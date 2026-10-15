@@ -1,8 +1,8 @@
 {
   "tourId": "tour-156",
   "tour": "Sundae Tour (2025)",
-  "status": "publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -61,13 +61,21 @@
     "September5 Zword32.56 text survives without recoverable original attachment in saved captures; no WR credit inferred.",
     "TheSeptember9 Zword31.98 screenshot and September11 movie share are separate clocks.",
     "Uninterrupted start-to-finish movie continuity not certified.",
-    "Publication and exact live verification remain pending.",
     "Later2026records and original posting clocks remain protected.",
-    "Recovered Zword31.98 movie is source-associated; fresh finish verification remains unproven. No unrestricted continuity claim."
+    "Recovered Zword31.98 movie is source-associated; fresh finish verification remains unproven. No unrestricted continuity claim.",
+    "Broader historical date and presentation correction remains a later archive-wide pass."
   ],
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "livePublicationAudit": "archive/sundae2025-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 18,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 121,
+    "productionAudit": "archive/sundae2025-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
   "nextTourId": "tour-157",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/sundae2025-exact-live-publication-and-full-field-check-20261015.json"
 }
