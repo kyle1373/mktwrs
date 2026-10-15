@@ -749,6 +749,8 @@ for (const c of courses) for (const r of c.records) {
 }
 const battle2025=tours.find(t=>t.id==="tour-158" && t.startDate==="2025-10-01");
 if(battle2025) battle2025.name="Battle Tour (2025)";
+const halloween2025=tours.find(t=>t.id==="tour-159" && t.startDate==="2025-10-15");
+if(halloween2025) halloween2025.name="Halloween Tour (2025)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
