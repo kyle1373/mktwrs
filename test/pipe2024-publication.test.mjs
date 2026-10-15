@@ -7,7 +7,7 @@ const cids=['wii-dry-dry-ruins','piranha-plant-cove-2r'];
 const course=cid=>routeData(['course',cid]).data;
 test('Pipe 2024 WR and fastest available recordings stay separate from later records',()=>{
  const expected=[['1:17.90','1:17.90'],['1:31.28','1:31.31']];
- cids.forEach((cid,i)=>{const c=course(cid).pipe2024Recording;assert.equal(c.worldRecord.time,expected[i][0]);assert.equal(c.documentedRecording.time,expected[i][1]);assert.ok(c.documentedRecording.videoBackup.url.startsWith('https://media.mktwrs.com/'));});
+ cids.forEach((cid,i)=>{const c=course(cid).pipe2024Recording;assert.equal(c.worldRecord.time,expected[i][0]);assert.equal(c.documentedRecording.time,expected[i][1]);if(cid==='piranha-plant-cove-2r')assert.equal(course(cid).fastestVideo.time,expected[i][1]);assert.ok(c.documentedRecording.videoBackup.url.startsWith('https://media.mktwrs.com/'));});
  assert.equal(course('piranha-plant-cove-2r').pipe2024Recording.worldRecord.video,null);
  const old=read('public/data/courses/wii-dry-dry-ruins.json').records.find(r=>r.id==='1136096968901398628');assert.equal(old.submittedAt,'2023-07-17T14:47:35.892Z');assert.equal(old.videoBackup.sha256,'f3677613eea3ea09db81009f611181fc8d105cf36bc8349238d6c80d49165b97');assert.equal(old.videoBackup.reviewAudit,'archive/pipe2023-four-original-video-r2-and-posting-date-review-20261014.json');
  assert.ok(read('public/data/courses/wii-dry-dry-ruins.json').records.some(r=>r.id==='1406664937199374357'&&r.time==='1:17.65'));
@@ -29,7 +29,7 @@ test('Every reviewed source survives in full course collections without addition
 test('Four partial clips remain technique references with separate publication and sharing dates',()=>{
  const c=course('piranha-plant-cove-2r').pipe2024Recording;assert.equal(c.strategyReferences.length,4);assert.ok(c.strategyReferences.every(r=>!r.time&&!r.includeInProgression));
  const lap=c.strategyReferences.find(r=>r.video.includes('iJk4_7UILM0'));assert.equal(lap.videoPublishedAt,'2023-07-25T20:36:26Z');assert.equal(lap.videoSharedAt,'2024-07-15T13:30:10.016Z');
- const shown=c.strategyReferences.find(r=>r.video.includes('1262652719584252006'));assert.match(shown.evidenceNote,/45\.56/);assert.match(shown.evidenceNote,/does not show45\.46/);
+ const shown=c.strategyReferences.find(r=>r.video.includes('1262652719584252006'));assert.match(shown.evidenceNote,/45\.56/);assert.match(shown.evidenceNote,/does not show that time/);
  const p=read('archive/pipe2024-original-preservation-and-source-review-20261015.json');assert.equal(p.r2FilesVerified,35);assert.equal(p.originalMovies.filter(r=>r.completedTotal===null).length,4);assert.equal(p.originalImages.length,29);
  assert.equal(read('public/data/night2024-completion.json').validation.livePublicationVerified,true);
 });

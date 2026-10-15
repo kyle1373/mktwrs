@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 123,
-      "candidate-and-source-review": 12,
+      "completed-with-documented-gaps": 124,
+      "candidate-and-source-review": 11,
       "carry-in-and-sparse-history-check": 10,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 123,
-    "toursRequiringInvestigation": 58,
+    "practicallyCompletedTours": 124,
+    "toursRequiringInvestigation": 57,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -82,10 +82,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 13,
+        "requiringInvestigation": 12,
         "categories": {
-          "completed-with-documented-gaps": 13,
-          "candidate-and-source-review": 4,
+          "completed-with-documented-gaps": 14,
+          "candidate-and-source-review": 3,
           "carry-in-and-sparse-history-check": 5,
           "source-and-publication-review": 4
         }
@@ -6757,7 +6757,7 @@
           "url": "https://mktwrs.com/course/wii-dry-dry-ruins",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 7,
+          "supportingRows": 11,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1136096968901398628",
@@ -6767,11 +6767,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "piranha-plant-cove-2r",
@@ -6779,7 +6775,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove-2r",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 11,
+          "supportingRows": 14,
           "pendingCandidates": 1,
           "carriedInWr": {
             "id": "1136090192722264194",
@@ -6789,15 +6785,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/pipe2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/pipe2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-127",
@@ -11495,7 +11492,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-126",
+  "activeDetailedTourId": "tour-127",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11506,10 +11503,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-126",
-  "latestCompletionAudit": "public/data/night2024-completion.json",
-  "nextPriorityTourId": "tour-126",
-  "nextPriorityReason": "One tour at a time: Night 2024 has exact LIVE completion evidence. Review Pipe 2024 next.",
-  "latestLiveCompletionAudit": "archive/night2024-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-127",
+  "latestCompletionAudit": "public/data/pipe2024-completion.json",
+  "nextPriorityTourId": "tour-127",
+  "nextPriorityReason": "One tour at a time: Pipe 2024 has exact LIVE completion evidence. Review Sunshine 2024 next.",
+  "latestLiveCompletionAudit": "archive/pipe2024-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
