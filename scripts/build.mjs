@@ -515,6 +515,16 @@ for (const [id, match] of Object.entries(newYear2024Receipts)) {
     matchedExistingWrId: match.wrId, receiptReviewAudit: "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
     evidenceNote: "Accepted receipt for an already archived result. Preserved as source evidence, without a separate WR or performance."});
 }
+const mario2024Receipts={"discord-1215953595531526174":"curated-1215953583866908763-mario2024-image-reviewed","discord-1216384297141932064":"curated-1216384287402889268-mario2024-image-reviewed"};
+const mario2024Luigi=courses.find(c=>c.id==="n64-luigi-raceway");
+for(const [id,wrId] of Object.entries(mario2024Receipts)) {
+ const receipt=[...mario2024Luigi.candidates,...mario2024Luigi.submissions].find(r=>r.id===id),wr=mario2024Luigi.records.find(r=>r.id===wrId);
+ if(!receipt) continue;
+ if(!wr || receipt.timeCs!==wr.timeCs || receipt.playerId!==wr.playerId) throw Error("Mario 2024 receipt mismatch: "+id);
+ mario2024Luigi.candidates=mario2024Luigi.candidates.filter(r=>r.id!==id);mario2024Luigi.submissions=mario2024Luigi.submissions.filter(r=>r.id!==id);
+ mario2024Luigi.submissions.push({...receipt,status:"matched-existing-wr-receipt",includeInProgression:false,recordDate:receipt.submittedAt.slice(0,10),dateBasis:"original-post-submission-date",dateUnresolved:false,matchedWrId:wrId});
+}
+
 const publicationPatches = JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8"));
 for (const preserved of publicationPatches.preservedRows || []) {
   const rows = courses.find(c => c.id === preserved.courseId)?.[preserved.collection];
@@ -579,6 +589,8 @@ const exploration2024 = tours.find(t => t.id === "tour-115" && t.startDate === "
 if (exploration2024) exploration2024.name = "Exploration Tour (2024)";
 const doctor2024 = tours.find(t => t.id === "tour-116" && t.startDate === "2024-02-21");
 if (doctor2024) doctor2024.name = "Doctor Tour (2024)";
+const mario2024=tours.find(t=>t.id==="tour-117" && t.startDate==="2024-03-06");
+if(mario2024) mario2024.name="Mario Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
