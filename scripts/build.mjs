@@ -516,6 +516,11 @@ for (const [id, match] of Object.entries(newYear2024Receipts)) {
     evidenceNote: "Accepted receipt for an already archived result. Preserved as source evidence, without a separate WR or performance."});
 }
 const publicationPatches = JSON.parse(fs.readFileSync("scripts/reviewed-publication-field-patches.json", "utf8"));
+for (const preserved of publicationPatches.preservedRows || []) {
+  const rows = courses.find(c => c.id === preserved.courseId)?.[preserved.collection];
+  if (!rows) throw Error("Preserved collection missing: " + preserved.courseId);
+  if (!rows.some(r => r.id === preserved.row.id)) rows.push({...preserved.row});
+}
 applyReviewedPublicationPatches(courses, publicationPatches);
 // Account corrections run after source import; keep the stable WR ID credited to its reviewed owner.
 for (const patch of publicationPatches.rows || []) {
@@ -536,6 +541,11 @@ const space2024DurationRows = ["1068224230715559956", "1204260087687024680"].map
 if (space2024DurationRows.some(r => !r) || space2024DurationRows[0].timeCs !== 6336 || space2024DurationRows[1].recordDate !== "2024-01-24") throw Error("Space 2024 duration source mismatch");
 recomputeRecordDurations({records: space2024DurationRows, appearances: space2024Kd2.appearances});
 space2024DurationRows[1].chronologyDate = space2024DurationRows[1].submittedAt;
+const winter2024Tokyo = courses.find(c => c.id === "tokyo-blur-4");
+const winter2024DurationRows = ["1074903169542389840", "1209624145000792084"].map(id => winter2024Tokyo.records.find(r => r.id === id));
+if (winter2024DurationRows.some(r => !r) || winter2024DurationRows[0].timeCs !== 4594 || winter2024DurationRows[1].recordDate !== "2024-02-06") throw Error("Winter 2024 duration source mismatch");
+recomputeRecordDurations({records: winter2024DurationRows, appearances: winter2024Tokyo.appearances});
+winter2024DurationRows[1].chronologyDate = winter2024DurationRows[1].submittedAt;
 // The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
 const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
@@ -545,6 +555,8 @@ const newYear2024 = tours.find(t => t.id === "tour-112" && t.startDate === "2023
 if (newYear2024) newYear2024.name = "New Year's Tour (2024)";
 const space2024 = tours.find(t => t.id === "tour-113" && t.startDate === "2024-01-10");
 if (space2024) space2024.name = "Space Tour (2024)";
+const winter2024 = tours.find(t => t.id === "tour-114" && t.startDate === "2024-01-24");
+if (winter2024) winter2024.name = "Winter Tour (2024)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
