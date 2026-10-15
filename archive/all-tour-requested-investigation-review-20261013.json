@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-114",
+  "activeDetailedReview": "tour-115",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 111,
-      "carry-in-and-sparse-history-check": 51,
+      "completed-with-documented-gaps": 112,
+      "carry-in-and-sparse-history-check": 50,
       "source-and-publication-review": 13,
       "candidate-and-source-review": 3,
       "faster-result-reconciliation": 3
@@ -78,10 +78,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 25,
+        "requiringInvestigation": 24,
         "categories": {
-          "completed-with-documented-gaps": 1,
-          "carry-in-and-sparse-history-check": 18,
+          "completed-with-documented-gaps": 2,
+          "carry-in-and-sparse-history-check": 17,
           "source-and-publication-review": 4,
           "candidate-and-source-review": 1,
           "faster-result-reconciliation": 2
@@ -116,8 +116,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 111,
-    "toursRequiringInvestigation": 70
+    "practicallyCompletedTours": 112,
+    "toursRequiringInvestigation": 69
   },
   "tours": [
     {
@@ -11779,7 +11779,7 @@
           "url": "https://mktwrs.com/course/bangkok-rush-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 60,
+          "supportingRows": 36,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903912617869332",
@@ -11795,11 +11795,7 @@
           "linkedVideoRows": 3,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "bangkok-rush-2",
             "checkedAt": "2026-10-13T18:38:28.488415+00:00",
@@ -11823,7 +11819,7 @@
           "url": "https://mktwrs.com/course/singapore-speedway-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 34,
+          "supportingRows": 22,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903599689248788",
@@ -11839,11 +11835,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "singapore-speedway-r",
             "checkedAt": "2026-10-13T18:38:33.920382+00:00",
@@ -11867,7 +11859,7 @@
           "url": "https://mktwrs.com/course/tokyo-blur-4",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 40,
+          "supportingRows": 20,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903169542389840",
@@ -11883,11 +11875,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "tokyo-blur-4",
             "checkedAt": "2026-10-13T18:38:34.554534+00:00",
@@ -11908,8 +11896,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/winter2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/winter2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-115",
@@ -19340,10 +19333,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-114",
-  "latestCompletionAudit": "public/data/space2024-completion.json",
+  "activeDetailedTourId": "tour-115",
+  "latestCompletionAudit": "public/data/winter2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-114",
-  "nextPriorityReason": "One tour at a time: Space 2024 has exact LIVE completion evidence. Review Winter 2024 next.",
-  "latestLiveCompletionAudit": "archive/space2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-115",
+  "nextPriorityReason": "One tour at a time: Winter 2024 has exact LIVE completion evidence. Review Exploration 2024 next.",
+  "latestLiveCompletionAudit": "archive/winter2024-exact-live-publication-and-full-field-check-20261015.json"
 }

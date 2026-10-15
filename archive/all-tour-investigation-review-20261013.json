@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 111,
-      "carry-in-and-sparse-history-check": 15,
+      "completed-with-documented-gaps": 112,
+      "carry-in-and-sparse-history-check": 14,
       "candidate-and-source-review": 19,
       "source-and-publication-review": 36
     },
-    "practicallyCompletedTours": 111,
-    "toursRequiringInvestigation": 70,
+    "practicallyCompletedTours": 112,
+    "toursRequiringInvestigation": 69,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -83,10 +83,10 @@
       },
       "2024": {
         "catalogTours": 26,
-        "requiringInvestigation": 25,
+        "requiringInvestigation": 24,
         "categories": {
-          "completed-with-documented-gaps": 1,
-          "carry-in-and-sparse-history-check": 10,
+          "completed-with-documented-gaps": 2,
+          "carry-in-and-sparse-history-check": 9,
           "candidate-and-source-review": 11,
           "source-and-publication-review": 4
         }
@@ -5979,7 +5979,7 @@
           "url": "https://mktwrs.com/course/bangkok-rush-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 24,
+          "supportingRows": 36,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903912617869332",
@@ -5989,11 +5989,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "singapore-speedway-r",
@@ -6001,7 +5997,7 @@
           "url": "https://mktwrs.com/course/singapore-speedway-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 15,
+          "supportingRows": 22,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903599689248788",
@@ -6011,11 +6007,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "tokyo-blur-4",
@@ -6023,7 +6015,7 @@
           "url": "https://mktwrs.com/course/tokyo-blur-4",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 16,
+          "supportingRows": 20,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1074903169542389840",
@@ -6033,15 +6025,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/winter2024-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/winter2024-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-115",
@@ -11394,16 +11387,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-114",
+  "activeDetailedTourId": "tour-115",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-114",
-  "latestCompletionAudit": "public/data/space2024-completion.json",
+  "activeDetailedReview": "tour-115",
+  "latestCompletionAudit": "public/data/winter2024-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-114",
-  "nextPriorityReason": "One tour at a time: Space 2024 has exact LIVE completion evidence. Review Winter 2024 next.",
-  "latestLiveCompletionAudit": "archive/space2024-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-115",
+  "nextPriorityReason": "One tour at a time: Winter 2024 has exact LIVE completion evidence. Review Exploration 2024 next.",
+  "latestLiveCompletionAudit": "archive/winter2024-exact-live-publication-and-full-field-check-20261015.json"
 }
