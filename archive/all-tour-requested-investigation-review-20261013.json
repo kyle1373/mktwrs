@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-168",
+  "activeDetailedReview": "tour-169",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 165,
-      "carry-in-and-sparse-history-check": 12,
+      "completed-with-documented-gaps": 166,
+      "carry-in-and-sparse-history-check": 11,
       "source-and-publication-review": 2,
       "candidate-and-source-review": 2
     },
@@ -91,10 +91,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 16,
+        "requiringInvestigation": 15,
         "categories": {
-          "completed-with-documented-gaps": 3,
-          "carry-in-and-sparse-history-check": 12,
+          "completed-with-documented-gaps": 4,
+          "carry-in-and-sparse-history-check": 11,
           "source-and-publication-review": 2,
           "candidate-and-source-review": 2
         }
@@ -110,8 +110,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 165,
-    "toursRequiringInvestigation": 16
+    "practicallyCompletedTours": 166,
+    "toursRequiringInvestigation": 15
   },
   "tours": [
     {
@@ -17453,11 +17453,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "ds-peach-gardens-r",
             "checkedAt": "2026-10-13T18:38:32.299693+00:00",
@@ -17481,7 +17477,7 @@
           "url": "https://mktwrs.com/course/gba-sky-garden",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 4,
+          "supportingRows": 3,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1219694774953443399",
@@ -17497,10 +17493,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-sky-garden",
             "checkedAt": "2026-10-13T18:38:34.063236+00:00",
@@ -17519,8 +17512,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/doctor2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/doctor2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-169",
@@ -19161,10 +19159,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-168",
-  "latestCompletionAudit": "public/data/exploration2026-completion.json",
+  "activeDetailedTourId": "tour-169",
+  "latestCompletionAudit": "public/data/doctor2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-168",
-  "nextPriorityReason": "One tour at a time: Exploration2026 has core exact LIVE completion evidence. Start Doctor2026 tour168 only after final Exploration2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/exploration2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-169",
+  "nextPriorityReason": "One tour at a time: Doctor2026 has core exact LIVE completion evidence. Start Mario2026 tour169 only after final Doctor2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/doctor2026-exact-live-publication-and-full-field-check-20261015.json"
 }
