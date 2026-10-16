@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 174,
-      "candidate-and-source-review": 5,
+      "completed-with-documented-gaps": 175,
+      "candidate-and-source-review": 4,
       "carry-in-and-sparse-history-check": 1,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 174,
-    "toursRequiringInvestigation": 7,
+    "practicallyCompletedTours": 175,
+    "toursRequiringInvestigation": 6,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -96,10 +96,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 7,
+        "requiringInvestigation": 6,
         "categories": {
-          "completed-with-documented-gaps": 12,
-          "candidate-and-source-review": 5,
+          "completed-with-documented-gaps": 13,
+          "candidate-and-source-review": 4,
           "carry-in-and-sparse-history-check": 1,
           "source-and-publication-review": 1
         }
@@ -9539,7 +9539,7 @@
           "url": "https://mktwrs.com/course/rome-avanti-2",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 8,
+          "supportingRows": 4,
           "pendingCandidates": 1,
           "carriedInWr": {
             "id": "1264395735814635612",
@@ -9549,12 +9549,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "singapore-speedway",
@@ -9572,11 +9567,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "singapore-speedway-2r",
@@ -9584,7 +9575,7 @@
           "url": "https://mktwrs.com/course/singapore-speedway-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 15,
+          "supportingRows": 12,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1264395851904585738",
@@ -9594,14 +9585,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/night2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/night2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-178",
@@ -11427,11 +11420,11 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-177",
-  "activeDetailedReview": "tour-177",
-  "latestCompletionAudit": "public/data/marioluigi2026-completion.json",
-  "nextPriorityTourId": "tour-177",
-  "nextPriorityReason": "One tour at a time: MarioLuigi2026 has core exact LIVE completion evidence. Start Night2026 tour177 only after final MarioLuigi2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/marioluigi2026-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedTourId": "tour-178",
+  "activeDetailedReview": "tour-178",
+  "latestCompletionAudit": "public/data/night2026-completion.json",
+  "nextPriorityTourId": "tour-178",
+  "nextPriorityReason": "One tour at a time: Night2026 has core exact LIVE completion evidence. Start Pipe2026 tour178 only after final Night2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/night2026-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }

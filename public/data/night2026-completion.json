@@ -1,8 +1,8 @@
 {
   "tourId": "tour-177",
   "tour": "Night Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "actualTourWindow": {
     "start": "2026-06-24T06:00:00Z",
@@ -67,12 +67,21 @@
     "Theoretical1:24.24 and1:24.14 remain discussion-only claims, not completed performances.",
     "Posting, movie publication, sharing, edited receipt and announcement clocks remain separate.",
     "Broader date corrections remain deferred until tour reconciliation.",
-    "Canonical reconciliation, rendered playback and exact LIVE publication remain pending."
+    "Six preserved original movies load in Codex browser. Prior result assessments remain bounded; no new uninterrupted-race certification. Two ephemeral Rome screenshot originals and the short X strategy movie remain unrecovered."
   ],
   "submissionDatePolicy": "Source posting supplies submission date unless other evidence proves otherwise. Later announcement, receipt, movie publication and repost clocks remain separately preserved.",
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "fullGeneratedRowsMatched": 405,
+    "livePublicationAudit": "archive/night2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 21,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 148,
+    "productionAudit": "archive/night2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
-  "publicationPending": true,
-  "nextTourId": "tour-178"
+  "publicationPending": false,
+  "nextTourId": "tour-178",
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/night2026-exact-live-publication-and-full-field-check-20261015.json"
 }
