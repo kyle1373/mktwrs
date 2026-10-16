@@ -19,9 +19,16 @@ for(const c of courses)test(c.name+' renders definite dates, complete published 
  assert.doesNotMatch(text,/Submission, report and video times|run date unknown|date unresolved|chronology is established|Submitted:|Video published:|Image unavailable/i);
  const tables=$('table.wr-table');assert.ok(tables.length>=2);
  for(const row of $('tr[data-record-id]').toArray())assert.match($(row).find('td').first().text(),/^\d{4}-\d{2}-\d{2}$/);
+ const expectedRows=new Map([...props.data.records,...props.data.bestHolders,...props.data.hammerRecoveredProgression,props.data.fastestVideo].filter(Boolean).map(r=>[r.id,r]));
+ for(const row of $('tr[data-record-id]').toArray()){
+  const r=expectedRows.get($(row).attr('data-record-id'));assert.ok(r);
+  const b=r.durationBounds;
+  const expected=b&&b.maxDays-b.minDays>1e-10?`${Math.floor(b.minDays)}–${Math.ceil(b.maxDays)}`:r.durationDays>0&&r.durationDays<1?'<'+'1':String(Math.floor(r.durationDays));
+  assert.equal($(row).find('td').eq(4).text(),expected,r.id+' duration');
+ }
  const history=tables.last();const recovered=props.data.hammerRecoveredProgression;
  assert.equal(history.find('tr.tour-event').length,new Set(c.appearances.map(a=>a.tourId)).size*2);
- for(const row of $('tr[data-record-id]').toArray())assert.match($(row).find('td').eq(4).text(),/^(?:<1|\d+)$/);
+ for(const row of $('tr[data-record-id]').toArray())assert.match($(row).find('td').eq(4).text(),/^(?:<1|\d+(?:–\d+)?)$/);
  assert.equal(history.find('tr[data-record-id]').length,c.records.length+recovered.length);
  for(const r of [...c.records,...recovered]){const row=history.find('tr[data-record-id]').filter((i,e)=>$(e).attr('data-record-id')===r.id);assert.equal(row.length,1);assert.equal(row.find('td').first().text(),r.finalDate);assert.ok(row.text().includes(r.time));}
  assert.equal($('a[download]').attr('href'),'/data/courses/'+c.id+'.json');

@@ -850,7 +850,7 @@ for (const course of courses.filter(c => halloween2020ReviewedCourses.has(c.id))
   course.currentHolders = course.currentHolders.map(holder => structuredClone(course.records.find(r => r.id === holder.id) || holder));
 }
 applyFinalSourceFidelity(courses, JSON.parse(fs.readFileSync("scripts/final-source-fidelity-patches.json", "utf8")));
-const finalDateAudit = applyFinalDates(courses);
+const finalDateAudit = applyFinalDates(courses, JSON.parse(fs.readFileSync("scripts/documented-date-evidence.json", "utf8")));
 const durationAudit = applyDocumentedDurations(courses);
 fs.writeFileSync(out + "/documented-duration-audit.json", JSON.stringify(durationAudit));
 fs.writeFileSync(out + "/final-date-audit.json", JSON.stringify(finalDateAudit));

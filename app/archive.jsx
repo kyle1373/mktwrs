@@ -26,21 +26,14 @@ function RecordDate({ r }) {
   return date(r.finalDate || r.recordDate || r.achievedAt || r.submittedAt || r.announcedAt);
 }
 function Duration({ r }) {
-  return (
-    <span
-      title={
-        r.durationDays == null
-          ? "The preserved evidence does not establish a duration"
-          : r.durationBasis === "not-a-world-record" ? "This personal best has no documented WR reign." : `${r.durationDays.toFixed(6)} documented playable days${r.durationPrecision === "day" ? "; date-only evidence uses the 06:00 UTC calculation boundary" : ""}. The clock pauses outside Time Trial tours.`
-      }
-    >
-      {r.durationDays == null
-        ? "—"
-        : (r.durationDays > 0 && r.durationDays < 1
-            ? "<1"
-            : Math.floor(r.durationDays))}
-    </span>
-  );
+  const bounds = r.durationBounds;
+  const range = bounds && bounds.maxDays - bounds.minDays > 1e-10;
+  const format = n => n > 0 && n < 1 ? "<1" : Math.floor(n);
+  return <span title={r.durationBasis === "no-documented-wr-reign" ? "No WR reign is documented for this submission." :
+    range ? `Between ${bounds.minDays.toFixed(6)} and ${bounds.maxDays.toFixed(6)} playable days. ${bounds.basis === "attributed-tour-window" ? "The report was published later; the original submission time is not established." : "The source establishes a calendar day; bounds cover the missing timestamp and any unconfirmed timezone."}` :
+    r.durationDays == null ? "The preserved evidence does not establish a duration" : `${r.durationDays.toFixed(6)} documented playable days. The clock pauses outside Time Trial tours.`}>
+    {range ? `${Math.floor(bounds.minDays)}–${Math.ceil(bounds.maxDays)}` : r.durationDays == null ? "—" : format(r.durationDays)}
+  </span>;
 }
 function EvidenceTimes({ r }) {
   const format = value => value ? value.replace("T", " ").replace(/(?:\.\d+)?(?:Z|\+00:00)$/, " UTC") : null;
@@ -378,13 +371,10 @@ function RecordTable({ records, players, events = [], showCourse = false, clean 
   );
 }
 function StatDuration({ row }) {
-  return (
-    <span title="Sum of documented playable durations; incomplete dates are excluded">
-      {row.durationCount
-        ? `${Math.floor(row.days)}${row.missingDays ? "+" : ""}`
-        : "—"}
-    </span>
-  );
+  const range = row.daysMaximum != null && row.daysMaximum-row.daysMinimum > 1e-10;
+  return <span title={range ? `Between ${row.daysMinimum.toFixed(6)} and ${row.daysMaximum.toFixed(6)} documented playable days; date-only and retrospective evidence is bounded.` : `${(row.days || 0).toFixed(6)} documented playable days`}>
+    {range ? `${Math.floor(row.daysMinimum)}–${Math.ceil(row.daysMaximum)}` : row.durationCount ? `${row.days>0 && row.days<1 ? "<1" : Math.floor(row.days)}${row.missingDays ? "+" : ""}` : "—"}
+  </span>;
 }
 function CourseStats({ c, players }) {
   const s = courseStatistics(c.records, players),
@@ -418,7 +408,9 @@ function CourseStats({ c, players }) {
                   </td>
                   <td>
                     {s.complete && s.days
-                      ? ((p.days / s.days) * 100).toFixed(2)
+                      ? s.daysMaximum-s.daysMinimum > 1e-10
+                        ? `${Math.floor(100*p.daysMinimum/s.daysMaximum)}–${Math.min(100,Math.ceil(100*p.daysMaximum/s.daysMinimum))}`
+                        : ((p.days / s.days) * 100).toFixed(2)
                       : "—"}
                   </td>
                 </tr>
@@ -661,7 +653,7 @@ function CoursePage({ data: c, players, tours = [] }) {
     <CourseStats c={c} players={players} />
     <h2>History</h2>
     <RecordTable records={records} events={historyEvents({...c, records}, tours, "2026-09-30T06:00:00Z", {includeRecoveredLeaders:true,publishedRecords:true})} players={players} clean />
-    <p className="table-note">Dates use documented submissions or publications unless an earlier run date is established. Days count playable time; date-only evidence uses the 06:00 UTC tour reset. Personal bests that never held a WR have 0 WR days.</p>
+    <p className="table-note">Dates use documented submissions or publications unless an earlier run date is established. Days count playable time. Ranges reflect date-only evidence or a later report with an unconfirmed original submission time. Submissions without a documented WR reign have 0 credited WR days.</p>
     <p className="archive-links"><a href={`/data/courses/${c.id}.json`} download>Archive data</a></p>
   </>;
 }

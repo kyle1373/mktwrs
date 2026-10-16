@@ -48,3 +48,16 @@ test('title mismatch and cancelled receipts never become the best recording',()=
  {id:'cancelled',playerId:'b',timeCs:8400,proofImageVerified:true,status:'cancelled'}]};
  assert.equal(recordedBest(c).best.id,'wr');assert.equal(recordedBest(c).recording,null);
 });
+test('an earlier reviewed original recording proves publication before a later screenshot submission',()=>{
+ const r={submittedAt:'2022-09-07T08:44:58.935Z',videoPublishedAt:'2022-09-04T04:17:26Z',videoVerified:true,videoAudit:{status:'title-time-matches'},dateUnresolved:true,recordDate:'2022-09-07',dateBasis:'first-screenshot-publication'};
+ assert.equal(resolveFinalDate(r).date,'2022-09-04');
+ assert.equal(resolveFinalDate({...r,videoScope:'single-lap-clip'}).date,'2022-09-07');
+ assert.equal(resolveFinalDate({...r,videoAudit:{status:'title-time-mismatch'}}).date,'2022-09-07');
+});
+test('reviewed dated evidence is tied to the exact course, player and total',()=>{
+ const r={id:'a',time:'1:25.86',playerId:'nu11',submittedAt:'2022-09-07T08:44:58.935Z'};
+ const c={id:'bc3',records:[r],submissions:[],candidates:[]};
+ const e={courseId:'bc3',id:'a',playerId:'nu11',time:'1:25.86',timestamp:'2022-09-02T19:54:18.079Z',basis:'reviewed-first-standing-publication',sourceUrl:'https://discord.com/channels/629221606064914442/636461740162416640/1015348967313252443'};
+ applyFinalDates([c],[e]);assert.equal(r.finalDate,'2022-09-02');assert.equal(r.documentedDateSourceUrl,e.sourceUrl);
+ assert.throws(()=>applyFinalDates([c],[{...e,time:'1:25.98'}]),/does not match/);
+});

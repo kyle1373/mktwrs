@@ -74,6 +74,7 @@ export function courseStatistics(records, players) {
           durationCount: 0,
           missingDays: 0,
           intervals: {},
+          guaranteed: {}, possible: {}, daysMinimum: 0, daysMaximum: 0,
         });
       const row = map.get(id);
       row.count++;
@@ -84,6 +85,13 @@ export function courseStatistics(records, players) {
             ...r.durationIntervals,
           );
         } else row.days += r.durationDays;
+        if (r.durationIntervalsGuaranteed || r.durationIntervals) {
+          (row.guaranteed[r.courseId || "course"] ||= []).push(...(r.durationIntervalsGuaranteed || r.durationIntervals));
+          (row.possible[r.courseId || "course"] ||= []).push(...(r.durationIntervalsPossible || r.durationIntervals));
+        } else {
+          row.daysMinimum += r.durationBounds?.minDays ?? r.durationDays;
+          row.daysMaximum += r.durationBounds?.maxDays ?? r.durationDays;
+        }
         row.durationCount++;
       }
     }
@@ -100,6 +108,11 @@ export function courseStatistics(records, players) {
           windows,
         );
     }
+    for (const [field, output] of [["guaranteed", "daysMinimum"], ["possible", "daysMaximum"]]) {
+      for (const windows of Object.values(row[field])) if (windows.length)
+        row[output] += playableDays(windows.map(w=>w.start).sort()[0],windows.map(w=>w.end).sort().at(-1),windows);
+      delete row[field];
+    }
     delete row.intervals;
   }
   const list = [...people.values()];
@@ -107,7 +120,9 @@ export function courseStatistics(records, players) {
     players: list,
     nations: [...nations.values()],
     days: list.reduce((s, p) => s + p.days, 0),
-    complete: list.every((p) => !p.missingDays),
+    complete: list.every((p) => !p.missingDays && Math.abs(p.daysMaximum-p.daysMinimum)<1e-10),
+    daysMinimum: list.reduce((s,p)=>s+p.daysMinimum,0),
+    daysMaximum: list.reduce((s,p)=>s+p.daysMaximum,0),
   };
 }
 
