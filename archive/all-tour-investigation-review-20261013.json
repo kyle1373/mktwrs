@@ -37,12 +37,11 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 179,
-      "candidate-and-source-review": 1,
+      "completed-with-documented-gaps": 180,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 179,
-    "toursRequiringInvestigation": 2,
+    "practicallyCompletedTours": 180,
+    "toursRequiringInvestigation": 1,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -96,10 +95,9 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 2,
+        "requiringInvestigation": 1,
         "categories": {
-          "completed-with-documented-gaps": 17,
-          "candidate-and-source-review": 1,
+          "completed-with-documented-gaps": 18,
           "source-and-publication-review": 1
         }
       }
@@ -9725,11 +9723,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "snes-vanilla-lake-2r",
@@ -9737,7 +9731,7 @@
           "url": "https://mktwrs.com/course/snes-vanilla-lake-2r",
           "firstAppearance": false,
           "wrRows": 3,
-          "supportingRows": 26,
+          "supportingRows": 19,
           "pendingCandidates": 2,
           "carriedInWr": {
             "id": "1157160735848267859",
@@ -9747,14 +9741,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/sundae2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/sundae2026-exact-live-publication-and-full-field-check-20261016.json",
+      "nextActions": []
     },
     {
       "id": "tour-183",
@@ -11261,16 +11257,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-182",
+  "activeDetailedTourId": "tour-183",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-182",
-  "latestCompletionAudit": "public/data/summer2026-completion.json",
+  "activeDetailedReview": "tour-183",
+  "latestCompletionAudit": "public/data/sundae2026-completion.json",
   "updatedAt": "2026-10-16",
-  "nextPriorityTourId": "tour-182",
-  "nextPriorityReason": "One tour at a time: Summer2026 has core exact LIVE completion evidence. Start Sundae2026 tour182 only after final Summer2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/summer2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-183",
+  "nextPriorityReason": "One tour at a time: Sundae2026 has core exact LIVE completion evidence. Start Anniversary2026 tour182 only after final Sundae2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/sundae2026-exact-live-publication-and-full-field-check-20261016.json"
 }

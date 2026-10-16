@@ -1,8 +1,8 @@
 {
   "tourId": "tour-182",
   "tour": "Sundae Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -65,16 +65,22 @@
     "Post-close videos prove recorded totals without establishing a new in-tour submission date.",
     "Movie finish total reviewed; uninterrupted race and identical screenshot/movie attempt not certified.",
     "One carried strategy clip establishes no completed total; carried Zword31.98 remains source-associated pending finish verification.",
-    "Later and broader historical date corrections remain separate archive-wide work."
+    "Later and broader historical date corrections remain separate archive-wide work.",
+    "Eleven original or compatible MP4 playback sources load in Codex browser. Cancelled duplicate originals remain unavailable with documented receipts; no uninterrupted-race certification."
   ],
   "validation": {
-    "livePublicationVerified": false,
+    "livePublicationVerified": true,
     "focusedTestsPassed": 12,
-    "focusedTestRunsPassed": 1,
+    "focusedTestRunsPassed": 2,
     "productionBuildExitCode": 0,
-    "productionBuildsPassed": 1,
-    "fullGeneratedRowsMatched": 429
+    "productionBuildsPassed": 2,
+    "fullGeneratedRowsMatched": 429,
+    "livePublicationAudit": "archive/sundae2026-exact-live-publication-and-full-field-check-20261016.json",
+    "renderedEvidenceLinksReadable": 168,
+    "productionAudit": "archive/sundae2026-production-build-and-rendered-evidence-link-check-20261016.json"
   },
   "nextTourId": "tour-183",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-16",
+  "latestLivePublicationAudit": "archive/sundae2026-exact-live-publication-and-full-field-check-20261016.json"
 }

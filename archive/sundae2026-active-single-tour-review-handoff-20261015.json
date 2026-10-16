@@ -1,9 +1,9 @@
 {
   "tourId": "tour-182",
   "tour": "Sundae Tour (2026)",
-  "status": "source-reconciliation-and-generation-verified-public-comparison-and-publication-pending",
+  "status": "completed-with-documented-gaps",
   "historyComplete": false,
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "previousTourLiveCompletion": "archive/summer2026-exact-live-publication-and-full-field-check-20261015.json",
   "courses": [
     "gba-luigi-circuit",
@@ -13,8 +13,7 @@
   "endDate": "2026-09-16",
   "adjacentDiscussionSource": "archive/summer2026-preserved-bounded-source-census-20261015.json",
   "nextActions": [
-    "Verify full generated source arrays before restoring unrelated public data.",
-    "Publish comparison and supporting results; verify exactLIVE, then completion evidence."
+    "Sundae2026 source review and core exact LIVE verified. Verify final completion metadata LIVE before starting sole next Anniversary2026 tour182."
   ],
   "browserRestriction": "Discord only through Codex in-app browser2.",
   "remainingSourceAdmissionAudit": "archive/space2026-deferred-preexisting-canonical-source-admission-20261015.json",
@@ -34,5 +33,14 @@
   "all429SourceRowsRetained": true,
   "all17WrIdsRetained": true,
   "updatedExistingEvidenceRows": 105,
-  "full429GeneratedSourceRowsAndAppearancesMatched": true
+  "full429GeneratedSourceRowsAndAppearancesMatched": true,
+  "publicationPending": false,
+  "livePublicationVerified": true,
+  "livePublicationAudit": "archive/sundae2026-exact-live-publication-and-full-field-check-20261016.json",
+  "publicComparisonStillPending": false,
+  "productionBuildStillRequired": false,
+  "productionBuildsPassed": 2,
+  "focusedTestRunsPassed": 2,
+  "finalCompletedMetadataBuildPassed": true,
+  "finalLiveVerificationPending": true
 }
