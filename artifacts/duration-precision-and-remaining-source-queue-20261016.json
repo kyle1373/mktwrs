@@ -2,10 +2,10 @@
   "requirement": "Accurate dates and durations on every course, with tour clocks retained",
   "completionProven": false,
   "remainingExactDurationIntervals": 126,
-  "sourceRowsChecked": 25063,
+  "sourceRowsChecked": 25062,
   "sourceFieldsPreserved": true,
   "tests": {
-    "passed": 197,
+    "passed": 199,
     "failed": 0
   },
   "renderedCoursesChecked": 142,
@@ -3236,6 +3236,20 @@
       "dateValuesChanged": 0,
       "historyComplete": false,
       "artifact": "artifacts/trick2020-current-record-date-source-audit-20261016.json"
+    }
+  ],
+  "reviewedClassificationCorrections": [
+    {
+      "tourId": "tour-60",
+      "courseId": "snes-vanilla-lake-1",
+      "id": "curated-new-year-2022-927269885665480784",
+      "date": "2022-01-02",
+      "time": "0:34.30",
+      "status": "personal-best",
+      "creditedWrDays": 0,
+      "originalCanonicalSnapshot": "archive/newyear2022-vanilla-lake-pb-classification-review-20261016.json",
+      "sourceRowsNote": "The unsupported canonical duplicate is archived in the review artifact. Its original submission remains in course data with all source/proof fields intact.",
+      "tourCompletionProven": false
     }
   ]
 }

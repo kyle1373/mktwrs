@@ -1,3 +1,4 @@
+import { applyReviewedRecordClassifications } from "./reviewed-record-classifications.mjs";
 import { applyFinalSourceFidelity } from "./final-source-fidelity.mjs";
 import { applyDocumentedDurations } from "../lib/documented-durations.mjs";
 import { applyFinalDates } from "../lib/final-dates.mjs";
@@ -850,6 +851,7 @@ for (const course of courses.filter(c => halloween2020ReviewedCourses.has(c.id))
   course.currentHolders = course.currentHolders.map(holder => structuredClone(course.records.find(r => r.id === holder.id) || holder));
 }
 applyFinalSourceFidelity(courses, JSON.parse(fs.readFileSync("scripts/final-source-fidelity-patches.json", "utf8")));
+applyReviewedRecordClassifications(courses, JSON.parse(fs.readFileSync("scripts/reviewed-record-classifications.json", "utf8")));
 const finalDateAudit = applyFinalDates(courses, JSON.parse(fs.readFileSync("scripts/documented-date-evidence.json", "utf8")));
 const durationAudit = applyDocumentedDurations(courses);
 fs.writeFileSync(out + "/documented-duration-audit.json", JSON.stringify(durationAudit));
