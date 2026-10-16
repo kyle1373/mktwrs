@@ -1,8 +1,8 @@
 {
   "tourId": "tour-174",
   "tour": "Mii Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "actualTourWindow": {
     "start": "2026-05-13T06:00:00Z",
@@ -58,12 +58,21 @@
     "Posting, upload, known sharing, repost and announcement clocks remain separate.",
     "Four submission and one discussion messages after close are Princess context, not Mii performances.",
     "Broader date corrections remain deferred until tour reconciliation.",
-    "Canonical reconciliation, rendered playback and exact LIVE publication remain pending."
+    "Six preserved MP4 versions load in Codex browser. Original Troy WebM is retained separately. Prior result assessments remain bounded; no new uninterrupted-race certification."
   ],
   "submissionDatePolicy": "Source posting supplies submission date unless other evidence proves otherwise. Later announcement and movie clocks remain separately preserved.",
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "fullGeneratedRowsMatched": 563,
+    "livePublicationAudit": "archive/mii2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 21,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 127,
+    "productionAudit": "archive/mii2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
-  "publicationPending": true,
-  "nextTourId": "tour-175"
+  "publicationPending": false,
+  "nextTourId": "tour-175",
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/mii2026-exact-live-publication-and-full-field-check-20261015.json"
 }

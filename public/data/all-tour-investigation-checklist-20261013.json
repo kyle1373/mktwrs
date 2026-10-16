@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 171,
-      "carry-in-and-sparse-history-check": 4,
+      "completed-with-documented-gaps": 172,
+      "carry-in-and-sparse-history-check": 3,
       "candidate-and-source-review": 5,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 171,
-    "toursRequiringInvestigation": 10,
+    "practicallyCompletedTours": 172,
+    "toursRequiringInvestigation": 9,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -96,10 +96,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 10,
+        "requiringInvestigation": 9,
         "categories": {
-          "completed-with-documented-gaps": 9,
-          "carry-in-and-sparse-history-check": 4,
+          "completed-with-documented-gaps": 10,
+          "carry-in-and-sparse-history-check": 3,
           "candidate-and-source-review": 5,
           "source-and-publication-review": 1
         }
@@ -9411,11 +9411,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "gcn-mushroom-bridge",
@@ -9433,14 +9429,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/mii2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/mii2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-175",
@@ -11430,7 +11428,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-174",
+  "activeDetailedTourId": "tour-175",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11441,10 +11439,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-174",
-  "latestCompletionAudit": "public/data/bowser2026-completion.json",
-  "nextPriorityTourId": "tour-174",
-  "nextPriorityReason": "One tour at a time: Bowser2026 has core exact LIVE completion evidence. Start Mii2026 tour174 only after final Bowser2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/bowser2026-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-175",
+  "latestCompletionAudit": "public/data/mii2026-completion.json",
+  "nextPriorityTourId": "tour-175",
+  "nextPriorityReason": "One tour at a time: Mii2026 has core exact LIVE completion evidence. Start Princess2026 tour175 only after final Mii2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/mii2026-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
