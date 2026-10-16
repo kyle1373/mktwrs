@@ -919,8 +919,8 @@
     "latestEvidenceReconciliation": "2026-10-13"
   },
   "tour-60": {
-    "status": "reconciliation-in-progress",
-    "label": "Reconciliation in progress",
+    "status": "date-and-duration-review-complete",
+    "label": "Dates and durations reviewed",
     "evidenceUrl": "/data/newyear2022-completion.json",
     "priorPracticalReview": {
       "status": "completed-with-documented-gaps",
@@ -929,8 +929,8 @@
       "evidenceUrl": "/data/newyear2022-completion.json"
     },
     "historyComplete": false,
-    "auditedAt": "2026-10-12",
-    "practicalReviewComplete": false,
+    "auditedAt": "2026-10-16",
+    "practicalReviewComplete": true,
     "latestEvidenceReconciliation": "2026-10-16",
     "currentDateReview": {
       "checkedAt": "2026-10-16",
@@ -951,7 +951,18 @@
       "preservedTourSourceDateReviewComplete": true,
       "evidenceUrl": "/data/newyear2022-source-and-duration-review.json",
       "historyComplete": false
-    }
+    },
+    "dateDurationReviewCompletedAt": "2026-10-16",
+    "dateDurationReviewComplete": true,
+    "reviewScope": "All 126 currently preserved tour-window entries: documented posting/publication dates, credited time within the tour, and attached preserved-media delivery.",
+    "mediaLinkReview": {
+      "checkedAt": "2026-10-16",
+      "uniqueProofImages": 65,
+      "uniquePreservedVideos": 6,
+      "allPreservedLinksPass": true,
+      "evidenceUrl": "/data/newyear2022-preserved-media-link-review.json"
+    },
+    "nextDateDurationReviewTourId": "tour-15"
   },
   "tour-61": {
     "status": "completed-with-documented-gaps",

@@ -1,7 +1,7 @@
 {
   "tourId": "tour-60",
   "tour": "New Year's 2022 Tour",
-  "status": "reconciliation-in-progress",
+  "status": "date-and-duration-review-complete",
   "standard": "Documented source dates, accurate credited playable durations, preserved original evidence, and one-tour-at-a-time reconciliation. Current date checks do not certify exhaustive history.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -75,16 +75,10 @@
     "partialClipsPreservedOnR2": 8
   },
   "remainingLimitations": [
-    "Initial capture omitted 23 New Year images, including three intermediate WRs. Earlier tours require the same attachment-completeness audit; no global completion claim is made.",
-    "Nu11 previous 1:14.92 date and ordering remain unresolved. DIT’s screenshot repeats a previous 34.20; its first attainment timestamp is unknown.",
-    "Wins previous 1:15.21/1:15.17 and other earlier personal-best dates require independent evidence before promotion to WR history.",
-    "Two Isun Twitter video posts (1480353594260230152 and 1480360138058137601) could not be downloaded; result screenshots and lap text survive.",
-    "Course history outside this tour remains under audit.",
-    "Three selected final recordings preserved on R2; prior visual review retained without fresh uninterrupted certification.",
-    "Private, deleted and unindexed global material not proven fully recovered.",
-    "Six full original recordings and eight partial clips preserved on R2. Partial clips do not establish completed race totals.",
-    "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier achievement dates of screenshot previous-best totals remain unknown; their documented posting dates are verified and they receive no unproven WR credit.",
+    "The two Isun Twitter video references remain unavailable; their source references and dated result evidence are retained.",
+    "Original image and movie content assessments are preserved from earlier reviews; this review independently checks dates, tour durations and media delivery.",
+    "Exhaustive worldwide history is not certified; private, deleted and unindexed material may remain unrecovered."
   ],
   "validation": {
     "liveSnapshotRows": 631,
@@ -97,11 +91,10 @@
     "freshCommittedSourceBuildPassed": true,
     "openingGlobalWrPrecedenceCertified": false
   },
-  "nextTourId": null,
-  "practicalReviewComplete": false,
+  "nextTourId": "tour-15",
+  "practicalReviewComplete": true,
   "historyComplete": false,
-  "sourceCommit": "e9371b8d7bba393ea5115ef82f6e0574207f8f45",
-  "latestPublicationAudit": "archive/newyear2022-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "/data/newyear2022-source-and-duration-review.json",
   "priorCompletionClaim": {
     "status": "completed-with-documented-gaps",
     "completedAt": "2026-10-13",
@@ -130,5 +123,18 @@
     "preservedTourSourceDateReviewComplete": true,
     "evidenceUrl": "/data/newyear2022-source-and-duration-review.json",
     "historyComplete": false
-  }
+  },
+  "label": "Dates and durations reviewed",
+  "dateDurationReviewCompletedAt": "2026-10-16",
+  "dateDurationReviewComplete": true,
+  "reviewScope": "All 126 currently preserved tour-window entries: documented posting/publication dates, credited time within the tour, and attached preserved-media delivery.",
+  "mediaLinkReview": {
+    "checkedAt": "2026-10-16",
+    "uniqueProofImages": 65,
+    "uniquePreservedVideos": 6,
+    "allPreservedLinksPass": true,
+    "evidenceUrl": "/data/newyear2022-preserved-media-link-review.json"
+  },
+  "priorSourceSnapshotCommit": "e9371b8d7bba393ea5115ef82f6e0574207f8f45",
+  "reviewedAgainstCommit": "41ea1b1912277077c90b7208808323e2c9995d1b"
 }
