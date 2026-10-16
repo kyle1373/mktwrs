@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 159,
-      "source-and-publication-review": 10,
+      "completed-with-documented-gaps": 160,
+      "source-and-publication-review": 9,
       "candidate-and-source-review": 7,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 159,
-    "toursRequiringInvestigation": 22,
+    "practicallyCompletedTours": 160,
+    "toursRequiringInvestigation": 21,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -90,10 +90,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 3,
+        "requiringInvestigation": 2,
         "categories": {
-          "completed-with-documented-gaps": 23,
-          "source-and-publication-review": 3
+          "completed-with-documented-gaps": 24,
+          "source-and-publication-review": 2
         }
       },
       "2026": {
@@ -8595,7 +8595,7 @@
     {
       "id": "tour-162",
       "number": 162,
-      "displayName": "Peach vs. Bowser Tour (November–December 2022) (2025)",
+      "displayName": "Peach vs. Bowser Tour (2025)",
       "startDate": "2025-11-26",
       "endDate": "2025-12-10",
       "courses": [
@@ -8605,7 +8605,7 @@
           "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 2,
+          "supportingRows": 1,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1332590475806511144",
@@ -8615,9 +8615,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "ds-peach-gardens",
@@ -8625,7 +8623,7 @@
           "url": "https://mktwrs.com/course/ds-peach-gardens",
           "firstAppearance": false,
           "wrRows": 3,
-          "supportingRows": 4,
+          "supportingRows": 5,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1189361589913124894",
@@ -8635,11 +8633,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check meaningful chronology gaps; retain unknown exact achievement dates where source/report clocks suffice.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-royal-raceway",
@@ -8647,7 +8641,7 @@
           "url": "https://mktwrs.com/course/n64-royal-raceway",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 2,
+          "supportingRows": 4,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1189361686306619392",
@@ -8657,13 +8651,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/peachbowser2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/peachbowser2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-163",
@@ -11306,16 +11303,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-162",
+  "activeDetailedTourId": "tour-163",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-162",
-  "latestCompletionAudit": "public/data/animal2025-completion.json",
+  "activeDetailedReview": "tour-163",
+  "latestCompletionAudit": "public/data/peachbowser2025-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-162",
-  "nextPriorityReason": "One tour at a time: Animal2025 has core exact LIVE completion evidence. Start Peach vs. Bowser2025 tour162 November26–December10 only after final Autumn LIVE verification.",
-  "latestLiveCompletionAudit": "archive/animal2025-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-163",
+  "nextPriorityReason": "One tour at a time: PeachBowser2025 has core exact LIVE completion evidence. Start Holiday2025 tour163 December10–24 only after final PeachBowser LIVE verification.",
+  "latestLiveCompletionAudit": "archive/peachbowser2025-exact-live-publication-and-full-field-check-20261015.json"
 }
