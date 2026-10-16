@@ -24,7 +24,7 @@ test('Repeated screenshot keeps the first performance date and no duplicate disp
 test('Every reviewed source survives in full course collections without additional WRs',()=>{
  const a=read('archive/pipe2024-posted-results-and-preserved-source-reconciliation-20261015.json');assert.equal(a.sourceDisposition.length,27);let rows=0,wr=0;const aggregate=read('public/data/courses.json');
  for(const cid of cids){const c=read('public/data/courses/'+cid+'.json'),g=aggregate.find(c=>c.id===cid);for(const k of ['records','submissions','candidates']){assert.deepEqual(c[k],g[k]);rows+=c[k].length;}wr+=c.records.length;for(const s of a.sourceDisposition.filter(s=>s.courseId===cid))assert.ok([...c.records,...c.submissions,...c.candidates].some(r=>r.messageId===s.rawId||r.id==='curated-'+s.rawId),s.rawId);}
- assert.equal(rows,267);assert.equal(wr,22);assert.deepEqual(cids.map(cid=>course(cid).pipe2024SupportingResults.length),[11,14]);
+ assert.equal(rows,268);assert.equal(wr,22);assert.deepEqual(cids.map(cid=>course(cid).pipe2024SupportingResults.length),[11,14]);
 });
 test('Four partial clips remain technique references with separate publication and sharing dates',()=>{
  const c=course('piranha-plant-cove-2r').pipe2024Recording;assert.equal(c.strategyReferences.length,4);assert.ok(c.strategyReferences.every(r=>!r.time&&!r.includeInProgression));
