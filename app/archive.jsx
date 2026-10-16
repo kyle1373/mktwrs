@@ -794,6 +794,14 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.yoshi2022SupportingResults} players={players} tourLabel="Yoshi Tour (2022)" />
       <HalloweenRecording comparison={c.amsterdam2022Recording} players={players} tourLabel="Amsterdam Tour (2022)" completed={c.amsterdam2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.amsterdam2022SupportingResults} players={players} tourLabel="Amsterdam Tour (2022)" />
+      {!!c.amsterdam2022PreservedOpeningSources?.length && <details className="sources">
+        <summary>Amsterdam Tour (2022) preserved opening-day sources</summary>
+        <p className="table-note">Slower opening-day sources are preserved here without WR or opening leader credit. The result history shows only the fastest reviewed opening result.</p>
+        {c.amsterdam2022PreservedOpeningSources.map(s => <div key={s.id}>
+          <a href={s.originalVideoUrl} target="_blank" rel="noopener noreferrer">Original video</a> · <a href={s.playbackUrl} target="_blank" rel="noopener noreferrer">Playback copy</a> · <a href={s.resultFrameUrl} target="_blank" rel="noopener noreferrer">Result frame</a> · <a href={s.sourceContextUrl} target="_blank" rel="noopener noreferrer">Source dates</a>
+          <EvidenceTimes r={{videoPublishedAt:s.postedAt, videoSharedAt:s.sharedAt, videoShareSource:{url:s.shareSourceUrl}}} />
+        </div>)}
+      </details>}
       <HalloweenRecording comparison={c.doctor2022Recording} players={players} tourLabel="Doctor Tour (2022)" completed={c.doctor2022Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.doctor2022SupportingResults} players={players} tourLabel="Doctor Tour (2022)" />
       <HalloweenRecording comparison={c.peachbowsermay2022Recording} players={players} tourLabel="Peach vs. Bowser Tour (May 2022)" completed={c.peachbowsermay2022Recording?.practicalReviewComplete === true} />
