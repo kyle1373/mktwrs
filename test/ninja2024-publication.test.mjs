@@ -9,7 +9,7 @@ test('Ninja final results retain their posted dates and separate available recor
  const c=course('wii-rainbow-road'),rr=c.ninja2024Recording;assert.equal(c.fastestVideo.time,'1:13.83');assert.equal(c.fastestVideo.documentedRecordingSelection,true);
  assert.equal(rr.worldRecord.time,'1:13.83');assert.equal(rr.worldRecord.playerId,'kuri');assert.equal(rr.worldRecord.submittedAt,'2024-03-22T14:06:39.117Z');assert.equal(rr.documentedRecording.time,'1:13.83');assert.match(rr.documentedRecording.videoBackup.url,/^https:\/\/media.mktwrs.com\//);
  const ws=course('3ds-wario-shipyard').ninja2024Recording;
- assert.equal(ws.worldRecord.time,'1:33.36');assert.equal(ws.worldRecord.playerId,'nekozuki');assert.equal(ws.worldRecord.submittedAt,'2024-03-25T05:26:42.420Z');assert.equal(ws.reportedRecording.time,'1:33.45');assert.equal(ws.reportedRecording.playerId,'n');
+ assert.equal(ws.worldRecord.time,'1:33.36');assert.equal(ws.worldRecord.playerId,'nekozuki');assert.equal(ws.worldRecord.submittedAt,'2024-03-25T05:26:42.420Z');assert.equal(ws.documentedRecording.time,'1:33.45');assert.equal(ws.documentedRecording.playerId,'n');assert.equal(ws.reportedRecording,null);assert.equal(ws.recording,null);assert.match(ws.dateBoundaryNote,/later review verified/);assert.doesNotMatch(ws.dateBoundaryNote,/uploader-reported|not been visually certified/);assert.equal(ws.documentedRecording.submittedAt,'2023-04-03T14:00:05.058Z');assert.equal(ws.documentedRecording.videoPublishedAt,'2023-04-04T01:56:48Z');assert.equal(ws.documentedRecording.videoSharedAt,'2023-04-04T01:59:02.690Z');
 });
 test('The documented receipt and partial movie receive no duplicate WR credit',()=>{
  const c=read('public/data/courses/wii-rainbow-road.json');assert.equal(c.candidates.length,0);
