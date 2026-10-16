@@ -603,7 +603,7 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
       <EvidenceTimes r={lap} />
     </div>)}
     {(comparison.sourceImages || []).map(image => <div key={image.url}>
-      <p>Discussion screenshot · <Player id={image.playerId} players={players} /> · <a href={image.url} target="_blank" rel="noopener noreferrer">Preserved original image</a> · <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Original post</a></p>
+      <p>Discussion screenshot · <Player id={image.playerId} players={players} /> · <a href={image.url} target="_blank" rel="noopener noreferrer">{image.preservedImageLabel || "Preserved original image"}</a> · <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Original post</a></p>
       <p className="table-note">{image.note}</p>
       <EvidenceTimes r={{submittedAt: image.postedAt}} />
     </div>)}
@@ -944,6 +944,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.doctor2026ContextResults} players={players} tourLabel="Cove result posted after rotation; race date and tour association unresolved" />
       <HalloweenRecording comparison={c.mario2025Recording} players={players} tourLabel="Mario Tour (2025)" completed={c.mario2025Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.mario2025SupportingResults} players={players} tourLabel="Mario Tour (2025)" />
+      <HalloweenRecording comparison={c.mario2026Recording} players={players} tourLabel="Mario Tour (2026)" completed={c.mario2026Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.mario2026SupportingResults} players={players} tourLabel="Mario Tour (2026)" />
       <HalloweenRecording comparison={c.ninja2025Recording} players={players} tourLabel="Ninja Tour (2025)" completed={c.ninja2025Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.ninja2025SupportingResults} players={players} tourLabel="Ninja Tour (2025)" />
       <HalloweenRecording comparison={c.yoshi2025Recording} players={players} tourLabel="Yoshi Tour (2025)" completed={c.yoshi2025Recording?.practicalReviewComplete === true} />
