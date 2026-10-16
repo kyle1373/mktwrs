@@ -791,6 +791,10 @@ const yoshi2026ProtectedFields = new Set(["gcn-yoshi-circuit|submissions|curated
 applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && yoshi2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
 const yoshi2026=tours.find(t=>t.id==="tour-171" && t.startDate==="2026-04-01");
 if(yoshi2026) yoshi2026.name="Yoshi Tour (2026)";
+const spring2026ProtectedFields = new Set(["athens-dash-2|records|1499955452476395591", "athens-dash-2|records|curated-1497616981036110044-spring2026-image-reviewed", "athens-dash-2|submissions|curated-1497616981036110044-spring2026-image-reviewed", "berlin-byways|submissions|curated-1493922855933448283-spring2026-image-reviewed", "berlin-byways|submissions|curated-1494874270839341159-spring2026-image-reviewed", "berlin-byways|submissions|curated-1495315927175135293-spring2026-image-reviewed", "berlin-byways|submissions|curated-1496111929247137953-spring2026-image-reviewed", "berlin-byways|submissions|curated-1498607954956652615-spring2026-image-reviewed"]);
+applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && spring2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
+const spring2026=tours.find(t=>t.id==="tour-172" && t.startDate==="2026-04-15");
+if(spring2026) spring2026.name="Spring Tour (2026)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,

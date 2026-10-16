@@ -28,7 +28,10 @@ test('Lap clips, caption best and timer-limit result do not become complete-run 
 });
 test('Opening-day publication and future collections preserve the agreed review scope',()=>{
  const c=course('athens-dash-2'),rows=c.spring2024SupportingResults.filter(r=>isReviewedOpeningDay(r,'2024-04-17'));assert.ok(rows.length>0);const best=Math.min(...rows.map(r=>r.timeCs));assert.ok(rows.every(r=>r.timeCs===best));
- const p=read('scripts/spring2024-publication-preservation.json'),full=read('public/data/courses/athens-dash-2.json');for(const original of p.preservedFutureCandidates) assert.deepEqual(full.candidates.find(r=>r.id===original.id),original);
+ const p=read('scripts/spring2024-publication-preservation.json'),full=read('public/data/courses/athens-dash-2.json');
+ // Later authorized Spring2025 reconciliation enriches these previously preserved candidates.
+ const patches=read('scripts/reviewed-publication-field-patches.json').rows;
+ for(const original of p.preservedFutureCandidates){const actual=full.candidates.find(r=>r.id===original.id),expected=structuredClone(original);const patch=patches.find(p=>p.courseId===full.id&&p.collection==='candidates'&&p.id===original.id);assert(patch&&!patch.remove);assert.equal(actual.canonicalSourceReviewAudit,'archive/spring2025-posted-results-and-source-clock-reconciliation-20261015.json');assert.equal(actual.time,original.time);assert.equal(actual.playerId,original.playerId);Object.assign(expected,structuredClone(patch.set));for(const key of patch.unset||[])delete expected[key];assert.deepEqual(actual,expected);}
  const r=read('archive/spring2024-posted-results-and-preserved-source-reconciliation-20261015.json');assert.equal(r.canonicalRawRowsUpdated,32);assert.equal(r.newWrIds,0);assert.equal(r.freshBrowserCensusCompleted,false);
  assert.equal(read('public/data/yoshi2024-completion.json').validation.livePublicationVerified,true);
 });
