@@ -23,10 +23,7 @@ function Nation({ country }) {
   );
 }
 function RecordDate({ r }) {
-  const day = r.recordDate || r.achievedAt || r.submittedAt || r.announcedAt;
-  if (!day && r.tourDateRange)
-    return <span title="The retrospective source identifies this tour, rather than a submission day.">{r.tourDateRange.start} – {r.tourDateRange.end}</span>;
-  return <span title="Submission date (UTC). The source posting date is used unless the evidence establishes another date.">{date(day)}</span>;
+  return date(r.finalDate || r.recordDate || r.achievedAt || r.submittedAt || r.announcedAt);
 }
 function Duration({ r }) {
   return (
@@ -103,7 +100,7 @@ function SplitSourceNote({ r }) {
 }
 function Time({ record: r }) {
   const photoReference = r?.videoReferenceReview?.kind === "archived-original-result-photo-post";
-  const video = r?.video || r?.originalVideo || (!photoReference && r?.videoReference);
+  const video = (r?.videoAvailability === "unavailable" && r?.videoBackup?.status === "available" ? r.videoBackup.url : null) || r?.video || r?.originalVideo || (!photoReference && r?.videoReference);
   const referenceOnly = !photoReference && !r?.video && !r?.originalVideo && Boolean(r?.videoReference);
   const partial = r?.videoScope === "single-lap-clip" || r?.videoScope === "incomplete-first-lap";
   const unavailable = r?.videoAvailability === "unavailable" || (!r?.video && r?.originalVideoAvailable === false);
@@ -130,7 +127,7 @@ function Time({ record: r }) {
       {r?.time || "—"}
     </span>
   );
-  return <>{original}{video && unavailable && <span className="table-note"> · Original video unavailable</span>}{referenceOnly && <span className="table-note"> · Video reference unverified</span>}{video && partial && <span className="table-note"> · Partial recording; complete race unverified</span>}<EvidenceTimes r={r} /><SplitSourceNote r={r} /></>;
+  return original;
 }
 function BackupIcon() {
   return <svg viewBox="0 0 20 16" width="16" height="14" aria-hidden="true">
@@ -156,7 +153,7 @@ function Player({ id, players }) {
 }
 function Proof({ r }) {
   if (["unavailable", "unverified"].includes(r.proofImageAvailability) && !r.proofImageLocal)
-    return <><span title="Original image has no verified recovered copy">{r.proofImageAvailability === "unavailable" ? "Image unavailable" : "Image unverified"}</span>{r.announcementOnlyProof && r.source?.url && <div><a href={r.source.url} target="_blank" rel="noopener noreferrer">WR announcement</a></div>}</>;
+    return r.source?.url ? <a className="proof-icon" href={r.source.url} target="_blank" rel="noopener noreferrer" aria-label={`Source for ${r.time}`} title="Source">↗</a> : null;
   const url = r.proofImageLocal || r.proofImage;
   return url ? (
     <a
@@ -280,7 +277,7 @@ function Sidebar({ index }) {
     </aside>
   );
 }
-function RecordTable({ records, players, events = [], showCourse = false }) {
+function RecordTable({ records, players, events = [], showCourse = false, clean = false }) {
   const entries = events.length
     ? events
     : records.map((r) => ({ type: "record", record: r, id: r.id }));
@@ -323,7 +320,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                 const r = e.record,
                   p = players.find((p) => p.id === r.playerId);
                 return (
-                  <tr key={r.id} className={showCourse && r.isCurrent ? "current-wr" : undefined}>
+                  <tr key={r.id} data-record-id={r.id} className={showCourse && r.isCurrent ? "current-wr" : undefined}>
                     <td><RecordDate r={r} /></td>
                     {showCourse && (
                       <td>
@@ -332,10 +329,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                     )}
                     <td>
                       <Time record={r} />
-                      {r.recoveredLeaderEvidence && <div className="table-note">
-                        Recovered leader · {r.recoveredLeaderEvidence.evidenceKind === "contemporary-report" ? "reported result" : r.recoveredLeaderEvidence.evidenceKind === "image-repost" ? "reposted screenshot" : r.recoveredLeaderEvidence.evidenceKind === "original-result-image" ? "result screenshot" : "preserved video"}
-                        <details className="evidence-times"><summary>Leader evidence</summary><p>{r.evidenceNote}</p><p>Worldwide WR precedence remains unconfirmed.</p></details>
-                      </div>}
+
                     </td>
                     <td>
                       <Player id={r.playerId} players={players} />
@@ -344,7 +338,7 @@ function RecordTable({ records, players, events = [], showCourse = false }) {
                       <Nation country={p?.country} />
                     </td>
                     <td className="center">
-                      <Duration r={r} />
+                      {clean ? (r.durationDays == null ? "—" : Math.floor(r.durationDays)) : <Duration r={r} />}
                     </td>
                     <td className="split" title={r.lapMatchBasis}>
                       {r.laps?.[0] || "—"}
@@ -536,12 +530,6 @@ function CourseStats({ c, players }) {
           {c.image && <img src={c.image} alt={c.name} />}
         </div>
       </div>
-      {!s.complete && (
-        <p className="table-note">
-          Duration totals are partial where record dates are missing (+).
-          Percentages remain blank until the chronology is established.
-        </p>
-      )}
     </>
   );
 }
@@ -656,465 +644,24 @@ function ParisSupportingResults({ results, players, tourLabel = "Paris Tour (201
     </table></div>
   </details>;
 }
-function CoursePage({ data: c, players, tours, manifest }) {
-  const historyRecords = [...c.records, ...(c.hammerRecoveredProgression || [])];
-  const events = historyEvents({...c, records: historyRecords}, tours, manifest.updatedAt, {includeRecoveredLeaders: true});
-  const fragments = c.records.flatMap(r => (r.videoFragments || []).map(fragment => ({ record: r, ...fragment })));
-  return (
-    <>
-      <h1>{c.name}</h1>
-      <h2>Current WR:</h2>
-      <RecordTable records={c.currentHolders} players={players} />
-      <CourseStats c={c} players={players} />
-      <FastestVideo course={c} players={players} />
-      <HalloweenRecording comparison={c.halloween2019Recording} players={players} completed={c.halloween2019Recording?.practicalReviewComplete === true} />
-      <HalloweenSupportingResults results={c.halloweenSupportingResults} players={players} />
-      {!!c.preservedHalloweenRecordings?.length && <details className="sources">
-        <summary>Additional preserved Halloween recordings ({c.preservedHalloweenRecordings.length})</summary>
-        <p className="table-note">Supporting recordings preserved separately from WR progression. Original posting clocks and footage limitations remain in the linked evidence.</p>
-        {c.preservedHalloweenRecordings.map(r => <p key={r.id}><strong>{r.time}</strong> · <a href={r.video || r.videoReference} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a><EvidenceTimes r={r} /></p>)}
-      </details>}
-      <HalloweenRecording comparison={c.paris2019Recording} players={players} tourLabel="Paris Tour (2019)" completed={c.paris2019Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.parisSupportingResults} players={players} />
-      <HalloweenRecording comparison={c.winter2019Recording} players={players} tourLabel="Winter Tour (2019)" completed={c.winter2019Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.winterSupportingResults} players={players} tourLabel="Winter Tour (2019)" />
-      <HalloweenRecording comparison={c.london2019Recording} players={players} tourLabel="London Tour (2019)" completed={c.london2019Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.londonSupportingResults} players={players} tourLabel="London Tour (2019)" />
-      <HalloweenRecording comparison={c.holiday2019Recording} players={players} tourLabel="Holiday Tour (2019)" completed={c.holiday2019Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.holidaySupportingResults} players={players} tourLabel="Holiday Tour (2019)" />
-      <HalloweenRecording comparison={c.newyear2020Recording} players={players} tourLabel="New Year’s Tour (2020)" completed={c.newyear2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.newyearSupportingResults} players={players} tourLabel="New Year’s Tour (2020)" />
-      <HalloweenRecording comparison={c.ice2020Recording} players={players} tourLabel="Ice Tour (2020)" completed={c.ice2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.iceSupportingResults} players={players} tourLabel="Ice Tour (2020)" />
-      <HalloweenRecording comparison={c.valentines2020Recording} players={players} tourLabel="Valentine’s Tour (2020)" completed={c.valentines2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.valentinesSupportingResults} players={players} tourLabel="Valentine’s Tour (2020)" />
-      <HalloweenRecording comparison={c.vancouver2020Recording} players={players} tourLabel="Vancouver Tour (2020)" completed={c.vancouver2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.vancouverSupportingResults} players={players} tourLabel="Vancouver Tour (2020)" />
-      {!!c.vancouverPartialClips?.length && c.id === "snes-choco-island-2r" && <section className="fastest-video">
-        <h2>Vancouver Tour (2020) partial recordings</h2>
-        <p>These clips show lap-one footage and the beginning of lap two. No completed race total is shown.</p>
-        {c.vancouverPartialClips.map(clip => <p key={clip.originalUrl}>{clip.player}{clip.firstLap ? ` · First lap ${clip.firstLap}` : ""} · <a href={clip.originalUrl} target="_blank" rel="noopener noreferrer">Original clip</a> · <a href={clip.preservedUrl} target="_blank" rel="noopener noreferrer">Preserved clip</a><br />Original publication: {clip.originalPublishedAt} · Achievement time unknown</p>)}
-      </section>}
-      <HalloweenRecording comparison={c.mariobros2020Recording} players={players} tourLabel="Mario Bros. Tour (2020)" completed={c.mariobros2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mariobrosSupportingResults} players={players} tourLabel="Mario Bros. Tour (2020)" />
-      <HalloweenRecording comparison={c.babyrosalina2020Recording} players={players} tourLabel="Baby Rosalina Tour (2020)" completed={c.babyrosalina2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.babyrosalinaSupportingResults} players={players} tourLabel="Baby Rosalina Tour (2020)" />
-      <HalloweenRecording comparison={c.hammer2020Recording} players={players} tourLabel="Hammer Bro Tour (2020)" completed={c.hammer2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.hammerSupportingResults} players={players} tourLabel="Hammer Bro Tour (2020)" />
-      <HalloweenRecording comparison={c.yoshi2020Recording} players={players} tourLabel="Yoshi Tour (2020)" completed={c.yoshi2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.yoshiSupportingResults} players={players} tourLabel="Yoshi Tour (2020)" />
-      <HalloweenRecording comparison={c.trick2020Recording} players={players} tourLabel="Trick Tour (2020)" completed={c.trick2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.trickSupportingResults} players={players} tourLabel="Trick Tour (2020)" />
-      <HalloweenRecording comparison={c.flower2020Recording} players={players} tourLabel="Flower Tour (2020)" completed={c.flower2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.flowerSupportingResults} players={players} tourLabel="Flower Tour (2020)" />
-      <HalloweenRecording comparison={c.jungle2020Recording} players={players} tourLabel="Jungle Tour (2020)" completed={c.jungle2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.jungleSupportingResults} players={players} tourLabel="Jungle Tour (2020)" />
-      <HalloweenRecording comparison={c.cooking2020Recording} players={players} tourLabel="Cooking Tour (2020)" completed={c.cooking2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.cookingSupportingResults} players={players} tourLabel="Cooking Tour (2020)" />
-      <HalloweenRecording comparison={c.losangeles2020Recording} players={players} tourLabel="Los Angeles Tour (2020)" completed={c.losangeles2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.losangelesSupportingResults} players={players} tourLabel="Los Angeles Tour (2020)" />
-      <HalloweenRecording comparison={c.anniversary2020Recording} players={players} tourLabel="1st Anniversary Tour (2020)" completed={c.anniversary2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.anniversarySupportingResults} players={players} tourLabel="1st Anniversary Tour (2020)" />
-      <HalloweenRecording comparison={c.halloween2020Recording} players={players} tourLabel="Halloween Tour (2020)" completed={c.halloween2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.halloween2020SupportingResults} players={players} tourLabel="Halloween Tour (2020)" />
-      <ParisSupportingResults results={c.laterBowser2r2020Results} players={players} tourLabel="Later Bowser Castle 2R recording (2020)" />
-      <HalloweenRecording comparison={c.sunset2020Recording} players={players} tourLabel="Sunset Tour (2020)" completed={c.sunset2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sunsetSupportingResults} players={players} tourLabel="Sunset Tour (2020)" />
-      <HalloweenRecording comparison={c.marioluigi2020Recording} players={players} tourLabel="Mario vs. Luigi Tour (2020)" completed={c.marioluigi2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.marioluigiSupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2020)" />
-      <HalloweenRecording comparison={c.winter2020Recording} players={players} tourLabel="Winter Tour (2020)" completed={c.winter2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.winter2020SupportingResults} players={players} tourLabel="Winter Tour (2020)" />
-      <HalloweenRecording comparison={c.rosalina2020Recording} players={players} tourLabel="Rosalina Tour (2020)" completed={c.rosalina2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.rosalina2020SupportingResults} players={players} tourLabel="Rosalina Tour (2020)" />
-      <HalloweenRecording comparison={c.newyear2021Recording} players={players} tourLabel="New Year’s Tour (2021)" completed={c.newyear2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.newyear2021SupportingResults} players={players} tourLabel="New Year’s Tour (2021)" />
-      <HalloweenRecording comparison={c.berlin2021Recording} players={players} tourLabel="Berlin Tour (2021)" completed={c.berlin2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.berlin2021SupportingResults} players={players} tourLabel="Berlin Tour (2021)" completed={c.berlin2021Recording?.practicalReviewComplete === true} />
-      <HalloweenRecording comparison={c.cat2021Recording} players={players} tourLabel="Cat Tour (2021)" completed={c.cat2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.cat2021SupportingResults} players={players} tourLabel="Cat Tour (2021)" />
-      <HalloweenRecording comparison={c.peachdaisy2021Recording} players={players} tourLabel="Peach vs. Daisy Tour" completed={c.peachdaisy2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.peachdaisy2021SupportingResults} players={players} tourLabel="Peach vs. Daisy Tour" />
-      <HalloweenRecording comparison={c.snow2021Recording} players={players} tourLabel="Snow Tour" completed={c.snow2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.snow2021SupportingResults} players={players} tourLabel="Snow Tour" />
-      <HalloweenRecording comparison={c.mario2021Recording} players={players} tourLabel="Mario Tour (2021)" completed={c.mario2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mario2021SupportingResults} players={players} tourLabel="Mario Tour (2021)" />
-      <HalloweenRecording comparison={c.yoshi2021Recording} players={players} tourLabel="Yoshi Tour (2021)" completed={c.yoshi2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.yoshi2021SupportingResults} players={players} tourLabel="Yoshi Tour (2021)" />
-      <HalloweenRecording comparison={c.ninja2021Recording} players={players} tourLabel="Ninja Tour (2021)" completed={c.ninja2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.ninja2021SupportingResults} players={players} tourLabel="Ninja Tour (2021)" />
-      <HalloweenRecording comparison={c.sydney2021Recording} players={players} tourLabel="Sydney Tour (April 2021)" completed={c.sydney2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sydney2021SupportingResults} players={players} tourLabel="Sydney Tour (April 2021)" />
-      <HalloweenRecording comparison={c.bowserdk2021Recording} players={players} tourLabel="Bowser vs. DK Tour (2021)" completed={c.bowserdk2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.bowserdk2021SupportingResults} players={players} tourLabel="Bowser vs. DK Tour (2021)" />
-      <HalloweenRecording comparison={c.trick2021Recording} players={players} tourLabel="Trick Tour (2021)" completed={c.trick2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.trick2021SupportingResults} players={players} tourLabel="Trick Tour (2021)" />
-      <HalloweenRecording comparison={c.wedding2021Recording} players={players} tourLabel="Wedding Tour (2021)" completed={c.wedding2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.wedding2021SupportingResults} players={players} tourLabel="Wedding Tour (2021)" />
-      <HalloweenRecording comparison={c.paris2021Recording} players={players} tourLabel="Paris Tour (2021)" completed={c.paris2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.paris2021SupportingResults} players={players} tourLabel="Paris Tour (2021)" />
-      <HalloweenRecording comparison={c.summer2021Recording} players={players} tourLabel="Summer Tour (2021)" completed={c.summer2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.summer2021SupportingResults} players={players} tourLabel="Summer Tour (2021)" />
-      <HalloweenRecording comparison={c.la2021Recording} players={players} tourLabel="Los Angeles Tour (2021)" completed={c.la2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.la2021SupportingResults} players={players} tourLabel="Los Angeles Tour (2021)" />
-      <HalloweenRecording comparison={c.mariopeach2021Recording} players={players} tourLabel="Mario vs. Peach Tour (2021)" completed={c.mariopeach2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mariopeach2021SupportingResults} players={players} tourLabel="Mario vs. Peach Tour (2021)" />
-      <HalloweenRecording comparison={c.frost2021Recording} players={players} tourLabel="Frost Tour (2021)" completed={c.frost2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.frost2021SupportingResults} players={players} tourLabel="Frost Tour (2021)" />
-      <HalloweenRecording comparison={c.kamek2021Recording} players={players} tourLabel="Kamek Tour (2021)" completed={c.kamek2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.kamek2021SupportingResults} players={players} tourLabel="Kamek Tour (2021)" />
-      <HalloweenRecording comparison={c.sydneysep2021Recording} players={players} tourLabel="Sydney Tour (September 2021)" completed={c.sydneysep2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sydneysep2021SupportingResults} players={players} tourLabel="Sydney Tour (September 2021)" />
-      <HalloweenRecording comparison={c.anniversary2021Recording} players={players} tourLabel="2nd Anniversary Tour (2021)" completed={c.anniversary2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.anniversary2021SupportingResults} players={players} tourLabel="2nd Anniversary Tour (2021)" />
-      <HalloweenRecording comparison={c.autumn2021Recording} players={players} tourLabel="Autumn Tour (2021)" completed={c.autumn2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.autumn2021SupportingResults} players={players} tourLabel="Autumn Tour (2021)" />
-      <HalloweenRecording comparison={c.halloween2021Recording} players={players} tourLabel="Halloween Tour (2021)" completed={c.halloween2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.halloween2021SupportingResults} players={players} tourLabel="Halloween Tour (2021)" />
-      <ParisSupportingResults results={c.laterRosalinaIceWorld2021Results} players={players} tourLabel="Later Rosalina’s Ice World recording (2021)" />
-      <HalloweenRecording comparison={c.toadette2021Recording} players={players} tourLabel="Toad vs. Toadette Tour (2021)" completed={c.toadette2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.toadette2021SupportingResults} players={players} tourLabel="Toad vs. Toadette Tour (2021)" />
-      <HalloweenRecording comparison={c.space2021Recording} players={players} tourLabel="Space Tour (2021)" completed={c.space2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.space2021SupportingResults} players={players} tourLabel="Space Tour (2021)" />
-      <HalloweenRecording comparison={c.holiday2021Recording} players={players} tourLabel="Holiday Tour (2021)" completed={c.holiday2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.holiday2021SupportingResults} players={players} tourLabel="Holiday Tour (2021)" />
-      <HalloweenRecording comparison={c.penguin2021Recording} players={players} tourLabel="Penguin Tour" completed={c.penguin2021Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.penguin2021SupportingResults} players={players} tourLabel="Penguin Tour" />
-      <HalloweenRecording comparison={c.newyear2022Recording} players={players} tourLabel="New Year's 2022 Tour" completed={c.newyear2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.newyear2022SupportingResults} players={players} tourLabel="New Year's 2022 Tour" />
-      <HalloweenRecording comparison={c.singapore2022Recording} players={players} tourLabel="Singapore Tour" completed={c.singapore2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.singapore2022SupportingResults} players={players} tourLabel="Singapore Tour" />
-      <HalloweenRecording comparison={c.wariowaluigi2022Recording} players={players} tourLabel="Wario vs. Waluigi Tour" completed={c.wariowaluigi2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.wariowaluigi2022SupportingResults} players={players} tourLabel="Wario vs. Waluigi Tour" />
-      <HalloweenRecording comparison={c.losangeles2022Recording} players={players} tourLabel="Los Angeles Tour (2022)" completed={c.losangeles2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.losangeles2022SupportingResults} players={players} tourLabel="Los Angeles Tour (2022)" />
-      <HalloweenRecording comparison={c.sky2022Recording} players={players} tourLabel="Sky Tour" completed={c.sky2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sky2022SupportingResults} players={players} tourLabel="Sky Tour" />
-      <HalloweenRecording comparison={c.mii2022Recording} players={players} tourLabel="Mii Tour (2022)" completed={c.mii2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mii2022SupportingResults} players={players} tourLabel="Mii Tour (2022)" />
-      <HalloweenRecording comparison={c.yoshi2022Recording} players={players} tourLabel="Yoshi Tour (2022)" completed={c.yoshi2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.yoshi2022SupportingResults} players={players} tourLabel="Yoshi Tour (2022)" />
-      <HalloweenRecording comparison={c.amsterdam2022Recording} players={players} tourLabel="Amsterdam Tour (2022)" completed={c.amsterdam2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.amsterdam2022SupportingResults} players={players} tourLabel="Amsterdam Tour (2022)" />
-      {!!c.amsterdam2022PreservedOpeningSources?.length && <details className="sources">
-        <summary>Amsterdam Tour (2022) preserved opening-day sources</summary>
-        <p className="table-note">Slower opening-day sources are preserved here without WR or opening leader credit. The result history shows only the fastest reviewed opening result.</p>
-        {c.amsterdam2022PreservedOpeningSources.map(s => <div key={s.id}>
-          <a href={s.originalVideoUrl} target="_blank" rel="noopener noreferrer">Original video</a> · <a href={s.playbackUrl} target="_blank" rel="noopener noreferrer">Playback copy</a> · <a href={s.resultFrameUrl} target="_blank" rel="noopener noreferrer">Result frame</a> · <a href={s.sourceContextUrl} target="_blank" rel="noopener noreferrer">Source dates</a>
-          <EvidenceTimes r={{videoPublishedAt:s.postedAt, videoSharedAt:s.sharedAt, videoShareSource:{url:s.shareSourceUrl}}} />
-        </div>)}
-      </details>}
-      <HalloweenRecording comparison={c.doctor2022Recording} players={players} tourLabel="Doctor Tour (2022)" completed={c.doctor2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.doctor2022SupportingResults} players={players} tourLabel="Doctor Tour (2022)" />
-      <HalloweenRecording comparison={c.peachbowsermay2022Recording} players={players} tourLabel="Peach vs. Bowser Tour (May 2022)" completed={c.peachbowsermay2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.peachbowsermay2022SupportingResults} players={players} tourLabel="Peach vs. Bowser Tour (May 2022)" />
-      <HalloweenRecording comparison={c.cat2022Recording} players={players} tourLabel="Cat Tour (2022)" completed={c.cat2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.cat2022SupportingResults} players={players} tourLabel="Cat Tour (2022)" />
-      <HalloweenRecording comparison={c.metropolitan2022Recording} players={players} tourLabel="Metropolitan Tour (2022)" completed={c.metropolitan2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.metropolitan2022SupportingResults} players={players} tourLabel="Metropolitan Tour (2022)" />
-      <HalloweenRecording comparison={c.bangkok2022Recording} players={players} tourLabel="Bangkok Tour (2022)" completed={c.bangkok2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.bangkok2022SupportingResults} players={players} tourLabel="Bangkok Tour (2022)" />
-      <HalloweenRecording comparison={c.piranha2022Recording} players={players} tourLabel="Piranha Plant Tour (2022)" completed={c.piranha2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.piranha2022SupportingResults} players={players} tourLabel="Piranha Plant Tour (2022)" />
-      <HalloweenRecording comparison={c.ocean2022Recording} players={players} tourLabel="Ocean Tour (2022)" completed={c.ocean2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.ocean2022SupportingResults} players={players} tourLabel="Ocean Tour (2022)" />
-      <HalloweenRecording comparison={c.sundae2022Recording} players={players} tourLabel="Sundae Tour (2022)" completed={c.sundae2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sundae2022SupportingResults} players={players} tourLabel="Sundae Tour (2022)" />
-      <HalloweenRecording comparison={c.bowser2022Recording} players={players} tourLabel="Bowser Tour (2022)" completed={c.bowser2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.bowser2022SupportingResults} players={players} tourLabel="Bowser Tour (2022)" />
-      <HalloweenRecording comparison={c.marioluigi2022Recording} players={players} tourLabel="Mario vs. Luigi Tour (2022)" completed={c.marioluigi2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.marioluigi2022SupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2022)" />
-      <HalloweenRecording comparison={c.anniversary2022Recording} players={players} tourLabel="Anniversary Tour (2022)" completed={c.anniversary2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.anniversary2022SupportingResults} players={players} tourLabel="Anniversary Tour (2022)" />
-      <HalloweenRecording comparison={c.battle2022Recording} players={players} tourLabel="Battle Tour (2022)" completed={c.battle2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.battle2022SupportingResults} players={players} tourLabel="Battle Tour (2022)" />
-      <HalloweenRecording comparison={c.halloween2022Recording} players={players} tourLabel="Halloween Tour (2022)" completed={c.halloween2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.halloween2022SupportingResults} players={players} tourLabel="Halloween Tour (2022)" />
-      <HalloweenRecording comparison={c.autumn2022Recording} players={players} tourLabel="Autumn Tour (2022)" completed={c.autumn2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.autumn2022SupportingResults} players={players} tourLabel="Autumn Tour (2022)" />
-      <HalloweenRecording comparison={c.animal2022Recording} players={players} tourLabel="Animal Tour (2022)" completed={c.animal2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.animal2022SupportingResults} players={players} tourLabel="Animal Tour (2022)" />
-      <HalloweenRecording comparison={c.peachbowser2022Recording} players={players} tourLabel="Peach vs. Bowser Tour (2022)" completed={c.peachbowser2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.peachbowser2022SupportingResults} players={players} tourLabel="Peach vs. Bowser Tour (2022)" />
-      <HalloweenRecording comparison={c.holiday2022Recording} players={players} tourLabel="Holiday Tour (2022)" completed={c.holiday2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.holiday2022SupportingResults} players={players} tourLabel="Holiday Tour (2022)" />
-      <HalloweenRecording comparison={c.newyear2023Recording} players={players} tourLabel="New Year's Tour (2023)" completed={c.newyear2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.newyear2023SupportingResults} players={players} tourLabel="New Year's Tour (2023)" />
-      <HalloweenRecording comparison={c.space2023Recording} players={players} tourLabel="Space Tour (2023)" completed={c.space2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.space2023SupportingResults} players={players} tourLabel="Space Tour (2023)" />
-      <HalloweenRecording comparison={c.winter2023Recording} players={players} tourLabel="Winter Tour (2023)" completed={c.winter2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.winter2023SupportingResults} players={players} tourLabel="Winter Tour (2023)" />
-      <HalloweenRecording comparison={c.exploration2023Recording} players={players} tourLabel="Exploration Tour (2023)" completed={c.exploration2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.exploration2023SupportingResults} players={players} tourLabel="Exploration Tour (2023)" />
-      <HalloweenRecording comparison={c.doctor2023Recording} players={players} tourLabel="Doctor Tour (2023)" completed={c.doctor2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.doctor2023SupportingResults} players={players} tourLabel="Doctor Tour (2023)" />
-      <HalloweenRecording comparison={c.mario2023Recording} players={players} tourLabel="Mario Tour (2023)" completed={c.mario2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mario2023SupportingResults} players={players} tourLabel="Mario Tour (2023)" />
-      <HalloweenRecording comparison={c.ninja2023Recording} players={players} tourLabel="Ninja Tour (2023)" completed={c.ninja2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.ninja2023SupportingResults} players={players} tourLabel="Ninja Tour (2023)" />
-      <HalloweenRecording comparison={c.yoshi2023Recording} players={players} tourLabel="Yoshi Tour (2023)" completed={c.yoshi2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.yoshi2023SupportingResults} players={players} tourLabel="Yoshi Tour (2023)" />
-      <HalloweenRecording comparison={c.spring2023Recording} players={players} tourLabel="Spring Tour (2023)" completed={c.spring2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.spring2023SupportingResults} players={players} tourLabel="Spring Tour (2023)" />
-      <HalloweenRecording comparison={c.bowser2023Recording} players={players} tourLabel="Bowser Tour (2023)" completed={c.bowser2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.bowser2023SupportingResults} players={players} tourLabel="Bowser Tour (2023)" />
-      <HalloweenRecording comparison={c.mii2023Recording} players={players} tourLabel="Mii Tour (2023)" completed={c.mii2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mii2023SupportingResults} players={players} tourLabel="Mii Tour (2023)" />
-      <HalloweenRecording comparison={c.princess2023Recording} players={players} tourLabel="Princess Tour (2023)" completed={c.princess2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.princess2023SupportingResults} players={players} tourLabel="Princess Tour (2023)" />
-      <HalloweenRecording comparison={c.marioLuigi2023Recording} players={players} tourLabel="Mario vs. Luigi Tour (2023)" completed={c.marioLuigi2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.marioLuigi2023SupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2023)" />
-      <HalloweenRecording comparison={c.night2023Recording} players={players} tourLabel="Night Tour (2023)" completed={c.night2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.night2023SupportingResults} players={players} tourLabel="Night Tour (2023)" />
-      <HalloweenRecording comparison={c.pipe2023Recording} players={players} tourLabel="Pipe Tour (2023)" completed={c.pipe2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.pipe2023SupportingResults} players={players} tourLabel="Pipe Tour (2023)" />
-      <HalloweenRecording comparison={c.sunshine2023Recording} players={players} tourLabel="Sunshine Tour (2023)" completed={c.sunshine2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sunshine2023SupportingResults} players={players} tourLabel="Sunshine Tour (2023)" />
-      <HalloweenRecording comparison={c.vacation2023Recording} players={players} tourLabel="Vacation Tour (2023)" completed={c.vacation2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.vacation2023SupportingResults} players={players} tourLabel="Vacation Tour (2023)" />
-      <HalloweenRecording comparison={c.summer2023Recording} players={players} tourLabel="Summer Tour (2023)" completed={c.summer2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.summer2023SupportingResults} players={players} tourLabel="Summer Tour (2023)" />
-      <HalloweenRecording comparison={c.sundae2023Recording} players={players} tourLabel="Sundae Tour (2023)" completed={c.sundae2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sundae2023SupportingResults} players={players} tourLabel="Sundae Tour (2023)" />
-      <HalloweenRecording comparison={c.anniversary2023Recording} players={players} tourLabel="Anniversary Tour (2023)" completed={c.anniversary2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.anniversary2023SupportingResults} players={players} tourLabel="Anniversary Tour (2023)" />
-      <HalloweenRecording comparison={c.battle2023Recording} players={players} tourLabel="Battle Tour (2023)" completed={c.battle2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.battle2023SupportingResults} players={players} tourLabel="Battle Tour (2023)" />
-      <HalloweenRecording comparison={c.halloween2023Recording} players={players} tourLabel="Halloween Tour (2023)" completed={c.halloween2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.halloween2023SupportingResults} players={players} tourLabel="Halloween Tour (2023)" />
-      <HalloweenRecording comparison={c.autumn2023Recording} players={players} tourLabel="Autumn Tour (2023)" completed={c.autumn2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.autumn2023SupportingResults} players={players} tourLabel="Autumn Tour (2023)" />
-      <HalloweenRecording comparison={c.animal2023Recording} players={players} tourLabel="Animal Tour (2023)" completed={c.animal2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.animal2023SupportingResults} players={players} tourLabel="Animal Tour (2023)" />
-      <HalloweenRecording comparison={c.peachbowser2023Recording} players={players} tourLabel="Peach vs. Bowser Tour (2023)" completed={c.peachbowser2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.peachbowser2023SupportingResults} players={players} tourLabel="Peach vs. Bowser Tour (2023)" />
-      <HalloweenRecording comparison={c.holiday2023Recording} players={players} tourLabel="Holiday Tour (2023)" completed={c.holiday2023Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.holiday2023SupportingResults} players={players} tourLabel="Holiday Tour (2023)" />
-      <HalloweenRecording comparison={c.newyear2024Recording} players={players} tourLabel="New Year's Tour (2024)" completed={c.newyear2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.newyear2024SupportingResults} players={players} tourLabel="New Year's Tour (2024)" />
-      <HalloweenRecording comparison={c.space2024Recording} players={players} tourLabel="Space Tour (2024)" completed={c.space2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.space2024SupportingResults} players={players} tourLabel="Space Tour (2024)" />
-      <HalloweenRecording comparison={c.winter2024Recording} players={players} tourLabel="Winter Tour (2024)" completed={c.winter2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.winter2024SupportingResults} players={players} tourLabel="Winter Tour (2024)" />
-      <HalloweenRecording comparison={c.exploration2024Recording} players={players} tourLabel="Exploration Tour (2024)" completed={c.exploration2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.exploration2024SupportingResults} players={players} tourLabel="Exploration Tour (2024)" />
-      <HalloweenRecording comparison={c.doctor2024Recording} players={players} tourLabel="Doctor Tour (2024)" completed={c.doctor2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.doctor2024SupportingResults} players={players} tourLabel="Doctor Tour (2024)" />
-      <HalloweenRecording comparison={c.mario2024Recording} players={players} tourLabel="Mario Tour (2024)" completed={c.mario2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mario2024SupportingResults} players={players} tourLabel="Mario Tour (2024)" />
-      <HalloweenRecording comparison={c.ninja2024Recording} players={players} tourLabel="Ninja Tour (2024)" completed={c.ninja2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.ninja2024SupportingResults} players={players} tourLabel="Ninja Tour (2024)" />
-      <ParisSupportingResults results={c.laterWiiRainbow2024Results} players={players} tourLabel="Later Wii Rainbow Road recording (2024)" />
-      <HalloweenRecording comparison={c.yoshi2024Recording} players={players} tourLabel="Yoshi Tour (2024)" completed={c.yoshi2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.yoshi2024SupportingResults} players={players} tourLabel="Yoshi Tour (2024)" />
-      <HalloweenRecording comparison={c.spring2024Recording} players={players} tourLabel="Spring Tour (2024)" completed={c.spring2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.spring2024SupportingResults} players={players} tourLabel="Spring Tour (2024)" />
-      <HalloweenRecording comparison={c.bowser2024Recording} players={players} tourLabel="Bowser Tour (2024)" completed={c.bowser2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.bowser2024SupportingResults} players={players} tourLabel="Bowser Tour (2024)" />
-      <HalloweenRecording comparison={c.mii2024Recording} players={players} tourLabel="Mii Tour (2024)" completed={c.mii2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mii2024SupportingResults} players={players} tourLabel="Mii Tour (2024)" />
-      <HalloweenRecording comparison={c.princess2024Recording} players={players} tourLabel="Princess Tour (2024)" completed={c.princess2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.princess2024SupportingResults} players={players} tourLabel="Princess Tour (2024)" />
-      <HalloweenRecording comparison={c.marioluigi2024Recording} players={players} tourLabel="Mario vs. Luigi Tour (2024)" completed={c.marioluigi2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.marioluigi2024SupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2024)" />
-      <HalloweenRecording comparison={c.night2024Recording} players={players} tourLabel="Night Tour (2024)" completed={c.night2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.night2024SupportingResults} players={players} tourLabel="Night Tour (2024)" />
-      <HalloweenRecording comparison={c.pipe2024Recording} players={players} tourLabel="Pipe Tour (2024)" completed={c.pipe2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.pipe2024SupportingResults} players={players} tourLabel="Pipe Tour (2024)" />
-      <HalloweenRecording comparison={c.sunshine2024Recording} players={players} tourLabel="Sunshine Tour (2024)" completed={c.sunshine2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sunshine2024SupportingResults} players={players} tourLabel="Sunshine Tour (2024)" />
-      <HalloweenRecording comparison={c.vacation2024Recording} players={players} tourLabel="Vacation Tour (2024)" completed={c.vacation2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.vacation2024SupportingResults} players={players} tourLabel="Vacation Tour (2024)" />
-      <HalloweenRecording comparison={c.summer2024Recording} players={players} tourLabel="Summer Tour (2024)" completed={c.summer2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.summer2024SupportingResults} players={players} tourLabel="Summer Tour (2024)" />
-      <HalloweenRecording comparison={c.sundae2024Recording} players={players} tourLabel="Sundae Tour (2024)" completed={c.sundae2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sundae2024SupportingResults} players={players} tourLabel="Sundae Tour (2024)" />
-      <HalloweenRecording comparison={c.anniversary2024Recording} players={players} tourLabel="Anniversary Tour (2024)" completed={c.anniversary2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.anniversary2024SupportingResults} players={players} tourLabel="Anniversary Tour (2024)" />
-      <HalloweenRecording comparison={c.battle2024Recording} players={players} tourLabel="Battle Tour (2024)" completed={c.battle2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.battle2024SupportingResults} players={players} tourLabel="Battle Tour (2024)" />
-      <HalloweenRecording comparison={c.halloween2024Recording} players={players} tourLabel="Halloween Tour (2024)" completed={c.halloween2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.halloween2024SupportingResults} players={players} tourLabel="Halloween Tour (2024)" />
-      <HalloweenRecording comparison={c.autumn2024Recording} players={players} tourLabel="Autumn Tour (2024)" completed={c.autumn2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.autumn2024SupportingResults} players={players} tourLabel="Autumn Tour (2024)" />
-      <HalloweenRecording comparison={c.animal2024Recording} players={players} tourLabel="Animal Tour (2024)" completed={c.animal2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.animal2024SupportingResults} players={players} tourLabel="Animal Tour (2024)" />
-      <HalloweenRecording comparison={c.peachbowser2024Recording} players={players} tourLabel="Peach vs. Bowser Tour (2024)" completed={c.peachbowser2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.peachbowser2024SupportingResults} players={players} tourLabel="Peach vs. Bowser Tour (2024)" />
-      <HalloweenRecording comparison={c.holiday2024Recording} players={players} tourLabel="Holiday Tour (2024)" completed={c.holiday2024Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.holiday2024SupportingResults} players={players} tourLabel="Holiday Tour (2024)" />
-      <HalloweenRecording comparison={c.newyear2025Recording} players={players} tourLabel="New Year Tour (2025)" completed={c.newyear2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.newyear2025SupportingResults} players={players} tourLabel="New Year Tour (2025)" />
-      <HalloweenRecording comparison={c.space2025Recording} players={players} tourLabel="Space Tour (2025)" completed={c.space2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.space2025SupportingResults} players={players} tourLabel="Space Tour (2025)" />
-      <HalloweenRecording comparison={c.winter2025Recording} players={players} tourLabel="Winter Tour (2025)" completed={c.winter2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.winter2025SupportingResults} players={players} tourLabel="Winter Tour (2025)" />
-      <HalloweenRecording comparison={c.exploration2025Recording} players={players} tourLabel="Exploration Tour (2025)" completed={c.exploration2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.exploration2025SupportingResults} players={players} tourLabel="Exploration Tour (2025)" />
-      <HalloweenRecording comparison={c.doctor2025Recording} players={players} tourLabel="Doctor Tour (2025)" completed={c.doctor2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.doctor2025SupportingResults} players={players} tourLabel="Doctor Tour (2025)" />
-      <HalloweenRecording comparison={c.doctor2026Recording} players={players} tourLabel="Doctor Tour (2026)" completed={c.doctor2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.doctor2026SupportingResults} players={players} tourLabel="Doctor Tour (2026)" />
-      <ParisSupportingResults results={c.doctor2026ContextResults} players={players} tourLabel="Cove result posted after rotation; race date and tour association unresolved" />
-      <HalloweenRecording comparison={c.mario2025Recording} players={players} tourLabel="Mario Tour (2025)" completed={c.mario2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mario2025SupportingResults} players={players} tourLabel="Mario Tour (2025)" />
-      <HalloweenRecording comparison={c.mario2026Recording} players={players} tourLabel="Mario Tour (2026)" completed={c.mario2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mario2026SupportingResults} players={players} tourLabel="Mario Tour (2026)" />
-      <HalloweenRecording comparison={c.ninja2025Recording} players={players} tourLabel="Ninja Tour (2025)" completed={c.ninja2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.ninja2025SupportingResults} players={players} tourLabel="Ninja Tour (2025)" />
-      <HalloweenRecording comparison={c.ninja2026Recording} players={players} tourLabel="Ninja Tour (2026)" completed={c.ninja2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.ninja2026SupportingResults} players={players} tourLabel="Ninja Tour (2026)" />
-      <HalloweenRecording comparison={c.yoshi2025Recording} players={players} tourLabel="Yoshi Tour (2025)" completed={c.yoshi2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.yoshi2025SupportingResults} players={players} tourLabel="Yoshi Tour (2025)" />
-      <HalloweenRecording comparison={c.yoshi2026Recording} players={players} tourLabel="Yoshi Tour (2026)" completed={c.yoshi2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.yoshi2026SupportingResults} players={players} tourLabel="Yoshi Tour (2026)" />
-      <ParisSupportingResults results={c.yoshi2026PostCloseResults} players={players} tourLabel="Yoshi result posted after rotation; race date and tour association unresolved" />
-      <HalloweenRecording comparison={c.spring2025Recording} players={players} tourLabel="Spring Tour (2025)" completed={c.spring2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.spring2025SupportingResults} players={players} tourLabel="Spring Tour (2025)" />
-      <HalloweenRecording comparison={c.spring2026Recording} players={players} tourLabel="Spring Tour (2026)" completed={c.spring2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.spring2026SupportingResults} players={players} tourLabel="Spring Tour (2026)" />
-      <HalloweenRecording comparison={c.bowser2025Recording} players={players} tourLabel="Bowser Tour (2025)" completed={c.bowser2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.bowser2025SupportingResults} players={players} tourLabel="Bowser Tour (2025)" />
-      <HalloweenRecording comparison={c.bowser2026Recording} players={players} tourLabel="Bowser Tour (2026)" completed={c.bowser2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.bowser2026SupportingResults} players={players} tourLabel="Bowser Tour (2026)" />
-      <HalloweenRecording comparison={c.mii2025Recording} players={players} tourLabel="Mii Tour (2025)" completed={c.mii2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mii2025SupportingResults} players={players} tourLabel="Mii Tour (2025)" />
-      <HalloweenRecording comparison={c.mii2026Recording} players={players} tourLabel="Mii Tour (2026)" completed={c.mii2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.mii2026SupportingResults} players={players} tourLabel="Mii Tour (2026)" />
-      <HalloweenRecording comparison={c.princess2025Recording} players={players} tourLabel="Princess Tour (2025)" completed={c.princess2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.princess2025SupportingResults} players={players} tourLabel="Princess Tour (2025)" />
-      <HalloweenRecording comparison={c.princess2026Recording} players={players} tourLabel="Princess Tour (2026)" completed={c.princess2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.princess2026SupportingResults} players={players} tourLabel="Princess Tour (2026)" />
-      <HalloweenRecording comparison={c.marioluigi2025Recording} players={players} tourLabel="Mario vs. Luigi Tour (2025)" completed={c.marioluigi2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.marioluigi2025SupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2025)" />
-      <HalloweenRecording comparison={c.marioluigi2026Recording} players={players} tourLabel="Mario vs. Luigi Tour (2026)" completed={c.marioluigi2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.marioluigi2026SupportingResults} players={players} tourLabel="Mario vs. Luigi Tour (2026)" />
-      <HalloweenRecording comparison={c.night2025Recording} players={players} tourLabel="Night Tour (2025)" completed={c.night2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.night2025SupportingResults} players={players} tourLabel="Night Tour (2025)" />
-      <HalloweenRecording comparison={c.night2026Recording} players={players} tourLabel="Night Tour (2026)" completed={c.night2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.night2026SupportingResults} players={players} tourLabel="Night Tour (2026)" />
-      <ParisSupportingResults results={c.laterSingapore2026Results} players={players} tourLabel="Later Singapore recording (2026)" />
-      <HalloweenRecording comparison={c.pipe2025Recording} players={players} tourLabel="Pipe Tour (2025)" completed={c.pipe2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.pipe2025SupportingResults} players={players} tourLabel="Pipe Tour (2025)" />
-      <HalloweenRecording comparison={c.pipe2026Recording} players={players} tourLabel="Pipe Tour (2026)" completed={c.pipe2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.pipe2026SupportingResults} players={players} tourLabel="Pipe Tour (2026)" />
-      <HalloweenRecording comparison={c.sunshine2025Recording} players={players} tourLabel="Sunshine Tour (2025)" completed={c.sunshine2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sunshine2025SupportingResults} players={players} tourLabel="Sunshine Tour (2025)" />
-      <HalloweenRecording comparison={c.sunshine2026Recording} players={players} tourLabel="Sunshine Tour (2026)" completed={c.sunshine2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sunshine2026SupportingResults} players={players} tourLabel="Sunshine Tour (2026)" />
-      <ParisSupportingResults results={c.laterKtb2026Results} players={players} tourLabel="Later 2026 recording reported in October" />
-      <HalloweenRecording comparison={c.vacation2025Recording} players={players} tourLabel="Vacation Tour (2025)" completed={c.vacation2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.vacation2025SupportingResults} players={players} tourLabel="Vacation Tour (2025)" />
-      <HalloweenRecording comparison={c.vacation2026Recording} players={players} tourLabel="Vacation Tour (2026)" completed={c.vacation2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.vacation2026SupportingResults} players={players} tourLabel="Vacation Tour (2026)" />
-      <HalloweenRecording comparison={c.summer2025Recording} players={players} tourLabel="Summer Tour (2025)" completed={c.summer2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.summer2025SupportingResults} players={players} tourLabel="Summer Tour (2025)" />
-      <HalloweenRecording comparison={c.summer2026Recording} players={players} tourLabel="Summer Tour (2026)" completed={c.summer2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.summer2026SupportingResults} players={players} tourLabel="Summer Tour (2026)" />
-      <HalloweenRecording comparison={c.sundae2025Recording} players={players} tourLabel="Sundae Tour (2025)" completed={c.sundae2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sundae2025SupportingResults} players={players} tourLabel="Sundae Tour (2025)" />
-      <HalloweenRecording comparison={c.sundae2026Recording} players={players} tourLabel="Sundae Tour (2026)" completed={c.sundae2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.sundae2026SupportingResults} players={players} tourLabel="Sundae Tour (2026)" />
-      <HalloweenRecording comparison={c.anniversary2025Recording} players={players} tourLabel="Anniversary Tour (2025)" completed={c.anniversary2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.anniversary2025SupportingResults} players={players} tourLabel="Anniversary Tour (2025)" />
-      <HalloweenRecording comparison={c.anniversary2026Recording} players={players} tourLabel="Anniversary Tour (2026)" completed={c.anniversary2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.anniversary2026SupportingResults} players={players} tourLabel="Anniversary Tour (2026)" />
-      <HalloweenRecording comparison={c.battle2025Recording} players={players} tourLabel="Battle Tour (2025)" completed={c.battle2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.battle2025SupportingResults} players={players} tourLabel="Battle Tour (2025)" />
-      <ParisSupportingResults results={c.battle2025DelayedOtherTourResults} players={players} tourLabel="October 2025 reposted results" />
-      <HalloweenRecording comparison={c.halloween2025Recording} players={players} tourLabel="Halloween Tour (2025)" completed={c.halloween2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.halloween2025SupportingResults} players={players} tourLabel="Halloween Tour (2025)" />
-      <HalloweenRecording comparison={c.autumn2025Recording} players={players} tourLabel="Autumn Tour (2025)" completed={c.autumn2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.autumn2025SupportingResults} players={players} tourLabel="Autumn Tour (2025)" />
-      <HalloweenRecording comparison={c.animal2025Recording} players={players} tourLabel="Animal Tour (2025)" completed={c.animal2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.animal2025SupportingResults} players={players} tourLabel="Animal Tour (2025)" />
-      <HalloweenRecording comparison={c.peachbowser2025Recording} players={players} tourLabel="Peach vs. Bowser Tour (2025)" completed={c.peachbowser2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.peachbowser2025SupportingResults} players={players} tourLabel="Peach vs. Bowser Tour (2025)" />
-      <HalloweenRecording comparison={c.holiday2025Recording} players={players} tourLabel="Holiday Tour (2025)" completed={c.holiday2025Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.holiday2025SupportingResults} players={players} tourLabel="Holiday Tour (2025)" />
-      <HalloweenRecording comparison={c.newyear2026Recording} players={players} tourLabel="New Year’s Tour (2026)" completed={c.newyear2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.newyear2026SupportingResults} players={players} tourLabel="New Year’s Tour (2026)" />
-      <HalloweenRecording comparison={c.space2026Recording} players={players} tourLabel="Space Tour (2026)" completed={c.space2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.space2026SupportingResults} players={players} tourLabel="Space Tour (2026)" />
-      <ParisSupportingResults results={c.space2026ContextResults} players={players} tourLabel="Sources posted during Space Tour (2026); tour association unresolved" />
-      <HalloweenRecording comparison={c.winter2026Recording} players={players} tourLabel="Winter Tour (2026)" completed={c.winter2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.winter2026SupportingResults} players={players} tourLabel="Winter Tour (2026)" />
-      <ParisSupportingResults results={c.winter2026ContextResults} players={players} tourLabel="Sources posted during Winter Tour (2026); tour association unresolved" />
-      <HalloweenRecording comparison={c.exploration2026Recording} players={players} tourLabel="Exploration Tour (2026)" completed={c.exploration2026Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.exploration2026SupportingResults} players={players} tourLabel="Exploration Tour (2026)" />
-      {c.autumn2023InputCorrection && <section className="fastest-video"><h2>Autumn Tour (2023) corrected submission</h2><p><Player id={c.autumn2023InputCorrection.playerId} players={players} /> · Receipt input: <strong>{c.autumn2023InputCorrection.reportedTime}</strong> · Screenshot and video: <strong>{c.autumn2023InputCorrection.verifiedTime}</strong></p><p className="table-note">The recovered original screenshot and linked movie contradict the receipt total and second split. This input does not receive WR tie credit.</p><p><a href={c.autumn2023InputCorrection.source.url} target="_blank" rel="noopener noreferrer">Original receipt</a> · <a href={c.autumn2023InputCorrection.proofImageLocal} target="_blank" rel="noopener noreferrer">Preserved original screenshot</a> · <a href={c.autumn2023InputCorrection.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video (1:13.42)</a></p><EvidenceTimes r={c.autumn2023InputCorrection} /></section>}
-
-      {!!c.mario2023PartialRecordings?.length && <section className="fastest-video"><h2>Mario Tour (2023) separate recordings</h2>{c.mario2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}</section>}
-      {!!c.doctor2023PartialRecordings?.length && <section className="fastest-video">
-        <h2>Doctor Tour (2023) partial recordings</h2>
-        {c.doctor2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}
-      </section>}
-      {!!c.exploration2023PartialRecordings?.length && <section className="fastest-video">
-        <h2>Exploration Tour (2023) partial recordings</h2>
-        {c.exploration2023PartialRecordings.map(r => <div key={r.id}><p>{r.evidenceNote} <a href={r.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></p><EvidenceTimes r={r} /></div>)}
-      </section>}
-      <HalloweenRecording comparison={c.samurai2022Recording} players={players} tourLabel="Samurai Tour (2022)" completed={c.samurai2022Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.samurai2022SupportingResults} players={players} tourLabel="Samurai Tour (2022)" />
-      <HalloweenRecording comparison={c.supermario2020Recording} players={players} tourLabel="Super Mario Kart Tour (2020)" completed={c.supermario2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.supermarioSupportingResults} players={players} tourLabel="Super Mario Kart Tour (2020)" />
-      <HalloweenRecording comparison={c.summerfest2020Recording} players={players} tourLabel="Summer Festival Tour (2020)" completed={c.summerfest2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.summerfestSupportingResults} players={players} tourLabel="Summer Festival Tour (2020)" />
-      <HalloweenRecording comparison={c.pirate2020Recording} players={players} tourLabel="Pirate Tour (2020)" completed={c.pirate2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.pirateSupportingResults} players={players} tourLabel="Pirate Tour (2020)" />
-      <HalloweenRecording comparison={c.wildwest2020Recording} players={players} tourLabel="Wild West Tour (2020)" completed={c.wildwest2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.wildwestSupportingResults} players={players} tourLabel="Wild West Tour (2020)" />
-      <HalloweenRecording comparison={c.exploration2020Recording} players={players} tourLabel="Exploration Tour (2020)" completed={c.exploration2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.explorationSupportingResults} players={players} tourLabel="Exploration Tour (2020)" />
-      <HalloweenRecording comparison={c.marine2020Recording} players={players} tourLabel="Marine Tour (2020)" completed={c.marine2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.marineSupportingResults} players={players} tourLabel="Marine Tour (2020)" />
-      <HalloweenRecording comparison={c.peach2020Recording} players={players} tourLabel="Peach Tour (2020)" completed={c.peach2020Recording?.practicalReviewComplete === true} />
-      <ParisSupportingResults results={c.peachSupportingResults} players={players} tourLabel="Peach Tour (2020)" />
-      {fragments.length > 0 && <section className="fastest-video">
-        <h2>Preserved video fragments</h2>
-        {fragments.map(f => <div key={f.originalUrl}>
-          <p><strong>{f.record.time}</strong> · <Player id={f.record.playerId} players={players} /> · {f.description}</p>
-          <p className="video-links">
-            <a href={f.originalUrl} target="_blank" rel="noopener noreferrer">Original fragment</a>
-            {f.backupUrl && <> · <a href={f.backupUrl} target="_blank" rel="noopener noreferrer">Backup fragment (SuperFX64 · unlisted)</a></>}
-          </p>
-        </div>)}
-      </section>}
-      <h2>History</h2>
-      {c.halloween2019Recording && <p className="table-note">Halloween Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive. Runs with unresolved dates remain under review.</p>}
-      {c.paris2019Recording && <p className="table-note">Paris Tour (2019) opening day: only the fastest documented run at day’s end is shown, including ties. Earlier opening-day submissions remain in the downloadable source archive.</p>}
-      {c.hammerRecoveredProgression?.length > 0 && <p className="table-note">Hammer Bro Tour history includes recovered leaders in surviving source posting order. Reports, screenshots and videos are labelled; their posting dates are used as submission dates unless other evidence establishes a different date. Recovered leaders receive no confirmed-WR count or reign credit until worldwide precedence is established. Retrospective records use the tour window when no contemporary post date survives.</p>}
-      <RecordTable records={historyRecords} events={events} players={players} />
-      <DateKey />
-      <p className="table-note">
-        {c.hammerRecoveredProgression?.length > 0
-          ? "The final WR is supported by its announcement. Earlier recovered leaders are documented results; their worldwide WR status is unconfirmed."
-          : "History is supported by WR announcements, community confirmations and progression reconstructed from preserved submissions. Dates use source posts unless the evidence establishes another date."}
-      </p>
-      <details className="sources">
-        <summary>Record sources &amp; archive data</summary>
-        <ul>
-          {historyRecords.map((r) => (
-            <li key={r.id}>
-              <a href={r.source.url}>
-                {r.time} · {players.find((p) => p.id === r.playerId)?.name}
-              </a>
-              {r.tourLabel ? ` — ${r.tourLabel}` : ""}
-              {r.evidenceNote ? <div>{r.evidenceNote}</div> : null}
-            </li>
-          ))}
-        </ul>
-        <p>
-          <a href={`/data/courses/${c.id}.json`} download>
-            Download course JSON
-          </a>{" "}
-          · <a href={c.wiki}>Course reference</a>
-        </p>
-        <p>
-          Other submissions are preserved for research. They are excluded from
-          WR history and rankings until their WR status is confirmed.
-        </p>
-      </details>
-    </>
-  );
+function CoursePage({ data: c, players }) {
+  const records = [...c.records, ...(c.hammerRecoveredProgression || [])]
+    .sort((a,b) => (a.finalDate || "").localeCompare(b.finalDate || "") || b.timeCs - a.timeCs);
+  const best = c.bestRecorded || c.currentHolders[0];
+  const movie = c.fastestVideo;
+  return <>
+    <h1>{c.name}</h1>
+    <h2>All-time best</h2>
+    <RecordTable records={c.bestHolders?.length ? c.bestHolders : best ? [best] : []} players={players} clean />
+    {movie && movie.timeCs !== best?.timeCs && <>
+      <h2>Best video</h2>
+      <RecordTable records={[movie]} players={players} clean />
+    </>}
+    <CourseStats c={c} players={players} />
+    <h2>History</h2>
+    <RecordTable records={records} players={players} clean />
+    <p className="archive-links"><a href={`/data/courses/${c.id}.json`} download>Archive data</a></p>
+  </>;
 }
 function Home({ data, players }) {
   const [q, setQ] = useState("");

@@ -1,3 +1,5 @@
+import { applyFinalSourceFidelity } from "./final-source-fidelity.mjs";
+import { applyFinalDates } from "../lib/final-dates.mjs";
 import {applyReviewedPublicationPatches} from "./reviewed-publication-patches.mjs";
 import fs from "node:fs";
 import {attachReviewedVideoShares} from "./reviewed-video-shares.mjs";
@@ -846,6 +848,9 @@ for (const course of courses.filter(c => halloween2020ReviewedCourses.has(c.id))
   if (course.current) course.current = structuredClone(course.records.find(r => r.id === course.current.id) || course.current);
   course.currentHolders = course.currentHolders.map(holder => structuredClone(course.records.find(r => r.id === holder.id) || holder));
 }
+applyFinalSourceFidelity(courses, JSON.parse(fs.readFileSync("scripts/final-source-fidelity-patches.json", "utf8")));
+const finalDateAudit = applyFinalDates(courses);
+fs.writeFileSync(out + "/final-date-audit.json", JSON.stringify(finalDateAudit));
 for (const [name, data] of Object.entries({
   manifest,
   courses,
