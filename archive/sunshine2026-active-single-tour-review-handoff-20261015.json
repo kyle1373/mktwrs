@@ -1,9 +1,9 @@
 {
   "tourId": "tour-179",
   "tour": "Sunshine Tour (2026)",
-  "status": "reconciliation-build-and-evidence-links-verified-exact-live-publication-pending",
+  "status": "completed-with-documented-gaps",
   "historyComplete": false,
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "previousTourLiveCompletion": "archive/pipe2026-exact-live-publication-and-full-field-check-20261015.json",
   "courses": [
     "wii-daisy-circuit",
@@ -13,9 +13,7 @@
   "endDate": "2026-08-05",
   "adjacentDiscussionSource": "archive/pipe2026-preserved-bounded-source-census-20261015.json",
   "nextActions": [
-    "Publish prepared Sunshine2026 source and comparison changes.",
-    "Verify exact Railway deployment and all304LIVE source rows, comparison clocks and143evidence links.",
-    "Then publish completion evidence and verify final LIVE before advancing to Vacation2026."
+    "Sunshine2026 source review and core exact LIVE verified. Verify final completion metadata LIVE before starting sole next Vacation2026 tour180."
   ],
   "browserRestriction": "Discord only through Codex in-app browser2.",
   "remainingSourceAdmissionAudit": "archive/space2026-deferred-preexisting-canonical-source-admission-20261015.json",
@@ -59,6 +57,11 @@
   "publicComparisonStillPending": false,
   "productionBuildStillRequired": false,
   "latestGenerationAudit": "archive/sunshine2026-full-course-generation-and-source-field-preservation-20261015.json",
-  "productionBuildsPassed": 1,
-  "renderedEvidenceLinksVerified": 143
+  "productionBuildsPassed": 3,
+  "renderedEvidenceLinksVerified": 143,
+  "publicationPending": false,
+  "livePublicationVerified": true,
+  "livePublicationAudit": "archive/sunshine2026-exact-live-publication-and-full-field-check-20261015.json",
+  "focusedTestsPassed": 17,
+  "focusedTestRunsPassed": 2
 }

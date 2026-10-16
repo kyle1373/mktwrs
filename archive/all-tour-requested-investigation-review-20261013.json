@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-179",
+  "activeDetailedReview": "tour-180",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 176,
-      "candidate-and-source-review": 2,
+      "completed-with-documented-gaps": 177,
       "carry-in-and-sparse-history-check": 2,
+      "candidate-and-source-review": 1,
       "source-and-publication-review": 1
     },
     "years": {
@@ -91,11 +91,11 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 5,
+        "requiringInvestigation": 4,
         "categories": {
-          "completed-with-documented-gaps": 14,
-          "candidate-and-source-review": 2,
+          "completed-with-documented-gaps": 15,
           "carry-in-and-sparse-history-check": 2,
+          "candidate-and-source-review": 1,
           "source-and-publication-review": 1
         }
       }
@@ -110,8 +110,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 176,
-    "toursRequiringInvestigation": 5
+    "practicallyCompletedTours": 177,
+    "toursRequiringInvestigation": 4
   },
   "tours": [
     {
@@ -18506,7 +18506,7 @@
           "url": "https://mktwrs.com/course/wii-daisy-circuit",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 42,
+          "supportingRows": 19,
           "pendingCandidates": 1,
           "carriedInWr": {
             "id": "1406665269346172938",
@@ -18522,13 +18522,7 @@
           "linkedVideoRows": 4,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 1,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Resolve pending candidates with surviving good-enough proof.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Check remaining remote-only Discord WR images and preserve surviving originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "wii-daisy-circuit",
             "checkedAt": "2026-10-13T18:38:29.842390+00:00",
@@ -18552,7 +18546,7 @@
           "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2r",
           "firstAppearance": false,
           "wrRows": 3,
-          "supportingRows": 26,
+          "supportingRows": 9,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1406665606643580949",
@@ -18568,10 +18562,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "snes-koopa-troopa-beach-2r",
             "checkedAt": "2026-10-13T18:38:31.154473+00:00",
@@ -18590,8 +18581,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "candidate-and-source-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/sunshine2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/sunshine2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-180",
@@ -19131,10 +19127,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-179",
-  "latestCompletionAudit": "public/data/pipe2026-completion.json",
+  "activeDetailedTourId": "tour-180",
+  "latestCompletionAudit": "public/data/sunshine2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-179",
-  "nextPriorityReason": "One tour at a time: Pipe2026 has core exact LIVE completion evidence. Start Sunshine2026 tour179 only after final Pipe2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/pipe2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-180",
+  "nextPriorityReason": "One tour at a time: Sunshine2026 has core exact LIVE completion evidence. Start Vacation2026 tour180 only after final Sunshine2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/sunshine2026-exact-live-publication-and-full-field-check-20261015.json"
 }
