@@ -21,8 +21,8 @@ test('Single laps, technique clips and context images do not establish whole-rac
  const lap=a.originalMovies.find(m=>m.completedLap==='45.77');assert.equal(lap.completedTotal,null);
  assert.equal(course('gcn-yoshi-circuit').yoshi2024Recording.lapDemonstrations[0].time,'0:45.77');assert.equal(course('gcn-yoshi-circuit').yoshi2024Recording.strategyReferences.length,2);
 });
-test('Carried Donut Plains result has an honest uploader-reported recording label',()=>{
- const c=course('snes-donut-plains-2r').yoshi2024Recording;assert.equal(c.worldRecord.time,'1:00.08');assert.equal(c.documentedRecording,null);assert.equal(c.reportedRecording.time,'1:00.08');assert.equal(read('public/data/courses/snes-donut-plains-2r.json').records.find(r=>r.id==='1099917584113090641').videoVerified,false);
+test('Carried Donut Plains recording retains the later preserved finish review',()=>{
+ const c=course('snes-donut-plains-2r').yoshi2024Recording;assert.equal(c.worldRecord.time,'1:00.08');assert.equal(c.documentedRecording.time,'1:00.08');assert.equal(c.reportedRecording,null);assert.equal(read('public/data/courses/snes-donut-plains-2r.json').records.find(r=>r.id==='1099917584113090641').videoVerified,true);
 });
 test('Source preservation states missing originals and retains the previous Ninja review',()=>{
  const a=read('archive/yoshi2024-original-preservation-and-source-review-20261015.json');assert.deepEqual(a.missingDiscussionOriginalAttachmentIds,['1229707145415622737','1229866309085298699']);assert.equal(a.freshBrowserCensusCompleted,false);

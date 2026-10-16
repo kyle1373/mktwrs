@@ -1,7 +1,7 @@
 {
   "tourId": "tour-171",
   "tour": "Yoshi Tour (2026)",
-  "status": "pending-final-previous-live-verification",
+  "status": "production-verification-pending",
   "historyComplete": false,
   "practicalReviewComplete": false,
   "previousTourLiveCompletion": "archive/ninja2026-exact-live-publication-and-full-field-check-20261015.json",
@@ -13,12 +13,23 @@
   "endDate": "2026-04-15",
   "adjacentDiscussionSource": "archive/ninja2026-preserved-bounded-source-census-20261015.json",
   "nextActions": [
-    "Start only after final exact Ninja2026 LIVE verification.",
-    "Review this tour alone using original source postings and separate movie clocks.",
-    "Review saved submissions and discussion within the actual tour window.",
-    "Publish completion evidence and verify exactLIVE before moving onward."
+    "Verify production render and all evidence links.",
+    "Publish core data and verify exact active deployment LIVE.",
+    "Then publish completion evidence and verify final LIVE before Spring2026."
   ],
   "browserRestriction": "Discord only through Codex in-app browser2.",
   "remainingSourceAdmissionAudit": "archive/space2026-deferred-preexisting-canonical-source-admission-20261015.json",
-  "remainingRecordingDescriptionCorrectionAudit": "archive/ninja2026-observed-preexisting-recording-description-drift-20261015.json"
+  "remainingRecordingDescriptionCorrectionAudit": "archive/ninja2026-observed-preexisting-recording-description-drift-20261015.json",
+  "previousTourFinalLiveVerification": "artifacts/ninja2026-final-live-verification-20261015.json",
+  "sourcePreservationAudit": "archive/yoshi2026-original-preservation-and-source-review-20261015.json",
+  "r2FilesVerified": 16,
+  "actualTourWindow": {
+    "start": "2026-04-01T06:00:00Z",
+    "endExclusive": "2026-04-15T06:00:00Z"
+  },
+  "sourceReconciliationAudit": "archive/yoshi2026-posted-results-and-source-clock-reconciliation-20261015.json",
+  "all549ExistingSourceRowsRetained": true,
+  "all28WrIdsRetained": true,
+  "movieBrowserReadinessVerified": true,
+  "all549FullSourceRowsAndAppearancesMatchGeneration": true
 }

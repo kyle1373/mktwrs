@@ -787,6 +787,10 @@ const ninja2026ProtectedFields = new Set(["3ds-wario-shipyard|records|1493433079
 applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && ninja2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
 const ninja2026=tours.find(t=>t.id==="tour-170" && t.startDate==="2026-03-18");
 if(ninja2026) ninja2026.name="Ninja Tour (2026)";
+const yoshi2026ProtectedFields = new Set(["gcn-yoshi-circuit|submissions|curated-1488861858445131796-yoshi2026-image-reviewed", "gcn-yoshi-circuit|submissions|curated-1488865392096182422-yoshi2026-image-reviewed", "gcn-yoshi-circuit|submissions|curated-1489282930818682880-yoshi2026-image-reviewed", "gcn-yoshi-circuit|submissions|curated-1490542768185933885-yoshi2026-image-reviewed", "gcn-yoshi-circuit|submissions|curated-1492189997510688958-yoshi2026-image-reviewed", "gcn-yoshi-circuit|submissions|curated-1493291319928422481-yoshi2026-image-reviewed", "gcn-yoshi-circuit|submissions|curated-1493958919754748016-spring2026-image-reviewed", "gcn-yoshi-circuit|submissions|discord-1493958935449702571", "snes-donut-plains-2r|submissions|curated-1489786404136554736-yoshi2026-image-reviewed", "snes-donut-plains-2r|submissions|curated-1490192630724956210-yoshi2026-image-reviewed", "snes-donut-plains-2r|submissions|curated-1491558923499470858-yoshi2026-image-reviewed", "snes-donut-plains-2r|submissions|curated-1492188968974815472-yoshi2026-image-reviewed", "snes-donut-plains-2r|submissions|curated-1493027134434971658-yoshi2026-image-reviewed", "snes-donut-plains-2r|submissions|curated-1493365973057671228-yoshi2026-image-reviewed"]);
+applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && yoshi2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
+const yoshi2026=tours.find(t=>t.id==="tour-171" && t.startDate==="2026-04-01");
+if(yoshi2026) yoshi2026.name="Yoshi Tour (2026)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
