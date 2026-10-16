@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-165",
+  "activeDetailedReview": "tour-166",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 162,
-      "source-and-publication-review": 3,
+      "completed-with-documented-gaps": 163,
       "carry-in-and-sparse-history-check": 14,
+      "source-and-publication-review": 2,
       "candidate-and-source-review": 2
     },
     "years": {
@@ -91,10 +91,11 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 19,
+        "requiringInvestigation": 18,
         "categories": {
-          "source-and-publication-review": 3,
+          "completed-with-documented-gaps": 1,
           "carry-in-and-sparse-history-check": 14,
+          "source-and-publication-review": 2,
           "candidate-and-source-review": 2
         }
       }
@@ -109,8 +110,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 162,
-    "toursRequiringInvestigation": 19
+    "practicallyCompletedTours": 163,
+    "toursRequiringInvestigation": 18
   },
   "tours": [
     {
@@ -17119,11 +17120,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gba-cheep-cheep-island-r",
             "checkedAt": "2026-10-13T18:38:29.443079+00:00",
@@ -17147,7 +17144,7 @@
           "url": "https://mktwrs.com/course/n64-kalimari-desert-2",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 4,
+          "supportingRows": 2,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1068224230715559956",
@@ -17163,11 +17160,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "n64-kalimari-desert-2",
             "checkedAt": "2026-10-13T18:38:30.902621+00:00",
@@ -17189,8 +17182,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "source-and-publication-review"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/space2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/space2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-166",
@@ -19172,10 +19170,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-165",
-  "latestCompletionAudit": "public/data/newyear2026-completion.json",
+  "activeDetailedTourId": "tour-166",
+  "latestCompletionAudit": "public/data/space2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-165",
-  "nextPriorityReason": "One tour at a time: NewYear2026 has core exact LIVE completion evidence. Start Space2026 tour165 January7–21 only after final NewYear LIVE verification.",
-  "latestLiveCompletionAudit": "archive/newyear2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-166",
+  "nextPriorityReason": "One tour at a time: Space2026 has core exact LIVE completion evidence. Start Winter2026 tour166 January21–February4 only after final Space LIVE verification.",
+  "latestLiveCompletionAudit": "archive/space2026-exact-live-publication-and-full-field-check-20261015.json"
 }
