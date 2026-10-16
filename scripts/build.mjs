@@ -799,6 +799,10 @@ const spring2026=tours.find(t=>t.id==="tour-172" && t.startDate==="2026-04-15");
 if(spring2026) spring2026.name="Spring Tour (2026)";
 const bowser2026=tours.find(t=>t.id==="tour-173" && t.startDate==="2026-04-29");
 if(bowser2026) bowser2026.name="Bowser Tour (2026)";
+const mii2026ProtectedFields = new Set(["gcn-mushroom-bridge|submissions|discord-1507666595500003419", "wii-maple-treeway-r|records|1407195549043654749", "wii-maple-treeway-r|submissions|sheet-CZL10", "wii-maple-treeway-r|submissions|sheet-CZL11", "wii-maple-treeway-r|submissions|sheet-CZL12", "wii-maple-treeway-r|submissions|sheet-CZL13", "wii-maple-treeway-r|submissions|curated-1373158670845608007-mii2025-image-reviewed", "gcn-mushroom-bridge|records|1114964088326471821", "gcn-mushroom-bridge|submissions|sheet-CZD10", "gcn-mushroom-bridge|submissions|sheet-CZD11", "gcn-mushroom-bridge|submissions|sheet-CZD12", "gcn-mushroom-bridge|submissions|sheet-CZD13", "gcn-mushroom-bridge|submissions|sheet-CZD14", "gcn-mushroom-bridge|submissions|sheet-CZD15"]);
+applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && mii2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
+const mii2026=tours.find(t=>t.id==="tour-174" && t.startDate==="2026-05-13");
+if(mii2026) mii2026.name="Mii Tour (2026)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
