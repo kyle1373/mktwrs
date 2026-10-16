@@ -783,6 +783,10 @@ const mario2026ProtectedFields = new Set(["n64-luigi-raceway|records|13532227467
 applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && mario2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
 const mario2026=tours.find(t=>t.id==="tour-169" && t.startDate==="2026-03-04");
 if(mario2026) mario2026.name="Mario Tour (2026)";
+const ninja2026ProtectedFields = new Set(["3ds-wario-shipyard|records|1493433079774052406", "3ds-wario-shipyard|submissions|curated-1487414970994917479-ninja2026-image-reviewed", "3ds-wario-shipyard|submissions|curated-1487425314769338459-ninja2026-image-reviewed", "3ds-wario-shipyard|submissions|curated-1488415940789014549-ninja2026-image-reviewed", "wii-rainbow-road|records|1229525362023858277", "wii-rainbow-road|submissions|curated-1487452068749901994-ninja2026-image-reviewed"]);
+applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && ninja2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
+const ninja2026=tours.find(t=>t.id==="tour-170" && t.startDate==="2026-03-18");
+if(ninja2026) ninja2026.name="Ninja Tour (2026)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
