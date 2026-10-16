@@ -1,8 +1,8 @@
 {
   "tourId": "tour-172",
   "tour": "Spring Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "actualTourWindow": {
     "start": "2026-04-15T06:00:00Z",
@@ -57,12 +57,21 @@
     "Athens1:30.76 has a reviewed screenshot but no recovered matching WR movie; fastest recovered result-reviewed movie is the carried1:30.90.",
     "Original posting timestamps supply submission dates; filenames, video publication and later announcement timestamps remain separately preserved.",
     "Broad historical date correction remains a later archive-wide pass.",
-    "Reconciliation, publication, browser readiness and exact LIVE verification pending."
+    "Three completed movies and the compatible strategy copy load in Codex browser; no new uninterrupted continuity certification."
   ],
   "submissionDatePolicy": "Source posting supplies submission date unless other evidence proves otherwise. Original filenames, later announcement and movie clocks remain separately preserved.",
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "fullGeneratedRowsMatched": 469,
+    "livePublicationAudit": "archive/spring2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 21,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 151,
+    "productionAudit": "archive/spring2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
-  "publicationPending": true,
-  "nextTourId": "tour-173"
+  "publicationPending": false,
+  "nextTourId": "tour-173",
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/spring2026-exact-live-publication-and-full-field-check-20261015.json"
 }

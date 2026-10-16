@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-172",
+  "activeDetailedReview": "tour-173",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 169,
-      "carry-in-and-sparse-history-check": 9,
+      "completed-with-documented-gaps": 170,
+      "carry-in-and-sparse-history-check": 8,
       "candidate-and-source-review": 2,
       "source-and-publication-review": 1
     },
@@ -91,10 +91,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 12,
+        "requiringInvestigation": 11,
         "categories": {
-          "completed-with-documented-gaps": 7,
-          "carry-in-and-sparse-history-check": 9,
+          "completed-with-documented-gaps": 8,
+          "carry-in-and-sparse-history-check": 8,
           "candidate-and-source-review": 2,
           "source-and-publication-review": 1
         }
@@ -110,8 +110,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 169,
-    "toursRequiringInvestigation": 12
+    "practicallyCompletedTours": 170,
+    "toursRequiringInvestigation": 11
   },
   "tours": [
     {
@@ -17828,7 +17828,7 @@
           "url": "https://mktwrs.com/course/athens-dash-2",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 2,
+          "supportingRows": 0,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1371156949529264180",
@@ -17844,10 +17844,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "athens-dash-2",
             "checkedAt": "2026-10-13T18:38:28.488128+00:00",
@@ -17871,7 +17868,7 @@
           "url": "https://mktwrs.com/course/berlin-byways",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 8,
+          "supportingRows": 5,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1104263697943240844",
@@ -17887,11 +17884,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "berlin-byways",
             "checkedAt": "2026-10-13T18:38:28.825099+00:00",
@@ -17910,8 +17903,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/spring2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/spring2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-173",
@@ -19151,10 +19149,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-172",
-  "latestCompletionAudit": "public/data/yoshi2026-completion.json",
+  "activeDetailedTourId": "tour-173",
+  "latestCompletionAudit": "public/data/spring2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-172",
-  "nextPriorityReason": "One tour at a time: Yoshi2026 has core exact LIVE completion evidence. Start Spring2026 tour172 only after final Yoshi2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/yoshi2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-173",
+  "nextPriorityReason": "One tour at a time: Spring2026 has core exact LIVE completion evidence. Start Bowser2026 tour173 only after final Spring2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/spring2026-exact-live-publication-and-full-field-check-20261015.json"
 }

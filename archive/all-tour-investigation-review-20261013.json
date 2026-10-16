@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 169,
-      "source-and-publication-review": 2,
+      "completed-with-documented-gaps": 170,
       "candidate-and-source-review": 6,
-      "carry-in-and-sparse-history-check": 4
+      "carry-in-and-sparse-history-check": 4,
+      "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 169,
-    "toursRequiringInvestigation": 12,
+    "practicallyCompletedTours": 170,
+    "toursRequiringInvestigation": 11,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -97,12 +97,12 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 12,
+        "requiringInvestigation": 11,
         "categories": {
-          "completed-with-documented-gaps": 7,
-          "source-and-publication-review": 2,
+          "completed-with-documented-gaps": 8,
           "candidate-and-source-review": 6,
-          "carry-in-and-sparse-history-check": 4
+          "carry-in-and-sparse-history-check": 4,
+          "source-and-publication-review": 1
         }
       }
     }
@@ -9161,7 +9161,7 @@
           "url": "https://mktwrs.com/course/athens-dash-2",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 1,
+          "supportingRows": 0,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1371156949529264180",
@@ -9171,10 +9171,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "berlin-byways",
@@ -9182,7 +9179,7 @@
           "url": "https://mktwrs.com/course/berlin-byways",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 3,
+          "supportingRows": 5,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1104263697943240844",
@@ -9192,14 +9189,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/spring2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/spring2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-173",
@@ -11298,16 +11297,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-172",
+  "activeDetailedTourId": "tour-173",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-172",
-  "latestCompletionAudit": "public/data/yoshi2026-completion.json",
+  "activeDetailedReview": "tour-173",
+  "latestCompletionAudit": "public/data/spring2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-172",
-  "nextPriorityReason": "One tour at a time: Yoshi2026 has core exact LIVE completion evidence. Start Spring2026 tour172 only after final Yoshi2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/yoshi2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-173",
+  "nextPriorityReason": "One tour at a time: Spring2026 has core exact LIVE completion evidence. Start Bowser2026 tour173 only after final Spring2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/spring2026-exact-live-publication-and-full-field-check-20261015.json"
 }
