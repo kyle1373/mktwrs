@@ -56,6 +56,7 @@ function EvidenceTimes({ r }) {
     {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Source posting date used as the submission date. This retrospective post attributes the result to {r.tourDateRange ? `${r.tourDateRange.start} – ${r.tourDateRange.end}` : "the earlier tour"}.</div></div>}
     {r.submittedAt && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
     {r.correctedReceiptAt && <div>Corrected submission receipt: {format(r.correctedReceiptAt)}</div>}
+    {r.proofUploadedAt && <div>Evidence file uploaded: {format(r.proofUploadedAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
       Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
       {source.forumTimezoneKnown !== true && " (timezone unknown)"}
@@ -1006,6 +1007,7 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.anniversary2026SupportingResults} players={players} tourLabel="Anniversary Tour (2026)" />
       <HalloweenRecording comparison={c.battle2025Recording} players={players} tourLabel="Battle Tour (2025)" completed={c.battle2025Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.battle2025SupportingResults} players={players} tourLabel="Battle Tour (2025)" />
+      <ParisSupportingResults results={c.battle2025DelayedOtherTourResults} players={players} tourLabel="October 2025 reposted results" />
       <HalloweenRecording comparison={c.halloween2025Recording} players={players} tourLabel="Halloween Tour (2025)" completed={c.halloween2025Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.halloween2025SupportingResults} players={players} tourLabel="Halloween Tour (2025)" />
       <HalloweenRecording comparison={c.autumn2025Recording} players={players} tourLabel="Autumn Tour (2025)" completed={c.autumn2025Recording?.practicalReviewComplete === true} />
