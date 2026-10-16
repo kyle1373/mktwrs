@@ -100,10 +100,11 @@ function SplitSourceNote({ r }) {
 }
 function Time({ record: r }) {
   const photoReference = r?.videoReferenceReview?.kind === "archived-original-result-photo-post";
-  const video = (r?.videoAvailability === "unavailable" && r?.videoBackup?.status === "available" ? r.videoBackup.url : null) || r?.video || r?.originalVideo || (!photoReference && r?.videoReference);
+  const preserved = r?.videoAvailability === "unavailable" && r?.videoBackup?.status === "available" ? r.videoBackup.url : null;
+  const video = preserved || r?.video || r?.originalVideo || (!photoReference && r?.videoReference);
   const referenceOnly = !photoReference && !r?.video && !r?.originalVideo && Boolean(r?.videoReference);
   const partial = r?.videoScope === "single-lap-clip" || r?.videoScope === "incomplete-first-lap";
-  const unavailable = r?.videoAvailability === "unavailable" || (!r?.video && r?.originalVideoAvailable === false);
+  const unavailable = !preserved && (r?.videoAvailability === "unavailable" || (!r?.video && r?.originalVideoAvailable === false));
   const original = video ? (
     <a
       className="time"

@@ -30,3 +30,20 @@ test('tied holders are preserved and surviving backup supplies video proof',()=>
  const c={records:[{id:'a',playerId:'a',timeCs:9000},{id:'b',playerId:'b',timeCs:9000}],submissions:[{id:'v',playerId:'a',timeCs:9000,videoVerified:true,videoAvailability:'unavailable',videoBackup:{status:'available',url:'https://media.example.com/a.mp4'}}]};
  const result=recordedBest(c);assert.equal(result.bestHolders.length,2);assert.equal(result.bestHolders[0].videoBackup.url,'https://media.example.com/a.mp4');assert.equal(result.recording.id,'v');
 });
+test('duplicate URL variants cannot turn a known lap clip into a complete recording',()=>{
+ const c={records:[{id:'wr',playerId:'a',timeCs:9000}],submissions:[
+ {id:'lap',playerId:'b',timeCs:8000,video:'https://youtu.be/x6kNnKr29Zg',videoVerified:true,videoScope:'single-lap-clip'},
+ {id:'duplicate',playerId:'b',timeCs:8000,video:'https://www.youtube.com/watch?v=x6kNnKr29Zg',videoVerified:true},
+ {id:'full',playerId:'c',timeCs:9100,proofVideoUrl:'https://youtu.be/9Q3Czv54-jo',proofVideoVerified:true}]};
+ const result=recordedBest(c);assert.equal(result.best.id,'wr');assert.equal(result.recording.id,'full');assert.equal(result.recording.video,'https://youtu.be/9Q3Czv54-jo');
+});
+test('a faster screenshot total remains eligible when its accompanying movie is incomplete',()=>{
+ const c={records:[{id:'wr',playerId:'a',timeCs:9000}],submissions:[{id:'image',playerId:'b',timeCs:8900,proofImageVerified:true,videoVerified:true,video:'https://example.com/lap',videoCoverage:'lap-1'}]};
+ assert.equal(recordedBest(c).best.id,'image');assert.equal(recordedBest(c).recording,null);
+});
+test('title mismatch and cancelled receipts never become the best recording',()=>{
+ const c={records:[{id:'wr',playerId:'a',timeCs:9000}],submissions:[
+ {id:'wrong',playerId:'b',timeCs:8500,videoVerified:true,video:'https://example.com/wrong',videoAudit:{status:'title-time-mismatch'}},
+ {id:'cancelled',playerId:'b',timeCs:8400,proofImageVerified:true,status:'cancelled'}]};
+ assert.equal(recordedBest(c).best.id,'wr');assert.equal(recordedBest(c).recording,null);
+});

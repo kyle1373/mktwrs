@@ -17,33 +17,20 @@ const compiled=new Module(filename);
 compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
 compiled._compile(code,filename);
 const render=r=>renderToStaticMarkup(React.createElement(compiled.exports.RecordDate,{r}));
-test('first surviving screenshot posting date is the displayed archive date',()=>{
- const r=routeData(['course','gcn-dino-dino-jungle']).data.records.find(r=>r.id==='896332063081390090');
- assert.equal(r.achievedAt,null);
- assert.match(render(r),/>2019-11-04</);
- assert.doesNotMatch(render(r),/achievement date unknown|run date unknown/i);
-});
-test('posting date is used unless evidence establishes another date',()=>{
- assert.match(render({dateUnresolved:true,submittedAt:'2020-03-27T09:50:20.577Z'}),/>2020-03-27</);
- assert.match(render({dateBasis:'source-date',achievedAt:'2019-10-29',submittedAt:'2019-10-30T12:00:00Z'}),/>2019-10-29</);
- assert.match(render({dateBasis:'proof-upload-date',recordDate:'2019-10-25'}),/>2019-10-25</);
- assert.match(render({dateUnresolved:true,achievedAt:null,recordDate:null}),/>—</);
-});
-test('Yoshi Circuit R recovered leaders display their source posting dates',()=>{
- const c=routeData(['course','gcn-yoshi-circuit-r']).data;
- assert.deepEqual(c.hammerRecoveredProgression.map(r=>[r.time,r.recordDate]),[
-  ['1:32.78','2020-03-27'],['1:32.28','2020-03-27'],
-  ['1:31.96','2020-03-28'],['1:31.74','2020-03-29']
- ]);
- for(const r of c.hammerRecoveredProgression) {
-  assert.match(render(r),new RegExp('>'+r.submittedAt.slice(0,10)+'<'));
-  assert.doesNotMatch(render(r),/achievement date unknown|run date unknown/i);
- }
-});
-test('retrospective announcement displays its posting date and retains the tour attribution',()=>{
+test('final date is the sole visible date, including estimated historical attribution',()=>{
  const r=routeData(['course','gcn-yoshi-circuit-r']).data.records.find(r=>r.id==='896332585544863754');
+ assert.equal(render(r),'2020-04-07');
  assert.equal(r.announcedAt,'2021-10-09T09:45:41.448Z');
- assert.match(render(r),/>2021-10-09</);
  assert.deepEqual(r.tourDateRange,{start:'2020-03-25',end:'2020-04-07'});
- assert.doesNotMatch(render(r),/achievement date unknown|run date unknown/i);
+});
+test('source clock details do not add visible date ambiguity',()=>{
+ assert.equal(render({finalDate:'2020-03-27',dateUnresolved:true,submittedAt:'2020-03-27T09:50:20.577Z'}),'2020-03-27');
+ assert.equal(render({finalDate:'2019-10-29',achievedAt:'2019-10-29',submittedAt:'2019-10-30T12:00:00Z'}),'2019-10-29');
+});
+test('all recovered Yoshi Circuit R leaders have definite display dates',()=>{
+ const c=routeData(['course','gcn-yoshi-circuit-r']).data;
+ assert.deepEqual(c.hammerRecoveredProgression.map(r=>[r.time,r.finalDate]).sort(),[
+  ['1:32.78','2020-03-27'],['1:32.28','2020-03-27'],['1:31.96','2020-03-28'],['1:31.74','2020-03-29']
+ ].sort());
+ for(const r of c.hammerRecoveredProgression)assert.equal(render(r),r.finalDate);
 });

@@ -15,24 +15,24 @@ const compiled=new Module(new URL('../app/evidence-times-render.cjs',import.meta
 compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
 compiled._compile(code,new URL('../app/evidence-times-render.cjs',import.meta.url).pathname);
 const render=r=>renderToStaticMarkup(React.createElement(compiled.exports.Time,{record:r}));
-test('unavailable original link and separate publication and submission clocks render',()=>{
+test('time cell keeps original link without submission or publication prose',()=>{
  const html=render({time:'1:04.54',originalVideo:'https://youtu.be/5mQGD5k9V5k',originalVideoAvailable:false,submittedAt:'2019-10-27T18:47:11Z',videoPublishedAt:'2019-10-27T18:56:43Z'});
  assert.match(html,/href="https:\/\/youtu.be\/5mQGD5k9V5k"/);
- assert.match(html,/Original video unavailable/);
- assert.match(html,/Submitted: 2019-10-27 18:47:11 UTC/);
- assert.match(html,/Video published: 2019-10-27 18:56:43 UTC/);
+ assert.equal(html.replace(/<[^>]*>/g,''),'1:04.54');
+ assert.doesNotMatch(html,/Submitted:|Video published:|Submission, report/);
 });
-test('submission time renders even without a video and achievement date is not substituted',()=>{
+test('time without a video renders only the total',()=>{
  const html=render({time:'1:35.38',submittedAt:'2019-10-30T14:31:27Z',recordDate:'2019-10-29'});
- assert.match(html,/Submitted: 2019-10-30 14:31:27 UTC/);
- assert.doesNotMatch(html,/2019-10-29/);
- assert.doesNotMatch(html,/Original video unavailable/);
+ assert.equal(html.replace(/<[^>]*>/g,''),'1:35.38');
+ assert.doesNotMatch(html,/2019-10-29|2019-10-30/);
 });
-
-
-test('unrecovered documentary video reference remains linked without claiming verified proof',()=>{
+test('unverified reference retains source and accessible qualification without extra visible text',()=>{
  const html=render({time:'1:05.33',videoReference:'https://twitter.com/40pairs/status/1187010514271911937'});
  assert.match(html,/href="https:\/\/twitter.com\/40pairs\/status\/1187010514271911937"/);
- assert.match(html,/Video reference unverified/);
- assert.doesNotMatch(html,/Watch video proof/);
+ assert.match(html,/reference unverified/);assert.equal(html.replace(/<[^>]*>/g,''),'1:05.33');
+});
+test('unavailable original uses preserved playable backup for the time link',()=>{
+ const html=render({time:'1:04.54',video:'https://youtu.be/5mQGD5k9V5k',videoAvailability:'unavailable',videoBackup:{status:'available',url:'https://media.mktwrs.com/assets/video/proof.mp4'}});
+ assert.match(html,/href="https:\/\/media.mktwrs.com\/assets\/video\/proof.mp4"/);
+ assert.equal(html.replace(/<[^>]*>/g,''),'1:04.54');
 });
