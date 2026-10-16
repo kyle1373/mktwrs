@@ -761,6 +761,10 @@ const holiday2025=tours.find(t=>t.id==="tour-163" && t.startDate==="2025-12-10")
 if(holiday2025) holiday2025.name="Holiday Tour (2025)";
 const newyear2026=tours.find(t=>t.id==="tour-164" && t.startDate==="2025-12-24");
 if(newyear2026) newyear2026.name="New Year’s Tour (2026)";
+const space2026=tours.find(t=>t.id==="tour-165" && t.startDate==="2026-01-07");
+if(space2026) space2026.name="Space Tour (2026)";
+// Keep this review’s complete source fields after legacy duration recomputation.
+applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>["1204260087687024680", "curated-1461938624667848734-space2026-image-reviewed", "curated-1462287115944726570-space2026-image-reviewed", "896340675723923526", "sheet-DJ10", "sheet-DJ11", "sheet-DJ31", "sheet-UJ13"].includes(p.id) && !p.remove)});
 for (const [name, data] of Object.entries({
   manifest,
   courses,
