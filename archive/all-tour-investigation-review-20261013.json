@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 175,
-      "candidate-and-source-review": 4,
+      "completed-with-documented-gaps": 176,
+      "candidate-and-source-review": 3,
       "carry-in-and-sparse-history-check": 1,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 175,
-    "toursRequiringInvestigation": 6,
+    "practicallyCompletedTours": 176,
+    "toursRequiringInvestigation": 5,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -97,10 +97,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 6,
+        "requiringInvestigation": 5,
         "categories": {
-          "completed-with-documented-gaps": 13,
-          "candidate-and-source-review": 4,
+          "completed-with-documented-gaps": 14,
+          "candidate-and-source-review": 3,
           "carry-in-and-sparse-history-check": 1,
           "source-and-publication-review": 1
         }
@@ -9473,7 +9473,7 @@
           "url": "https://mktwrs.com/course/wii-dry-dry-ruins",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 15,
+          "supportingRows": 16,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1406664937199374357",
@@ -9483,11 +9483,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "piranha-plant-cove-2r",
@@ -9495,7 +9491,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove-2r",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 10,
+          "supportingRows": 9,
           "pendingCandidates": 1,
           "carriedInWr": {
             "id": "1274824870248845414",
@@ -9505,15 +9501,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/pipe2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/pipe2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-179",
@@ -11284,16 +11281,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-178",
+  "activeDetailedTourId": "tour-179",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-178",
-  "latestCompletionAudit": "public/data/night2026-completion.json",
+  "activeDetailedReview": "tour-179",
+  "latestCompletionAudit": "public/data/pipe2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-178",
-  "nextPriorityReason": "One tour at a time: Night2026 has core exact LIVE completion evidence. Start Pipe2026 tour178 only after final Night2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/night2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-179",
+  "nextPriorityReason": "One tour at a time: Pipe2026 has core exact LIVE completion evidence. Start Sunshine2026 tour179 only after final Pipe2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/pipe2026-exact-live-publication-and-full-field-check-20261015.json"
 }

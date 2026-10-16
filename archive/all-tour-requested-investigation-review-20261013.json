@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-178",
+  "activeDetailedReview": "tour-179",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 175,
-      "carry-in-and-sparse-history-check": 3,
+      "completed-with-documented-gaps": 176,
       "candidate-and-source-review": 2,
+      "carry-in-and-sparse-history-check": 2,
       "source-and-publication-review": 1
     },
     "years": {
@@ -91,11 +91,11 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 6,
+        "requiringInvestigation": 5,
         "categories": {
-          "completed-with-documented-gaps": 13,
-          "carry-in-and-sparse-history-check": 3,
+          "completed-with-documented-gaps": 14,
           "candidate-and-source-review": 2,
+          "carry-in-and-sparse-history-check": 2,
           "source-and-publication-review": 1
         }
       }
@@ -110,8 +110,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 175,
-    "toursRequiringInvestigation": 6
+    "practicallyCompletedTours": 176,
+    "toursRequiringInvestigation": 5
   },
   "tours": [
     {
@@ -18410,7 +18410,7 @@
           "url": "https://mktwrs.com/course/wii-dry-dry-ruins",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 31,
+          "supportingRows": 16,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1406664937199374357",
@@ -18426,11 +18426,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "wii-dry-dry-ruins",
             "checkedAt": "2026-10-13T18:38:30.640725+00:00",
@@ -18454,7 +18450,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove-2r",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 20,
+          "supportingRows": 9,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1274824870248845414",
@@ -18470,11 +18466,7 @@
           "linkedVideoRows": 4,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Compare the sparse history with original standings and later results; retain only demonstrated leaders/ties.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "piranha-plant-cove-2r",
             "checkedAt": "2026-10-13T18:38:32.402161+00:00",
@@ -18493,8 +18485,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/pipe2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/pipe2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-179",
@@ -19134,10 +19131,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-178",
-  "latestCompletionAudit": "public/data/night2026-completion.json",
+  "activeDetailedTourId": "tour-179",
+  "latestCompletionAudit": "public/data/pipe2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-178",
-  "nextPriorityReason": "One tour at a time: Night2026 has core exact LIVE completion evidence. Start Pipe2026 tour178 only after final Night2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/night2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-179",
+  "nextPriorityReason": "One tour at a time: Pipe2026 has core exact LIVE completion evidence. Start Sunshine2026 tour179 only after final Pipe2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/pipe2026-exact-live-publication-and-full-field-check-20261015.json"
 }
