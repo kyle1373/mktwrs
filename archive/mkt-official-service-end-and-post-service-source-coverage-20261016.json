@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-16T17:45:50.704110+00:00",
+  "officialServiceEndUtc": "2026-09-30T06:00:00Z",
+  "officialServiceEndPacific": "2026-09-29T23:00:00-07:00",
+  "primarySource": {
+    "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71752/~/mario-kart-tour-service-discontinuation",
+    "title": "Mario Kart Tour Service Discontinuation | Nintendo Support",
+    "exactText": "Service for the Mario Kart Tour game for smart devices was discontinued at 11:00 p.m. PT on September 29, 2026.",
+    "fullArticleFetched": true,
+    "retrieval": "Exa web_fetch_exa"
+  },
+  "corroboratingPrimarySource": {
+    "url": "https://support.nintendo.com/jp/information/2026/0708/index.html",
+    "reportedJapaneseEnd": "2026-09-30T15:00:00+09:00",
+    "searchResultCorroborationOnly": true
+  },
+  "lastPlayableCatalogTour": {
+    "id": "tour-183",
+    "name": "Anniversary Tour (2026)",
+    "start": "2026-09-16T06:00:00Z",
+    "endExclusive": "2026-09-30T06:00:00Z"
+  },
+  "noPlayableBattleOrHalloween2026Tour": true,
+  "postServiceSourcesStillRequireArchiving": true,
+  "postServiceWindowThrough": "2026-10-16",
+  "sourceAudits": [
+    "archive/tt-announcements-visible-final-tour-and-bot-retirement-20261016.json",
+    "archive/tt-submission2-visible-channel-start-and-original-20261016.json",
+    "archive/october2026-original-submission-channel-visible-tail-20261016.json",
+    "archive/replacement-leaderboard-yoshi-circuit-r-source-crosscheck-20261016.json"
+  ],
+  "newSourceOriginalPreservedOnR2": true,
+  "newSourceResult": "Toad Circuit R1:02.80; runner and race date unresolved; no new WR credit",
+  "limitations": [
+    "Visible channel tails were read directly in Codex browser2. No fresh Discord search or exhaustive global-source census.",
+    "Replacement site Yoshi Circuit R has one row with old submissions enabled; this is already preserved in mktwrs.",
+    "Direct public-site fetch returned HTTP403; only the visible replacement-site page was inspected, without access workaround.",
+    "Official service closure proves the last playable boundary, not completion of historical source reconciliation."
+  ],
+  "historyComplete": false,
+  "wholeGoalComplete": false,
+  "postServiceDiscussionCapture": "archive/tt-discussion-post-service-direct-visible-review-20261016.json",
+  "directObservedPostServiceDiscussionRows": 33,
+  "knownVideoSourceCrosswalk": "archive/post-service-known-video-source-crosswalk-20261016.json"
+}
