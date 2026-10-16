@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
 import {applyDocumentedDurations} from '../lib/documented-durations.mjs';
-import {resolveFinalDate} from '../lib/final-dates.mjs';
+import {resolveFinalDate,applyFinalDates} from '../lib/final-dates.mjs';
 const row=(id,timeCs,documentedAt,playerId=id)=>({id,timeCs,playerId,documentedAt,documentedDatePrecision:'timestamp'});
 test('reigns pause between tours and tied holders end at the same faster submission',()=>{
  const c={records:[row('a',100,'2020-01-01T12:00:00Z'),row('b',100,'2020-01-02T12:00:00Z'),row('c',90,'2020-01-16T12:00:00Z')],submissions:[],candidates:[],appearances:[{startDate:'2020-01-01',endDate:'2020-01-03'},{startDate:'2020-01-15',endDate:'2020-01-17'}]};
@@ -54,4 +54,16 @@ test('a calendar date with no source timezone covers UTC offsets from +14 to -12
  const r={id:'unknown-zone',finalDate:'2020-01-02',documentedAt:null,documentedDatePrecision:'day',documentedDateTimezone:'unspecified'};
  const b=standingBounds(r,{id:'zone',appearances:[{startDate:'2020-01-01',endDate:'2020-01-04'}]});
  assert.equal(b.earliest,'2020-01-01T10:00:00.000Z');assert.equal(b.latest,'2020-01-03T12:00:00.000Z');assert.equal(b.exact,false);
+});
+
+test('an earlier matching video share corrects the posting date without inventing a post-reset achievement time',()=>{
+ const courses=JSON.parse(fs.readFileSync(new URL('../public/data/courses.json',import.meta.url)));
+ const c=courses.find(c=>c.id==='wii-coconut-mall');
+ const evidence=JSON.parse(fs.readFileSync(new URL('../scripts/documented-date-evidence.json',import.meta.url)));
+ const r=c.records.find(r=>r.id==='1000615548633227364');const rawClock=r.announcedAt;
+ applyFinalDates([c],evidence.filter(e=>e.courseId===c.id));applyDocumentedDurations([c]);
+ assert.equal(r.finalDate,'2022-07-13');assert.equal(r.documentedAt,'2022-07-13T06:37:17.055Z');
+ assert.equal(r.announcedAt,rawClock);assert.equal(r.durationPrecision,'range');
+ assert.ok(r.durationBounds.maxDays>r.durationBounds.minDays);assert.equal(r.durationBounds.start.exact,false);
+ assert.equal(r.documentedDateSourceUrl,'https://discord.com/channels/629221606064914442/875784780573184010/996666610255417414');
 });

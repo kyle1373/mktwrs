@@ -1,1 +1,3206 @@
-{"requirement": "Accurate dates and durations on every course, with tour clocks retained", "completionProven": false, "remainingExactDurationIntervals": 126, "sourceRowsChecked": 25063, "sourceFieldsPreserved": true, "tests": {"passed": 193, "failed": 0}, "renderedCoursesChecked": 142, "policy": "No fabricated timestamps; duration bounds cover date-only, timezone-unconfirmed and retrospective evidence.", "dateAndClockCorrections": [{"courseId": "gba-bowser-s-castle-3", "id": "1017647577296027732", "time": "1:25.86", "oldDate": "2022-09-07", "date": "2022-09-02", "oldClock": "2022-09-07T08:44:58.935Z", "clock": "2022-09-02T19:54:18.079Z", "basis": "reviewed-first-standing-publication"}, {"courseId": "n64-choco-mountain", "id": "896340977839656990", "time": "1:18.38", "oldDate": "2021-08-08", "date": "2021-08-08", "oldClock": "2021-08-08T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "n64-choco-mountain-r", "id": "896333812240355370", "time": "1:17.87", "oldDate": "2021-02-19", "date": "2021-02-19", "oldClock": "2021-02-19T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-41", "time": "1:37.96", "oldDate": "2019-10-25", "date": "2019-10-25", "oldClock": "2019-10-25T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-42", "time": "1:36.48", "oldDate": "2019-10-25", "date": "2019-10-25", "oldClock": "2019-10-25T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-43", "time": "1:36.37", "oldDate": "2019-10-25", "date": "2019-10-25", "oldClock": "2019-10-25T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-44", "time": "1:35.99", "oldDate": "2019-10-25", "date": "2019-10-25", "oldClock": "2019-10-25T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-637479815665942539-gcn-dino-dino-jungle", "time": "1:35.70", "oldDate": "2019-10-25", "date": "2019-10-25", "oldClock": "2019-10-25T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-47", "time": "1:35.68", "oldDate": "2019-10-27", "date": "2019-10-27", "oldClock": "2019-10-27T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-49", "time": "1:35.62", "oldDate": "2019-10-28", "date": "2019-10-28", "oldClock": "2019-10-28T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-50", "time": "1:35.56", "oldDate": "2019-10-28", "date": "2019-10-28", "oldClock": "2019-10-28T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-639823450353041419-verified", "time": "1:35.46", "oldDate": "2019-10-29", "date": "2019-10-29", "oldClock": "2019-10-29T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-30", "time": "1:27.85", "oldDate": "2019-10-23", "date": "2019-10-23", "oldClock": "2019-10-23T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-31", "time": "1:27.35", "oldDate": "2019-10-23", "date": "2019-10-23", "oldClock": "2019-10-23T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-33", "time": "1:26.36", "oldDate": "2019-10-24", "date": "2019-10-24", "oldClock": "2019-10-24T06:00:00.000Z", "clock": "2019-10-24T09:36:19.530Z", "basis": "original-twitter-post"}, {"courseId": "3ds-neo-bowser-city", "id": "curated-637479815665942539-3ds-neo-bowser-city", "time": "1:26.08", "oldDate": "2019-10-24", "date": "2019-10-24", "oldClock": "2019-10-24T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "ds-peach-gardens-r", "id": "1084274701741862943", "time": "1:27.21", "oldDate": "2023-03-08", "date": "2023-03-07", "oldClock": "2023-03-08T05:21:08.522Z", "clock": "2023-03-07T05:10:58.000Z", "basis": "earlier-reviewed-original-video-publication"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-11", "time": "1:05.33", "oldDate": "2019-10-23", "date": "2019-10-23", "oldClock": "2019-10-23T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-12", "time": "1:05.24", "oldDate": "2019-10-23", "date": "2019-10-23", "oldClock": "2019-10-23T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-13", "time": "1:05.18", "oldDate": "2019-10-23", "date": "2019-10-23", "oldClock": "2019-10-23T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-15", "time": "1:05.11", "oldDate": "2019-10-24", "date": "2019-10-24", "oldClock": "2019-10-24T06:00:00.000Z", "clock": "2019-10-24T11:29:58.000Z", "basis": "source-postedAt"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-16", "time": "1:05.04", "oldDate": "2019-10-24", "date": "2019-10-24", "oldClock": "2019-10-24T06:00:00.000Z", "clock": "2019-10-24T16:27:36.000Z", "basis": "source-postedAt"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-17", "time": "1:05.03", "oldDate": "2019-10-24", "date": "2019-10-24", "oldClock": "2019-10-24T06:00:00.000Z", "clock": "2019-10-24T16:27:36.000Z", "basis": "source-postedAt"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-18", "time": "1:04.99", "oldDate": "2019-10-24", "date": "2019-10-24", "oldClock": "2019-10-24T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-21", "time": "1:04.73", "oldDate": "2019-10-26", "date": "2019-10-26", "oldClock": "2019-10-26T06:00:00.000Z", "clock": "2019-10-26T08:38:27.000Z", "basis": "source-postedAt"}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-22", "time": "1:04.54", "oldDate": "2019-10-27", "date": "2019-10-27", "oldClock": "2019-10-27T06:00:00.000Z", "clock": "2019-10-27T18:47:11.000Z", "basis": "source-postedAt"}, {"courseId": "3ds-toad-circuit", "id": "896332014423261204", "time": "1:04.46", "oldDate": "2019-10-29", "date": "2019-10-29", "oldClock": "2019-10-29T06:00:00.000Z", "clock": null, "basis": "source-date"}, {"courseId": "snes-vanilla-lake-1", "id": "curated-trick-2020-tomegome-3472", "time": "0:34.72", "oldDate": "2020-04-25", "date": "2020-04-25", "oldClock": "2020-04-25T06:00:00.000Z", "clock": null, "basis": "source-date"}], "remainingSourceQueue": [{"courseId": "berlin-byways", "id": "curated-988232376633143327-cat2022-image-reviewed", "time": "1:14.85", "source": "https://discord.com/channels/629221606064914442/875784780573184010/988232376633143327", "date": "2022-06-20", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 4.248181226851852, "start": {"earliest": "2022-06-20T00:02:39.059Z", "latest": "2022-06-20T00:02:39.059Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-15T06:00:00.000Z", "latest": "2022-06-24T06:00:01.917Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "berlin-byways", "id": "curated-989771865960611852-cat2022-image-reviewed", "time": "1:14.83", "source": "https://discord.com/channels/629221606064914442/875784780573184010/989771865960611852", "date": "2022-06-24", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 1.576843310185185, "start": {"earliest": "2022-06-24T06:00:01.917Z", "latest": "2022-06-24T06:00:01.917Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-15T06:00:00.000Z", "latest": "2022-06-25T19:50:41.179Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "berlin-byways", "id": "curated-990343294842183740-cat2022-image-reviewed", "time": "1:14.68", "source": "https://discord.com/channels/629221606064914442/875784780573184010/990343294842183740", "date": "2022-06-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 3.4231345023148148, "start": {"earliest": "2022-06-25T19:50:41.179Z", "latest": "2022-06-25T19:50:41.179Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-15T06:00:00.000Z", "latest": "2022-06-29T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "berlin-byways", "id": "994782085011226700", "time": "1:14.54", "source": "https://discord.com/channels/629221606064914442/896050730216095765/994782085011226700", "date": "2022-06-29", "dateBasis": "submittedAt", "bounds": {"minDays": 4.004420844907408, "maxDays": 18.004420844907408, "start": {"earliest": "2022-06-15T06:00:00.000Z", "latest": "2022-06-29T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2023-04-23T06:06:21.961Z", "latest": "2023-04-23T06:06:21.961Z"}, "basis": "attributed-tour-window"}}, {"courseId": "berlin-byways-3", "id": "curated-1022918781187674232-berlin3-1437-corrected-video", "time": "1:14.37", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1022918781187674232", "date": "2022-09-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 8.557315752314814, "start": {"earliest": "2022-09-23T17:14:02.347Z", "latest": "2022-09-23T17:14:02.347Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-09-21T06:00:00.000Z", "latest": "2022-10-02T06:36:34.428Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "berlin-byways-3", "id": "curated-1026019848578408499-1026019848767164426-august2022-image-reviewed", "time": "1:14.33", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1026019848578408499", "date": "2022-10-02", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.9746015277777778, "start": {"earliest": "2022-10-02T06:36:34.428Z", "latest": "2022-10-02T06:36:34.428Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-09-21T06:00:00.000Z", "latest": "2022-10-05T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "berlin-byways-3", "id": "1028138576740876369", "time": "1:14.32", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1028138576740876369", "date": "2022-10-05", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 14, "start": {"earliest": "2022-09-21T06:00:00.000Z", "latest": "2022-10-05T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "gba-bowser-s-castle-1", "id": "896332374344867880-kaguya", "time": "0:59.96", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332374344867880", "date": "2021-10-09", "dateBasis": "announcedAt", "bounds": {"minDays": 0.05712074074074074, "maxDays": 14.057120740740741, "start": {"earliest": "2020-01-15T06:00:00.000Z", "latest": "2020-01-29T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2021-03-10T07:22:15.232Z", "latest": "2021-03-10T07:22:15.232Z"}, "basis": "attributed-tour-window"}}, {"courseId": "n64-choco-mountain", "id": "curated-mario-peach-2021-871911438166421534-11843", "time": "1:18.43", "source": "https://discord.com/channels/629221606064914442/636461740162416640/871911441207275580", "date": "2021-08-03", "dateBasis": "submittedAt", "bounds": {"minDays": 4.399457002314815, "maxDays": 6.482790335648148, "start": {"earliest": "2021-08-03T00:24:46.915Z", "latest": "2021-08-03T00:24:46.915Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-07T10:00:00.000Z", "latest": "2021-08-09T12:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-choco-mountain", "id": "896340977839656990", "time": "1:18.38", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896340977839656990", "date": "2021-08-08", "dateBasis": "source-date", "bounds": {"minDays": 6.75483318287037, "maxDays": 8.838166516203703, "start": {"earliest": "2021-08-07T10:00:00.000Z", "latest": "2021-08-09T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2022-11-21T06:06:57.587Z", "latest": "2022-11-21T06:06:57.587Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "n64-choco-mountain-r", "id": "curated-peach-daisy-2021-811258665365405746-11827", "time": "1:18.27", "source": "https://discord.com/channels/629221606064914442/636461740162416640/811258665654288384", "date": "2021-02-16", "dateBasis": "submittedAt", "bounds": {"minDays": 1.7692320717592593, "maxDays": 3.8525654050925926, "start": {"earliest": "2021-02-16T15:32:18.349Z", "latest": "2021-02-16T15:32:18.349Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-02-18T10:00:00.000Z", "latest": "2021-02-20T12:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-choco-mountain-r", "id": "896333812240355370", "time": "1:17.87", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896333812240355370", "date": "2021-02-19", "dateBasis": "source-date", "bounds": {"minDays": 17.75, "maxDays": 19.833333333333332, "start": {"earliest": "2021-02-18T10:00:00.000Z", "latest": "2021-02-20T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "wii-coconut-mall", "id": "curated-992045611236999239-992045610557517874-bangkok2022-image-reviewed", "time": "1:14.42", "source": "https://discord.com/channels/629221606064914442/875784780573184010/992045611236999239", "date": "2022-06-30", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.998931388888889, "start": {"earliest": "2022-06-30T12:35:05.035Z", "latest": "2022-06-30T12:35:05.035Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-03T12:33:32.707Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-coconut-mall", "id": "curated-993132387582087219-993132385292005416-bangkok2022-image-reviewed", "time": "1:14.38", "source": "https://discord.com/channels/629221606064914442/875784780573184010/993132387582087219", "date": "2022-07-03", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 1.586592511574074, "start": {"earliest": "2022-07-03T12:33:32.707Z", "latest": "2022-07-03T12:33:32.707Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-05T02:38:14.300Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-coconut-mall", "id": "curated-993707349455945737-993707348587720784-bangkok2022-image-reviewed", "time": "1:14.35", "source": "https://discord.com/channels/629221606064914442/875784780573184010/993707349455945737", "date": "2022-07-05", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 1.4670866550925925, "start": {"earliest": "2022-07-05T02:38:14.300Z", "latest": "2022-07-05T02:38:14.300Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-06T13:50:50.587Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-coconut-mall", "id": "curated-994239003857530880-994239001944920064-bangkok2022-image-reviewed", "time": "1:14.30", "source": "https://discord.com/channels/629221606064914442/875784780573184010/994239003857530880", "date": "2022-07-06", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.821572164351852, "start": {"earliest": "2022-07-06T13:50:50.587Z", "latest": "2022-07-06T13:50:50.587Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-09T09:33:54.422Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-coconut-mall", "id": "curated-995261507371802664-995261506230964325-bangkok2022-image-reviewed", "time": "1:14.22", "source": "https://discord.com/channels/629221606064914442/875784780573184010/995261507371802664", "date": "2022-07-09", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 1.7127350810185185, "start": {"earliest": "2022-07-09T09:33:54.422Z", "latest": "2022-07-09T09:33:54.422Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-11T02:40:14.733Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-coconut-mall", "id": "curated-995882181782151249-995882180565811230-bangkok2022-image-reviewed", "time": "1:14.17", "source": "https://discord.com/channels/629221606064914442/875784780573184010/995882181782151249", "date": "2022-07-11", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 1.4058202546296297, "start": {"earliest": "2022-07-11T02:40:14.733Z", "latest": "2022-07-11T02:40:14.733Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-12T12:24:37.603Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-coconut-mall", "id": "curated-996391633983651861-996391632331083846-bangkok2022-image-reviewed", "time": "1:14.04", "source": "https://discord.com/channels/629221606064914442/875784780573184010/996391633983651861", "date": "2022-07-12", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.7328981134259259, "start": {"earliest": "2022-07-12T12:24:37.603Z", "latest": "2022-07-12T12:24:37.603Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-13T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-coconut-mall", "id": "1000615548633227364", "time": "1:13.93", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1000615548633227364", "date": "2022-07-24", "dateBasis": "announcedAt", "bounds": {"minDays": 19.308214050925926, "maxDays": 33.308214050925926, "start": {"earliest": "2022-06-29T06:00:00.000Z", "latest": "2022-07-13T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2024-06-03T13:23:49.694Z", "latest": "2024-06-03T13:23:49.694Z"}, "basis": "attributed-tour-window"}}, {"courseId": "wii-daisy-circuit", "id": "1139362445480177824", "time": "1:18.30", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1139362445480177824", "date": "2023-08-01", "dateBasis": "submittedAt", "bounds": {"minDays": 7.633121701388889, "maxDays": 10.163874837962963, "start": {"earliest": "2023-08-01T14:48:18.285Z", "latest": "2023-08-01T14:48:18.285Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-07-24T06:00:00.000Z", "latest": "2024-07-26T18:44:17.071Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-daisy-circuit", "id": "curated-1266466137869127791-sunshine2024-image-reviewed", "time": "1:18.20", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1266466137869127791", "date": "2024-07-26", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 11.469246863425926, "start": {"earliest": "2024-07-26T18:44:17.071Z", "latest": "2024-07-26T18:44:17.071Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-07-24T06:00:00.000Z", "latest": "2024-08-07T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-daisy-circuit", "id": "curated-1267618667764514867-sunshine2024-image-reviewed", "time": "1:18.20", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1267618667764514867", "date": "2024-07-29", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 8.288870243055555, "start": {"earliest": "2024-07-29T23:04:01.611Z", "latest": "2024-07-29T23:04:01.611Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-07-24T06:00:00.000Z", "latest": "2024-08-07T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-daisy-circuit", "id": "1274825087542890606", "time": "1:18.15", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1270734791372836884", "date": "2024-08-07", "dateBasis": "submittedAt", "bounds": {"minDays": 9.340648518518519, "maxDays": 23.340648518518517, "start": {"earliest": "2024-07-24T06:00:00.000Z", "latest": "2024-08-07T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2025-08-01T14:10:32.032Z", "latest": "2025-08-01T14:10:32.032Z"}, "basis": "attributed-tour-window"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-41", "time": "1:37.96", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A41:J41", "date": "2019-10-25", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 2.0833333333333335, "start": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-42", "time": "1:36.48", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A42:J42", "date": "2019-10-25", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 2.0833333333333335, "start": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-43", "time": "1:36.37", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A43:J43", "date": "2019-10-25", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 2.0833333333333335, "start": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-44", "time": "1:35.99", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A44:J44", "date": "2019-10-25", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 2.0833333333333335, "start": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-637479815665942539-gcn-dino-dino-jungle", "time": "1:35.70", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A45:J45", "date": "2019-10-25", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 2.390439814814815, "start": {"earliest": "2019-10-24T10:00:00.000Z", "latest": "2019-10-26T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-26T10:00:00.000Z", "latest": "2019-10-26T19:22:14.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-46", "time": "1:35.69", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A46:J46", "date": "2019-10-26", "dateBasis": "videoPublishedAt", "bounds": {"minDays": 0, "maxDays": 1.6928935185185185, "start": {"earliest": "2019-10-26T19:22:14.000Z", "latest": "2019-10-26T19:22:14.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-26T10:00:00.000Z", "latest": "2019-10-28T12:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-47", "time": "1:35.68", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A47:J47", "date": "2019-10-27", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 2.118331076388889, "start": {"earliest": "2019-10-26T10:00:00.000Z", "latest": "2019-10-28T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-27T10:00:00.000Z", "latest": "2019-10-28T12:50:23.805Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-48", "time": "1:35.66", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A48:J48", "date": "2019-10-28", "dateBasis": "proofUploadedAt", "bounds": {"minDays": 0, "maxDays": 0.9650022569444444, "start": {"earliest": "2019-10-28T12:50:23.805Z", "latest": "2019-10-28T12:50:23.805Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-27T10:00:00.000Z", "latest": "2019-10-29T12:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-49", "time": "1:35.62", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A49:J49", "date": "2019-10-28", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 2.0833333333333335, "start": {"earliest": "2019-10-27T10:00:00.000Z", "latest": "2019-10-29T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-27T10:00:00.000Z", "latest": "2019-10-29T12:00:00.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-original-2019-wr-row-50", "time": "1:35.56", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A50:J50", "date": "2019-10-28", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 3.0833333333333335, "start": {"earliest": "2019-10-27T10:00:00.000Z", "latest": "2019-10-29T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-28T10:00:00.000Z", "latest": "2019-10-30T12:00:00.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-dino-dino-jungle", "id": "curated-639823450353041419-verified", "time": "1:35.46", "source": "https://discord.com/channels/629221606064914442/636461740162416640/639823450353041419", "date": "2019-10-29", "dateBasis": "source-date", "bounds": {"minDays": 0.1051736111111111, "maxDays": 2.1885069444444443, "start": {"earliest": "2019-10-28T10:00:00.000Z", "latest": "2019-10-30T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-30T14:31:27.000Z", "latest": "2019-10-30T14:31:27.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "n64-kalimari-desert-2", "id": "1068224230715559956", "time": "1:03.36", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1068224230715559956", "date": "2023-01-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0.11726398148148148, "maxDays": 14.117263981481482, "start": {"earliest": "2023-01-25T03:11:08.392Z", "latest": "2023-01-25T03:11:08.392Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-01-10T06:00:00.000Z", "latest": "2024-01-24T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-kalimari-desert-2", "id": "1204260087687024680", "time": "1:03.32", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1204260087687024680", "date": "2024-01-24", "dateBasis": "submittedAt", "bounds": {"minDays": 28, "maxDays": 42, "start": {"earliest": "2024-01-10T06:00:00.000Z", "latest": "2024-01-24T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "wii-koopa-cape", "id": "curated-1057816917764735066-newyear2023-proof-reviewed", "time": "1:36.68", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1057816917764735066", "date": "2022-12-29", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.5104274652777778, "start": {"earliest": "2022-12-29T00:26:46.483Z", "latest": "2022-12-29T00:26:46.483Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-12-28T06:00:00.000Z", "latest": "2022-12-29T12:41:47.416Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-koopa-cape", "id": "curated-1058001890484420678-koopa-cape-lap-message-confirmed", "time": "1:36.21", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1058001890484420678", "date": "2022-12-29", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 6.921576076388889, "start": {"earliest": "2022-12-29T12:41:47.416Z", "latest": "2022-12-29T12:41:47.416Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-12-28T06:00:00.000Z", "latest": "2023-01-05T10:48:51.589Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-koopa-cape", "id": "curated-1060510185665343539-newyear2023-proof-reviewed", "time": "1:36.08", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1060510185665343539", "date": "2023-01-05", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 5.799402905092593, "start": {"earliest": "2023-01-05T10:48:51.589Z", "latest": "2023-01-05T10:48:51.589Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-12-28T06:00:00.000Z", "latest": "2023-01-11T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "wii-koopa-cape", "id": "1062874009567502386", "time": "1:35.85", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1062874009567502386", "date": "2023-01-11", "dateBasis": "submittedAt", "bounds": {"minDays": 2.0872837962962962, "maxDays": 16.087283796296298, "start": {"earliest": "2022-12-28T06:00:00.000Z", "latest": "2023-01-11T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2023-12-29T08:05:41.320Z", "latest": "2023-12-29T08:05:41.320Z"}, "basis": "attributed-tour-window"}}, {"courseId": "n64-koopa-troopa-beach", "id": "curated-valentines-2020-tome-ktb-video-11386", "time": "1:13.86", "source": "https://twitter.com/tomegome_g/status/1222534288186298369", "date": "2020-01-29", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 13.626597222222221, "start": {"earliest": "2020-01-29T14:57:42.000Z", "latest": "2020-01-29T14:57:42.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2020-01-29T06:00:00.000Z", "latest": "2020-02-12T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-koopa-troopa-beach", "id": "896332414568259584-tomegome", "time": "1:13.83", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332414568259584", "date": "2021-10-09", "dateBasis": "announcedAt", "bounds": {"minDays": 0, "maxDays": 14, "start": {"earliest": "2020-01-29T06:00:00.000Z", "latest": "2020-02-12T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "n64-koopa-troopa-beach", "id": "896332414568259584-kaguya", "time": "1:13.83", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332414568259584", "date": "2021-10-09", "dateBasis": "announcedAt", "bounds": {"minDays": 0, "maxDays": 14, "start": {"earliest": "2020-01-29T06:00:00.000Z", "latest": "2020-02-12T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "madrid-drive", "id": "curated-1144078652959621271-summer2023-original-result-reviewed", "time": "1:18.56", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144078652959621271", "date": "2023-08-24", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.44131612268518516, "start": {"earliest": "2023-08-24T01:20:06.819Z", "latest": "2023-08-24T01:20:06.819Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-08-24T11:55:36.532Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "curated-1144101083841581108-summer2023-original-result-reviewed", "time": "1:18.56", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144101083841581108", "date": "2023-08-24", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.37941868055555555, "start": {"earliest": "2023-08-24T02:49:14.758Z", "latest": "2023-08-24T02:49:14.758Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-08-24T11:55:36.532Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "curated-1144238580567396392-summer2023-original-result-reviewed", "time": "1:18.41", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144238580567396392", "date": "2023-08-24", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.04577512731481481, "start": {"earliest": "2023-08-24T11:55:36.532Z", "latest": "2023-08-24T11:55:36.532Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-08-24T13:01:31.503Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "curated-1144255168918061076-summer2023-original-result-reviewed", "time": "1:18.38", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144255168918061076", "date": "2023-08-24", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.002840775462962963, "start": {"earliest": "2023-08-24T13:01:31.503Z", "latest": "2023-08-24T13:01:31.503Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-08-24T13:05:36.946Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "curated-1144256198380621966-summer2023-original-result-reviewed", "time": "1:18.33", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144256198380621966", "date": "2023-08-24", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.011203379629629629, "start": {"earliest": "2023-08-24T13:05:36.946Z", "latest": "2023-08-24T13:05:36.946Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-08-24T13:21:44.918Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "curated-1144260258349465741-summer2023-original-result-reviewed", "time": "1:18.23", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144260258349465741", "date": "2023-08-24", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.4675298148148148, "start": {"earliest": "2023-08-24T13:21:44.918Z", "latest": "2023-08-24T13:21:44.918Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-08-25T00:34:59.494Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "curated-1144429685481164800-summer2023-original-result-reviewed", "time": "1:17.78", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144429685481164800", "date": "2023-08-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 5.00162542824074, "start": {"earliest": "2023-08-25T00:34:59.494Z", "latest": "2023-08-25T00:34:59.494Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-08-30T00:37:19.931Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "discord-1146242221423722526", "time": "1:17.73", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1146242213844623391", "date": "2023-08-30", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.390252708333333, "start": {"earliest": "2023-08-30T00:37:19.931Z", "latest": "2023-08-30T00:37:19.931Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-09-01T09:59:17.765Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "discord-1147108421187928064", "time": "1:17.62", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1147108412421849118", "date": "2023-09-01", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 4.172256585648148, "start": {"earliest": "2023-09-01T09:59:17.765Z", "latest": "2023-09-01T09:59:17.765Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-09-05T14:07:20.734Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "discord-1148620390491488363", "time": "1:17.57", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1148620387580649512", "date": "2023-09-05", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.6615655787037037, "start": {"earliest": "2023-09-05T14:07:20.734Z", "latest": "2023-09-05T14:07:20.734Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-09-06T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "madrid-drive", "id": "1152024419473047663", "time": "1:17.31", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1152024419473047663", "date": "2023-09-06", "dateBasis": "submittedAt", "bounds": {"minDays": 31.88116736111111, "maxDays": 45.88116736111111, "start": {"earliest": "2023-08-23T06:00:00.000Z", "latest": "2023-09-06T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-08-23T03:08:52.860Z", "latest": "2026-08-23T03:08:52.860Z"}, "basis": "attributed-tour-window"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-27", "time": "1:33.23", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A27:J27", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.07224515046296297, "start": {"earliest": "2019-10-23T09:25:52.180Z", "latest": "2019-10-23T09:25:52.180Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T11:09:54.161Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-28", "time": "1:29.72", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A28:J28", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.03152392361111111, "start": {"earliest": "2019-10-23T11:09:54.161Z", "latest": "2019-10-23T11:09:54.161Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T11:55:17.828Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-29", "time": "1:28.48", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A29:J29", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.1086825462962963, "start": {"earliest": "2019-10-23T11:55:17.828Z", "latest": "2019-10-23T11:55:17.828Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T14:31:48.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-30", "time": "1:27.85", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A30:J30", "date": "2019-10-23", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 0.35541666666666666, "start": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T14:31:48.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-31", "time": "1:27.35", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A31:J31", "date": "2019-10-23", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 0.35541666666666666, "start": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-23T14:31:48.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-32", "time": "1:26.83", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A32:J32", "date": "2019-10-23", "dateBasis": "evidencePublishedAt", "bounds": {"minDays": 0, "maxDays": 0.7948032407407407, "start": {"earliest": "2019-10-23T14:31:48.000Z", "latest": "2019-10-23T14:31:48.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-24T09:36:19.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-34", "time": "1:26.31", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A34:J34", "date": "2019-10-24", "dateBasis": "evidencePublishedAt", "bounds": {"minDays": 0, "maxDays": 0.2807795949074074, "start": {"earliest": "2019-10-24T09:36:19.000Z", "latest": "2019-10-24T09:36:19.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-24T16:20:38.357Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-original-2019-wr-row-35", "time": "1:26.13", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A35:J35", "date": "2019-10-24", "dateBasis": "evidencePublishedAt", "bounds": {"minDays": 0, "maxDays": 0.8190004976851852, "start": {"earliest": "2019-10-24T16:20:38.357Z", "latest": "2019-10-24T16:20:38.357Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-25T12:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-neo-bowser-city", "id": "curated-637479815665942539-3ds-neo-bowser-city", "time": "1:26.08", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A36:J36", "date": "2019-10-24", "dateBasis": "source-date", "bounds": {"minDays": 6.301457349537037, "maxDays": 8.38479068287037, "start": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-25T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-31T19:14:05.915Z", "latest": "2019-10-31T19:14:05.915Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "ds-peach-gardens", "id": "1189361589913124894", "time": "1:26.58", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1189361589913124894", "date": "2023-12-06", "dateBasis": "submittedAt", "bounds": {"minDays": 20.801653796296296, "maxDays": 21.13368420138889, "start": {"earliest": "2023-12-06T10:45:37.112Z", "latest": "2023-12-06T10:45:37.112Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2025-11-26T06:00:00.000Z", "latest": "2025-11-26T13:58:07.427Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "ds-peach-gardens", "id": "curated-1443172735084925069-peach-bowser2025-image-reviewed", "time": "1:26.58", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1443172735084925069", "date": "2025-11-26", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.18396446759259258, "start": {"earliest": "2025-11-26T09:33:12.897Z", "latest": "2025-11-26T09:33:12.897Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2025-11-26T06:00:00.000Z", "latest": "2025-11-26T13:58:07.427Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "ds-peach-gardens", "id": "curated-1443239401575682098-peach-bowser2025-image-reviewed", "time": "1:26.56", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1443239401575682098", "date": "2025-11-26", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 13.667969594907408, "start": {"earliest": "2025-11-26T13:58:07.427Z", "latest": "2025-11-26T13:58:07.427Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2025-11-26T06:00:00.000Z", "latest": "2025-12-10T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "ds-peach-gardens", "id": "1459239166176002326", "time": "1:26.55", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1459239166176002326", "date": "2026-01-09", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 14, "start": {"earliest": "2025-11-26T06:00:00.000Z", "latest": "2025-12-10T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "ds-peach-gardens-r", "id": "1084274701741862943", "time": "1:27.21", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1084274701741862943", "date": "2023-03-07", "dateBasis": "earlier-reviewed-original-video-publication", "bounds": {"minDays": 1.0340509259259258, "maxDays": 15.034050925925927, "start": {"earliest": "2023-03-07T05:10:58.000Z", "latest": "2023-03-07T05:10:58.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-02-21T06:00:00.000Z", "latest": "2024-03-06T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "ds-peach-gardens-r", "id": "1219694565657804833", "time": "1:27.16", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1219694565657804833", "date": "2024-03-06", "dateBasis": "submittedAt", "bounds": {"minDays": 28, "maxDays": 42, "start": {"earliest": "2024-02-21T06:00:00.000Z", "latest": "2024-03-06T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "snes-rainbow-road", "id": "896332468897058816", "time": "0:59.94", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332468897058816", "date": "2021-10-09", "dateBasis": "announcedAt", "bounds": {"minDays": 0.05282498842592592, "maxDays": 14.052824988425925, "start": {"earliest": "2020-02-12T06:00:00.000Z", "latest": "2020-02-26T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2021-04-07T07:16:04.079Z", "latest": "2021-04-07T07:16:04.079Z"}, "basis": "attributed-tour-window"}}, {"courseId": "rmx-choco-island-1r", "id": "curated-toad-toadette-2021-905711622679576606", "time": "1:13.05", "source": "https://discord.com/channels/629221606064914442/875784780573184010/905711626592858142", "date": "2021-11-04", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.05145584490740741, "start": {"earliest": "2021-11-04T06:54:39.088Z", "latest": "2021-11-04T06:54:39.088Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-11-03T06:00:00.000Z", "latest": "2021-11-04T08:08:44.873Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-choco-island-1r", "id": "curated-toad-toadette-2021-905730270529990677", "time": "1:12.50", "source": "https://discord.com/channels/629221606064914442/875784780573184010/905730273566687322", "date": "2021-11-04", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.23716001157407407, "start": {"earliest": "2021-11-04T08:08:44.873Z", "latest": "2021-11-04T08:08:44.873Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-11-03T06:00:00.000Z", "latest": "2021-11-04T13:50:15.498Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-choco-island-1r", "id": "curated-toad-toadette-2021-905816213538627634", "time": "1:12.48", "source": "https://discord.com/channels/629221606064914442/875784780573184010/905816217477066792", "date": "2021-11-04", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.37704413194444447, "start": {"earliest": "2021-11-04T13:50:15.498Z", "latest": "2021-11-04T13:50:15.498Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-11-03T06:00:00.000Z", "latest": "2021-11-04T22:53:12.111Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-choco-island-1r", "id": "curated-toad-toadette-2021-905952852285993040", "time": "1:12.34", "source": "https://discord.com/channels/629221606064914442/875784780573184010/905952853695287346", "date": "2021-11-04", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.02327585648148148, "start": {"earliest": "2021-11-04T22:53:12.111Z", "latest": "2021-11-04T22:53:12.111Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-11-03T06:00:00.000Z", "latest": "2021-11-04T23:26:43.145Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-choco-island-1r", "id": "curated-toad-toadette-2021-905961287387873320", "time": "1:12.21", "source": "https://discord.com/channels/629221606064914442/875784780573184010/905961288583225345", "date": "2021-11-04", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 9.653443125, "start": {"earliest": "2021-11-04T23:26:43.145Z", "latest": "2021-11-04T23:26:43.145Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-11-03T06:00:00.000Z", "latest": "2021-11-14T15:07:40.631Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-choco-island-1r", "id": "curated-toad-toadette-2021-909459575877550091", "time": "1:12.19", "source": "https://discord.com/channels/629221606064914442/875784780573184010/909459579233009725", "date": "2021-11-14", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.619668622685185, "start": {"earliest": "2021-11-14T15:07:40.631Z", "latest": "2021-11-14T15:07:40.631Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-11-03T06:00:00.000Z", "latest": "2021-11-17T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-choco-island-1r", "id": "910850142435967046", "time": "1:12.03", "source": "https://discord.com/channels/629221606064914442/896050730216095765/910850142435967046", "date": "2021-11-17", "dateBasis": "evidencePublishedAt", "bounds": {"minDays": 0, "maxDays": 14, "start": {"earliest": "2021-11-03T06:00:00.000Z", "latest": "2021-11-17T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-879997129387544609-10312", "time": "1:03.12", "source": "https://discord.com/channels/629221606064914442/875784780573184010/879997132029984788", "date": "2021-08-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.16050555555555557, "start": {"earliest": "2021-08-25T07:54:25.832Z", "latest": "2021-08-25T07:54:25.832Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-25T11:45:33.512Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-880055294644858880-10302", "time": "1:03.02", "source": "https://discord.com/channels/629221606064914442/875784780573184010/880055297295675422", "date": "2021-08-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.06740199074074074, "start": {"earliest": "2021-08-25T11:45:33.512Z", "latest": "2021-08-25T11:45:33.512Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-25T13:22:37.044Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-880079718832042054-10291", "time": "1:02.91", "source": "https://discord.com/channels/629221606064914442/875784780573184010/880079722959212655", "date": "2021-08-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.031989780092592596, "start": {"earliest": "2021-08-25T13:22:37.044Z", "latest": "2021-08-25T13:22:37.044Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-25T14:08:40.961Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-880091313574395954-10279", "time": "1:02.79", "source": "https://discord.com/channels/629221606064914442/875784780573184010/880091315667341363", "date": "2021-08-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.07666585648148148, "start": {"earliest": "2021-08-25T14:08:40.961Z", "latest": "2021-08-25T14:08:40.961Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-25T15:59:04.891Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-880119094286905364-10272", "time": "1:02.72", "source": "https://discord.com/channels/629221606064914442/875784780573184010/880119098443432026", "date": "2021-08-25", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 1.6989209953703703, "start": {"earliest": "2021-08-25T15:59:04.891Z", "latest": "2021-08-25T15:59:04.891Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-27T08:45:31.665Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-880734763453935657-10267", "time": "1:02.67", "source": "https://discord.com/channels/629221606064914442/875784780573184010/880734766796767242", "date": "2021-08-27", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.05537950231481482, "start": {"earliest": "2021-08-27T08:45:31.665Z", "latest": "2021-08-27T08:45:31.665Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-27T10:05:16.454Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-880754832552628254-10266", "time": "1:02.66", "source": "https://discord.com/channels/629221606064914442/875784780573184010/880754835656433704", "date": "2021-08-27", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.0379745833333334, "start": {"earliest": "2021-08-27T10:05:16.454Z", "latest": "2021-08-27T10:05:16.454Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-29T10:59:57.458Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-881493370084663316-10264", "time": "1:02.64", "source": "https://discord.com/channels/629221606064914442/875784780573184010/881493372915822632", "date": "2021-08-29", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.19995681712962962, "start": {"earliest": "2021-08-29T10:59:57.458Z", "latest": "2021-08-29T10:59:57.458Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-08-29T15:47:53.727Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-881565832843493426-10259", "time": "1:02.59", "source": "https://discord.com/channels/629221606064914442/875784780573184010/881565834840010804", "date": "2021-08-29", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 3.9166054166666666, "start": {"earliest": "2021-08-29T15:47:53.727Z", "latest": "2021-08-29T15:47:53.727Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-09-02T13:47:48.435Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-882985162168733706-10254", "time": "1:02.54", "source": "https://discord.com/channels/629221606064914442/875784780573184010/882985165117341747", "date": "2021-09-02", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 1.1138798958333334, "start": {"earliest": "2021-09-02T13:47:48.435Z", "latest": "2021-09-02T13:47:48.435Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-09-03T16:31:47.658Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "curated-kamek-2021-883388818756079666-10252", "time": "1:02.52", "source": "https://discord.com/channels/629221606064914442/875784780573184010/883388821675331594", "date": "2021-09-03", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 4.561253958333333, "start": {"earliest": "2021-09-03T16:31:47.658Z", "latest": "2021-09-03T16:31:47.658Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-09-08T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "rmx-vanilla-lake-1", "id": "896341072232448003", "time": "1:02.44", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896341072232448003", "date": "2021-09-08", "dateBasis": "evidencePublishedAt", "bounds": {"minDays": 2.3410522337962965, "maxDays": 16.341052233796297, "start": {"earliest": "2021-08-25T06:00:00.000Z", "latest": "2021-09-08T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2022-03-25T14:11:06.913Z", "latest": "2022-03-25T14:11:06.913Z"}, "basis": "attributed-tour-window"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-4", "time": "1:08.79", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A4:J4", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.008135925925925927, "start": {"earliest": "2019-10-23T06:24:33.623Z", "latest": "2019-10-23T06:24:33.623Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T06:36:16.567Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-5", "time": "1:08.29", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A5:J5", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.014699548611111111, "start": {"earliest": "2019-10-23T06:36:16.567Z", "latest": "2019-10-23T06:36:16.567Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T06:57:26.608Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-6", "time": "1:06.51", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A6:J6", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.07333787037037037, "start": {"earliest": "2019-10-23T06:57:26.608Z", "latest": "2019-10-23T06:57:26.608Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T08:43:03.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-7", "time": "1:06.46", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A7:J7", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.01081025462962963, "start": {"earliest": "2019-10-23T08:43:03.000Z", "latest": "2019-10-23T08:43:03.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T08:58:37.006Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-636488639341264898-2019-image-support", "time": "1:06.17", "source": "https://discord.com/channels/629221606064914442/636461740162416640/636488639341264898", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.004571689814814815, "start": {"earliest": "2019-10-23T08:58:37.006Z", "latest": "2019-10-23T08:58:37.006Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T09:05:12.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-8", "time": "1:06.16", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A8:J8", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.034525462962962966, "start": {"earliest": "2019-10-23T09:05:12.000Z", "latest": "2019-10-23T09:05:12.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T09:54:55.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-9", "time": "1:06.16", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A9:J9", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.02098570601851852, "start": {"earliest": "2019-10-23T09:24:41.835Z", "latest": "2019-10-23T09:24:41.835Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-23T09:54:55.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-10", "time": "1:05.71", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A10:J10", "date": "2019-10-23", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.885150462962963, "start": {"earliest": "2019-10-23T09:54:55.000Z", "latest": "2019-10-23T09:54:55.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T07:09:32.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-11", "time": "1:05.33", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A11:J11", "date": "2019-10-23", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 1.048287037037037, "start": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T07:09:32.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-12", "time": "1:05.24", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A12:J12", "date": "2019-10-23", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 1.048287037037037, "start": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T07:09:32.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-13", "time": "1:05.18", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A13:J13", "date": "2019-10-23", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 1.048287037037037, "start": {"earliest": "2019-10-22T10:00:00.000Z", "latest": "2019-10-24T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-24T07:09:32.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-14", "time": "1:05.16", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A14:J14", "date": "2019-10-24", "dateBasis": "videoPublishedAt", "bounds": {"minDays": 0, "maxDays": 0.18085648148148148, "start": {"earliest": "2019-10-24T07:09:32.000Z", "latest": "2019-10-24T07:09:32.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-24T11:29:58.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-15", "time": "1:05.11", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A15:J15", "date": "2019-10-24", "dateBasis": "source-postedAt", "bounds": {"minDays": 0, "maxDays": 0.20668981481481483, "start": {"earliest": "2019-10-24T11:29:58.000Z", "latest": "2019-10-24T11:29:58.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-24T16:27:36.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-17", "time": "1:05.03", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A17:J17", "date": "2019-10-24", "dateBasis": "source-postedAt", "bounds": {"minDays": 0, "maxDays": 0.609375, "start": {"earliest": "2019-10-24T16:27:36.000Z", "latest": "2019-10-24T16:27:36.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-25T07:05:06.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-18", "time": "1:04.99", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A18:J18", "date": "2019-10-24", "dateBasis": "source-date", "bounds": {"minDays": 0, "maxDays": 1.8785416666666668, "start": {"earliest": "2019-10-23T10:00:00.000Z", "latest": "2019-10-25T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2019-10-25T07:05:06.000Z", "latest": "2019-10-25T07:05:06.000Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "3ds-toad-circuit", "id": "curated-original-2019-wr-row-22", "time": "1:04.54", "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A22:J22", "date": "2019-10-27", "dateBasis": "source-postedAt", "bounds": {"minDays": 0.633900462962963, "maxDays": 2.261550925925926, "start": {"earliest": "2019-10-27T18:47:11.000Z", "latest": "2019-10-27T18:47:11.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-28T10:00:00.000Z", "latest": "2019-10-30T01:03:49.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "curated-nu11-halloween-2019-1189347136720310272-previous-10451", "time": "1:04.51", "source": "https://twitter.com/_Kaguya_Games/status/1189347136720310272", "date": "2019-10-30", "dateBasis": "evidencePublishedAt", "bounds": {"minDays": 0, "maxDays": 0.45568287037037036, "start": {"earliest": "2019-10-30T01:03:49.000Z", "latest": "2019-10-30T01:03:49.000Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2019-10-28T10:00:00.000Z", "latest": "2019-10-30T12:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "3ds-toad-circuit", "id": "896332014423261204", "time": "1:04.46", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332014423261204", "date": "2019-10-29", "dateBasis": "source-date", "bounds": {"minDays": 7.9213410416666665, "maxDays": 10.004674375, "start": {"earliest": "2019-10-28T10:00:00.000Z", "latest": "2019-10-30T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2020-10-08T10:06:43.866Z", "latest": "2020-10-08T10:06:43.866Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "snes-vanilla-lake-1", "id": "curated-702624415082610695-verified", "time": "0:34.81", "source": "https://discord.com/channels/629221606064914442/636461740162416640/702624415082610695", "date": "2020-04-22", "dateBasis": "submittedAt", "bounds": {"minDays": 1.5426540972222222, "maxDays": 3.6259874305555555, "start": {"earliest": "2020-04-22T20:58:34.686Z", "latest": "2020-04-22T20:58:34.686Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2020-04-24T10:00:00.000Z", "latest": "2020-04-26T12:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "snes-vanilla-lake-1", "id": "curated-trick-2020-tomegome-3472", "time": "0:34.72", "source": "https://discord.com/channels/629221606064914442/636461740162416640/705365794720317470", "date": "2020-04-25", "dateBasis": "source-date", "bounds": {"minDays": 1.2118641203703704, "maxDays": 3.295197453703704, "start": {"earliest": "2020-04-24T10:00:00.000Z", "latest": "2020-04-26T12:00:00.000Z", "basis": "documented-calendar-day-timezone-unconfirmed", "exact": false}, "end": {"earliest": "2020-04-27T17:05:05.060Z", "latest": "2020-04-27T17:05:05.060Z"}, "basis": "documented-calendar-day-timezone-unconfirmed"}}, {"courseId": "gcn-yoshi-circuit", "id": "1099918465650933810", "time": "1:31.46", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1099918465650933810", "date": "2023-04-07", "dateBasis": "submittedAt", "bounds": {"minDays": 11.73125806712963, "maxDays": 25.002102488425926, "start": {"earliest": "2023-04-07T12:26:59.303Z", "latest": "2023-04-07T12:26:59.303Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-04-03T06:00:00.000Z", "latest": "2024-04-16T12:30:00.958Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "gcn-yoshi-circuit", "id": "curated-1229770775679078441-yoshi2024-discussion-image-reviewed", "time": "1:31.41", "source": "https://discord.com/channels/629221606064914442/636461740162416640/1229770775679078441", "date": "2024-04-16", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.023547060185185185, "start": {"earliest": "2024-04-16T12:30:00.958Z", "latest": "2024-04-16T12:30:00.958Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-04-03T06:00:00.000Z", "latest": "2024-04-16T13:03:55.424Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "gcn-yoshi-circuit", "id": "curated-1229779308847829093-yoshi2024-discussion-image-reviewed", "time": "1:31.34", "source": "https://discord.com/channels/629221606064914442/636461740162416640/1229779308847829093", "date": "2024-04-16", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.07020160879629629, "start": {"earliest": "2024-04-16T13:03:55.424Z", "latest": "2024-04-16T13:03:55.424Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-04-03T06:00:00.000Z", "latest": "2024-04-16T14:45:00.843Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "gcn-yoshi-circuit", "id": "curated-1229804749059260496-yoshi2024-image-reviewed", "time": "1:31.26", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1229804749059260496", "date": "2024-04-16", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.6354069097222222, "start": {"earliest": "2024-04-16T14:45:00.843Z", "latest": "2024-04-16T14:45:00.843Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2024-04-03T06:00:00.000Z", "latest": "2024-04-17T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "gcn-yoshi-circuit", "id": "1232480525512343592", "time": "1:31.19", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1232480525512343592", "date": "2024-04-17", "dateBasis": "submittedAt", "bounds": {"minDays": 13.35511386574074, "maxDays": 27.35511386574074, "start": {"earliest": "2024-04-03T06:00:00.000Z", "latest": "2024-04-17T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2025-04-15T14:31:21.838Z", "latest": "2025-04-15T14:31:21.838Z"}, "basis": "attributed-tour-window"}}, {"courseId": "gcn-yoshi-circuit-r", "id": "896332585544863754", "time": "1:31.31", "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332585544863754", "date": "2021-10-09", "dateBasis": "announcedAt", "bounds": {"minDays": 0, "maxDays": 14, "start": {"earliest": "2020-03-25T06:00:00.000Z", "latest": "2020-04-08T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "n64-yoshi-valley", "id": "curated-981848851331842068-cat2022-image-reviewed", "time": "1:30.32", "source": "https://discord.com/channels/629221606064914442/875784780573184010/981848851331842068", "date": "2022-06-02", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 4.660259641203703, "start": {"earliest": "2022-06-02T09:16:48.027Z", "latest": "2022-06-02T09:16:48.027Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-01T06:00:00.000Z", "latest": "2022-06-07T01:07:34.460Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley", "id": "curated-983537672876331058-cat2022-image-reviewed", "time": "1:30.27", "source": "https://discord.com/channels/629221606064914442/875784780573184010/983537672876331058", "date": "2022-06-07", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.5279830439814814, "start": {"earliest": "2022-06-07T01:07:34.460Z", "latest": "2022-06-07T01:07:34.460Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-01T06:00:00.000Z", "latest": "2022-06-09T13:47:52.195Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley", "id": "curated-984453783255916625-cat2022-image-reviewed", "time": "1:30.18", "source": "https://discord.com/channels/629221606064914442/875784780573184010/984453783255916625", "date": "2022-06-09", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 5.675090335648148, "start": {"earliest": "2022-06-09T13:47:52.195Z", "latest": "2022-06-09T13:47:52.195Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-06-01T06:00:00.000Z", "latest": "2022-06-15T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley", "id": "988906735882358845", "time": "1:30.07", "source": "https://discord.com/channels/629221606064914442/896050730216095765/988906735882358845", "date": "2022-06-21", "dateBasis": "announcedAt", "bounds": {"minDays": 0, "maxDays": 14, "start": {"earliest": "2022-06-01T06:00:00.000Z", "latest": "2022-06-15T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}, {"courseId": "n64-yoshi-valley-r", "id": "curated-1042572658870595644-1042572658463735848-august2022-image-reviewed", "time": "1:31.04", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1042572658870595644", "date": "2022-11-16", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.261035127314815, "start": {"earliest": "2022-11-16T22:51:31.938Z", "latest": "2022-11-16T22:51:31.938Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-11-16T06:00:00.000Z", "latest": "2022-11-19T05:07:25.373Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley-r", "id": "curated-animal2022-sucha-1043392030564421723-13091-accepted-video-report", "time": "1:30.91", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1043392030564421723", "date": "2022-11-19", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 0.3883527199074074, "start": {"earliest": "2022-11-19T05:07:25.373Z", "latest": "2022-11-19T05:07:25.373Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-11-16T06:00:00.000Z", "latest": "2022-11-19T14:26:39.048Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley-r", "id": "curated-1043532764877692989-1043568049028083712-august2022-image-reviewed", "time": "1:30.81", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1043532764877692989", "date": "2022-11-19", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 2.9742958101851853, "start": {"earliest": "2022-11-19T14:26:39.048Z", "latest": "2022-11-19T14:26:39.048Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-11-16T06:00:00.000Z", "latest": "2022-11-22T13:49:38.206Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley-r", "id": "curated-1044610613588013106-1044779421422329887-august2022-image-reviewed", "time": "1:30.71", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1044610613588013106", "date": "2022-11-22", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 4.075096574074074, "start": {"earliest": "2022-11-22T13:49:38.206Z", "latest": "2022-11-22T13:49:38.206Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-11-16T06:00:00.000Z", "latest": "2022-11-26T15:37:46.550Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley-r", "id": "curated-1046087379137601596-1046087378831429734-august2022-image-reviewed", "time": "1:30.64", "source": "https://discord.com/channels/629221606064914442/875784780573184010/1046087379137601596", "date": "2022-11-26", "dateBasis": "submittedAt", "bounds": {"minDays": 0, "maxDays": 3.598766782407407, "start": {"earliest": "2022-11-26T15:37:46.550Z", "latest": "2022-11-26T15:37:46.550Z", "basis": "documented-source-timestamp", "exact": true}, "end": {"earliest": "2022-11-16T06:00:00.000Z", "latest": "2022-11-30T06:00:00.000Z"}, "basis": "documented-source-timestamp"}}, {"courseId": "n64-yoshi-valley-r", "id": "1053521178179932180", "time": "1:30.47", "source": "https://discord.com/channels/629221606064914442/896050730216095765/1053521178179932180", "date": "2022-12-17", "dateBasis": "submittedAt", "bounds": {"minDays": 42, "maxDays": 56, "start": {"earliest": "2022-11-16T06:00:00.000Z", "latest": "2022-11-30T06:00:00.000Z", "basis": "attributed-tour-window", "exact": false}, "end": {"earliest": "2026-09-30T06:00:00.000Z", "latest": "2026-09-30T06:00:00.000Z"}, "basis": "attributed-tour-window"}}]}
+{
+  "requirement": "Accurate dates and durations on every course, with tour clocks retained",
+  "completionProven": false,
+  "remainingExactDurationIntervals": 126,
+  "sourceRowsChecked": 25063,
+  "sourceFieldsPreserved": true,
+  "tests": {
+    "passed": 194,
+    "failed": 0
+  },
+  "renderedCoursesChecked": 142,
+  "policy": "No fabricated timestamps; duration bounds cover date-only, timezone-unconfirmed and retrospective evidence.",
+  "dateAndClockCorrections": [
+    {
+      "courseId": "gba-bowser-s-castle-3",
+      "id": "1017647577296027732",
+      "time": "1:25.86",
+      "oldDate": "2022-09-07",
+      "date": "2022-09-02",
+      "oldClock": "2022-09-07T08:44:58.935Z",
+      "clock": "2022-09-02T19:54:18.079Z",
+      "basis": "reviewed-first-standing-publication"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "896340977839656990",
+      "time": "1:18.38",
+      "oldDate": "2021-08-08",
+      "date": "2021-08-08",
+      "oldClock": "2021-08-08T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "n64-choco-mountain-r",
+      "id": "896333812240355370",
+      "time": "1:17.87",
+      "oldDate": "2021-02-19",
+      "date": "2021-02-19",
+      "oldClock": "2021-02-19T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-41",
+      "time": "1:37.96",
+      "oldDate": "2019-10-25",
+      "date": "2019-10-25",
+      "oldClock": "2019-10-25T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-42",
+      "time": "1:36.48",
+      "oldDate": "2019-10-25",
+      "date": "2019-10-25",
+      "oldClock": "2019-10-25T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-43",
+      "time": "1:36.37",
+      "oldDate": "2019-10-25",
+      "date": "2019-10-25",
+      "oldClock": "2019-10-25T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-44",
+      "time": "1:35.99",
+      "oldDate": "2019-10-25",
+      "date": "2019-10-25",
+      "oldClock": "2019-10-25T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-637479815665942539-gcn-dino-dino-jungle",
+      "time": "1:35.70",
+      "oldDate": "2019-10-25",
+      "date": "2019-10-25",
+      "oldClock": "2019-10-25T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-47",
+      "time": "1:35.68",
+      "oldDate": "2019-10-27",
+      "date": "2019-10-27",
+      "oldClock": "2019-10-27T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-49",
+      "time": "1:35.62",
+      "oldDate": "2019-10-28",
+      "date": "2019-10-28",
+      "oldClock": "2019-10-28T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-50",
+      "time": "1:35.56",
+      "oldDate": "2019-10-28",
+      "date": "2019-10-28",
+      "oldClock": "2019-10-28T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-639823450353041419-verified",
+      "time": "1:35.46",
+      "oldDate": "2019-10-29",
+      "date": "2019-10-29",
+      "oldClock": "2019-10-29T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-30",
+      "time": "1:27.85",
+      "oldDate": "2019-10-23",
+      "date": "2019-10-23",
+      "oldClock": "2019-10-23T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-31",
+      "time": "1:27.35",
+      "oldDate": "2019-10-23",
+      "date": "2019-10-23",
+      "oldClock": "2019-10-23T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-33",
+      "time": "1:26.36",
+      "oldDate": "2019-10-24",
+      "date": "2019-10-24",
+      "oldClock": "2019-10-24T06:00:00.000Z",
+      "clock": "2019-10-24T09:36:19.530Z",
+      "basis": "original-twitter-post"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-637479815665942539-3ds-neo-bowser-city",
+      "time": "1:26.08",
+      "oldDate": "2019-10-24",
+      "date": "2019-10-24",
+      "oldClock": "2019-10-24T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "ds-peach-gardens-r",
+      "id": "1084274701741862943",
+      "time": "1:27.21",
+      "oldDate": "2023-03-08",
+      "date": "2023-03-07",
+      "oldClock": "2023-03-08T05:21:08.522Z",
+      "clock": "2023-03-07T05:10:58.000Z",
+      "basis": "earlier-reviewed-original-video-publication"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-11",
+      "time": "1:05.33",
+      "oldDate": "2019-10-23",
+      "date": "2019-10-23",
+      "oldClock": "2019-10-23T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-12",
+      "time": "1:05.24",
+      "oldDate": "2019-10-23",
+      "date": "2019-10-23",
+      "oldClock": "2019-10-23T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-13",
+      "time": "1:05.18",
+      "oldDate": "2019-10-23",
+      "date": "2019-10-23",
+      "oldClock": "2019-10-23T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-15",
+      "time": "1:05.11",
+      "oldDate": "2019-10-24",
+      "date": "2019-10-24",
+      "oldClock": "2019-10-24T06:00:00.000Z",
+      "clock": "2019-10-24T11:29:58.000Z",
+      "basis": "source-postedAt"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-16",
+      "time": "1:05.04",
+      "oldDate": "2019-10-24",
+      "date": "2019-10-24",
+      "oldClock": "2019-10-24T06:00:00.000Z",
+      "clock": "2019-10-24T16:27:36.000Z",
+      "basis": "source-postedAt"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-17",
+      "time": "1:05.03",
+      "oldDate": "2019-10-24",
+      "date": "2019-10-24",
+      "oldClock": "2019-10-24T06:00:00.000Z",
+      "clock": "2019-10-24T16:27:36.000Z",
+      "basis": "source-postedAt"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-18",
+      "time": "1:04.99",
+      "oldDate": "2019-10-24",
+      "date": "2019-10-24",
+      "oldClock": "2019-10-24T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-21",
+      "time": "1:04.73",
+      "oldDate": "2019-10-26",
+      "date": "2019-10-26",
+      "oldClock": "2019-10-26T06:00:00.000Z",
+      "clock": "2019-10-26T08:38:27.000Z",
+      "basis": "source-postedAt"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-22",
+      "time": "1:04.54",
+      "oldDate": "2019-10-27",
+      "date": "2019-10-27",
+      "oldClock": "2019-10-27T06:00:00.000Z",
+      "clock": "2019-10-27T18:47:11.000Z",
+      "basis": "source-postedAt"
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "896332014423261204",
+      "time": "1:04.46",
+      "oldDate": "2019-10-29",
+      "date": "2019-10-29",
+      "oldClock": "2019-10-29T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "snes-vanilla-lake-1",
+      "id": "curated-trick-2020-tomegome-3472",
+      "time": "0:34.72",
+      "oldDate": "2020-04-25",
+      "date": "2020-04-25",
+      "oldClock": "2020-04-25T06:00:00.000Z",
+      "clock": null,
+      "basis": "source-date"
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "1000615548633227364",
+      "time": "1:13.93",
+      "oldDate": "2022-07-24",
+      "date": "2022-07-13",
+      "oldClock": "2022-07-24T04:08:57.332Z",
+      "clock": "2022-07-13T06:37:17.055Z",
+      "basis": "reviewed-original-video-share-publication",
+      "achievementTimestampVerified": false
+    }
+  ],
+  "remainingSourceQueue": [
+    {
+      "courseId": "berlin-byways",
+      "id": "curated-988232376633143327-cat2022-image-reviewed",
+      "time": "1:14.85",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/988232376633143327",
+      "date": "2022-06-20",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 4.248181226851852,
+        "start": {
+          "earliest": "2022-06-20T00:02:39.059Z",
+          "latest": "2022-06-20T00:02:39.059Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-15T06:00:00.000Z",
+          "latest": "2022-06-24T06:00:01.917Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "berlin-byways",
+      "id": "curated-989771865960611852-cat2022-image-reviewed",
+      "time": "1:14.83",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/989771865960611852",
+      "date": "2022-06-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.576843310185185,
+        "start": {
+          "earliest": "2022-06-24T06:00:01.917Z",
+          "latest": "2022-06-24T06:00:01.917Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-15T06:00:00.000Z",
+          "latest": "2022-06-25T19:50:41.179Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "berlin-byways",
+      "id": "curated-990343294842183740-cat2022-image-reviewed",
+      "time": "1:14.68",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/990343294842183740",
+      "date": "2022-06-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 3.4231345023148148,
+        "start": {
+          "earliest": "2022-06-25T19:50:41.179Z",
+          "latest": "2022-06-25T19:50:41.179Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-15T06:00:00.000Z",
+          "latest": "2022-06-29T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "berlin-byways",
+      "id": "994782085011226700",
+      "time": "1:14.54",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/994782085011226700",
+      "date": "2022-06-29",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 4.004420844907408,
+        "maxDays": 18.004420844907408,
+        "start": {
+          "earliest": "2022-06-15T06:00:00.000Z",
+          "latest": "2022-06-29T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2023-04-23T06:06:21.961Z",
+          "latest": "2023-04-23T06:06:21.961Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "berlin-byways-3",
+      "id": "curated-1022918781187674232-berlin3-1437-corrected-video",
+      "time": "1:14.37",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1022918781187674232",
+      "date": "2022-09-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 8.557315752314814,
+        "start": {
+          "earliest": "2022-09-23T17:14:02.347Z",
+          "latest": "2022-09-23T17:14:02.347Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-09-21T06:00:00.000Z",
+          "latest": "2022-10-02T06:36:34.428Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "berlin-byways-3",
+      "id": "curated-1026019848578408499-1026019848767164426-august2022-image-reviewed",
+      "time": "1:14.33",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1026019848578408499",
+      "date": "2022-10-02",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.9746015277777778,
+        "start": {
+          "earliest": "2022-10-02T06:36:34.428Z",
+          "latest": "2022-10-02T06:36:34.428Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-09-21T06:00:00.000Z",
+          "latest": "2022-10-05T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "berlin-byways-3",
+      "id": "1028138576740876369",
+      "time": "1:14.32",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1028138576740876369",
+      "date": "2022-10-05",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 14,
+        "start": {
+          "earliest": "2022-09-21T06:00:00.000Z",
+          "latest": "2022-10-05T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "gba-bowser-s-castle-1",
+      "id": "896332374344867880-kaguya",
+      "time": "0:59.96",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332374344867880",
+      "date": "2021-10-09",
+      "dateBasis": "announcedAt",
+      "bounds": {
+        "minDays": 0.05712074074074074,
+        "maxDays": 14.057120740740741,
+        "start": {
+          "earliest": "2020-01-15T06:00:00.000Z",
+          "latest": "2020-01-29T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2021-03-10T07:22:15.232Z",
+          "latest": "2021-03-10T07:22:15.232Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "curated-mario-peach-2021-871911438166421534-11843",
+      "time": "1:18.43",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/871911441207275580",
+      "date": "2021-08-03",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 4.399457002314815,
+        "maxDays": 6.482790335648148,
+        "start": {
+          "earliest": "2021-08-03T00:24:46.915Z",
+          "latest": "2021-08-03T00:24:46.915Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-07T10:00:00.000Z",
+          "latest": "2021-08-09T12:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "896340977839656990",
+      "time": "1:18.38",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896340977839656990",
+      "date": "2021-08-08",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 6.75483318287037,
+        "maxDays": 8.838166516203703,
+        "start": {
+          "earliest": "2021-08-07T10:00:00.000Z",
+          "latest": "2021-08-09T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2022-11-21T06:06:57.587Z",
+          "latest": "2022-11-21T06:06:57.587Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "n64-choco-mountain-r",
+      "id": "curated-peach-daisy-2021-811258665365405746-11827",
+      "time": "1:18.27",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/811258665654288384",
+      "date": "2021-02-16",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 1.7692320717592593,
+        "maxDays": 3.8525654050925926,
+        "start": {
+          "earliest": "2021-02-16T15:32:18.349Z",
+          "latest": "2021-02-16T15:32:18.349Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-02-18T10:00:00.000Z",
+          "latest": "2021-02-20T12:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-choco-mountain-r",
+      "id": "896333812240355370",
+      "time": "1:17.87",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896333812240355370",
+      "date": "2021-02-19",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 17.75,
+        "maxDays": 19.833333333333332,
+        "start": {
+          "earliest": "2021-02-18T10:00:00.000Z",
+          "latest": "2021-02-20T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "curated-992045611236999239-992045610557517874-bangkok2022-image-reviewed",
+      "time": "1:14.42",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/992045611236999239",
+      "date": "2022-06-30",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.998931388888889,
+        "start": {
+          "earliest": "2022-06-30T12:35:05.035Z",
+          "latest": "2022-06-30T12:35:05.035Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-03T12:33:32.707Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "curated-993132387582087219-993132385292005416-bangkok2022-image-reviewed",
+      "time": "1:14.38",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/993132387582087219",
+      "date": "2022-07-03",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.586592511574074,
+        "start": {
+          "earliest": "2022-07-03T12:33:32.707Z",
+          "latest": "2022-07-03T12:33:32.707Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-05T02:38:14.300Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "curated-993707349455945737-993707348587720784-bangkok2022-image-reviewed",
+      "time": "1:14.35",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/993707349455945737",
+      "date": "2022-07-05",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.4670866550925925,
+        "start": {
+          "earliest": "2022-07-05T02:38:14.300Z",
+          "latest": "2022-07-05T02:38:14.300Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-06T13:50:50.587Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "curated-994239003857530880-994239001944920064-bangkok2022-image-reviewed",
+      "time": "1:14.30",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/994239003857530880",
+      "date": "2022-07-06",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.821572164351852,
+        "start": {
+          "earliest": "2022-07-06T13:50:50.587Z",
+          "latest": "2022-07-06T13:50:50.587Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-09T09:33:54.422Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "curated-995261507371802664-995261506230964325-bangkok2022-image-reviewed",
+      "time": "1:14.22",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/995261507371802664",
+      "date": "2022-07-09",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.7127350810185185,
+        "start": {
+          "earliest": "2022-07-09T09:33:54.422Z",
+          "latest": "2022-07-09T09:33:54.422Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-11T02:40:14.733Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "curated-995882181782151249-995882180565811230-bangkok2022-image-reviewed",
+      "time": "1:14.17",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/995882181782151249",
+      "date": "2022-07-11",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.4058202546296297,
+        "start": {
+          "earliest": "2022-07-11T02:40:14.733Z",
+          "latest": "2022-07-11T02:40:14.733Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-12T12:24:37.603Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "curated-996391633983651861-996391632331083846-bangkok2022-image-reviewed",
+      "time": "1:14.04",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/996391633983651861",
+      "date": "2022-07-12",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.7328981134259259,
+        "start": {
+          "earliest": "2022-07-12T12:24:37.603Z",
+          "latest": "2022-07-12T12:24:37.603Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-13T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "id": "1000615548633227364",
+      "time": "1:13.93",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/996666610255417414",
+      "date": "2022-07-13",
+      "dateBasis": "reviewed-original-video-share-publication",
+      "bounds": {
+        "minDays": 19.308214050925926,
+        "maxDays": 33.308214050925926,
+        "start": {
+          "earliest": "2022-06-29T06:00:00.000Z",
+          "latest": "2022-07-13T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2024-06-03T13:23:49.694Z",
+          "latest": "2024-06-03T13:23:49.694Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "wii-daisy-circuit",
+      "id": "1139362445480177824",
+      "time": "1:18.30",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1139362445480177824",
+      "date": "2023-08-01",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 7.633121701388889,
+        "maxDays": 10.163874837962963,
+        "start": {
+          "earliest": "2023-08-01T14:48:18.285Z",
+          "latest": "2023-08-01T14:48:18.285Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-07-24T06:00:00.000Z",
+          "latest": "2024-07-26T18:44:17.071Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-daisy-circuit",
+      "id": "curated-1266466137869127791-sunshine2024-image-reviewed",
+      "time": "1:18.20",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1266466137869127791",
+      "date": "2024-07-26",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 11.469246863425926,
+        "start": {
+          "earliest": "2024-07-26T18:44:17.071Z",
+          "latest": "2024-07-26T18:44:17.071Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-07-24T06:00:00.000Z",
+          "latest": "2024-08-07T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-daisy-circuit",
+      "id": "curated-1267618667764514867-sunshine2024-image-reviewed",
+      "time": "1:18.20",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1267618667764514867",
+      "date": "2024-07-29",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 8.288870243055555,
+        "start": {
+          "earliest": "2024-07-29T23:04:01.611Z",
+          "latest": "2024-07-29T23:04:01.611Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-07-24T06:00:00.000Z",
+          "latest": "2024-08-07T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-daisy-circuit",
+      "id": "1274825087542890606",
+      "time": "1:18.15",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1270734791372836884",
+      "date": "2024-08-07",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 9.340648518518519,
+        "maxDays": 23.340648518518517,
+        "start": {
+          "earliest": "2024-07-24T06:00:00.000Z",
+          "latest": "2024-08-07T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2025-08-01T14:10:32.032Z",
+          "latest": "2025-08-01T14:10:32.032Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-41",
+      "time": "1:37.96",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A41:J41",
+      "date": "2019-10-25",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.0833333333333335,
+        "start": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-42",
+      "time": "1:36.48",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A42:J42",
+      "date": "2019-10-25",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.0833333333333335,
+        "start": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-43",
+      "time": "1:36.37",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A43:J43",
+      "date": "2019-10-25",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.0833333333333335,
+        "start": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-44",
+      "time": "1:35.99",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A44:J44",
+      "date": "2019-10-25",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.0833333333333335,
+        "start": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-637479815665942539-gcn-dino-dino-jungle",
+      "time": "1:35.70",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A45:J45",
+      "date": "2019-10-25",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.390439814814815,
+        "start": {
+          "earliest": "2019-10-24T10:00:00.000Z",
+          "latest": "2019-10-26T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-26T10:00:00.000Z",
+          "latest": "2019-10-26T19:22:14.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-46",
+      "time": "1:35.69",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A46:J46",
+      "date": "2019-10-26",
+      "dateBasis": "videoPublishedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.6928935185185185,
+        "start": {
+          "earliest": "2019-10-26T19:22:14.000Z",
+          "latest": "2019-10-26T19:22:14.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-26T10:00:00.000Z",
+          "latest": "2019-10-28T12:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-47",
+      "time": "1:35.68",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A47:J47",
+      "date": "2019-10-27",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.118331076388889,
+        "start": {
+          "earliest": "2019-10-26T10:00:00.000Z",
+          "latest": "2019-10-28T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-27T10:00:00.000Z",
+          "latest": "2019-10-28T12:50:23.805Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-48",
+      "time": "1:35.66",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A48:J48",
+      "date": "2019-10-28",
+      "dateBasis": "proofUploadedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.9650022569444444,
+        "start": {
+          "earliest": "2019-10-28T12:50:23.805Z",
+          "latest": "2019-10-28T12:50:23.805Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-27T10:00:00.000Z",
+          "latest": "2019-10-29T12:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-49",
+      "time": "1:35.62",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A49:J49",
+      "date": "2019-10-28",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.0833333333333335,
+        "start": {
+          "earliest": "2019-10-27T10:00:00.000Z",
+          "latest": "2019-10-29T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-27T10:00:00.000Z",
+          "latest": "2019-10-29T12:00:00.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-original-2019-wr-row-50",
+      "time": "1:35.56",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A50:J50",
+      "date": "2019-10-28",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 3.0833333333333335,
+        "start": {
+          "earliest": "2019-10-27T10:00:00.000Z",
+          "latest": "2019-10-29T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-28T10:00:00.000Z",
+          "latest": "2019-10-30T12:00:00.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "id": "curated-639823450353041419-verified",
+      "time": "1:35.46",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/639823450353041419",
+      "date": "2019-10-29",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0.1051736111111111,
+        "maxDays": 2.1885069444444443,
+        "start": {
+          "earliest": "2019-10-28T10:00:00.000Z",
+          "latest": "2019-10-30T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-30T14:31:27.000Z",
+          "latest": "2019-10-30T14:31:27.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "id": "1068224230715559956",
+      "time": "1:03.36",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1068224230715559956",
+      "date": "2023-01-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0.11726398148148148,
+        "maxDays": 14.117263981481482,
+        "start": {
+          "earliest": "2023-01-25T03:11:08.392Z",
+          "latest": "2023-01-25T03:11:08.392Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-01-10T06:00:00.000Z",
+          "latest": "2024-01-24T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "id": "1204260087687024680",
+      "time": "1:03.32",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1204260087687024680",
+      "date": "2024-01-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 28,
+        "maxDays": 42,
+        "start": {
+          "earliest": "2024-01-10T06:00:00.000Z",
+          "latest": "2024-01-24T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "curated-1057816917764735066-newyear2023-proof-reviewed",
+      "time": "1:36.68",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1057816917764735066",
+      "date": "2022-12-29",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.5104274652777778,
+        "start": {
+          "earliest": "2022-12-29T00:26:46.483Z",
+          "latest": "2022-12-29T00:26:46.483Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-12-28T06:00:00.000Z",
+          "latest": "2022-12-29T12:41:47.416Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "curated-1058001890484420678-koopa-cape-lap-message-confirmed",
+      "time": "1:36.21",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1058001890484420678",
+      "date": "2022-12-29",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 6.921576076388889,
+        "start": {
+          "earliest": "2022-12-29T12:41:47.416Z",
+          "latest": "2022-12-29T12:41:47.416Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-12-28T06:00:00.000Z",
+          "latest": "2023-01-05T10:48:51.589Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "curated-1060510185665343539-newyear2023-proof-reviewed",
+      "time": "1:36.08",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1060510185665343539",
+      "date": "2023-01-05",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 5.799402905092593,
+        "start": {
+          "earliest": "2023-01-05T10:48:51.589Z",
+          "latest": "2023-01-05T10:48:51.589Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-12-28T06:00:00.000Z",
+          "latest": "2023-01-11T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "1062874009567502386",
+      "time": "1:35.85",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1062874009567502386",
+      "date": "2023-01-11",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 2.0872837962962962,
+        "maxDays": 16.087283796296298,
+        "start": {
+          "earliest": "2022-12-28T06:00:00.000Z",
+          "latest": "2023-01-11T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2023-12-29T08:05:41.320Z",
+          "latest": "2023-12-29T08:05:41.320Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "n64-koopa-troopa-beach",
+      "id": "curated-valentines-2020-tome-ktb-video-11386",
+      "time": "1:13.86",
+      "source": "https://twitter.com/tomegome_g/status/1222534288186298369",
+      "date": "2020-01-29",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 13.626597222222221,
+        "start": {
+          "earliest": "2020-01-29T14:57:42.000Z",
+          "latest": "2020-01-29T14:57:42.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2020-01-29T06:00:00.000Z",
+          "latest": "2020-02-12T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-koopa-troopa-beach",
+      "id": "896332414568259584-tomegome",
+      "time": "1:13.83",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332414568259584",
+      "date": "2021-10-09",
+      "dateBasis": "announcedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 14,
+        "start": {
+          "earliest": "2020-01-29T06:00:00.000Z",
+          "latest": "2020-02-12T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "n64-koopa-troopa-beach",
+      "id": "896332414568259584-kaguya",
+      "time": "1:13.83",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332414568259584",
+      "date": "2021-10-09",
+      "dateBasis": "announcedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 14,
+        "start": {
+          "earliest": "2020-01-29T06:00:00.000Z",
+          "latest": "2020-02-12T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "curated-1144078652959621271-summer2023-original-result-reviewed",
+      "time": "1:18.56",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144078652959621271",
+      "date": "2023-08-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.44131612268518516,
+        "start": {
+          "earliest": "2023-08-24T01:20:06.819Z",
+          "latest": "2023-08-24T01:20:06.819Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-08-24T11:55:36.532Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "curated-1144101083841581108-summer2023-original-result-reviewed",
+      "time": "1:18.56",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144101083841581108",
+      "date": "2023-08-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.37941868055555555,
+        "start": {
+          "earliest": "2023-08-24T02:49:14.758Z",
+          "latest": "2023-08-24T02:49:14.758Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-08-24T11:55:36.532Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "curated-1144238580567396392-summer2023-original-result-reviewed",
+      "time": "1:18.41",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144238580567396392",
+      "date": "2023-08-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.04577512731481481,
+        "start": {
+          "earliest": "2023-08-24T11:55:36.532Z",
+          "latest": "2023-08-24T11:55:36.532Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-08-24T13:01:31.503Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "curated-1144255168918061076-summer2023-original-result-reviewed",
+      "time": "1:18.38",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144255168918061076",
+      "date": "2023-08-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.002840775462962963,
+        "start": {
+          "earliest": "2023-08-24T13:01:31.503Z",
+          "latest": "2023-08-24T13:01:31.503Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-08-24T13:05:36.946Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "curated-1144256198380621966-summer2023-original-result-reviewed",
+      "time": "1:18.33",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144256198380621966",
+      "date": "2023-08-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.011203379629629629,
+        "start": {
+          "earliest": "2023-08-24T13:05:36.946Z",
+          "latest": "2023-08-24T13:05:36.946Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-08-24T13:21:44.918Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "curated-1144260258349465741-summer2023-original-result-reviewed",
+      "time": "1:18.23",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144260258349465741",
+      "date": "2023-08-24",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.4675298148148148,
+        "start": {
+          "earliest": "2023-08-24T13:21:44.918Z",
+          "latest": "2023-08-24T13:21:44.918Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-08-25T00:34:59.494Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "curated-1144429685481164800-summer2023-original-result-reviewed",
+      "time": "1:17.78",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1144429685481164800",
+      "date": "2023-08-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 5.00162542824074,
+        "start": {
+          "earliest": "2023-08-25T00:34:59.494Z",
+          "latest": "2023-08-25T00:34:59.494Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-08-30T00:37:19.931Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "discord-1146242221423722526",
+      "time": "1:17.73",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1146242213844623391",
+      "date": "2023-08-30",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.390252708333333,
+        "start": {
+          "earliest": "2023-08-30T00:37:19.931Z",
+          "latest": "2023-08-30T00:37:19.931Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-09-01T09:59:17.765Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "discord-1147108421187928064",
+      "time": "1:17.62",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1147108412421849118",
+      "date": "2023-09-01",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 4.172256585648148,
+        "start": {
+          "earliest": "2023-09-01T09:59:17.765Z",
+          "latest": "2023-09-01T09:59:17.765Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-09-05T14:07:20.734Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "discord-1148620390491488363",
+      "time": "1:17.57",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1148620387580649512",
+      "date": "2023-09-05",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.6615655787037037,
+        "start": {
+          "earliest": "2023-09-05T14:07:20.734Z",
+          "latest": "2023-09-05T14:07:20.734Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-09-06T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "madrid-drive",
+      "id": "1152024419473047663",
+      "time": "1:17.31",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1152024419473047663",
+      "date": "2023-09-06",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 31.88116736111111,
+        "maxDays": 45.88116736111111,
+        "start": {
+          "earliest": "2023-08-23T06:00:00.000Z",
+          "latest": "2023-09-06T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-08-23T03:08:52.860Z",
+          "latest": "2026-08-23T03:08:52.860Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-27",
+      "time": "1:33.23",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A27:J27",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.07224515046296297,
+        "start": {
+          "earliest": "2019-10-23T09:25:52.180Z",
+          "latest": "2019-10-23T09:25:52.180Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T11:09:54.161Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-28",
+      "time": "1:29.72",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A28:J28",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.03152392361111111,
+        "start": {
+          "earliest": "2019-10-23T11:09:54.161Z",
+          "latest": "2019-10-23T11:09:54.161Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T11:55:17.828Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-29",
+      "time": "1:28.48",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A29:J29",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.1086825462962963,
+        "start": {
+          "earliest": "2019-10-23T11:55:17.828Z",
+          "latest": "2019-10-23T11:55:17.828Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T14:31:48.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-30",
+      "time": "1:27.85",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A30:J30",
+      "date": "2019-10-23",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.35541666666666666,
+        "start": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T14:31:48.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-31",
+      "time": "1:27.35",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A31:J31",
+      "date": "2019-10-23",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.35541666666666666,
+        "start": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-23T14:31:48.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-32",
+      "time": "1:26.83",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A32:J32",
+      "date": "2019-10-23",
+      "dateBasis": "evidencePublishedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.7948032407407407,
+        "start": {
+          "earliest": "2019-10-23T14:31:48.000Z",
+          "latest": "2019-10-23T14:31:48.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-24T09:36:19.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-34",
+      "time": "1:26.31",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A34:J34",
+      "date": "2019-10-24",
+      "dateBasis": "evidencePublishedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.2807795949074074,
+        "start": {
+          "earliest": "2019-10-24T09:36:19.000Z",
+          "latest": "2019-10-24T09:36:19.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-24T16:20:38.357Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-original-2019-wr-row-35",
+      "time": "1:26.13",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A35:J35",
+      "date": "2019-10-24",
+      "dateBasis": "evidencePublishedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.8190004976851852,
+        "start": {
+          "earliest": "2019-10-24T16:20:38.357Z",
+          "latest": "2019-10-24T16:20:38.357Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-25T12:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "curated-637479815665942539-3ds-neo-bowser-city",
+      "time": "1:26.08",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A36:J36",
+      "date": "2019-10-24",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 6.301457349537037,
+        "maxDays": 8.38479068287037,
+        "start": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-25T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-31T19:14:05.915Z",
+          "latest": "2019-10-31T19:14:05.915Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "ds-peach-gardens",
+      "id": "1189361589913124894",
+      "time": "1:26.58",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1189361589913124894",
+      "date": "2023-12-06",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 20.801653796296296,
+        "maxDays": 21.13368420138889,
+        "start": {
+          "earliest": "2023-12-06T10:45:37.112Z",
+          "latest": "2023-12-06T10:45:37.112Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2025-11-26T06:00:00.000Z",
+          "latest": "2025-11-26T13:58:07.427Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "ds-peach-gardens",
+      "id": "curated-1443172735084925069-peach-bowser2025-image-reviewed",
+      "time": "1:26.58",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1443172735084925069",
+      "date": "2025-11-26",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.18396446759259258,
+        "start": {
+          "earliest": "2025-11-26T09:33:12.897Z",
+          "latest": "2025-11-26T09:33:12.897Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2025-11-26T06:00:00.000Z",
+          "latest": "2025-11-26T13:58:07.427Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "ds-peach-gardens",
+      "id": "curated-1443239401575682098-peach-bowser2025-image-reviewed",
+      "time": "1:26.56",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1443239401575682098",
+      "date": "2025-11-26",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 13.667969594907408,
+        "start": {
+          "earliest": "2025-11-26T13:58:07.427Z",
+          "latest": "2025-11-26T13:58:07.427Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2025-11-26T06:00:00.000Z",
+          "latest": "2025-12-10T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "ds-peach-gardens",
+      "id": "1459239166176002326",
+      "time": "1:26.55",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1459239166176002326",
+      "date": "2026-01-09",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 14,
+        "start": {
+          "earliest": "2025-11-26T06:00:00.000Z",
+          "latest": "2025-12-10T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "ds-peach-gardens-r",
+      "id": "1084274701741862943",
+      "time": "1:27.21",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1084274701741862943",
+      "date": "2023-03-07",
+      "dateBasis": "earlier-reviewed-original-video-publication",
+      "bounds": {
+        "minDays": 1.0340509259259258,
+        "maxDays": 15.034050925925927,
+        "start": {
+          "earliest": "2023-03-07T05:10:58.000Z",
+          "latest": "2023-03-07T05:10:58.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-02-21T06:00:00.000Z",
+          "latest": "2024-03-06T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "ds-peach-gardens-r",
+      "id": "1219694565657804833",
+      "time": "1:27.16",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1219694565657804833",
+      "date": "2024-03-06",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 28,
+        "maxDays": 42,
+        "start": {
+          "earliest": "2024-02-21T06:00:00.000Z",
+          "latest": "2024-03-06T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "snes-rainbow-road",
+      "id": "896332468897058816",
+      "time": "0:59.94",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332468897058816",
+      "date": "2021-10-09",
+      "dateBasis": "announcedAt",
+      "bounds": {
+        "minDays": 0.05282498842592592,
+        "maxDays": 14.052824988425925,
+        "start": {
+          "earliest": "2020-02-12T06:00:00.000Z",
+          "latest": "2020-02-26T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2021-04-07T07:16:04.079Z",
+          "latest": "2021-04-07T07:16:04.079Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "id": "curated-toad-toadette-2021-905711622679576606",
+      "time": "1:13.05",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/905711626592858142",
+      "date": "2021-11-04",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.05145584490740741,
+        "start": {
+          "earliest": "2021-11-04T06:54:39.088Z",
+          "latest": "2021-11-04T06:54:39.088Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-11-03T06:00:00.000Z",
+          "latest": "2021-11-04T08:08:44.873Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "id": "curated-toad-toadette-2021-905730270529990677",
+      "time": "1:12.50",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/905730273566687322",
+      "date": "2021-11-04",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.23716001157407407,
+        "start": {
+          "earliest": "2021-11-04T08:08:44.873Z",
+          "latest": "2021-11-04T08:08:44.873Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-11-03T06:00:00.000Z",
+          "latest": "2021-11-04T13:50:15.498Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "id": "curated-toad-toadette-2021-905816213538627634",
+      "time": "1:12.48",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/905816217477066792",
+      "date": "2021-11-04",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.37704413194444447,
+        "start": {
+          "earliest": "2021-11-04T13:50:15.498Z",
+          "latest": "2021-11-04T13:50:15.498Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-11-03T06:00:00.000Z",
+          "latest": "2021-11-04T22:53:12.111Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "id": "curated-toad-toadette-2021-905952852285993040",
+      "time": "1:12.34",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/905952853695287346",
+      "date": "2021-11-04",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.02327585648148148,
+        "start": {
+          "earliest": "2021-11-04T22:53:12.111Z",
+          "latest": "2021-11-04T22:53:12.111Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-11-03T06:00:00.000Z",
+          "latest": "2021-11-04T23:26:43.145Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "id": "curated-toad-toadette-2021-905961287387873320",
+      "time": "1:12.21",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/905961288583225345",
+      "date": "2021-11-04",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 9.653443125,
+        "start": {
+          "earliest": "2021-11-04T23:26:43.145Z",
+          "latest": "2021-11-04T23:26:43.145Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-11-03T06:00:00.000Z",
+          "latest": "2021-11-14T15:07:40.631Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "id": "curated-toad-toadette-2021-909459575877550091",
+      "time": "1:12.19",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/909459579233009725",
+      "date": "2021-11-14",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.619668622685185,
+        "start": {
+          "earliest": "2021-11-14T15:07:40.631Z",
+          "latest": "2021-11-14T15:07:40.631Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-11-03T06:00:00.000Z",
+          "latest": "2021-11-17T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "id": "910850142435967046",
+      "time": "1:12.03",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/910850142435967046",
+      "date": "2021-11-17",
+      "dateBasis": "evidencePublishedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 14,
+        "start": {
+          "earliest": "2021-11-03T06:00:00.000Z",
+          "latest": "2021-11-17T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-879997129387544609-10312",
+      "time": "1:03.12",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/879997132029984788",
+      "date": "2021-08-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.16050555555555557,
+        "start": {
+          "earliest": "2021-08-25T07:54:25.832Z",
+          "latest": "2021-08-25T07:54:25.832Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-25T11:45:33.512Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-880055294644858880-10302",
+      "time": "1:03.02",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/880055297295675422",
+      "date": "2021-08-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.06740199074074074,
+        "start": {
+          "earliest": "2021-08-25T11:45:33.512Z",
+          "latest": "2021-08-25T11:45:33.512Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-25T13:22:37.044Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-880079718832042054-10291",
+      "time": "1:02.91",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/880079722959212655",
+      "date": "2021-08-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.031989780092592596,
+        "start": {
+          "earliest": "2021-08-25T13:22:37.044Z",
+          "latest": "2021-08-25T13:22:37.044Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-25T14:08:40.961Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-880091313574395954-10279",
+      "time": "1:02.79",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/880091315667341363",
+      "date": "2021-08-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.07666585648148148,
+        "start": {
+          "earliest": "2021-08-25T14:08:40.961Z",
+          "latest": "2021-08-25T14:08:40.961Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-25T15:59:04.891Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-880119094286905364-10272",
+      "time": "1:02.72",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/880119098443432026",
+      "date": "2021-08-25",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.6989209953703703,
+        "start": {
+          "earliest": "2021-08-25T15:59:04.891Z",
+          "latest": "2021-08-25T15:59:04.891Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-27T08:45:31.665Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-880734763453935657-10267",
+      "time": "1:02.67",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/880734766796767242",
+      "date": "2021-08-27",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.05537950231481482,
+        "start": {
+          "earliest": "2021-08-27T08:45:31.665Z",
+          "latest": "2021-08-27T08:45:31.665Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-27T10:05:16.454Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-880754832552628254-10266",
+      "time": "1:02.66",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/880754835656433704",
+      "date": "2021-08-27",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.0379745833333334,
+        "start": {
+          "earliest": "2021-08-27T10:05:16.454Z",
+          "latest": "2021-08-27T10:05:16.454Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-29T10:59:57.458Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-881493370084663316-10264",
+      "time": "1:02.64",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/881493372915822632",
+      "date": "2021-08-29",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.19995681712962962,
+        "start": {
+          "earliest": "2021-08-29T10:59:57.458Z",
+          "latest": "2021-08-29T10:59:57.458Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-08-29T15:47:53.727Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-881565832843493426-10259",
+      "time": "1:02.59",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/881565834840010804",
+      "date": "2021-08-29",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 3.9166054166666666,
+        "start": {
+          "earliest": "2021-08-29T15:47:53.727Z",
+          "latest": "2021-08-29T15:47:53.727Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-09-02T13:47:48.435Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-882985162168733706-10254",
+      "time": "1:02.54",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/882985165117341747",
+      "date": "2021-09-02",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.1138798958333334,
+        "start": {
+          "earliest": "2021-09-02T13:47:48.435Z",
+          "latest": "2021-09-02T13:47:48.435Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-09-03T16:31:47.658Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "curated-kamek-2021-883388818756079666-10252",
+      "time": "1:02.52",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/883388821675331594",
+      "date": "2021-09-03",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 4.561253958333333,
+        "start": {
+          "earliest": "2021-09-03T16:31:47.658Z",
+          "latest": "2021-09-03T16:31:47.658Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-09-08T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "896341072232448003",
+      "time": "1:02.44",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896341072232448003",
+      "date": "2021-09-08",
+      "dateBasis": "evidencePublishedAt",
+      "bounds": {
+        "minDays": 2.3410522337962965,
+        "maxDays": 16.341052233796297,
+        "start": {
+          "earliest": "2021-08-25T06:00:00.000Z",
+          "latest": "2021-09-08T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2022-03-25T14:11:06.913Z",
+          "latest": "2022-03-25T14:11:06.913Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-4",
+      "time": "1:08.79",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A4:J4",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.008135925925925927,
+        "start": {
+          "earliest": "2019-10-23T06:24:33.623Z",
+          "latest": "2019-10-23T06:24:33.623Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T06:36:16.567Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-5",
+      "time": "1:08.29",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A5:J5",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.014699548611111111,
+        "start": {
+          "earliest": "2019-10-23T06:36:16.567Z",
+          "latest": "2019-10-23T06:36:16.567Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T06:57:26.608Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-6",
+      "time": "1:06.51",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A6:J6",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.07333787037037037,
+        "start": {
+          "earliest": "2019-10-23T06:57:26.608Z",
+          "latest": "2019-10-23T06:57:26.608Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T08:43:03.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-7",
+      "time": "1:06.46",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A7:J7",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.01081025462962963,
+        "start": {
+          "earliest": "2019-10-23T08:43:03.000Z",
+          "latest": "2019-10-23T08:43:03.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T08:58:37.006Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-636488639341264898-2019-image-support",
+      "time": "1:06.17",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/636488639341264898",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.004571689814814815,
+        "start": {
+          "earliest": "2019-10-23T08:58:37.006Z",
+          "latest": "2019-10-23T08:58:37.006Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T09:05:12.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-8",
+      "time": "1:06.16",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A8:J8",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.034525462962962966,
+        "start": {
+          "earliest": "2019-10-23T09:05:12.000Z",
+          "latest": "2019-10-23T09:05:12.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T09:54:55.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-9",
+      "time": "1:06.16",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A9:J9",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.02098570601851852,
+        "start": {
+          "earliest": "2019-10-23T09:24:41.835Z",
+          "latest": "2019-10-23T09:24:41.835Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-23T09:54:55.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-10",
+      "time": "1:05.71",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A10:J10",
+      "date": "2019-10-23",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.885150462962963,
+        "start": {
+          "earliest": "2019-10-23T09:54:55.000Z",
+          "latest": "2019-10-23T09:54:55.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T07:09:32.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-11",
+      "time": "1:05.33",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A11:J11",
+      "date": "2019-10-23",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.048287037037037,
+        "start": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T07:09:32.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-12",
+      "time": "1:05.24",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A12:J12",
+      "date": "2019-10-23",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.048287037037037,
+        "start": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T07:09:32.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-13",
+      "time": "1:05.18",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A13:J13",
+      "date": "2019-10-23",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.048287037037037,
+        "start": {
+          "earliest": "2019-10-22T10:00:00.000Z",
+          "latest": "2019-10-24T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-24T07:09:32.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-14",
+      "time": "1:05.16",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A14:J14",
+      "date": "2019-10-24",
+      "dateBasis": "videoPublishedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.18085648148148148,
+        "start": {
+          "earliest": "2019-10-24T07:09:32.000Z",
+          "latest": "2019-10-24T07:09:32.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-24T11:29:58.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-15",
+      "time": "1:05.11",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A15:J15",
+      "date": "2019-10-24",
+      "dateBasis": "source-postedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.20668981481481483,
+        "start": {
+          "earliest": "2019-10-24T11:29:58.000Z",
+          "latest": "2019-10-24T11:29:58.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-24T16:27:36.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-17",
+      "time": "1:05.03",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A17:J17",
+      "date": "2019-10-24",
+      "dateBasis": "source-postedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.609375,
+        "start": {
+          "earliest": "2019-10-24T16:27:36.000Z",
+          "latest": "2019-10-24T16:27:36.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-25T07:05:06.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-18",
+      "time": "1:04.99",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A18:J18",
+      "date": "2019-10-24",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 1.8785416666666668,
+        "start": {
+          "earliest": "2019-10-23T10:00:00.000Z",
+          "latest": "2019-10-25T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2019-10-25T07:05:06.000Z",
+          "latest": "2019-10-25T07:05:06.000Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-original-2019-wr-row-22",
+      "time": "1:04.54",
+      "source": "https://docs.google.com/spreadsheets/d/17aBouVdvUJS6EHsc8m-rdYGtwfERIBSBgVFJ-iqCSqQ/edit#range='WR%20history'!A22:J22",
+      "date": "2019-10-27",
+      "dateBasis": "source-postedAt",
+      "bounds": {
+        "minDays": 0.633900462962963,
+        "maxDays": 2.261550925925926,
+        "start": {
+          "earliest": "2019-10-27T18:47:11.000Z",
+          "latest": "2019-10-27T18:47:11.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-28T10:00:00.000Z",
+          "latest": "2019-10-30T01:03:49.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "curated-nu11-halloween-2019-1189347136720310272-previous-10451",
+      "time": "1:04.51",
+      "source": "https://twitter.com/_Kaguya_Games/status/1189347136720310272",
+      "date": "2019-10-30",
+      "dateBasis": "evidencePublishedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.45568287037037036,
+        "start": {
+          "earliest": "2019-10-30T01:03:49.000Z",
+          "latest": "2019-10-30T01:03:49.000Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2019-10-28T10:00:00.000Z",
+          "latest": "2019-10-30T12:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "id": "896332014423261204",
+      "time": "1:04.46",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332014423261204",
+      "date": "2019-10-29",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 7.9213410416666665,
+        "maxDays": 10.004674375,
+        "start": {
+          "earliest": "2019-10-28T10:00:00.000Z",
+          "latest": "2019-10-30T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2020-10-08T10:06:43.866Z",
+          "latest": "2020-10-08T10:06:43.866Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "snes-vanilla-lake-1",
+      "id": "curated-702624415082610695-verified",
+      "time": "0:34.81",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/702624415082610695",
+      "date": "2020-04-22",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 1.5426540972222222,
+        "maxDays": 3.6259874305555555,
+        "start": {
+          "earliest": "2020-04-22T20:58:34.686Z",
+          "latest": "2020-04-22T20:58:34.686Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2020-04-24T10:00:00.000Z",
+          "latest": "2020-04-26T12:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "snes-vanilla-lake-1",
+      "id": "curated-trick-2020-tomegome-3472",
+      "time": "0:34.72",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/705365794720317470",
+      "date": "2020-04-25",
+      "dateBasis": "source-date",
+      "bounds": {
+        "minDays": 1.2118641203703704,
+        "maxDays": 3.295197453703704,
+        "start": {
+          "earliest": "2020-04-24T10:00:00.000Z",
+          "latest": "2020-04-26T12:00:00.000Z",
+          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2020-04-27T17:05:05.060Z",
+          "latest": "2020-04-27T17:05:05.060Z"
+        },
+        "basis": "documented-calendar-day-timezone-unconfirmed"
+      }
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "id": "1099918465650933810",
+      "time": "1:31.46",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1099918465650933810",
+      "date": "2023-04-07",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 11.73125806712963,
+        "maxDays": 25.002102488425926,
+        "start": {
+          "earliest": "2023-04-07T12:26:59.303Z",
+          "latest": "2023-04-07T12:26:59.303Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-04-03T06:00:00.000Z",
+          "latest": "2024-04-16T12:30:00.958Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "id": "curated-1229770775679078441-yoshi2024-discussion-image-reviewed",
+      "time": "1:31.41",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/1229770775679078441",
+      "date": "2024-04-16",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.023547060185185185,
+        "start": {
+          "earliest": "2024-04-16T12:30:00.958Z",
+          "latest": "2024-04-16T12:30:00.958Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-04-03T06:00:00.000Z",
+          "latest": "2024-04-16T13:03:55.424Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "id": "curated-1229779308847829093-yoshi2024-discussion-image-reviewed",
+      "time": "1:31.34",
+      "source": "https://discord.com/channels/629221606064914442/636461740162416640/1229779308847829093",
+      "date": "2024-04-16",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.07020160879629629,
+        "start": {
+          "earliest": "2024-04-16T13:03:55.424Z",
+          "latest": "2024-04-16T13:03:55.424Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-04-03T06:00:00.000Z",
+          "latest": "2024-04-16T14:45:00.843Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "id": "curated-1229804749059260496-yoshi2024-image-reviewed",
+      "time": "1:31.26",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1229804749059260496",
+      "date": "2024-04-16",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.6354069097222222,
+        "start": {
+          "earliest": "2024-04-16T14:45:00.843Z",
+          "latest": "2024-04-16T14:45:00.843Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2024-04-03T06:00:00.000Z",
+          "latest": "2024-04-17T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "id": "1232480525512343592",
+      "time": "1:31.19",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1232480525512343592",
+      "date": "2024-04-17",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 13.35511386574074,
+        "maxDays": 27.35511386574074,
+        "start": {
+          "earliest": "2024-04-03T06:00:00.000Z",
+          "latest": "2024-04-17T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2025-04-15T14:31:21.838Z",
+          "latest": "2025-04-15T14:31:21.838Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "gcn-yoshi-circuit-r",
+      "id": "896332585544863754",
+      "time": "1:31.31",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/896332585544863754",
+      "date": "2021-10-09",
+      "dateBasis": "announcedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 14,
+        "start": {
+          "earliest": "2020-03-25T06:00:00.000Z",
+          "latest": "2020-04-08T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley",
+      "id": "curated-981848851331842068-cat2022-image-reviewed",
+      "time": "1:30.32",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/981848851331842068",
+      "date": "2022-06-02",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 4.660259641203703,
+        "start": {
+          "earliest": "2022-06-02T09:16:48.027Z",
+          "latest": "2022-06-02T09:16:48.027Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-01T06:00:00.000Z",
+          "latest": "2022-06-07T01:07:34.460Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley",
+      "id": "curated-983537672876331058-cat2022-image-reviewed",
+      "time": "1:30.27",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/983537672876331058",
+      "date": "2022-06-07",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.5279830439814814,
+        "start": {
+          "earliest": "2022-06-07T01:07:34.460Z",
+          "latest": "2022-06-07T01:07:34.460Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-01T06:00:00.000Z",
+          "latest": "2022-06-09T13:47:52.195Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley",
+      "id": "curated-984453783255916625-cat2022-image-reviewed",
+      "time": "1:30.18",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/984453783255916625",
+      "date": "2022-06-09",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 5.675090335648148,
+        "start": {
+          "earliest": "2022-06-09T13:47:52.195Z",
+          "latest": "2022-06-09T13:47:52.195Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-06-01T06:00:00.000Z",
+          "latest": "2022-06-15T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley",
+      "id": "988906735882358845",
+      "time": "1:30.07",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/988906735882358845",
+      "date": "2022-06-21",
+      "dateBasis": "announcedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 14,
+        "start": {
+          "earliest": "2022-06-01T06:00:00.000Z",
+          "latest": "2022-06-15T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley-r",
+      "id": "curated-1042572658870595644-1042572658463735848-august2022-image-reviewed",
+      "time": "1:31.04",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1042572658870595644",
+      "date": "2022-11-16",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.261035127314815,
+        "start": {
+          "earliest": "2022-11-16T22:51:31.938Z",
+          "latest": "2022-11-16T22:51:31.938Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-11-16T06:00:00.000Z",
+          "latest": "2022-11-19T05:07:25.373Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley-r",
+      "id": "curated-animal2022-sucha-1043392030564421723-13091-accepted-video-report",
+      "time": "1:30.91",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1043392030564421723",
+      "date": "2022-11-19",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 0.3883527199074074,
+        "start": {
+          "earliest": "2022-11-19T05:07:25.373Z",
+          "latest": "2022-11-19T05:07:25.373Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-11-16T06:00:00.000Z",
+          "latest": "2022-11-19T14:26:39.048Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley-r",
+      "id": "curated-1043532764877692989-1043568049028083712-august2022-image-reviewed",
+      "time": "1:30.81",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1043532764877692989",
+      "date": "2022-11-19",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 2.9742958101851853,
+        "start": {
+          "earliest": "2022-11-19T14:26:39.048Z",
+          "latest": "2022-11-19T14:26:39.048Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-11-16T06:00:00.000Z",
+          "latest": "2022-11-22T13:49:38.206Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley-r",
+      "id": "curated-1044610613588013106-1044779421422329887-august2022-image-reviewed",
+      "time": "1:30.71",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1044610613588013106",
+      "date": "2022-11-22",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 4.075096574074074,
+        "start": {
+          "earliest": "2022-11-22T13:49:38.206Z",
+          "latest": "2022-11-22T13:49:38.206Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-11-16T06:00:00.000Z",
+          "latest": "2022-11-26T15:37:46.550Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley-r",
+      "id": "curated-1046087379137601596-1046087378831429734-august2022-image-reviewed",
+      "time": "1:30.64",
+      "source": "https://discord.com/channels/629221606064914442/875784780573184010/1046087379137601596",
+      "date": "2022-11-26",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 0,
+        "maxDays": 3.598766782407407,
+        "start": {
+          "earliest": "2022-11-26T15:37:46.550Z",
+          "latest": "2022-11-26T15:37:46.550Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2022-11-16T06:00:00.000Z",
+          "latest": "2022-11-30T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      }
+    },
+    {
+      "courseId": "n64-yoshi-valley-r",
+      "id": "1053521178179932180",
+      "time": "1:30.47",
+      "source": "https://discord.com/channels/629221606064914442/896050730216095765/1053521178179932180",
+      "date": "2022-12-17",
+      "dateBasis": "submittedAt",
+      "bounds": {
+        "minDays": 42,
+        "maxDays": 56,
+        "start": {
+          "earliest": "2022-11-16T06:00:00.000Z",
+          "latest": "2022-11-30T06:00:00.000Z",
+          "basis": "attributed-tour-window",
+          "exact": false
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "attributed-tour-window"
+      }
+    }
+  ]
+}
