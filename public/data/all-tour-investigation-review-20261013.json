@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 173,
-      "carry-in-and-sparse-history-check": 2,
+      "completed-with-documented-gaps": 174,
       "candidate-and-source-review": 5,
+      "carry-in-and-sparse-history-check": 1,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 173,
-    "toursRequiringInvestigation": 8,
+    "practicallyCompletedTours": 174,
+    "toursRequiringInvestigation": 7,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -96,11 +96,11 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 8,
+        "requiringInvestigation": 7,
         "categories": {
-          "completed-with-documented-gaps": 11,
-          "carry-in-and-sparse-history-check": 2,
+          "completed-with-documented-gaps": 12,
           "candidate-and-source-review": 5,
+          "carry-in-and-sparse-history-check": 1,
           "source-and-publication-review": 1
         }
       }
@@ -9515,15 +9515,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/marioluigi2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/marioluigi2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-177",
@@ -11426,11 +11427,11 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-176",
-  "activeDetailedReview": "tour-176",
-  "latestCompletionAudit": "public/data/princess2026-completion.json",
-  "nextPriorityTourId": "tour-176",
-  "nextPriorityReason": "One tour at a time: Princess2026 has core exact LIVE completion evidence. Start MarioLuigi2026 tour176 only after final Princess2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/princess2026-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedTourId": "tour-177",
+  "activeDetailedReview": "tour-177",
+  "latestCompletionAudit": "public/data/marioluigi2026-completion.json",
+  "nextPriorityTourId": "tour-177",
+  "nextPriorityReason": "One tour at a time: MarioLuigi2026 has core exact LIVE completion evidence. Start Night2026 tour177 only after final MarioLuigi2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/marioluigi2026-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
