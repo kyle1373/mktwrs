@@ -759,6 +759,8 @@ const peachbowser2025=tours.find(t=>t.id==="tour-162" && t.startDate==="2025-11-
 if(peachbowser2025) peachbowser2025.name="Peach vs. Bowser Tour (2025)";
 const holiday2025=tours.find(t=>t.id==="tour-163" && t.startDate==="2025-12-10");
 if(holiday2025) holiday2025.name="Holiday Tour (2025)";
+const newyear2026=tours.find(t=>t.id==="tour-164" && t.startDate==="2025-12-24");
+if(newyear2026) newyear2026.name="New Year’s Tour (2026)";
 for (const [name, data] of Object.entries({
   manifest,
   courses,
