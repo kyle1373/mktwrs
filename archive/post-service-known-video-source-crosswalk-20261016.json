@@ -1714,9 +1714,45 @@
           "videoPublishedAt": null
         }
       ],
-      "preservedR2ReferencePresent": false,
-      "disposition": "existing-source-needs-original-preservation-review",
-      "freshMediaAvailabilityVerified": false
+      "preservedR2ReferencePresent": true,
+      "disposition": "original-and-playback-preserved-existing-supporting-result-source-dates-retained",
+      "freshMediaAvailabilityVerified": true,
+      "resolved": true,
+      "originalVideoBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-7446-nhspeedy-ubHsMbaLadQ-9db162f7f4c510cdeacf.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=ubHsMbaLadQ",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "sha256": "9db162f7f4c510cdeacf92b68ebb941b9d23e935dbd40ed09d8963df30772003",
+        "bytes": 42857579,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-ubHsMbaLadQ.mp4",
+        "reviewAudit": "archive/nhspeedy-wii-rainbow-road-7446-original-and-source-clocks-20261016.json"
+      },
+      "playbackBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-7446-nhspeedy-ubHsMbaLadQ-playback-20261016-00f562e746fb2933b226.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=ubHsMbaLadQ",
+        "kind": "r2-preserved-playback",
+        "status": "available",
+        "sha256": "00f562e746fb2933b226a77556024c8c8a6ea1d587a11489ae872fda8a17dc93",
+        "bytes": 120555432,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-ubHsMbaLadQ-playback-20261016.mp4",
+        "reviewAudit": "archive/nhspeedy-wii-rainbow-road-7446-original-and-source-clocks-20261016.json"
+      },
+      "reviewAudit": "archive/nhspeedy-wii-rainbow-road-7446-original-and-source-clocks-20261016.json",
+      "currentReviewedMatch": {
+        "courseId": "wii-rainbow-road",
+        "collection": "submissions",
+        "id": "curated-nhspeedy-restored-ubHsMbaLadQ",
+        "time": "1:14.46",
+        "playerId": "nhspeedy",
+        "videoVerified": true,
+        "videoScope": "result-reviewed",
+        "videoPublishedAt": "2024-04-16T18:51:51Z",
+        "videoSharedAt": "2026-10-03T01:40:09.446Z",
+        "originalSubmittedAtRetained": "2024-04-16",
+        "raceDateUnresolved": true,
+        "newWrCredit": 0
+      }
     },
     {
       "sourceKey": "youtube:dEW5aN_l8Ys",
@@ -2205,9 +2241,8 @@
       "freshMediaAvailabilityVerified": false
     }
   ],
-  "publishedR2ReferenceMatches": 33,
+  "publishedR2ReferenceMatches": 34,
   "needsReview": [
-    "youtube:ubHsMbaLadQ",
     "youtube:dEW5aN_l8Ys",
     "youtube:4-sD7VBgvsI",
     "youtube:1Wj2VwU85Kk",
