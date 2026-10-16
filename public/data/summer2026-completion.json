@@ -1,8 +1,8 @@
 {
   "tourId": "tour-181",
   "tour": "Summer Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -69,16 +69,22 @@
     "Madrid1:17.18 and Cove1:16.06 lack matching recovered completed footage; slower1:17.31 and1:16.18 movies are presented separately.",
     "Three prior Cove strategy clips contain partial laps only. MOV originals retained with losslessMP4 stream copies; historicalMKV retained with copiedvideo and compatibleAACaudio playback.",
     "HiMikeSqueaky1:22.72 lateVacation screenshot preserved separately without currentSummer admission.",
-    "Later and broader historical date corrections remain separate archive-wide work."
+    "Later and broader historical date corrections remain separate archive-wide work.",
+    "Nine original or compatible MP4 playback sources load in Codex browser. Shoa1:24.07 original screenshot and DIT1:23.30 movie remain unavailable with documented attempts; no uninterrupted-race certification."
   ],
   "validation": {
-    "livePublicationVerified": false,
+    "livePublicationVerified": true,
     "focusedTestsPassed": 12,
     "productionBuildExitCode": 0,
-    "productionBuildsPassed": 1,
+    "productionBuildsPassed": 2,
     "renderedEvidenceLinksReadable": 211,
-    "productionAudit": "archive/summer2026-production-build-and-rendered-evidence-link-check-20261015.json"
+    "productionAudit": "archive/summer2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "fullGeneratedRowsMatched": 588,
+    "livePublicationAudit": "archive/summer2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestRunsPassed": 2
   },
   "nextTourId": "tour-182",
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-16",
+  "latestLivePublicationAudit": "archive/summer2026-exact-live-publication-and-full-field-check-20261015.json"
 }

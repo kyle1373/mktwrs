@@ -36,12 +36,12 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 178,
-      "candidate-and-source-review": 2,
+      "completed-with-documented-gaps": 179,
+      "candidate-and-source-review": 1,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 178,
-    "toursRequiringInvestigation": 3,
+    "practicallyCompletedTours": 179,
+    "toursRequiringInvestigation": 2,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -95,10 +95,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 3,
+        "requiringInvestigation": 2,
         "categories": {
-          "completed-with-documented-gaps": 16,
-          "candidate-and-source-review": 2,
+          "completed-with-documented-gaps": 17,
+          "candidate-and-source-review": 1,
           "source-and-publication-review": 1
         }
       }
@@ -9781,7 +9781,7 @@
           "url": "https://mktwrs.com/course/berlin-byways-2",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 19,
+          "supportingRows": 16,
           "pendingCandidates": 1,
           "carriedInWr": {
             "id": "1424249398531194982-kuri",
@@ -9791,12 +9791,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "madrid-drive",
@@ -9804,7 +9799,7 @@
           "url": "https://mktwrs.com/course/madrid-drive",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 9,
+          "supportingRows": 10,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1152024419473047663",
@@ -9814,11 +9809,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "piranha-plant-cove-3",
@@ -9826,7 +9817,7 @@
           "url": "https://mktwrs.com/course/piranha-plant-cove-3",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 16,
+          "supportingRows": 15,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1290731431890255945",
@@ -9836,14 +9827,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/summer2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/summer2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-182",
@@ -11404,7 +11397,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-181",
+  "activeDetailedTourId": "tour-182",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11415,10 +11408,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-181",
-  "latestCompletionAudit": "public/data/vacation2026-completion.json",
-  "nextPriorityTourId": "tour-181",
-  "nextPriorityReason": "One tour at a time: Vacation2026 has core exact LIVE completion evidence. Start Summer2026 tour181 only after final Vacation2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/vacation2026-exact-live-publication-and-full-field-check-20261015.json",
-  "updatedAt": "2026-10-15"
+  "activeDetailedReview": "tour-182",
+  "latestCompletionAudit": "public/data/summer2026-completion.json",
+  "nextPriorityTourId": "tour-182",
+  "nextPriorityReason": "One tour at a time: Summer2026 has core exact LIVE completion evidence. Start Sundae2026 tour182 only after final Summer2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/summer2026-exact-live-publication-and-full-field-check-20261015.json",
+  "updatedAt": "2026-10-16"
 }
