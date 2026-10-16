@@ -2099,9 +2099,31 @@
           "videoPublishedAt": null
         }
       ],
-      "preservedR2ReferencePresent": false,
-      "disposition": "existing-source-needs-original-preservation-review",
-      "freshMediaAvailabilityVerified": false
+      "preservedR2ReferencePresent": true,
+      "disposition": "original-and-playback-preserved-later-supporting-recording-no-retroactive-tour-date-claim",
+      "freshMediaAvailabilityVerified": true,
+      "resolved": true,
+      "originalVideoBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-8987-nhspeedy-xn4cT9ibHhA-2d0c7910409658d5edc9.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=xn4cT9ibHhA",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "sha256": "2d0c7910409658d5edc9653dd183f4685dcf3eced1923ce3b67281969951800e",
+        "bytes": 42510786,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-xn4cT9ibHhA.mp4",
+        "reviewAudit": "archive/nhspeedy-rosalina-ice-world-8987-original-and-source-clocks-20261016.json"
+      },
+      "playbackBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-8987-nhspeedy-xn4cT9ibHhA-playback-20261016-43b25a2ae4d00bc888cf.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=xn4cT9ibHhA",
+        "kind": "r2-preserved-playback",
+        "status": "available",
+        "sha256": "43b25a2ae4d00bc888cfae82ca9d744d7c4acbeb6bbfb5e53ae3ba2fcc28ce06",
+        "bytes": 89173493,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-xn4cT9ibHhA-playback-20261016.mp4",
+        "reviewAudit": "archive/nhspeedy-rosalina-ice-world-8987-original-and-source-clocks-20261016.json"
+      },
+      "reviewAudit": "archive/nhspeedy-rosalina-ice-world-8987-original-and-source-clocks-20261016.json"
     },
     {
       "sourceKey": "youtube:Fd3PM1vJJEs",
@@ -2322,9 +2344,8 @@
       "freshMediaAvailabilityVerified": false
     }
   ],
-  "publishedR2ReferenceMatches": 37,
+  "publishedR2ReferenceMatches": 38,
   "needsReview": [
-    "youtube:xn4cT9ibHhA",
     "youtube:hPlQ2YEtRVU"
   ],
   "historyComplete": false,
