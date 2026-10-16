@@ -1,8 +1,8 @@
 {
   "tourId": "tour-171",
   "tour": "Yoshi Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "actualTourWindow": {
     "start": "2026-04-01T06:00:00Z",
@@ -54,12 +54,21 @@
     "Zero saved discussion results does not establish exhaustive Discord coverage.",
     "Prior movie result reviews retained; no new uninterrupted-race continuity certification.",
     "Broad historical date correction remains a later archive-wide pass.",
-    "Reconciliation, publication, browser readiness and exact LIVE verification pending."
+    "Both preserved movies load in Codex browser; no new uninterrupted continuity certification."
   ],
   "submissionDatePolicy": "Source posting supplies submission date unless other evidence proves otherwise. Original filenames, later announcement and movie clocks remain separately preserved.",
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "fullGeneratedRowsMatched": 549,
+    "livePublicationAudit": "archive/yoshi2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 21,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 126,
+    "productionAudit": "archive/yoshi2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
-  "publicationPending": true,
-  "nextTourId": "tour-172"
+  "publicationPending": false,
+  "nextTourId": "tour-172",
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/yoshi2026-exact-live-publication-and-full-field-check-20261015.json"
 }

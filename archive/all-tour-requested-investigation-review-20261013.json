@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-171",
+  "activeDetailedReview": "tour-172",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,8 +33,8 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 168,
-      "carry-in-and-sparse-history-check": 10,
+      "completed-with-documented-gaps": 169,
+      "carry-in-and-sparse-history-check": 9,
       "candidate-and-source-review": 2,
       "source-and-publication-review": 1
     },
@@ -91,10 +91,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 13,
+        "requiringInvestigation": 12,
         "categories": {
-          "completed-with-documented-gaps": 6,
-          "carry-in-and-sparse-history-check": 10,
+          "completed-with-documented-gaps": 7,
+          "carry-in-and-sparse-history-check": 9,
           "candidate-and-source-review": 2,
           "source-and-publication-review": 1
         }
@@ -110,8 +110,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 168,
-    "toursRequiringInvestigation": 13
+    "practicallyCompletedTours": 169,
+    "toursRequiringInvestigation": 12
   },
   "tours": [
     {
@@ -17743,11 +17743,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "snes-donut-plains-2r",
             "checkedAt": "2026-10-13T18:38:30.565641+00:00",
@@ -17773,7 +17769,7 @@
           "url": "https://mktwrs.com/course/gcn-yoshi-circuit",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 6,
+          "supportingRows": 5,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "curated-2025-kod-yoshi-NjqUdL5prbs",
@@ -17789,11 +17785,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "gcn-yoshi-circuit",
             "checkedAt": "2026-10-13T18:38:35.440068+00:00",
@@ -17815,8 +17807,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/yoshi2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/yoshi2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-172",
@@ -19154,10 +19151,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-171",
-  "latestCompletionAudit": "public/data/ninja2026-completion.json",
+  "activeDetailedTourId": "tour-172",
+  "latestCompletionAudit": "public/data/yoshi2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-171",
-  "nextPriorityReason": "One tour at a time: Ninja2026 has core exact LIVE completion evidence. Start Yoshi2026 tour169 only after final Ninja2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/ninja2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-172",
+  "nextPriorityReason": "One tour at a time: Yoshi2026 has core exact LIVE completion evidence. Start Spring2026 tour172 only after final Yoshi2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/yoshi2026-exact-live-publication-and-full-field-check-20261015.json"
 }
