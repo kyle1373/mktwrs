@@ -1966,9 +1966,31 @@
           "videoPublishedAt": null
         }
       ],
-      "preservedR2ReferencePresent": false,
-      "disposition": "existing-source-needs-original-preservation-review",
-      "freshMediaAvailabilityVerified": false
+      "preservedR2ReferencePresent": true,
+      "disposition": "original-and-playback-preserved-existing-supporting-result-source-dates-retained",
+      "freshMediaAvailabilityVerified": true,
+      "resolved": true,
+      "originalVideoBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-8172-nhspeedy-4-sD7VBgvsI-91687ecfd3158bb5d0a6.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=4-sD7VBgvsI",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "sha256": "91687ecfd3158bb5d0a68d17c71c40534471948a06273dae39355ac3d3eb667d",
+        "bytes": 37622318,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-4-sD7VBgvsI.mp4",
+        "reviewAudit": "archive/nhspeedy-rmx-rainbow-road-2-8172-original-and-source-clocks-20261016.json"
+      },
+      "playbackBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-8172-nhspeedy-4-sD7VBgvsI-playback-20261016-7c1cf60ed8cad4305022.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=4-sD7VBgvsI",
+        "kind": "r2-preserved-playback",
+        "status": "available",
+        "sha256": "7c1cf60ed8cad4305022d92da0e0a773a81d85d733ec642e7654f2494487c085",
+        "bytes": 95457105,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-4-sD7VBgvsI-playback-20261016.mp4",
+        "reviewAudit": "archive/nhspeedy-rmx-rainbow-road-2-8172-original-and-source-clocks-20261016.json"
+      },
+      "reviewAudit": "archive/nhspeedy-rmx-rainbow-road-2-8172-original-and-source-clocks-20261016.json"
     },
     {
       "sourceKey": "youtube:1Wj2VwU85Kk",
@@ -2278,9 +2300,8 @@
       "freshMediaAvailabilityVerified": false
     }
   ],
-  "publishedR2ReferenceMatches": 35,
+  "publishedR2ReferenceMatches": 36,
   "needsReview": [
-    "youtube:4-sD7VBgvsI",
     "youtube:1Wj2VwU85Kk",
     "youtube:xn4cT9ibHhA",
     "youtube:hPlQ2YEtRVU"
