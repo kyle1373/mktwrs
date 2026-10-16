@@ -1,4 +1,5 @@
 import { applyFinalSourceFidelity } from "./final-source-fidelity.mjs";
+import { applyDocumentedDurations } from "../lib/documented-durations.mjs";
 import { applyFinalDates } from "../lib/final-dates.mjs";
 import {applyReviewedPublicationPatches} from "./reviewed-publication-patches.mjs";
 import fs from "node:fs";
@@ -850,6 +851,8 @@ for (const course of courses.filter(c => halloween2020ReviewedCourses.has(c.id))
 }
 applyFinalSourceFidelity(courses, JSON.parse(fs.readFileSync("scripts/final-source-fidelity-patches.json", "utf8")));
 const finalDateAudit = applyFinalDates(courses);
+const durationAudit = applyDocumentedDurations(courses);
+fs.writeFileSync(out + "/documented-duration-audit.json", JSON.stringify(durationAudit));
 fs.writeFileSync(out + "/final-date-audit.json", JSON.stringify(finalDateAudit));
 for (const [name, data] of Object.entries({
   manifest,

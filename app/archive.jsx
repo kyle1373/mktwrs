@@ -31,7 +31,7 @@ function Duration({ r }) {
       title={
         r.durationDays == null
           ? "The preserved evidence does not establish a duration"
-          : "Playable days from the recorded dates. The clock pauses outside the course’s Time Trial tours."
+          : r.durationBasis === "not-a-world-record" ? "This personal best has no documented WR reign." : `${r.durationDays.toFixed(6)} documented playable days${r.durationPrecision === "day" ? "; date-only evidence uses the 06:00 UTC calculation boundary" : ""}. The clock pauses outside Time Trial tours.`
       }
     >
       {r.durationDays == null
@@ -339,7 +339,7 @@ function RecordTable({ records, players, events = [], showCourse = false, clean 
                       <Nation country={p?.country} />
                     </td>
                     <td className="center">
-                      {clean ? (r.durationDays == null ? "—" : Math.floor(r.durationDays)) : <Duration r={r} />}
+                      <Duration r={r} />
                     </td>
                     <td className="split" title={r.lapMatchBasis}>
                       {r.laps?.[0] || "—"}
@@ -645,7 +645,7 @@ function ParisSupportingResults({ results, players, tourLabel = "Paris Tour (201
     </table></div>
   </details>;
 }
-function CoursePage({ data: c, players }) {
+function CoursePage({ data: c, players, tours = [] }) {
   const records = [...c.records, ...(c.hammerRecoveredProgression || [])]
     .sort((a,b) => (a.finalDate || "").localeCompare(b.finalDate || "") || b.timeCs - a.timeCs);
   const best = c.bestRecorded || c.currentHolders[0];
@@ -660,7 +660,8 @@ function CoursePage({ data: c, players }) {
     </>}
     <CourseStats c={c} players={players} />
     <h2>History</h2>
-    <RecordTable records={records} players={players} clean />
+    <RecordTable records={records} events={historyEvents({...c, records}, tours, "2026-09-30T06:00:00Z", {includeRecoveredLeaders:true,publishedRecords:true})} players={players} clean />
+    <p className="table-note">Dates use documented submissions or publications unless an earlier run date is established. Days count playable time; date-only evidence uses the 06:00 UTC tour reset. Personal bests that never held a WR have 0 WR days.</p>
     <p className="archive-links"><a href={`/data/courses/${c.id}.json`} download>Archive data</a></p>
   </>;
 }

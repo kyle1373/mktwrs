@@ -17,9 +17,9 @@ const compiled=new Module(filename);
 compiled.paths=Module._nodeModulePaths(new URL('../app',import.meta.url).pathname);
 compiled._compile(code,filename);
 const render=r=>renderToStaticMarkup(React.createElement(compiled.exports.RecordDate,{r}));
-test('final date is the sole visible date, including estimated historical attribution',()=>{
+test('final date is the sole visible date, using the documented retrospective publication',()=>{
  const r=routeData(['course','gcn-yoshi-circuit-r']).data.records.find(r=>r.id==='896332585544863754');
- assert.equal(render(r),'2020-04-07');
+ assert.equal(render(r),'2021-10-09');
  assert.equal(r.announcedAt,'2021-10-09T09:45:41.448Z');
  assert.deepEqual(r.tourDateRange,{start:'2020-03-25',end:'2020-04-07'});
 });

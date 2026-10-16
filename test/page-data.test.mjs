@@ -17,7 +17,7 @@ test('homepage keeps final dates and usable proof links under 150 KB',()=>{
 test('all 142 compact course payloads preserve published history, final dates and WR statistics',()=>{
  assert.equal(published.courses.length,142);
  for(const c of published.courses){
-  const p=routeData(['course',c.id]);assert.equal(p.data.submissions,undefined);assert.equal(p.tours.length,0);
+  const p=routeData(['course',c.id]);assert.equal(p.data.submissions,undefined);assert.equal(p.tours.length,new Set(c.appearances.map(a=>a.tourId)).size);
   assert.deepEqual(courseStatistics(p.data.records,p.players),courseStatistics(c.records,published.players));
   assert.deepEqual(p.data.records.map(r=>[r.id,r.time,r.playerId,r.finalDate,r.source?.url,r.laps]),c.records.map(r=>[r.id,r.time,r.playerId,r.finalDate,r.source?.url,r.laps]));
   for(const r of [...p.data.records,...p.data.bestHolders,...p.data.hammerRecoveredProgression,p.data.fastestVideo].filter(Boolean)){

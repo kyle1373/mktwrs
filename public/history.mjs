@@ -111,15 +111,15 @@ export function courseStatistics(records, players) {
   };
 }
 
-export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = false } = {}) {
+export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = false, publishedRecords = false } = {}) {
   const records = course.records.filter((r) =>
-    ["announced", "community-wr", "leaderboard-wr"].includes(r.status) ||
+    publishedRecords || ["announced", "community-wr", "leaderboard-wr"].includes(r.status) ||
     (includeRecoveredLeaders && r.recoveredLeaderEvidence?.reviewAudit && r.recoveredLeaderEvidence?.publishedAt),
   );
   const events = records.map((r) => ({
     type: "record",
     id: r.id,
-    date: r.recordDate || r.chronologyDate || r.tourDateRange?.end || r.announcedAt,
+    date: r.finalDate || r.recordDate || r.chronologyDate || r.tourDateRange?.end || r.announcedAt,
     record: r,
   }));
   const seen = new Set();
@@ -148,7 +148,7 @@ export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = f
   const order = { "tour-end": 0, "tour-start": 1, record: 2 };
   const resetDates = new Set(events.filter(e => e.type !== "record").map(e => e.date.slice(0, 10)));
   const eventOrder = (event) => {
-    const timestamp = event.record?.submittedAt;
+    const timestamp = event.record?.documentedAt || event.record?.submittedAt;
     // The final tour morning is still playable until the 06:00 UTC reset.
     if (resetDates.has(event.date.slice(0, 10)) &&
         timestamp?.slice(0, 10) === event.date.slice(0, 10) &&
@@ -167,6 +167,7 @@ export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = f
     (a, b) =>
       a.date.slice(0, 10).localeCompare(b.date.slice(0, 10)) ||
       eventOrder(a) - eventOrder(b) ||
+      (a.record?.documentedAt || "").localeCompare(b.record?.documentedAt || "") ||
       (b.record?.timeCs || 0) - (a.record?.timeCs || 0),
   );
 }

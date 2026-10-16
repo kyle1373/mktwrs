@@ -9,13 +9,14 @@ test('posting date is definite while original clocks remain intact',()=>{
  assert.equal(r.finalDate,'2021-10-09');for(const [k,v] of Object.entries(original))assert.deepEqual(r[k],v);
  assert.equal(c.currentHolders[0].finalDate,r.finalDate);
 });
-test('retrospective attribution chooses final tour day instead of later announcement',()=>{
- assert.deepEqual(resolveFinalDate({announcedAt:'2021-10-09',tourDateRange:{start:'2020-03-25',end:'2020-04-07'}}),{date:'2020-04-07',basis:'estimated-attributed-tour-final-day',estimated:true});
+test('retrospective evidence uses the actual report date, never a guessed tour end',()=>{
+ const r=resolveFinalDate({announcedAt:'2021-10-09',tourDateRange:{start:'2020-03-25',end:'2020-04-07'}});
+ assert.equal(r.date,'2021-10-09');assert.equal(r.estimated,false);
  assert.equal(resolveFinalDate({recordDate:'2020-04-02',tourDateRange:{start:'2020-03-25',end:'2020-04-07'}}).date,'2020-04-02');
 });
-test('undated previous best precedes dated improvement; invalid date falls back',()=>{
- assert.equal(resolveFinalDate({dateUnresolved:true,proofField:'previous-best',relativeOrderBefore:'b'}, {},[{id:'b',recordDate:'2020-02-29'}]).date,'2020-02-28');
- assert.equal(resolveFinalDate({submittedAt:'2021-02-30'},{appearances:[{endDate:'2021-03-01'}]}).date,'2021-03-01');
+test('undated predecessors and invalid dates remain unknown rather than acquiring invented dates',()=>{
+ assert.equal(resolveFinalDate({dateUnresolved:true,proofField:'previous-best',relativeOrderBefore:'b'}, {},[{id:'b',recordDate:'2020-02-29'}]).date,null);
+ assert.equal(resolveFinalDate({submittedAt:'2021-02-30'},{appearances:[{endDate:'2021-03-01'}]}).date,null);
 });
 test('best total and playable movie are independent; incomplete and rejected claims cannot win',()=>{
  const c={records:[{id:'a',playerId:'a',timeCs:9000}],submissions:[
