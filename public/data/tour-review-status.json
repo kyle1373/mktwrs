@@ -919,9 +919,8 @@
     "latestEvidenceReconciliation": "2026-10-13"
   },
   "tour-60": {
-    "status": "completed-with-documented-gaps",
-    "label": "Completed with documented gaps",
-    "completedAt": "2026-10-13",
+    "status": "reconciliation-in-progress",
+    "label": "Reconciliation in progress",
     "evidenceUrl": "/data/newyear2022-completion.json",
     "priorPracticalReview": {
       "status": "completed-with-documented-gaps",
@@ -931,8 +930,16 @@
     },
     "historyComplete": false,
     "auditedAt": "2026-10-12",
-    "practicalReviewComplete": true,
-    "latestEvidenceReconciliation": "2026-10-13"
+    "practicalReviewComplete": false,
+    "latestEvidenceReconciliation": "2026-10-16",
+    "currentDateReview": {
+      "checkedAt": "2026-10-16",
+      "recordDatesVerified": 24,
+      "dateValuesChanged": 0,
+      "sourceEvidenceUrl": "/data/newyear2022-date-source-review.json",
+      "openingDayBoundary": "06:00 UTC through the following 06:00 UTC",
+      "exhaustiveHistoryProven": false
+    }
   },
   "tour-61": {
     "status": "completed-with-documented-gaps",
