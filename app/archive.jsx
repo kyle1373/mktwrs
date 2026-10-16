@@ -27,13 +27,10 @@ function RecordDate({ r }) {
   return r.documentedLocalTimestamp ? <span title={`Original publication shown as ${r.documentedLocalTimestamp.replace('T',' ')}; source timezone unconfirmed.`}>{displayed}</span> : displayed;
 }
 function Duration({ r }) {
-  const bounds = r.durationBounds;
-  const range = bounds && bounds.maxDays - bounds.minDays > 1e-10;
   const format = n => n > 0 && n < 1 ? "<1" : Math.floor(n);
   return <span title={r.durationBasis === "no-documented-wr-reign" ? "No WR reign is documented for this submission." :
-    range ? `Between ${bounds.minDays.toFixed(6)} and ${bounds.maxDays.toFixed(6)} playable days. ${bounds.basis === "attributed-tour-window" ? "The report was published later; the original submission time is not established." : bounds.basis === "documented-local-minute-timezone-unconfirmed" ? "The source shows a local publication minute; its timezone is unconfirmed." : "The source establishes a calendar day; bounds cover the missing timestamp and any unconfirmed timezone."}` :
     r.durationDays == null ? "The preserved evidence does not establish a duration" : `${r.durationDays.toFixed(6)} documented playable days. The clock pauses outside Time Trial tours.`}>
-    {range ? `${Math.floor(bounds.minDays)}–${Math.ceil(bounds.maxDays)}` : r.durationDays == null ? "—" : format(r.durationDays)}
+    {r.durationDays == null ? "—" : format(r.durationDays)}
   </span>;
 }
 function EvidenceTimes({ r }) {
@@ -372,9 +369,8 @@ function RecordTable({ records, players, events = [], showCourse = false, clean 
   );
 }
 function StatDuration({ row }) {
-  const range = row.daysMaximum != null && row.daysMaximum-row.daysMinimum > 1e-10;
-  return <span title={range ? `Between ${row.daysMinimum.toFixed(6)} and ${row.daysMaximum.toFixed(6)} documented playable days; incomplete timing evidence is bounded.` : `${(row.days || 0).toFixed(6)} documented playable days`}>
-    {range ? `${Math.floor(row.daysMinimum)}–${Math.ceil(row.daysMaximum)}` : row.durationCount ? `${row.days>0 && row.days<1 ? "<1" : Math.floor(row.days)}${row.missingDays ? "+" : ""}` : "—"}
+  return <span title={`${(row.days || 0).toFixed(6)} documented playable days`}>
+    {row.durationCount ? `${row.days>0 && row.days<1 ? "<1" : Math.floor(row.days)}${row.missingDays ? "+" : ""}` : "—"}
   </span>;
 }
 function CourseStats({ c, players }) {
@@ -409,9 +405,7 @@ function CourseStats({ c, players }) {
                   </td>
                   <td>
                     {s.complete && s.days
-                      ? s.daysMaximum-s.daysMinimum > 1e-10
-                        ? `${Math.floor(100*p.daysMinimum/s.daysMaximum)}–${Math.min(100,Math.ceil(100*p.daysMaximum/s.daysMinimum))}`
-                        : ((p.days / s.days) * 100).toFixed(2)
+                      ? ((p.days / s.days) * 100).toFixed(2)
                       : "—"}
                   </td>
                 </tr>
@@ -654,7 +648,7 @@ function CoursePage({ data: c, players, tours = [] }) {
     <CourseStats c={c} players={players} />
     <h2>History</h2>
     <RecordTable records={records} events={historyEvents({...c, records}, tours, "2026-09-30T06:00:00Z", {includeRecoveredLeaders:true,publishedRecords:true})} players={players} clean />
-    <p className="table-note">Dates use documented submissions or publications unless an earlier run date is established. Days count playable time. Ranges reflect missing clock or timezone information, or a later report with an unconfirmed original submission time. Submissions without a documented WR reign have 0 credited WR days.</p>
+    <p className="table-note">Dates use documented submissions or publications unless an earlier run date is established. Days count documented playable time and pause outside Time Trial tours. Submissions without a documented WR reign have 0 credited WR days.</p>
     <p className="archive-links"><a href={`/data/courses/${c.id}.json`} download>Archive data</a></p>
   </>;
 }
