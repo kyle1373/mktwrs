@@ -89,3 +89,22 @@ test('a local publication minute after the attributed tour preserves its factual
  const c={id:'late',records:[{id:'a',timeCs:100,finalDate:'2021-08-12',documentedAt:null,documentedLocalTimestamp:'2021-08-12T17:07',documentedDatePrecision:'minute',tourDateRange:{start:'2021-07-28',end:'2021-08-10'}}],submissions:[],candidates:[],appearances:[{startDate:'2021-07-28',endDate:'2021-08-11'}]};
  applyDocumentedDurations([c]);assert.equal(c.records[0].durationBounds.start.basis,'attributed-tour-window');assert.equal(c.records[0].finalDate,'2021-08-12');
 });
+
+test('runner-reported morning preserves the date and narrows both the reign and its predecessor without inventing an exact clock',()=>{
+ const r={id:'r',playerId:'nu11',time:'1:17.87',timeCs:7787,achievedAt:'2021-02-19'};
+ const previous={id:'p',playerId:'kazuo',time:'1:18.27',timeCs:7827,submittedAt:'2021-02-16T15:00:00.000Z'};
+ const c={id:'choco-r',records:[previous,r],submissions:[],candidates:[],appearances:[{startDate:'2021-02-10',endDate:'2021-02-24'},{startDate:'2021-12-01',endDate:'2021-12-15'}]};
+ const e={courseId:'choco-r',id:'r',playerId:'nu11',time:'1:17.87',localWindow:{start:'2021-02-19T00:00',end:'2021-02-19T12:00',label:'morning'},basis:'reviewed-runner-reported-morning'};
+ applyFinalDates([c],[e]);applyDocumentedDurations([c]);
+ assert.equal(r.finalDate,'2021-02-19');assert.equal(r.documentedAt,null);assert.equal(r.documentedDatePrecision,'period');
+ assert.equal(r.durationBounds.start.earliest,'2021-02-18T10:00:00.000Z');assert.equal(r.durationBounds.start.latest,'2021-02-20T00:00:00.000Z');assert.equal(r.durationDays,18.25);
+ for(const offset of [-12,0,9,14])for(const hour of [0,6,11.999]){
+  const run=Date.parse('2021-02-19T00:00:00Z')+(hour-offset)*3600000;
+  const actual=(Date.parse('2021-02-24T06:00:00Z')-run)/86400000+14;
+  assert.ok(actual>=r.durationBounds.minDays&&actual<=r.durationBounds.maxDays);
+  const prior=(run-Date.parse(previous.submittedAt))/86400000;
+  assert.ok(prior>=previous.durationBounds.minDays&&prior<=previous.durationBounds.maxDays);
+ }
+ assert.throws(()=>applyFinalDates([c],[{...e,localWindow:{start:'2021-02-19T12:00',end:'2021-02-19T00:00'}}]),/does not match/);
+ assert.throws(()=>applyFinalDates([c],[{...e,localWindow:{start:'2021-02-30T00:00',end:'2021-02-30T12:00'}}]),/does not match/);
+});

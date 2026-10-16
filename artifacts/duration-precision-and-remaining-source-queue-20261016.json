@@ -5,7 +5,7 @@
   "sourceRowsChecked": 25063,
   "sourceFieldsPreserved": true,
   "tests": {
-    "passed": 196,
+    "passed": 197,
     "failed": 0
   },
   "renderedCoursesChecked": 142,
@@ -311,6 +311,20 @@
       "localClock": "2021-08-08T17:07",
       "timezone": "unspecified",
       "basis": "reviewed-original-post-local-minute"
+    },
+    {
+      "courseId": "n64-choco-mountain-r",
+      "id": "896333812240355370",
+      "time": "1:17.87",
+      "date": "2021-02-19",
+      "clock": null,
+      "localWindow": {
+        "start": "2021-02-19T00:00",
+        "end": "2021-02-19T12:00",
+        "label": "morning"
+      },
+      "timezone": "unspecified",
+      "basis": "reviewed-runner-reported-morning"
     }
   ],
   "remainingSourceQueue": [
@@ -553,7 +567,7 @@
       "dateBasis": "submittedAt",
       "bounds": {
         "minDays": 1.7692320717592593,
-        "maxDays": 3.8525654050925926,
+        "maxDays": 3.3525654050925926,
         "start": {
           "earliest": "2021-02-16T15:32:18.349Z",
           "latest": "2021-02-16T15:32:18.349Z",
@@ -562,7 +576,7 @@
         },
         "end": {
           "earliest": "2021-02-18T10:00:00.000Z",
-          "latest": "2021-02-20T12:00:00.000Z"
+          "latest": "2021-02-20T00:00:00.000Z"
         },
         "basis": "documented-source-timestamp"
       }
@@ -573,21 +587,21 @@
       "time": "1:17.87",
       "source": "https://discord.com/channels/629221606064914442/896050730216095765/896333812240355370",
       "date": "2021-02-19",
-      "dateBasis": "source-date",
+      "dateBasis": "reviewed-runner-reported-morning",
       "bounds": {
-        "minDays": 17.75,
+        "minDays": 18.25,
         "maxDays": 19.833333333333332,
         "start": {
           "earliest": "2021-02-18T10:00:00.000Z",
-          "latest": "2021-02-20T12:00:00.000Z",
-          "basis": "documented-calendar-day-timezone-unconfirmed",
+          "latest": "2021-02-20T00:00:00.000Z",
+          "basis": "documented-local-period-timezone-unconfirmed",
           "exact": false
         },
         "end": {
           "earliest": "2026-09-30T06:00:00.000Z",
           "latest": "2026-09-30T06:00:00.000Z"
         },
-        "basis": "documented-calendar-day-timezone-unconfirmed"
+        "basis": "documented-local-period-timezone-unconfirmed"
       }
     },
     {

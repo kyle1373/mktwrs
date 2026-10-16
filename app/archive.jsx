@@ -24,6 +24,7 @@ function Nation({ country }) {
 }
 function RecordDate({ r }) {
   const displayed = date(r.finalDate || r.recordDate || r.achievedAt || r.submittedAt || r.announcedAt);
+  if (r.documentedLocalWindow) return <span title={`Runner reports ${displayed} ${r.documentedLocalWindow.label || 'within the documented part of the day'}; source timezone unconfirmed.`}>{displayed}</span>;
   return r.documentedLocalTimestamp ? <span title={`Original publication shown as ${r.documentedLocalTimestamp.replace('T',' ')}; source timezone unconfirmed.`}>{displayed}</span> : displayed;
 }
 function Duration({ r }) {
