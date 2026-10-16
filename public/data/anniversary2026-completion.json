@@ -1,8 +1,8 @@
 {
   "tourId": "tour-183",
   "tour": "Anniversary Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "window": {
@@ -65,16 +65,22 @@
     "One cancelled duplicate remains unavailable; accepted replacement preserved.",
     "Nonstandard and duplicate originals are preserved without new standard WR/profile credit.",
     "Fresh movie finish totals reviewed; uninterrupted race and identical screenshot/movie attempt not certified.",
-    "Broader date corrections and September30–October16 coverage remain archive-wide work."
+    "Broader date corrections and September30–October16 coverage remain archive-wide work.",
+    "Seventeen original or compatible MP4 playback sources load in Codex browser. Cancelled duplicate originals remain unavailable with documented receipts; no uninterrupted-race certification."
   ],
   "validation": {
-    "livePublicationVerified": false,
+    "livePublicationVerified": true,
     "focusedTestsPassed": 12,
-    "focusedTestRunsPassed": 1,
-    "productionBuildExitCode": null,
-    "productionBuildsPassed": 0,
-    "fullGeneratedRowsMatched": 398
+    "focusedTestRunsPassed": 2,
+    "productionBuildExitCode": 0,
+    "productionBuildsPassed": 2,
+    "fullGeneratedRowsMatched": 398,
+    "livePublicationAudit": "archive/anniversary2026-exact-live-publication-and-full-field-check-20261016.json",
+    "renderedEvidenceLinksReadable": 173,
+    "productionAudit": "archive/anniversary2026-production-build-and-rendered-evidence-link-check-20261016.json"
   },
   "nextTourId": null,
-  "publicationPending": true
+  "publicationPending": false,
+  "completedAt": "2026-10-16",
+  "latestLivePublicationAudit": "archive/anniversary2026-exact-live-publication-and-full-field-check-20261016.json"
 }

@@ -36,11 +36,10 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 180,
-      "source-and-publication-review": 1
+      "completed-with-documented-gaps": 181
     },
-    "practicallyCompletedTours": 180,
-    "toursRequiringInvestigation": 1,
+    "practicallyCompletedTours": 181,
+    "toursRequiringInvestigation": 0,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -94,10 +93,9 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 1,
+        "requiringInvestigation": 0,
         "categories": {
-          "completed-with-documented-gaps": 18,
-          "source-and-publication-review": 1
+          "completed-with-documented-gaps": 19
         }
       }
     }
@@ -9901,7 +9899,7 @@
           "url": "https://mktwrs.com/course/athens-dash-3",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 14,
+          "supportingRows": 9,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1162597423470878732",
@@ -9911,12 +9909,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "madrid-drive-3",
@@ -9924,7 +9917,7 @@
           "url": "https://mktwrs.com/course/madrid-drive-3",
           "firstAppearance": false,
           "wrRows": 3,
-          "supportingRows": 22,
+          "supportingRows": 17,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1162598591001546913",
@@ -9934,10 +9927,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "rome-avanti-3",
@@ -9945,7 +9935,7 @@
           "url": "https://mktwrs.com/course/rome-avanti-3",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 19,
+          "supportingRows": 14,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1424250095452553238",
@@ -9955,14 +9945,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/anniversary2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/anniversary2026-exact-live-publication-and-full-field-check-20261016.json",
+      "nextActions": []
     }
   ],
   "livePageChecks": [
@@ -11393,7 +11385,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-183",
+  "activeDetailedTourId": null,
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11404,10 +11396,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-183",
-  "latestCompletionAudit": "public/data/sundae2026-completion.json",
-  "nextPriorityTourId": "tour-183",
-  "nextPriorityReason": "One tour at a time: Sundae2026 has core exact LIVE completion evidence. Start Anniversary2026 tour182 only after final Sundae2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/sundae2026-exact-live-publication-and-full-field-check-20261016.json",
+  "activeDetailedReview": null,
+  "latestCompletionAudit": "public/data/anniversary2026-completion.json",
+  "nextPriorityTourId": null,
+  "nextPriorityReason": "All catalogued tours have practical review evidence with documented gaps. Final Anniversary2026 completion LIVE verification and archive-wide corrections/calendar coverage remain.",
+  "latestLiveCompletionAudit": "archive/anniversary2026-exact-live-publication-and-full-field-check-20261016.json",
   "updatedAt": "2026-10-16"
 }
