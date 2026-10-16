@@ -67,3 +67,25 @@ test('an earlier matching video share corrects the posting date without inventin
  assert.ok(r.durationBounds.maxDays>r.durationBounds.minDays);assert.equal(r.durationBounds.start.exact,false);
  assert.equal(r.documentedDateSourceUrl,'https://discord.com/channels/629221606064914442/875784780573184010/996666610255417414');
 });
+
+test('a visible original-post minute narrows duration bounds while its timezone remains unconfirmed',()=>{
+ const c={id:'choco',records:[{...row('a',100,null),time:'1:18.38',achievedAt:'2021-08-08'},{...row('b',90,'2021-08-10T12:00:00.000Z'),submittedAt:'2021-08-10T12:00:00.000Z'}],submissions:[],candidates:[],appearances:[{startDate:'2021-07-28',endDate:'2021-08-11'}]};
+ const e={courseId:'choco',id:'a',playerId:'a',time:'1:18.38',localTimestamp:'2021-08-08T17:07',basis:'reviewed-original-post-local-minute'};
+ applyFinalDates([c],[e]);applyDocumentedDurations([c]);const r=c.records[0];
+ assert.equal(r.finalDate,'2021-08-08');assert.equal(r.documentedAt,null);assert.equal(r.documentedDateTimezone,'unspecified');
+ assert.equal(r.documentedLocalTimestamp,'2021-08-08T17:07');assert.equal(r.documentedDatePrecision,'minute');
+ assert.equal(r.durationBounds.start.earliest,'2021-08-08T03:07:00.000Z');assert.equal(r.durationBounds.start.latest,'2021-08-09T05:08:00.000Z');
+ for(const offset of [-12,0,2,14])for(const second of [0,59.999]){
+  const clock=Date.parse(e.localTimestamp+':00Z')-offset*3600000+second*1000;
+  const actual=(Date.parse('2021-08-10T12:00:00.000Z')-clock)/86400000;
+  assert.ok(actual>=r.durationBounds.minDays && actual<=r.durationBounds.maxDays);
+ }
+ assert.throws(()=>applyFinalDates([c],[{...e,localTimestamp:'2021-08-08T25:07'}]),/does not match/);
+ assert.throws(()=>applyFinalDates([c],[{...e,localTimestamp:'2021-02-30T17:07'}]),/does not match/);
+ assert.throws(()=>applyFinalDates([c],[{...e,timestamp:'2021-08-08T17:07:00Z'}]),/does not match/);
+});
+
+test('a local publication minute after the attributed tour preserves its factual date and retrospective bounds',()=>{
+ const c={id:'late',records:[{id:'a',timeCs:100,finalDate:'2021-08-12',documentedAt:null,documentedLocalTimestamp:'2021-08-12T17:07',documentedDatePrecision:'minute',tourDateRange:{start:'2021-07-28',end:'2021-08-10'}}],submissions:[],candidates:[],appearances:[{startDate:'2021-07-28',endDate:'2021-08-11'}]};
+ applyDocumentedDurations([c]);assert.equal(c.records[0].durationBounds.start.basis,'attributed-tour-window');assert.equal(c.records[0].finalDate,'2021-08-12');
+});
