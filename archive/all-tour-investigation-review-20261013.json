@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 166,
-      "carry-in-and-sparse-history-check": 5,
+      "completed-with-documented-gaps": 167,
       "source-and-publication-review": 4,
-      "candidate-and-source-review": 6
+      "candidate-and-source-review": 6,
+      "carry-in-and-sparse-history-check": 4
     },
-    "practicallyCompletedTours": 166,
-    "toursRequiringInvestigation": 15,
+    "practicallyCompletedTours": 167,
+    "toursRequiringInvestigation": 14,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -97,12 +97,12 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 15,
+        "requiringInvestigation": 14,
         "categories": {
-          "completed-with-documented-gaps": 4,
-          "carry-in-and-sparse-history-check": 5,
+          "completed-with-documented-gaps": 5,
           "source-and-publication-review": 4,
-          "candidate-and-source-review": 6
+          "candidate-and-source-review": 6,
+          "carry-in-and-sparse-history-check": 4
         }
       }
     }
@@ -9005,7 +9005,7 @@
           "url": "https://mktwrs.com/course/snes-donut-plains-3r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 2,
+          "supportingRows": 3,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1089608065063596185",
@@ -9015,11 +9015,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-luigi-raceway",
@@ -9027,7 +9023,7 @@
           "url": "https://mktwrs.com/course/n64-luigi-raceway",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 8,
+          "supportingRows": 12,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1353222746787676162",
@@ -9037,14 +9033,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Compare final opening-day leader and later submissions with sparse WR history; preserve only demonstrated leaders/ties.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/mario2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/mario2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-170",
@@ -11300,16 +11298,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-169",
+  "activeDetailedTourId": "tour-170",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-169",
-  "latestCompletionAudit": "public/data/doctor2026-completion.json",
+  "activeDetailedReview": "tour-170",
+  "latestCompletionAudit": "public/data/mario2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-169",
-  "nextPriorityReason": "One tour at a time: Doctor2026 has core exact LIVE completion evidence. Start Mario2026 tour169 only after final Doctor2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/doctor2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-170",
+  "nextPriorityReason": "One tour at a time: Mario2026 has core exact LIVE completion evidence. Start Ninja2026 tour169 only after final Mario2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/mario2026-exact-live-publication-and-full-field-check-20261015.json"
 }

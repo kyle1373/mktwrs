@@ -1,6 +1,6 @@
 {
   "tourId": "tour-169",
-  "status": "canonical-reconciled-publication-pending",
+  "status": "completed-with-documented-gaps",
   "previousTourFinalLiveVerification": "artifacts/doctor2026-final-live-verification-20261015.json",
   "sourcePreservationAudit": "archive/mario2026-original-preservation-and-source-review-20261015.json",
   "r2FilesVerified": 24,
@@ -9,13 +9,15 @@
     "endExclusive": "2026-03-18T06:00:00Z"
   },
   "nextActions": [
-    "Add Mario2026 WR and movie comparison, supporting results and partial discussion context.",
-    "Protect330fullsource rows and19WRs through clean generation; run relevant tests and production build.",
-    "Publish core and exact LIVE before completion metadata; remain on tour169."
+    "Mario2026 source review and core exact LIVE verified. Verify final completion metadata LIVE before starting sole next Ninja2026 tour169."
   ],
   "sourceReconciliationAudit": "archive/mario2026-posted-results-and-source-clock-reconciliation-20261015.json",
   "all330ExistingSourceRowsRetained": true,
   "all19WrIdsRetained": true,
   "browserReadinessVerified": true,
-  "browserReadinessAudit": "archive/mario2026-preserved-video-browser-readiness-20261015.json"
+  "browserReadinessAudit": "archive/mario2026-preserved-video-browser-readiness-20261015.json",
+  "practicalReviewComplete": true,
+  "publicationPending": false,
+  "livePublicationVerified": true,
+  "livePublicationAudit": "archive/mario2026-exact-live-publication-and-full-field-check-20261015.json"
 }

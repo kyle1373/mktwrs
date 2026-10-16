@@ -1,8 +1,8 @@
 {
   "tourId": "tour-169",
   "tour": "Mario Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "actualTourWindow": {
     "start": "2026-03-04T06:00:00Z",
@@ -55,14 +55,22 @@
     "REMON caption34.99/35.04 conflicts with accepted screenshot34.99/37.04; conflict retained without overwriting valid pair.",
     "Lap34.97 and hypothetical1:11.02 are not completed WR performances.",
     "Broader historical date correction remains a later archive-wide pass.",
-    "Reconciliation, publication, browser readiness and exact LIVE verification pending."
+    "All six preserved movies load in Codex browser; no new uninterrupted continuity certification."
   ],
   "submissionDatePolicy": "Original posting supplies submission date unless contrary evidence is established; retain prior March14 video exception separately from March17 submission and unresolved video-sharing clock.",
   "validation": {
-    "livePublicationVerified": false,
+    "livePublicationVerified": true,
     "fullGeneratedRowsMatched": 330,
-    "fullSourceCollectionsAndAppearancesExact": true
+    "fullSourceCollectionsAndAppearancesExact": true,
+    "livePublicationAudit": "archive/mario2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 20,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 78,
+    "productionAudit": "archive/mario2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
-  "publicationPending": true,
-  "nextTourId": "tour-170"
+  "publicationPending": false,
+  "nextTourId": "tour-170",
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/mario2026-exact-live-publication-and-full-field-check-20261015.json"
 }
