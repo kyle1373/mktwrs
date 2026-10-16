@@ -131,8 +131,11 @@
       "fastestRecoveredAvailableRecording": "1:33.45",
       "recordingPublishedAt": "2023-04-04T01:56:48Z",
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/ninja2023-6bb8456c04ac096129e5.mp4",
-      "priorSampledVideoReviewRetained": false,
-      "freshVisualReview": false
+      "priorSampledVideoReviewRetained": true,
+      "freshVisualReview": false,
+      "resultVerifiedFromLaterReview": true,
+      "laterResultReviewAudit": "archive/ninja2025-carried-wario-video-result-review-20261015.json",
+      "startToFinishContinuityVerified": false
     }
   ],
   "coverage": {
@@ -175,7 +178,7 @@
     "116 preserved original image references checked, including duplicates and one incomplete gameplay image. Twenty-two legacy original attachment recoveries remain unresolved; current accepted receipts and preserved public proofs supply good-enough evidence.",
     "Wins earlier accepted75.83 44.82/31.01 differs from later same-total video44.81/31.02. Later recording does not establish a second reign.",
     "75.50 discussion is a hypothetical perfect-run estimate, not a submitted result.",
-    "Six newly recovered title/source videos have no fresh visual or uninterrupted-race certification; prior Wins75.83 assessment retained by original hash.",
+    "Five newly recovered title/source videos have no fresh visual certification. N’s preserved1:33.45 finish was verified in a later review; uninterrupted-race certification remains unproven. Prior Wins75.83 assessment retained by original hash.",
     "Edited receipts do not establish original media-field or first-share times. Opening only fastest recovered result; slower raw PBs retained."
   ],
   "evidence": [
@@ -187,8 +190,21 @@
     "archive/ninja2023-supporting-history-build-check-20261014.json",
     "archive/ninja2023-completion-label-build-check-20261014.json",
     "archive/ninja2023-completion-label-live-check-20261014.json",
-    "archive/ninja2023-rendered-proof-and-video-live-link-audit-20261014.json"
+    "archive/ninja2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "archive/ninja2025-carried-wario-video-result-review-20261015.json",
+    "archive/ninja2023-later-result-review-description-reconciliation-20261016.json"
   ],
   "nextTourId": "tour-93",
-  "sourceCommit": "03dbeb581c0aa0733e05b93ba1f8fea7b5567043"
+  "sourceCommit": "03dbeb581c0aa0733e05b93ba1f8fea7b5567043",
+  "laterRecordingAssessmentCorrection": {
+    "reviewedAt": "2026-10-16",
+    "courseId": "3ds-wario-shipyard",
+    "result": "1:33.45",
+    "sourceDatesUnchanged": true,
+    "sourceRowsUnchanged": true,
+    "freshVisualReviewThisPass": false,
+    "localAndR2FullMovieShaMatched": true,
+    "uninterruptedRaceCoverageVerified": false,
+    "publicationPending": true
+  }
 }
