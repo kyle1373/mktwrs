@@ -839,6 +839,13 @@ const anniversary2026ProtectedFields=new Set(["athens-dash-3|records|curated-154
 applyReviewedPublicationPatches(courses,{rows:publicationPatches.rows.filter(p=>!p.remove && anniversary2026ProtectedFields.has(p.courseId+"|"+p.collection+"|"+p.id))});
 const anniversary2026=tours.find(t=>t.id==="tour-183" && t.startDate==="2026-09-16");
 if(anniversary2026) anniversary2026.name="Anniversary Tour (2026)";
+// Preserve reviewed Halloween course source fields after legacy derived-field passes.
+const halloween2020ReviewedCourses = new Set(["gba-bowser-s-castle-2r"]);
+applyReviewedPublicationPatches(courses, {rows: publicationPatches.rows.filter(p => !p.remove && halloween2020ReviewedCourses.has(p.courseId))});
+for (const course of courses.filter(c => halloween2020ReviewedCourses.has(c.id))) {
+  if (course.current) course.current = structuredClone(course.records.find(r => r.id === course.current.id) || course.current);
+  course.currentHolders = course.currentHolders.map(holder => structuredClone(course.records.find(r => r.id === holder.id) || holder));
+}
 for (const [name, data] of Object.entries({
   manifest,
   courses,

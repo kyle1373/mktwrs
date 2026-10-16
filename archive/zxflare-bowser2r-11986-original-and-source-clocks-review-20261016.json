@@ -252,17 +252,14 @@
   "existingAppearancesUnchanged": true,
   "generatorSourceRowsAndAggregateMatched": true,
   "generatorNormalization": {
-    "fields": [
-      "current",
-      "currentHolders",
-      "submissions-order"
-    ],
-    "disposition": "Retained pre-existing published current-holder copies and submission order. Full source-row maps match without field normalization; all unrelated source rows unchanged."
+    "fixed": true,
+    "implementation": "Reapply reviewed Bowser2R source fields after derived passes; current-holder copies cloned from reviewed WR rows. Published supporting row order follows generator chronology.",
+    "allSourceRowFieldsUnchangedExceptCurrentPreservation": true
   },
   "allOther179SourceRowsUnchanged": true,
   "all15WrRowsUnchanged": true,
   "productionBuildPassed": true,
-  "productionBuildsPassed": 1,
+  "productionBuildsPassed": 2,
   "renderedRecordingAndSourceClocksVerified": true,
   "browserPlayback": {
     "readyState": 4,
@@ -270,5 +267,13 @@
     "duration": 127.181,
     "width": 1280,
     "height": 720
-  }
+  },
+  "regenerationFixPublicationPending": true,
+  "unrelatedAirshipFidelityFollowUp": "archive/halloween2020-observed-airship-regeneration-drift-20261016.json",
+  "initialLiveVerification": {
+    "passed": false,
+    "reason": "Legacy generator changed reviewed current-holder copies and source order; separate Airship Fortress source drift identified.",
+    "correctedGeneratorCommitPending": true
+  },
+  "screenshot": "artifacts/zxflare11986-preserved-recording-and-source-clocks-20261016.png"
 }
