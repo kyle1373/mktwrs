@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 172,
-      "carry-in-and-sparse-history-check": 3,
+      "completed-with-documented-gaps": 173,
+      "carry-in-and-sparse-history-check": 2,
       "candidate-and-source-review": 5,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 172,
-    "toursRequiringInvestigation": 9,
+    "practicallyCompletedTours": 173,
+    "toursRequiringInvestigation": 8,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -97,10 +97,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 9,
+        "requiringInvestigation": 8,
         "categories": {
-          "completed-with-documented-gaps": 10,
-          "carry-in-and-sparse-history-check": 3,
+          "completed-with-documented-gaps": 11,
+          "carry-in-and-sparse-history-check": 2,
           "candidate-and-source-review": 5,
           "source-and-publication-review": 1
         }
@@ -9317,7 +9317,7 @@
           "url": "https://mktwrs.com/course/wii-coconut-mall",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 4,
+          "supportingRows": 5,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1252349131188469841",
@@ -9327,11 +9327,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "gba-snow-land-r",
@@ -9339,7 +9335,7 @@
           "url": "https://mktwrs.com/course/gba-snow-land-r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 17,
+          "supportingRows": 20,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1124182218407944233",
@@ -9349,14 +9345,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "carry-in-and-sparse-history-check"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/princess2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/princess2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-176",
@@ -11292,16 +11290,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-175",
+  "activeDetailedTourId": "tour-176",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-175",
-  "latestCompletionAudit": "public/data/mii2026-completion.json",
+  "activeDetailedReview": "tour-176",
+  "latestCompletionAudit": "public/data/princess2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-175",
-  "nextPriorityReason": "One tour at a time: Mii2026 has core exact LIVE completion evidence. Start Princess2026 tour175 only after final Mii2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/mii2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-176",
+  "nextPriorityReason": "One tour at a time: Princess2026 has core exact LIVE completion evidence. Start MarioLuigi2026 tour176 only after final Princess2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/princess2026-exact-live-publication-and-full-field-check-20261015.json"
 }
