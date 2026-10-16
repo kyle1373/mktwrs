@@ -9,6 +9,21 @@ test('reigns pause between tours and tied holders end at the same faster submiss
 test('same-timestamp previous best has no invented reign and a personal best earns no WR duration',()=>{
  const c={records:[row('a',100,'2020-01-01T12:00:00Z'),row('b',90,'2020-01-01T12:00:00Z')],submissions:[row('pb',110,'2020-01-02T12:00:00Z')],candidates:[],appearances:[{startDate:'2020-01-01',endDate:'2020-01-03'}]};applyDocumentedDurations([c]);assert.equal(c.records[0].durationDays,0);assert.equal(c.records[1].durationDays,1.75);assert.equal(c.submissions[0].durationDays,0);assert.equal(c.submissions[0].durationBasis,'no-documented-wr-reign');
 });
+test('an already superseded result ends at the known faster evidence rather than a later record',()=>{
+ const first='2020-04-11T11:47:56.969Z',later='2022-01-01T16:55:39.778Z';
+ const c={id:'kalimari',records:[row('previous',7536,first),row('faster',7529,first),row('later',7519,later)],submissions:[row('alias',7536,first,'previous')],candidates:[],appearances:[{startDate:'2020-04-08',endDate:'2020-04-22'},{startDate:'2021-12-29',endDate:'2022-01-12'}]};
+ applyDocumentedDurations([c]);
+ assert.equal(c.records[0].durationDays,0);assert.equal(c.records[0].durationEnd,first);
+ assert.deepEqual(c.records[0].durationBounds.end,{earliest:first,latest:first});
+ assert.equal(c.submissions[0].durationEnd,first);
+ assert.equal(c.records[1].durationEnd,later);
+});
+test('a later retrospective posting retains its source date and the earlier known supersession boundary',()=>{
+ const c={id:'report',records:[row('old-result',100,'2020-01-02T12:00:00.000Z'),row('faster',90,'2020-01-01T12:00:00.000Z'),row('later',80,'2020-01-03T12:00:00.000Z')],submissions:[],candidates:[],appearances:[{startDate:'2020-01-01',endDate:'2020-01-04'}]};
+ applyDocumentedDurations([c]);assert.equal(c.records[0].documentedAt,'2020-01-02T12:00:00.000Z');
+ assert.equal(c.records[0].durationEnd,'2020-01-01T12:00:00.000Z');assert.equal(c.records[0].durationDays,0);
+ assert.deepEqual(c.records[0].durationIntervals,[]);
+});
 test('date-only publications are explicit calculation boundaries; identical footage may inherit a preserved source clock',()=>{
  const r=resolveFinalDate({dateUnresolved:true,dateBasis:'first-screenshot-publication',recordDate:'2020-04-15',evidencePublishedAt:'2020-04-15T05:33:04.238Z',tourDateRange:{end:'2020-04-21'}});assert.equal(r.timestamp,'2020-04-15T05:33:04.238Z');
  const unknown={id:'sheet',playerId:'a',timeCs:100,video:'https://youtu.be/tdI5MQ9C0-Y'};
