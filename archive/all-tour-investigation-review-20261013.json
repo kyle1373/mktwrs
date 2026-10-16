@@ -37,13 +37,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 170,
-      "candidate-and-source-review": 6,
+      "completed-with-documented-gaps": 171,
       "carry-in-and-sparse-history-check": 4,
+      "candidate-and-source-review": 5,
       "source-and-publication-review": 1
     },
-    "practicallyCompletedTours": 170,
-    "toursRequiringInvestigation": 11,
+    "practicallyCompletedTours": 171,
+    "toursRequiringInvestigation": 10,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -97,11 +97,11 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 11,
+        "requiringInvestigation": 10,
         "categories": {
-          "completed-with-documented-gaps": 8,
-          "candidate-and-source-review": 6,
+          "completed-with-documented-gaps": 9,
           "carry-in-and-sparse-history-check": 4,
+          "candidate-and-source-review": 5,
           "source-and-publication-review": 1
         }
       }
@@ -9213,7 +9213,7 @@
           "url": "https://mktwrs.com/course/gba-bowser-s-castle-4",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 10,
+          "supportingRows": 7,
           "pendingCandidates": 1,
           "carriedInWr": {
             "id": "1109324308658004028",
@@ -9223,12 +9223,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Check source standings for missing later WR improvements; sparse counts alone do not prove omissions.",
-            "Review pending candidates using surviving good-enough evidence.",
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "n64-kalimari-desert-2r",
@@ -9246,14 +9241,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Review useful later-day evidence for track-page display; omit slower opening-day PBs."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "candidate-and-source-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/bowser2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/bowser2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-174",
@@ -11297,16 +11294,16 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest source-specific completion reports supersede them."
   ],
-  "activeDetailedTourId": "tour-173",
+  "activeDetailedTourId": "tour-174",
   "completionStatusLiveCheck": {
     "tourId": "tour-96",
     "audit": "archive/mii2023-completion-label-live-check-20261014.json",
     "passed": true
   },
-  "activeDetailedReview": "tour-173",
-  "latestCompletionAudit": "public/data/spring2026-completion.json",
+  "activeDetailedReview": "tour-174",
+  "latestCompletionAudit": "public/data/bowser2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-173",
-  "nextPriorityReason": "One tour at a time: Spring2026 has core exact LIVE completion evidence. Start Bowser2026 tour173 only after final Spring2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/spring2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-174",
+  "nextPriorityReason": "One tour at a time: Bowser2026 has core exact LIVE completion evidence. Start Mii2026 tour174 only after final Bowser2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/bowser2026-exact-live-publication-and-full-field-check-20261015.json"
 }

@@ -1,8 +1,8 @@
 {
   "tourId": "tour-173",
   "tour": "Bowser Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "actualTourWindow": {
     "start": "2026-04-29T06:00:00Z",
@@ -57,13 +57,22 @@
     "Source posting, movie upload and later announcement timestamps are retained separately. Exact first video-sharing clocks are unresolved for the two new downloads.",
     "REMON1:10.78 screenshot has zero coins and its video eight; matching total corroborates the performance claim without proving the identical run.",
     "Broad historical date correction remains a later archive-wide pass.",
-    "Reconciliation, publication, browser readiness and exact LIVE verification pending.",
-    "The additional May2 spreadsheet proof URL for kuRi also failed recovery. Its original imported source row and attachment-upload clock are retained; matching video ID and splits identify the WR source without certifying identical image bytes."
+    "The additional May2 spreadsheet proof URL for kuRi also failed recovery. Its original imported source row and attachment-upload clock are retained; matching video ID and splits identify the WR source without certifying identical image bytes.",
+    "Four MP4 playback versions load in Codex browser; the original N MOV is retained separately. Prior finish assessments remain bounded; no new uninterrupted continuity certification."
   ],
   "submissionDatePolicy": "Source posting supplies submission date unless other evidence proves otherwise. Original filenames, later announcement and movie clocks remain separately preserved.",
   "validation": {
-    "livePublicationVerified": false
+    "livePublicationVerified": true,
+    "fullGeneratedRowsMatched": 539,
+    "livePublicationAudit": "archive/bowser2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 21,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 124,
+    "productionAudit": "archive/bowser2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
-  "publicationPending": true,
-  "nextTourId": "tour-174"
+  "publicationPending": false,
+  "nextTourId": "tour-174",
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/bowser2026-exact-live-publication-and-full-field-check-20261015.json"
 }
