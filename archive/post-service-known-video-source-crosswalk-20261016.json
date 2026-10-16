@@ -2014,9 +2014,31 @@
           "videoPublishedAt": null
         }
       ],
-      "preservedR2ReferencePresent": false,
-      "disposition": "existing-source-needs-original-preservation-review",
-      "freshMediaAvailabilityVerified": false
+      "preservedR2ReferencePresent": true,
+      "disposition": "original-and-playback-preserved-existing-supporting-result-source-dates-retained",
+      "freshMediaAvailabilityVerified": true,
+      "resolved": true,
+      "originalVideoBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-9868-nhspeedy-1Wj2VwU85Kk-f2b74782f0c55564d53b.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=1Wj2VwU85Kk",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "sha256": "f2b74782f0c55564d53b25df56532bc8846d5737e85af91d638204adc975918d",
+        "bytes": 39960336,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-1Wj2VwU85Kk.mp4",
+        "reviewAudit": "archive/nhspeedy-3ds-bowser-castle-r-9868-original-and-source-clocks-20261016.json"
+      },
+      "playbackBackup": {
+        "url": "https://media.mktwrs.com/assets/video/nhspeedy-9868-nhspeedy-1Wj2VwU85Kk-playback-20261016-3e62edfe1c6647d84475.mp4",
+        "originalUrl": "https://www.youtube.com/watch?v=1Wj2VwU85Kk",
+        "kind": "r2-preserved-playback",
+        "status": "available",
+        "sha256": "3e62edfe1c6647d8447544fbe66e6ca87cef42ec24e07b900dbbd73e43c5a8d5",
+        "bytes": 105016114,
+        "preservedOriginalFile": "archive/latest-submission-review-20261004/nhspeedy-1Wj2VwU85Kk-playback-20261016.mp4",
+        "reviewAudit": "archive/nhspeedy-3ds-bowser-castle-r-9868-original-and-source-clocks-20261016.json"
+      },
+      "reviewAudit": "archive/nhspeedy-3ds-bowser-castle-r-9868-original-and-source-clocks-20261016.json"
     },
     {
       "sourceKey": "youtube:WzgLYFp-M_U",
@@ -2300,9 +2322,8 @@
       "freshMediaAvailabilityVerified": false
     }
   ],
-  "publishedR2ReferenceMatches": 36,
+  "publishedR2ReferenceMatches": 37,
   "needsReview": [
-    "youtube:1Wj2VwU85Kk",
     "youtube:xn4cT9ibHhA",
     "youtube:hPlQ2YEtRVU"
   ],
