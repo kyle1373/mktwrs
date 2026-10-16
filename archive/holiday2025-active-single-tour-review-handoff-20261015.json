@@ -1,9 +1,9 @@
 {
   "tourId": "tour-163",
   "tour": "Holiday Tour (2025)",
-  "status": "publication-pending",
+  "status": "completed-with-documented-gaps",
   "historyComplete": false,
-  "practicalReviewComplete": false,
+  "practicalReviewComplete": true,
   "previousTourLiveCompletion": "archive/peachbowser2025-exact-live-publication-and-full-field-check-20261015.json",
   "courses": [
     "gba-snow-land",
@@ -13,8 +13,7 @@
   "endDate": "2025-12-24",
   "adjacentDiscussionSource": "archive/peachbowser2025-preserved-bounded-source-census-20261015.json",
   "nextActions": [
-    "Verify production-rendered comparisons and links.",
-    "Publish exact core commit and verify LIVE before completion."
+    "Verify final completion publication LIVE; then begin only NewYear2026 tour164."
   ],
   "browserRestriction": "Discord only through Codex in-app browser2.",
   "previousTourFinalLiveVerification": "artifacts/peachbowser2025-final-live-verification-20261015.json",
@@ -29,5 +28,8 @@
   "all374SourceRowsRetained": true,
   "all18WrIdsRetained": true,
   "full374SourceRowsMatched": true,
-  "focusedTestsPassed": 20
+  "focusedTestsPassed": 20,
+  "publicationPending": false,
+  "livePublicationVerified": true,
+  "livePublicationAudit": "archive/holiday2025-exact-live-publication-and-full-field-check-20261015.json"
 }

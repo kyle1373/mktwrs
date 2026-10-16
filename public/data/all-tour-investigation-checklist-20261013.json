@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 160,
-      "source-and-publication-review": 9,
+      "completed-with-documented-gaps": 161,
+      "source-and-publication-review": 8,
       "candidate-and-source-review": 7,
       "carry-in-and-sparse-history-check": 5
     },
-    "practicallyCompletedTours": 160,
-    "toursRequiringInvestigation": 21,
+    "practicallyCompletedTours": 161,
+    "toursRequiringInvestigation": 20,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -89,10 +89,10 @@
       },
       "2025": {
         "catalogTours": 26,
-        "requiringInvestigation": 2,
+        "requiringInvestigation": 1,
         "categories": {
-          "completed-with-documented-gaps": 24,
-          "source-and-publication-review": 2
+          "completed-with-documented-gaps": 25,
+          "source-and-publication-review": 1
         }
       },
       "2026": {
@@ -8811,7 +8811,7 @@
           "url": "https://mktwrs.com/course/gba-snow-land",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 0,
+          "supportingRows": 1,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1058253597781000283",
@@ -8821,9 +8821,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify video identity/access and available submission/share clocks; compare fastest recording with WR."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "vancouver-velocity-3",
@@ -8831,7 +8829,7 @@
           "url": "https://mktwrs.com/course/vancouver-velocity-3",
           "firstAppearance": false,
           "wrRows": 2,
-          "supportingRows": 2,
+          "supportingRows": 0,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1332590932134072341",
@@ -8841,12 +8839,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/holiday2025-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/holiday2025-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-164",
@@ -11439,7 +11441,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-163",
+  "activeDetailedTourId": "tour-164",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11450,10 +11452,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-163",
-  "latestCompletionAudit": "public/data/peachbowser2025-completion.json",
-  "nextPriorityTourId": "tour-163",
-  "nextPriorityReason": "One tour at a time: PeachBowser2025 has core exact LIVE completion evidence. Start Holiday2025 tour163 December10–24 only after final PeachBowser LIVE verification.",
-  "latestLiveCompletionAudit": "archive/peachbowser2025-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-164",
+  "latestCompletionAudit": "public/data/holiday2025-completion.json",
+  "nextPriorityTourId": "tour-164",
+  "nextPriorityReason": "One tour at a time: Holiday2025 has core exact LIVE completion evidence. Start NewYear2026 tour164 December24–January7 only after final Holiday LIVE verification.",
+  "latestLiveCompletionAudit": "archive/holiday2025-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }
