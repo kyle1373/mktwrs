@@ -36,13 +36,13 @@
     "historyCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 167,
-      "source-and-publication-review": 4,
+      "completed-with-documented-gaps": 168,
+      "source-and-publication-review": 3,
       "candidate-and-source-review": 6,
       "carry-in-and-sparse-history-check": 4
     },
-    "practicallyCompletedTours": 167,
-    "toursRequiringInvestigation": 14,
+    "practicallyCompletedTours": 168,
+    "toursRequiringInvestigation": 13,
     "years": {
       "2019": {
         "catalogTours": 7,
@@ -96,10 +96,10 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 14,
+        "requiringInvestigation": 13,
         "categories": {
-          "completed-with-documented-gaps": 5,
-          "source-and-publication-review": 4,
+          "completed-with-documented-gaps": 6,
+          "source-and-publication-review": 3,
           "candidate-and-source-review": 6,
           "carry-in-and-sparse-history-check": 4
         }
@@ -9193,7 +9193,7 @@
           "url": "https://mktwrs.com/course/wii-rainbow-road",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 0,
+          "supportingRows": 1,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1229525362023858277",
@@ -9203,10 +9203,7 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Verify carried-in WR against final standings; zero new WRs can be legitimate.",
-            "Find fastest available recording or document unavailable footage, separately from the WR."
-          ]
+          "nextActions": []
         },
         {
           "courseId": "3ds-wario-shipyard",
@@ -9214,7 +9211,7 @@
           "url": "https://mktwrs.com/course/3ds-wario-shipyard",
           "firstAppearance": false,
           "wrRows": 1,
-          "supportingRows": 0,
+          "supportingRows": 2,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1229525504084934686",
@@ -9224,13 +9221,16 @@
           },
           "fasterSupportingLeads": [],
           "implausibleParsedTimes": [],
-          "nextActions": [
-            "Find fastest available recording or document unavailable footage, separately from the WR.",
-            "Use legible existing splits; missing splits alone do not prevent practical closure."
-          ]
+          "nextActions": []
         }
       ],
-      "category": "source-and-publication-review"
+      "category": "completed-with-documented-gaps",
+      "practicalReviewComplete": true,
+      "historyComplete": false,
+      "completionEvidence": "/data/ninja2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/ninja2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-171",
@@ -11434,7 +11434,7 @@
     "Live page row counts verify publication, not every image/video link or original source.",
     "Prior screening clocks/split counts are leads only; latest Halloween, Paris and Winter source-specific reports supersede them."
   ],
-  "activeDetailedTourId": "tour-170",
+  "activeDetailedTourId": "tour-171",
   "completionStatusLiveCheck": {
     "url": "https://mktwrs.com/data/tour-review-status.json?check=a68315a0",
     "completedTourIds": [
@@ -11445,10 +11445,10 @@
     "checkedDuringThisScreening": true,
     "scope": "Completion labels only; original source contents were not newly re-reviewed."
   },
-  "activeDetailedReview": "tour-170",
-  "latestCompletionAudit": "public/data/mario2026-completion.json",
-  "nextPriorityTourId": "tour-170",
-  "nextPriorityReason": "One tour at a time: Mario2026 has core exact LIVE completion evidence. Start Ninja2026 tour169 only after final Mario2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/mario2026-exact-live-publication-and-full-field-check-20261015.json",
+  "activeDetailedReview": "tour-171",
+  "latestCompletionAudit": "public/data/ninja2026-completion.json",
+  "nextPriorityTourId": "tour-171",
+  "nextPriorityReason": "One tour at a time: Ninja2026 has core exact LIVE completion evidence. Start Yoshi2026 tour169 only after final Ninja2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/ninja2026-exact-live-publication-and-full-field-check-20261015.json",
   "updatedAt": "2026-10-15"
 }

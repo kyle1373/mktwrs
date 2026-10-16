@@ -1,8 +1,8 @@
 {
   "tourId": "tour-170",
   "tour": "Ninja Tour (2026)",
-  "status": "reviewed-publication-pending",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "actualTourWindow": {
     "start": "2026-03-18T06:00:00Z",
@@ -53,14 +53,22 @@
     "Two April1 screenshots posted after06UTC belong to the next review window, not Ninja.",
     "Prior movie result assessments retained; uninterrupted race continuity not newly certified.",
     "Broad historical date correction remains a later archive-wide pass.",
-    "Reconciliation, publication, browser readiness and exact LIVE verification pending."
+    "Both preserved movies load in Codex browser; no new uninterrupted continuity certification."
   ],
   "submissionDatePolicy": "Source posting supplies submission date unless other evidence proves otherwise. Original filenames, later announcement and movie clocks remain separately preserved.",
   "validation": {
-    "livePublicationVerified": false,
+    "livePublicationVerified": true,
     "fullGeneratedRowsMatched": 556,
-    "fullSourceCollectionsAndAppearancesExact": true
+    "fullSourceCollectionsAndAppearancesExact": true,
+    "livePublicationAudit": "archive/ninja2026-exact-live-publication-and-full-field-check-20261015.json",
+    "focusedTestsPassed": 21,
+    "productionBuildExitCode": 0,
+    "renderedR2LinksReadable": 93,
+    "productionAudit": "archive/ninja2026-production-build-and-rendered-evidence-link-check-20261015.json",
+    "productionBuildsPassed": 2
   },
-  "publicationPending": true,
-  "nextTourId": "tour-171"
+  "publicationPending": false,
+  "nextTourId": "tour-171",
+  "completedAt": "2026-10-15",
+  "latestLivePublicationAudit": "archive/ninja2026-exact-live-publication-and-full-field-check-20261015.json"
 }
