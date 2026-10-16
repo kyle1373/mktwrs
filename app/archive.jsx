@@ -81,6 +81,7 @@ function EvidenceTimes({ r }) {
     {r.earlierSubmissionReceipt?.publishedAt && <div>Earlier submission receipt: <a href={r.earlierSubmissionReceipt.url} target="_blank" rel="noopener noreferrer">{format(r.earlierSubmissionReceipt.publishedAt)}</a>{r.earlierSubmissionReceipt.originalHumanMessageUnavailableInLiveWindow && <div>Original human submission time remains unverified.</div>}</div>}
     {r.videoSubmittedAt && r.videoSubmittedAt !== r.submittedAt && <div>Video submitted: {r.videoSubmissionSource?.url ? <a href={r.videoSubmissionSource.url} target="_blank" rel="noopener noreferrer">{format(r.videoSubmittedAt)}</a> : format(r.videoSubmittedAt)}</div>}
     {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
+    {r.videoRediscoveredAt && <div>Video rediscovered: {format(r.videoRediscoveredAt)}</div>}
     {shares.map((event, index) => <div key={event.source?.url || index}>
       Video shared: {event.source?.url ? <a href={event.source.url} target="_blank" rel="noopener noreferrer">{format(event.sharedAt)}</a> : format(event.sharedAt)}
     </div>)}
@@ -993,6 +994,8 @@ function CoursePage({ data: c, players, tours, manifest }) {
       <ParisSupportingResults results={c.vacation2026SupportingResults} players={players} tourLabel="Vacation Tour (2026)" />
       <HalloweenRecording comparison={c.summer2025Recording} players={players} tourLabel="Summer Tour (2025)" completed={c.summer2025Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.summer2025SupportingResults} players={players} tourLabel="Summer Tour (2025)" />
+      <HalloweenRecording comparison={c.summer2026Recording} players={players} tourLabel="Summer Tour (2026)" completed={c.summer2026Recording?.practicalReviewComplete === true} />
+      <ParisSupportingResults results={c.summer2026SupportingResults} players={players} tourLabel="Summer Tour (2026)" />
       <HalloweenRecording comparison={c.sundae2025Recording} players={players} tourLabel="Sundae Tour (2025)" completed={c.sundae2025Recording?.practicalReviewComplete === true} />
       <ParisSupportingResults results={c.sundae2025SupportingResults} players={players} tourLabel="Sundae Tour (2025)" />
       <HalloweenRecording comparison={c.anniversary2025Recording} players={players} tourLabel="Anniversary Tour (2025)" completed={c.anniversary2025Recording?.practicalReviewComplete === true} />
