@@ -3,7 +3,7 @@
   "sourceCommit": "8068ad57b4a3001c0618d9d55f456092a7aa7e7c",
   "screeningComplete": true,
   "historyCertifiedThrough": null,
-  "activeDetailedReview": "tour-180",
+  "activeDetailedReview": "tour-181",
   "scope": {
     "catalogEndExclusive": "2026-09-30",
     "currentCatalogGap": "2026-09-30 through 2026-10-13 must still be catalogued and reviewed"
@@ -33,9 +33,9 @@
     "renderedHistoryCountsMatch": 142,
     "categories": {
       "not-applicable": 2,
-      "completed-with-documented-gaps": 177,
-      "carry-in-and-sparse-history-check": 2,
+      "completed-with-documented-gaps": 178,
       "candidate-and-source-review": 1,
+      "carry-in-and-sparse-history-check": 1,
       "source-and-publication-review": 1
     },
     "years": {
@@ -91,11 +91,11 @@
       },
       "2026": {
         "catalogTours": 19,
-        "requiringInvestigation": 4,
+        "requiringInvestigation": 3,
         "categories": {
-          "completed-with-documented-gaps": 15,
-          "carry-in-and-sparse-history-check": 2,
+          "completed-with-documented-gaps": 16,
           "candidate-and-source-review": 1,
+          "carry-in-and-sparse-history-check": 1,
           "source-and-publication-review": 1
         }
       }
@@ -110,8 +110,8 @@
       "noLinkedFootage": 77,
       "sparseCourseHistory": 98
     },
-    "practicallyCompletedTours": 177,
-    "toursRequiringInvestigation": 4
+    "practicallyCompletedTours": 178,
+    "toursRequiringInvestigation": 3
   },
   "tours": [
     {
@@ -18602,7 +18602,7 @@
           "url": "https://mktwrs.com/course/athens-dash",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 23,
+          "supportingRows": 12,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1279827290620035093",
@@ -18618,11 +18618,7 @@
           "linkedVideoRows": 2,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "athens-dash",
             "checkedAt": "2026-10-13T18:38:28.488017+00:00",
@@ -18646,7 +18642,7 @@
           "url": "https://mktwrs.com/course/athens-dash-2r",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 14,
+          "supportingRows": 5,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1424248853317550081",
@@ -18662,11 +18658,7 @@
           "linkedVideoRows": 0,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Find the fastest available recording or document unavailable footage separately from the WR.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "athens-dash-2r",
             "checkedAt": "2026-10-13T18:38:28.488215+00:00",
@@ -18690,7 +18682,7 @@
           "url": "https://mktwrs.com/course/squeaky-clean-sprint",
           "firstAppearance": false,
           "wrRows": 0,
-          "supportingRows": 32,
+          "supportingRows": 16,
           "pendingCandidates": 0,
           "carriedInWr": {
             "id": "1424247778175090801",
@@ -18706,11 +18698,7 @@
           "linkedVideoRows": 1,
           "videoRowsWithoutKnownUploadShareOrSubmissionClock": 0,
           "remoteOnlyDiscordWrImages": 0,
-          "nextActions": [
-            "Check the carried-in record and final standings; zero new WRs may be legitimate.",
-            "Check fastest footage, access, and original upload/share/submission dates; preserve available originals on R2.",
-            "Finish tour source coverage and verify the public tour section before marking practical completion."
-          ],
+          "nextActions": [],
           "liveCheck": {
             "courseId": "squeaky-clean-sprint",
             "checkedAt": "2026-10-13T18:38:34.420823+00:00",
@@ -18729,8 +18717,13 @@
           "oneDayRangeDiscrepancyRows": 0
         }
       ],
-      "practicalReviewComplete": false,
-      "category": "carry-in-and-sparse-history-check"
+      "practicalReviewComplete": true,
+      "category": "completed-with-documented-gaps",
+      "historyComplete": false,
+      "completionEvidence": "/data/vacation2026-completion.json",
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/vacation2026-exact-live-publication-and-full-field-check-20261015.json",
+      "nextActions": []
     },
     {
       "id": "tour-181",
@@ -19127,10 +19120,10 @@
     "completionLabelLiveVerified": true,
     "liveCompletionLabelAudit": "archive/sky2022-completion-label-live-publication-check-20261013.json"
   },
-  "activeDetailedTourId": "tour-180",
-  "latestCompletionAudit": "public/data/sunshine2026-completion.json",
+  "activeDetailedTourId": "tour-181",
+  "latestCompletionAudit": "public/data/vacation2026-completion.json",
   "updatedAt": "2026-10-15",
-  "nextPriorityTourId": "tour-180",
-  "nextPriorityReason": "One tour at a time: Sunshine2026 has core exact LIVE completion evidence. Start Vacation2026 tour180 only after final Sunshine2026 LIVE verification.",
-  "latestLiveCompletionAudit": "archive/sunshine2026-exact-live-publication-and-full-field-check-20261015.json"
+  "nextPriorityTourId": "tour-181",
+  "nextPriorityReason": "One tour at a time: Vacation2026 has core exact LIVE completion evidence. Start Summer2026 tour181 only after final Vacation2026 LIVE verification.",
+  "latestLiveCompletionAudit": "archive/vacation2026-exact-live-publication-and-full-field-check-20261015.json"
 }
