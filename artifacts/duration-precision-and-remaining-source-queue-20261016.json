@@ -2818,7 +2818,7 @@
       "time": "0:34.81",
       "source": "https://discord.com/channels/629221606064914442/636461740162416640/702624415082610695",
       "date": "2020-04-22",
-      "dateBasis": "submittedAt",
+      "dateBasis": "reviewed-original-discord-submission",
       "bounds": {
         "minDays": 1.5426540972222222,
         "maxDays": 3.6259874305555555,
@@ -2841,7 +2841,7 @@
       "time": "0:34.72",
       "source": "https://discord.com/channels/629221606064914442/636461740162416640/705365794720317470",
       "date": "2020-04-25",
-      "dateBasis": "source-date",
+      "dateBasis": "reviewed-community-reported-run-date",
       "bounds": {
         "minDays": 1.2118641203703704,
         "maxDays": 3.295197453703704,
@@ -3225,6 +3225,17 @@
         },
         "basis": "attributed-tour-window"
       }
+    }
+  ],
+  "verifiedTourDateReviews": [
+    {
+      "tourId": "tour-16",
+      "currentCanonicalDatesChecked": 30,
+      "sourceClockRows": 29,
+      "reportedOriginalDayRows": 1,
+      "dateValuesChanged": 0,
+      "historyComplete": false,
+      "artifact": "artifacts/trick2020-current-record-date-source-audit-20261016.json"
     }
   ]
 }
