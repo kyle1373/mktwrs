@@ -1,7 +1,7 @@
 {
   "tourId": "tour-163",
   "tour": "Holiday Tour (2025)",
-  "status": "pending-final-previous-live-verification",
+  "status": "publication-pending",
   "historyComplete": false,
   "practicalReviewComplete": false,
   "previousTourLiveCompletion": "archive/peachbowser2025-exact-live-publication-and-full-field-check-20261015.json",
@@ -13,10 +13,21 @@
   "endDate": "2025-12-24",
   "adjacentDiscussionSource": "archive/peachbowser2025-preserved-bounded-source-census-20261015.json",
   "nextActions": [
-    "Start only after final exact PeachBowser2025 LIVE verification.",
-    "Review this tour alone using original source postings and separate movie clocks.",
-    "Review this next tour’s saved submissions and discussion within its actual date window.",
-    "Publish completion evidence and verify exact LIVE before moving onward."
+    "Verify production-rendered comparisons and links.",
+    "Publish exact core commit and verify LIVE before completion."
   ],
-  "browserRestriction": "Discord only through Codex in-app browser2."
+  "browserRestriction": "Discord only through Codex in-app browser2.",
+  "previousTourFinalLiveVerification": "artifacts/peachbowser2025-final-live-verification-20261015.json",
+  "sourcePreservationAudit": "archive/holiday2025-original-preservation-and-source-review-20261015.json",
+  "boundedSourceCensus": "archive/holiday2025-preserved-bounded-source-census-20261015.json",
+  "actualTourWindow": {
+    "start": "2025-12-10T06:00:00Z",
+    "endExclusive": "2025-12-24T06:00:00Z"
+  },
+  "r2FilesVerified": 6,
+  "sourceReconciliationAudit": "archive/holiday2025-posted-results-and-source-clock-reconciliation-20261015.json",
+  "all374SourceRowsRetained": true,
+  "all18WrIdsRetained": true,
+  "full374SourceRowsMatched": true,
+  "focusedTestsPassed": 20
 }
