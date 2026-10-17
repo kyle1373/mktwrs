@@ -35,7 +35,9 @@
     "archive/la2021-additional-recordings-r2-preservation-20261013.json",
     "archive/la2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/la2021-image-source-publication-crosswalk-20261013.json",
-    "archive/la2021-opening-day-policy-generation-check-20261013.json"
+    "archive/la2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/la2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/la2021-nu10653-sheet-video-date-association-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/la-2021-reconciliation.json",
@@ -82,7 +84,8 @@
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
-    "Two slower Wins completed originals preserved with prior footage review retained. Exact race dates and inaccessible originals remain qualified."
+    "Two slower Wins completed originals preserved with prior footage review retained. Exact race dates and inaccessible originals remain qualified.",
+    "All four stored video objects passed full SHA256 and byte-length checks. Selected 1:06.61 and 1:18.48 footage remains slower than the final WRs. Nu11’s unavailable Twitter reference is preserved separately from worksheet 1:06.53; that worksheet date now follows the identical original 15:17:33 UTC Discord result. Canonical WR dates and durations remain unchanged."
   ],
   "validation": {
     "liveSnapshotRows": 237,
@@ -99,5 +102,17 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/la2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/la2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "80b76f165fe04c10794c30f3fd74e60f88975704"
+  "sourceCommit": "80b76f165fe04c10794c30f3fd74e60f88975704",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T04:54:47.566489+00:00",
+    "audit": "artifacts/la2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 4,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "unavailableNu11OriginalVideoRecoveryUnresolved": true,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  },
+  "worksheetDateAssociationReview": "artifacts/la2021-nu10653-sheet-video-date-association-review-20261016.json"
 }
