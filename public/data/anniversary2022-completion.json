@@ -2,7 +2,7 @@
   "tourId": "tour-79",
   "tour": "Anniversary Tour (2022)",
   "status": "in-progress-source-revalidation",
-  "completedAt": "2026-10-13",
+  "completedAt": null,
   "practicalReviewComplete": false,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -24,7 +24,7 @@
       "screenshotSubmittedAt": "2022-10-05T06:15:04.738Z",
       "achievedAt": null,
       "priorLapAndFinishVideoReviewRetained": true,
-      "freshFinalVisualReview": false,
+      "freshFinalVisualReview": true,
       "additionalPreservedVerifiedRecording": "1:14.37",
       "openingTimedSubmissionRecovered": false,
       "earlier1433VideoPublishedAt": "2022-09-26T12:41:34.000Z"
@@ -42,7 +42,7 @@
       "freshFinishReview": true,
       "openingTimedSubmissionRecovered": true,
       "openingFastestRecoveredSupportingResult": "Nu11 1:23.79",
-      "openingFastestRecoveredCanonicalResult": "Nu111:23.79"
+      "openingFastestRecoveredCanonicalResult": "Nu11 1:23.79"
     }
   ],
   "coverage": {
@@ -88,7 +88,7 @@
     "Berlinfinal1:14.32 assigned by final announcement; October5video06:11:46 and screenshot06:15:04 follow06UTCrollover. Exact race relation to rollover unproved; the page states this qualification.",
     "Singapore original earlier human submission missing. Survivingreceipt16:13:46.531 and actualvideo command16:21:59.644 onSeptember29 shown separately; legacy inferredhumanclock is not exposed as verified.",
     "Singapore deviceSeptember28 and Berlinfinal deviceOctober5 dates are local unverified clocks, not exact UTC achievements.",
-    "Berlin1:14.37 and Singapore1:22.99 finishes freshly read. Berlinfinal1:14.32 prior original-video lap/finish review retained. Full decode/byte checks do not certify uninterrupted continuity.",
+    "Berlin1:14.37 and Singapore1:22.99 finishes freshly read. Berlinfinal1:14.32 original-video lap/finish review retained and original final-result image freshly read. Full decode/byte checks do not certify uninterrupted continuity.",
     "Complete worldwide/intermediate chronology and fastest-recording exhaustiveness are unproved. Missing sources and opening evidence remain qualified.",
     "Zed late command1:14.56 and screenshot1:14.59 retained separately with visible mismatch note. Neither is promoted as a WR.",
     "Nu11 Berlin14.33 originalSeptember26recording now preserved and verified; race achievement clock remains unknown.",
@@ -119,10 +119,12 @@
     "artifacts/anniversary2022-progression-source-receipt-r2-integrity-20261017.json",
     "artifacts/anniversary2022-nu37-preserved-finish-frame-r2-integrity-20261017.json",
     "artifacts/anniversary2022-nu-final-berlin-original-image-r2-integrity-20261017.json",
-    "artifacts/anniversary2022-published-progression-proof-r2-integrity-20261017.json"
+    "artifacts/anniversary2022-published-progression-proof-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-original-workbook-and-opening-source-review-20261017.json",
+    "artifacts/anniversary2022-workbook-and-opening-context-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-80",
-  "sourceCommit": "368870e461611a969e152eaabca01910f1b5ce2e",
+  "sourceCommit": "986c2573c638931039ab7a271bf78957b5b84401",
   "previousReviewCompletedAt": "2026-10-13",
   "previousPracticalReviewComplete": true,
   "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": false,
@@ -149,7 +151,8 @@
       "proofR2": "https://media.mktwrs.com/assets/proof/anniversary2022-opening-1022114439417315338-42af96a6bcd8508371e6.png",
       "allRetrievedOpeningResultsSlower": true,
       "firstDayEnd": "2022-09-22T06:00:00.000Z",
-      "wrProfileNotCreated": true
+      "wrProfileNotCreated": false,
+      "canonicalRecordPublished": true
     }
   },
   "latestOriginalWorksheetSourceRecovery": {
@@ -174,5 +177,36 @@
     "firstDayPolicyRespected": true,
     "fullWorldwideHistoryProven": false,
     "availableCanonicalProofsOnR2": 12
+  },
+  "currentPublishedValidation": {
+    "checkedAt": "2026-10-17T20:22:58.197087+00:00",
+    "documentedCanonicalWrRows": 13,
+    "documentedBerlinWrRows": 8,
+    "documentedSingaporeWrRows": 5,
+    "allCanonicalDatesAndDurationsVerified": true,
+    "availableCanonicalProofsOnR2": 12,
+    "acceptedReceiptOnlyCanonicalRows": 1,
+    "originalRecordingsFullyDecoded": 9,
+    "knownWorksheetRowsDated": 92,
+    "knownWorksheetRows": 93,
+    "liveVerificationEvidence": "artifacts/anniversary2022-recovered-record-progression-live-verification-20261017.json",
+    "sourceGapEvidence": "artifacts/anniversary2022-original-workbook-and-opening-source-review-20261017.json",
+    "sourceGapPreservationEvidence": "artifacts/anniversary2022-workbook-and-opening-context-r2-integrity-20261017.json",
+    "nextTourStarted": false
+  },
+  "latestRemainingWorksheetSourceCheck": {
+    "checkedAt": "2026-10-17T20:22:58.197087+00:00",
+    "reviewArtifact": "artifacts/anniversary2022-original-workbook-and-opening-source-review-20261017.json",
+    "originalWorkbookCommentsAndHyperlinksChecked": true,
+    "additionalDateRecovered": false,
+    "additionalOpeningRunRecovered": false,
+    "remainingUndatedWorksheetRows": [
+      {
+        "courseId": "berlin-byways-3",
+        "sheetId": "sheet-AOZ40",
+        "playerId": "troy",
+        "time": "1:14.75"
+      }
+    ]
   }
 }

@@ -1,0 +1,123 @@
+{
+  "tourId": "tour-79",
+  "checkedAt": "2026-10-17T20:21:47.074210+00:00",
+  "sourceCommit": "986c2573c638931039ab7a271bf78957b5b84401",
+  "originalWorkbook": {
+    "workbook": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/raw/course-leaderboard.xlsx",
+    "sha256": "05a25ab34e270adb69ed030330496733c3e252ab7aa6785b133a51a56da30cbe",
+    "sheet": "Admin Panel",
+    "range": "AOZ40:APG40",
+    "cells": [
+      {
+        "cell": "AOZ40",
+        "value": "Troy",
+        "formula": null
+      },
+      {
+        "cell": "APA40",
+        "value": "01:14.75",
+        "formula": null
+      },
+      {
+        "cell": "APB40",
+        "value": "74075",
+        "formula": "IFERROR(__xludf.DUMMYFUNCTION(\"IFERROR(index(SPLIT(APA40, \"\":.\"\"), 0, 3)+index(SPLIT(APA40, \"\":.\"\"), 0, 2)*1000+index(SPLIT(APA40, \"\":.\"\"), 0, 1)*60000,\"\"\"\")\"),74075.0)"
+      },
+      {
+        "cell": "APC40",
+        "value": "-",
+        "formula": null
+      },
+      {
+        "cell": "APD40",
+        "value": "-",
+        "formula": null
+      },
+      {
+        "cell": "APE40",
+        "value": null,
+        "formula": null
+      },
+      {
+        "cell": "APF40",
+        "value": null,
+        "formula": null
+      },
+      {
+        "cell": "APG40",
+        "value": null,
+        "formula": null
+      }
+    ],
+    "hyperlinks": [],
+    "comments": [],
+    "conclusion": "Preserved original workbook supplies no date, media, hyperlink, or comment for Troy 1:14.75. Capture date is not an achievement date."
+  },
+  "openingBerlinTextSearch": {
+    "query": "Berlin after:2022-09-20 before:2022-09-23",
+    "results": 3,
+    "resultText": "3 Results\nFilters (2)\nSort\ntt-submission\ntt-submission\n\ud83c\udfc1 TIME TRIAL\nNHSpeedy\n used \nlisttracks\nMKT Time Trial Bot\nAPP\n \u2014 \n9/22/22, 1:13 PM\nThursday, September 22, 2022 at 1:13 PM\nHere is a list of all the tracks that have been set\n\nbb3 - Berlin Byways 3\nss2 - Singapore Speedway 2\ntt-announcements\ntt-announcements\n\ud83c\udfc1 TIME TRIAL\nNHSpeedy\n \u2014 \n9/22/22, 1:11 PM\nThursday, September 22, 2022 at 1:11 PM\nThis tour's time trials feature the debut of Singapore Speedway 2 and Berlin Byways 3. Best of luck to everybody grinding this tour!\ntt-submission\ntt-submission\n\ud83c\udfc1 TIME TRIAL\nStarin\n \u2014 \n9/22/22, 6:17 AM\nThursday, September 22, 2022 at 6:17 AM\nidk the best strat of Berlin",
+    "additionalDatedRunFound": false
+  },
+  "openingDiscussionImageSearch": {
+    "count": 1,
+    "messages": [
+      {
+        "attachments": [
+          "https://cdn.discordapp.com/attachments/654461601507966976/1022042063790948362/Cups.png?ex=6ad51998&is=6ad3c818&hm=0c7827c453fba237e61131ed16314259173e3cf4e31fd89205c39afb6a725b06&"
+        ],
+        "id": "search-result-1022042367823450143",
+        "text": "Trash\ud83d\udeae\u00a0[VIBE],\u00a0\nServer Tag: VIBE\nVIBE\n \u2014 \n9/21/22, 12:11 AM\nWednesday, September 21, 2022 at 12:11 AM",
+        "time": "2022-09-21T07:11:29.118Z"
+      }
+    ],
+    "query": "in:tt-discussion has:image after:2022-09-20 before:2022-09-23"
+  },
+  "openingCupContextVisualReview": {
+    "imageAttachmentId": "1022042063790948362",
+    "sourceMessageId": "1022042367823450143",
+    "postedAt": "2022-09-21T07:11:29.118Z",
+    "visible": "First five cups and their bonus challenges. Luigi Cup shows a time trial; this is cup context, not a race-result screenshot.",
+    "additionalDatedRunFound": false,
+    "exactUnlockChronologyProven": false
+  },
+  "newEvidenceObjects": [
+    {
+      "path": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/anniversary2022-troy-original-workbook-row-review-20261017.json",
+      "key": "assets/evidence/anniversary2022-anniversary2022-troy-original-workbook-row-review-20261017-a7cd3f58ede7e1cf2b26.json",
+      "url": "https://media.mktwrs.com/assets/evidence/anniversary2022-anniversary2022-troy-original-workbook-row-review-20261017-a7cd3f58ede7e1cf2b26.json",
+      "sha256": "a7cd3f58ede7e1cf2b2641b411d91be5b426f9056a0d7612fc9129fe2d50bf55",
+      "bytes": 1267,
+      "contentType": "application/json"
+    },
+    {
+      "path": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/anniversary2022-opening-discussion-image-search-20261017.json",
+      "key": "assets/evidence/anniversary2022-anniversary2022-opening-discussion-image-search-20261017-2de9d337fbd91b2a5b76.json",
+      "url": "https://media.mktwrs.com/assets/evidence/anniversary2022-anniversary2022-opening-discussion-image-search-20261017-2de9d337fbd91b2a5b76.json",
+      "sha256": "2de9d337fbd91b2a5b768412f3b6e85ea7f0c64dc3623d432a5b30e13672d468",
+      "bytes": 568,
+      "contentType": "application/json"
+    },
+    {
+      "path": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/anniversary2022-opening-cup-context-1022042063790948362.png",
+      "key": "assets/evidence/anniversary2022-anniversary2022-opening-cup-context-1022042063790948362-f9b75aa94c3b5517145d.png",
+      "url": "https://media.mktwrs.com/assets/evidence/anniversary2022-anniversary2022-opening-cup-context-1022042063790948362-f9b75aa94c3b5517145d.png",
+      "sha256": "f9b75aa94c3b5517145d9f1cb4598ecd83cacc90db0cd43d0df4ff27f907bbb3",
+      "bytes": 22543453,
+      "contentType": "image/png"
+    }
+  ],
+  "all93WorksheetRowsDated": false,
+  "knownWorksheetRowsDated": 92,
+  "unresolvedSourceDate": {
+    "sheetId": "sheet-AOZ40",
+    "playerId": "troy",
+    "time": "1:14.75",
+    "inventedDate": false
+  },
+  "historyComplete": false,
+  "nextTourStarted": false,
+  "nativeDiscordUsed": false,
+  "mediaTabsOpened": false,
+  "r2IntegrityArtifact": "artifacts/anniversary2022-workbook-and-opening-context-r2-integrity-20261017.json"
+}
