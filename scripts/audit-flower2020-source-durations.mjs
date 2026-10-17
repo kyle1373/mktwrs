@@ -12,18 +12,30 @@ const files=['archive/flower-2020-discussion-census.json','archive/flower-2020-o
  'archive/flower-2020-server-images-census.json',
  'artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json',
  'archive/flower-2020-server-links-census.json',
- 'artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json'];
+ 'artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json',
+ 'artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json'];
 const messages=[...read(files[0]),...read(files[1]),...read(files[6]),...read(files[8])],c=read('public/data/courses/'+courseId+'.json');
 const clock=id=>new Date(Number((BigInt(id)>>22n)+1420070400000n)).toISOString();
 const refs=r=>[r.source,...r.additionalSources||[]].filter(Boolean);
 const reference=(r,m)=>refs(r).some(s=>s.messageId===m.id.split('-').at(-1)||s.url?.endsWith('/'+m.id.split('-').at(-1)));
-const rows=[],pending=[],omissions=[];const changes=read(files[3]),sheetProofReview=read(files[5]),tomeReview=read(files[7]),ryuReview=read(files[9]);
+const rows=[],pending=[],omissions=[];const changes=read(files[3]),sheetProofReview=read(files[5]),tomeReview=read(files[7]),ryuReview=read(files[9]),hiltonReview=read(files[10]);
 for(const collection of ['records','submissions','candidates'])for(const r of c[collection]||[]){
  if(r.finalDate&&r.finalDate>'2020-05-20')continue;
  assert.ok(Number.isFinite(r.durationDays)&&r.durationDays>=0,r.id+' duration');
  let evidence=null;
- const override=[...changes.overrides,...sheetProofReview.overrides,...tomeReview.overrides,...ryuReview.overrides].find(e=>e.id===r.id&&e.collection===collection);
- if(override?.reviewArtifact===files[9]){
+ const override=[...changes.overrides,...sheetProofReview.overrides,...tomeReview.overrides,...ryuReview.overrides,...hiltonReview.overrides].find(e=>e.id===r.id&&e.collection===collection);
+ if(override?.reviewArtifact===files[10]){
+  const h=hiltonReview,m=messages.find(m=>m.id.endsWith(h.accountFilter.targetMessageId));
+  const profile=read('public/data/players.json').find(p=>p.id==='hilton');
+  assert.equal(profile.discordId,h.accountFilter.discordId);assert.equal(h.knownProfile.discordId,profile.discordId);
+  assert.ok(h.accountFilter.query.includes('from:'+profile.discordId));assert.ok(h.accountFilter.freshBrowserReview);
+  assert.ok(m.text.startsWith(h.accountFilter.observedAuthor+'\n'));assert.ok(m.links.some(l=>l.href.includes('/'+h.accountFilter.targetAttachmentId+'/')));
+  assert.equal(r.playerId,'hilton');assert.equal(r.time,h.visualReview.finishTime);assert.equal(h.visualReview.finishField,'CLEARED');assert.equal(h.visualReview.lapCounter,'2/2');
+  assert.equal(r.documentedAt,clock(h.accountFilter.targetMessageId));assert.equal(r.documentedDateSourceUrl,override.sourceUrl);
+  const bytes=fs.readFileSync(h.originalFile);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),h.sha256);assert.equal(crypto.createHash('md5').update(bytes).digest('hex'),h.r2Etag);
+  assert.ok(h.visualReview.freshVisualReview&&h.r2EtagMatchesSourceMd5);assert.equal(h.publicHead.status,200);assert.equal(h.publicHead.bytes,bytes.length);assert.equal(r.durationDays,0);
+  evidence={basis:override.basis,sourceUrl:override.sourceUrl,messageId:h.accountFilter.targetMessageId,capturedText:m.text,runnerDiscordId:profile.discordId,evidenceImageUrl:h.r2Url};
+ }else if(override?.reviewArtifact===files[9]){
   const cross=ryuReview.rows.find(x=>x.sheetId===r.id),m=messages.find(m=>m.id.endsWith(cross.messageId));
   assert.equal(r.playerId,'ryu');assert.equal(cross.time,r.time);assert.equal(cross.visualValue,r.time);assert.equal(cross.visualField,'New Record');
   assert.equal(clock(cross.messageId),r.documentedAt);assert.equal(r.documentedDateSourceUrl,cross.sourceUrl);assert.ok(m.text.startsWith('Whiplash\n'));
@@ -111,12 +123,12 @@ for(const r of c.records)assert.equal(isReviewedOpeningDay(r,'2020-05-06'),openi
 const expectedOpening=opening.filter(r=>r.timeCs===Math.min(...opening.map(p=>p.timeCs))).map(r=>r.id);
 const actualOpening=openingDayPublication([c],[]).courses[0].records.filter(r=>opening.includes(r)).map(r=>r.id);
 assert.deepEqual(actualOpening,expectedOpening);assert.deepEqual(omissions,[]);
-assert.equal(rows.length,62);assert.equal(rows.filter(r=>r.collection==='records').length,16);assert.equal(pending.length,7);
+assert.equal(rows.length,62);assert.equal(rows.filter(r=>r.collection==='records').length,16);assert.equal(pending.length,6);
 const report={tourId,checkedAt:'2026-10-16',sourceRowsChecked:rows.length,verifiedSourceDates:rows.filter(r=>r.sourceVerified).length,
  recordDatesReviewed:16,missingCanonicalDates:0,missingDurations:0,undatedSupportingRows:pending.length,
  sourceFiles:files.map(file=>({file,sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')})),
  dateRows:rows,reigns,openingLeaderIds:actualOpening,pending,screenshotImprovementsMissingFromProgression:omissions,
  canonicalDateReviewComplete:true,tourWindowDurationReviewComplete:true,preservedTourSourceDateReviewComplete:false,historyComplete:false,
- limitations:['7 worksheet submissions remain undated; do not invent dates or certify all-source completion.','Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.','14 newly matched worksheet original result images, both Tomegome original tweet result images and the Ryu alias/result originals were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified.']};
+ limitations:['6 worksheet submissions remain undated; do not invent dates or certify all-source completion.','Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.','14 newly matched worksheet original result images, both Tomegome original tweet result images and the Ryu alias/result originals were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified.']};
 fs.writeFileSync('public/data/flower2020-source-and-duration-review.json',JSON.stringify(report,null,2)+'\n');
 console.log({rows:rows.length,verified:report.verifiedSourceDates,undated:pending.length,canonicalDatesPass:true,durationsPass:true,openingLeaderIds:actualOpening});

@@ -39,7 +39,8 @@
     "public/data/flower2020-preserved-media-link-review.json",
     "artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json",
     "artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json",
-    "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json"
+    "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
+    "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json"
   ],
   "preservedLocalReview": {
     "source": "archive/flower-2020-review-progress.json",
@@ -50,16 +51,16 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 30,
+    "proofImageUrlsPassed": 31,
     "slowerCompletedRecordingsPreservedOnR2": 3,
     "discussionImageDispositions": 129,
     "additionalServerLeadsReviewed": 10,
     "preservedServerImageHashesVerified": 718,
     "newWorksheetOriginalProofsPreservedOnR2": 14,
-    "additionalOriginalImagesPreservedOnR2": 5
+    "additionalOriginalImagesPreservedOnR2": 6
   },
   "remainingLimitations": [
-    "7 worksheet submissions remain without preserved dates or confirmed dated source crosswalks. All-source date review is incomplete.",
+    "6 worksheet submissions remain without preserved dates or confirmed dated source crosswalks. All-source date review is incomplete.",
     "No original final1:39.00WR recording found; Wins1:39.76 is fastest preserved reviewed completed recording.",
     "Four unavailable server attachments and two stale viewer entries remain explicit gaps.",
     "Deleted opening runner identity and some exact race dates/intermediate order unresolved; source/report/upload/share clocks stay distinct.",
@@ -93,8 +94,8 @@
   "sourceAndDurationReview": {
     "reviewedAt": "2026-10-16",
     "canonicalRecordDatesReviewed": 16,
-    "verifiedSourceDates": 55,
-    "supportingRowsStillUndated": 7,
+    "verifiedSourceDates": 56,
+    "supportingRowsStillUndated": 6,
     "durationAuditPassed": true,
     "evidence": "public/data/flower2020-source-and-duration-review.json",
     "newlyDatedWorksheetEntries": [
@@ -116,14 +117,14 @@
       "sheet-BF14",
       "sheet-BF17",
       "sheet-BF13",
-      "sheet-BF23"
+      "sheet-BF23",
+      "sheet-BF19"
     ],
     "earlierSelfReportDateCorrections": 3,
     "freshWorksheetOriginalProofsReviewed": 14,
     "worksheetProofReview": "artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json",
     "pendingWorksheetIds": [
       "sheet-BF16",
-      "sheet-BF19",
       "sheet-BF26",
       "sheet-BF27",
       "sheet-BF32",
@@ -134,13 +135,15 @@
     "contemporaryRunnerAliasDateMatches": 2,
     "additionalDateEvidence": [
       "artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json",
-      "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json"
-    ]
+      "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
+      "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json"
+    ],
+    "knownAccountFilteredDateMatches": 1
   },
   "nextDateDurationReviewTourId": "tour-17",
   "mediaLinkReview": {
     "evidence": "public/data/flower2020-preserved-media-link-review.json",
-    "uniqueImages": 30,
+    "uniqueImages": 31,
     "uniqueVideos": 4,
     "allPreservedLinksPass": true
   }

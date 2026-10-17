@@ -2,11 +2,11 @@
   "tourId": "tour-17",
   "checkedAt": "2026-10-16",
   "sourceRowsChecked": 62,
-  "verifiedSourceDates": 55,
+  "verifiedSourceDates": 56,
   "recordDatesReviewed": 16,
   "missingCanonicalDates": 0,
   "missingDurations": 0,
-  "undatedSupportingRows": 7,
+  "undatedSupportingRows": 6,
   "sourceFiles": [
     {
       "file": "archive/flower-2020-discussion-census.json",
@@ -47,6 +47,10 @@
     {
       "file": "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
       "sha256": "6b618eba597de550202e9ac1c1e956379326c78bbba5e3b009672be102e43d49"
+    },
+    {
+      "file": "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json",
+      "sha256": "4ac8a308abf63944a19cef8d999bb98064ab012b65833454427bab1142b83f87"
     }
   ],
   "dateRows": [
@@ -425,10 +429,16 @@
       "id": "sheet-BF19",
       "playerId": "hilton",
       "time": "1:39.84",
-      "date": null,
-      "documentedAt": null,
+      "date": "2020-05-19",
+      "documentedAt": "2020-05-19T17:15:00.506Z",
       "creditedWrDays": 0,
-      "sourceVerified": false
+      "sourceVerified": true,
+      "basis": "reviewed-known-runner-account-filter-and-original-completed-result-post",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/712352624304979999",
+      "messageId": "712352624304979999",
+      "capturedText": "cabotsikalut\n — \n5/19/20, 10:15 AM\nTuesday, May 19, 2020 at 10:15 AM",
+      "runnerDiscordId": "518459260485763072",
+      "evidenceImageUrl": "https://media.mktwrs.com/assets/proof/flower2020-hilton-712352623784886302.jpg"
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
@@ -1128,17 +1138,6 @@
       "reason": "Worksheet has no preserved date or proven dated source crosswalk."
     },
     {
-      "id": "sheet-BF19",
-      "playerId": "hilton",
-      "time": "1:39.84",
-      "source": {
-        "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=BF19",
-        "sheet": "Admin Panel",
-        "range": "BF19:BM19"
-      },
-      "reason": "Worksheet has no preserved date or proven dated source crosswalk."
-    },
-    {
       "id": "sheet-BF26",
       "playerId": "ryoma",
       "time": "1:39.94",
@@ -1200,7 +1199,7 @@
   "preservedTourSourceDateReviewComplete": false,
   "historyComplete": false,
   "limitations": [
-    "7 worksheet submissions remain undated; do not invent dates or certify all-source completion.",
+    "6 worksheet submissions remain undated; do not invent dates or certify all-source completion.",
     "Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.",
     "14 newly matched worksheet original result images, both Tomegome original tweet result images and the Ryu alias/result originals were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified."
   ]
