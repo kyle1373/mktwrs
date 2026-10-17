@@ -56,3 +56,10 @@ test('Yoshi 2020 uses reconciled publication clocks across the complete opening 
  assert.deepEqual(openingDayPublication([{records,appearances:[{tourId:'tour-15'}]}],[]).courses[0].records.map(r=>r.id),['before','best','next']);
  assert.equal(isReviewedOpeningDay({...records[1],dateUnresolved:true},'2020-04-08'),false);
 });
+
+test('Trick 2020 uses reconciled source clocks through the following 06 UTC',()=>{
+ const records=[{id:'early',playerId:'a',timeCs:3500,recordDate:'2020-04-22',documentedAt:'2020-04-22T06:00:00.000Z'},
+  {id:'best',playerId:'b',timeCs:3400,recordDate:'2020-04-23',documentedAt:'2020-04-23T05:59:59.000Z'},
+  {id:'next',playerId:'c',timeCs:3300,recordDate:'2020-04-23',documentedAt:'2020-04-23T06:00:00.000Z'}];
+ assert.deepEqual(openingDayPublication([{records,appearances:[{tourId:'tour-16'}]}],[]).courses[0].records.map(r=>r.id),['best','next']);
+});

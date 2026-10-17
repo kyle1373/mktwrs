@@ -1,9 +1,8 @@
 {
   "tourId": "tour-16",
   "tour": "Trick Tour (2020)",
-  "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
+  "status": "date-and-duration-review-complete",
+  "standard": "Documented source dates, accurate credited playable durations, preserved evidence delivery, and one-tour-at-a-time reconciliation. Full worldwide history is not certified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-04-22T06:00:00Z",
@@ -42,7 +41,11 @@
     "archive/trick2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
     "archive/trick2020-preserved-source-index-integrity-20261013.json",
     "archive/trick2020-three-slower-originals-r2-preservation-20261013.json",
-    "archive/trick2020-opening-day-policy-generation-check-20261013.json"
+    "archive/trick2020-opening-day-policy-generation-check-20261013.json",
+    "artifacts/trick2020-original-two-result-tweet-clock-review-20261016.json",
+    "artifacts/trick2020-opening-faster-proof-duration-end-review-20261016.json",
+    "/data/trick2020-source-and-duration-review.json",
+    "/data/trick2020-preserved-media-link-review.json"
   ],
   "preservedLocalReview": {
     "source": "archive/trick-2020-review-progress.json",
@@ -57,10 +60,10 @@
     "proofImageUrlsPassed": 258
   },
   "remainingLimitations": [
-    "Prior completed-race review identifies both final WR totals; fresh uninterrupted-race certification remains absent.",
-    "Some earlier rival chronology and exact race timestamps remain unresolved. Day-one fastest result policy applied; raw omitted rows remain preserved.",
-    "Vanilla originalMay2020 video recovered throughDecember2021 repost; repost is not a new record date.",
-    "Deleted/private/global source material not proven fully recovered."
+    "Tomegome 0:34.72 has an explicitly reported April 25 date, with unknown within-day clock and timezone; its duration bounds remain preserved.",
+    "Opening-day rival order is not fully established; the public page retains only the final fastest opening result, and a verified faster supporting finish ends older record credit without creating a new WR profile.",
+    "Original image/video interpretations are retained from earlier cited reviews; source clocks, tour-duration math and preserved-file delivery were independently checked.",
+    "Private, deleted and unindexed material may remain unrecovered; exhaustive worldwide history is not certified."
   ],
   "validation": {
     "productionBuildPages": 891,
@@ -75,7 +78,51 @@
   "nextTourId": "tour-17",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/trick2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "/data/trick2020-source-and-duration-review.json",
   "sourceDispositionAudit": "archive/trick2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json",
-  "sourceCommit": "205dbcec25264abef358f5da59461f43c2fafcef"
+  "priorCompletionClaim": {
+    "status": "completed-with-documented-gaps",
+    "completedAt": "2026-10-13",
+    "practicalReviewComplete": true,
+    "sourceCommit": "205dbcec25264abef358f5da59461f43c2fafcef",
+    "latestPublicationAudit": "archive/trick2020-final-publication-audit-20261013.json"
+  },
+  "label": "Dates and durations reviewed",
+  "dateDurationReviewComplete": true,
+  "dateDurationReviewCompletedAt": "2026-10-16",
+  "latestEvidenceReconciliation": "2026-10-16",
+  "currentDateReview": {
+    "checkedAt": "2026-10-16",
+    "recordDatesVerified": 30,
+    "dateValuesChanged": 0,
+    "sourceEvidenceUrl": "/data/trick2020-source-and-duration-review.json",
+    "openingDayBoundary": "06:00 UTC through the following 06:00 UTC",
+    "exhaustiveHistoryProven": false
+  },
+  "sourceAndDurationReview": {
+    "checkedAt": "2026-10-16",
+    "sourceRowsChecked": 344,
+    "recordDatesVerified": 30,
+    "submissionDatesVerified": 314,
+    "newlyDatedSheetEntries": [
+      "sheet-R71"
+    ],
+    "explicitReportedDayRecords": 1,
+    "missingDates": 0,
+    "missingDurations": 0,
+    "tourWindowDurationsVerified": true,
+    "preservedTourSourceDateReviewComplete": true,
+    "evidenceUrl": "/data/trick2020-source-and-duration-review.json",
+    "historyComplete": false
+  },
+  "mediaLinkReview": {
+    "checkedAt": "2026-10-16",
+    "uniqueProofImages": 262,
+    "uniquePreservedVideos": 5,
+    "allPreservedLinksPass": true,
+    "evidenceUrl": "/data/trick2020-preserved-media-link-review.json"
+  },
+  "reviewScope": "All 344 currently preserved tour-associated entries: original posting/publication dates, one explicitly reported calendar-day run date, independently verified tour-only credited durations, and attached preserved-media delivery.",
+  "reviewedAgainstCommit": "9fe45c3e68866f4f48c2031dad7fc02df320e5b9",
+  "nextDateDurationReviewTourId": "tour-17"
 }

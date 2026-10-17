@@ -163,3 +163,24 @@ test('unavailable Yoshi sheet image retains only its documented proof upload dat
  assert.equal(r.finalDateBasis,'reviewed-preserved-proof-attachment-upload');
  assert.equal(r.submittedAt,null);assert.equal(r.achievedAt,null);assert.equal(r.durationDays,0);assert.deepEqual(r.source,original);
 });
+
+test('reviewed faster supporting finish ends older credit without granting the submission a WR reign',()=>{
+ const c={id:'course',appearances:[{startDate:'2020-04-22',endDate:'2020-05-06'}],records:[{id:'old',playerId:'a',time:'1:00.00',timeCs:6000,finalDate:'2020-04-22',documentedAt:'2020-04-22T07:00:00.000Z'}],submissions:[{id:'proof',playerId:'a',time:'0:59.00',timeCs:5900,finalDate:'2020-04-22',documentedAt:'2020-04-22T08:00:00.000Z',status:'documented-submission',proofImageVerified:true,source:{url:'https://example.com/proof'}}]};
+ const e={courseId:'course',id:'old',playerId:'a',time:'1:00.00',sourceId:'proof',sourcePlayerId:'a',sourceTime:'0:59.00',sourceStatus:'documented-submission',timestamp:'2020-04-22T08:00:00.000Z',sourceUrl:'https://example.com/proof',reviewArtifact:'review.json'};
+ applyDocumentedDurations([c],[e]);assert.equal(c.records[0].durationEnd,e.timestamp);assert.equal(c.records[0].durationDays,1/24);assert.equal(c.submissions[0].durationDays,0);assert.equal(c.submissions[0].status,'documented-submission');
+ assert.throws(()=>applyDocumentedDurations([c],[{...e,sourceTime:'0:58.00'}]),/does not match/);
+ assert.throws(()=>applyDocumentedDurations([c],[e,e]),/does not match/);
+ c.submissions[0].proofImageVerified=false;assert.throws(()=>applyDocumentedDurations([c],[e]),/does not match/);
+});
+
+test('Trick 2020 earliest original tweet dates the explicit sheet crosswalk and ends the previous reign',()=>{
+ const c=JSON.parse(fs.readFileSync(new URL('../public/data/courses.json',import.meta.url))).find(c=>c.id==='snes-vanilla-lake-1');
+ const evidence=JSON.parse(fs.readFileSync(new URL('../scripts/documented-date-evidence.json',import.meta.url))).filter(e=>e.courseId===c.id);
+ const ends=JSON.parse(fs.readFileSync(new URL('../scripts/documented-supersession-evidence.json',import.meta.url))).filter(e=>e.courseId===c.id);
+ const r=c.records.find(r=>r.id==='896332633972277268'),sheet=c.submissions.find(r=>r.id==='sheet-R71'),source=structuredClone(r.source);
+ applyFinalDates([c],evidence);applyDocumentedDurations([c],ends);
+ assert.equal(r.documentedAt,'2020-05-03T06:27:40.186Z');assert.equal(r.finalDate,'2020-05-03');assert.equal(sheet.documentedAt,r.documentedAt);assert.equal(sheet.finalDate,r.finalDate);
+ assert.equal(Date.parse(r.submittedAt)-Date.parse(r.documentedAt),303701);assert.deepEqual(r.source,source);
+ assert.equal(c.records.find(r=>r.id==='curated-704795880389214269-verified').durationEnd,r.documentedAt);
+ assert.equal(c.records.find(r=>r.id==='curated-702425239707189252-702425239426170991-2020-proof-review').durationEnd,'2020-04-22T08:11:15.473Z');
+});
