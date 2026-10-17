@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:43:02.936146+00:00",
+  "checkedAt": "2026-10-17T03:48:53.367712+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 297,
   "r2BackupNeedsReview": 68,
-  "freshOriginalByteChecks": 2,
+  "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-35",
-  "evidence": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-36",
+  "evidence": "artifacts/cat2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -2780,7 +2780,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "checkedAt": "2026-10-17T03:48:53.367712+00:00",
+      "evidence": "artifacts/cat2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+      "sourceCheck": "yt-dlp: No video could be found in this tweet",
+      "alternativeRecoveryProvenExhaustive": false
     },
     {
       "key": "https://cdn.discordapp.com/attachments/636461740162416640/849587749660000266/video0.mov",
@@ -3950,7 +3954,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "checkedAt": "2026-10-17T03:48:53.367712+00:00",
+      "evidence": "artifacts/cat2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+      "sourceCheck": "yt-dlp: No video could be found in this tweet",
+      "alternativeRecoveryProvenExhaustive": false
     },
     {
       "key": "youtube:OFFJGT-J0w4",
@@ -5781,15 +5789,16 @@
     }
   ],
   "totalOriginalByteChecksInPreservationBatches": 29,
-  "previousPreservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json",
+  "previousPreservationEvidence": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json",
   "knownUnavailableOriginalsReviewed": 14,
-  "newOriginalUploadsInCurrentBatch": 1,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
+  "newOriginalUploadsInCurrentBatch": 0,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 4,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 5,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 9,
+  "sourceNoDownloadableVideoRecoveryGaps": 7,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 4,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 10,
-  "currentBatchUniqueR2FilesVerified": 13,
+  "currentBatchUniqueR2FilesVerified": 12,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 49
+  "originalSourcesStillUnreviewed": 47,
+  "alreadyStoredEarlierTourRepostFilesVerifiedInCurrentBatch": 2
 }
