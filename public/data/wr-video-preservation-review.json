@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T17:47:03.267648+00:00",
+  "checkedAt": "2026-10-17T18:10:31.121449+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 305,
   "r2BackupNeedsReview": 60,
-  "freshOriginalByteChecks": 1,
+  "freshOriginalByteChecks": 3,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
   "currentVideoPreservationTourId": "tour-78",
-  "evidence": "artifacts/bowser2022-final-account-source-and-opening-video-r2-integrity-20261017.json",
+  "evidence": "artifacts/marioluigi2022-original-media-r2-integrity-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1837,7 +1837,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/marioluigi2022-nu11-abe4faf2120f.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T18:10:31.121449+00:00",
+      "sha256": "abe4faf2120ffc00a55ea8c1fb36d9a8c7858e4104ca55ec0089e4bb2fa999a6",
+      "bytes": 32526154,
+      "preservationEvidence": "artifacts/marioluigi2022-original-media-r2-integrity-20261017.json"
     },
     {
       "key": "youtube:fyBuj_BxMuk",
@@ -6299,14 +6303,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/bowser2022-wins4884-original-video-r2-integrity-20261017.json",
-  "newOriginalUploadsInCurrentBatch": 1,
+  "previousPreservationEvidence": "artifacts/bowser2022-final-account-source-and-opening-video-r2-integrity-20261017.json",
+  "newOriginalUploadsInCurrentBatch": 0,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 0,
-  "currentBatchUniqueR2FilesVerified": 5,
+  "currentBatchUniqueR2FilesVerified": 105,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 0,
   "originalSourcesStillUnreviewed": 20,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
@@ -6318,7 +6322,7 @@
   "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
-  "currentBatchNewR2ObjectsUploaded": 4,
+  "currentBatchNewR2ObjectsUploaded": 102,
   "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1,
   "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0,
   "newOriginalEncodingCopiesUploadedInCurrentBatch": 0,
@@ -6371,9 +6375,9 @@
     "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
   },
   "previousCompletedVideoPreservationTourId": "tour-77",
-  "newOriginalImagesPreservedInCurrentBatch": 0,
+  "newOriginalImagesPreservedInCurrentBatch": 98,
   "newFirstLapFramesPreservedInCurrentBatch": 0,
-  "newSourceReceiptObjectsPreservedInCurrentBatch": 1,
+  "newSourceReceiptObjectsPreservedInCurrentBatch": 3,
   "sundaeKnownSourceDateReviewComplete": true,
   "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
   "canonicalR2CoverageReconciliation": {
@@ -6512,5 +6516,55 @@
     "captionMessageId": "1011948030297129022",
     "captionClock": "2022-08-24T10:40:11.508Z",
     "captionTime": "1:26.33"
+  },
+  "latestMarioLuigi2022SourceDateReview": {
+    "evidence": "artifacts/marioluigi2022-source-date-duration-and-original-media-review-20261017.json",
+    "knownWorksheetRowsDated": 101,
+    "totalWorksheetRows": 108,
+    "remainingUndatedWorksheetRows": [
+      {
+        "courseId": "ds-dk-pass",
+        "sheetId": "sheet-ANT15",
+        "playerId": "kuri",
+        "time": "1:34.02"
+      },
+      {
+        "courseId": "ds-dk-pass",
+        "sheetId": "sheet-ANT25",
+        "playerId": "er-tmd-yiu",
+        "time": "1:36.02"
+      },
+      {
+        "courseId": "ds-dk-pass",
+        "sheetId": "sheet-ANT30",
+        "playerId": "er-tmd-yiu",
+        "time": "1:35.55"
+      },
+      {
+        "courseId": "ds-dk-pass",
+        "sheetId": "sheet-ANT35",
+        "playerId": "troy",
+        "time": "1:32.25"
+      },
+      {
+        "courseId": "wii-dk-summit",
+        "sheetId": "sheet-AOB32",
+        "playerId": "er-tmd-yiu",
+        "time": "1:37.71"
+      },
+      {
+        "courseId": "wii-dk-summit",
+        "sheetId": "sheet-AOB33",
+        "playerId": "er-tmd-yiu",
+        "time": "1:36.90"
+      },
+      {
+        "courseId": "wii-maple-treeway-r",
+        "sheetId": "sheet-AOJ42",
+        "playerId": "player-e382bce38389",
+        "time": "1:50.67"
+      }
+    ],
+    "reviewClosed": false
   }
 }

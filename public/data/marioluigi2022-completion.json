@@ -1,9 +1,9 @@
 {
   "tourId": "tour-78",
   "tour": "Mario vs. Luigi Tour (2022)",
-  "status": "completed-with-documented-gaps",
+  "status": "in-progress-source-revalidation",
   "completedAt": "2026-10-13",
-  "practicalReviewComplete": true,
+  "practicalReviewComplete": false,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
@@ -34,8 +34,10 @@
       "recordingDeviceDay": "2022-09-19",
       "achievedAt": null,
       "priorLapAndFinishVideoReviewRetained": true,
-      "freshVisualReview": false,
-      "openingFastestRecoveredSupportingResult": "N1:33.25"
+      "freshVisualReview": true,
+      "openingFastestRecoveredSupportingResult": "N1:33.25",
+      "originalResultTweetPublishedAt": "2022-09-20T16:30:32.000Z",
+      "firstDocumentedAt": "2022-09-20T16:30:32.000Z"
     },
     {
       "id": "wii-maple-treeway-r",
@@ -56,7 +58,12 @@
     "newPublicR2VideoAndFrameObjectsByteVerified": 2,
     "proofLinksRepaired": 42,
     "generatedReviewedRowsCompared": 160,
-    "materialFieldDifferences": 0
+    "materialFieldDifferences": 0,
+    "knownWorksheetRows": 108,
+    "knownWorksheetRowsDated": 101,
+    "remainingUndatedWorksheetRows": 7,
+    "originalResultImageReferencesPreservedOnR2": 98,
+    "originalRecordingsFreshlyFullyDecoded": 3
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -78,6 +85,10 @@
     }
   },
   "remainingLimitations": [
+    "Seven worksheet rows still need original source, identity or course reconciliation. Equal totals from a different named player were not used as proof.",
+    "Retro and Dome surviving own posts are after the tour closed; posting dates are retained instead of inferring earlier race completion dates.",
+    "Newyork MapleTreewayR1:49.29 final screenshot remains valid; MalerMarkus1:50.37 earlier video stays separate.",
+    "Fresh decoded original bytes and sampled finishes are verified. No new uninterrupted frame-by-frame race certification or global source completeness claim.",
     "Global actual achievement order is unproved. Nu11 deviceSeptember19 and ZedSeptember20 first-public-report chronology remain qualified; no UTC race date inferred.",
     "Nu11 sampled original-video start/lap/finish review retained. Current full decode and R2 byte checks do not certify uninterrupted footage continuity.",
     "Maple final Newyork1:49.29 has reviewed screenshot proof, no recovered final footage. MalerMarkus1:50.37 prior preserved recording is shown separately. Nu111:50.09 earlier reference remains unavailable.",
@@ -99,8 +110,64 @@
     "archive/marioluigi2022-nu1113281-original-video-date-reconciliation-20261008.json",
     "archive/marioluigi2022-generated-publication-fidelity-repair-20261013.json",
     "archive/marioluigi2022-completion-label-live-check-20261013.json",
-    "archive/marioluigi2022-rendered-proof-and-video-live-link-audit-20261013.json"
+    "archive/marioluigi2022-rendered-proof-and-video-live-link-audit-20261013.json",
+    "artifacts/marioluigi2022-source-date-duration-and-original-media-review-20261017.json",
+    "artifacts/marioluigi2022-original-media-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-79",
-  "sourceCommit": "9f290aeb20c281c982838379b5b5d67f85a00dae"
+  "sourceCommit": "be7d1b6be7b7d9eecc555d4e27b74a71288c6c46",
+  "previousReviewCompletedAt": "2026-10-13",
+  "previousPracticalReviewComplete": true,
+  "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": false,
+  "remainingUndatedWorksheetRows": [
+    {
+      "courseId": "ds-dk-pass",
+      "sheetId": "sheet-ANT15",
+      "playerId": "kuri",
+      "time": "1:34.02"
+    },
+    {
+      "courseId": "ds-dk-pass",
+      "sheetId": "sheet-ANT25",
+      "playerId": "er-tmd-yiu",
+      "time": "1:36.02"
+    },
+    {
+      "courseId": "ds-dk-pass",
+      "sheetId": "sheet-ANT30",
+      "playerId": "er-tmd-yiu",
+      "time": "1:35.55"
+    },
+    {
+      "courseId": "ds-dk-pass",
+      "sheetId": "sheet-ANT35",
+      "playerId": "troy",
+      "time": "1:32.25"
+    },
+    {
+      "courseId": "wii-dk-summit",
+      "sheetId": "sheet-AOB32",
+      "playerId": "er-tmd-yiu",
+      "time": "1:37.71"
+    },
+    {
+      "courseId": "wii-dk-summit",
+      "sheetId": "sheet-AOB33",
+      "playerId": "er-tmd-yiu",
+      "time": "1:36.90"
+    },
+    {
+      "courseId": "wii-maple-treeway-r",
+      "sheetId": "sheet-AOJ42",
+      "playerId": "player-e382bce38389",
+      "time": "1:50.67"
+    }
+  ],
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T18:10:01.369752+00:00",
+    "reviewArtifact": "artifacts/marioluigi2022-source-date-duration-and-original-media-review-20261017.json",
+    "integrityArtifact": "artifacts/marioluigi2022-original-media-r2-integrity-20261017.json",
+    "nu11DkSummitEarlierOriginalPublication": "2022-09-20T16:30:32.000Z",
+    "allKnownWorksheetDatesProven": false
+  }
 }
