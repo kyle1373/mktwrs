@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T01:49:15.328Z",
+  "checkedAt": "2026-10-17T01:55:22.135Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 281,
-  "r2BackupNeedsReview": 84,
+  "r2BackupRegistered": 283,
+  "r2BackupNeedsReview": 82,
   "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-3",
-  "evidence": "artifacts/halloween2019-two-downloaded-wr-originals-r2-preservation-20261016.json",
+  "currentVideoPreservationTourId": "tour-4",
+  "evidence": "artifacts/paris2019-two-original-wr-videos-r2-preservation-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -2461,7 +2461,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "unavailableSourceReview": {
+        "key": "youtube:yRKA5dVpRjo",
+        "url": "https://www.youtube.com/watch?v=yRKA5dVpRjo",
+        "checkedAt": "2026-10-17T01:55:05.401Z",
+        "method": "yt-dlp original download attempt",
+        "result": "This video is unavailable",
+        "freshCheck": true
+      }
     },
     {
       "key": "x:1194323905378312192",
@@ -2491,7 +2499,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "unavailableSourceReview": {
+        "key": "youtube:9l0p1IqYOuA",
+        "url": "https://www.youtube.com/watch?v=9l0p1IqYOuA",
+        "checkedAt": "2026-10-04",
+        "result": "Original source unavailable",
+        "freshCheck": false,
+        "basis": "Retained dated source check in the canonical record notes."
+      }
     },
     {
       "key": "youtube:4LoJV-hEzzI",
@@ -2715,8 +2731,8 @@
           "documentedAt": "2019-11-06T08:41:09.000Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/paris2019-tomegome-1191998946656129025-398b6df76e16.mp4",
+      "status": "verified-original-bytes-on-r2"
     },
     {
       "key": "x:1192096073801535489",
@@ -2730,8 +2746,8 @@
           "documentedAt": "2019-11-06T15:07:06.000Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/paris2019-tomegome-1192096073801535489-21085d7190da.mp4",
+      "status": "verified-original-bytes-on-r2"
     },
     {
       "key": "youtube:RQmwvCmwUFY",
@@ -2746,7 +2762,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "unavailableSourceReview": {
+        "key": "youtube:RQmwvCmwUFY",
+        "url": "https://www.youtube.com/watch?v=RQmwvCmwUFY",
+        "checkedAt": "2026-10-04",
+        "result": "Original source unavailable",
+        "freshCheck": false,
+        "basis": "Retained dated source check in the canonical record notes."
+      }
     },
     {
       "key": "x:1194827497973538816",
@@ -5493,5 +5517,8 @@
       "r2Url": "https://media.mktwrs.com/assets/video/animal2022-sucha-yvr-13071-50d501a98d9e.mp4",
       "status": "r2-backup-registered-not-freshly-verified"
     }
-  ]
+  ],
+  "totalOriginalByteChecksInPreservationBatches": 4,
+  "knownUnavailableOriginalsInCurrentBatch": 3,
+  "previousPreservationEvidence": "artifacts/halloween2019-two-downloaded-wr-originals-r2-preservation-20261016.json"
 }
