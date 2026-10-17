@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T06:55:59.477Z",
+  "checkedAt": "2026-10-17T07:11:33.998051+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 299,
   "r2BackupNeedsReview": 66,
-  "freshOriginalByteChecks": 1,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-65",
-  "evidence": "artifacts/mii2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-66",
+  "evidence": "artifacts/samurai2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -4368,7 +4368,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/samurai2022-708db1be1e8e24cdeb8e.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T07:11:33.998051+00:00",
+      "sha256": "708db1be1e8e24cdeb8e672493e5937beda3f216cf4da1b6a1d47cb688126448",
+      "bytes": 10378658,
+      "preservationEvidence": "artifacts/samurai2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "x:1440569502891057159",
@@ -5947,11 +5951,15 @@
           "courseId": "3ds-wario-shipyard-r",
           "time": "1:37.36",
           "playerId": "nu11",
-          "documentedAt": "2022-04-06T00:52:05.386Z"
+          "documentedAt": "2022-04-06T00:50:57.000Z"
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/samurai2022-d019f74c9054e6666ede.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T07:11:33.998051+00:00",
+      "sha256": "d019f74c9054e6666ede92aff82be1f4bbfab28f45595d263b7fcf095fdf16a8",
+      "bytes": 28256582,
+      "preservationEvidence": "artifacts/samurai2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "youtube:YNv5Hzc8RTc",
@@ -6108,19 +6116,19 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "previousPreservationEvidence": "artifacts/mii2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "newOriginalUploadsInCurrentBatch": 0,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 1,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 3,
-  "currentBatchUniqueR2FilesVerified": 5,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 2,
+  "currentBatchUniqueR2FilesVerified": 4,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 26,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
-  "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 1,
-  "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 1,
+  "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
+  "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
   "knownUnavailableOriginalSources": 25,
   "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 0,

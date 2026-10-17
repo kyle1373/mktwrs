@@ -55,7 +55,7 @@
     "Nu11 phone overlay March31 is not independently certified achievement date. Original upload April6T00:50:57 and submissionT00:52:05 remain distinct.",
     "Two full race recordings and two technique clips preserved on R2; clips and best isolated laps do not establish complete totals.",
     "Prior visual source dispositions retained; two selected race finishes freshly sampled and files decoded. No every-frame uninterrupted playback or worldwide fastest-recording certification.",
-    "Current Discord session requires login again; preserved source review cannot establish absence of deleted/private/unindexed material."
+    "The October13 review reported a login limitation; preserved source review cannot establish absence of deleted/private/unindexed material."
   ],
   "evidence": [
     "archive/samurai2022-discussion-media-integrity-index-20261013.json",
@@ -70,9 +70,31 @@
     "archive/samurai2022-preserved-submission-source-integrity-crosswalk-20261013.json",
     "archive/samurai2022-source-build-recording-render-check-20261013.json",
     "archive/samurai-2022-reconciliation.json",
-    "archive/samurai-2022-evidence-validation-20261008.json"
+    "archive/samurai-2022-evidence-validation-20261008.json",
+    "artifacts/samurai2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+    "artifacts/samurai2022-date-duration-generation-scope-review-20261017.json",
+    "artifacts/samurai2022-earlier-video-publication-date-source-review-20261017.json"
   ],
   "sourceCommit": "208528a5e042938a531578eee0de1865a4bcbfe5",
   "latestPublicationAudit": "archive/samurai2022-final-publication-audit-20261013.json",
-  "nextTourId": "tour-67"
+  "nextTourId": "tour-67",
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T07:11:33.998051+00:00",
+    "canonicalEarlierPublicationCorrected": "966547618807316551",
+    "documentedAt": "2022-04-06T00:50:57.000Z",
+    "submittedAtRetained": "2022-04-06T00:52:05.386Z",
+    "guaranteedPlayableDays": 0.21461805555555555,
+    "predecessorDurationRecomputed": true,
+    "generationScopeEvidence": "artifacts/samurai2022-date-duration-generation-scope-review-20261017.json"
+  },
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T07:11:33.998051+00:00",
+    "uniqueR2FilesVerified": 4,
+    "originalBytesVerified": 42810422,
+    "completedRunOriginals": 2,
+    "partialClips": 2,
+    "bothTourFinalRecordingsPreserved": true,
+    "newUploads": 0,
+    "evidence": "artifacts/samurai2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
+  }
 }
