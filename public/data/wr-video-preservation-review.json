@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T02:26:07.088Z",
+  "checkedAt": "2026-10-17T03:05:42.086Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 290,
-  "r2BackupNeedsReview": 75,
-  "freshOriginalByteChecks": 1,
+  "r2BackupRegistered": 292,
+  "r2BackupNeedsReview": 73,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-28",
-  "evidence": "artifacts/anniversary2020-tomegome-original-video-r2-preservation-20261016.json",
+  "currentVideoPreservationTourId": "tour-29",
+  "evidence": "artifacts/halloween2020-kazuo-original-video-r2-preservation-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -23,8 +23,17 @@
           "documentedAt": "2020-10-30T14:16:06.916Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/halloween2020-kazuo-1322218799765008384-c0820eed5079.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/halloween2020-kazuo-original-video-r2-preservation-20261016.json",
+      "videoScope": "full-run",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T02:29:41.423Z",
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "https://www.twitch.tv/videos/788919389",
@@ -720,8 +729,17 @@
           "documentedAt": "2020-10-23T17:40:43.000Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/halloween2020-tomegome-1319697796547497984-6d1efa91ec5a.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/halloween2020-kazuo-original-video-r2-preservation-20261016.json",
+      "videoScope": "full-run",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:05:42.086Z",
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1322866432498036738",
@@ -5544,10 +5562,10 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 13,
-  "previousPreservationEvidence": "artifacts/supermario2020-two-supplied-originals-and-result-clip-r2-preservation-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 15,
+  "previousPreservationEvidence": "artifacts/anniversary2020-tomegome-original-video-r2-preservation-20261016.json",
   "knownUnavailableOriginalsReviewed": 3,
-  "newOriginalUploadsInCurrentBatch": 1,
+  "newOriginalUploadsInCurrentBatch": 2,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0
 }
