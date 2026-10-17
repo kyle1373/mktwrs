@@ -36,7 +36,8 @@
     "archive/summer2021-additional-recordings-r2-preservation-20261013.json",
     "archive/summer2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/summer2021-image-source-publication-crosswalk-20261013.json",
-    "archive/summer2021-opening-day-policy-generation-check-20261013.json"
+    "archive/summer2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/summer2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/summer-2021-reconciliation.json",
@@ -82,7 +83,8 @@
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
-    "An older Kazuo72.42 example recording from July2020 and an unrelated BowserCastle starting clip are preserved as context; neither is a Summer2021 result. Exact race dates and inaccessible originals remain qualified."
+    "An older Kazuo72.42 example recording from July2020 and an unrelated BowserCastle starting clip are preserved as context; neither is a Summer2021 result. Exact race dates and inaccessible originals remain qualified.",
+    "All five stored R2 objects passed full SHA256 and byte-length checks, representing four distinct file hashes. Selected 1:36.64 and 1:12.24 recordings remain slower supporting footage. The Choco 1:12.08 runner reported no video; the carried January Airship 1:36.44 original has a prior unavailable-source recovery check. Older and other-course recordings remain context, with their original dates retained."
   ],
   "validation": {
     "liveSnapshotRows": 506,
@@ -99,5 +101,19 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/summer2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/summer2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "c2c5914e17c0fb3853ba00f0ea9d088cb009316d"
+  "sourceCommit": "c2c5914e17c0fb3853ba00f0ea9d088cb009316d",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T04:47:54.844024+00:00",
+    "audit": "artifacts/summer2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 5,
+    "distinctFileHashes": 4,
+    "newOriginalUploads": 0,
+    "canonicalVideoKeysWithFreshR2Check": 1,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "chocoFinalWrRunnerReportedNoVideo": true,
+    "standingAirshipWrOriginalVideoUnavailable": true,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }

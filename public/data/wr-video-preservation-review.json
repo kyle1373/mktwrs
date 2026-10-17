@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T04:43:08.822042+00:00",
+  "checkedAt": "2026-10-17T04:47:54.844024+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
   "r2BackupNeedsReview": 67,
-  "freshOriginalByteChecks": 2,
+  "freshOriginalByteChecks": 1,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-46",
-  "evidence": "artifacts/paris2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-47",
+  "evidence": "artifacts/summer2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -3868,7 +3868,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/summer2021-choco-11224-22df116ad5f4.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:47:54.844024+00:00",
+      "evidence": "artifacts/summer2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "https://cdn.discordapp.com/attachments/636461740162416640/909465050241171536/RPReplay_Final1636901902.mov",
@@ -5892,18 +5894,20 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 46,
-  "previousPreservationEvidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 47,
+  "previousPreservationEvidence": "artifacts/paris2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "knownUnavailableOriginalsReviewed": 23,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 10,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 14,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 9,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 19,
-  "currentBatchUniqueR2FilesVerified": 22,
-  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 3,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 1,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 3,
+  "currentBatchUniqueR2FilesVerified": 5,
+  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 30,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
-  "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0
+  "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
+  "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 1,
+  "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 1
 }
