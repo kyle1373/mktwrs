@@ -43,7 +43,8 @@
     "publicR2VideoAndFrameObjectsByteVerified": 4,
     "proofLinksRepaired": 38,
     "generatedReviewedRowsCompared": 103,
-    "materialFieldDifferences": 0
+    "materialFieldDifferences": 0,
+    "additionalSupportingOriginalVideosPreservedOnR2": 1
   },
   "validation": {
     "liveSupportingEntries": {
@@ -57,13 +58,13 @@
     "completionLabelLiveVerified": true
   },
   "remainingLimitations": [
-    "Complete worldwide leadership and intermediate chronology unproved. Four worksheet rows still lack preserved publication/submission dates; see current source audit.",
+    "Complete worldwide leadership and intermediate chronology unproved. Three worksheet rows still lack preserved publication/submission dates; see current source audit.",
     "Nu11 final Bowser proof repostAugust24 02:15UTC precedes06UTC rollover. Original runner submission and achievement unknown; posterStarin is not assumed runner.",
     "Both original final-video result frames are now visibly reviewed: Nu11 1:35.16(previous1:35.31), Troy1:29.58(previous1:29.62). Original video bytes fully decoded and public SHA/length verified.",
     "Nu11 Bowser previous1:35.31 remains undated. RIWR1:29.61 original screenshot shows August18 publication day; exact clock/timezone unknown, so carried-WR durations use conservative bounds. TroyAugust19 1:29.62 tie receives zero WR duration after this earlier faster proof. Nu supporting proof not newly promoted.",
     "First day only fastest recovered supporting result shown. Complete opening source census still unproven.",
     "Zed original linked social post remains protected under current anonymous/signed-in Codex source access. Original completed1:35.33 screenshot preserved on R2; first identical proof clockAug22 retained beforeAug23repeat.",
-    "Four unresolved worksheet dates retained as explicit source gaps rather than invented dates. Nine next-tour transition images preserved as context. No exhaustive history completion claim."
+    "Three unresolved worksheet dates retained as explicit source gaps rather than invented dates. Nine next-tour transition images preserved as context. No exhaustive history completion claim."
   ],
   "evidence": [
     "archive/sundae2022-final-practical-publication-audit-20261013.json",
@@ -76,7 +77,9 @@
     "archive/sundae2022-nu11-bc-visual-review-claim-correction-20261009.json",
     "artifacts/sundae2022-source-date-duration-and-original-publication-review-20261017.json",
     "artifacts/sundae2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
-    "artifacts/sundae2022-remaining-worksheet-date-source-recovery-20261017.json"
+    "artifacts/sundae2022-remaining-worksheet-date-source-recovery-20261017.json",
+    "artifacts/sundae2022-sucha-12993-original-publication-and-worksheet-reconciliation-20261017.json",
+    "artifacts/sundae2022-sucha-12993-original-video-r2-integrity-review-20261017.json"
   ],
   "nextTourId": "tour-77",
   "sourceCommit": "7fed144d64cd7c5d8b8d88a0e484db82372a4f95",
@@ -263,16 +266,6 @@
           null,
           null
         ]
-      },
-      {
-        "courseId": "3ds-rosalina-s-ice-world-r",
-        "id": "sheet-AMV38",
-        "playerId": "player-e38199e38184e3819df09f90ba",
-        "time": "1:29.93",
-        "laps": [
-          null,
-          null
-        ]
       }
     ],
     "nu11FasterSupportingProofDay": "2022-08-18",
@@ -280,7 +273,9 @@
     "troy12962TieCreditedDurationCorrectedToZero": true,
     "evidence": "artifacts/sundae2022-source-date-duration-and-original-publication-review-20261017.json",
     "additionalOwnWrittenLapReportDateRecovered": true,
-    "remainingDateSourceRecoveryAudit": "artifacts/sundae2022-remaining-worksheet-date-source-recovery-20261017.json"
+    "remainingDateSourceRecoveryAudit": "artifacts/sundae2022-remaining-worksheet-date-source-recovery-20261017.json",
+    "additionalOriginalPlayerVideoDateRecovered": true,
+    "sucha12993SourceReview": "artifacts/sundae2022-sucha-12993-original-publication-and-worksheet-reconciliation-20261017.json"
   },
   "videoPreservationReview": {
     "checkedAt": "2026-10-17T09:48:22.418449+00:00",
@@ -294,5 +289,22 @@
     "finalWrRecordingsPreserved": true,
     "verificationUsedNoMediaBrowserTabs": true,
     "evidence": "artifacts/sundae2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
+  },
+  "latestSupportingVideoPreservationReview": {
+    "checkedAt": "2026-10-17T10:11:54.302424+00:00",
+    "playerId": "player-e38199e38184e3819df09f90ba",
+    "time": "1:29.93",
+    "documentedAt": "2022-08-23T17:00:44.000Z",
+    "backupUrl": "https://media.mktwrs.com/assets/video/sundae2022-sucha-12993-high-resolution-video-3ab2b8a25ef2e06c1d6f.mp4",
+    "sourceOriginalFullRuns": 1,
+    "proofAndMetadataObjects": 4,
+    "newOriginalVideoUploads": 2,
+    "newR2ObjectsUploaded": 6,
+    "firstLapVerified": "44.94",
+    "secondLapDerived": "44.99",
+    "bestRecordingSelectionRemainsTroy12958": true,
+    "evidence": "artifacts/sundae2022-sucha-12993-original-video-r2-integrity-review-20261017.json",
+    "additionalOriginalEncodingCopies": 1,
+    "primaryArchiveResolution": "592x1280 at60fps; originalH264/AAC encoding"
   }
 }
