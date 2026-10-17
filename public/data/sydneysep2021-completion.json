@@ -37,7 +37,8 @@
     "archive/sydneysep2021-image-source-publication-crosswalk-20261013.json",
     "archive/sydneysep2021-opening-day-policy-generation-check-20261013.json",
     "archive/sydneysep2021-submission-source-file-and-publication-crosswalk-20261013.json",
-    "archive/sydneysep2021-preserved-video-clock-reconciliation-20261013.json"
+    "archive/sydneysep2021-preserved-video-clock-reconciliation-20261013.json",
+    "artifacts/sydneysep2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/sydney-september-2021-reconciliation.json",
@@ -71,17 +72,18 @@
     "Nu11 1:32.14, saki7 1:02.13 and shiraui 1:03.60 are previous-best leads without independently verified original publication chronology.",
     "Choco Mountain leaderboard 1:18.37 is a typo: the previously reviewed original screenshot and announcement establish 1:18.38. September discussion confirms Kaguya was the holder despite omission from the leaderboard.",
     "An incorrect Mario Circuit 3 graphic was subsequently corrected; a joke Vanilla Lake leaderboard was excluded.",
-    "Manzinma tweet 1435643834063458307 is unavailable. Nozomi’s linked image shows a slower Yoshi Circuit 1:34.52; it is not a WR. Shoronpo’s linked post restricts access.",
+    "Manzinma tweet 1435643834063458307 is unavailable. Nozomi\u2019s linked image shows a slower Yoshi Circuit 1:34.52; it is not a WR. Shoronpo\u2019s linked post restricts access.",
     "Single-lap and technique clips are not proof of a completed two-lap record.",
     "Prior full recording review retained without fresh uninterrupted certification.",
     "Private, deleted and unindexed global material not proven fully recovered.",
     "Eighteen slower original submission images retained in raw archive without new WR promotion; two late Kamek sources kept outside Sydney chronology.",
     "Prior 22 discussion-image dispositions retained; not a fresh visual pass.",
-    "Discord now asks the saved accounts to log in again; fresh source access unavailable. Recovered original clips and prior source context remain preserved.",
+    "A prior review recorded expired Discord sessions. That historical access condition does not describe current browser access; the existing source captures remain preserved.",
     "Prior lap, route and full-race assessments retained; fresh hashes and public access verified.",
     "Boundary Sydney Sprint clip belongs to Anniversary 2021, not Sydney September 2021.",
     "No claim that unavailable streams or worldwide recordings were exhausted.",
-    "Five partial technique/lap clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+    "Five partial technique/lap clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
+    "All nine R2 objects passed full SHA256 and byte-length checks. Three completed runs and five partial clips belong to this tour; the ninth object is a following-tour boundary clip, retained without adding it to Sydney coverage. Exact race dates and deleted/private or unindexed source history remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 511,
@@ -98,5 +100,19 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/sydneysep2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/sydneysep2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "28ba2d2133d1f1fc3db59146278f08b99835ac1d"
+  "sourceCommit": "28ba2d2133d1f1fc3db59146278f08b99835ac1d",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:31:13.838Z",
+    "audit": "artifacts/sydneysep2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 9,
+    "distinctFileHashes": 9,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "bothFinalWrRecordingsPreservedOnR2": true,
+    "tourCompletedRunFiles": 3,
+    "tourPartialClips": 5,
+    "followingTourBoundaryClip": 1,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
