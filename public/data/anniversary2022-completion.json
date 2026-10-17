@@ -41,7 +41,8 @@
       "videoSubmittedAt": "2022-09-29T16:21:59.644Z",
       "freshFinishReview": true,
       "openingTimedSubmissionRecovered": true,
-      "openingFastestRecoveredSupportingResult": "Nu11 1:23.79"
+      "openingFastestRecoveredSupportingResult": "Nu11 1:23.79",
+      "openingFastestRecoveredCanonicalResult": "Nu111:23.79"
     }
   ],
   "coverage": {
@@ -60,7 +61,11 @@
     "newOriginalRecordingsArchived": 6,
     "preservedSourceImageReferences": 80,
     "freshOriginalSourceAttachmentsArchived": 16,
-    "currentBatchR2ObjectsVerified": 121
+    "currentBatchR2ObjectsVerified": 121,
+    "recoveredDocumentedCanonicalWrRows": 8,
+    "documentedBerlinWrRows": 8,
+    "documentedSingaporeWrRows": 5,
+    "availableCanonicalProofsOnR2": 12
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -87,9 +92,10 @@
     "Complete worldwide/intermediate chronology and fastest-recording exhaustiveness are unproved. Missing sources and opening evidence remain qualified.",
     "Zed late command1:14.56 and screenshot1:14.59 retained separately with visible mismatch note. Neither is promoted as a WR.",
     "Nu11 Berlin14.33 originalSeptember26recording now preserved and verified; race achievement clock remains unknown.",
-    "Nu11 Singapore23.79 fastest recovered first-day original preserved separately; no temporaryfirstdayWRprofilecreated.",
     "TroySingapore24.00 acceptededitedbotcaption and24.73originalimage are separate source facts; screenshot is not labeled proof of24.00.",
-    "One worksheet source date still unresolved: Troy Berlin1:14.75. Cancelled1:14.00 receipt has an unavailable ephemeral image; later1:14.65 image previousbest1:14.73 does not establish1:14.75."
+    "One worksheet source date still unresolved: Troy Berlin1:14.75. Cancelled1:14.00 receipt has an unavailable ephemeral image; later1:14.65 image previousbest1:14.73 does not establish1:14.75.",
+    "Published progression now includes the fastest recovered first-daySingapore23.79 and successive dated bests. Previous-best-only intermediate Berlin14.91 and14.58 remain source observations without invented earlier achievement dates.",
+    "Wins Berlin14.54 is supported by the accepted original result receipt; its original ephemeral image remains unavailable."
   ],
   "evidence": [
     "archive/anniversary2022-final-practical-publication-audit-20261013.json",
@@ -108,7 +114,12 @@
     "artifacts/anniversary2022-source-date-duration-and-original-media-review-20261017.json",
     "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
     "artifacts/anniversary2022-okusho-original-result-date-review-20261017.json",
-    "artifacts/anniversary2022-okusho-original-source-r2-integrity-20261017.json"
+    "artifacts/anniversary2022-okusho-original-source-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-recovered-documented-record-progression-20261017.json",
+    "artifacts/anniversary2022-progression-source-receipt-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-nu37-preserved-finish-frame-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-nu-final-berlin-original-image-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-published-progression-proof-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-80",
   "sourceCommit": "368870e461611a969e152eaabca01910f1b5ce2e",
@@ -155,5 +166,13 @@
       }
     ],
     "allKnownWorksheetDatesProven": false
+  },
+  "latestRecoveredDocumentedProgression": {
+    "checkedAt": "2026-10-17T19:55:30.724954+00:00",
+    "reviewArtifact": "artifacts/anniversary2022-recovered-documented-record-progression-20261017.json",
+    "addedRows": 8,
+    "firstDayPolicyRespected": true,
+    "fullWorldwideHistoryProven": false,
+    "availableCanonicalProofsOnR2": 12
   }
 }

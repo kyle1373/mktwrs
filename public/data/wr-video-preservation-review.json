@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-10-17T19:19:00.319390+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
-  "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 307,
+  "uniqueCanonicalVideoKeys": 367,
+  "r2BackupRegistered": 309,
   "r2BackupNeedsReview": 58,
   "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
@@ -6321,6 +6321,44 @@
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/animal2022-sucha-yvr-13071-50d501a98d9e.mp4",
       "status": "r2-backup-registered-not-freshly-verified"
+    },
+    {
+      "key": "youtube:zYFNhXE4XuQ",
+      "originalUrl": "https://youtu.be/zYFNhXE4XuQ",
+      "runs": [
+        {
+          "id": "curated-1022877277605859362-1022877277039636500-august2022-image-reviewed",
+          "courseId": "berlin-byways-3",
+          "time": "1:14.63",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "documentedAt": "2022-09-23T14:29:07.122Z"
+        }
+      ],
+      "r2Url": "https://media.mktwrs.com/assets/video/anniversary2022-suiso-berlin14363-original-a7564ceb6bd7592c73ac.webm",
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T19:55:30.724954+00:00",
+      "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+      "sha256": "a7564ceb6bd7592c73acb8a2ec5745d1a1e2432860c25f69a0756ee3da32b5db",
+      "bytes": 80634460
+    },
+    {
+      "key": "youtube:rYcUpLvzRQA",
+      "originalUrl": "https://youtu.be/rYcUpLvzRQA",
+      "runs": [
+        {
+          "id": "curated-1022404628194799687-anniversary2022-original-result",
+          "courseId": "singapore-speedway-2",
+          "time": "1:23.62",
+          "playerId": "nu11",
+          "documentedAt": "2022-09-22T07:10:58.721Z"
+        }
+      ],
+      "r2Url": "https://media.mktwrs.com/assets/video/anniversary2022-nu11-singapore12362-original-e6674314610302caa8cc.webm",
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T19:55:30.724954+00:00",
+      "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+      "sha256": "e6674314610302caa8cc04626d0e7f10d4ee05eec39cbb1ce129ac01ece38269",
+      "bytes": 95469577
     }
   ],
   "previousPreservationEvidence": "artifacts/marioluigi2022-final-kuri-source-r2-integrity-20261017.json",
@@ -6560,5 +6598,11 @@
     ],
     "reviewClosed": false,
     "allNineLinkedOriginalRecordingsPreserved": true
+  },
+  "latestAnniversary2022RecoveredProgression": {
+    "evidence": "artifacts/anniversary2022-recovered-documented-record-progression-20261017.json",
+    "addedCanonicalRows": 8,
+    "existingOriginalRecordingsNowCanonical": 2,
+    "originalVideoFilesReuploaded": false
   }
 }
