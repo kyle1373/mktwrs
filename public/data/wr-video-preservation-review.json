@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:48:53.367712+00:00",
+  "checkedAt": "2026-10-17T03:52:27.876660+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 297,
   "r2BackupNeedsReview": 68,
-  "freshOriginalByteChecks": 0,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-36",
-  "evidence": "artifacts/cat2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-37",
+  "evidence": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1369,7 +1369,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/peachdaisy2021-810681358199291934-419374e4f2a3.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T03:52:27.876660+00:00",
+      "evidence": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1362108231267610625",
@@ -1384,7 +1386,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "sourceCheck": "yt-dlp: No video could be found in this tweet",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T03:52:27.876660+00:00",
+      "evidence": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:J2IKB4kx5aU",
@@ -1744,7 +1750,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T03:52:27.876660+00:00",
+      "evidence": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:48Bgt69C5-Q",
@@ -5011,7 +5021,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/peachdaisy2021-sunset-11053-b85c818202b0.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T03:52:27.876660+00:00",
+      "evidence": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "https://cdn.discordapp.com/attachments/636461740162416640/896913592841023539/video0.mov",
@@ -5788,17 +5800,16 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 29,
-  "previousPreservationEvidence": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 14,
+  "totalOriginalByteChecksInPreservationBatches": 31,
+  "previousPreservationEvidence": "artifacts/cat2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "knownUnavailableOriginalsReviewed": 15,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 4,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 7,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 4,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 10,
-  "currentBatchUniqueR2FilesVerified": 12,
-  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 47,
-  "alreadyStoredEarlierTourRepostFilesVerifiedInCurrentBatch": 2
+  "sourceNoDownloadableVideoRecoveryGaps": 8,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 11,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 13,
+  "currentBatchUniqueR2FilesVerified": 16,
+  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 3,
+  "originalSourcesStillUnreviewed": 45
 }
