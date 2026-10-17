@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T16:23:32.346828+00:00",
+  "checkedAt": "2026-10-17T17:03:17.144869+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 300,
-  "r2BackupNeedsReview": 65,
-  "freshOriginalByteChecks": 0,
+  "r2BackupRegistered": 304,
+  "r2BackupNeedsReview": 61,
+  "freshOriginalByteChecks": 7,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
   "currentVideoPreservationTourId": "tour-77",
-  "evidence": "artifacts/sundae2022-final-recovered-originals-r2-integrity-20261017.json",
+  "evidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -857,8 +857,18 @@
           "documentedAt": "2022-08-31T13:23:44.742Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/bowser2022-flO37soORFw-original-132f82318cb7d30b5905.mp4",
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T17:03:17.144869+00:00",
+      "sha256": "132f82318cb7d30b5905832745234801ce42e87273a73b55a950d15f2288338c",
+      "bytes": 95400636,
+      "preservationEvidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
+      "publicVerification": {
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "youtube:u2FeqTTAj08",
@@ -873,7 +883,17 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/bowser2022-nu11-e1939d536d15.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T17:03:17.144869+00:00",
+      "sha256": "e1939d536d15e5169ae5091da52c5f19a85a32f777c7269ea8ff0da16637f5e7",
+      "bytes": 30135686,
+      "preservationEvidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
+      "publicVerification": {
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "youtube:oQnZSx3yip0",
@@ -1343,7 +1363,14 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "preservationEvidence": "artifacts/bowser2022-source-date-duration-and-original-media-review-20261017.json",
+      "recoveryCheck": {
+        "checkedAt": "2026-10-17T17:03:17.144869+00:00",
+        "method": "Original Twitter yt-dlp metadata lookup",
+        "result": "No video could be found in this tweet",
+        "noPermanentLossClaim": true
+      }
     },
     {
       "key": "youtube:-ejmYJglUX4",
@@ -1354,11 +1381,21 @@
           "courseId": "snes-choco-island-2r",
           "time": "0:48.53",
           "playerId": "newyork",
-          "documentedAt": "2022-08-29T13:23:26.428Z"
+          "documentedAt": "2022-08-29T13:17:12.000Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/bowser2022--ejmYJglUX4-original-0543ef6f7c310424e82c.mp4",
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T17:03:17.144869+00:00",
+      "sha256": "0543ef6f7c310424e82c44b71f1cd66b6c2056ec53540a9e26a9fcb28b087d88",
+      "bytes": 48152245,
+      "preservationEvidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
+      "publicVerification": {
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "https://mobile.twitter.com/winsmkt/status/1567487705172295683",
@@ -1373,7 +1410,17 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/bowser2022-wins-97e1518a6966.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T17:03:17.144869+00:00",
+      "sha256": "97e1518a6966caac26ec19f3be3301e6450247e8c49b2f8774b019bf3161a8aa",
+      "bytes": 8372740,
+      "preservationEvidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
+      "publicVerification": {
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1339171744762847232",
@@ -2243,8 +2290,9 @@
           "documentedAt": "2023-01-25T03:11:08.392Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://www.youtube.com/watch?v=nXG20w4hZa8",
+      "status": "r2-backup-registered-not-freshly-verified",
+      "preservationEvidence": null
     },
     {
       "key": "x:1393210350242254850",
@@ -5396,8 +5444,9 @@
           "documentedAt": "2021-10-10T20:59:33.641Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://www.youtube.com/watch?v=XmEQBKa6EFw",
+      "status": "r2-backup-registered-not-freshly-verified",
+      "preservationEvidence": null
     },
     {
       "key": "youtube:Qsb02witwSI",
@@ -6240,16 +6289,16 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/sundae2022-spartacurt-13018-original-video-r2-integrity-20261017.json",
-  "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
+  "previousPreservationEvidence": "artifacts/sundae2022-final-recovered-originals-r2-integrity-20261017.json",
+  "newOriginalUploadsInCurrentBatch": 5,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 15,
+  "sourceNoDownloadableVideoRecoveryGaps": 16,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 0,
-  "currentBatchUniqueR2FilesVerified": 6,
+  "currentBatchUniqueR2FilesVerified": 102,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 0,
-  "originalSourcesStillUnreviewed": 25,
+  "originalSourcesStillUnreviewed": 20,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
@@ -6257,10 +6306,10 @@
   "knownUnavailableOriginalSources": 25,
   "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 0,
   "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
-  "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
+  "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 1,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
-  "currentBatchNewR2ObjectsUploaded": 6,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 0,
+  "currentBatchNewR2ObjectsUploaded": 100,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 2,
   "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0,
   "newOriginalEncodingCopiesUploadedInCurrentBatch": 0,
   "pendingSundaeDateSourceReceiptPreservation": {
@@ -6312,9 +6361,32 @@
     "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
   },
   "previousCompletedVideoPreservationTourId": "tour-76",
-  "newOriginalImagesPreservedInCurrentBatch": 4,
-  "newFirstLapFramesPreservedInCurrentBatch": 1,
+  "newOriginalImagesPreservedInCurrentBatch": 83,
+  "newFirstLapFramesPreservedInCurrentBatch": 0,
   "newSourceReceiptObjectsPreservedInCurrentBatch": 1,
   "sundaeKnownSourceDateReviewComplete": true,
-  "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
+  "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
+  "canonicalR2CoverageReconciliation": {
+    "previousPublishedCount": 300,
+    "currentCount": 304,
+    "twoNewCanonicalOriginals": [
+      "youtube:flO37soORFw",
+      "youtube:-ejmYJglUX4"
+    ],
+    "twoPreviouslyRegisteredBackupsRestoredToTracker": [
+      "youtube:iBFP45tNkiU",
+      "https://cdn.discordapp.com/attachments/636461740162416640/896913592841023539/video0.mov"
+    ],
+    "newSupportingVideosDoNotIncreaseCanonicalKeyCount": true
+  },
+  "bowserRemainingDateSourceGap": [
+    {
+      "courseId": "snes-choco-island-2r",
+      "id": "sheet-ANL47",
+      "time": "0:49.00",
+      "playerId": "dome-1909",
+      "source": "worksheet only",
+      "datedDiscordSearch": "No Dome result for August24\u2013September7 in authenticated server search; no posting date invented."
+    }
+  ]
 }
