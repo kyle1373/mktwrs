@@ -46,7 +46,10 @@
     "newPublicR2VideoAndFrameObjectsByteVerified": 4,
     "proofLinksRepaired": 55,
     "generatedReviewedRowsCompared": 146,
-    "materialFieldDifferences": 0
+    "materialFieldDifferences": 0,
+    "knownWorksheetRows": 77,
+    "knownWorksheetRowsDated": 68,
+    "remainingUndatedWorksheetRows": 9
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -89,7 +92,12 @@
     "archive/battle2022-nu11-recording-share-clock-publication-20261013.json",
     "archive/battle2022-completion-label-live-check-20261013.json",
     "archive/battle2022-rendered-proof-and-video-live-link-audit-20261013.json",
-    "artifacts/battle2022-current-worksheet-source-date-revalidation-backlog-20261017.json"
+    "artifacts/battle2022-current-worksheet-source-date-revalidation-backlog-20261017.json",
+    "artifacts/battle2022-38-worksheet-dates-and-nu11-original-clock-reconciliation-20261017.json",
+    "artifacts/battle2022-worksheet-original-proof-r2-integrity-20261017.json",
+    "artifacts/battle2022-two-additional-supporting-video-preservation-review-20261017.json",
+    "artifacts/battle2022-four-original-recordings-r2-integrity-20261017.json",
+    "artifacts/battle2022-four-original-recording-decode-and-format-review-20261017.json"
   ],
   "nextTourId": "tour-81",
   "sourceCommit": "8742ecdb3f47d5ea9824dbcf54535fd5883ddc83",
@@ -99,9 +107,82 @@
   "latestSourceDateRevalidation": {
     "checkedAt": "2026-10-17T21:31:59.555333+00:00",
     "knownWorksheetRows": 77,
-    "knownWorksheetRowsDated": 30,
-    "remainingUndatedWorksheetRows": 47,
-    "dateChangesPublished": false,
-    "reviewArtifact": "artifacts/battle2022-current-worksheet-source-date-revalidation-backlog-20261017.json"
+    "knownWorksheetRowsDated": 68,
+    "remainingUndatedWorksheetRows": 9,
+    "dateChangesPublished": true,
+    "reviewArtifact": "artifacts/battle2022-38-worksheet-dates-and-nu11-original-clock-reconciliation-20261017.json"
+  },
+  "remainingUndatedWorksheetRows": [
+    {
+      "sheetId": "sheet-APP15",
+      "courseId": "snes-donut-plains-1r",
+      "playerId": "guti",
+      "time": "0:51.04"
+    },
+    {
+      "sheetId": "sheet-APP18",
+      "courseId": "snes-donut-plains-1r",
+      "playerId": "guti",
+      "time": "0:50.94"
+    },
+    {
+      "sheetId": "sheet-APP19",
+      "courseId": "snes-donut-plains-1r",
+      "playerId": "raptor",
+      "time": "0:51.41"
+    },
+    {
+      "sheetId": "sheet-APP20",
+      "courseId": "snes-donut-plains-1r",
+      "playerId": "tankian",
+      "time": "0:50.59"
+    },
+    {
+      "sheetId": "sheet-APP21",
+      "courseId": "snes-donut-plains-1r",
+      "playerId": "spartacurtyt",
+      "time": "0:50.54"
+    },
+    {
+      "sheetId": "sheet-APP31",
+      "courseId": "snes-donut-plains-1r",
+      "playerId": "guti",
+      "time": "0:50.74"
+    },
+    {
+      "sheetId": "sheet-APH25",
+      "courseId": "snes-donut-plains-2",
+      "playerId": "okusho",
+      "time": "1:01.79"
+    },
+    {
+      "sheetId": "sheet-APH28",
+      "courseId": "snes-donut-plains-2",
+      "playerId": "okusho",
+      "time": "1:01.64"
+    },
+    {
+      "sheetId": "sheet-APH39",
+      "courseId": "snes-donut-plains-2",
+      "playerId": "n",
+      "time": "1:00.73"
+    }
+  ],
+  "latestWorksheetDateReconciliation": {
+    "checkedAt": "2026-10-17T21:39:30.770393+00:00",
+    "newlyDatedRows": 38,
+    "correctedLaterVideoDateRows": 1,
+    "knownWorksheetRowsDated": 68,
+    "totalWorksheetRows": 77,
+    "sourceReceiptR2": "https://media.mktwrs.com/assets/evidence/battle2022-worksheet-date-reconciliation-9b38f66da42d79926106.json",
+    "reviewArtifact": "artifacts/battle2022-38-worksheet-dates-and-nu11-original-clock-reconciliation-20261017.json",
+    "knownSourceReviewComplete": false
+  },
+  "latestAdditionalSupportingVideoReview": {
+    "reviewArtifact": "artifacts/battle2022-two-additional-supporting-video-preservation-review-20261017.json",
+    "preservationEvidence": "artifacts/battle2022-four-original-recordings-r2-integrity-20261017.json",
+    "newOriginalVideosPreserved": 2,
+    "originalRecordingsFullyDecoded": 4,
+    "canonicalWorldRecordsChanged": false
   }
 }
