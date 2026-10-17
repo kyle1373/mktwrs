@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:19:06.565Z",
+  "checkedAt": "2026-10-17T03:25:16.525Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 295,
-  "r2BackupNeedsReview": 70,
-  "freshOriginalByteChecks": 3,
+  "r2BackupRegistered": 296,
+  "r2BackupNeedsReview": 69,
+  "freshOriginalByteChecks": 5,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-32",
-  "evidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-33",
+  "evidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1268,7 +1268,15 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/rosalina2020-additional-b87ad786773b.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:25:16.525Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "youtube:aKBh5R2tbTQ",
@@ -1283,7 +1291,15 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/rosalina2020-choco-mountain-11893-db606bad6e3a.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:25:15.813Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1339580609023279110",
@@ -1298,7 +1314,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "recoveryCheck": {
+        "videoKey": "x:1339580609023279110",
+        "checkedAt": "2026-10-17T03:25:16.525Z",
+        "method": "yt-dlp public metadata request",
+        "result": "No video could be found in this tweet",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json"
     },
     {
       "key": "youtube:7bfRJFyAGBA",
@@ -4809,7 +4833,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "recoveryCheck": {
+        "videoKey": "x:1339174997768560641",
+        "checkedAt": "2026-10-17T03:25:16.525Z",
+        "method": "yt-dlp public metadata request",
+        "result": "No video could be found in this tweet",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json"
     },
     {
       "key": "youtube:Qb8KTvm-AQg",
@@ -4823,8 +4855,16 @@
           "documentedAt": "2020-12-18T16:05:26.077Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/rosalina2020-wins-Qb8KTvm-AQg-d1b4ee2cb50d.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:25:16.418Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1343692485390979075",
@@ -4839,7 +4879,15 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/rosalina2020-sunset-11030-1ac903d27c22.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:25:09.565Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "youtube:gizNrYVgWuM",
@@ -5676,14 +5724,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 22,
-  "previousPreservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 27,
+  "previousPreservationEvidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
   "knownUnavailableOriginalsReviewed": 7,
-  "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 11,
+  "newOriginalUploadsInCurrentBatch": 2,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 10,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 3,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 3,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 14,
+  "sourceNoDownloadableVideoRecoveryGaps": 5,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 1,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 11,
   "currentBatchUniqueR2FilesVerified": 16
 }
