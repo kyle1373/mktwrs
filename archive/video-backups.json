@@ -1993,22 +1993,48 @@
     }
   },
   "https://www.twitch.tv/videos/824678968": {
-    "url": "https://www.youtube.com/watch?v=O3SCyffd0kw",
+    "url": "https://media.mktwrs.com/assets/video/winter2020-784191912009138206-4ab8556f7437.mp4",
     "originalUrl": "https://www.twitch.tv/videos/824678968",
-    "channel": "SuperFX64",
-    "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
-    "kind": "archive-backup",
+    "kind": "r2-preserved-original",
     "status": "available",
-    "visibility": "unlisted",
-    "publishedAt": "2026-10-02T17:30:35.543957+00:00",
     "sha256": "4ab8556f7437a670f6a3f86d9d7b29813705597bd1e0122378293a6a24cab65e",
     "bytes": 66498268,
     "credit": "Wins",
+    "preservedOriginalFile": "archive/winter2020-clips/wins-10673.mp4",
+    "videoScope": "full-run",
     "verifiedTime": "1:46.73",
     "verifiedLaps": [
       "53.37",
       "53.36"
-    ]
+    ],
+    "reviewAudit": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
+    "previousArchiveCopy": {
+      "url": "https://www.youtube.com/watch?v=O3SCyffd0kw",
+      "originalUrl": "https://www.twitch.tv/videos/824678968",
+      "channel": "SuperFX64",
+      "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+      "kind": "archive-backup",
+      "status": "available",
+      "visibility": "unlisted",
+      "publishedAt": "2026-10-02T17:30:35.543957+00:00",
+      "sha256": "4ab8556f7437a670f6a3f86d9d7b29813705597bd1e0122378293a6a24cab65e",
+      "bytes": 66498268,
+      "credit": "Wins",
+      "verifiedTime": "1:46.73",
+      "verifiedLaps": [
+        "53.37",
+        "53.36"
+      ]
+    },
+    "alreadyStoredOnR2": true,
+    "priorR2PreservationAudit": "archive/winter2020-tour-only-additional-media-r2-preservation-20261013.json",
+    "publicVerification": {
+      "checkedAt": "2026-10-17T03:19:06.564Z",
+      "httpStatus": 200,
+      "sha256MatchesPreservedOriginal": true,
+      "bytesMatch": true,
+      "rangeStatus": 206
+    }
   },
   "https://mktwrs.com/assets/proof/superfx-gv1r-4059-20200910.mp4": {
     "url": "https://media.mktwrs.com/assets/video/supermario2020-superfx-fm9lEZ59ZiI-be41ceeda268.mp4",
@@ -9430,6 +9456,51 @@
       "httpStatus": 200,
       "sha256MatchesOriginal": true,
       "bytesMatchOriginal": true,
+      "rangeStatus": 206
+    }
+  },
+  "youtube:O3SCyffd0kw": {
+    "url": "https://media.mktwrs.com/assets/video/winter2020-784191912009138206-4ab8556f7437.mp4",
+    "originalUrl": "https://www.twitch.tv/videos/824678968",
+    "kind": "r2-preserved-original",
+    "status": "available",
+    "sha256": "4ab8556f7437a670f6a3f86d9d7b29813705597bd1e0122378293a6a24cab65e",
+    "bytes": 66498268,
+    "credit": "Wins",
+    "preservedOriginalFile": "archive/winter2020-clips/wins-10673.mp4",
+    "videoScope": "full-run",
+    "verifiedTime": "1:46.73",
+    "verifiedLaps": [
+      "53.37",
+      "53.36"
+    ],
+    "reviewAudit": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
+    "previousArchiveCopy": {
+      "url": "https://www.youtube.com/watch?v=O3SCyffd0kw",
+      "originalUrl": "https://www.twitch.tv/videos/824678968",
+      "channel": "SuperFX64",
+      "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+      "kind": "archive-backup",
+      "status": "available",
+      "visibility": "unlisted",
+      "publishedAt": "2026-10-02T17:30:35.543957+00:00",
+      "sha256": "4ab8556f7437a670f6a3f86d9d7b29813705597bd1e0122378293a6a24cab65e",
+      "bytes": 66498268,
+      "credit": "Wins",
+      "verifiedTime": "1:46.73",
+      "verifiedLaps": [
+        "53.37",
+        "53.36"
+      ]
+    },
+    "alreadyStoredOnR2": true,
+    "priorR2PreservationAudit": "archive/winter2020-tour-only-additional-media-r2-preservation-20261013.json",
+    "sourceAliasOf": "https://www.twitch.tv/videos/824678968",
+    "publicVerification": {
+      "checkedAt": "2026-10-17T03:19:06.564Z",
+      "httpStatus": 200,
+      "sha256MatchesPreservedOriginal": true,
+      "bytesMatch": true,
       "rangeStatus": 206
     }
   }

@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:14:52.958Z",
+  "checkedAt": "2026-10-17T03:19:06.565Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 294,
-  "r2BackupNeedsReview": 71,
-  "freshOriginalByteChecks": 2,
+  "r2BackupRegistered": 295,
+  "r2BackupNeedsReview": 70,
+  "freshOriginalByteChecks": 3,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-31",
-  "evidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-32",
+  "evidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1054,7 +1054,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:bq65N_DVXZU",
+        "checkedAt": "2026-10-17T03:19:06.565Z",
+        "method": "yt-dlp public metadata request",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json"
     },
     {
       "key": "https://www.reddit.com/r/MarioKartTour/comments/kdfx2c/i_won_rmariokarttours_tt_challenge_here_is_a/",
@@ -1069,7 +1077,15 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/winter2020-choco-3976-1600e534dbb1.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:18:58.414Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "youtube:vCez_Nt5zXA",
@@ -2639,8 +2655,16 @@
           "documentedAt": "2020-12-03T22:21:35.069Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/winter2020-784191912009138206-4ab8556f7437.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:19:06.564Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1339106433351159808",
@@ -2655,7 +2679,15 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/winter2020-maple-14616-98728e8de880.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:19:00.297Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1354944212110741511",
@@ -5644,13 +5676,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 19,
-  "previousPreservationEvidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json",
-  "knownUnavailableOriginalsReviewed": 6,
+  "totalOriginalByteChecksInPreservationBatches": 22,
+  "previousPreservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json",
+  "knownUnavailableOriginalsReviewed": 7,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 15,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 11,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 3,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 2,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 17
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 3,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 14,
+  "currentBatchUniqueR2FilesVerified": 16
 }
