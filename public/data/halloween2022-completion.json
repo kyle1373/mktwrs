@@ -2,7 +2,7 @@
   "tourId": "tour-81",
   "tour": "Halloween Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-17",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -46,23 +46,21 @@
     "openingOriginalImagePreservedOnR2": true,
     "proofLinksRepaired": 22,
     "generatedReviewedRowsCompared": 83,
-    "materialFieldDifferences": 0
+    "materialFieldDifferences": 0,
+    "knownWorksheetRows": 60,
+    "knownWorksheetRowsDated": 59,
+    "remainingUndatedWorksheetRows": 1,
+    "freshOriginalSourceImagesPreservedOnR2": 10,
+    "originalVideosFullyDecodedAndR2HashVerified": 2
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "snes-donut-plains-3": 73
-    },
-    "renderedPreservedEvidenceLinksReadable": 52,
-    "wrProofImagesReadable": 3,
-    "failedLinks": 0,
-    "productionBuildPages": 891,
-    "focusedVideoAndOpeningTestsPassed": 14,
-    "completionLabelLiveVerified": true,
-    "livePreservedEvidenceLinksReadable": 52,
-    "liveSupportingEntries": {
-      "snes-donut-plains-3": 73
-    },
-    "liveWrProofImagesReadable": 3
+    "knownWrDatesLapsDurationsReviewed": 3,
+    "knownWorksheetRowsDated": 59,
+    "remainingUndatedWorksheetRows": 1,
+    "originalVideosFullyDecoded": 2,
+    "r2FullGetSha256BytesMimeRangePassed": true,
+    "productionBuildPages": 892,
+    "liveVerificationArtifact": "artifacts/halloween2022-known-wr-review-closure-live-verification-20261017.json"
   },
   "remainingLimitations": [
     "Newyork previous0:56.60 may be a missing intermediate improvement; date unknown, no invented reign. Prior0:56.88/0:56.90 are slower than Nu11opening0:56.63.",
@@ -70,7 +68,8 @@
     "Opening-day policy retains only final recovered fastest0:56.63/ties; opening worldwide completeness is not proven.",
     "Prior sampled original-video lap and finish reviews retained; omitted fresh image outputs and full decode are not a fresh full-race visual certification.",
     "TroyOctober29 screenshot/lap submission predatesNovember2video publication/share; these clocks do not establish exact private achievement.",
-    "Missing intermediate, deleted/private sources and worldwide fastest recording exhaustiveness remain unproved."
+    "Missing intermediate, deleted/private sources and worldwide fastest recording exhaustiveness remain unproved.",
+    "Worksheet APX10 Troy0:58.58 has no recovered dated source; retained as unresolved supporting history with no invented date or WR reign. 59/60 known worksheet entries dated."
   ],
   "evidence": [
     "archive/halloween2022-practical-source-disposition-index-20261013.json",
@@ -85,8 +84,39 @@
     "archive/halloween2022-nu11-5663-lap-message-reconciliation-20261005.json",
     "archive/halloween2022-completion-label-build-check-20261013.json",
     "archive/halloween2022-completion-label-live-check-20261013.json",
-    "archive/halloween2022-rendered-proof-and-video-live-link-audit-20261013.json"
+    "archive/halloween2022-rendered-proof-and-video-live-link-audit-20261013.json",
+    "artifacts/halloween2022-46-worksheet-dates-and-troy-original-clock-reconciliation-20261017.json",
+    "artifacts/halloween2022-worksheet-date-proof-r2-integrity-20261017.json",
+    "artifacts/halloween2022-newyork-earlier-video-publication-clock-reconciliation-20261017.json",
+    "artifacts/halloween2022-two-original-video-decode-review-20261017.json",
+    "artifacts/halloween2022-two-existing-original-videos-r2-integrity-20261017.json",
+    "artifacts/halloween2022-ten-original-results-date-reconciliation-20261017.json",
+    "artifacts/halloween2022-ten-original-results-r2-integrity-20261017.json",
+    "artifacts/halloween2022-newyork-wr-proof-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-82",
-  "sourceCommit": "70427549bd0a4abdc9d50b335881536a1a4f2818"
+  "previousReviewCompletedAt": "2026-10-13",
+  "previousPracticalReviewComplete": true,
+  "knownWrReviewComplete": true,
+  "knownWorksheetDateReviewComplete": false,
+  "latestWorksheetDateReconciliation": {
+    "newlyDatedRows": 46,
+    "correctedLaterVideoDateRows": 1,
+    "earlierVideoPublicationClockRows": 3,
+    "reviewArtifact": "artifacts/halloween2022-46-worksheet-dates-and-troy-original-clock-reconciliation-20261017.json",
+    "sourceReceiptR2": "https://media.mktwrs.com/assets/evidence/halloween2022-worksheet-date-review-3db2284fe0092fac633e.json",
+    "additionalOriginalResultsDated": 10,
+    "totalNewlyDatedRows": 56,
+    "knownWorksheetRowsDated": 59,
+    "remainingUndatedWorksheetRows": 1,
+    "additionalSourceReceiptR2": "https://media.mktwrs.com/assets/evidence/halloween2022-ten-date-review-10c40b6819ab2e2e46bf.json"
+  },
+  "remainingUndatedWorksheetRows": [
+    {
+      "sheetId": "sheet-APX10",
+      "playerId": "troy",
+      "time": "0:58.58",
+      "reason": "No dated source recovered in complete opening submission search or focused Troy account search."
+    }
+  ]
 }
