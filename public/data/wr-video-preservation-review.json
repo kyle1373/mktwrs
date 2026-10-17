@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T17:26:20.815081+00:00",
+  "checkedAt": "2026-10-17T17:47:03.267648+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 305,
@@ -8,8 +8,8 @@
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-77",
-  "evidence": "artifacts/bowser2022-wins4884-original-video-r2-integrity-20261017.json",
+  "currentVideoPreservationTourId": "tour-78",
+  "evidence": "artifacts/bowser2022-final-account-source-and-opening-video-r2-integrity-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -6299,14 +6299,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
+  "previousPreservationEvidence": "artifacts/bowser2022-wins4884-original-video-r2-integrity-20261017.json",
   "newOriginalUploadsInCurrentBatch": 1,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 0,
-  "currentBatchUniqueR2FilesVerified": 4,
+  "currentBatchUniqueR2FilesVerified": 5,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 0,
   "originalSourcesStillUnreviewed": 20,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
@@ -6319,7 +6319,7 @@
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
   "currentBatchNewR2ObjectsUploaded": 4,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 0,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1,
   "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0,
   "newOriginalEncodingCopiesUploadedInCurrentBatch": 0,
   "pendingSundaeDateSourceReceiptPreservation": {
@@ -6370,10 +6370,10 @@
     "recoveredOriginalSourceReceipts": "https://media.mktwrs.com/assets/proof/sundae2022-four-recovered-source-receipts-b4e82a4f5e70a1ebc16e.json",
     "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
   },
-  "previousCompletedVideoPreservationTourId": "tour-76",
+  "previousCompletedVideoPreservationTourId": "tour-77",
   "newOriginalImagesPreservedInCurrentBatch": 0,
-  "newFirstLapFramesPreservedInCurrentBatch": 1,
-  "newSourceReceiptObjectsPreservedInCurrentBatch": 0,
+  "newFirstLapFramesPreservedInCurrentBatch": 0,
+  "newSourceReceiptObjectsPreservedInCurrentBatch": 1,
   "sundaeKnownSourceDateReviewComplete": true,
   "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
   "canonicalR2CoverageReconciliation": {
@@ -6391,47 +6391,34 @@
     "previousBowserRecoveryCount": 304,
     "latestOriginalRecoveryKey": "x:1562808707096117253"
   },
-  "bowserRemainingDateSourceGap": [
-    {
-      "courseId": "snes-choco-island-2r",
-      "id": "sheet-ANL47",
-      "time": "0:49.00",
-      "playerId": "dome-1909",
-      "source": "worksheet only",
-      "datedDiscordSearch": "No Dome result for August24\u2013September7 in authenticated server search; no posting date invented.",
-      "candidateSource": {
-        "messageId": "1017002988897828865",
-        "postedAt": "2022-09-07T09:26:47.555Z",
-        "time": "0:49.00",
-        "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1017002988897828865",
-        "author": "Deleted User",
-        "sourceAuthorAccountVerified": false,
-        "sourceReceiptR2": "https://media.mktwrs.com/assets/proof/bowser2022-dome4900-source-receipt-5bc58da0c20682688e2f.json",
-        "originalImageR2": "https://media.mktwrs.com/assets/proof/bowser2022-original-1017002988268695562-14c97da4d2eb60e2363d.jpg",
-        "reviewArtifact": "artifacts/bowser2022-dome4900-deleted-source-candidate-review-20261017.json",
-        "integrityArtifact": "artifacts/bowser2022-dome4900-source-receipt-r2-integrity-20261017.json",
-        "dateNotAssignedToWorksheet": true
-      }
-    }
-  ],
+  "bowserRemainingDateSourceGap": [],
   "latestBowserCandidateSourceReceipt": {
-    "checkedAt": "2026-10-17T17:16:18.676Z",
+    "checkedAt": "2026-10-17T17:47:03.267648+00:00",
     "sourceCandidate": {
       "messageId": "1017002988897828865",
       "postedAt": "2022-09-07T09:26:47.555Z",
       "time": "0:49.00",
       "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1017002988897828865",
       "author": "Deleted User",
-      "sourceAuthorAccountVerified": false,
+      "sourceAuthorAccountVerified": true,
       "sourceReceiptR2": "https://media.mktwrs.com/assets/proof/bowser2022-dome4900-source-receipt-5bc58da0c20682688e2f.json",
       "originalImageR2": "https://media.mktwrs.com/assets/proof/bowser2022-original-1017002988268695562-14c97da4d2eb60e2363d.jpg",
       "reviewArtifact": "artifacts/bowser2022-dome4900-deleted-source-candidate-review-20261017.json",
       "integrityArtifact": "artifacts/bowser2022-dome4900-source-receipt-r2-integrity-20261017.json",
-      "dateNotAssignedToWorksheet": true
+      "dateNotAssignedToWorksheet": false,
+      "identifiedPlayerId": "dome-1909",
+      "accountId": "713287146366304348"
     },
     "newSourceReceiptR2Objects": 1,
     "existingOriginalImageReverified": true,
-    "sourceDateOrWrDurationChanged": false
+    "sourceDateOrWrDurationChanged": true,
+    "resolvedByOriginalAccountIdSearch": true,
+    "sourceAuthorAccountVerified": true,
+    "dateAssigned": "2022-09-07T09:26:47.555Z",
+    "sourceReceiptR2": "https://media.mktwrs.com/assets/proof/bowser2022-dome-account-source-receipt-92059ba869c7866d2023.json",
+    "reviewArtifact": "artifacts/bowser2022-final-dome-account-date-and-opening-video-source-closure-20261017.json",
+    "sourceDateChanged": true,
+    "wrDurationsChanged": false
   },
   "latestWins4884OriginalRecovery": {
     "checkedAt": "2026-10-17T17:26:20.815081+00:00",
@@ -6461,5 +6448,69 @@
     "dateAndDurationUnchanged": true
   },
   "newMetadataObjectsPreservedInCurrentBatch": 1,
-  "newFinishFramesPreservedInCurrentBatch": 1
+  "newFinishFramesPreservedInCurrentBatch": 1,
+  "previousBowserCandidateSourceReceipt": {
+    "checkedAt": "2026-10-17T17:16:18.676Z",
+    "sourceCandidate": {
+      "messageId": "1017002988897828865",
+      "postedAt": "2022-09-07T09:26:47.555Z",
+      "time": "0:49.00",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1017002988897828865",
+      "author": "Deleted User",
+      "sourceAuthorAccountVerified": false,
+      "sourceReceiptR2": "https://media.mktwrs.com/assets/proof/bowser2022-dome4900-source-receipt-5bc58da0c20682688e2f.json",
+      "originalImageR2": "https://media.mktwrs.com/assets/proof/bowser2022-original-1017002988268695562-14c97da4d2eb60e2363d.jpg",
+      "reviewArtifact": "artifacts/bowser2022-dome4900-deleted-source-candidate-review-20261017.json",
+      "integrityArtifact": "artifacts/bowser2022-dome4900-source-receipt-r2-integrity-20261017.json",
+      "dateNotAssignedToWorksheet": true
+    },
+    "newSourceReceiptR2Objects": 1,
+    "existingOriginalImageReverified": true,
+    "sourceDateOrWrDurationChanged": false
+  },
+  "bowserKnownSourceDateReviewComplete": true,
+  "bowserSourceDateClosureEvidence": "artifacts/bowser2022-final-dome-account-date-and-opening-video-source-closure-20261017.json",
+  "latestOpeningSupportingVideoReview": {
+    "player": "Saki7",
+    "courseId": "gba-bowser-s-castle-3",
+    "completedTime": "1:26.33",
+    "sourceVideoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/bowser2022-saki-12633-original-video-9ae03033f46698089bd1.mp4",
+      "originalUrl": "https://twitter.com/saki728472383/status/1562386962232659968",
+      "channel": "mktwrs media archive",
+      "kind": "r2-preserved-original-platform-video",
+      "status": "available",
+      "uploadedAt": "2026-10-17T17:47:03.267648+00:00",
+      "sha256": "9ae03033f46698089bd13151eee3075ad2ab589794204e3c73beb0867f014736",
+      "bytes": 28271509,
+      "credit": "Saki7",
+      "preservedOriginalFile": "archive/video-backup-files/bowser2022-saki-opening-recovery-20261017/original.mp4",
+      "sourceResolution": {
+        "width": 592,
+        "height": 1280,
+        "frameRate": "60000/1001"
+      },
+      "sourceDurationSeconds": 98.729796,
+      "originalFileFullyDecoded": true,
+      "preservationEvidence": "artifacts/bowser2022-final-account-source-and-opening-video-r2-integrity-20261017.json"
+    },
+    "videoPublishedAt": "2022-08-24T10:30:54.000Z",
+    "originalMetadataR2": "https://media.mktwrs.com/assets/proof/bowser2022-saki-12633-original-metadata-9e6c904495db0d0bbc68.json",
+    "completedFinishFrame": "https://media.mktwrs.com/assets/proof/bowser2022-saki-12633-finish-76dffaa77bc20a2977ba.png",
+    "completedFinishPlaybackSeconds": 92,
+    "freshVisualReview": true,
+    "originalFileFullyDecoded": true,
+    "decodePreservedDemuxTimeBase": true,
+    "everyFrameRaceContinuityNotCertified": true,
+    "separateWorksheetResult": "sheet-AND12",
+    "separateWorksheetTime": "1:26.32",
+    "notAttachedAsVideoOfDifferentWorksheetTime": true,
+    "wrProfileOrProgressionNotCreated": true,
+    "sourceShareReceipt": "archive/august2022-august24-25-four-video-share-choco-missing-link-review-20261010.json",
+    "originalShareMessageId": "1011947961829306428",
+    "originalShareClock": "2022-08-24T10:39:55.184Z",
+    "captionMessageId": "1011948030297129022",
+    "captionClock": "2022-08-24T10:40:11.508Z",
+    "captionTime": "1:26.33"
+  }
 }
