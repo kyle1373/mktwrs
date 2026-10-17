@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T04:02:27.434910+00:00",
+  "checkedAt": "2026-10-17T04:08:41.522409+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
@@ -8,8 +8,8 @@
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-39",
-  "evidence": "artifacts/mario2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-40",
+  "evidence": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -5386,7 +5386,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/yoshi2021-tokyo-04651-40cb3ff83f93.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:08:41.522409+00:00",
+      "evidence": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1378936513040318466",
@@ -5401,7 +5403,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "sourceCheck": "yt-dlp: No video could be found in this tweet",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T04:08:41.522409+00:00",
+      "evidence": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1605197361944625153",
@@ -5581,7 +5587,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "sourceCheck": "yt-dlp: No video could be found in this tweet",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T04:08:41.522409+00:00",
+      "evidence": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:R4DefPSYMTg",
@@ -5824,16 +5834,16 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 32,
-  "previousPreservationEvidence": "artifacts/snow2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 33,
+  "previousPreservationEvidence": "artifacts/mario2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "knownUnavailableOriginalsReviewed": 17,
-  "newOriginalUploadsInCurrentBatch": 1,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 5,
+  "newOriginalUploadsInCurrentBatch": 0,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 6,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 11,
+  "sourceNoDownloadableVideoRecoveryGaps": 13,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 8,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 13,
-  "currentBatchUniqueR2FilesVerified": 17,
-  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 3,
-  "originalSourcesStillUnreviewed": 39
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 14,
+  "currentBatchUniqueR2FilesVerified": 16,
+  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
+  "originalSourcesStillUnreviewed": 37
 }

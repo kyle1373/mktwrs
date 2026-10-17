@@ -41,7 +41,8 @@
     "archive/yoshi2021-nhspeedy-two-cup-results-fresh-visible-review-20261013.json",
     "archive/yoshi2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/yoshi2021-image-source-publication-crosswalk-20261013.json",
-    "archive/yoshi2021-opening-day-policy-generation-check-20261013.json"
+    "archive/yoshi2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/yoshi-2021-reconciliation.json",
@@ -79,7 +80,8 @@
     "Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.",
     "Prior gameplay/finish reviews retained. Upload/publication day used for tour scope when original source clock absent; no race instant inferred.",
     "Six route fragments remain separate from completed race proof.",
-    "Eight additional completed recordings retained with prior reviews; six short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+    "Eight additional completed recordings retained with prior reviews; six short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.",
+    "Fresh original recovery checks: both flagged Nu11 tweets returned no downloadable video; separately linked Pinball YouTube TEGsEDoLazE was unavailable. All16 stored video objects passed full SHA256 and byte-length checks. Supporting footage remains separate from final WR runs."
   ],
   "validation": {
     "liveSnapshotRows": 340,
@@ -95,5 +97,16 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/yoshi2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/yoshi2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "8df0d558d18061e271501e7f2ae93c9131b43a66"
+  "sourceCommit": "8df0d558d18061e271501e7f2ae93c9131b43a66",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T04:08:41.522409+00:00",
+    "audit": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 16,
+    "newOriginalUploads": 0,
+    "canonicalVideoKeysWithR2": 1,
+    "canonicalVideoKeysWithUnresolvedRecovery": 2,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
