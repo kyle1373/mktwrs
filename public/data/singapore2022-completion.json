@@ -41,7 +41,8 @@
     "archive/singapore2022-discussion-image-integrity-index-20261013.json",
     "archive/singapore2022-all-original-video-upload-share-clocks-20261013.json",
     "archive/singapore2022-all-surviving-recordings-r2-preservation-20261013.json",
-    "archive/singapore2022-final-publication-audit-20261013.json"
+    "archive/singapore2022-final-publication-audit-20261013.json",
+    "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/singapore-2022-reconciliation.json",
@@ -76,7 +77,8 @@
     "Sucha original video share clock unresolved; lap-caption post not treated as video share.",
     "Seven completed original recordings, one alternate encode and five partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "The original same-video Discord link is dated January 13, 2022; current YouTube metadata reports February 10, 2022. Both source clocks are retained; original upload chronology is not independently certified and the January 12 result-submission date remains unchanged."
   ],
   "validation": {
     "liveSnapshotRows": 252,
@@ -93,5 +95,33 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "302630752ffc8e2c65f11ffae90f40c3629b62d5",
-  "latestPublicationAudit": "archive/singapore2022-final-publication-audit-20261013.json"
+  "latestPublicationAudit": "archive/singapore2022-final-publication-audit-20261013.json",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T06:28:10.810Z",
+    "audit": "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 13,
+    "distinctFileHashes": 13,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "distinctCompletedRunResults": 7,
+    "additionalSameResultEncodeFiles": 1,
+    "partialClipFiles": 5,
+    "singaporeFinalWrRecordingPreserved": true,
+    "finalPinballWrRecordingNotRecovered": true,
+    "pinballSelectedRecordingSlowerThanFinalWr": true,
+    "winsRouteShortStillUnavailable": true,
+    "playbackScreenshot": "artifacts/singapore2022-sucha10943-preserved-r2-playback-20261016.png",
+    "visibleSelectedRecordingFinish": "1:09.43",
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T06:31:43.492793+00:00",
+    "audit": "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "canonicalRecordedResultsWithSourceDateAndDurationChecks": 6,
+    "pinballOriginalVideoShareTimestampFreshlyVerified": "2022-01-13T23:11:17.086Z",
+    "laterReportedYouTubeUploadClockRetained": true,
+    "originalUploadClockIndependentlyCertified": false,
+    "historyComplete": false
+  }
 }
