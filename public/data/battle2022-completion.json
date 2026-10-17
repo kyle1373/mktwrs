@@ -1,9 +1,9 @@
 {
   "tourId": "tour-80",
   "tour": "Battle Tour (2022)",
-  "status": "in-progress-source-revalidation",
-  "completedAt": null,
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-17",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
@@ -48,8 +48,8 @@
     "generatedReviewedRowsCompared": 146,
     "materialFieldDifferences": 0,
     "knownWorksheetRows": 77,
-    "knownWorksheetRowsDated": 68,
-    "remainingUndatedWorksheetRows": 9
+    "knownWorksheetRowsDated": 77,
+    "remainingUndatedWorksheetRows": 0
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -66,16 +66,19 @@
     "liveSupportingEntries": {
       "snes-donut-plains-1r": 78,
       "snes-donut-plains-2": 46
+    },
+    "latestReview": {
+      "all77WorksheetDateSourcesVerified": true,
+      "canonicalRecordDatesLapsAndDurationArithmeticVerified": 6,
+      "originalWrImagesR2Verified": 6,
+      "originalVideosFullyDecodedAndR2Verified": 4
     }
   },
   "remainingLimitations": [
-    "Hilton0:49.15 final WR has screenshot and original-command proof; no final footage recovered. Nu110:49.31 available recording shown separately.",
-    "Nu110:49.31 prior sampled original-video lap/finish review retained. Full decode and byte checks do not certify uninterrupted continuity.",
-    "DP2 fresh70sframe reads1:00.61. Video publicationOctober19 13:18 follows06UTCtourrollover; screenshotOctober11 supplies prior result evidence. Local device date is not exact UTC achievement.",
-    "Cancelled4964, undated previous4957/4921/10071 and malformed input histories remain qualified. No invented predecessor or achievement dates.",
-    "Complete worldwide and intermediate chronology, missing source coverage and fastest-recording exhaustiveness remain unproved.",
-    "No timed opening-day submissions recovered for either course; no opening records or exact dates invented.",
-    "Closing adjacentOctober19 N image1:55.27 versus reportedPB1:00.62 occurs aftertour06UTCrollover; not added to Battle supporting results."
+    "Hilton final DP1R 0:49.15 recording not recovered; original result image preserved. Faster final WR and best available Battle2022 recording Nu11 0:49.31 remain distinct.",
+    "Cancelled DP1R 0:49.64 and undated prior-best observations 0:49.57/0:49.21/1:00.71 remain qualified source gaps, not promoted as timed WRs.",
+    "Opening-day submission search recovered no timed Battle2022 result; standing records carry across tours. No invented day-one records.",
+    "Surviving sources do not prove complete worldwide/intermediate history or exhaustive best-video coverage."
   ],
   "evidence": [
     "archive/battle2022-final-practical-publication-audit-20261013.json",
@@ -97,77 +100,33 @@
     "artifacts/battle2022-worksheet-original-proof-r2-integrity-20261017.json",
     "artifacts/battle2022-two-additional-supporting-video-preservation-review-20261017.json",
     "artifacts/battle2022-four-original-recordings-r2-integrity-20261017.json",
-    "artifacts/battle2022-four-original-recording-decode-and-format-review-20261017.json"
+    "artifacts/battle2022-four-original-recording-decode-and-format-review-20261017.json",
+    "artifacts/battle2022-nine-final-worksheet-source-date-recoveries-20261017.json",
+    "artifacts/battle2022-nine-date-original-proofs-r2-integrity-20261017.json",
+    "artifacts/battle2022-nine-final-worksheet-source-date-recoveries-20261017.json",
+    "artifacts/battle2022-nine-date-original-proofs-r2-integrity-20261017.json",
+    "artifacts/battle2022-all-77-worksheet-dates-and-standing-wr-progression-reconciliation-20261017.json",
+    "artifacts/battle2022-six-original-wr-proof-r2-integrity-20261017.json",
+    "artifacts/battle2022-existing-wr-lap-and-duration-arithmetic-audit-20261017.json",
+    "artifacts/battle2022-four-original-recordings-r2-integrity-20261017.json",
+    "artifacts/battle2022-four-original-recording-decode-and-format-review-20261017.json",
+    "artifacts/battle2022-duration-calendar-endpoint-source-review-20261017.json",
+    "artifacts/battle2022-known-wr-review-closure-with-retained-source-gaps-20261017.json"
   ],
   "nextTourId": "tour-81",
   "sourceCommit": "8742ecdb3f47d5ea9824dbcf54535fd5883ddc83",
   "previousReviewCompletedAt": "2026-10-13",
   "previousPracticalReviewComplete": true,
-  "knownWorksheetDateReviewComplete": false,
+  "knownWorksheetDateReviewComplete": true,
   "latestSourceDateRevalidation": {
     "checkedAt": "2026-10-17T21:31:59.555333+00:00",
     "knownWorksheetRows": 77,
-    "knownWorksheetRowsDated": 68,
-    "remainingUndatedWorksheetRows": 9,
+    "knownWorksheetRowsDated": 77,
+    "remainingUndatedWorksheetRows": 0,
     "dateChangesPublished": true,
-    "reviewArtifact": "artifacts/battle2022-38-worksheet-dates-and-nu11-original-clock-reconciliation-20261017.json"
+    "reviewArtifact": "artifacts/battle2022-nine-final-worksheet-source-date-recoveries-20261017.json"
   },
-  "remainingUndatedWorksheetRows": [
-    {
-      "sheetId": "sheet-APP15",
-      "courseId": "snes-donut-plains-1r",
-      "playerId": "guti",
-      "time": "0:51.04"
-    },
-    {
-      "sheetId": "sheet-APP18",
-      "courseId": "snes-donut-plains-1r",
-      "playerId": "guti",
-      "time": "0:50.94"
-    },
-    {
-      "sheetId": "sheet-APP19",
-      "courseId": "snes-donut-plains-1r",
-      "playerId": "raptor",
-      "time": "0:51.41"
-    },
-    {
-      "sheetId": "sheet-APP20",
-      "courseId": "snes-donut-plains-1r",
-      "playerId": "tankian",
-      "time": "0:50.59"
-    },
-    {
-      "sheetId": "sheet-APP21",
-      "courseId": "snes-donut-plains-1r",
-      "playerId": "spartacurtyt",
-      "time": "0:50.54"
-    },
-    {
-      "sheetId": "sheet-APP31",
-      "courseId": "snes-donut-plains-1r",
-      "playerId": "guti",
-      "time": "0:50.74"
-    },
-    {
-      "sheetId": "sheet-APH25",
-      "courseId": "snes-donut-plains-2",
-      "playerId": "okusho",
-      "time": "1:01.79"
-    },
-    {
-      "sheetId": "sheet-APH28",
-      "courseId": "snes-donut-plains-2",
-      "playerId": "okusho",
-      "time": "1:01.64"
-    },
-    {
-      "sheetId": "sheet-APH39",
-      "courseId": "snes-donut-plains-2",
-      "playerId": "n",
-      "time": "1:00.73"
-    }
-  ],
+  "remainingUndatedWorksheetRows": [],
   "latestWorksheetDateReconciliation": {
     "checkedAt": "2026-10-17T21:39:30.770393+00:00",
     "newlyDatedRows": 38,
@@ -184,5 +143,17 @@
     "newOriginalVideosPreserved": 2,
     "originalRecordingsFullyDecoded": 4,
     "canonicalWorldRecordsChanged": false
-  }
+  },
+  "latestFinalWorksheetDateRecovery": {
+    "newlyDatedRows": 9,
+    "knownWorksheetRowsDated": 77,
+    "totalWorksheetRows": 77,
+    "remainingUndatedWorksheetRows": 0,
+    "reviewArtifact": "artifacts/battle2022-nine-final-worksheet-source-date-recoveries-20261017.json",
+    "sourceReceiptR2": "https://media.mktwrs.com/assets/evidence/battle2022-nine-date-recoveries-69be5722e1ce0767ecea.json",
+    "canonicalProgressionReviewStillOpen": false
+  },
+  "knownWrReviewComplete": true,
+  "closureEvidence": "artifacts/battle2022-known-wr-review-closure-with-retained-source-gaps-20261017.json",
+  "closureEvidenceR2": "https://media.mktwrs.com/assets/evidence/battle2022-known-wr-review-closure-f3f72293f9c55571c7bf.json"
 }
