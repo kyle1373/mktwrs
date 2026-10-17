@@ -37,7 +37,8 @@
     "archive/kamek2021-image-source-publication-crosswalk-20261013.json",
     "archive/kamek2021-opening-day-policy-generation-check-20261013.json",
     "archive/kamek2021-submission-source-file-and-publication-crosswalk-20261013.json",
-    "archive/kamek2021-preserved-video-share-clock-reconciliation-20261013.json"
+    "archive/kamek2021-preserved-video-share-clock-reconciliation-20261013.json",
+    "artifacts/kamek2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/kamek-2021-reconciliation.json",
@@ -71,7 +72,7 @@
     "Nu11 0:59.99, Wins 1:02.44 and Adrishi 1:00.16 original record dates remain unresolved.",
     "Tentative shiraui lap report remains in source notes; no guessed verified splits.",
     "Attachment 881577530358910996 was re-read at full resolution as 1:02.89, not 1:02.58; it is not a world record.",
-    "Six Discord technique clips (4–10 seconds) were downloaded and visually reviewed; they are not proof of completed runs.",
+    "Six Discord technique clips (4\u201310 seconds) were downloaded and visually reviewed; they are not proof of completed runs.",
     "Nu11 previous-best0:59.96 observed without independently dated WR chronology.",
     "Prior full recording review retained without fresh uninterrupted certification.",
     "Private, deleted and unindexed global material not proven fully recovered.",
@@ -81,7 +82,8 @@
     "Prior full-run and technique reviews retained; not a fresh continuous-footage certification.",
     "Seven completed runs and eight partial clips preserved; partial clips do not enter WR history.",
     "Original result, upload and share clocks remain distinct.",
-    "Eight partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+    "Eight partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
+    "All 17 R2 objects passed full SHA256 and byte-length checks, representing 15 distinct files: seven completed runs and eight partial clips. Both final WR recordings are preserved; exact race dates and deleted/private or unindexed source history remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 341,
@@ -98,5 +100,16 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/kamek2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/kamek2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "64d43ba391b52a9b27e784f30892b1d813383471"
+  "sourceCommit": "64d43ba391b52a9b27e784f30892b1d813383471",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:26:39.514Z",
+    "audit": "artifacts/kamek2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 17,
+    "distinctFileHashes": 15,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "bothFinalWrRecordingsPreservedOnR2": true,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
