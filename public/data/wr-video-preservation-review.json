@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T04:13:12.869961+00:00",
+  "checkedAt": "2026-10-17T04:17:28.341401+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
   "r2BackupNeedsReview": 67,
-  "freshOriginalByteChecks": 3,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-41",
-  "evidence": "artifacts/ninja2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-42",
+  "evidence": "artifacts/sydney2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -3342,7 +3342,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/sydney2021-nbc-12368-8829b63c7b75.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:17:28.341401+00:00",
+      "evidence": "artifacts/sydney2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:1GrmZnTkaDY",
@@ -3881,7 +3883,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/sydney2021-choco-10241-67ea8d7d5664.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:17:28.341401+00:00",
+      "evidence": "artifacts/sydney2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:FhZOgmYkANs",
@@ -5844,17 +5848,17 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 36,
-  "previousPreservationEvidence": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 38,
+  "previousPreservationEvidence": "artifacts/ninja2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "knownUnavailableOriginalsReviewed": 18,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 4,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 3,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 13,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 10,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 15,
-  "currentBatchUniqueR2FilesVerified": 17,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 5,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 8,
+  "currentBatchUniqueR2FilesVerified": 10,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 36,
-  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 1
+  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0
 }

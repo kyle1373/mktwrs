@@ -36,7 +36,8 @@
     "archive/sydney2021-additional-recordings-r2-preservation-20261013.json",
     "archive/sydney2021-image-source-publication-crosswalk-20261013.json",
     "archive/sydney2021-preserved-source-index-and-image-integrity-20261013.json",
-    "archive/sydney2021-opening-day-policy-generation-check-20261013.json"
+    "archive/sydney2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/sydney2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/sydney-april-2021-reconciliation.json",
@@ -76,7 +77,8 @@
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Original final WR videos shared after earlier screenshots; publication dates do not reset achievement dates.",
     "Three route/failed-attempt clips remain separate from completed runs.",
-    "Five additional completed recordings retained with prior reviews; three short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+    "Five additional completed recordings retained with prior reviews; three short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.",
+    "Fresh full-byte checks passed for all10 stored video objects, including both matching final WR originals. Additional source YouTube IDs VZu5-ZPHOrM, ZEGhpcAhi4c and v5f3JLVFnyE remain unavailable. These non-canonical source gaps are retained separately from canonical video-key counts."
   ],
   "validation": {
     "liveSnapshotRows": 563,
@@ -93,5 +95,17 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/sydney2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/sydney2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "6115eea59af4138e494a38129ca05abaa087c1c4"
+  "sourceCommit": "6115eea59af4138e494a38129ca05abaa087c1c4",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T04:17:28.341401+00:00",
+    "audit": "artifacts/sydney2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 10,
+    "newOriginalUploads": 0,
+    "canonicalVideoKeysWithR2": 2,
+    "canonicalVideoKeysWithUnresolvedRecovery": 0,
+    "additionalNonCanonicalOriginalsUnavailable": 3,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
