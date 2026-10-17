@@ -43,7 +43,8 @@
     "archive/bowserdk2021-seven-unbatched-context-images-visible-review-20261013.json",
     "archive/bowserdk2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/bowserdk2021-image-source-publication-crosswalk-20261013.json",
-    "archive/bowserdk2021-opening-day-policy-generation-check-20261013.json"
+    "archive/bowserdk2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/bowserdk2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/bowser-dk-2021-reconciliation.json",
@@ -75,14 +76,15 @@
     "N’s qualified lap recollection is retained in notes, not treated as exact.",
     "Two same-player reties are retained as submissions without inflating WR changes.",
     "Original Nu 1:29.85 video and first Kazuo 1:04.30 video post are unavailable; the latter has a surviving preserved repost.",
-    "All three Kazuo final WRs have preserved footage. Kalimari original tweet deleted; May15 surviving repost and May14 community copy retain earlier result date.",
+    "All three Kazuo final WRs have preserved footage. Kalimari original tweet deleted; May 15 surviving repost and May14 community copy retain earlier result date.",
     "Preserved census and prior image decisions do not establish worldwide/deleted/private coverage or uninterrupted playback.",
     "Original screenshot, social-upload and Discord-share clocks are separate from unknown exact race instants.",
     "Kalimari Desert2R has no accepted debut-day WR; first accepted history beginsMay6. Opening global leadership remains unresolved.",
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Community Kalimari64.30 copy is separate preservation of the selected final run; share date does not reset original WR date.",
     "Partial route clips remain separate from completed runs.",
-    "Eight additional completed recordings retained with prior reviews; ten short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+    "Eight additional completed recordings retained with prior reviews; ten short route clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.",
+    "All 22 stored video objects passed full SHA256 checks. Kalimari 1:04.30 preservation is explicitly a May 15 surviving repost; May 14 WR submission is retained, and deleted initial-post bytes are not certified recovered. Fresh Kazuo 1:04.35 original tweet returned no downloadable video; Nu11 Ice World R 1:29.85 YouTube was unavailable."
   ],
   "validation": {
     "liveSnapshotRows": 729,
@@ -99,5 +101,18 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/bowserdk2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/bowserdk2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "d235b4d53525d64e9033e4eddf077fe98764f973"
+  "sourceCommit": "d235b4d53525d64e9033e4eddf077fe98764f973",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T04:23:10.907787+00:00",
+    "audit": "artifacts/bowserdk2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 22,
+    "newOriginalUploads": 0,
+    "canonicalVideoKeysWithR2": 3,
+    "canonicalVideoKeysWithUnresolvedRecovery": 2,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "survivingKalimariRepostPublishedAt": "2021-05-15T07:39:41+00:00",
+    "originalKalimariFirstPostBytesRecovered": false,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
