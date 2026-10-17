@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T07:33:59.976903+00:00",
+  "checkedAt": "2026-10-17T07:41:27.834637+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 300,
   "r2BackupNeedsReview": 65,
-  "freshOriginalByteChecks": 6,
+  "freshOriginalByteChecks": 4,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-68",
-  "evidence": "artifacts/amsterdam2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "currentVideoPreservationTourId": "tour-69",
+  "evidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1063,11 +1063,15 @@
           "courseId": "gba-cheep-cheep-island",
           "time": "1:11.75",
           "playerId": "nu11",
-          "documentedAt": "2022-05-05T05:03:04.671Z"
+          "documentedAt": "2022-05-05T05:01:42.000Z"
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-302f4cf1aaa5403d772f.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T07:41:27.834637+00:00",
+      "sha256": "302f4cf1aaa5403d772f712310cb8f0075a36e6fdb02e90f95e71dc3bbf1f9ee",
+      "bytes": 19201781,
+      "preservationEvidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "youtube:ioqDtUbAhmw",
@@ -1597,7 +1601,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-0947b15988072452963c.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T07:41:27.834637+00:00",
+      "sha256": "0947b15988072452963c9834d53e1e0c5bb2a1bbe459cd1e44c8ec750d3cae0a",
+      "bytes": 26761689,
+      "preservationEvidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "youtube:lmAiDVHqHwg",
@@ -1612,7 +1620,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-c31d00846b18368d8667.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T07:41:27.834637+00:00",
+      "sha256": "c31d00846b18368d866764fe21cddf9ed268aeb120f96ea8ef30195e080ecc70",
+      "bytes": 20382890,
+      "preservationEvidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "youtube:CDzFP6xTxlY",
@@ -1627,7 +1639,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-3715895c7a105a1cc013.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T07:41:27.834637+00:00",
+      "sha256": "3715895c7a105a1cc01332bbbd42053dcd6b677add2e4eb46096d3838195ee17",
+      "bytes": 57583021,
+      "preservationEvidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "youtube:21_QA4FRXwM",
@@ -6156,17 +6172,17 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/yoshi2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "previousPreservationEvidence": "artifacts/amsterdam2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "newOriginalUploadsInCurrentBatch": 0,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 1,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 2,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 8,
-  "currentBatchUniqueR2FilesVerified": 14,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 1,
+  "currentBatchUniqueR2FilesVerified": 5,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 25,
-  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 2,
+  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,

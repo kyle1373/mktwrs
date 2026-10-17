@@ -70,11 +70,79 @@
     "archive/doctor2022-strategy-clip-r2-preservation-20261013.json",
     "archive/doctor2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
     "archive/doctor-2022-reconciliation.json",
-    "archive/doctor-2022-evidence-validation-20261008.json"
+    "archive/doctor-2022-evidence-validation-20261008.json",
+    "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+    "artifacts/doctor2022-source-date-duration-and-original-publication-review-20261017.json"
   ],
   "sourceCommit": "3d349f91509f2f471e4702b6b0cb222ed6ffcfad",
   "latestPublicationAudit": "archive/doctor2022-final-publication-audit-20261013.json",
   "completionLabelLiveVerified": true,
   "nextTourId": "tour-70",
-  "completionLabelLiveAudit": "archive/doctor2022-completion-label-live-publication-check-20261013.json"
+  "completionLabelLiveAudit": "archive/doctor2022-completion-label-live-publication-check-20261013.json",
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T07:41:27.834637+00:00",
+    "fourCanonicalSourceAndIntervalChecks": [
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "977979960255979631",
+        "time": "1:11.75",
+        "documentedAt": "2022-05-05T05:01:42.000Z",
+        "submittedAt": "2022-05-05T05:03:04.671Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 13.040486111111111,
+        "thisTourCreditedDays": 13.040486111111111,
+        "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-302f4cf1aaa5403d772f.mp4"
+      },
+      {
+        "courseId": "3ds-daisy-hills-r",
+        "id": "curated-doctor-2022-974046470028292096",
+        "time": "1:20.21",
+        "documentedAt": "2022-05-11T20:32:56.011Z",
+        "submittedAt": "2022-05-11T20:32:56.011Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 5.953999166666667,
+        "thisTourCreditedDays": 5.953999166666667,
+        "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-0947b15988072452963c.mp4"
+      },
+      {
+        "courseId": "3ds-daisy-hills-r",
+        "id": "curated-doctor-2022-976204128156024902",
+        "time": "1:20.09",
+        "documentedAt": "2022-05-17T19:26:41.539Z",
+        "submittedAt": "2022-05-17T19:26:41.539Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 0.43672528935185184,
+        "thisTourCreditedDays": 0.4367252893518519,
+        "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-c31d00846b18368d8667.mp4"
+      },
+      {
+        "courseId": "3ds-daisy-hills-r",
+        "id": "977977786604073020",
+        "time": "1:19.95",
+        "documentedAt": "2022-05-18T05:55:34.604Z",
+        "submittedAt": "2022-05-18T05:55:34.604Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 0.003071712962962963,
+        "thisTourCreditedDays": 0.003071712962962963,
+        "r2Url": "https://media.mktwrs.com/assets/video/doctor2022-3715895c7a105a1cc013.mp4"
+      }
+    ],
+    "actualSubmissionAndOriginalVideoPublicationStoredSeparately": true,
+    "evidence": "artifacts/doctor2022-source-date-duration-and-original-publication-review-20261017.json"
+  },
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T07:41:27.834637+00:00",
+    "uniqueR2FilesVerified": 5,
+    "totalObjectBytesVerified": 132848867,
+    "sourceOriginalFullRuns": 4,
+    "partialClips": 1,
+    "playbackCopies": 0,
+    "metadataAndProofObjects": 0,
+    "allFiveVideoFilesDecoded": true,
+    "bothTourFinalRecordingsPreserved": true,
+    "nu11EarlierVideoPublicationApplied": true,
+    "fireballHistoricalVisibilityLimitationRetained": true,
+    "newUploads": 0,
+    "evidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
+  }
 }
