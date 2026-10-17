@@ -48,7 +48,8 @@
     "archive/newyear2022-preserved-submission-source-integrity-crosswalk-20261013.json",
     "archive/newyear2022-exact-window-discussion-source-index-20261013.json",
     "archive/newyear2022-all-surviving-recordings-r2-preservation-20261013.json",
-    "archive/newyear2022-final-publication-audit-20261013.json"
+    "archive/newyear2022-final-publication-audit-20261013.json",
+    "artifacts/newyear2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/new-year-2022-reconciliation.json",
@@ -137,5 +138,31 @@
   },
   "priorSourceSnapshotCommit": "e9371b8d7bba393ea5115ef82f6e0574207f8f45",
   "reviewedAgainstCommit": "41ea1b1912277077c90b7208808323e2c9995d1b",
-  "nextDateDurationReviewTourId": "tour-17"
+  "nextDateDurationReviewTourId": "tour-17",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T06:21:43.030Z",
+    "audit": "artifacts/newyear2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 14,
+    "distinctFileHashes": 14,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "completedRunFiles": 6,
+    "partialClipFiles": 8,
+    "allThreeFinalCommunityWrRecordingsPreserved": true,
+    "isunSourceRecoveryChecks": 2,
+    "isunOriginalsStillUnrecovered": true,
+    "playbackScreenshot": "artifacts/newyear2022-phillish11703-preserved-r2-playback-20261016.png",
+    "visibleSelectedRecordingFinish": "1:17.03",
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T06:22:33.978807+00:00",
+    "audit": "artifacts/newyear2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "preservedSourceFileHashesVerified": 3,
+    "currentPublishedRowsMatchingReviewedDates": 126,
+    "currentTourWrReignIntervalsVerified": 26,
+    "historyComplete": false
+  },
+  "nextVideoPreservationTourId": "tour-61"
 }
