@@ -852,6 +852,13 @@ for (const course of courses.filter(c => halloween2020ReviewedCourses.has(c.id))
 }
 applyFinalSourceFidelity(courses, JSON.parse(fs.readFileSync("scripts/final-source-fidelity-patches.json", "utf8")));
 applyReviewedRecordClassifications(courses, JSON.parse(fs.readFileSync("scripts/reviewed-record-classifications.json", "utf8")));
+// Restored source fields must not reattach footage rejected for a different result time.
+for (const course of courses) {
+  for (const row of [...course.records, ...course.submissions, ...course.candidates,
+    course.current, ...course.currentHolders].filter(Boolean)) {
+    if (row.videoAudit?.status === "title-time-mismatch" && row.videoBackup) delete row.videoBackup;
+  }
+}
 const finalDateAudit = applyFinalDates(courses, JSON.parse(fs.readFileSync("scripts/documented-date-evidence.json", "utf8")));
 const durationAudit = applyDocumentedDurations(courses, JSON.parse(fs.readFileSync("scripts/documented-supersession-evidence.json", "utf8")));
 fs.writeFileSync(out + "/documented-duration-audit.json", JSON.stringify(durationAudit));
