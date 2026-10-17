@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T05:50:06.039Z",
+  "checkedAt": "2026-10-17T05:54:50.473Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 298,
-  "r2BackupNeedsReview": 67,
+  "r2BackupRegistered": 299,
+  "r2BackupNeedsReview": 66,
   "freshOriginalByteChecks": 4,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-56",
-  "evidence": "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-57",
+  "evidence": "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -2323,7 +2323,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/space2021-83fd4cfe95a6b57bfbc4.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:54:50.473Z",
+      "evidence": "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:9B5_Pgm8HPg",
@@ -4183,7 +4185,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/space2021-dbede205ae8c377e8174.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:54:50.473Z",
+      "evidence": "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:asfPB4daRsA",
@@ -4198,7 +4202,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/space2021-7467bd595fae5306f8aa.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:54:50.473Z",
+      "evidence": "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "https://mktwrs.com/assets/proof/space-2021-superfx-8191.mov",
@@ -4212,8 +4218,11 @@
           "documentedAt": "2021-11-21T12:25:53.061Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/space2021-superfx8191-playback-560b6302d0e439f72fec.mp4",
+      "status": "verified-original-and-lossless-playback-copy-on-r2",
+      "preservedOriginalUrl": "https://media.mktwrs.com/assets/video/space2021-83460b19984a27e8b95f.mov",
+      "checkedAt": "2026-10-17T05:54:50.473Z",
+      "evidence": "artifacts/space2021-superfx8191-r2-backup-association-review-20261016.json"
     },
     {
       "key": "youtube:MPa1f6rABx4",
@@ -4228,7 +4237,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/space2021-rainbow-12157-af40c5b1d78b.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:54:50.473Z",
+      "evidence": "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:tiMHDOJg08Q",
@@ -5987,7 +5998,7 @@
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 16,
   "currentBatchUniqueR2FilesVerified": 18,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 28,
+  "originalSourcesStillUnreviewed": 27,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,

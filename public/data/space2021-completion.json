@@ -39,7 +39,9 @@
     "archive/space2021-all-original-video-upload-share-clocks-20261013.json",
     "archive/space2021-all-surviving-recordings-r2-preservation-20261013.json",
     "archive/space2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
-    "archive/space2021-final-publication-audit-20261013.json"
+    "archive/space2021-final-publication-audit-20261013.json",
+    "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/space2021-superfx8191-r2-backup-association-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/space-2021-reconciliation.json",
@@ -76,7 +78,8 @@
     "Private, deleted and unindexed global material not proven fully recovered.",
     "Six full original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "All twelve original R2 files passed full SHA256 and byte-length checks: six completed recordings and six partial clips. SuperFX 1:21.91 now has a linked lossless MP4 playback copy, whose encoded video/audio hashes match the preserved original MOV. Both files remain archived on R2; its original result and later share clocks remain unchanged. Exact race dates and deleted/private or unindexed source history remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 505,
@@ -93,5 +96,22 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "b8e7c783e38e5720ecd7ffcccbd329ba3e77e6aa",
-  "latestPublicationAudit": "archive/space2021-final-publication-audit-20261013.json"
+  "latestPublicationAudit": "archive/space2021-final-publication-audit-20261013.json",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:54:50.473Z",
+    "audit": "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "originalR2ObjectsVerified": 12,
+    "distinctOriginalFileHashes": 12,
+    "totalR2ObjectsVerifiedIncludingPlaybackCopy": 13,
+    "newOriginalUploads": 0,
+    "newLosslessPlaybackUploads": 1,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "bothFinalWrRecordingsPreservedOnR2": true,
+    "superfx8191CanonicalR2BackupRestored": true,
+    "originalMovKeptIntactOnR2": true,
+    "tourOriginalCompletedRunFiles": 6,
+    "tourPartialClips": 6,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
