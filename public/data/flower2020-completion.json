@@ -40,7 +40,8 @@
     "artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json",
     "artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json",
     "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
-    "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json"
+    "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json",
+    "artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json"
   ],
   "preservedLocalReview": {
     "source": "archive/flower-2020-review-progress.json",
@@ -51,13 +52,13 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 31,
+    "proofImageUrlsPassed": 33,
     "slowerCompletedRecordingsPreservedOnR2": 3,
     "discussionImageDispositions": 129,
     "additionalServerLeadsReviewed": 10,
     "preservedServerImageHashesVerified": 718,
     "newWorksheetOriginalProofsPreservedOnR2": 14,
-    "additionalOriginalImagesPreservedOnR2": 6
+    "additionalOriginalImagesPreservedOnR2": 8
   },
   "remainingLimitations": [
     "6 worksheet submissions remain without preserved dates or confirmed dated source crosswalks. All-source date review is incomplete.",
@@ -66,7 +67,8 @@
     "Deleted opening runner identity and some exact race dates/intermediate order unresolved; source/report/upload/share clocks stay distinct.",
     "Prior718serverimage visual review retained;129discussion images and10additionalserverleads freshly reviewed. This is not exhaustive all-server reconstruction.",
     "Representative selected-video samples plus successful decode verified; continuous unedited-race certification not claimed.",
-    "Lionjin 1:40.14 was posted 2020-05-20 at 06:45:34.679 UTC, after the tour closed. The posting date is retained; an earlier race clock is not inferred."
+    "Lionjin 1:40.14 was posted 2020-05-20 at 06:45:34.679 UTC, after the tour closed. The posting date is retained; an earlier race clock is not inferred.",
+    "Retort Curry worksheet 1:40.76 remains undated. Its own May10 completed result is 1:40.79; that different run is preserved separately and not used to assign the worksheet date."
   ],
   "validation": {
     "liveSnapshotRows": 63,
@@ -136,15 +138,17 @@
     "additionalDateEvidence": [
       "artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json",
       "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
-      "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json"
+      "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json",
+      "artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json"
     ],
     "knownAccountFilteredDateMatches": 1
   },
   "nextDateDurationReviewTourId": "tour-17",
   "mediaLinkReview": {
     "evidence": "public/data/flower2020-preserved-media-link-review.json",
-    "uniqueImages": 31,
+    "uniqueImages": 33,
     "uniqueVideos": 4,
     "allPreservedLinksPass": true
-  }
+  },
+  "wrVideoPreservationReview": "public/data/wr-video-preservation-review.json"
 }

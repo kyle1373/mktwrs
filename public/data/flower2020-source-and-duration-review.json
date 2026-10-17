@@ -51,6 +51,10 @@
     {
       "file": "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json",
       "sha256": "4ac8a308abf63944a19cef8d999bb98064ab012b65833454427bab1142b83f87"
+    },
+    {
+      "file": "artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json",
+      "sha256": "85432f4c5e29aca23825052287ea7f58cd3ec4d4cbb892da6e86cd5ef145d69b"
     }
   ],
   "dateRows": [
@@ -1157,7 +1161,14 @@
         "sheet": "Admin Panel",
         "range": "BF27:BM27"
       },
-      "reason": "Worksheet has no preserved date or proven dated source crosswalk."
+      "reason": "The preserved completed result is 1:40.79, not the worksheet 1:40.76. Do not substitute the different run as the worksheet date.",
+      "candidateSourceReview": "artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json",
+      "differentRunTime": "1:40.79",
+      "differentRunPostedAt": "2020-05-10T18:28:03.015Z",
+      "candidateEvidenceImages": [
+        "https://media.mktwrs.com/assets/proof/flower2020-curry-709109515055923282.jpg",
+        "https://media.mktwrs.com/assets/proof/flower2020-curry-709111236691755029.jpg"
+      ]
     },
     {
       "id": "sheet-BF32",

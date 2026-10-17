@@ -13,7 +13,8 @@ const files=['archive/flower-2020-discussion-census.json','archive/flower-2020-o
  'artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json',
  'archive/flower-2020-server-links-census.json',
  'artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json',
- 'artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json'];
+ 'artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json',
+ 'artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json'];
 const messages=[...read(files[0]),...read(files[1]),...read(files[6]),...read(files[8])],c=read('public/data/courses/'+courseId+'.json');
 const clock=id=>new Date(Number((BigInt(id)>>22n)+1420070400000n)).toISOString();
 const refs=r=>[r.source,...r.additionalSources||[]].filter(Boolean);
@@ -98,7 +99,10 @@ for(const collection of ['records','submissions','candidates'])for(const r of c[
   evidence={basis:'preserved-original-post',sourceUrl:'https://discord.com/channels/629221606064914442/636461740162416640/'+m.id.split('-').at(-1),messageId:m.id.split('-').at(-1),capturedText:m.text};
  }
  if(r.documentedAt)assert.equal(r.finalDate,r.documentedAt.slice(0,10));
- if(!evidence){assert.equal(r.finalDate,null);pending.push({id:r.id,playerId:r.playerId,time:r.time,source:r.source,reason:'Worksheet has no preserved date or proven dated source crosswalk.'});}
+ if(!evidence){assert.equal(r.finalDate,null);
+  const candidate=r.id==='sheet-BF27'?read(files[11]):null;
+  if(candidate){assert.equal(r.time,candidate.worksheetTime);assert.notEqual(r.time,candidate.originalCompletedResultTime);assert.equal(candidate.originalCompletedResultPostedAt,clock(candidate.originalResultMessageId));assert.equal(candidate.worksheetDateAssigned,false);}
+  pending.push({id:r.id,playerId:r.playerId,time:r.time,source:r.source,reason:candidate?.reason||'Worksheet has no preserved date or proven dated source crosswalk.',...(candidate?{candidateSourceReview:files[11],differentRunTime:candidate.originalCompletedResultTime,differentRunPostedAt:candidate.originalCompletedResultPostedAt,candidateEvidenceImages:candidate.photos.map(p=>p.r2Url)}:{})});}
  const same=c.records.find(p=>p.playerId===r.playerId&&p.timeCs===r.timeCs);
  if(collection!=='records')assert.equal(r.durationDays,same?.durationDays||0,r.id+' canonical alias or no proven WR reign');
  rows.push({courseId,collection,id:r.id,playerId:r.playerId,time:r.time,date:r.finalDate,documentedAt:r.documentedAt,creditedWrDays:r.durationDays,sourceVerified:!!evidence,...evidence});
