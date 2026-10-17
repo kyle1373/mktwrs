@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:25:16.525Z",
+  "checkedAt": "2026-10-17T03:30:31.676Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 296,
   "r2BackupNeedsReview": 69,
-  "freshOriginalByteChecks": 5,
+  "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-33",
-  "evidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-34",
+  "evidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -78,7 +78,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:M0OuZZBpOwc",
+        "checkedAt": "2026-10-17T03:30:31.675Z",
+        "method": "yt-dlp source metadata request with explicit Node JavaScript runtime",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json"
     },
     {
       "key": "youtube:DG_4n7xUc7o",
@@ -93,7 +101,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:DG_4n7xUc7o",
+        "checkedAt": "2026-10-17T03:30:31.675Z",
+        "method": "yt-dlp source metadata request with explicit Node JavaScript runtime",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json"
     },
     {
       "key": "youtube:tEQZORfSSlk",
@@ -108,7 +124,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:tEQZORfSSlk",
+        "checkedAt": "2026-10-17T03:30:31.675Z",
+        "method": "yt-dlp source metadata request with explicit Node JavaScript runtime",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json"
     },
     {
       "key": "youtube:wr1HIt9xzjU",
@@ -123,7 +147,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:wr1HIt9xzjU",
+        "checkedAt": "2026-10-17T03:30:31.676Z",
+        "method": "yt-dlp source metadata request with explicit Node JavaScript runtime",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json"
     },
     {
       "key": "x:1542058178854125568",
@@ -2169,7 +2201,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:blSFJnIPKf8",
+        "checkedAt": "2026-10-17T03:30:31.676Z",
+        "method": "yt-dlp source metadata request with explicit Node JavaScript runtime",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json"
     },
     {
       "key": "youtube:sG4q2Ok0Sf4",
@@ -2184,7 +2224,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:sG4q2Ok0Sf4",
+        "checkedAt": "2026-10-17T03:30:31.676Z",
+        "method": "yt-dlp source metadata request with explicit Node JavaScript runtime",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json"
     },
     {
       "key": "x:1460907887107063809",
@@ -5725,13 +5773,15 @@
     }
   ],
   "totalOriginalByteChecksInPreservationBatches": 27,
-  "previousPreservationEvidence": "artifacts/winter2020-original-video-integrity-and-r2-link-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 7,
-  "newOriginalUploadsInCurrentBatch": 2,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 10,
+  "previousPreservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+  "knownUnavailableOriginalsReviewed": 13,
+  "newOriginalUploadsInCurrentBatch": 0,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 5,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 5,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 1,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 11,
-  "currentBatchUniqueR2FilesVerified": 16
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 3,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 8,
+  "currentBatchUniqueR2FilesVerified": 10,
+  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
+  "originalSourcesStillUnreviewed": 51
 }
