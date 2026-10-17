@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T03:10:19.076Z",
+  "checkedAt": "2026-10-17T03:14:52.958Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 294,
@@ -8,8 +8,8 @@
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-30",
-  "evidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json",
+  "currentVideoPreservationTourId": "tour-31",
+  "evidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -2858,7 +2858,15 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/marioluigi2020-mc2-5728-95539da1dae8.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:14:52.027Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "youtube:BB1igPy_bXU",
@@ -3522,7 +3530,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:5ZFVrC7psrs",
+        "result": "This video is unavailable",
+        "checkedAt": "2026-10-17T03:14:52.958Z",
+        "method": "yt-dlp public source metadata request",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json"
     },
     {
       "key": "x:1330541072959877132",
@@ -3537,7 +3553,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "recoveryCheck": {
+        "videoKey": "x:1330541072959877132",
+        "result": "No video could be found in this tweet",
+        "checkedAt": "2026-10-17T03:14:52.958Z",
+        "method": "yt-dlp public source metadata request",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json"
     },
     {
       "key": "x:1331354951084351488",
@@ -3552,7 +3576,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "recoveryCheck": {
+        "videoKey": "x:1331354951084351488",
+        "result": "No video could be found in this tweet",
+        "checkedAt": "2026-10-17T03:14:52.958Z",
+        "method": "yt-dlp public source metadata request",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json"
     },
     {
       "key": "x:1331992282887827461",
@@ -3567,7 +3599,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "recoveryCheck": {
+        "videoKey": "x:1331992282887827461",
+        "result": "No video could be found in this tweet",
+        "checkedAt": "2026-10-17T03:14:52.958Z",
+        "method": "yt-dlp public source metadata request",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json"
     },
     {
       "key": "x:1332070490572197888",
@@ -3582,7 +3622,15 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/marioluigi2020-rainbow-15880-a6184b4068a6.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/marioluigi2020-original-video-integrity-and-recovery-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:14:52.958Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1434900061943570434",
@@ -5596,10 +5644,13 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 17,
-  "previousPreservationEvidence": "artifacts/halloween2020-kazuo-original-video-r2-preservation-20261016.json",
-  "knownUnavailableOriginalsReviewed": 5,
-  "newOriginalUploadsInCurrentBatch": 2,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
-  "losslessPlaybackCopiesInCurrentBatch": 0
+  "totalOriginalByteChecksInPreservationBatches": 19,
+  "previousPreservationEvidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json",
+  "knownUnavailableOriginalsReviewed": 6,
+  "newOriginalUploadsInCurrentBatch": 0,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 15,
+  "losslessPlaybackCopiesInCurrentBatch": 0,
+  "sourceNoDownloadableVideoRecoveryGaps": 3,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 2,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 17
 }
