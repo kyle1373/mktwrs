@@ -35,7 +35,9 @@
     "archive/mariopeach2021-additional-recordings-r2-preservation-20261013.json",
     "archive/mariopeach2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/mariopeach2021-image-source-publication-crosswalk-20261013.json",
-    "archive/mariopeach2021-opening-day-policy-generation-check-20261013.json"
+    "archive/mariopeach2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/mariopeach2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/mariopeach2021-choco-mountain-local-publication-clock-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/mario-peach-2021-reconciliation.json",
@@ -65,7 +67,7 @@
   },
   "remainingLimitations": [
     "Final WRs lack reviewed available recordings; selected slower footage shown separately.",
-    "Nu1:18.38 datedAugust8fromsurvivingoriginalTwitter screenshot; exact clock and laps unresolved.",
+    "Nu11 1:18.38 has an original displayed publication of August 8 at 17:07 local time. UTC offset and lap splits remain unresolved.",
     "Previous-best achievement dates unresolved; lateFrostbuffer excluded.",
     "Prior full recording review retained without fresh uninterrupted certification.",
     "Private, deleted and unindexed global material not proven fully recovered.",
@@ -74,7 +76,7 @@
     "Original upload/share/report clocks are separate from exact race instants.",
     "Indexed-image and focused-search coverage does not establish a full message census.",
     "Nu11/Kaguya’s 1:18.38 is dated August 8 by a surviving screenshot of the original Twitter post; its precise UTC instant and lap splits remain unresolved.",
-    "The later 2025 DIT 1:18.33 likewise still needs its original submission date reconciled.",
+    "Later DIT 1:18.33 is outside this tour; its separate documented 2025-11-16 posting date does not alter the 2021 chronology.",
     "Two previous-best fields lack original dated evidence.",
     "The search buffer includes August 11 Frost Tour results; these are reviewed separately.",
     "The original 2020 Kaguya Choco Mountain video link was rediscovered, but restoration remains unresolved.",
@@ -82,7 +84,8 @@
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
-    "Four partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+    "Four partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
+    "All six stored video objects passed full SHA256 and byte-length checks. Selected 1:11.88 and 1:19.16 footage remains slower than final WRs; four fragments do not prove completed runs. The linked December 2020 Kaguya 1:18.72 video again returned no downloadable footage. Its 2020 result and 2021 share remain separate. The final Choco result retains its reviewed August 8 17:07 local publication and bounded duration."
   ],
   "validation": {
     "liveSnapshotRows": 521,
@@ -99,5 +102,16 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/mariopeach2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/mariopeach2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "c61ac4560925aaad0e6d5470c689a7858fdc0f67"
+  "sourceCommit": "c61ac4560925aaad0e6d5470c689a7858fdc0f67",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:05:07.142268+00:00",
+    "audit": "artifacts/mariopeach2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 6,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "older2020KaguyaRecoveryUnresolved": true,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
