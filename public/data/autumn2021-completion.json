@@ -44,7 +44,8 @@
     "archive/autumn2021-committed-source-publication-fidelity-reconciliation-20261013.json",
     "archive/autumn2021-all-surviving-recordings-r2-preservation-20261013.json",
     "archive/autumn2021-fresh-committed-input-fidelity-verification-20261013.json",
-    "archive/autumn2021-final-publication-audit-20261013.json"
+    "archive/autumn2021-final-publication-audit-20261013.json",
+    "artifacts/autumn2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/autumn-2021-reconciliation.json",
@@ -88,7 +89,8 @@
     "Private, deleted and unindexed global material not proven fully recovered.",
     "Three distinct completed recordings, one additional original of the same SuperFX result, and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "All eight R2 objects passed full SHA256 and byte-length checks: three distinct completed results, one additional original recording of the same SuperFX result, and four partial clips. Exact race dates and deleted/private or unindexed source history remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 232,
@@ -105,5 +107,19 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "9b901c70903b7382bc18ec7c21f8c2d9c2879e1d",
-  "latestPublicationAudit": "archive/autumn2021-final-publication-audit-20261013.json"
+  "latestPublicationAudit": "archive/autumn2021-final-publication-audit-20261013.json",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:40:09.781Z",
+    "audit": "artifacts/autumn2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 8,
+    "distinctFileHashes": 8,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "bothFinalWrRecordingsPreservedOnR2": true,
+    "distinctCompletedResults": 3,
+    "additionalOriginalOfSameSuperfxResult": 1,
+    "tourPartialClips": 4,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
