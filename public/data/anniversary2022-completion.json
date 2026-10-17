@@ -54,8 +54,8 @@
     "generatedReviewedRowsCompared": 135,
     "materialFieldDifferences": 0,
     "knownWorksheetRows": 93,
-    "knownWorksheetRowsDated": 91,
-    "remainingUndatedWorksheetRows": 2,
+    "knownWorksheetRowsDated": 92,
+    "remainingUndatedWorksheetRows": 1,
     "originalRecordingsFullyDecoded": 9,
     "newOriginalRecordingsArchived": 6,
     "preservedSourceImageReferences": 80,
@@ -86,10 +86,10 @@
     "Berlin1:14.37 and Singapore1:22.99 finishes freshly read. Berlinfinal1:14.32 prior original-video lap/finish review retained. Full decode/byte checks do not certify uninterrupted continuity.",
     "Complete worldwide/intermediate chronology and fastest-recording exhaustiveness are unproved. Missing sources and opening evidence remain qualified.",
     "Zed late command1:14.56 and screenshot1:14.59 retained separately with visible mismatch note. Neither is promoted as a WR.",
-    "Two worksheet source dates still need reconciliation: OkushoBerlin15.35 and TroyBerlin14.75.",
     "Nu11 Berlin14.33 originalSeptember26recording now preserved and verified; race achievement clock remains unknown.",
     "Nu11 Singapore23.79 fastest recovered first-day original preserved separately; no temporaryfirstdayWRprofilecreated.",
-    "TroySingapore24.00 acceptededitedbotcaption and24.73originalimage are separate source facts; screenshot is not labeled proof of24.00."
+    "TroySingapore24.00 acceptededitedbotcaption and24.73originalimage are separate source facts; screenshot is not labeled proof of24.00.",
+    "One worksheet source date still unresolved: Troy Berlin1:14.75. Cancelled1:14.00 receipt has an unavailable ephemeral image; later1:14.65 image previousbest1:14.73 does not establish1:14.75."
   ],
   "evidence": [
     "archive/anniversary2022-final-practical-publication-audit-20261013.json",
@@ -106,7 +106,9 @@
     "archive/anniversary2022-completion-label-live-check-20261013.json",
     "archive/anniversary2022-rendered-proof-and-video-live-link-audit-20261013.json",
     "artifacts/anniversary2022-source-date-duration-and-original-media-review-20261017.json",
-    "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json"
+    "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-okusho-original-result-date-review-20261017.json",
+    "artifacts/anniversary2022-okusho-original-source-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-80",
   "sourceCommit": "368870e461611a969e152eaabca01910f1b5ce2e",
@@ -114,12 +116,6 @@
   "previousPracticalReviewComplete": true,
   "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": false,
   "remainingUndatedWorksheetRows": [
-    {
-      "courseId": "berlin-byways-3",
-      "sheetId": "sheet-AOZ28",
-      "playerId": "okusho",
-      "time": "1:15.35"
-    },
     {
       "courseId": "berlin-byways-3",
       "sheetId": "sheet-AOZ40",
@@ -144,5 +140,20 @@
       "firstDayEnd": "2022-09-22T06:00:00.000Z",
       "wrProfileNotCreated": true
     }
+  },
+  "latestOriginalWorksheetSourceRecovery": {
+    "checkedAt": "2026-10-17T19:41:44.342091+00:00",
+    "reviewArtifact": "artifacts/anniversary2022-okusho-original-result-date-review-20261017.json",
+    "knownWorksheetRowsDated": 92,
+    "totalWorksheetRows": 93,
+    "remainingUndatedWorksheetRows": [
+      {
+        "courseId": "berlin-byways-3",
+        "sheetId": "sheet-AOZ40",
+        "playerId": "troy",
+        "time": "1:14.75"
+      }
+    ],
+    "allKnownWorksheetDatesProven": false
   }
 }
