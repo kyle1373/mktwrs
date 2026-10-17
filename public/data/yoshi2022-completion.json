@@ -69,7 +69,9 @@
     "archive/yoshi2022-opening-day-publication-policy-check-20261013.json",
     "archive/yoshi-2022-reconciliation.json",
     "archive/yoshi-2022-evidence-validation-20261008.json",
-    "archive/nhspeedy-3ds-bowser-castle-r-9868-original-and-source-clocks-20261016.json"
+    "archive/nhspeedy-3ds-bowser-castle-r-9868-original-and-source-clocks-20261016.json",
+    "artifacts/yoshi2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+    "artifacts/yoshi2022-source-date-duration-and-backup-association-review-20261017.json"
   ],
   "sourceCommit": "3ebb5dfdacb1889dd1ad7b1e04d8f6889838ecd9",
   "latestPublicationAudit": "archive/yoshi2022-final-publication-audit-20261013.json",
@@ -85,5 +87,70 @@
     "publicationPending": false,
     "livePublicationVerified": true,
     "coreLiveVerification": "archive/nhspeedy9868-core-live-verification-20261016.json"
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T07:24:21.145965+00:00",
+    "fourCanonicalSourceAndIntervalChecks": [
+      {
+        "courseId": "gba-sky-garden",
+        "id": "966558757502976112",
+        "time": "1:04.13",
+        "documentedAt": "2022-04-16T14:13:44.000Z",
+        "submittedAt": "2022-04-16T14:23:57.665Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 16.79619601851852,
+        "thisTourCreditedDays": 3.6571296296296296,
+        "r2Url": "https://media.mktwrs.com/assets/video/yoshi2022-d8ffba92570360277d16.mp4"
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "966559082955821056",
+        "time": "1:38.39",
+        "documentedAt": "2022-04-19T14:28:24.000Z",
+        "submittedAt": "2022-04-19T14:57:08.259Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 29.524685844907406,
+        "thisTourCreditedDays": 0.6469444444444444,
+        "r2Url": "https://media.mktwrs.com/assets/video/yoshi2022-32792e40b5421184722c.mp4"
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "curated-yoshi-2022-964894132332023868",
+        "time": "1:38.59",
+        "documentedAt": "2022-04-16T14:15:41.000Z",
+        "submittedAt": "2022-04-16T14:24:47.965Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 3.0088310185185185,
+        "thisTourCreditedDays": 3.0088310185185185,
+        "r2Url": "https://media.mktwrs.com/assets/video/yoshi2022-37c64bde49cae9b70517.mp4"
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "curated-yoshi-2022-963221819006005348",
+        "time": "1:38.72",
+        "documentedAt": "2022-04-11T23:39:37.639Z",
+        "submittedAt": "2022-04-11T23:39:37.639Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 1.611627048611111,
+        "thisTourCreditedDays": 1.611627048611111,
+        "r2Url": "https://media.mktwrs.com/assets/video/yoshi2022-d8e4eb44f7220ae1d3ef.mov"
+      }
+    ],
+    "actualSubmissionAndOriginalVideoPublicationStoredSeparately": true,
+    "evidence": "artifacts/yoshi2022-source-date-duration-and-backup-association-review-20261017.json"
+  },
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T07:24:21.145965+00:00",
+    "uniqueR2FilesVerified": 14,
+    "totalObjectBytesVerified": 338880839,
+    "sourceOriginalFullRuns": 6,
+    "partialClips": 3,
+    "playbackCopies": 1,
+    "metadataAndProofObjects": 4,
+    "allTenVideoFilesDecoded": true,
+    "bothTourFinalRecordingsPreserved": true,
+    "missingCanonical13872BackupAssociationRestored": true,
+    "newUploads": 0,
+    "evidence": "artifacts/yoshi2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
   }
 }
