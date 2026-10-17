@@ -36,7 +36,8 @@
     "discussionMediaWithPriorDispositionsAndHashes": 6,
     "completedRunRecordingsPreservedOnR2": 2,
     "partialClipsPreservedOnR2": 2,
-    "unavailableCancelledAttachmentDispositions": 2
+    "unavailableCancelledAttachmentDispositions": 2,
+    "historicalCompletedSurvivingRepostPreservedOnR2": 1
   },
   "validation": {
     "liveSnapshotRows": 557,
@@ -54,7 +55,7 @@
     "Two cancelled attachments unavailable: Starin slower RMX1:19.71 and off-roster Wario Shipyard1:38.31; surviving source dispositions retained.",
     "Hilton1:04.30 ties Kazuo May2021. Hilton1:04.45 menu clip is result-only; Kazuo earlier1:04.30 footage supplies the separately credited recording.",
     "Prior image/video visual dispositions reused with source/hash checks. One Nu11 recording freshly sampled and decoded; no fresh every-frame uninterrupted playback or worldwide fastest-recording certification.",
-    "Current Discord account chooser requests login again; preserved source messages reviewed, no fresh authenticated recovery claimed.",
+    "The October 13 review encountered a Discord login prompt; that was a historical review limitation.",
     "Nu11 video upload March21 and Discord submission March23 are distinct; exact race-completion instant and original discussion share clock remain unknown."
   ],
   "evidence": [
@@ -70,9 +71,40 @@
     "archive/mii2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
     "archive/mii2022-all-original-video-upload-share-clocks-20261013.json",
     "archive/mii-2022-reconciliation.json",
-    "archive/mii-2022-evidence-validation-20261008.json"
+    "archive/mii-2022-evidence-validation-20261008.json",
+    "artifacts/mii2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "sourceCommit": "4aae680fff78a51d3dbe168d18afdbb8721b29d3",
   "latestPublicationAudit": "archive/mii2022-final-publication-audit-20261013.json",
-  "nextTourId": "tour-66"
+  "nextTourId": "tour-66",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T06:55:59.477Z",
+    "audit": "artifacts/mii2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 5,
+    "distinctFileHashes": 5,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "currentTourCompletedRunFiles": 2,
+    "historicalCompletedSurvivingRepostFiles": 1,
+    "resultOnlyClipFiles": 1,
+    "techniqueClipFiles": 1,
+    "nu11FinalWrRecordingPreserved": true,
+    "earlierKazuoTiedWrRecordingPreserved": true,
+    "kazuoFirstPostBytesNotCertifiedRecovered": true,
+    "hiltonMenu10445NotUsedAs10430RaceProof": true,
+    "playbackScreenshot": "artifacts/mii2022-nu1111882-preserved-r2-playback-20261016.png",
+    "visibleSelectedRecordingFinish": "1:18.82",
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T06:57:11.592235+00:00",
+    "audit": "artifacts/mii2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "currentTourFinalSourceDateChecks": 2,
+    "earlierStandingDateRetained": true,
+    "currentTourWrIntervalsVerified": 3,
+    "earlierVideoPublicationPreferredOverLaterSubmission": true,
+    "previousBestDateGapsRemain": true,
+    "historyComplete": false
+  }
 }
