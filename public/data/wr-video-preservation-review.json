@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T06:35:59.220Z",
+  "checkedAt": "2026-10-17T06:42:35.262Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 299,
   "r2BackupNeedsReview": 66,
-  "freshOriginalByteChecks": 2,
+  "freshOriginalByteChecks": 3,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-62",
-  "evidence": "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-63",
+  "evidence": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1734,7 +1734,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/losangeles2022-summit-13746-34aebe23e2f3.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:42:35.262Z",
+      "sha256": "34aebe23e2f353220e32d17adacab6a61c38ad3a5750136e9e1558e120f3f0f5",
+      "bytes": 34232872,
+      "evidence": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:9Q3Czv54-jo",
@@ -5840,7 +5844,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/losangeles2022-69c49b6467e45b3701cf.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:42:35.262Z",
+      "sha256": "69c49b6467e45b3701cf7d386683d6f9ca3bc5e649f24dd604673ef8d45076a8",
+      "bytes": 21898897,
+      "evidence": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:S1VUA9oAu9Q",
@@ -5855,7 +5863,19 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:S1VUA9oAu9Q",
+        "originalUrl": "https://www.youtube.com/watch?v=S1VUA9oAu9Q",
+        "checkedAt": "2026-10-17T06:42:35.262Z",
+        "method": "yt-dlp source metadata request with explicit Node JavaScript runtime",
+        "result": "This video is unavailable",
+        "noAlternateRecoveryClaim": true,
+        "time": "1:33.82",
+        "playerId": "nu11",
+        "datedResultImageAndLapsRetained": true
+      },
+      "preservationEvidence": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:FEvf5EMYg-Y",
@@ -5870,7 +5890,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/losangeles2022-shipyard-13359-ca11224b8ccb.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:42:35.262Z",
+      "sha256": "ca11224b8ccbd9b6250c222248a46fd2d8d746d77dc9247f8c9fe784fa8cd5c5",
+      "bytes": 27737484,
+      "evidence": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:VhXWlJuJysM",
@@ -6057,21 +6081,23 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "previousPreservationEvidence": "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 6,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 9,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 1,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 7,
-  "currentBatchUniqueR2FilesVerified": 9,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 4,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 13,
+  "currentBatchUniqueR2FilesVerified": 15,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 27,
+  "originalSourcesStillUnreviewed": 26,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
-  "knownUnavailableOriginalSources": 24,
+  "knownUnavailableOriginalSources": 25,
   "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 0,
-  "nonCanonicalOriginalRecoveryChecksInCurrentBatch": []
+  "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
+  "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 1,
+  "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 2
 }

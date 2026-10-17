@@ -39,7 +39,8 @@
     "archive/losangeles2022-discussion-image-integrity-index-20261013.json",
     "archive/losangeles2022-all-original-video-upload-share-clocks-20261013.json",
     "archive/losangeles2022-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
-    "archive/losangeles2022-final-publication-audit-20261013.json"
+    "archive/losangeles2022-final-publication-audit-20261013.json",
+    "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/los-angeles-2022-reconciliation.json",
@@ -68,7 +69,7 @@
   },
   "remainingLimitations": [
     "Ten visible previous-best runs lack independently established publication dates and competing-record order; they remain outside confirmed progression.",
-    "Nozomi’s 1:34.78 message gives 37.33/37.45; those splits conflict with the image. Seboss’s 1:33.96 message also has conflicting splits. Neither is a confirmed WR.",
+    "Nozomi\u2019s 1:34.78 message gives 37.33/37.45; those splits conflict with the image. Seboss\u2019s 1:33.96 message also has conflicting splits. Neither is a confirmed WR.",
     "The original 1:33.82 video is unavailable, but its image and posted lap splits survive.",
     "Single-lap demonstrations and no-item runs are preserved separately and do not count as overall WRs.",
     "This tour-level review does not establish complete coverage across all years, channels, or deleted evidence.",
@@ -91,5 +92,31 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "48927367281c440adb59a1bac215c61ae0f25678",
-  "latestPublicationAudit": "archive/losangeles2022-final-publication-audit-20261013.json"
+  "latestPublicationAudit": "archive/losangeles2022-final-publication-audit-20261013.json",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T06:42:35.262Z",
+    "audit": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 15,
+    "distinctFileHashes": 15,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "completedRunFiles": 6,
+    "mainCategoryCompletedRunFiles": 4,
+    "noItemCompletedRunFiles": 2,
+    "partialClipFiles": 9,
+    "bothFinalCommunityWrRecordingsPreserved": true,
+    "intermediateNu1113382OriginalStillUnavailable": true,
+    "datedIntermediateResultProofRetained": true,
+    "playbackScreenshot": "artifacts/losangeles2022-nu1113359-preserved-r2-playback-20261016.png",
+    "visibleSelectedRecordingFinish": "1:33.59",
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T06:43:16.271350+00:00",
+    "audit": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "canonicalVideoReferencedResultsWithSourceDateAndDurationChecks": 4,
+    "previousBestDateGapsRemain": true,
+    "historyComplete": false
+  }
 }
