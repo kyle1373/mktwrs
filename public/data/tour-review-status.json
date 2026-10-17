@@ -199,8 +199,8 @@
     "reopenedReviewDecision": "archive/hammer2020-reopened-surviving-source-review-decision-20261014.json"
   },
   "tour-15": {
-    "status": "reconciliation-in-progress",
-    "label": "Reconciliation in progress",
+    "status": "date-and-duration-review-complete",
+    "label": "Dates and durations reviewed",
     "evidenceUrl": "/data/yoshi2020-completion.json",
     "priorPracticalReview": {
       "status": "completed-with-documented-gaps",
@@ -209,10 +209,45 @@
       "evidenceUrl": "/data/yoshi2020-completion.json"
     },
     "historyComplete": false,
-    "auditedAt": "2026-10-12",
+    "auditedAt": "2026-10-16",
     "practicalReviewComplete": true,
     "latestEvidenceReconciliation": "2026-10-16",
-    "dateDurationReviewComplete": false
+    "dateDurationReviewComplete": true,
+    "dateDurationReviewCompletedAt": "2026-10-16",
+    "currentDateReview": {
+      "checkedAt": "2026-10-16",
+      "recordDatesVerified": 16,
+      "dateValuesChanged": 0,
+      "sourceEvidenceUrl": "/data/yoshi2020-source-and-duration-review.json",
+      "openingDayBoundary": "06:00 UTC through the following 06:00 UTC",
+      "exhaustiveHistoryProven": false
+    },
+    "sourceAndDurationReview": {
+      "checkedAt": "2026-10-16",
+      "sourceRowsChecked": 283,
+      "recordDatesVerified": 16,
+      "submissionDatesVerified": 267,
+      "originalPostOrReviewedPublicationRows": 282,
+      "preservedProofUploadOnlyRows": 1,
+      "withinTourRows": 279,
+      "laterSourcePostsReviewed": 4,
+      "missingDates": 0,
+      "missingDurations": 0,
+      "tourWindowDurationsVerified": true,
+      "preservedTourSourceDateReviewComplete": true,
+      "evidenceUrl": "/data/yoshi2020-source-and-duration-review.json",
+      "historyComplete": false
+    },
+    "mediaLinkReview": {
+      "checkedAt": "2026-10-16",
+      "uniqueProofImages": 166,
+      "uniquePreservedVideos": 6,
+      "allPreservedLinksPass": true,
+      "evidenceUrl": "/data/yoshi2020-preserved-media-link-review.json",
+      "unrecoveredOriginalSheetProofs": 1
+    },
+    "reviewScope": "All 283 currently preserved entries dated April 8\u201322 (279 within the tour and four later posts): sourced dates including one explicit proof-upload fallback, independently verified tour-only credited durations, and delivery of attached preserved media.",
+    "nextDateDurationReviewTourId": "tour-16"
   },
   "tour-16": {
     "status": "completed-with-documented-gaps",
@@ -962,7 +997,7 @@
       "allPreservedLinksPass": true,
       "evidenceUrl": "/data/newyear2022-preserved-media-link-review.json"
     },
-    "nextDateDurationReviewTourId": "tour-15"
+    "nextDateDurationReviewTourId": "tour-16"
   },
   "tour-61": {
     "status": "completed-with-documented-gaps",

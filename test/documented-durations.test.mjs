@@ -153,3 +153,13 @@ test('reviewed supporting post dates are scoped and preserve original upload clo
  assert.throws(()=>applyFinalDates([c],[{...e,playerId:'wrong'}]),/does not match/);
  assert.throws(()=>applyFinalDates([c],[{...e,collection:'invalid'}]),/Invalid documented/);
 });
+
+test('unavailable Yoshi sheet image retains only its documented proof upload date and zero WR credit',()=>{
+ const courses=JSON.parse(fs.readFileSync(new URL('../public/data/courses.json',import.meta.url)));
+ const c=courses.find(c=>c.id==='n64-kalimari-desert'),r=c.submissions.find(r=>r.id==='sheet-C82');
+ const evidence=JSON.parse(fs.readFileSync(new URL('../scripts/documented-date-evidence.json',import.meta.url))).filter(e=>e.courseId===c.id);
+ const original=structuredClone(r.source);applyFinalDates([c],evidence);applyDocumentedDurations([c]);
+ assert.equal(r.finalDate,'2020-04-08');assert.equal(r.documentedAt,r.proofUploadedAt);
+ assert.equal(r.finalDateBasis,'reviewed-preserved-proof-attachment-upload');
+ assert.equal(r.submittedAt,null);assert.equal(r.achievedAt,null);assert.equal(r.durationDays,0);assert.deepEqual(r.source,original);
+});

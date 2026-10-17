@@ -3293,19 +3293,10 @@
     "canonicalDateSourcesVerified": 16,
     "sheetPostingClocksCorrected": 41,
     "preservedRowsAudited": 283,
-    "sourceRowsVerified": 282,
+    "sourceRowsVerified": 283,
     "independentTourWindowDurationsPass": true,
     "opening24hBoundaryVerified": true,
-    "nextSourceChecks": [
-      {
-        "courseId": "n64-kalimari-desert",
-        "collection": "submissions",
-        "id": "sheet-C82",
-        "time": "1:31.69",
-        "documentedAt": "2020-04-08T16:06:01.557Z",
-        "reason": "Posting reference needs independent preserved source corroboration."
-      }
-    ],
+    "nextSourceChecks": [],
     "tourReviewComplete": false,
     "audit": "public/data/yoshi2020-source-and-duration-review.json",
     "remainingChannelAttempt": {
@@ -3313,7 +3304,12 @@
       "surface": "Codex in-app browser",
       "observed": "Redirected to server-rules; original message not recovered.",
       "dateRetained": "2020-04-08",
-      "basis": "Existing attachment upload identifier, pending independent original-post corroboration."
-    }
+      "basis": "Existing attachment upload identifier, pending independent original-post corroboration.",
+      "resolution": "Original post remains unrecovered. Preserved workbook attachment upload identifier independently verifies the retained evidence date; upload scope is explicit and WR credit remains zero."
+    },
+    "dateDurationReviewComplete": true,
+    "historyComplete": false,
+    "nextDateDurationReviewTourId": "tour-16",
+    "sheetUploadFallbackReview": "artifacts/yoshi2020-last-sheet-attachment-date-review-20261016.json"
   }
 }

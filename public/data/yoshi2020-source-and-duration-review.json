@@ -3,7 +3,7 @@
   "checkedAt": "2026-10-16",
   "sourceRowsChecked": 283,
   "canonicalDatesSourceVerified": 16,
-  "sourceRowsVerified": 282,
+  "sourceRowsVerified": 283,
   "missingDates": 0,
   "missingDurations": 0,
   "sourceFiles": [
@@ -22,9 +22,13 @@
     {
       "file": "archive/yoshi2020-ryukano-original-post-fresh-20261016.json",
       "sha256": "22c85d4285338908ab823b3d1fb4ee9eedb45b576d8f6963ef0b40e4b796695b"
+    },
+    {
+      "file": "archive/raw/workbook-extracted.json",
+      "sha256": "bfd950d5eab6523167c252d92c40dc8cde7b40bb0f75c940af898c1fcbacf550"
     }
   ],
-  "datePolicy": "Documented publication unless an earlier dated source is established; exact race finish times are not asserted.",
+  "datePolicy": "Use documented posting/publication or a preserved proof upload when the original message is unavailable; identify upload clocks separately. Exact race finish times are not asserted.",
   "durationPolicy": "Independently checked tour-only credited playable intervals; strictly faster postings end reigns; ties coexist; 06 UTC rollover.",
   "dateRows": [
     {
@@ -2800,8 +2804,14 @@
       "documentedAt": "2020-04-08T16:06:01.557Z",
       "withinTour": true,
       "creditedWrDays": 0,
-      "sourceVerified": false,
-      "basis": null
+      "sourceVerified": true,
+      "basis": "preserved-sheet-proof-attachment-upload",
+      "sourceUrl": "https://cdn.discordapp.com/attachments/662104332963151902/697477361804902500/Mario_Kart_2020-04-08-11-25-49.jpg",
+      "preservedFile": "archive/raw/workbook-extracted.json",
+      "attachmentId": "697477361804902500",
+      "clockScope": "Proof upload, not a recovered message or exact race finish",
+      "originalMessageRecovered": false,
+      "originalImageRecovered": false
     },
     {
       "courseId": "n64-kalimari-desert",
@@ -4671,18 +4681,14 @@
       ]
     }
   ],
-  "pending": [
-    {
-      "courseId": "n64-kalimari-desert",
-      "collection": "submissions",
-      "id": "sheet-C82",
-      "time": "1:31.69",
-      "documentedAt": "2020-04-08T16:06:01.557Z",
-      "reason": "Posting reference needs independent preserved source corroboration."
-    }
-  ],
+  "pending": [],
   "screenshotImprovementsMissingFromProgression": [],
   "tourWindowDurationReviewComplete": true,
-  "preservedTourSourceDateReviewComplete": false,
-  "historyComplete": false
+  "preservedTourSourceDateReviewComplete": true,
+  "historyComplete": false,
+  "limitations": [
+    "One slower sheet entry has only its preserved proof upload clock; its original message and image remain unrecovered.",
+    "Earlier previous-best race dates are not proven by later screenshots; source posting dates are retained and unproven reigns receive no credit.",
+    "This reviews currently preserved entries and tour durations, not exhaustive worldwide history."
+  ]
 }

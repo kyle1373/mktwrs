@@ -1,9 +1,8 @@
 {
   "tourId": "tour-15",
   "tour": "Yoshi Tour (2020)",
-  "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
+  "status": "date-and-duration-review-complete",
+  "standard": "User-authorized practical evidence standard: documented dates, accurate credited playable durations, preserved evidence delivery, and one-tour-at-a-time review. Full worldwide history is not certified.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-04-08T06:00:00Z",
@@ -40,7 +39,12 @@
     "archive/yoshi2020-two-selected-recordings-fresh-visual-and-access-review-20261013.json",
     "archive/yoshi2020-three-slower-originals-r2-preservation-20261013.json",
     "archive/yoshi2020-opening-day-policy-generation-check-20261013.json",
-    "archive/yoshi2020-ryukano-slower-original-r2-preservation-20261013.json"
+    "archive/yoshi2020-ryukano-slower-original-r2-preservation-20261013.json",
+    "artifacts/yoshi2020-canonical-date-source-review-20261016.json",
+    "artifacts/yoshi2020-sheet-attachment-post-clock-review-20261016.json",
+    "artifacts/yoshi2020-last-sheet-attachment-date-review-20261016.json",
+    "/data/yoshi2020-source-and-duration-review.json",
+    "/data/yoshi2020-preserved-media-link-review.json"
   ],
   "preservedLocalReview": {
     "source": "archive/yoshi-2020-review-progress.json",
@@ -55,11 +59,11 @@
     "proofImageUrlsPassed": 163
   },
   "remainingLimitations": [
-    "Original final WR footage unavailable or not recovered; Kazuo1:21.28 andBrandonSG1:16.06 are fastest documented available completed recordings in preserved reviewed evidence.",
-    "Tomegome partial second-lap and Gisko/Wins first-lap clips do not establish final totals.",
-    "Some migrated achievement dates and intermediate rival order remain unresolved. Original post, report and video share clocks remain separate.",
-    "Opening day retains fastest documented result and ties; superseded source rows remain in download.",
-    "Deleted/private/global material not proven fully recovered; prior review accepted under practical standard."
+    "SuperSonic2\u2019s slower 1:31.69 sheet entry retains its original attachment upload date; its source message and image remain unrecovered. The upload clock is explicitly identified and receives zero WR credit.",
+    "Original race dates of previous-best totals remain unproven; reviewed posting dates and zero unproven WR credit are preserved.",
+    "Original final WR footage is unavailable or unrecovered; fastest documented available completed recordings remain separately preserved.",
+    "Partial lap clips do not establish final race totals.",
+    "Deleted, private, and unindexed material may remain unrecovered; exhaustive worldwide history is not certified."
   ],
   "validation": {
     "productionBuildPages": 891,
@@ -74,7 +78,52 @@
   "nextTourId": "tour-16",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/yoshi2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "/data/yoshi2020-source-and-duration-review.json",
   "sourceDispositionAudit": "archive/yoshi2020-ledger-source-integrity-and-canonical-crosswalk-20261013.json",
-  "sourceCommit": "fc9c59fe49c7b23a7d2908a3443b9e4696e8575a"
+  "priorCompletionClaim": {
+    "status": "completed-with-documented-gaps",
+    "completedAt": "2026-10-13",
+    "practicalReviewComplete": true,
+    "sourceCommit": "fc9c59fe49c7b23a7d2908a3443b9e4696e8575a",
+    "latestPublicationAudit": "archive/yoshi2020-final-publication-audit-20261013.json"
+  },
+  "label": "Dates and durations reviewed",
+  "dateDurationReviewComplete": true,
+  "dateDurationReviewCompletedAt": "2026-10-16",
+  "latestEvidenceReconciliation": "2026-10-16",
+  "currentDateReview": {
+    "checkedAt": "2026-10-16",
+    "recordDatesVerified": 16,
+    "dateValuesChanged": 0,
+    "sourceEvidenceUrl": "/data/yoshi2020-source-and-duration-review.json",
+    "openingDayBoundary": "06:00 UTC through the following 06:00 UTC",
+    "exhaustiveHistoryProven": false
+  },
+  "sourceAndDurationReview": {
+    "checkedAt": "2026-10-16",
+    "sourceRowsChecked": 283,
+    "recordDatesVerified": 16,
+    "submissionDatesVerified": 267,
+    "originalPostOrReviewedPublicationRows": 282,
+    "preservedProofUploadOnlyRows": 1,
+    "withinTourRows": 279,
+    "laterSourcePostsReviewed": 4,
+    "missingDates": 0,
+    "missingDurations": 0,
+    "tourWindowDurationsVerified": true,
+    "preservedTourSourceDateReviewComplete": true,
+    "evidenceUrl": "/data/yoshi2020-source-and-duration-review.json",
+    "historyComplete": false
+  },
+  "mediaLinkReview": {
+    "checkedAt": "2026-10-16",
+    "uniqueProofImages": 166,
+    "uniquePreservedVideos": 6,
+    "allPreservedLinksPass": true,
+    "evidenceUrl": "/data/yoshi2020-preserved-media-link-review.json",
+    "unrecoveredOriginalSheetProofs": 1
+  },
+  "reviewScope": "All 283 currently preserved entries dated April 8\u201322 (279 within the tour and four later posts): sourced dates including one explicit proof-upload fallback, independently verified tour-only credited durations, and delivery of attached preserved media.",
+  "reviewedAgainstCommit": "7f5092229db8a54a23918a32a806048d55a3ad50",
+  "nextDateDurationReviewTourId": "tour-16"
 }

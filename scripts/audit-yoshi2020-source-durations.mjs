@@ -5,7 +5,7 @@ import {videoKey,videoUrl} from '../lib/video.mjs';
 import {openingDayPublication,isReviewedOpeningDay} from '../lib/opening-day.mjs';
 const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
 const tourId='tour-15',start='2020-04-08T06:00:00.000Z',end='2020-04-22T06:00:00.000Z';
-const files=['archive/yoshi-2020-discussion-census.json','archive/yoshi2020-opening-hour-preserved-messages-20261016.json','archive/trick-2020-discussion-census.json','archive/yoshi2020-ryukano-original-post-fresh-20261016.json'];
+const files=['archive/yoshi-2020-discussion-census.json','archive/yoshi2020-opening-hour-preserved-messages-20261016.json','archive/trick-2020-discussion-census.json','archive/yoshi2020-ryukano-original-post-fresh-20261016.json','archive/raw/workbook-extracted.json'];
 const messages=[...read(files[0]),...read(files[1]).messages,...read(files[2]),read(files[3]).post];
 const clock=m=>m.times?.[0],id=m=>m.id.split('-').at(-1);
 const refs=r=>[r.source,...(r.additionalSources||[])].filter(Boolean);
@@ -42,6 +42,16 @@ for(const c of courses){
    assert.equal(r.documentedDateSourceUrl,'https://twitter.com/tomegome_g/status/1249652486790471685');
    basis='reviewed-original-three-result-tweet';evidence={sourceUrl:r.documentedDateSourceUrl,reviewArtifact:file};
   }
+  else if(r.id==='sheet-C82'&&collection==='submissions'){
+   const found=[];const walk=x=>{if(Array.isArray(x))x.forEach(walk);else if(x&&typeof x==='object'){if(x.row===82&&x.cells?.some(c=>c.cell==='H82'&&c.link===r.proofImage))found.push(x);Object.values(x).forEach(walk);}};walk(read(files[4]));
+   assert.equal(found.length,1);const cells=Object.fromEntries(found[0].cells.map(c=>[c.cell,c]));
+   assert.equal(cells.C82.value,'SuperSonic2');assert.equal(cells.D82.value,r.time);
+   assert.equal(platformClock(attachment(cells.H82.link)),r.documentedAt);
+   assert.equal(r.documentedAt,r.proofUploadedAt);assert.equal(r.durationDays,0);
+   const earlier=c.records.find(p=>p.id==='curated-yoshi-2020-undated-n64-kalimari-desert-11563');
+   assert.ok(earlier.timeCs<r.timeCs&&earlier.documentedAt<r.documentedAt);
+   basis='preserved-sheet-proof-attachment-upload';evidence={sourceUrl:cells.H82.link,preservedFile:files[4],attachmentId:attachment(cells.H82.link),clockScope:'Proof upload, not a recovered message or exact race finish',originalMessageRecovered:false,originalImageRecovered:false};
+  }
   if(!evidence)pending.push({courseId:c.id,collection,id:r.id,time:r.time,documentedAt:r.documentedAt,reason:'Posting reference needs independent preserved source corroboration.'});
   const same=c.records.find(p=>p.playerId===r.playerId&&p.timeCs===r.timeCs);
   if(collection!=='records'){if(same)near(r.durationDays,same.durationDays,r.id+' canonical duration alias');else assert.equal(r.durationDays,0,r.id+' non-WR credit');}
@@ -64,7 +74,7 @@ for(const c of courses){
  assert.deepEqual(actual,expected,c.id+' final opening leaders');opening.push({courseId:c.id,openingLeaderIds:actual});
 }
 assert.equal(dateRows.filter(r=>r.collection==='records').length,16);assert.equal(dateRows.filter(r=>r.collection==='submissions').length,267);assert.deepEqual(omissions,[]);
-assert.ok(dateRows.filter(r=>r.collection==='records').every(r=>r.sourceVerified));
-const report={tourId,checkedAt:'2026-10-16',sourceRowsChecked:dateRows.length,canonicalDatesSourceVerified:16,sourceRowsVerified:dateRows.filter(r=>r.sourceVerified).length,missingDates:0,missingDurations:0,sourceFiles:files.map(file=>({file,sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')})),datePolicy:'Documented publication unless an earlier dated source is established; exact race finish times are not asserted.',durationPolicy:'Independently checked tour-only credited playable intervals; strictly faster postings end reigns; ties coexist; 06 UTC rollover.',dateRows,durationRows,opening,pending,screenshotImprovementsMissingFromProgression:omissions,tourWindowDurationReviewComplete:true,preservedTourSourceDateReviewComplete:pending.length===0,historyComplete:false};
+assert.ok(dateRows.filter(r=>r.collection==='records').every(r=>r.sourceVerified));assert.deepEqual(pending,[]);
+const report={tourId,checkedAt:'2026-10-16',sourceRowsChecked:dateRows.length,canonicalDatesSourceVerified:16,sourceRowsVerified:dateRows.filter(r=>r.sourceVerified).length,missingDates:0,missingDurations:0,sourceFiles:files.map(file=>({file,sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')})),datePolicy:'Use documented posting/publication or a preserved proof upload when the original message is unavailable; identify upload clocks separately. Exact race finish times are not asserted.',durationPolicy:'Independently checked tour-only credited playable intervals; strictly faster postings end reigns; ties coexist; 06 UTC rollover.',dateRows,durationRows,opening,pending,screenshotImprovementsMissingFromProgression:omissions,tourWindowDurationReviewComplete:true,preservedTourSourceDateReviewComplete:pending.length===0,historyComplete:false,limitations:['One slower sheet entry has only its preserved proof upload clock; its original message and image remain unrecovered.','Earlier previous-best race dates are not proven by later screenshots; source posting dates are retained and unproven reigns receive no credit.','This reviews currently preserved entries and tour durations, not exhaustive worldwide history.']};
 fs.writeFileSync('public/data/yoshi2020-source-and-duration-review.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({rows:dateRows.length,verified:report.sourceRowsVerified,pending,omissions,courses:courses.length}));
