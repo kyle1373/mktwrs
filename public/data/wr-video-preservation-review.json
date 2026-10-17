@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T05:40:09.781Z",
+  "checkedAt": "2026-10-17T05:45:22.925Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
@@ -8,8 +8,8 @@
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-54",
-  "evidence": "artifacts/autumn2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-55",
+  "evidence": "artifacts/halloween2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1624,7 +1624,16 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/halloween2021-dino-13925-b98f72041885.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-player-recovery-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:45:22.925Z",
+      "evidence": "artifacts/halloween2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+      "originalSourceRecoveryCheck": {
+        "key": "x:1453651328916332548",
+        "result": "No video could be found in this tweet",
+        "method": "yt-dlp current source metadata request",
+        "checkedAt": "2026-10-17T05:45:22.925Z",
+        "alternateRecoveryPreservedOnR2": true
+      }
     },
     {
       "key": "youtube:X_wkkweScJU",
@@ -4524,7 +4533,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/halloween2021-ca4526c048e1018b4e76.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:45:22.925Z",
+      "evidence": "artifacts/halloween2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1455900270009847813",
@@ -4539,7 +4550,16 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/halloween2021-ice-12978-557e70355d7a.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-player-recovery-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:45:22.925Z",
+      "evidence": "artifacts/halloween2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+      "originalSourceRecoveryCheck": {
+        "key": "x:1455900270009847813",
+        "result": "No video could be found in this tweet",
+        "method": "yt-dlp current source metadata request",
+        "checkedAt": "2026-10-17T05:45:22.925Z",
+        "alternateRecoveryPreservedOnR2": true
+      }
     },
     {
       "key": "youtube:6NIqiF98Pi8",
