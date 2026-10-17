@@ -1,9 +1,9 @@
 {
   "tourId": "tour-82",
   "tour": "Autumn Tour (2022)",
-  "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "practicalReviewComplete": true,
+  "status": "in-progress-source-revalidation",
+  "completedAt": null,
+  "practicalReviewComplete": false,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "standard": "User-authorized good-enough surviving proof; one tour at a time, documented source/date gaps retained.",
@@ -48,11 +48,12 @@
       "recoveredProgression": [
         "AKI1:19.84",
         "Nu111:19.22",
+        "Starin1:19.16",
         "Sucha1:18.91",
         "Sucha1:18.81",
         "Sucha1:18.78"
       ],
-      "intermediateSourceQualification": "1:18.81 own video title and later reviewed previous-best field corroborate the time; fresh visual video result/laps unverified.",
+      "intermediateSourceQualification": "Starin1:19.16 recovered from original dated screenshot and matching caption. Sucha1:18.81 earlier original result posted09:31:04.351Z; later video/publicshare clocks retained.",
       "priorResultVideoReviewRetained": true,
       "freshVisualReview": false
     }
@@ -67,29 +68,20 @@
     "newDocumentaryIntermediateReconciled": 1,
     "sheetOnlySourceObservationsPublished": 3,
     "generatedReviewedRowsCompared": 87,
-    "materialFieldDifferences": 0
+    "materialFieldDifferences": 0,
+    "knownWorksheetRows": 57,
+    "knownWorksheetRowsDated": 54,
+    "remainingUndatedWorksheetRows": 3,
+    "newDocumentedWrChangesRecovered": 1,
+    "originalVideosFullGetHashVerified": 3
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "los-angeles-laps-2": 31,
-      "los-angeles-laps-3": 21
-    },
-    "renderedPreservedEvidenceLinksReadable": 51,
-    "wrProofImagesReadable": 5,
-    "corroboratedIntermediateVideoLinkReadable": 1,
-    "failedLinks": 0,
-    "productionBuildPages": 891,
-    "focusedVideoAndOpeningTestsPassed": 14,
-    "completionLabelLiveVerified": true,
-    "livePreservedEvidenceLinksReadable": 51,
-    "liveSupportingEntries": {
-      "los-angeles-laps-2": 31,
-      "los-angeles-laps-3": 21
-    },
-    "liveWrProofLinksReadable": 6
+    "productionBuildPages": 892,
+    "currentGenerationScopeReview": "artifacts/autumn2022-source-date-and-progression-generation-check-20261017.json",
+    "livePublicationPending": true
   },
   "remainingLimitations": [
-    "Starin1:19.16 is a possible missing LA3 intermediate. Earliest retrievedNovember9leaderboard shows it belowSucha1:18.91; original run/submission date unknown, no invented interval.",
+    "Remaining worksheet dates: AQF28 Kei3331:14.12 (alias identity needs reconciliation), AQF30 kuRi1:13.80, AQF37 N1:13.93. Tour remains open for these source dates and final review.",
     "Sucha1:18.81 is corroborated by ownNovember11 video title and later reviewed previous-best field. Posting/publication clocks preserved; fresh visual result/laps and continuity remain unverified.",
     "Wins1:13.46 and Sucha1:18.78 final videos retain prior result review; current Sucha encoding hash differs prior supplied encoding. Exact videoID metadata matches; byte identity with prior encoding is not claimed.",
     "Image outputs omitted by gateway. Full decode and R2 byte checks do not constitute fresh video continuity verification.",
@@ -108,8 +100,37 @@
     "archive/autumn2022-wins1346-original-video-reconciliation-20261008.json",
     "archive/autumn2022-completion-label-build-check-20261013.json",
     "archive/autumn2022-completion-label-live-check-20261013.json",
-    "archive/autumn2022-rendered-proof-and-video-live-link-audit-20261013.json"
+    "archive/autumn2022-rendered-proof-and-video-live-link-audit-20261013.json",
+    "artifacts/autumn2022-preserved-worksheet-source-date-reconciliation-20261017.json",
+    "artifacts/autumn2022-six-new-source-dates-and-starin-intermediate-wr-20261017.json",
+    "artifacts/autumn2022-preserved-date-proof-r2-integrity-20261017.json",
+    "artifacts/autumn2022-six-fresh-original-results-r2-integrity-20261017.json",
+    "artifacts/autumn2022-three-original-videos-r2-integrity-20261017.json",
+    "artifacts/autumn2022-three-original-videos-full-decode-review-20261017.json",
+    "artifacts/autumn2022-aki-opening-wr-proof-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-83",
-  "sourceCommit": "59419a2720c5140413c83d76e7ed91560ea5ad06"
+  "previousCompletedAt": "2026-10-13",
+  "knownWrReviewComplete": false,
+  "knownWorksheetDateReviewComplete": false,
+  "remainingUndatedWorksheetRows": [
+    {
+      "courseId": "los-angeles-laps-2",
+      "id": "sheet-AQF28",
+      "playerId": "kei333",
+      "time": "1:14.12"
+    },
+    {
+      "courseId": "los-angeles-laps-2",
+      "id": "sheet-AQF30",
+      "playerId": "kuri",
+      "time": "1:13.80"
+    },
+    {
+      "courseId": "los-angeles-laps-2",
+      "id": "sheet-AQF37",
+      "playerId": "n",
+      "time": "1:13.93"
+    }
+  ]
 }
