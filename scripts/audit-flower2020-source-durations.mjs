@@ -7,22 +7,35 @@ const courseId='3ds-shy-guy-bazaar-r',tourId='tour-17',start='2020-05-06T06:00:0
 const files=['archive/flower-2020-discussion-census.json','archive/flower-2020-opening-boundary-census.json',
  'archive/flower2020-selected-recording-fresh-visual-and-access-review-20261013.json',
  'artifacts/flower2020-sheet-and-earlier-report-date-review-20261016.json',
- 'artifacts/flower2020-preserved-original-video-publication-metadata-20261016.json'];
-const messages=[...read(files[0]),...read(files[1])],c=read('public/data/courses/'+courseId+'.json');
+ 'artifacts/flower2020-preserved-original-video-publication-metadata-20261016.json',
+ 'artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json',
+ 'archive/flower-2020-server-images-census.json'];
+const messages=[...read(files[0]),...read(files[1]),...read(files[6])],c=read('public/data/courses/'+courseId+'.json');
 const clock=id=>new Date(Number((BigInt(id)>>22n)+1420070400000n)).toISOString();
 const refs=r=>[r.source,...r.additionalSources||[]].filter(Boolean);
 const reference=(r,m)=>refs(r).some(s=>s.messageId===m.id.split('-').at(-1)||s.url?.endsWith('/'+m.id.split('-').at(-1)));
-const rows=[],pending=[],omissions=[];const changes=read(files[3]);
+const rows=[],pending=[],omissions=[];const changes=read(files[3]),sheetProofReview=read(files[5]);
 for(const collection of ['records','submissions','candidates'])for(const r of c[collection]||[]){
  if(r.finalDate&&r.finalDate>'2020-05-20')continue;
  assert.ok(Number.isFinite(r.durationDays)&&r.durationDays>=0,r.id+' duration');
  let evidence=null;
- const override=changes.overrides.find(e=>e.id===r.id&&e.collection===collection);
+ const override=[...changes.overrides,...sheetProofReview.overrides].find(e=>e.id===r.id&&e.collection===collection);
  if(override){
   assert.equal(r.documentedAt,override.timestamp);assert.equal(r.documentedDateSourceUrl,override.sourceUrl);
   const m=messages.find(m=>override.sourceUrl.endsWith('/'+m.id.split('-').at(-1)));
   assert.ok(m);assert.equal(clock(m.id.split('-').at(-1)),r.documentedAt);
-  if(r.id.startsWith('sheet-')){
+  if(override.reviewArtifact===files[5]){
+   const cross=sheetProofReview.rows.find(x=>x.sheetId===r.id);assert.ok(cross);
+   assert.equal(cross.playerId,r.playerId);assert.equal(cross.time,r.time);assert.deepEqual(cross.laps,r.laps);
+   assert.equal(cross.sourcePostedAt,r.documentedAt);assert.equal(cross.sourceUrl,r.documentedDateSourceUrl);
+   assert.equal(cross.visualReview.finishTime,r.time);assert.equal(cross.visualReview.freshVisualReview,true);
+   assert.equal(cross.visualReview.previousBestUsedAsFinish,false);assert.equal(cross.r2EtagMatchesSourceMd5,true);
+   if(['heria','flare'].includes(r.playerId)){
+    const profile=read('public/data/players.json').find(p=>p.id===r.playerId);assert.ok(profile.discordId);
+    assert.ok(JSON.stringify(m).includes('/avatars/'+profile.discordId+'/'),r.id+' source author account');
+   }
+   if(cross.visualReview.sourceLapsMatchWorksheet)assert.ok(r.laps.every(lap=>m.text.includes(lap)));
+  }else if(r.id.startsWith('sheet-')){
    const cross=changes.sheetCrosswalks.find(x=>x.sheetId===r.id),canonical=c.records.find(p=>p.id===cross.canonicalId);
    assert.ok(refs(canonical).some(s=>s.url===r.source.url));assert.equal(r.playerId,canonical.playerId);assert.equal(r.time,canonical.time);assert.deepEqual(r.laps,canonical.laps);
   }else if(r.playerId==='wins'){
@@ -35,7 +48,7 @@ for(const collection of ['records','submissions','candidates'])for(const r of c[
    assert.match(m.text,r.time==='1:40.00'?/Got a 1:40 flat on recording/:/40\.46/);
    assert.equal(r.submittedAt,changes.earlierReports.find(x=>x.id===r.id).laterProofSharedAt);
   }
-  evidence={basis:override.basis,sourceUrl:override.sourceUrl,messageId:m.id.split('-').at(-1),capturedText:m.text};
+  evidence={basis:override.basis,sourceUrl:override.sourceUrl,messageId:m.id.split('-').at(-1),capturedText:m.text,...(override.reviewArtifact===files[5]?{evidenceImageUrl:sheetProofReview.rows.find(x=>x.sheetId===r.id).proofImageUrl}: {})};
  }else if(r.id==='curated-810619049138323456-verified-video-support'){
   const proof=read(files[4]);assert.equal(proof.id,'fUX_uDUWN_Y');assert.equal(new Date(proof.timestamp*1000).toISOString(),'2020-05-19T10:26:09.000Z');
   assert.equal(r.documentedAt,'2020-05-19T10:26:09.000Z');assert.ok(refs(r).some(s=>s.url.includes('fUX_uDUWN_Y')));
@@ -72,12 +85,12 @@ for(const r of c.records)assert.equal(isReviewedOpeningDay(r,'2020-05-06'),openi
 const expectedOpening=opening.filter(r=>r.timeCs===Math.min(...opening.map(p=>p.timeCs))).map(r=>r.id);
 const actualOpening=openingDayPublication([c],[]).courses[0].records.filter(r=>opening.includes(r)).map(r=>r.id);
 assert.deepEqual(actualOpening,expectedOpening);assert.deepEqual(omissions,[]);
-assert.equal(rows.length,62);assert.equal(rows.filter(r=>r.collection==='records').length,16);assert.equal(pending.length,24);
+assert.equal(rows.length,62);assert.equal(rows.filter(r=>r.collection==='records').length,16);assert.equal(pending.length,10);
 const report={tourId,checkedAt:'2026-10-16',sourceRowsChecked:rows.length,verifiedSourceDates:rows.filter(r=>r.sourceVerified).length,
  recordDatesReviewed:16,missingCanonicalDates:0,missingDurations:0,undatedSupportingRows:pending.length,
  sourceFiles:files.map(file=>({file,sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')})),
  dateRows:rows,reigns,openingLeaderIds:actualOpening,pending,screenshotImprovementsMissingFromProgression:omissions,
  canonicalDateReviewComplete:true,tourWindowDurationReviewComplete:true,preservedTourSourceDateReviewComplete:false,historyComplete:false,
- limitations:['24 worksheet submissions remain undated; do not invent dates or certify all-source completion.','Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.','Prior proof/video content reviews are carried forward; no fresh visual review or exhaustive worldwide history certification.']};
+ limitations:['10 worksheet submissions remain undated; do not invent dates or certify all-source completion.','Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.','14 newly matched worksheet original result images were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified.']};
 fs.writeFileSync('public/data/flower2020-source-and-duration-review.json',JSON.stringify(report,null,2)+'\n');
 console.log({rows:rows.length,verified:report.verifiedSourceDates,undated:pending.length,canonicalDatesPass:true,durationsPass:true,openingLeaderIds:actualOpening});

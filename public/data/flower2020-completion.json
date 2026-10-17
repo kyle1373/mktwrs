@@ -36,7 +36,8 @@
     "artifacts/flower2020-sheet-and-earlier-report-date-review-20261016.json",
     "artifacts/flower2020-preserved-original-video-publication-metadata-20261016.json",
     "public/data/flower2020-source-and-duration-review.json",
-    "public/data/flower2020-preserved-media-link-review.json"
+    "public/data/flower2020-preserved-media-link-review.json",
+    "artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json"
   ],
   "preservedLocalReview": {
     "source": "archive/flower-2020-review-progress.json",
@@ -47,19 +48,21 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 1,
-    "proofImageUrlsPassed": 11,
+    "proofImageUrlsPassed": 25,
     "slowerCompletedRecordingsPreservedOnR2": 3,
     "discussionImageDispositions": 129,
     "additionalServerLeadsReviewed": 10,
-    "preservedServerImageHashesVerified": 718
+    "preservedServerImageHashesVerified": 718,
+    "newWorksheetOriginalProofsPreservedOnR2": 14
   },
   "remainingLimitations": [
-    "24 worksheet submissions remain without preserved dates or confirmed dated source crosswalks. All-source date review is incomplete.",
+    "10 worksheet submissions remain without preserved dates or confirmed dated source crosswalks. All-source date review is incomplete.",
     "No original final1:39.00WR recording found; Wins1:39.76 is fastest preserved reviewed completed recording.",
     "Four unavailable server attachments and two stale viewer entries remain explicit gaps.",
     "Deleted opening runner identity and some exact race dates/intermediate order unresolved; source/report/upload/share clocks stay distinct.",
     "Prior718serverimage visual review retained;129discussion images and10additionalserverleads freshly reviewed. This is not exhaustive all-server reconstruction.",
-    "Representative selected-video samples plus successful decode verified; continuous unedited-race certification not claimed."
+    "Representative selected-video samples plus successful decode verified; continuous unedited-race certification not claimed.",
+    "Lionjin 1:40.14 was posted 2020-05-20 at 06:45:34.679 UTC, after the tour closed. The posting date is retained; an earlier race clock is not inferred."
   ],
   "validation": {
     "liveSnapshotRows": 63,
@@ -71,7 +74,7 @@
     "productionBuildPages": 891,
     "openingWrGlobalLeaderCertified": false
   },
-  "nextTourId": "tour-18",
+  "nextTourId": "tour-17",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/flower2020-final-publication-audit-20261013.json",
@@ -87,20 +90,48 @@
   "sourceAndDurationReview": {
     "reviewedAt": "2026-10-16",
     "canonicalRecordDatesReviewed": 16,
-    "verifiedSourceDates": 38,
-    "supportingRowsStillUndated": 24,
+    "verifiedSourceDates": 52,
+    "supportingRowsStillUndated": 10,
     "durationAuditPassed": true,
     "evidence": "public/data/flower2020-source-and-duration-review.json",
     "newlyDatedWorksheetEntries": [
       "sheet-BF11",
-      "sheet-BF15"
+      "sheet-BF15",
+      "sheet-BF10",
+      "sheet-BF12",
+      "sheet-BF20",
+      "sheet-BF21",
+      "sheet-BF22",
+      "sheet-BF24",
+      "sheet-BF25",
+      "sheet-BF28",
+      "sheet-BF29",
+      "sheet-BF30",
+      "sheet-BF31",
+      "sheet-BF33",
+      "sheet-BF36",
+      "sheet-BF14"
     ],
-    "earlierSelfReportDateCorrections": 3
+    "earlierSelfReportDateCorrections": 3,
+    "freshWorksheetOriginalProofsReviewed": 14,
+    "worksheetProofReview": "artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json",
+    "pendingWorksheetIds": [
+      "sheet-BF13",
+      "sheet-BF16",
+      "sheet-BF17",
+      "sheet-BF19",
+      "sheet-BF23",
+      "sheet-BF26",
+      "sheet-BF27",
+      "sheet-BF32",
+      "sheet-BF34",
+      "sheet-BF35"
+    ]
   },
   "nextDateDurationReviewTourId": "tour-17",
   "mediaLinkReview": {
     "evidence": "public/data/flower2020-preserved-media-link-review.json",
-    "uniqueImages": 11,
+    "uniqueImages": 25,
     "uniqueVideos": 4,
     "allPreservedLinksPass": true
   }
