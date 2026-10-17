@@ -24,6 +24,24 @@ test('a later retrospective posting retains its source date and the earlier know
  assert.equal(c.records[0].durationEnd,'2020-01-01T12:00:00.000Z');assert.equal(c.records[0].durationDays,0);
  assert.deepEqual(c.records[0].durationIntervals,[]);
 });
+test('Tomegome original three-result tweet precedes the repost and adjusts both credited reigns',()=>{
+ const courses=JSON.parse(fs.readFileSync(new URL('../public/data/courses.json',import.meta.url)));
+ const c=courses.find(c=>c.id==='3ds-daisy-hills-r');
+ const evidence=JSON.parse(fs.readFileSync(new URL('../scripts/documented-date-evidence.json',import.meta.url))).filter(e=>e.courseId===c.id);
+ const ids=['12169','12154','12148'].map(s=>'curated-yoshi-2020-tomegome-daisy-'+s);
+ const originals=c.records.filter(r=>ids.includes(r.id)).map(r=>({id:r.id,source:structuredClone(r.source),submittedAt:r.submittedAt,achievedAt:r.achievedAt}));
+ applyFinalDates([c],evidence);applyDocumentedDurations([c]);
+ for(const original of originals){const r=c.records.find(r=>r.id===original.id);
+  assert.equal(r.finalDate,'2020-04-13');assert.equal(r.documentedAt,'2020-04-13T10:55:44.928Z');
+  assert.equal(r.documentedDateSourceUrl,'https://twitter.com/tomegome_g/status/1249652486790471685');
+  assert.deepEqual(r.source,original.source);assert.equal(r.submittedAt,original.submittedAt);assert.equal(r.achievedAt,original.achievedAt);
+ }
+ const prior=c.records.find(r=>r.id==='curated-yoshi-2020-kaguya-daisy-8179'),best=c.records.find(r=>r.id===ids[2]);
+ assert.equal(Math.floor(prior.durationDays),1);assert.equal(Math.floor(best.durationDays),1);
+ assert.equal(prior.durationEnd,best.documentedAt);
+ assert.equal(best.durationEnd,'2020-04-14T10:58:08.553Z');
+ assert.equal(c.records.find(r=>r.id===ids[0]).durationDays,0);assert.equal(c.records.find(r=>r.id===ids[1]).durationDays,0);
+});
 test('date-only publications are explicit calculation boundaries; identical footage may inherit a preserved source clock',()=>{
  const r=resolveFinalDate({dateUnresolved:true,dateBasis:'first-screenshot-publication',recordDate:'2020-04-15',evidencePublishedAt:'2020-04-15T05:33:04.238Z',tourDateRange:{end:'2020-04-21'}});assert.equal(r.timestamp,'2020-04-15T05:33:04.238Z');
  const unknown={id:'sheet',playerId:'a',timeCs:100,video:'https://youtu.be/tdI5MQ9C0-Y'};
