@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T02:16:59.744Z",
+  "checkedAt": "2026-10-17T02:26:07.088Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 289,
-  "r2BackupNeedsReview": 76,
-  "freshOriginalByteChecks": 3,
+  "r2BackupRegistered": 290,
+  "r2BackupNeedsReview": 75,
+  "freshOriginalByteChecks": 1,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-26",
-  "evidence": "artifacts/supermario2020-two-supplied-originals-and-result-clip-r2-preservation-20261016.json",
+  "currentVideoPreservationTourId": "tour-28",
+  "evidence": "artifacts/anniversary2020-tomegome-original-video-r2-preservation-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -278,7 +278,7 @@
           "documentedAt": "2023-09-24T10:13:27.292Z"
         }
       ],
-      "r2Url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-movie-\u3059\u3044\u305d\ud83d\udc3a-11188-67daa3398446.mp4",
+      "r2Url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-movie-すいそ🐺-11188-67daa3398446.mp4",
       "status": "r2-backup-registered-not-freshly-verified"
     },
     {
@@ -4961,8 +4961,17 @@
           "documentedAt": "2020-10-09T21:16:44.000Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/anniversary2020-tomegome-1314682572606074880-2359a0912e78.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/anniversary2020-tomegome-original-video-r2-preservation-20261016.json",
+      "videoScope": "full-run",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T02:26:07.088Z",
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1315641292928372736",
@@ -5535,10 +5544,10 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 12,
-  "previousPreservationEvidence": "artifacts/summerfest2020-three-original-video-r2-preservation-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 13,
+  "previousPreservationEvidence": "artifacts/supermario2020-two-supplied-originals-and-result-clip-r2-preservation-20261016.json",
   "knownUnavailableOriginalsReviewed": 3,
-  "newOriginalUploadsInCurrentBatch": 2,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 1,
-  "losslessPlaybackCopiesInCurrentBatch": 2
+  "newOriginalUploadsInCurrentBatch": 1,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
+  "losslessPlaybackCopiesInCurrentBatch": 0
 }
