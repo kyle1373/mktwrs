@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T08:14:44.278556+00:00",
+  "checkedAt": "2026-10-17T08:31:52.113148+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 300,
   "r2BackupNeedsReview": 65,
-  "freshOriginalByteChecks": 2,
+  "freshOriginalByteChecks": 1,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-72",
-  "evidence": "artifacts/metropolitan2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "currentVideoPreservationTourId": "tour-73",
+  "evidence": "artifacts/bangkok2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1489,7 +1489,12 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "r2-backup-needs-review",
+      "originalSourceRecoveryRecheck": {
+        "checkedAt": "2026-10-17T08:31:52.113148+00:00",
+        "evidence": "artifacts/bangkok2022-source-date-duration-and-new-recording-recovery-review-20261017.json",
+        "result": "Original source extraction provided no downloadable recording; any existing backup retained."
+      }
     },
     {
       "key": "youtube:vpvoCSI_vJo",
@@ -4472,7 +4477,16 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/bangkok2022-wins-rmx-vanilla-lake-1r-10116-511548d81737.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T08:31:52.113148+00:00",
+      "sha256": "511548d817370a88ca05452ddc2537f775a4948686d57567442da90f2097ebf9",
+      "bytes": 10134885,
+      "preservationEvidence": "artifacts/bangkok2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+      "originalSourceRecoveryRecheck": {
+        "checkedAt": "2026-10-17T08:31:52.113148+00:00",
+        "evidence": "artifacts/bangkok2022-source-date-duration-and-new-recording-recovery-review-20261017.json",
+        "result": "Original source extraction provided no downloadable recording; any existing backup retained."
+      }
     },
     {
       "key": "youtube:z7agkwzvABI",
@@ -6210,17 +6224,17 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/cat2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
-  "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2,
+  "previousPreservationEvidence": "artifacts/metropolitan2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "newOriginalUploadsInCurrentBatch": 1,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 6,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 8,
-  "currentBatchUniqueR2FilesVerified": 10,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 1,
+  "currentBatchUniqueR2FilesVerified": 6,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 25,
-  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 6,
+  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
@@ -6228,5 +6242,7 @@
   "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 0,
   "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
-  "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0
+  "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
+  "currentBatchNewR2ObjectsUploaded": 3,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1
 }
