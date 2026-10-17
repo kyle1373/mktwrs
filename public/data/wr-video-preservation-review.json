@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T09:03:52.758113+00:00",
+  "checkedAt": "2026-10-17T09:48:22.418449+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 300,
   "r2BackupNeedsReview": 65,
-  "freshOriginalByteChecks": 1,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-75",
-  "evidence": "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "currentVideoPreservationTourId": "tour-76",
+  "evidence": "artifacts/sundae2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -329,7 +329,7 @@
           "documentedAt": "2023-09-24T10:13:27.292Z"
         }
       ],
-      "r2Url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-movie-すいそ🐺-11188-67daa3398446.mp4",
+      "r2Url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-movie-\u3059\u3044\u305d\ud83d\udc3a-11188-67daa3398446.mp4",
       "status": "r2-backup-registered-not-freshly-verified"
     },
     {
@@ -679,7 +679,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/sundae2022-nu11-41023e889887.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T09:48:22.418449+00:00",
+      "sha256": "41023e889887b46b2f8ded3a7ce3f11cbe6c2c577eceddc70796b80a1b84eb8b",
+      "bytes": 24866065,
+      "preservationEvidence": "artifacts/sundae2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "x:1217526911720493058",
@@ -4793,7 +4797,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/sundae2022-troy-31e83ec9b386.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T09:48:22.418449+00:00",
+      "sha256": "31e83ec9b3869b22e224b7e6f74ced812892f7977f11368e255afbb28bb7cba1",
+      "bytes": 21895864,
+      "preservationEvidence": "artifacts/sundae2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "youtube:11WZcxrEYsw",
@@ -6232,14 +6240,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/piranha2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
-  "newOriginalUploadsInCurrentBatch": 1,
+  "previousPreservationEvidence": "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "newOriginalUploadsInCurrentBatch": 0,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 4,
-  "currentBatchUniqueR2FilesVerified": 11,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 6,
+  "currentBatchUniqueR2FilesVerified": 8,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 25,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
@@ -6252,6 +6260,6 @@
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
   "currentBatchNewR2ObjectsUploaded": 4,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1,
-  "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 1
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 0,
+  "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0
 }
