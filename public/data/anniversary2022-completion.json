@@ -57,7 +57,7 @@
     "knownWorksheetRows": 93,
     "knownWorksheetRowsDated": 92,
     "remainingUndatedWorksheetRows": 1,
-    "originalRecordingsFullyDecoded": 9,
+    "originalRecordingsFullyDecoded": 11,
     "newOriginalRecordingsArchived": 6,
     "preservedSourceImageReferences": 80,
     "freshOriginalSourceAttachmentsArchived": 16,
@@ -65,7 +65,9 @@
     "recoveredDocumentedCanonicalWrRows": 8,
     "documentedBerlinWrRows": 8,
     "documentedSingaporeWrRows": 5,
-    "availableCanonicalProofsOnR2": 12
+    "availableCanonicalProofsOnR2": 12,
+    "additionalPartialDiscussionVideosArchived": 2,
+    "additionalPartialDiscussionImagesArchived": 2
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -95,7 +97,8 @@
     "TroySingapore24.00 acceptededitedbotcaption and24.73originalimage are separate source facts; screenshot is not labeled proof of24.00.",
     "One worksheet source date still unresolved: Troy Berlin1:14.75. Cancelled1:14.00 receipt has an unavailable ephemeral image; later1:14.65 image previousbest1:14.73 does not establish1:14.75.",
     "Published progression now includes the fastest recovered first-daySingapore23.79 and successive dated bests. Previous-best-only intermediate Berlin14.91 and14.58 remain source observations without invented earlier achievement dates.",
-    "Wins Berlin14.54 is supported by the accepted original result receipt; its original ephemeral image remains unavailable."
+    "Wins Berlin14.54 is supported by the accepted original result receipt; its original ephemeral image remains unavailable.",
+    "Two additional discussion videos preserve a Berlin lap and a Singapore opening clip; neither supplies a completed race result. Two unavailable Sucha social posts retain their surviving captions without claiming footage recovery."
   ],
   "evidence": [
     "archive/anniversary2022-final-practical-publication-audit-20261013.json",
@@ -121,10 +124,12 @@
     "artifacts/anniversary2022-nu-final-berlin-original-image-r2-integrity-20261017.json",
     "artifacts/anniversary2022-published-progression-proof-r2-integrity-20261017.json",
     "artifacts/anniversary2022-original-workbook-and-opening-source-review-20261017.json",
-    "artifacts/anniversary2022-workbook-and-opening-context-r2-integrity-20261017.json"
+    "artifacts/anniversary2022-workbook-and-opening-context-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-additional-discussion-media-preservation-20261017.json",
+    "artifacts/anniversary2022-additional-discussion-media-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-80",
-  "sourceCommit": "986c2573c638931039ab7a271bf78957b5b84401",
+  "sourceCommit": "1e2eee8e5350a10cc5567a2c9bc226b1bb03e691",
   "previousReviewCompletedAt": "2026-10-13",
   "previousPracticalReviewComplete": true,
   "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": false,
@@ -186,7 +191,7 @@
     "allCanonicalDatesAndDurationsVerified": true,
     "availableCanonicalProofsOnR2": 12,
     "acceptedReceiptOnlyCanonicalRows": 1,
-    "originalRecordingsFullyDecoded": 9,
+    "originalRecordingsFullyDecoded": 11,
     "knownWorksheetRowsDated": 92,
     "knownWorksheetRows": 93,
     "liveVerificationEvidence": "artifacts/anniversary2022-recovered-record-progression-live-verification-20261017.json",
@@ -208,5 +213,85 @@
         "time": "1:14.75"
       }
     ]
+  },
+  "latestDiscussionSourceReview": {
+    "checkedAt": "2026-10-17T20:36:06.848022+00:00",
+    "reviewArtifact": "artifacts/anniversary2022-additional-discussion-media-preservation-20261017.json",
+    "integrityArtifact": "artifacts/anniversary2022-additional-discussion-media-r2-integrity-20261017.json",
+    "correctedDiscussionLinkSearchResults": 12,
+    "newPartialVideos": [
+      {
+        "videoKey": "youtube:xH0cXTgxDFU",
+        "courseId": "berlin-byways-3",
+        "originalUrl": "https://www.youtube.com/watch?v=xH0cXTgxDFU",
+        "sourceMessageId": "1026507567939190794",
+        "postedAt": "2022-10-03T14:54:35.785Z",
+        "publishedAt": "2022-10-03T14:54:12+00:00",
+        "classification": "Berlin Byways 3 lap footage; title claims lap 37.27. Video continues into lap two, without a final race result.",
+        "fullRaceProof": false,
+        "r2Object": {
+          "path": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/video-backup-files/anniversary2022-discussion-xH0cXTgxDFU-20261017/original.webm",
+          "key": "assets/video/anniversary2022-discussion-xH0cXTgxDFU-original-91d2ee749b2071a37256.webm",
+          "url": "https://media.mktwrs.com/assets/video/anniversary2022-discussion-xH0cXTgxDFU-original-91d2ee749b2071a37256.webm",
+          "sha256": "91d2ee749b2071a372561277c2a2b29a9a13065d5c08ef9646d0debb7e9b9e0f",
+          "bytes": 47297295,
+          "contentType": "video/webm"
+        }
+      },
+      {
+        "videoKey": "youtube:t8pzJDVpBw0",
+        "courseId": "singapore-speedway-2",
+        "originalUrl": "https://www.youtube.com/watch?v=t8pzJDVpBw0",
+        "sourceMessageId": "1024311370440773713",
+        "postedAt": "2022-09-27T13:27:41.498Z",
+        "publishedAt": "2022-09-27T11:40:28+00:00",
+        "classification": "Singapore Speedway 2 opening-race clip, ending in lap one. No final race result.",
+        "fullRaceProof": false,
+        "r2Object": {
+          "path": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/video-backup-files/anniversary2022-discussion-t8pzJDVpBw0-20261017/original.webm",
+          "key": "assets/video/anniversary2022-discussion-t8pzJDVpBw0-original-46998dba8cced14ac469.webm",
+          "url": "https://media.mktwrs.com/assets/video/anniversary2022-discussion-t8pzJDVpBw0-original-46998dba8cced14ac469.webm",
+          "sha256": "46998dba8cced14ac4691fcd5c7e18de595e3cc79a8b801b09cb7dc4f355fe66",
+          "bytes": 4371690,
+          "contentType": "video/webm"
+        }
+      }
+    ],
+    "newPartialImages": [
+      {
+        "sourceMessageId": "1026901066643681300",
+        "postedAt": "2022-10-04T16:58:13.187Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1026901066643681300",
+        "observation": "Berlin lap two starts near displayed race timer 0:37.11; no completed race result or exact lap time proven.",
+        "achievementTimestampProven": false,
+        "r2Object": {
+          "path": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/anniversary2022-discussion-original-1026901066643681300.jpg",
+          "key": "assets/evidence/anniversary2022-discussion-original-1026901066643681300-5799ce743bf121b3914f.jpg",
+          "url": "https://media.mktwrs.com/assets/evidence/anniversary2022-discussion-original-1026901066643681300-5799ce743bf121b3914f.jpg",
+          "sha256": "5799ce743bf121b3914fc2f3413461762d7dfe025b73bac7113332ef0975275b",
+          "bytes": 129825,
+          "contentType": "image/jpeg"
+        }
+      },
+      {
+        "sourceMessageId": "1024680871715938344",
+        "postedAt": "2022-09-28T13:55:57.467Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/1024680871715938344",
+        "observation": "Singapore lap two with displayed race timer 0:41.65; no completed race result or exact lap time proven.",
+        "achievementTimestampProven": false,
+        "r2Object": {
+          "path": "/Users/superfx/.codex/tmp/mkt-peach2023-clean/archive/anniversary2022-discussion-original-1024680871715938344.png",
+          "key": "assets/evidence/anniversary2022-discussion-original-1024680871715938344-2764c9882e9ca6254dcd.png",
+          "url": "https://media.mktwrs.com/assets/evidence/anniversary2022-discussion-original-1024680871715938344-2764c9882e9ca6254dcd.png",
+          "sha256": "2764c9882e9ca6254dcdb57865e34fe136dad963c778f76d5fd0be6fbdf59d25",
+          "bytes": 1197047,
+          "contentType": "image/png"
+        }
+      }
+    ],
+    "allSevenCanonicalLinkedVideosOnR2": true,
+    "remainingTroyDateRecovered": false,
+    "knownWorksheetRowsDated": 92,
+    "totalWorksheetRows": 93
   }
 }
