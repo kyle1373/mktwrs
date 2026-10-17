@@ -1,9 +1,9 @@
 {
   "tourId": "tour-80",
   "tour": "Battle Tour (2022)",
-  "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "practicalReviewComplete": true,
+  "status": "in-progress-source-revalidation",
+  "completedAt": null,
+  "practicalReviewComplete": false,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
@@ -88,8 +88,20 @@
     "archive/battle2022-generated-publication-fidelity-repair-20261013.json",
     "archive/battle2022-nu11-recording-share-clock-publication-20261013.json",
     "archive/battle2022-completion-label-live-check-20261013.json",
-    "archive/battle2022-rendered-proof-and-video-live-link-audit-20261013.json"
+    "archive/battle2022-rendered-proof-and-video-live-link-audit-20261013.json",
+    "artifacts/battle2022-current-worksheet-source-date-revalidation-backlog-20261017.json"
   ],
   "nextTourId": "tour-81",
-  "sourceCommit": "8742ecdb3f47d5ea9824dbcf54535fd5883ddc83"
+  "sourceCommit": "8742ecdb3f47d5ea9824dbcf54535fd5883ddc83",
+  "previousReviewCompletedAt": "2026-10-13",
+  "previousPracticalReviewComplete": true,
+  "knownWorksheetDateReviewComplete": false,
+  "latestSourceDateRevalidation": {
+    "checkedAt": "2026-10-17T21:31:59.555333+00:00",
+    "knownWorksheetRows": 77,
+    "knownWorksheetRowsDated": 30,
+    "remainingUndatedWorksheetRows": 47,
+    "dateChangesPublished": false,
+    "reviewArtifact": "artifacts/battle2022-current-worksheet-source-date-revalidation-backlog-20261017.json"
+  }
 }
