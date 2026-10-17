@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T07:51:03.473560+00:00",
+  "checkedAt": "2026-10-17T08:02:37.590706+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 300,
   "r2BackupNeedsReview": 65,
-  "freshOriginalByteChecks": 4,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-70",
-  "evidence": "artifacts/peachbowsermay2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "currentVideoPreservationTourId": "tour-71",
+  "evidence": "artifacts/cat2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -2080,7 +2080,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/cat2022-0778fe38fdc8baf794ce.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T08:02:37.590706+00:00",
+      "sha256": "0778fe38fdc8baf794ce75a5fa68ddc9e458a69e208ecc7633a97fdd67957fd7",
+      "bytes": 12584030,
+      "preservationEvidence": "artifacts/cat2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "https://mktwrs.com/assets/proof/superfx-gv1r-4059-20200910.mp4",
@@ -6125,7 +6129,13 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "r2-backup-needs-review",
+      "recoveryCheck": {
+        "checkedAt": "2026-10-17T08:02:37.590706+00:00",
+        "result": "Original video unavailable at source URL; extractor exit1",
+        "evidence": "artifacts/cat2022-source-date-duration-and-original-publication-review-20261017.json"
+      },
+      "checkedAt": "2026-10-17T08:02:37.590706+00:00"
     },
     {
       "key": "youtube:qxhVjOwQEsU",
@@ -6140,7 +6150,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/cat2022-66b05c6d31fbda14bd89.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T08:02:37.590706+00:00",
+      "sha256": "66b05c6d31fbda14bd89dac61ee4928907e766db43783a869b50af1787021546",
+      "bytes": 14082849,
+      "preservationEvidence": "artifacts/cat2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "youtube:iyKHAyJZ0mY",
@@ -6188,17 +6202,17 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "previousPreservationEvidence": "artifacts/peachbowsermay2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "newOriginalUploadsInCurrentBatch": 0,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 6,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 6,
-  "currentBatchUniqueR2FilesVerified": 10,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 2,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 4,
+  "currentBatchUniqueR2FilesVerified": 6,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 25,
-  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 6,
+  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 2,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
