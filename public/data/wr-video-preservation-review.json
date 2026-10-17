@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T17:03:17.144869+00:00",
+  "checkedAt": "2026-10-17T17:26:20.815081+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 304,
-  "r2BackupNeedsReview": 61,
-  "freshOriginalByteChecks": 7,
+  "r2BackupRegistered": 305,
+  "r2BackupNeedsReview": 60,
+  "freshOriginalByteChecks": 1,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
   "currentVideoPreservationTourId": "tour-77",
-  "evidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
+  "evidence": "artifacts/bowser2022-wins4884-original-video-r2-integrity-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1362,15 +1362,25 @@
           "documentedAt": "2022-08-25T13:01:04.185Z"
         }
       ],
-      "r2Url": null,
-      "status": "source-returned-no-downloadable-video-recovery-unresolved",
-      "preservationEvidence": "artifacts/bowser2022-source-date-duration-and-original-media-review-20261017.json",
+      "r2Url": "https://media.mktwrs.com/assets/video/bowser2022-wins4884-original-video-45fe05c8f3fe1092989d.mp4",
+      "status": "r2-original-full-bytes-verified",
+      "preservationEvidence": "artifacts/bowser2022-wins4884-original-video-r2-integrity-20261017.json",
       "recoveryCheck": {
+        "checkedAt": "2026-10-17T17:26:20.815081+00:00",
+        "method": "Public tweet metadata followed by original video.twimg.com media GET",
+        "result": "Original recording recovered, fully decoded, visually matched and archived onR2",
+        "previousDownloaderFailureSuperseded": true
+      },
+      "previousFailedRecoveryCheck": {
         "checkedAt": "2026-10-17T17:03:17.144869+00:00",
         "method": "Original Twitter yt-dlp metadata lookup",
         "result": "No video could be found in this tweet",
         "noPermanentLossClaim": true
-      }
+      },
+      "checkedAt": "2026-10-17T17:26:20.815081+00:00",
+      "sha256": "45fe05c8f3fe1092989d868b7a4b931f9b634398291eebf88c543ce85ab7b875",
+      "bytes": 13245724,
+      "videoScope": "result-reviewed"
     },
     {
       "key": "youtube:-ejmYJglUX4",
@@ -6289,14 +6299,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/sundae2022-final-recovered-originals-r2-integrity-20261017.json",
-  "newOriginalUploadsInCurrentBatch": 5,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2,
+  "previousPreservationEvidence": "artifacts/bowser2022-original-media-r2-integrity-20261017.json",
+  "newOriginalUploadsInCurrentBatch": 1,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 16,
+  "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 0,
-  "currentBatchUniqueR2FilesVerified": 102,
+  "currentBatchUniqueR2FilesVerified": 4,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 0,
   "originalSourcesStillUnreviewed": 20,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
@@ -6306,10 +6316,10 @@
   "knownUnavailableOriginalSources": 25,
   "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 0,
   "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
-  "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 1,
+  "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
-  "currentBatchNewR2ObjectsUploaded": 100,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 2,
+  "currentBatchNewR2ObjectsUploaded": 4,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 0,
   "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0,
   "newOriginalEncodingCopiesUploadedInCurrentBatch": 0,
   "pendingSundaeDateSourceReceiptPreservation": {
@@ -6361,14 +6371,14 @@
     "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
   },
   "previousCompletedVideoPreservationTourId": "tour-76",
-  "newOriginalImagesPreservedInCurrentBatch": 83,
-  "newFirstLapFramesPreservedInCurrentBatch": 0,
-  "newSourceReceiptObjectsPreservedInCurrentBatch": 1,
+  "newOriginalImagesPreservedInCurrentBatch": 0,
+  "newFirstLapFramesPreservedInCurrentBatch": 1,
+  "newSourceReceiptObjectsPreservedInCurrentBatch": 0,
   "sundaeKnownSourceDateReviewComplete": true,
   "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
   "canonicalR2CoverageReconciliation": {
     "previousPublishedCount": 300,
-    "currentCount": 304,
+    "currentCount": 305,
     "twoNewCanonicalOriginals": [
       "youtube:flO37soORFw",
       "youtube:-ejmYJglUX4"
@@ -6377,7 +6387,9 @@
       "youtube:iBFP45tNkiU",
       "https://cdn.discordapp.com/attachments/636461740162416640/896913592841023539/video0.mov"
     ],
-    "newSupportingVideosDoNotIncreaseCanonicalKeyCount": true
+    "newSupportingVideosDoNotIncreaseCanonicalKeyCount": true,
+    "previousBowserRecoveryCount": 304,
+    "latestOriginalRecoveryKey": "x:1562808707096117253"
   },
   "bowserRemainingDateSourceGap": [
     {
@@ -6420,5 +6432,34 @@
     "newSourceReceiptR2Objects": 1,
     "existingOriginalImageReverified": true,
     "sourceDateOrWrDurationChanged": false
-  }
+  },
+  "latestWins4884OriginalRecovery": {
+    "checkedAt": "2026-10-17T17:26:20.815081+00:00",
+    "reviewArtifact": "artifacts/bowser2022-wins4884-original-video-recovery-review-20261017.json",
+    "integrityArtifact": "artifacts/bowser2022-wins4884-original-video-r2-integrity-20261017.json",
+    "sourceVideoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/bowser2022-wins4884-original-video-45fe05c8f3fe1092989d.mp4",
+      "originalUrl": "https://twitter.com/winsmkt/status/1562808707096117253",
+      "channel": "mktwrs media archive",
+      "kind": "r2-preserved-original-platform-video",
+      "status": "available",
+      "uploadedAt": "2026-10-17T17:26:20.815081+00:00",
+      "sha256": "45fe05c8f3fe1092989d868b7a4b931f9b634398291eebf88c543ce85ab7b875",
+      "bytes": 13245724,
+      "credit": "Wins",
+      "preservedOriginalFile": "archive/video-backup-files/bowser2022-wins4884-recovery-20261017/original.mp4",
+      "sourceResolution": {
+        "width": 592,
+        "height": 1280,
+        "frameRate": "60/1"
+      },
+      "sourceDurationSeconds": 68.288435,
+      "originalFileFullyDecoded": true,
+      "preservationEvidence": "artifacts/bowser2022-wins4884-original-video-r2-integrity-20261017.json"
+    },
+    "fullByteVerificationPassed": true,
+    "dateAndDurationUnchanged": true
+  },
+  "newMetadataObjectsPreservedInCurrentBatch": 1,
+  "newFinishFramesPreservedInCurrentBatch": 1
 }
