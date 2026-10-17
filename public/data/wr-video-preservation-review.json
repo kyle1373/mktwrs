@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T04:08:41.522409+00:00",
+  "checkedAt": "2026-10-17T04:13:12.869961+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
   "r2BackupNeedsReview": 67,
-  "freshOriginalByteChecks": 1,
+  "freshOriginalByteChecks": 3,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-40",
-  "evidence": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-41",
+  "evidence": "artifacts/ninja2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -3062,7 +3062,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/ninja2021-c7efb8901a940b80c0ff.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:13:12.869961+00:00",
+      "evidence": "artifacts/ninja2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:q0adev5AKqI",
@@ -3077,7 +3079,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/ninja2021-6598cdfa428c806f8226.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:13:12.869961+00:00",
+      "evidence": "artifacts/ninja2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:O_ByD9fz4tU",
@@ -3092,7 +3096,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/ninja2021-circuit-13584-ebe11c181619.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:13:12.869961+00:00",
+      "evidence": "artifacts/ninja2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:IE03y6SL4UI",
@@ -3591,7 +3597,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T04:13:12.869961+00:00",
+      "evidence": "artifacts/ninja2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:LcreEObEEeE",
@@ -5834,16 +5844,17 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 33,
-  "previousPreservationEvidence": "artifacts/mario2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 17,
+  "totalOriginalByteChecksInPreservationBatches": 36,
+  "previousPreservationEvidence": "artifacts/yoshi2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "knownUnavailableOriginalsReviewed": 18,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 6,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 4,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 13,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 8,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 14,
-  "currentBatchUniqueR2FilesVerified": 16,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 10,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 15,
+  "currentBatchUniqueR2FilesVerified": 17,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 37
+  "originalSourcesStillUnreviewed": 36,
+  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 1
 }
