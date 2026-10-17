@@ -2,6 +2,23 @@ import test from 'node:test';import assert from 'node:assert/strict';import fs f
 import {applyDocumentedDurations} from '../lib/documented-durations.mjs';
 import {resolveFinalDate,applyFinalDates} from '../lib/final-dates.mjs';
 const row=(id,timeCs,documentedAt,playerId=id)=>({id,timeCs,playerId,documentedAt,documentedDatePrecision:'timestamp'});
+test('a former WR between dated results keeps a duration interval instead of borrowing the successor clock',()=>{
+ const c={id:'former',records:[row('slower',100,'2020-01-01T12:00:00.000Z','runner'),
+  {...row('former',90,null,'runner'),finalDate:'2020-01-02',documentedDatePrecision:'day',dateUnresolved:true,
+   retrospectiveStandingOrder:{afterId:'slower',beforeId:'faster',reviewAudit:'review.json'}},
+  row('faster',80,'2020-01-02T12:00:00.000Z','runner')],submissions:[],candidates:[],
+  appearances:[{startDate:'2020-01-01',endDate:'2020-01-03'}]};
+ applyDocumentedDurations([c]);
+ assert.equal(c.records[1].documentedAt,null);
+ for(const r of c.records.slice(0,2)){
+  assert.equal(r.durationBounds.minDays,0);assert.equal(r.durationBounds.maxDays,1);
+  assert.equal(r.durationPrecision,'range');
+ }
+ assert.equal(c.records[1].durationBounds.start.earliest,c.records[0].documentedAt);
+ assert.equal(c.records[1].durationBounds.start.latest,c.records[2].documentedAt);
+ c.records[0].playerId='different-runner';
+ assert.throws(()=>applyDocumentedDurations([c]),/Invalid retrospective standing order/);
+});
 test('reigns pause between tours and tied holders end at the same faster submission',()=>{
  const c={records:[row('a',100,'2020-01-01T12:00:00Z'),row('b',100,'2020-01-02T12:00:00Z'),row('c',90,'2020-01-16T12:00:00Z')],submissions:[],candidates:[],appearances:[{startDate:'2020-01-01',endDate:'2020-01-03'},{startDate:'2020-01-15',endDate:'2020-01-17'}]};
  applyDocumentedDurations([c]);assert.equal(c.records[0].durationDays,3);assert.equal(c.records[1].durationDays,2);assert.equal(c.records[2].durationDays,.75);

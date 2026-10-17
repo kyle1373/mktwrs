@@ -36,7 +36,9 @@
     "archive/frost2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/frost2021-image-source-publication-crosswalk-20261013.json",
     "archive/frost2021-opening-day-policy-generation-check-20261013.json",
-    "archive/frost2021-submission-source-file-and-canonical-crosswalk-20261013.json"
+    "archive/frost2021-submission-source-file-and-canonical-crosswalk-20261013.json",
+    "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/frost2021-worksheet-associations-and-retrospective-duration-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/frost-2021-reconciliation.json",
@@ -80,7 +82,8 @@
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
-    "Ten partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+    "Ten partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
+    "All 18 R2 objects passed full SHA256 and byte-length checks, representing 16 distinct file hashes. Three worksheet date associations now follow matching original results; their mismatched or unverified video links are retained as raw references. The retrospective 1:02.74 recording no longer borrows the faster 1:02.62 submission clock or claims an exact zero-length reign."
   ],
   "validation": {
     "liveSnapshotRows": 445,
@@ -97,5 +100,18 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/frost2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/frost2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "258d30d89ebae36289eec79fc4b0e6e25759fff3"
+  "sourceCommit": "258d30d89ebae36289eec79fc4b0e6e25759fff3",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:17:50.415856+00:00",
+    "audit": "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 18,
+    "distinctFileHashes": 16,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "unavailableNu11OriginalVideoRecoveryUnresolved": true,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  },
+  "sourceDateAndDurationAssociationReview": "artifacts/frost2021-worksheet-associations-and-retrospective-duration-review-20261016.json"
 }

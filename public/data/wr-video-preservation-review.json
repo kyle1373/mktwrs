@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T05:05:07.142268+00:00",
+  "checkedAt": "2026-10-17T05:17:50.415856+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
   "r2BackupNeedsReview": 67,
-  "freshOriginalByteChecks": 1,
+  "freshOriginalByteChecks": 4,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-49",
-  "evidence": "artifacts/mariopeach2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-50",
+  "evidence": "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1646,7 +1646,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "sourceCheck": "yt-dlp: No video could be found in this tweet",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T05:17:50.415856+00:00",
+      "evidence": "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1428227275703558152",
@@ -1661,7 +1665,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/frost2021-summit-13297-988f4e973f23.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:17:50.415856+00:00",
+      "evidence": "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:R8ehAO0jrMk",
@@ -5345,7 +5351,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/frost2021-2a6c1ab52fc49dbbf196.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:17:50.415856+00:00",
+      "evidence": "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1427166956629729282",
@@ -5360,7 +5368,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/frost2021-787bcdf506cbef9fff70.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:17:50.415856+00:00",
+      "evidence": "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:LQH2dW-z-Ik",
@@ -5371,11 +5381,16 @@
           "courseId": "3ds-toad-circuit-r",
           "time": "1:02.74",
           "playerId": "astre",
-          "documentedAt": "2021-08-16T19:37:42.567Z"
+          "documentedAt": null,
+          "documentedDate": "2021-08-16",
+          "documentedDatePrecision": "day",
+          "sourceReviewAudit": "artifacts/frost2021-worksheet-associations-and-retrospective-duration-review-20261016.json"
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/frost2021-toad-10274-c5c5b12d4e8d.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:17:50.415856+00:00",
+      "evidence": "artifacts/frost2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:UUqU-6hhk4I",
@@ -5898,18 +5913,18 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 49,
-  "previousPreservationEvidence": "artifacts/la2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 53,
+  "previousPreservationEvidence": "artifacts/mariopeach2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "knownUnavailableOriginalsReviewed": 23,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 4,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 10,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 14,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 4,
-  "currentBatchUniqueR2FilesVerified": 6,
+  "sourceNoDownloadableVideoRecoveryGaps": 15,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 6,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 16,
+  "currentBatchUniqueR2FilesVerified": 18,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 30,
+  "originalSourcesStillUnreviewed": 29,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
