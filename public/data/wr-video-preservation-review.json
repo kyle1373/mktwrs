@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T02:00:18.791Z",
+  "checkedAt": "2026-10-17T02:05:49.241Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 285,
-  "r2BackupNeedsReview": 80,
-  "freshOriginalByteChecks": 2,
+  "r2BackupRegistered": 288,
+  "r2BackupNeedsReview": 77,
+  "freshOriginalByteChecks": 3,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-16",
-  "evidence": "artifacts/trick2020-two-original-wr-videos-r2-preservation-20261016.json",
+  "currentVideoPreservationTourId": "tour-25",
+  "evidence": "artifacts/summerfest2020-three-original-video-r2-preservation-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1125,8 +1125,9 @@
           "documentedAt": "2020-08-31T16:34:09.619Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/proof/summer-750030681542885416.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "videoScope": "result-menu-clip"
     },
     {
       "key": "youtube:FzvPmlYiSZA",
@@ -1140,8 +1141,9 @@
           "documentedAt": "2020-09-01T23:45:15.903Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/summerfest2020-phillish-FzvPmlYiSZA-25e9d6e575f4.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "videoScope": "full-run"
     },
     {
       "key": "https://mktwrs.com/assets/proof/summer-751735491136847972.mp4",
@@ -1155,8 +1157,9 @@
           "documentedAt": "2020-09-05T09:28:27.819Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/proof/summer-751735491136847972.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "videoScope": "result-menu-clip"
     },
     {
       "key": "x:1302204722636619777",
@@ -5518,7 +5521,9 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 6,
-  "knownUnavailableOriginalsInCurrentBatch": 3,
-  "previousPreservationEvidence": "artifacts/paris2019-two-original-wr-videos-r2-preservation-20261016.json"
+  "totalOriginalByteChecksInPreservationBatches": 9,
+  "previousPreservationEvidence": "artifacts/trick2020-two-original-wr-videos-r2-preservation-20261016.json",
+  "knownUnavailableOriginalsReviewed": 3,
+  "newOriginalUploadsInCurrentBatch": 1,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2
 }
