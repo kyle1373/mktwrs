@@ -1,9 +1,9 @@
 {
   "tourId": "tour-79",
   "tour": "Anniversary Tour (2022)",
-  "status": "completed-with-documented-gaps",
+  "status": "in-progress-source-revalidation",
   "completedAt": "2026-10-13",
-  "practicalReviewComplete": true,
+  "practicalReviewComplete": false,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
@@ -20,13 +20,14 @@
       "recordingPlayerId": "nu11",
       "announcementAssignsTour": true,
       "raceBeforeRolloverProven": false,
-      "videoPublishedAt": "2022-10-05T06:11:46Z",
+      "videoPublishedAt": "2022-10-05T06:11:46.000Z",
       "screenshotSubmittedAt": "2022-10-05T06:15:04.738Z",
       "achievedAt": null,
       "priorLapAndFinishVideoReviewRetained": true,
       "freshFinalVisualReview": false,
       "additionalPreservedVerifiedRecording": "1:14.37",
-      "openingTimedSubmissionRecovered": false
+      "openingTimedSubmissionRecovered": false,
+      "earlier1433VideoPublishedAt": "2022-09-26T12:41:34.000Z"
     },
     {
       "id": "singapore-speedway-2",
@@ -39,7 +40,8 @@
       "videoPublishedAt": "2022-09-29T16:16:55Z",
       "videoSubmittedAt": "2022-09-29T16:21:59.644Z",
       "freshFinishReview": true,
-      "openingTimedSubmissionRecovered": false
+      "openingTimedSubmissionRecovered": true,
+      "openingFastestRecoveredSupportingResult": "Nu11 1:23.79"
     }
   ],
   "coverage": {
@@ -50,7 +52,15 @@
     "additionalOriginalProofUploadedOnR2": 1,
     "proofLinksRepaired": 33,
     "generatedReviewedRowsCompared": 135,
-    "materialFieldDifferences": 0
+    "materialFieldDifferences": 0,
+    "knownWorksheetRows": 93,
+    "knownWorksheetRowsDated": 91,
+    "remainingUndatedWorksheetRows": 2,
+    "originalRecordingsFullyDecoded": 9,
+    "newOriginalRecordingsArchived": 6,
+    "preservedSourceImageReferences": 80,
+    "freshOriginalSourceAttachmentsArchived": 16,
+    "currentBatchR2ObjectsVerified": 121
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -71,13 +81,15 @@
   },
   "remainingLimitations": [
     "Berlinfinal1:14.32 assigned by final announcement; October5video06:11:46 and screenshot06:15:04 follow06UTCrollover. Exact race relation to rollover unproved; the page states this qualification.",
-    "Berlin1:14.33 Twitter reference is unverified and its earlier September26 original remains unresolved. No invented earlier reign dates.",
     "Singapore original earlier human submission missing. Survivingreceipt16:13:46.531 and actualvideo command16:21:59.644 onSeptember29 shown separately; legacy inferredhumanclock is not exposed as verified.",
     "Singapore deviceSeptember28 and Berlinfinal deviceOctober5 dates are local unverified clocks, not exact UTC achievements.",
     "Berlin1:14.37 and Singapore1:22.99 finishes freshly read. Berlinfinal1:14.32 prior original-video lap/finish review retained. Full decode/byte checks do not certify uninterrupted continuity.",
     "Complete worldwide/intermediate chronology and fastest-recording exhaustiveness are unproved. Missing sources and opening evidence remain qualified.",
-    "No timed opening-day submissions recovered for either course; no dates or opening records invented.",
-    "Zed late command1:14.56 and screenshot1:14.59 retained separately with visible mismatch note. Neither is promoted as a WR."
+    "Zed late command1:14.56 and screenshot1:14.59 retained separately with visible mismatch note. Neither is promoted as a WR.",
+    "Two worksheet source dates still need reconciliation: OkushoBerlin15.35 and TroyBerlin14.75.",
+    "Nu11 Berlin14.33 originalSeptember26recording now preserved and verified; race achievement clock remains unknown.",
+    "Nu11 Singapore23.79 fastest recovered first-day original preserved separately; no temporaryfirstdayWRprofilecreated.",
+    "TroySingapore24.00 acceptededitedbotcaption and24.73originalimage are separate source facts; screenshot is not labeled proof of24.00."
   ],
   "evidence": [
     "archive/anniversary2022-final-practical-publication-audit-20261013.json",
@@ -92,8 +104,45 @@
     "archive/anniversary2022-nu1111432-original-video-date-reconciliation-20261008.json",
     "archive/anniversary2022-generated-publication-fidelity-repair-20261013.json",
     "archive/anniversary2022-completion-label-live-check-20261013.json",
-    "archive/anniversary2022-rendered-proof-and-video-live-link-audit-20261013.json"
+    "archive/anniversary2022-rendered-proof-and-video-live-link-audit-20261013.json",
+    "artifacts/anniversary2022-source-date-duration-and-original-media-review-20261017.json",
+    "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-80",
-  "sourceCommit": "e48e4ed6fa837612ab6797071227971869870bad"
+  "sourceCommit": "368870e461611a969e152eaabca01910f1b5ce2e",
+  "previousReviewCompletedAt": "2026-10-13",
+  "previousPracticalReviewComplete": true,
+  "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": false,
+  "remainingUndatedWorksheetRows": [
+    {
+      "courseId": "berlin-byways-3",
+      "sheetId": "sheet-AOZ28",
+      "playerId": "okusho",
+      "time": "1:15.35"
+    },
+    {
+      "courseId": "berlin-byways-3",
+      "sheetId": "sheet-AOZ40",
+      "playerId": "troy",
+      "time": "1:14.75"
+    }
+  ],
+  "knownWorksheetDateReviewComplete": false,
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T19:19:00.319390+00:00",
+    "reviewArtifact": "artifacts/anniversary2022-source-date-duration-and-original-media-review-20261017.json",
+    "integrityArtifact": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+    "allKnownWorksheetDatesProven": false,
+    "openingFastestRecoveredSource": {
+      "courseId": "singapore-speedway-2",
+      "playerId": "nu11",
+      "time": "1:23.79",
+      "postedAt": "2022-09-21T11:57:52.383Z",
+      "sourceMessageId": "1022114439660580876",
+      "proofR2": "https://media.mktwrs.com/assets/proof/anniversary2022-opening-1022114439417315338-42af96a6bcd8508371e6.png",
+      "allRetrievedOpeningResultsSlower": true,
+      "firstDayEnd": "2022-09-22T06:00:00.000Z",
+      "wrProfileNotCreated": true
+    }
+  }
 }

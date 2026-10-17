@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T18:49:57.700454+00:00",
+  "checkedAt": "2026-10-17T19:19:00.319390+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 305,
-  "r2BackupNeedsReview": 60,
+  "r2BackupRegistered": 307,
+  "r2BackupNeedsReview": 58,
   "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
   "currentVideoPreservationTourId": "tour-79",
-  "evidence": "artifacts/marioluigi2022-final-kuri-source-r2-integrity-20261017.json",
+  "evidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -615,7 +615,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/anniversary2022-nu11-berlin1437-d3fbfe84ccd3.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T19:19:00.319390+00:00",
+      "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+      "sha256": "d3fbfe84ccd3dccd193b4ca32c3c2ec9b0c467fe650b79b2669a90c5133b3729",
+      "bytes": 26798576
     },
     {
       "key": "x:1574378646030065666",
@@ -626,11 +630,15 @@
           "courseId": "berlin-byways-3",
           "time": "1:14.33",
           "playerId": "nu11",
-          "documentedAt": "2022-10-02T06:36:34.428Z"
+          "documentedAt": "2022-09-26T12:41:34.000Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/anniversary2022-nu1433-original-original-a8a8d570de8899e43828.mp4",
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T19:19:00.319390+00:00",
+      "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+      "sha256": "a8a8d570de8899e4382876a5e610d55cb891cbe1adbb1ccf7a1f0391c18b1cb8",
+      "bytes": 24572684
     },
     {
       "key": "youtube:fU5MSdXqGbY",
@@ -641,11 +649,15 @@
           "courseId": "berlin-byways-3",
           "time": "1:14.32",
           "playerId": "nu11",
-          "documentedAt": "2022-10-05T06:15:04.738Z"
+          "documentedAt": "2022-10-05T06:11:46.000Z"
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/anniversary2022-nu11-berlin1432-45d0d6ccc353.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T19:19:00.319390+00:00",
+      "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+      "sha256": "45d0d6ccc353188623c1287b46371b8179c371f9b9751018227f80e2284549bf",
+      "bytes": 23747819
     },
     {
       "key": "x:1491313969277321221",
@@ -5071,8 +5083,12 @@
           "documentedAt": "2022-09-27T13:19:07.089Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/anniversary2022-n-singapore-original-original-0551d2f76e1598d16034.webm",
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T19:19:00.319390+00:00",
+      "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+      "sha256": "0551d2f76e1598d16034e9886f3ad70203fb8c1adb744f2f452900332d69b237",
+      "bytes": 21184517
     },
     {
       "key": "youtube:WG2kgYDSYT0",
@@ -5083,11 +5099,15 @@
           "courseId": "singapore-speedway-2",
           "time": "1:22.99",
           "playerId": "nu11",
-          "documentedAt": "2022-09-29T16:21:59.644Z"
+          "documentedAt": "2022-09-29T16:13:46.531Z"
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/anniversary2022-nu11-ss2-704af3668cb9.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T19:19:00.319390+00:00",
+      "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
+      "sha256": "704af3668cb99d7e791921a937e3a4af3ae42b647d1ed75530a5713bea14bcb9",
+      "bytes": 28378447
     },
     {
       "key": "youtube:DWgqQGytx3k",
@@ -6303,14 +6323,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/marioluigi2022-yiu-source-reconciliation-r2-integrity-20261017.json",
-  "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
+  "previousPreservationEvidence": "artifacts/marioluigi2022-final-kuri-source-r2-integrity-20261017.json",
+  "newOriginalUploadsInCurrentBatch": 6,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 3,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 0,
-  "currentBatchUniqueR2FilesVerified": 2,
+  "currentBatchUniqueR2FilesVerified": 121,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 0,
   "originalSourcesStillUnreviewed": 20,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
@@ -6322,8 +6342,8 @@
   "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
-  "currentBatchNewR2ObjectsUploaded": 2,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 0,
+  "currentBatchNewR2ObjectsUploaded": 118,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 4,
   "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0,
   "newOriginalEncodingCopiesUploadedInCurrentBatch": 0,
   "pendingSundaeDateSourceReceiptPreservation": {
@@ -6375,9 +6395,9 @@
     "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
   },
   "previousCompletedVideoPreservationTourId": "tour-78",
-  "newOriginalImagesPreservedInCurrentBatch": 1,
+  "newOriginalImagesPreservedInCurrentBatch": 16,
   "newFirstLapFramesPreservedInCurrentBatch": 0,
-  "newSourceReceiptObjectsPreservedInCurrentBatch": 1,
+  "newSourceReceiptObjectsPreservedInCurrentBatch": 4,
   "sundaeKnownSourceDateReviewComplete": true,
   "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
   "canonicalR2CoverageReconciliation": {
@@ -6451,8 +6471,8 @@
     "fullByteVerificationPassed": true,
     "dateAndDurationUnchanged": true
   },
-  "newMetadataObjectsPreservedInCurrentBatch": 0,
-  "newFinishFramesPreservedInCurrentBatch": 0,
+  "newMetadataObjectsPreservedInCurrentBatch": 6,
+  "newFinishFramesPreservedInCurrentBatch": 6,
   "previousBowserCandidateSourceReceipt": {
     "checkedAt": "2026-10-17T17:16:18.676Z",
     "sourceCandidate": {
@@ -6525,5 +6545,26 @@
     "reviewClosed": true
   },
   "marioLuigiKnownSourceDateReviewComplete": true,
-  "marioLuigiSourceDateClosureEvidence": "artifacts/marioluigi2022-final-kuri-source-and-known-worksheet-closure-20261017.json"
+  "marioLuigiSourceDateClosureEvidence": "artifacts/marioluigi2022-final-kuri-source-and-known-worksheet-closure-20261017.json",
+  "latestAnniversary2022SourceDateReview": {
+    "evidence": "artifacts/anniversary2022-source-date-duration-and-original-media-review-20261017.json",
+    "knownWorksheetRowsDated": 91,
+    "totalWorksheetRows": 93,
+    "remainingUndatedWorksheetRows": [
+      {
+        "courseId": "berlin-byways-3",
+        "sheetId": "sheet-AOZ28",
+        "playerId": "okusho",
+        "time": "1:15.35"
+      },
+      {
+        "courseId": "berlin-byways-3",
+        "sheetId": "sheet-AOZ40",
+        "playerId": "troy",
+        "time": "1:14.75"
+      }
+    ],
+    "reviewClosed": false,
+    "allNineLinkedOriginalRecordingsPreserved": true
+  }
 }
