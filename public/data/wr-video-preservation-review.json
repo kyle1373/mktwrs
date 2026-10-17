@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T04:23:10.907787+00:00",
+  "checkedAt": "2026-10-17T04:33:29.486945+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
   "r2BackupNeedsReview": 67,
-  "freshOriginalByteChecks": 2,
+  "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-43",
-  "evidence": "artifacts/bowserdk2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-44",
+  "evidence": "artifacts/trick2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -2315,7 +2315,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T04:33:29.486945+00:00",
+      "evidence": "artifacts/trick2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:ZmECQTvzmGo",
@@ -3818,7 +3822,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T04:33:29.486945+00:00",
+      "evidence": "artifacts/trick2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1279353623781052416",
@@ -5865,17 +5873,17 @@
     }
   ],
   "totalOriginalByteChecksInPreservationBatches": 40,
-  "previousPreservationEvidence": "artifacts/sydney2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 19,
+  "previousPreservationEvidence": "artifacts/bowserdk2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "knownUnavailableOriginalsReviewed": 21,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 10,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 4,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 14,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 9,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 19,
-  "currentBatchUniqueR2FilesVerified": 22,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 14,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 18,
+  "currentBatchUniqueR2FilesVerified": 21,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 3,
-  "originalSourcesStillUnreviewed": 34,
+  "originalSourcesStillUnreviewed": 32,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
-  "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 1
+  "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0
 }

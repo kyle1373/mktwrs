@@ -42,7 +42,8 @@
     "archive/trick2021-additional-recordings-r2-preservation-20261013.json",
     "archive/trick2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/trick2021-image-source-publication-crosswalk-20261013.json",
-    "archive/trick2021-opening-day-policy-generation-check-20261013.json"
+    "archive/trick2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/trick2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/trick-2021-reconciliation.json",
@@ -90,7 +91,8 @@
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
-    "Thirteen additional completed runs retained with prior reviews, plus another encoding of the selected Wins1:53.83; four short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+    "Thirteen additional completed runs retained with prior reviews, plus another encoding of the selected Wins1:53.83; four short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.",
+    "All 21 stored video objects passed full SHA256 and byte-length checks. Three selected slower recordings remain supporting footage. Fresh checks of Nu11’s Beach R 1:15.33 and Rainbow R 1:52.69 original YouTube videos returned unavailable; no final-WR footage recovery is claimed."
   ],
   "validation": {
     "liveSnapshotRows": 542,
@@ -107,5 +109,17 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/trick2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/trick2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "2b91041a6c9b8ce366df1ddfdc9b19d58e727956"
+  "sourceCommit": "2b91041a6c9b8ce366df1ddfdc9b19d58e727956",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T04:33:29.486945+00:00",
+    "audit": "artifacts/trick2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 21,
+    "newOriginalUploads": 0,
+    "canonicalFinalWrVideoKeysWithUnresolvedRecovery": 2,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "finalWrFootageFullyPreserved": false,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
