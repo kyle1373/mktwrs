@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:05:42.086Z",
+  "checkedAt": "2026-10-17T03:10:19.076Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 292,
-  "r2BackupNeedsReview": 73,
+  "r2BackupRegistered": 294,
+  "r2BackupNeedsReview": 71,
   "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-29",
-  "evidence": "artifacts/halloween2020-kazuo-original-video-r2-preservation-20261016.json",
+  "currentVideoPreservationTourId": "tour-30",
+  "evidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -3037,8 +3037,17 @@
           "documentedAt": "2020-11-04T08:52:57.000Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/sunset2020-saki7-1323911097305325569-a4f553fdba75.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json",
+      "videoScope": "full-run",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:10:17.625Z",
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "youtube:lncqGksSEMk",
@@ -3053,7 +3062,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "youtube:lncqGksSEMk",
+        "checkedAt": "2026-10-17T03:10:19.076Z",
+        "method": "yt-dlp public metadata request",
+        "result": "This video is unavailable",
+        "previousReview": "archive/november2020-two-live-original-clips-and-kaguya-source-limits-20261005.json"
+      },
+      "preservationEvidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json"
     },
     {
       "key": "https://www.twitch.tv/videos/796228014",
@@ -3068,7 +3085,15 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "videoKey": "https://www.twitch.tv/videos/796228014",
+        "checkedAt": "2026-10-17T03:10:19.076Z",
+        "method": "yt-dlp public Twitch metadata request",
+        "result": "Video796228014 does not exist",
+        "previousReview": "archive/november2020-kazuo12488-original-wr-video-and-recovery-dispositions-20261005.json"
+      },
+      "preservationEvidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json"
     },
     {
       "key": "x:1325833380559204370",
@@ -3082,8 +3107,17 @@
           "documentedAt": "2020-11-09T15:28:06.848Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/sunset2020-kazuo-1325833380559204370-09658323bed1.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json",
+      "videoScope": "full-run",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:10:19.076Z",
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     },
     {
       "key": "x:1326228675520552960",
@@ -5562,9 +5596,9 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 15,
-  "previousPreservationEvidence": "artifacts/anniversary2020-tomegome-original-video-r2-preservation-20261016.json",
-  "knownUnavailableOriginalsReviewed": 3,
+  "totalOriginalByteChecksInPreservationBatches": 17,
+  "previousPreservationEvidence": "artifacts/halloween2020-kazuo-original-video-r2-preservation-20261016.json",
+  "knownUnavailableOriginalsReviewed": 5,
   "newOriginalUploadsInCurrentBatch": 2,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0

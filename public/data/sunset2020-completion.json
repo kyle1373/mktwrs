@@ -37,7 +37,8 @@
     "archive/sunset2020-technique-clip-r2-preservation-20261013.json",
     "archive/sunset2020-preserved-source-index-and-image-integrity-20261013.json",
     "archive/sunset2020-discussion-image-source-publication-crosswalk-20261013.json",
-    "archive/sunset2020-opening-day-policy-generation-check-20261013.json"
+    "archive/sunset2020-opening-day-policy-generation-check-20261013.json",
+    "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json"
   ],
   "preservedLocalReview": {
     "source": "archive/sunset2020-discussion-review-progress.json",
@@ -49,7 +50,7 @@
     "selectedRecordingsPreservedOnR2": 1,
     "completedRunRecordingsPreservedOnR2": 1,
     "lateStartRecordingsPreservedOnR2": 0,
-    "additionalCompletedRecordingsPreservedOnR2": 0,
+    "additionalCompletedRecordingsPreservedOnR2": 2,
     "partialClipsPreservedOnR2": 1,
     "resultScreenClipsPreservedOnR2": 0,
     "discussionImageDispositions": 255,
@@ -76,5 +77,38 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/sunset2020-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/sunset2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "c56b2f76c117cb851c893b9b8a5add5d7b21e09c"
+  "sourceCommit": "c56b2f76c117cb851c893b9b8a5add5d7b21e09c",
+  "additionalVideoPreservation": {
+    "checkedAt": "2026-10-17T03:10:19.076Z",
+    "originalVideosNewlyPreservedOnR2": 2,
+    "evidence": "artifacts/sunset2020-two-original-wr-videos-r2-preservation-20261016.json",
+    "rows": [
+      {
+        "videoKey": "x:1323911097305325569",
+        "time": "1:25.51",
+        "url": "https://media.mktwrs.com/assets/video/sunset2020-saki7-1323911097305325569-a4f553fdba75.mp4"
+      },
+      {
+        "videoKey": "x:1325833380559204370",
+        "time": "1:24.88",
+        "url": "https://media.mktwrs.com/assets/video/sunset2020-kazuo-1325833380559204370-09658323bed1.mp4"
+      }
+    ],
+    "unavailableOriginalRecoveryChecks": [
+      {
+        "videoKey": "youtube:lncqGksSEMk",
+        "checkedAt": "2026-10-17T03:10:19.076Z",
+        "method": "yt-dlp public metadata request",
+        "result": "This video is unavailable",
+        "previousReview": "archive/november2020-two-live-original-clips-and-kaguya-source-limits-20261005.json"
+      },
+      {
+        "videoKey": "https://www.twitch.tv/videos/796228014",
+        "checkedAt": "2026-10-17T03:10:19.076Z",
+        "method": "yt-dlp public Twitch metadata request",
+        "result": "Video796228014 does not exist",
+        "previousReview": "archive/november2020-kazuo12488-original-wr-video-and-recovery-dispositions-20261005.json"
+      }
+    ]
+  }
 }
