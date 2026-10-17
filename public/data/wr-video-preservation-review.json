@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T06:05:52.550Z",
+  "checkedAt": "2026-10-17T06:14:53.497Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 299,
   "r2BackupNeedsReview": 66,
-  "freshOriginalByteChecks": 4,
+  "freshOriginalByteChecks": 3,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-58",
-  "evidence": "artifacts/holiday2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-59",
+  "evidence": "artifacts/penguin2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -823,7 +823,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/penguin2021-bowser-11917-eaf21ad77095.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:14:53.497Z",
+      "sha256": "eaf21ad770951e0303625b4b1cbcd54808beb8cf395c8102e66c5b47a950d34e",
+      "bytes": 26398051,
+      "evidence": "artifacts/penguin2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:flO37soORFw",
@@ -5682,7 +5686,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/penguin2021-2d15026680aa9ae722a0.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:14:53.497Z",
+      "sha256": "2d15026680aa9ae722a0b8592e774eeb4190fbf5f7ebad2466a01e8e41fd4d09",
+      "bytes": 12912410,
+      "evidence": "artifacts/penguin2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1471492448967073797",
@@ -5697,7 +5705,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/penguin2021-vanilla-3122-adc558068d04.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:14:53.497Z",
+      "sha256": "adc558068d04ba8afbed32c4b89b71c065b1fc423c75c180f4dbb55126d22074",
+      "bytes": 7498964,
+      "evidence": "artifacts/penguin2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:TpNTPc1gy7c",
@@ -5993,21 +6005,20 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 53,
-  "previousPreservationEvidence": "artifacts/mariopeach2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 23,
+  "previousPreservationEvidence": "artifacts/holiday2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 10,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 5,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 6,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 16,
-  "currentBatchUniqueR2FilesVerified": 18,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 3,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 9,
+  "currentBatchUniqueR2FilesVerified": 11,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 27,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
-  "knownUnavailableOriginalSources": 24
+  "knownUnavailableOriginalSources": 24,
+  "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 1
 }
