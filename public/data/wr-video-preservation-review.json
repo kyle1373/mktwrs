@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T05:45:22.925Z",
+  "checkedAt": "2026-10-17T05:50:06.039Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
@@ -8,8 +8,8 @@
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-55",
-  "evidence": "artifacts/halloween2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-56",
+  "evidence": "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1759,7 +1759,16 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "recoveryCheck": {
+        "key": "youtube:TLFGh8B-lPI",
+        "originalUrl": "https://www.youtube.com/watch?v=TLFGh8B-lPI",
+        "result": "This video is unavailable",
+        "method": "yt-dlp current source metadata request with explicit Node runtime",
+        "checkedAt": "2026-10-17T05:50:06.039Z",
+        "noAlternateRecoveryClaim": true
+      },
+      "preservationEvidence": "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1580963594182701064",
@@ -2121,7 +2130,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/toadette2021-kalimari-10339-55e386e5cd31.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:50:06.039Z",
+      "evidence": "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:iBFP45tNkiU",
@@ -3929,7 +3940,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/toadette2021-choco-11203-abdf9313b426.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T05:50:06.039Z",
+      "evidence": "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1389842649012658176",
@@ -5974,9 +5987,10 @@
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 16,
   "currentBatchUniqueR2FilesVerified": 18,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 29,
+  "originalSourcesStillUnreviewed": 28,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
-  "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0
+  "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
+  "knownUnavailableOriginalSources": 24
 }

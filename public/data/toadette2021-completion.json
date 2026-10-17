@@ -50,7 +50,8 @@
     "archive/toadette2021-submission-original-file-publication-crosswalk-20261013.json",
     "archive/toadette2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
     "archive/toadette2021-exact-window-discussion-attachment-index-20261013.json",
-    "archive/toadette2021-final-publication-audit-20261013.json"
+    "archive/toadette2021-final-publication-audit-20261013.json",
+    "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/toad-toadette-2021-reconciliation.json",
@@ -90,13 +91,14 @@
     "AKI 49.57 original YouTube video is unavailable; AKI Twitter comparison 1457512632970190849 also leads to a deleted post. No recovered backup is claimed.",
     "N explicitly reported having no video for 49.67 in discussion message 905951370748772402.",
     "Final RC board gives Sucha 1:12.52 as 36.28/26.24, a typo. The original submission 908175845351383080 says .28/.24, correctly summing as 36.28/36.24.",
-    "Wins Kalimari 1:03.48 and NHSpeedy 1:03.46/1:03.45 do not beat Astre’s January 2021 1:03.39. They are not added to WR progression.",
-    "Haruru’s joking WR message shows RMX Choco 1:52.83, not a WR. JuicyJack’s 1:39.64 is a slow Donut Plains run, not Dino Dino Jungle R.",
+    "Wins Kalimari 1:03.48 and NHSpeedy 1:03.46/1:03.45 do not beat Astre\u2019s January 2021 1:03.39. They are not added to WR progression.",
+    "Haruru\u2019s joking WR message shows RMX Choco 1:52.83, not a WR. JuicyJack\u2019s 1:39.64 is a slow Donut Plains run, not Dino Dino Jungle R.",
     "Reading this tour cohort does not establish complete coverage of all earlier tours or channels.",
     "Private, deleted and unindexed global material not proven fully recovered.",
     "Four full original recordings and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "All eight R2 objects passed full SHA256 and byte-length checks: four completed recordings and four partial clips. AKI 49.57 original YouTube remains unavailable in a fresh source check; the comparison Twitter post returned no downloadable video. Donut Plains keeps the slower NHSpeedy 49.86 surviving recording separate from the 49.57 WR. Exact race dates and deleted/private or unindexed source history remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 822,
@@ -113,5 +115,20 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "a09dc46730d2948397c60088a2a207461cba29a0",
-  "latestPublicationAudit": "archive/toadette2021-final-publication-audit-20261013.json"
+  "latestPublicationAudit": "archive/toadette2021-final-publication-audit-20261013.json",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:50:06.039Z",
+    "audit": "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 8,
+    "distinctFileHashes": 8,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "finalWrRecordingsPreservedForTwoOfThreeCourses": true,
+    "donutPlainsSelectedRecordingSlowerThanFinalWr": true,
+    "aki4957OriginalVideoStillUnavailable": true,
+    "tourOriginalCompletedRunFiles": 4,
+    "tourPartialClips": 4,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
