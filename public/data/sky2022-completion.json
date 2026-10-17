@@ -14,7 +14,9 @@
       "id": "rmx-ghost-valley-1r",
       "archivedWr": "1:01.50",
       "fastestDocumentedAvailableRecording": "1:01.50",
-      "recordingPlayerId": "spartacurt"
+      "recordingPlayerId": "spartacurtyt",
+      "priorRecordingPlayerId": "spartacurt",
+      "recordingPlayerIdBasis": "Current canonical WR row 951165693699706890; metadata reference updated to the existing player profile."
     }
   ],
   "evidence": [
@@ -33,7 +35,8 @@
     "archive/sky2022-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
     "archive/sky2022-exact-window-discussion-source-index-20261013.json",
     "archive/sky2022-preserved-submission-source-integrity-crosswalk-20261013.json",
-    "archive/sky2022-final-publication-audit-20261013.json"
+    "archive/sky2022-final-publication-audit-20261013.json",
+    "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/sky-2022-reconciliation.json",
@@ -63,7 +66,7 @@
   },
   "remainingLimitations": [
     "Previous-best displays do not establish original record dates or competing-record order. Five such leads remain outside confirmed progression.",
-    "LaLanterne’s 1:01.47 and GOTEN’s 1:00.80 were explicitly withdrawn as input errors; neither is counted as a WR. Their original attachments remain unavailable.",
+    "LaLanterne\u2019s 1:01.47 and GOTEN\u2019s 1:00.80 were explicitly withdrawn as input errors; neither is counted as a WR. Their original attachments remain unavailable.",
     "An Astre attachment is unavailable; its surviving bot entry is slower than the contemporary WR.",
     "The 16-second Wins technique clip and hypothetical best splits do not establish a completed overall run.",
     "Contemporaneous discussion reports loss of old WR channels. This review cannot establish exhaustive recovery of deleted sources or all years.",
@@ -88,5 +91,28 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "b310f669fec6a1813d5677247d46807fe7bcf97e",
-  "latestPublicationAudit": "archive/sky2022-final-publication-audit-20261013.json"
+  "latestPublicationAudit": "archive/sky2022-final-publication-audit-20261013.json",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T06:48:56.771Z",
+    "audit": "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 6,
+    "distinctFileHashes": 6,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "completedRunFiles": 5,
+    "partialClipFiles": 1,
+    "finalCommunityWrRecordingPreserved": true,
+    "wins10154RetainedAsSlowerPersonalBest": true,
+    "playbackScreenshot": "artifacts/sky2022-spart10150-preserved-r2-playback-20261016.png",
+    "visibleSelectedRecordingFinish": "1:01.50",
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T06:49:49.675911+00:00",
+    "audit": "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "canonicalRecordedResultsWithSourceDateAndDurationChecks": 4,
+    "previousBestDateGapsRemain": true,
+    "historyComplete": false
+  }
 }
