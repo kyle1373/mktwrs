@@ -2,11 +2,11 @@
   "tourId": "tour-17",
   "checkedAt": "2026-10-16",
   "sourceRowsChecked": 62,
-  "verifiedSourceDates": 52,
+  "verifiedSourceDates": 55,
   "recordDatesReviewed": 16,
   "missingCanonicalDates": 0,
   "missingDurations": 0,
-  "undatedSupportingRows": 10,
+  "undatedSupportingRows": 7,
   "sourceFiles": [
     {
       "file": "archive/flower-2020-discussion-census.json",
@@ -35,6 +35,18 @@
     {
       "file": "archive/flower-2020-server-images-census.json",
       "sha256": "93c374d2092c965736d49f87948fc193bde0e55ec37b6f28663b5b3a7d73c3ff"
+    },
+    {
+      "file": "artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json",
+      "sha256": "3b6af7da04faeb188b0cd149e2d584a7052fcf95bae9c4a10f747bf8e5627eeb"
+    },
+    {
+      "file": "archive/flower-2020-server-links-census.json",
+      "sha256": "f19d0ce0f86c42fae0546496cfce6c8f3390cd5422cb39cd56eb91765c3369df"
+    },
+    {
+      "file": "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
+      "sha256": "6b618eba597de550202e9ac1c1e956379326c78bbba5e3b009672be102e43d49"
     }
   ],
   "dateRows": [
@@ -331,10 +343,19 @@
       "id": "sheet-BF13",
       "playerId": "ryu",
       "time": "1:41.51",
-      "date": null,
-      "documentedAt": null,
+      "date": "2020-05-08",
+      "documentedAt": "2020-05-08T09:48:56.893Z",
       "creditedWrDays": 0,
-      "sourceVerified": false
+      "sourceVerified": true,
+      "basis": "reviewed-contemporary-runner-alias-and-original-completed-result-post",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/708254103054188656",
+      "messageId": "708254103054188656",
+      "capturedText": "Whiplash\n — \n5/8/20, 2:48 AM\nFriday, May 8, 2020 at 2:48 AM\n1st try of today, a lot of fails",
+      "runnerAliasContextSourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/710273287510556755",
+      "evidenceImageUrl": "https://media.mktwrs.com/assets/proof/flower2020-ryu-708254102706061352.jpg",
+      "evidenceAdditionalImageUrls": [
+        "https://media.mktwrs.com/assets/proof/flower2020-ryu-707582426121240687.jpg"
+      ]
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
@@ -384,10 +405,19 @@
       "id": "sheet-BF17",
       "playerId": "tomegome",
       "time": "1:39.28",
-      "date": null,
-      "documentedAt": null,
+      "date": "2020-05-13",
+      "documentedAt": "2020-05-13T22:31:29.563Z",
       "creditedWrDays": 0,
-      "sourceVerified": false
+      "sourceVerified": true,
+      "basis": "reviewed-original-tweet-with-exact-worksheet-laps-and-completed-result",
+      "sourceUrl": "https://twitter.com/tomegome_g/status/1260699212448063489",
+      "originalTweetId": "1260699212448063489",
+      "capturedText": "49.69/49.59",
+      "laterSharedAt": "2020-05-13T22:34:13.212Z",
+      "evidenceImageUrl": "https://media.mktwrs.com/assets/proof/flower2020-tomegome-1260699212448063489-photo-0.jpg",
+      "evidenceAdditionalImageUrls": [
+        "https://media.mktwrs.com/assets/proof/flower2020-tomegome-1260699212448063489-photo-1.jpg"
+      ]
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
@@ -454,10 +484,19 @@
       "id": "sheet-BF23",
       "playerId": "ryu",
       "time": "1:40.75",
-      "date": null,
-      "documentedAt": null,
+      "date": "2020-05-09",
+      "documentedAt": "2020-05-09T23:33:45.340Z",
       "creditedWrDays": 0,
-      "sourceVerified": false
+      "sourceVerified": true,
+      "basis": "reviewed-contemporary-runner-alias-and-original-completed-result-post",
+      "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/708824060511125506",
+      "messageId": "708824060511125506",
+      "capturedText": "Whiplash\n — \n5/9/20, 4:33 PM\nSaturday, May 9, 2020 at 4:33 PM",
+      "runnerAliasContextSourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/710273287510556755",
+      "evidenceImageUrl": "https://media.mktwrs.com/assets/proof/flower2020-ryu-708824060619915265.jpg",
+      "evidenceAdditionalImageUrls": [
+        "https://media.mktwrs.com/assets/proof/flower2020-ryu-707582426121240687.jpg"
+      ]
     },
     {
       "courseId": "3ds-shy-guy-bazaar-r",
@@ -1078,17 +1117,6 @@
   ],
   "pending": [
     {
-      "id": "sheet-BF13",
-      "playerId": "ryu",
-      "time": "1:41.51",
-      "source": {
-        "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=BF13",
-        "sheet": "Admin Panel",
-        "range": "BF13:BM13"
-      },
-      "reason": "Worksheet has no preserved date or proven dated source crosswalk."
-    },
-    {
       "id": "sheet-BF16",
       "playerId": "s7172",
       "time": "1:41.81",
@@ -1100,17 +1128,6 @@
       "reason": "Worksheet has no preserved date or proven dated source crosswalk."
     },
     {
-      "id": "sheet-BF17",
-      "playerId": "tomegome",
-      "time": "1:39.28",
-      "source": {
-        "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=BF17",
-        "sheet": "Admin Panel",
-        "range": "BF17:BM17"
-      },
-      "reason": "Worksheet has no preserved date or proven dated source crosswalk."
-    },
-    {
       "id": "sheet-BF19",
       "playerId": "hilton",
       "time": "1:39.84",
@@ -1118,17 +1135,6 @@
         "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=BF19",
         "sheet": "Admin Panel",
         "range": "BF19:BM19"
-      },
-      "reason": "Worksheet has no preserved date or proven dated source crosswalk."
-    },
-    {
-      "id": "sheet-BF23",
-      "playerId": "ryu",
-      "time": "1:40.75",
-      "source": {
-        "url": "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=BF23",
-        "sheet": "Admin Panel",
-        "range": "BF23:BM23"
       },
       "reason": "Worksheet has no preserved date or proven dated source crosswalk."
     },
@@ -1194,8 +1200,8 @@
   "preservedTourSourceDateReviewComplete": false,
   "historyComplete": false,
   "limitations": [
-    "10 worksheet submissions remain undated; do not invent dates or certify all-source completion.",
+    "7 worksheet submissions remain undated; do not invent dates or certify all-source completion.",
     "Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.",
-    "14 newly matched worksheet original result images were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified."
+    "14 newly matched worksheet original result images, both Tomegome original tweet result images and the Ryu alias/result originals were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified."
   ]
 }

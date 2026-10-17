@@ -9,18 +9,44 @@ const files=['archive/flower-2020-discussion-census.json','archive/flower-2020-o
  'artifacts/flower2020-sheet-and-earlier-report-date-review-20261016.json',
  'artifacts/flower2020-preserved-original-video-publication-metadata-20261016.json',
  'artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json',
- 'archive/flower-2020-server-images-census.json'];
-const messages=[...read(files[0]),...read(files[1]),...read(files[6])],c=read('public/data/courses/'+courseId+'.json');
+ 'archive/flower-2020-server-images-census.json',
+ 'artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json',
+ 'archive/flower-2020-server-links-census.json',
+ 'artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json'];
+const messages=[...read(files[0]),...read(files[1]),...read(files[6]),...read(files[8])],c=read('public/data/courses/'+courseId+'.json');
 const clock=id=>new Date(Number((BigInt(id)>>22n)+1420070400000n)).toISOString();
 const refs=r=>[r.source,...r.additionalSources||[]].filter(Boolean);
 const reference=(r,m)=>refs(r).some(s=>s.messageId===m.id.split('-').at(-1)||s.url?.endsWith('/'+m.id.split('-').at(-1)));
-const rows=[],pending=[],omissions=[];const changes=read(files[3]),sheetProofReview=read(files[5]);
+const rows=[],pending=[],omissions=[];const changes=read(files[3]),sheetProofReview=read(files[5]),tomeReview=read(files[7]),ryuReview=read(files[9]);
 for(const collection of ['records','submissions','candidates'])for(const r of c[collection]||[]){
  if(r.finalDate&&r.finalDate>'2020-05-20')continue;
  assert.ok(Number.isFinite(r.durationDays)&&r.durationDays>=0,r.id+' duration');
  let evidence=null;
- const override=[...changes.overrides,...sheetProofReview.overrides].find(e=>e.id===r.id&&e.collection===collection);
- if(override){
+ const override=[...changes.overrides,...sheetProofReview.overrides,...tomeReview.overrides,...ryuReview.overrides].find(e=>e.id===r.id&&e.collection===collection);
+ if(override?.reviewArtifact===files[9]){
+  const cross=ryuReview.rows.find(x=>x.sheetId===r.id),m=messages.find(m=>m.id.endsWith(cross.messageId));
+  assert.equal(r.playerId,'ryu');assert.equal(cross.time,r.time);assert.equal(cross.visualValue,r.time);assert.equal(cross.visualField,'New Record');
+  assert.equal(clock(cross.messageId),r.documentedAt);assert.equal(r.documentedDateSourceUrl,cross.sourceUrl);assert.ok(m.text.startsWith('Whiplash\n'));
+  const named=messages.find(m=>m.id.endsWith('710273287510556755')),response=messages.find(m=>m.id.endsWith('710273630109433958'));
+  assert.match(named.text,/And gl bouffon \(ryu\)/);assert.ok(response.text.startsWith('Whiplash\n'));assert.match(response.text,/Super/);
+  const ownName=ryuReview.rows.find(x=>x.sheetId==='name-context');assert.equal(ownName.visualValue,'PNX★Ryukano.');assert.ok(ownName.sourceMessage.text.startsWith('Whiplash\n'));
+  for(const proof of [cross,ownName]){assert.equal(crypto.createHash('sha256').update(fs.readFileSync(proof.originalFile)).digest('hex'),proof.sha256);assert.ok(proof.freshVisualReview&&proof.r2EtagMatchesSourceMd5);}
+  assert.equal(r.durationDays,0);
+  evidence={basis:override.basis,sourceUrl:cross.sourceUrl,messageId:cross.messageId,capturedText:m.text,runnerAliasContextSourceUrl:'https://discord.com/channels/629221606064914442/636461740162416640/710273287510556755',evidenceImageUrl:cross.r2Url,evidenceAdditionalImageUrls:[ownName.r2Url]};
+ }else if(override?.reviewArtifact===files[7]){
+  const meta=read(tomeReview.sourceMetadataFile).tweet;
+  assert.equal(meta.id,tomeReview.originalTweetId);assert.equal(meta.author.screen_name,'tomegome_g');
+  assert.equal(meta.text,r.laps.join('/'));assert.equal(r.time,'1:39.28');assert.equal(r.playerId,'tomegome');
+  const originalClock=new Date(Number((BigInt(meta.id)>>22n)+1288834974657n)).toISOString();
+  assert.equal(originalClock,r.documentedAt);assert.equal(Math.floor(Date.parse(originalClock)/1000),meta.created_timestamp);
+  assert.equal(r.documentedDateSourceUrl,tomeReview.originalTweetUrl);
+  const share=messages.find(m=>m.id.endsWith('710258629382766625'));assert.ok(share.links.some(l=>l.href===r.documentedDateSourceUrl));
+  assert.ok(r.laps.every(l=>share.text.includes(l)));assert.equal(clock('710258629382766625'),tomeReview.laterSharedAt);
+  for(const p of tomeReview.photos){assert.equal(crypto.createHash('sha256').update(fs.readFileSync(p.originalFile)).digest('hex'),p.sha256);assert.ok(p.r2EtagMatchesSourceMd5&&p.freshVisualReview);}
+  assert.equal(tomeReview.photos[0].finishTime,r.time);assert.equal(tomeReview.photos[0].previousBest,'1:39.43');
+  assert.equal(r.durationDays,0);
+  evidence={basis:override.basis,sourceUrl:r.documentedDateSourceUrl,originalTweetId:meta.id,capturedText:meta.text,laterSharedAt:tomeReview.laterSharedAt,evidenceImageUrl:tomeReview.photos[0].r2Url,evidenceAdditionalImageUrls:[tomeReview.photos[1].r2Url]};
+ }else if(override){
   assert.equal(r.documentedAt,override.timestamp);assert.equal(r.documentedDateSourceUrl,override.sourceUrl);
   const m=messages.find(m=>override.sourceUrl.endsWith('/'+m.id.split('-').at(-1)));
   assert.ok(m);assert.equal(clock(m.id.split('-').at(-1)),r.documentedAt);
@@ -85,12 +111,12 @@ for(const r of c.records)assert.equal(isReviewedOpeningDay(r,'2020-05-06'),openi
 const expectedOpening=opening.filter(r=>r.timeCs===Math.min(...opening.map(p=>p.timeCs))).map(r=>r.id);
 const actualOpening=openingDayPublication([c],[]).courses[0].records.filter(r=>opening.includes(r)).map(r=>r.id);
 assert.deepEqual(actualOpening,expectedOpening);assert.deepEqual(omissions,[]);
-assert.equal(rows.length,62);assert.equal(rows.filter(r=>r.collection==='records').length,16);assert.equal(pending.length,10);
+assert.equal(rows.length,62);assert.equal(rows.filter(r=>r.collection==='records').length,16);assert.equal(pending.length,7);
 const report={tourId,checkedAt:'2026-10-16',sourceRowsChecked:rows.length,verifiedSourceDates:rows.filter(r=>r.sourceVerified).length,
  recordDatesReviewed:16,missingCanonicalDates:0,missingDurations:0,undatedSupportingRows:pending.length,
  sourceFiles:files.map(file=>({file,sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')})),
  dateRows:rows,reigns,openingLeaderIds:actualOpening,pending,screenshotImprovementsMissingFromProgression:omissions,
  canonicalDateReviewComplete:true,tourWindowDurationReviewComplete:true,preservedTourSourceDateReviewComplete:false,historyComplete:false,
- limitations:['10 worksheet submissions remain undated; do not invent dates or certify all-source completion.','Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.','14 newly matched worksheet original result images were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified.']};
+ limitations:['7 worksheet submissions remain undated; do not invent dates or certify all-source completion.','Original race clocks are not assumed from later sharing; reviewed earlier self-reports remain distinguished from video publication.','14 newly matched worksheet original result images, both Tomegome original tweet result images and the Ryu alias/result originals were freshly reviewed; prior video reviews are carried forward. Exhaustive worldwide history is not certified.']};
 fs.writeFileSync('public/data/flower2020-source-and-duration-review.json',JSON.stringify(report,null,2)+'\n');
 console.log({rows:rows.length,verified:report.verifiedSourceDates,undated:pending.length,canonicalDatesPass:true,durationsPass:true,openingLeaderIds:actualOpening});
