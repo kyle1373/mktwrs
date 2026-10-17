@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T08:45:59.087774+00:00",
+  "checkedAt": "2026-10-17T09:03:52.758113+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 300,
@@ -8,8 +8,8 @@
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-74",
-  "evidence": "artifacts/piranha2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "currentVideoPreservationTourId": "tour-75",
+  "evidence": "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -4396,7 +4396,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/ocean2022-nu11-rmx-rainbow-road-2r-12120-ba4fa368f233.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T09:03:52.758113+00:00",
+      "sha256": "ba4fa368f233267c7f7656498ae220b77109a1c32d7baec0a3f3801815d3e015",
+      "bytes": 28274480,
+      "preservationEvidence": "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
     },
     {
       "key": "x:1430536075857039367",
@@ -6228,15 +6232,15 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/bangkok2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+  "previousPreservationEvidence": "artifacts/piranha2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
   "newOriginalUploadsInCurrentBatch": 1,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 1,
-  "currentBatchUniqueR2FilesVerified": 8,
-  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 1,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 4,
+  "currentBatchUniqueR2FilesVerified": 10,
+  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 25,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
@@ -6247,6 +6251,7 @@
   "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
-  "currentBatchNewR2ObjectsUploaded": 6,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1
+  "currentBatchNewR2ObjectsUploaded": 3,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1,
+  "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 1
 }

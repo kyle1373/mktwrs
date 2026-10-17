@@ -34,7 +34,8 @@
     "hashFailures": 0,
     "staleCandidatesReconciled": 3,
     "duplicateProofLinksRepaired": 11,
-    "finalVideoPreservedOnR2": true
+    "finalVideoPreservedOnR2": true,
+    "recordingsPreservedOnR2": 3
   },
   "validation": {
     "liveSupportingEntries": 49,
@@ -62,7 +63,9 @@
     "archive/ocean2022-supporting-history-build-check-20261013.json",
     "archive/ocean2022-rendered-proof-and-video-link-audit-20261013.json",
     "archive/ocean2022-opening-image-final-disposition-20261013.json",
-    "archive/ocean2022-original-preservation-chronology-reconciliation-20261008.json"
+    "archive/ocean2022-original-preservation-chronology-reconciliation-20261008.json",
+    "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+    "artifacts/ocean2022-source-date-duration-and-original-recovery-review-20261017.json"
   ],
   "nextTourId": "tour-76",
   "sourceCommit": "e8a6dc722704632e36ab458e83124825589c1e87",
@@ -78,5 +81,59 @@
     "publicationPending": false,
     "livePublicationVerified": true,
     "coreLiveVerification": "archive/nhspeedy8133-core-live-verification-20261016.json"
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T09:03:52.758113+00:00",
+    "canonicalSourceAndDurationChecks": [
+      {
+        "id": "1012409768238907472",
+        "time": "1:21.20",
+        "playerId": "nu11",
+        "documentedAt": "2022-08-09T14:24:36.000Z",
+        "submittedAt": null,
+        "durationDays": 0.6495833333333333,
+        "durationBounds": {
+          "minDays": 0.6495833333333333,
+          "maxDays": 0.6495833333333333,
+          "start": {
+            "earliest": "2022-08-09T14:24:36.000Z",
+            "latest": "2022-08-09T14:24:36.000Z",
+            "basis": "documented-source-timestamp",
+            "exact": true
+          },
+          "end": {
+            "earliest": "2026-09-30T06:00:00.000Z",
+            "latest": "2026-09-30T06:00:00.000Z"
+          },
+          "basis": "documented-source-timestamp"
+        },
+        "guaranteedPlayableIntervalSumMatches": true
+      }
+    ],
+    "reviewedImageSubmissionRowsCompared": 34,
+    "outsideTourTransitionImageReferencesRetained": 7,
+    "unidentifiedOpeningCandidateRetained": true,
+    "actualSubmissionAndOriginalVideoPublicationStoredSeparately": true,
+    "twoEarlierVideoDateCorrections": true,
+    "newYorkWorksheetSubmissionTimestampRestored": true,
+    "nhSpeedyHistoricalRepostSubmissionTimestampRestored": true,
+    "nuOriginalDiscordSubmissionStillUnknown": true,
+    "evidence": "artifacts/ocean2022-source-date-duration-and-original-recovery-review-20261017.json"
+  },
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T09:03:52.758113+00:00",
+    "uniqueR2FilesVerified": 10,
+    "totalObjectBytesVerified": 185918382,
+    "sourceOriginalFullRuns": 3,
+    "playbackCopies": 1,
+    "metadataAndProofObjects": 6,
+    "allFourVideoFilesFullyDecoded": true,
+    "newSupportingOriginalRun": "newyork RMX Rainbow Road2R1:21.84",
+    "newR2Uploads": 3,
+    "newOriginalVideoUploads": 1,
+    "finalWrRecordingPreserved": true,
+    "newSlowerVideoNotPromotedToWr": true,
+    "verificationUsedNoMediaBrowserTabs": true,
+    "evidence": "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
   }
 }
