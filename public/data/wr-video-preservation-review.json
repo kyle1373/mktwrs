@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T04:33:29.486945+00:00",
+  "checkedAt": "2026-10-17T04:38:36.151610+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 298,
   "r2BackupNeedsReview": 67,
-  "freshOriginalByteChecks": 0,
+  "freshOriginalByteChecks": 4,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-44",
-  "evidence": "artifacts/trick2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-45",
+  "evidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -2835,7 +2835,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/wedding2021-4b1e2bf3df2999b06bc8.mov",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:38:36.151610+00:00",
+      "evidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "https://cdn.discordapp.com/attachments/636461740162416640/849590577912610836/video0.mov",
@@ -2850,7 +2852,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/wedding2021-039b4f6e21b3677068fa.mov",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:38:36.151610+00:00",
+      "evidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1401337428170838018",
@@ -2865,7 +2869,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/wedding2021-d78a9399e6d3c3e74550.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:38:36.151610+00:00",
+      "evidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1404728947196055555",
@@ -2880,7 +2886,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/wedding2021-circuit-13435-f509f75ce8d2.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T04:38:36.151610+00:00",
+      "evidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:Gz3Napklgzk",
@@ -2895,7 +2903,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T04:38:36.151610+00:00",
+      "evidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "x:1191998946656129025",
@@ -4076,7 +4088,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T04:38:36.151610+00:00",
+      "evidence": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:quUMrlAlYa8",
@@ -5872,18 +5888,18 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 40,
-  "previousPreservationEvidence": "artifacts/bowserdk2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 21,
+  "totalOriginalByteChecksInPreservationBatches": 44,
+  "previousPreservationEvidence": "artifacts/trick2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "knownUnavailableOriginalsReviewed": 23,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 4,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 11,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 14,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 14,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 18,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 8,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 19,
   "currentBatchUniqueR2FilesVerified": 21,
-  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 3,
-  "originalSourcesStillUnreviewed": 32,
+  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
+  "originalSourcesStillUnreviewed": 30,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0
 }

@@ -36,7 +36,8 @@
     "archive/wedding2021-additional-recordings-r2-preservation-20261013.json",
     "archive/wedding2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/wedding2021-image-source-publication-crosswalk-20261013.json",
-    "archive/wedding2021-opening-day-policy-generation-check-20261013.json"
+    "archive/wedding2021-opening-day-policy-generation-check-20261013.json",
+    "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/wedding-2021-reconciliation.json",
@@ -78,12 +79,13 @@
     "Previous-best fields reveal potential intermediate runs with unknown original dates.",
     "SuperFX 1:34.55 adjacent lap shorthand conflicts with its total; both splits remain unknown.",
     "Nu11’s final two WR videos are unavailable; RMX Rainbow Road 2 original result image is also unavailable.",
-    "Single-lap strategy recordings and short clips are preserved privately, not attached as full-run video proof.",
-    "Remaining non-WR YouTube recordings require visual review and preservation.",
+    "Indexed single-lap strategy recordings and short clips are preserved on public R2; they are not full-run video proof.",
+    "Indexed non-WR recordings have preservation and prior visual-review evidence; unindexed source material still requires investigation.",
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
-    "Six additional completed runs retained with prior reviews, plus another encoding of the selected Phillish1:21.98; eleven route/incident clips are not completed race proof. Exact race dates and inaccessible originals remain qualified."
+    "Six additional completed runs retained with prior reviews, plus another encoding of the selected Phillish1:21.98; eleven route/incident clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.",
+    "All 21 stored video objects passed full SHA256 and byte-length checks, representing 20 distinct file hashes. Two selected slower recordings remain supporting footage. Fresh checks of Nu11’s Mario Circuit 1:33.94 and RMX Rainbow Road 2 1:21.65 original YouTube videos returned unavailable; no final-WR footage recovery is claimed."
   ],
   "validation": {
     "liveSnapshotRows": 435,
@@ -100,5 +102,19 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/wedding2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/wedding2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "6945bfde967d5ff330da80fd07441377b19b4540"
+  "sourceCommit": "6945bfde967d5ff330da80fd07441377b19b4540",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T04:38:36.151610+00:00",
+    "audit": "artifacts/wedding2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 21,
+    "distinctFileHashes": 20,
+    "newOriginalUploads": 0,
+    "canonicalVideoKeysWithR2": 4,
+    "canonicalFinalWrVideoKeysWithUnresolvedRecovery": 2,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "finalWrFootageFullyPreserved": false,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
