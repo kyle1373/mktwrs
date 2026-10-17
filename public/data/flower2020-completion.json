@@ -1,8 +1,7 @@
 {
   "tourId": "tour-17",
   "tour": "Flower Tour (2020)",
-  "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "status": "date-review-in-progress",
   "standard": "User-authorized practical evidence standard: surviving completed-run proofs,129freshdiscussion-image dispositions,10additionalserverleads, prior server review, preserved source-index integrity and live publication checked. Unknown dates/identities and unavailable originals remain qualified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -33,7 +32,11 @@
     "archive/flower2020-additional-server-time-trial-leads-review-20261013.json",
     "archive/flower2020-three-slower-originals-r2-preservation-20261013.json",
     "archive/flower2020-media-and-preserved-ledger-validation-20261013.json",
-    "archive/flower2020-opening-day-policy-generation-check-20261013.json"
+    "archive/flower2020-opening-day-policy-generation-check-20261013.json",
+    "artifacts/flower2020-sheet-and-earlier-report-date-review-20261016.json",
+    "artifacts/flower2020-preserved-original-video-publication-metadata-20261016.json",
+    "public/data/flower2020-source-and-duration-review.json",
+    "public/data/flower2020-preserved-media-link-review.json"
   ],
   "preservedLocalReview": {
     "source": "archive/flower-2020-review-progress.json",
@@ -51,6 +54,7 @@
     "preservedServerImageHashesVerified": 718
   },
   "remainingLimitations": [
+    "24 worksheet submissions remain without preserved dates or confirmed dated source crosswalks. All-source date review is incomplete.",
     "No original final1:39.00WR recording found; Wins1:39.76 is fastest preserved reviewed completed recording.",
     "Four unavailable server attachments and two stale viewer entries remain explicit gaps.",
     "Deleted opening runner identity and some exact race dates/intermediate order unresolved; source/report/upload/share clocks stay distinct.",
@@ -72,5 +76,32 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/flower2020-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/flower2020-discussion-image-publication-crosswalk-20261013.json",
-  "sourceCommit": "8c5545e6c0727f86c0f08b71453e5e8de15c9062"
+  "priorCompletionClaim": {
+    "status": "completed-with-documented-gaps",
+    "completedAt": "2026-10-13",
+    "sourceCommit": "8c5545e6c0727f86c0f08b71453e5e8de15c9062",
+    "standard": "User-authorized practical evidence standard: surviving completed-run proofs,129freshdiscussion-image dispositions,10additionalserverleads, prior server review, preserved source-index integrity and live publication checked. Unknown dates/identities and unavailable originals remain qualified."
+  },
+  "dateDurationReviewComplete": false,
+  "dateReviewUpdatedAt": "2026-10-16",
+  "sourceAndDurationReview": {
+    "reviewedAt": "2026-10-16",
+    "canonicalRecordDatesReviewed": 16,
+    "verifiedSourceDates": 38,
+    "supportingRowsStillUndated": 24,
+    "durationAuditPassed": true,
+    "evidence": "public/data/flower2020-source-and-duration-review.json",
+    "newlyDatedWorksheetEntries": [
+      "sheet-BF11",
+      "sheet-BF15"
+    ],
+    "earlierSelfReportDateCorrections": 3
+  },
+  "nextDateDurationReviewTourId": "tour-17",
+  "mediaLinkReview": {
+    "evidence": "public/data/flower2020-preserved-media-link-review.json",
+    "uniqueImages": 11,
+    "uniqueVideos": 4,
+    "allPreservedLinksPass": true
+  }
 }

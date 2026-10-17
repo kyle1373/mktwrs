@@ -246,7 +246,7 @@
       "evidenceUrl": "/data/yoshi2020-preserved-media-link-review.json",
       "unrecoveredOriginalSheetProofs": 1
     },
-    "reviewScope": "All 283 currently preserved entries dated April 8\u201322 (279 within the tour and four later posts): sourced dates including one explicit proof-upload fallback, independently verified tour-only credited durations, and delivery of attached preserved media.",
+    "reviewScope": "All 283 currently preserved entries dated April 8–22 (279 within the tour and four later posts): sourced dates including one explicit proof-upload fallback, independently verified tour-only credited durations, and delivery of attached preserved media.",
     "nextDateDurationReviewTourId": "tour-17"
   },
   "tour-16": {
@@ -300,8 +300,8 @@
     "nextDateDurationReviewTourId": "tour-17"
   },
   "tour-17": {
-    "status": "completed-with-documented-gaps",
-    "label": "Completed with documented gaps",
+    "status": "date-review-in-progress",
+    "label": "Date review in progress",
     "completedAt": "2026-10-13",
     "evidenceUrl": "/data/flower2020-completion.json",
     "priorPracticalReview": {
@@ -313,7 +313,28 @@
     "historyComplete": false,
     "auditedAt": "2026-10-12",
     "practicalReviewComplete": true,
-    "latestEvidenceReconciliation": "2026-10-13"
+    "latestEvidenceReconciliation": "2026-10-13",
+    "dateDurationReviewComplete": false,
+    "currentDateReview": {
+      "reviewedAt": "2026-10-16",
+      "canonicalRecordDatesReviewed": 16,
+      "verifiedSourceDates": 38,
+      "supportingRowsStillUndated": 24,
+      "durationAuditPassed": true,
+      "evidence": "public/data/flower2020-source-and-duration-review.json",
+      "newlyDatedWorksheetEntries": [
+        "sheet-BF11",
+        "sheet-BF15"
+      ],
+      "earlierSelfReportDateCorrections": 3
+    },
+    "nextDateDurationReviewTourId": "tour-17",
+    "mediaLinkReview": {
+      "evidence": "public/data/flower2020-preserved-media-link-review.json",
+      "uniqueImages": 11,
+      "uniqueVideos": 4,
+      "allPreservedLinksPass": true
+    }
   },
   "tour-18": {
     "status": "completed-with-documented-gaps",

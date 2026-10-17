@@ -63,3 +63,13 @@ test('Trick 2020 uses reconciled source clocks through the following 06 UTC',()=
   {id:'next',playerId:'c',timeCs:3300,recordDate:'2020-04-23',documentedAt:'2020-04-23T06:00:00.000Z'}];
  assert.deepEqual(openingDayPublication([{records,appearances:[{tourId:'tour-16'}]}],[]).courses[0].records.map(r=>r.id),['best','next']);
 });
+
+
+test('Flower opening display uses known screenshot publication despite an unknown previous-best race date',()=>{
+ const records=[{id:'previous',playerId:'a',timeCs:10217,dateUnresolved:true,finalDateBasis:'evidencePublishedAt',documentedAt:'2020-05-06T07:59:25.520Z'},
+  {id:'best',playerId:'b',timeCs:9942,documentedAt:'2020-05-06T14:26:08.746Z'},
+  {id:'next',playerId:'c',timeCs:9910,documentedAt:'2020-05-07T06:00:00.000Z'}];
+ assert.equal(isReviewedOpeningDay(records[0],'2020-05-06'),true);
+ assert.deepEqual(openingDayPublication([{records,appearances:[{tourId:'tour-17'}]}],[]).courses[0].records.map(r=>r.id),['best','next']);
+ assert.equal(isReviewedOpeningDay({...records[0],documentedAt:null},'2020-05-06'),false);
+});
