@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:30:31.676Z",
+  "checkedAt": "2026-10-17T03:43:02.936146+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 296,
-  "r2BackupNeedsReview": 69,
-  "freshOriginalByteChecks": 0,
+  "r2BackupRegistered": 297,
+  "r2BackupNeedsReview": 68,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-34",
-  "evidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json",
+  "currentVideoPreservationTourId": "tour-35",
+  "evidence": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -319,7 +319,7 @@
           "documentedAt": "2023-09-24T10:13:27.292Z"
         }
       ],
-      "r2Url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-movie-すいそ🐺-11188-67daa3398446.mp4",
+      "r2Url": "https://media.mktwrs.com/assets/proof/anniversary2023-original-movie-\u3059\u3044\u305d\ud83d\udc3a-11188-67daa3398446.mp4",
       "status": "r2-backup-registered-not-freshly-verified"
     },
     {
@@ -2036,7 +2036,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "checkedAt": "2026-10-17T03:43:02.936146+00:00",
+      "evidence": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false
     },
     {
       "key": "youtube:QALze8wNxBk",
@@ -2050,8 +2054,10 @@
           "documentedAt": "2021-01-15T16:28:55.136Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/berlin2021-wins-QALze8wNxBk-e0006a0f7b97.mp4",
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T03:43:02.936146+00:00",
+      "evidence": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json"
     },
     {
       "key": "youtube:BG0nzD0agSc",
@@ -4214,7 +4220,9 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/berlin2021-rock-14243-c0190779ef8f.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T03:43:02.936146+00:00",
+      "evidence": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json"
     },
     {
       "key": "youtube:tYmw5TJAmIs",
@@ -5772,16 +5780,16 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 27,
-  "previousPreservationEvidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 13,
-  "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 5,
+  "totalOriginalByteChecksInPreservationBatches": 29,
+  "previousPreservationEvidence": "artifacts/newyear2021-ten-preserved-files-and-six-original-recovery-checks-20261016.json",
+  "knownUnavailableOriginalsReviewed": 14,
+  "newOriginalUploadsInCurrentBatch": 1,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 5,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 3,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 8,
-  "currentBatchUniqueR2FilesVerified": 10,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 9,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 10,
+  "currentBatchUniqueR2FilesVerified": 13,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
-  "originalSourcesStillUnreviewed": 51
+  "originalSourcesStillUnreviewed": 49
 }
