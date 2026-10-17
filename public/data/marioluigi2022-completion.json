@@ -1,9 +1,9 @@
 {
   "tourId": "tour-78",
   "tour": "Mario vs. Luigi Tour (2022)",
-  "status": "in-progress-source-revalidation",
-  "completedAt": "2026-10-13",
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-17",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
@@ -60,9 +60,9 @@
     "generatedReviewedRowsCompared": 160,
     "materialFieldDifferences": 0,
     "knownWorksheetRows": 108,
-    "knownWorksheetRowsDated": 107,
-    "remainingUndatedWorksheetRows": 1,
-    "originalResultImageReferencesPreservedOnR2": 99,
+    "knownWorksheetRowsDated": 108,
+    "remainingUndatedWorksheetRows": 0,
+    "originalResultImageReferencesPreservedOnR2": 100,
     "originalRecordingsFreshlyFullyDecoded": 3
   },
   "validation": {
@@ -86,7 +86,6 @@
   },
   "remainingLimitations": [
     "DIT MapleTreewayR1:49.45 title/category reference checked at original YouTube source; video unavailable. No WR or fastest-footage promotion without recovered recording.",
-    "One worksheet row still need original source, identity or course reconciliation. Equal totals from a different named player were not used as proof.",
     "Retro and Dome surviving own posts are after the tour closed; posting dates are retained instead of inferring earlier race completion dates.",
     "Newyork MapleTreewayR1:49.29 final screenshot remains valid; MalerMarkus1:50.37 earlier video stays separate.",
     "Fresh decoded original bytes and sampled finishes are verified. No new uninterrupted frame-by-frame race certification or global source completeness claim.",
@@ -115,27 +114,23 @@
     "artifacts/marioluigi2022-source-date-duration-and-original-media-review-20261017.json",
     "artifacts/marioluigi2022-original-media-r2-integrity-20261017.json",
     "artifacts/marioluigi2022-yiu-identity-four-dates-and-dkpass-course-correction-20261017.json",
-    "artifacts/marioluigi2022-yiu-source-reconciliation-r2-integrity-20261017.json"
+    "artifacts/marioluigi2022-yiu-source-reconciliation-r2-integrity-20261017.json",
+    "artifacts/marioluigi2022-final-kuri-source-and-known-worksheet-closure-20261017.json",
+    "artifacts/marioluigi2022-final-kuri-source-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-79",
-  "sourceCommit": "41e0647115cf1c609170589db482e561f9aaa9dd",
+  "sourceCommit": "2eca282eb66051ab06b977e88cd842a8c253fb18",
   "previousReviewCompletedAt": "2026-10-13",
   "previousPracticalReviewComplete": true,
-  "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": false,
-  "remainingUndatedWorksheetRows": [
-    {
-      "courseId": "ds-dk-pass",
-      "sheetId": "sheet-ANT15",
-      "playerId": "kuri",
-      "time": "1:34.02"
-    }
-  ],
+  "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": true,
+  "remainingUndatedWorksheetRows": [],
   "latestSourceAndDurationRevalidation": {
-    "checkedAt": "2026-10-17T18:27:08.455239+00:00",
-    "reviewArtifact": "artifacts/marioluigi2022-yiu-identity-four-dates-and-dkpass-course-correction-20261017.json",
-    "integrityArtifact": "artifacts/marioluigi2022-yiu-source-reconciliation-r2-integrity-20261017.json",
+    "checkedAt": "2026-10-17T18:49:57.700454+00:00",
+    "reviewArtifact": "artifacts/marioluigi2022-final-kuri-source-and-known-worksheet-closure-20261017.json",
+    "integrityArtifact": "artifacts/marioluigi2022-final-kuri-source-r2-integrity-20261017.json",
     "nu11DkSummitEarlierOriginalPublication": "2022-09-20T16:30:32.000Z",
-    "allKnownWorksheetDatesProven": false
+    "allKnownWorksheetDatesProven": true,
+    "nextTourNotStarted": true
   },
   "latestYiuIdentityAndCourseCorrection": {
     "evidence": "artifacts/marioluigi2022-yiu-identity-four-dates-and-dkpass-course-correction-20261017.json",
@@ -168,5 +163,17 @@
     ],
     "troyCorrectedSupportingTotal": "1:32.25",
     "newOriginalZedImagePreserved": true
+  },
+  "knownWorksheetDateReviewComplete": true,
+  "latestFinalWorksheetSourceClosure": {
+    "courseId": "ds-dk-pass",
+    "id": "sheet-ANT15",
+    "playerId": "kuri",
+    "time": "1:34.02",
+    "documentedAt": "2022-09-07T14:20:08.131Z",
+    "sourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1017076811064152195",
+    "proofR2": "https://media.mktwrs.com/assets/proof/marioluigi2022-kuri-original-1017076809986211890-0919e43b8da6c7b8a679.png",
+    "sourceReceiptR2": "https://media.mktwrs.com/assets/evidence/marioluigi2022-kuri-final-worksheet-source-receipt-20261017-963993ab6260e1246fb2.json",
+    "reviewArtifact": "artifacts/marioluigi2022-final-kuri-source-and-known-worksheet-closure-20261017.json"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T18:27:08.455239+00:00",
+  "checkedAt": "2026-10-17T18:49:57.700454+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 305,
@@ -8,8 +8,8 @@
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-78",
-  "evidence": "artifacts/marioluigi2022-yiu-source-reconciliation-r2-integrity-20261017.json",
+  "currentVideoPreservationTourId": "tour-79",
+  "evidence": "artifacts/marioluigi2022-final-kuri-source-r2-integrity-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -6303,14 +6303,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/marioluigi2022-original-media-r2-integrity-20261017.json",
+  "previousPreservationEvidence": "artifacts/marioluigi2022-yiu-source-reconciliation-r2-integrity-20261017.json",
   "newOriginalUploadsInCurrentBatch": 0,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 0,
-  "currentBatchUniqueR2FilesVerified": 11,
+  "currentBatchUniqueR2FilesVerified": 2,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 0,
   "originalSourcesStillUnreviewed": 20,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
@@ -6322,8 +6322,8 @@
   "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
-  "currentBatchNewR2ObjectsUploaded": 5,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1,
+  "currentBatchNewR2ObjectsUploaded": 2,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 0,
   "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0,
   "newOriginalEncodingCopiesUploadedInCurrentBatch": 0,
   "pendingSundaeDateSourceReceiptPreservation": {
@@ -6374,10 +6374,10 @@
     "recoveredOriginalSourceReceipts": "https://media.mktwrs.com/assets/proof/sundae2022-four-recovered-source-receipts-b4e82a4f5e70a1ebc16e.json",
     "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
   },
-  "previousCompletedVideoPreservationTourId": "tour-77",
+  "previousCompletedVideoPreservationTourId": "tour-78",
   "newOriginalImagesPreservedInCurrentBatch": 1,
   "newFirstLapFramesPreservedInCurrentBatch": 0,
-  "newSourceReceiptObjectsPreservedInCurrentBatch": 4,
+  "newSourceReceiptObjectsPreservedInCurrentBatch": 1,
   "sundaeKnownSourceDateReviewComplete": true,
   "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
   "canonicalR2CoverageReconciliation": {
@@ -6452,7 +6452,7 @@
     "dateAndDurationUnchanged": true
   },
   "newMetadataObjectsPreservedInCurrentBatch": 0,
-  "newFinishFramesPreservedInCurrentBatch": 1,
+  "newFinishFramesPreservedInCurrentBatch": 0,
   "previousBowserCandidateSourceReceipt": {
     "checkedAt": "2026-10-17T17:16:18.676Z",
     "sourceCandidate": {
@@ -6518,17 +6518,12 @@
     "captionTime": "1:26.33"
   },
   "latestMarioLuigi2022SourceDateReview": {
-    "evidence": "artifacts/marioluigi2022-yiu-identity-four-dates-and-dkpass-course-correction-20261017.json",
-    "knownWorksheetRowsDated": 107,
+    "evidence": "artifacts/marioluigi2022-final-kuri-source-and-known-worksheet-closure-20261017.json",
+    "knownWorksheetRowsDated": 108,
     "totalWorksheetRows": 108,
-    "remainingUndatedWorksheetRows": [
-      {
-        "courseId": "ds-dk-pass",
-        "sheetId": "sheet-ANT15",
-        "playerId": "kuri",
-        "time": "1:34.02"
-      }
-    ],
-    "reviewClosed": false
-  }
+    "remainingUndatedWorksheetRows": [],
+    "reviewClosed": true
+  },
+  "marioLuigiKnownSourceDateReviewComplete": true,
+  "marioLuigiSourceDateClosureEvidence": "artifacts/marioluigi2022-final-kuri-source-and-known-worksheet-closure-20261017.json"
 }
