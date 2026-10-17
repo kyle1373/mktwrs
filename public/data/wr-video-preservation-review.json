@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T10:42:28.692884+00:00",
+  "checkedAt": "2026-10-17T16:23:32.346828+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 300,
   "r2BackupNeedsReview": 65,
-  "freshOriginalByteChecks": 1,
+  "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-76",
-  "evidence": "artifacts/sundae2022-spartacurt-13018-original-video-r2-integrity-20261017.json",
+  "currentVideoPreservationTourId": "tour-77",
+  "evidence": "artifacts/sundae2022-final-recovered-originals-r2-integrity-20261017.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -6240,14 +6240,14 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/sundae2022-sucha-12993-original-video-r2-integrity-review-20261017.json",
-  "newOriginalUploadsInCurrentBatch": 1,
+  "previousPreservationEvidence": "artifacts/sundae2022-spartacurt-13018-original-video-r2-integrity-20261017.json",
+  "newOriginalUploadsInCurrentBatch": 0,
   "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 0,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
   "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 0,
-  "currentBatchUniqueR2FilesVerified": 3,
+  "currentBatchUniqueR2FilesVerified": 6,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 0,
   "originalSourcesStillUnreviewed": 25,
   "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
@@ -6256,62 +6256,65 @@
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
   "knownUnavailableOriginalSources": 25,
   "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 0,
-  "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [
-    {
-      "key": "youtube:SyFFcO-U-vA",
-      "status": "r2-original-full-bytes-verified",
-      "url": "https://media.mktwrs.com/assets/video/sundae2022-spartacurt-13018-video-0d978457bcb3679943a5.mp4",
-      "sha256": "0d978457bcb3679943a5d3484ab0e61a5a700de104c4b9f99736b606a70d17d8",
-      "bytes": 44278884,
-      "reviewAudit": "artifacts/sundae2022-spartacurt-13018-original-video-reconciliation-20261017.json"
-    }
-  ],
+  "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [],
   "freshUnavailableOriginalRecoveryChecksInCurrentBatch": 0,
   "alreadyStoredNoItemCompletedRunsVerifiedInCurrentBatch": 0,
-  "currentBatchNewR2ObjectsUploaded": 3,
-  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 1,
+  "currentBatchNewR2ObjectsUploaded": 6,
+  "newSupportingOriginalFullRunsArchivedInCurrentBatch": 0,
   "alreadyStoredPlaybackCopiesVerifiedInCurrentBatch": 0,
   "newOriginalEncodingCopiesUploadedInCurrentBatch": 0,
   "pendingSundaeDateSourceReceiptPreservation": {
-    "checkedAt": "2026-10-17T10:53:56.339075+00:00",
-    "remainingUndatedWorksheetRows": [
-      {
-        "courseId": "3ds-bowser-s-castle",
-        "id": "sheet-AMN38",
-        "playerId": "kuri",
-        "time": "1:37.53",
-        "laps": [
-          null,
-          null
-        ]
-      },
+    "checkedAt": "2026-10-17T16:23:32.346828+00:00",
+    "remainingUndatedWorksheetRows": [],
+    "preservedWorksheetAndCandidateReceipts": "https://media.mktwrs.com/assets/proof/sundae2022-three-pending-source-receipts-66cff980d72f35df8c88.json",
+    "sha256": "66cff980d72f35df8c883c31e797170d516e49fd15b55115b5c16991ca5be2eb",
+    "bytes": 6528,
+    "originalImageResultMatchPending": false,
+    "candidatePostDatesNotAssignedAsRunDates": true,
+    "originalRecoveryRequiresDiscordLogin": false,
+    "evidence": "artifacts/sundae2022-three-pending-dates-source-inventory-and-r2-review-20261017.json",
+    "resolvedByOriginalImageReview": true,
+    "originalResultMatches": [
       {
         "courseId": "3ds-bowser-s-castle",
         "id": "sheet-AMN41",
-        "playerId": "player-e9acbce8b2b4e4b8b8",
         "time": "1:35.54",
-        "laps": [
-          null,
-          null
-        ]
+        "messageId": "1011838703146123306",
+        "postedAt": "2022-08-24T03:25:45.884Z",
+        "sha256": "fb3f68a6a4ed36d26eb41a8033a19c3e1d4c73fe17916b38985ee9a78458245b"
       },
       {
         "courseId": "3ds-rosalina-s-ice-world-r",
         "id": "sheet-AMV37",
-        "playerId": "kuri",
         "time": "1:31.50",
-        "laps": [
-          null,
-          null
-        ]
+        "messageId": "1011541032267165716",
+        "postedAt": "2022-08-23T07:42:55.616Z",
+        "sha256": "d5f3a98c9f2c1a3a145922bd37f337961c3cb9c4ce5024a9bc1ea33b91ec36e8"
+      },
+      {
+        "courseId": "3ds-bowser-s-castle",
+        "id": "sheet-AMN38",
+        "time": "1:37.53",
+        "messageId": "1011575587955015760",
+        "postedAt": "2022-08-23T10:00:14.334Z",
+        "sha256": "be162cabf2f282d422b35def3a0b4d326c79f98f2058ed088c0c758445828c7a"
+      },
+      {
+        "courseId": "3ds-rosalina-s-ice-world-r",
+        "id": "sheet-AMV11",
+        "time": "1:30.19",
+        "messageId": "1008336792765870110",
+        "postedAt": "2022-08-14T11:30:25.387Z",
+        "sha256": "9713954a67d0079750b337d83105636e6baeef6277e69e22f82a6f145de0e3b1"
       }
     ],
-    "preservedWorksheetAndCandidateReceipts": "https://media.mktwrs.com/assets/proof/sundae2022-three-pending-source-receipts-66cff980d72f35df8c88.json",
-    "sha256": "66cff980d72f35df8c883c31e797170d516e49fd15b55115b5c16991ca5be2eb",
-    "bytes": 6528,
-    "originalImageResultMatchPending": true,
-    "candidatePostDatesNotAssignedAsRunDates": true,
-    "originalRecoveryRequiresDiscordLogin": true,
-    "evidence": "artifacts/sundae2022-three-pending-dates-source-inventory-and-r2-review-20261017.json"
-  }
+    "recoveredOriginalSourceReceipts": "https://media.mktwrs.com/assets/proof/sundae2022-four-recovered-source-receipts-b4e82a4f5e70a1ebc16e.json",
+    "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
+  },
+  "previousCompletedVideoPreservationTourId": "tour-76",
+  "newOriginalImagesPreservedInCurrentBatch": 4,
+  "newFirstLapFramesPreservedInCurrentBatch": 1,
+  "newSourceReceiptObjectsPreservedInCurrentBatch": 1,
+  "sundaeKnownSourceDateReviewComplete": true,
+  "sundaeSourceDateClosureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
 }

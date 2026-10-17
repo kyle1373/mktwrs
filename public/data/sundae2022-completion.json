@@ -2,7 +2,7 @@
   "tourId": "tour-76",
   "tour": "Sundae Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-17",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -44,7 +44,9 @@
     "proofLinksRepaired": 38,
     "generatedReviewedRowsCompared": 103,
     "materialFieldDifferences": 0,
-    "additionalSupportingOriginalVideosPreservedOnR2": 2
+    "additionalSupportingOriginalVideosPreservedOnR2": 2,
+    "newlyRecoveredOriginalResultImages": 4,
+    "allKnownWorksheetRowsDated": true
   },
   "validation": {
     "liveSupportingEntries": {
@@ -58,13 +60,13 @@
     "completionLabelLiveVerified": true
   },
   "remainingLimitations": [
-    "Complete worldwide leadership and intermediate chronology unproved. Three worksheet rows still lack preserved publication/submission dates; see current source audit.",
+    "Complete worldwide leadership and intermediate chronology unproved. All known worksheet rows now have original submission/publication dates; exhaustive worldwide capture remains unproven.",
     "Nu11 final Bowser proof repostAugust24 02:15UTC precedes06UTC rollover. Original runner submission and achievement unknown; posterStarin is not assumed runner.",
     "Both original final-video result frames are now visibly reviewed: Nu11 1:35.16(previous1:35.31), Troy1:29.58(previous1:29.62). Original video bytes fully decoded and public SHA/length verified.",
     "Nu11 Bowser previous1:35.31 remains undated. RIWR1:29.61 original screenshot shows August18 publication day; exact clock/timezone unknown, so carried-WR durations use conservative bounds. TroyAugust19 1:29.62 tie receives zero WR duration after this earlier faster proof. Nu supporting proof not newly promoted.",
     "First day only fastest recovered supporting result shown. Complete opening source census still unproven.",
     "Zed original linked social post remains protected under current anonymous/signed-in Codex source access. Original completed1:35.33 screenshot preserved on R2; first identical proof clockAug22 retained beforeAug23repeat.",
-    "Three unresolved worksheet dates retained as explicit source gaps rather than invented dates. Nine next-tour transition images preserved as context. No exhaustive history completion claim."
+    "All three formerly unresolved worksheet dates matched to original completed result images and live Discord post clocks. Nine next-tour transition images preserved as context. No exhaustive history completion claim."
   ],
   "evidence": [
     "archive/sundae2022-final-practical-publication-audit-20261013.json",
@@ -82,13 +84,15 @@
     "artifacts/sundae2022-sucha-12993-original-video-r2-integrity-review-20261017.json",
     "artifacts/sundae2022-spartacurt-13018-original-video-reconciliation-20261017.json",
     "artifacts/sundae2022-spartacurt-13018-original-video-r2-integrity-20261017.json",
-    "artifacts/sundae2022-three-pending-dates-source-inventory-and-r2-review-20261017.json"
+    "artifacts/sundae2022-three-pending-dates-source-inventory-and-r2-review-20261017.json",
+    "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
+    "artifacts/sundae2022-final-recovered-originals-r2-integrity-20261017.json"
   ],
   "nextTourId": "tour-77",
-  "sourceCommit": "7fed144d64cd7c5d8b8d88a0e484db82372a4f95",
+  "sourceCommit": "a5d7f4250e1557d2155f483d85b9a9f5f566aaaa",
   "completionLabelLiveAudit": "archive/sundae2022-completion-label-live-check-20261013.json",
   "latestSourceAndDurationRevalidation": {
-    "checkedAt": "2026-10-17T09:48:22.418449+00:00",
+    "checkedAt": "2026-10-17T16:23:32.346828+00:00",
     "canonicalSourceAndDurationChecks": [
       {
         "courseId": "3ds-bowser-s-castle",
@@ -239,38 +243,7 @@
     "additionalWorksheetDocumentedDatesRecovered": 58,
     "additionalOriginalSubmissionClocksRestored": 55,
     "initialWorksheetClocksRestored": 2,
-    "remainingUndatedWorksheetRows": [
-      {
-        "courseId": "3ds-bowser-s-castle",
-        "id": "sheet-AMN38",
-        "playerId": "kuri",
-        "time": "1:37.53",
-        "laps": [
-          null,
-          null
-        ]
-      },
-      {
-        "courseId": "3ds-bowser-s-castle",
-        "id": "sheet-AMN41",
-        "playerId": "player-e9acbce8b2b4e4b8b8",
-        "time": "1:35.54",
-        "laps": [
-          null,
-          null
-        ]
-      },
-      {
-        "courseId": "3ds-rosalina-s-ice-world-r",
-        "id": "sheet-AMV37",
-        "playerId": "kuri",
-        "time": "1:31.50",
-        "laps": [
-          null,
-          null
-        ]
-      }
-    ],
+    "remainingUndatedWorksheetRows": [],
     "nu11FasterSupportingProofDay": "2022-08-18",
     "noInventedTimestamp": true,
     "troy12962TieCreditedDurationCorrectedToZero": true,
@@ -279,7 +252,10 @@
     "remainingDateSourceRecoveryAudit": "artifacts/sundae2022-remaining-worksheet-date-source-recovery-20261017.json",
     "additionalOriginalPlayerVideoDateRecovered": true,
     "sucha12993SourceReview": "artifacts/sundae2022-sucha-12993-original-publication-and-worksheet-reconciliation-20261017.json",
-    "spartacurt13018OriginalPreservationReview": "artifacts/sundae2022-spartacurt-13018-original-video-reconciliation-20261017.json"
+    "spartacurt13018OriginalPreservationReview": "artifacts/sundae2022-spartacurt-13018-original-video-reconciliation-20261017.json",
+    "finalOriginalImageDateClosureAudit": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json",
+    "finalMissingWorksheetDatesRecovered": 3,
+    "starinEarliestOriginalImageClockRecovered": true
   },
   "videoPreservationReview": {
     "checkedAt": "2026-10-17T09:48:22.418449+00:00",
@@ -306,12 +282,63 @@
     "newOriginalVideoUploads": 1,
     "newR2ObjectsUploaded": 3,
     "primaryArchiveResolution": "1080x1440/30fps originalH264/AAC",
-    "freshVisualReview": false,
-    "lapSplitsNotFreshlyCertified": true,
+    "freshVisualReview": true,
+    "lapSplitsNotFreshlyCertified": false,
     "bestRecordingSelectionRemainsTroy12958": true,
-    "evidence": "artifacts/sundae2022-spartacurt-13018-original-video-r2-integrity-20261017.json"
+    "evidence": "artifacts/sundae2022-spartacurt-13018-original-video-r2-integrity-20261017.json",
+    "firstLapVerified": "45.21",
+    "secondLapDerived": "44.97",
+    "finalVisualAndLapReview": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
   },
   "pendingDateSourcePreservationReview": {
+    "checkedAt": "2026-10-17T16:23:32.346828+00:00",
+    "remainingUndatedWorksheetRows": [],
+    "preservedWorksheetAndCandidateReceipts": "https://media.mktwrs.com/assets/proof/sundae2022-three-pending-source-receipts-66cff980d72f35df8c88.json",
+    "sha256": "66cff980d72f35df8c883c31e797170d516e49fd15b55115b5c16991ca5be2eb",
+    "bytes": 6528,
+    "originalImageResultMatchPending": false,
+    "candidatePostDatesNotAssignedAsRunDates": true,
+    "originalRecoveryRequiresDiscordLogin": false,
+    "evidence": "artifacts/sundae2022-three-pending-dates-source-inventory-and-r2-review-20261017.json",
+    "resolvedByOriginalImageReview": true,
+    "originalResultMatches": [
+      {
+        "courseId": "3ds-bowser-s-castle",
+        "id": "sheet-AMN41",
+        "time": "1:35.54",
+        "messageId": "1011838703146123306",
+        "postedAt": "2022-08-24T03:25:45.884Z",
+        "sha256": "fb3f68a6a4ed36d26eb41a8033a19c3e1d4c73fe17916b38985ee9a78458245b"
+      },
+      {
+        "courseId": "3ds-rosalina-s-ice-world-r",
+        "id": "sheet-AMV37",
+        "time": "1:31.50",
+        "messageId": "1011541032267165716",
+        "postedAt": "2022-08-23T07:42:55.616Z",
+        "sha256": "d5f3a98c9f2c1a3a145922bd37f337961c3cb9c4ce5024a9bc1ea33b91ec36e8"
+      },
+      {
+        "courseId": "3ds-bowser-s-castle",
+        "id": "sheet-AMN38",
+        "time": "1:37.53",
+        "messageId": "1011575587955015760",
+        "postedAt": "2022-08-23T10:00:14.334Z",
+        "sha256": "be162cabf2f282d422b35def3a0b4d326c79f98f2058ed088c0c758445828c7a"
+      },
+      {
+        "courseId": "3ds-rosalina-s-ice-world-r",
+        "id": "sheet-AMV11",
+        "time": "1:30.19",
+        "messageId": "1008336792765870110",
+        "postedAt": "2022-08-14T11:30:25.387Z",
+        "sha256": "9713954a67d0079750b337d83105636e6baeef6277e69e22f82a6f145de0e3b1"
+      }
+    ],
+    "recoveredOriginalSourceReceipts": "https://media.mktwrs.com/assets/proof/sundae2022-four-recovered-source-receipts-b4e82a4f5e70a1ebc16e.json",
+    "closureEvidence": "artifacts/sundae2022-final-original-image-date-and-lap-reconciliation-20261017.json"
+  },
+  "previousPendingDateSourcePreservationReview": {
     "checkedAt": "2026-10-17T10:53:56.339075+00:00",
     "remainingUndatedWorksheetRows": [
       {
@@ -352,5 +379,14 @@
     "candidatePostDatesNotAssignedAsRunDates": true,
     "originalRecoveryRequiresDiscordLogin": true,
     "evidence": "artifacts/sundae2022-three-pending-dates-source-inventory-and-r2-review-20261017.json"
+  },
+  "latestOriginalRecoveryMediaReview": {
+    "checkedAt": "2026-10-17T16:23:32.346828+00:00",
+    "newR2ObjectsUploaded": 6,
+    "newOriginalImagesPreserved": 4,
+    "newOriginalVideoUploads": 0,
+    "newFrozenFirstLapFramesPreserved": 1,
+    "newSourceReceiptObjectsPreserved": 1,
+    "evidence": "artifacts/sundae2022-final-recovered-originals-r2-integrity-20261017.json"
   }
 }
