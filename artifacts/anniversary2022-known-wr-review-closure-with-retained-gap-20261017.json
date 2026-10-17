@@ -1,0 +1,56 @@
+{
+  "tourId": "tour-79",
+  "tour": "Anniversary Tour (2022)",
+  "checkedAt": "2026-10-17T21:26:42.394776+00:00",
+  "completedAt": "2026-10-17",
+  "status": "completed-with-documented-gaps",
+  "practicalReviewComplete": true,
+  "knownWrReviewComplete": true,
+  "historyComplete": false,
+  "exhaustiveHistoryProven": false,
+  "authorization": {
+    "source": "Direct user reply to the Anniversary 2022 closure question",
+    "decision": "Close the known WR review; retain the source gap"
+  },
+  "sourceCommit": "30e14288192d322d587644a84c5289bf2f1a0355",
+  "scope": "Known WR review under the user-authorized surviving-proof standard; complete worldwide or intermediate history is not claimed.",
+  "canonicalWrRows": 13,
+  "courseWrRows": {
+    "berlin-byways-3": 8,
+    "singapore-speedway-2": 5
+  },
+  "canonicalDatesAndDurationsVerified": true,
+  "availableCanonicalProofsOnR2": 12,
+  "acceptedReceiptOnlyCanonicalRows": 1,
+  "canonicalLinkedVideosOnR2": 7,
+  "originalMediaFullyDecoded": 11,
+  "partialDiscussionVideos": 2,
+  "knownWorksheetRowsDated": 92,
+  "knownWorksheetRows": 93,
+  "knownWorksheetDateReviewComplete": false,
+  "retainedSourceGaps": [
+    {
+      "courseId": "berlin-byways-3",
+      "sheetId": "sheet-AOZ40",
+      "playerId": "troy",
+      "time": "1:14.75",
+      "date": null,
+      "wrStatusProven": false,
+      "disposition": "Retained as an unresolved worksheet-only source gap; not assigned a date or promoted as a WR."
+    }
+  ],
+  "closureEvidence": [
+    "artifacts/anniversary2022-opening-wr-lap-reconciliation-live-verification-20261017.json",
+    "artifacts/anniversary2022-opening-wr-source-caption-lap-reconciliation-20261017.json",
+    "artifacts/anniversary2022-additional-discussion-media-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-published-progression-proof-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-troy-live-public-worksheet-range-check-20261017.json",
+    "artifacts/anniversary2022-troy-live-public-worksheet-r2-integrity-20261017.json",
+    "artifacts/anniversary2022-troy-public-source-date-search-20261017.json"
+  ],
+  "historicalBlockedAudit": "artifacts/anniversary2022-missing-source-date-blocked-audit-20261017.json",
+  "blockingDecisionResolved": true,
+  "nextTourId": "tour-80",
+  "nextTourStarted": false,
+  "datesDurationsAndRecordsChangedByClosure": false
+}

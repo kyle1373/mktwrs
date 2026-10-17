@@ -1,9 +1,9 @@
 {
   "tourId": "tour-79",
   "tour": "Anniversary Tour (2022)",
-  "status": "in-progress-source-revalidation",
-  "completedAt": null,
-  "practicalReviewComplete": false,
+  "status": "completed-with-documented-gaps",
+  "completedAt": "2026-10-17",
+  "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
   "standard": "User-authorized good-enough surviving proof. Preserve reviewed results, source clocks and unavailable-source gaps; no exhaustive conflict or deleted-source recovery.",
@@ -127,13 +127,14 @@
     "artifacts/anniversary2022-workbook-and-opening-context-r2-integrity-20261017.json",
     "artifacts/anniversary2022-additional-discussion-media-preservation-20261017.json",
     "artifacts/anniversary2022-additional-discussion-media-r2-integrity-20261017.json",
-    "artifacts/anniversary2022-opening-wr-source-caption-lap-reconciliation-20261017.json"
+    "artifacts/anniversary2022-opening-wr-source-caption-lap-reconciliation-20261017.json",
+    "artifacts/anniversary2022-known-wr-review-closure-with-retained-gap-20261017.json"
   ],
   "nextTourId": "tour-80",
-  "sourceCommit": "1e2eee8e5350a10cc5567a2c9bc226b1bb03e691",
+  "sourceCommit": "30e14288192d322d587644a84c5289bf2f1a0355",
   "previousReviewCompletedAt": "2026-10-13",
   "previousPracticalReviewComplete": true,
-  "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": false,
+  "currentKnownSourceReviewClosedWithDocumentedWorldwideLimits": true,
   "remainingUndatedWorksheetRows": [
     {
       "courseId": "berlin-byways-3",
@@ -185,7 +186,7 @@
     "availableCanonicalProofsOnR2": 12
   },
   "currentPublishedValidation": {
-    "checkedAt": "2026-10-17T20:22:58.197087+00:00",
+    "checkedAt": "2026-10-17T21:26:42.394776+00:00",
     "documentedCanonicalWrRows": 13,
     "documentedBerlinWrRows": 8,
     "documentedSingaporeWrRows": 5,
@@ -195,7 +196,7 @@
     "originalRecordingsFullyDecoded": 11,
     "knownWorksheetRowsDated": 92,
     "knownWorksheetRows": 93,
-    "liveVerificationEvidence": "artifacts/anniversary2022-recovered-record-progression-live-verification-20261017.json",
+    "liveVerificationEvidence": "artifacts/anniversary2022-opening-wr-lap-reconciliation-live-verification-20261017.json",
     "sourceGapEvidence": "artifacts/anniversary2022-original-workbook-and-opening-source-review-20261017.json",
     "sourceGapPreservationEvidence": "artifacts/anniversary2022-workbook-and-opening-context-r2-integrity-20261017.json",
     "nextTourStarted": false
@@ -308,5 +309,24 @@
     "basis": "Explicit matching original post caption; same-message completed image confirms total.",
     "sourceReceiptR2": "https://media.mktwrs.com/assets/evidence/anniversary2022-anniversary2022-opening-original-submission-source-receipt-20261017-1527fee8246c86f1bd29.json",
     "datesAndDurationsUnchanged": true
+  },
+  "knownWrReviewComplete": true,
+  "latestKnownWrReviewClosure": {
+    "checkedAt": "2026-10-17T21:26:42.394776+00:00",
+    "reviewArtifact": "artifacts/anniversary2022-known-wr-review-closure-with-retained-gap-20261017.json",
+    "evidenceR2": "https://media.mktwrs.com/assets/evidence/anniversary2022-known-wr-review-closure-d1bdfa10e9161c04dd7d.json",
+    "userDecision": "Close the known WR review; retain the source gap",
+    "remainingWorksheetSourceGap": {
+      "courseId": "berlin-byways-3",
+      "sheetId": "sheet-AOZ40",
+      "playerId": "troy",
+      "time": "1:14.75",
+      "date": null,
+      "wrStatusProven": false,
+      "disposition": "Retained as an unresolved worksheet-only source gap; not assigned a date or promoted as a WR."
+    },
+    "knownWorksheetDateReviewComplete": false,
+    "nextTourId": "tour-80",
+    "nextTourStarted": false
   }
 }
