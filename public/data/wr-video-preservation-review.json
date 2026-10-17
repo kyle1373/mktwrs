@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T03:52:27.876660+00:00",
+  "checkedAt": "2026-10-17T03:55:53.557241+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 297,
   "r2BackupNeedsReview": 68,
-  "freshOriginalByteChecks": 2,
+  "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-37",
-  "evidence": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-38",
+  "evidence": "artifacts/snow2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -3998,7 +3998,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T03:55:53.557241+00:00",
+      "evidence": "artifacts/snow2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:nDNgGMsrDIY",
@@ -4390,7 +4394,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "source-returned-no-downloadable-video-recovery-unresolved",
+      "sourceCheck": "yt-dlp: No video could be found in this tweet",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T03:55:53.557241+00:00",
+      "evidence": "artifacts/snow2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:gZ_1Jg-HxVQ",
@@ -4405,7 +4413,11 @@
         }
       ],
       "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "status": "original-unavailable-no-r2-backup",
+      "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+      "alternativeRecoveryProvenExhaustive": false,
+      "checkedAt": "2026-10-17T03:55:53.557241+00:00",
+      "evidence": "artifacts/snow2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:GhooxrUVLuY",
@@ -5801,15 +5813,15 @@
     }
   ],
   "totalOriginalByteChecksInPreservationBatches": 31,
-  "previousPreservationEvidence": "artifacts/cat2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-  "knownUnavailableOriginalsReviewed": 15,
+  "previousPreservationEvidence": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "knownUnavailableOriginalsReviewed": 17,
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 1,
   "losslessPlaybackCopiesInCurrentBatch": 0,
-  "sourceNoDownloadableVideoRecoveryGaps": 8,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 11,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 13,
-  "currentBatchUniqueR2FilesVerified": 16,
-  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 3,
-  "originalSourcesStillUnreviewed": 45
+  "sourceNoDownloadableVideoRecoveryGaps": 9,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 3,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 4,
+  "currentBatchUniqueR2FilesVerified": 6,
+  "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
+  "originalSourcesStillUnreviewed": 42
 }
