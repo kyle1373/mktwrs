@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T06:28:10.810Z",
+  "checkedAt": "2026-10-17T06:35:59.220Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
   "r2BackupRegistered": 299,
   "r2BackupNeedsReview": 66,
-  "freshOriginalByteChecks": 6,
+  "freshOriginalByteChecks": 2,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-61",
-  "evidence": "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "currentVideoPreservationTourId": "tour-62",
+  "evidence": "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -652,7 +652,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/wariowaluigi2022-bowser-13539-e3e22a99cac1.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:35:59.220Z",
+      "sha256": "e3e22a99cac1b4c23b459568a45486d169b8f069332a54da208234b786c6845f",
+      "bytes": 28474296,
+      "evidence": "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:UnxitLriMeU",
@@ -4147,7 +4151,11 @@
         }
       ],
       "r2Url": "https://media.mktwrs.com/assets/video/wariowaluigi2022-rainbow-11675-544c19ba373a.mp4",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "status": "r2-original-full-bytes-verified",
+      "checkedAt": "2026-10-17T06:35:59.220Z",
+      "sha256": "544c19ba373a3d7c43e4ee594e648a5cf371107d87dcc88533d0af79e5884e4e",
+      "bytes": 11090231,
+      "evidence": "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
     },
     {
       "key": "youtube:mjgcJcGE4Aw",
@@ -6049,28 +6057,21 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "previousPreservationEvidence": "artifacts/newyear2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+  "previousPreservationEvidence": "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
   "newOriginalUploadsInCurrentBatch": 0,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 5,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 6,
   "losslessPlaybackCopiesInCurrentBatch": 0,
   "sourceNoDownloadableVideoRecoveryGaps": 15,
-  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 5,
-  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 11,
-  "currentBatchUniqueR2FilesVerified": 13,
+  "alreadyStoredAdditionalCompletedCopiesVerifiedInCurrentBatch": 1,
+  "alreadyStoredAdditionalMediaVerifiedInCurrentBatch": 7,
+  "currentBatchUniqueR2FilesVerified": 9,
   "alreadyStoredSelectedSurvivingRecordingsVerifiedInCurrentBatch": 2,
   "originalSourcesStillUnreviewed": 27,
-  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 1,
+  "alreadyStoredAdditionalOriginalFullRunCopiesVerifiedInCurrentBatch": 0,
   "alreadyStoredSurvivingRepostRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOlderReferenceRecordingsVerifiedInCurrentBatch": 0,
   "alreadyStoredOtherCourseContextClipsVerifiedInCurrentBatch": 0,
   "knownUnavailableOriginalSources": 24,
   "alreadyStoredExcludedParodyFilesVerifiedInCurrentBatch": 0,
-  "nonCanonicalOriginalRecoveryChecksInCurrentBatch": [
-    {
-      "originalUrl": "https://www.youtube.com/watch?v=PnKptyLllnw",
-      "status": "source-video-unavailable",
-      "scope": "opening-route-short",
-      "notClassifiedAsMissingCompletedWrRun": true
-    }
-  ]
+  "nonCanonicalOriginalRecoveryChecksInCurrentBatch": []
 }
