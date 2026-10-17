@@ -67,7 +67,9 @@
     "archive/amsterdam2022-original-recording-clocks-and-selected-finish-review-20261013.json",
     "archive/amsterdam2022-canonical-recording-clock-update-20261013.json",
     "archive/amsterdam-2022-reconciliation.json",
-    "archive/amsterdam-2022-evidence-validation-20261008.json"
+    "archive/amsterdam-2022-evidence-validation-20261008.json",
+    "artifacts/amsterdam2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
+    "artifacts/amsterdam2022-source-date-duration-and-worksheet-video-correction-review-20261017.json"
   ],
   "sourceCommit": "ab20c4e209466f6d5ecba87d99c90e00678b9107",
   "latestPublicationAudit": "archive/amsterdam2022-final-publication-audit-20261013.json",
@@ -83,5 +85,94 @@
     "publicationPending": false,
     "livePublicationVerified": true,
     "coreLiveVerification": "archive/nhspeedy8172-core-live-verification-20261016.json"
+  },
+  "latestSourceAndDurationRevalidation": {
+    "checkedAt": "2026-10-17T07:33:59.976903+00:00",
+    "sixCanonicalSourceAndIntervalChecks": [
+      {
+        "courseId": "snes-choco-island-1r",
+        "id": "curated-amsterdam-2022-967704500917911562",
+        "time": "0:41.00",
+        "documentedAt": "2022-04-24T08:27:36.714Z",
+        "submittedAt": "2022-04-24T08:27:36.714Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 0.14795469907407408,
+        "thisTourCreditedDays": 0.14795469907407408,
+        "r2Url": "https://media.mktwrs.com/assets/video/amsterdam2022-83bcc2702d20a4ad99bb.mp4"
+      },
+      {
+        "courseId": "snes-choco-island-1r",
+        "id": "curated-amsterdam-2022-967757204834881586",
+        "time": "0:40.79",
+        "documentedAt": "2022-04-24T12:00:40.000Z",
+        "submittedAt": "2022-04-24T12:01:37.608Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 0.6636111111111112,
+        "thisTourCreditedDays": 0.6636111111111112,
+        "r2Url": "https://media.mktwrs.com/assets/video/amsterdam2022-2e10a3a016d6d0cfe4cc.mp4"
+      },
+      {
+        "courseId": "snes-choco-island-1r",
+        "id": "curated-amsterdam-2022-967997694318620712",
+        "time": "0:40.69",
+        "documentedAt": "2022-04-25T03:56:16.000Z",
+        "submittedAt": "2022-04-25T03:57:14.806Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 0.6324921064814815,
+        "thisTourCreditedDays": 0.6324921064814815,
+        "r2Url": "https://media.mktwrs.com/assets/video/amsterdam2022-ae3e1131f0ab3f2a31fb.mp4"
+      },
+      {
+        "courseId": "snes-choco-island-1r",
+        "id": "971934202390020136",
+        "time": "0:40.66",
+        "documentedAt": "2022-04-25T19:07:03.318Z",
+        "submittedAt": "2022-04-25T19:07:03.318Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 8.453433819444445,
+        "thisTourCreditedDays": 8.453433819444445,
+        "r2Url": "https://media.mktwrs.com/assets/video/amsterdam2022-3a247c1a735440b7b592.mp4"
+      },
+      {
+        "courseId": "rmx-rainbow-road-2",
+        "id": "curated-amsterdam-2022-967429849247514684",
+        "time": "1:21.43",
+        "documentedAt": "2022-04-23T14:16:39.000Z",
+        "submittedAt": "2022-04-23T14:20:49.978Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 6.802742488425926,
+        "thisTourCreditedDays": 6.802742488425926,
+        "r2Url": "https://media.mktwrs.com/assets/video/amsterdam2022-4ba1f0a983543f74c529.mp4"
+      },
+      {
+        "courseId": "rmx-rainbow-road-2",
+        "id": "971932178369876018",
+        "time": "1:21.37",
+        "documentedAt": "2022-05-03T15:39:50.410Z",
+        "submittedAt": "2022-05-03T15:39:50.410Z",
+        "allPlayableIntervalSumMatches": true,
+        "durationDays": 0.5973332175925926,
+        "thisTourCreditedDays": 0.5973332175925925,
+        "r2Url": "https://media.mktwrs.com/assets/video/amsterdam2022-5f7642f18291283c53da.mp4"
+      }
+    ],
+    "actualSubmissionAndOriginalVideoPublicationStoredSeparately": true,
+    "evidence": "artifacts/amsterdam2022-source-date-duration-and-worksheet-video-correction-review-20261017.json"
+  },
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T07:33:59.976903+00:00",
+    "uniqueR2FilesVerified": 14,
+    "totalObjectBytesVerified": 261093519,
+    "sourceOriginalFullRuns": 8,
+    "partialClips": 1,
+    "playbackCopies": 1,
+    "metadataAndProofObjects": 4,
+    "allTenVideoFilesDecoded": true,
+    "bothTourFinalRecordingsPreserved": true,
+    "mismatchedWorksheetVideoAndDateCorrected": true,
+    "newUploads": 1,
+    "newProofUploads": 1,
+    "newVideoUploads": 0,
+    "evidence": "artifacts/amsterdam2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
   }
 }
