@@ -46,7 +46,8 @@
     "archive/anniversary2021-all-recording-access-recheck-20261013.json",
     "archive/anniversary2021-ten-original-video-upload-clocks-20261013.json",
     "archive/anniversary2021-canonical-extra-submission-snapshot-reconciliation-20261013.json",
-    "archive/anniversary2021-docker-publication-patch-inclusion-fix-20261013.json"
+    "archive/anniversary2021-docker-publication-patch-inclusion-fix-20261013.json",
+    "artifacts/anniversary2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/second-anniversary-2021-reconciliation.json",
@@ -95,10 +96,11 @@
     "Private, deleted and unindexed global material not proven fully recovered.",
     "Unmatched slower original submissions retained in raw archive; prior-tour and leaderboard sources remain separately attributed.",
     "Prior four exact-window monthly-manifest discussion-image dispositions retained; not a fresh visual pass.",
-    "Discord now asks the saved accounts to log in again; fresh source access unavailable. Recovered original clips and prior source context remain preserved.",
+    "A prior review recorded expired Discord sessions. That historical access condition does not describe current browser access; the existing source captures remain preserved.",
     "Prior lap, route and full-race assessments retained; fresh hashes and public access verified.",
     "No claim that unavailable streams or worldwide recordings were exhausted.",
-    "Three partial technique clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified."
+    "Three partial technique clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
+    "All thirteen R2 objects passed full SHA256 and byte-length checks: ten completed runs and three partial clips. Both final WR recordings are preserved. Slower personal-best videos remain separately attributed; exact race dates and deleted/private or unindexed source history remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 423,
@@ -116,5 +118,18 @@
   "historyComplete": false,
   "latestPublicationAudit": "archive/anniversary2021-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/anniversary2021-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "b5ed8061ba2c51ab57a89c9e1ea57590037ead31"
+  "sourceCommit": "b5ed8061ba2c51ab57a89c9e1ea57590037ead31",
+  "videoPreservationReview": {
+    "checkedAt": "2026-10-17T05:36:13.566Z",
+    "audit": "artifacts/anniversary2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "uniqueR2ObjectsVerified": 13,
+    "distinctFileHashes": 13,
+    "newOriginalUploads": 0,
+    "allPublicFileBytesMatchLocalSha256": true,
+    "bothFinalWrRecordingsPreservedOnR2": true,
+    "tourCompletedRunFiles": 10,
+    "tourPartialClips": 3,
+    "youtubeUploadsPerformed": 0,
+    "exhaustiveVideoPreservationComplete": false
+  }
 }
