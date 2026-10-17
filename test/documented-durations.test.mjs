@@ -141,3 +141,15 @@ test('runner-reported morning preserves the date and narrows both the reign and 
  assert.throws(()=>applyFinalDates([c],[{...e,localWindow:{start:'2021-02-19T12:00',end:'2021-02-19T00:00'}}]),/does not match/);
  assert.throws(()=>applyFinalDates([c],[{...e,localWindow:{start:'2021-02-30T00:00',end:'2021-02-30T12:00'}}]),/does not match/);
 });
+
+test('reviewed supporting post dates are scoped and preserve original upload clocks',()=>{
+ const c={id:'course',records:[{id:'same',playerId:'a',time:'1:00.00',recordDate:'2020-04-08'}],submissions:[{id:'same',playerId:'b',time:'1:01.00',proofUploadedAt:'2020-04-08T10:00:00.001Z'}],candidates:[]};
+ const e={courseId:'course',collection:'submissions',id:'same',playerId:'b',time:'1:01.00',timestamp:'2020-04-08T10:00:00.101Z',basis:'reviewed-original-attachment-message-publication',sourceUrl:'https://example.com/post',reviewArtifact:'review.json'};
+ applyFinalDates([c],[e]);
+ assert.equal(c.records[0].documentedAt,null);assert.equal(c.records[0].finalDate,'2020-04-08');
+ assert.equal(c.submissions[0].documentedAt,e.timestamp);assert.equal(c.submissions[0].proofUploadedAt,'2020-04-08T10:00:00.001Z');
+ assert.equal(c.submissions[0].documentedDateSourceUrl,e.sourceUrl);
+ assert.throws(()=>applyFinalDates([c],[{...e,collection:'records'}]),/does not match/);
+ assert.throws(()=>applyFinalDates([c],[{...e,playerId:'wrong'}]),/does not match/);
+ assert.throws(()=>applyFinalDates([c],[{...e,collection:'invalid'}]),/Invalid documented/);
+});

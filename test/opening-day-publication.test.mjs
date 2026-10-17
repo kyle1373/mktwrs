@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {openingDayPublication,isHalloween2019OpeningDay} from '../lib/opening-day.mjs';
+import {openingDayPublication,isHalloween2019OpeningDay,isReviewedOpeningDay} from '../lib/opening-day.mjs';
 test('opening day keeps the fastest tie and later history without creating profiles from superseded opening results',()=>{
  const row=(id,playerId,timeCs,achievedAt)=>({id,playerId,timeCs,achievedAt});
  const records=[row('early','early',7000,'2019-10-23'),row('best','best',6500,'2019-10-23'),row('tie','tie',6500,'2019-10-23'),row('later','later',6400,'2019-10-24'),{...row('unknown','unknown',6600,null),dateUnresolved:true}];
@@ -47,4 +47,12 @@ test('Paris opening day retains only its fastest run while preserving later reco
   {id:'best',playerId:'b',timeCs:4850,achievedAt:'2019-11-06'},
   {id:'later',playerId:'c',timeCs:4847,achievedAt:'2019-11-07'}];
  assert.deepEqual(openingDayPublication([{records,appearances:[{tourId:'tour-4'}]}],[]).courses[0].records.map(r=>r.id),['best','later']);
+});
+
+test('Yoshi 2020 uses reconciled publication clocks across the complete opening 24 hours',()=>{
+ const row=(id,timeCs,clock)=>({id,playerId:id,timeCs,achievedAt:clock.slice(0,10),documentedAt:clock});
+ const records=[row('before',7100,'2020-04-08T05:59:59Z'),row('early',7000,'2020-04-08T06:00:00Z'),row('best',6900,'2020-04-09T05:59:59Z'),row('next',6800,'2020-04-09T06:00:00Z')];
+ assert.deepEqual(records.map(r=>isReviewedOpeningDay(r,'2020-04-08')),[false,true,true,false]);
+ assert.deepEqual(openingDayPublication([{records,appearances:[{tourId:'tour-15'}]}],[]).courses[0].records.map(r=>r.id),['before','best','next']);
+ assert.equal(isReviewedOpeningDay({...records[1],dateUnresolved:true},'2020-04-08'),false);
 });
