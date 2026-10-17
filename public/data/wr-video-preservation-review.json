@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T02:05:49.241Z",
+  "checkedAt": "2026-10-17T02:16:59.744Z",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
   "uniqueCanonicalVideoKeys": 365,
-  "r2BackupRegistered": 288,
-  "r2BackupNeedsReview": 77,
+  "r2BackupRegistered": 289,
+  "r2BackupNeedsReview": 76,
   "freshOriginalByteChecks": 3,
   "exhaustiveVideoPreservationComplete": false,
   "youtubeUploadsPerformed": 0,
   "currentDateReviewTourId": "tour-17",
-  "currentVideoPreservationTourId": "tour-25",
-  "evidence": "artifacts/summerfest2020-three-original-video-r2-preservation-20261016.json",
+  "currentVideoPreservationTourId": "tour-26",
+  "evidence": "artifacts/supermario2020-two-supplied-originals-and-result-clip-r2-preservation-20261016.json",
   "rows": [
     {
       "key": "x:1322218799765008384",
@@ -1878,8 +1878,15 @@
           "documentedAt": "2020-09-10T14:12:49.813Z"
         }
       ],
-      "r2Url": null,
-      "status": "r2-backup-needs-review"
+      "r2Url": "https://media.mktwrs.com/assets/video/supermario2020-superfx-fm9lEZ59ZiI-be41ceeda268.mp4",
+      "status": "verified-original-and-lossless-playback-copy-on-r2",
+      "videoScope": "full-run",
+      "originalArchive": {
+        "url": "https://media.mktwrs.com/assets/video/supermario2020-superfx-ghost-valley-1r-886e8b1889ad.mov",
+        "sha256": "886e8b1889adb8619c999076a942921b586bd9c103b4ada8936fa0a9555521e2",
+        "bytes": 15943699,
+        "preservedOriginalFile": "archive/video-backup-files/superfx-supplied/1599731230/RPReplay_Final1599731230.mov"
+      }
     },
     {
       "key": "youtube:56geub5VTko",
@@ -4257,8 +4264,15 @@
           "documentedAt": "2020-09-10T23:28:05.018Z"
         }
       ],
-      "r2Url": "https://media.mktwrs.com/assets/video/supermario2020-royal-raceway-13487-2431c6ba795d.webm",
-      "status": "r2-backup-registered-not-freshly-verified"
+      "r2Url": "https://media.mktwrs.com/assets/video/supermario2020-superfx-11WZcxrEYsw-556ed3a9693e.mp4",
+      "status": "verified-original-and-lossless-playback-copy-on-r2",
+      "videoScope": "full-run",
+      "originalArchive": {
+        "url": "https://media.mktwrs.com/assets/video/supermario2020-superfx-royal-raceway-c2a60a7cc4d7.mov",
+        "sha256": "c2a60a7cc4d79cc213bee026b581dfa9c936f13aef7f8d4b8de69f155d030e13",
+        "bytes": 31808352,
+        "preservedOriginalFile": "archive/video-backup-files/superfx-supplied/1599780442/RPReplay_Final1599780442.mov"
+      }
     },
     {
       "key": "youtube:32HXvsU7LOA",
@@ -5521,9 +5535,10 @@
       "status": "r2-backup-registered-not-freshly-verified"
     }
   ],
-  "totalOriginalByteChecksInPreservationBatches": 9,
-  "previousPreservationEvidence": "artifacts/trick2020-two-original-wr-videos-r2-preservation-20261016.json",
+  "totalOriginalByteChecksInPreservationBatches": 12,
+  "previousPreservationEvidence": "artifacts/summerfest2020-three-original-video-r2-preservation-20261016.json",
   "knownUnavailableOriginalsReviewed": 3,
-  "newOriginalUploadsInCurrentBatch": 1,
-  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 2
+  "newOriginalUploadsInCurrentBatch": 2,
+  "alreadyStoredOriginalClipsVerifiedInCurrentBatch": 1,
+  "losslessPlaybackCopiesInCurrentBatch": 2
 }
