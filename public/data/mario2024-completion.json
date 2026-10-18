@@ -3,7 +3,7 @@
   "tour": "Mario Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled with good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -16,13 +16,33 @@
       "courseId": "n64-luigi-raceway",
       "archivedWr": "1:12.13",
       "fastestDocumentedRecording": "1:12.32",
-      "supportingDisplayed": 21
+      "supportingDisplayed": 21,
+      "carriedStanding": {
+        "id": "1089607541148889108",
+        "playerId": "dit",
+        "time": "1:12.20",
+        "documentedAt": "2023-03-11T15:25:27.292Z",
+        "durationDays": 14.93849712962963,
+        "durationEnd": "2024-03-10T13:56:53.444Z"
+      },
+      "worksheetRowsDated": 26,
+      "recordingReviewBasis": "Prior completed result movie review retained by exact original hash; no new uninterrupted continuity certification."
     },
     {
       "courseId": "snes-donut-plains-3r",
       "archivedWr": "0:57.13",
       "fastestDocumentedRecording": "0:57.13",
-      "supportingDisplayed": 10
+      "supportingDisplayed": 10,
+      "carriedStanding": {
+        "id": "1089608065063596185",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "time": "0:57.13",
+        "documentedAt": "2023-03-14T14:27:27.000Z",
+        "durationDays": 49.64760416666667,
+        "durationEnd": "2026-09-30T06:00:00.000Z"
+      },
+      "worksheetRowsDated": 9,
+      "recordingReviewBasis": "Prior completed result movie review retained by exact original hash; no new uninterrupted continuity certification."
     }
   ],
   "coverage": {
@@ -40,36 +60,143 @@
     "newWrIds": 0,
     "savedDiscussionRows": 81,
     "boundedPreservedSubmissionGapRows": 65,
-    "freshBrowserCensusCompleted": false
+    "freshBrowserCensusCompleted": false,
+    "knownWorksheetRows": 36,
+    "knownWorksheetRowsDated": 35,
+    "remainingUndatedWorksheetRows": 1,
+    "knownWrEntriesDateAndDurationReviewed": 3,
+    "currentWindowWrEntries": 3,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 41,
+    "derivedFinishFramesRevalidated": 1,
+    "preservedProofAndSourceObjectsVerified": 47,
+    "carriedProofRepresentationsRevalidated": 2,
+    "originalMoviesRevalidated": 5,
+    "knownWrIdsAdded": 0
   },
   "evidence": [
     "archive/mario2024-original-preservation-and-source-review-20261015.json",
     "archive/mario2024-preserved-bounded-source-census-20261015.json",
     "archive/mario2024-posted-results-and-preserved-source-reconciliation-20261015.json",
-    "archive/mario2024-full-course-generation-and-source-field-preservation-20261015.json"
+    "archive/mario2024-full-course-generation-and-source-field-preservation-20261015.json",
+    "artifacts/mario2024-source-date-reconciliation-20261018.json",
+    "artifacts/mario2024-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/mario2024-all-supported-worksheet-and-wr-source-clock-verification-20261018.json",
+    "artifacts/mario2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/mario2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/mario2024-five-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/mario2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/mario2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Repost receipts and video sharing events retain their independent clocks.",
   "remainingLimitations": [
-    "Prior original assessments retained by SHA256; no fresh visual certification.",
-    "Two cancelled originals remain unavailable; related surviving posts do not prove matching bytes.",
-    "One historical identity retains its current association without an invented account merge.",
-    "Three late Doctor images remain source-only for this review.",
-    "Deleted-user WR-claim movie is an item-box challenge with no TT result.",
-    "REMON lap clip establishes no whole-race total.",
-    "Wins movie is a 2023 partial finish source; its 2024 repost is not a new result.",
-    "Fresh Discord interaction rejected by URL protocol policy; preserved source census used.",
-    "Final Luigi Raceway WR 1:12.13 has no available movie; nekozuki 1:12.32 remains the documented recording for this tour.",
-    "Unavailable movie IDs UMOcRIvxAMY and Ddnue0rIQ-w retain references without fabricated footage.",
-    "Preserved source census does not prove exhaustive worldwide history."
+    "35 of36 worksheet entries have supported single documented dates. Keron0614 LuigiRaceway1:13.94 retains its source/date gap.",
+    "Three current WR entries and two carried standings have exact documented endpoints and independently recomputed playable durations. No new WR IDs or profile credits.",
+    "Remon tied1:12.20 is dated from original discussion2024-03-09T06:40:57.491Z, earlier than its later submission/repost. Subsequent nekozuki1:12.17 postedMarch10 and1:12.13 postedMarch12 retain their original clocks.",
+    "LuigiRaceway archivedWR1:12.13 and available completed-result recording1:12.32 remain distinct. DonutPlains3R0:57.13 retains its earlier reviewed YouTube publication2023-03-14T14:27:27Z.",
+    "All41 original images, one derived video finish frame, two carried proof representations and three source audits pass full GET/SHA/bytes/MIME/directRange206. All five movies fully decode.",
+    "Two completed-result movies remain distinct from a singlelap, an itemboxchallenge and an older partialfinish repost. Prior visual assessments retained by exact hashes; no fresh continuity audit.",
+    "Two cancelled original attachments remain missing. Surviving related results are independently reviewed without asserting identical bytes. Three late Doctor images remain source-only here.",
+    "Targeted original Discord posts were freshly accessible and checked. The preserved census and targeted checks do not prove exhaustive worldwide history.",
+    "Global2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 19,
-    "fullGeneratedRowsMatched": 330,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "productionBuildAudit": "archive/mario2024-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 47,
+    "originalImageUrlsVerified": 41,
+    "derivedFinishFramesVerified": 1,
+    "fiveMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all35SupportedWorksheetSourceClocksVerified": true,
+    "currentFinalAndCarriedSourcePostingClocksFreshlyVerified": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mario2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 14,
+    "freshBoundedDiscordCensusClaimed": false
   },
   "nextTourId": "tour-118",
-  "latestLivePublicationAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 42,
+      "indexedOriginalsAvailable": 40,
+      "earlierDiscussionOriginals": 1,
+      "derivedFinishFrames": 1,
+      "currentImagePerformances": 35,
+      "currentCompletedMoviePerformances": 1,
+      "olderPartialMoviePerformances": 1,
+      "moviesPreserved": 5,
+      "r2FilesVerified": 47,
+      "missingCancelledOriginals": 2,
+      "existingWrIdsRetained": 19,
+      "newWrIds": 0,
+      "savedDiscussionRows": 81,
+      "boundedPreservedSubmissionGapRows": 65,
+      "freshBrowserCensusCompleted": false,
+      "knownWorksheetRows": 36,
+      "knownWorksheetRowsDated": 35,
+      "remainingUndatedWorksheetRows": 1,
+      "knownWrEntriesDateAndDurationReviewed": 3,
+      "currentWindowWrEntries": 3,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 41,
+      "derivedFinishFramesRevalidated": 1,
+      "preservedProofAndSourceObjectsVerified": 47,
+      "carriedProofRepresentationsRevalidated": 2,
+      "originalMoviesRevalidated": 5,
+      "knownWrIdsAdded": 0
+    },
+    "validation": {
+      "focusedTestsPassed": 19,
+      "fullGeneratedRowsMatched": 330,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "productionBuildAudit": "archive/mario2024-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/mario2024-exact-live-publication-and-full-field-check-20261015.json"
+    },
+    "remainingLimitations": [
+      "Prior original assessments retained by SHA256; no fresh visual certification.",
+      "Two cancelled originals remain unavailable; related surviving posts do not prove matching bytes.",
+      "One historical identity retains its current association without an invented account merge.",
+      "Three late Doctor images remain source-only for this review.",
+      "Deleted-user WR-claim movie is an item-box challenge with no TT result.",
+      "REMON lap clip establishes no whole-race total.",
+      "Wins movie is a 2023 partial finish source; its 2024 repost is not a new result.",
+      "Fresh Discord interaction rejected by URL protocol policy; preserved source census used.",
+      "Final Luigi Raceway WR 1:12.13 has no available movie; nekozuki 1:12.32 remains the documented recording for this tour.",
+      "Unavailable movie IDs UMOcRIvxAMY and Ddnue0rIQ-w retain references without fabricated footage.",
+      "Preserved source census does not prove exhaustive worldwide history."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mario2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-BNP12",
+      "reason": "Keron0614 LuigiRaceway1:13.94 lacks a matching preserved dated source. No fabricated date or new WR credit."
+    },
+    {
+      "id": "luigi-final-wr-movie",
+      "reason": "No surviving available movie for LuigiRaceway1:12.13. Preserved nekozuki1:12.32 is separately linked as available result footage."
+    },
+    {
+      "id": "cancelled-receipt-originals",
+      "reason": "Litchi1215087685803319347 and Remon1215937821290926131 cancelled originals unavailable; related surviving posts do not prove identical bytes."
+    },
+    {
+      "id": "unavailable-youtube-references",
+      "reason": "UMOcRIvxAMY and Ddnue0rIQ-w remain unavailable references without fabricated footage."
+    },
+    {
+      "id": "partial-and-non-tt-movies",
+      "reason": "Remon35.04 singlelap, DeletedUseritemboxchallenge and olderWinspartialfinish preserved without completed TT-run claims or new WR credit."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Documented source dates cannot certify private achievement dates or lost/unsubmitted worldwide history. Targeted fresh Discord checks do not constitute a fresh exhaustive census."
+    }
+  ]
 }
