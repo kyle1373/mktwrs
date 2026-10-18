@@ -643,6 +643,8 @@ recomputeRecordDurations({records:[...doctor2024SkyRows, {...doctor2024Successor
 for (const r of [...doctor2024PgrRows, ...doctor2024SkyRows]) r.chronologyDate = r.submittedAt;
 
 // The recurring wiki entry reuses a 2022 page title; label this reviewed appearance by its actual year.
+const halloween2023 = tours.find(t => t.id === "tour-107" && t.startDate === "2023-10-18");
+if (halloween2023) halloween2023.name = "Halloween Tour (2023)";
 const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
 const holiday2023 = tours.find(t => t.id === "tour-111" && t.startDate === "2023-12-13");
