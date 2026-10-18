@@ -2,7 +2,7 @@
   "tourId": "tour-89",
   "tour": "Exploration Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -24,7 +24,8 @@
           "playerId": "phillish",
           "time": "1:09.38",
           "submittedAt": null,
-          "sourceObservedAt": "2023-02-08T16:37:57.784Z"
+          "sourceObservedAt": "2023-02-08T16:37:57.784Z",
+          "documentedAt": "2023-02-08T16:37:30.000Z"
         },
         {
           "playerId": "chris95",
@@ -75,7 +76,9 @@
       "recordingPublishedAt": "2023-02-20T12:37:28Z",
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/exploration2023-1627648415969443840-891795fe6134.mp4",
       "priorSampledVideoReviewRetained": false,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "openingOriginalVideoPublishedAt": "2023-02-08T16:37:30.000Z",
+      "sampledOriginalVideoResultReviewed": true
     },
     {
       "id": "piranha-plant-cove-2",
@@ -145,7 +148,7 @@
     "hashFailures": 0,
     "newFullRecordingsPreservedOnR2": 4,
     "newPartialRecordingsPreservedOnR2": 2,
-    "newPublicR2ProofObjectsByteVerified": 4,
+    "newPublicR2ProofObjectsByteVerified": 84,
     "recoveredProgressionRowsAdded": 5,
     "tourWrSteps": 15,
     "carriedInRecords": 0,
@@ -153,7 +156,15 @@
     "materialFieldDifferences": 0,
     "removedCorrectedDuplicateCandidates": 1,
     "qualifiedWrongInputDuplicate": 1,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "worksheetRows": 55,
+    "worksheetRowsDated": 55,
+    "newWorksheetDatesReconciled": 52,
+    "worksheetDateSourceGaps": 0,
+    "afterResetPostingDatesQualified": 2,
+    "incorrectWorksheetSplitSumCorrected": 1,
+    "originalR2RecordingsRevalidated": 6,
+    "newPublicR2ProofBytesVerified": 104041392
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -163,7 +174,7 @@
     "renderedPreservedEvidenceLinksReadable": 53,
     "wrAndCarriedInEvidenceEntries": 15,
     "failedLinks": 0,
-    "productionBuildPages": 892,
+    "productionBuildPages": 891,
     "focusedVideoAndOpeningTestsPassed": 15,
     "openingFinalFastestAndRecordingSelectionsPassed": true,
     "completionLabelLiveVerified": true,
@@ -172,7 +183,14 @@
       "piranha-plant-cove": 48,
       "piranha-plant-cove-2": 26
     },
-    "liveWrAndCarriedInEvidenceEntries": 15
+    "liveWrAndCarriedInEvidenceEntries": 15,
+    "dataBuildPassed": true,
+    "productionBuildPassed": true,
+    "liveCurrentReviewVerified": false,
+    "scopeValidationArtifact": "artifacts/exploration2023-publication-date-duration-and-scope-validation-20261018.json",
+    "all15WrEvidenceLinksPassed": true,
+    "all84R2SourceObjectsHashBytesMimeRangeVerified": true,
+    "fastestDocumentedRecordingsVerified": true
   },
   "remainingLimitations": [
     "RecoveredopeningCove69.38isrunner video share; bot submission and privateachievementtimeunknown.",
@@ -184,7 +202,9 @@
     "Two partialclips retainedwithout completed-runclaims.",
     "Phillishwrong69.95inputand cancelled68.67caption retainliteralcorrections89.95/68.66, noextraWR.",
     "Previous sampledimage/videoassessments retained; nofreshuninterruptedrace certification.",
-    "Exhaustive deleted-source coverage and preciseprivateachievement times unknown."
+    "Exhaustive deleted-source coverage and preciseprivateachievement times unknown.",
+    "Two worksheet results submitted after the reset have accurate posting dates; earlier private achievement dates are not inferred.",
+    "Phillish incorrect1:08.84 worksheet input preserved as originalWorksheetTime; corrected screenshot total1:08.86 has zero WR credit."
   ],
   "evidence": [
     "archive/exploration2023-practical-source-disposition-index-20261014.json",
@@ -200,8 +220,22 @@
     "archive/exploration2023-two-partial-original-r2-preservation-20261014.json",
     "archive/exploration2023-completion-label-build-check-20261014.json",
     "archive/exploration2023-completion-label-live-check-20261014.json",
-    "archive/exploration2023-rendered-proof-and-video-live-link-audit-20261014.json"
+    "archive/exploration2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "artifacts/exploration2023-source-date-reconciliation-20261018.json",
+    "artifacts/exploration2023-two-after-reset-original-posting-clocks-20261018.json",
+    "artifacts/exploration2023-phillish-original-correction-source-20261018.json",
+    "artifacts/exploration2023-opening-original-video-publication-clock-20261018.json",
+    "artifacts/exploration2023-six-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/exploration2023-opening-and-final-recording-result-source-review-20261018.json",
+    "artifacts/exploration2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/exploration2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/exploration2023-fifteen-known-wr-proof-link-check-20261018.json",
+    "artifacts/exploration2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/exploration2023-wins-original-recording-lap-and-result-review-20261018.json"
   ],
   "nextTourId": "tour-90",
-  "sourceCommit": "a776113bf4a8ccab46171d4af012c6146b94a46e"
+  "sourceCommit": "a77042266b364a0166d48718aa917bfa37cbbc76",
+  "knownWrReviewClosed": true,
+  "knownWrReviewStandard": "Original dated source, retained media and explicit limitations; worksheet dates use posting or original video publication.",
+  "previousReviewSourceCommit": "a776113bf4a8ccab46171d4af012c6146b94a46e"
 }
