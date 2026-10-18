@@ -3,7 +3,7 @@
   "tour": "Peach vs. Bowser Tour (2023)",
   "status": "completed-with-documented-gaps",
   "standard": "Captured surviving sources reconciled with good-enough documentary proof; exhaustive worldwide history is not certified.",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -16,19 +16,75 @@
       "courseId": "3ds-bowser-s-castle-r",
       "archivedWr": "1:38.39",
       "fastestDocumentedRecording": "1:38.39",
-      "supportingDisplayed": 19
+      "supportingDisplayed": 19,
+      "carriedStanding": {
+        "id": "966559082955821056",
+        "playerId": "nu11",
+        "time": "1:38.39",
+        "documentedAt": "2022-04-19T14:28:24.000Z",
+        "durationDays": 29.524685844907406,
+        "durationEnd": "2024-11-28T03:03:56.857Z"
+      },
+      "datedTourHistory": [],
+      "worksheetRowsDated": 20
     },
     {
       "courseId": "ds-peach-gardens",
       "archivedWr": "1:26.58",
       "fastestDocumentedRecording": "1:26.58",
-      "supportingDisplayed": 13
+      "supportingDisplayed": 13,
+      "carriedStanding": {
+        "id": "1053522904882626601",
+        "playerId": "troy",
+        "time": "1:26.60",
+        "documentedAt": "2022-12-03T08:23:46.168Z",
+        "durationDays": 18.098506296296296,
+        "durationEnd": "2023-12-06T10:45:37.112Z"
+      },
+      "datedTourHistory": [
+        {
+          "id": "1189361589913124894",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:26.58",
+          "documentedAt": "2023-12-06T10:45:37.112Z",
+          "durationDays": 21.13368420138889,
+          "durationEnd": "2025-11-26T13:58:07.427Z"
+        }
+      ],
+      "worksheetRowsDated": 14
     },
     {
       "courseId": "n64-royal-raceway",
       "archivedWr": "1:33.66",
       "fastestDocumentedRecording": "1:33.66",
-      "supportingDisplayed": 12
+      "supportingDisplayed": 12,
+      "carriedStanding": {
+        "id": "896333179479285770",
+        "playerId": "nu11",
+        "time": "1:33.97",
+        "documentedAt": "2020-11-08T14:28:09.306Z",
+        "durationDays": 24.87662042824074,
+        "durationEnd": "2023-11-30T11:30:29.311Z"
+      },
+      "datedTourHistory": [
+        {
+          "id": "curated-1179746269653118976-peach-bowser2023-image-reviewed",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:33.76",
+          "documentedAt": "2023-11-30T11:30:29.311Z",
+          "durationDays": 0.890372037037037,
+          "durationEnd": "2023-12-01T08:52:37.455Z"
+        },
+        {
+          "id": "1189361686306619392",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:33.66",
+          "documentedAt": "2023-12-01T08:52:37.455Z",
+          "durationDays": 32.117784444444446,
+          "durationEnd": "2025-12-02T11:42:14.031Z"
+        }
+      ],
+      "worksheetRowsDated": 12
     }
   ],
   "coverage": {
@@ -43,14 +99,39 @@
     "boundedSourceRows": 111,
     "otherContextRows": 19,
     "newWrIds": 0,
-    "existingWrIdsRetained": 50
+    "existingWrIdsRetained": 50,
+    "knownWorksheetRows": 47,
+    "knownWorksheetRowsDated": 46,
+    "remainingUndatedWorksheetRows": 1,
+    "knownWrEntriesDateAndDurationReviewed": 3,
+    "carriedWrEntriesDateAndDurationReviewed": 3,
+    "originalImageEntriesRevalidated": 62,
+    "indexedOriginalImageUrlsRevalidated": 60,
+    "additionalCarriedProofRepresentationsRevalidated": 3,
+    "preservedProofAndSourceObjectsVerified": 68,
+    "originalMoviesRevalidated": 5,
+    "earlierVideoPublicationRowsCorrected": 6,
+    "earlierScreenshotWorksheetRowsCorrected": 1
   },
   "evidence": [
     "archive/peachbowser2023-complete-original-preservation-and-source-audit-20261014.json",
     "archive/peachbowser2023-posted-results-and-source-clock-reconciliation-20261014.json",
     "archive/peachbowser2023-bounded-context-disposition-20261014.json",
     "archive/peachbowser2023-full-course-generation-and-source-field-preservation-20261014.json",
-    "archive/peachbowser2023-production-build-and-rendered-evidence-link-check-20261014.json"
+    "archive/peachbowser2023-production-build-and-rendered-evidence-link-check-20261014.json",
+    "artifacts/peachbowser2023-source-date-reconciliation-20261018.json",
+    "artifacts/peachbowser2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/peachbowser2023-original-source-clock-and-input-disposition-review-20261018.json",
+    "artifacts/peachbowser2023-new-and-carried-source-clock-browser-verification-20261018.json",
+    "artifacts/peachbowser2023-original-movie-publication-metadata-verification-20261018.json",
+    "artifacts/peachbowser2023-later-publication-duration-boundary-review-20261018.json",
+    "artifacts/peachbowser2023-existing-worksheet-earlier-screenshot-date-review-20261018.json",
+    "artifacts/peachbowser2023-all-supported-worksheet-source-clock-verification-20261018.json",
+    "artifacts/peachbowser2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/peachbowser2023-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/peachbowser2023-five-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/peachbowser2023-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/peachbowser2023-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Use original source post dates as submission dates unless other evidence establishes another date. Videos retain separate publication and observed sharing clocks. Late submissions keep their actual posting dates.",
   "remainingLimitations": [
@@ -59,16 +140,42 @@
     "Recovered Shine original PNG is corroborated by OCR and prior image assessment; no fresh visual certification.",
     "Matching hashes retain earlier image and first-lap/result movie assessments. No fresh uninterrupted-race certification.",
     "Preserved discussions, cancelled receipts and late Animal sources do not invent new current-tour results.",
-    "Bounded surviving source review does not establish exhaustive worldwide history."
+    "Bounded surviving source review does not establish exhaustive worldwide history.",
+    "46of47worksheet dates are reconciled; the unsupported Kotatyun identity/date remains a named gap at user direction. Two Hatemato aliases use preserved shared account evidence without profile merge.",
+    "Three current WRs and three carried standings have exact playable durations, independently intersected with course appearance windows. Later January2026retrospective publication uses its actual posting date rather than an invented2025race clock. Later-tour full review remains pending.",
+    "60indexed original URLs plus2additional supporting originals,3carried proof representations and3source audits pass full GET/SHA/bytes/MIME/Range206. Byte-identical repost URLs checked separately. Five movies fully decode; prior result/lap reviews retained without fresh uninterrupted-race certification.",
+    "Three tour WR recording comparisons restored for this occurrence, including carried Nu11 Bowser Castle R98.39 and current Sucha86.58/93.66 result-reviewed footage. Global2019\u20132026archive unfinished."
   ],
   "validation": {
-    "focusedTestsPassed": 21,
-    "fullGeneratedRowsMatched": 669,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2LinksReadable": 63,
-    "livePublicationAudit": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 139,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 68,
+    "originalImageUrlsVerified": 62,
+    "fiveMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all46SupportedWorksheetClocksVerified": true,
+    "sixNewAndCarriedOriginalPostingClocksFreshlyVerified": true,
+    "videoRegressionTestsPassed": 14,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/peachbowser2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
   },
   "nextTourId": "tour-111",
-  "latestLivePublicationAudit": "archive/peachbowser2023-exact-live-publication-and-full-field-check-20261014.json"
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/peachbowser2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-BIR10",
+      "reason": "Kotatyun1:28.78 has no supported date; matching DeletedUser screenshot2023-11-30T16:06:09.456Z does not establish identity. User authorized closing known WR review while retaining this gap."
+    },
+    {
+      "id": "undated-previous-best-13386",
+      "reason": "No independently dated source for previous-best1:33.86; no invented WR credit."
+    },
+    {
+      "id": "anonymous-result-identities",
+      "reason": "Two DeletedUser results retain anonymous attribution; no account merge."
+    }
+  ]
 }
