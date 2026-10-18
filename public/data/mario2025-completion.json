@@ -3,7 +3,7 @@
   "tour": "Mario Tour (2025)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -16,13 +16,57 @@
       "courseId": "snes-donut-plains-3r",
       "archivedWr": "0:57.13",
       "fastestDocumentedRecording": "0:57.13",
-      "supportingDisplayed": 3
+      "supportingDisplayed": 3,
+      "worksheetRows": 2,
+      "worksheetRowsDated": 2,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "snes-donut-plains-3r",
+          "id": "1089608065063596185",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "0:57.13",
+          "documentedAt": "2023-03-14T14:27:27.000Z",
+          "durationDays": 49.64760416666667,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ],
+      "historicalRecordingSource": [],
+      "recordingReviewBasis": "Preserved original clocks, hashes and qualified completed-result assessments; no fresh uninterrupted continuity certification."
     },
     {
       "courseId": "n64-luigi-raceway",
       "archivedWr": "1:12.08",
       "fastestDocumentedRecording": "1:12.08",
-      "supportingDisplayed": 8
+      "supportingDisplayed": 8,
+      "worksheetRows": 5,
+      "worksheetRowsDated": 5,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [
+        {
+          "courseId": "n64-luigi-raceway",
+          "id": "1353222746787676162",
+          "playerId": "remon",
+          "time": "1:12.08",
+          "documentedAt": "2025-03-10T00:45:18.936Z",
+          "durationDays": 19.817315555555556,
+          "durationEnd": "2026-03-14T20:22:15.000Z"
+        }
+      ],
+      "carriedStandings": [
+        {
+          "courseId": "n64-luigi-raceway",
+          "id": "1224448025263345876",
+          "playerId": "nekozuki",
+          "time": "1:12.13",
+          "documentedAt": "2024-03-12T05:19:46.244Z",
+          "durationDays": 12.809406157407407,
+          "durationEnd": "2025-03-10T00:45:18.936Z"
+        }
+      ],
+      "historicalRecordingSource": [],
+      "recordingReviewBasis": "Preserved original clocks, hashes and qualified completed-result assessments; no fresh uninterrupted continuity certification."
     }
   ],
   "coverage": {
@@ -41,7 +85,26 @@
     "postCloseContextRows": 0,
     "matchedReceiptsRetainedAsSourceOnly": 2,
     "freshBrowserCensusCompleted": false,
-    "allAffectedCourseRows": 330
+    "allAffectedCourseRows": 330,
+    "knownWorksheetRows": 7,
+    "knownWorksheetRowsDated": 7,
+    "remainingUndatedWorksheetRows": 0,
+    "currentWindowWrEntries": 1,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "supportingHistoricalWrEntriesDateAndDurationReviewed": 0,
+    "currentOriginalImagesRevalidated": 12,
+    "currentUniqueStandardPerformances": 12,
+    "preservedProofAndSourceObjectsVerified": 37,
+    "publicationMetadataObjectsVerified": 2,
+    "originalMoviesRevalidated": 2,
+    "completedMoviesRevalidated": 2,
+    "carriedCompletedMovies": 1,
+    "currentCompletedWrMovies": 1,
+    "partialMovies": 0,
+    "knownWrIdsAdded": 0,
+    "freshWorksheetSourceClocksVerified": 7,
+    "currentOriginalPerformanceClocksVerified": 12,
+    "originalAndLinkedReceiptClocksVerified": 15
   },
   "evidence": [
     "archive/mario2025-original-preservation-and-source-review-20261015.json",
@@ -49,26 +112,129 @@
     "archive/mario2025-posted-results-and-source-clock-reconciliation-20261015.json",
     "archive/mario2025-full-course-generation-and-source-field-preservation-20261015.json",
     "archive/mario2025-edited-receipt-source-dispositions-20261015.json",
-    "archive/mario2025-wr-original-video-result-and-clock-review-20261015.json"
+    "archive/mario2025-wr-original-video-result-and-clock-review-20261015.json",
+    "artifacts/mario2025-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/mario2025-supported-worksheet-source-clock-map-20261018.json",
+    "artifacts/mario2025-two-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/mario2025-current-wr-and-opening-original-submissions-dom-20261018.json",
+    "artifacts/mario2025-carried-2023-donut-original-wr-receipt-dom-20261018.json",
+    "artifacts/mario2025-original-image-machine-ocr-20261018.json",
+    "artifacts/mario2025-carried-original-wr-clock-review-20261018.json",
+    "artifacts/mario2025-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/mario2025-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/mario2025-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/mario2025-current-original-result-and-source-review-20261018.json",
+    "artifacts/mario2025-closing-original-submissions-dom-20261018.json",
+    "artifacts/mario2025-cancelled-original-fresh-access-check-20261018.json",
+    "artifacts/mario2025-yellow-result-timer-machine-ocr-20261018.json",
+    "artifacts/mario2025-carried-2024-luigi-original-wr-dom-20261018.json",
+    "https://media.mktwrs.com/assets/proof/mario2025-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
   "remainingLimitations": [
-    "Preserved Discord captures reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
-    "One cancelled p_en submission lacks its original image; the later surviving1:12.28 screenshot is retained without assuming identical bytes.",
-    "REMON1:12.08 enriches the existing stable WR, without duplicate WR credit. Future2026 REMON1:12.03 remains in later history.",
-    "The original screenshot was posted March10; the recovered video was published August4. The edited Discord post does not establish when the video was first shared.",
-    "Prior hash-matching result assessments retained; the recovered movie finish and first-lap clock are freshly sampled, without uninterrupted-race certification.",
-    "The renamed Japanese display name retains its existing association; no account merge is invented."
+    "Known WR review closed. All seven current worksheet entries have supported single public evidence timestamps and original source identity.",
+    "The current REMON1:12.08 screenshot, worksheet row and recording remain attached to one stable WR ID. Eleven other captured current performances retain zero WR days.",
+    "The current Luigi Raceway WR, its carried1:12.13 predecessor and the standing Donut Plains3R0:57.13 have independently verified exact playable durations, including pauses outside course availability.",
+    "REMON\u2019s1:12.08 original image was posted March10,2025 at00:45:18.936Z. That source governs the public date; the later video metadata never moves the WR to August.",
+    "The source\u2019s March12 edited link and the saved August4 video metadata conflict as evidence of original video publication. Both are preserved as reported clocks; first video publication and first human sharing remain uncertified.",
+    "Sucha\u2019s Donut Plains3R0:57.13 original video publication March14,2023 at14:27:27Z predates the14:29:42.475Z receipt and governs that WR\u2019s public date.",
+    "The renamed Japanese display name keeps its existing account-supported association. No new profile merge or duplicate WR credit is assigned.",
+    "Twelve original screenshots match preserved hashes. Machine OCR corroborates eight timers; fresh original-caption lap sums corroborate the remaining four, together with prior hash-matching result assessments. No fresh human image review is claimed.",
+    "All fifteen original and linked accepted-receipt clocks match fresh Codex-browser DOM and Discord snowflakes. The cancelled earlier original still returns404, and no image identity is invented.",
+    "Both complete movies pass full GET,SHA256,bytes,MIME,directRange206 and full decode. The qualified prior sampled Luigi Raceway lap/finish review is retained without fresh uninterrupted continuity certification.",
+    "All37 source/proof objects pass full GET,hashes,bytes,MIME and directRange206, including two filtered metadata objects and the preserved prior sampled video result image. Raw retrieval IP and temporary transport URLs are excluded.",
+    "The full2019\u20132026 archive and final calendar-cutoff audit remain in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 14,
-    "fullGeneratedRowsMatched": 330,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "productionEvidenceAudit": "archive/mario2025-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/mario2025-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 37,
+    "twoMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "allSevenWorksheetDatesAndIdentitiesVerified": true,
+    "threeWrDurationsIndependentlyVerified": true,
+    "elevenCurrentNonWrPerformancesRetainZeroWrDays": true,
+    "currentCanonicalPerformanceRetainsSameWrDays": true,
+    "originalAndVideoPublicationAndReceiptClocksKeptSeparate": true,
+    "currentVideoFirstPublicationCertified": false,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mario2025-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "focusedRegressionTestsPassed": 11,
+    "productionBuildPassed": true
   },
   "nextTourId": "tour-144",
   "publicationPending": false,
-  "latestLivePublicationAudit": "archive/mario2025-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 13,
+      "availableOriginalSubmissionImages": 12,
+      "unavailableCancelledOriginals": 1,
+      "currentStandardPerformances": 12,
+      "canonicalSourceRows": 12,
+      "carriedPriorTourRecordings": 1,
+      "currentWrRecordings": 1,
+      "r2FilesVerified": 14,
+      "existingWrIdsRetainedInAffectedCourses": 19,
+      "newWrIds": 0,
+      "existingWrEnrichments": 1,
+      "currentTourBoundedDiscussionRows": 5,
+      "postCloseContextRows": 0,
+      "matchedReceiptsRetainedAsSourceOnly": 2,
+      "freshBrowserCensusCompleted": false,
+      "allAffectedCourseRows": 330,
+      "knownWorksheetRows": 7,
+      "knownWorksheetRowsDated": 7,
+      "remainingUndatedWorksheetRows": 0,
+      "currentWindowWrEntries": 1,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "supportingHistoricalWrEntriesDateAndDurationReviewed": 0,
+      "currentOriginalImagesRevalidated": 12,
+      "currentUniqueStandardPerformances": 12,
+      "preservedProofAndSourceObjectsVerified": 37,
+      "publicationMetadataObjectsVerified": 2,
+      "originalMoviesRevalidated": 2,
+      "completedMoviesRevalidated": 2,
+      "carriedCompletedMovies": 1,
+      "currentCompletedWrMovies": 1,
+      "partialMovies": 0,
+      "knownWrIdsAdded": 0,
+      "freshWorksheetSourceClocksVerified": 7,
+      "currentOriginalPerformanceClocksVerified": 12,
+      "originalAndLinkedReceiptClocksVerified": 15
+    },
+    "remainingLimitations": [
+      "Preserved Discord captures reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
+      "One cancelled p_en submission lacks its original image; the later surviving1:12.28 screenshot is retained without assuming identical bytes.",
+      "REMON1:12.08 enriches the existing stable WR, without duplicate WR credit. Future2026 REMON1:12.03 remains in later history.",
+      "The original screenshot was posted March10; the recovered video was published August4. The edited Discord post does not establish when the video was first shared.",
+      "Prior hash-matching result assessments retained; the recovered movie finish and first-lap clock are freshly sampled, without uninterrupted-race certification.",
+      "The renamed Japanese display name retains its existing association; no account merge is invented."
+    ],
+    "validation": {
+      "focusedTestsPassed": 14,
+      "fullGeneratedRowsMatched": 330,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "productionEvidenceAudit": "archive/mario2025-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/mario2025-exact-live-publication-and-full-field-check-20261015.json"
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mario2025-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "cancelled-p-en-original-unavailable",
+      "reason": "The fresh attachment URL in cancelled receipt1351391377505910847 still returns404. The later surviving1:12.28 image is preserved without assuming identical bytes or the earlier private run date."
+    },
+    {
+      "id": "current-movie-publication-sharing-uncertified",
+      "reason": "REMON1:12.08 has an original March10 screenshot. Saved video metadata reports August4,2025; a March12 edited post already contains its link. Neither the first video publication nor first sharing is certified by these conflicting clocks."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Public evidence clocks do not establish private race instants or exhaustive worldwide history."
+    }
+  ]
 }
