@@ -2,7 +2,7 @@
   "tourId": "tour-87",
   "tour": "Space Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -88,37 +88,93 @@
     "generatedReviewedRowsCompared": 140,
     "materialFieldDifferences": 0,
     "removedDuplicateCandidates": 3,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "knownWorksheetRows": 77,
+    "datedWorksheetRows": 72,
+    "newlyDatedWorksheetRows": 67,
+    "remainingUndatedWorksheetRows": 5,
+    "originalVideosRevalidatedOnR2": 4,
+    "newR2ObjectsVerified": 82
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "gba-cheep-cheep-island-r": 67,
-      "n64-kalimari-desert-2": 56
-    },
-    "renderedPreservedEvidenceLinksReadable": 70,
-    "wrAndCarriedInEvidenceEntries": 7,
-    "failedLinks": 0,
+    "dataBuildPassed": true,
+    "productionBuildPassed": true,
+    "knownWrEntries": 5,
+    "carriedInTiedEntries": 2,
     "productionBuildPages": 892,
-    "focusedVideoAndOpeningTestsPassed": 15,
-    "noOpeningLeaderInvented": true,
-    "completionLabelLiveVerified": true,
-    "livePreservedEvidenceLinksReadable": 70,
-    "liveSupportingEntries": {
-      "gba-cheep-cheep-island-r": 67,
-      "n64-kalimari-desert-2": 56
-    },
-    "liveWrAndCarriedInEvidenceEntries": 7
+    "scopeVerified": {
+      "tourId": "tour-87",
+      "worksheetRows": 77,
+      "datedRows": 72,
+      "sourceGapIds": [
+        "sheet-ATX11",
+        "sheet-ATX32",
+        "sheet-ATX44",
+        "sheet-ATP11",
+        "sheet-ATP42"
+      ],
+      "changedCourses": [
+        "n64-kalimari-desert-2",
+        "gba-cheep-cheep-island-r"
+      ],
+      "otherCoursesUnchanged": 140,
+      "wrEntries": [
+        {
+          "id": "curated-1063008103735509003-space2023-proof-reviewed",
+          "time": "1:12.08",
+          "documentedAt": "2023-01-12T08:14:41.397Z",
+          "durationDays": 7.331476886574074
+        },
+        {
+          "id": "curated-1065666328498802811-space2023-video-submission-reviewed",
+          "time": "1:11.87",
+          "documentedAt": "2023-01-19T16:12:01.000Z",
+          "durationDays": 4.010347222222222
+        },
+        {
+          "id": "curated-1067119118593052672-space2023-video-submission-reviewed",
+          "time": "1:11.83",
+          "documentedAt": "2023-01-23T16:26:55.000Z",
+          "durationDays": 1.431087962962963
+        },
+        {
+          "id": "1068224700599255101",
+          "time": "1:11.78",
+          "documentedAt": "2023-01-25T02:47:41.000Z",
+          "durationDays": 20.45869988425926
+        },
+        {
+          "id": "1068224230715559956",
+          "time": "1:03.36",
+          "documentedAt": "2023-01-25T03:11:08.392Z",
+          "durationDays": 14.117263981481482
+        }
+      ],
+      "courseCoverage": {
+        "gba-cheep-cheep-island-r": {
+          "total": 41,
+          "dated": 38
+        },
+        "n64-kalimari-desert-2": {
+          "total": 36,
+          "dated": 34
+        }
+      },
+      "passed": true,
+      "knownWrIdsUnchanged": true,
+      "kno2SupersessionPostingClockVerified": true,
+      "earlierVideoPublicationClocksVerified": true,
+      "productionBuildPassed": true,
+      "productionBuildPages": 892
+    }
   },
   "remainingLimitations": [
-    "No opening-day original submission recovered for either active course from the preserved January submission census. The first CCIR dated leader is Wins1:12.08Jan12; no opening WR invented.",
-    "Kalimari carries in Astre/NHSpeedy1:03.39tie, corroborated by Jan11openingglobalstandings. DavidRiedy is the existing NHSpeedy archive identity; no new profile merged.",
-    "Sucha1:11.83acceptedUpdatedreceipt and recovered originalmatchingtitle improve the prior leader. No fresh pixels or uninterrupted race certification.",
-    "67originalimage references hash-checked.39previous-best/textleads remain undated or qualified, includingSucha1:11.93; no additional dated reigns inferred.",
-    "Original ephemeral images failed to load; originalvideo/previouslyreviewedframes preserved as separate proof. Image unavailable is not proof that no screenshot ever existed.",
-    "Three originalvideo hashes match prior sampled assessments; no new fullracecertification. Kno2priorfinishreview does not certify first-lap crossing;29.59/33.77come from the accepted submission.",
-    "Kno2video publication metadataJan25at07:30:44UTC isafterrollover; acceptedoriginalvideolinksubmission03:11:08.392UTCisinsidewindow. Publicavailabilitytiming/achievementinstant not inferred from original link.",
-    "KIRA1:13.00reportedinput was previously corrected to1:13.94 from originalimage; priorcorrection retained. Three duplicate candidates removed; all rawsubmissions retained.",
-    "Full2019–2026history and worldwidesubmissionexhaustiveness remain unproven. Source review is practical under user-authorized surviving-proof standard."
+    "Five worksheet entries retain explicit original source/date gaps. Matching original receipts supply67newdates; three previous-best entries are observations, not invented submissions.",
+    "Sucha three original recordings were published before Discord submission. Both exact clocks are retained; earlier publication documents standing start without claiming private achievement.",
+    "kNo2 1:03.36 duration ends at later original 1:03.32 posting clock2024-01-24T06:03:32.560Z; earlier attributed whole-tour range is retained as context only.",
+    "No opening-day CCIR WR is invented; original January12Wins command remains first recovered dated leader.",
+    "Four original videos fully downloaded/hash/bytes/Range/decode verified. New machine lap/finish extraction and prior matching result reviews do not certify full-frame continuity.",
+    "Overall2019–2026 archive remains incomplete, with undated previous-best and deleted-source leads retained."
   ],
   "evidence": [
     "archive/space2023-practical-source-disposition-index-20261014.json",
@@ -132,8 +188,97 @@
     "archive/space2023-preserved-proof-and-video-build-link-audit-20261014.json",
     "archive/space2023-completion-label-build-check-20261014.json",
     "archive/space2023-completion-label-live-check-20261014.json",
-    "archive/space2023-rendered-proof-and-video-live-link-audit-20261014.json"
+    "archive/space2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "artifacts/space2023-kno2-later-supersession-end-clock-review-20261018.json",
+    "artifacts/space2023-retro-source-gap-search-disposition-20261018.json",
+    "artifacts/space2023-video-publication-and-submission-clock-reconciliation-20261018.json",
+    "artifacts/space2023-source-date-reconciliation-20261018.json",
+    "artifacts/space2023-four-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/space2023-four-recording-lap-and-result-source-review-20261018.json",
+    "artifacts/space2023-final-original-submission-clock-review-20261018.json",
+    "artifacts/space2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/space2023-source-date-and-video-frame-r2-integrity-20261018.json"
   ],
   "nextTourId": "tour-88",
-  "sourceCommit": "b1b9765e2f0f232d8a95fc1ba6d4c8d0fa52b2c0"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-14",
+    "sourceCommit": "b1b9765e2f0f232d8a95fc1ba6d4c8d0fa52b2c0",
+    "coverage": {
+      "preservedImageReferencesHashChecked": 67,
+      "mainSourceActiveCourseReferences": 67,
+      "hashFailures": 0,
+      "newRecordingsPreservedOnR2": 4,
+      "newPublicR2ProofObjectsByteVerified": 2,
+      "recoveredProgressionRowsAdded": 1,
+      "tourWrSteps": 5,
+      "carriedInTiedRecords": 2,
+      "generatedReviewedRowsCompared": 140,
+      "materialFieldDifferences": 0,
+      "removedDuplicateCandidates": 3,
+      "rawSubmissionsRetained": true
+    },
+    "validation": {
+      "renderedSupportingEntries": {
+        "gba-cheep-cheep-island-r": 67,
+        "n64-kalimari-desert-2": 56
+      },
+      "renderedPreservedEvidenceLinksReadable": 70,
+      "wrAndCarriedInEvidenceEntries": 7,
+      "failedLinks": 0,
+      "productionBuildPages": 892,
+      "focusedVideoAndOpeningTestsPassed": 15,
+      "noOpeningLeaderInvented": true,
+      "completionLabelLiveVerified": true,
+      "livePreservedEvidenceLinksReadable": 70,
+      "liveSupportingEntries": {
+        "gba-cheep-cheep-island-r": 67,
+        "n64-kalimari-desert-2": 56
+      },
+      "liveWrAndCarriedInEvidenceEntries": 7
+    },
+    "remainingLimitations": [
+      "No opening-day original submission recovered for either active course from the preserved January submission census. The first CCIR dated leader is Wins1:12.08Jan12; no opening WR invented.",
+      "Kalimari carries in Astre/NHSpeedy1:03.39tie, corroborated by Jan11openingglobalstandings. DavidRiedy is the existing NHSpeedy archive identity; no new profile merged.",
+      "Sucha1:11.83acceptedUpdatedreceipt and recovered originalmatchingtitle improve the prior leader. No fresh pixels or uninterrupted race certification.",
+      "67originalimage references hash-checked.39previous-best/textleads remain undated or qualified, includingSucha1:11.93; no additional dated reigns inferred.",
+      "Original ephemeral images failed to load; originalvideo/previouslyreviewedframes preserved as separate proof. Image unavailable is not proof that no screenshot ever existed.",
+      "Three originalvideo hashes match prior sampled assessments; no new fullracecertification. Kno2priorfinishreview does not certify first-lap crossing;29.59/33.77come from the accepted submission.",
+      "Kno2video publication metadataJan25at07:30:44UTC isafterrollover; acceptedoriginalvideolinksubmission03:11:08.392UTCisinsidewindow. Publicavailabilitytiming/achievementinstant not inferred from original link.",
+      "KIRA1:13.00reportedinput was previously corrected to1:13.94 from originalimage; priorcorrection retained. Three duplicate candidates removed; all rawsubmissions retained.",
+      "Full2019–2026history and worldwidesubmissionexhaustiveness remain unproven. Source review is practical under user-authorized surviving-proof standard."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "remainingSourceGaps": [
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "id": "sheet-ATX11",
+      "playerId": "shine",
+      "time": "1:12.68"
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "id": "sheet-ATX32",
+      "playerId": "okusho",
+      "time": "1:12.85"
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "id": "sheet-ATX44",
+      "playerId": "retro",
+      "time": "1:12.50"
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "id": "sheet-ATP11",
+      "playerId": "n",
+      "time": "1:03.91"
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "id": "sheet-ATP42",
+      "playerId": "retro",
+      "time": "1:03.71"
+    }
+  ]
 }
