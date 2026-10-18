@@ -2,7 +2,7 @@
   "tourId": "tour-97",
   "tour": "Princess Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized good-enough surviving proofs; one tour at a time. Posting dates supply submission dates unless contrary evidence exists.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -24,7 +24,15 @@
     "originalProofWrLinks": 4,
     "generatedCourseRowsCompared": 521,
     "generatedCourseRowsComparedIncludingDateCorrection": 616,
-    "renderedR2MediaLinksPassed": 68
+    "renderedR2MediaLinksPassed": 68,
+    "knownWorksheetRows": 72,
+    "knownWorksheetRowsDated": 72,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 4,
+    "carriedWrEntriesDateAndDurationReviewed": 1,
+    "originalVideosRevalidatedOnR2": 2,
+    "additionalPlaybackCopiesRevalidatedOnR2": 0,
+    "newR2ProofAndSourceObjectsVerified": 86
   },
   "courses": [
     {
@@ -40,7 +48,9 @@
       "recordingPlayerId": "nr",
       "submittedAt": "2023-06-07T10:14:44.928Z",
       "videoPublishedAt": "2023-06-07T10:11:13Z",
-      "recordingUrl": "https://media.mktwrs.com/assets/video/princess2023-nr-10909-7a5ee9a6519e.mp4"
+      "recordingUrl": "https://media.mktwrs.com/assets/video/princess2023-nr-10909-7a5ee9a6519e.mp4",
+      "archivedWrDurationDays": 48.82554398148148,
+      "archivedWrDurationEnd": "2026-09-30T06:00:00.000Z"
     },
     {
       "id": "wii-coconut-mall",
@@ -50,7 +60,9 @@
       "fastestDocumentedAvailableRecording": "1:14.36",
       "recordingPlayerId": "y146",
       "recordingTour": "Bangkok Tour (2022)",
-      "recordingUrl": "https://media.mktwrs.com/assets/video/bangkok2022-y146-coconut-mall-11436-2cdf3ba53eef.mp4"
+      "recordingUrl": "https://media.mktwrs.com/assets/video/bangkok2022-y146-coconut-mall-11436-2cdf3ba53eef.mp4",
+      "carriedWrDurationDays": 19.308214050925926,
+      "carriedWrDurationEnd": "2024-06-03T13:23:49.694Z"
     }
   ],
   "remainingLimitations": [
@@ -60,7 +72,9 @@
     "The final NR video result matches the retained prior sampled assessment. Fresh uninterrupted start-to-finish certification is not claimed.",
     "DIT’s carried 1:13.93 movie is currently unavailable. The available 1:14.36 Y146 movie is explicitly earlier Bangkok Tour (2022) footage.",
     "The Phillish video download remains unverified; its original reference is retained.",
-    "Bounded surviving sources support this practical review. Deleted/private sources and exhaustive worldwide history are not certified."
+    "Bounded surviving sources support this practical review. Deleted/private sources and exhaustive worldwide history are not certified.",
+    "All72 worksheet entries have matching surviving source posting or observation dates. NR1:09.09 uses earlier video publication while its submission clock remains preserved. Coconut1:13.93 uses the exact documented original-share boundary; private achievement remains unknown. No extra WR credit inferred.",
+    "Two original movies fully downloaded, hash/byte/MIME/Range checked and decoded. Prior sampled assessments retained by original hashes; no fresh continuity certification. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/princess2023-source-review-index-20261008.json",
@@ -77,12 +91,55 @@
     "archive/princess2023-progression-and-complete-course-generation-check-20261014.json",
     "archive/princess2023-surviving-source-review-decision-20261014.json",
     "archive/princess2023-production-build-and-complete-course-fidelity-20261014.json",
-    "archive/princess2023-live-publication-verification-20261014.json"
+    "archive/princess2023-live-publication-verification-20261014.json",
+    "artifacts/princess2023-source-date-reconciliation-20261018.json",
+    "artifacts/princess2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/princess2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/princess2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/princess2023-two-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/princess2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/princess2023-five-known-wr-proof-link-check-20261018.json",
+    "artifacts/princess2023-carried-coconut-original-posting-clock-source-20261018.json",
+    "https://media.mktwrs.com/assets/proof/princess2023-live-publication-verification-20261018.json"
   ],
-  "livePublicationVerified": true,
   "nextTourId": "tour-98",
   "productionBuildEvidence": "archive/princess2023-production-build-and-complete-course-fidelity-20261014.json",
-  "productionBuildVerified": true,
-  "latestLiveEvidence": "archive/princess2023-live-publication-verification-20261014.json",
-  "deployedSourceCommit": "073cd8b02888e6e50c35450c6a7f8eeaf2d43368"
+  "previousValidation": {},
+  "knownWrReviewComplete": true,
+  "sourceCommit": "a6e454a91eb4bd819c726401ca578b42c3ac2003",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownWrImageLinksReadable": 4,
+    "carriedLegacyImageUnavailable": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 86,
+    "originalVideosAndPlaybackCopiesFullGetHashBytesMimeRangeAndDecodePassed": 2,
+    "qualifiedRecordingAndResetDaySelectionsPassed": true,
+    "singleLapAndTechniqueClipsKeptSeparate": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/princess2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "staticPagesBuilt": 892
+  },
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/princess2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "nr-previous-best-10921",
+      "courseId": "gba-snow-land-r",
+      "time": "1:09.21",
+      "reason": "No independently dated original; not inserted as chronological WR."
+    },
+    {
+      "id": "dit-11393-movie",
+      "courseId": "wii-coconut-mall",
+      "reason": "Original movie and legacy announcement image unavailable; dated original video share preserved."
+    },
+    {
+      "id": "phillish-10967-video",
+      "courseId": "gba-snow-land-r",
+      "reason": "Download remains unverified; original reference retained."
+    }
+  ]
 }
