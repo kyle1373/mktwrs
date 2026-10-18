@@ -14,31 +14,74 @@
       "courseId": "wii-daisy-circuit",
       "archivedWr": "1:18.02",
       "fastestDocumentedRecording": "1:18.15",
-      "supportingDisplayed": 7
+      "supportingDisplayed": 7,
+      "reviewedWrEntries": [
+        {
+          "courseId": "wii-daisy-circuit",
+          "id": "1406665269346172938",
+          "playerId": "p-en",
+          "time": "1:18.02",
+          "documentedAt": "2025-08-01T14:10:32.032Z",
+          "durationDays": 17.96503619212963,
+          "durationEnd": "2026-08-04T13:20:11.159Z"
+        },
+        {
+          "courseId": "wii-daisy-circuit",
+          "id": "1274825087542890606",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:18.15",
+          "documentedAt": "2024-08-07T08:51:57.000Z",
+          "durationDays": 9.340648518518519,
+          "durationEnd": "2025-08-01T14:10:32.032Z"
+        }
+      ]
     },
     {
       "courseId": "snes-koopa-troopa-beach-2r",
       "archivedWr": "0:57.09",
       "fastestDocumentedRecording": "0:57.42",
-      "supportingDisplayed": 1
+      "supportingDisplayed": 1,
+      "reviewedWrEntries": [
+        {
+          "courseId": "snes-koopa-troopa-beach-2r",
+          "id": "1406665606643580949",
+          "playerId": "nekozuki",
+          "time": "0:57.09",
+          "documentedAt": "2025-07-27T12:41:35.404Z",
+          "durationDays": 10.197269988425926,
+          "durationEnd": "2026-07-22T17:25:39.531Z"
+        },
+        {
+          "courseId": "snes-koopa-troopa-beach-2r",
+          "id": "1274825400567992371",
+          "playerId": "nekozuki",
+          "time": "0:57.17",
+          "documentedAt": "2024-08-03T05:46:42.156Z",
+          "durationDays": 8.288116296296296,
+          "durationEnd": "2025-07-27T12:41:35.404Z"
+        }
+      ]
     }
   ],
   "coverage": {
-    "availableOriginalImages": 13,
     "currentOriginalImages": 10,
     "carriedOriginalImages": 3,
-    "canonicalScreenshotPerformances": 10,
-    "existingCurrentWrResults": 2,
-    "preservedMovies": 3,
-    "movieFiles": 3,
-    "completedRecordings": 2,
-    "lapOnlyClips": 1,
-    "currentDistinctRecordings": 0,
-    "r2FilesVerified": 16,
-    "allAffectedCourseRows": 304,
-    "tourCourseRows": 304,
-    "newWrIds": 0,
-    "freshBrowserCensusCompleted": false
+    "currentOriginalSourceClocksVerified": 10,
+    "carriedOriginalRunnerImageSourcesVerified": 2,
+    "carriedAcceptedReceiptSourceVerified": 1,
+    "knownCurrentWrEntries": 2,
+    "carriedWrEntries": 2,
+    "olderNonWrCompletedRecording": 1,
+    "fourWrDurationsIndependentlyVerified": true,
+    "currentSupportingRunsWithZeroWrDays": 8,
+    "originalImageMachineTimersCorroborated": 13,
+    "proofSourceObjectsFullVerified": 29,
+    "uniqueCompletedMoviesPreserved": 2,
+    "lapOnlyOriginalsPreserved": 1,
+    "movieFilesFullVerified": 3,
+    "freshHumanVisualReviews": 0,
+    "freshUninterruptedMovieContinuityCertified": false,
+    "newWrIds": 0
   },
   "evidence": [
     "archive/sunshine2025-original-preservation-and-source-review-20261015.json",
@@ -46,31 +89,175 @@
     "archive/sunshine2025-posted-results-and-source-clock-reconciliation-20261015.json",
     "archive/sunshine2025-source-preservation-verification-20261015.json",
     "archive/sunshine2025-full-course-generation-and-source-field-preservation-20261015.json",
-    "archive/sunshine2025-edited-receipt-source-dispositions-20261015.json"
+    "archive/sunshine2025-edited-receipt-source-dispositions-20261015.json",
+    "artifacts/sunshine2025-carried-beach-original-source-dom-20261018.json",
+    "artifacts/sunshine2025-original-submission-date-and-attribution-review-20261018.json",
+    "artifacts/sunshine2025-n-original-author-and-reply-avatar-source-20261018.json",
+    "artifacts/sunshine2025-grouped-repost-author-references-20261018.json",
+    "artifacts/sunshine2025-carried-original-source-dom-20261018.json",
+    "artifacts/sunshine2025-current-original-source-dom-20261018.json",
+    "artifacts/sunshine2025-original-recording-publication-metadata-review-20261018.json",
+    "artifacts/sunshine2025-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/sunshine2025-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/sunshine2025-current-original-preservation-input-20261018.json",
+    "artifacts/sunshine2025-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/sunshine2025-current-discussion-original-source-dom-20261018.json",
+    "artifacts/sunshine2025-original-image-machine-ocr-20261018.json",
+    "artifacts/sunshine2025-three-preserved-videos-full-get-and-decode-review-20261018.json",
+    "https://media.mktwrs.com/assets/proof/sunshine2025-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Original posting supplies submission date unless evidence establishes otherwise. Original video publication/sharing and later repost clocks remain separate.",
   "remainingLimitations": [
-    "Surviving saved sources reviewed; fresh exhaustive Discord/worldwide coverage is not certified.",
-    "Daisy Circuit 1:18.02 and Koopa Troopa Beach 2R 0:57.09 have original image proof but no recovered matching movies.",
-    "Fastest recovered recordings are the older Daisy Circuit 1:18.15 and Koopa Troopa Beach 2R 0:57.42.",
-    "The July23,2025 movie shares repost 2024 originals. Reposting does not establish new 2025 performances.",
-    "FmgTUfHaa1I contains lap one 28.72 only; no completed total or synthesized laps. Original metadata gives August3,2024 06:09:59UTC, superseding the earlier local-date summary August2.",
-    "Previous personal best numbers remain undated leads without WR promotion.",
-    "Prior result assessments retained by matching file SHA256; no fresh uninterrupted race certification.",
-    "Later 2026 rows are protected outside this tour review.",
-    "The course-wide fastest selected recording is the preserved existing October6,2026 nekozuki0:57.15 source (tq7YtHydAiQ); Sunshine2025 comparison is bounded to earlier footage and remains0:57.42. That later source is retained unchanged outside this tour review."
+    "Known WR review closed with the named source gaps retained; exhaustive worldwide history is not claimed.",
+    "Ten current original runner image posts, two carried original runner image posts and one carried accepted receipt were freshly verified in the Codex browser. N author evidence distinguishes the original author avatar from the quoted reply avatar.",
+    "Sucha Daisy 1:18.15 uses its original movie publication 2024-08-07T08:51:57Z. The edited accepted receipt retains creation and edit timestamps but is no longer assigned a first video-sharing clock.",
+    "Two unedited July23,2025 video reposts refer to verified 2024 originals and receive no new WR credit. The FmgTUfHaa1I original is a lap-one clip; no completed total is inferred.",
+    "All three original movie files fully decode and pass full GET/hash/bytes/MIME/Range. Two are completed runs and one is a lap-only clip. Twenty-nine original image, metadata and source objects are fully verified; thirteen original image timers were machine corroborated.",
+    "All 139 other course files, later 2026 rows and player profiles remain unchanged. Later global best footage is retained outside this tour review. Final archive-wide and calendar-cutoff audit remain pending."
   ],
   "validation": {
-    "livePublicationVerified": true,
-    "livePublicationAudit": "archive/sunshine2025-exact-live-publication-and-full-field-check-20261015.json",
-    "focusedTestsPassed": 18,
-    "productionBuildExitCode": 0,
-    "renderedR2LinksReadable": 105,
-    "productionAudit": "archive/sunshine2025-production-build-and-rendered-evidence-link-check-20261015.json",
-    "productionBuildsPassed": 2
+    "tourId": "tour-153",
+    "passed": true,
+    "changedCourses": [
+      "wii-daisy-circuit",
+      "snes-koopa-troopa-beach-2r"
+    ],
+    "otherCoursesUnchanged": 139,
+    "tenCurrentOriginalSubmissionDatesVerified": true,
+    "currentCompletedSupportsWithZeroWrDays": 8,
+    "currentWindowWrEntries": 2,
+    "carriedWrAndEarlierMovieEntries": 3,
+    "reviewedWrEntries": [
+      {
+        "courseId": "wii-daisy-circuit",
+        "id": "1406665269346172938",
+        "playerId": "p-en",
+        "time": "1:18.02",
+        "documentedAt": "2025-08-01T14:10:32.032Z",
+        "durationDays": 17.96503619212963,
+        "durationEnd": "2026-08-04T13:20:11.159Z"
+      },
+      {
+        "courseId": "wii-daisy-circuit",
+        "id": "1274825087542890606",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "time": "1:18.15",
+        "documentedAt": "2024-08-07T08:51:57.000Z",
+        "durationDays": 9.340648518518519,
+        "durationEnd": "2025-08-01T14:10:32.032Z"
+      },
+      {
+        "courseId": "snes-koopa-troopa-beach-2r",
+        "id": "1406665606643580949",
+        "playerId": "nekozuki",
+        "time": "0:57.09",
+        "documentedAt": "2025-07-27T12:41:35.404Z",
+        "durationDays": 10.197269988425926,
+        "durationEnd": "2026-07-22T17:25:39.531Z"
+      },
+      {
+        "courseId": "snes-koopa-troopa-beach-2r",
+        "id": "1274825400567992371",
+        "playerId": "nekozuki",
+        "time": "0:57.17",
+        "documentedAt": "2024-08-03T05:46:42.156Z",
+        "durationDays": 8.288116296296296,
+        "durationEnd": "2025-07-27T12:41:35.404Z"
+      }
+    ],
+    "worksheetDateDurationAssociationsVerified": [
+      {
+        "id": "sheet-BTT26",
+        "courseId": "wii-daisy-circuit",
+        "sameCanonicalSourceId": "1274825087542890606",
+        "documentedAt": "2024-08-07T08:51:57.000Z",
+        "durationDays": 9.340648518518519
+      },
+      {
+        "id": "sheet-BUB15",
+        "courseId": "snes-koopa-troopa-beach-2r",
+        "sameCanonicalSourceId": "1274825400567992371",
+        "documentedAt": "2024-08-03T05:46:42.156Z",
+        "durationDays": 8.288116296296296
+      }
+    ],
+    "fourWrDurationsIndependentlyVerified": true,
+    "knownWrIdsPreserved": true,
+    "playerProfilesUnchanged": true,
+    "later2026RowsUnchanged": true,
+    "dataBuildPassed": true,
+    "focusedVideoTestsPassed": 10,
+    "localProductionBuildPassed": true,
+    "localBuildPages": 892,
+    "originalMovieFilesFullGetHashBytesMimeRangeDecodePassed": 3,
+    "completedMovieFiles": 2,
+    "lapOnlyOriginalFiles": 1,
+    "proofSourceObjectsFullVerified": 29,
+    "standingWrAndFastestRecordingKeptSeparate": true,
+    "editedReceiptFirstSharingClaimRemoved": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/sunshine2025-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
   },
   "nextTourId": "tour-154",
-  "publicationPending": false,
-  "completedAt": "2026-10-15",
-  "latestLivePublicationAudit": "archive/sunshine2025-exact-live-publication-and-full-field-check-20261015.json"
+  "completedAt": "2026-10-18",
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "availableOriginalImages": 13,
+      "currentOriginalImages": 10,
+      "carriedOriginalImages": 3,
+      "canonicalScreenshotPerformances": 10,
+      "existingCurrentWrResults": 2,
+      "preservedMovies": 3,
+      "movieFiles": 3,
+      "completedRecordings": 2,
+      "lapOnlyClips": 1,
+      "currentDistinctRecordings": 0,
+      "r2FilesVerified": 16,
+      "allAffectedCourseRows": 304,
+      "tourCourseRows": 304,
+      "newWrIds": 0,
+      "freshBrowserCensusCompleted": false
+    },
+    "remainingLimitations": [
+      "Surviving saved sources reviewed; fresh exhaustive Discord/worldwide coverage is not certified.",
+      "Daisy Circuit 1:18.02 and Koopa Troopa Beach 2R 0:57.09 have original image proof but no recovered matching movies.",
+      "Fastest recovered recordings are the older Daisy Circuit 1:18.15 and Koopa Troopa Beach 2R 0:57.42.",
+      "The July23,2025 movie shares repost 2024 originals. Reposting does not establish new 2025 performances.",
+      "FmgTUfHaa1I contains lap one 28.72 only; no completed total or synthesized laps. Original metadata gives August3,2024 06:09:59UTC, superseding the earlier local-date summary August2.",
+      "Previous personal best numbers remain undated leads without WR promotion.",
+      "Prior result assessments retained by matching file SHA256; no fresh uninterrupted race certification.",
+      "Later 2026 rows are protected outside this tour review.",
+      "The course-wide fastest selected recording is the preserved existing October6,2026 nekozuki0:57.15 source (tq7YtHydAiQ); Sunshine2025 comparison is bounded to earlier footage and remains0:57.42. That later source is retained unchanged outside this tour review."
+    ],
+    "validation": {
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/sunshine2025-exact-live-publication-and-full-field-check-20261015.json",
+      "focusedTestsPassed": 18,
+      "productionBuildExitCode": 0,
+      "renderedR2LinksReadable": 105,
+      "productionAudit": "archive/sunshine2025-production-build-and-rendered-evidence-link-check-20261015.json",
+      "productionBuildsPassed": 2
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/sunshine2025-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "daisy-11802-own-video-unavailable",
+      "reason": "The dated original screenshot supports p_en 1:18.02. The fastest recovered completed movie is Sucha 1:18.15."
+    },
+    {
+      "id": "beach2r-05709-own-video-unavailable",
+      "reason": "The dated original screenshot supports nekozuki 0:57.09. The fastest recovered completed movie in this tour review is Sucha 0:57.42."
+    },
+    {
+      "id": "daisy-11815-first-human-video-sharing-unproven",
+      "reason": "The accepted receipt was edited after creation. Its creation time does not prove the first human video sharing. Original movie publication is independently verified."
+    },
+    {
+      "id": "worldwide-history-exhaustiveness-unproven",
+      "reason": "Known surviving original submissions, movies and bounded discussion reviewed. Private, deleted or unpublished performances cannot be certified."
+    }
+  ]
 }
