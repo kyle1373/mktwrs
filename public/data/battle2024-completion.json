@@ -3,7 +3,7 @@
   "tour": "Battle Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -16,13 +16,55 @@
       "courseId": "snes-donut-plains-1r",
       "archivedWr": "0:49.15",
       "fastestDocumentedRecording": "0:49.31",
-      "supportingDisplayed": 0
+      "supportingDisplayed": 0,
+      "worksheetRows": 0,
+      "worksheetRowsDated": 0,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "snes-donut-plains-1r",
+          "id": "1032525641465200660",
+          "playerId": "hilton",
+          "time": "0:49.15",
+          "documentedAt": "2022-10-16T13:28:06.760Z",
+          "durationDays": 44.68881064814815,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved original proofs and public clocks, qualified machine OCR and movie integrity; no fresh human visual or continuity certification."
     },
     {
       "courseId": "snes-donut-plains-2",
       "archivedWr": "1:00.46",
       "fastestDocumentedRecording": "1:00.46",
-      "supportingDisplayed": 5
+      "supportingDisplayed": 5,
+      "worksheetRows": 6,
+      "worksheetRowsDated": 6,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [
+        {
+          "courseId": "snes-donut-plains-2",
+          "id": "1308276800647991408",
+          "playerId": "shine",
+          "time": "1:00.46",
+          "documentedAt": "2024-10-15T13:00:38.000Z",
+          "durationDays": 14.70789351851852,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ],
+      "carriedStandings": [
+        {
+          "courseId": "snes-donut-plains-2",
+          "id": "1168941274380914769",
+          "playerId": "shine",
+          "time": "1:00.50",
+          "documentedAt": "2023-10-10T04:17:11.000Z",
+          "durationDays": 21.363506944444445,
+          "durationEnd": "2024-10-15T13:00:38.000Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved original proofs and public clocks, qualified machine OCR and movie integrity; no fresh human visual or continuity certification."
     }
   ],
   "coverage": {
@@ -46,7 +88,23 @@
     "canonicalSourceRowsReconciled": 6,
     "matchedReceiptsRetainedAsSourceOnly": 5,
     "freshBrowserCensusCompleted": false,
-    "allAffectedCourseRows": 610
+    "allAffectedCourseRows": 610,
+    "knownWorksheetRows": 6,
+    "knownWorksheetRowsDated": 6,
+    "remainingUndatedWorksheetRows": 0,
+    "currentWindowWrEntries": 1,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 7,
+    "preservedProofAndSourceObjectsVerified": 23,
+    "originalMoviesRevalidated": 3,
+    "completedHistoricalMovies": 2,
+    "currentCompletedWrMovies": 1,
+    "partialLapMovies": 0,
+    "knownWrIdsAdded": 0,
+    "freshWorksheetSourceClocksVerified": 6,
+    "freshCurrentWrSourceClocksVerified": 1,
+    "freshCarriedSourceClocksVerified": 2,
+    "earlierShineVideoPublicationClockCorrected": true
   },
   "evidence": [
     "archive/battle2024-original-preservation-and-source-review-20261015.json",
@@ -54,27 +112,130 @@
     "archive/battle2024-posted-results-and-preserved-source-reconciliation-20261015.json",
     "archive/battle2024-full-course-generation-and-source-field-preservation-20261015.json",
     "archive/battle2024-edited-receipt-source-dispositions-20261015.json",
-    "archive/battle2024-production-build-and-rendered-evidence-link-check-20261015.json"
+    "archive/battle2024-production-build-and-rendered-evidence-link-check-20261015.json",
+    "artifacts/battle2024-carried-donut2-source-dom-20261018.json",
+    "artifacts/battle2024-opening-original-submissions-browser-dom-20261018.json",
+    "artifacts/battle2024-original-image-machine-ocr-20261018.json",
+    "artifacts/battle2024-carried-and-supporting-original-proof-clock-review-20261018.json",
+    "artifacts/battle2024-three-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/battle2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/battle2024-supported-worksheet-source-clock-map-20261018.json",
+    "artifacts/battle2024-yellow-result-timer-machine-ocr-20261018.json",
+    "artifacts/battle2024-carried-donut1r-source-dom-20261018.json",
+    "artifacts/battle2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/battle2024-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/battle2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/battle2024-historical-donut1r-recording-source-dom-20261018.json",
+    "https://media.mktwrs.com/assets/proof/battle2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
   "remainingLimitations": [
-    "Preserved captured Discord sources reconciled; no fresh exhaustive Discord or worldwide census certified.",
-    "Historical13submission-message count is not a new exhaustive census.",
-    "Current movie retains prior original-video assessment by source association; publication metadata verified independently. The edited receipt does not prove its first video share clock.",
-    "No current DonutPlains1R result is established in the preserved submissions; carried WR49.15 and available49.31movie remain separate.",
-    "The repeated p_en1:00.72screenshot and corrected receipt create no duplicate performance or WR credit."
+    "All six worksheet entries have a supported single public evidence timestamp. Original attachment, total and linked account evidence are retained without profile merges.",
+    "Shine 1:00.46 uses the earlier October15 13:00:38 UTC video publication, before the screenshot at13:36:46.701 UTC. Its reign and the preceding Shine1:00.50 reign use that corrected public clock.",
+    "The mb3. bot receipt explicitly links account619934359587389451 to the original1:00.55 image and source. The original author is now Deleted User; identity is supported by the surviving named account receipt.",
+    "The byte-identical p_en1:00.72 repost at17:25:26.453 UTC keeps the earliest original17:24:21.893 UTC performance date. Cancelled and corrected receipts do not create another performance or WR credit.",
+    "All one current and two carried WR durations are independently checked against public timestamps, faster subsequent records and playable appearances. Tour clocks pause outside playable Time Trial windows.",
+    "All 23 proof/source objects pass full GET, SHA256, bytes, MIME and direct Range206: seven original images, two carried originals, one historical supporting original, one publication metadata object and12 source audits.",
+    "All three archived movies pass full GET, SHA256, bytes, MIME, Range206 and full decode: one current completed result and two historical completed results. Decode checks file integrity; uninterrupted race continuity is not freshly certified.",
+    "Donut Plains1R has no established current-tour result in the reviewed sources. Its carried WR is Hilton0:49.15; available supporting footage is Nu110:49.31 with separate date and historical credit.",
+    "Fresh machine OCR corroborates timer seconds for all six worksheet results and full totals for five. Sucha1:00.75 retains its matching original-image hash, prior result assessment and explicit named bot receipt; no fresh human visual review is claimed.",
+    "First sharing of the current Shine video remains unresolved. This closes the known WR review with documented gaps; it does not prove exhaustive worldwide history. The2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 13,
-    "fullGeneratedRowsMatched": 610,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "fullAffectedRowsMatched": 610,
-    "renderedR2UrlsReadable": 42,
-    "allRenderedEvidenceLinksReadable": true,
-    "productionAudit": "archive/battle2024-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/battle2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 23,
+    "threeMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "allSixWorksheetOriginalClocksVerified": true,
+    "oneCurrentAndTwoCarriedWrDurationsIndependentlyVerified": true,
+    "earlierShineVideoPublicationApplied": true,
+    "mb3IdentitySupportedByExplicitAccountReceipt": true,
+    "byteIdenticalRepostDoesNotAddPerformance": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/battle2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 11
   },
   "nextTourId": "tour-133",
-  "latestLivePublicationAudit": "archive/battle2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 7,
+      "availableOriginalSubmissionImages": 7,
+      "unavailableOriginalSubmissionImages": 0,
+      "currentCanonicalSourceRows": 6,
+      "uniqueCurrentPerformances": 6,
+      "currentCompletedMoviePerformances": 1,
+      "currentResultMoviePublishedAfterTour": 0,
+      "currentPartialLapClips": 0,
+      "discussionOriginalImages": 0,
+      "carriedPriorTourRecordings": 2,
+      "lateCurrentTourImages": 0,
+      "byteIdenticalReposts": 1,
+      "r2FilesVerified": 10,
+      "existingWrIdsRetained": 49,
+      "newWrIds": 0,
+      "currentTourBoundedDiscussionRows": 22,
+      "postCloseContextRows": 3,
+      "canonicalSourceRowsReconciled": 6,
+      "matchedReceiptsRetainedAsSourceOnly": 5,
+      "freshBrowserCensusCompleted": false,
+      "allAffectedCourseRows": 610,
+      "knownWorksheetRows": 6,
+      "knownWorksheetRowsDated": 6,
+      "remainingUndatedWorksheetRows": 0,
+      "currentWindowWrEntries": 1,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 7,
+      "preservedProofAndSourceObjectsVerified": 23,
+      "originalMoviesRevalidated": 3,
+      "completedHistoricalMovies": 2,
+      "currentCompletedWrMovies": 1,
+      "partialLapMovies": 0,
+      "knownWrIdsAdded": 0,
+      "freshWorksheetSourceClocksVerified": 6,
+      "freshCurrentWrSourceClocksVerified": 1,
+      "freshCarriedSourceClocksVerified": 2,
+      "earlierShineVideoPublicationClockCorrected": true
+    },
+    "remainingLimitations": [
+      "Preserved captured Discord sources reconciled; no fresh exhaustive Discord or worldwide census certified.",
+      "Historical13submission-message count is not a new exhaustive census.",
+      "Current movie retains prior original-video assessment by source association; publication metadata verified independently. The edited receipt does not prove its first video share clock.",
+      "No current DonutPlains1R result is established in the preserved submissions; carried WR49.15 and available49.31movie remain separate.",
+      "The repeated p_en1:00.72screenshot and corrected receipt create no duplicate performance or WR credit."
+    ],
+    "validation": {
+      "focusedTestsPassed": 13,
+      "fullGeneratedRowsMatched": 610,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "fullAffectedRowsMatched": 610,
+      "renderedR2UrlsReadable": 42,
+      "allRenderedEvidenceLinksReadable": true,
+      "productionAudit": "archive/battle2024-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/battle2024-exact-live-publication-and-full-field-check-20261015.json"
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/battle2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "missing-carried-donut1r4915-completed-footage",
+      "courseId": "snes-donut-plains-1r",
+      "time": "0:49.15",
+      "reason": "Hilton\u2019s original result and posting clock are preserved; no surviving own completed movie is established. Nu11\u2019s 0:49.31 remains separate historical supporting footage with its own date and credit."
+    },
+    {
+      "id": "shine6046-first-video-share-clock",
+      "courseId": "snes-donut-plains-2",
+      "time": "1:00.46",
+      "reason": "Original video publication is October15T13:00:38Z; screenshot submission is October15T13:36:46.701Z. The edited bot receipt does not establish the first video link sharing time."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Supported public evidence dates do not establish private race instants or exhaustive worldwide history."
+    }
+  ]
 }
