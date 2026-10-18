@@ -2,7 +2,7 @@
   "tourId": "tour-107",
   "tour": "Halloween Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized practical surviving proofs. Posting date is submission/archive date unless evidence establishes another date.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -20,7 +20,25 @@
       ],
       "datedTourHistory": [],
       "fastestDocumentedAvailableRecording": "0:56.42",
-      "firstDayFinalFastestRecovered": null
+      "firstDayFinalFastestRecovered": null,
+      "carriedStanding": {
+        "id": "1039950316147322890",
+        "playerId": "troy",
+        "time": "0:56.42",
+        "documentedAt": "2022-10-29T16:22:25.696Z",
+        "durationDays": 45.56775814814815,
+        "durationEnd": "2026-09-30T06:00:00.000Z"
+      },
+      "finalStandingDurations": [
+        {
+          "id": "1039950316147322890",
+          "playerId": "troy",
+          "time": "0:56.42",
+          "documentedAt": "2022-10-29T16:22:25.696Z",
+          "durationDays": 45.56775814814815,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ]
     }
   ],
   "coverage": {
@@ -50,7 +68,16 @@
       "snes-donut-plains-3": 17
     },
     "renderedR2MediaLinksPassed": 74,
-    "focusedTestsPassed": 23
+    "focusedTestsPassed": 23,
+    "knownWorksheetRows": 17,
+    "knownWorksheetRowsDated": 17,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 0,
+    "carriedWrEntriesDateAndDurationReviewed": 1,
+    "preservedProofAndSourceObjectsVerified": 27,
+    "originalMoviesRevalidated": 2,
+    "originalAndLateWorksheetImagesRevalidated": 24,
+    "latePostedWorksheetRowsReconciled": 2
   },
   "remainingLimitations": [
     "No opening-day result survives in this bounded review; all seventeen current-tour performances are slower than the carried WR.",
@@ -61,7 +88,10 @@
     "Worldwide exhaustive capture and fresh uninterrupted-race certification remain unproved.",
     "All21 indexed originals plus1 separate discussion result image preserved and R2-verified;3 indexed images are late Battle posts and1 is an excluded slow result.",
     "Two recovered PNG originals retain their earlier proxy copies separately; original OCR supports the prior proxy result review, without fresh visual certification.",
-    "One partial technique movie and the carried 2022 Troy WR movie are preserved and R2-verified."
+    "One partial technique movie and the carried 2022 Troy WR movie are preserved and R2-verified.",
+    "All seventeen worksheet entries now have preserved original posting dates. Hatemato/otametah matched by Discord account842658764197068830 without a profile merge or new WR credit. Two November1 late sources retain posting dates after reset separately from attributed tour and unknown private achievement.",
+    "The carried Troy56.42 WR date is freshly confirmed at its original October29,2022 submission. Its45.56775814814815 playable days independently match four course appearance windows. All141 other course files and player profiles remain unchanged.",
+    "All24 own-manifest and late worksheet original-image entries and3 dated-source audit objects pass full GET/SHA/bytes/MIME and direct Range206. Both preserved movies fully decode: one completed carried WR and one partial technique clip. Prior hash-matched visual reviews retained; no fresh continuity claim. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/halloween2023-complete-original-preservation-and-source-audit-20261014.json",
@@ -71,13 +101,43 @@
     "archive/halloween2023-discussion-context-review-20261005.json",
     "archive/halloween2023-production-build-and-complete-course-fidelity-20261014.json",
     "archive/halloween2023-surviving-source-review-decision-20261014.json",
-    "archive/halloween2023-live-publication-verification-20261014.json"
+    "archive/halloween2023-live-publication-verification-20261014.json",
+    "artifacts/halloween2023-source-date-reconciliation-20261018.json",
+    "artifacts/halloween2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/halloween2023-late-worksheet-source-and-alias-reconciliation-20261018.json",
+    "artifacts/halloween2023-alias-late-and-carried-original-clock-browser-verification-20261018.json",
+    "artifacts/halloween2023-seventeen-worksheet-original-source-clock-verification-20261018.json",
+    "artifacts/halloween2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/halloween2023-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/halloween2023-two-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/halloween2023-carried-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/halloween2023-live-publication-verification-20261018.json"
   ],
-  "productionBuildVerified": true,
-  "productionBuildEvidence": "archive/halloween2023-production-build-and-complete-course-fidelity-20261014.json",
-  "livePublicationVerified": true,
   "nextTourId": "tour-108",
-  "latestLiveEvidence": "archive/halloween2023-live-publication-verification-20261014.json",
-  "verifiedDeploymentSourceCommit": "9dfe08f2c5b9bc219cc8d7a666e393e6a4a9bcf6",
-  "liveVerificationDate": "2026-10-14"
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/halloween2023-live-publication-verification-20261018.json",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 141,
+    "playerProfilesUnchanged": true,
+    "carriedWrImageLinkReadable": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 27,
+    "twoPreservedMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "allSeventeenOriginalWorksheetSourceClocksVerified": true,
+    "carriedOriginalPostingClockFreshlyVerified": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/halloween2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
+  },
+  "remainingSourceGaps": [
+    {
+      "id": "opening-day-results",
+      "reason": "No October18 opening-day result recovered. The carried Troy56.42 WR is retained; all seventeen reviewed worksheet results are slower."
+    },
+    {
+      "id": "undated-previous-bests",
+      "reason": "Cup-menu and previous-best observations remain distinct from independently dated completed runs."
+    }
+  ]
 }
