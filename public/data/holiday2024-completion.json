@@ -3,7 +3,7 @@
   "tour": "Holiday Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -16,13 +16,55 @@
       "courseId": "gba-snow-land",
       "archivedWr": "1:08.42",
       "fastestDocumentedRecording": "1:08.42",
-      "supportingDisplayed": 8
+      "supportingDisplayed": 8,
+      "worksheetRows": 4,
+      "worksheetRowsDated": 4,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "gba-snow-land",
+          "id": "1058253597781000283",
+          "playerId": "nu11",
+          "time": "1:08.42",
+          "documentedAt": "2022-12-27T07:43:11.000Z",
+          "durationDays": 35.14355976851852,
+          "durationEnd": "2025-12-16T11:09:54.564Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved public clocks, movie and proof hashes, qualified prior completed-result assessments; no fresh full-frame continuity certification."
     },
     {
       "courseId": "vancouver-velocity-3",
       "archivedWr": "1:15.95",
       "fastestDocumentedRecording": "1:15.96",
-      "supportingDisplayed": 3
+      "supportingDisplayed": 3,
+      "worksheetRows": 2,
+      "worksheetRowsDated": 2,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [
+        {
+          "courseId": "vancouver-velocity-3",
+          "id": "1332590932134072341",
+          "playerId": "nekozuki",
+          "time": "1:15.95",
+          "documentedAt": "2024-12-20T20:30:02.052Z",
+          "durationDays": 7.517882314814814,
+          "durationEnd": "2025-12-13T08:55:47.084Z"
+        }
+      ],
+      "carriedStandings": [
+        {
+          "courseId": "vancouver-velocity-3",
+          "id": "1192533972043964436",
+          "playerId": "phillish",
+          "time": "1:15.96",
+          "documentedAt": "2023-12-17T17:43:10.516Z",
+          "durationDays": 19.11587425925926,
+          "durationEnd": "2024-12-20T20:30:02.052Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved public clocks, movie and proof hashes, qualified prior completed-result assessments; no fresh full-frame continuity certification."
     }
   ],
   "coverage": {
@@ -50,7 +92,27 @@
     "matchedReceiptsRetainedAsSourceOnly": 4,
     "freshBrowserCensusCompleted": false,
     "allAffectedCourseRows": 629,
-    "currentCourseRows": 374
+    "currentCourseRows": 374,
+    "knownWorksheetRows": 6,
+    "knownWorksheetRowsDated": 6,
+    "remainingUndatedWorksheetRows": 0,
+    "currentWindowWrEntries": 1,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "currentOriginalTimingImagesRevalidated": 12,
+    "latePreviousTourOriginalImagesRevalidated": 1,
+    "carriedOriginalImagesRevalidated": 1,
+    "carriedDerivedResultFramesVerified": 2,
+    "preservedProofAndSourceObjectsVerified": 38,
+    "publicationMetadataObjectsVerified": 3,
+    "originalMoviesRevalidated": 3,
+    "completedHistoricalMovies": 2,
+    "currentCompletedWrMovies": 0,
+    "currentCompletedSupportingMovies": 1,
+    "partialLapMovies": 0,
+    "knownWrIdsAdded": 0,
+    "freshWorksheetSourceClocksVerified": 6,
+    "freshCurrentWrSourceClocksVerified": 1,
+    "freshCarriedSourceClocksVerified": 2
   },
   "evidence": [
     "archive/holiday2024-original-preservation-and-source-review-20261015.json",
@@ -59,29 +121,145 @@
     "archive/holiday2024-full-course-generation-and-source-field-preservation-20261015.json",
     "archive/holiday2024-edited-receipt-source-dispositions-20261015.json",
     "archive/holiday2024-production-build-and-rendered-evidence-link-check-20261015.json",
-    "archive/holiday2024-carried-snow-result-video-review-20261015.json"
+    "archive/holiday2024-carried-snow-result-video-review-20261015.json",
+    "artifacts/holiday2024-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/holiday2024-three-result-image-and-video-discussion-dom-20261018.json",
+    "artifacts/holiday2024-carried-original-and-derived-result-proof-machine-review-20261018.json",
+    "artifacts/holiday2024-closing-discussion-and-next-tour-boundary-dom-20261018.json",
+    "artifacts/holiday2024-carried-vancouver-video-share-dom-20261018.json",
+    "artifacts/holiday2024-yellow-result-timer-machine-ocr-20261018.json",
+    "artifacts/holiday2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/holiday2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/holiday2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/holiday2024-original-image-machine-ocr-20261018.json",
+    "artifacts/holiday2024-carried-vancouver-original-dom-20261018.json",
+    "artifacts/holiday2024-closing-original-submissions-dom-20261018.json",
+    "artifacts/holiday2024-carried-nu11-original-command-and-video-share-dom-20261018.json",
+    "artifacts/holiday2024-three-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/holiday2024-publication-metadata-preservation-20261018.json",
+    "artifacts/holiday2024-carried-and-current-original-proof-clock-review-20261018.json",
+    "artifacts/holiday2024-supported-worksheet-source-clock-map-20261018.json",
+    "artifacts/holiday2024-opening-original-submissions-dom-20261018.json",
+    "https://media.mktwrs.com/assets/proof/holiday2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
   "remainingLimitations": [
-    "Preserved captured sources reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
-    "The historical14submission-message count is not a fresh exhaustive census.",
-    "Thirteen timing images retain prior assessments by exact SHA256. The current movie and carried Vancouver movie retain prior result assessments; the carried Snow movie received a fresh completed-result check. Uninterrupted coverage is not freshly certified.",
-    "The SnowLand screenshot sequence includes two separate1:08.58 runs around an unrecorded1:08.57. Only the later1:08.58 rerun matches the preserved movie.",
-    "Vancouver3nekozuki1:15.95 has no matching movie. Phillish’s carried1:15.96 is shown separately.",
-    "Kirio’s December12 BowserCastleR1:38.85 is a late previous-tour submission, not a Holiday course or WR.",
-    "The old announcement groups Vancouver1:15.95 under Winter2025; its original December20,2024 screenshot establishes Holiday2024. The delayed announcement date remains separate.",
-    "One manga reaction is retained as excluded source context without timing or WR credit.",
-    "Two post-close discussion rows, including the next tour’s clip, are deferred to NewYear2025."
+    "All six worksheet entries now have supported single public evidence timestamps and runner identity.",
+    "Nekozuki’s Vancouver Velocity 3 1:15.95 uses the original screenshot posting 2024-12-20T20:30:02.052Z, establishing Holiday 2024. The delayed announcement and its Winter 2025 grouping do not replace that date.",
+    "The new Vancouver WR and both carried WR durations are independently checked against subsequent faster records and all playable course appearances. Tour clocks pause outside Time Trial windows.",
+    "The carried WRs are Nu11’s Snow Land 1:08.42 and Phillish’s Vancouver Velocity 3 1:15.96. Nu11’s earlier video publication 2022-12-27T07:43:11Z remains distinct from its command/video sharing 07:47:40.928Z. Phillish’s original screenshot 2023-12-17T17:43:10.516Z predates the video publication and sharing on December 20.",
+    "Sucha’s three December 15 images retain separate performances in sequence: 1:08.58, 1:08.57, and a second 1:08.58. Only the second 1:08.58 matches the preserved video, published 16:43:33Z and shared 16:49:32.460Z.",
+    "Nekozuki’s 1:15.95 has no matching movie. Phillish’s completed 1:15.96 remains the fastest preserved Vancouver recording for this tour.",
+    "All 12 current original timing images and the late previous-tour image have matching original hashes and fresh machine OCR. Phillish’s carried original and two Nu11 result frames also have matching hashes and machine timer text. No fresh human visual review is claimed.",
+    "Nu11’s preserved original movie hash matches its qualified prior completed-result review. An additional frame extracted at 80 seconds reproduces 1:08.42. This supports the result without claiming fresh uninterrupted continuity.",
+    "All 38 proof/source objects pass full GET, SHA256, bytes, MIME and direct Range206: 14 original images, two derived result frames, three filtered publication metadata records and source audits.",
+    "All three completed movie files pass full integrity and decode checks. Qualified prior result assessments are retained; no fresh full-frame continuity certification is claimed.",
+    "Kirio’s December 12 Bowser’s Castle R entry remains a late Peach vs. Bowser submission. Its course was unchanged in this review. Closing discussion context and next-tour footage remain separate from Holiday performances.",
+    "This closes the known WR review with documented footage/source gaps retained. The 2019–2026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 17,
-    "fullGeneratedRowsMatched": 629,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsReadable": 93,
-    "productionBuildAudit": "archive/holiday2024-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/holiday2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 38,
+    "threeMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "allSixWorksheetOriginalClocksAndIdentitiesVerified": true,
+    "oneCurrentAndTwoCarriedWrDurationsIndependentlyVerified": true,
+    "all11SlowerCurrentPerformancesRetainZeroWrDays": true,
+    "latePreviousTourKirioCourseUnchanged": true,
+    "originalAndVideoPublicationAndSharingClocksKeptSeparate": true,
+    "separateSucha6858RunsPreserved": true,
+    "onlyLater6858RunHasMovie": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/holiday2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 11
   },
   "nextTourId": "tour-138",
-  "latestLivePublicationAudit": "archive/holiday2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 10,
+      "availableOriginalSubmissionImages": 10,
+      "unavailableOriginalSubmissionImages": 0,
+      "currentCanonicalSourceRows": 12,
+      "uniqueCurrentPerformances": 12,
+      "currentCompletedMoviePerformances": 1,
+      "currentResultMoviePublishedAfterTour": 0,
+      "currentPartialLapClips": 0,
+      "discussionOriginalTimingImages": 3,
+      "excludedReactionImages": 1,
+      "carriedPriorTourRecordings": 2,
+      "lateCurrentTourImages": 0,
+      "latePreviousTourImages": 1,
+      "byteIdenticalReposts": 0,
+      "r2FilesVerified": 16,
+      "existingWrIdsRetainedInAffectedCourses": 36,
+      "existingCurrentCourseWrIdsRetained": 18,
+      "newWrIds": 0,
+      "currentTourBoundedDiscussionRows": 21,
+      "postCloseContextRows": 2,
+      "canonicalSourceRowsReconciled": 13,
+      "matchedReceiptsRetainedAsSourceOnly": 4,
+      "freshBrowserCensusCompleted": false,
+      "allAffectedCourseRows": 629,
+      "currentCourseRows": 374,
+      "knownWorksheetRows": 6,
+      "knownWorksheetRowsDated": 6,
+      "remainingUndatedWorksheetRows": 0,
+      "currentWindowWrEntries": 1,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "currentOriginalTimingImagesRevalidated": 12,
+      "latePreviousTourOriginalImagesRevalidated": 1,
+      "carriedOriginalImagesRevalidated": 1,
+      "carriedDerivedResultFramesVerified": 2,
+      "preservedProofAndSourceObjectsVerified": 38,
+      "publicationMetadataObjectsVerified": 3,
+      "originalMoviesRevalidated": 3,
+      "completedHistoricalMovies": 2,
+      "currentCompletedWrMovies": 0,
+      "currentCompletedSupportingMovies": 1,
+      "partialLapMovies": 0,
+      "knownWrIdsAdded": 0,
+      "freshWorksheetSourceClocksVerified": 6,
+      "freshCurrentWrSourceClocksVerified": 1,
+      "freshCarriedSourceClocksVerified": 2
+    },
+    "remainingLimitations": [
+      "Preserved captured sources reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
+      "The historical14submission-message count is not a fresh exhaustive census.",
+      "Thirteen timing images retain prior assessments by exact SHA256. The current movie and carried Vancouver movie retain prior result assessments; the carried Snow movie received a fresh completed-result check. Uninterrupted coverage is not freshly certified.",
+      "The SnowLand screenshot sequence includes two separate1:08.58 runs around an unrecorded1:08.57. Only the later1:08.58 rerun matches the preserved movie.",
+      "Vancouver3nekozuki1:15.95 has no matching movie. Phillish’s carried1:15.96 is shown separately.",
+      "Kirio’s December12 BowserCastleR1:38.85 is a late previous-tour submission, not a Holiday course or WR.",
+      "The old announcement groups Vancouver1:15.95 under Winter2025; its original December20,2024 screenshot establishes Holiday2024. The delayed announcement date remains separate.",
+      "One manga reaction is retained as excluded source context without timing or WR credit.",
+      "Two post-close discussion rows, including the next tour’s clip, are deferred to NewYear2025."
+    ],
+    "validation": {
+      "focusedTestsPassed": 17,
+      "fullGeneratedRowsMatched": 629,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsReadable": 93,
+      "productionBuildAudit": "archive/holiday2024-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/holiday2024-exact-live-publication-and-full-field-check-20261015.json"
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/holiday2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "nekozuki-11595-missing-own-movie",
+      "reason": "No matching Vancouver Velocity 3 1:15.95 recording is preserved. Its original screenshot remains proof; Phillish’s earlier 1:15.96 is separate footage."
+    },
+    {
+      "id": "sucha-10857-missing-movie",
+      "reason": "The 1:08.57 Snow Land result has no matching movie. The following recorded 1:08.58 rerun remains a different performance."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Supported public evidence dates do not establish private race instants or exhaustive worldwide history."
+    }
+  ]
 }
