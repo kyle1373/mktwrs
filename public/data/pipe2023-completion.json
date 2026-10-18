@@ -2,7 +2,7 @@
   "tourId": "tour-100",
   "tour": "Pipe Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized practical surviving proofs. Posting date is submission/archive date unless earlier or contrary evidence establishes another date.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -30,7 +30,9 @@
       "moviePublishedAt": "2023-07-17T14:35:00Z",
       "finalSubmittedAt": "2023-07-17T14:47:35.892Z",
       "firstDayFinalFastestRecovered": "1:19.40",
-      "firstDayPlayerId": "tankian"
+      "firstDayPlayerId": "tankian",
+      "archivedWrDurationDays": 24.901402986111112,
+      "archivedWrDurationEnd": "2025-07-11T12:13:01.218Z"
     },
     {
       "id": "piranha-plant-cove-2r",
@@ -59,7 +61,9 @@
       "moviePublishedAt": "2023-07-25T20:45:13Z",
       "finalSubmittedAt": "2023-07-25T20:45:03.948Z",
       "firstDayFinalFastestRecovered": "1:32.62",
-      "firstDayPlayerId": "kuri"
+      "firstDayPlayerId": "kuri",
+      "archivedWrDurationDays": 6.739867835648148,
+      "archivedWrDurationEnd": "2024-07-16T14:30:28.529Z"
     }
   ],
   "coverage": {
@@ -82,7 +86,14 @@
       "piranha-plant-cove-2r": 7
     },
     "renderedR2MediaLinksPassed": 54,
-    "focusedTestsPassed": 32
+    "focusedTestsPassed": 32,
+    "knownWorksheetRows": 44,
+    "knownWorksheetRowsDated": 44,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 14,
+    "preservedProofAndSourceObjectsVerified": 65,
+    "originalMoviesRevalidated": 4,
+    "carriedWrEntriesDateAndDurationReviewed": 0
   },
   "remainingLimitations": [
     "The first newyork1:17.90 screenshot could not be recovered. Its accepted submission, matching later resubmission original and SHA-matched reviewed original movie provide surviving evidence.",
@@ -90,7 +101,9 @@
     "The104saved source rows form a bounded surviving set; deleted/private sources and exhaustive worldwide history remain unproved.",
     "Nine late originals concern Night Tour courses and are excluded from Pipe progression.",
     "Three fresh sampled movie reviews and one SHA-matched prior review verify course, lap transition and final result; uninterrupted full-race continuity has not been certified. kuRi’s movie sample at51seconds is black.",
-    "Twenty-six duplicate curated originals merge into accepted submissions, including the documented kawa display alias correction. Later source submissions are retained without later tour completion claims."
+    "Twenty-six duplicate curated originals merge into accepted submissions, including the documented kawa display alias correction. Later source submissions are retained without later tour completion claims.",
+    "All44 worksheet entries have matching source posting or observation clocks. Kawa and Shine aliases are supported by original account IDs. Two after-reset results retain their posting dates separately from earlier Pipe attribution; Shine remains a menu-best observation. No global profile merge or extra WR credit.",
+    "Three original videos predate submission posts and now set the documented run dates while original submission clocks remain preserved. Fourteen WR entries, including the tie, have exact playable durations and checked endpoints. Four preserved movies fully downloaded, hash/byte/MIME/Range checked and decoded. Prior sampled limitations, including the black kuRi sample, remain; no fresh uninterrupted-race certification. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/pipe2023-source-review-index-20261008.json",
@@ -100,13 +113,47 @@
     "archive/pipe2023-complete-course-generation-and-player-record-check-20261014.json",
     "archive/pipe2023-production-build-and-complete-course-fidelity-20261014.json",
     "archive/pipe2023-surviving-source-review-decision-20261014.json",
-    "archive/pipe2023-live-publication-verification-20261014.json"
+    "archive/pipe2023-live-publication-verification-20261014.json",
+    "artifacts/pipe2023-source-date-reconciliation-20261018.json",
+    "artifacts/pipe2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/pipe2023-kawa-original-account-and-posting-clock-source-20261018.json",
+    "artifacts/pipe2023-shine-late-menu-original-author-clock-source-20261018.json",
+    "artifacts/pipe2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/pipe2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/pipe2023-fourteen-known-wr-proof-link-check-20261018.json",
+    "artifacts/pipe2023-four-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/pipe2023-fastest-documented-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/pipe2023-live-publication-verification-20261018.json"
   ],
-  "productionBuildVerified": true,
   "productionBuildEvidence": "archive/pipe2023-production-build-and-complete-course-fidelity-20261014.json",
-  "livePublicationVerified": true,
   "nextTourId": "tour-101",
-  "latestLiveEvidence": "archive/pipe2023-live-publication-verification-20261014.json",
   "verifiedDeploymentSourceCommit": "ceec4bc954e6abd00a47f3495d39d485e20a79cf",
-  "liveVerificationDate": "2026-10-14"
+  "liveVerificationDate": "2026-10-14",
+  "knownWrReviewComplete": true,
+  "sourceCommit": "fc39bd84265355ad7dd712b687f2a6b07e169201",
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/pipe2023-live-publication-verification-20261018.json",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownWrImageLinksReadable": 14,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 65,
+    "fourPreservedVideosFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/pipe2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "staticPagesBuilt": 892
+  },
+  "remainingSourceGaps": [
+    {
+      "id": "newyork-first-11790-screenshot",
+      "courseId": "wii-dry-dry-ruins",
+      "reason": "First screenshot unavailable; accepted submission, matching later original and preserved movie retained."
+    },
+    {
+      "id": "undated-personal-best-predecessors",
+      "reason": "No independently dated originals; no chronological WR insertion."
+    }
+  ]
 }
