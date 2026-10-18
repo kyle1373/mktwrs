@@ -2,7 +2,7 @@
   "tourId": "tour-86",
   "tour": "New Year's Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -79,40 +79,112 @@
     "generatedReviewedRowsCompared": 62,
     "materialFieldDifferences": 0,
     "removedSlowerOrDuplicateCandidates": 6,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "knownWorksheetRows": 51,
+    "datedWorksheetRows": 39,
+    "newlyDatedWorksheetRows": 37,
+    "remainingUndatedWorksheetRows": 12,
+    "originalVideosRevalidatedOnR2": 3,
+    "newSupportingOriginalVideosPreservedOnR2": 1,
+    "newR2ObjectsVerified": 35
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "wii-koopa-cape": 21,
-      "3ds-piranha-plant-slide": 11
+    "dataBuildPassed": true,
+    "productionBuildPassed": true,
+    "knownWrEntries": 9,
+    "scopeVerified": {
+      "tourId": "tour-86",
+      "worksheetRows": 51,
+      "datedRows": 39,
+      "sourceGapIds": [
+        "sheet-ATH11",
+        "sheet-ATH19",
+        "sheet-ATH26",
+        "sheet-ASZ20",
+        "sheet-ASZ21",
+        "sheet-ASZ22",
+        "sheet-ASZ27",
+        "sheet-ASZ30",
+        "sheet-ASZ34",
+        "sheet-ASZ35",
+        "sheet-ASZ37",
+        "sheet-ASZ38"
+      ],
+      "changedCourses": [
+        "wii-koopa-cape",
+        "3ds-piranha-plant-slide"
+      ],
+      "otherCoursesUnchanged": 140,
+      "wrEntries": [
+        {
+          "id": "curated-1057816917764735066-newyear2023-proof-reviewed",
+          "time": "1:36.68",
+          "documentedAt": "2022-12-29T00:26:46.483Z",
+          "durationDays": 0.5104274652777778
+        },
+        {
+          "id": "curated-1058001890484420678-koopa-cape-lap-message-confirmed",
+          "time": "1:36.21",
+          "documentedAt": "2022-12-29T12:41:47.416Z",
+          "durationDays": 6.921576076388889
+        },
+        {
+          "id": "curated-1060510185665343539-newyear2023-proof-reviewed",
+          "time": "1:36.08",
+          "documentedAt": "2023-01-05T10:48:51.589Z",
+          "durationDays": 5.799402905092593
+        },
+        {
+          "id": "1062874009567502386",
+          "time": "1:35.85",
+          "documentedAt": "2023-01-11T06:29:53.050Z",
+          "durationDays": 2.0872837962962962
+        },
+        {
+          "id": "curated-1057750526772658176-newyear2023-proof-reviewed",
+          "time": "1:28.73",
+          "documentedAt": "2022-12-28T20:02:57.637Z",
+          "durationDays": 1.5221139699074073
+        },
+        {
+          "id": "curated-1058302122405408798-pps12866-leaderboard-confirmed",
+          "time": "1:28.66",
+          "documentedAt": "2022-12-30T08:34:48.284Z",
+          "durationDays": 0.5066417013888889
+        },
+        {
+          "id": "curated-1058485723210190948-newyear2023-lap-command-reviewed",
+          "time": "1:28.61",
+          "documentedAt": "2022-12-30T20:44:22.127Z",
+          "durationDays": 0.01058806712962963
+        },
+        {
+          "id": "curated-1058489560197246996-newyear2023-lap-command-reviewed",
+          "time": "1:28.54",
+          "documentedAt": "2022-12-30T20:59:36.936Z",
+          "durationDays": 1.1429194907407407
+        },
+        {
+          "id": "1062872650449436742",
+          "time": "1:28.43",
+          "documentedAt": "2023-01-01T00:25:25.180Z",
+          "durationDays": 16.069459502314814
+        }
+      ],
+      "passed": true,
+      "knownWrIdsUnchanged": true,
+      "lateKoopaPostingClockDurationsVerified": true,
+      "newSupportingRecordingHasZeroWrCredit": true
     },
-    "renderedPreservedEvidenceLinksReadable": 29,
-    "wrEvidenceEntries": 9,
-    "failedLinks": 0,
-    "productionBuildPages": 892,
-    "focusedVideoAndOpeningTestsPassed": 15,
-    "openingPublicResultsOnly": [
-      "Wins Koopa Cape 1:36.68",
-      "Wins Piranha Plant Slide 1:28.73"
-    ],
-    "completionLabelLiveVerified": true,
-    "livePreservedEvidenceLinksReadable": 29,
-    "liveSupportingEntries": {
-      "wii-koopa-cape": 21,
-      "3ds-piranha-plant-slide": 11
-    },
-    "liveWrEvidenceEntries": 9,
-    "documentaryObservationClockLiveVerified": true
+    "productionBuildPages": 892
   },
   "remainingLimitations": [
-    "Both courses first appear in this time-trial tour. Final fastest recovered opening results are Wins Koopa1:36.68 and PPS1:28.73; worldwide opening completeness is unproven.",
-    "Koopa1:36.19/1:35.95 and PPS1:28.63/1:28.53 previous-best leads lack original achievement/submission dates. No additional dated WR reigns invented.",
-    "Contemporary leaderboard documents PPS1:28.66. Its December30 clock is an observation, not original submission. Sucha1:29.40 video is not assigned to Wins.",
-    "Koopa final1:35.85 is assigned to this tour by contemporary WR-history. Original screenshot post was29m53s after rollover; achievement date remains unknown.",
-    "PPS final1:28.43 result was submitted January1UTC; matching uploader-reported footage published/shared January11afterrollover. These clocks are shown separately.",
-    "Opening PPS1:28.73 video bytes match prior sampled review; no fresh pixels or full uninterrupted race certification. Two other videos match source/title, with no fresh visual certification.",
-    "26originalimage references hash-checked;25insideactualwindow plus one late final Koopa image. Raw submissions and 14undated/textual leads retained; practical surviving-proof review is not exhaustive worldwide history.",
-    "Six slower or duplicate post-opening candidates removed with durable guards; all raw submissions retained. Overall2019–2026archive remains incomplete."
+    "Twelve worksheet entries retain explicit original source/date gaps. No unrelated runner or later-tour date is borrowed.",
+    "Three matched entries use documented observations/previous-best fields and four additional named leaderboard observations are distinguished from original submissions. Sucha12940 uses earlier original video publication.",
+    "Final Koopa13585 was posted after tour rollover. Tour attribution is retained as context; posting clock supplies documented duration boundaries without a guessed race date.",
+    "Koopa13619/13595 and PPS12863/12853 previous-best leads remain undated, without additional invented dated WR intervals.",
+    "Two Wins recordings and Sucha12940 have source/caption and extracted result/lap frames; no new full-frame continuity certification is claimed. Opening Wins12873 prior sampled review retained by hash.",
+    "Overall2019–2026 archive remains incomplete; unsubmitted or lost history is not proven exhaustive."
   ],
   "evidence": [
     "archive/newyear2023-practical-source-disposition-index-20261014.json",
@@ -126,8 +198,139 @@
     "archive/newyear2023-completion-label-build-check-20261014.json",
     "archive/newyear2023-completion-label-live-check-20261014.json",
     "archive/newyear2023-rendered-proof-and-video-live-link-audit-20261014.json",
-    "archive/newyear2023-evidence-clock-link-schema-repair-20261014.json"
+    "archive/newyear2023-evidence-clock-link-schema-repair-20261014.json",
+    "artifacts/newyear2023-source-date-reconciliation-20261018.json",
+    "artifacts/newyear2023-three-recording-lap-and-result-source-review-20261018.json",
+    "artifacts/newyear2023-koopa-final-original-post-and-receipt-clock-20261018.json",
+    "artifacts/newyear2023-pps12866-original-leaderboard-observation-20261018.json",
+    "artifacts/newyear2023-three-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/newyear2023-sucha12940-original-video-preservation-20261018.json",
+    "artifacts/newyear2023-source-date-and-video-frame-r2-integrity-20261018.json"
   ],
   "nextTourId": "tour-87",
-  "sourceCommit": "6c307dd9f"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-14",
+    "sourceCommit": "6c307dd9f",
+    "coverage": {
+      "preservedImageReferencesHashChecked": 26,
+      "mainSourceActiveCourseReferences": 25,
+      "lateFinalKoopaImageReferences": 1,
+      "hashFailures": 0,
+      "newRecordingsPreservedOnR2": 3,
+      "newPublicR2ProofObjectsByteVerified": 15,
+      "recoveredProgressionRowsAdded": 4,
+      "generatedReviewedRowsCompared": 62,
+      "materialFieldDifferences": 0,
+      "removedSlowerOrDuplicateCandidates": 6,
+      "rawSubmissionsRetained": true
+    },
+    "validation": {
+      "renderedSupportingEntries": {
+        "wii-koopa-cape": 21,
+        "3ds-piranha-plant-slide": 11
+      },
+      "renderedPreservedEvidenceLinksReadable": 29,
+      "wrEvidenceEntries": 9,
+      "failedLinks": 0,
+      "productionBuildPages": 892,
+      "focusedVideoAndOpeningTestsPassed": 15,
+      "openingPublicResultsOnly": [
+        "Wins Koopa Cape 1:36.68",
+        "Wins Piranha Plant Slide 1:28.73"
+      ],
+      "completionLabelLiveVerified": true,
+      "livePreservedEvidenceLinksReadable": 29,
+      "liveSupportingEntries": {
+        "wii-koopa-cape": 21,
+        "3ds-piranha-plant-slide": 11
+      },
+      "liveWrEvidenceEntries": 9,
+      "documentaryObservationClockLiveVerified": true
+    },
+    "remainingLimitations": [
+      "Both courses first appear in this time-trial tour. Final fastest recovered opening results are Wins Koopa1:36.68 and PPS1:28.73; worldwide opening completeness is unproven.",
+      "Koopa1:36.19/1:35.95 and PPS1:28.63/1:28.53 previous-best leads lack original achievement/submission dates. No additional dated WR reigns invented.",
+      "Contemporary leaderboard documents PPS1:28.66. Its December30 clock is an observation, not original submission. Sucha1:29.40 video is not assigned to Wins.",
+      "Koopa final1:35.85 is assigned to this tour by contemporary WR-history. Original screenshot post was29m53s after rollover; achievement date remains unknown.",
+      "PPS final1:28.43 result was submitted January1UTC; matching uploader-reported footage published/shared January11afterrollover. These clocks are shown separately.",
+      "Opening PPS1:28.73 video bytes match prior sampled review; no fresh pixels or full uninterrupted race certification. Two other videos match source/title, with no fresh visual certification.",
+      "26originalimage references hash-checked;25insideactualwindow plus one late final Koopa image. Raw submissions and 14undated/textual leads retained; practical surviving-proof review is not exhaustive worldwide history.",
+      "Six slower or duplicate post-opening candidates removed with durable guards; all raw submissions retained. Overall2019–2026archive remains incomplete."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "remainingSourceGaps": [
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "sheet-ATH11",
+      "playerId": "moara",
+      "time": "1:37.29"
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "sheet-ATH19",
+      "playerId": "n",
+      "time": "1:36.67"
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "sheet-ATH26",
+      "playerId": "player-e38199e38184e3819df09f90ba",
+      "time": "1:36.88"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ20",
+      "playerId": "spartacurtyt",
+      "time": "1:29.18"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ21",
+      "playerId": "dome-1909",
+      "time": "1:29.45"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ22",
+      "playerId": "kuri",
+      "time": "1:29.20"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ27",
+      "playerId": "spartacurtyt",
+      "time": "1:28.96"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ30",
+      "playerId": "malermarkus",
+      "time": "1:29.06"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ34",
+      "playerId": "malermarkus",
+      "time": "1:28.88"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ35",
+      "playerId": "syun",
+      "time": "1:36.97"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ37",
+      "playerId": "malermarkus",
+      "time": "1:28.80"
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "id": "sheet-ASZ38",
+      "playerId": "n",
+      "time": "1:28.77"
+    }
+  ]
 }
