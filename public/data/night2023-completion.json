@@ -2,7 +2,7 @@
   "tourId": "tour-99",
   "tour": "Night Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized practical surviving proofs. Source posting date is submission/archive date unless earlier or contrary evidence establishes another date.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -27,7 +27,9 @@
       "recordingPlayerId": "nu11",
       "recordingAvailability": "available",
       "moviePublishedAt": "2023-07-11T15:12:19Z",
-      "openingOriginalRecovered": false
+      "openingOriginalRecovered": false,
+      "archivedWrDurationDays": 7.263362268518518,
+      "archivedWrDurationEnd": "2024-07-02T21:31:33.500Z"
     },
     {
       "id": "singapore-speedway",
@@ -37,7 +39,9 @@
       "datedTourHistory": [],
       "fastestRecoveredTourSubmission": "1:10.75",
       "fastestDocumentedAvailableRecording": "1:09.43",
-      "recordingIsEarlierTour": true
+      "recordingIsEarlierTour": true,
+      "carriedWrDurationDays": 56.57047541666667,
+      "carriedWrDurationEnd": "2026-09-30T06:00:00.000Z"
     },
     {
       "id": "singapore-speedway-2r",
@@ -57,7 +61,9 @@
       "recordingAvailability": "available",
       "recordingPublishedAt": "2023-07-07T20:09:50Z",
       "firstDayFinalFastestRecovered": "1:26.02",
-      "firstDayPlayerId": "rubix"
+      "firstDayPlayerId": "rubix",
+      "archivedWrDurationDays": 2.3779106944444446,
+      "archivedWrDurationEnd": "2024-06-28T15:02:38.382Z"
     }
   ],
   "coverage": {
@@ -77,7 +83,14 @@
       "singapore-speedway-2r": 6
     },
     "renderedR2MediaLinksPassed": 110,
-    "focusedTestsPassed": 29
+    "focusedTestsPassed": 29,
+    "knownWorksheetRows": 62,
+    "knownWorksheetRowsDated": 62,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 10,
+    "preservedProofAndSourceObjectsVerified": 73,
+    "originalMoviesRevalidated": 5,
+    "carriedWrEntriesDateAndDurationReviewed": 1
   },
   "remainingLimitations": [
     "No original Rome result from the opening playable day was recovered; its dated progression starts with the earliest recovered June 30 result.",
@@ -85,7 +98,9 @@
     "mb3’s final 1:24.98 has a verified original result screenshot and announcement, but no final-run movie was recovered. Phillish’s 1:25.08 is the fastest recovered available same-tour recording.",
     "Prior original image and video assessments are retained by matching SHA256. Two new videos were reviewed at the start, lap transition and finish; uninterrupted full-race continuity was not freshly certified.",
     "The 113 saved source rows form a bounded surviving set. Deleted or private sources and exhaustive worldwide history remain unproven.",
-    "One image posted during Night Tour belongs to delayed Luigi Raceway R evidence from the prior tour and is excluded from Night progression."
+    "One image posted during Night Tour belongs to delayed Luigi Raceway R evidence from the prior tour and is excluded from Night progression.",
+    "All62 worksheet entries have matching source posting or observation timestamps. Papillon and rui alias matching is supported by original account IDs; no global profile merge or extra WR credit. Phillish1:19.14 and1:25.08 use earlier video publication dates while original submission clocks remain preserved.",
+    "Ten WR entries plus the carried Singapore record have exact playable durations and verified endpoints. Five movies fully downloaded, SHA256/byte/MIME/Range206 checked and decoded. Prior sampled image and video assessments retained by hash; no fresh uninterrupted-race certification. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/night2023-source-review-index-20261008.json",
@@ -96,13 +111,52 @@
     "archive/night2023-complete-course-generation-and-player-record-check-20261014.json",
     "archive/night2023-production-build-and-complete-course-fidelity-20261014.json",
     "archive/night2023-surviving-source-review-decision-20261014.json",
-    "archive/night2023-live-publication-verification-20261014.json"
+    "archive/night2023-live-publication-verification-20261014.json",
+    "artifacts/night2023-source-date-reconciliation-20261018.json",
+    "artifacts/night2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/night2023-papillon-original-author-clock-source-20261018.json",
+    "artifacts/night2023-rui-original-author-clock-source-20261018.json",
+    "artifacts/night2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/night2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/night2023-eleven-known-wr-proof-link-check-20261018.json",
+    "artifacts/night2023-five-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/night2023-fastest-documented-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/night2023-live-publication-verification-20261018.json"
   ],
-  "productionBuildVerified": true,
   "productionBuildEvidence": "archive/night2023-production-build-and-complete-course-fidelity-20261014.json",
-  "livePublicationVerified": true,
   "nextTourId": "tour-100",
-  "latestLiveEvidence": "archive/night2023-live-publication-verification-20261014.json",
   "verifiedDeploymentSourceCommit": "414ed77946eba00301ae1cee6e5dee494ec74788",
-  "liveVerificationDate": "2026-10-14"
+  "liveVerificationDate": "2026-10-14",
+  "knownWrReviewComplete": true,
+  "sourceCommit": "f97df41c2c10c34201b5db830291082f41289b92",
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/night2023-live-publication-verification-20261018.json",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 139,
+    "playerProfilesUnchanged": true,
+    "knownWrAndCarriedImageLinksReadable": 11,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 73,
+    "fivePreservedVideosFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/night2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "staticPagesBuilt": 892
+  },
+  "remainingSourceGaps": [
+    {
+      "id": "rome-opening-day-original",
+      "courseId": "rome-avanti-2",
+      "reason": "No original opening playable-day result recovered; progression starts with earliest surviving June30 result."
+    },
+    {
+      "id": "undated-personal-best-predecessors",
+      "reason": "Previous bests lack independently dated original sources; no chronological WR insertion."
+    },
+    {
+      "id": "mb3-final-12498-movie",
+      "courseId": "singapore-speedway-2r",
+      "reason": "Final screenshot preserved; no final-run movie recovered. Phillish1:25.08 is the fastest recovered same-tour recording."
+    }
+  ]
 }
