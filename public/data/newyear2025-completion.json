@@ -3,7 +3,7 @@
   "tour": "New Year Tour (2025)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -18,7 +18,70 @@
       "fastestDocumentedRecording": "1:35.55",
       "supportingDisplayed": 12,
       "strategyClips": 1,
-      "sourceImages": 1
+      "sourceImages": 1,
+      "worksheetRows": 7,
+      "worksheetRowsDated": 5,
+      "worksheetSourceGaps": [
+        {
+          "courseId": "wii-koopa-cape",
+          "id": "sheet-CBT13",
+          "playerId": "keron0614",
+          "time": "1:37.84",
+          "reason": "Matching keron 1:37.84 screenshot shows Piranha Plant Slide, not worksheet course Koopa Cape; no supported Koopa Cape source/date.",
+          "dateInvented": false,
+          "aliasesMerged": false
+        },
+        {
+          "courseId": "wii-koopa-cape",
+          "id": "sheet-CBT16",
+          "playerId": "newyork",
+          "time": "1:35.61",
+          "reason": "The surviving 1:35.61 Koopa Cape screenshot belongs to Sucha; it does not establish NewYork identity or date.",
+          "dateInvented": false,
+          "aliasesMerged": false
+        }
+      ],
+      "reviewedWrEntries": [
+        {
+          "courseId": "wii-koopa-cape",
+          "id": "1332591349102547007",
+          "playerId": "nekozuki",
+          "time": "1:35.51",
+          "documentedAt": "2025-01-06T10:59:52.912Z",
+          "durationDays": 4.205723599537037,
+          "durationEnd": "2025-12-26T15:56:07.431Z"
+        },
+        {
+          "courseId": "wii-koopa-cape",
+          "id": "curated-1325127311301017650-newyear2025-image-reviewed",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:35.61",
+          "documentedAt": "2025-01-04T15:42:50.689Z",
+          "durationDays": 0.0022214699074074072,
+          "durationEnd": "2025-01-04T15:46:02.624Z"
+        },
+        {
+          "courseId": "wii-koopa-cape",
+          "id": "curated-1325128116334497855-newyear2025-image-reviewed",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:35.55",
+          "documentedAt": "2025-01-04T15:46:02.624Z",
+          "durationDays": 1.8012764814814815,
+          "durationEnd": "2025-01-06T10:59:52.912Z"
+        }
+      ],
+      "carriedStandings": [
+        {
+          "courseId": "wii-koopa-cape",
+          "id": "1197596670645518491",
+          "playerId": "nekozuki",
+          "time": "1:35.65",
+          "documentedAt": "2024-01-02T11:32:29.256Z",
+          "durationDays": 18.17385917824074,
+          "durationEnd": "2025-01-04T15:42:50.689Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved original public clocks, hashes and qualified prior completed-result review; no fresh full-frame continuity certification."
     },
     {
       "courseId": "3ds-piranha-plant-slide",
@@ -26,7 +89,23 @@
       "fastestDocumentedRecording": "1:28.03",
       "supportingDisplayed": 6,
       "strategyClips": 2,
-      "sourceImages": 0
+      "sourceImages": 0,
+      "worksheetRows": 5,
+      "worksheetRowsDated": 5,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "3ds-piranha-plant-slide",
+          "id": "1197596509772984370",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:28.03",
+          "documentedAt": "2024-01-06T05:23:36.000Z",
+          "durationDays": 32.02527777777778,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved original public clocks, hashes and qualified prior completed-result review; no fresh full-frame continuity certification."
     }
   ],
   "coverage": {
@@ -47,7 +126,27 @@
     "postCloseContextRows": 2,
     "matchedReceiptsRetainedAsSourceOnly": 4,
     "freshBrowserCensusCompleted": false,
-    "allAffectedCourseRows": 269
+    "allAffectedCourseRows": 269,
+    "knownWorksheetRows": 12,
+    "knownWorksheetRowsDated": 10,
+    "remainingUndatedWorksheetRows": 2,
+    "currentWindowWrEntries": 3,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "currentOriginalTimingImagesRevalidated": 21,
+    "currentUniquePerformances": 20,
+    "boundaryImagesWithoutCompletedTotal": 1,
+    "carriedOriginalImagesRevalidated": 2,
+    "preservedProofAndSourceObjectsVerified": 47,
+    "publicationMetadataObjectsVerified": 4,
+    "originalMoviesRevalidated": 7,
+    "completedHistoricalMovies": 1,
+    "currentCompletedWrMovies": 1,
+    "currentCompletedSupportingMovies": 2,
+    "partialLapMovies": 3,
+    "knownWrIdsAdded": 0,
+    "freshWorksheetSourceClocksVerified": 10,
+    "freshCurrentWrSourceClocksVerified": 3,
+    "freshCarriedSourceClocksVerified": 2
   },
   "evidence": [
     "archive/newyear2025-original-preservation-and-source-review-20261015.json",
@@ -56,35 +155,168 @@
     "archive/newyear2025-full-course-generation-and-source-field-preservation-20261015.json",
     "archive/newyear2025-edited-receipt-source-dispositions-20261015.json",
     "archive/newyear2025-production-build-and-rendered-evidence-link-check-20261015.json",
-    "archive/newyear2025-reviewed-wr-playable-day-intervals-20261015.json"
+    "archive/newyear2025-reviewed-wr-playable-day-intervals-20261015.json",
+    "artifacts/newyear2025-carried-piranha-original-receipt-dom-20261018.json",
+    "artifacts/newyear2025-carried-original-result-proof-machine-review-20261018.json",
+    "artifacts/newyear2025-original-image-machine-ocr-20261018.json",
+    "artifacts/newyear2025-regression-and-production-build-validation-20261018.json",
+    "artifacts/newyear2025-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/newyear2025-opening-original-submissions-dom-20261018.json",
+    "artifacts/newyear2025-carried-koopa-original-submission-dom-20261018.json",
+    "artifacts/newyear2025-carried-and-current-original-proof-clock-review-20261018.json",
+    "artifacts/newyear2025-yellow-result-timer-machine-ocr-20261018.json",
+    "artifacts/newyear2025-current-strategy-and-video-discussion-dom-20261018.json",
+    "artifacts/newyear2025-closing-strategy-clip-dom-20261018.json",
+    "artifacts/newyear2025-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/newyear2025-closing-original-submissions-and-identical-repost-dom-20261018.json",
+    "artifacts/newyear2025-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/newyear2025-seven-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/newyear2025-publication-metadata-preservation-20261018.json",
+    "artifacts/newyear2025-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/newyear2025-supported-worksheet-source-clock-map-20261018.json",
+    "https://media.mktwrs.com/assets/proof/newyear2025-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
   "remainingLimitations": [
-    "Preserved captured sources reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
-    "Twenty-one submission attachments document twenty performances; identical1:35.51 repost retains the earlier human submission date and later accepted receipt.",
-    "Three current completed videos and one carried recording are preserved; three strategy clips and a lap-boundary image establish no completed total.",
-    "KoopaCape final1:35.51 has image proof; fastest qualified available recording is Sucha1:35.55.",
-    "PiranhaPlantSlide1:28.03 and its recording carry from2024; current1:28.53 Sucha and Shine runs remain separate support.",
-    "Original video publication times remain separate from image posts. Links supplied through edited receipts do not establish a human sharing instant.",
-    "A saved quoted-context datetime for message1323658157410750496 was replaced with its actual December31 creation clock; the captured value remains preserved.",
-    "Post-close discussion belongs to next tour and is deferred."
+    "Known WR review closed with two worksheet gaps retained. Ten of twelve worksheet entries have supported single public evidence timestamps.",
+    "Keron\u2019s worksheet 1:37.84 is filed under Koopa Cape, while the matching original screenshot shows Piranha Plant Slide. No Koopa date or course correction is invented.",
+    "The surviving Koopa 1:35.61 is attributed to Sucha; it cannot date or credit NewYork\u2019s worksheet entry.",
+    "The three current Koopa WRs and two carried standings retain exact supported dates and independently checked playable durations. Tour clocks pause outside course availability.",
+    "The original neko 1:35.51 posting 2025-01-06T10:59:52.912Z precedes the identical repost and delayed WR announcement; all source clocks are retained without duplicate WR credit.",
+    "The separately preserved 2025 neko 1:35.70 run receives zero WR days rather than inheriting his older 2023 WR with the same total.",
+    "Sucha\u2019s 1:35.55 screenshot precedes its video publication; both clocks are retained. Shine\u2019s Koopa 1:36.09 and Piranha 1:28.53 use the earlier supported original video publications. The first human sharing time of those YouTube videos remains unknown.",
+    "Piranha Plant Slide carries Sucha\u2019s 1:28.03 with earlier original video publication 2024-01-06T05:23:36Z, distinct from the submitted receipt at 05:31:02.571Z and its later edit.",
+    "The best preserved Koopa footage is Sucha\u2019s 1:35.55, distinct from neko\u2019s 1:35.51 WR. The Piranha WR and best footage are both Sucha\u2019s 1:28.03.",
+    "All 22 current images and both carried originals retain matching hashes. Machine OCR corroborates 21 completed-result images, including the identical repost, and both carried results. The boundary image supplies no completed total. No fresh human visual review is claimed.",
+    "All seven archived files pass full GET, SHA256, bytes, MIME, direct Range206 and full decode: three current completed movies, one carried completed movie and three partial strategy clips. Prior qualified result assessments are retained; full decode does not certify uninterrupted footage.",
+    "The December 31 clip uses its own posting clock, not the December 26 edited timestamp inside its quoted context. Partial clips and the boundary image are not assigned completed totals.",
+    "All 47 proof/source objects pass full GET, hashes, lengths, MIME and direct Range206. Public YouTube metadata excludes retrieval IP and temporary transport URLs.",
+    "The 2019\u20132026 archive remains in progress; this closes only New Year 2025\u2019s known WR review."
   ],
   "validation": {
-    "focusedTestsPassed": 17,
-    "fullGeneratedRowsMatched": 269,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsReadable": 89,
-    "productionBuildAudit": "archive/newyear2025-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/newyear2025-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 47,
+    "sevenMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "allTenSupportedWorksheetOriginalClocksAndIdentitiesVerified": true,
+    "threeCurrentAndTwoCarriedWrDurationsIndependentlyVerified": true,
+    "all17SlowerCurrentPerformancesRetainZeroWrDays": true,
+    "distinctNeko9570RunDoesNotInheritPriorWrDays": true,
+    "originalAndVideoPublicationAndSharingClocksKeptSeparate": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/newyear2025-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "focusedRegressionTestsPassed": 12,
+    "broaderPublishedAggregateRegressionTestsPassed": 33,
+    "productionBuildPassed": true
   },
   "nextTourId": "tour-139",
-  "latestLivePublicationAudit": "archive/newyear2025-exact-live-publication-and-full-field-check-20261015.json",
   "lateSourceSupplement": {
     "sourceTourId": "tour-139",
     "result": "newyork1:35.61",
     "postedAt": "2025-01-08T09:56:30.259Z",
     "audit": "archive/space2025-posted-results-and-source-clock-reconciliation-20261015.json",
     "newWrIds": 0
-  }
+  },
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 21,
+      "availableOriginalSubmissionImages": 21,
+      "unavailableOriginalSubmissionImages": 0,
+      "currentCanonicalSourceRows": 20,
+      "uniqueCurrentPerformances": 20,
+      "currentCompletedMoviePerformances": 3,
+      "currentPartialLapClips": 3,
+      "discussionOriginalTimingImages": 1,
+      "carriedPriorTourRecordings": 1,
+      "byteIdenticalReposts": 1,
+      "r2FilesVerified": 29,
+      "existingWrIdsRetainedInAffectedCourses": 23,
+      "newWrIds": 0,
+      "currentTourBoundedDiscussionRows": 39,
+      "postCloseContextRows": 2,
+      "matchedReceiptsRetainedAsSourceOnly": 4,
+      "freshBrowserCensusCompleted": false,
+      "allAffectedCourseRows": 269,
+      "knownWorksheetRows": 12,
+      "knownWorksheetRowsDated": 10,
+      "remainingUndatedWorksheetRows": 2,
+      "currentWindowWrEntries": 3,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "currentOriginalTimingImagesRevalidated": 21,
+      "currentUniquePerformances": 20,
+      "boundaryImagesWithoutCompletedTotal": 1,
+      "carriedOriginalImagesRevalidated": 2,
+      "preservedProofAndSourceObjectsVerified": 47,
+      "publicationMetadataObjectsVerified": 4,
+      "originalMoviesRevalidated": 7,
+      "completedHistoricalMovies": 1,
+      "currentCompletedWrMovies": 1,
+      "currentCompletedSupportingMovies": 2,
+      "partialLapMovies": 3,
+      "knownWrIdsAdded": 0,
+      "freshWorksheetSourceClocksVerified": 10,
+      "freshCurrentWrSourceClocksVerified": 3,
+      "freshCarriedSourceClocksVerified": 2
+    },
+    "remainingLimitations": [
+      "Preserved captured sources reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
+      "Twenty-one submission attachments document twenty performances; identical1:35.51 repost retains the earlier human submission date and later accepted receipt.",
+      "Three current completed videos and one carried recording are preserved; three strategy clips and a lap-boundary image establish no completed total.",
+      "KoopaCape final1:35.51 has image proof; fastest qualified available recording is Sucha1:35.55.",
+      "PiranhaPlantSlide1:28.03 and its recording carry from2024; current1:28.53 Sucha and Shine runs remain separate support.",
+      "Original video publication times remain separate from image posts. Links supplied through edited receipts do not establish a human sharing instant.",
+      "A saved quoted-context datetime for message1323658157410750496 was replaced with its actual December31 creation clock; the captured value remains preserved.",
+      "Post-close discussion belongs to next tour and is deferred."
+    ],
+    "validation": {
+      "focusedTestsPassed": 17,
+      "fullGeneratedRowsMatched": 269,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsReadable": 89,
+      "productionBuildAudit": "archive/newyear2025-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/newyear2025-exact-live-publication-and-full-field-check-20261015.json"
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/newyear2025-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "sheet-CBT13",
+      "playerId": "keron0614",
+      "time": "1:37.84",
+      "reason": "Matching keron 1:37.84 screenshot shows Piranha Plant Slide, not worksheet course Koopa Cape; no supported Koopa Cape source/date.",
+      "dateInvented": false,
+      "aliasesMerged": false
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "id": "sheet-CBT16",
+      "playerId": "newyork",
+      "time": "1:35.61",
+      "reason": "The surviving 1:35.61 Koopa Cape screenshot belongs to Sucha; it does not establish NewYork identity or date.",
+      "dateInvented": false,
+      "aliasesMerged": false
+    },
+    {
+      "id": "neko-13551-missing-own-movie",
+      "reason": "No matching 1:35.51 Koopa Cape movie survives in reviewed sources. Sucha\u2019s separate 1:35.55 is the best archived video for this tour."
+    },
+    {
+      "id": "sucha-13561-missing-own-movie",
+      "reason": "The 1:35.61 original result screenshot is preserved; no matching movie is available."
+    },
+    {
+      "id": "neko-13565-carry-missing-own-movie",
+      "reason": "The carried 1:35.65 original screenshot is preserved; no matching movie is available."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Public evidence clocks do not establish private race instants or exhaustive worldwide history."
+    }
+  ]
 }
