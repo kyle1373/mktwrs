@@ -20,7 +20,7 @@
       "strategyClips": 1,
       "sourceImages": 1,
       "worksheetRows": 7,
-      "worksheetRowsDated": 5,
+      "worksheetRowsDated": 6,
       "worksheetSourceGaps": [
         {
           "courseId": "wii-koopa-cape",
@@ -28,15 +28,6 @@
           "playerId": "keron0614",
           "time": "1:37.84",
           "reason": "Matching keron 1:37.84 screenshot shows Piranha Plant Slide, not worksheet course Koopa Cape; no supported Koopa Cape source/date.",
-          "dateInvented": false,
-          "aliasesMerged": false
-        },
-        {
-          "courseId": "wii-koopa-cape",
-          "id": "sheet-CBT16",
-          "playerId": "newyork",
-          "time": "1:35.61",
-          "reason": "The surviving 1:35.61 Koopa Cape screenshot belongs to Sucha; it does not establish NewYork identity or date.",
           "dateInvented": false,
           "aliasesMerged": false
         }
@@ -128,8 +119,8 @@
     "freshBrowserCensusCompleted": false,
     "allAffectedCourseRows": 269,
     "knownWorksheetRows": 12,
-    "knownWorksheetRowsDated": 10,
-    "remainingUndatedWorksheetRows": 2,
+    "knownWorksheetRowsDated": 11,
+    "remainingUndatedWorksheetRows": 1,
     "currentWindowWrEntries": 3,
     "carriedWrEntriesDateAndDurationReviewed": 2,
     "currentOriginalTimingImagesRevalidated": 21,
@@ -174,13 +165,15 @@
     "artifacts/newyear2025-publication-metadata-preservation-20261018.json",
     "artifacts/newyear2025-wr-proof-and-recording-selection-validation-20261018.json",
     "artifacts/newyear2025-supported-worksheet-source-clock-map-20261018.json",
-    "https://media.mktwrs.com/assets/proof/newyear2025-live-publication-verification-20261018.json"
+    "https://media.mktwrs.com/assets/proof/newyear2025-live-publication-verification-20261018.json",
+    "https://media.mktwrs.com/assets/proof/space2025-live-publication-verification-20261018.json",
+    "artifacts/space2025-supported-worksheet-source-clock-map-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
   "remainingLimitations": [
-    "Known WR review closed with two worksheet gaps retained. Ten of twelve worksheet entries have supported single public evidence timestamps.",
+    "Known WR review remains closed. Eleven of twelve worksheet entries now have supported single public evidence dates; keron\u2019s wrong-course source gap remains.",
     "Keron\u2019s worksheet 1:37.84 is filed under Koopa Cape, while the matching original screenshot shows Piranha Plant Slide. No Koopa date or course correction is invented.",
-    "The surviving Koopa 1:35.61 is attributed to Sucha; it cannot date or credit NewYork\u2019s worksheet entry.",
+    "NewYork\u2019s own original Koopa1:35.61 image and named receipt were posted January8,2025 at09:56:30.259Z after the tour closed. Its actual posting date resolves the former attribution/date gap without borrowing Sucha\u2019s proof or assigning WR days.",
     "The three current Koopa WRs and two carried standings retain exact supported dates and independently checked playable durations. Tour clocks pause outside course availability.",
     "The original neko 1:35.51 posting 2025-01-06T10:59:52.912Z precedes the identical repost and delayed WR announcement; all source clocks are retained without duplicate WR credit.",
     "The separately preserved 2025 neko 1:35.70 run receives zero WR days rather than inheriting his older 2023 WR with the same total.",
@@ -209,15 +202,53 @@
     "mediaBrowserTabsOpened": false,
     "focusedRegressionTestsPassed": 12,
     "broaderPublishedAggregateRegressionTestsPassed": 33,
-    "productionBuildPassed": true
+    "productionBuildPassed": true,
+    "latestKnownWorksheetRowsDated": 11,
+    "latestKnownWorksheetDateGaps": 1,
+    "lateNewYorkOriginalDateAndAttributionVerified": true,
+    "supplementalPublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/space2025-live-publication-verification-20261018.json"
   },
   "nextTourId": "tour-139",
   "lateSourceSupplement": {
-    "sourceTourId": "tour-139",
-    "result": "newyork1:35.61",
-    "postedAt": "2025-01-08T09:56:30.259Z",
-    "audit": "archive/space2025-posted-results-and-source-clock-reconciliation-20261015.json",
-    "newWrIds": 0
+    "reviewedAt": "2026-10-18",
+    "resolvedWorksheetId": "sheet-CBT16",
+    "source": {
+      "courseId": "wii-koopa-cape",
+      "id": "sheet-CBT16",
+      "playerId": "newyork",
+      "time": "1:35.61",
+      "previousDocumentedAt": null,
+      "originalSubmittedAt": "2025-01-08T09:56:30.259Z",
+      "timestamp": "2025-01-08T09:56:30.259Z",
+      "source": {
+        "url": "https://discord.com/channels/629221606064914442/875784780573184010/1326489703322619965",
+        "channel": "tt-submission",
+        "messageId": "1326489703322619965"
+      },
+      "dateSourceUrl": "https://discord.com/channels/629221606064914442/875784780573184010/1326489703322619965",
+      "attachmentId": "1326489703234408448",
+      "originalFile": "archive/submission-images/1326489703234408448.jpg",
+      "sha256": "16f45b3ba1fcb1f5be8ffab1b8c9b0664a5fbb4ae84e690d30e1232650c38ec7",
+      "r2": {
+        "url": "https://media.mktwrs.com/assets/proof/space2025-1326489703234408448-16f45b3ba1fcb1f5be8f.jpg",
+        "key": "assets/proof/space2025-1326489703234408448-16f45b3ba1fcb1f5be8f.jpg",
+        "sha256": "16f45b3ba1fcb1f5be8ffab1b8c9b0664a5fbb4ae84e690d30e1232650c38ec7",
+        "md5": "97784951c82e5df7c8a21f7d358b5e1a",
+        "bytes": 85847,
+        "shaMetadataMd5AndLengthVerified": true,
+        "publicRangeMatchesOriginal": true
+      },
+      "matchingPublishedId": "curated-1326489703322619965-space2025-image-reviewed",
+      "sourceBasis": "original-submission-publication",
+      "proofField": "result-total",
+      "freshVisualReview": false,
+      "profileAliasesMerged": false,
+      "identitySupportedByAccountOrLinkedReceipt": true,
+      "identitySupportedByNamedOriginalAuthor": false,
+      "lateTourSubmission": true
+    },
+    "creditedWrDays": 0,
+    "evidenceUrl": "https://media.mktwrs.com/assets/proof/space2025-live-publication-verification-20261018.json"
   },
   "priorPracticalReview": {
     "completedAt": "2026-10-15",
@@ -294,15 +325,6 @@
       "aliasesMerged": false
     },
     {
-      "courseId": "wii-koopa-cape",
-      "id": "sheet-CBT16",
-      "playerId": "newyork",
-      "time": "1:35.61",
-      "reason": "The surviving 1:35.61 Koopa Cape screenshot belongs to Sucha; it does not establish NewYork identity or date.",
-      "dateInvented": false,
-      "aliasesMerged": false
-    },
-    {
       "id": "neko-13551-missing-own-movie",
       "reason": "No matching 1:35.51 Koopa Cape movie survives in reviewed sources. Sucha\u2019s separate 1:35.55 is the best archived video for this tour."
     },
@@ -318,5 +340,6 @@
       "id": "private-achievement-and-worldwide-history",
       "reason": "Public evidence clocks do not establish private race instants or exhaustive worldwide history."
     }
-  ]
+  ],
+  "supplementalLivePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/space2025-live-publication-verification-20261018.json"
 }
