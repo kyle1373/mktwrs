@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-10-17T19:19:00.319390+00:00",
   "scope": "Unique platform video IDs currently attached to canonical WR rows; source media omitted from these rows requires further source review.",
-  "uniqueCanonicalVideoKeys": 367,
-  "r2BackupRegistered": 309,
+  "uniqueCanonicalVideoKeys": 368,
+  "r2BackupRegistered": 310,
   "r2BackupNeedsReview": 58,
   "freshOriginalByteChecks": 0,
   "exhaustiveVideoPreservationComplete": false,
@@ -6359,6 +6359,29 @@
       "preservationEvidence": "artifacts/anniversary2022-original-media-and-source-r2-integrity-20261017.json",
       "sha256": "e6674314610302caa8cc04626d0e7f10d4ee05eec39cbb1ce129ac01ece38269",
       "bytes": 95469577
+    },
+    {
+      "key": "youtube:MC-tCMiXLV0",
+      "originalUrl": "https://youtu.be/MC-tCMiXLV0",
+      "runs": [
+        {
+          "id": "curated-1039838915835744267-autumn2022-original-context-reviewed",
+          "courseId": "los-angeles-laps-3",
+          "time": "1:19.10",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "documentedAt": "2022-11-09T09:48:36.808Z"
+        }
+      ],
+      "r2Url": "https://media.mktwrs.com/assets/video/autumn2022-sucha-lal3-11910-5159cdc37fed8435422f.mp4",
+      "status": "verified-original-bytes-on-r2",
+      "preservationEvidence": "artifacts/autumn2022-final-date-progression-and-video-r2-integrity-20261018.json",
+      "videoScope": "full-run",
+      "publicVerification": {
+        "httpStatus": 200,
+        "sha256MatchesOriginal": true,
+        "bytesMatchOriginal": true,
+        "rangeStatus": 206
+      }
     }
   ],
   "previousPreservationEvidence": "artifacts/marioluigi2022-final-kuri-source-r2-integrity-20261017.json",
@@ -6636,11 +6659,12 @@
   },
   "latestAutumn2022SourceDateReview": {
     "knownWorksheetRows": 57,
-    "knownWorksheetRowsDated": 54,
-    "remainingUndatedWorksheetRows": 3,
-    "newDocumentedWrChangesRecovered": 1,
-    "originalVideosFullGetHashVerified": 3,
-    "sourceReviewComplete": false,
-    "reviewArtifact": "artifacts/autumn2022-six-new-source-dates-and-starin-intermediate-wr-20261017.json"
+    "knownWorksheetRowsDated": 57,
+    "remainingUndatedWorksheetRows": 0,
+    "newDocumentedWrChangesRecovered": 2,
+    "originalVideosFullGetHashVerified": 4,
+    "sourceReviewComplete": true,
+    "reviewArtifact": "artifacts/autumn2022-three-final-dates-and-corrected-sucha-progression-20261018.json",
+    "incorrectStarinWrAttributionCorrected": true
   }
 }
