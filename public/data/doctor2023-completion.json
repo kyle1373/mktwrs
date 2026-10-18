@@ -2,7 +2,7 @@
   "tourId": "tour-90",
   "tour": "Doctor Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -67,7 +67,8 @@
       "recordingPublishedAt": "2023-03-07T09:15:13Z",
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/doctor2023-1633033327094673408-e403817d7b6e.mp4",
       "priorSampledVideoReviewRetained": true,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "wrDocumentedAt": "2023-03-07T09:15:13.000Z"
     }
   ],
   "coverage": {
@@ -83,7 +84,15 @@
     "generatedReviewedRowsCompared": 85,
     "materialFieldDifferences": 0,
     "removedDuplicateOrSlowerOpeningCandidates": 4,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "worksheetRows": 41,
+    "worksheetRowsDated": 40,
+    "newWorksheetDatesReconciled": 37,
+    "worksheetDateSourceGaps": 1,
+    "originalR2RecordingsRevalidated": 7,
+    "retroAuthorIdentityMatchedEntries": 2,
+    "newPublicR2SourceObjectsByteVerified": 51,
+    "newPublicR2SourceBytesVerified": 87123774
   },
   "validation": {
     "renderedSupportingEntries": {
@@ -93,7 +102,7 @@
     "renderedPreservedEvidenceLinksReadable": 37,
     "wrAndCarriedInEvidenceEntries": 6,
     "failedLinks": 0,
-    "productionBuildPages": 892,
+    "productionBuildPages": 891,
     "focusedVideoAndOpeningTestsPassed": 15,
     "openingFinalFastestAndRecordingSelectionsPassed": true,
     "completionLabelLiveVerified": true,
@@ -102,7 +111,13 @@
       "ds-peach-gardens-r": 20,
       "gba-sky-garden": 40
     },
-    "liveWrAndCarriedInEvidenceEntries": 6
+    "liveWrAndCarriedInEvidenceEntries": 6,
+    "productionBuildPassed": true,
+    "dataBuildPassed": true,
+    "scopeVerified": true,
+    "durationTestsPassed": 23,
+    "wrAndCarriedProofLinksVerified": 6,
+    "fastestDocumentedRecordingsVerified": true
   },
   "remainingLimitations": [
     "Good-enough surviving source review; exhaustive historical completeness remains unproven.",
@@ -110,7 +125,8 @@
     "Nearby improve-lap2 discussion names no exact faster rival; someone126 is an unresolved ambiguous text lead, not a WR.",
     "Unconfirmed Hirose course image excluded.",
     "Edited receipts leave original video media/share timestamps unknown; movie publication dates shown separately.",
-    "Single-lap source clips preserved separately, no full-race credit or fresh continuity certification."
+    "Single-lap source clips preserved separately, no full-race credit or fresh continuity certification.",
+    "Moara worksheet1:04.87 retains its undated source gap. Similar Hirose image has unconfirmed course/identity; it does not date the worksheet result."
   ],
   "evidence": [
     "archive/doctor2023-practical-source-disposition-index-20261014.json",
@@ -122,8 +138,26 @@
     "archive/doctor2023-two-partial-original-r2-preservation-20261014.json",
     "archive/doctor2023-completion-label-build-check-20261014.json",
     "archive/doctor2023-completion-label-live-check-20261014.json",
-    "archive/doctor2023-rendered-proof-and-video-live-link-audit-20261014.json"
+    "archive/doctor2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "artifacts/doctor2023-source-date-reconciliation-20261018.json",
+    "artifacts/doctor2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/doctor2023-retro-original-author-and-two-result-source-20261018.json",
+    "artifacts/doctor2023-seven-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/doctor2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/doctor2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/doctor2023-six-known-wr-proof-link-check-20261018.json",
+    "artifacts/doctor2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/doctor2023-later-superseding-result-original-posting-source-20261018.json"
   ],
   "nextTourId": "tour-91",
-  "sourceCommit": "095612949a272191f8c256b02a4160b87a1f1f0b"
+  "sourceCommit": "b871c94c8de3c6238385d3659d295d6d7aac25a1",
+  "knownWrReviewClosed": true,
+  "previousReviewSourceCommit": "095612949a272191f8c256b02a4160b87a1f1f0b",
+  "durationCorrections": {
+    "nrDocumentedAt": "2023-03-07T09:15:13.000Z",
+    "nuPrecedingDurationEnd": "2023-03-07T09:15:13.000Z",
+    "sucha12721DurationEnd": "2024-03-06T06:02:56.277Z",
+    "sucha12721PlayableDays": 15.034050925925927,
+    "laterResultOriginalTourAttributionPreserved": true
+  }
 }
