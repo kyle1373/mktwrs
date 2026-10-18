@@ -3,7 +3,7 @@
   "tour": "Anniversary Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -16,19 +16,86 @@
       "courseId": "athens-dash-3",
       "archivedWr": "1:11.73",
       "fastestDocumentedRecording": "1:11.88",
-      "supportingDisplayed": 6
+      "supportingDisplayed": 6,
+      "worksheetRows": 5,
+      "worksheetRowsDated": 5,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "athens-dash-3",
+          "id": "1162597423470878732",
+          "playerId": "dit",
+          "time": "1:11.73",
+          "documentedAt": "2023-09-28T13:11:26.497Z",
+          "durationDays": 33.95982773148148,
+          "durationEnd": "2026-09-16T12:13:35.613Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved original proofs and source clocks, qualified machine OCR and original movie integrity; no fresh human visual or continuity certification."
     },
     {
       "courseId": "madrid-drive-3",
       "archivedWr": "1:19.45",
       "fastestDocumentedRecording": "1:19.45",
-      "supportingDisplayed": 3
+      "supportingDisplayed": 3,
+      "worksheetRows": 3,
+      "worksheetRowsDated": 3,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "madrid-drive-3",
+          "id": "1162598591001546913",
+          "playerId": "kuri",
+          "time": "1:19.45",
+          "documentedAt": "2023-10-03T22:18:33.000Z",
+          "durationDays": 32.754438344907406,
+          "durationEnd": "2026-09-20T16:24:56.473Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved original proofs and source clocks, qualified machine OCR and original movie integrity; no fresh human visual or continuity certification."
     },
     {
       "courseId": "rome-avanti-3",
       "archivedWr": "1:16.96",
       "fastestDocumentedRecording": "1:16.96",
-      "supportingDisplayed": 6
+      "supportingDisplayed": 6,
+      "worksheetRows": 7,
+      "worksheetRowsDated": 7,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [
+        {
+          "courseId": "rome-avanti-3",
+          "id": "curated-1287387856880406561-anniversary2024-image-reviewed",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:17.10",
+          "documentedAt": "2024-09-22T11:16:22.000Z",
+          "durationDays": 1.0426415046296296,
+          "durationEnd": "2024-09-23T12:17:46.226Z"
+        },
+        {
+          "courseId": "rome-avanti-3",
+          "id": "1308276465279959090",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:16.96",
+          "documentedAt": "2024-09-23T12:17:46.226Z",
+          "durationDays": 11.686968391203704,
+          "durationEnd": "2025-09-20T04:47:00.295Z"
+        }
+      ],
+      "carriedStandings": [
+        {
+          "courseId": "rome-avanti-3",
+          "id": "1162598789530538094",
+          "playerId": "fireball",
+          "time": "1:17.27",
+          "documentedAt": "2023-09-23T22:34:36.969Z",
+          "durationDays": 14.528993414351852,
+          "durationEnd": "2024-09-22T11:16:22.000Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved original proofs and source clocks, qualified machine OCR and original movie integrity; no fresh human visual or continuity certification."
     }
   ],
   "coverage": {
@@ -52,7 +119,24 @@
     "canonicalSourceRowsReconciled": 18,
     "matchedReceiptsRetainedAsSourceOnly": 7,
     "freshBrowserCensusCompleted": false,
-    "allAffectedCourseRows": 398
+    "allAffectedCourseRows": 398,
+    "knownWorksheetRows": 15,
+    "knownWorksheetRowsDated": 15,
+    "remainingUndatedWorksheetRows": 0,
+    "currentWindowWrEntries": 2,
+    "carriedWrEntriesDateAndDurationReviewed": 3,
+    "originalImageEntriesRevalidated": 18,
+    "preservedProofAndSourceObjectsVerified": 39,
+    "originalMoviesRevalidated": 6,
+    "completedHistoricalMovies": 2,
+    "currentCompletedWrMovies": 2,
+    "partialLapMovies": 2,
+    "knownWrIdsAdded": 0,
+    "freshWorksheetSourceClocksVerified": 15,
+    "freshCurrentWrSourceClocksVerified": 2,
+    "freshCarriedSourceClocksVerified": 3,
+    "lateCurrentTourWorksheetEntriesDated": 2,
+    "earlierRomeVideoPublicationClockCorrected": true
   },
   "evidence": [
     "archive/anniversary2024-original-preservation-and-source-review-20261015.json",
@@ -60,29 +144,142 @@
     "archive/anniversary2024-posted-results-and-preserved-source-reconciliation-20261015.json",
     "archive/anniversary2024-full-course-generation-and-source-field-preservation-20261015.json",
     "archive/anniversary2024-edited-receipt-source-dispositions-20261015.json",
-    "archive/anniversary2024-production-build-and-rendered-evidence-link-check-20261015.json"
+    "archive/anniversary2024-production-build-and-rendered-evidence-link-check-20261015.json",
+    "artifacts/anniversary2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/anniversary2024-rome-video-share-source-dom-20261018.json",
+    "artifacts/anniversary2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/anniversary2024-closing-original-source-dom-20261018.json",
+    "artifacts/anniversary2024-six-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/anniversary2024-supporting-athens-original-source-dom-20261018.json",
+    "artifacts/anniversary2024-yellow-result-timer-machine-ocr-20261018.json",
+    "artifacts/anniversary2024-carried-athens-original-source-dom-20261018.json",
+    "artifacts/anniversary2024-opening-original-source-dom-20261018.json",
+    "artifacts/anniversary2024-carried-madrid-original-source-dom-20261018.json",
+    "artifacts/anniversary2024-supported-worksheet-source-clock-map-20261018.json",
+    "artifacts/anniversary2024-original-image-machine-ocr-20261018.json",
+    "artifacts/anniversary2024-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/anniversary2024-carried-and-supporting-original-proof-clock-review-20261018.json",
+    "artifacts/anniversary2024-carried-rome-original-source-dom-20261018.json",
+    "artifacts/anniversary2024-publication-date-duration-and-scope-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/anniversary2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
   "remainingLimitations": [
-    "Preserved captured sources reconciled; no fresh exhaustive Discord or worldwide census certified.",
-    "Historical28submission-message count is not a new exhaustive census.",
-    "Current movies retain prior original-video assessments by source association; publication metadata verified independently.",
-    "Two clips are route or lap references, not completed race totals.",
-    "Shine Madrid1:19.86 and Rome1:17.26 were posted just after October2 06UTC close and retain their actual clocks.",
-    "Athens carriedWR1:11.73 video reference is unavailable; best established available movie is Sucha1:11.88.",
-    "The byte-identical Rome1:16.96 repost and cancelled wrong-course receipt do not create another performance."
+    "All 15 worksheet entries have a supported single public evidence date. Original source, attachment, total and account evidence are retained without profile merges.",
+    "Rome1:17.10 uses its earlier September22 11:16:22 UTC video publication, followed by the original screenshot submission at12:19:43.590 UTC and separate video share at22:55:30.020 UTC. Its reign and the preceding Fireball reign use that corrected clock.",
+    "Rome1:16.96 uses the original September23 12:17:46.226 UTC submission, before its13:15:12 UTC video publication. The identical repost and cancelled wrong-course receipt remain source-only and do not create another performance.",
+    "Shine\u2019s Madrid1:19.86 and Rome1:17.26 retain their actual October2 06:05:12.799 and06:06:48.110 UTC posting clocks, after the06UTC tour close, with zero current-tour WR days.",
+    "All two current and three carried WR durations are independently checked against source timestamps, faster subsequent results and playable course appearances. The clock pauses outside Time Trial tours.",
+    "All 39 proof/source objects pass full GET, SHA256, byte length, MIME and direct Range206 checks:18 original images, three carried WR originals, one historical supporting original, two publication metadata objects and15 source audits.",
+    "All six preserved movies pass full GET, SHA256, bytes, MIME, Range206 and full decode:two current completed result movies, two historical completed result movies and two partial lap clips. Decode verifies file integrity, not uninterrupted race continuity.",
+    "Athens\u2019 standing WR is DIT1:11.73; its available supporting recording is Sucha1:11.88. Fireball\u2019s carried Rome1:17.27 has no established own completed movie. Other runners\u2019 footage keeps separate credit.",
+    "Fresh machine OCR reproduces all15 worksheet result totals. Preserved prior movie result assessments remain qualified by source association and current integrity checks; no fresh human visual or continuity certification is claimed.",
+    "The initial1:16.96video sharing clock remains unresolved. Known WR IDs and player credits are preserved; bounded source review does not prove exhaustive worldwide history. The2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 13,
-    "fullGeneratedRowsMatched": 398,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "fullAffectedRowsMatched": 398,
-    "renderedR2UrlsReadable": 113,
-    "allRenderedEvidenceLinksReadable": true,
-    "productionAudit": "archive/anniversary2024-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/anniversary2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 139,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 39,
+    "sixMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all15WorksheetOriginalClocksVerified": true,
+    "twoCurrentAndThreeCarriedWrDurationsIndependentlyVerified": true,
+    "earlierRome1710VideoPublicationApplied": true,
+    "twoLateShineDatesRetainedWithZeroWrDays": true,
+    "cancelledWrongCourseReceiptAndRepostDoNotAddPerformance": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/anniversary2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 11
   },
   "nextTourId": "tour-132",
-  "latestLivePublicationAudit": "archive/anniversary2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 18,
+      "availableOriginalSubmissionImages": 18,
+      "unavailableOriginalSubmissionImages": 0,
+      "currentCanonicalSourceRows": 17,
+      "uniqueCurrentPerformances": 17,
+      "currentCompletedMoviePerformances": 2,
+      "currentResultMoviePublishedAfterTour": 0,
+      "currentPartialLapClips": 2,
+      "discussionOriginalImages": 0,
+      "carriedPriorTourRecordings": 2,
+      "lateCurrentTourImages": 2,
+      "byteIdenticalReposts": 1,
+      "r2FilesVerified": 24,
+      "existingWrIdsRetained": 25,
+      "newWrIds": 0,
+      "currentTourBoundedDiscussionRows": 39,
+      "postCloseContextRows": 0,
+      "canonicalSourceRowsReconciled": 18,
+      "matchedReceiptsRetainedAsSourceOnly": 7,
+      "freshBrowserCensusCompleted": false,
+      "allAffectedCourseRows": 398,
+      "knownWorksheetRows": 15,
+      "knownWorksheetRowsDated": 15,
+      "remainingUndatedWorksheetRows": 0,
+      "currentWindowWrEntries": 2,
+      "carriedWrEntriesDateAndDurationReviewed": 3,
+      "originalImageEntriesRevalidated": 18,
+      "preservedProofAndSourceObjectsVerified": 39,
+      "originalMoviesRevalidated": 6,
+      "completedHistoricalMovies": 2,
+      "currentCompletedWrMovies": 2,
+      "partialLapMovies": 2,
+      "knownWrIdsAdded": 0,
+      "freshWorksheetSourceClocksVerified": 15,
+      "freshCurrentWrSourceClocksVerified": 2,
+      "freshCarriedSourceClocksVerified": 3,
+      "lateCurrentTourWorksheetEntriesDated": 2,
+      "earlierRomeVideoPublicationClockCorrected": true
+    },
+    "remainingLimitations": [
+      "Preserved captured sources reconciled; no fresh exhaustive Discord or worldwide census certified.",
+      "Historical28submission-message count is not a new exhaustive census.",
+      "Current movies retain prior original-video assessments by source association; publication metadata verified independently.",
+      "Two clips are route or lap references, not completed race totals.",
+      "Shine Madrid1:19.86 and Rome1:17.26 were posted just after October2 06UTC close and retain their actual clocks.",
+      "Athens carriedWR1:11.73 video reference is unavailable; best established available movie is Sucha1:11.88.",
+      "The byte-identical Rome1:16.96 repost and cancelled wrong-course receipt do not create another performance."
+    ],
+    "validation": {
+      "focusedTestsPassed": 13,
+      "fullGeneratedRowsMatched": 398,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "fullAffectedRowsMatched": 398,
+      "renderedR2UrlsReadable": 113,
+      "allRenderedEvidenceLinksReadable": true,
+      "productionAudit": "archive/anniversary2024-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/anniversary2024-exact-live-publication-and-full-field-check-20261015.json"
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/anniversary2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "missing-athens11173-completed-footage",
+      "courseId": "athens-dash-3",
+      "time": "1:11.73",
+      "reason": "No surviving completed movie established for DIT1:11.73. Sucha1:11.88 remains available supporting footage with its own historical runner credit and date."
+    },
+    {
+      "id": "missing-carried-rome11727-completed-footage",
+      "courseId": "rome-avanti-3",
+      "time": "1:17.27",
+      "reason": "Fireball\u2019s original result image and posting clock are preserved; no own completed movie is established. The later Sucha movies are not attributed to Fireball."
+    },
+    {
+      "id": "rome11696-first-video-share-clock",
+      "courseId": "rome-avanti-3",
+      "time": "1:16.96",
+      "reason": "Original submission is September23T12:17:46.226Z; video publication is September23T13:15:12Z. First sharing time is not established by the cancelled or edited receipts."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Supported public evidence dates do not establish private race instants or exhaustive worldwide history."
+    }
+  ]
 }
