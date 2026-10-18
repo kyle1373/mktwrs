@@ -3,7 +3,7 @@
   "tour": "Holiday Tour (2023)",
   "status": "completed-with-documented-gaps",
   "standard": "Captured surviving sources reconciled with good-enough documentary proof; exhaustive worldwide history is not certified.",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -15,16 +15,36 @@
     {
       "courseId": "gba-snow-land",
       "archivedWr": "1:08.42",
-      "fastestDocumentedRecording": null,
-      "reportedAvailableRecording": "1:08.42",
-      "supportingDisplayed": 10
+      "fastestDocumentedRecording": "1:08.42",
+      "reportedAvailableRecording": null,
+      "supportingDisplayed": 10,
+      "carriedStanding": {
+        "id": "1058253597781000283",
+        "playerId": "nu11",
+        "time": "1:08.42",
+        "documentedAt": "2022-12-27T07:43:11.000Z",
+        "durationDays": 35.14355976851852,
+        "durationEnd": "2025-12-16T11:09:54.564Z"
+      },
+      "worksheetRowsDated": 12,
+      "recordingReviewBasis": "Existing sampled start/lap/result review retained; no new uninterrupted continuity certification."
     },
     {
       "courseId": "vancouver-velocity-3",
       "archivedWr": "1:15.96",
       "fastestDocumentedRecording": "1:15.96",
       "reportedAvailableRecording": null,
-      "supportingDisplayed": 17
+      "supportingDisplayed": 17,
+      "carriedStanding": {
+        "id": "1058254544313782272",
+        "playerId": "wins",
+        "time": "1:15.99",
+        "documentedAt": "2022-12-24T16:05:32.749Z",
+        "durationDays": 8.067798229166666,
+        "durationEnd": "2023-12-17T17:43:10.516Z"
+      },
+      "worksheetRowsDated": 19,
+      "recordingReviewBasis": "Prior result/lap review retained by exact original movie hash."
     }
   ],
   "coverage": {
@@ -42,7 +62,17 @@
     "freshWithinTourDiscussionRows": 40,
     "currentCanonicalPerformances": 32,
     "newWrIds": 0,
-    "existingWrIdsRetained": 18
+    "existingWrIdsRetained": 18,
+    "knownWorksheetRows": 31,
+    "knownWorksheetRowsDated": 31,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 1,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 36,
+    "preservedProofAndSourceObjectsVerified": 42,
+    "carriedProofRepresentationsRevalidated": 2,
+    "originalMoviesRevalidated": 5,
+    "knownWrIdsAdded": 0
   },
   "evidence": [
     "archive/holiday2023-complete-original-preservation-and-bounded-source-audit-20261014.json",
@@ -51,28 +81,107 @@
     "archive/holiday2023-carried-snow-recording-revalidation-20261014.json",
     "archive/holiday2023-fresh-discussion-context-and-preserved-image-review-20261014.json",
     "archive/holiday2023-full-course-generation-and-source-field-preservation-20261014.json",
-    "archive/holiday2023-final-display-title-and-recording-selection-check-20261015.json"
+    "archive/holiday2023-final-display-title-and-recording-selection-check-20261015.json",
+    "artifacts/holiday2023-source-date-reconciliation-20261018.json",
+    "artifacts/holiday2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/holiday2023-neko-source-account-and-worksheet-attribution-20261018.json",
+    "artifacts/holiday2023-all-worksheet-and-wr-source-clock-verification-20261018.json",
+    "artifacts/holiday2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/holiday2023-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/holiday2023-five-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/holiday2023-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/holiday2023-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Use source posting dates as submission dates unless other evidence establishes another date. Videos keep separate publication and observed sharing clocks. Late submissions keep actual posting dates.",
   "remainingLimitations": [
-    "Carried Snow movie retains uploader-reported 1:08.42 without independently verified video result.",
-    "Matching hashes retain earlier image and lap/result movie assessments. No fresh uninterrupted race certification.",
-    "Single-lap movie and new discussion image do not establish completed race totals.",
-    "Best-split projections and previous personal best fields do not receive new WR or profile credit.",
-    "Two source identities retain existing associations without claimed account merge.",
-    "Two late Peach/Bowser images are preserved outside the current Holiday publication scope.",
-    "Bounded surviving source review does not establish exhaustive worldwide history."
+    "All31 worksheet dates match documented source posting timestamps, including actual late postings after the December27 reset.",
+    "One current WR and two carried WR durations match all playable course appearance windows, with exact documented endpoints. Existing WR IDs are preserved.",
+    "The worksheet Neko4221 entry is linked by the exact existing Discord account ID; no profile merge or new WR credit.",
+    "All36 original images, two carried proof representations and four source audits pass full GET/SHA/bytes/MIME/directRange206. Allfive preserved movies fully decode.",
+    "Carried Snow68.42 now reflects the already published sampled start/lap/finish review from Holiday2022. Earlier uploader-report-only notes are retained in priorPracticalReview, not used as the current assessment.",
+    "Prior result assessments are retained by exact hashes; no fresh full-frame continuity audit is claimed. No-items and single-lap footage remain separate support.",
+    "Global2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 12,
-    "fullGeneratedRowsMatched": 374,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "productionBuildAudit": "archive/holiday2023-production-build-and-rendered-evidence-link-check-20261014.json",
-    "allRenderedR2LinksReadable": true,
-    "renderedR2UrlsChecked": 40,
-    "livePublicationAudit": "archive/holiday2023-exact-live-publication-and-full-field-check-20261014.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 42,
+    "originalImageUrlsVerified": 36,
+    "fiveMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all31WorksheetSourceClocksVerified": true,
+    "currentAndCarriedVancouverSourcePostingClocksFreshlyVerified": true,
+    "carriedSnowMoviePublicationReviewRetained": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/holiday2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 14
   },
   "nextTourId": "tour-112",
-  "latestLivePublicationAudit": "archive/holiday2023-exact-live-publication-and-full-field-check-20261014.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-14",
+    "coverage": {
+      "indexedSubmissionImages": 30,
+      "lateHolidayImages": 3,
+      "latePeachBowserImagesPreservedOnly": 2,
+      "currentCourseImages": 31,
+      "newDiscussionImages": 1,
+      "completedMovies": 2,
+      "lapClips": 1,
+      "carriedSnowMovieReverified": 1,
+      "r2OriginalFilesVerified": 37,
+      "boundedSubmissionRows": 53,
+      "freshDiscussionQueryRows": 41,
+      "freshWithinTourDiscussionRows": 40,
+      "currentCanonicalPerformances": 32,
+      "newWrIds": 0,
+      "existingWrIdsRetained": 18,
+      "knownWorksheetRows": 31,
+      "knownWorksheetRowsDated": 31,
+      "remainingUndatedWorksheetRows": 0,
+      "knownWrEntriesDateAndDurationReviewed": 1,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 36,
+      "preservedProofAndSourceObjectsVerified": 42,
+      "carriedProofRepresentationsRevalidated": 2,
+      "originalMoviesRevalidated": 5,
+      "knownWrIdsAdded": 0
+    },
+    "validation": {
+      "focusedTestsPassed": 12,
+      "fullGeneratedRowsMatched": 374,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "productionBuildAudit": "archive/holiday2023-production-build-and-rendered-evidence-link-check-20261014.json",
+      "allRenderedR2LinksReadable": true,
+      "renderedR2UrlsChecked": 40,
+      "livePublicationAudit": "archive/holiday2023-exact-live-publication-and-full-field-check-20261014.json"
+    },
+    "remainingLimitations": [
+      "Carried Snow movie retains uploader-reported 1:08.42 without independently verified video result.",
+      "Matching hashes retain earlier image and lap/result movie assessments. No fresh uninterrupted race certification.",
+      "Single-lap movie and new discussion image do not establish completed race totals.",
+      "Best-split projections and previous personal best fields do not receive new WR or profile credit.",
+      "Two source identities retain existing associations without claimed account merge.",
+      "Two late Peach/Bowser images are preserved outside the current Holiday publication scope.",
+      "Bounded surviving source review does not establish exhaustive worldwide history."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/holiday2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "private-achievement-and-previous-bests",
+      "reason": "Posting dates are the archive dates. Earlier private race dates and undated personal-best fields remain unproven and receive no invented WR intervals."
+    },
+    {
+      "id": "partial-and-no-items-evidence",
+      "reason": "Single-lap37.94 movie and37.89 discussion screenshot do not establish completed totals. Sucha77.80 no-items recording is separately preserved support."
+    },
+    {
+      "id": "exhaustive-worldwide-history",
+      "reason": "Captured surviving sources reviewed; lost and unsubmitted worldwide history cannot be certified."
+    }
+  ]
 }
