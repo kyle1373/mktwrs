@@ -2,7 +2,7 @@
   "tourId": "tour-101",
   "tour": "Sunshine Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized practical surviving proofs. Posting date is submission/archive date unless earlier or contrary evidence establishes another date.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -30,7 +30,9 @@
       "movieCorrectedReceiptAt": "2023-08-05T12:51:55.163Z",
       "firstDayFinalFastestRecovered": "1:18.60",
       "firstDayPlayerId": "kuri",
-      "finalSubmittedAt": "2023-08-01T14:48:18.285Z"
+      "finalSubmittedAt": "2023-08-01T14:48:18.285Z",
+      "archivedWrDurationDays": 10.163874837962963,
+      "archivedWrDurationEnd": "2024-07-26T18:44:17.071Z"
     },
     {
       "id": "snes-koopa-troopa-beach-2r",
@@ -48,7 +50,9 @@
       "recordingAvailability": "not-recovered-in-bounded-sources",
       "firstDayOriginalRecovered": false,
       "earliestRecoveredLeaderDate": "2023-07-27",
-      "finalSubmittedAt": "2023-08-06T16:39:53.985Z"
+      "finalSubmittedAt": "2023-08-06T16:39:53.985Z",
+      "archivedWrDurationDays": 7.817204027777778,
+      "archivedWrDurationEnd": "2024-07-29T12:16:40.413Z"
     }
   ],
   "coverage": {
@@ -75,7 +79,14 @@
       "snes-koopa-troopa-beach-2r": 23
     },
     "renderedR2MediaLinksPassed": 59,
-    "focusedTestsPassed": 35
+    "focusedTestsPassed": 35,
+    "knownWorksheetRows": 49,
+    "knownWorksheetRowsDated": 49,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 10,
+    "preservedProofAndSourceObjectsVerified": 59,
+    "originalMoviesRevalidated": 1,
+    "carriedWrEntriesDateAndDurationReviewed": 0
   },
   "remainingLimitations": [
     "No original Koopa2R result was recovered from the first playable day; its dated progression starts with the July27 earliest surviving leader.",
@@ -85,7 +96,10 @@
     "The103saved rows are a bounded surviving set:99 image-linked rows plusfour non-performance rows. Deleted/private sources and exhaustive worldwide history remain unproved.",
     "Three late originals concern Pipe Tour courses and are excluded from Sunshine progression.",
     "Thirty-three duplicate curated originals merge into accepted submissions, including four documented display-alias corrections. One2026Daisy candidate remains open; later tour reviews are not completed by this work.",
-    "Undated previous-best values remain preserved without invented dated WR entries."
+    "Undated previous-best values remain preserved without invented dated WR entries.",
+    "All49 worksheet entries now use matching source posting or observation clocks. Rui and Raptor alias matches use public Discord author account IDs without profile merges or extra WR credit.",
+    "Ten known WR entries have exact playable durations and verified endpoints. Original2024Daisy successor submissions establish the final2023boundary while attributed tour and unknown private achievement remain separate; no2024tour completion claim.",
+    "The preserved video fully downloaded, hash/byte/MIME/Range checked and decoded; original submission precedes movie publication and remains the documented date. Existing sampled review retained by hash; no fresh uninterrupted-race certification. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/sunshine2023-source-review-index-20261008.json",
@@ -96,13 +110,54 @@
     "archive/sunshine2023-complete-course-generation-and-player-record-check-20261014.json",
     "archive/sunshine2023-production-build-and-complete-course-fidelity-20261014.json",
     "archive/sunshine2023-surviving-source-review-decision-20261014.json",
-    "archive/sunshine2023-live-publication-verification-20261014.json"
+    "archive/sunshine2023-live-publication-verification-20261014.json",
+    "artifacts/sunshine2023-source-date-reconciliation-20261018.json",
+    "artifacts/sunshine2023-worksheet-alias-original-account-clock-source-20261018.json",
+    "artifacts/sunshine2023-daisy-successor-original-posting-clock-source-20261018.json",
+    "artifacts/sunshine2023-additional-daisy-successor-posting-clocks-20261018.json",
+    "artifacts/sunshine2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/sunshine2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/sunshine2023-ten-known-wr-proof-link-check-20261018.json",
+    "artifacts/sunshine2023-one-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/sunshine2023-fastest-documented-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/sunshine2023-live-publication-verification-20261018.json"
   ],
-  "productionBuildVerified": true,
   "productionBuildEvidence": "archive/sunshine2023-production-build-and-complete-course-fidelity-20261014.json",
-  "livePublicationVerified": true,
   "nextTourId": "tour-102",
-  "latestLiveEvidence": "archive/sunshine2023-live-publication-verification-20261014.json",
-  "verifiedDeploymentSourceCommit": "4a5cfdebc488ab25a7f54772bf8b94620debcedd",
-  "liveVerificationDate": "2026-10-14"
+  "knownWrReviewComplete": true,
+  "sourceCommit": "27a208625a815d7fa42a462b75706df4f2c538e8",
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/sunshine2023-live-publication-verification-20261018.json",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownWrImageLinksReadable": 10,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 59,
+    "onePreservedVideoFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/sunshine2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
+  },
+  "remainingSourceGaps": [
+    {
+      "id": "daisy-final-wr-video",
+      "courseId": "wii-daisy-circuit",
+      "reason": "Final1:18.30 screenshot retained; available Sucha1:18.31 movie is slower and remains best documented available recording."
+    },
+    {
+      "id": "koopa2r-first-day-original",
+      "courseId": "snes-koopa-troopa-beach-2r",
+      "reason": "Earliest surviving dated leader is July27, after first playable day."
+    },
+    {
+      "id": "koopa2r-movie",
+      "courseId": "snes-koopa-troopa-beach-2r",
+      "reason": "No movie identified in bounded saved source set."
+    },
+    {
+      "id": "undated-personal-best-predecessors",
+      "reason": "Preserved without invented dated WR entries."
+    }
+  ]
 }
