@@ -2,7 +2,7 @@
   "tourId": "tour-106",
   "tour": "Battle Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized practical surviving proofs. Posting date is submission/archive date unless evidence establishes another date.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -20,7 +20,24 @@
       ],
       "datedTourHistory": [],
       "fastestDocumentedAvailableRecording": "0:49.31",
-      "firstDayFinalFastestRecovered": null
+      "firstDayFinalFastestRecovered": null,
+      "carriedStanding": {
+        "id": "1032525641465200660",
+        "playerId": "hilton",
+        "time": "0:49.15",
+        "documentedAt": "2022-10-16T13:28:06.760Z",
+        "durationDays": 44.68881064814815,
+        "durationEnd": "2026-09-30T06:00:00.000Z"
+      },
+      "finalStandingDurations": [
+        {
+          "id": "1032525641465200660",
+          "playerId": "hilton",
+          "documentedAt": "2022-10-16T13:28:06.760Z",
+          "durationDays": 44.68881064814815,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "snes-donut-plains-2",
@@ -34,18 +51,39 @@
           "playerId": "shine",
           "time": "1:00.60",
           "postedAt": "2023-10-09T04:32:25.184Z",
-          "archiveDate": "2023-10-09T04:32:25.184Z"
+          "archiveDate": "2023-10-09T04:26:45.000Z",
+          "documentedPlayableDays": 0.9933564814814815,
+          "durationEnd": "2023-10-10T04:17:11.000Z"
         },
         {
           "recordId": "1168941274380914769",
           "playerId": "shine",
           "time": "1:00.50",
           "postedAt": "2023-10-10T04:23:13.869Z",
-          "archiveDate": "2023-10-10T04:23:13.869Z"
+          "archiveDate": "2023-10-10T04:17:11.000Z",
+          "documentedPlayableDays": 21.388607650462962,
+          "durationEnd": "2024-10-15T13:36:46.701Z"
         }
       ],
       "fastestDocumentedAvailableRecording": "1:00.50",
-      "firstDayFinalFastestRecovered": null
+      "firstDayFinalFastestRecovered": null,
+      "carriedStanding": {
+        "id": "1032524579744251935",
+        "playerId": "nu11",
+        "time": "1:00.61",
+        "documentedAt": "2022-10-11T13:20:09.815Z",
+        "durationDays": 12.629573900462963,
+        "durationEnd": "2023-10-09T04:26:45.000Z"
+      },
+      "finalStandingDurations": [
+        {
+          "id": "1168941274380914769",
+          "playerId": "shine",
+          "documentedAt": "2023-10-10T04:17:11.000Z",
+          "durationDays": 21.388607650462962,
+          "durationEnd": "2024-10-15T13:36:46.701Z"
+        }
+      ]
     }
   ],
   "coverage": {
@@ -75,7 +113,16 @@
       "snes-donut-plains-2": 11
     },
     "renderedR2MediaLinksPassed": 206,
-    "focusedTestsPassed": 23
+    "focusedTestsPassed": 23,
+    "knownWorksheetRows": 26,
+    "knownWorksheetRowsDated": 26,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 2,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "preservedProofAndSourceObjectsVerified": 32,
+    "originalMoviesRevalidated": 4,
+    "originalAndLateWorksheetImagesRevalidated": 29,
+    "latePostedWorksheetRowsReconciled": 3
   },
   "remainingLimitations": [
     "No October4 opening-day result survives in this bounded review; slower later submissions do not beat carried-in WRs.",
@@ -86,7 +133,11 @@
     "Existing intermediate WR ID retained separately from its duplicate Discord receipt; canonical raw result retains its stable ID.",
     "26 indexed source images and3 Battle original movies are preserved and R2-verified; one image is a late Anniversary repost and one is an excluded slow result.",
     "The earlier Nu110:49.31 original movie is also preserved for comparison with carried Hilton0:49.15 WR.",
-    "Prior exact-SHA image/movie assessment remains provenance; newly recovered Shine screenshot has OCR/source/receipt corroboration, not a fresh visual certification."
+    "Prior exact-SHA image/movie assessment remains provenance; newly recovered Shine screenshot has OCR/source/receipt corroboration, not a fresh visual certification.",
+    "All26worksheet entries have supported source dates. Y146matchesjpdrrr shared account457524314468777994without a profile merge. Three late Battle results postedOct18/19retain original posting dates after reset, with original images preserved.",
+    "Earlier Shine movie publications correct eight matching rows; two new WR entries and two carried standings have exact documented playable durations and checked intervals. Other140course files and player profiles remain unchanged.",
+    "Four preserved movies fully downloaded, SHA/bytes/MIME/Range checked and decoded, including Nu11earlier49.31comparison. No fresh uninterrupted-race certification.",
+    "The preceding Sundae and Anniversary complete original-image lists are separately revalidated by the scope correction receipt; no history dates or WR credit changed for those tours. Global2019–2026archive remains unfinished."
   ],
   "evidence": [
     "archive/battle2023-complete-original-preservation-and-source-audit-20261014.json",
@@ -96,13 +147,48 @@
     "archive/battle2023-discussion-context-review-20261005.json",
     "archive/battle2023-production-build-and-complete-course-fidelity-20261014.json",
     "archive/battle2023-surviving-source-review-decision-20261014.json",
-    "archive/battle2023-live-publication-verification-20261014.json"
+    "archive/battle2023-live-publication-verification-20261014.json",
+    "artifacts/battle2023-source-date-reconciliation-20261018.json",
+    "artifacts/battle2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/battle2023-late-worksheet-source-and-alias-reconciliation-20261018.json",
+    "artifacts/battle2023-late-original-posting-clock-browser-verification-20261018.json",
+    "artifacts/battle2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/battle2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/battle2023-two-and-carried-known-wr-proof-link-check-20261018.json",
+    "artifacts/battle2023-four-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/battle2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/battle2023-two-wr-and-carried-source-clock-verification-20261018.json",
+    "artifacts/sundae-and-anniversary2023-complete-original-image-scope-correction-20261018.json",
+    "https://media.mktwrs.com/assets/proof/battle2023-live-publication-verification-20261018.json"
   ],
-  "productionBuildVerified": true,
-  "productionBuildEvidence": "archive/battle2023-production-build-and-complete-course-fidelity-20261014.json",
-  "livePublicationVerified": true,
   "nextTourId": "tour-107",
-  "latestLiveEvidence": "archive/battle2023-live-publication-verification-20261014.json",
-  "verifiedDeploymentSourceCommit": "a5b4700edf1ef0d9e468476ffaae39faaf29f1d0",
-  "liveVerificationDate": "2026-10-14"
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/battle2023-live-publication-verification-20261018.json",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownAndCarriedWrImageLinksReadable": 4,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 32,
+    "fourPreservedMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "newAndCarriedOriginalSourceClocksVerified": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/battle2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
+  },
+  "remainingSourceGaps": [
+    {
+      "id": "hilton4915-movie",
+      "reason": "No Hilton0:49.15movie recovered; Nu110:49.31earlier comparison movie remains preserved."
+    },
+    {
+      "id": "opening-day-results",
+      "reason": "No October4opening-day result recovered. Carried standings retained without inserting slower later submissions."
+    },
+    {
+      "id": "undated-previous-bests",
+      "reason": "Cup-menu and previous-best observations remain distinct from independently dated completed runs."
+    }
+  ]
 }
