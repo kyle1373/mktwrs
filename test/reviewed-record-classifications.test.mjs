@@ -6,7 +6,7 @@ import { applyFinalDates } from '../lib/final-dates.mjs';
 import { applyDocumentedDurations } from '../lib/documented-durations.mjs';
 import { courseStatistics } from '../public/history.mjs';
 
-const evidence = JSON.parse(fs.readFileSync(new URL('../scripts/reviewed-record-classifications.json', import.meta.url)));
+const evidence = {rows: JSON.parse(fs.readFileSync(new URL('../scripts/reviewed-record-classifications.json', import.meta.url))).rows.filter(r => r.courseId === 'snes-vanilla-lake-1')};
 const source = JSON.parse(fs.readFileSync(new URL('../archive/newyear2022-vanilla-lake-pb-classification-review-20261016.json', import.meta.url)));
 function fixture() {
   const pb = structuredClone(source.originalCanonicalRecord);
@@ -36,4 +36,14 @@ test('classification cannot be applied to another time, source clock, or an earl
     {earlierFasterDocumentedAt:'2022-01-03T04:31:15.000Z'}, {earlierFasterTime:'0:34.50'}]) {
     assert.throws(()=>applyReviewedRecordClassifications([fixture()],{rows:[{...evidence.rows[0],...patch}]}),/Classification .* mismatch/);
   }
+});
+
+test('classification removes raw profile credit while preserving unrelated records and source evidence', () => {
+  const c = fixture(), pbId=c.submissions[0].id;
+  const players=[{id:c.submissions[0].playerId,records:[pbId,'unrelated-wr']},{id:'dit',records:[c.records[0].id]}];
+  applyReviewedRecordClassifications([c],evidence,players);
+  assert.deepEqual(players[0].records,['unrelated-wr']);
+  assert.deepEqual(players[1].records,[c.records[0].id]);
+  assert.equal(c.submissions[0].id,pbId);
+  assert.equal(c.submissions[0].status,'personal-best');
 });

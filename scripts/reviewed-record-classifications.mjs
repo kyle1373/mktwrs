@@ -1,5 +1,5 @@
 // Raw claims stay in the source archive; reviewed classification determines WR credit.
-export function applyReviewedRecordClassifications(courses, evidence) {
+export function applyReviewedRecordClassifications(courses, evidence, players = []) {
   const seen = new Set();
   for (const review of evidence.rows) {
     const key = review.courseId + '/' + review.id;
@@ -24,6 +24,9 @@ export function applyReviewedRecordClassifications(courses, evidence) {
     // The canonical duplicate is preserved in reviewArtifact. The original submission
     // keeps its identity, source clocks, media, total and all other evidence fields.
     course.records = course.records.filter(r => r.id !== review.id);
+    for (const player of players) {
+      player.records = player.records.filter(id => id !== review.id);
+    }
     submission.status = review.status;
     submission.recordClassificationReview = {
       originalStatus: review.originalStatus,

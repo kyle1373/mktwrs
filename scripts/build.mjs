@@ -851,7 +851,7 @@ for (const course of courses.filter(c => halloween2020ReviewedCourses.has(c.id))
   course.currentHolders = course.currentHolders.map(holder => structuredClone(course.records.find(r => r.id === holder.id) || holder));
 }
 applyFinalSourceFidelity(courses, JSON.parse(fs.readFileSync("scripts/final-source-fidelity-patches.json", "utf8")));
-applyReviewedRecordClassifications(courses, JSON.parse(fs.readFileSync("scripts/reviewed-record-classifications.json", "utf8")));
+applyReviewedRecordClassifications(courses, JSON.parse(fs.readFileSync("scripts/reviewed-record-classifications.json", "utf8")), [...players.values()]);
 // Restored source fields must not reattach footage rejected for a different result time.
 for (const course of courses) {
   for (const row of [...course.records, ...course.submissions, ...course.candidates,
