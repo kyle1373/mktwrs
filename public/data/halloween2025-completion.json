@@ -14,26 +14,53 @@
       "courseId": "snes-donut-plains-3",
       "archivedWr": "0:56.42",
       "fastestDocumentedRecording": "0:56.42",
-      "supportingDisplayed": 8
+      "supportingDisplayed": 8,
+      "reviewedWrEntries": [
+        {
+          "courseId": "snes-donut-plains-3",
+          "id": "curated-1032449733471518771-donut-plains3-laps-leaderboard-confirmed",
+          "playerId": "nu11",
+          "time": "0:56.63",
+          "documentedAt": "2022-10-20T00:26:38.448Z",
+          "durationDays": 7.353918425925926,
+          "durationEnd": "2022-10-27T08:56:17.000Z"
+        },
+        {
+          "courseId": "snes-donut-plains-3",
+          "id": "curated-1035161848070279208-1035161848129007646-august2022-image-reviewed",
+          "playerId": "newyork",
+          "time": "0:56.52",
+          "documentedAt": "2022-10-27T08:56:17.000Z",
+          "durationDays": 2.3098228703703705,
+          "durationEnd": "2022-10-29T16:22:25.696Z"
+        },
+        {
+          "courseId": "snes-donut-plains-3",
+          "id": "1039950316147322890",
+          "playerId": "troy",
+          "time": "0:56.42",
+          "documentedAt": "2022-10-29T16:22:25.696Z",
+          "durationDays": 45.56775814814815,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ]
     }
   ],
   "coverage": {
-    "indexedAttachments": 8,
-    "currentTourImageResults": 8,
-    "availableOriginalImages": 9,
-    "unavailableOriginalImages": 0,
-    "currentCompletedMoviePerformances": 0,
-    "carriedPriorTourRecordings": 1,
-    "r2FilesVerified": 10,
-    "existingWrIdsRetained": 3,
+    "currentOriginalImageResults": 8,
+    "carriedOriginalImages": 1,
+    "knownCurrentWrEntries": 0,
+    "reviewedHistoricalWrEntries": 3,
+    "threeWrDurationsIndependentlyVerified": true,
+    "currentSupportingRunsWithZeroWrDays": 8,
+    "originalImageMachineTimersCorroborated": 9,
+    "proofSourceObjectsFullVerified": 18,
+    "uniqueCompletedMoviesPreserved": 2,
+    "movieFilesFullVerified": 2,
+    "freshExhaustiveWorldwideCensusClaimed": false,
     "newWrIds": 0,
-    "allAffectedCourseRows": 232,
-    "unchangedSourceRows": 223,
-    "updatedEvidenceRows": 9,
-    "canonicalSourceRowsReconciled": 8,
-    "freshBrowserCensusCompleted": false,
-    "boundedSavedSubmissionMessages": 8,
-    "boundedSavedDiscussionMessages": 0
+    "freshCurrentSubmissionSourceDatesVerified": 8,
+    "discussionSearchResult": "No Results"
   },
   "evidence": [
     "archive/halloween2025-original-preservation-and-source-review-20261015.json",
@@ -41,30 +68,163 @@
     "archive/halloween2025-posted-results-and-source-clock-reconciliation-20261015.json",
     "archive/halloween2025-full-existing-source-and-later-row-protection-check-20261015.json",
     "archive/halloween2025-source-preservation-verification-20261015.json",
-    "archive/halloween2025-full-course-generation-and-source-field-preservation-20261015.json"
+    "archive/halloween2025-full-course-generation-and-source-field-preservation-20261015.json",
+    "artifacts/halloween2025-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/halloween2025-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/halloween2025-two-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/halloween2025-original-submission-date-and-attribution-review-20261018.json",
+    "artifacts/halloween2025-original-image-machine-ocr-20261018.json",
+    "artifacts/halloween2025-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/halloween2025-current-discussion-search-review-20261018.json",
+    "artifacts/halloween2025-current-submission-source-dom-20261018.json",
+    "artifacts/halloween2025-current-original-author-references-20261018.json",
+    "artifacts/halloween2025-original-preservation-input-20261018.json",
+    "https://media.mktwrs.com/assets/proof/halloween2025-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting supplies submission date unless other evidence proves otherwise. Upload, sharing and earlier attachment filename dates remain separate.",
   "remainingLimitations": [
-    "Saved surviving sources reviewed; fresh exhaustive Discord or worldwide census is not certified.",
-    "Original screenshot assessments retained by matching SHA256; carried movie lap/result assessment retained by matching SHA256 without fresh uninterrupted continuity certification.",
-    "No current-tour WR improvement or completed movie is established by the saved batch.",
-    "Newyork’s submitted56.49image filename containsOctober21; its actualOctober29posting is retained as submission clock. Filename is not a confirmed completion timestamp.",
-    "Troy’s October29,2022 screenshot submission is separate fromNovember2,2022video publication and sharing.",
-    "Broader historical date and presentation correction remains a later archive-wide pass.",
-    "Broader historical date and presentation correction remains a later archive-wide pass."
+    "Known WR review closed with named source gaps retained. Exhaustive worldwide history is not claimed.",
+    "Eight current original screenshot postings and author accounts verified in Codex browser; nine original image timers corroborated and originals revalidated by full public GET and SHA256.",
+    "Nu110:56.63, Newyork0:56.52 and Troy0:56.42dates retain previously reviewed public evidence. All three WR durations independently computed over playable tour windows; worksheet associations match. Eight current supporting results receive zero WR duration.",
+    "Two complete preserved recordings pass full GET/hash/bytes/MIME/Range and full decode; prior result assessments retained by matching SHA256. No fresh uninterrupted continuity certification claimed. Troy0:56.42remains both standing WR and fastest documented movie.",
+    "Newyork0:56.49October21filename remains separate from supported October29submission. Current discussion search returned no results; this does not prove worldwide absence.",
+    "Other141course files, later2026rows and profiles unchanged. Final archive-wide and calendar-cutoff review remains pending."
   ],
   "validation": {
-    "fullGeneratedRowsMatched": 232,
-    "livePublicationVerified": true,
-    "focusedTestsPassed": 20,
-    "productionBuildExitCode": 0,
-    "productionBuildsPassed": 2,
-    "renderedR2LinksReadable": 44,
-    "productionAudit": "archive/halloween2025-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json"
+    "tourId": "tour-159",
+    "passed": true,
+    "changedCourses": [
+      "snes-donut-plains-3"
+    ],
+    "otherCoursesUnchanged": 141,
+    "eightOriginalSourceDatesVerified": true,
+    "currentCompletedSupportsWithZeroWrDays": 8,
+    "currentWindowWrEntries": 0,
+    "reviewedHistoricalWrEntries": 3,
+    "reviewedWrEntries": [
+      {
+        "courseId": "snes-donut-plains-3",
+        "id": "curated-1032449733471518771-donut-plains3-laps-leaderboard-confirmed",
+        "playerId": "nu11",
+        "time": "0:56.63",
+        "documentedAt": "2022-10-20T00:26:38.448Z",
+        "durationDays": 7.353918425925926,
+        "durationEnd": "2022-10-27T08:56:17.000Z"
+      },
+      {
+        "courseId": "snes-donut-plains-3",
+        "id": "curated-1035161848070279208-1035161848129007646-august2022-image-reviewed",
+        "playerId": "newyork",
+        "time": "0:56.52",
+        "documentedAt": "2022-10-27T08:56:17.000Z",
+        "durationDays": 2.3098228703703705,
+        "durationEnd": "2022-10-29T16:22:25.696Z"
+      },
+      {
+        "courseId": "snes-donut-plains-3",
+        "id": "1039950316147322890",
+        "playerId": "troy",
+        "time": "0:56.42",
+        "documentedAt": "2022-10-29T16:22:25.696Z",
+        "durationDays": 45.56775814814815,
+        "durationEnd": "2026-09-30T06:00:00.000Z"
+      }
+    ],
+    "worksheetDateDurationAssociationsVerified": [
+      {
+        "id": "sheet-APX17",
+        "courseId": "snes-donut-plains-3",
+        "sameCanonicalSourceId": "curated-1032449733471518771-donut-plains3-laps-leaderboard-confirmed",
+        "documentedAt": "2022-10-20T00:26:38.448Z",
+        "durationDays": 7.353918425925926
+      },
+      {
+        "id": "sheet-APX47",
+        "courseId": "snes-donut-plains-3",
+        "sameCanonicalSourceId": "curated-1035161848070279208-1035161848129007646-august2022-image-reviewed",
+        "documentedAt": "2022-10-27T08:56:17.000Z",
+        "durationDays": 2.3098228703703705
+      },
+      {
+        "id": "sheet-APX59",
+        "courseId": "snes-donut-plains-3",
+        "sameCanonicalSourceId": "1039950316147322890",
+        "documentedAt": "2022-10-29T16:22:25.696Z",
+        "durationDays": 45.56775814814815
+      }
+    ],
+    "threeWrDurationsIndependentlyVerified": true,
+    "knownWrIdsPreserved": true,
+    "playerProfilesUnchanged": true,
+    "later2026RowsUnchanged": true,
+    "dataBuildPassed": true,
+    "focusedVideoTestsPassed": 10,
+    "localProductionBuildPassed": true,
+    "localBuildPages": 892,
+    "originalMovieFilesFullGetHashBytesMimeRangeDecodePassed": 2,
+    "completedMovieFiles": 2,
+    "proofSourceObjectsFullVerified": 18,
+    "standingWrAndFastestRecordingKeptSeparate": true,
+    "sourcePostingPublicationAndVideoSharingClocksKeptDistinct": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/halloween2025-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
   },
   "nextTourId": "tour-160",
-  "publicationPending": false,
-  "completedAt": "2026-10-15",
-  "latestLivePublicationAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json"
+  "completedAt": "2026-10-18",
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "remainingLimitations": [
+      "Saved surviving sources reviewed; fresh exhaustive Discord or worldwide census is not certified.",
+      "Original screenshot assessments retained by matching SHA256; carried movie lap/result assessment retained by matching SHA256 without fresh uninterrupted continuity certification.",
+      "No current-tour WR improvement or completed movie is established by the saved batch.",
+      "Newyork’s submitted56.49image filename containsOctober21; its actualOctober29posting is retained as submission clock. Filename is not a confirmed completion timestamp.",
+      "Troy’s October29,2022 screenshot submission is separate fromNovember2,2022video publication and sharing.",
+      "Broader historical date and presentation correction remains a later archive-wide pass.",
+      "Broader historical date and presentation correction remains a later archive-wide pass."
+    ],
+    "coverage": {
+      "indexedAttachments": 8,
+      "currentTourImageResults": 8,
+      "availableOriginalImages": 9,
+      "unavailableOriginalImages": 0,
+      "currentCompletedMoviePerformances": 0,
+      "carriedPriorTourRecordings": 1,
+      "r2FilesVerified": 10,
+      "existingWrIdsRetained": 3,
+      "newWrIds": 0,
+      "allAffectedCourseRows": 232,
+      "unchangedSourceRows": 223,
+      "updatedEvidenceRows": 9,
+      "canonicalSourceRowsReconciled": 8,
+      "freshBrowserCensusCompleted": false,
+      "boundedSavedSubmissionMessages": 8,
+      "boundedSavedDiscussionMessages": 0
+    },
+    "validation": {
+      "fullGeneratedRowsMatched": 232,
+      "livePublicationVerified": true,
+      "focusedTestsPassed": 20,
+      "productionBuildExitCode": 0,
+      "productionBuildsPassed": 2,
+      "renderedR2LinksReadable": 44,
+      "productionAudit": "archive/halloween2025-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/halloween2025-exact-live-publication-and-full-field-check-20261015.json"
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/halloween2025-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "newyork5649-private-race-instant-unproven",
+      "reason": "October29original submission date is supported. October21attachment filename does not prove private race time."
+    },
+    {
+      "id": "nu115663-own-wr-video-unavailable",
+      "reason": "Documented October20,2022leaderboard evidence retained; no original movie recovered."
+    },
+    {
+      "id": "worldwide-history-exhaustiveness-unproven",
+      "reason": "Eight surviving original submissions and bounded discussion search reviewed. Deleted, private or unpublished history cannot be certified."
+    }
+  ]
 }
