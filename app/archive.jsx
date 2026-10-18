@@ -646,6 +646,13 @@ function CoursePage({ data: c, players, tours = [] }) {
       <h2>Best video</h2>
       <RecordTable records={[movie]} players={players} clean />
     </>}
+    {!!c.archivedTourRecordings?.length && <details className="sources">
+      <summary>Archived tour videos</summary>
+      {c.archivedTourRecordings.map(entry => <div key={entry.tourId}>
+        <h3>{entry.name}</h3>
+        <RecordTable records={[entry.record]} players={players} clean />
+      </div>)}
+    </details>}
     <CourseStats c={c} players={players} />
     <h2>History</h2>
     <RecordTable records={records} events={historyEvents({...c, records}, tours, "2026-09-30T06:00:00Z", {includeRecoveredLeaders:true,publishedRecords:true})} players={players} clean />
