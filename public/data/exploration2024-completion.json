@@ -3,7 +3,7 @@
   "tour": "Exploration Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Surviving captured sources reconciled with good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -15,16 +15,37 @@
     {
       "courseId": "piranha-plant-cove",
       "archivedWr": "1:08.46",
-      "fastestDocumentedRecording": null,
-      "reportedAvailableRecording": "1:08.46",
-      "supportingDisplayed": 14
+      "fastestDocumentedRecording": "1:08.46",
+      "reportedAvailableRecording": null,
+      "supportingDisplayed": 14,
+      "carriedStanding": {
+        "id": "1078514612225441792",
+        "playerId": "wins",
+        "time": "1:08.46",
+        "documentedAt": "2023-02-19T19:11:17.825Z",
+        "durationDays": 44.45048813657407,
+        "durationEnd": "2026-09-30T06:00:00.000Z"
+      },
+      "worksheetRowsDated": 12,
+      "recordingReviewBasis": "Prior movie result assessments retained by exact original hash; no fresh uninterrupted continuity certification.",
+      "priorUploaderReportedOnlyClassificationSuperseded": true
     },
     {
       "courseId": "piranha-plant-cove-2",
       "archivedWr": "1:29.34",
       "fastestDocumentedRecording": "1:29.81",
       "reportedAvailableRecording": null,
-      "supportingDisplayed": 16
+      "supportingDisplayed": 16,
+      "carriedStanding": {
+        "id": "1078515335923257476",
+        "playerId": "dit",
+        "time": "1:29.38",
+        "documentedAt": "2023-02-21T09:58:47.425Z",
+        "durationDays": 6.341277928240741,
+        "durationEnd": "2024-02-12T18:10:13.838Z"
+      },
+      "worksheetRowsDated": 16,
+      "recordingReviewBasis": "Prior movie result assessments retained by exact original hash; no fresh uninterrupted continuity certification."
     }
   ],
   "coverage": {
@@ -42,35 +63,131 @@
     "freshUnpreservedSubmissionAttachments": 0,
     "currentCanonicalPerformances": 31,
     "newWrIds": 0,
-    "existingWrIdsRetained": 17
+    "existingWrIdsRetained": 17,
+    "knownWorksheetRows": 29,
+    "knownWorksheetRowsDated": 28,
+    "remainingUndatedWorksheetRows": 1,
+    "knownWrEntriesDateAndDurationReviewed": 1,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 36,
+    "preservedProofAndSourceObjectsVerified": 42,
+    "carriedProofRepresentationsRevalidated": 3,
+    "originalMoviesRevalidated": 3,
+    "knownWrIdsAdded": 0,
+    "priorCarriedMovieResultClassificationReconciled": 1,
+    "standardRecordedResults": 2
   },
   "evidence": [
     "archive/exploration2024-original-preservation-and-source-review-20261015.json",
     "archive/exploration2024-fresh-submissions-capture-20261015.json",
     "archive/exploration2024-fresh-discussion-capture-20261015.json",
     "archive/exploration2024-posted-results-and-preserved-source-reconciliation-20261015.json",
-    "archive/exploration2024-full-course-generation-and-source-field-preservation-20261015.json"
+    "archive/exploration2024-full-course-generation-and-source-field-preservation-20261015.json",
+    "artifacts/exploration2024-source-date-reconciliation-20261018.json",
+    "artifacts/exploration2024-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/exploration2024-all-supported-worksheet-and-wr-source-clock-verification-20261018.json",
+    "artifacts/exploration2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/exploration2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/exploration2024-three-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/exploration2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/exploration2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless evidence establishes otherwise. Video publication and sharing clocks remain separate. Late submissions retain actual dates and documented tour attribution.",
   "remainingLimitations": [
-    "Prior matching-hash image and sampled movie assessments retained without fresh uninterrupted-race certification.",
-    "Two source identities retain existing associations without invented account merges.",
-    "Five adjacent-tour images are source-only and do not change this tour’s course availability.",
-    "Cove 1:08.46 available footage uses the uploader’s stated result.",
-    "Cove 2 WR 1:29.34 has no available movie; documented footage is the carried 1:29.81.",
-    "Dit’s carried 1:29.38 video is unavailable and remains a reference.",
-    "Discussion strategy clip ends during lap one and establishes no completed total.",
-    "Bounded surviving sources do not prove exhaustive worldwide history."
+    "28 of29 worksheet dates have exact supported source clocks; MB31:08.78 retains an attribution/date gap.",
+    "One current WR and two carried standings have exact documented endpoints and independently recomputed playable durations. No new WR IDs or account merges.",
+    "Wins carried1:08.46 video retains newer matching-hash sampled lap/result evidence, superseding the old uploader-reported-only classification. No fresh full-frame continuity audit.",
+    "Cove2 current1:29.34 and available supported recording1:29.81 remain distinct; Dit1:29.38 reference remains unavailable.",
+    "All36 original image URLs, three carried proof representations and three source audits pass fullGET/SHA/bytes/MIME/directRange206. All three movies fully decode.",
+    "Partial strategy footage is preserved separately and excluded from completed-recording selection. Five adjacent-tour images remain source-only.",
+    "Global2019\u20132026 review remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 13,
-    "fullGeneratedRowsMatched": 333,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsReadable": 39,
-    "productionAudit": "archive/exploration2024-production-build-and-rendered-evidence-link-check-20261015.json",
-    "livePublicationAudit": "archive/exploration2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 42,
+    "originalImageUrlsVerified": 36,
+    "threeMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all28SupportedWorksheetSourceClocksVerified": true,
+    "allThreeWrOriginalPostingClocksFreshlyVerified": true,
+    "youtubeMetadataTimestampVerified": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/exploration2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 14
   },
   "nextTourId": "tour-116",
-  "latestLivePublicationAudit": "archive/exploration2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedSubmissionImages": 33,
+      "lateOriginalImages": 3,
+      "currentCourseImages": 31,
+      "latePreviousTourSourceOnlyImages": 3,
+      "nextDoctorOpeningSourceOnlyImages": 2,
+      "carriedMovies": 2,
+      "partialStrategyMovies": 1,
+      "newCurrentCompletedMovies": 0,
+      "r2FilesVerified": 39,
+      "freshSubmissionQueryRows": 63,
+      "freshDiscussionQueryRows": 22,
+      "freshUnpreservedSubmissionAttachments": 0,
+      "currentCanonicalPerformances": 31,
+      "newWrIds": 0,
+      "existingWrIdsRetained": 17,
+      "knownWorksheetRows": 29,
+      "knownWorksheetRowsDated": 28,
+      "remainingUndatedWorksheetRows": 1,
+      "knownWrEntriesDateAndDurationReviewed": 1,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 36,
+      "preservedProofAndSourceObjectsVerified": 42,
+      "carriedProofRepresentationsRevalidated": 3,
+      "originalMoviesRevalidated": 3,
+      "knownWrIdsAdded": 0,
+      "priorCarriedMovieResultClassificationReconciled": 1,
+      "standardRecordedResults": 2
+    },
+    "validation": {
+      "focusedTestsPassed": 13,
+      "fullGeneratedRowsMatched": 333,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsReadable": 39,
+      "productionAudit": "archive/exploration2024-production-build-and-rendered-evidence-link-check-20261015.json",
+      "livePublicationAudit": "archive/exploration2024-exact-live-publication-and-full-field-check-20261015.json"
+    },
+    "remainingLimitations": [
+      "Prior matching-hash image and sampled movie assessments retained without fresh uninterrupted-race certification.",
+      "Two source identities retain existing associations without invented account merges.",
+      "Five adjacent-tour images are source-only and do not change this tour\u2019s course availability.",
+      "Cove 1:08.46 available footage uses the uploader\u2019s stated result.",
+      "Cove 2 WR 1:29.34 has no available movie; documented footage is the carried 1:29.81.",
+      "Dit\u2019s carried 1:29.38 video is unavailable and remains a reference.",
+      "Discussion strategy clip ends during lap one and establishes no completed total.",
+      "Bounded surviving sources do not prove exhaustive worldwide history."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/exploration2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-BMR13",
+      "reason": "MB3 worksheet1:08.78 matches a Deleted User screenshot posted2024-02-08T14:38:06.656Z, but no surviving receipt establishes attribution. Candidate preserved; named entry remains undated."
+    },
+    {
+      "id": "cove2-wr-movie-gaps",
+      "reason": "No supported available1:29.34 or carried Dit1:29.38 movie. Available supported1:29.81 remains separately linked."
+    },
+    {
+      "id": "partial-strategy-clip",
+      "reason": "The discussion clip ends during lap one; no completed time or WR credit is assigned."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Posting and earlier supported publication dates do not certify private race dates or lost/unsubmitted worldwide history."
+    }
+  ]
 }
