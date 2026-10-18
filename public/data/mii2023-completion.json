@@ -2,7 +2,7 @@
   "tourId": "tour-96",
   "tour": "Mii Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -55,7 +55,9 @@
       "recordingPublishedAt": "2023-05-31T05:06:41Z",
       "exactFirstVideoShareUnknown": true,
       "priorSampledMovieAssessmentRetained": true,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "archivedWrDurationDays": 42.10486013888889,
+      "archivedWrDurationEnd": "2026-09-30T06:00:00.000Z"
     },
     {
       "id": "wii-maple-treeway-r",
@@ -70,7 +72,9 @@
       "recordingPublishedAt": null,
       "exactFirstVideoShareUnknown": true,
       "priorSampledMovieAssessmentRetained": false,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "carriedWrDurationDays": 36.20846315972222,
+      "carriedWrDurationEnd": "2025-05-21T13:17:44.050Z"
     }
   ],
   "coverage": {
@@ -87,28 +91,30 @@
     "reviewedGeneratedRowsCompared": 149,
     "materialFieldDifferences": 0,
     "removedReconciledRawCandidates": 4,
-    "rawReceiptsRetained": true
+    "rawReceiptsRetained": true,
+    "knownWorksheetRows": 74,
+    "knownWorksheetRowsDated": 74,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 6,
+    "carriedWrEntriesDateAndDurationReviewed": 1,
+    "originalVideosRevalidatedOnR2": 12,
+    "additionalPlaybackCopiesRevalidatedOnR2": 6,
+    "newR2ProofAndSourceObjectsVerified": 98
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "gcn-mushroom-bridge": 73,
-      "wii-maple-treeway-r": 46
-    },
-    "renderedPreservedEvidenceLinksReadable": 162,
-    "wrAndCarriedInEvidenceEntries": 7,
-    "failedLinks": 0,
-    "productionBuildPages": 892,
-    "focusedVideoAndOpeningTestsPassed": 15,
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownWrAndCarriedImageLinksReadable": 7,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 98,
+    "originalVideosAndPlaybackCopiesFullGetHashBytesMimeRangeAndDecodePassed": 18,
     "qualifiedRecordingAndResetDaySelectionsPassed": true,
-    "completionLabelLiveVerified": true,
-    "browserMp4PlaybackDocumentsOpened": 2,
-    "completionLabelBuildVerified": true,
-    "livePreservedEvidenceLinksReadable": 162,
-    "liveSupportingEntries": {
-      "gcn-mushroom-bridge": 73,
-      "wii-maple-treeway-r": 46
-    },
-    "liveWrAndCarriedInEvidenceEntries": 7
+    "singleLapAndTechniqueClipsKeptSeparate": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mii2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "productionBuildPages": 892
   },
   "remainingLimitations": [
     "Practical good-enough surviving-source archive; exhaustive worldwide precedence and exact private achievement instants remain unproved.",
@@ -119,7 +125,9 @@
     "Edited submission receipts do not establish exact first video-share instants. Known original source posts and publication metadata remain separate from result submissions.",
     "No qualified completed Maple Treeway R recording with a documented total is established by the bounded sources. Wins’s Maple footage is a lap example.",
     "Three discussion images and short unclassified movies are preserved. Automated text/frame readings are not fresh visual or full-race certificates; an in-race clock is not a final result.",
-    "The discussion image captioned world record is an automated reading of a slower Maple Tour Leaderboard; it does not replace the carried NewYork1:49.29."
+    "The discussion image captioned world record is an automated reading of a slower Maple Tour Leaderboard; it does not replace the carried NewYork1:49.29.",
+    "All74 worksheet entries now have matching surviving source posting or observation dates. Shine1:10.93 and Fireball1:11.26 use earlier original video publication timestamps while submission clocks remain preserved. No private achievement instants or extra WR credit inferred.",
+    "Twelve original movies and six additional playback copies were fully downloaded, hash/byte/MIME/Range checked and decoded. Prior sampled assessments retained by original hashes; no fresh visual or full-race continuity certification claimed. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/mii2023-practical-source-disposition-index-20261014.json",
@@ -132,7 +140,16 @@
     "archive/mii2023-unclassified-media-automated-text-scope-review-20261014.json",
     "archive/mii2023-completion-label-build-check-20261014.json",
     "archive/mii2023-completion-label-live-check-20261014.json",
-    "archive/mii2023-rendered-proof-and-video-live-link-audit-20261014.json"
+    "archive/mii2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "artifacts/mii2023-source-date-reconciliation-20261018.json",
+    "artifacts/mii2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/mii2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/mii2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/mii2023-eighteen-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/mii2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/mii2023-seven-known-wr-proof-link-check-20261018.json",
+    "artifacts/mii2023-kno2-final-original-author-clock-source-20261018.json",
+    "https://media.mktwrs.com/assets/proof/mii2023-live-publication-verification-20261018.json"
   ],
   "preservedMovieSources": [
     {
@@ -747,7 +764,38 @@
       }
     }
   ],
-  "nextTourId": "tour-14",
+  "nextTourId": "tour-97",
   "nextTourReason": "User-requested reopened Yoshi Circuit R history review",
-  "sourceCommit": "1b95f8f774150423e137a4a9286141e083ffeef9"
+  "sourceCommit": "6cfea7da34ee4a1f1c37acc17e2c1afa076a44d1",
+  "previousValidation": {
+    "renderedSupportingEntries": {
+      "gcn-mushroom-bridge": 73,
+      "wii-maple-treeway-r": 46
+    },
+    "renderedPreservedEvidenceLinksReadable": 162,
+    "wrAndCarriedInEvidenceEntries": 7,
+    "failedLinks": 0,
+    "productionBuildPages": 892,
+    "focusedVideoAndOpeningTestsPassed": 15,
+    "qualifiedRecordingAndResetDaySelectionsPassed": true,
+    "completionLabelLiveVerified": true,
+    "browserMp4PlaybackDocumentsOpened": 2,
+    "completionLabelBuildVerified": true,
+    "livePreservedEvidenceLinksReadable": 162,
+    "liveSupportingEntries": {
+      "gcn-mushroom-bridge": 73,
+      "wii-maple-treeway-r": 46
+    },
+    "liveWrAndCarriedInEvidenceEntries": 7
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mii2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "kno2-previous-best-11042",
+      "courseId": "gcn-mushroom-bridge",
+      "time": "1:10.42",
+      "reason": "Previous personal best observed in final result; no independently dated original source. Not inserted as chronological WR."
+    }
+  ]
 }
