@@ -2,7 +2,7 @@
   "tourId": "tour-93",
   "tour": "Yoshi Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -46,7 +46,10 @@
       "recordingPublishedAt": "2023-04-10T12:20:30Z",
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/yoshi2023-01a4d985a974bb1a10d7.mp4",
       "priorSampledVideoReviewRetained": true,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "archivedWrDurationDays": 25.002102488425926,
+      "archivedWrDurationEnd": "2024-04-16T12:30:00.958Z",
+      "durationBoundaryReview": "Exact posting clock of the late2024 successor used instead of an attributed whole-tour window; tour attribution and private-achievement uncertainty retained."
     },
     {
       "id": "snes-donut-plains-2r",
@@ -102,9 +105,71 @@
     "generatedReviewedRowsCompared": 115,
     "materialFieldDifferences": 0,
     "removedReconciledRawCandidates": 4,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "knownWorksheetRows": 57,
+    "knownWorksheetRowsDated": 56,
+    "remainingUndatedWorksheetRows": 1,
+    "knownWrEntriesDateAndDurationReviewed": 8,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalVideosRevalidatedOnR2": 8,
+    "newR2ProofAndSourceObjectsVerified": 68
   },
   "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownWrAndCarriedImageLinksReadable": 10,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 68,
+    "originalVideosFullGetHashBytesMimeRangeAndDecodePassed": 8,
+    "fastestDocumentedRecordingSelectionsPassed": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/yoshi2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "productionBuildPages": 892
+  },
+  "remainingLimitations": [
+    "Good-enough surviving-source review, not exhaustive worldwide history. Private race achievement instants remain unknown.",
+    "Five newly recovered images are preserved with current accepted-receipt or caption evidence, without a new image-content visual certification. Fifty-nine prior original assessments are retained only by matching hashes.",
+    "Cancelled NR 1:00.49 receipt is excluded; its attachment failed to load. A separate accepted replacement is preserved.",
+    "New source/title-backed movies have no fresh visual or uninterrupted-race certification. Wins final sampled review is retained by original hash.",
+    "Two linked lap demonstration videos are currently unavailable. Other strategy and failed-attempt clips remain source references and do not establish faster completed records.",
+    "The 2021 single-lap demonstration shared this tour is retained separately from the 2023 WR progression.",
+    "N final video upload follows its result submission; an edited bot receipt does not establish an exact original video-share clock.",
+    "Worksheet dates use matching surviving source posting or observation clocks. Sucha original account711825990283952149 matches the receipt label without merging historical profiles. kuRi1:01.26 remains a worksheet source gap.",
+    "The late successor was posted2024-04-17T06:00:40.383Z. Its attributed tour remains separate; the source posting clock sets the documented standing boundary and does not claim a private achievement instant. Global2019–2026 archive remains unfinished."
+  ],
+  "evidence": [
+    "archive/yoshi2023-practical-source-disposition-index-20261014.json",
+    "archive/yoshi2023-carried-original-video-r2-check-20261014.json",
+    "archive/yoshi2023-current-receipt-and-original-recovery-review-20261014.json",
+    "archive/yoshi2023-discussion-and-additional-recording-source-review-20261014.json",
+    "archive/yoshi2023-fiftynine-original-image-r2-preservation-20261014.json",
+    "archive/yoshi2023-five-additional-source-video-r2-preservation-20261014.json",
+    "archive/yoshi2023-isolated-generation-progression-check-20261014.json",
+    "archive/yoshi2023-preserved-original-proof-link-reconciliation-20261014.json",
+    "archive/yoshi2023-preserved-proof-and-video-build-link-audit-20261014.json",
+    "archive/yoshi2023-prior-original-hash-check-20261014.json",
+    "archive/yoshi2023-progression-and-recording-source-reconciliation-20261014.json",
+    "archive/yoshi2023-recovered-originals-and-two-video-r2-preservation-20261014.json",
+    "archive/yoshi2023-supporting-history-build-check-20261014.json",
+    "archive/yoshi2023-completion-label-build-check-20261014.json",
+    "archive/yoshi2023-completion-label-live-check-20261014.json",
+    "archive/yoshi2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "artifacts/yoshi2023-source-date-reconciliation-20261018.json",
+    "artifacts/yoshi2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/yoshi2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/yoshi2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/yoshi2023-eight-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/yoshi2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/yoshi2023-ten-known-wr-proof-link-check-20261018.json",
+    "artifacts/yoshi2023-sucha-original-author-source-20261018.json",
+    "artifacts/yoshi2023-successor-original-posting-clock-source-20261018.json",
+    "https://media.mktwrs.com/assets/proof/yoshi2023-live-publication-verification-20261018.json"
+  ],
+  "nextTourId": "tour-94",
+  "sourceCommit": "9c445723c01057d44dcd5b7afbc58ee516a1cf24",
+  "previousValidation": {
     "renderedSupportingEntries": {
       "gcn-yoshi-circuit": 47,
       "snes-donut-plains-2r": 39
@@ -123,33 +188,15 @@
     },
     "liveWrAndCarriedInEvidenceEntries": 10
   },
-  "remainingLimitations": [
-    "Good-enough surviving-source review, not exhaustive worldwide history. Private race achievement instants remain unknown.",
-    "Five newly recovered images are preserved with current accepted-receipt or caption evidence, without a new image-content visual certification. Fifty-nine prior original assessments are retained only by matching hashes.",
-    "Cancelled NR 1:00.49 receipt is excluded; its attachment failed to load. A separate accepted replacement is preserved.",
-    "New source/title-backed movies have no fresh visual or uninterrupted-race certification. Wins final sampled review is retained by original hash.",
-    "Two linked lap demonstration videos are currently unavailable. Other strategy and failed-attempt clips remain source references and do not establish faster completed records.",
-    "The 2021 single-lap demonstration shared this tour is retained separately from the 2023 WR progression.",
-    "N final video upload follows its result submission; an edited bot receipt does not establish an exact original video-share clock."
-  ],
-  "evidence": [
-    "archive/yoshi2023-practical-source-disposition-index-20261014.json",
-    "archive/yoshi2023-carried-original-video-r2-check-20261014.json",
-    "archive/yoshi2023-current-receipt-and-original-recovery-review-20261014.json",
-    "archive/yoshi2023-discussion-and-additional-recording-source-review-20261014.json",
-    "archive/yoshi2023-fiftynine-original-image-r2-preservation-20261014.json",
-    "archive/yoshi2023-five-additional-source-video-r2-preservation-20261014.json",
-    "archive/yoshi2023-isolated-generation-progression-check-20261014.json",
-    "archive/yoshi2023-preserved-original-proof-link-reconciliation-20261014.json",
-    "archive/yoshi2023-preserved-proof-and-video-build-link-audit-20261014.json",
-    "archive/yoshi2023-prior-original-hash-check-20261014.json",
-    "archive/yoshi2023-progression-and-recording-source-reconciliation-20261014.json",
-    "archive/yoshi2023-recovered-originals-and-two-video-r2-preservation-20261014.json",
-    "archive/yoshi2023-supporting-history-build-check-20261014.json",
-    "archive/yoshi2023-completion-label-build-check-20261014.json",
-    "archive/yoshi2023-completion-label-live-check-20261014.json",
-    "archive/yoshi2023-rendered-proof-and-video-live-link-audit-20261014.json"
-  ],
-  "nextTourId": "tour-94",
-  "sourceCommit": "75caffc8824637bef5c3dac410f36513f933c57d"
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/yoshi2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-AXX14",
+      "courseId": "snes-donut-plains-2r",
+      "playerId": "kuri",
+      "time": "1:01.26",
+      "reason": "No recovered matching dated source; retained without invented date or WR credit."
+    }
+  ]
 }
