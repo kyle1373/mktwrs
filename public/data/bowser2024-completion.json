@@ -3,7 +3,7 @@
   "tour": "Bowser Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled with good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -17,14 +17,59 @@
       "archivedWr": "1:10.80",
       "fastestDocumentedRecording": "1:10.86",
       "fastestUploaderReportedRecording": null,
-      "supportingDisplayed": 23
+      "supportingDisplayed": 23,
+      "carriedStandings": [
+        {
+          "courseId": "gba-bowser-s-castle-4",
+          "id": "1109324308658004028",
+          "playerId": "dit",
+          "time": "1:10.80",
+          "documentedAt": "2023-05-10T11:08:09.177Z",
+          "durationDays": 35.11332466435185,
+          "durationEnd": "2026-04-29T13:51:20.428Z"
+        }
+      ],
+      "worksheetRowsDated": 17,
+      "recordingReviewBasis": "Existing completed result assessments retained by exact movie SHA256; no fresh visual or uninterrupted continuity certification.",
+      "earlierAvailableRecording": {
+        "courseId": "gba-bowser-s-castle-4",
+        "id": "curated-1106178959563046932-bowser2023-original-result-reviewed",
+        "playerId": "n",
+        "time": "1:10.86",
+        "documentedAt": "2023-05-11T11:20:15.771Z",
+        "durationDays": 0,
+        "durationEnd": "2023-05-11T11:20:15.771Z"
+      },
+      "earlierAvailableRecordingWrCredit": false
     },
     {
       "courseId": "n64-kalimari-desert-2r",
       "archivedWr": "1:04.30",
       "fastestDocumentedRecording": "1:04.30",
       "fastestUploaderReportedRecording": null,
-      "supportingDisplayed": 23
+      "supportingDisplayed": 23,
+      "carriedStandings": [
+        {
+          "courseId": "n64-kalimari-desert-2r",
+          "id": "896334182928760863",
+          "playerId": "kazuo",
+          "time": "1:04.30",
+          "documentedAt": "2021-05-14T20:21:03.919Z",
+          "durationDays": 74.40203797453704,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        },
+        {
+          "courseId": "n64-kalimari-desert-2r",
+          "id": "966540176568512563",
+          "playerId": "hilton",
+          "time": "1:04.30",
+          "documentedAt": "2022-03-16T21:37:18.218Z",
+          "durationDays": 62.34909469907407,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ],
+      "worksheetRowsDated": 16,
+      "recordingReviewBasis": "Existing completed result assessments retained by exact movie SHA256; no fresh visual or uninterrupted continuity certification."
     }
   ],
   "coverage": {
@@ -43,38 +88,67 @@
     "boundedPreservedDiscussionRows": 88,
     "savedSubmissionAttachmentRows": 55,
     "missingOriginalReferences": 4,
-    "freshBrowserCensusCompleted": false
+    "freshBrowserCensusCompleted": false,
+    "knownWorksheetRows": 34,
+    "knownWorksheetRowsDated": 33,
+    "remainingUndatedWorksheetRows": 1,
+    "currentWindowWrEntries": 0,
+    "carriedWrEntriesDateAndDurationReviewed": 3,
+    "earlierNonWrRecordingReviewed": 1,
+    "originalImageEntriesRevalidated": 54,
+    "retainedDiscussionProofCopiesRevalidated": 2,
+    "preservedProofAndSourceObjectsVerified": 67,
+    "carriedProofObjectsRevalidated": 4,
+    "derivedFinishFramesRevalidated": 1,
+    "sourceAuditObjectsRevalidated": 6,
+    "originalMoviesRevalidated": 8,
+    "knownWrIdsAdded": 0
   },
   "evidence": [
     "archive/bowser2024-original-preservation-and-source-review-20261015.json",
     "archive/bowser2024-preserved-bounded-source-census-20261015.json",
     "archive/bowser2024-posted-results-and-preserved-source-reconciliation-20261015.json",
     "archive/bowser2024-full-course-generation-and-source-field-preservation-20261015.json",
-    "archive/bowser2024-production-build-and-rendered-evidence-link-check-20261015.json"
+    "archive/bowser2024-production-build-and-rendered-evidence-link-check-20261015.json",
+    "artifacts/bowser2024-source-date-reconciliation-20261018.json",
+    "artifacts/bowser2024-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/bowser2024-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/bowser2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/bowser2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/bowser2024-eight-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/bowser2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/bowser2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Repost receipts and video sharing events retain their independent clocks.",
   "remainingLimitations": [
-    "Original image/movie assessments retained by matching SHA256 where previously recorded; no fresh visual certification.",
-    "Two discussion images survive as public proof copies; original download bytes are not independently certified.",
-    "Three historical image identities remain anonymous without an invented account merge.",
-    "Two current partial movies establish no completed total.",
-    "One bot leaderboard image is secondary context, not original race proof or achievement timing.",
-    "Sucha 1:05.57 is a no-items supporting run, not main-category WR.",
-    "One missing submission original and three missing discussion originals remain documented source leads.",
-    "Sucha matching-result repost has different original bytes and is retained without duplicate performance credit.",
-    "No fresh Discord census certification; preserved Codex-browser captures used.",
-    "Preserved channel sources do not prove exhaustive worldwide history."
+    "33 of34 worksheet entries have supported single posting dates. mb3 Castle1:10.91 retains an attribution/date gap because the matching original source is anonymous.",
+    "No new current-window WRs. DIT1:10.80 and the Kazuo/Hilton1:04.30 tie carry into the tour; all three exact playable durations include its full14-day window and independently recompute across course appearances.",
+    "Carryroth/Sephiroth and keron/keron0614 source-account evidence supports specific course/total matches without global profile merges or WR credit.",
+    "54 original images,2 retained discussion proof copies,4 carried proof objects,1 prior derived result frame and6 source audits pass full GET/SHA/bytes/MIME/directRange206. All8 movie files decode; original MOV and lossless MP4 remux remain distinct preserved files.",
+    "Prior exact-hash review verifies N1:10.86 result footage. It remains a slower non-WR submission, dated May11,2023T11:20:15.771Z; video shared11:21:11.198Z. No fresh visual or uninterrupted race certification.",
+    "Kalimari Kazuo1:04.30 retains original May14,2021T20:21:03.919Z submission despite surviving video repostMay15. Hilton retains original March16,2022T21:37:18.218Z, not later announcement.",
+    "Sucha1:05.57 is no-items supporting evidence; two strategy clips prove no completed total. They remain archived without main-category WR credit.",
+    "Standing Castle1:10.80 has no surviving available movie. The available1:10.86 recording and its original proof remain distinct.",
+    "Four unavailable original attachment references and anonymous source identities remain explicit. Targeted original post checks do not certify an exhaustive fresh Discord census.",
+    "Global2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 15,
-    "fullGeneratedRowsMatched": 530,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsReadable": 98,
-    "livePublicationAudit": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 67,
+    "originalImageUrlsVerified": 54,
+    "eightMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all33SupportedWorksheetSourceClocksVerified": true,
+    "threeCarriedWrOriginalPostingClocksFreshlyVerified": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/bowser2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 14,
+    "freshBoundedDiscordCensusClaimed": false
   },
   "nextTourId": "tour-122",
-  "latestLivePublicationAudit": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json",
   "lateRecordingVerificationSupplement": {
     "sourceTour": "Bowser Tour (2025)",
     "reviewAudit": "archive/bowser2025-original-preservation-and-source-review-20261015.json",
@@ -82,5 +156,90 @@
     "resultVisuallyVerified": true,
     "uninterruptedRaceContinuityVerified": false,
     "originalSubmissionAndSharingClocksRetained": true
-  }
+  },
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 55,
+      "availableIndexedOriginalImages": 54,
+      "retainedDiscussionProofCopies": 2,
+      "currentImagePerformances": 54,
+      "currentCompletedMoviePerformances": 3,
+      "currentMoviesPreserved": 5,
+      "carriedRecordingPerformances": 2,
+      "carriedRecordingFilesPreserved": 3,
+      "r2FilesVerified": 64,
+      "existingWrIdsRetained": 29,
+      "newWrIds": 0,
+      "savedDiscussionRows": 88,
+      "boundedPreservedDiscussionRows": 88,
+      "savedSubmissionAttachmentRows": 55,
+      "missingOriginalReferences": 4,
+      "freshBrowserCensusCompleted": false,
+      "knownWorksheetRows": 34,
+      "knownWorksheetRowsDated": 33,
+      "remainingUndatedWorksheetRows": 1,
+      "currentWindowWrEntries": 0,
+      "carriedWrEntriesDateAndDurationReviewed": 3,
+      "earlierNonWrRecordingReviewed": 1,
+      "originalImageEntriesRevalidated": 54,
+      "retainedDiscussionProofCopiesRevalidated": 2,
+      "preservedProofAndSourceObjectsVerified": 67,
+      "carriedProofObjectsRevalidated": 4,
+      "derivedFinishFramesRevalidated": 1,
+      "sourceAuditObjectsRevalidated": 6,
+      "originalMoviesRevalidated": 8,
+      "knownWrIdsAdded": 0
+    },
+    "validation": {
+      "focusedTestsPassed": 15,
+      "fullGeneratedRowsMatched": 530,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsReadable": 98,
+      "livePublicationAudit": "archive/bowser2024-exact-live-publication-and-full-field-check-20261015.json"
+    },
+    "remainingLimitations": [
+      "Original image/movie assessments retained by matching SHA256 where previously recorded; no fresh visual certification.",
+      "Two discussion images survive as public proof copies; original download bytes are not independently certified.",
+      "Three historical image identities remain anonymous without an invented account merge.",
+      "Two current partial movies establish no completed total.",
+      "One bot leaderboard image is secondary context, not original race proof or achievement timing.",
+      "Sucha 1:05.57 is a no-items supporting run, not main-category WR.",
+      "One missing submission original and three missing discussion originals remain documented source leads.",
+      "Sucha matching-result repost has different original bytes and is retained without duplicate performance credit.",
+      "No fresh Discord census certification; preserved Codex-browser captures used.",
+      "Preserved channel sources do not prove exhaustive worldwide history."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/bowser2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-BQB13",
+      "courseId": "gba-bowser-s-castle-4",
+      "playerId": "mb3",
+      "time": "1:10.91",
+      "reason": "Matching anonymous screenshot does not establish worksheet attribution. Preserve source without assigning an unsupported player/date."
+    },
+    {
+      "id": "castle-wr-movie",
+      "time": "1:10.80",
+      "reason": "Standing DIT WR has no available race video; slower N1:10.86 completed result footage is separately preserved."
+    },
+    {
+      "id": "missing-original-source-leads",
+      "attachmentIds": [
+        "1237517740273827840",
+        "1237692630570373130",
+        "1237783568726491166",
+        "1238120834095124592"
+      ],
+      "reason": "Existing missing originals retained as leads without certification of recovered bytes."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Supported public posting dates do not certify private race dates or exhaustive worldwide history."
+    }
+  ]
 }
