@@ -3,7 +3,7 @@
   "tour": "Ninja Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled with good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -17,7 +17,17 @@
       "archivedWr": "1:13.83",
       "fastestDocumentedRecording": "1:13.83",
       "fastestUploaderReportedRecording": null,
-      "supportingDisplayed": 24
+      "supportingDisplayed": 24,
+      "carriedStanding": {
+        "id": "1093745302051242004",
+        "playerId": "fireball",
+        "time": "1:15.60",
+        "documentedAt": "2023-04-05T04:58:05.164Z",
+        "durationDays": 0.9984934722222222,
+        "durationEnd": "2024-03-21T04:55:55.000Z"
+      },
+      "worksheetRowsDated": 16,
+      "recordingReviewBasis": "Prior result assessments retained by exact original hashes. Newly recovered Kuri1:15.32 independently decoded and machine result total checked, with prior browser review retained by matching video ID. No new uninterrupted continuity certification."
     },
     {
       "courseId": "3ds-wario-shipyard",
@@ -25,7 +35,17 @@
       "fastestDocumentedRecording": "1:33.45",
       "fastestUploaderReportedRecording": null,
       "supportingDisplayed": 18,
-      "laterResultReviewAudit": "archive/ninja2025-carried-wario-video-result-review-20261015.json"
+      "laterResultReviewAudit": "archive/ninja2025-carried-wario-video-result-review-20261015.json",
+      "carriedStanding": {
+        "id": "1093745717182472272",
+        "playerId": "n",
+        "time": "1:33.45",
+        "documentedAt": "2023-04-03T14:00:05.058Z",
+        "durationDays": 6.643487986111111,
+        "durationEnd": "2024-03-25T05:26:42.420Z"
+      },
+      "worksheetRowsDated": 14,
+      "recordingReviewBasis": "Prior result assessments retained by exact original hashes. Newly recovered Kuri1:15.32 independently decoded and machine result total checked, with prior browser review retained by matching video ID. No new uninterrupted continuity certification."
     }
   ],
   "coverage": {
@@ -43,7 +63,21 @@
     "boundedPreservedDiscussionRows": 49,
     "afterCloseDiscussionContextRows": 8,
     "boundedPreservedSubmissionGapRows": 3,
-    "freshBrowserCensusCompleted": false
+    "freshBrowserCensusCompleted": false,
+    "knownWorksheetRows": 34,
+    "knownWorksheetRowsDated": 30,
+    "remainingUndatedWorksheetRows": 4,
+    "knownWrEntriesDateAndDurationReviewed": 9,
+    "currentWindowWrEntries": 9,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 52,
+    "derivedFinishFramesRevalidated": 1,
+    "preservedProofAndSourceObjectsVerified": 61,
+    "carriedProofRepresentationsRevalidated": 2,
+    "sourceAuditObjectsRevalidated": 4,
+    "publicationMetadataObjectsRevalidated": 2,
+    "originalMoviesRevalidated": 9,
+    "knownWrIdsAdded": 0
   },
   "evidence": [
     "archive/ninja2024-original-preservation-and-source-review-20261015.json",
@@ -53,32 +87,49 @@
     "archive/ninja2024-production-build-and-rendered-evidence-link-check-20261015.json",
     "archive/ninja2025-carried-wario-video-result-review-20261015.json",
     "archive/ninja2024-later-result-review-description-reconciliation-20261016.json",
-    "archive/ninja2024-later-review-core-live-verification-20261016.json"
+    "archive/ninja2024-later-review-core-live-verification-20261016.json",
+    "artifacts/ninja2024-source-date-reconciliation-20261018.json",
+    "artifacts/ninja2024-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/ninja2024-all-supported-worksheet-and-wr-source-clock-verification-20261018.json",
+    "artifacts/ninja2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/ninja2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/ninja2024-nine-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/ninja2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/ninja2024-kuri7532-recovered-source-and-machine-result-review-20261018.json",
+    "artifacts/ninja2024-kuri7532-recovery-r2-integrity-20261018.json",
+    "https://media.mktwrs.com/assets/proof/ninja2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Repost receipts and video sharing events retain their independent clocks.",
   "remainingLimitations": [
-    "Original image and movie assessments retained by matching SHA256; no fresh visual certification.",
-    "Six historical image identities and one partial recording identity remain anonymous without an invented account merge.",
-    "Three opening strategy movies and one REMON single-lap movie establish no completed whole-race result.",
-    "Three lap-boundary images establish no completed total.",
-    "One partial recording shows 1:15.53 with race start and first lap absent.",
-    "kuRi 1:13.83 prior countdown/finish review supersedes older starts-at-2.79 label; continuity not freshly certified.",
-    "One pixel-identical image repost is preserved without a second performance.",
-    "kuRi 1:15.32 survives as a linked browser-reviewed movie reference, not a preserved file.",
-    "No fresh Discord census certification; preserved Codex-browser captures used.",
-    "Final Wario Shipyard 1:33.36 has no available movie; N’s carried 1:33.45 has preserved footage whose finish was verified in a later review; uninterrupted race coverage remains unverified.",
-    "Preserved channel sources do not prove exhaustive worldwide history."
+    "30 of34 worksheet entries have supported single dates. MB3 two entries, realsky1:14.70 and k4w1:34.27 retain attribution/date gaps.",
+    "Nine current WR entries and two carried standings have exact documented endpoints and independently recomputed playable durations. No new WR IDs or profile credits.",
+    "Kuri1:15.32 recovered video was published2024-03-21T04:55:55Z, earlier than its Discord submission04:57:59.138Z; archive and duration clocks use the earlier publication.",
+    "Kuri1:13.83 retains original Discord posting2024-03-22T14:06:39.117Z. YouTube publication2024-04-02T15:15:13Z remains a separate later clock.",
+    "All52 original images, one new result frame, two carried proof representations, four source audits and two publication metadata objects pass full GET/SHA/bytes/MIME/directRange206. All nine movies fully decode.",
+    "Three result-reviewed recordings, one uploader-reported recording and five partial/strategy/singlelap movies remain distinct. No new uninterrupted continuity claim.",
+    "Wario Shipyard archived WR1:33.36 and available result recording1:33.45 remain distinct. Fireball1:15.60 result is not verified from its uploader title.",
+    "Neko worksheet1:15.48 and Keron1:19.53 are linked only through their proven original Discord account IDs. Kawa and k4w distinct accounts are not merged.",
+    "NhSpeedy1:14.46 YouTube publicationApril16 remains outside this tour; no retroactive Ninja recording claim.",
+    "Global2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 15,
-    "fullGeneratedRowsMatched": 556,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsReadable": 79,
-    "livePublicationAudit": "archive/ninja2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 61,
+    "originalImageUrlsVerified": 52,
+    "derivedFinishFramesVerified": 1,
+    "nineMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all30SupportedWorksheetSourceClocksVerified": true,
+    "allNineWrOriginalSourcePostingClocksFreshlyVerified": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/ninja2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 14,
+    "freshBoundedDiscordCensusClaimed": false
   },
   "nextTourId": "tour-119",
-  "latestLivePublicationAudit": "archive/ninja2024-exact-live-publication-and-full-field-check-20261015.json",
   "laterRecordingAssessmentCorrection": {
     "reviewedAt": "2026-10-16",
     "recording": "1:33.45",
@@ -91,7 +142,6 @@
     "livePublicationAudit": "archive/ninja2024-later-review-core-live-verification-20261016.json",
     "sourceCommit": "72c0a7ade7d6bf7be85d40f861ce34497033a8ce"
   },
-  "latestPublicationAudit": "archive/ninja2024-later-review-core-live-verification-20261016.json",
   "laterNhspeedy7446Preservation": {
     "preservationAudit": "archive/nhspeedy-wii-rainbow-road-7446-original-and-source-clocks-20261016.json",
     "r2ObjectsVerified": 5,
@@ -103,5 +153,108 @@
     "publicationPending": false,
     "livePublicationVerified": true,
     "coreLiveVerification": "archive/nhspeedy7446-core-live-verification-20261016.json"
-  }
+  },
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 48,
+      "currentImagePerformances": 47,
+      "lateCurrentImagePerformances": 1,
+      "lapOnlyImages": 3,
+      "partialMoviePerformances": 1,
+      "currentMoviesPreserved": 6,
+      "carriedMoviesPreserved": 2,
+      "r2FilesVerified": 60,
+      "existingWrIdsRetained": 44,
+      "newWrIds": 0,
+      "savedDiscussionRows": 41,
+      "boundedPreservedDiscussionRows": 49,
+      "afterCloseDiscussionContextRows": 8,
+      "boundedPreservedSubmissionGapRows": 3,
+      "freshBrowserCensusCompleted": false,
+      "knownWorksheetRows": 34,
+      "knownWorksheetRowsDated": 30,
+      "remainingUndatedWorksheetRows": 4,
+      "knownWrEntriesDateAndDurationReviewed": 9,
+      "currentWindowWrEntries": 9,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 52,
+      "derivedFinishFramesRevalidated": 1,
+      "preservedProofAndSourceObjectsVerified": 61,
+      "carriedProofRepresentationsRevalidated": 2,
+      "sourceAuditObjectsRevalidated": 4,
+      "publicationMetadataObjectsRevalidated": 2,
+      "originalMoviesRevalidated": 9,
+      "knownWrIdsAdded": 0
+    },
+    "validation": {
+      "focusedTestsPassed": 15,
+      "fullGeneratedRowsMatched": 556,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsReadable": 79,
+      "livePublicationAudit": "archive/ninja2024-exact-live-publication-and-full-field-check-20261015.json"
+    },
+    "remainingLimitations": [
+      "Original image and movie assessments retained by matching SHA256; no fresh visual certification.",
+      "Six historical image identities and one partial recording identity remain anonymous without an invented account merge.",
+      "Three opening strategy movies and one REMON single-lap movie establish no completed whole-race result.",
+      "Three lap-boundary images establish no completed total.",
+      "One partial recording shows 1:15.53 with race start and first lap absent.",
+      "kuRi 1:13.83 prior countdown/finish review supersedes older starts-at-2.79 label; continuity not freshly certified.",
+      "One pixel-identical image repost is preserved without a second performance.",
+      "kuRi 1:15.32 survives as a linked browser-reviewed movie reference, not a preserved file.",
+      "No fresh Discord census certification; preserved Codex-browser captures used.",
+      "Final Wario Shipyard 1:33.36 has no available movie; N\u2019s carried 1:33.45 has preserved footage whose finish was verified in a later review; uninterrupted race coverage remains unverified.",
+      "Preserved channel sources do not prove exhaustive worldwide history."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/ninja2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-BOF13",
+      "courseId": "wii-rainbow-road",
+      "playerId": "mb3",
+      "time": "1:14.56",
+      "reason": "No surviving source establishes both worksheet attribution and supported date. Matching anonymous or differently attributed result retained separately without an account merge or fabricated date."
+    },
+    {
+      "id": "sheet-BOF14",
+      "courseId": "wii-rainbow-road",
+      "playerId": "realsky",
+      "time": "1:14.70",
+      "reason": "No surviving source establishes both worksheet attribution and supported date. Matching anonymous or differently attributed result retained separately without an account merge or fabricated date."
+    },
+    {
+      "id": "sheet-BON11",
+      "courseId": "3ds-wario-shipyard",
+      "playerId": "k4w",
+      "time": "1:34.27",
+      "reason": "No surviving source establishes both worksheet attribution and supported date. Matching anonymous or differently attributed result retained separately without an account merge or fabricated date."
+    },
+    {
+      "id": "sheet-BON14",
+      "courseId": "3ds-wario-shipyard",
+      "playerId": "mb3",
+      "time": "1:33.67",
+      "reason": "No surviving source establishes both worksheet attribution and supported date. Matching anonymous or differently attributed result retained separately without an account merge or fabricated date."
+    },
+    {
+      "id": "wario-final-wr-movie",
+      "reason": "Wario Shipyard1:33.36 has no available movie; preserved N1:33.45 result footage is separately available."
+    },
+    {
+      "id": "fireball-carried-video-result",
+      "reason": "Fireball1:15.60 movie preserved and decoded. Uploader title alone does not verify its race result; videoVerified remains false."
+    },
+    {
+      "id": "partial-and-strategy-footage",
+      "reason": "Three opening strategy movies, Remon43.19 singlelap and partial1:15.53 retained without completed full-run claims."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Documented public source dates cannot certify private achievement dates or lost/unsubmitted worldwide history. Targeted original post checks are not an exhaustive census."
+    }
+  ]
 }
