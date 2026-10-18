@@ -3,7 +3,7 @@
   "tour": "New Year's Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Captured surviving sources reconciled with good-enough documentary proof; exhaustive worldwide history is not certified.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -17,14 +17,34 @@
       "archivedWr": "1:35.65",
       "fastestDocumentedRecording": "1:35.77",
       "reportedAvailableRecording": null,
-      "supportingDisplayed": 9
+      "supportingDisplayed": 9,
+      "carriedStanding": {
+        "id": "1062874009567502386",
+        "playerId": "nekozuki",
+        "time": "1:35.85",
+        "documentedAt": "2023-01-11T06:29:53.050Z",
+        "durationDays": 2.0872837962962962,
+        "durationEnd": "2023-12-29T08:05:41.320Z"
+      },
+      "worksheetRowsDated": 10,
+      "recordingReviewBasis": "Prior result/lap movie review retained by exact original hash; no new uninterrupted continuity certification."
     },
     {
       "courseId": "3ds-piranha-plant-slide",
       "archivedWr": "1:28.03",
       "fastestDocumentedRecording": "1:28.03",
       "reportedAvailableRecording": null,
-      "supportingDisplayed": 14
+      "supportingDisplayed": 14,
+      "carriedStanding": {
+        "id": "1062872650449436742",
+        "playerId": "wins",
+        "time": "1:28.43",
+        "documentedAt": "2023-01-01T00:25:25.180Z",
+        "durationDays": 16.069459502314814,
+        "durationEnd": "2024-01-02T02:05:26.481Z"
+      },
+      "worksheetRowsDated": 15,
+      "recordingReviewBasis": "Prior result/lap movie review retained by exact original hash; no new uninterrupted continuity certification."
     }
   ],
   "coverage": {
@@ -42,7 +62,19 @@
     "existingWrIdsRetained": 23,
     "duplicateReceiptsResolved": 4,
     "newLateReceiptDocumentedResults": 3,
-    "imageOnlyClosingLeads": 3
+    "imageOnlyClosingLeads": 3,
+    "knownWorksheetRows": 25,
+    "knownWorksheetRowsDated": 25,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 9,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 46,
+    "resizedSourceRepresentationsRevalidated": 1,
+    "preservedProofAndSourceObjectsVerified": 52,
+    "carriedProofRepresentationsRevalidated": 2,
+    "originalMoviesRevalidated": 8,
+    "knownWrIdsAdded": 0,
+    "earlierVideoPublicationRowsCorrected": 7
   },
   "evidence": [
     "archive/newyear2024-original-preservation-and-source-review-20261015.json",
@@ -50,25 +82,109 @@
     "archive/newyear2024-posted-results-and-video-receipt-reconciliation-20261015.json",
     "archive/newyear2024-closing-tweet-reference-review-20261015.json",
     "archive/newyear2024-full-course-generation-and-source-field-preservation-20261015.json",
-    "archive/newyear2024-production-build-and-rendered-evidence-link-check-20261015.json"
+    "archive/newyear2024-production-build-and-rendered-evidence-link-check-20261015.json",
+    "artifacts/newyear2024-source-date-reconciliation-20261018.json",
+    "artifacts/newyear2024-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/newyear2024-all-worksheet-and-wr-source-clock-verification-20261018.json",
+    "artifacts/newyear2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/newyear2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/newyear2024-eight-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/newyear2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/newyear2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless evidence establishes otherwise. Video publication, submission receipt and human sharing clocks remain distinct. Late posts retain actual dates.",
   "remainingLimitations": [
-    "No fresh uninterrupted-race visual certification; previous hash-matching image/lap/result assessments retained.",
-    "Three closing image-only leads have no invented course, time or WR profile.",
-    "Unavailable closing tweet does not establish an available 1:35.65 recording.",
-    "Two source identities retain existing associations without a claimed account merge.",
-    "Five late Holiday source images preserved outside this tour publication.",
-    "Bounded surviving sources do not prove exhaustive worldwide history."
+    "All25 worksheet entries now have supported dates, including actual late postings and Tokumeiy101.41 onJanuary17. Filename dates are not private race dates.",
+    "Nine current WRs and two carried WRs have exact documented endpoints and playable durations. No new WR IDs or profile credits.",
+    "Piranha88.03 movie publication2024-01-06T05:23:36Z precedes its05:31:02.571 submission receipt. The earlier publication supplies the archive date; receipt and sharing clocks remain separate. Prior88.18 playable duration0.8050444212962963 and88.03duration32.02527777777778 independently recomputed.",
+    "All46 original images, one qualified resized source, two carried proof representations and three source audits pass full GET/SHA/bytes/MIME/directRange206. All eight movies fully decode.",
+    "Five current completed-result movies and one carried sampled-result movie remain distinct from two single-lap clips. Prior visual assessments retained by hashes; no fresh full-frame continuity audit.",
+    "Koopa archived WR95.65 and available recording95.77 remain distinct; best video can be a non-WR. Unavailable references remain source gaps.",
+    "Global2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 17,
-    "fullGeneratedRowsMatched": 269,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsReadable": 62,
-    "livePublicationAudit": "archive/newyear2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 52,
+    "originalImageUrlsVerified": 46,
+    "eightMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all25WorksheetSourceClocksVerified": true,
+    "currentFinalAndCarriedSourcePostingClocksFreshlyVerified": true,
+    "fiveMoviePublicationMetadataHashesVerified": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/newyear2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 14
   },
   "nextTourId": "tour-113",
-  "latestLivePublicationAudit": "archive/newyear2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedSubmissionImages": 34,
+      "discussionImages": 6,
+      "freshClosingImages": 6,
+      "lateHolidaySourceOnlyImages": 5,
+      "completedMovies": 5,
+      "lapClips": 2,
+      "r2OriginalFilesVerified": 53,
+      "freshSubmissionQueryRows": 64,
+      "freshDiscussionQueryRows": 27,
+      "currentCanonicalPerformances": 32,
+      "newWrIds": 0,
+      "existingWrIdsRetained": 23,
+      "duplicateReceiptsResolved": 4,
+      "newLateReceiptDocumentedResults": 3,
+      "imageOnlyClosingLeads": 3,
+      "knownWorksheetRows": 25,
+      "knownWorksheetRowsDated": 25,
+      "remainingUndatedWorksheetRows": 0,
+      "knownWrEntriesDateAndDurationReviewed": 9,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 46,
+      "resizedSourceRepresentationsRevalidated": 1,
+      "preservedProofAndSourceObjectsVerified": 52,
+      "carriedProofRepresentationsRevalidated": 2,
+      "originalMoviesRevalidated": 8,
+      "knownWrIdsAdded": 0,
+      "earlierVideoPublicationRowsCorrected": 7
+    },
+    "validation": {
+      "focusedTestsPassed": 17,
+      "fullGeneratedRowsMatched": 269,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsReadable": 62,
+      "livePublicationAudit": "archive/newyear2024-exact-live-publication-and-full-field-check-20261015.json"
+    },
+    "remainingLimitations": [
+      "No fresh uninterrupted-race visual certification; previous hash-matching image/lap/result assessments retained.",
+      "Three closing image-only leads have no invented course, time or WR profile.",
+      "Unavailable closing tweet does not establish an available 1:35.65 recording.",
+      "Two source identities retain existing associations without a claimed account merge.",
+      "Five late Holiday source images preserved outside this tour publication.",
+      "Bounded surviving sources do not prove exhaustive worldwide history."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/newyear2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "final-koopa-wr-movie",
+      "reason": "No surviving available95.65 movie; fastest supported available footage95.77 remains separately linked. Carried95.85 also has no known movie."
+    },
+    {
+      "id": "closing-image-only-leads",
+      "reason": "Three closing original images remain preserved without a new certified course/result mapping; no invented WR credit."
+    },
+    {
+      "id": "late-koopa-original-image",
+      "reason": "Tokumeiy101.41 posting dateJanuary17 supported. Available screenshot is resized DiscordWebP; original attachment bytes unavailable."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Archive dates use documented submission or earlier verified publication; private race dates and lost/unsubmitted worldwide history cannot be certified."
+    }
+  ]
 }
