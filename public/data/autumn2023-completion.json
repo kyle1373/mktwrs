@@ -2,7 +2,7 @@
   "tourId": "tour-108",
   "tour": "Autumn Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized practical surviving proofs. Posting date is submission/archive date unless evidence establishes another date.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -24,11 +24,31 @@
           "playerId": "kuri",
           "time": "1:13.41",
           "postedAt": "2023-11-03T01:57:28.181Z",
-          "archiveDate": "2023-11-03T01:57:28.181Z"
+          "archiveDate": "2023-11-03T01:57:00.000Z",
+          "documentedPlayableDays": 29.009040914351854,
+          "durationEnd": "2025-11-01T02:10:01.135Z"
         }
       ],
       "fastestDocumentedAvailableRecording": "1:13.41",
-      "firstDayFinalFastestRecovered": "1:13.54"
+      "firstDayFinalFastestRecovered": "1:13.54",
+      "carriedStanding": {
+        "id": "1042968893146284035",
+        "playerId": "wins",
+        "time": "1:13.46",
+        "documentedAt": "2022-11-02T23:03:29.889Z",
+        "durationDays": 15.120487395833333,
+        "durationEnd": "2023-11-03T01:57:00.000Z"
+      },
+      "finalStandingDurations": [
+        {
+          "id": "1178887189124370537",
+          "playerId": "kuri",
+          "time": "1:13.41",
+          "documentedAt": "2023-11-03T01:57:00.000Z",
+          "durationDays": 29.009040914351854,
+          "durationEnd": "2025-11-01T02:10:01.135Z"
+        }
+      ]
     },
     {
       "id": "los-angeles-laps-3",
@@ -38,7 +58,25 @@
       ],
       "datedTourHistory": [],
       "fastestDocumentedAvailableRecording": "1:18.78",
-      "firstDayFinalFastestRecovered": null
+      "firstDayFinalFastestRecovered": null,
+      "carriedStanding": {
+        "id": "1042970214414950400",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "time": "1:18.78",
+        "documentedAt": "2022-11-11T17:20:02.780Z",
+        "durationDays": 33.81647997685185,
+        "durationEnd": "2025-10-30T12:55:46.650Z"
+      },
+      "finalStandingDurations": [
+        {
+          "id": "1042970214414950400",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:18.78",
+          "documentedAt": "2022-11-11T17:20:02.780Z",
+          "durationDays": 33.81647997685185,
+          "durationEnd": "2025-10-30T12:55:46.650Z"
+        }
+      ]
     }
   ],
   "coverage": {
@@ -70,7 +108,17 @@
       "los-angeles-laps-3": 16
     },
     "renderedR2MediaLinksPassed": 113,
-    "focusedTestsPassed": 24
+    "focusedTestsPassed": 24,
+    "knownWorksheetRows": 44,
+    "knownWorksheetRowsDated": 44,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 1,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "preservedProofAndSourceObjectsVerified": 51,
+    "originalMoviesRevalidated": 5,
+    "originalImageEntriesRevalidated": 48,
+    "uniqueOriginalImageHashes": 47,
+    "earlierPublicationRowsCorrected": 5
   },
   "remainingLimitations": [
     "Existing kuRi73.41 WR retained and dated to earliest original Nov3 post; cancelled earliest receipt and byte-identical corrected repost do not erase source publication.",
@@ -82,7 +130,11 @@
     "Previous bests and device dates are not invented submissions; worldwide exhaustive capture and fresh uninterrupted-race certification remain unproved.",
     "All48 indexed originals and3 current-tour movies preserved and R2-verified;2 images are late Halloween posts and1 is a byte-identical repost.",
     "Two previously unavailable original uploads recovered and freshly checked; the earlier Simon proxy remains separately labelled.",
-    "Two prior carried WR movies preserved and R2-verified."
+    "Two prior carried WR movies preserved and R2-verified.",
+    "All44worksheet entries have supported original dates:41matching preserved source clocks and3original movie publication clocks. Five matching source/record rows use earlier original movie publication, while human posting clocks stay preserved.",
+    "One new WR and two carried standings have exact playable durations independently matched to course appearance windows and checked lap sums. The two opening kuRi runs remain slower than carried Wins73.46; no day-one WR credit.",
+    "All48original image URLs, including the identical corrected kuRi repost, and3dated-source audit objects pass full GET/SHA/bytes/MIME and direct Range206. Five completed-result movies fully decode. Prior hash-matched visual assessments retained; no fresh uninterrupted-race certification.",
+    "The recurring2022wiki title is labelled Autumn Tour(2023) for this November1–15occurrence. All140othercourse files and player profiles remain unchanged. Global2019–2026archive unfinished."
   ],
   "evidence": [
     "archive/autumn2023-complete-original-preservation-and-source-audit-20261014.json",
@@ -92,13 +144,49 @@
     "archive/autumn2023-discussion-context-review-20261005.json",
     "archive/autumn2023-production-build-and-complete-course-fidelity-20261014.json",
     "archive/autumn2023-surviving-source-review-decision-20261014.json",
-    "archive/autumn2023-live-publication-verification-20261014.json"
+    "archive/autumn2023-live-publication-verification-20261014.json",
+    "artifacts/autumn2023-source-date-reconciliation-20261018.json",
+    "artifacts/autumn2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/autumn2023-original-source-clock-and-input-disposition-review-20261018.json",
+    "artifacts/autumn2023-all-worksheet-original-source-clock-verification-20261018.json",
+    "artifacts/autumn2023-new-and-carried-original-source-clock-browser-verification-20261018.json",
+    "artifacts/autumn2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/autumn2023-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/autumn2023-five-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/autumn2023-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/autumn2023-live-publication-verification-20261018.json"
   ],
-  "productionBuildVerified": true,
-  "productionBuildEvidence": "archive/autumn2023-production-build-and-complete-course-fidelity-20261014.json",
-  "livePublicationVerified": true,
   "nextTourId": "tour-109",
-  "latestLiveEvidence": "archive/autumn2023-live-publication-verification-20261014.json",
-  "verifiedDeploymentSourceCommit": "5e526607271cdfa5e88b953a182a3133b1fbcd0e",
-  "liveVerificationDate": "2026-10-14"
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/autumn2023-live-publication-verification-20261018.json",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownAndCarriedWrImageLinksReadable": 3,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 51,
+    "all48OriginalImageUrlsIncludingIdenticalRepostVerified": true,
+    "fivePreservedMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all44WorksheetSourceClocksVerified": true,
+    "carriedOriginalPostingClocksFreshlyVerified": true,
+    "productionBuildPassed": true,
+    "generatedCalendarOccurrenceLabelCorrect": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/autumn2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
+  },
+  "remainingSourceGaps": [
+    {
+      "id": "la3-opening-day-results",
+      "reason": "No LA3opening-day result recovered. Later2023results are slower than carried Sucha78.78 WR."
+    },
+    {
+      "id": "undated-previous-bests",
+      "reason": "Previous-best observations and device dates remain separate from independently dated completed submissions."
+    },
+    {
+      "id": "earlier-video-share-clocks",
+      "reason": "Original movie publication clocks are preserved; edited receipts do not establish missing earlier human share clocks."
+    }
+  ]
 }
