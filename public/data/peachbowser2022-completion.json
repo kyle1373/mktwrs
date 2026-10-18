@@ -2,7 +2,7 @@
   "tourId": "tour-84",
   "tour": "Peach vs. Bowser Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -42,7 +42,9 @@
       "recordingPublishedAt": "2022-11-30T08:07:49Z",
       "finalWrFootageRecovered": false,
       "erroneous12653InputExcluded": true,
-      "freshVisualReview": false
+      "freshVisualReview": true,
+      "recordingScope": "sampled-start-lap-finish",
+      "recordingFullFrameContinuityAuditPerformed": false
     },
     {
       "id": "n64-royal-raceway",
@@ -58,7 +60,9 @@
       "priorRecordingPlayerId": "superfx",
       "priorRecordingRecoveryPublishedAt": "2026-10-02T19:56:43Z",
       "finalWrFootageRecovered": false,
-      "freshVisualReview": false
+      "freshVisualReview": true,
+      "recordingScope": "sampled-start-lap-finish",
+      "recordingFullFrameContinuityAuditPerformed": false
     }
   ],
   "coverage": {
@@ -73,42 +77,40 @@
     "materialFieldDifferences": 0,
     "removedErroneousCandidates": 1,
     "removedSlowerPostOpeningCandidates": 4,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "knownWorksheetRows": 67,
+    "datedWorksheetRows": 64,
+    "newlyDatedWorksheetRows": 30,
+    "remainingUndatedWorksheetRows": 3,
+    "knownWrEntries": 4,
+    "preservedVideosRevalidated": 3,
+    "newPublicR2ObjectsIntegrityChecked": 33,
+    "newOriginalRetroImagesVisuallyReviewed": 3,
+    "newOriginalVideosSampledVisuallyReviewed": 2
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "3ds-bowser-s-castle-r": 35,
-      "ds-peach-gardens": 59,
-      "n64-royal-raceway": 19
-    },
-    "renderedPreservedEvidenceLinksReadable": 59,
+    "dataBuildPassed": true,
+    "productionBuildPassed": true,
     "wrEvidenceEntries": 4,
-    "failedLinks": 0,
-    "productionBuildPages": 891,
-    "focusedVideoAndOpeningTestsPassed": 15,
-    "openingPublicResultOnly": "N1:26.87",
-    "completionLabelLiveVerified": true,
-    "livePreservedEvidenceLinksReadable": 59,
-    "liveSupportingEntries": {
-      "3ds-bowser-s-castle-r": 35,
-      "ds-peach-gardens": 59,
-      "n64-royal-raceway": 19
+    "livePublicationPending": true,
+    "scopeVerified": {
+      "changedCourses": [
+        "3ds-bowser-s-castle-r",
+        "ds-peach-gardens",
+        "n64-royal-raceway"
+      ],
+      "otherCoursesUnchanged": 139,
+      "knownWrRecordsAndDurationsUnchanged": true,
+      "newSupportingResultsHaveZeroWrCredit": true
     },
-    "liveWrEvidenceEntries": 4
+    "productionBuildPages": 892
   },
   "remainingLimitations": [
-    "N1:26.87 is the fastest recovered opening-day Peach Gardens result; only this result/ties are public. Worldwide opening completeness is unproven.",
-    "Troy1:26.60 is the documented final Peach Gardens leader. RawHahahha12653 input is erroneous: preserved image and December6 standings give12853; rawsubmission retained and WRcandidate removed.",
-    "Four post-opening Peach candidates are slower than already documented leaders; rawsubmissions retained without WRpromotion.",
-    "Sucha1:26.81 is observed in December3 standings afterTroy12660 submission; original achievement and submission dates unresolved, no WRinterval inferred.",
-    "BowserCastleR Nu119839 from April19 and RoyalRaceway Nu119397 from November2020 were carried in. Contemporaneous standings corroborate leaders; no newWR claimed.",
-    "Sucha Peach12735 and Royal9423 original videos preserved onR2. Source result and uploader titles corroborate stated times; no fresh visual or uninterrupted continuity certification.",
-    "Nu11 Royal9404 original video unavailable; no deleted source chase. Prior-reviewed SuperFX9487 footage uses2026reupload publication separately from2020submission.",
-    "kuRi historical/current account continuity unproven; source-qualified results retained.",
-    "Retro ARL40 lacks matching2022original;2023result date not transferred. Fireball ARL41 later third-party share datedDecember15, beyondrollover, not original submission.",
-    "December14Peach and December17Royal snapshots occur afterrollover; observations qualify prior results without invented race dates.",
-    "64 mixed preserved originals hash-checked; only57references match active3courses/exactwindow. Adjacent Animal/Holiday courses excluded.",
-    "Prior image/video reviews retained; hashes and decodes prove preservation, not fresh pixel certification."
+    "Three worksheet-only source gaps remain: Dome1909 BowserR1:39.42, Sucha Royal1:35.47 and Dome1909 Royal1:35.51. No date or identity is invented.",
+    "Sucha1:26.81, Hahahha1:28.53 and kuRi1:27.40 use dated leaderboard observations; original achievement/submission clocks remain unproven.",
+    "Late Retro, Fireball, Nekozuki and Mish posts retain actual posting/publication clocks after tour rollover.",
+    "Available Sucha recordings are supporting non-WR footage. Start, lap and finish samples were visually reviewed; no full-frame continuity audit is claimed.",
+    "Final Peach1:26.60 and Royal1:33.97 footage remains unavailable. Worldwide unsubmitted or lost history is not proven complete."
   ],
   "evidence": [
     "archive/peachbowser2022-practical-source-disposition-index-20261013.json",
@@ -122,8 +124,90 @@
     "archive/peachbowser2022-preserved-proof-and-video-build-link-audit-20261013.json",
     "archive/peachbowser2022-completion-label-build-check-20261013.json",
     "archive/peachbowser2022-completion-label-live-check-20261013.json",
-    "archive/peachbowser2022-rendered-proof-and-video-live-link-audit-20261013.json"
+    "archive/peachbowser2022-rendered-proof-and-video-live-link-audit-20261013.json",
+    "artifacts/peachbowser2022-source-date-reconciliation-20261018.json",
+    "artifacts/peachbowser2022-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/peachbowser2022-three-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/peachbowser2022-two-original-video-result-and-lap-review-20261018.json",
+    "artifacts/peachbowser2022-retro-original-account-search-20261018.json",
+    "artifacts/peachbowser2022-hahahha12853-observed-leaderboard-20261018.json"
   ],
   "nextTourId": "tour-85",
-  "sourceCommit": "fe6aab7f684f9751d8deca4ae949e882a0e45897"
+  "sourceCommit": "fe6aab7f684f9751d8deca4ae949e882a0e45897",
+  "knownWrReviewComplete": true,
+  "priorPracticalReview": {
+    "completedAt": "2026-10-13",
+    "coverage": {
+      "preservedImageReferencesHashChecked": 64,
+      "mainSourceActiveCourseReferences": 57,
+      "hashFailures": 0,
+      "newRecordingsPreservedOnR2": 2,
+      "newPublicR2ProofObjectsByteVerified": 13,
+      "existingBowserVideoByteVerified": true,
+      "openingDaySubmissionRows": 15,
+      "generatedReviewedRowsCompared": 138,
+      "materialFieldDifferences": 0,
+      "removedErroneousCandidates": 1,
+      "removedSlowerPostOpeningCandidates": 4,
+      "rawSubmissionsRetained": true
+    },
+    "validation": {
+      "renderedSupportingEntries": {
+        "3ds-bowser-s-castle-r": 35,
+        "ds-peach-gardens": 59,
+        "n64-royal-raceway": 19
+      },
+      "renderedPreservedEvidenceLinksReadable": 59,
+      "wrEvidenceEntries": 4,
+      "failedLinks": 0,
+      "productionBuildPages": 891,
+      "focusedVideoAndOpeningTestsPassed": 15,
+      "openingPublicResultOnly": "N1:26.87",
+      "completionLabelLiveVerified": true,
+      "livePreservedEvidenceLinksReadable": 59,
+      "liveSupportingEntries": {
+        "3ds-bowser-s-castle-r": 35,
+        "ds-peach-gardens": 59,
+        "n64-royal-raceway": 19
+      },
+      "liveWrEvidenceEntries": 4
+    },
+    "remainingLimitations": [
+      "N1:26.87 is the fastest recovered opening-day Peach Gardens result; only this result/ties are public. Worldwide opening completeness is unproven.",
+      "Troy1:26.60 is the documented final Peach Gardens leader. RawHahahha12653 input is erroneous: preserved image and December6 standings give12853; rawsubmission retained and WRcandidate removed.",
+      "Four post-opening Peach candidates are slower than already documented leaders; rawsubmissions retained without WRpromotion.",
+      "Sucha1:26.81 is observed in December3 standings afterTroy12660 submission; original achievement and submission dates unresolved, no WRinterval inferred.",
+      "BowserCastleR Nu119839 from April19 and RoyalRaceway Nu119397 from November2020 were carried in. Contemporaneous standings corroborate leaders; no newWR claimed.",
+      "Sucha Peach12735 and Royal9423 original videos preserved onR2. Source result and uploader titles corroborate stated times; no fresh visual or uninterrupted continuity certification.",
+      "Nu11 Royal9404 original video unavailable; no deleted source chase. Prior-reviewed SuperFX9487 footage uses2026reupload publication separately from2020submission.",
+      "kuRi historical/current account continuity unproven; source-qualified results retained.",
+      "Retro ARL40 lacks matching2022original;2023result date not transferred. Fireball ARL41 later third-party share datedDecember15, beyondrollover, not original submission.",
+      "December14Peach and December17Royal snapshots occur afterrollover; observations qualify prior results without invented race dates.",
+      "64 mixed preserved originals hash-checked; only57references match active3courses/exactwindow. Adjacent Animal/Holiday courses excluded.",
+      "Prior image/video reviews retained; hashes and decodes prove preservation, not fresh pixel certification."
+    ]
+  },
+  "remainingSourceGaps": [
+    {
+      "courseId": "3ds-bowser-s-castle-r",
+      "id": "sheet-ASB28",
+      "playerId": "dome-1909",
+      "time": "1:39.42",
+      "reason": "Original dated result or named exact-time observation not recovered; do not borrow Deleted User or different-tour dates."
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-ART12",
+      "playerId": "player-e38199e38184e3819df09f90ba",
+      "time": "1:35.47",
+      "reason": "Original dated result or named exact-time observation not recovered; do not borrow Deleted User or different-tour dates."
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-ART24",
+      "playerId": "dome-1909",
+      "time": "1:35.51",
+      "reason": "Original dated result or named exact-time observation not recovered; do not borrow Deleted User or different-tour dates."
+    }
+  ]
 }
