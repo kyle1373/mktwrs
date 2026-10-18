@@ -2,7 +2,7 @@
   "tourId": "tour-95",
   "tour": "Bowser Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -48,17 +48,19 @@
       ],
       "openingFinalFastest": "DIT 1:11.12",
       "fastestRecoveredAvailableRecording": "1:10.86",
-      "recordingMatchStatus": "visually-verified-completed-result",
+      "recordingMatchStatus": "prior-completed-result-assessment-retained-matching-hash",
       "recordingPublishedAt": null,
       "recordingSharedAt": "2023-05-11T11:21:11.198Z",
       "recordingContainerCreatedAt": "2023-05-11T11:20:58.000000Z",
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/bowser2023-675cc4a5e36c35e119ca.mp4",
       "priorSampledVideoReviewRetained": false,
-      "freshVisualReview": true,
+      "freshVisualReview": false,
       "recordingOriginalBackupUrl": "https://media.mktwrs.com/assets/video/bowser2023-71d5892993478c27bd0a.mov",
       "recordingPlaybackKind": "lossless-stream-remux-mp4",
       "recordingReviewAudit": "archive/bowser2025-original-preservation-and-source-review-20261015.json",
-      "startToFinishContinuityVerified": false
+      "startToFinishContinuityVerified": false,
+      "recordingResultVerified": true,
+      "recordingQualification": "N1:10.86 result footage remains available and is not a WR entry. Its prior completed-result assessment is retained by hash; start-to-finish continuity remains unverified and the clip is kept separate from full-run comparison."
     },
     {
       "id": "n64-kalimari-desert-2r",
@@ -76,15 +78,17 @@
       "recordingContainerCreatedAt": null,
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/bowserdk2021-kalimari-10430-ecb7a9eb5b46.mp4",
       "priorSampledVideoReviewRetained": true,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "carriedWrDurationDays": 74.40203797453704,
+      "carriedWrDurationEnd": "2026-09-30T06:00:00.000Z"
     }
   ],
   "coverage": {
     "attachmentCensusReconciled": 73,
     "preservedOriginalImageHashesChecked": 64,
     "newOriginalImagesRecovered": 13,
-    "allOriginalImageObjectsPreservedOnR2": 77,
-    "imageOnlyTailLeadsWithUnreviewedTotals": 2,
+    "allOriginalImageObjectsPreservedOnR2": 80,
+    "imageOnlyTailLeadsWithUnreviewedTotals": 0,
     "unclassifiedDiscussionImagesPreserved": 4,
     "freshAcceptedReceiptOriginalRecoveries": 6,
     "writtenDiscussionRowsReviewed": 72,
@@ -97,39 +101,45 @@
     "generatedReviewedRowsCompared": 105,
     "materialFieldDifferences": 0,
     "removedReconciledRawCandidates": 6,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "knownWorksheetRows": 57,
+    "knownWorksheetRowsDated": 57,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrAndTieEntriesDateAndDurationReviewed": 5,
+    "carriedWrEntriesDateAndDurationReviewed": 1,
+    "originalVideosRevalidatedOnR2": 4,
+    "playbackCopiesRevalidatedOnR2": 2,
+    "newR2ProofAndSourceObjectsVerified": 91,
+    "machineReadingMatchedWorksheetObservations": 2,
+    "latePostedOriginalImagesRecovered": 3
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "gba-bowser-s-castle-4": 60,
-      "n64-kalimari-desert-2r": 12
-    },
-    "renderedPreservedEvidenceLinksReadable": 141,
-    "wrAndCarriedInEvidenceEntries": 6,
-    "failedLinks": 0,
-    "productionBuildPages": 892,
-    "focusedVideoAndOpeningTestsPassed": 15,
-    "openingFinalFastestTieAndRecordingSelectionsPassed": true,
-    "completionLabelLiveVerified": true,
-    "browserMp4PlaybackDocumentsOpened": 2,
-    "completionLabelBuildVerified": true,
-    "livePreservedEvidenceLinksReadable": 141,
-    "liveSupportingEntries": {
-      "gba-bowser-s-castle-4": 60,
-      "n64-kalimari-desert-2r": 12
-    },
-    "liveWrAndCarriedInEvidenceEntries": 6
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownWrAndCarriedImageLinksReadable": 6,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 91,
+    "originalVideosAndPlaybackCopiesFullGetHashBytesMimeRangeAndDecodePassed": 6,
+    "nonWrResultFootageAndCarriedRecordingPreserved": true,
+    "incompleteResultFootageKeptSeparateFromFullRunComparison": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/bowser2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "productionBuildPages": 892
   },
   "remainingLimitations": [
     "Good-enough surviving-source review, not exhaustive worldwide history. Private race achievement instants remain unknown.",
     "64 prior original-image assessments are retained only by matching hashes. Thirteen newly recovered originals are preserved without fresh pixel certification.",
-    "Two image-only tail results and four unclassified discussion images remain preserved source leads, without newly certified totals or WR promotions.",
     "Two delayed Spring results fall outside Bowser course scope; duplicate Rubix receipt preserved separately. Opening kuRi 38.60/33.37 is slower than DIT final opening 1:11.12.",
     "DIT final tweet is unavailable. Its original media type and a final-WR movie could not be confirmed. The opening DIT YouTube video is unavailable and rui’s linked video is private.",
-    "N 1:10.86 movie is provisionally matched using its automated finish-clock transcription and the adjacent same-author reviewed result. No fresh visual or uninterrupted-race certification.",
     "Shine 1:11.20 original is source/title-backed and preserved, with its upload clock separate from result submission. Edited receipt does not prove the original video-share instant.",
     "Rubix technique clip remains separate from completed record evidence. N and Rubix movie container creation clocks are not publication times.",
-    "Kazuo’s carried 1:04.30 movie matches its original hash and prior sampled assessment; uninterrupted race coverage is not freshly certified. Its 2021 upload/share clocks remain distinct from this 2023 tour."
+    "Kazuo’s carried 1:04.30 movie matches its original hash and prior sampled assessment; uninterrupted race coverage is not freshly certified. Its 2021 upload/share clocks remain distinct from this 2023 tour.",
+    "The two tail images match keron1:11.49 and kuRi1:04.85 worksheet observations using original author/posting clocks and preserved image machine reading. This is not fresh pixel certification or WR promotion. Four discussion image leads remain preserved with their machine-reading results, without newly certified totals.",
+    "All57 worksheet entries now have matching source dates. RIN/rui source matching uses the shared original account899556647201046560; player profiles are unchanged. Six after-reset worksheet posts retain their publication dates separately from tour attribution and private achievement.",
+    "N1:10.86 MOV and MP4 playback are available. The prior completed-result assessment is retained by hash; start-to-finish continuity remains unverified, so result footage stays separate from full-run comparison. A non-WR can supply available footage without gaining WR credit.",
+    "Three late N/Retro original images were recovered and preserved on R2, with posting clocks and original account evidence retained. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/bowser2023-practical-source-disposition-index-20261014.json",
@@ -144,7 +154,21 @@
     "archive/bowser2023-mp4-playback-original-preservation-check-20261014.json",
     "archive/bowser2023-completion-label-build-check-20261014.json",
     "archive/bowser2023-completion-label-live-check-20261014.json",
-    "archive/bowser2023-rendered-proof-and-video-live-link-audit-20261014.json"
+    "archive/bowser2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "artifacts/bowser2023-source-date-reconciliation-20261018.json",
+    "artifacts/bowser2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/bowser2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/bowser2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/bowser2023-six-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/bowser2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/bowser2023-six-known-wr-proof-link-check-20261018.json",
+    "artifacts/bowser2023-rin-rui-original-author-source-20261018.json",
+    "artifacts/bowser2023-two-tail-original-author-source-20261018.json",
+    "artifacts/bowser2023-six-preserved-image-leads-machine-reading-20261018.json",
+    "artifacts/bowser2023-late-retro-original-source-20261018.json",
+    "artifacts/bowser2023-late-n-original-source-20261018.json",
+    "artifacts/bowser2023-late-retro-kalimari-original-source-20261018.json",
+    "https://media.mktwrs.com/assets/proof/bowser2023-live-publication-verification-20261018.json"
   ],
   "additionalDiscussionOriginals": [
     {
@@ -193,7 +217,7 @@
     }
   ],
   "nextTourId": "tour-96",
-  "sourceCommit": "0f595e6653567186f8240867987deb7cb9d25264",
+  "sourceCommit": "87d8950002278b5488063a5dd8fce00e8d6c405c",
   "lateRecordingVerificationSupplement": {
     "sourceTour": "Bowser Tour (2025)",
     "reviewAudit": "archive/bowser2025-original-preservation-and-source-review-20261015.json",
@@ -201,5 +225,29 @@
     "resultVisuallyVerified": true,
     "uninterruptedRaceContinuityVerified": false,
     "originalSubmissionAndSharingClocksRetained": true
-  }
+  },
+  "previousValidation": {
+    "renderedSupportingEntries": {
+      "gba-bowser-s-castle-4": 60,
+      "n64-kalimari-desert-2r": 12
+    },
+    "renderedPreservedEvidenceLinksReadable": 141,
+    "wrAndCarriedInEvidenceEntries": 6,
+    "failedLinks": 0,
+    "productionBuildPages": 892,
+    "focusedVideoAndOpeningTestsPassed": 15,
+    "openingFinalFastestTieAndRecordingSelectionsPassed": true,
+    "completionLabelLiveVerified": true,
+    "browserMp4PlaybackDocumentsOpened": 2,
+    "completionLabelBuildVerified": true,
+    "livePreservedEvidenceLinksReadable": 141,
+    "liveSupportingEntries": {
+      "gba-bowser-s-castle-4": 60,
+      "n64-kalimari-desert-2r": 12
+    },
+    "liveWrAndCarriedInEvidenceEntries": 6
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/bowser2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": []
 }
