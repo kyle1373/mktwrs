@@ -3,7 +3,7 @@
   "tour": "Animal Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled using good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -16,13 +16,45 @@
       "courseId": "n64-choco-mountain",
       "archivedWr": "1:18.37",
       "fastestDocumentedRecording": "1:18.47",
-      "supportingDisplayed": 4
+      "supportingDisplayed": 4,
+      "worksheetRows": 3,
+      "worksheetRowsDated": 3,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "n64-choco-mountain",
+          "id": "curated-animal2022-1044131789247098930-choco-11837-leaderboard",
+          "playerId": "nu11",
+          "time": "1:18.37",
+          "documentedAt": "2022-11-21T06:06:57.587Z",
+          "durationDays": 41.16515537037037,
+          "durationEnd": "2025-11-16T10:04:47.011Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved public clocks, movie and proof hashes, qualified prior completed-result assessments; no fresh full-frame continuity certification."
     },
     {
       "courseId": "n64-yoshi-valley-r",
       "archivedWr": "1:30.47",
-      "fastestDocumentedRecording": "1:30.65",
-      "supportingDisplayed": 2
+      "fastestDocumentedRecording": "1:30.62",
+      "supportingDisplayed": 2,
+      "worksheetRows": 2,
+      "worksheetRowsDated": 2,
+      "worksheetSourceGaps": [],
+      "reviewedWrEntries": [],
+      "carriedStandings": [
+        {
+          "courseId": "n64-yoshi-valley-r",
+          "id": "1053521178179932180",
+          "playerId": "nu11",
+          "time": "1:30.47",
+          "documentedAt": "2022-12-17T03:57:02.355Z",
+          "durationDays": 42,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ],
+      "recordingReviewBasis": "Preserved public clocks, movie and proof hashes, qualified prior completed-result assessments; no fresh full-frame continuity certification."
     }
   ],
   "coverage": {
@@ -46,7 +78,25 @@
     "canonicalSourceRowsReconciled": 8,
     "matchedReceiptsRetainedAsSourceOnly": 2,
     "freshBrowserCensusCompleted": false,
-    "allAffectedCourseRows": 508
+    "allAffectedCourseRows": 508,
+    "knownWorksheetRows": 5,
+    "knownWorksheetRowsDated": 5,
+    "remainingUndatedWorksheetRows": 0,
+    "currentWindowWrEntries": 0,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 6,
+    "preservedProofAndSourceObjectsVerified": 26,
+    "supportingHistoricalResultFramesVerified": 2,
+    "publicationMetadataObjectsVerified": 3,
+    "originalMoviesRevalidated": 4,
+    "completedHistoricalMovies": 1,
+    "currentCompletedWrMovies": 0,
+    "currentCompletedSupportingMovies": 2,
+    "partialLapMovies": 1,
+    "knownWrIdsAdded": 0,
+    "freshWorksheetSourceClocksVerified": 5,
+    "freshCurrentWrSourceClocksVerified": 0,
+    "freshCarriedSourceClocksVerified": 2
   },
   "evidence": [
     "archive/animal2024-original-preservation-and-source-review-20261015.json",
@@ -54,27 +104,136 @@
     "archive/animal2024-posted-results-and-preserved-source-reconciliation-20261015.json",
     "archive/animal2024-full-course-generation-and-source-field-preservation-20261015.json",
     "archive/animal2024-edited-receipt-source-dispositions-20261015.json",
-    "archive/animal2024-carried-documentary-record-posting-date-policy-20261015.json"
+    "archive/animal2024-carried-documentary-record-posting-date-policy-20261015.json",
+    "artifacts/animal2024-carried-choco-leaderboard-source-dom-20261018.json",
+    "artifacts/animal2024-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/animal2024-carried-yoshi-announcement-source-dom-20261018.json",
+    "artifacts/animal2024-original-image-machine-ocr-20261018.json",
+    "artifacts/animal2024-yellow-result-timer-machine-ocr-20261018.json",
+    "artifacts/animal2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/animal2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/animal2024-supported-worksheet-source-clock-map-20261018.json",
+    "artifacts/animal2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/animal2024-opening-original-submissions-dom-20261018.json",
+    "artifacts/animal2024-carried-yoshi-original-proof-access-20261018.json",
+    "artifacts/animal2024-four-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/animal2024-earlier-completed-recording-and-publication-metadata-review-20261018.json",
+    "artifacts/animal2024-discussion-recording-shares-dom-20261018.json",
+    "artifacts/animal2024-closing-original-submissions-dom-20261018.json",
+    "artifacts/animal2024-carried-and-supporting-original-proof-clock-review-20261018.json",
+    "https://media.mktwrs.com/assets/proof/animal2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Video publication and later sharing remain separate clocks.",
   "remainingLimitations": [
-    "Preserved captured sources reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
-    "The historical8submission-message count is not a new exhaustive census.",
-    "The six original screenshots match prior SHA256 assessments. Two completed videos retain prior result assessments by source association.",
-    "The49.166667second clip is a partial lap reference and establishes no completed race total.",
-    "Nu11\u2019s carried1:18.37 and1:30.47 WRs lack matching movies. Sucha\u2019s current1:18.47 and1:30.65 footage is separate; Nu11\u2019s carried1:30.62 is uploader-reported, not footage of1:30.47.",
-    "The opening-day slower1:32.82 is preserved as a source; only final fastest1:30.73 is displayed.",
-    "The text-only November17 1:35.12 report is preserved in source context without WR credit."
+    "All five worksheet entries have supported single public evidence timestamps. The1:18.47 worksheet row now uses the earlier original screenshot2024-11-19T12:08:55.800Z rather than later video publication.",
+    "Sucha\u2019s1:30.65 uses video publication2024-11-16T08:50:13Z, before sharing2024-11-17T21:01:50.473Z. Her1:18.47 video publication12:23:26Z and sharing13:19:43.687Z remain separate from the original screenshot.",
+    "Nu11\u2019s carried WRs retain dated documentary evidence: Choco Mountain1:18.37 leaderboard observation2022-11-21T06:06:57.587Z and Yoshi Valley R1:30.47 retrospective announcement2022-12-17T03:57:02.355Z. Earlier private achievement is not inferred.",
+    "Both carried WR durations are independently checked against public timestamps, faster subsequent records and all playable course appearances. Tour clocks pause outside Time Trial windows.",
+    "Nu11\u2019s separate completed1:30.62 video has a prior sampled start, lap-transition and result review. Its original movie hash and two preserved frame hashes match. It now supplies faster historical footage for this tour, without receiving WR days or becoming proof of1:30.47.",
+    "The best preserved Choco Mountain recording is Sucha1:18.47. Both carried WRs lack matching recordings; this gap remains explicit.",
+    "All six original result or cup-menu-best totals are reproduced by machine OCR. kuRi\u2019s1:18.50 proof is labelled as a cup-menu best. No fresh human visual review is claimed.",
+    "All26 proof/source objects pass full GET, SHA256, bytes, MIME and direct Range206: six original images, two historical recording frames, three publication metadata objects and15 source audits.",
+    "All four video files pass full integrity and decode checks: two completed current supporting recordings, one completed historical non-WR recording and one partial lap clip. Prior result assessments are retained; no fresh full-frame continuity certification is claimed.",
+    "All seven current performances retain zero WR days. The opening-day1:32.82 remains preserved; only final fastest1:30.73 is displayed. The text-only1:35.12 discussion report is preserved without WR credit.",
+    "This closes the known WR review with footage and source gaps retained. The2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 17,
-    "fullGeneratedRowsMatched": 508,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsChecked": 53,
-    "allRenderedR2LinksReadable": true,
-    "livePublicationAudit": "archive/animal2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 26,
+    "fourMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "allFiveWorksheetOriginalClocksVerified": true,
+    "twoCarriedWrDurationsIndependentlyVerified": true,
+    "allSevenCurrentPerformancesRetainZeroWrDays": true,
+    "originalAndVideoPublicationAndSharingClocksKeptSeparate": true,
+    "historical9062CompletedRecordingSuppliesBestPreservedFootage": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/animal2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 11
   },
   "nextTourId": "tour-136",
-  "latestLivePublicationAudit": "archive/animal2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 6,
+      "availableOriginalSubmissionImages": 6,
+      "unavailableOriginalSubmissionImages": 0,
+      "currentCanonicalSourceRows": 7,
+      "uniqueCurrentPerformances": 7,
+      "currentCompletedMoviePerformances": 2,
+      "currentResultMoviePublishedAfterTour": 0,
+      "currentPartialLapClips": 1,
+      "discussionOriginalImages": 0,
+      "carriedPriorTourRecordings": 1,
+      "lateCurrentTourImages": 0,
+      "byteIdenticalReposts": 0,
+      "r2FilesVerified": 10,
+      "existingWrIdsRetained": 23,
+      "newWrIds": 0,
+      "currentTourBoundedDiscussionRows": 16,
+      "postCloseContextRows": 0,
+      "canonicalSourceRowsReconciled": 8,
+      "matchedReceiptsRetainedAsSourceOnly": 2,
+      "freshBrowserCensusCompleted": false,
+      "allAffectedCourseRows": 508,
+      "knownWorksheetRows": 5,
+      "knownWorksheetRowsDated": 5,
+      "remainingUndatedWorksheetRows": 0,
+      "currentWindowWrEntries": 0,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 6,
+      "preservedProofAndSourceObjectsVerified": 26,
+      "supportingHistoricalResultFramesVerified": 2,
+      "publicationMetadataObjectsVerified": 3,
+      "originalMoviesRevalidated": 4,
+      "completedHistoricalMovies": 1,
+      "currentCompletedWrMovies": 0,
+      "currentCompletedSupportingMovies": 2,
+      "partialLapMovies": 1,
+      "knownWrIdsAdded": 0,
+      "freshWorksheetSourceClocksVerified": 5,
+      "freshCurrentWrSourceClocksVerified": 0,
+      "freshCarriedSourceClocksVerified": 2
+    },
+    "remainingLimitations": [
+      "Preserved captured sources reconciled; fresh exhaustive Discord and worldwide censuses remain uncertified.",
+      "The historical8submission-message count is not a new exhaustive census.",
+      "The six original screenshots match prior SHA256 assessments. Two completed videos retain prior result assessments by source association.",
+      "The49.166667second clip is a partial lap reference and establishes no completed race total.",
+      "Nu11\u2019s carried1:18.37 and1:30.47 WRs lack matching movies. Sucha\u2019s current1:18.47 and1:30.65 footage is separate; Nu11\u2019s carried1:30.62 is uploader-reported, not footage of1:30.47.",
+      "The opening-day slower1:32.82 is preserved as a source; only final fastest1:30.73 is displayed.",
+      "The text-only November17 1:35.12 report is preserved in source context without WR credit."
+    ],
+    "validation": {
+      "focusedTestsPassed": 17,
+      "fullGeneratedRowsMatched": 508,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsChecked": 53,
+      "allRenderedR2LinksReadable": true,
+      "livePublicationAudit": "archive/animal2024-exact-live-publication-and-full-field-check-20261015.json"
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/animal2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "nu11-carried-wr-videos",
+      "reason": "No matching1:18.37 Choco Mountain or1:30.47 Yoshi Valley R movie is preserved. Slower footage remains separate."
+    },
+    {
+      "id": "nu11-yoshi-individual-proof",
+      "reason": "The announcement-linked original1:30.47 image returns403. The dated announcement remains preserved documentary proof."
+    },
+    {
+      "id": "earlier-nu11-video-share-clock",
+      "reason": "The1:30.62 original video publication is known; its first Discord sharing time is not established."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Public evidence dates do not establish private race instants or exhaustive worldwide history."
+    }
+  ]
 }
