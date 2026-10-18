@@ -14,21 +14,46 @@
       "courseId": "n64-luigi-raceway-r",
       "archivedWr": "1:11.86",
       "fastestDocumentedRecording": "1:11.87",
-      "supportingDisplayed": 2
+      "supportingDisplayed": 2,
+      "carriedStandings": [
+        {
+          "id": "1264386099934003281",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:11.86",
+          "documentedAt": "2024-06-25T11:08:56.288Z",
+          "durationDays": 16.366561747685186,
+          "durationEnd": "2026-06-11T19:56:47.223Z"
+        }
+      ],
+      "earlierHistoricalMovieWrEntries": [
+        {
+          "id": "curated-sucha-supplied-16vI7eIWw-4",
+          "playerId": "player-e38199e38184e3819df09f90ba",
+          "time": "1:11.87",
+          "documentedAt": "2024-06-24T12:41:09.374Z",
+          "durationDays": 0.9359596527777778,
+          "durationEnd": "2024-06-25T11:08:56.288Z"
+        }
+      ],
+      "reviewedCurrentWrEntries": []
     }
   ],
   "coverage": {
-    "availableOriginalImages": 4,
-    "currentOriginalImages": 2,
-    "carriedOriginalImages": 2,
-    "canonicalScreenshotPerformances": 2,
-    "preservedMovies": 1,
-    "movieFiles": 2,
-    "r2FilesVerified": 6,
-    "allAffectedCourseRows": 186,
-    "tourCourseRows": 186,
-    "newWrIds": 0,
-    "freshBrowserCensusCompleted": false
+    "knownCurrentWorksheetRows": 0,
+    "currentCompletedSupports": 2,
+    "currentSupportDatesVerified": 2,
+    "originalSourceDatesVerified": 4,
+    "originalSourceImagesRevalidated": 4,
+    "machineTimersCorroborated": 4,
+    "currentWindowWrEntries": 0,
+    "carriedWrEntriesDateAndDurationReviewed": 1,
+    "earlierHistoricalMovieWrDurationReviewed": 1,
+    "proofSourceObjectsFullVerified": 15,
+    "movieFilesFullVerified": 2,
+    "uniqueCompletedMoviesPreserved": 1,
+    "freshHumanVisualReviews": 0,
+    "freshUninterruptedMovieContinuityCertified": false,
+    "newWrIds": 0
   },
   "evidence": [
     "archive/marioluigi2025-original-preservation-and-source-review-20261015.json",
@@ -36,28 +61,97 @@
     "archive/marioluigi2025-posted-results-and-source-clock-reconciliation-20261015.json",
     "archive/marioluigi2025-source-preservation-verification-20261015.json",
     "archive/marioluigi2025-full-course-generation-and-source-field-preservation-20261015.json",
-    "archive/marioluigi2025-edited-receipt-source-dispositions-20261015.json"
+    "archive/marioluigi2025-edited-receipt-source-dispositions-20261015.json",
+    "artifacts/marioluigi2025-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/marioluigi2025-original-image-machine-ocr-20261018.json",
+    "artifacts/marioluigi2025-bounded-discussion-original-dom-20261018.json",
+    "artifacts/marioluigi2025-original-submission-date-and-attribution-review-20261018.json",
+    "artifacts/marioluigi2025-carried-wr-and-recording-original-dom-20261018.json",
+    "artifacts/marioluigi2025-original-image-machine-timer-review-20261018.json",
+    "artifacts/marioluigi2025-current-submission-original-dom-20261018.json",
+    "artifacts/marioluigi2025-current-original-preservation-input-20261018.json",
+    "artifacts/marioluigi2025-two-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/marioluigi2025-wr-proof-and-recording-selection-validation-20261018.json",
+    "artifacts/marioluigi2025-source-date-and-original-image-r2-integrity-20261018.json",
+    "https://media.mktwrs.com/assets/proof/marioluigi2025-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Original posting supplies submission date unless evidence establishes otherwise. Original video publication and later sharing remain separate; a repost creates no new run.",
   "remainingLimitations": [
-    "Saved sources reviewed; exhaustive fresh Discord/worldwide source coverage is not certified.",
-    "Two current original screenshots show completed supporting results, slower than the carried 1:11.86 WR.",
-    "The 1:11.87 recording was submitted and published in June 2024. Its June 2025 sharing explicitly says one year ago and creates no new 2025 WR.",
-    "The carried 1:11.86 WR has image proof but no recovered matching movie.",
-    "The later 2026 nekozuki 1:11.82 retains its original dates and is outside this tour review.",
-    "Prior video assessments are retained with matching file hashes; uninterrupted race continuity is not newly certified."
+    "Two 2025 completed supporting runs have verified original posting dates and account identities; both have zero WR days. No current-tour worksheet entries are present in the preserved course data.",
+    "Sucha 1:11.86 carried WR and earlier 1:11.87 movie WR have verified original June 2024 submission clocks. Both durations are independently calculated over playable tour intervals. The later 2026 1:11.82 and every unrelated course row remain unchanged.",
+    "All four original image hashes are preserved; all four totals are machine corroborated. No fresh human visual review is claimed.",
+    "The 1:11.87 original MP4 and H264/AAC playback both pass full GET, SHA256, byte length, MIME, Range206 and complete decode. Prior sampled result assessment is retained; uninterrupted race continuity is not freshly certified.",
+    "Original video publication June 24, 2024 at 13:43:25Z is distinct from the June 12, 2025 at 02:53:05.234Z human repost. The repost explicitly says one year ago and creates no new 2025 WR. First-ever sharing is not claimed.",
+    "The original accounts verify keron, Remon and Sucha as source authors. Existing canonical profile IDs are retained without an alias merge.",
+    "Fifteen proof/source objects are preserved and verified by full GET, hash, length, MIME and Range206. Only filtered publication metadata is uploaded.",
+    "Known WR review is closed with named gaps retained. The complete 2019\u20132026 archive and final calendar-cutoff audit remain in progress."
   ],
   "validation": {
-    "livePublicationVerified": true,
-    "livePublicationAudit": "archive/marioluigi2025-exact-live-publication-and-full-field-check-20261015.json",
-    "focusedTestsPassed": 18,
-    "productionBuildExitCode": 0,
-    "renderedR2LinksReadable": 64,
-    "productionAudit": "archive/marioluigi2025-production-build-and-rendered-evidence-link-check-20261015.json",
-    "productionBuildsPassed": 2
+    "dateDurationAndProfileScopePassed": true,
+    "fourOriginalSourceDatesAndIdentitiesVerified": true,
+    "twoWrDurationsIndependentlyVerified": true,
+    "twoCompletedSupportsHaveZeroWrDays": true,
+    "knownWrIdsPreserved": true,
+    "otherCoursesUnchanged": 141,
+    "playerProfilesUnchanged": true,
+    "later2026ResultUnchanged": true,
+    "standingWrAndEarlierRecordingKeptSeparate": true,
+    "proofSourceObjectsFullVerified": 15,
+    "twoMovieFilesFullGetHashBytesMimeRangeDecodePassed": true,
+    "focusedVideoTestsPassed": 10,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/marioluigi2025-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
   },
   "nextTourId": "tour-151",
-  "publicationPending": false,
-  "completedAt": "2026-10-15",
-  "latestLivePublicationAudit": "archive/marioluigi2025-exact-live-publication-and-full-field-check-20261015.json"
+  "completedAt": "2026-10-18",
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "availableOriginalImages": 4,
+      "currentOriginalImages": 2,
+      "carriedOriginalImages": 2,
+      "canonicalScreenshotPerformances": 2,
+      "preservedMovies": 1,
+      "movieFiles": 2,
+      "r2FilesVerified": 6,
+      "allAffectedCourseRows": 186,
+      "tourCourseRows": 186,
+      "newWrIds": 0,
+      "freshBrowserCensusCompleted": false
+    },
+    "remainingLimitations": [
+      "Saved sources reviewed; exhaustive fresh Discord/worldwide source coverage is not certified.",
+      "Two current original screenshots show completed supporting results, slower than the carried 1:11.86 WR.",
+      "The 1:11.87 recording was submitted and published in June 2024. Its June 2025 sharing explicitly says one year ago and creates no new 2025 WR.",
+      "The carried 1:11.86 WR has image proof but no recovered matching movie.",
+      "The later 2026 nekozuki 1:11.82 retains its original dates and is outside this tour review.",
+      "Prior video assessments are retained with matching file hashes; uninterrupted race continuity is not newly certified."
+    ],
+    "validation": {
+      "livePublicationVerified": true,
+      "livePublicationAudit": "archive/marioluigi2025-exact-live-publication-and-full-field-check-20261015.json",
+      "focusedTestsPassed": 18,
+      "productionBuildExitCode": 0,
+      "renderedR2LinksReadable": 64,
+      "productionAudit": "archive/marioluigi2025-production-build-and-rendered-evidence-link-check-20261015.json",
+      "productionBuildsPassed": 2
+    }
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/marioluigi2025-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "carried-11186-own-video-unavailable",
+      "reason": "Sucha 1:11.86 is supported by its original dated completed-result screenshot. No matching movie survives in reviewed sources; the 1:11.87 movie is archived separately."
+    },
+    {
+      "id": "first-ever-video-sharing-unproven",
+      "reason": "The unedited June 2025 repost is verified and explicitly says one year ago. It establishes that later sharing, not the first-ever sharing of the 2024 movie."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Original public evidence dates do not establish private race instants or exhaustive worldwide coverage."
+    }
+  ]
 }
