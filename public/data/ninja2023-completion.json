@@ -2,7 +2,7 @@
   "tourId": "tour-92",
   "tour": "Ninja Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -38,7 +38,9 @@
         {
           "playerId": "player-e38199e38184e3819df09f90ba",
           "time": "1:16.35",
-          "submittedAt": "2023-03-25T11:08:58.998Z"
+          "submittedAt": "2023-03-25T11:08:58.998Z",
+          "documentedAt": "2023-03-25T11:06:57Z",
+          "documentedDateBasis": "reviewed-original-video-publication"
         },
         {
           "playerId": "n",
@@ -152,9 +154,78 @@
     "generatedReviewedRowsCompared": 239,
     "materialFieldDifferences": 0,
     "removedReconciledRawCandidates": 16,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "knownWorksheetRows": 106,
+    "knownWorksheetRowsDated": 104,
+    "remainingUndatedWorksheetRows": 2,
+    "knownWrEntriesDateAndDurationReviewed": 18,
+    "carriedWrEntriesDateAndDurationReviewed": 1,
+    "originalVideosRevalidatedOnR2": 8,
+    "newR2ProofAndSourceObjectsVerified": 192
   },
   "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "knownWrAndCarriedImageLinksReadable": 19,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 192,
+    "originalVideosFullGetHashBytesMimeRangeAndDecodePassed": 8,
+    "fastestDocumentedRecordingSelectionsPassed": true,
+    "productionBuildPassed": true,
+    "livePublicationVerified": false,
+    "mediaBrowserTabsOpened": false,
+    "productionBuildPages": 892
+  },
+  "remainingLimitations": [
+    "Recovered surviving progression is not exhaustive history or proof of private achievement instants.",
+    "116 preserved original image references checked, including duplicates and one incomplete gameplay image. Twenty-two legacy original attachment recoveries remain unresolved; current accepted receipts and preserved public proofs supply good-enough evidence.",
+    "Wins earlier accepted75.83 44.82/31.01 differs from later same-total video44.81/31.02. Later recording does not establish a second reign.",
+    "75.50 discussion is a hypothetical perfect-run estimate, not a submitted result.",
+    "Five newly recovered title/source videos have no fresh visual certification. N’s preserved1:33.45 finish was verified in a later review; uninterrupted-race certification remains unproven. Prior Wins75.83 assessment retained by original hash.",
+    "Edited receipts do not establish original media-field or first-share times. Opening only fastest recovered result; slower raw PBs retained.",
+    "Posting/video clocks are the supported dates. N1:17.04 is an observation of a previous-best field at2023-03-23T15:48:32.644Z, not its private achievement or submission. Mr.Electroi worksheet label matches Mr.Electro original account510491218178736130 without merging global profiles.",
+    "Two worksheet source gaps remain. N1:33.45 is preserved and result-reviewed; full-race continuity remains unproven. Fireball1:15.60 title/source video retained without fresh visual certification; Wins1:15.83 remains the fastest qualifying documented recording. Global2019–2026 archive remains unfinished."
+  ],
+  "evidence": [
+    "archive/ninja2023-practical-source-disposition-index-20261014.json",
+    "archive/ninja2023-final-hours-proof-link-reconciliation-20261014.json",
+    "archive/ninja2023-preserved-proof-and-video-build-link-audit-20261014.json",
+    "archive/ninja2023-publication-record-and-media-reconciliation-20261014.json",
+    "archive/ninja2023-seven-original-r2-preservation-20261014.json",
+    "archive/ninja2023-supporting-history-build-check-20261014.json",
+    "archive/ninja2023-completion-label-build-check-20261014.json",
+    "archive/ninja2023-completion-label-live-check-20261014.json",
+    "archive/ninja2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "archive/ninja2025-carried-wario-video-result-review-20261015.json",
+    "archive/ninja2023-later-result-review-description-reconciliation-20261016.json",
+    "archive/ninja2023-later-review-core-live-verification-20261016.json",
+    "artifacts/ninja2023-source-date-reconciliation-20261018.json",
+    "artifacts/ninja2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/ninja2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/ninja2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/ninja2023-eight-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/ninja2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/ninja2023-nineteen-known-wr-proof-link-check-20261018.json",
+    "artifacts/ninja2023-electro-original-author-source-20261018.json"
+  ],
+  "nextTourId": "tour-93",
+  "sourceCommit": "5b3b78e5806a273521e96163d72a216f61ecd81a",
+  "laterRecordingAssessmentCorrection": {
+    "reviewedAt": "2026-10-16",
+    "courseId": "3ds-wario-shipyard",
+    "result": "1:33.45",
+    "sourceDatesUnchanged": true,
+    "sourceRowsUnchanged": true,
+    "freshVisualReviewThisPass": false,
+    "localAndR2FullMovieShaMatched": true,
+    "uninterruptedRaceCoverageVerified": false,
+    "publicationPending": false,
+    "livePublicationVerified": true,
+    "livePublicationAudit": "archive/ninja2023-later-review-core-live-verification-20261016.json",
+    "sourceCommit": "815458cd2e347985235f1bdab2953eaaad6cba95"
+  },
+  "previousValidation": {
     "renderedSupportingEntries": {
       "wii-rainbow-road": 109,
       "3ds-wario-shipyard": 69
@@ -173,43 +244,21 @@
     },
     "liveWrAndCarriedInEvidenceEntries": 19
   },
-  "remainingLimitations": [
-    "Recovered surviving progression is not exhaustive history or proof of private achievement instants.",
-    "116 preserved original image references checked, including duplicates and one incomplete gameplay image. Twenty-two legacy original attachment recoveries remain unresolved; current accepted receipts and preserved public proofs supply good-enough evidence.",
-    "Wins earlier accepted75.83 44.82/31.01 differs from later same-total video44.81/31.02. Later recording does not establish a second reign.",
-    "75.50 discussion is a hypothetical perfect-run estimate, not a submitted result.",
-    "Five newly recovered title/source videos have no fresh visual certification. N’s preserved1:33.45 finish was verified in a later review; uninterrupted-race certification remains unproven. Prior Wins75.83 assessment retained by original hash.",
-    "Edited receipts do not establish original media-field or first-share times. Opening only fastest recovered result; slower raw PBs retained."
-  ],
-  "evidence": [
-    "archive/ninja2023-practical-source-disposition-index-20261014.json",
-    "archive/ninja2023-final-hours-proof-link-reconciliation-20261014.json",
-    "archive/ninja2023-preserved-proof-and-video-build-link-audit-20261014.json",
-    "archive/ninja2023-publication-record-and-media-reconciliation-20261014.json",
-    "archive/ninja2023-seven-original-r2-preservation-20261014.json",
-    "archive/ninja2023-supporting-history-build-check-20261014.json",
-    "archive/ninja2023-completion-label-build-check-20261014.json",
-    "archive/ninja2023-completion-label-live-check-20261014.json",
-    "archive/ninja2023-rendered-proof-and-video-live-link-audit-20261014.json",
-    "archive/ninja2025-carried-wario-video-result-review-20261015.json",
-    "archive/ninja2023-later-result-review-description-reconciliation-20261016.json",
-    "archive/ninja2023-later-review-core-live-verification-20261016.json"
-  ],
-  "nextTourId": "tour-93",
-  "sourceCommit": "03dbeb581c0aa0733e05b93ba1f8fea7b5567043",
-  "laterRecordingAssessmentCorrection": {
-    "reviewedAt": "2026-10-16",
-    "courseId": "3ds-wario-shipyard",
-    "result": "1:33.45",
-    "sourceDatesUnchanged": true,
-    "sourceRowsUnchanged": true,
-    "freshVisualReviewThisPass": false,
-    "localAndR2FullMovieShaMatched": true,
-    "uninterruptedRaceCoverageVerified": false,
-    "publicationPending": false,
-    "livePublicationVerified": true,
-    "livePublicationAudit": "archive/ninja2023-later-review-core-live-verification-20261016.json",
-    "sourceCommit": "815458cd2e347985235f1bdab2953eaaad6cba95"
-  },
-  "latestPublicationAudit": "archive/ninja2023-later-review-core-live-verification-20261016.json"
+  "knownWrReviewComplete": true,
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-AWZ10",
+      "courseId": "wii-rainbow-road",
+      "playerId": "kuri",
+      "time": "1:17.00",
+      "reason": "No recovered matching dated source; retained without invented date or WR credit."
+    },
+    {
+      "id": "sheet-AXH20",
+      "courseId": "3ds-wario-shipyard",
+      "playerId": "daniel-park",
+      "time": "1:34.24",
+      "reason": "Same-total evidence belongs to other source labels/accounts; no confirmed Daniel match. Retained without borrowed date or WR credit."
+    }
+  ]
 }
