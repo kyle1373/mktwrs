@@ -647,6 +647,8 @@ const halloween2023 = tours.find(t => t.id === "tour-107" && t.startDate === "20
 if (halloween2023) halloween2023.name = "Halloween Tour (2023)";
 const autumn2023 = tours.find(t => t.id === "tour-108" && t.startDate === "2023-11-01");
 if (autumn2023) autumn2023.name = "Autumn Tour (2023)";
+const animal2023 = tours.find(t => t.id === "tour-109" && t.startDate === "2023-11-15");
+if (animal2023) animal2023.name = "Animal Tour (2023)";
 const peachBowser2023 = tours.find(t => t.id === "tour-110" && t.startDate === "2023-11-29");
 if (peachBowser2023) peachBowser2023.name = "Peach vs. Bowser Tour (2023)";
 const holiday2023 = tours.find(t => t.id === "tour-111" && t.startDate === "2023-12-13");

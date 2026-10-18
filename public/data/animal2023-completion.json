@@ -3,7 +3,7 @@
   "tour": "Animal Tour (2023)",
   "status": "completed-with-documented-gaps",
   "standard": "All captured surviving sources reviewed, preserved and reconciled; good-enough documentary proof accepted. Worldwide exhaustive history not certified.",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -18,7 +18,16 @@
       "playerId": "nu11",
       "bestCurrentRecovered": "1:18.74",
       "supportingDisplayed": 16,
-      "fastestAvailableResultReviewedRecording": "1:18.93"
+      "fastestAvailableResultReviewedRecording": "1:18.93",
+      "carriedStanding": {
+        "id": "curated-animal2022-1044131789247098930-choco-11837-leaderboard",
+        "playerId": "nu11",
+        "time": "1:18.37",
+        "documentedAt": "2022-11-21T06:06:57.587Z",
+        "durationDays": 41.16515537037037,
+        "durationEnd": "2025-11-16T10:04:47.011Z"
+      },
+      "worksheetRowsDated": 18
     },
     {
       "courseId": "n64-yoshi-valley-r",
@@ -27,7 +36,16 @@
       "bestCurrentRecovered": "1:30.87",
       "supportingDisplayed": 18,
       "fastestAvailableResultReviewedRecording": "1:30.67",
-      "fasterAvailableUploaderReportedRecording": "1:30.62"
+      "fasterAvailableUploaderReportedRecording": "1:30.62",
+      "carriedStanding": {
+        "id": "1053521178179932180",
+        "playerId": "nu11",
+        "time": "1:30.47",
+        "documentedAt": "2022-12-17T03:57:02.355Z",
+        "durationDays": 42,
+        "durationEnd": "2026-09-30T06:00:00.000Z"
+      },
+      "worksheetRowsDated": 21
     }
   ],
   "evidence": [
@@ -38,7 +56,17 @@
     "archive/animal2023-earlier-recording-comparison-and-r2-check-20261014.json",
     "archive/animal2023-live-context-and-omitted-proof-review-20261005.json",
     "archive/animal2023-complete-course-generation-and-record-id-check-20261014.json",
-    "archive/animal2023-full-field-production-build-and-rendered-link-check-20261014.json"
+    "archive/animal2023-full-field-production-build-and-rendered-link-check-20261014.json",
+    "artifacts/animal2023-source-date-reconciliation-20261018.json",
+    "artifacts/animal2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/animal2023-three-late-original-proof-and-source-reconciliation-20261018.json",
+    "artifacts/animal2023-all-worksheet-original-source-clock-verification-20261018.json",
+    "artifacts/animal2023-carried-and-late-source-clock-browser-verification-20261018.json",
+    "artifacts/animal2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/animal2023-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/animal2023-five-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/animal2023-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/animal2023-live-publication-verification-20261018.json"
   ],
   "coverage": {
     "indexedOriginalImages": 36,
@@ -54,7 +82,17 @@
     "earlierMoviesReverified": 3,
     "newWrIds": 0,
     "openingDayResultsDisplayed": 1,
-    "slowerOpeningDayResultsPreservedButOmitted": 1
+    "slowerOpeningDayResultsPreservedButOmitted": 1,
+    "knownWorksheetRows": 39,
+    "knownWorksheetRowsDated": 39,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 0,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 40,
+    "preservedProofAndSourceObjectsVerified": 43,
+    "originalMoviesRevalidated": 5,
+    "lateWorksheetPostings": 4,
+    "newlyRecoveredOriginalsThisPass": 1
   },
   "submissionDatePolicy": "Use original source posting dates as submission dates unless evidence establishes another date; retrospective WR announcements retain earlier tour windows.",
   "remainingLimitations": [
@@ -63,16 +101,46 @@
     "YVR90.62 is an available distinct uploader-reported recording; result-reviewed90.67 remains separately identified. Choco78.72 reference remains unavailable.",
     "Six Ryo submissions retain accepted receipt association without account merge or WR credit. One course-unresolved written1:34.08 lead is preserved without invented association.",
     "Matching hashes carry prior movie/image assessments; only two recovered originals have fresh visual image review. No new full-race continuity certification.",
-    "Bounded channel captures and surviving documentary sources do not establish exhaustive worldwide history."
+    "Bounded channel captures and surviving documentary sources do not establish exhaustive worldwide history.",
+    "All39worksheet dates now match supported source posting timestamps, including four late posts on November29\u201330. Private race dates are not invented.",
+    "Two carried WR durations independently match all playable appearance windows; exact archive dates are documentary observation or announcement dates. No new current-tour WR IDs.",
+    "All40original image URLs and3source audits pass full GET/SHA/bytes/MIME/directRange206; all5movies fully decode. One newly recovered Shine original shows1:31.00, distinct from previous-best1:31.41. Prior image/movie assessments remain tied to exact hashes.",
+    "Global2019\u20132026archive remains in progress."
   ],
   "validation": {
-    "productionBuildExitCode": 0,
-    "focusedTestsPassed": 17,
-    "fullGeneratedRowsMatched": 508,
-    "renderedR2LinksReadable": 46,
-    "livePublicationVerified": true,
-    "livePublicationAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 43,
+    "originalImageUrlsVerified": 40,
+    "fiveMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all39WorksheetSourceClocksVerified": true,
+    "carriedSourcePostingClocksFreshlyVerified": true,
+    "matchingCarriedWrImagesAndMoviesUnavailable": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/animal2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false
   },
   "nextTourId": "tour-110",
-  "latestLivePublicationAudit": "archive/animal2023-exact-commit-live-publication-and-full-field-check-20261014.json"
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/animal2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "carried-wr-original-proofs",
+      "reason": "Choco78.37 is a leaderboard observation with historical Kaguya name and retained Nu11 worksheet mapping; YVR90.47 is a retrospective announcement. Matching original runner images and movies remain unavailable."
+    },
+    {
+      "id": "current-completed-movies",
+      "reason": "No completed current-tour recording recovered; two partial strategy clips retained separately."
+    },
+    {
+      "id": "older-recording-gaps",
+      "reason": "Choco78.72 reference unavailable; YVR90.62 uploader-reported recording retained separately from result-reviewed90.67."
+    },
+    {
+      "id": "course-unresolved-13408",
+      "reason": "Written1:34.08 has no supported course association."
+    }
+  ]
 }
