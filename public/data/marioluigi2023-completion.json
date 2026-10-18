@@ -2,7 +2,7 @@
   "tourId": "tour-98",
   "tour": "Mario vs. Luigi Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "standard": "User-authorized practical surviving proofs, with posting dates as submission dates unless contrary evidence exists.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -25,12 +25,14 @@
         "1:11.96"
       ],
       "firstDayFinalFastestRecovered": "1:12.47",
-      "firstDayPlayerId": "louis-rui",
+      "firstDayPlayerId": "rin",
       "closestRecordedTime": "1:12.15",
       "recordingPlayerId": "dit",
       "recordingAvailability": "unavailable",
       "recordingReference": "https://youtu.be/9FGFmwhyxqc",
-      "movieSharedAt": "2023-06-16T10:12:23.166Z"
+      "movieSharedAt": "2023-06-16T10:12:23.166Z",
+      "archivedWrDurationDays": 13.585053564814816,
+      "archivedWrDurationEnd": "2024-06-20T03:00:54.854Z"
     }
   ],
   "coverage": {
@@ -44,14 +46,22 @@
     "tourPendingCandidates": 0,
     "completeCourseRowsCompared": 186,
     "publicSupportingResults": 30,
-    "renderedR2MediaLinksPassed": 36
+    "renderedR2MediaLinksPassed": 36,
+    "knownWorksheetRows": 34,
+    "knownWorksheetRowsDated": 34,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 7,
+    "preservedProofAndSourceObjectsVerified": 43,
+    "originalMoviesRecovered": 0
   },
   "remainingLimitations": [
     "One cancelled original attachment failed to download; its accepted replacement is separately preserved without duplicate WR credit.",
     "The announcement’s closest recorded time, DIT1:12.15, links to a video YouTube says was removed by the uploader. No available same-tour movie was recovered from the bounded surviving source set. The original reference and movie-share time are retained.",
     "Undated screenshot personal-best predecessors are preserved without invented posting dates or additional dated WR entries.",
     "Thirty prior original-image assessments matched their preserved bytes; nine newly recovered result panels were freshly reviewed.",
-    "This practical review uses bounded surviving sources. Deleted/private material and exhaustive worldwide precedence remain unproven."
+    "This practical review uses bounded surviving sources. Deleted/private material and exhaustive worldwide precedence remain unproven.",
+    "All34 worksheet entries have matching surviving posting or observation clocks. Original author account899556647201046560 establishes RIN for the opening1:12.47 result; only this result and WR credit corrected, no global profile merge.",
+    "Seven WR dates and exact duration endpoints verified. All43 preserved proof/source objects passed full GET, SHA256, byte, MIME and Range206 checks. The DIT movie remains unavailable; no recovered movie claimed. Global2019–2026 archive remains unfinished."
   ],
   "evidence": [
     "archive/marioluigi2023-source-review-index-20261008.json",
@@ -63,12 +73,48 @@
     "archive/marioluigi2023-complete-course-generation-and-player-record-check-20261014.json",
     "archive/marioluigi2023-production-build-and-complete-course-fidelity-20261014.json",
     "archive/marioluigi2023-surviving-source-review-decision-20261014.json",
-    "archive/marioluigi2023-live-publication-verification-20261014.json"
+    "archive/marioluigi2023-live-publication-verification-20261014.json",
+    "artifacts/marioluigi2023-source-date-reconciliation-20261018.json",
+    "artifacts/marioluigi2023-opening-original-author-clock-source-20261018.json",
+    "artifacts/marioluigi2023-original-video-availability-recheck-20261018.json",
+    "artifacts/marioluigi2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/marioluigi2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/marioluigi2023-seven-known-wr-proof-link-check-20261018.json",
+    "artifacts/marioluigi2023-documented-recording-availability-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/marioluigi2023-live-publication-verification-20261018.json"
   ],
-  "productionBuildVerified": true,
   "productionBuildEvidence": "archive/marioluigi2023-production-build-and-complete-course-fidelity-20261014.json",
-  "livePublicationVerified": true,
   "nextTourId": "tour-99",
-  "latestLiveEvidence": "archive/marioluigi2023-live-publication-verification-20261014.json",
-  "deployedSourceCommit": "35cdfd69b0eef50b10ad408a004790594aa39eb9"
+  "knownWrReviewComplete": true,
+  "sourceCommit": "dcc4ca00a914c9a4d3792a7da76b76b9c1d2c5dd",
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/marioluigi2023-live-publication-verification-20261018.json",
+  "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 141,
+    "playerProfilesOnlyOneVerifiedWrCreditMoved": true,
+    "knownWrImageLinksReadable": 7,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 43,
+    "unavailableDitMovieRechecked": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/marioluigi2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "staticPagesBuilt": 892
+  },
+  "remainingSourceGaps": [
+    {
+      "id": "dit-11215-movie",
+      "courseId": "n64-luigi-raceway-r",
+      "time": "1:12.15",
+      "reason": "Source still reports Video unavailable; original reference and June16 sharing clock preserved."
+    },
+    {
+      "id": "undated-personal-best-predecessors",
+      "reason": "Observed prior personal bests lack independently dated originals; no chronological WR insertion."
+    },
+    {
+      "id": "cancelled-original-attachment",
+      "reason": "Accepted replacement preserved; cancelled original remains unavailable."
+    }
+  ]
 }
