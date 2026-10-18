@@ -2,7 +2,7 @@
   "tourId": "tour-94",
   "tour": "Spring Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -26,7 +26,7 @@
           "submittedAt": "2023-04-20T05:25:16.018Z"
         },
         {
-          "playerId": "sucha",
+          "playerId": "player-e38199e38184e3819df09f90ba",
           "time": "1:34.25",
           "submittedAt": "2023-04-20T12:29:20.218Z"
         },
@@ -94,7 +94,10 @@
       "recordingPublishedAt": "2023-04-27T04:40:09Z",
       "recordingBackupUrl": "https://media.mktwrs.com/assets/video/spring2023-6ff7d9abe91ff8749881.mp4",
       "priorSampledVideoReviewRetained": true,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "carriedWrDurationDays": 4.004420844907408,
+      "carriedWrDurationEnd": "2023-04-23T06:06:21.961Z",
+      "durationBoundaryReview": "Exact original posting clock of the carried record used; its attributed tour and private achievement instant remain separate."
     }
   ],
   "coverage": {
@@ -102,7 +105,7 @@
     "preservedOriginalImageHashesChecked": 61,
     "newOriginalImagesRecovered": 16,
     "allOriginalImageObjectsPreservedOnR2": 77,
-    "imageOnlyLeadsWithUnreviewedTotals": 4,
+    "imageOnlyLeadsWithUnreviewedTotals": 3,
     "acceptedReceiptOriginalRecoveries": 11,
     "additionalAcceptedReceiptImage": 1,
     "writtenDiscussionRowsReviewed": 214,
@@ -114,9 +117,72 @@
     "generatedReviewedRowsCompared": 127,
     "materialFieldDifferences": 0,
     "removedReconciledRawCandidates": 11,
-    "rawSubmissionsRetained": true
+    "rawSubmissionsRetained": true,
+    "knownWorksheetRows": 63,
+    "knownWorksheetRowsDated": 63,
+    "remainingUndatedWorksheetRows": 0,
+    "knownWrEntriesDateAndDurationReviewed": 10,
+    "carriedWrEntriesDateAndDurationReviewed": 1,
+    "originalVideosRevalidatedOnR2": 4,
+    "newR2ProofAndSourceObjectsVerified": 85,
+    "machineReadingMatchedWorksheetObservation": 1
   },
   "validation": {
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsUnchanged": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesOnlyOneVerifiedWrCreditMoved": true,
+    "knownWrAndCarriedImageLinksReadable": 11,
+    "sourceAndImageObjectsFullGetHashBytesMimeRangeVerified": 85,
+    "originalVideosFullGetHashBytesMimeRangeAndDecodePassed": 4,
+    "fastestDocumentedRecordingSelectionsPassed": true,
+    "productionBuildPassed": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/spring2023-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "productionBuildPages": 892
+  },
+  "remainingLimitations": [
+    "Good-enough surviving-source review, not exhaustive worldwide history. Private race achievement instants remain unknown.",
+    "61 prior original-image assessments are retained only by matching hashes. Sixteen newly recovered originals are preserved without fresh pixel certification.",
+    "Three image-only leads remain unassigned; all four are preserved. The Retro1:35.89 worksheet match uses machine reading plus the original author clock, without fresh pixel certification or WR promotion. One edited joke image is excluded; one delayed Yoshi result belongs outside Spring courses.",
+    "No available original Athens whole-race movie was established by the bounded sources. DIT 1:33.91 recording reference survives in Discord, but the tweet is unavailable.",
+    "Phillish 46.61 is a single-lap demonstration and cannot replace the Athens total WR. Other strategy and failed-attempt clips remain source references.",
+    "Berlin final original matches the prior sampled review; new source/title-backed movies have no fresh visual or uninterrupted-race certification.",
+    "Berlin Byways 2R uploader titles are preserved alongside accepted Berlin Byways challenge labels.",
+    "Edited receipts do not establish exact original video-share clocks. The unedited Berlin 1:14.48 discussion share and Phillish lap share are dated separately from movie publication.",
+    "All63 worksheet entries now have matching surviving source posting or previous-best observation dates. These clocks document the source and do not claim private achievement instants. Sucha1:34.25 WR credit moved to the matching account711825990283952149; historical profiles otherwise retained.",
+    "Current bounded DIT1:33.91 tweet recovery reported no video found; the original reference remains preserved. Three Berlin race recordings and one Athens single-lap demonstration remain recoverable on R2. Global2019–2026 archive remains unfinished."
+  ],
+  "evidence": [
+    "archive/spring2023-practical-source-disposition-index-20261014.json",
+    "archive/spring2023-bounded-discussion-source-review-20261014.json",
+    "archive/spring2023-four-source-video-r2-preservation-20261014.json",
+    "archive/spring2023-isolated-generation-progression-check-20261014.json",
+    "archive/spring2023-prior-and-recovered-original-hash-check-20261014.json",
+    "archive/spring2023-progression-and-recording-source-reconciliation-20261014.json",
+    "archive/spring2023-seventyseven-original-image-r2-preservation-20261014.json",
+    "archive/spring2023-supporting-history-build-check-20261014.json",
+    "archive/spring2023-completion-label-build-check-20261014.json",
+    "archive/spring2023-completion-label-live-check-20261014.json",
+    "archive/spring2023-rendered-proof-and-video-live-link-audit-20261014.json",
+    "artifacts/spring2023-source-date-reconciliation-20261018.json",
+    "artifacts/spring2023-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/spring2023-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/spring2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/spring2023-four-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/spring2023-fastest-documented-recording-selection-validation-20261018.json",
+    "artifacts/spring2023-eleven-known-wr-proof-link-check-20261018.json",
+    "artifacts/spring2023-sucha-athens-original-author-source-20261018.json",
+    "artifacts/spring2023-sucha-berlin-original-author-source-20261018.json",
+    "artifacts/spring2023-retro-opening-original-author-source-20261018.json",
+    "artifacts/spring2023-carried-berlin-original-posting-clock-source-20261018.json",
+    "artifacts/spring2023-four-preserved-image-leads-machine-reading-20261018.json",
+    "artifacts/spring2023-dit-athens-original-video-current-recovery-check-20261018.json",
+    "https://media.mktwrs.com/assets/proof/spring2023-live-publication-verification-20261018.json"
+  ],
+  "nextTourId": "tour-95",
+  "sourceCommit": "c97c3e77a09e377ec270f8327e8f9d3fad242bcc",
+  "previousValidation": {
     "renderedSupportingEntries": {
       "athens-dash-2": 60,
       "berlin-byways": 30
@@ -135,29 +201,7 @@
     },
     "liveWrAndCarriedInEvidenceEntries": 11
   },
-  "remainingLimitations": [
-    "Good-enough surviving-source review, not exhaustive worldwide history. Private race achievement instants remain unknown.",
-    "61 prior original-image assessments are retained only by matching hashes. Sixteen newly recovered originals are preserved without fresh pixel certification.",
-    "Four image-only source leads retain unreviewed totals; they are preserved and are not promoted as WRs. One edited joke image is excluded; one delayed Yoshi result belongs outside Spring courses.",
-    "No available original Athens whole-race movie was established by the bounded sources. DIT 1:33.91 recording reference survives in Discord, but the tweet is unavailable.",
-    "Phillish 46.61 is a single-lap demonstration and cannot replace the Athens total WR. Other strategy and failed-attempt clips remain source references.",
-    "Berlin final original matches the prior sampled review; new source/title-backed movies have no fresh visual or uninterrupted-race certification.",
-    "Berlin Byways 2R uploader titles are preserved alongside accepted Berlin Byways challenge labels.",
-    "Edited receipts do not establish exact original video-share clocks. The unedited Berlin 1:14.48 discussion share and Phillish lap share are dated separately from movie publication."
-  ],
-  "evidence": [
-    "archive/spring2023-practical-source-disposition-index-20261014.json",
-    "archive/spring2023-bounded-discussion-source-review-20261014.json",
-    "archive/spring2023-four-source-video-r2-preservation-20261014.json",
-    "archive/spring2023-isolated-generation-progression-check-20261014.json",
-    "archive/spring2023-prior-and-recovered-original-hash-check-20261014.json",
-    "archive/spring2023-progression-and-recording-source-reconciliation-20261014.json",
-    "archive/spring2023-seventyseven-original-image-r2-preservation-20261014.json",
-    "archive/spring2023-supporting-history-build-check-20261014.json",
-    "archive/spring2023-completion-label-build-check-20261014.json",
-    "archive/spring2023-completion-label-live-check-20261014.json",
-    "archive/spring2023-rendered-proof-and-video-live-link-audit-20261014.json"
-  ],
-  "nextTourId": "tour-95",
-  "sourceCommit": "a8197f639f5dc30db9d28b6d7c7d0adaedb3bc28"
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/spring2023-live-publication-verification-20261018.json",
+  "remainingSourceGaps": []
 }
