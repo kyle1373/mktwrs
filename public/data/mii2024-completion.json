@@ -3,7 +3,7 @@
   "tour": "Mii Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled with good-enough documentary proof.",
-  "completedAt": "2026-10-15",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -17,14 +17,40 @@
       "archivedWr": "1:49.29",
       "fastestDocumentedRecording": "1:49.78",
       "fastestUploaderReportedRecording": null,
-      "supportingDisplayed": 17
+      "supportingDisplayed": 17,
+      "carriedStandings": [
+        {
+          "courseId": "wii-maple-treeway-r",
+          "id": "1022593479790043236",
+          "playerId": "newyork",
+          "time": "1:49.29",
+          "documentedAt": "2022-09-20T08:17:32.833Z",
+          "durationDays": 36.20846315972222,
+          "durationEnd": "2025-05-21T13:17:44.050Z"
+        }
+      ],
+      "worksheetRowsDated": 16,
+      "recordingReviewBasis": "Prior completed result assessment retained; fresh kuRi timer-frame OCR, source metadata and all exact movie hashes checked; no fresh uninterrupted race certification."
     },
     {
       "courseId": "gcn-mushroom-bridge",
       "archivedWr": "1:10.37",
       "fastestDocumentedRecording": "1:10.37",
       "fastestUploaderReportedRecording": null,
-      "supportingDisplayed": 9
+      "supportingDisplayed": 9,
+      "carriedStandings": [
+        {
+          "courseId": "gcn-mushroom-bridge",
+          "id": "1114964088326471821",
+          "playerId": "kno2",
+          "time": "1:10.37",
+          "documentedAt": "2023-05-31T03:29:00.084Z",
+          "durationDays": 42.10486013888889,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ],
+      "worksheetRowsDated": 10,
+      "recordingReviewBasis": "Prior completed result assessment retained; fresh kuRi timer-frame OCR, source metadata and all exact movie hashes checked; no fresh uninterrupted race certification."
     }
   ],
   "coverage": {
@@ -43,32 +69,141 @@
     "savedDiscussionRows": 4,
     "boundedPreservedDiscussionRows": 4,
     "savedSubmissionAttachmentRows": 31,
-    "freshBrowserCensusCompleted": false
+    "freshBrowserCensusCompleted": false,
+    "knownWorksheetRows": 27,
+    "knownWorksheetRowsDated": 26,
+    "remainingUndatedWorksheetRows": 1,
+    "currentWindowWrEntries": 0,
+    "carriedWrEntriesDateAndDurationReviewed": 2,
+    "originalImageEntriesRevalidated": 32,
+    "preservedProofAndSourceObjectsVerified": 43,
+    "carriedProofObjectsRevalidated": 2,
+    "derivedTimerFramesRevalidated": 1,
+    "sourceAuditObjectsRevalidated": 7,
+    "publicationMetadataObjectsRevalidated": 1,
+    "originalMoviesRevalidated": 3,
+    "knownWrIdsAdded": 0
   },
   "evidence": [
     "archive/mii2024-original-preservation-and-source-review-20261015.json",
     "archive/mii2024-preserved-bounded-source-census-20261015.json",
     "archive/mii2024-posted-results-and-preserved-source-reconciliation-20261015.json",
-    "archive/mii2024-full-course-generation-and-source-field-preservation-20261015.json"
+    "archive/mii2024-full-course-generation-and-source-field-preservation-20261015.json",
+    "artifacts/mii2024-source-date-reconciliation-20261018.json",
+    "artifacts/mii2024-original-recording-publication-clock-reconciliation-20261018.json",
+    "artifacts/mii2024-all-supported-worksheet-and-carried-wr-source-clock-verification-20261018.json",
+    "artifacts/mii2024-publication-date-duration-and-scope-validation-20261018.json",
+    "artifacts/mii2024-source-date-and-original-image-r2-integrity-20261018.json",
+    "artifacts/mii2024-three-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/mii2024-wr-proof-and-recording-selection-validation-20261018.json",
+    "https://media.mktwrs.com/assets/proof/mii2024-live-publication-verification-20261018.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Repost receipts and video sharing events retain their independent clocks.",
   "remainingLimitations": [
-    "Prior image assessments retained by saved source and file association; no prior SHA256 was recorded for these 31 image files, so current hashes do not certify byte equality with the earlier review.",
-    "kuRi movie newly recovered from its original YouTube URL; previous finish assessment retained by source association, without a fresh visual or uninterrupted-race certification.",
-    "Course-panel 1:10.84 is stored-menu context, not a completed finish or dated WR.",
-    "Coconut Mall 1:14.65 belongs to the next tour source review; its May 29 06:38 submission is not reassigned to Mii availability.",
-    "Maple Treeway R 1:50.55 was posted nine seconds after close; exact source posting time retained.",
-    "Fresh Discord census not certified; surviving captured sources do not prove exhaustive worldwide history.",
-    "Preserved channel sources do not prove exhaustive worldwide history."
+    "26 of27 worksheet entries now have supported single public dates. mb3 MushroomBridge1:10.84 retains an attribution/date gap because the matching stored-menu source is anonymous.",
+    "NewYork1:49.29 and Kno2 1:10.37 carry into this tour. Both playable WR durations independently recompute across course appearances and include the fullMay15T06\u2013May29T06 window.",
+    "KuRi1:49.78 is dated at its preserved original video publicationMay25T13:20:36Z. Discord submission and sharing13:44:04.422Z remain separate. Fresh request for YouTube metadata required sign-in; hashed saved public metadata is retained.",
+    "KuRi archived video timer at117seconds reads1:49.78 with lap2/2 through machine OCR. Prior completed-result review is retained by source association. No fresh human visual or uninterrupted race certification.",
+    "32 original source images,2 carried result proofs,1 timer frame,1 preserved publication metadata object and7 source audits pass fullGET/hash/bytes/MIME/directRange206. All3 movie files pass hash and full decoding; Kno2 original and H264 playback transcode remain separate.",
+    "Original image assessments for the prior31 files remain associated with their saved source. Current hashes do not prove byte equality with an earlier visual review that recorded no SHA.",
+    "Kirio1:50.53 original is now recovered and machine OCR confirms total plusMaple course targets. It was postedMay29T12:40:19.246Z, after reset. Rui1:50.55 was postedMay29T06:00:09.618Z. Actual public clocks retained with zeroWRcredit.",
+    "CoconutMall1:14.65 postedMay29T06:38:05.562Z remains next-tour source-only evidence.",
+    "NewYork standingMaple1:49.29 has no known available movie; kuRi1:49.78 footage remains separately preserved.",
+    "Targeted source checks do not establish exhaustive worldwide history. Global2019\u20132026 archive remains in progress."
   ],
   "validation": {
-    "focusedTestsPassed": 15,
-    "fullGeneratedRowsMatched": 558,
-    "productionBuildExitCode": 0,
-    "livePublicationVerified": true,
-    "renderedR2UrlsReadable": 107,
-    "livePublicationAudit": "archive/mii2024-exact-live-publication-and-full-field-check-20261015.json"
+    "dateDurationAndProfileScopePassed": true,
+    "knownWrIdsPreserved": true,
+    "otherCourseFilesUnchanged": 140,
+    "playerProfilesUnchanged": true,
+    "sourceAndImageObjectsFullGetHashBytesMimeDirectRangeVerified": 43,
+    "originalImageUrlsVerified": 32,
+    "threeMoviesFullGetHashBytesMimeRangeAndDecodePassed": true,
+    "all26SupportedWorksheetSourceClocksVerified": true,
+    "twoCarriedWrOriginalPostingClocksFreshlyVerified": true,
+    "postDeploymentVerificationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mii2024-live-publication-verification-20261018.json",
+    "mediaBrowserTabsOpened": false,
+    "videoRegressionTestsPassed": 14,
+    "freshBoundedDiscordCensusClaimed": false
   },
   "nextTourId": "tour-123",
-  "latestLivePublicationAudit": "archive/mii2024-exact-live-publication-and-full-field-check-20261015.json"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-15",
+    "coverage": {
+      "indexedAttachments": 31,
+      "availableOriginalImages": 31,
+      "currentImagePerformances": 29,
+      "storedMenuContext": 1,
+      "nextTourSourceOnlyImages": 1,
+      "currentCompletedMoviePerformances": 1,
+      "currentMoviesPreserved": 1,
+      "carriedRecordingPerformances": 1,
+      "carriedRecordingFilesPreserved": 2,
+      "r2FilesVerified": 34,
+      "existingWrIdsRetained": 25,
+      "newWrIds": 0,
+      "savedDiscussionRows": 4,
+      "boundedPreservedDiscussionRows": 4,
+      "savedSubmissionAttachmentRows": 31,
+      "freshBrowserCensusCompleted": false,
+      "knownWorksheetRows": 27,
+      "knownWorksheetRowsDated": 26,
+      "remainingUndatedWorksheetRows": 1,
+      "currentWindowWrEntries": 0,
+      "carriedWrEntriesDateAndDurationReviewed": 2,
+      "originalImageEntriesRevalidated": 32,
+      "preservedProofAndSourceObjectsVerified": 43,
+      "carriedProofObjectsRevalidated": 2,
+      "derivedTimerFramesRevalidated": 1,
+      "sourceAuditObjectsRevalidated": 7,
+      "publicationMetadataObjectsRevalidated": 1,
+      "originalMoviesRevalidated": 3,
+      "knownWrIdsAdded": 0
+    },
+    "validation": {
+      "focusedTestsPassed": 15,
+      "fullGeneratedRowsMatched": 558,
+      "productionBuildExitCode": 0,
+      "livePublicationVerified": true,
+      "renderedR2UrlsReadable": 107,
+      "livePublicationAudit": "archive/mii2024-exact-live-publication-and-full-field-check-20261015.json"
+    },
+    "remainingLimitations": [
+      "Prior image assessments retained by saved source and file association; no prior SHA256 was recorded for these 31 image files, so current hashes do not certify byte equality with the earlier review.",
+      "kuRi movie newly recovered from its original YouTube URL; previous finish assessment retained by source association, without a fresh visual or uninterrupted-race certification.",
+      "Course-panel 1:10.84 is stored-menu context, not a completed finish or dated WR.",
+      "Coconut Mall 1:14.65 belongs to the next tour source review; its May 29 06:38 submission is not reassigned to Mii availability.",
+      "Maple Treeway R 1:50.55 was posted nine seconds after close; exact source posting time retained.",
+      "Fresh Discord census not certified; surviving captured sources do not prove exhaustive worldwide history.",
+      "Preserved channel sources do not prove exhaustive worldwide history."
+    ]
+  },
+  "knownWrReviewComplete": true,
+  "livePublicationEvidenceUrl": "https://media.mktwrs.com/assets/proof/mii2024-live-publication-verification-20261018.json",
+  "remainingSourceGaps": [
+    {
+      "id": "sheet-BQR20",
+      "courseId": "gcn-mushroom-bridge",
+      "playerId": "mb3",
+      "time": "1:10.84",
+      "reason": "Stored course-panel total is posted by Deleted User. No identity proof supports worksheet attribution; retain original source clock without assigning a player/date to the worksheet."
+    },
+    {
+      "id": "maple-wr-movie",
+      "time": "1:49.29",
+      "reason": "Carried NewYork WR has no known available race video; slower kuRi1:49.78 result footage is separately archived."
+    },
+    {
+      "id": "late-posts",
+      "sourceMessageIds": [
+        "1245255343508815904",
+        "1245356047187574855"
+      ],
+      "reason": "Sources posted after May29T06 reset; actual posting dates retained without inventing earlier private achievement."
+    },
+    {
+      "id": "private-achievement-and-worldwide-history",
+      "reason": "Public posting or publication dates do not certify private race dates or exhaustive worldwide history."
+    }
+  ]
 }
