@@ -1,8 +1,8 @@
 {
   "tourId": "tour-83",
   "tour": "Animal Tour (2022)",
-  "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "status": "known-wr-review-closed-with-source-gap",
+  "completedAt": "2026-10-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -35,12 +35,12 @@
       "wrAnnouncedAt": "2022-12-17T03:57:02.355Z",
       "exactWrAchievementDateUnknown": true,
       "individualFinalProofUnavailable": true,
-      "fastestPreviouslyReviewedAvailableRecording": "1:30.67",
-      "recordingPlayerId": "player-e38199e38184e3819df09f90ba",
+      "fastestPreviouslyReviewedAvailableRecording": "1:30.62",
+      "recordingPlayerId": "nu11",
       "fastestUploaderReportedAvailableRecording": "1:30.62",
       "reportedRecordingPlayerId": "nu11",
       "reportedRecordingPublishedAt": "2022-11-29T14:36:43Z",
-      "reportedRecordingVisuallyVerified": false,
+      "reportedRecordingVisuallyVerified": true,
       "finalWrFootageRecovered": false,
       "openingTimedSubmissionRecovered": true,
       "openingLeader": {
@@ -53,10 +53,12 @@
         "Sucha1:30.91",
         "Sucha1:30.81",
         "Sucha1:30.71",
+        "Wins1:30.71(tie)",
+        "Wins1:30.68",
         "Wins1:30.64",
         "Nu111:30.47"
       ],
-      "qualification": "Final1:30.47 assigned byDecember17 announcement; unknown original achievement date. November29video explicitly reports distinct1:30.62, uploader says actualWR faster and not recorded. Sucha1:30.91 recovered from accepted response and own matching video title, no fresh pixel certification."
+      "qualification": "November29 original video1:30.62 sampled at start, first lap45.39 and result1:30.62. Distinct from final1:30.47. December17 final announcement supplies documented WR clock; earlier achievement unknown."
     }
   ],
   "coverage": {
@@ -69,42 +71,34 @@
     "recoveredEarlierProgressionEntries": 1,
     "recoveredDocumentaryLeaders": 1,
     "generatedReviewedRowsCompared": 137,
-    "materialFieldDifferences": 0
+    "materialFieldDifferences": 0,
+    "newSourceDatesReconciled": 8,
+    "knownWrChangesReviewed": 8,
+    "originalVideosPreservedOnR2": 5,
+    "knownWrEntriesReviewed": 9,
+    "recoveredTiedWrEntries": 1
   },
   "validation": {
-    "renderedSupportingEntries": {
-      "n64-choco-mountain": 38,
-      "n64-yoshi-valley-r": 56
-    },
-    "renderedPreservedEvidenceLinksReadable": 38,
-    "wrEvidenceEntries": 7,
-    "wrProofImagesReadable": 4,
-    "wrReportedVideoLinksReadable": 1,
-    "wrAuthenticatedDocumentarySourcesReviewed": 2,
-    "failedLinks": 0,
-    "productionBuildPages": 891,
-    "focusedVideoAndOpeningTestsPassed": 15,
-    "completionLabelLiveVerified": true,
-    "livePreservedEvidenceLinksReadable": 38,
-    "liveSupportingEntries": {
-      "n64-choco-mountain": 38,
-      "n64-yoshi-valley-r": 56
-    },
-    "liveWrEvidenceEntries": 7,
-    "liveReadableWrImageAndVideoLinks": 5,
-    "liveAuthenticatedDocumentarySourceHrefs": 2
+    "knownWrDatesAndDurationsReviewed": true,
+    "documentedWorksheetDates": 56,
+    "knownWorksheetRows": 57,
+    "remainingSourceGapCount": 1,
+    "originalVideoFullGetHashBytesMimeAndRangeVerified": 5,
+    "originalVideosFullyDecoded": 5,
+    "knownWrImageR2ObjectsVerified": 7,
+    "newRawProofAndReviewR2ObjectsVerified": 12,
+    "sampledVideoResultsAndLapSplitsVisuallyReviewed": 2,
+    "fullFrameContinuityAuditPerformed": false,
+    "other140CoursesUnchanged": true,
+    "productionBuildPassed": true,
+    "productionBuildPages": 892
   },
   "remainingLimitations": [
-    "Choco1:18.37 is documented onNovember21 underKaguya and mapped toNu11 by the preserved sheet. Exact achievement date is unknown and may predate this tour; no original individual proof recovered.",
-    "Yoshi ValleyR finalNu111:30.47 is assigned toAnimal byDecember17 announcement; exact original achievement date and individual screenshot unavailable.",
-    "Nu11 linkedNovember29 recording is explicitly titled1:30.62. Uploader says faster WR not recorded. It is published separately, with no fresh visual result/lap or continuity certification.",
-    "Sucha1:30.91 accepted response and own matching video title recovered. Possible1:30.76 previous-best step remains undated; no exact WR interval inferred.",
-    "kuRi historical/current account continuity remains unproven; accepted historical source results retained without asserting account continuity.",
-    "Okusho1:31.30 lacks resolved runner identity; same-total DeletedUser image afterNovember30 rollover is not merged with Okusho.",
-    "Sucha1:31.10 sheet result lacks exact original source; Manfredi1:34.02 is corroborated only byNovember27 leaderboard, with unknown original submission clock.",
-    "ChocoNu11 old1:18.72 recording reference and SuperFX1:18.85 mismatched link remain qualified. Prior-reviewed availableSuperFX1:18.93 footage displayed; later2024 footage is outsideAnimal scope.",
-    "Only final fastest recovered opening-day result/ties published. Worldwide opening and intermediate completeness remain unproven.",
-    "Prior sampled image/video reviews retained. Current image gateway omitted sampled images; file decodes and R2 byte checks do not prove fresh race continuity."
+    "Okusho AQV45 1:31.30 lacks a proven runner identity linking the matching Deleted User image. Retain the source gap without borrowing its date.",
+    "Final Nu11 1:30.47 is documented by the December17 announcement; unknown earlier achievement retained. Durations use that publication clock, without attributing an earlier reign.",
+    "Choco1:18.37 uses the November21 documented leaderboard observation; unknown private achievement retained.",
+    "Historical kuRi account matches original 2022 worksheet results. Continuity with the current account remains unproven.",
+    "Worldwide deleted/private or unposted intermediate runs are not proven exhaustive."
   ],
   "evidence": [
     "archive/animal2022-practical-source-disposition-index-20261013.json",
@@ -119,8 +113,62 @@
     "archive/animal2022-preserved-proof-and-video-build-link-audit-20261013.json",
     "archive/animal2022-completion-label-build-check-20261013.json",
     "archive/animal2022-completion-label-live-check-20261013.json",
-    "archive/animal2022-rendered-proof-and-video-live-link-audit-20261013.json"
+    "archive/animal2022-rendered-proof-and-video-live-link-audit-20261013.json",
+    "artifacts/animal2022-eight-source-dates-and-publication-duration-reconciliation-20261018.json",
+    "artifacts/animal2022-two-original-video-result-and-lap-review-20261018.json",
+    "artifacts/animal2022-eight-date-original-proof-r2-integrity-20261018.json",
+    "artifacts/animal2022-five-preserved-videos-full-get-and-decode-review-20261018.json",
+    "artifacts/animal2022-restored-wins-tie-and-improvement-source-review-20261018.json",
+    "artifacts/animal2022-seven-known-wr-image-r2-availability-review-20261018.json"
   ],
   "nextTourId": "tour-84",
-  "sourceCommit": "79d8c84727c427e1f02605ef9a9639c3454e9ae3"
+  "priorPracticalReview": {
+    "completedAt": "2026-10-13",
+    "remainingLimitations": [
+      "Choco1:18.37 is documented onNovember21 underKaguya and mapped toNu11 by the preserved sheet. Exact achievement date is unknown and may predate this tour; no original individual proof recovered.",
+      "Yoshi ValleyR finalNu111:30.47 is assigned toAnimal byDecember17 announcement; exact original achievement date and individual screenshot unavailable.",
+      "Nu11 linkedNovember29 recording is explicitly titled1:30.62. Uploader says faster WR not recorded. It is published separately, with no fresh visual result/lap or continuity certification.",
+      "Sucha1:30.91 accepted response and own matching video title recovered. Possible1:30.76 previous-best step remains undated; no exact WR interval inferred.",
+      "kuRi historical/current account continuity remains unproven; accepted historical source results retained without asserting account continuity.",
+      "Okusho1:31.30 lacks resolved runner identity; same-total DeletedUser image afterNovember30 rollover is not merged with Okusho.",
+      "Sucha1:31.10 sheet result lacks exact original source; Manfredi1:34.02 is corroborated only byNovember27 leaderboard, with unknown original submission clock.",
+      "ChocoNu11 old1:18.72 recording reference and SuperFX1:18.85 mismatched link remain qualified. Prior-reviewed availableSuperFX1:18.93 footage displayed; later2024 footage is outsideAnimal scope.",
+      "Only final fastest recovered opening-day result/ties published. Worldwide opening and intermediate completeness remain unproven.",
+      "Prior sampled image/video reviews retained. Current image gateway omitted sampled images; file decodes and R2 byte checks do not prove fresh race continuity."
+    ],
+    "validation": {
+      "renderedSupportingEntries": {
+        "n64-choco-mountain": 38,
+        "n64-yoshi-valley-r": 56
+      },
+      "renderedPreservedEvidenceLinksReadable": 38,
+      "wrEvidenceEntries": 7,
+      "wrProofImagesReadable": 4,
+      "wrReportedVideoLinksReadable": 1,
+      "wrAuthenticatedDocumentarySourcesReviewed": 2,
+      "failedLinks": 0,
+      "productionBuildPages": 891,
+      "focusedVideoAndOpeningTestsPassed": 15,
+      "completionLabelLiveVerified": true,
+      "livePreservedEvidenceLinksReadable": 38,
+      "liveSupportingEntries": {
+        "n64-choco-mountain": 38,
+        "n64-yoshi-valley-r": 56
+      },
+      "liveWrEvidenceEntries": 7,
+      "liveReadableWrImageAndVideoLinks": 5,
+      "liveAuthenticatedDocumentarySourceHrefs": 2
+    }
+  },
+  "knownWrReviewComplete": true,
+  "knownWorksheetRows": 57,
+  "worksheetRowsWithDocumentedDates": 56,
+  "remainingWorksheetSourceGaps": [
+    {
+      "id": "sheet-AQV45",
+      "playerId": "okusho",
+      "time": "1:31.30",
+      "reason": "Deleted User result has matching course/time but no proven Okusho identity; no borrowed date."
+    }
+  ]
 }
