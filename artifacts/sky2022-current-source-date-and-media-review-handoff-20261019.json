@@ -1,0 +1,61 @@
+{
+  "tourId": "tour-64",
+  "preparedAt": "2026-10-19T22:21:23.584666+00:00",
+  "sourceCommit": "bb9eeeaaa48516677113f26d2add27f704c83802",
+  "priorTourCompletionReceiptURL": "https://media.mktwrs.com/assets/proof/losangeles2022-final-known-source-date-duration-and15-video-review-live-receipt-20261019.json",
+  "window": {
+    "start": "2022-02-23T06:00:00Z",
+    "endExclusive": "2022-03-09T06:00:00Z"
+  },
+  "courses": [
+    {
+      "courseId": "rmx-ghost-valley-1r",
+      "records": 10,
+      "submissions": 132,
+      "candidates": 0,
+      "currentTourWorksheetPrefix": "AGB",
+      "currentTourWorksheetRows": 64,
+      "currentTourUndatedWorksheetRows": 15
+    }
+  ],
+  "preservedSourceInputs": [
+    {
+      "path": "archive/sky2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+      "sha256": "65b0f3bccfc77f4f60512d88b3c89c9d0930cab401bfe006b10a55c95c5a9d36"
+    },
+    {
+      "path": "archive/sky2022-discussion-media-integrity-index-20261013.json",
+      "sha256": "5ce4e6df5406ee6cae3f19c91042da9053500c8196944cb1f2bc58b02a608dbd"
+    },
+    {
+      "path": "archive/sky-2022-reconciliation.json",
+      "sha256": "d064e88b943d627437541171fc9ce6ae4c9e9dbdd49f1af5ee4b992eeb690a6b"
+    },
+    {
+      "path": "archive/sky2022-all-original-video-upload-share-clocks-20261013.json",
+      "sha256": "3d7c0e00cd723d3ccfafd84d6182fece97986c4d277906c64067de92be1362bd"
+    },
+    {
+      "path": "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+      "sha256": "bad6592b4969c9ad608edb3f0974958e22d2089f0ba778c17b90e110d707ae1b"
+    },
+    {
+      "path": "archive/sky-2022-capture-audit.json",
+      "sha256": "28b8450e777645b52efe7097c6cdb7fec654c8d4d925ff3026ae8a01360a09da"
+    },
+    {
+      "path": "archive/sky2022-fortyone-original-command-receipt-sheet-reconciliation-20261011.json",
+      "sha256": "5a1f8259446e8cd719a41ba14ddbd50a4c8de2bf04e5eaddf078e298c828253f"
+    },
+    {
+      "path": "archive/sky2022-sixty-three-leaderboard-player-time-source-crosswalk-20261009.json",
+      "sha256": "1066c5bb404f3cdb5c1bda8df80aeb9500d530e548cbbebd6800cff69afa1102"
+    },
+    {
+      "path": "archive/sky2022-march1-thirty-rank-original-source-crosswalk-20261011.json",
+      "sha256": "42dcfc3959cd51737312ee6857d5bfc16ccedf75bde9a45348e549bf99e0e2c4"
+    }
+  ],
+  "nextAction": "Reuse prior original command/receipt and decorated-name reconciliations before searching for missing AGB dates. Validate exact same-player totals against dated original source or literal named final table. Filter discussion-media integrity input to images for image decode; retain video references separately. Revalidate playable durations and available R2 originals, publish exact isolated bytes, then verify live pages/proofs and save R2 receipt before next tour.",
+  "wholeGoalComplete": false
+}

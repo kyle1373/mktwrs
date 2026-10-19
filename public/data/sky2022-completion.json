@@ -2,8 +2,8 @@
   "tourId": "tour-64",
   "tour": "Sky Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with supported submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2022-02-23T06:00:00Z",
@@ -36,7 +36,16 @@
     "archive/sky2022-exact-window-discussion-source-index-20261013.json",
     "archive/sky2022-preserved-submission-source-integrity-crosswalk-20261013.json",
     "archive/sky2022-final-publication-audit-20261013.json",
-    "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/sky2022-final-known-source-date-duration-and6-video-review-20261019.json",
+    "artifacts/sky2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/sky2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/sky2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/sky2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/sky2022-all6-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/sky2022-all113-original-source-images-r2-preservation-20261019.json",
+    "artifacts/sky2022-fresh-finish-screens-and-retained-named-reports-20261019.json",
+    "artifacts/sky2022-retained-worksheet-source-gaps-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/sky-2022-reconciliation.json",
@@ -74,7 +83,8 @@
     "Five supporting image originals unavailable on authenticated browser retrieval; source links and original references retained, image unavailable shown.",
     "Five completed original recordings and one technique clip preserved on R2. Partial clips do not establish completed race totals.",
     "One selected full recording freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "Current detailed review:61 of64 current worksheet entries have documented report dates,12 newly dated. Sucha1:01.60, Dome1:01.65 and Peachii1:01.62 retain source gaps. Named submission/report dates are used without inventing private race dates. All113 saved image paths passed full-byte SHA and image decode checks; processed or historically hash-unproven files are not claimed original-upload byte identity. All6 saved videos passed full-byte SHA, full decode and206seeking: five completed runs and one technique clip. Final Spart1:01.50 footage is preserved; Wins1:01.54 remains a slower personal best. Three unavailable original attachment references remain documented. Supplemental OCR is distinct from literal visual review; omitted viewer images are not treated as fresh reads. Full worldwide history and all original footage remain unproven."
   ],
   "validation": {
     "liveSnapshotRows": 142,
@@ -91,7 +101,7 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "b310f669fec6a1813d5677247d46807fe7bcf97e",
-  "latestPublicationAudit": "archive/sky2022-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/sky2022-final-known-source-date-duration-and6-video-review-20261019.json",
   "videoPreservationReview": {
     "checkedAt": "2026-10-17T06:48:56.771Z",
     "audit": "artifacts/sky2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
@@ -114,5 +124,44 @@
     "canonicalRecordedResultsWithSourceDateAndDurationChecks": 4,
     "previousBestDateGapsRemain": true,
     "historyComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/sky2022-final-known-source-date-duration-and6-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/sky2022-final-known-source-date-duration-and6-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 12,
+    "sourceRowsMatched": 12,
+    "sourceClockRowsVerified": 139,
+    "durationRowsVerified": 142,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "rmx-ghost-valley-1r",
+        "id": "sheet-AGB73",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "time": "1:01.60",
+        "reason": "No exact same-player dated original or named standings report. Date remains unsupported; no private run date inferred."
+      },
+      {
+        "courseId": "rmx-ghost-valley-1r",
+        "id": "sheet-AGB74",
+        "playerId": "dome-1909",
+        "time": "1:01.65",
+        "reason": "No exact same-player dated original or named standings report. Date remains unsupported; no private run date inferred."
+      },
+      {
+        "courseId": "rmx-ghost-valley-1r",
+        "id": "sheet-AGB75",
+        "playerId": "peachii",
+        "time": "1:01.62",
+        "reason": "No exact same-player dated original or named standings report. Date remains unsupported; no private run date inferred."
+      }
+    ],
+    "indexedSourceImageFiles": 113,
+    "totalPreservedSourceFiles": 113,
+    "distinctSourceHashes": 110,
+    "storedVideoObjects": 6,
+    "distinctStoredVideoHashes": 6,
+    "rawPublicationPatchesAdded": 12
   }
 }
