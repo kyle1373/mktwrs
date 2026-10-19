@@ -2,8 +2,8 @@
   "tourId": "tour-53",
   "tour": "2nd Anniversary Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable-time durations, preserved available original evidence and explicit source gaps; no exhaustive worldwide-history claim.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-09-22T06:00:00Z",
@@ -47,7 +47,16 @@
     "archive/anniversary2021-ten-original-video-upload-clocks-20261013.json",
     "archive/anniversary2021-canonical-extra-submission-snapshot-reconciliation-20261013.json",
     "archive/anniversary2021-docker-publication-patch-inclusion-fix-20261013.json",
-    "artifacts/anniversary2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/anniversary2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/anniversary2021-final-known-source-date-duration-and13-video-review-20261019.json",
+    "artifacts/anniversary2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/anniversary2021-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/anniversary2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/anniversary2021-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/anniversary2021-all13-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/anniversary2021-source-identity-and-late-publication-review-20261019.json",
+    "artifacts/anniversary2021-two-late-original-results-r2-preservation-20261019.json",
+    "artifacts/anniversary2021-four-final-leaderboard-originals-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/second-anniversary-2021-reconciliation.json",
@@ -100,7 +109,8 @@
     "Prior lap, route and full-race assessments retained; fresh hashes and public access verified.",
     "No claim that unavailable streams or worldwide recordings were exhausted.",
     "Three partial technique clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
-    "All thirteen R2 objects passed full SHA256 and byte-length checks: ten completed runs and three partial clips. Both final WR recordings are preserved. Slower personal-best videos remain separately attributed; exact race dates and deleted/private or unindexed source history remain qualified."
+    "All thirteen R2 objects passed full SHA256 and byte-length checks: ten completed runs and three partial clips. Both final WR recordings are preserved. Slower personal-best videos remain separately attributed; exact race dates and deleted/private or unindexed source history remain qualified.",
+    "Two TS1573 worksheet entries still lack supported named dated evidence; matching deleted-account images remain preserved without inferred attribution.53 new worksheet dates and five existing dates are supported by58 reviewed sources.163 image files include four final-leaderboard originals and two late Nu11 result images. Late submissions remain eligible; leaderboard dates are publication dates, not invented earlier race dates or WR reigns.13 preserved video files contain10 completed runs and3 partial clips; both final WR recordings are preserved."
   ],
   "validation": {
     "liveSnapshotRows": 423,
@@ -131,5 +141,37 @@
     "tourPartialClips": 3,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/anniversary2021-final-known-source-date-duration-and13-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/anniversary2021-final-known-source-date-duration-and13-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 53,
+    "sourceRowsMatched": 58,
+    "sourceClockRowsVerified": 391,
+    "durationRowsVerified": 405,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "berlin-byways-2",
+        "id": "sheet-YB21",
+        "playerId": "ts1573",
+        "time": "1:23.82",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "sydney-sprint",
+        "id": "sheet-XT21",
+        "playerId": "ts1573",
+        "time": "1:29.60",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      }
+    ],
+    "indexedSourceImageFiles": 157,
+    "totalPreservedSourceFiles": 163,
+    "distinctSourceHashes": 162,
+    "storedVideoObjects": 13,
+    "distinctStoredVideoHashes": 13,
+    "sourceProofPreservationPatches": 58
   }
 }
