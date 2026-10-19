@@ -61,13 +61,16 @@ test('Nu11 original result UTC date and calibrated forum report survive actual r
  assert.doesNotMatch(html,/timezone unknown/);
  assert.match(html,/2019-10-30 01:03:49 UTC/);
 });
-test('Nova forum edit crosses UTC midnight while the earlier documentary date remains',()=>{
+test('Nova date follows original forum posting while the later edit remains separate',()=>{
  const r=routeData(['course','3ds-toad-circuit']).data.records.find(r=>r.id==='curated-original-2019-wr-row-18');
  assert.equal(r.finalDate,'2019-10-24');
- assert.equal(r.documentedAt,null);
+ assert.equal(r.documentedAt,'2019-10-24T21:24:39.000Z');
+ assert.equal(r.durationDays,0.4030902777777778);
+ assert.equal(r.durationBounds.minDays,r.durationBounds.maxDays);
  const html=render(r);
  assert.match(html,/2019-10-24 21:24:39 UTC/);
  assert.match(html,/Last forum edit: 2019-10-25 00:03:39 UTC/);
+ assert.match(html,/Original forum report posting clock used as the submission date/);
  assert.match(html,/Historical edit contents remain unconfirmed/);
  assert.doesNotMatch(html,/Submitted:/);
 });

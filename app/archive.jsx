@@ -56,6 +56,8 @@ function EvidenceTimes({ r }) {
       <div>Dates follow the surviving posts. Historical edit contents remain unconfirmed.</div>
     </div>)}
 
+    {r.forumPostingDatePolicy && <div>Original forum report posting clock used as the submission date; exact race time and earlier video publication time remain unconfirmed.</div>}
+
     {r.originalWorksheetProofUpload && <div>
       Original worksheet proof uploaded: <a href={r.originalWorksheetProofUpload.reviewURL} target="_blank" rel="noopener noreferrer">{format(r.originalWorksheetProofUpload.uploadedAt)}</a>
       <div>Date follows this original proof upload.</div>

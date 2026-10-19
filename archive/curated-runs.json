@@ -13390,10 +13390,11 @@
     "evidenceNote": "Documented in the 2019 WR history; original proof unavailable or not yet recovered.",
     "notes": [
       "Explicitly listed as a successive world record in the contemporary WR history updated November 1, 2019. This is documentary confirmation, not a newly verified screenshot.",
-      "Date and lap 1 are transcribed from that WR-history row. The source labels its clock CST while some October entries align with daylight time; the source clock is retained without inventing an exact UTC achievement timestamp.",
       "The original proof file is unavailable or has not yet been recovered. Its reference is retained for future recovery.",
       "Lap 2 32.42 is calculated from documented total 1:04.99 minus the lap 1 32.57 in the same contemporary WR-history row; no new screenshot or exact time-of-day claim.",
-      "Recovered January 13, 2025 Wayback snapshot of the original YouTube reference stores player status ERROR (“Video nicht verfügbar” / video unavailable), with no videoDetails or publication date. This scoped historical availability observation does not establish permanent loss; original recording recovery remains pending."
+      "Recovered January 13, 2025 Wayback snapshot of the original YouTube reference stores player status ERROR (“Video nicht verfügbar” / video unavailable), with no videoDetails or publication date. This scoped historical availability observation does not establish permanent loss; original recording recovery remains pending.",
+      "Lap 2 calculated as total minus the other recorded lap.",
+      "Public date and documented playable duration use the surviving forum report original posting timestamp under the source-posting-date convention. Original worksheet local clock and later forum edit remain separately preserved; the unedited historical contents, earlier video publication clock and exact private race finish are unconfirmed."
     ],
     "videoShareEvents": [
       {
@@ -13443,7 +13444,33 @@
       "publicationDatePresent": false,
       "recordingRecovered": false,
       "permanentLossEstablished": false
-    }
+    },
+    "originalForumReportPostingClockReview": {
+      "reviewArtifact": "artifacts/halloween2019-nova10499-original-forum-report-posting-clock-reconciliation-20261019.json",
+      "reviewURL": "https://media.mktwrs.com/assets/proof/halloween2019-nova10499-original-forum-report-posting-clock-reconciliation-20261019.json",
+      "sourceURL": "https://www.mariokart64.com/cgi-bin/yabb2/YaBB.pl?num=1571823398/25#25",
+      "sourceReportedRunner": "Nova",
+      "sourceReportedTime": "1:04.99",
+      "sourceVideoURL": "https://youtu.be/oW-jyVSXs8s",
+      "postedAt": "2019-10-24T21:24:39.000Z",
+      "lastEditAt": "2019-10-25T00:03:39.000Z",
+      "originalPostedAtDisplayed": "10/24/19 at 13:24:39",
+      "originalLastEditDisplayed": "10/24/19 at 16:03:39",
+      "forumGuestOffset": "-08:00",
+      "clockCalibrationReview": "artifacts/halloween2019-forum-timezone-and-nu11-original-date-source-reconciliation-20261019.json",
+      "originalWorksheetDate": "2019-10-24",
+      "originalWorksheetClock": "12:27:00",
+      "originalWorksheetZoneLabel": "CST",
+      "sourceSnapshot": "archive/kaguya-halloween-original-pages/forum-thread.html",
+      "sourceSha256": "cab9a4ed792d4ce53e94e78fe72f7309e64740c00ae07194446d8c12ba448841",
+      "datePolicy": "Use the surviving report original posting clock as default submission/report date unless an earlier supported absolute publication timestamp is established.",
+      "originalUneditedContentsConfirmed": false,
+      "exactPrivateRaceTimeEstablished": false,
+      "originalVideoPublicationTimeEstablished": false,
+      "originalVideoRecovered": false,
+      "earlierLocalWorksheetClockRetained": true
+    },
+    "dateBasis": "reviewed-contemporary-forum-report-posted-at"
   },
   {
     "messageId": "original-2019-wr-row-21",

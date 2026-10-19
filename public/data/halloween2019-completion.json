@@ -2,10 +2,9 @@
   "tourId": "tour-3",
   "tour": "Halloween Tour (2019)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-12",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical proof standard: existing documentary and prior reviewed evidence accepted; unavailable originals, conflicting proofs and unknown dates retained as limitations.",
   "exhaustiveHistoryProven": false,
-  "sourceCommit": "9721ec12",
   "window": {
     "start": "2019-10-23T06:00:00Z",
     "endExclusive": "2019-11-06T06:00:00Z"
@@ -39,7 +38,9 @@
     "archive/halloween2019-final-wr-previous-best-proof-regeneration-repair-20261012.json",
     "archive/halloween2019-two-unreal-sampled-recordings-and-nova-previous-best-proof-20261012.json",
     "archive/halloween2019-up-two-original-recording-sample-dispositions-20261012.json",
-    "archive/halloween2019-tome13443-selected-recording-r2-restoration-20261012.json"
+    "archive/halloween2019-tome13443-selected-recording-r2-restoration-20261012.json",
+    "https://media.mktwrs.com/assets/proof/halloween2019-nova10499-original-forum-report-posting-clock-reconciliation-20261019.json",
+    "https://media.mktwrs.com/assets/proof/halloween2019-two-original-proof-upload-clocks-final-live-preservation-receipt-20261019.json"
   ],
   "coverage": {
     "preservedServerMessages": 3757,
@@ -49,11 +50,12 @@
     "remainingSupportingSheetRows": 0
   },
   "remainingLimitations": [
-    "Six achievement-day uncertainties retained; original report/publication/share clocks remain separate.",
+    "Original private race dates are not established for all runs. Public dates follow the strongest reviewed original publication/report evidence. Dark 1:35.46 and Yerson 1:35.56 durations retain one-minute source precision; no seconds invented.",
     "Unavailable standalone originals retain contemporary documentary sources; matching later previous-best menus corroborate selected totals.",
     "Recordings directly sampled or prior-reviewed; full frame-by-frame uncut continuity and globally fastest recording are not certified.",
     "General streams screened using captions/context; not watched end-to-end. No distinct material WR lead identified beyond the reviewedCarlos openingTT segment; silent/mistranscribed footage may remain.",
-    "Preserved source coverage cannot establish absence of deleted or unindexed runs. These are accepted documented gaps under the requested practical standard."
+    "Preserved source coverage cannot establish absence of deleted or unindexed runs. These are accepted documented gaps under the requested practical standard.",
+    "Nova 1:04.99 uses the forum report original posting clock under the requested date convention; original unedited contents and earlier YouTube publication time remain unconfirmed."
   ],
   "nextTourId": "tour-4",
   "validation": {
@@ -77,5 +79,76 @@
     ],
     "datesAndDurationsUnchanged": true,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "priorPracticalCompletion": {
+    "completedAt": "2026-10-12",
+    "sourceCommit": "9721ec12",
+    "verifiedPublishedRows": 552,
+    "validation": {
+      "productionBuildPages": 891,
+      "importRegressionTestsPassed": 15,
+      "liveRegeneratedRows": 552,
+      "liveDifferences": 0,
+      "renderedR2LinksReadable": 26
+    },
+    "remainingLimitations": [
+      "Six achievement-day uncertainties retained; original report/publication/share clocks remain separate.",
+      "Unavailable standalone originals retain contemporary documentary sources; matching later previous-best menus corroborate selected totals.",
+      "Recordings directly sampled or prior-reviewed; full frame-by-frame uncut continuity and globally fastest recording are not certified.",
+      "General streams screened using captions/context; not watched end-to-end. No distinct material WR lead identified beyond the reviewedCarlos openingTT segment; silent/mistranscribed footage may remain.",
+      "Preserved source coverage cannot establish absence of deleted or unindexed runs. These are accepted documented gaps under the requested practical standard."
+    ]
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "sourceBaseCommit": "a99afc7091b825068282e0c96e4af1cb134e9d3b",
+  "latestDateDurationReview": {
+    "sourceReviewURL": "https://media.mktwrs.com/assets/proof/halloween2019-nova10499-original-forum-report-posting-clock-reconciliation-20261019.json",
+    "verificationReceiptURL": "https://media.mktwrs.com/assets/proof/halloween2019-known-wr-date-duration-review-final-live-receipt-20261019.json",
+    "datePolicy": "Known original publication/report clock supplies the public date and documented playable duration; exact private race finish is not asserted.",
+    "canonicalHalloweenWRRows": 61,
+    "remainingBoundedWRDurations": 2,
+    "remainingKnownUTCMinuteLimitedRows": [
+      {
+        "id": "curated-original-2019-wr-row-50",
+        "time": "1:35.56",
+        "durationBounds": {
+          "minDays": 0.3109596875,
+          "maxDays": 0.31165413194444447,
+          "start": {
+            "earliest": "2019-10-28T15:37:13.083Z",
+            "latest": "2019-10-28T15:37:13.083Z",
+            "basis": "reviewed-original-posting-timestamp",
+            "exact": true
+          },
+          "end": {
+            "earliest": "2019-10-28T23:05:00.000Z",
+            "latest": "2019-10-28T23:06:00.000Z"
+          },
+          "basis": "reviewed-original-posting-timestamp"
+        }
+      },
+      {
+        "id": "curated-639823450353041419-verified",
+        "time": "1:35.46",
+        "durationBounds": {
+          "minDays": 1.642673611111111,
+          "maxDays": 1.6433680555555557,
+          "start": {
+            "earliest": "2019-10-28T23:05:00.000Z",
+            "latest": "2019-10-28T23:06:00.000Z",
+            "basis": "documented-utc-publication-period",
+            "exact": false
+          },
+          "end": {
+            "earliest": "2019-10-30T14:31:27.000Z",
+            "latest": "2019-10-30T14:31:27.000Z"
+          },
+          "basis": "documented-utc-publication-period"
+        }
+      }
+    ],
+    "remainingBroaderSourceClockDependencies": 0,
+    "unavailableOriginalVideos": 4,
+    "originalEditedForumContentsUnconfirmed": true
   }
 }
