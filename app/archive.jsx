@@ -49,9 +49,10 @@ function EvidenceTimes({ r }) {
     {r.correctedReceiptAt && <div>Corrected submission receipt: {format(r.correctedReceiptAt)}</div>}
     {r.proofUploadedAt && <div>Evidence file uploaded: {format(r.proofUploadedAt)}</div>}
     {(r.forumSourceTimes || []).map(source => <div key={source.url}>
-      Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtDisplayed}</a>
+      Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtUTC ? format(source.forumPostedAtUTC) : source.forumPostedAtDisplayed}</a>
+      {source.forumPostedAtUTC && <div>Original forum display: {source.forumPostedAtDisplayed} (UTC{source.forumTimezoneOffset})</div>}
       {source.forumTimezoneKnown !== true && " (timezone unknown)"}
-      {source.forumLastEditDisplayed && <div>Last forum edit: {source.forumLastEditDisplayed}{source.forumTimezoneKnown !== true && " (timezone unknown)"}</div>}
+      {source.forumLastEditDisplayed && <div>Last forum edit: {source.forumLastEditUTC ? format(source.forumLastEditUTC) : source.forumLastEditDisplayed}{source.forumTimezoneKnown !== true && " (timezone unknown)"}</div>}
       <div>Dates follow the surviving posts. Historical edit contents remain unconfirmed.</div>
     </div>)}
 
@@ -324,7 +325,7 @@ function RecordTable({ records, players, events = [], showCourse = false, clean 
                     )}
                     <td>
                       <Time record={r} />
-
+                      <EvidenceTimes r={r} />
                     </td>
                     <td>
                       <Player id={r.playerId} players={players} />

@@ -49,3 +49,25 @@ test('report-only evidence renders without inventing submission or video clocks'
  assert.match(html,/2019-10-27 08:02:16 UTC/);
  assert.doesNotMatch(html,/Submitted:|Video published:|Video shared:/);
 });
+
+
+test('Nu11 original result UTC date and calibrated forum report survive actual route projection',()=>{
+ const r=routeData(['course','3ds-toad-circuit']).data.records.find(r=>r.id==='896332014423261204');
+ assert.equal(r.finalDate,'2019-10-30');
+ assert.equal(r.documentedAt,'2019-10-30T01:03:49.000Z');
+ const html=render(r);
+ assert.match(html,/2019-10-30 03:38:13 UTC/);
+ assert.match(html,/Original forum display: 10\/29\/19 at 19:38:13 \(UTC-08:00\)/);
+ assert.doesNotMatch(html,/timezone unknown/);
+ assert.match(html,/2019-10-30 01:03:49 UTC/);
+});
+test('Nova forum edit crosses UTC midnight while the earlier documentary date remains',()=>{
+ const r=routeData(['course','3ds-toad-circuit']).data.records.find(r=>r.id==='curated-original-2019-wr-row-18');
+ assert.equal(r.finalDate,'2019-10-24');
+ assert.equal(r.documentedAt,null);
+ const html=render(r);
+ assert.match(html,/2019-10-24 21:24:39 UTC/);
+ assert.match(html,/Last forum edit: 2019-10-25 00:03:39 UTC/);
+ assert.match(html,/Historical edit contents remain unconfirmed/);
+ assert.doesNotMatch(html,/Submitted:/);
+});
