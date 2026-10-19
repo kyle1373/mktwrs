@@ -2,7 +2,7 @@
   "tourId": "tour-18",
   "tour": "Jungle Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: surviving result receipts,209freshdiscussion-image dispositions,32priorvisualreviews withfreshOCR,61additionalserverimage dispositions, sourceindexintegrity andlivepublicationchecked. Unavailableoriginals andunknowndates remainqualified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -30,7 +30,14 @@
     "archive/jungle2020-sixtyone-additional-server-image-dispositions-20261013.json",
     "archive/jungle2020-four-additional-completed-originals-r2-preservation-20261013.json",
     "archive/jungle2020-six-partial-originals-r2-preservation-20261013.json",
-    "archive/jungle2020-opening-day-policy-generation-check-20261013.json"
+    "archive/jungle2020-opening-day-policy-generation-check-20261013.json",
+    "artifacts/jungle2020-26-accepted-worksheet-dates-and-one-rejected-attribution-review-20261019.json",
+    "artifacts/jungle2020-five-final-standing-and-self-report-date-recoveries-20261019.json",
+    "artifacts/jungle2020-85-source-clocks-and-109-duration-intervals-independent-audit-20261019.json",
+    "artifacts/jungle2020-fifteen-original-videos-full-r2-hash-decode-and-range-review-20261019.json",
+    "artifacts/jungle2020-four-original-youtube-publication-clocks-20261019.json",
+    "artifacts/jungle2020-23-existing-proof-images-full-original-public-hash-and-decode-20261019.json",
+    "artifacts/jungle2020-four-unavailable-original-video-access-rechecks-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/jungle-2020-review-progress.json",
@@ -54,6 +61,7 @@
     "expandedImageHashesVerified": 378
   },
   "remainingLimitations": [
+    "24 worksheet entries still lack a supported dated source; retained as internal source gaps, with no race dates or WR profiles invented.",
     "Kazuo0:42.07full completedrecording unavailable; survivingKazuo lapclips remainpartial. Tomegome0:42.11isfastestverifiedcompletedfootage.",
     "209discussionimagesfreshlydispositioned;32priorvisualreviews retainedwithfreshOCRcrosschecks;other expandedservervisualreviewcarriedforward.",
     "Text-onlyopening44.09lead unresolved butsupersededopeningPBhistory omittedunderrequestedpolicy.",
@@ -68,12 +76,61 @@
     "finalResultImagesIntegrityVerified": 1,
     "openingDayPolicyPassed": true,
     "productionBuildPages": 891,
-    "openingWrGlobalLeaderCertified": false
+    "openingWrGlobalLeaderCertified": false,
+    "finalLiveReceiptURL": "https://media.mktwrs.com/assets/proof/jungle2020-source-duration-and-fifteen-video-review-final-live-receipt-20261019.json"
   },
   "nextTourId": "tour-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/jungle2020-final-publication-audit-20261013.json",
   "sourceDispositionAudit": "archive/jungle2020-discussion-image-publication-crosswalk-20261013.json",
-  "sourceCommit": "6fe4e428942fab72847a5abfdc68d1dbc088de09"
+  "sourceCommit": "6fe4e428942fab72847a5abfdc68d1dbc088de09",
+  "latestDateDurationReviewAt": "2026-10-19",
+  "knownCanonicalWRDateDurationReviewComplete": true,
+  "allSupportingDatesResolved": false,
+  "latestKnownSourceReview": {
+    "evidence": "artifacts/jungle2020-85-source-clocks-and-109-duration-intervals-independent-audit-20261019.json",
+    "newWorksheetPublicationDatesRecovered": 31,
+    "knownDatedSourceRowsIndependentlyMatched": 85,
+    "allStoredCourseDurationIntervalsIndependentlySummed": 109,
+    "remainingUndatedWorksheetRowIds": [
+      "sheet-BN14",
+      "sheet-BN15",
+      "sheet-BN16",
+      "sheet-BN22",
+      "sheet-BN31",
+      "sheet-BN32",
+      "sheet-BN33",
+      "sheet-BN35",
+      "sheet-BN36",
+      "sheet-BN37",
+      "sheet-BN39",
+      "sheet-BN40",
+      "sheet-BN43",
+      "sheet-BN44",
+      "sheet-BN48",
+      "sheet-BN52",
+      "sheet-BN54",
+      "sheet-BN55",
+      "sheet-BN60",
+      "sheet-BN63",
+      "sheet-BN65",
+      "sheet-BN66",
+      "sheet-BN67",
+      "sheet-BN70"
+    ],
+    "canonicalWRDatesTimesLapsDurationsAndAttributionsUnchanged": true,
+    "fourFinalStandingPublicationDatesAreRetrospectiveReportsNotRaceDates": true
+  },
+  "latestOriginalMediaReview": {
+    "evidence": "artifacts/jungle2020-fifteen-original-videos-full-r2-hash-decode-and-range-review-20261019.json",
+    "completedVideosVerified": 6,
+    "partialClipsVerified": 9,
+    "newR2OriginalsPreserved": 4,
+    "existingProofObjectsFullOriginalPublicHashAndDecodeVerified": 23,
+    "newWorksheetOriginalProofObjectsFullOriginalPublicHashAndDecodeVerified": 25,
+    "finalStandingOriginalProofPreserved": true,
+    "originalVideoPublicationClockRowsCorrected": 7,
+    "privateRaceTimesNotInferred": true
+  }
 }
