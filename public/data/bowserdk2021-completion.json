@@ -2,7 +2,7 @@
   "tourId": "tour-43",
   "tour": "Bowser vs. DK Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -73,7 +73,7 @@
   "remainingLimitations": [
     "Image indexing and keyword searches do not establish complete server-message coverage.",
     "Some previous-best dates and lap splits remain unresolved.",
-    "N’s qualified lap recollection is retained in notes, not treated as exact.",
+    "N\u2019s qualified lap recollection is retained in notes, not treated as exact.",
     "Two same-player reties are retained as submissions without inflating WR changes.",
     "Original Nu 1:29.85 video and first Kazuo 1:04.30 video post are unavailable; the latter has a surviving preserved repost.",
     "All three Kazuo final WRs have preserved footage. Kalimari original tweet deleted; May 15 surviving repost and May14 community copy retain earlier result date.",
@@ -99,7 +99,7 @@
   "nextTourId": "tour-44",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/bowserdk2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/bowserdk2021-final-known-source-date-duration-and22-video-review-20261019.json",
   "sourceDispositionAudit": "archive/bowserdk2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "d235b4d53525d64e9033e4eddf077fe98764f973",
   "videoPreservationReview": {
@@ -114,5 +114,32 @@
     "originalKalimariFirstPostBytesRecovered": false,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/bowserdk2021-final-known-source-date-duration-and22-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "audit": "artifacts/bowserdk2021-final-known-source-date-duration-and22-video-review-20261019.json",
+    "sourceClockAudit": "artifacts/bowserdk2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 53,
+    "sourceRowsMatched": 59,
+    "correctedPriorWorksheetDates": 0,
+    "remainingSupportingSourceGaps": 50,
+    "remainingActualWorksheetResultGaps": 16,
+    "remainingWorksheetPlaceholders": 34,
+    "currentTourExactSourceClockMismatches": 0
+  },
+  "sourceImagePreservationReview": {
+    "audit": "artifacts/bowserdk2021-all229-original-source-images-r2-preservation-20261019.json",
+    "originalSourceImages": 229,
+    "allFullPublicBytesAndDecodeVerified": true
+  },
+  "latestVideoPreservationReview": {
+    "audit": "artifacts/bowserdk2021-all22-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "originalObjects": 22,
+    "allFullPublicBytesDecodeAndRangeVerified": true,
+    "originalRecoveryCheckDate": "2026-10-17",
+    "allReferencedOriginalVideosArchived": false,
+    "originalKalimariFirstPostBytesRecovered": false
   }
 }
