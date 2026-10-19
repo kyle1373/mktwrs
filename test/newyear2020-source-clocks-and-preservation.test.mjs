@@ -1,0 +1,18 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));const report=read('artifacts/newyear2020-original-source-clock-and-duration-reconciliation-20261019.json');
+const courses=read('public/data/courses.json');
+test('New Year original post IDs independently establish all 4 selected posting clocks',()=>{
+ assert.equal(report.reviewedSourceRows.length,4);assert.equal(report.reviewedSourceRows.filter(r=>r.collection==='records').length,1);
+ for(const source of report.reviewedSourceRows){const c=courses.find(c=>c.id===source.courseId),r=c[source.collection].find(r=>r.id===source.id);const decoded=new Date(Number((BigInt(source.originalPostId)>>22n)+1288834974657n)).toISOString();assert.equal(r.documentedAt,decoded);assert.equal(r.finalDate,decoded.slice(0,10));assert.equal(r.finalDate,source.previousDocumentedAt.slice(0,10));assert.ok([r.source,...r.additionalSources||[]].some(s=>s.url===source.sourceURL));}
+});
+test('Every affected New Year duration independently sums only the documented playable intervals',()=>{
+ assert.equal(report.affectedDurations.length,2);
+ for(const source of report.affectedDurations){const c=courses.find(c=>c.id===source.courseId),r=c[source.collection].find(r=>r.id===source.id);for(const [field,intervals] of [['minDays',r.durationIntervalsGuaranteed],['maxDays',r.durationIntervalsPossible]]){const sum=intervals.reduce((total,x)=>total+(Date.parse(x.end)-Date.parse(x.start))/86400000,0);assert.ok(Math.abs(sum-r.durationBounds[field])<1e-10);for(const x of intervals)assert.ok(c.appearances.some(a=>a.startDate+'T06:00:00.000Z'<=x.start&&x.end<=a.endDate+'T06:00:00.000Z'));}assert.equal(r.durationDays,r.durationBounds.minDays);}
+});
+test('All 13 known New Year source rows retain a single supported date and numeric duration',()=>{
+ assert.equal(report.knownNewYearPostingRows.length,13);
+ for(const source of report.knownNewYearPostingRows){const c=courses.find(c=>c.id===source.courseId),r=c[source.collection].find(r=>r.id===source.id);assert.match(r.finalDate,/^\d{4}-\d{2}-\d{2}$/);assert.ok(Number.isFinite(r.durationDays));}
+ assert.equal(report.undatedUnassignedWorksheetRows.length,47);assert.ok(report.undatedUnassignedWorksheetRows.every(r=>r.hasKnownNewYearPost===false));
+});
+test('Accepted New Year WR clock match independently decoded original post IDs',()=>{assert.equal(report.reviewedCanonicalWRs.length,1);for(const source of report.reviewedCanonicalWRs){const r=courses.find(c=>c.id===source.courseId).records.find(r=>r.id===source.id);assert.equal(r.documentedAt,new Date(Number((BigInt(source.originalPostId)>>22n)+1288834974657n)).toISOString());}});
+test('Preserved first-lap technique remains separate from a certified completed race',()=>{const c=courses.find(c=>c.id==='ds-waluigi-pinball'),ref=c.coverage.sourceRecordingReferences.find(r=>r.id==='newyear2020-partial-first-lap-1213397220768145409');assert.equal(ref.raceTotal,null);assert.equal(ref.fullRaceVerified,false);assert.equal(ref.completedLapVerified,false);assert.equal(ref.backup.videoScope,'partial-first-lap-time-trial-technique');assert.equal(c.records.find(r=>r.id==='896332354845560832').video,null);const mapping=read('archive/video-backups.json')['x:1213397220768145409'];assert.equal(mapping.url,ref.backup.url);assert.equal(mapping.fullRaceVerified,false);const proof=read('artifacts/newyear2020-partial-first-lap-clip-r2-preservation-verification-20261019.json');assert.equal(proof.completedTime,null);assert.equal(proof.fullPublicBytesHashMatches,true);assert.equal(proof.decodeExitCode,0);});
