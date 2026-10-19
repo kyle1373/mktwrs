@@ -2,7 +2,7 @@
   "tourId": "tour-30",
   "tour": "Sunset Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -55,13 +55,18 @@
     "resultScreenClipsPreservedOnR2": 0,
     "discussionImageDispositions": 255,
     "discussionImageHashesVerified": 255,
-    "discussionMessagesIndexed": 2280
+    "discussionMessagesIndexed": 2280,
+    "allOriginalImagesFullBytesAndDecodeVerified": 255,
+    "originalVideoObjectsFullBytesDecodeAndRangeVerified": 5,
+    "fullCompletedPerformanceFiles": 4,
+    "partialTechniqueClips": 1
   },
   "remainingLimitations": [
-    "Neo Bowser City final 1:24.70 recording preserved. Royal Raceway final 1:33.97 footage unavailable; previous-best chronology qualified.",
-    "Previous-best dates and unavailable originals remain unresolved.",
-    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
-    "One technique clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+    "24 supporting worksheet rows have no supported date or attribution: 19 placeholder times and five actual results. Retained internally; no invented dates or new WR credit.",
+    "Nu11 original1:25.14 YouTube remains unavailable; its mismatched1:25.03 worksheet video link removed. saki7 original1:25.51 video preserved, with its wrong1:25.04 worksheet link removed.",
+    "Royal Raceway final1:33.97 recording and Kazuo1:34.38 original Twitch are unavailable. Other original video references remain inaccessible; all referenced original footage is not claimed preserved.",
+    "SpeedLN screenshots provide calendar dates only; local source timezones unconfirmed. No race timestamps invented.",
+    "Known source WR review closed under the practical evidence standard; exhaustive worldwide history is not proven."
   ],
   "validation": {
     "liveSnapshotRows": 419,
@@ -70,12 +75,17 @@
     "freshSelectedRecordingReviews": 1,
     "openingDayPolicyPassed": true,
     "productionBuildPages": 891,
-    "openingWrGlobalLeaderCertified": false
+    "openingWrGlobalLeaderCertified": false,
+    "focusedTestsPassed": 53,
+    "canonicalOriginalResultScreensRead": 9,
+    "courseRowDurationIntervalSumsAndPlayableWindowsVerified": 420,
+    "sourceClockRefinements": 2,
+    "canonicalClockAndDurationChanges": 2
   },
   "nextTourId": "tour-31",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/sunset2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/sunset2020-final-known-source-date-duration-and5-video-review-20261019.json",
   "sourceDispositionAudit": "archive/sunset2020-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "c56b2f76c117cb851c893b9b8a5add5d7b21e09c",
   "additionalVideoPreservation": {
@@ -110,5 +120,196 @@
         "previousReview": "archive/november2020-kazuo12488-original-wr-video-and-recovery-dispositions-20261005.json"
       }
     ]
-  }
+  },
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 98,
+  "worksheetDateCorrections": [
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ38",
+      "oldDate": "2020-11-04",
+      "newDate": "2020-11-17",
+      "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/778282935638949928"
+    }
+  ],
+  "remainingSupportingSourceGaps": [
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ13",
+      "playerId": "tomegome",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ14",
+      "playerId": "jibacha",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ15",
+      "playerId": "ryoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ16",
+      "playerId": "tokushima",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ20",
+      "playerId": "michinori",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ21",
+      "playerId": "marumo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ23",
+      "playerId": "pooh",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ25",
+      "playerId": "aruchan",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ26",
+      "playerId": "pi-reirei",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ41",
+      "playerId": "ryu",
+      "time": "1:25.91",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ66",
+      "playerId": "game-1909",
+      "time": "1:26.16",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "id": "sheet-HZ82",
+      "playerId": "littea",
+      "time": "1:26.89",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH13",
+      "playerId": "tomegome",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH14",
+      "playerId": "jibacha",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH15",
+      "playerId": "ryoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH16",
+      "playerId": "tokushima",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH20",
+      "playerId": "michinori",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH21",
+      "playerId": "marumo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH23",
+      "playerId": "pooh",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH24",
+      "playerId": "mugicoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH25",
+      "playerId": "aruchan",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH26",
+      "playerId": "pi-reirei",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH30",
+      "playerId": "ryu",
+      "time": "1:36.86",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "id": "sheet-IH50",
+      "playerId": "game-1909",
+      "time": "1:35.68",
+      "reason": "Named dated source or attribution remains unsupported"
+    }
+  ],
+  "allOriginalSourceImagesPreservedOnR2": 255,
+  "originalVideoObjectsPreservedOnR2": 5,
+  "allReferencedOriginalVideosArchived": false,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/sunset2020-final-known-source-date-duration-and5-video-review-live-receipt-20261019.json",
+  "priorRemainingLimitations": [
+    "Neo Bowser City final 1:24.70 recording preserved. Royal Raceway final 1:33.97 footage unavailable; previous-best chronology qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "One technique clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+  ]
 }
