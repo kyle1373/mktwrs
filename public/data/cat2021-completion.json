@@ -2,7 +2,7 @@
   "tourId": "tour-36",
   "tour": "Cat Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -93,20 +93,55 @@
   },
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/cat2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/cat2021-final-known-source-date-duration-and12-video-review-20261019.json",
   "sourceDispositionAudit": "archive/cat2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "9e680028349433df0003605fee99c630f633bba9",
   "videoPreservationReview": {
-    "checkedAt": "2026-10-17T03:48:53.367712+00:00",
-    "audit": "artifacts/cat2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-    "uniqueR2FilesVerified": 12,
-    "catTourFilesVerified": 10,
-    "earlierTourRepostFilesVerified": 2,
-    "newOriginalUploads": 0,
-    "canonicalVideoKeysWithR2": 0,
-    "canonicalVideoKeysWithUnresolvedRecovery": 2,
-    "allPublicFileBytesMatchLocalSha256": true,
-    "youtubeUploadsPerformed": 0,
-    "exhaustiveVideoPreservationComplete": false
+    "audit": "artifacts/cat2021-all12-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "originalObjects": 12,
+    "catTourObjects": 10,
+    "earlierTourRepostObjects": 2,
+    "allFullPublicBytesDecodeAndRangeVerified": true,
+    "unresolvedOriginalSources": [
+      {
+        "key": "x:1354944212110741511",
+        "originalUrl": "https://twitter.com/_kaguya_games/status/1354944212110741511",
+        "time": "1:50.09",
+        "playerId": "nu11",
+        "sourceCheck": "yt-dlp: No video could be found in this tweet",
+        "status": "source-returned-no-downloadable-video-recovery-unresolved",
+        "alternativeRecoveryProvenExhaustive": false
+      },
+      {
+        "key": "x:1358262309232144388",
+        "originalUrl": "https://twitter.com/_kaguya_games/status/1358262309232144388",
+        "time": "1:18.95",
+        "playerId": "nu11",
+        "sourceCheck": "yt-dlp: No video could be found in this tweet",
+        "status": "source-returned-no-downloadable-video-recovery-unresolved",
+        "alternativeRecoveryProvenExhaustive": false
+      }
+    ],
+    "originalRecoveryCheckDate": "2026-10-17",
+    "allReferencedOriginalVideosArchived": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/cat2021-final-known-source-date-duration-and12-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "audit": "artifacts/cat2021-final-known-source-date-duration-and12-video-review-20261019.json",
+    "sourceClockAudit": "artifacts/cat2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 67,
+    "sourceRowsMatched": 71,
+    "remainingSupportingSourceGaps": 37,
+    "remainingActualWorksheetResultGaps": 15,
+    "remainingWorksheetPlaceholders": 22,
+    "allWRDatesAndDurationsUnchanged": true,
+    "currentTourExactSourceClockMismatches": 0
+  },
+  "sourceImagePreservationReview": {
+    "audit": "artifacts/cat2021-all210-original-source-images-r2-preservation-20261019.json",
+    "originalSourceImages": 210,
+    "allFullPublicBytesAndDecodeVerified": true
   }
 }
