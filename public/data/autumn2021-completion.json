@@ -2,8 +2,8 @@
   "tourId": "tour-54",
   "tour": "Autumn Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable-time durations, preserved available original evidence and explicit source gaps; no exhaustive worldwide-history claim.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-10-06T06:00:00Z",
@@ -48,7 +48,16 @@
     "artifacts/autumn2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
     "https://media.mktwrs.com/assets/proof/autumn2021-sunset-wilds-r-video-preservation-correction-scope-20261018.json",
     "https://media.mktwrs.com/assets/proof/nhspeedy-sunset-wilds-r-11069-original-preservation-20261018.json",
-    "https://media.mktwrs.com/assets/proof/autumn2021-superfx-11050-existing-r2-propagation-review-20261018.json"
+    "https://media.mktwrs.com/assets/proof/autumn2021-superfx-11050-existing-r2-propagation-review-20261018.json",
+    "artifacts/autumn2021-final-known-source-date-duration-and10-video-review-20261019.json",
+    "artifacts/autumn2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/autumn2021-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/autumn2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/autumn2021-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/autumn2021-all10-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/autumn2021-source-identity-and-late-publication-review-20261019.json",
+    "artifacts/autumn2021-nhspeedy-late-video-original-publication-metadata-full-byte-reverification-20261019.json",
+    "artifacts/autumn2021-three-final-leaderboard-originals-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/autumn-2021-reconciliation.json",
@@ -93,7 +102,8 @@
     "Three distinct completed recordings, one additional original of the same SuperFX result, and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
     "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
-    "All eight R2 objects passed full SHA256 and byte-length checks: three distinct completed results, one additional original recording of the same SuperFX result, and four partial clips. Exact race dates and deleted/private or unindexed source history remain qualified."
+    "All eight R2 objects passed full SHA256 and byte-length checks: three distinct completed results, one additional original recording of the same SuperFX result, and four partial clips. Exact race dates and deleted/private or unindexed source history remain qualified.",
+    "All56 current-tour worksheet entries now have supported named source publication dates:54 recovered and two retained.180 preserved image paths include three final leaderboard originals and a recovered original-post image; duplicate file paths are not additional records.10 stored video files represent four distinct completed results and four partial clips, with both available final WR recordings preserved. Late submissions remain eligible. Source publication clocks do not establish private race dates. Unavailable or unindexed worldwide evidence remains outside this known-source closure."
   ],
   "validation": {
     "liveSnapshotRows": 232,
@@ -134,5 +144,41 @@
     "sourcePublicationAndSharingClocksKeptSeparate": true,
     "worldRecordDatesAndDurationsUnchanged": true,
     "globalArchiveAuditStillPending": true
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/autumn2021-final-known-source-date-duration-and10-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/autumn2021-final-known-source-date-duration-and10-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 54,
+    "sourceRowsMatched": 56,
+    "sourceClockRowsVerified": 219,
+    "durationRowsVerified": 232,
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "rmx-ghost-valley-1",
+        "id": "curated-autumn-2021-895193702434242600",
+        "time": "1:01.87",
+        "playerId": "n",
+        "previousDurationDays": 0.13627924768518518,
+        "durationDays": 0.1362899074074074,
+        "deltaSeconds": 0.9210000000000385
+      },
+      {
+        "courseId": "rmx-ghost-valley-1",
+        "id": "curated-autumn-2021-kaguya-1445684365552283657",
+        "time": "1:01.40",
+        "playerId": "nu11",
+        "previousDurationDays": 3.573349212962963,
+        "durationDays": 3.573338553240741,
+        "deltaSeconds": -0.9210000000024365
+      }
+    ],
+    "remainingUndatedSupportingRows": [],
+    "indexedSourceImageFiles": 176,
+    "totalPreservedSourceFiles": 180,
+    "distinctSourceHashes": 171,
+    "storedVideoObjects": 10,
+    "distinctStoredVideoHashes": 10,
+    "sourceProofPreservationPatches": 71
   }
 }
