@@ -2,8 +2,8 @@
   "tourId": "tour-49",
   "tour": "Mario vs. Peach Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable-time durations, preserved original evidence and retained explicit source gaps; no claim of exhaustive worldwide history.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-07-28T06:00:00Z",
@@ -37,7 +37,14 @@
     "archive/mariopeach2021-image-source-publication-crosswalk-20261013.json",
     "archive/mariopeach2021-opening-day-policy-generation-check-20261013.json",
     "artifacts/mariopeach2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-    "artifacts/mariopeach2021-choco-mountain-local-publication-clock-20261016.json"
+    "artifacts/mariopeach2021-choco-mountain-local-publication-clock-20261016.json",
+    "artifacts/mariopeach2021-final-known-source-date-duration-and6-video-review-20261019.json",
+    "artifacts/mariopeach2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/mariopeach2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/mariopeach2021-all125-original-source-images-r2-preservation-20261019.json",
+    "artifacts/mariopeach2021-all6-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/mariopeach2021-original-video-publication-and-recovery-recheck-20261019.json",
+    "artifacts/mariopeach2021-supplementary-tome-twitter-image-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/mario-peach-2021-reconciliation.json",
@@ -85,7 +92,8 @@
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
     "Four partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
-    "All six stored video objects passed full SHA256 and byte-length checks. Selected 1:11.88 and 1:19.16 footage remains slower than final WRs; four fragments do not prove completed runs. The linked December 2020 Kaguya 1:18.72 video again returned no downloadable footage. Its 2020 result and 2021 share remain separate. The final Choco result retains its reviewed August 8 17:07 local publication and bounded duration."
+    "All six stored video objects passed full SHA256 and byte-length checks. Selected 1:11.88 and 1:19.16 footage remains slower than final WRs; four fragments do not prove completed runs. The linked December 2020 Kaguya 1:18.72 video again returned no downloadable footage. Its 2020 result and 2021 share remain separate. The final Choco result retains its reviewed August 8 17:07 local publication and bounded duration.",
+    "Fifteen named worksheet entries still lack a supported date or identity match;23 worksheet placeholders remain internal. The final Choco WR retains the documented August8 local minute with unconfirmed UTC offset. Final WR footage has not been recovered; two selected completed recordings are slower than their final WRs, and four partial clips remain separate."
   ],
   "validation": {
     "liveSnapshotRows": 521,
@@ -113,5 +121,307 @@
     "older2020KaguyaRecoveryUnresolved": true,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/mariopeach2021-final-known-source-date-duration-and6-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/mariopeach2021-final-known-source-date-duration-and6-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 48,
+    "sourceRowsMatched": 48,
+    "worksheetDateCorrections": [],
+    "sourceClockRowsVerified": 407,
+    "durationRowsVerified": 516,
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "curated-mario-peach-2021-871429361641865266-11188",
+        "time": "1:11.88",
+        "playerId": "phillish",
+        "previousDurationDays": 2.6166549537037036,
+        "durationDays": 2.616665474537037,
+        "deltaSeconds": 0.9090000000071541
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "896341004226027550",
+        "time": "1:11.79",
+        "playerId": "tomegome",
+        "previousDurationDays": 7.905925925925926,
+        "durationDays": 7.905915405092593,
+        "deltaSeconds": -0.9090000000071541
+      }
+    ],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP11",
+        "playerId": "kazuo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP14",
+        "playerId": "jibacha",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP15",
+        "playerId": "ryoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP16",
+        "playerId": "tokushima",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP19",
+        "playerId": "heria",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP20",
+        "playerId": "michinori",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP21",
+        "playerId": "marumo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP23",
+        "playerId": "pooh",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP24",
+        "playerId": "mugicoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP25",
+        "playerId": "aruchan",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP26",
+        "playerId": "pi-reirei",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP31",
+        "playerId": "warm-torisun",
+        "time": "1:12.70",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP36",
+        "playerId": "hilton",
+        "time": "1:12.00",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP46",
+        "playerId": "d-chris",
+        "time": "1:12.69",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP47",
+        "playerId": "player-f09f85a2f09f8590f09f859bf09f85a5f09f8590e29aa1e293bce293bce29aa1f09f87aaf09f87b8",
+        "time": "1:15.06",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP56",
+        "playerId": "adril08",
+        "time": "1:13.53",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gba-cheep-cheep-island",
+        "id": "sheet-VP58",
+        "playerId": "aioi",
+        "time": "1:11.98",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH11",
+        "playerId": "kazuo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH12",
+        "playerId": "nu11",
+        "time": "1:18.37",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH13",
+        "playerId": "tomegome",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH14",
+        "playerId": "jibacha",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH15",
+        "playerId": "ryoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH16",
+        "playerId": "tokushima",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH19",
+        "playerId": "heria",
+        "time": "1:21.36",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH20",
+        "playerId": "michinori",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH21",
+        "playerId": "marumo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH22",
+        "playerId": "wakinyo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH23",
+        "playerId": "pooh",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH24",
+        "playerId": "mugicoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH25",
+        "playerId": "aruchan",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH26",
+        "playerId": "pi-reirei",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH28",
+        "playerId": "ts1573",
+        "time": "1:19.10",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH32",
+        "playerId": "warm-torisun",
+        "time": "1:19.46",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH43",
+        "playerId": "romain",
+        "time": "1:19.65",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH44",
+        "playerId": "alt",
+        "time": "1:19.08",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH45",
+        "playerId": "aioi",
+        "time": "1:19.73",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH52",
+        "playerId": "annalise",
+        "time": "1:20.67",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-choco-mountain",
+        "id": "sheet-VH54",
+        "playerId": "ryu",
+        "time": "1:19.80",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      }
+    ],
+    "preservedSourceImages": 125,
+    "storedVideoObjects": 6,
+    "distinctStoredVideoHashes": 6,
+    "sourceProofPreservationPatches": 48
   }
 }
