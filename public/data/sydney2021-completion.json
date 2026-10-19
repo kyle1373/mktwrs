@@ -2,7 +2,7 @@
   "tourId": "tour-42",
   "tour": "Sydney Tour (April 2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -93,7 +93,7 @@
   "nextTourId": "tour-43",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/sydney2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/sydney2021-final-known-source-date-duration-and10-video-review-20261019.json",
   "sourceDispositionAudit": "archive/sydney2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "6115eea59af4138e494a38129ca05abaa087c1c4",
   "videoPreservationReview": {
@@ -107,5 +107,31 @@
     "allPublicFileBytesMatchLocalSha256": true,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/sydney2021-final-known-source-date-duration-and10-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "audit": "artifacts/sydney2021-final-known-source-date-duration-and10-video-review-20261019.json",
+    "sourceClockAudit": "artifacts/sydney2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 56,
+    "sourceRowsMatched": 61,
+    "correctedPriorWorksheetDates": 1,
+    "remainingSupportingSourceGaps": 42,
+    "remainingActualWorksheetResultGaps": 19,
+    "remainingWorksheetPlaceholders": 23,
+    "currentTourExactSourceClockMismatches": 0
+  },
+  "sourceImagePreservationReview": {
+    "audit": "artifacts/sydney2021-all219-original-source-images-r2-preservation-20261019.json",
+    "originalSourceImages": 219,
+    "allFullPublicBytesAndDecodeVerified": true
+  },
+  "latestVideoPreservationReview": {
+    "audit": "artifacts/sydney2021-all10-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "originalObjects": 10,
+    "allFullPublicBytesDecodeAndRangeVerified": true,
+    "originalRecoveryCheckDate": "2026-10-17",
+    "allReferencedOriginalVideosArchived": false
   }
 }

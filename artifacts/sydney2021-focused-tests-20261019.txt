@@ -1,0 +1,346 @@
+TAP version 13
+# Subtest: a former WR between dated results keeps a duration interval instead of borrowing the successor clock
+ok 1 - a former WR between dated results keeps a duration interval instead of borrowing the successor clock
+  ---
+  duration_ms: 1.98625
+  type: 'test'
+  ...
+# Subtest: reigns pause between tours and tied holders end at the same faster submission
+ok 2 - reigns pause between tours and tied holders end at the same faster submission
+  ---
+  duration_ms: 7.348458
+  type: 'test'
+  ...
+# Subtest: same-timestamp previous best has no invented reign and a personal best earns no WR duration
+ok 3 - same-timestamp previous best has no invented reign and a personal best earns no WR duration
+  ---
+  duration_ms: 0.301375
+  type: 'test'
+  ...
+# Subtest: an already superseded result ends at the known faster evidence rather than a later record
+ok 4 - an already superseded result ends at the known faster evidence rather than a later record
+  ---
+  duration_ms: 0.863916
+  type: 'test'
+  ...
+# Subtest: a later retrospective posting retains its source date and the earlier known supersession boundary
+ok 5 - a later retrospective posting retains its source date and the earlier known supersession boundary
+  ---
+  duration_ms: 0.23425
+  type: 'test'
+  ...
+# Subtest: Tomegome original three-result tweet precedes the repost and adjusts both credited reigns
+ok 6 - Tomegome original three-result tweet precedes the repost and adjusts both credited reigns
+  ---
+  duration_ms: 303.840542
+  type: 'test'
+  ...
+# Subtest: date-only publications are explicit calculation boundaries; identical footage may inherit a preserved source clock
+ok 7 - date-only publications are explicit calculation boundaries; identical footage may inherit a preserved source clock
+  ---
+  duration_ms: 0.235
+  type: 'test'
+  ...
+# Subtest: Bowser Castle 2 missing reigns and Airship Fortress return are recomputed from preserved timestamps
+ok 8 - Bowser Castle 2 missing reigns and Airship Fortress return are recomputed from preserved timestamps
+  ---
+  duration_ms: 203.455583
+  type: 'test'
+  ...
+# Subtest: date-only evidence yields bounds instead of inventing a 06:00 achievement
+ok 9 - date-only evidence yields bounds instead of inventing a 06:00 achievement
+  ---
+  duration_ms: 0.496583
+  type: 'test'
+  ...
+# Subtest: retrospective report retains its factual date while the attributed reign and its predecessor are bounded
+ok 10 - retrospective report retains its factual date while the attributed reign and its predecessor are bounded
+  ---
+  duration_ms: 0.39175
+  type: 'test'
+  ...
+# Subtest: statistics union guaranteed and possible intervals without double-counting tied nations
+ok 11 - statistics union guaranteed and possible intervals without double-counting tied nations
+  ---
+  duration_ms: 0.52075
+  type: 'test'
+  ...
+# Subtest: conservative intervals contain every sampled exact chronology, including ties and pauses
+ok 12 - conservative intervals contain every sampled exact chronology, including ties and pauses
+  ---
+  duration_ms: 0.36475
+  type: 'test'
+  ...
+# Subtest: a calendar date with no source timezone covers UTC offsets from +14 to -12
+ok 13 - a calendar date with no source timezone covers UTC offsets from +14 to -12
+  ---
+  duration_ms: 0.086375
+  type: 'test'
+  ...
+# Subtest: an earlier reviewed video share governs the standing clock while preserving the later announcement
+ok 14 - an earlier reviewed video share governs the standing clock while preserving the later announcement
+  ---
+  duration_ms: 290.100042
+  type: 'test'
+  ...
+# Subtest: a visible original-post minute narrows duration bounds while its timezone remains unconfirmed
+ok 15 - a visible original-post minute narrows duration bounds while its timezone remains unconfirmed
+  ---
+  duration_ms: 0.46675
+  type: 'test'
+  ...
+# Subtest: a local publication minute after the attributed tour preserves its factual date and retrospective bounds
+ok 16 - a local publication minute after the attributed tour preserves its factual date and retrospective bounds
+  ---
+  duration_ms: 0.084208
+  type: 'test'
+  ...
+# Subtest: runner-reported morning preserves the date and narrows both the reign and its predecessor without inventing an exact clock
+ok 17 - runner-reported morning preserves the date and narrows both the reign and its predecessor without inventing an exact clock
+  ---
+  duration_ms: 0.257709
+  type: 'test'
+  ...
+# Subtest: reviewed supporting post dates are scoped and preserve original upload clocks
+ok 18 - reviewed supporting post dates are scoped and preserve original upload clocks
+  ---
+  duration_ms: 0.139292
+  type: 'test'
+  ...
+# Subtest: unavailable Yoshi sheet image retains only its documented proof upload date and zero WR credit
+ok 19 - unavailable Yoshi sheet image retains only its documented proof upload date and zero WR credit
+  ---
+  duration_ms: 201.985375
+  type: 'test'
+  ...
+# Subtest: reviewed faster supporting finish ends older credit without granting the submission a WR reign
+ok 20 - reviewed faster supporting finish ends older credit without granting the submission a WR reign
+  ---
+  duration_ms: 0.231875
+  type: 'test'
+  ...
+# Subtest: Trick 2020 earliest original tweet dates the explicit sheet crosswalk and ends the previous reign
+ok 21 - Trick 2020 earliest original tweet dates the explicit sheet crosswalk and ends the previous reign
+  ---
+  duration_ms: 288.397708
+  type: 'test'
+  ...
+# Subtest: Daisy Circuit matched source alias does not invent a third tied holder
+ok 22 - Daisy Circuit matched source alias does not invent a third tied holder
+  ---
+  duration_ms: 19.138708
+  type: 'test'
+  ...
+# Subtest: distinct confirmed late ties remain in both the best list and history after tour end
+ok 23 - distinct confirmed late ties remain in both the best list and history after tour end
+  ---
+  duration_ms: 0.308
+  type: 'test'
+  ...
+# Subtest: posting date is definite while original clocks remain intact
+ok 24 - posting date is definite while original clocks remain intact
+  ---
+  duration_ms: 1.103458
+  type: 'test'
+  ...
+# Subtest: retrospective evidence uses the actual report date, never a guessed tour end
+ok 25 - retrospective evidence uses the actual report date, never a guessed tour end
+  ---
+  duration_ms: 0.266291
+  type: 'test'
+  ...
+# Subtest: undated predecessors and invalid dates remain unknown rather than acquiring invented dates
+ok 26 - undated predecessors and invalid dates remain unknown rather than acquiring invented dates
+  ---
+  duration_ms: 0.176084
+  type: 'test'
+  ...
+# Subtest: best total and playable movie are independent; incomplete and rejected claims cannot win
+ok 27 - best total and playable movie are independent; incomplete and rejected claims cannot win
+  ---
+  duration_ms: 0.155
+  type: 'test'
+  ...
+# Subtest: tied holders are preserved and surviving backup supplies video proof
+ok 28 - tied holders are preserved and surviving backup supplies video proof
+  ---
+  duration_ms: 0.146083
+  type: 'test'
+  ...
+# Subtest: duplicate URL variants cannot turn a known lap clip into a complete recording
+ok 29 - duplicate URL variants cannot turn a known lap clip into a complete recording
+  ---
+  duration_ms: 0.183416
+  type: 'test'
+  ...
+# Subtest: a faster screenshot total remains eligible when its accompanying movie is incomplete
+ok 30 - a faster screenshot total remains eligible when its accompanying movie is incomplete
+  ---
+  duration_ms: 0.309625
+  type: 'test'
+  ...
+# Subtest: title mismatch and cancelled receipts never become the best recording
+ok 31 - title mismatch and cancelled receipts never become the best recording
+  ---
+  duration_ms: 0.320042
+  type: 'test'
+  ...
+# Subtest: an earlier reviewed original recording proves publication before a later screenshot submission
+ok 32 - an earlier reviewed original recording proves publication before a later screenshot submission
+  ---
+  duration_ms: 0.152834
+  type: 'test'
+  ...
+# Subtest: reviewed dated evidence is tied to the exact course, player and total
+ok 33 - reviewed dated evidence is tied to the exact course, player and total
+  ---
+  duration_ms: 0.2695
+  type: 'test'
+  ...
+# Subtest: tour labels include the final morning until the 06:00 UTC reset
+ok 34 - tour labels include the final morning until the 06:00 UTC reset
+  ---
+  duration_ms: 0.538375
+  type: 'test'
+  ...
+# Subtest: record clock pauses between tours and resumes on return
+ok 35 - record clock pauses between tours and resumes on return
+  ---
+  duration_ms: 0.211625
+  type: 'test'
+  ...
+# Subtest: overlapping cup windows are counted once; exact break time is exclusive
+ok 36 - overlapping cup windows are counted once; exact break time is exclusive
+  ---
+  duration_ms: 0.119083
+  type: 'test'
+  ...
+# Subtest: unknown achievement dates do not produce invented durations
+ok 37 - unknown achievement dates do not produce invented durations
+  ---
+  duration_ms: 0.072375
+  type: 'test'
+  ...
+# Subtest: progression retains ties and improvements, excludes slower submissions
+ok 38 - progression retains ties and improvements, excludes slower submissions
+  ---
+  duration_ms: 7.731584
+  type: 'test'
+  ...
+# Subtest: WR statistics exclude personal bests and inferred contenders and union tied nation durations
+ok 39 - WR statistics exclude personal bests and inferred contenders and union tied nation durations
+  ---
+  duration_ms: 0.437375
+  type: 'test'
+  ...
+# Subtest: course history inserts tour boundaries, avoids duplicate cups and omits unconfirmed submissions
+ok 40 - course history inserts tour boundaries, avoids duplicate cups and omits unconfirmed submissions
+  ---
+  duration_ms: 0.348208
+  type: 'test'
+  ...
+# Subtest: records before the UTC reset precede same-day tour boundary markers
+ok 41 - records before the UTC reset precede same-day tour boundary markers
+  ---
+  duration_ms: 0.186334
+  type: 'test'
+  ...
+# Subtest: early-morning submissions do not precede their undated-in-day predecessors on ordinary tour days
+ok 42 - early-morning submissions do not precede their undated-in-day predecessors on ordinary tour days
+  ---
+  duration_ms: 0.346291
+  type: 'test'
+  ...
+# Subtest: undated predecessors remain before a final-morning record and tour end
+ok 43 - undated predecessors remain before a final-morning record and tour end
+  ---
+  duration_ms: 0.405083
+  type: 'test'
+  ...
+# Subtest: a calendar-only final WR follows precise same-day predecessors without an invented timestamp
+ok 44 - a calendar-only final WR follows precise same-day predecessors without an invented timestamp
+  ---
+  duration_ms: 0.276959
+  type: 'test'
+  ...
+# Subtest: share events match exact performance and normalized video without changing race clocks
+ok 45 - share events match exact performance and normalized video without changing race clocks
+  ---
+  duration_ms: 0.929625
+  type: 'test'
+  ...
+# Subtest: documented shares may accompany withheld references without restoring or verifying footage
+ok 46 - documented shares may accompany withheld references without restoring or verifying footage
+  ---
+  duration_ms: 0.50475
+  type: 'test'
+  ...
+# Subtest: fastest footage falls back from unavailable WR and excludes unverified submissions
+ok 47 - fastest footage falls back from unavailable WR and excludes unverified submissions
+  ---
+  duration_ms: 1.345125
+  type: 'test'
+  ...
+# Subtest: available backup preserves original and restores footage after original loss
+ok 48 - available backup preserves original and restores footage after original loss
+  ---
+  duration_ms: 0.205375
+  type: 'test'
+  ...
+# Subtest: video IDs deduplicate original URL variants
+ok 49 - video IDs deduplicate original URL variants
+  ---
+  duration_ms: 0.187791
+  type: 'test'
+  ...
+# Subtest: a dead original cannot outrank the next playable video despite cached title metadata
+ok 50 - a dead original cannot outrank the next playable video despite cached title metadata
+  ---
+  duration_ms: 0.124583
+  type: 'test'
+  ...
+# Subtest: profiles order known chronology oldest first without inventing dates
+ok 51 - profiles order known chronology oldest first without inventing dates
+  ---
+  duration_ms: 6.942292
+  type: 'test'
+  ...
+# Subtest: video titles alone cannot qualify a record as fastest verified footage
+ok 52 - video titles alone cannot qualify a record as fastest verified footage
+  ---
+  duration_ms: 0.07425
+  type: 'test'
+  ...
+# Subtest: verified partial recordings remain evidence but cannot supply fastest complete footage
+ok 53 - verified partial recordings remain evidence but cannot supply fastest complete footage
+  ---
+  duration_ms: 0.201334
+  type: 'test'
+  ...
+# Subtest: pending full-race review excludes result-verified footage and its sheet duplicate
+ok 54 - pending full-race review excludes result-verified footage and its sheet duplicate
+  ---
+  duration_ms: 0.468375
+  type: 'test'
+  ...
+# Subtest: partial footage exclusions apply across equivalent original URL variants
+ok 55 - partial footage exclusions apply across equivalent original URL variants
+  ---
+  duration_ms: 0.281292
+  type: 'test'
+  ...
+# Subtest: Animal final announcement belongs to its declared tour despite a later publication clock
+ok 56 - Animal final announcement belongs to its declared tour despite a later publication clock
+  ---
+  duration_ms: 1.523875
+  type: 'test'
+  ...
+1..56
+# tests 56
+# suites 0
+# pass 56
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1365.506
