@@ -2,11 +2,11 @@
   "tourId": "tour-69",
   "tour": "Doctor Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
-  "standard": "User-authorized good-enough surviving proof; prior source reviews retained, original hashes checked, selected finishes sampled, recordings preserved, and live publication verified.",
+  "standard": "Known-source WR review with supported submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "window": {
     "start": "2022-05-04T06:00:00Z",
     "endExclusive": "2022-05-18T06:00:00Z"
@@ -53,7 +53,8 @@
     "Fireball 1:19.95 recording metadata indicates May13 upload, before May18 submission. Historical public visibility and earlier community WR precedence are unresolved; upload, submission and shares remain separate without silently erasing intervening accepted Wins records.",
     "Four complete recordings and one 2.41-second strategy clip preserved on R2. Strategy clips, failed laps, and the older 2020 Reddit source do not establish completed Doctor runs.",
     "Selected fastest recordings freshly sampled at lap/finish and decoded. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
-    "Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain."
+    "Source coverage includes boundary messages; exact-window discussion index has107 messages. Prior image dispositions retained with fresh hashes, not a new full-pixel review of every image. Deleted/private/unindexed evidence may remain.",
+    "Current detailed review:all103 current worksheet entries have documented report dates,52 newly dated. Y1461:11.87 is confirmed from the May6 original image; the May4 image shows1:11.91. Zombie1:12.34 is confirmed from the named May5 original image. All133 saved image paths,131 distinct hashes, passed full-byte SHA and image decode checks; processed or historical hash-unproven files are not claimed original-upload byte identity. All5 saved videos passed full-byte SHA, full decode and206seeking:four completed runs and one strategy clip. Both final WR recordings are preserved:Nu11CheepCheepIsland1:11.75 and FireballDaisyHillsR1:19.95. Fireball dated public standing remains May18 05:55:34.604UTC; earlier May13 upload metadata does not certify when the recording was public. Private race instants are not inferred. One unavailable cancelled original was corrected by a surviving1:12.10 screenshot; the separate Gangstatiger1:12.39 parser correction remains retained. Late reports remain eligible. Four earlier previous-best leads lack verified race dates or reign order and stay outside confirmed WR progression. Accurate OCR is separate from literal visual review. Full worldwide history and all original footage remain unproven."
   ],
   "evidence": [
     "archive/doctor2022-fireball-upload-vs-submission-chronology-disposition-20261013.json",
@@ -72,10 +73,19 @@
     "archive/doctor-2022-reconciliation.json",
     "archive/doctor-2022-evidence-validation-20261008.json",
     "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
-    "artifacts/doctor2022-source-date-duration-and-original-publication-review-20261017.json"
+    "artifacts/doctor2022-source-date-duration-and-original-publication-review-20261017.json",
+    "artifacts/doctor2022-final-known-source-date-duration-and5-video-review-20261019.json",
+    "artifacts/doctor2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/doctor2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/doctor2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/doctor2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/doctor2022-all5-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/doctor2022-all133-original-source-images-r2-preservation-20261019.json",
+    "artifacts/doctor2022-accurate-ocr-and-named-original-report-source-review-20261019.json",
+    "artifacts/doctor2022-retained-current-worksheet-source-gaps-20261019.json"
   ],
   "sourceCommit": "3d349f91509f2f471e4702b6b0cb222ed6ffcfad",
-  "latestPublicationAudit": "archive/doctor2022-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/doctor2022-final-known-source-date-duration-and5-video-review-20261019.json",
   "completionLabelLiveVerified": true,
   "nextTourId": "tour-70",
   "completionLabelLiveAudit": "archive/doctor2022-completion-label-live-publication-check-20261013.json",
@@ -144,5 +154,22 @@
     "fireballHistoricalVisibilityLimitationRetained": true,
     "newUploads": 0,
     "evidence": "artifacts/doctor2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/doctor2022-final-known-source-date-duration-and5-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/doctor2022-final-known-source-date-duration-and5-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 52,
+    "sourceRowsMatched": 52,
+    "sourceClockRowsVerified": 442,
+    "durationRowsVerified": 538,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [],
+    "indexedSourceImageFiles": 133,
+    "totalPreservedSourceFiles": 133,
+    "distinctSourceHashes": 131,
+    "storedVideoObjects": 5,
+    "distinctStoredVideoHashes": 5,
+    "rawPublicationPatchesAdded": 52
   }
 }
