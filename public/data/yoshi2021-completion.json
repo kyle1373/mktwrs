@@ -95,7 +95,7 @@
   "nextTourId": "tour-41",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/yoshi2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/yoshi2021-final-known-source-date-duration-and17-video-review-20261019.json",
   "sourceDispositionAudit": "archive/yoshi2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "8df0d558d18061e271501e7f2ae93c9131b43a66",
   "videoPreservationReview": {
@@ -108,5 +108,27 @@
     "allPublicFileBytesMatchLocalSha256": true,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
-  }
+  },
+  "knownWRReviewComplete": true,
+  "dateDurationReconciliation": {
+    "audit": "artifacts/yoshi2021-reviewed-date-duration-and17-video-reconciliation-20261019.json",
+    "sourceClockAudit": "artifacts/yoshi2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 53,
+    "sourceRowsMatched": 58,
+    "correctedPriorWorksheetDates": 2,
+    "allWRCalendarDatesTimesAndIdentitiesUnchanged": true,
+    "sourceClockRowsCorrected": 5,
+    "wrDurationRowsCorrected": 2,
+    "remainingActualWorksheetDateOrIdentityGaps": 19,
+    "retainedWorksheetPlaceholders": 21
+  },
+  "preservedMediaFreshVerification": {
+    "imageAudit": "artifacts/yoshi2021-all209-original-source-images-r2-preservation-20261019.json",
+    "videoAudit": "artifacts/yoshi2021-all17-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "images": 209,
+    "storedVideos": 17,
+    "newRecoveredOriginalVideosUploaded": 1,
+    "allReferencedOriginalVideosArchived": false
+  },
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/yoshi2021-final-known-source-date-duration-and17-video-review-live-receipt-20261019.json"
 }
