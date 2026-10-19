@@ -2,6 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {routeData} from '../lib/data.mjs';
+import {historyEvents} from '../public/history.mjs';
+import {recordChronology} from '../lib/video.mjs';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const course=read('public/data/courses/gcn-dino-dino-jungle.json');
 const source=read('artifacts/halloween2019-dark13546-original-result-image-and-cet-window-review-20261019.json');
@@ -39,4 +41,19 @@ test('actual client projection retains the known UTC minute and corrected public
  assert.equal(projected.documentedDateTimezone,'UTC');
  assert.equal(projected.documentedDatePrecision,'period');
  assert.equal(projected.proofImageLocal,source.primaryImageURL);
+});
+
+test('known UTC source window orders Dark after earlier same-day WRs in the history table',()=>{
+ const events=historyEvents(course,read('public/data/tours.json'),'2026-09-30T06:00:00Z',{publishedRecords:true});
+ const earlier=events.findIndex(e=>e.id==='curated-original-2019-wr-row-50');
+ assert.ok(earlier>=0);assert.ok(events.findIndex(e=>e.id===id)>earlier);
+ const r=course.records.find(r=>r.id===id),prev=course.records.find(r=>r.id==='curated-original-2019-wr-row-50');
+ assert.ok(recordChronology(r,prev)>0);
+ assert.equal(r.documentedAt,null);
+});
+test('UTC source minute before reset sorts before the tour-end clock without inventing an exact timestamp',()=>{
+ const r={id:'minute',recordDate:'2022-05-18',finalDate:'2022-05-18',documentedAt:null,documentedDateTimezone:'UTC',documentedLocalWindow:{start:'2022-05-18T05:59',end:'2022-05-18T06:00'},timeCs:6000,status:'community-wr'};
+ const events=historyEvents({records:[r],appearances:[{tourId:'tour',startDate:'2022-05-04',endDate:'2022-05-18'}]},[{id:'tour',name:'Tour'}],'2022-05-18T07:00:00Z');
+ assert.ok(events.findIndex(e=>e.id==='minute')<events.findIndex(e=>e.id==='tour-end'));
+ assert.equal(r.documentedAt,null);
 });

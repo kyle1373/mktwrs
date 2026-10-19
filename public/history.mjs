@@ -162,8 +162,14 @@ export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = f
   }
   const order = { "tour-end": 0, "tour-start": 1, record: 2 };
   const resetDates = new Set(events.filter(e => e.type !== "record").map(e => e.date.slice(0, 10)));
+  // A UTC source interval supplies an ordering key, not an invented race instant.
+  const sourceOrderClock = r => r?.documentedAt ||
+    (r?.documentedDateTimezone === "UTC" && r.documentedLocalWindow?.start
+      ? r.documentedLocalWindow.start + ":00Z" : "");
   const eventOrder = (event) => {
-    const timestamp = event.record?.documentedAt || event.record?.submittedAt;
+    const r = event.record;
+    const beforeResetWindow = r?.documentedDateTimezone === "UTC" && r.documentedLocalWindow?.end?.slice(11) <= "06:00";
+    const timestamp = r?.documentedAt || (beforeResetWindow ? sourceOrderClock(r) : null) || r?.submittedAt;
     // The final tour morning is still playable until the 06:00 UTC reset.
     if (resetDates.has(event.date.slice(0, 10)) &&
         timestamp?.slice(0, 10) === event.date.slice(0, 10) &&
@@ -182,7 +188,7 @@ export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = f
     (a, b) =>
       a.date.slice(0, 10).localeCompare(b.date.slice(0, 10)) ||
       eventOrder(a) - eventOrder(b) ||
-      (a.record?.documentedAt || "").localeCompare(b.record?.documentedAt || "") ||
+      sourceOrderClock(a.record).localeCompare(sourceOrderClock(b.record)) ||
       (b.record?.timeCs || 0) - (a.record?.timeCs || 0),
   );
 }
