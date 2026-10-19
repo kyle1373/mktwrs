@@ -2,8 +2,8 @@
   "tourId": "tour-59",
   "tour": "Penguin Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-12-15T06:00:00Z",
@@ -42,7 +42,14 @@
     "archive/penguin2021-source-media-production-build-check-20261013.json",
     "archive/penguin2021-exact-window-discussion-source-index-20261013.json",
     "archive/penguin2021-final-publication-audit-20261013.json",
-    "artifacts/penguin2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/penguin2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/penguin2021-final-known-source-date-duration-and11-video-review-20261019.json",
+    "artifacts/penguin2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/penguin2021-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/penguin2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/penguin2021-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/penguin2021-all11-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/penguin2021-all161-original-source-images-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/penguin-2021-reconciliation.json",
@@ -80,7 +87,8 @@
     "Private, deleted and unindexed global material not proven fully recovered.",
     "Five full original recordings, five partial clips and one excluded parody preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "54 of 55 current worksheet entries have supported named publication dates: 53 recovered and one retained. JaviSmashJ 0:32.57 remains unlinked to original/final-board JaviSmashL. Rui uses a matching preserved Discord account; K\u2019Z uses an explicit source-specific final-board association. No global alias merge was applied. 161 source image paths (157 distinct hashes), including both pages of each final board, are preserved. All 11 stored videos passed full bytes, SHA256, decode and seeking checks: five completed runs, five partial clips and one excluded parody. Both final community WR recordings are preserved; anonymous faster claims remain unverified. Late final-board publications remain eligible. Private/deleted/unindexed history and original race dates remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 284,
@@ -114,5 +122,30 @@
     "visibleSelectedRecordingFinish": "1:19.17",
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/penguin2021-final-known-source-date-duration-and11-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/penguin2021-final-known-source-date-duration-and11-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 53,
+    "sourceRowsMatched": 54,
+    "sourceClockRowsVerified": 268,
+    "durationRowsVerified": 284,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "snes-vanilla-lake-2",
+        "id": "sheet-ABT29",
+        "playerId": "javismashj",
+        "time": "0:32.57",
+        "reason": "JaviSmashJ and original/table JaviSmashL attribution not independently linked."
+      }
+    ],
+    "indexedSourceImageFiles": 157,
+    "totalPreservedSourceFiles": 161,
+    "distinctSourceHashes": 157,
+    "storedVideoObjects": 11,
+    "distinctStoredVideoHashes": 11,
+    "rawPublicationPatchesAdded": 104
   }
 }
