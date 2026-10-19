@@ -95,7 +95,7 @@
   "nextTourId": "tour-39",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/snow2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/snow2021-final-known-source-date-duration-and6-video-review-20261019.json",
   "sourceDispositionAudit": "archive/snow2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "d35a0decf2f743cd2e13ed83fb7e5bc1b554af4b",
   "videoPreservationReview": {
@@ -108,5 +108,23 @@
     "allPublicFileBytesMatchLocalSha256": true,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
-  }
+  },
+  "knownWRReviewComplete": true,
+  "dateDurationReconciliation": {
+    "audit": "artifacts/snow2021-reviewed-date-duration-and6-video-reconciliation-20261019.json",
+    "newWorksheetDatesRecovered": 45,
+    "sourceRowsMatched": 49,
+    "correctedPriorWorksheetDates": 1,
+    "allWRDatesAndDurationsUnchanged": true,
+    "remainingActualWorksheetDateOrIdentityGaps": 17,
+    "retainedWorksheetPlaceholders": 23
+  },
+  "preservedMediaFreshVerification": {
+    "imageAudit": "artifacts/snow2021-all152-original-source-images-r2-preservation-20261019.json",
+    "videoAudit": "artifacts/snow2021-all6-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "images": 152,
+    "storedVideos": 6,
+    "allReferencedOriginalVideosArchived": false
+  },
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/snow2021-final-known-source-date-duration-and6-video-review-live-receipt-20261019.json"
 }
