@@ -1,0 +1,10 @@
+{
+  "tourId": "tour-33",
+  "problem": "Calendar-only 2020-12-29 final 1:18.51 rendered before the documented previous 1:18.53 because an absent source clock sorted as midnight.",
+  "sourceEvidence": "The final screenshot explicitly shows previous best 1:18.53. Its visible local 14:57 has no proven timezone.",
+  "fix": "Same-day WR groups containing a record without a source clock use slower-to-faster progression. Groups with fully documented clocks retain clock order. Tour reset markers retain existing ordering.",
+  "dateOrDurationMutation": false,
+  "unsupportedTimestampInvented": false,
+  "regressionTestsPassed": 56,
+  "wholeGoalComplete": false
+}

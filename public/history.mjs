@@ -184,11 +184,17 @@ export function historyEvents(course, tours, asOf, { includeRecoveredLeaders = f
           timestampWithinTour(next.submittedAt, record.tourDateRange))) return -1;
     return order[event.type];
   };
+  // When a same-day record has no source clock, midnight is not evidence of
+  // precedence. Use WR progression for that entire group so sorting remains
+  // consistent even when other records have precise publication clocks.
+  const groupsWithoutClocks = new Set(events.filter(e => e.type === "record" &&
+    !sourceOrderClock(e.record)).map(e => `${e.date.slice(0, 10)}:${eventOrder(e)}`));
   return events.sort(
     (a, b) =>
       a.date.slice(0, 10).localeCompare(b.date.slice(0, 10)) ||
       eventOrder(a) - eventOrder(b) ||
-      sourceOrderClock(a.record).localeCompare(sourceOrderClock(b.record)) ||
+      (groupsWithoutClocks.has(`${a.date.slice(0, 10)}:${eventOrder(a)}`) ? 0 :
+        sourceOrderClock(a.record).localeCompare(sourceOrderClock(b.record))) ||
       (b.record?.timeCs || 0) - (a.record?.timeCs || 0),
   );
 }

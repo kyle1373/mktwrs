@@ -158,3 +158,15 @@ test("undated predecessors remain before a final-morning record and tour end", (
   assert.deepEqual(events.map(e => e.id), ["t-start", "earlier", "later", "t-end"]);
   assert.equal(earlier.recordDate, null);
 });
+
+
+test("a calendar-only final WR follows precise same-day predecessors without an invented timestamp", () => {
+  const final = {id: "final", status: "community-wr", finalDate: "2020-12-29", documentedAt: null, timeCs: 7851};
+  const earlier = {id: "earlier", status: "community-wr", finalDate: "2020-12-29", documentedAt: "2020-12-29T01:00:00Z", timeCs: 7855};
+  const previous = {id: "previous", status: "community-wr", finalDate: "2020-12-29", documentedAt: "2020-12-29T03:05:49.346Z", timeCs: 7853};
+  for (const records of [[final, earlier, previous], [previous, final, earlier], [earlier, previous, final]]) {
+    assert.deepEqual(historyEvents({records, appearances: []}, [], "2020-12-30").map(e => e.id), ["earlier", "previous", "final"]);
+  }
+  assert.equal(final.documentedAt, null);
+  assert.deepEqual(historyEvents({records: [previous, earlier], appearances: []}, [], "2020-12-30").map(e => e.id), ["earlier", "previous"]);
+});
