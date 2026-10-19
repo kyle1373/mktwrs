@@ -371,7 +371,19 @@
         },
         "reviewAudit": "archive/peachbowsermay2022-original-video-clock-and-share-reconciliation-20261013.json"
       }
-    ]
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/peachbowsermay2022-ae6696c835e8efab6f92.mp4",
+      "originalUrl": "https://youtu.be/PA3WG4Xi99Y",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "ae6696c835e8efab6f92acd074d82e37526e64add8931142a96be8b3b7eae2dc",
+      "bytes": 32620306,
+      "preservedOriginalFile": "archive/video-backup-files/168e02e9cbfee195bdf0/original.mp4",
+      "videoPublishedAt": "2022-05-28T00:16:37Z",
+      "reviewAudit": null,
+      "videoScope": "scope-review-pending"
+    }
   },
   {
     "courseId": "gba-sunset-wilds",
@@ -420,7 +432,19 @@
       "kind": "original-discord-recording"
     },
     "videoVisualReviewPending": true,
-    "videoVerificationCorrectionAudit": "archive/may2022-superfx10991-visual-verification-claim-correction-20261009.json"
+    "videoVerificationCorrectionAudit": "archive/may2022-superfx10991-visual-verification-claim-correction-20261009.json",
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/peachbowsermay2022-4584e29aafc54c8c8554.mov",
+      "originalUrl": "/assets/video/superfx-sunset-wilds-10991-20220528.mov",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "4584e29aafc54c8c8554e7020e62256e1dc905841884e0cf2dc0e1845e1dc1cb",
+      "bytes": 38876891,
+      "preservedOriginalFile": "public/assets/video/superfx-sunset-wilds-10991-20220528.mov",
+      "videoPublishedAt": null,
+      "reviewAudit": null,
+      "videoScope": "scope-review-pending"
+    }
   },
   {
     "messageId": "979993731845464074-previous-best",
@@ -21910,7 +21934,33 @@
         "channel": "tt-discussion",
         "messageId": "790878257384783903"
       }
-    ]
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/rosalina2020-wins-Qb8KTvm-AQg-d1b4ee2cb50d.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=Qb8KTvm-AQg",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "uploadedAt": "2026-10-17T03:24:22.344970+00:00",
+      "sha256": "d1b4ee2cb50d4a021239464ef8bb42dfd0c97e8178f4edbcba131de16403ad7b",
+      "bytes": 7090112,
+      "credit": "Wins",
+      "preservedOriginalFile": "archive/video-backup-files/winter2020-wins-sunset/original.mp4",
+      "videoScope": "full-run",
+      "verifiedTime": "1:11.06",
+      "verifiedLaps": [
+        "35.54",
+        "35.52"
+      ],
+      "reviewAudit": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+      "publicVerification": {
+        "checkedAt": "2026-10-17T03:25:16.418Z",
+        "httpStatus": 200,
+        "sha256MatchesPreservedOriginal": true,
+        "bytesMatch": true,
+        "rangeStatus": 206
+      }
+    },
+    "videoScope": "full-run"
   },
   {
     "messageId": "789779248927866892-gba-sunset-wilds",
@@ -22208,6 +22258,32 @@
       "r2RangeVerified": true,
       "preservedSha256": "1ac903d27c225b2cee1892e4c96f880b717ce44935945acbb10bf045528d6986",
       "priorLapReviewRetained": true
+    },
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/rosalina2020-sunset-11030-1ac903d27c22.mp4",
+      "originalUrl": "https://twitter.com/KazuoMKT/status/1343692485390979075",
+      "channel": "mktwrs media archive",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "uploadedAt": "2026-10-12T21:27:52.280465+00:00",
+      "sha256": "1ac903d27c225b2cee1892e4c96f880b717ce44935945acbb10bf045528d6986",
+      "bytes": 6698541,
+      "credit": "Kazuo",
+      "preservedOriginalFile": "archive/video-backup-files/598878a4c7ebecf7e2c8/original.mp4",
+      "priorPreservation": {
+        "url": "https://www.youtube.com/watch?v=ItlthLSPRpg",
+        "originalUrl": "https://x.com/Kazuo_MK/status/1343692485390979075",
+        "channel": "SuperFX64",
+        "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+        "visibility": "unlisted",
+        "status": "available",
+        "uploadedAt": "2026-09-30T20:10:17.481876+00:00",
+        "sha256": "1ac903d27c225b2cee1892e4c96f880b717ce44935945acbb10bf045528d6986",
+        "bytes": 6698541,
+        "credit": "Kazuo (Kazuo_MK)",
+        "checks": "Checks complete; no issues found"
+      },
+      "videoScope": "full-run"
     }
   },
   {
@@ -22413,7 +22489,18 @@
       "r2RangeVerified": true,
       "priorLapReviewRetained": true
     },
-    "videoScope": "full-run"
+    "videoScope": "full-run",
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/rosalina2020-additional-b87ad786773b.mp4",
+      "originalUrl": "https://twitter.com/tomegome_g/status/1339171744762847232",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "b87ad786773b6ea63b4fb7c6bfd14f1d0114e509d451abd69d4600bdb2cc0346",
+      "bytes": 19216893,
+      "preservedOriginalFile": "archive/video-backup-files/tome-choco-mountain-11899.mp4",
+      "credit": "Tomegome",
+      "videoScope": "full-run"
+    }
   },
   {
     "messageId": "788825120348176404-n64-choco-mountain",
@@ -22539,6 +22626,60 @@
       "r2RangeVerified": true,
       "preservedSha256": "db606bad6e3a1cafcf485219793994cb07e9c4c1f29cd0af5251ec43469fa471",
       "priorLapReviewRetained": true
+    },
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/rosalina2020-choco-mountain-11893-db606bad6e3a.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=aKBh5R2tbTQ",
+      "channel": "mktwrs media archive",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "uploadedAt": "2026-10-12T21:27:50.839113+00:00",
+      "sha256": "db606bad6e3a1cafcf485219793994cb07e9c4c1f29cd0af5251ec43469fa471",
+      "bytes": 21219332,
+      "credit": "SuperFX",
+      "preservedOriginalFile": "archive/video-backup-files/superfx-choco-mountain-11893.mp4",
+      "priorPreservation": {
+        "url": "https://www.youtube.com/watch?v=QqsQhQPtolU",
+        "originalUrl": "https://www.youtube.com/watch?v=aKBh5R2tbTQ",
+        "channel": "SuperFX64",
+        "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+        "visibility": "unlisted",
+        "status": "available",
+        "uploadedAt": "2026-09-30T20:12:23.112475+00:00",
+        "sha256": "db606bad6e3a1cafcf485219793994cb07e9c4c1f29cd0af5251ec43469fa471",
+        "bytes": 21219332,
+        "credit": "SuperFX",
+        "checks": "Checks complete; no issues found",
+        "recoveryMethod": "Original video owner download in YouTube Studio"
+      },
+      "additionalArchiveCopies": [
+        {
+          "url": "https://media.mktwrs.com/assets/video/rosalina2020-superfx-aKBh5R2tbTQ-5e5f05988121.mp4",
+          "originalUrl": "https://www.youtube.com/watch?v=aKBh5R2tbTQ",
+          "kind": "r2-preserved-original",
+          "status": "available",
+          "uploadedAt": "2026-10-17T03:24:23.698199+00:00",
+          "sha256": "5e5f0598812165961360ea3f697753ab47a4538213d0a1b033c0e1f155c97495",
+          "bytes": 5283325,
+          "credit": "SuperFX",
+          "preservedOriginalFile": "archive/video-backup-files/winter2020-source-review/aKBh5R2tbTQ/original.mp4",
+          "videoScope": "full-run",
+          "verifiedTime": "1:18.93",
+          "verifiedLaps": [
+            "39.50",
+            "39.43"
+          ],
+          "reviewAudit": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json",
+          "publicVerification": {
+            "checkedAt": "2026-10-17T03:25:13.750Z",
+            "httpStatus": 200,
+            "sha256MatchesPreservedOriginal": true,
+            "bytesMatch": true,
+            "rangeStatus": 206
+          }
+        }
+      ],
+      "videoScope": "full-run"
     }
   },
   {
@@ -38674,6 +38815,31 @@
       "r2RangeVerified": true,
       "preservedSha256": "8943108f55d4842cfdbde91dc22ac8126ee794beda3f410112d3789253ad08fa",
       "priorLapReviewRetained": true
+    },
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/mariopeach2021-choco-11916-8943108f55d4.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=mE_v06fSxs4",
+      "channel": "mktwrs media archive",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "8943108f55d4842cfdbde91dc22ac8126ee794beda3f410112d3789253ad08fa",
+      "bytes": 9057935,
+      "credit": "spartacurtYT",
+      "preservedOriginalFile": "archive/video-backup-files/mario-peach-mE_v06fSxs4/original.mp4",
+      "uploadedAt": "2026-10-12T22:58:17.099911+00:00",
+      "priorPreservation": {
+        "url": "https://www.youtube.com/watch?v=duJvSl_JVpk",
+        "originalUrl": "https://www.youtube.com/watch?v=mE_v06fSxs4",
+        "channel": "SuperFX64",
+        "channelId": "UCv0SnPoZrPs1HCPOafSZsHg",
+        "visibility": "unlisted",
+        "status": "available",
+        "uploadedAt": "2026-10-01T01:16:14.187737+00:00",
+        "sha256": "8943108f55d4842cfdbde91dc22ac8126ee794beda3f410112d3789253ad08fa",
+        "bytes": 9057935,
+        "credit": "Spartacurt",
+        "checks": "Checks pending at publication; publication confirmed."
+      }
     }
   },
   {
@@ -63731,7 +63897,18 @@
       "r2RangeVerified": true,
       "priorLapReviewRetained": true
     },
-    "videoScope": "full-run"
+    "videoScope": "full-run",
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/rosalina2020-additional-97733aa2afd3.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=bvIu2Nr5pSE",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "97733aa2afd3ef97f0a8461a3bff97add3a7048962cf7ff2f2d167e926cb29a0",
+      "bytes": 8075466,
+      "preservedOriginalFile": "archive/video-backup-files/winter2020-source-review/bvIu2Nr5pSE/original.mp4",
+      "credit": "Wins",
+      "videoScope": "full-run"
+    }
   },
   {
     "messageId": "800787842548498472-verified-video-support",
@@ -63812,7 +63989,19 @@
         "url": "https://www.youtube.com/watch?v=SQvn6hXsuYQ",
         "channel": "video"
       }
-    ]
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/rosalina2020-original-6e27a9f527c12964df7d.mp4",
+      "originalUrl": "https://www.youtube.com/watch?v=SQvn6hXsuYQ",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "6e27a9f527c12964df7d8d86a26165e4776e7f079488251d90f37954cb53808e",
+      "bytes": 8700380,
+      "preservedOriginalFile": "archive/video-backup-files/winter2020-source-review/SQvn6hXsuYQ/original.mp4",
+      "videoScope": "full-run",
+      "reviewAudit": "artifacts/rosalina2020-all18-original-videos-full-verification-20261019.json"
+    },
+    "videoScope": "full-run"
   },
   {
     "messageId": "794324040621096978-verified-video-support",
@@ -120533,7 +120722,18 @@
       "Runner’s message supplies35.22/35.01, which sum exactly to1:10.23, and the matching full-run video link.",
       "Improves Kazuo’s previously established1:10.30 from December2020. Earlier May18 submissions in adjacent context are slower; SuperFX’s1:10.10 follows May27.",
       "The spreadsheet already contained this time as an undated submission; recovered Discord evidence restores its missing WR progression entry."
-    ]
+    ],
+    "videoBackup": {
+      "url": "https://media.mktwrs.com/assets/video/peachbowsermay2022-76502e98fb9fb6db5a5d.mp4",
+      "originalUrl": "https://youtu.be/gizNrYVgWuM",
+      "kind": "r2-preserved-original",
+      "status": "available",
+      "sha256": "76502e98fb9fb6db5a5dadb2b6e3610b1debff1d9753e0de2afd833dc6e4596a",
+      "bytes": 16356528,
+      "preservedOriginalFile": "archive/video-backup-files/peachbowsermay2022-gizNrYVgWuM/original.mp4",
+      "videoPublishedAt": "2022-05-18T11:40:57Z",
+      "videoScope": "scope-review-pending"
+    }
   },
   {
     "messageId": "kuri-server-reposted-4XGPvRmmOU0-12656",
@@ -220227,7 +220427,7 @@
     "enrichesRecordId": "1446725482178543681",
     "originalImageLocal": "archive/submission-images/1439556800465731685.png",
     "originalImageSHA256": "dc371dea13d9d67915545708a0f64f7837bf00e20aab30c51f527ebe48dd3a3f",
-    "originalImageReviewAudit": "archive/animal2025-original-screenshot-review-20261005.json",
+    "originalImageReviewAudit": "artifacts/animal2025-original-submission-date-and-attribution-review-20261018.json",
     "proofField": "result-total",
     "freshVisualReview": false,
     "priorImageReviewRetainedByMatchingSha256": true,
@@ -220450,7 +220650,7 @@
     ],
     "originalImageLocal": "archive/submission-images/1441729345994620980.png",
     "originalImageSHA256": "dc9a652458aec08ce0a98bc1d5fd51d0cda773d7fa69312d298812a3a87e6c8f",
-    "originalImageReviewAudit": "archive/animal2025-original-screenshot-review-20261005.json",
+    "originalImageReviewAudit": "artifacts/animal2025-original-submission-date-and-attribution-review-20261018.json",
     "proofField": "result-total",
     "freshVisualReview": false,
     "priorImageReviewRetainedByMatchingSha256": true,
@@ -220492,7 +220692,7 @@
     ],
     "originalImageLocal": "archive/submission-images/1442780862373564428.png",
     "originalImageSHA256": "804d83b260d72347210fc9e4b476a3dbb6b916f62b0ca037395c175fa97b6126",
-    "originalImageReviewAudit": "archive/animal2025-original-screenshot-review-20261005.json",
+    "originalImageReviewAudit": "artifacts/animal2025-original-submission-date-and-attribution-review-20261018.json",
     "proofField": "result-total",
     "freshVisualReview": false,
     "priorImageReviewRetainedByMatchingSha256": true,

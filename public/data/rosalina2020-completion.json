@@ -2,7 +2,7 @@
   "tourId": "tour-33",
   "tour": "Rosalina Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -57,9 +57,240 @@
     "resultScreenClipsPreservedOnR2": 0,
     "discussionImageDispositions": 316,
     "discussionImageHashesVerified": 316,
-    "discussionMessagesIndexed": 2808
+    "discussionMessagesIndexed": 2808,
+    "allOriginalImagesFullBytesAndDecodeVerified": 317,
+    "originalVideoObjectsFullBytesDecodeAndRangeVerified": 18,
+    "fullCompletedPerformanceFiles": 7,
+    "originalFullRuns": 6,
+    "sameRunFullCopies": 1,
+    "partialTechniqueClips": 11,
+    "partialFinishClips": 0
   },
   "remainingLimitations": [
+    "23 supporting worksheet rows remain undated:17 placeholder times and six actual results. No dates or WR credit invented.",
+    "Final Choco Mountain1:18.51 has a screenshot showing December29 and local14:57; source timezone is unproven. Unsupported exactUTC timestamp removed. Durations use supported calendar-date bounds, not an invented instant.",
+    "Final Choco Mountain1:18.51 has no recovered full recording; selected SuperFX1:18.93 is the fastest preserved completed recording for this tour.",
+    "Mismatched worksheet videos removed:Nu111:18.51 referenced1:18.72, and1:10.93 referenced1:11.51. Earlier Dash11967 December16 source retained over later report.",
+    "10 source-clock mismatches in later2022/2024 and one December30 result-only supporting-video clock are retained for their own tour reviews. Current-window timestamp sources all match their original source clocks; calendar-only final is qualified separately.",
+    "Late previous-tour Access39.91 result datedDecember16 06:04UTC is indexed for prior-tour gap backfill; it is slower than standing39.76 and receives noWR credit.",
+    "Known WR source review closed under the practical evidence standard; exhaustive worldwide history is not proven."
+  ],
+  "validation": {
+    "liveSnapshotRows": 513,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 83,
+    "freshSelectedRecordingReviews": 2,
+    "openingDayPolicyPassed": true,
+    "productionBuildPages": 891,
+    "openingWrGlobalLeaderCertified": false,
+    "focusedTestsPassed": 45,
+    "canonicalOriginalResultScreensRead": 35,
+    "courseRowDurationIntervalSumsAndPlayableWindowsVerified": 509,
+    "sourceClockRefinements": 4,
+    "canonicalClockAndDurationChanges": 6
+  },
+  "nextTourId": "tour-34",
+  "practicalReviewComplete": true,
+  "historyComplete": false,
+  "latestPublicationAudit": "artifacts/rosalina2020-final-known-source-date-duration-and18-video-review-20261019.json",
+  "sourceDispositionAudit": "archive/rosalina2020-practical-source-coverage-disposition-20261013.json",
+  "sourceCommit": "7159799a54defd0280a3a9f20a9f9ad980486d10",
+  "videoPreservationIntegrityReview": {
+    "checkedAt": "2026-10-17T03:25:16.525Z",
+    "canonicalWrVideoSourcesWithR2": 4,
+    "additionalDownloadedWrCopyPreserved": 1,
+    "uniqueFullPublicByteHashesPassed": 16,
+    "originalRecoveryGaps": 2,
+    "newUploads": 2,
+    "newlyPreservedWrVideo": "Wins1:11.06",
+    "evidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json"
+  },
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 76,
+  "worksheetDateCorrections": [
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW12",
+      "oldDate": "2020-12-17",
+      "newDate": "2020-12-29",
+      "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/795244935758348318"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE12",
+      "oldDate": "2020-12-16",
+      "newDate": "2020-12-29",
+      "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/793283375133097984"
+    }
+  ],
+  "remainingSupportingSourceGaps": [
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW14",
+      "playerId": "jibacha",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW15",
+      "playerId": "ryoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW16",
+      "playerId": "tokushima",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW21",
+      "playerId": "marumo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW22",
+      "playerId": "wakinyo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW23",
+      "playerId": "pooh",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW24",
+      "playerId": "mugicoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW25",
+      "playerId": "aruchan",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW26",
+      "playerId": "pi-reirei",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW55",
+      "playerId": "torisun",
+      "time": "1:19.76",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW56",
+      "playerId": "nico",
+      "time": "1:19.26",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "id": "sheet-JW72",
+      "playerId": "vectorpotatoz",
+      "time": "1:21.10",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE14",
+      "playerId": "jibacha",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE15",
+      "playerId": "ryoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE16",
+      "playerId": "tokushima",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE20",
+      "playerId": "michinori",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE21",
+      "playerId": "marumo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE22",
+      "playerId": "wakinyo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE24",
+      "playerId": "mugicoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE26",
+      "playerId": "pi-reirei",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE56",
+      "playerId": "ecliptix",
+      "time": "1:11.80",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE57",
+      "playerId": "littea",
+      "time": "1:13.50",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "id": "sheet-KE59",
+      "playerId": "vectorpotatoz",
+      "time": "1:16.90",
+      "reason": "Named dated source or attribution remains unsupported"
+    }
+  ],
+  "allOriginalSourceImagesPreservedOnR2": 317,
+  "originalVideoObjectsPreservedOnR2": 18,
+  "allReferencedOriginalVideosArchived": false,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/rosalina2020-final-known-source-date-duration-and18-video-review-live-receipt-20261019.json",
+  "priorRemainingLimitations": [
     "Sunset final WR recording preserved; Choco Mountain selected footage 1:18.93 is slower than final 1:18.51 with no recovered full recording. Unknown previous-best dates, unresolved precedence and unavailable originals remain qualified.",
     "Previous-best dates and unavailable originals remain unresolved.",
     "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
@@ -74,30 +305,5 @@
     "Choco Mountain final 1:18.51 result evidence has no recovered full recording; selected SuperFX 1:18.93 footage is slower.",
     "Fresh representative start/gameplay/finish samples plus decode retain prior recording assessment; uninterrupted unedited race coverage is not certified.",
     "Ten partial/technique clips are not completed WR proof; two additional completed recordings remain supporting evidence. Exact race dates and inaccessible originals remain qualified."
-  ],
-  "validation": {
-    "liveSnapshotRows": 513,
-    "livePublicationDifferences": 0,
-    "renderedPreservedEvidenceLinksReadable": 83,
-    "freshSelectedRecordingReviews": 2,
-    "openingDayPolicyPassed": true,
-    "productionBuildPages": 891,
-    "openingWrGlobalLeaderCertified": false
-  },
-  "nextTourId": "tour-34",
-  "practicalReviewComplete": true,
-  "historyComplete": false,
-  "latestPublicationAudit": "archive/rosalina2020-final-publication-audit-20261013.json",
-  "sourceDispositionAudit": "archive/rosalina2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "7159799a54defd0280a3a9f20a9f9ad980486d10",
-  "videoPreservationIntegrityReview": {
-    "checkedAt": "2026-10-17T03:25:16.525Z",
-    "canonicalWrVideoSourcesWithR2": 4,
-    "additionalDownloadedWrCopyPreserved": 1,
-    "uniqueFullPublicByteHashesPassed": 16,
-    "originalRecoveryGaps": 2,
-    "newUploads": 2,
-    "newlyPreservedWrVideo": "Wins1:11.06",
-    "evidence": "artifacts/rosalina2020-original-wr-video-preservation-and-integrity-review-20261016.json"
-  }
+  ]
 }
