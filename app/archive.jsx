@@ -24,8 +24,10 @@ function Nation({ country }) {
 }
 function RecordDate({ r }) {
   const displayed = date(r.finalDate || r.recordDate || r.achievedAt || r.submittedAt || r.announcedAt);
-  if (r.documentedLocalWindow) return <span title={`Runner reports ${displayed} ${r.documentedLocalWindow.label || 'within the documented part of the day'}; source timezone unconfirmed.`}>{displayed}</span>;
-  return r.documentedLocalTimestamp ? <span title={`Original publication shown as ${r.documentedLocalTimestamp.replace('T',' ')}; source timezone unconfirmed.`}>{displayed}</span> : displayed;
+  if (r.documentedLocalWindow) return <span title={r.documentedDateTimezone === 'UTC'
+    ? `Documented source window: ${r.documentedLocalWindow.start.replace('T',' ')} to ${r.documentedLocalWindow.end.replace('T',' ')} UTC.${r.documentedLocalWindow.label ? ` ${r.documentedLocalWindow.label}` : ''}`
+    : `Runner reports ${displayed} ${r.documentedLocalWindow.label || 'within the documented part of the day'}; source timezone unconfirmed.`}>{displayed}</span>;
+  return r.documentedLocalTimestamp ? <span title={`${r.finalDateBasis === 'reviewed-original-result-image-local-minute' ? 'Original result image captured at' : 'Original publication shown as'} ${r.documentedLocalTimestamp.replace('T',' ')}; source timezone unconfirmed.`}>{displayed}</span> : displayed;
 }
 function Duration({ r }) {
   const format = n => n > 0 && n < 1 ? "<1" : Math.floor(n);
