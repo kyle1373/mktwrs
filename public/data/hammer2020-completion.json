@@ -2,7 +2,7 @@
   "tourId": "tour-14",
   "tour": "Hammer Bro Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-14",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -15,7 +15,7 @@
       "archivedWr": "1:21.98",
       "fastestDocumentedAvailableRecording": "1:22.14",
       "recordingPlayerId": "tomegome",
-      "originalResultPost": "2020-03-26T06:45:42Z",
+      "originalResultPost": "2020-03-26T06:45:42.245Z",
       "wrThirdPartyReportedAt": "2020-03-26T11:00:33.390Z"
     },
     {
@@ -23,7 +23,7 @@
       "archivedWr": "1:31.31",
       "fastestDocumentedAvailableRecording": "1:31.74",
       "recordingPlayerId": "tomegome",
-      "originalResultPost": "2020-03-29T09:18:51Z"
+      "originalResultPost": "2020-03-29T09:18:51.202Z"
     }
   ],
   "evidence": [
@@ -81,29 +81,30 @@
   "remainingLimitations": [
     "No surviving Yoshi opening-day result was recovered. No opening leader is invented.",
     "Six recovered leaders have surviving reports, images or movies; their worldwide WR precedence is unconfirmed. They remain labelled and receive no confirmed-WR/profile credit.",
-    "The final announced Yoshi 1:31.31 has only a retrospective tour date; its original image is unavailable. Frappe 1:21.98 has a March 26 report date, but its final image is unverified.",
+    "The final Yoshi1:31.31 uses its surviving2021-10-09 announcement date; its private2020 race date and0–14 possible playable-day duration remain unresolved. Frappe1:21.98 uses the contemporary2020-03-26 report. Both original final WR images currently return404.",
     "The reported closest Yoshi recording is 1:31.33; its original video is unavailable. The fastest preserved available movie is 1:31.74.",
     "One further historical repost is unavailable; rejected Photoshop and unresolved Birdo variant are excluded.",
     "Matching original hashes retain prior image/movie assessments. Complete movie continuity and deleted/private/global source completeness are not certified."
   ],
   "validation": {
-    "productionBuildPages": 892,
+    "productionBuildPages": 891,
     "liveSnapshotRows": 95,
     "livePublicationDifferences": 0,
     "renderedPreservedEvidenceLinksReadable": 59,
-    "freshSelectedRecordingReviews": 2,
+    "freshSelectedRecordingReviews": 4,
     "finalResultImagesVerified": 0,
     "finalRunnerSummaryTextVerified": 0,
     "openingWrGlobalLeaderCertified": false,
     "priorPublicationChecksRetained": true,
-    "latestRecoveredProgressionLiveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json"
+    "latestRecoveredProgressionLiveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json",
+    "focusedDateDurationAndPreviousBestTestsPassed": 33
   },
-  "nextTourId": "tour-97",
+  "nextTourId": "tour-15",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/hammer2020-reopened-review-resolved-live-check-20261014.json",
   "sourceDispositionAudit": "archive/hammer2020-final-practical-source-dispositions-20261013.json",
-  "sourceCommit": "2218ca108c3419ff1f5b36ead2d9921bed56af93",
+  "sourceCommit": "9967f3035230055606e2de595c1b5e5bb1dc60a4",
   "historicalRecordingReferenceReconciliation": {
     "reviewAudit": "archive/hammer2020-yoshi-original-announcement-and-alias-reconciliation-20261013.json",
     "reportedTime": "1:31.33",
@@ -207,13 +208,53 @@
   "submissionDatePolicy": {
     "evidence": "archive/hammer2020-posted-submission-date-policy-20261014.json",
     "policy": "Source posting date is the default submission date unless evidence establishes another date.",
-    "retrospectiveYoshiFinalUsesTourRange": true,
+    "retrospectiveYoshiFinalUsesTourRange": false,
     "frappeFinalSubmissionDate": "2020-03-26",
     "liveVerified": true,
-    "liveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json"
+    "liveEvidence": "archive/hammer2020-posted-dates-original-proofs-live-check-20261014.json",
+    "retrospectiveYoshiFinalPublicDate": "2021-10-09"
   },
   "latestPracticalReviewDecision": "archive/hammer2020-reopened-surviving-source-review-decision-20261014.json",
   "finalReferencePublicationVerified": true,
   "finalReferencePublicationBuildEvidence": "archive/hammer2020-reopened-review-resolved-production-build-check-20261014.json",
-  "finalReferencePublicationLiveEvidence": "archive/hammer2020-reopened-review-resolved-live-check-20261014.json"
+  "finalReferencePublicationLiveEvidence": "archive/hammer2020-reopened-review-resolved-live-check-20261014.json",
+  "latestDateDurationReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/hammer2020-original-post-clock-duration-and-faster-personal-best-reconciliation-20261019.json",
+    "knownSourceRowsWithSingleDateAndNumericDurationBoundsChecked": 95,
+    "canonicalWRsReviewed": 2,
+    "originalVideoPostClocksCorrected": 2,
+    "affectedDurationBoundsCorrected": 4,
+    "frappeTomeWrongReignRemoved": true,
+    "frappeTomeRecordedTime": "1:22.14",
+    "frappeTomeFasterPreviousBest": "1:22.08",
+    "frappeTomeCreditedDays": 0,
+    "yoshiRetrospectiveDate": "2021-10-09",
+    "yoshiPrivateRunClockUnknown": true,
+    "yoshiZeroTo14DayBoundRetained": true,
+    "privateRaceDatesNotInvented": true
+  },
+  "currentVideoReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/hammer2020-four-preserved-videos-full-r2-hash-and-decode-verification-20261019.json",
+    "filesFullPublicHashDecodeAndRangeVerified": 4,
+    "freshSampledFinishReviews": 4,
+    "fastestAvailableRecordings": [
+      "1:22.14",
+      "1:31.74"
+    ],
+    "slowerPreservedRecordings": [
+      "1:23.53",
+      "1:33.26"
+    ],
+    "uncutContinuityNotFreshlyCertified": true
+  },
+  "latestOriginalProofReview": {
+    "artifact": "artifacts/hammer2020-58-original-proof-images-full-public-hash-verification-20261019.json",
+    "originalImageFullPublicHashesVerified": 58,
+    "priorVisualQualificationsRetained": true,
+    "finalProofAvailabilityReview": "artifacts/hammer2020-final-announcement-proof-availability-recheck-20261019.json",
+    "bothFinalProofImagesHTTPStatus": 404,
+    "yoshiEmbeddedCourseAndPlayerArtNotRunProof": true
+  }
 }
