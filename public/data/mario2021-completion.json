@@ -98,7 +98,7 @@
   "nextTourId": "tour-40",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/mario2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/mario2021-final-known-source-date-duration-and17-video-review-20261019.json",
   "sourceDispositionAudit": "archive/mario2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "168ffecd3d5ab3e6c268cd5b0680d56490cb3166",
   "videoPreservationReview": {
@@ -112,5 +112,24 @@
     "allPublicFileBytesMatchLocalSha256": true,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
-  }
+  },
+  "knownWRReviewComplete": true,
+  "dateDurationReconciliation": {
+    "audit": "artifacts/mario2021-reviewed-date-duration-and17-video-reconciliation-20261019.json",
+    "sourceClockAudit": "artifacts/mario2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 84,
+    "sourceRowsMatched": 89,
+    "correctedPriorWorksheetDates": 1,
+    "allWRDatesAndDurationsUnchanged": true,
+    "remainingActualWorksheetDateOrIdentityGaps": 34,
+    "retainedWorksheetPlaceholders": 33
+  },
+  "preservedMediaFreshVerification": {
+    "imageAudit": "artifacts/mario2021-all331-original-source-images-r2-preservation-20261019.json",
+    "videoAudit": "artifacts/mario2021-all17-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "images": 331,
+    "storedVideos": 17,
+    "allReferencedOriginalVideosArchived": false
+  },
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/mario2021-final-known-source-date-duration-and17-video-review-live-receipt-20261019.json"
 }
