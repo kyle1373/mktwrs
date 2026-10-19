@@ -1,0 +1,77 @@
+{
+  "tourId": "tour-50",
+  "sourceCommit": "c6eff4e23c0f7acf35ab5c711d70da6865afa5a7",
+  "reviewedAt": "2026-10-19T17:26:58.164752+00:00",
+  "imageSourceFileRowsVerified": 226,
+  "distinctImageHashes": 225,
+  "videoObjectsVerified": 18,
+  "distinctVideoHashes": 16,
+  "videoCoverage": {
+    "completedRecordingObjects": 6,
+    "partialClipObjects": 10,
+    "duplicateHashObjects": 2
+  },
+  "worksheetMatchesLocated": 55,
+  "freshlyReviewedMatchedImageProofs": 55,
+  "alreadyVerifiedWorksheetDatesRetained": 3,
+  "dateApplicationNotYetPerformed": false,
+  "knownWRReviewComplete": false,
+  "historyComplete": false,
+  "wholeGoalComplete": false,
+  "pendingSupplementaryProofs": [],
+  "nextActions": [
+    "Stage exact reviewed clean-mirror files and preserve ROOT drafts.",
+    "Commit/push,verify exact Railway commit success,live HTML/JSON/proof links,source snapshots and final R2 receipt before moving to tour51."
+  ],
+  "baselineClockAudit": {
+    "matchingSourceClocks": 360,
+    "currentTourUnmatchedClockRows": [
+      {
+        "courseId": "3ds-toad-circuit-r",
+        "collection": "submissions",
+        "id": "curated-1430213955905982464-michinori-original-social-image-reviewed",
+        "timestamp": "2021-08-24T17:02:33.000Z",
+        "urls": [
+          null,
+          "https://x.com/michinori0077/status/1430213955905982464",
+          null,
+          "https://discord.com/channels/629221606064914442/636461740162416640/879849020950994964",
+          "https://docs.google.com/spreadsheets/d/1fTkcCluvL4frXvvFw4qBvkHBpj7mVtw7sCgDs6TGGno/edit#gid=876753249&range=WF52",
+          "https://x.com/michinori0077/status/1430213955905982464"
+        ]
+      }
+    ],
+    "durationIntervalRows": 443
+  },
+  "imagePreservationAudit": "artifacts/frost2021-all224-original-source-images-r2-preservation-20261019.json",
+  "videoVerificationAudit": "artifacts/frost2021-all18-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+  "freshProofReview": "artifacts/frost2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+  "rootDraftsPreserved": true,
+  "supplementarySourceImagesVerified": 2,
+  "newWorksheetDatesRecovered": 52,
+  "allCurrentTourDocumentedSourceClocksMatched": true,
+  "sourceClockRowsVerified": 413,
+  "durationIntervalRowsVerified": 443,
+  "remainingWorksheetDateOrIdentityGaps": 18,
+  "retainedWorksheetPlaceholders": 5,
+  "rawPublicationPatchesAdded": 56,
+  "sourceClockRowsCorrected": 1,
+  "canonicalWrDatesTimesAndDurationsUnchanged": true,
+  "sourceClockCorrectionsAudit": "artifacts/frost2021-reviewed-original-result-source-clock-corrections-20261019.json",
+  "dateReconciliationAudit": "artifacts/frost2021-reviewed-date-duration-and18-video-reconciliation-20261019.json",
+  "confirmedExecSessions": {
+    "tests": {
+      "formerSessionId": 88579,
+      "terminalExitCode": 0
+    },
+    "build": {
+      "formerSessionId": 41914,
+      "terminalExitCode": 0
+    }
+  },
+  "focusedTestsPassed": 56,
+  "publicationVerified": false,
+  "initialDataBuildPassed": true,
+  "finalBuildWithArchivedRecordingTableFlagPassed": true,
+  "knownSourceReviewPreparedForPublication": true
+}
