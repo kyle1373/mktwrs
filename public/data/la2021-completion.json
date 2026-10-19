@@ -2,8 +2,8 @@
   "tourId": "tour-48",
   "tour": "Los Angeles Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable-time durations, preserved original evidence and retained explicit source gaps; no claim of exhaustive worldwide history.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-07-14T06:00:00Z",
@@ -37,7 +37,13 @@
     "archive/la2021-image-source-publication-crosswalk-20261013.json",
     "archive/la2021-opening-day-policy-generation-check-20261013.json",
     "artifacts/la2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-    "artifacts/la2021-nu10653-sheet-video-date-association-review-20261016.json"
+    "artifacts/la2021-nu10653-sheet-video-date-association-review-20261016.json",
+    "artifacts/la2021-final-known-source-date-duration-and4-video-review-20261019.json",
+    "artifacts/la2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/la2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/la2021-all125-original-source-images-r2-preservation-20261019.json",
+    "artifacts/la2021-all4-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/la2021-original-video-publication-and-recovery-recheck-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/la-2021-reconciliation.json",
@@ -85,7 +91,8 @@
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
     "Two slower Wins completed originals preserved with prior footage review retained. Exact race dates and inaccessible originals remain qualified.",
-    "All four stored video objects passed full SHA256 and byte-length checks. Selected 1:06.61 and 1:18.48 footage remains slower than the final WRs. Nu11’s unavailable Twitter reference is preserved separately from worksheet 1:06.53; that worksheet date now follows the identical original 15:17:33 UTC Discord result. Canonical WR dates and durations remain unchanged."
+    "All four stored video objects passed full SHA256 and byte-length checks. Selected 1:06.61 and 1:18.48 footage remains slower than the final WRs. Nu11’s unavailable Twitter reference is preserved separately from worksheet 1:06.53; that worksheet date now follows the identical original 15:17:33 UTC Discord result. Canonical WR dates and durations remain unchanged.",
+    "Six named worksheet entries still lack a supported date or identity match;25 worksheet placeholders remain internal. Final WR footage has not been recovered; the two selected recordings are slower than their final WRs."
   ],
   "validation": {
     "liveSnapshotRows": 237,
@@ -114,5 +121,269 @@
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
   },
-  "worksheetDateAssociationReview": "artifacts/la2021-nu10653-sheet-video-date-association-review-20261016.json"
+  "worksheetDateAssociationReview": "artifacts/la2021-nu10653-sheet-video-date-association-review-20261016.json",
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/la2021-final-known-source-date-duration-and4-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/la2021-final-known-source-date-duration-and4-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 35,
+    "sourceRowsMatched": 37,
+    "worksheetDateCorrections": [
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR10",
+        "time": "1:07.14",
+        "priorDate": "2021-07-19",
+        "date": "2021-07-15",
+        "priorTimestamp": "2021-07-19T17:38:29.000Z",
+        "timestamp": "2021-07-15T12:41:49.555Z",
+        "sourceUrl": "https://discord.com/channels/629221606064914442/636461740162416640/865211554956836905"
+      }
+    ],
+    "sourceClockRowsVerified": 206,
+    "durationRowsVerified": 237,
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "curated-la-2021-864888354499854367-10653",
+        "time": "1:06.53",
+        "playerId": "nu11",
+        "previousDurationDays": 9.416037511574075,
+        "durationDays": 9.416045567129629,
+        "deltaSeconds": 0.6959999998798594
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "896340787376308245",
+        "time": "1:06.44",
+        "playerId": "tomegome",
+        "previousDurationDays": 4.196770833333333,
+        "durationDays": 4.196762777777778,
+        "deltaSeconds": -0.695999999956598
+      }
+    ],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ11",
+        "playerId": "kazuo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ13",
+        "playerId": "tomegome",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ14",
+        "playerId": "jibacha",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ15",
+        "playerId": "ryoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ16",
+        "playerId": "tokushima",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ17",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ19",
+        "playerId": "heria",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ20",
+        "playerId": "michinori",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ21",
+        "playerId": "marumo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ22",
+        "playerId": "wakinyo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ23",
+        "playerId": "pooh",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ24",
+        "playerId": "mugicoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ25",
+        "playerId": "aruchan",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ26",
+        "playerId": "pi-reirei",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ28",
+        "playerId": "romain",
+        "time": "1:19.63",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ32",
+        "playerId": "retro",
+        "time": "1:18.88",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "n64-kalimari-desert-r",
+        "id": "sheet-UZ33",
+        "playerId": "hilton",
+        "time": "1:19.64",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR14",
+        "playerId": "jibacha",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR15",
+        "playerId": "ryoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR16",
+        "playerId": "tokushima",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR19",
+        "playerId": "heria",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR20",
+        "playerId": "michinori",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR21",
+        "playerId": "marumo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR22",
+        "playerId": "wakinyo",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR23",
+        "playerId": "pooh",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR24",
+        "playerId": "mugicoma",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR25",
+        "playerId": "aruchan",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR26",
+        "playerId": "pi-reirei",
+        "time": "1:59.99",
+        "reason": "Unverified worksheet placeholder"
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR39",
+        "playerId": "armkarl",
+        "time": "1:08.12",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR43",
+        "playerId": "romain",
+        "time": "1:07.67",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "snes-mario-circuit-3",
+        "id": "sheet-UR48",
+        "playerId": "warm-torisun",
+        "time": "1:08.68",
+        "reason": "No supported named dated source or identity match; retain as internal source gap."
+      }
+    ],
+    "preservedSourceImages": 125,
+    "storedVideoObjects": 4,
+    "distinctStoredVideoHashes": 4,
+    "sourceProofPreservationPatches": 37
+  }
 }
