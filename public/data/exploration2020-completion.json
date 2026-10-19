@@ -2,7 +2,7 @@
   "tourId": "tour-22",
   "tour": "Exploration Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -40,7 +40,12 @@
     "archive/exploration2020-six-additional-completed-originals-r2-preservation-20261013.json",
     "archive/exploration2020-two-final-result-image-integrity-review-20261013.json",
     "archive/exploration2020-dino-opening-day-policy-generation-check-20261013.json",
-    "archive/exploration2020-vanilla-opening-day-policy-generation-check-20261013.json"
+    "archive/exploration2020-vanilla-opening-day-policy-generation-check-20261013.json",
+    "artifacts/exploration2020-all255-original-source-images-r2-preservation-20261019.json",
+    "artifacts/exploration2020-51-reviewed-original-source-dates-and18-video-reconciliation-20261019.json",
+    "artifacts/exploration2020-final-source-clock-and-duration-audit-20261019.json",
+    "artifacts/exploration2020-final27-supporting-source-gap-dispositions-20261019.json",
+    "artifacts/exploration2020-two-missing-originals-current-access-review-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/exploration2020-discussion-review-progress.json",
@@ -53,13 +58,16 @@
     "proofImageUrlsPassed": 30,
     "additionalCompletedRecordingsPreservedOnR2": 6,
     "discussionImageDispositions": 255,
-    "discussionImageHashesVerified": 255
+    "discussionImageHashesVerified": 255,
+    "allOriginalSourceImagesPreservedOnR2": 255,
+    "originalVideosFullBytesDecodedAndRangeVerified": 18
   },
   "remainingLimitations": [
     "Final Dino Dino Jungle 1:33.66 and Vanilla Lake 1R 0:34.38 WR recordings unavailable; completed 1:34.43 and 0:34.50 footage shown separately.",
     "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
     "255 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
-    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
+    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.",
+    "27 supporting worksheet rows retained as documented source/identity gaps, including10 placeholders. Exact race dates remain unproven; published dates use supported original submissions.18 complete or partial source videos preserved; no partial clip is a completed result."
   ],
   "validation": {
     "liveSnapshotRows": 191,
@@ -74,7 +82,14 @@
   "nextTourId": "tour-23",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/exploration2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/exploration2020-final-known-source-date-duration-and18-video-review-20261019.json",
   "sourceDispositionAudit": "archive/exploration2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "27594c77b12f040d4d689f5a5469fc7206fb8621"
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 50,
+  "remainingSupportingSourceGaps": 27,
+  "allSupportingSourcesResolved": false,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/exploration2020-final-known-source-date-duration-and18-video-review-live-receipt-20261019.json",
+  "latestSourceClockAndDurationAudit": "artifacts/exploration2020-final-source-clock-and-duration-audit-20261019.json",
+  "wholeGoalComplete": false,
+  "priorPublicationCommit": "27594c77b12f040d4d689f5a5469fc7206fb8621"
 }
