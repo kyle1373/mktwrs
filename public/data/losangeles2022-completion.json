@@ -2,8 +2,8 @@
   "tourId": "tour-63",
   "tour": "Los Angeles Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with supported submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2022-02-09T06:00:00Z",
@@ -40,7 +40,16 @@
     "archive/losangeles2022-all-original-video-upload-share-clocks-20261013.json",
     "archive/losangeles2022-selected-recording-hash-decode-and-sampled-finish-review-20261013.json",
     "archive/losangeles2022-final-publication-audit-20261013.json",
-    "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/losangeles2022-final-known-source-date-duration-and15-video-review-20261019.json",
+    "artifacts/losangeles2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/losangeles2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/losangeles2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/losangeles2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/losangeles2022-all15-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/losangeles2022-all152-original-source-images-r2-preservation-20261019.json",
+    "artifacts/losangeles2022-two-final-boards-literal-result-review-20261019.json",
+    "artifacts/losangeles2022-retained-worksheet-source-gaps-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/los-angeles-2022-reconciliation.json",
@@ -75,7 +84,8 @@
     "This tour-level review does not establish complete coverage across all years, channels, or deleted evidence.",
     "Six completed original recordings (including two no-item runs) and nine partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
-    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained."
+    "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
+    "Current date/duration review:56 of57 current worksheet entries have exact named dated evidence, with55 newly dated and one earlier date retained. Haruru1:33.77 remains a worksheet-only source gap. Both final boards were literally read from preserved files; earlier dated originals are used where supported, including Newyork1:38.48. Late reports remain eligible. All152 indexed/supplementary image paths (151 distinct hashes) passed public full-byte and image-decode checks. Processed context/proof files are preserved without claiming historical original-upload byte identity. All15 stored video files passed full bytes, SHA256, decode and206seeking checks: six completed runs (four main-category,two no-item) and nine partial clips. Both final WR recordings are preserved. The recently reviewed unavailable Nu111:33.82 original remains a documented footage gap, with dated result image and laps retained. No universal original-footage availability or private achievement dates are claimed."
   ],
   "validation": {
     "liveSnapshotRows": 291,
@@ -92,7 +102,7 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "48927367281c440adb59a1bac215c61ae0f25678",
-  "latestPublicationAudit": "archive/losangeles2022-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/losangeles2022-final-known-source-date-duration-and15-video-review-20261019.json",
   "videoPreservationReview": {
     "checkedAt": "2026-10-17T06:42:35.262Z",
     "audit": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
@@ -118,5 +128,30 @@
     "canonicalVideoReferencedResultsWithSourceDateAndDurationChecks": 4,
     "previousBestDateGapsRemain": true,
     "historyComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/losangeles2022-final-known-source-date-duration-and15-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/losangeles2022-final-known-source-date-duration-and15-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 55,
+    "sourceRowsMatched": 56,
+    "sourceClockRowsVerified": 285,
+    "durationRowsVerified": 291,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "3ds-wario-shipyard",
+        "id": "sheet-AEV47",
+        "playerId": "haruru",
+        "time": "1:33.77",
+        "reason": "No dated exact Haruru1:33.77 original result; final board contains no matching player/time. Unsupported date not invented."
+      }
+    ],
+    "indexedSourceImageFiles": 152,
+    "totalPreservedSourceFiles": 152,
+    "distinctSourceHashes": 151,
+    "storedVideoObjects": 15,
+    "distinctStoredVideoHashes": 15,
+    "rawPublicationPatchesAdded": 60
   }
 }

@@ -1,0 +1,58 @@
+{
+  "tourId": "tour-63",
+  "preparedAt": "2026-10-19T22:07:23.907833+00:00",
+  "sourceCommit": "1e11e1c6c96d21e3c0520c4ba288c6f1736fe0ee",
+  "priorTourCompletionReceiptURL": "https://media.mktwrs.com/assets/proof/wariowaluigi2022-final-known-source-date-duration-and9-video-review-live-receipt-20261019.json",
+  "window": {
+    "start": "2022-02-09T06:00:00Z",
+    "endExclusive": "2022-02-23T06:00:00Z"
+  },
+  "courses": [
+    {
+      "courseId": "wii-dk-summit-r",
+      "records": 10,
+      "submissions": 33,
+      "candidates": 0,
+      "currentTourWorksheetPrefix": "AFD",
+      "currentTourWorksheetRows": 19,
+      "currentTourUndatedWorksheetRows": 19
+    },
+    {
+      "courseId": "3ds-wario-shipyard",
+      "records": 20,
+      "submissions": 228,
+      "candidates": 0,
+      "currentTourWorksheetPrefix": "AEV",
+      "currentTourWorksheetRows": 38,
+      "currentTourUndatedWorksheetRows": 37
+    }
+  ],
+  "preservedSourceInputs": [
+    {
+      "path": "archive/losangeles2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+      "sha256": "0c57eed1ab2685fc6cdc1b933a8aa87baac1a2d7f4ed4ffd88ab756926f7abcb"
+    },
+    {
+      "path": "archive/losangeles2022-discussion-image-integrity-index-20261013.json",
+      "sha256": "efd8aa3996286f97d8a12a0d1b917c69c18c98de31327629fa0fece51675f523"
+    },
+    {
+      "path": "archive/los-angeles-2022-reconciliation.json",
+      "sha256": "79b20f7c95228746a80d51f9657ff96dec27b3892779aa9538478f2675d04873"
+    },
+    {
+      "path": "archive/losangeles2022-all-original-video-upload-share-clocks-20261013.json",
+      "sha256": "0e9da8ffbaf8c4cab009199d67198936653d1129b81972c60845ff42d02a3ff2"
+    },
+    {
+      "path": "artifacts/losangeles2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+      "sha256": "90cef30766e7b5580c053ebaa7ca9e7c81d6408fb903552278adcc55c4260581"
+    },
+    {
+      "path": "archive/los-angeles-2022-capture-audit.json",
+      "sha256": "8ed66b441f02ee6e6654235221235221ba2a067a2aded68d56ac6ee403324315"
+    }
+  ],
+  "nextAction": "Reuse saved original result dispositions and final boards to reconcile AFD/AEV missing dates. Verify all target course source clocks and playable durations, preserve available original files on R2, and publish and live-verify this tour before proceeding. Existing dates take precedence over later boards when supported; no race instants guessed.",
+  "wholeGoalComplete": false
+}
