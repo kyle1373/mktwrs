@@ -2,11 +2,11 @@
   "tourId": "tour-68",
   "tour": "Amsterdam Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
-  "standard": "User-authorized practical source/evidence standard; prior visual dispositions retained, originals hash checked, selected finishes sampled, available recordings preserved and live publication verified.",
+  "standard": "Known-source WR review with supported submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "window": {
     "start": "2022-04-20T06:00:00Z",
     "endExclusive": "2022-05-04T06:00:00Z"
@@ -53,7 +53,8 @@
     "Seven full recordings and one isolated-lap clip preserved. Sucha1:21.38 video was promised without an identified URL; final1:21.37 has a preserved matching recording.",
     "Upload/share/submission clocks are publication bounds rather than certified achievement instants. Wins0:40.66 video was uploaded/shared after May4 rollover, retaining April25 result provenance.",
     "Selected finishes freshly sampled and files decoded; prior proof dispositions retained. Every-frame continuity and worldwide fastest-recording completeness are not certified.",
-    "Preserved source coverage does not establish absence of deleted/private/unindexed material; only final fastest documented opening-day leaders/ties are published."
+    "Preserved source coverage does not establish absence of deleted/private/unindexed material; only final fastest documented opening-day leaders/ties are published.",
+    "Current detailed review:all68 current worksheet entries have documented report dates,29 newly dated. Pooh0:40.92 uses the earliest explicitly named contemporaneous report; later command, named pending receipt and accurate OCR corroborate the result without claiming acceptance or WR status. All101 saved image/frame paths,98 distinct hashes, passed full-byte SHA and image decode checks; processed or historical hash-unproven files are not claimed original-upload byte identity. All14 stored media objects passed full-byte SHA and206seeking; ten videos passed full decode, comprising eight completed runs, one isolated-lap clip and one playback copy; three proof images and one metadata object were decoded separately. Both final WR recordings are preserved: WinsChocoIsland1R0:40.66 and SuchaRMXRainbowRoad2 1:21.37. Earlier own result dates remain distinct from later public video uploads; private race instants are not inferred. NHSpeedy slower runs remain supporting evidence without new WR credit. Four unavailable cancelled/deleted attachment references retain explicit dispositions; corrected1:21.43 and0:41.00 originals survive, while1:21.52 uses described corroboration. Late reports remain eligible. Supplemental OCR is separate from literal visual review. Full worldwide history and all original footage remain unproven."
   ],
   "evidence": [
     "archive/amsterdam2022-discussion-media-integrity-index-20261013.json",
@@ -69,10 +70,19 @@
     "archive/amsterdam-2022-reconciliation.json",
     "archive/amsterdam-2022-evidence-validation-20261008.json",
     "artifacts/amsterdam2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
-    "artifacts/amsterdam2022-source-date-duration-and-worksheet-video-correction-review-20261017.json"
+    "artifacts/amsterdam2022-source-date-duration-and-worksheet-video-correction-review-20261017.json",
+    "artifacts/amsterdam2022-final-known-source-date-duration-and10-video-review-20261019.json",
+    "artifacts/amsterdam2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/amsterdam2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/amsterdam2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/amsterdam2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/amsterdam2022-all10-stored-video-and4-proof-metadata-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/amsterdam2022-all101-original-source-images-r2-preservation-20261019.json",
+    "artifacts/amsterdam2022-accurate-ocr-and-named-original-report-source-review-20261019.json",
+    "artifacts/amsterdam2022-retained-current-worksheet-source-gaps-20261019.json"
   ],
   "sourceCommit": "ab20c4e209466f6d5ecba87d99c90e00678b9107",
-  "latestPublicationAudit": "archive/amsterdam2022-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/amsterdam2022-final-known-source-date-duration-and10-video-review-20261019.json",
   "nextTourId": "tour-69",
   "nhspeedy8172OriginalPreservation": {
     "preservationAudit": "archive/nhspeedy-rmx-rainbow-road-2-8172-original-and-source-clocks-20261016.json",
@@ -174,5 +184,22 @@
     "newProofUploads": 1,
     "newVideoUploads": 0,
     "evidence": "artifacts/amsterdam2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/amsterdam2022-final-known-source-date-duration-and10-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/amsterdam2022-final-known-source-date-duration-and10-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 29,
+    "sourceRowsMatched": 29,
+    "sourceClockRowsVerified": 272,
+    "durationRowsVerified": 289,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [],
+    "indexedSourceImageFiles": 101,
+    "totalPreservedSourceFiles": 101,
+    "distinctSourceHashes": 98,
+    "storedVideoObjects": 10,
+    "distinctStoredVideoHashes": 10,
+    "rawPublicationPatchesAdded": 29
   }
 }
