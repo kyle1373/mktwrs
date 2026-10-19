@@ -2,8 +2,8 @@
   "tourId": "tour-52",
   "tour": "Sydney Tour (September 2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable-time durations, preserved available original evidence and explicit source gaps; no exhaustive worldwide-history claim.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-09-08T06:00:00Z",
@@ -38,7 +38,15 @@
     "archive/sydneysep2021-opening-day-policy-generation-check-20261013.json",
     "archive/sydneysep2021-submission-source-file-and-publication-crosswalk-20261013.json",
     "archive/sydneysep2021-preserved-video-clock-reconciliation-20261013.json",
-    "artifacts/sydneysep2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/sydneysep2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/sydneysep2021-final-known-source-date-duration-and9-video-review-20261019.json",
+    "artifacts/sydneysep2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/sydneysep2021-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/sydneysep2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/sydneysep2021-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/sydneysep2021-all9-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/sydneysep2021-newly-recovered-original-visual-review-dispositions-20261019.json",
+    "artifacts/sydneysep2021-original-yoshi-final-post-image-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/sydney-september-2021-reconciliation.json",
@@ -72,7 +80,7 @@
     "Nu11 1:32.14, saki7 1:02.13 and shiraui 1:03.60 are previous-best leads without independently verified original publication chronology.",
     "Choco Mountain leaderboard 1:18.37 is a typo: the previously reviewed original screenshot and announcement establish 1:18.38. September discussion confirms Kaguya was the holder despite omission from the leaderboard.",
     "An incorrect Mario Circuit 3 graphic was subsequently corrected; a joke Vanilla Lake leaderboard was excluded.",
-    "Manzinma tweet 1435643834063458307 is unavailable. Nozomi\u2019s linked image shows a slower Yoshi Circuit 1:34.52; it is not a WR. Shoronpo\u2019s linked post restricts access.",
+    "Manzinma tweet 1435643834063458307 is unavailable. Nozomi’s linked image shows a slower Yoshi Circuit 1:34.52; it is not a WR. Shoronpo’s linked post restricts access.",
     "Single-lap and technique clips are not proof of a completed two-lap record.",
     "Prior full recording review retained without fresh uninterrupted certification.",
     "Private, deleted and unindexed global material not proven fully recovered.",
@@ -83,7 +91,8 @@
     "Boundary Sydney Sprint clip belongs to Anniversary 2021, not Sydney September 2021.",
     "No claim that unavailable streams or worldwide recordings were exhausted.",
     "Five partial technique/lap clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
-    "All nine R2 objects passed full SHA256 and byte-length checks. Three completed runs and five partial clips belong to this tour; the ninth object is a following-tour boundary clip, retained without adding it to Sydney coverage. Exact race dates and deleted/private or unindexed source history remain qualified."
+    "All nine R2 objects passed full SHA256 and byte-length checks. Three completed runs and five partial clips belong to this tour; the ninth object is a following-tour boundary clip, retained without adding it to Sydney coverage. Exact race dates and deleted/private or unindexed source history remain qualified.",
+    "Fifteen worksheet entries still lack a supported named dated source or canonical identity match. Maki1:32.42 was submitted two seconds after reset and remains eligible as a late prior-tour result, but the Jibacha worksheet identity is not established. Two deleted-account Vanilla results remain preserved identity holds. Nine video files contain three completed runs, five partial clips and one following-tour boundary clip; both final WR recordings are preserved.232 preserved source file paths contain157 distinct hashes; duplicate recovery paths and following-tour sources are not additional Sydney records."
   ],
   "validation": {
     "liveSnapshotRows": 511,
@@ -114,5 +123,147 @@
     "followingTourBoundaryClip": 1,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/sydneysep2021-final-known-source-date-duration-and9-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/sydneysep2021-final-known-source-date-duration-and9-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 36,
+    "sourceRowsMatched": 36,
+    "sourceClockRowsVerified": 454,
+    "durationRowsVerified": 514,
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "curated-sydney-september-2021-885517209181507594-13198",
+        "time": "1:31.98",
+        "playerId": "nu11",
+        "previousDurationDays": 11.963059884259259,
+        "durationDays": 11.963071064814814,
+        "deltaSeconds": 0.9659999999655611
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "897020617281392690",
+        "time": "1:31.79",
+        "playerId": "nu11",
+        "previousDurationDays": 2.133313136574074,
+        "durationDays": 2.1333019560185185,
+        "deltaSeconds": -0.9660000000039304
+      }
+    ],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "rmx-vanilla-lake-1r",
+        "id": "sheet-XL21",
+        "playerId": "peachii",
+        "time": "1:02.34",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1r",
+        "id": "sheet-XL22",
+        "playerId": "dome-1909",
+        "time": "1:02.36",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1r",
+        "id": "sheet-XL24",
+        "playerId": "thomastchi",
+        "time": "1:02.69",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1r",
+        "id": "sheet-XL26",
+        "playerId": "aioi",
+        "time": "1:03.12",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1r",
+        "id": "sheet-XL27",
+        "playerId": "mish",
+        "time": "1:03.45",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1r",
+        "id": "sheet-XL28",
+        "playerId": "ivangh",
+        "time": "1:03.75",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD13",
+        "playerId": "hilton",
+        "time": "1:32.13",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD16",
+        "playerId": "jibacha",
+        "time": "1:32.42",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD18",
+        "playerId": "kotatsu-usagi",
+        "time": "1:32.62",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD22",
+        "playerId": "zinma",
+        "time": "1:32.87",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD23",
+        "playerId": "dome-1909",
+        "time": "1:33.30",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD32",
+        "playerId": "shoronpo",
+        "time": "1:34.22",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD35",
+        "playerId": "mish",
+        "time": "1:34.57",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD37",
+        "playerId": "ivangh",
+        "time": "1:35.69",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      },
+      {
+        "courseId": "gcn-yoshi-circuit",
+        "id": "sheet-XD38",
+        "playerId": "enri",
+        "time": "1:35.71",
+        "reason": "No supported named dated source or canonical identity match; retain as internal source gap."
+      }
+    ],
+    "indexedSourceImageFiles": 140,
+    "totalPreservedSourceFilePaths": 232,
+    "distinctSourceHashes": 157,
+    "storedVideoObjects": 9,
+    "distinctStoredVideoHashes": 9,
+    "sourceProofPreservationPatches": 45
   }
 }
