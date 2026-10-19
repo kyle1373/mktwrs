@@ -1,0 +1,2667 @@
+{
+  "checkedAt": "2026-10-18",
+  "expectedSourceCommit": "5e070345a0a0d57b6c7b3f9f765ac9463807a659",
+  "scope": "Every public course page, each published WR table date and displayed duration plus precise duration tooltip. Opening-day omissions taken from actual clean publication policy. Original historical accuracy is a separate source review.",
+  "courseCount": 142,
+  "expectedPublicWRs": 1461,
+  "matchedDatesAndDurations": 1355,
+  "issueCount": 106,
+  "results": [
+    {
+      "courseId": "ds-airship-fortress",
+      "url": "https://mktwrs.com/course/ds-airship-fortress",
+      "status": 200,
+      "htmlSHA256": "9960e0d7e23a81d9b62e8029a70e869fb438d30375f87c581687cdd5c8299977",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "ds-airship-fortress-r",
+      "url": "https://mktwrs.com/course/ds-airship-fortress-r",
+      "status": 200,
+      "htmlSHA256": "79f61a868b1ebe1e517398fb28007411ed458eb15ceb67bbfb7e324bdca4dcf5",
+      "expectedPublicWRs": 15,
+      "matchedDatesAndDurations": 15,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "amsterdam-drift",
+      "url": "https://mktwrs.com/course/amsterdam-drift",
+      "status": 200,
+      "htmlSHA256": "f117291153c335e65e9b082a5fa1370f9a0d7488213da7b75ed9abd033372ba3",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "athens-dash",
+      "url": "https://mktwrs.com/course/athens-dash",
+      "status": 200,
+      "htmlSHA256": "bf227eb59e15bc0610f481ca209d661dea1dca48e3973c5d2410237bcbe2da0c",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "discord-1140862764064198756",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-15",
+          "expectedDays": 0.3166628703703704,
+          "foundDate": "2023-08-15",
+          "foundDays": "<1",
+          "foundTitle": "0.314384 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1140977510750879765-vacation2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-15",
+          "expectedDays": 0.07721997685185185,
+          "foundDate": "2023-08-15",
+          "foundDays": "<1",
+          "foundTitle": "0.079499 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1141621124996804618",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-17",
+          "expectedDays": 5.229288275462963,
+          "foundDate": "2023-08-17",
+          "foundDays": "5",
+          "foundTitle": "5.228790 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1147355757961031690",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-22",
+          "expectedDays": 4.326948194444444,
+          "foundDate": "2023-08-22",
+          "foundDays": "4",
+          "foundTitle": "4.327447 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "athens-dash-2",
+      "url": "https://mktwrs.com/course/athens-dash-2",
+      "status": 200,
+      "htmlSHA256": "22774b09922790f6d64d68a0ccb4e8e88e241051be85150990c7810c486e6ebb",
+      "expectedPublicWRs": 17,
+      "matchedDatesAndDurations": 17,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "athens-dash-2r",
+      "url": "https://mktwrs.com/course/athens-dash-2r",
+      "status": 200,
+      "htmlSHA256": "d8399bdad760a76e993f46b6fdc2610dfc5ffb79e177affeb7ed2519fa7f1c53",
+      "expectedPublicWRs": 13,
+      "matchedDatesAndDurations": 11,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "1279827479288086618",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-08-12",
+          "expectedDays": 14.005885046296296,
+          "foundDate": "2024-08-12",
+          "foundDays": "14",
+          "foundTitle": "14.001171 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1424248853317550081",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-08-11",
+          "expectedDays": 22.8045571875,
+          "foundDate": "2025-08-11",
+          "foundDays": "22",
+          "foundTitle": "22.809271 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "athens-dash-3",
+      "url": "https://mktwrs.com/course/athens-dash-3",
+      "status": 200,
+      "htmlSHA256": "88b942d721018252c834bf5d80619c3045cf8942c55c7c873a7a95e9e105ddbf",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "bangkok-rush-2",
+      "url": "https://mktwrs.com/course/bangkok-rush-2",
+      "status": 200,
+      "htmlSHA256": "ed16fdfb63eda5f1b912c305f0d38de151d0454ee24b576f63de47e6529ba62f",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "1074903912617869332",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-02-04",
+          "expectedDays": 42.66193318287037,
+          "foundDate": "2023-02-04",
+          "foundDays": "42",
+          "foundTitle": "42.658980 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1467422368933875793-winter2026-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2026-02-01",
+          "expectedDays": 2.326167361111111,
+          "foundDate": "2026-02-01",
+          "foundDays": "2",
+          "foundTitle": "2.327870 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1472656439699968041",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2026-02-03",
+          "expectedDays": 0.6095254282407407,
+          "foundDate": "2026-02-03",
+          "foundDays": "<1",
+          "foundTitle": "0.610775 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "berlin-byways",
+      "url": "https://mktwrs.com/course/berlin-byways",
+      "status": 200,
+      "htmlSHA256": "424004afeca07588f874aafcb2c32ce8235c045a2b43086f025ec3fabcd532e1",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 4,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": [
+        {
+          "id": "curated-988232376633143327-cat2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-06-20",
+          "expectedDays": 0,
+          "foundDate": "2022-06-20",
+          "foundDays": "4",
+          "foundTitle": "4.248181 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-989771865960611852-cat2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-06-24",
+          "expectedDays": 0,
+          "foundDate": "2022-06-24",
+          "foundDays": "1",
+          "foundTitle": "1.576843 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-990343294842183740-cat2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-06-25",
+          "expectedDays": 0,
+          "foundDate": "2022-06-25",
+          "foundDays": "3",
+          "foundTitle": "3.423135 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "berlin-byways-2",
+      "url": "https://mktwrs.com/course/berlin-byways-2",
+      "status": 200,
+      "htmlSHA256": "75c1270185a383615820b07856a0aae8e91cb718b47d5c1233a2cfaa907fb12e",
+      "expectedPublicWRs": 23,
+      "matchedDatesAndDurations": 16,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": [
+        {
+          "id": "curated-1143979315193724998-summer2023-original-result-reviewed",
+          "issue": "published-WR-table-row-absent"
+        },
+        {
+          "id": "discord-1144767070974771230",
+          "issue": "published-WR-table-row-absent"
+        },
+        {
+          "id": "curated-1147914917719068863-summer2023-original-result-reviewed",
+          "issue": "published-WR-table-row-absent"
+        },
+        {
+          "id": "discord-1148070226659901461",
+          "issue": "published-WR-table-row-absent"
+        },
+        {
+          "id": "discord-1148216727839191040",
+          "issue": "published-WR-table-row-absent"
+        },
+        {
+          "id": "curated-1540910990231736432-summer2026-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2026-08-23",
+          "expectedDays": 1.553725601851852,
+          "foundDate": "2026-08-23",
+          "foundDays": "1",
+          "foundTitle": "1.550673 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1544898185032372253",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2026-08-24",
+          "expectedDays": 8.592005729166667,
+          "foundDate": "2026-08-24",
+          "foundDays": "8",
+          "foundTitle": "8.595058 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "berlin-byways-3",
+      "url": "https://mktwrs.com/course/berlin-byways-3",
+      "status": 200,
+      "htmlSHA256": "b64d3d3c328103bb3cb124e3fa7e958044a825f916a9cacc73307f1e11fa6177",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-bowser-s-castle",
+      "url": "https://mktwrs.com/course/3ds-bowser-s-castle",
+      "status": 200,
+      "htmlSHA256": "81ffd215f27b7f168136067543b0abf6b594b63ad4aeca5149c43f801b420f61",
+      "expectedPublicWRs": 14,
+      "matchedDatesAndDurations": 14,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "gba-bowser-s-castle-1",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-1",
+      "status": 200,
+      "htmlSHA256": "f77e032f60c948805517ef84898e6f5514717250fa32e937b1f1d6f3d8060851",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "gba-bowser-s-castle-1r",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-1r",
+      "status": 200,
+      "htmlSHA256": "f769f1e359d83b6df15618d8ca0bd39a2e4406794b21fb0a385d2c1a34874d97",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "gba-bowser-s-castle-2",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-2",
+      "status": 200,
+      "htmlSHA256": "4d5018a90a489440b0255e982637062a27a702ae5de19f937bce9ab4c4c5ad00",
+      "expectedPublicWRs": 4,
+      "matchedDatesAndDurations": 4,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "gba-bowser-s-castle-2r",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-2r",
+      "status": 200,
+      "htmlSHA256": "bf68d543f71ed5469ff43a12096cfba0b2b9ebe1768c86446e88cd793a5a7a2e",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "gba-bowser-s-castle-3",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-3",
+      "status": 200,
+      "htmlSHA256": "ff2a12af851c14db10bc12b25afab1e25558341ef5ed538b5cee54eb10e6497f",
+      "expectedPublicWRs": 4,
+      "matchedDatesAndDurations": 4,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "gba-bowser-s-castle-4",
+      "url": "https://mktwrs.com/course/gba-bowser-s-castle-4",
+      "status": 200,
+      "htmlSHA256": "44b55f07dfcd90d55d827dc12ec5c6d00ba9eb405eb972619abd09d2b379b377",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "1109324308658004028",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-05-10",
+          "expectedDays": 35.11332466435185,
+          "foundDate": "2023-05-10",
+          "foundDays": "35",
+          "foundTitle": "35.110959 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1499045425800286360-bowser2026-kuri-video-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2026-04-29",
+          "expectedDays": 2.9313737962962962,
+          "foundDate": "2026-04-29",
+          "foundDays": "2",
+          "foundTitle": "2.933740 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-bowser-s-castle-r",
+      "url": "https://mktwrs.com/course/3ds-bowser-s-castle-r",
+      "status": 200,
+      "htmlSHA256": "14874aad58bc094b86d42499db1c0c0de0e6487c3aa80b670f7c902f30026bdf",
+      "expectedPublicWRs": 18,
+      "matchedDatesAndDurations": 16,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": [
+        {
+          "id": "curated-1311527977539862591-peach-bowser2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-11-28",
+          "expectedDays": 10.248986377314814,
+          "foundDate": "2024-11-28",
+          "foundDays": "10",
+          "foundTitle": "10.247340 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1332590475806511144",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-12-08",
+          "expectedDays": 13.247999178240741,
+          "foundDate": "2024-12-08",
+          "foundDays": "13",
+          "foundTitle": "13.249646 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-cheep-cheep-lagoon",
+      "url": "https://mktwrs.com/course/3ds-cheep-cheep-lagoon",
+      "status": 200,
+      "htmlSHA256": "e885d8456784244afb763aa23487c7a4a3e45197e62fc80d97dab3583f000ee3",
+      "expectedPublicWRs": 1,
+      "matchedDatesAndDurations": 1,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-cheep-cheep-lagoon-r",
+      "url": "https://mktwrs.com/course/3ds-cheep-cheep-lagoon-r",
+      "status": 200,
+      "htmlSHA256": "d69539eb0ca01f8c93201ad145c79ce6d2afc9726f89a29e51a8798120935148",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "gba-cheep-cheep-island",
+      "url": "https://mktwrs.com/course/gba-cheep-cheep-island",
+      "status": 200,
+      "htmlSHA256": "f799cc519ab8162debee66a631972a0c20d63e09fc81055b63406dbb804bd0c7",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "gba-cheep-cheep-island-r",
+      "url": "https://mktwrs.com/course/gba-cheep-cheep-island-r",
+      "status": 200,
+      "htmlSHA256": "f9ac8033d22ecfec8c2cd154a422dae26c6ee96c9d59b195acd784ab9907438e",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "snes-choco-island-1",
+      "url": "https://mktwrs.com/course/snes-choco-island-1",
+      "status": 200,
+      "htmlSHA256": "b8d7785fe498c44cf85aff18098f95b31d22e8fbc28baed966fe11b3b3066250",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-choco-island-1r",
+      "url": "https://mktwrs.com/course/snes-choco-island-1r",
+      "status": 200,
+      "htmlSHA256": "f4e30d06596ef46be263c83aa5156d9c553842e86923e606bd1ec8c23ca3f093",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-choco-island-2",
+      "url": "https://mktwrs.com/course/snes-choco-island-2",
+      "status": 200,
+      "htmlSHA256": "7d5290a311a4df33d7601215de7a2585c53e993e32916740587709cfb22d8b98",
+      "expectedPublicWRs": 18,
+      "matchedDatesAndDurations": 18,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-choco-island-2r",
+      "url": "https://mktwrs.com/course/snes-choco-island-2r",
+      "status": 200,
+      "htmlSHA256": "1394a3af2cd77d1181b5dc7043d1ab606e6a5d8f8bbef0e0e2e9fd483beeac99",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "n64-choco-mountain",
+      "url": "https://mktwrs.com/course/n64-choco-mountain",
+      "status": 200,
+      "htmlSHA256": "229e758b19f8a8fb86395215b4d4a9fcffbe07745745363c6268103c527f1402",
+      "expectedPublicWRs": 11,
+      "matchedDatesAndDurations": 11,
+      "tourClockEventRows": 12,
+      "runningClockRows": 6,
+      "pausedClockRows": 6,
+      "issues": []
+    },
+    {
+      "courseId": "n64-choco-mountain-r",
+      "url": "https://mktwrs.com/course/n64-choco-mountain-r",
+      "status": 200,
+      "htmlSHA256": "786e2b5bd8709be8babba0a481a68c624670a680fd964eb98c7aa45be19add14",
+      "expectedPublicWRs": 11,
+      "matchedDatesAndDurations": 11,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "wii-coconut-mall",
+      "url": "https://mktwrs.com/course/wii-coconut-mall",
+      "status": 200,
+      "htmlSHA256": "81ecee105e8ed20aea2e3a236d07c50a9855bcc83a5f6dac6db701ee0f1263c1",
+      "expectedPublicWRs": 14,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": [
+        {
+          "id": "curated-992045611236999239-992045610557517874-bangkok2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-06-30",
+          "expectedDays": 0,
+          "foundDate": "2022-06-30",
+          "foundDays": "2",
+          "foundTitle": "2.998931 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-993132387582087219-993132385292005416-bangkok2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-07-03",
+          "expectedDays": 0,
+          "foundDate": "2022-07-03",
+          "foundDays": "1",
+          "foundTitle": "1.586593 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-993707349455945737-993707348587720784-bangkok2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-07-05",
+          "expectedDays": 0,
+          "foundDate": "2022-07-05",
+          "foundDays": "1",
+          "foundTitle": "1.467087 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-994239003857530880-994239001944920064-bangkok2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-07-06",
+          "expectedDays": 0,
+          "foundDate": "2022-07-06",
+          "foundDays": "2",
+          "foundTitle": "2.821572 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-995261507371802664-995261506230964325-bangkok2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-07-09",
+          "expectedDays": 0,
+          "foundDate": "2022-07-09",
+          "foundDays": "1",
+          "foundTitle": "1.712735 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-995882181782151249-995882180565811230-bangkok2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-07-11",
+          "expectedDays": 0,
+          "foundDate": "2022-07-11",
+          "foundDays": "1",
+          "foundTitle": "1.405820 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-996391633983651861-996391632331083846-bangkok2022-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-07-12",
+          "expectedDays": 0,
+          "foundDate": "2022-07-12",
+          "foundDays": "<1",
+          "foundTitle": "0.732898 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1248233352948088872-princess2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-06-06",
+          "expectedDays": 3.982565787037037,
+          "foundDate": "2024-06-06",
+          "foundDays": "3",
+          "foundTitle": "3.949035 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1249676586463264841-princess2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-06-10",
+          "expectedDays": 1.2340197685185186,
+          "foundDate": "2024-06-10",
+          "foundDays": "1",
+          "foundTitle": "1.267551 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "wii-daisy-circuit",
+      "url": "https://mktwrs.com/course/wii-daisy-circuit",
+      "status": 200,
+      "htmlSHA256": "c7f86b2681fce51185dfd3720db2c7eca64ef6b00ee98e18cd8a577883ccf3d2",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "1139362445480177824",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-01",
+          "expectedDays": 7.633121701388889,
+          "foundDate": "2023-08-01",
+          "foundDays": "10",
+          "foundTitle": "10.163875 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1266466137869127791-sunshine2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-07-26",
+          "expectedDays": 0,
+          "foundDate": "2024-07-26",
+          "foundDays": "11",
+          "foundTitle": "11.469247 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1267618667764514867-sunshine2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-07-29",
+          "expectedDays": 0,
+          "foundDate": "2024-07-29",
+          "foundDays": "8",
+          "foundTitle": "8.288870 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1534634409582526485-p-en",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2026-08-05",
+          "expectedDays": 0.08303802083333334,
+          "foundDate": "2026-08-05",
+          "foundDays": "<1",
+          "foundTitle": "0.085104 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-daisy-hills",
+      "url": "https://mktwrs.com/course/3ds-daisy-hills",
+      "status": 200,
+      "htmlSHA256": "a78ad71899cb65e5a2149c95c599dc0b5abda78c6344a2fac5375112cb13760d",
+      "expectedPublicWRs": 3,
+      "matchedDatesAndDurations": 3,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-daisy-hills-r",
+      "url": "https://mktwrs.com/course/3ds-daisy-hills-r",
+      "status": 200,
+      "htmlSHA256": "f04ad94a7976ad8825c8f39735e4218f8666e03d377318764384396b52fae5b6",
+      "expectedPublicWRs": 18,
+      "matchedDatesAndDurations": 18,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle",
+      "url": "https://mktwrs.com/course/gcn-dino-dino-jungle",
+      "status": 200,
+      "htmlSHA256": "3cef8c36197a823bee39bc1be05d64b8c699645ed923629a28ef1e6e986dd70a",
+      "expectedPublicWRs": 28,
+      "matchedDatesAndDurations": 28,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "gcn-dino-dino-jungle-r",
+      "url": "https://mktwrs.com/course/gcn-dino-dino-jungle-r",
+      "status": 200,
+      "htmlSHA256": "207c1149d54b9bee3eba3512cbd86fd52e0dae8f7ee3c1901402f20fc56651c1",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "ds-dk-pass",
+      "url": "https://mktwrs.com/course/ds-dk-pass",
+      "status": 200,
+      "htmlSHA256": "0d5885bb4a6a2cf56237e6b6e674a1249b7c25c809874c7ce96edb58292a33ce",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 6,
+      "runningClockRows": 3,
+      "pausedClockRows": 3,
+      "issues": []
+    },
+    {
+      "courseId": "wii-dk-summit",
+      "url": "https://mktwrs.com/course/wii-dk-summit",
+      "status": 200,
+      "htmlSHA256": "5ca6823ffdc45a2148b7b587fad0a2aab13f9b3cfc2bcd3109f6e900e76ae172",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "wii-dk-summit-r",
+      "url": "https://mktwrs.com/course/wii-dk-summit-r",
+      "status": 200,
+      "htmlSHA256": "9b5df567e610b7e49b97c54425e9b2e656207b6777d8868f3547aaf4fabd4350",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-donut-plains-1",
+      "url": "https://mktwrs.com/course/snes-donut-plains-1",
+      "status": 200,
+      "htmlSHA256": "08a5072af4f0bd08f2c53cb558df2af5a648c70c899fc92c04d09c4468d3e4ab",
+      "expectedPublicWRs": 15,
+      "matchedDatesAndDurations": 15,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-donut-plains-1r",
+      "url": "https://mktwrs.com/course/snes-donut-plains-1r",
+      "status": 200,
+      "htmlSHA256": "d31eb48ec31bbcd9db51af3ab9697cf1455d51e15f996bdea8c4b05a0f4e2c62",
+      "expectedPublicWRs": 33,
+      "matchedDatesAndDurations": 33,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": []
+    },
+    {
+      "courseId": "snes-donut-plains-2",
+      "url": "https://mktwrs.com/course/snes-donut-plains-2",
+      "status": 200,
+      "htmlSHA256": "601e466bf664eef20cf35e929a42681a6647baf0e9c93e43dd094267850628ce",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 2,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": [
+        {
+          "id": "1032524579744251935",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-10-11",
+          "expectedDays": 12.633511215277778,
+          "foundDate": "2022-10-11",
+          "foundDays": "12",
+          "foundTitle": "12.629574 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1160796890187706408-battle2023-video-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-10-09",
+          "expectedDays": 0.9936190393518518,
+          "foundDate": "2023-10-09",
+          "foundDays": "<1",
+          "foundTitle": "0.993356 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1168941274380914769",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-10-10",
+          "expectedDays": 21.384407777777778,
+          "foundDate": "2023-10-10",
+          "foundDays": "21",
+          "foundTitle": "21.363507 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1308276800647991408",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-10-15",
+          "expectedDays": 14.6827928125,
+          "foundDate": "2024-10-15",
+          "foundDays": "14",
+          "foundTitle": "14.707894 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "snes-donut-plains-2r",
+      "url": "https://mktwrs.com/course/snes-donut-plains-2r",
+      "status": 200,
+      "htmlSHA256": "e2c510793da312e542a7f90ad84a7499153148f1d10803ad8ef444cc741767be",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": []
+    },
+    {
+      "courseId": "snes-donut-plains-3",
+      "url": "https://mktwrs.com/course/snes-donut-plains-3",
+      "status": 200,
+      "htmlSHA256": "9144157fcf98250309e104e46012b7ff2a212d52bed8998714cd0ade1e5eb14a",
+      "expectedPublicWRs": 3,
+      "matchedDatesAndDurations": 3,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "snes-donut-plains-3r",
+      "url": "https://mktwrs.com/course/snes-donut-plains-3r",
+      "status": 200,
+      "htmlSHA256": "afc32636ab9c86275d74c9ca29e3d3971008a86ce5d38ddd5ad88dd3194c38e5",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1084470984523927592-mario2023-recovered-accepted-result",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-03-12",
+          "expectedDays": 2.0341581944444442,
+          "foundDate": "2023-03-12",
+          "foundDays": "2",
+          "foundTitle": "2.032590 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1089608065063596185",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-03-14",
+          "expectedDays": 49.64603616898148,
+          "foundDate": "2023-03-14",
+          "foundDays": "49",
+          "foundTitle": "49.647604 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "wii-dry-dry-ruins",
+      "url": "https://mktwrs.com/course/wii-dry-dry-ruins",
+      "status": 200,
+      "htmlSHA256": "da4027fdc5757c63596bb05d5617c4cc70ff3af84ebab6740118b642a230843f",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "discord-1129383663969251451",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-14",
+          "expectedDays": 3.111231111111111,
+          "foundDate": "2023-07-14",
+          "foundDays": "3",
+          "foundTitle": "3.102482 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1136096968901398628",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-17",
+          "expectedDays": 24.89265423611111,
+          "foundDate": "2023-07-17",
+          "foundDays": "24",
+          "foundTitle": "24.900174 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1393203425965248624-pipe2025-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-07-11",
+          "expectedDays": 1.012739699074074,
+          "foundDate": "2025-07-11",
+          "foundDays": "1",
+          "foundTitle": "1.013969 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "n64-frappe-snowland",
+      "url": "https://mktwrs.com/course/n64-frappe-snowland",
+      "status": 200,
+      "htmlSHA256": "6e2f77c8c56ee6a19e1cbcbba8cbf9fa8071dc0f321ac271a24b31f8d3b2edf5",
+      "expectedPublicWRs": 1,
+      "matchedDatesAndDurations": 1,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "n64-frappe-snowland-r",
+      "url": "https://mktwrs.com/course/n64-frappe-snowland-r",
+      "status": 200,
+      "htmlSHA256": "f7062a0189bea1c62d4453e482d2843da02bd391de2b6b227923ca9afbfd654a",
+      "expectedPublicWRs": 33,
+      "matchedDatesAndDurations": 33,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-ghost-valley-1",
+      "url": "https://mktwrs.com/course/snes-ghost-valley-1",
+      "status": 200,
+      "htmlSHA256": "d429e2102a370acc0f6fd21a9d889a03bd54be4ed51259d903395bdd12198cab",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-ghost-valley-1r",
+      "url": "https://mktwrs.com/course/snes-ghost-valley-1r",
+      "status": 200,
+      "htmlSHA256": "9a664aade00f32908c409ef532abe91e618a597c508f08aa35ef3c311d11799f",
+      "expectedPublicWRs": 25,
+      "matchedDatesAndDurations": 25,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "n64-kalimari-desert",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert",
+      "status": 200,
+      "htmlSHA256": "748aa51f3dc1d9a9bec18afd601db0838b760edaa2207bb9adb90886af42e66d",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "n64-kalimari-desert-2",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert-2",
+      "status": 200,
+      "htmlSHA256": "9b2b09f1b5acab64b0be782466a6489907fe307bcc2e1bff78b46ca67d013773",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 12,
+      "tourClockEventRows": 12,
+      "runningClockRows": 6,
+      "pausedClockRows": 6,
+      "issues": []
+    },
+    {
+      "courseId": "n64-kalimari-desert-2r",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert-2r",
+      "status": 200,
+      "htmlSHA256": "320501a8fa12dfe23c4ab39a289a6e149701a1a05c4229c633e6bad95f2042d7",
+      "expectedPublicWRs": 22,
+      "matchedDatesAndDurations": 22,
+      "tourClockEventRows": 12,
+      "runningClockRows": 6,
+      "pausedClockRows": 6,
+      "issues": []
+    },
+    {
+      "courseId": "n64-kalimari-desert-r",
+      "url": "https://mktwrs.com/course/n64-kalimari-desert-r",
+      "status": 200,
+      "htmlSHA256": "1162091b4ab978ddca20e437f76e525a15e9fc3a1d44a3c92a39cc70ce123131",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 12,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "wii-koopa-cape",
+      "url": "https://mktwrs.com/course/wii-koopa-cape",
+      "status": 200,
+      "htmlSHA256": "a2346a1c603cd3ed4f8e183cad3a2fd2688b8e3b68782dd719ba90d91cb1939e",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 12,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "n64-koopa-troopa-beach",
+      "url": "https://mktwrs.com/course/n64-koopa-troopa-beach",
+      "status": 200,
+      "htmlSHA256": "d3a922a6869a4b47d33524bd58236ed881bdc2a3761e6d239daa5708570b0700",
+      "expectedPublicWRs": 3,
+      "matchedDatesAndDurations": 3,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-koopa-troopa-beach-2",
+      "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2",
+      "status": 200,
+      "htmlSHA256": "2aef1d6b0b7298b4b25a2886c2b69a1319ac91002b2926c535c9ace005042fc5",
+      "expectedPublicWRs": 4,
+      "matchedDatesAndDurations": 4,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-koopa-troopa-beach-2r",
+      "url": "https://mktwrs.com/course/snes-koopa-troopa-beach-2r",
+      "status": 200,
+      "htmlSHA256": "71c7de8314c3b6b262ff10d8dfc649e40cc41b9c73edd8ae2411adb42a37e31a",
+      "expectedPublicWRs": 13,
+      "matchedDatesAndDurations": 13,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "n64-koopa-troopa-beach-r",
+      "url": "https://mktwrs.com/course/n64-koopa-troopa-beach-r",
+      "status": 200,
+      "htmlSHA256": "e642c0bd371289f456894d8214ce13f3f735329d583bac0d8602864f98e5d19f",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "los-angeles-laps-2",
+      "url": "https://mktwrs.com/course/los-angeles-laps-2",
+      "status": 200,
+      "htmlSHA256": "b9f33877cd4db5d84dfdb54e9c869ff728b7e3e244ce0da1ea5e25d42f96eb90",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 3,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "1042968893146284035",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2022-11-02",
+          "expectedDays": 15.120813564814815,
+          "foundDate": "2022-11-02",
+          "foundDays": "15",
+          "foundTitle": "15.120487 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1178887189124370537",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-11-03",
+          "expectedDays": 29.00871474537037,
+          "foundDate": "2023-11-03",
+          "foundDays": "29",
+          "foundTitle": "29.007350 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1434001504511066172-autumn2025-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-11-01",
+          "expectedDays": 9.244685486111111,
+          "foundDate": "2025-11-01",
+          "foundDays": "9",
+          "foundTitle": "9.085093 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1437351666352525392-autumn2025-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-11-10",
+          "expectedDays": 1.0619616898148148,
+          "foundDate": "2025-11-10",
+          "foundDays": "1",
+          "foundTitle": "1.223246 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1437708211162452049-autumn2025-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-11-11",
+          "expectedDays": 0.0780854513888889,
+          "foundDate": "2025-11-11",
+          "foundDays": "<1",
+          "foundTitle": "0.080318 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "los-angeles-laps-3",
+      "url": "https://mktwrs.com/course/los-angeles-laps-3",
+      "status": 200,
+      "htmlSHA256": "0b7d2105e6de79bef43a63fd0e87eb1292bf1effca0c2339933f9e9356aec227",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "gba-luigi-circuit",
+      "url": "https://mktwrs.com/course/gba-luigi-circuit",
+      "status": 200,
+      "htmlSHA256": "025c84a6ce8077045edfd309414eb87fa20de95f283b6e438424219257872e1f",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1413848231086919682-sundae2025-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-09-06",
+          "expectedDays": 0.009290648148148149,
+          "foundDate": "2025-09-06",
+          "foundDays": "<1",
+          "foundTitle": "0.008029 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1424249754954764351",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-09-06",
+          "expectedDays": 19.319171203703704,
+          "foundDate": "2025-09-06",
+          "foundDays": "19",
+          "foundTitle": "19.320433 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "n64-luigi-raceway",
+      "url": "https://mktwrs.com/course/n64-luigi-raceway",
+      "status": 200,
+      "htmlSHA256": "13d10494e1616c7f3018695ecb703e5f64276ce72d8955b1aed9e2f24c1682f8",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "n64-luigi-raceway-r",
+      "url": "https://mktwrs.com/course/n64-luigi-raceway-r",
+      "status": 200,
+      "htmlSHA256": "761554ec50dc15a3daeaeae4ce9eca226016a0b0e72438875c0c364d8621fe8b",
+      "expectedPublicWRs": 13,
+      "matchedDatesAndDurations": 11,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "1124183833839939655",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-06-22",
+          "expectedDays": 13.585053564814816,
+          "foundDate": "2023-06-22",
+          "foundDays": "13",
+          "foundTitle": "13.550834 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1253170366940184678-mario-luigi2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-06-20",
+          "expectedDays": 0.25714997685185187,
+          "foundDate": "2024-06-20",
+          "foundDays": "<1",
+          "foundTitle": "0.291370 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "ds-luigi-s-mansion",
+      "url": "https://mktwrs.com/course/ds-luigi-s-mansion",
+      "status": 200,
+      "htmlSHA256": "b0efd24a485f01d98d3b798d949ad30e2651251da7a2841dec96627c5dc8e03a",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "ds-luigi-s-mansion-r",
+      "url": "https://mktwrs.com/course/ds-luigi-s-mansion-r",
+      "status": 200,
+      "htmlSHA256": "2e79cd6235acf8abff47276c38d60c96e29561a1eba1e254a69d1100eddc222d",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "madrid-drive",
+      "url": "https://mktwrs.com/course/madrid-drive",
+      "status": 200,
+      "htmlSHA256": "11d79f10f44d77ff85f96a34528e021f1481a1bbec4987d45ce222e889c65846",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 2,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1144078652959621271-summer2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-24",
+          "expectedDays": 0,
+          "foundDate": "2023-08-24",
+          "foundDays": "<1",
+          "foundTitle": "0.441316 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1144101083841581108-summer2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-24",
+          "expectedDays": 0,
+          "foundDate": "2023-08-24",
+          "foundDays": "<1",
+          "foundTitle": "0.379419 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1144238580567396392-summer2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-24",
+          "expectedDays": 0,
+          "foundDate": "2023-08-24",
+          "foundDays": "<1",
+          "foundTitle": "0.045775 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1144255168918061076-summer2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-24",
+          "expectedDays": 0,
+          "foundDate": "2023-08-24",
+          "foundDays": "<1",
+          "foundTitle": "0.002841 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1144256198380621966-summer2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-24",
+          "expectedDays": 0,
+          "foundDate": "2023-08-24",
+          "foundDays": "<1",
+          "foundTitle": "0.011203 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1144260258349465741-summer2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-24",
+          "expectedDays": 0,
+          "foundDate": "2023-08-24",
+          "foundDays": "<1",
+          "foundTitle": "0.465962 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1144429685481164800-summer2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-25",
+          "expectedDays": 0,
+          "foundDate": "2023-08-25",
+          "foundDays": "5",
+          "foundTitle": "5.003194 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1146242221423722526",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-30",
+          "expectedDays": 0,
+          "foundDate": "2023-08-30",
+          "foundDays": "2",
+          "foundTitle": "2.390253 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1147108421187928064",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-09-01",
+          "expectedDays": 0,
+          "foundDate": "2023-09-01",
+          "foundDays": "4",
+          "foundTitle": "4.172257 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1148620390491488363",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-09-05",
+          "expectedDays": 0,
+          "foundDate": "2023-09-05",
+          "foundDays": "<1",
+          "foundTitle": "0.661566 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "madrid-drive-3",
+      "url": "https://mktwrs.com/course/madrid-drive-3",
+      "status": 200,
+      "htmlSHA256": "420e19fb2554299450b36c1844a2857966683f9b9e2b6c3b453dc44070764f77",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1154390974613700628-anniversary2023-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-09-21",
+          "expectedDays": 8.17797199074074,
+          "foundDate": "2023-09-21",
+          "foundDays": "8",
+          "foundTitle": "8.176830 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1157354572428349470",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-09-29",
+          "expectedDays": 4.249338831018519,
+          "foundDate": "2023-09-29",
+          "foundDays": "4",
+          "foundTitle": "4.240498 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1162598591001546913",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-10-03",
+          "expectedDays": 32.744455127314815,
+          "foundDate": "2023-10-03",
+          "foundDays": "32",
+          "foundTitle": "32.754438 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "wii-maple-treeway",
+      "url": "https://mktwrs.com/course/wii-maple-treeway",
+      "status": 200,
+      "htmlSHA256": "1c01a89e12871f59822ca2f63e333c70e36fe962da13c7459234ad4c391eaee8",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "wii-maple-treeway-r",
+      "url": "https://mktwrs.com/course/wii-maple-treeway-r",
+      "status": 200,
+      "htmlSHA256": "5757521edc169d25a159d6a9e3369ea96bd8db8f8c5f805f0fc7d4fe7bf64be4",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 12,
+      "tourClockEventRows": 12,
+      "runningClockRows": 6,
+      "pausedClockRows": 6,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-mario-circuit",
+      "url": "https://mktwrs.com/course/3ds-mario-circuit",
+      "status": 200,
+      "htmlSHA256": "d64556c35e8f5390dfbc7015bf3941c7a1719a2d8f14ce0556285784e1743df9",
+      "expectedPublicWRs": 22,
+      "matchedDatesAndDurations": 22,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-mario-circuit-1",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-1",
+      "status": 200,
+      "htmlSHA256": "7b2c3584e73a126b5ee22661c0dae184300eaa6650ab1e628d67862b2f587f8f",
+      "expectedPublicWRs": 11,
+      "matchedDatesAndDurations": 11,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-mario-circuit-1r",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-1r",
+      "status": 200,
+      "htmlSHA256": "524fd437c0665390fc92612e924cf3719a4121c4cad7d3898a3c1d5b50b69010",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-mario-circuit-2",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-2",
+      "status": 200,
+      "htmlSHA256": "44495390b42ede67eaaef3db5a13d99a2d35304faeb78493ae4efa34b4ecb63b",
+      "expectedPublicWRs": 11,
+      "matchedDatesAndDurations": 11,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-2r",
+      "status": 200,
+      "htmlSHA256": "4653fd187b0c69eaa121d745279f22d60e64873ef2d8024775d6115750e8e876",
+      "expectedPublicWRs": 1,
+      "matchedDatesAndDurations": 1,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-mario-circuit-3",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-3",
+      "status": 200,
+      "htmlSHA256": "9077029cbf262b89d2f373d9dbc123e28b28b74756401d79027c3c418075e4cc",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-mario-circuit-3r",
+      "url": "https://mktwrs.com/course/snes-mario-circuit-3r",
+      "status": 200,
+      "htmlSHA256": "aacf50d1d6438e7b94f5c705f47c6d1c58db429dd23099a14b95148fc7f80509",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-mario-circuit-r",
+      "url": "https://mktwrs.com/course/3ds-mario-circuit-r",
+      "status": 200,
+      "htmlSHA256": "37344a684b516f7b164d635bacedcbcd32cb1e178a3f8aaa3471e270b37dccc8",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "gcn-mushroom-bridge",
+      "url": "https://mktwrs.com/course/gcn-mushroom-bridge",
+      "status": 200,
+      "htmlSHA256": "66536afa35c6f9356052d3807b2a227b946e316ea86adf49f066612730edd087",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city",
+      "url": "https://mktwrs.com/course/3ds-neo-bowser-city",
+      "status": 200,
+      "htmlSHA256": "0d338933cfe7f85d168283dc616d920d652faccc9f478a32ca8fa9c11d1b546e",
+      "expectedPublicWRs": 14,
+      "matchedDatesAndDurations": 14,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-neo-bowser-city-r",
+      "url": "https://mktwrs.com/course/3ds-neo-bowser-city-r",
+      "status": 200,
+      "htmlSHA256": "cc4444c257267d9def0f974c8276a0a782fe940fae80cc5be89612db5c195d1c",
+      "expectedPublicWRs": 24,
+      "matchedDatesAndDurations": 24,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "ds-peach-gardens",
+      "url": "https://mktwrs.com/course/ds-peach-gardens",
+      "status": 200,
+      "htmlSHA256": "e2184b080170b30dcf89774777f4aa1ff7d96fa5a1b707541085d510d19881b9",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 3,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "1189361589913124894",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-12-06",
+          "expectedDays": 20.801653796296296,
+          "foundDate": "2023-12-06",
+          "foundDays": "21",
+          "foundTitle": "21.133684 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1443239401575682098-peach-bowser2025-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-11-26",
+          "expectedDays": 0,
+          "foundDate": "2025-11-26",
+          "foundDays": "13",
+          "foundTitle": "13.667970 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "ds-peach-gardens-r",
+      "url": "https://mktwrs.com/course/ds-peach-gardens-r",
+      "status": 200,
+      "htmlSHA256": "e47d1717dc37b4e30e6f91c668ac7aea3a509b89a362c84323d369ad20f75134",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "piranha-plant-cove",
+      "url": "https://mktwrs.com/course/piranha-plant-cove",
+      "status": 200,
+      "htmlSHA256": "dd2dfc5aeb4207614b5208fe2ab88e4e9b18e0d87d5cd47de96227f082e53f85",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "piranha-plant-cove-2",
+      "url": "https://mktwrs.com/course/piranha-plant-cove-2",
+      "status": 200,
+      "htmlSHA256": "49715a38e258c3db4cbaa7985e58ed207eec215940adefb85d4dc9a5d3e37c96",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "piranha-plant-cove-2r",
+      "url": "https://mktwrs.com/course/piranha-plant-cove-2r",
+      "status": 200,
+      "htmlSHA256": "bf4c00a2d80892db5440944bc2d281a1af3ce917c2463833ec09e7c6107f311b",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "discord-1129302933331259413",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-14",
+          "expectedDays": 1.3339791087962962,
+          "foundDate": "2023-07-14",
+          "foundDays": "1",
+          "foundTitle": "1.330939 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1129786355443052696",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-15",
+          "expectedDays": 2.0035302546296294,
+          "foundDate": "2023-07-15",
+          "foundDays": "1",
+          "foundTitle": "1.998252 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1130512402505539584",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-17",
+          "expectedDays": 0.8352454166666666,
+          "foundDate": "2023-07-17",
+          "foundDays": "<1",
+          "foundTitle": "0.843564 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "piranha-plant-cove-3",
+      "url": "https://mktwrs.com/course/piranha-plant-cove-3",
+      "status": 200,
+      "htmlSHA256": "2d8cce443d36dc908c8e0bfbe66d9fe0548e54e3e351664d71af0324131c88be",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-piranha-plant-slide",
+      "url": "https://mktwrs.com/course/3ds-piranha-plant-slide",
+      "status": 200,
+      "htmlSHA256": "9721cd34e8391d8468603492992c342fc394df63a07ace67ce081ebbde791b71",
+      "expectedPublicWRs": 11,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1192770551832383549-newyear2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-01-05",
+          "expectedDays": 0.8102130671296296,
+          "foundDate": "2024-01-05",
+          "foundDays": "<1",
+          "foundTitle": "0.805044 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1197596509772984370",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-01-06",
+          "expectedDays": 32.020109131944444,
+          "foundDate": "2024-01-06",
+          "foundDays": "32",
+          "foundTitle": "32.025278 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "snes-rainbow-road",
+      "url": "https://mktwrs.com/course/snes-rainbow-road",
+      "status": 200,
+      "htmlSHA256": "6bf221decb4098e7676ac1eed1aa36b270c199fa770449ca11a832554f22252a",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "wii-rainbow-road",
+      "url": "https://mktwrs.com/course/wii-rainbow-road",
+      "status": 200,
+      "htmlSHA256": "497d1edb2e2de71330823ddffe50b4310dc6f3150f62d53cf3a537af04e65291",
+      "expectedPublicWRs": 24,
+      "matchedDatesAndDurations": 20,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1088918880656834630-ninja2023-recovered-accepted-result",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-03-24",
+          "expectedDays": 0.6209110532407407,
+          "foundDate": "2023-03-24",
+          "foundDays": "<1",
+          "foundTitle": "0.619499 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1089143891288137758-ninja2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-03-25",
+          "expectedDays": 0.12964712962962963,
+          "foundDate": "2023-03-25",
+          "foundDays": "<1",
+          "foundTitle": "0.131059 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1093745302051242004",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-04-05",
+          "expectedDays": 0.9999302546296296,
+          "foundDate": "2023-04-05",
+          "foundDays": "<1",
+          "foundTitle": "0.998493 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1220234934015365180-ninja2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-03-21",
+          "expectedDays": 0.04631355324074074,
+          "foundDate": "2024-03-21",
+          "foundDays": "<1",
+          "foundTitle": "0.047750 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-rainbow-road",
+      "url": "https://mktwrs.com/course/3ds-rainbow-road",
+      "status": 200,
+      "htmlSHA256": "5318163e976a11e3c90875679b8868654163b0f07ee031e9bad804196ea59169",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-rainbow-road-r",
+      "url": "https://mktwrs.com/course/snes-rainbow-road-r",
+      "status": 200,
+      "htmlSHA256": "13084b404d7e5423c46ab8af9f26f9fa92ff3bf89c3e1ea1ab71e8e94518218a",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-rainbow-road-r",
+      "url": "https://mktwrs.com/course/3ds-rainbow-road-r",
+      "status": 200,
+      "htmlSHA256": "e83da071df7fa0809f4f63447de7a05b5dc426eefeac08ee1968a2fd1590ecb2",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-choco-island-1",
+      "url": "https://mktwrs.com/course/rmx-choco-island-1",
+      "status": 200,
+      "htmlSHA256": "2c0865297788bcdd8861b8061229e550ea951792a56cfb42c4da93d562a4d0d6",
+      "expectedPublicWRs": 18,
+      "matchedDatesAndDurations": 18,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-choco-island-1r",
+      "url": "https://mktwrs.com/course/rmx-choco-island-1r",
+      "status": 200,
+      "htmlSHA256": "70e5cc1dedb19df6333fbe287717d8880d8fd96522489d29a95fe1270f77722c",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-choco-island-2",
+      "url": "https://mktwrs.com/course/rmx-choco-island-2",
+      "status": 200,
+      "htmlSHA256": "60c95622a867c7895dbe01a8d2280b39d17b6b7d96c9b9057f33907e017c1a37",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-ghost-valley-1",
+      "url": "https://mktwrs.com/course/rmx-ghost-valley-1",
+      "status": 200,
+      "htmlSHA256": "625faa7a92d3b103fa3e0cfac1be90c592abc61e61770b8dd97f354dd8455a6d",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-ghost-valley-1r",
+      "url": "https://mktwrs.com/course/rmx-ghost-valley-1r",
+      "status": 200,
+      "htmlSHA256": "f88ec06694597d4ff2a2bd9bb484a807243720992465cfd8e490d076ad916710",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-mario-circuit-1",
+      "url": "https://mktwrs.com/course/rmx-mario-circuit-1",
+      "status": 200,
+      "htmlSHA256": "e65ca6c1f9c07d3f0b20fb31f75fe18673282832f0d6444f42d925325166206c",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-rainbow-road-1",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-1",
+      "status": 200,
+      "htmlSHA256": "ae267739f639daa7a8f6c9846eb735c9f571b43b50769857009d0f4c703500c7",
+      "expectedPublicWRs": 15,
+      "matchedDatesAndDurations": 15,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-rainbow-road-1r",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-1r",
+      "status": 200,
+      "htmlSHA256": "287f8508f2ca880ed5b306a7720f77433f7a268a63f2629d1e33d954e3513eac",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-rainbow-road-2",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-2",
+      "status": 200,
+      "htmlSHA256": "5524138bcb371001c1a151d752ca7bafdb18a82fc99152be52ab35350b3789c4",
+      "expectedPublicWRs": 14,
+      "matchedDatesAndDurations": 14,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-rainbow-road-2r",
+      "url": "https://mktwrs.com/course/rmx-rainbow-road-2r",
+      "status": 200,
+      "htmlSHA256": "ad674bbc6e33700a0b908a0571aa34c12f5bc1aad7ddcd4264ab41a780b32522",
+      "expectedPublicWRs": 30,
+      "matchedDatesAndDurations": 30,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "url": "https://mktwrs.com/course/rmx-vanilla-lake-1",
+      "status": 200,
+      "htmlSHA256": "3c50c39d9ae400069245355ad56650617144361f14f02dd0ad33d7869d478f76",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 12,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1r",
+      "url": "https://mktwrs.com/course/rmx-vanilla-lake-1r",
+      "status": 200,
+      "htmlSHA256": "257c0c3982129314ad0a7c59f8e08b024a44a7f4ef2696d60c2c5bb7f3681cd2",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-rock-rock-mountain",
+      "url": "https://mktwrs.com/course/3ds-rock-rock-mountain",
+      "status": 200,
+      "htmlSHA256": "5e8457d8d2a98d488091b648c44e10aefd7baeb1cbd593684dfdb0c4080d5abf",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-rock-rock-mountain-r",
+      "url": "https://mktwrs.com/course/3ds-rock-rock-mountain-r",
+      "status": 200,
+      "htmlSHA256": "3253d3307f72408860a45ab5ba3378b3eb9012b04c87f7296e191dc77f6f8b6e",
+      "expectedPublicWRs": 13,
+      "matchedDatesAndDurations": 13,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "rome-avanti-2",
+      "url": "https://mktwrs.com/course/rome-avanti-2",
+      "status": 200,
+      "htmlSHA256": "a75df011ad307ff685c3974d83e1fe630b1545cd4c656f6b7cff56110c77d15e",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 4,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1124448872861814804-night2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-06-30",
+          "expectedDays": 0.9847934027777778,
+          "foundDate": "2023-06-30",
+          "foundDays": "<1",
+          "foundTitle": "0.978813 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1124805750041092179-night2023-original-result-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-01",
+          "expectedDays": 2.4880244212962963,
+          "foundDate": "2023-07-01",
+          "foundDays": "2",
+          "foundTitle": "2.494005 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1264395735814635612",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-07-02",
+          "expectedDays": 21.54228832175926,
+          "foundDate": "2024-07-02",
+          "foundDays": "21",
+          "foundTitle": "21.541059 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1519289094734352494-night2026-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2026-06-24",
+          "expectedDays": 4.14922568287037,
+          "foundDate": "2026-06-24",
+          "foundDays": "4",
+          "foundTitle": "4.150455 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "rome-avanti-3",
+      "url": "https://mktwrs.com/course/rome-avanti-3",
+      "status": 200,
+      "htmlSHA256": "5853efaa52a15a3e555605cddf212759564155203f1262252c4da54e3190f1dd",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "curated-1154368613743071242-anniversary2023-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-09-21",
+          "expectedDays": 1.2084919097222222,
+          "foundDate": "2023-09-21",
+          "foundDays": "1",
+          "foundTitle": "1.209587 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1162598789530538094",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-09-23",
+          "expectedDays": 14.572993298611111,
+          "foundDate": "2023-09-23",
+          "foundDays": "14",
+          "foundTitle": "14.528993 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1287387856880406561-anniversary2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-09-22",
+          "expectedDays": 0.9986416203703704,
+          "foundDate": "2024-09-22",
+          "foundDays": "1",
+          "foundTitle": "1.042642 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "3ds-rosalina-s-ice-world",
+      "url": "https://mktwrs.com/course/3ds-rosalina-s-ice-world",
+      "status": 200,
+      "htmlSHA256": "11f1e3abaf52d0d2a95218d26dff4555c9b8a036998f929f89c54d66fcc79359",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-rosalina-s-ice-world-r",
+      "url": "https://mktwrs.com/course/3ds-rosalina-s-ice-world-r",
+      "status": 200,
+      "htmlSHA256": "83a17b789af897ca96ee0796472745706c5b10fdaaad34b8351b873f35f5ace8",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "n64-royal-raceway",
+      "url": "https://mktwrs.com/course/n64-royal-raceway",
+      "status": 200,
+      "htmlSHA256": "10e5240314ab73ceb2c8ceca88123a35e391651fe7a7d206ac458f5b7aad31a5",
+      "expectedPublicWRs": 16,
+      "matchedDatesAndDurations": 16,
+      "tourClockEventRows": 12,
+      "runningClockRows": 6,
+      "pausedClockRows": 6,
+      "issues": []
+    },
+    {
+      "courseId": "n64-royal-raceway-r",
+      "url": "https://mktwrs.com/course/n64-royal-raceway-r",
+      "status": 200,
+      "htmlSHA256": "1141366fa27aa17c4c5d5dcbd5c2b490ffd1e4c754653cc334379f89d3bc95fd",
+      "expectedPublicWRs": 4,
+      "matchedDatesAndDurations": 4,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-shy-guy-bazaar",
+      "url": "https://mktwrs.com/course/3ds-shy-guy-bazaar",
+      "status": 200,
+      "htmlSHA256": "d09002e8685132d065cde81625bdc57b59f96fad729e684607e7d52a32be70a3",
+      "expectedPublicWRs": 1,
+      "matchedDatesAndDurations": 1,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-shy-guy-bazaar-r",
+      "url": "https://mktwrs.com/course/3ds-shy-guy-bazaar-r",
+      "status": 200,
+      "htmlSHA256": "7eb7d877b5b993abed862503cd417e99972e0db69452711489a04ec26abdace4",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "singapore-speedway",
+      "url": "https://mktwrs.com/course/singapore-speedway",
+      "status": 200,
+      "htmlSHA256": "7210d168facd3b16a680b08e1cb6809cd4ef7c70bc9336422d7968ed2fc4fbfe",
+      "expectedPublicWRs": 21,
+      "matchedDatesAndDurations": 21,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": []
+    },
+    {
+      "courseId": "singapore-speedway-2",
+      "url": "https://mktwrs.com/course/singapore-speedway-2",
+      "status": 200,
+      "htmlSHA256": "e1c2b388af2af771f973a91e56347eb7e6f51b41e48883e6afec8418e46d648c",
+      "expectedPublicWRs": 5,
+      "matchedDatesAndDurations": 5,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "singapore-speedway-2r",
+      "url": "https://mktwrs.com/course/singapore-speedway-2r",
+      "status": 200,
+      "htmlSHA256": "180338618473866d7602fc2818e6fa1ff9f1219aadf30e16ed90b0ba53ee63cc",
+      "expectedPublicWRs": 18,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "discord-1126573144535212093",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-06",
+          "expectedDays": 1.0930115393518518,
+          "foundDate": "2023-07-06",
+          "foundDays": "1",
+          "foundTitle": "1.090540 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1126969242617647135",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-07",
+          "expectedDays": 4.406289143518518,
+          "foundDate": "2023-07-07",
+          "foundDays": "4",
+          "foundTitle": "4.408760 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1130210018206171236",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-07-12",
+          "expectedDays": 2.3779106944444446,
+          "foundDate": "2023-07-12",
+          "foundDays": "2",
+          "foundTitle": "2.377513 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1256249763133788254-night2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-06-28",
+          "expectedDays": 0.037903460648148146,
+          "foundDate": "2024-06-28",
+          "foundDays": "<1",
+          "foundTitle": "0.037506 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1256263498887860317-night2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-06-28",
+          "expectedDays": 0.70064625,
+          "foundDate": "2024-06-28",
+          "foundDays": "<1",
+          "foundTitle": "0.701044 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1256998633388114083-night2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-06-30",
+          "expectedDays": 0.7607597569444444,
+          "foundDate": "2024-06-30",
+          "foundDays": "<1",
+          "foundTitle": "0.573367 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1257274323492667433-night2024-image-reviewed",
+          "issue": "published-WR-table-row-absent"
+        },
+        {
+          "id": "curated-1257277274265354242-night2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-07-01",
+          "expectedDays": 0.08692347222222223,
+          "foundDate": "2024-07-01",
+          "foundDays": "<1",
+          "foundTitle": "0.282459 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1257708588470894642-night2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-07-02",
+          "expectedDays": 6.477668831018518,
+          "foundDate": "2024-07-02",
+          "foundDays": "5",
+          "foundTitle": "5.960892 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1259533862740951060-night2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-07-07",
+          "expectedDays": 1.440871400462963,
+          "foundDate": "2024-07-07",
+          "foundDays": "<1",
+          "foundTitle": "0.924094 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "singapore-speedway-r",
+      "url": "https://mktwrs.com/course/singapore-speedway-r",
+      "status": 200,
+      "htmlSHA256": "0679ec14f4416ddec7551a2be4567bfb373cd69c30adf9ee2d7395ad700817c7",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "gba-sky-garden",
+      "url": "https://mktwrs.com/course/gba-sky-garden",
+      "status": 200,
+      "htmlSHA256": "dcd44450ed9086c41564404f13f9832eed5ce0e4955bc41fb7ccf9da9d5cee9a",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": []
+    },
+    {
+      "courseId": "gba-snow-land",
+      "url": "https://mktwrs.com/course/gba-snow-land",
+      "status": 200,
+      "htmlSHA256": "291053234529320dfcd0057b291aa0b0806737eb341c4ce37c37708116e13d9e",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "gba-snow-land-r",
+      "url": "https://mktwrs.com/course/gba-snow-land-r",
+      "status": 200,
+      "htmlSHA256": "656defae8055023ec84afc194e029fd216f59741800ba2c628fe3008c145470e",
+      "expectedPublicWRs": 4,
+      "matchedDatesAndDurations": 2,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "discord-1115638069211705364",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-06-06",
+          "expectedDays": 0.8523564699074074,
+          "foundDate": "2023-06-06",
+          "foundDays": "<1",
+          "foundTitle": "0.849904 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1124182218407944233",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-06-07",
+          "expectedDays": 48.82309111111111,
+          "foundDate": "2023-06-07",
+          "foundDays": "48",
+          "foundTitle": "48.825544 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "squeaky-clean-sprint",
+      "url": "https://mktwrs.com/course/squeaky-clean-sprint",
+      "status": 200,
+      "htmlSHA256": "8d75c869669bb591ff72b580c9dc2a7bc718855a139a901a34fad1699e03b51c",
+      "expectedPublicWRs": 13,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": [
+        {
+          "id": "discord-1140584308021674034",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-14",
+          "expectedDays": 1.909803576388889,
+          "foundDate": "2023-08-14",
+          "foundDays": "1",
+          "foundTitle": "1.909374 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1141100948077432942",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-15",
+          "expectedDays": 0.4841599537037037,
+          "foundDate": "2023-08-15",
+          "foundDays": "<1",
+          "foundTitle": "0.483731 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "discord-1141276400351985724",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-08-16",
+          "expectedDays": 0.008556527777777777,
+          "foundDate": "2023-08-16",
+          "foundDays": "<1",
+          "foundTitle": "0.008986 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "gba-sunset-wilds",
+      "url": "https://mktwrs.com/course/gba-sunset-wilds",
+      "status": 200,
+      "htmlSHA256": "adfd3d0ce6ddf63944184e8d349cc0c45424f4708d54f37e74038ee26e96eccc",
+      "expectedPublicWRs": 24,
+      "matchedDatesAndDurations": 24,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "gba-sunset-wilds-r",
+      "url": "https://mktwrs.com/course/gba-sunset-wilds-r",
+      "status": 200,
+      "htmlSHA256": "c0f42a20ebfd1c3f8f167a4ffb43117907dd7241fa30952b02c64ee3f23de830",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "sydney-sprint",
+      "url": "https://mktwrs.com/course/sydney-sprint",
+      "status": 200,
+      "htmlSHA256": "ce632d82bb3423e069cbeb5d0c2126443f70784b0c0b94ee31e72b4eba8201a8",
+      "expectedPublicWRs": 10,
+      "matchedDatesAndDurations": 10,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-toad-circuit",
+      "url": "https://mktwrs.com/course/3ds-toad-circuit",
+      "status": 200,
+      "htmlSHA256": "ad47f30ad17c28194ac985b623c723ea028daa2f06c37d63bb726137977539c1",
+      "expectedPublicWRs": 23,
+      "matchedDatesAndDurations": 23,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-toad-circuit-r",
+      "url": "https://mktwrs.com/course/3ds-toad-circuit-r",
+      "status": 200,
+      "htmlSHA256": "0de3ab29916cec4cd9acf23a7b8d0db7d511e8b6297882d55887061a5d87d19f",
+      "expectedPublicWRs": 11,
+      "matchedDatesAndDurations": 11,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "tokyo-blur-4",
+      "url": "https://mktwrs.com/course/tokyo-blur-4",
+      "status": 200,
+      "htmlSHA256": "aacb778dd4c91ebd31f0714536dd3b3342cec7e3a6c37eb6455ae9b18b0026d0",
+      "expectedPublicWRs": 13,
+      "matchedDatesAndDurations": 13,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": []
+    },
+    {
+      "courseId": "tokyo-blur-4r",
+      "url": "https://mktwrs.com/course/tokyo-blur-4r",
+      "status": 200,
+      "htmlSHA256": "0bd70dc940f658f8d5e212bb4a45b1f741ed0d52ddf7ed44b84efc28b2534e48",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "vancouver-velocity-3",
+      "url": "https://mktwrs.com/course/vancouver-velocity-3",
+      "status": 200,
+      "htmlSHA256": "456983f439c2c08f9b7a04d73230a0ee3467fc4fb7e599bee5d02565202892cc",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 12,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "snes-vanilla-lake-1",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-1",
+      "status": 200,
+      "htmlSHA256": "2e72dcf9bcccf13b827ef6e4d1d5992188a0551f18ea5c5552e8cce3c79d8dda",
+      "expectedPublicWRs": 12,
+      "matchedDatesAndDurations": 12,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "snes-vanilla-lake-1r",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-1r",
+      "status": 200,
+      "htmlSHA256": "77da321b3478892ec2d45d5f79044836f2af7875abf9c544f3b2b12a45a73bfe",
+      "expectedPublicWRs": 7,
+      "matchedDatesAndDurations": 7,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-vanilla-lake-2",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-2",
+      "status": 200,
+      "htmlSHA256": "c96dee65d72c805699ee05d50f2956cd9b8b497a7a2f3968078e1f1630ba1db7",
+      "expectedPublicWRs": 2,
+      "matchedDatesAndDurations": 2,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "snes-vanilla-lake-2r",
+      "url": "https://mktwrs.com/course/snes-vanilla-lake-2r",
+      "status": 200,
+      "htmlSHA256": "852540459c2b8be8be04ca7aaaf1b5ef21f76c0fd5b59b3c2324b6c38c0b59b3",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    },
+    {
+      "courseId": "ds-waluigi-pinball",
+      "url": "https://mktwrs.com/course/ds-waluigi-pinball",
+      "status": 200,
+      "htmlSHA256": "39938483bf7233020a86cdfa156517f1b46f2f5025b895a0d451c4d445f7380d",
+      "expectedPublicWRs": 9,
+      "matchedDatesAndDurations": 9,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "ds-waluigi-pinball-r",
+      "url": "https://mktwrs.com/course/ds-waluigi-pinball-r",
+      "status": 200,
+      "htmlSHA256": "c9b69c2afd1a8663e13f0d148c327c95c690eac723f15bccba3d9bd1351a5582",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 4,
+      "runningClockRows": 2,
+      "pausedClockRows": 2,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-wario-shipyard",
+      "url": "https://mktwrs.com/course/3ds-wario-shipyard",
+      "status": 200,
+      "htmlSHA256": "112e5f9847f66d9c0939a66cefddb4755f14c1bac26e4cd1fba21d3dd56ad8cc",
+      "expectedPublicWRs": 13,
+      "matchedDatesAndDurations": 13,
+      "tourClockEventRows": 10,
+      "runningClockRows": 5,
+      "pausedClockRows": 5,
+      "issues": []
+    },
+    {
+      "courseId": "3ds-wario-shipyard-r",
+      "url": "https://mktwrs.com/course/3ds-wario-shipyard-r",
+      "status": 200,
+      "htmlSHA256": "d20e96894a24479d3ddd3565c100c4946091babdcdea837b257444aeebf52657",
+      "expectedPublicWRs": 6,
+      "matchedDatesAndDurations": 6,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "gcn-yoshi-circuit",
+      "url": "https://mktwrs.com/course/gcn-yoshi-circuit",
+      "status": 200,
+      "htmlSHA256": "dd86e205e31a03d53dd9e3c824a9ee62b7e95c93089f1cc37670fa5bf255df47",
+      "expectedPublicWRs": 14,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 12,
+      "runningClockRows": 6,
+      "pausedClockRows": 6,
+      "issues": [
+        {
+          "id": "1099918465650933810",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2023-04-07",
+          "expectedDays": 11.73125806712963,
+          "foundDate": "2023-04-07",
+          "foundDays": "25",
+          "foundTitle": "25.002102 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1229770775679078441-yoshi2024-discussion-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-04-16",
+          "expectedDays": 0,
+          "foundDate": "2024-04-16",
+          "foundDays": "<1",
+          "foundTitle": "0.023547 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1229779308847829093-yoshi2024-discussion-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-04-16",
+          "expectedDays": 0,
+          "foundDate": "2024-04-16",
+          "foundDays": "<1",
+          "foundTitle": "0.069554 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-1229804749059260496-yoshi2024-image-reviewed",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-04-16",
+          "expectedDays": 0,
+          "foundDate": "2024-04-16",
+          "foundDays": "<1",
+          "foundTitle": "0.636055 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "1232480525512343592",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2024-04-17",
+          "expectedDays": 13.35511386574074,
+          "foundDate": "2024-04-17",
+          "foundDays": "13",
+          "foundTitle": "13.353206 documented playable days. The clock pauses outside Time Trial tours."
+        },
+        {
+          "id": "curated-2025-kod-yoshi-NjqUdL5prbs",
+          "issue": "display-date-or-duration-does-not-match-source",
+          "expectedDate": "2025-04-15",
+          "expectedDays": 14.64488613425926,
+          "foundDate": "2025-04-15",
+          "foundDays": "14",
+          "foundTitle": "14.646794 documented playable days. The clock pauses outside Time Trial tours."
+        }
+      ]
+    },
+    {
+      "courseId": "gcn-yoshi-circuit-r",
+      "url": "https://mktwrs.com/course/gcn-yoshi-circuit-r",
+      "status": 200,
+      "htmlSHA256": "b61fa97dd500b282f8387a31dd88089288a8a7bfcd4eddee7323213258f4e1de",
+      "expectedPublicWRs": 1,
+      "matchedDatesAndDurations": 1,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "n64-yoshi-valley",
+      "url": "https://mktwrs.com/course/n64-yoshi-valley",
+      "status": 200,
+      "htmlSHA256": "224b03b6b117fab14a947970c527eb9142be053eede116654635a5bab7d6dcfc",
+      "expectedPublicWRs": 4,
+      "matchedDatesAndDurations": 4,
+      "tourClockEventRows": 2,
+      "runningClockRows": 1,
+      "pausedClockRows": 1,
+      "issues": []
+    },
+    {
+      "courseId": "n64-yoshi-valley-r",
+      "url": "https://mktwrs.com/course/n64-yoshi-valley-r",
+      "status": 200,
+      "htmlSHA256": "5a4cda78d9710e59ae25b31069b56c9908882e78ed098efe8c1acd64b71d9b74",
+      "expectedPublicWRs": 8,
+      "matchedDatesAndDurations": 8,
+      "tourClockEventRows": 8,
+      "runningClockRows": 4,
+      "pausedClockRows": 4,
+      "issues": []
+    }
+  ],
+  "wholeGoalComplete": false
+}
