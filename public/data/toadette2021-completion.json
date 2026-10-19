@@ -2,8 +2,8 @@
   "tourId": "tour-56",
   "tour": "Toad vs. Toadette Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-11-03T06:00:00Z",
@@ -51,7 +51,14 @@
     "archive/toadette2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
     "archive/toadette2021-exact-window-discussion-attachment-index-20261013.json",
     "archive/toadette2021-final-publication-audit-20261013.json",
-    "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/toadette2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/toadette2021-final-known-source-date-duration-and8-video-review-20261019.json",
+    "artifacts/toadette2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/toadette2021-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/toadette2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/toadette2021-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/toadette2021-all8-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/toadette2021-three-final-leaderboard-originals-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/toad-toadette-2021-reconciliation.json",
@@ -91,14 +98,15 @@
     "AKI 49.57 original YouTube video is unavailable; AKI Twitter comparison 1457512632970190849 also leads to a deleted post. No recovered backup is claimed.",
     "N explicitly reported having no video for 49.67 in discussion message 905951370748772402.",
     "Final RC board gives Sucha 1:12.52 as 36.28/26.24, a typo. The original submission 908175845351383080 says .28/.24, correctly summing as 36.28/36.24.",
-    "Wins Kalimari 1:03.48 and NHSpeedy 1:03.46/1:03.45 do not beat Astre\u2019s January 2021 1:03.39. They are not added to WR progression.",
-    "Haruru\u2019s joking WR message shows RMX Choco 1:52.83, not a WR. JuicyJack\u2019s 1:39.64 is a slow Donut Plains run, not Dino Dino Jungle R.",
+    "Wins Kalimari 1:03.48 and NHSpeedy 1:03.46/1:03.45 do not beat Astre’s January 2021 1:03.39. They are not added to WR progression.",
+    "Haruru’s joking WR message shows RMX Choco 1:52.83, not a WR. JuicyJack’s 1:39.64 is a slow Donut Plains run, not Dino Dino Jungle R.",
     "Reading this tour cohort does not establish complete coverage of all earlier tours or channels.",
     "Private, deleted and unindexed global material not proven fully recovered.",
     "Four full original recordings and four partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Three selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
     "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
-    "All eight R2 objects passed full SHA256 and byte-length checks: four completed recordings and four partial clips. AKI 49.57 original YouTube remains unavailable in a fresh source check; the comparison Twitter post returned no downloadable video. Donut Plains keeps the slower NHSpeedy 49.86 surviving recording separate from the 49.57 WR. Exact race dates and deleted/private or unindexed source history remain qualified."
+    "All eight R2 objects passed full SHA256 and byte-length checks: four completed recordings and four partial clips. AKI 49.57 original YouTube remains unavailable in a fresh source check; the comparison Twitter post returned no downloadable video. Donut Plains keeps the slower NHSpeedy 49.86 surviving recording separate from the 49.57 WR. Exact race dates and deleted/private or unindexed source history remain qualified.",
+    "67 of 68 current worksheet entries have supported publication dates: 63 recovered, one corrected from a different January same-player same-time result, and three retained. Peachii 1:12.78 remains a source gap. 147 original image paths are preserved. Eight videos include four full runs and four partial clips. AKI final Donut Plains 0:49.57 footage remains unavailable; NHSpeedy 0:49.86 is the best preserved recording, separately displayed. Late Shiraui 1:12.03 counts at its November17 submission time; no private race date is inferred. Seven WR duration rows now use that documented posting boundary. Inconsistent Sucha worksheet lap splits are retained internally and withheld from public display."
   ],
   "validation": {
     "liveSnapshotRows": 822,
@@ -130,5 +138,80 @@
     "tourPartialClips": 4,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/toadette2021-final-known-source-date-duration-and8-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/toadette2021-final-known-source-date-duration-and8-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 63,
+    "sourceRowsMatched": 67,
+    "sourceClockRowsVerified": 792,
+    "durationRowsVerified": 822,
+    "wrDurationClockCorrections": [
+      {
+        "id": "curated-toad-toadette-2021-905711622679576606",
+        "time": "1:13.05",
+        "priorDays": 0,
+        "correctedDays": 0.05145584490740741,
+        "basis": "Documented final posting no longer assumes unknown standing throughout the tour"
+      },
+      {
+        "id": "curated-toad-toadette-2021-905730270529990677",
+        "time": "1:12.50",
+        "priorDays": 0,
+        "correctedDays": 0.23716001157407407,
+        "basis": "Documented final posting no longer assumes unknown standing throughout the tour"
+      },
+      {
+        "id": "curated-toad-toadette-2021-905816213538627634",
+        "time": "1:12.48",
+        "priorDays": 0,
+        "correctedDays": 0.37704413194444447,
+        "basis": "Documented final posting no longer assumes unknown standing throughout the tour"
+      },
+      {
+        "id": "curated-toad-toadette-2021-905952852285993040",
+        "time": "1:12.34",
+        "priorDays": 0,
+        "correctedDays": 0.02327585648148148,
+        "basis": "Documented final posting no longer assumes unknown standing throughout the tour"
+      },
+      {
+        "id": "curated-toad-toadette-2021-905961287387873320",
+        "time": "1:12.21",
+        "priorDays": 0,
+        "correctedDays": 9.653443125,
+        "basis": "Documented final posting no longer assumes unknown standing throughout the tour"
+      },
+      {
+        "id": "curated-toad-toadette-2021-909459575877550091",
+        "time": "1:12.19",
+        "priorDays": 0,
+        "correctedDays": 2.619668622685185,
+        "basis": "Documented final posting no longer assumes unknown standing throughout the tour"
+      },
+      {
+        "id": "910850142435967046",
+        "time": "1:12.03",
+        "priorDays": 0,
+        "correctedDays": 0,
+        "basis": "Documented final posting no longer assumes unknown standing throughout the tour"
+      }
+    ],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "rmx-choco-island-1r",
+        "id": "sheet-ZX31",
+        "playerId": "peachii",
+        "time": "1:12.78",
+        "reason": "No independently supported named dated source or identity crosswalk; retain internal source gap."
+      }
+    ],
+    "indexedSourceImageFiles": 144,
+    "totalPreservedSourceFiles": 147,
+    "distinctSourceHashes": 145,
+    "storedVideoObjects": 8,
+    "distinctStoredVideoHashes": 8,
+    "rawPublicationPatchesAdded": 82
   }
 }
