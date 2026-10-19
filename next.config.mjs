@@ -5,6 +5,10 @@ export default {
   async redirects() {
     const origin = process.env.MKTWRS_MEDIA_ORIGIN || "https://media.mktwrs.com";
     return [{
+      source: "/player/k1r",
+      destination: "/player/kirio",
+      permanent: true,
+    }, {
       source: "/assets/:path*",
       destination: `${origin.replace(/\/$/, "")}/assets/:path*`,
       permanent: false,

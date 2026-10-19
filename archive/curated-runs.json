@@ -14907,7 +14907,7 @@
       "decodedFrameChecksumPath": "archive/halloween2019-astre12570-decoded-frame-checksums-20261011.txt",
       "decodedFrameChecksumSha256": "5edb20e8933385987dd3ab359521bbeea55fb0ee4403de1ee734088183e79745",
       "outputTimebase": "1/90000",
-      "firstTimestampSeconds": 0.0,
+      "firstTimestampSeconds": 0,
       "lastTimestampSeconds": 99.290211,
       "maximumTimestampGapSeconds": 0.06482200000000038,
       "duplicateOrBackwardTimestamps": 0,
@@ -71210,23 +71210,62 @@
     "courseId": "snes-ghost-valley-1r",
     "time": "0:40.39",
     "laps": [
-      null,
-      null
+      "20.31",
+      "20.08"
     ],
     "mushrooms": null,
-    "status": "documented-submission",
-    "includeInProgression": false,
+    "status": "community-wr",
+    "includeInProgression": true,
     "submittedAt": "2022-07-27T05:54:42.311Z",
-    "proofImage": "https://cdn.discordapp.com/attachments/875784780573184010/1001729323973214219/IMG_3946.png?ex=6abd4ce2&is=6abbfb62&hm=2c540efcd30e27184b078dbd0016daa8c1855348236586f20b1a6c93259061b3&",
+    "proofImage": "https://media.mktwrs.com/assets/proof/kirio-gv1r-4039-user-provided-original-result-ead3310064062721.png",
     "proofImageVerified": true,
-    "proofImageLocal": "/assets/proof/july2022-1001729325000822834-1001729323973214219.webp",
+    "proofImageLocal": "https://media.mktwrs.com/assets/proof/kirio-gv1r-4039-user-provided-original-result-ead3310064062721.png",
     "source": {
       "url": "https://discord.com/channels/629221606064914442/875784780573184010/1001729325000822834",
       "channel": "tt-submission",
       "messageId": "1001729325000822834"
     },
     "notes": [
-      "Original result visually read and linked to own exact submission timestamp; course confirmed by scenery, target thresholds and available command. Lap splits only supplied where explicitly stated and sum to total. Slower than established 0:40.41 unless kNo2 final 0:40.36; Kirio 0:40.39 posted after kNo2, so not promoted."
+      "Earlier original submission screenshot supplied by the user establishes July24,2022 at22:36 CEST. The July27 MKCentral submission is a later repost, after the final0:40.36; it is not the earliest supported submission date.",
+      "Original adjacent player message reports20.31/20.08, summing to40.39. The posting minute is retained as a one-minute UTC interval; no exact seconds or private race-finish instant are inferred."
+    ],
+    "recordDate": "2022-07-24",
+    "dateBasis": "earlier-original-submission-screenshot",
+    "lapSource": {
+      "url": "https://media.mktwrs.com/assets/proof/kirio-gv1r-4039-img_8243-900984ff178c95ed.webp",
+      "kind": "original-player-split-message-screenshot"
+    },
+    "lapMatchBasis": "Original July24 conversation immediately following the same 0:40.39 result; 20.31 + 20.08 = 40.39.",
+    "originalJuly27Proof": {
+      "image": "https://cdn.discordapp.com/attachments/875784780573184010/1001729323973214219/IMG_3946.png?ex=6abd4ce2&is=6abbfb62&hm=2c540efcd30e27184b078dbd0016daa8c1855348236586f20b1a6c93259061b3&",
+      "local": "/assets/proof/july2022-1001729325000822834-1001729323973214219.webp",
+      "submittedAt": "2022-07-27T05:54:42.311Z",
+      "uploadedAt": "2022-07-27T05:54:42.066Z"
+    },
+    "originalPostingMinuteReview": {
+      "localMinute": "2022-07-24T22:36",
+      "timezone": "CEST",
+      "utcOffset": "+02:00",
+      "timezoneConfirmedByUser": true,
+      "sourceUrl": "https://media.mktwrs.com/assets/proof/kirio-gv1r-4039-img_8242-f355831657079710.webp",
+      "reviewArtifact": "artifacts/kirio-ghost-valley-1r-earlier-wr-and-profile-reconciliation-20261018.json",
+      "secondsEstablished": false
+    },
+    "additionalSources": [
+      {
+        "url": "https://media.mktwrs.com/assets/proof/kirio-gv1r-4039-img_8242-f355831657079710.webp",
+        "kind": "original-submission-date-screenshot",
+        "displayedLocalMinute": "2022-07-24T22:36",
+        "timezone": "CEST"
+      },
+      {
+        "url": "https://media.mktwrs.com/assets/proof/kirio-gv1r-4039-img_8243-900984ff178c95ed.webp",
+        "kind": "original-player-split-message-screenshot"
+      },
+      {
+        "url": "https://media.mktwrs.com/assets/proof/kirio-gv1r-4039-user-provided-original-result-ead3310064062721.png",
+        "kind": "user-supplied-original-result"
+      }
     ]
   },
   {
@@ -443385,7 +443424,7 @@
     "videoPublicationSource": {
       "url": "https://www.reddit.com/r/MarioKartTour/comments/dmd4ey/im_seeing_a_lot_of_people_are_having_trouble_with/",
       "basis": "original-post-dom-created-timestamp",
-      "rawTimestamp": 1571903436.0,
+      "rawTimestamp": 1571903436,
       "audit": "archive/halloween2019-reddit12741-original-title-and-greatsterz12690-rival-context-20261012.json",
       "priorExtractorPublishedAt": "2019-10-24T07:50:36Z"
     },
