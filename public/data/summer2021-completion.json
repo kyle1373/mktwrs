@@ -2,7 +2,7 @@
   "tourId": "tour-47",
   "tour": "Summer Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -37,7 +37,12 @@
     "archive/summer2021-preserved-source-index-and-image-integrity-20261013.json",
     "archive/summer2021-image-source-publication-crosswalk-20261013.json",
     "archive/summer2021-opening-day-policy-generation-check-20261013.json",
-    "artifacts/summer2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/summer2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/summer2021-final-known-source-date-duration-and5-video-review-20261019.json",
+    "artifacts/summer2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/summer2021-fresh-selected-source-proof-review-20261019.json",
+    "artifacts/summer2021-all116-original-source-images-r2-preservation-20261019.json",
+    "artifacts/summer2021-all5-stored-video-files-full-byte-decode-and-range-verification-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/summer-2021-reconciliation.json",
@@ -77,8 +82,8 @@
     "Selected72.24 and96.64 recordings remain slower than WRs72.08 and96.44.",
     "Original upload/share/report clocks are separate from exact race instants.",
     "Indexed-image and focused-search coverage does not establish a complete server-message census.",
-    "Isun’s July 9 indexed Twitter result image f27bdb9173b2f164b6e4d4cb cannot be retrieved; original tweet 1413514490587488264 also reports unavailable. No time is inferred from its surrounding conversation.",
-    "Nu11’s prior 1:12.23 requires an original dated source.",
+    "Isun\u2019s July 9 indexed Twitter result image f27bdb9173b2f164b6e4d4cb cannot be retrieved; original tweet 1413514490587488264 also reports unavailable. No time is inferred from its surrounding conversation.",
+    "Nu11\u2019s prior 1:12.23 requires an original dated source.",
     "July 14 search results after 06:00 UTC belong to Los Angeles Tour and are reviewed separately.",
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
@@ -99,7 +104,7 @@
   "nextTourId": "tour-48",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/summer2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/summer2021-final-known-source-date-duration-and5-video-review-20261019.json",
   "sourceDispositionAudit": "archive/summer2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "c2c5914e17c0fb3853ba00f0ea9d088cb009316d",
   "videoPreservationReview": {
@@ -115,5 +120,49 @@
     "standingAirshipWrOriginalVideoUnavailable": true,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/summer2021-final-known-source-date-duration-and5-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "newWorksheetDatesRecovered": 18,
+    "sourceRowsMatched": 19,
+    "exactSourceClockRowsVerified": 456,
+    "durationIntervalRowsVerified": 506,
+    "remainingActualWorksheetDateOrIdentityGaps": 7,
+    "retainedWorksheetPlaceholders": 12,
+    "calendarDatesUnchangedForExistingWRs": true,
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "rmx-choco-island-1",
+        "id": "curated-summer-2021-859719566618918912-11228",
+        "time": "1:12.28",
+        "playerId": "nu11",
+        "previousDurationDays": 6.126006041666667,
+        "durationDays": 6.126010532407407,
+        "deltaSeconds": 0.38799999994978407
+      },
+      {
+        "courseId": "rmx-choco-island-1",
+        "id": "curated-summer-2021-861967576354258984-11224",
+        "time": "1:12.24",
+        "playerId": "tomegome",
+        "previousDurationDays": 7.125298518518519,
+        "durationDays": 7.125294027777778,
+        "deltaSeconds": -0.3880000000265227
+      }
+    ]
+  },
+  "latestMediaVerification": {
+    "sourceImagesPreserved": 116,
+    "storedVideoObjects": 5,
+    "distinctVideoHashes": 4,
+    "completedSummerRecordings": 2,
+    "olderReferenceCompletedRecordings": 1,
+    "otherCourseContextClips": 1,
+    "byteIdenticalDuplicateObjects": 1,
+    "fullByteHashesVideoDecodeAndRangeVerified": true,
+    "standingAirshipWrOriginalVideoUnavailable": true,
+    "chocoFinalWrRunnerReportedNoVideo": true
   }
 }
