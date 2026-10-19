@@ -2,7 +2,7 @@
   "tourId": "tour-44",
   "tour": "Trick Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -86,13 +86,13 @@
     "Two deleted-account results have unresolved identities.",
     "Previous-best fields reveal potential intermediate runs without exact original dates.",
     "The original Nu11 1:52.69 YouTube video RQ8FAnqakFc is retained but unavailable in signed-in YouTube; earlier footage mentioned in discussion has not been located.",
-    "Saki7’s cumulative section shorthand is ambiguous; only the exact first section is published.",
+    "Saki7\u2019s cumulative section shorthand is ambiguous; only the exact first section is published.",
     "10mp 39.82 is preserved as a video submission without asserting that it held WR.",
     "Prior gameplay/lap/finish reviews retained; no fresh uninterrupted certification.",
     "Upload/share clocks do not replace achievement dates; duplicate files are counted once by SHA256.",
     "Partial route clips remain separate from completed runs.",
     "Thirteen additional completed runs retained with prior reviews, plus another encoding of the selected Wins1:53.83; four short clips are not completed race proof. Exact race dates and inaccessible originals remain qualified.",
-    "All 21 stored video objects passed full SHA256 and byte-length checks. Three selected slower recordings remain supporting footage. Fresh checks of Nu11’s Beach R 1:15.33 and Rainbow R 1:52.69 original YouTube videos returned unavailable; no final-WR footage recovery is claimed."
+    "All 21 stored video objects passed full SHA256 and byte-length checks. Three selected slower recordings remain supporting footage. Fresh checks of Nu11\u2019s Beach R 1:15.33 and Rainbow R 1:52.69 original YouTube videos returned unavailable; no final-WR footage recovery is claimed."
   ],
   "validation": {
     "liveSnapshotRows": 542,
@@ -107,7 +107,7 @@
   "nextTourId": "tour-45",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/trick2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/trick2021-final-known-source-date-duration-and21-video-review-20261019.json",
   "sourceDispositionAudit": "archive/trick2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "2b91041a6c9b8ce366df1ddfdc9b19d58e727956",
   "videoPreservationReview": {
@@ -121,5 +121,36 @@
     "finalWrFootageFullyPreserved": false,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/trick2021-final-known-source-date-duration-and21-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "audit": "artifacts/trick2021-final-known-source-date-duration-and21-video-review-20261019.json",
+    "sourceClockAudit": "artifacts/trick2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 81,
+    "sourceRowsMatched": 81,
+    "correctedPriorWorksheetDates": 0,
+    "remainingSupportingSourceGaps": 24,
+    "remainingActualWorksheetResultGaps": 24,
+    "remainingWorksheetPlaceholders": 0,
+    "currentTourExactSourceClockMismatches": 0,
+    "lateSubmissionTimestampCorrections": 1
+  },
+  "sourceImagePreservationReview": {
+    "audit": "artifacts/trick2021-all318-original-source-images-r2-preservation-20261019.json",
+    "originalSourceImages": 318,
+    "allAvailableFullPublicBytesAndDecodeVerified": true,
+    "unavailableIndexedOriginals": 1,
+    "unavailableOriginalAudit": "artifacts/trick2021-missing-original-attachment-live-source-check-20261019.json"
+  },
+  "latestVideoPreservationReview": {
+    "audit": "artifacts/trick2021-all21-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "originalObjects": 21,
+    "allFullPublicBytesDecodeAndRangeVerified": true,
+    "originalRecoveryCheckDate": "2026-10-17",
+    "allReferencedOriginalVideosArchived": false,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "finalWrFootageFullyPreserved": false
   }
 }
