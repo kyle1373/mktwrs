@@ -1,0 +1,854 @@
+{
+  "checkedAt": "2026-10-19T05:16:56.447002+00:00",
+  "tourId": "tour-17",
+  "sourceFiles": [
+    {
+      "file": "archive/flower-2020-discussion-census.json",
+      "sha256": "61bdee993678bf6c0bce763e4efc8ca60e90a6dfc9e74666c7e843af0323b2ed",
+      "fullHashMatched": true
+    },
+    {
+      "file": "archive/flower-2020-opening-boundary-census.json",
+      "sha256": "cc87071fd02926beb21059e8bdfae2adcb8f4c7e40390b1f25d41feb1e964913",
+      "fullHashMatched": true
+    },
+    {
+      "file": "archive/flower2020-selected-recording-fresh-visual-and-access-review-20261013.json",
+      "sha256": "d3d5474d7d1742659d8e74330a03a0cf89ce1b45fb26a06e97d02de1a4c95e30",
+      "fullHashMatched": true
+    },
+    {
+      "file": "artifacts/flower2020-sheet-and-earlier-report-date-review-20261016.json",
+      "sha256": "4011468d16d9187af37be18a3d4f0ecf94c4a212dfa1850878a77a45f27709ae",
+      "fullHashMatched": true
+    },
+    {
+      "file": "artifacts/flower2020-preserved-original-video-publication-metadata-20261016.json",
+      "sha256": "4b9f9afd7083bb99da60782447b81f998fe197e7c2eefc2b9f858f9fe72bc631",
+      "fullHashMatched": true
+    },
+    {
+      "file": "artifacts/flower2020-fourteen-worksheet-original-proof-date-review-20261016.json",
+      "sha256": "da16559c4b560372a98384917d259685f7792612f4e3ae009d8e1d70f6008ae0",
+      "fullHashMatched": true
+    },
+    {
+      "file": "archive/flower-2020-server-images-census.json",
+      "sha256": "93c374d2092c965736d49f87948fc193bde0e55ec37b6f28663b5b3a7d73c3ff",
+      "fullHashMatched": true
+    },
+    {
+      "file": "artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json",
+      "sha256": "3b6af7da04faeb188b0cd149e2d584a7052fcf95bae9c4a10f747bf8e5627eeb",
+      "fullHashMatched": true
+    },
+    {
+      "file": "archive/flower-2020-server-links-census.json",
+      "sha256": "f19d0ce0f86c42fae0546496cfce6c8f3390cd5422cb39cd56eb91765c3369df",
+      "fullHashMatched": true
+    },
+    {
+      "file": "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
+      "sha256": "6b618eba597de550202e9ac1c1e956379326c78bbba5e3b009672be102e43d49",
+      "fullHashMatched": true
+    },
+    {
+      "file": "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json",
+      "sha256": "4ac8a308abf63944a19cef8d999bb98064ab012b65833454427bab1142b83f87",
+      "fullHashMatched": true
+    },
+    {
+      "file": "artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json",
+      "sha256": "85432f4c5e29aca23825052287ea7f58cd3ec4d4cbb892da6e86cd5ef145d69b",
+      "fullHashMatched": true
+    }
+  ],
+  "datedSourceRowsChecked": 56,
+  "sourceClocks": [
+    {
+      "id": "curated-707498245831655504-flower-opening-wr",
+      "sourceId": "707498245831655504",
+      "sourceClock": "2020-05-06T07:45:26.488000+00:00",
+      "documentedAt": "2020-05-06T07:45:26.488Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-707501764987060265-flower-previous-14217",
+      "sourceId": "707501764987060265",
+      "sourceClock": "2020-05-06T07:59:25.520000+00:00",
+      "documentedAt": "2020-05-06T07:59:25.520Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-707501764987060265-flower-opening-wr",
+      "sourceId": "707501764987060265",
+      "sourceClock": "2020-05-06T07:59:25.520000+00:00",
+      "documentedAt": "2020-05-06T07:59:25.520Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-707513082787659797-flower-opening-wr",
+      "sourceId": "707519824250535936",
+      "sourceClock": "2020-05-06T09:11:11.184000+00:00",
+      "documentedAt": "2020-05-06T09:11:11.184Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707541270129803285",
+      "sourceId": "707541270129803285",
+      "sourceClock": "2020-05-06T10:36:24.280000+00:00",
+      "documentedAt": "2020-05-06T10:36:24.280Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707586508197986315",
+      "sourceId": "707586508197986315",
+      "sourceClock": "2020-05-06T13:36:09.876000+00:00",
+      "documentedAt": "2020-05-06T13:36:09.876Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707590371764600893",
+      "sourceId": "707590371764600893",
+      "sourceClock": "2020-05-06T13:51:31.022000+00:00",
+      "documentedAt": "2020-05-06T13:51:31.022Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707590442119725088",
+      "sourceId": "707590442119725088",
+      "sourceClock": "2020-05-06T13:51:47.796000+00:00",
+      "documentedAt": "2020-05-06T13:51:47.796Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707592162795061319",
+      "sourceId": "707592162795061319",
+      "sourceClock": "2020-05-06T13:58:38.037000+00:00",
+      "documentedAt": "2020-05-06T13:58:38.037Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707593551592030319",
+      "sourceId": "707593551592030319",
+      "sourceClock": "2020-05-06T14:04:09.152000+00:00",
+      "documentedAt": "2020-05-06T14:04:09.152Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707596184868618250",
+      "sourceId": "707596184868618250",
+      "sourceClock": "2020-05-06T14:14:36.974000+00:00",
+      "documentedAt": "2020-05-06T14:14:36.974Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707599086370422855",
+      "sourceId": "707599086370422855",
+      "sourceClock": "2020-05-06T14:26:08.746000+00:00",
+      "documentedAt": "2020-05-06T14:26:08.746Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708266454818226246-verified",
+      "sourceId": "708266454818226246",
+      "sourceClock": "2020-05-08T10:38:01.783000+00:00",
+      "documentedAt": "2020-05-08T10:38:01.783Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708706642484789308-verified",
+      "sourceId": "708706642484789308",
+      "sourceClock": "2020-05-09T15:47:10.701000+00:00",
+      "documentedAt": "2020-05-09T15:47:10.701Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708809387233509406-verified",
+      "sourceId": "708809387233509406",
+      "sourceClock": "2020-05-09T22:35:26.958000+00:00",
+      "documentedAt": "2020-05-09T22:35:26.958Z",
+      "exactMatch": true
+    },
+    {
+      "id": "896332670550818866",
+      "sourceId": "709135258620133467",
+      "sourceClock": "2020-05-10T20:10:20.751000+00:00",
+      "documentedAt": "2020-05-10T20:10:20.751Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF10",
+      "sourceId": "708614580607123486",
+      "sourceClock": "2020-05-09T09:41:21.439000+00:00",
+      "documentedAt": "2020-05-09T09:41:21.439Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF11",
+      "sourceId": "708266454818226246",
+      "sourceClock": "2020-05-08T10:38:01.783000+00:00",
+      "documentedAt": "2020-05-08T10:38:01.783Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF12",
+      "sourceId": "710553982715691038",
+      "sourceClock": "2020-05-14T18:07:50.934000+00:00",
+      "documentedAt": "2020-05-14T18:07:50.934Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF13",
+      "sourceId": "708254103054188656",
+      "sourceClock": "2020-05-08T09:48:56.893000+00:00",
+      "documentedAt": "2020-05-08T09:48:56.893Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF14",
+      "sourceId": "712323593744416810",
+      "sourceClock": "2020-05-19T15:19:39.081000+00:00",
+      "documentedAt": "2020-05-19T15:19:39.081Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF15",
+      "sourceId": "709135258620133467",
+      "sourceClock": "2020-05-10T20:10:20.751000+00:00",
+      "documentedAt": "2020-05-10T20:10:20.751Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF17",
+      "sourceId": "1260699212448063489",
+      "sourceClock": "2020-05-13T22:31:29.563000+00:00",
+      "documentedAt": "2020-05-13T22:31:29.563Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF19",
+      "sourceId": "712352624304979999",
+      "sourceClock": "2020-05-19T17:15:00.506000+00:00",
+      "documentedAt": "2020-05-19T17:15:00.506Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF20",
+      "sourceId": "708984460833718382",
+      "sourceClock": "2020-05-10T10:11:07.757000+00:00",
+      "documentedAt": "2020-05-10T10:11:07.757Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF21",
+      "sourceId": "712445797504909383",
+      "sourceClock": "2020-05-19T23:25:14.728000+00:00",
+      "documentedAt": "2020-05-19T23:25:14.728Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF22",
+      "sourceId": "710225233340268636",
+      "sourceClock": "2020-05-13T20:21:30.975000+00:00",
+      "documentedAt": "2020-05-13T20:21:30.975Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF23",
+      "sourceId": "708824060511125506",
+      "sourceClock": "2020-05-09T23:33:45.340000+00:00",
+      "documentedAt": "2020-05-09T23:33:45.340Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF24",
+      "sourceId": "709668719932080188",
+      "sourceClock": "2020-05-12T07:30:07.839000+00:00",
+      "documentedAt": "2020-05-12T07:30:07.839Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF25",
+      "sourceId": "709043996223209544",
+      "sourceClock": "2020-05-10T14:07:42.100000+00:00",
+      "documentedAt": "2020-05-10T14:07:42.100Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF28",
+      "sourceId": "710078116776640573",
+      "sourceClock": "2020-05-13T10:36:55.653000+00:00",
+      "documentedAt": "2020-05-13T10:36:55.653Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF29",
+      "sourceId": "709471545054986421",
+      "sourceClock": "2020-05-11T18:26:37.685000+00:00",
+      "documentedAt": "2020-05-11T18:26:37.685Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF30",
+      "sourceId": "709398194974490633",
+      "sourceClock": "2020-05-11T13:35:09.663000+00:00",
+      "documentedAt": "2020-05-11T13:35:09.663Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF31",
+      "sourceId": "712149562386546698",
+      "sourceClock": "2020-05-19T03:48:06.772000+00:00",
+      "documentedAt": "2020-05-19T03:48:06.772Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF33",
+      "sourceId": "709668799212945420",
+      "sourceClock": "2020-05-12T07:30:26.741000+00:00",
+      "documentedAt": "2020-05-12T07:30:26.741Z",
+      "exactMatch": true
+    },
+    {
+      "id": "sheet-BF36",
+      "sourceId": "712556610811330573",
+      "sourceClock": "2020-05-20T06:45:34.679000+00:00",
+      "documentedAt": "2020-05-20T06:45:34.679Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708266454818226246-verified",
+      "sourceId": "708266454818226246",
+      "sourceClock": "2020-05-08T10:38:01.783000+00:00",
+      "documentedAt": "2020-05-08T10:38:01.783Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708706642484789308-verified",
+      "sourceId": "708706642484789308",
+      "sourceClock": "2020-05-09T15:47:10.701000+00:00",
+      "documentedAt": "2020-05-09T15:47:10.701Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708809387233509406-verified",
+      "sourceId": "708809387233509406",
+      "sourceClock": "2020-05-09T22:35:26.958000+00:00",
+      "documentedAt": "2020-05-09T22:35:26.958Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-709135258620133467-verified",
+      "sourceId": "709135258620133467",
+      "sourceClock": "2020-05-10T20:10:20.751000+00:00",
+      "documentedAt": "2020-05-10T20:10:20.751Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707541270129803285",
+      "sourceId": "707541270129803285",
+      "sourceClock": "2020-05-06T10:36:24.280000+00:00",
+      "documentedAt": "2020-05-06T10:36:24.280Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707586508197986315",
+      "sourceId": "707586508197986315",
+      "sourceClock": "2020-05-06T13:36:09.876000+00:00",
+      "documentedAt": "2020-05-06T13:36:09.876Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707590371764600893",
+      "sourceId": "707590371764600893",
+      "sourceClock": "2020-05-06T13:51:31.022000+00:00",
+      "documentedAt": "2020-05-06T13:51:31.022Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707590442119725088",
+      "sourceId": "707590442119725088",
+      "sourceClock": "2020-05-06T13:51:47.796000+00:00",
+      "documentedAt": "2020-05-06T13:51:47.796Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707592162795061319",
+      "sourceId": "707592162795061319",
+      "sourceClock": "2020-05-06T13:58:38.037000+00:00",
+      "documentedAt": "2020-05-06T13:58:38.037Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707593551592030319",
+      "sourceId": "707593551592030319",
+      "sourceClock": "2020-05-06T14:04:09.152000+00:00",
+      "documentedAt": "2020-05-06T14:04:09.152Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707596184868618250",
+      "sourceId": "707596184868618250",
+      "sourceClock": "2020-05-06T14:14:36.974000+00:00",
+      "documentedAt": "2020-05-06T14:14:36.974Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-flower-2020-707599086370422855",
+      "sourceId": "707599086370422855",
+      "sourceClock": "2020-05-06T14:26:08.746000+00:00",
+      "documentedAt": "2020-05-06T14:26:08.746Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-810619049138323456-verified-video-support",
+      "sourceId": "712248870532284457",
+      "sourceClock": "2020-05-19T10:22:43.679000+00:00",
+      "documentedAt": "2020-05-19T10:22:43.679Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-707498245831655504-flower-opening-wr",
+      "sourceId": "707498245831655504",
+      "sourceClock": "2020-05-06T07:45:26.488000+00:00",
+      "documentedAt": "2020-05-06T07:45:26.488Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-707501764987060265-flower-opening-wr",
+      "sourceId": "707501764987060265",
+      "sourceClock": "2020-05-06T07:59:25.520000+00:00",
+      "documentedAt": "2020-05-06T07:59:25.520Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-707513082787659797-flower-opening-wr",
+      "sourceId": "707519824250535936",
+      "sourceClock": "2020-05-06T09:11:11.184000+00:00",
+      "documentedAt": "2020-05-06T09:11:11.184Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-707501764987060265-flower-previous-14217",
+      "sourceId": "707501764987060265",
+      "sourceClock": "2020-05-06T07:59:25.520000+00:00",
+      "documentedAt": "2020-05-06T07:59:25.520Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708660808644821072-flower2020-completed-video-reviewed",
+      "sourceId": "708645543814889522",
+      "sourceClock": "2020-05-09T11:44:23.643000+00:00",
+      "documentedAt": "2020-05-09T11:44:23.643Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708875280923754537-flower2020-completed-video-reviewed",
+      "sourceId": "708660372277821552",
+      "sourceClock": "2020-05-09T12:43:19.024000+00:00",
+      "documentedAt": "2020-05-09T12:43:19.024Z",
+      "exactMatch": true
+    },
+    {
+      "id": "curated-708009544885993503-flower2020-completed-video-reviewed",
+      "sourceId": "708009544885993503",
+      "sourceClock": "2020-05-07T17:37:09.682000+00:00",
+      "documentedAt": "2020-05-07T17:37:09.682Z",
+      "exactMatch": true
+    }
+  ],
+  "sourceClockDifferencesNeedingReview": [],
+  "allCourseDurationBoundsIndependentlySummed": 63,
+  "durationAudit": [
+    {
+      "id": "curated-707498245831655504-flower-opening-wr",
+      "collection": "records",
+      "minDays": 0.009711018518518518,
+      "maxDays": 0.009711018518518518
+    },
+    {
+      "id": "curated-707501764987060265-flower-previous-14217",
+      "collection": "records",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "curated-707501764987060265-flower-opening-wr",
+      "collection": "records",
+      "minDays": 0.04983407407407407,
+      "maxDays": 0.04983407407407407
+    },
+    {
+      "id": "curated-707513082787659797-flower-opening-wr",
+      "collection": "records",
+      "minDays": 0.059179351851851844,
+      "maxDays": 0.059179351851851844
+    },
+    {
+      "id": "curated-flower-2020-707541270129803285",
+      "collection": "records",
+      "minDays": 0.12483328703703703,
+      "maxDays": 0.12483328703703703
+    },
+    {
+      "id": "curated-flower-2020-707586508197986315",
+      "collection": "records",
+      "minDays": 0.010661412037037037,
+      "maxDays": 0.010661412037037037
+    },
+    {
+      "id": "curated-flower-2020-707590371764600893",
+      "collection": "records",
+      "minDays": 0.00019414351851851854,
+      "maxDays": 0.00019414351851851854
+    },
+    {
+      "id": "curated-flower-2020-707590442119725088",
+      "collection": "records",
+      "minDays": 0.004748159722222222,
+      "maxDays": 0.004748159722222222
+    },
+    {
+      "id": "curated-flower-2020-707592162795061319",
+      "collection": "records",
+      "minDays": 0.0038323495370370373,
+      "maxDays": 0.0038323495370370373
+    },
+    {
+      "id": "curated-flower-2020-707593551592030319",
+      "collection": "records",
+      "minDays": 0.007266458333333333,
+      "maxDays": 0.007266458333333333
+    },
+    {
+      "id": "curated-flower-2020-707596184868618250",
+      "collection": "records",
+      "minDays": 0.00800662037037037,
+      "maxDays": 0.00800662037037037
+    },
+    {
+      "id": "curated-flower-2020-707599086370422855",
+      "collection": "records",
+      "minDays": 1.841586076388889,
+      "maxDays": 1.841586076388889
+    },
+    {
+      "id": "curated-708266454818226246-verified",
+      "collection": "records",
+      "minDays": 1.4982080439814816,
+      "maxDays": 1.4982080439814816
+    },
+    {
+      "id": "curated-708706642484789308-verified",
+      "collection": "records",
+      "minDays": 0.2835214930555556,
+      "maxDays": 0.2835214930555556
+    },
+    {
+      "id": "curated-708809387233509406-verified",
+      "collection": "records",
+      "minDays": 0.8992337152777778,
+      "maxDays": 0.8992337152777778
+    },
+    {
+      "id": "896332670550818866",
+      "collection": "records",
+      "minDays": 9.40948204861111,
+      "maxDays": 9.40948204861111
+    },
+    {
+      "id": "sheet-BF10",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF11",
+      "collection": "submissions",
+      "minDays": 1.4982080439814816,
+      "maxDays": 1.4982080439814816
+    },
+    {
+      "id": "sheet-BF12",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF13",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF14",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF15",
+      "collection": "submissions",
+      "minDays": 9.40948204861111,
+      "maxDays": 9.40948204861111
+    },
+    {
+      "id": "sheet-BF16",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF17",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF19",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF20",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF21",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF22",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF23",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF24",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF25",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF26",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF27",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF28",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF29",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF30",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF31",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF32",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF33",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF34",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF35",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "sheet-BF36",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "curated-708266454818226246-verified",
+      "collection": "submissions",
+      "minDays": 1.4982080439814816,
+      "maxDays": 1.4982080439814816
+    },
+    {
+      "id": "curated-708706642484789308-verified",
+      "collection": "submissions",
+      "minDays": 0.2835214930555556,
+      "maxDays": 0.2835214930555556
+    },
+    {
+      "id": "curated-708809387233509406-verified",
+      "collection": "submissions",
+      "minDays": 0.8992337152777778,
+      "maxDays": 0.8992337152777778
+    },
+    {
+      "id": "curated-709135258620133467-verified",
+      "collection": "submissions",
+      "minDays": 9.40948204861111,
+      "maxDays": 9.40948204861111
+    },
+    {
+      "id": "curated-flower-2020-707541270129803285",
+      "collection": "submissions",
+      "minDays": 0.12483328703703703,
+      "maxDays": 0.12483328703703703
+    },
+    {
+      "id": "curated-flower-2020-707586508197986315",
+      "collection": "submissions",
+      "minDays": 0.010661412037037037,
+      "maxDays": 0.010661412037037037
+    },
+    {
+      "id": "curated-flower-2020-707590371764600893",
+      "collection": "submissions",
+      "minDays": 0.00019414351851851854,
+      "maxDays": 0.00019414351851851854
+    },
+    {
+      "id": "curated-flower-2020-707590442119725088",
+      "collection": "submissions",
+      "minDays": 0.004748159722222222,
+      "maxDays": 0.004748159722222222
+    },
+    {
+      "id": "curated-flower-2020-707592162795061319",
+      "collection": "submissions",
+      "minDays": 0.0038323495370370373,
+      "maxDays": 0.0038323495370370373
+    },
+    {
+      "id": "curated-flower-2020-707593551592030319",
+      "collection": "submissions",
+      "minDays": 0.007266458333333333,
+      "maxDays": 0.007266458333333333
+    },
+    {
+      "id": "curated-flower-2020-707596184868618250",
+      "collection": "submissions",
+      "minDays": 0.00800662037037037,
+      "maxDays": 0.00800662037037037
+    },
+    {
+      "id": "curated-flower-2020-707599086370422855",
+      "collection": "submissions",
+      "minDays": 1.841586076388889,
+      "maxDays": 1.841586076388889
+    },
+    {
+      "id": "curated-810619049138323456-verified-video-support",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "curated-707498245831655504-flower-opening-wr",
+      "collection": "submissions",
+      "minDays": 0.009711018518518518,
+      "maxDays": 0.009711018518518518
+    },
+    {
+      "id": "curated-707501764987060265-flower-opening-wr",
+      "collection": "submissions",
+      "minDays": 0.04983407407407407,
+      "maxDays": 0.04983407407407407
+    },
+    {
+      "id": "curated-707513082787659797-flower-opening-wr",
+      "collection": "submissions",
+      "minDays": 0.059179351851851844,
+      "maxDays": 0.059179351851851844
+    },
+    {
+      "id": "curated-707501764987060265-flower-previous-14217",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "curated-708660808644821072-flower2020-completed-video-reviewed",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "curated-708875280923754537-flower2020-completed-video-reviewed",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "curated-708009544885993503-flower2020-completed-video-reviewed",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    },
+    {
+      "id": "curated-806079639210557470-806079638878158878-february2021-support-reviewed",
+      "collection": "submissions",
+      "minDays": 0,
+      "maxDays": 0
+    }
+  ],
+  "undatedSupportingRowIds": [
+    "sheet-BF16",
+    "sheet-BF26",
+    "sheet-BF27",
+    "sheet-BF32",
+    "sheet-BF34",
+    "sheet-BF35"
+  ],
+  "datesAndDurationsNotChanged": true,
+  "historyComplete": false,
+  "wholeGoalComplete": false
+}

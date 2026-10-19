@@ -1,7 +1,7 @@
 {
   "tourId": "tour-17",
   "tour": "Flower Tour (2020)",
-  "status": "date-review-in-progress",
+  "status": "completed-with-documented-gaps",
   "standard": "User-authorized practical evidence standard: surviving completed-run proofs,129freshdiscussion-image dispositions,10additionalserverleads, prior server review, preserved source-index integrity and live publication checked. Unknown dates/identities and unavailable originals remain qualified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -41,7 +41,11 @@
     "artifacts/flower2020-tomegome-original-tweet-date-review-20261016.json",
     "artifacts/flower2020-ryu-whiplash-alias-and-two-source-dates-20261016.json",
     "artifacts/flower2020-hilton-account-filter-and-original-result-date-review-20261016.json",
-    "artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json"
+    "artifacts/flower2020-retort-curry-original-result-and-worksheet-discrepancy-20261016.json",
+    "artifacts/flower2020-fresh-source-clocks-and-duration-interval-audit-20261019.json",
+    "artifacts/flower2020-nine-original-videos-full-r2-hash-decode-and-range-review-20261019.json",
+    "artifacts/flower2020-33-proof-images-full-original-public-hash-and-decode-20261019.json",
+    "artifacts/flower2020-two-original-youtube-access-recheck-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/flower-2020-review-progress.json",
@@ -78,9 +82,10 @@
     "finalResultImagesVerified": 1,
     "openingDayPolicyPassed": true,
     "productionBuildPages": 891,
-    "openingWrGlobalLeaderCertified": false
+    "openingWrGlobalLeaderCertified": false,
+    "finalLiveReceiptURL": "https://media.mktwrs.com/assets/proof/flower2020-source-duration-and-nine-video-review-final-live-receipt-20261019.json"
   },
-  "nextTourId": "tour-17",
+  "nextTourId": "tour-18",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/flower2020-final-publication-audit-20261013.json",
@@ -143,12 +148,35 @@
     ],
     "knownAccountFilteredDateMatches": 1
   },
-  "nextDateDurationReviewTourId": "tour-17",
+  "nextDateDurationReviewTourId": "tour-18",
   "mediaLinkReview": {
     "evidence": "public/data/flower2020-preserved-media-link-review.json",
     "uniqueImages": 33,
     "uniqueVideos": 4,
     "allPreservedLinksPass": true
   },
-  "wrVideoPreservationReview": "public/data/wr-video-preservation-review.json"
+  "wrVideoPreservationReview": "public/data/wr-video-preservation-review.json",
+  "completedAt": "2026-10-19",
+  "latestDateDurationReviewAt": "2026-10-19",
+  "latestKnownSourceReview": {
+    "evidence": "artifacts/flower2020-fresh-source-clocks-and-duration-interval-audit-20261019.json",
+    "datedFlowerSourceRowsRevalidated": 56,
+    "allStoredCourseDurationBoundsIndependentlySummed": 63,
+    "sixUndatedSupportingRowsRetained": true,
+    "allSupportedPublicDatesAndDurationsUnchanged": true,
+    "knownCanonicalWRReviewComplete": true,
+    "allSupportingDatesResolved": false
+  },
+  "latestOriginalMediaReview": {
+    "evidence": "artifacts/flower2020-nine-original-videos-full-r2-hash-decode-and-range-review-20261019.json",
+    "completedFlowerVideosFullHashDecodeRangeAndSampledVisualReview": 4,
+    "partialFlowerClipsPreserved": 4,
+    "contextOnlyOtherCourseClipRetainedInternally": 1,
+    "newR2OriginalsPreserved": 5,
+    "proofImagesFullOriginalPublicHashAndDecodeVerified": 33,
+    "unavailableOriginalVideoIds": [
+      "prFoZGczIQQ",
+      "dr5V7AkLNJQ"
+    ]
+  }
 }
