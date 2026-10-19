@@ -2,8 +2,8 @@
   "tourId": "tour-61",
   "tour": "Singapore Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2022-01-12T06:00:00Z",
@@ -42,7 +42,14 @@
     "archive/singapore2022-all-original-video-upload-share-clocks-20261013.json",
     "archive/singapore2022-all-surviving-recordings-r2-preservation-20261013.json",
     "archive/singapore2022-final-publication-audit-20261013.json",
-    "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/singapore2022-final-known-source-date-duration-and13-video-review-20261019.json",
+    "artifacts/singapore2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/singapore2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/singapore2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/singapore2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/singapore2022-all13-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/singapore2022-all144-original-source-images-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/singapore-2022-reconciliation.json",
@@ -78,7 +85,8 @@
     "Seven completed original recordings, one alternate encode and five partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
     "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
-    "The original same-video Discord link is dated January 13, 2022; current YouTube metadata reports February 10, 2022. Both source clocks are retained; original upload chronology is not independently certified and the January 12 result-submission date remains unchanged."
+    "The original same-video Discord link is dated January 13, 2022; current YouTube metadata reports February 10, 2022. Both source clocks are retained; original upload chronology is not independently certified and the January 12 result-submission date remains unchanged.",
+    "42 of 44 current worksheet entries have supported named publication dates: 38 recovered and four retained. Romain 1:11.26 and Sucha 1:45.95 remain exact-total/date source gaps. 144 source images, including final boards, are preserved; one unrelated non-race warning image is excluded and its non-race disposition remains internal. All 13 stored videos passed full bytes, SHA256, decode and seeking checks: eight completed-run objects representing seven results, and five partial clips. Singapore\u2019s final 1:09.43 is preserved; Pinball\u2019s final 1:45.47 remains unavailable, with the slower 1:45.56 comparison retained. Late final-board publications remain eligible. Unsupported private race dates and original upload chronology remain qualified."
   ],
   "validation": {
     "liveSnapshotRows": 252,
@@ -123,5 +131,37 @@
     "laterReportedYouTubeUploadClockRetained": true,
     "originalUploadClockIndependentlyCertified": false,
     "historyComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/singapore2022-final-known-source-date-duration-and13-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/singapore2022-final-known-source-date-duration-and13-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 38,
+    "sourceRowsMatched": 42,
+    "sourceClockRowsVerified": 223,
+    "durationRowsVerified": 239,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "singapore-speedway",
+        "id": "sheet-ADX10",
+        "playerId": "romain",
+        "time": "1:11.26",
+        "reason": "No independently dated original exact result; final-board reconciliation does not safely establish this worksheet total."
+      },
+      {
+        "courseId": "ds-waluigi-pinball-r",
+        "id": "sheet-ADH9",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "time": "1:45.95",
+        "reason": "No independently dated original exact result; final-board reconciliation does not safely establish this worksheet total."
+      }
+    ],
+    "indexedSourceImageFiles": 144,
+    "totalPreservedSourceFiles": 144,
+    "distinctSourceHashes": 144,
+    "storedVideoObjects": 13,
+    "distinctStoredVideoHashes": 13,
+    "rawPublicationPatchesAdded": 51
   }
 }

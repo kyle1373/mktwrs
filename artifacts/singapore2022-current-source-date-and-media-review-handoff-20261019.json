@@ -1,0 +1,72 @@
+{
+  "tourId": "tour-61",
+  "preparedAt": "2026-10-19T21:29:32.805600+00:00",
+  "sourceCommit": "abedae4b4d55dbacd112e2c843877441a77480d2",
+  "priorTourCompletionReceiptURL": "https://media.mktwrs.com/assets/proof/penguin2021-final-known-source-date-duration-and11-video-review-live-receipt-20261019.json",
+  "newYear2022PriorReviewRetained": {
+    "sourceRowsRevalidated": 126,
+    "sourceFileHashesRevalidated": 3,
+    "dateIdentityOrTimeDifferences": [],
+    "review": "public/data/newyear2022-source-and-duration-review.json",
+    "noNewSourceInvestigationRequired": true
+  },
+  "courses": [
+    {
+      "courseId": "singapore-speedway",
+      "records": 22,
+      "submissions": 129,
+      "candidates": 0,
+      "worksheetPrefixes": [
+        "ADX",
+        "BAZ",
+        "BSF",
+        "CJL",
+        "DAR"
+      ],
+      "allAppearanceWorksheetRows": 52,
+      "allAppearanceUndatedWorksheetRows": 22,
+      "currentTourWorksheetPrefix": "ADX",
+      "currentTourWorksheetRows": 20,
+      "currentTourUndatedWorksheetRows": 17
+    },
+    {
+      "courseId": "ds-waluigi-pinball-r",
+      "records": 11,
+      "submissions": 77,
+      "candidates": 0,
+      "worksheetPrefixes": [
+        "ADH",
+        "CD"
+      ],
+      "allAppearanceWorksheetRows": 58,
+      "allAppearanceUndatedWorksheetRows": 32,
+      "currentTourWorksheetPrefix": "ADH",
+      "currentTourWorksheetRows": 24,
+      "currentTourUndatedWorksheetRows": 23
+    }
+  ],
+  "preservedSourceInputs": [
+    {
+      "path": "archive/singapore2022-preserved-submission-source-integrity-crosswalk-20261013.json",
+      "sha256": "f966e31fe223352918e22f3323ebaf2b04cf62c13b216db760298961ecb7f21d"
+    },
+    {
+      "path": "archive/singapore2022-discussion-image-integrity-index-20261013.json",
+      "sha256": "0ae708ceca773da0325591910d20677e2a3d5f279bee58e33fd098d21e1cff85"
+    },
+    {
+      "path": "archive/singapore-2022-reconciliation.json",
+      "sha256": "3c956d1b1e7fa476b44d02f0c69ca2ae0c04b2f6f1a259cdeaa1aec1108159bd"
+    },
+    {
+      "path": "archive/singapore2022-all-original-video-upload-share-clocks-20261013.json",
+      "sha256": "b4790282aa9aa0848fc1f2c0b561de112167077b2e414cbfc1a4b5e5ff72f7f5"
+    },
+    {
+      "path": "artifacts/singapore2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+      "sha256": "c51987f609a43f2376f588ba1dde1e3ee3132f26567a37a5eb6083525ea1db28"
+    }
+  ],
+  "nextAction": "Reuse preserved Singapore source dispositions and reconcile only current undated worksheet entries or concrete clock/duration discrepancies. Preserve original footage and publish this tour before moving on.",
+  "wholeGoalComplete": false
+}
