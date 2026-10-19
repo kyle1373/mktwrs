@@ -1,6 +1,6 @@
 {
   "tourId": "tour-20",
-  "datesNotYetApplied": true,
+  "datesNotYetApplied": false,
   "rows": [
     {
       "courseId": "n64-frappe-snowland-r",
@@ -330,8 +330,8 @@
       "freshVisualReviewComplete": true,
       "accepted": true,
       "resultField": "completed-result",
-      "publicationAfterTourEnded": true,
-      "dateQualification": "Original result report posted after tour reset. Use actual report date; no earlier race date inferred or extra WR credit.",
+      "publicationAfterTourEnded": false,
+      "dateQualification": "Original result posted on the tour’s final morning, before the 06:00 UTC reset. Use the July 1 submission date; no earlier race date inferred.",
       "preservedProof": {
         "originalFile": "archive/early-submission-images/727697719203987466.jpg",
         "url": "https://media.mktwrs.com/assets/proof/peach2020-worksheet-original-a2d4bcd6670eee8153a7.jpg",
@@ -1084,5 +1084,7 @@
   "checkedAt": "2026-10-19T06:12:32.885666+00:00",
   "acceptedWorksheetDateMatches": 37,
   "tourReviewComplete": false,
-  "livePublicationVerified": false
+  "livePublicationVerified": false,
+  "appliedInPublicationCommit": "748b1539a50d3259dd377d4ed5b7459acab08652",
+  "finalMorningQualificationReviewedAt": "2026-10-19"
 }

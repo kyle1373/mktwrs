@@ -2,7 +2,7 @@
   "tourId": "tour-20",
   "tour": "Peach Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -38,7 +38,10 @@
     "archive/peach2020-additional-completed-originals-r2-preservation-20261013.json",
     "archive/peach2020-two-final-result-image-integrity-review-20261013.json",
     "archive/peach2020-frappe-opening-day-policy-generation-check-20261013.json",
-    "archive/peach2020-rmx-opening-day-policy-generation-check-20261013.json"
+    "archive/peach2020-rmx-opening-day-policy-generation-check-20261013.json",
+    "artifacts/peach2020-final-known-source-date-duration-and-seven-video-review-20261019.json",
+    "artifacts/peach2020-final-sixteen-supporting-source-gap-dispositions-20261019.json",
+    "artifacts/peach2020-all-230-original-source-images-r2-preservation-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/peach2020-discussion-review-progress.json",
@@ -51,13 +54,17 @@
     "proofImageUrlsPassed": 57,
     "additionalCompletedRecordingsPreservedOnR2": 1,
     "discussionImageDispositions": 230,
-    "discussionImageHashesVerified": 230
+    "discussionImageHashesVerified": 230,
+    "additionalWorksheetDatesRecovered": 41,
+    "rawOriginalSourceImagesPreservedAndByteVerifiedOnR2": 230,
+    "tourOriginalVideosPreservedAndFullBytesDecodeRangeVerified": 7,
+    "remainingSupportingWorksheetSourceGaps": 16
   },
   "remainingLimitations": [
-    "Final Frappe 1:20.85 WR recording unavailable; Tomegome 1:21.05 completed footage shown separately.",
-    "Eight previous-best chronology questions remain unproven; no additional leaders or ties inferred.",
-    "230 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
-    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
+    "Known-source WR review is closed; exhaustive historical completeness remains unproven.",
+    "Sixteen supporting worksheet rows retain date or identity gaps, including six unverified 1:59.99 worksheet placeholders. No unsupported dates or new WR credit are assigned.",
+    "Kazuo’s final Frappe 1:20.85 has preserved image proof; the fastest verified Peach full recording is Tomegome’s 1:21.05.",
+    "Adrishi’s 1:21.76 is supported by the named original 40.97/40.79 report; the linked original screenshot returned HTTP 404 and remains a media gap."
   ],
   "validation": {
     "liveSnapshotRows": 296,
@@ -67,12 +74,22 @@
     "finalResultImagesIntegrityVerified": 2,
     "openingDayPolicyPassed": true,
     "productionBuildPages": 891,
-    "openingWrGlobalLeaderCertified": false
+    "openingWrGlobalLeaderCertified": false,
+    "sourcePublicationClocksReconciled": true,
+    "earlierOriginalVideoClockDurationCorrections": 4,
+    "tourClockRowsRetained": true,
+    "finalPublicationReceiptURL": "https://media.mktwrs.com/assets/proof/peach2020-final-known-source-date-duration-and-seven-video-review-live-receipt-20261019.json"
   },
   "nextTourId": "tour-21",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/peach2020-final-publication-audit-20261013.json",
-  "sourceDispositionAudit": "archive/peach2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "637d496d500df325d235babd023e38b2e2901b09"
+  "latestPublicationAudit": "artifacts/peach2020-final-known-source-date-duration-and-seven-video-review-20261019.json",
+  "sourceDispositionAudit": "artifacts/peach2020-final-sixteen-supporting-source-gap-dispositions-20261019.json",
+  "knownWRReviewComplete": true,
+  "allSupportingSourcesResolved": false,
+  "remainingUndatedSupportingWorksheetRows": 16,
+  "latestDateDurationReconciliation": "artifacts/peach2020-final-known-source-date-duration-and-seven-video-review-20261019.json",
+  "sourceGapDispositionAudit": "artifacts/peach2020-final-sixteen-supporting-source-gap-dispositions-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/peach2020-final-known-source-date-duration-and-seven-video-review-live-receipt-20261019.json",
+  "priorPublicationCommit": "637d496d500df325d235babd023e38b2e2901b09"
 }
