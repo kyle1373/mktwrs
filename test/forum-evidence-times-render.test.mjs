@@ -71,3 +71,15 @@ test('Nova forum edit crosses UTC midnight while the earlier documentary date re
  assert.match(html,/Historical edit contents remain unconfirmed/);
  assert.doesNotMatch(html,/Submitted:/);
 });
+
+test('Dark original image-post clocks render separately from its earlier capture minute',()=>{
+ const r=routeData(['course','gcn-dino-dino-jungle']).data.records.find(r=>r.id==='curated-639823450353041419-verified');
+ assert.equal(r.screenshotSourceTimes.length,2);
+ const html=render(r);
+ assert.match(html,/Result image posted:/);
+ assert.match(html,/2019-10-31 20:01:22 UTC/);
+ assert.match(html,/2019-11-01 13:49:57 UTC/);
+ assert.match(html,/639554529364410391/);
+ assert.match(html,/639823450353041419/);
+ assert.doesNotMatch(html,/Submitted:|Runner result/);
+});

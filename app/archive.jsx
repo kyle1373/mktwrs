@@ -41,7 +41,7 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.correctedReceiptAt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.recoveredSourcePost) return null;
+  if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.correctedReceiptAt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.screenshotSourceTimes?.length && !r.recoveredSourcePost) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
     {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Source posting date used as the submission date. This retrospective post attributes the result to {r.tourDateRange ? `${r.tourDateRange.start} – ${r.tourDateRange.end}` : "the earlier tour"}.</div></div>}
@@ -54,6 +54,10 @@ function EvidenceTimes({ r }) {
       {source.forumTimezoneKnown !== true && " (timezone unknown)"}
       {source.forumLastEditDisplayed && <div>Last forum edit: {source.forumLastEditUTC ? format(source.forumLastEditUTC) : source.forumLastEditDisplayed}{source.forumTimezoneKnown !== true && " (timezone unknown)"}</div>}
       <div>Dates follow the surviving posts. Historical edit contents remain unconfirmed.</div>
+    </div>)}
+
+    {(r.screenshotSourceTimes || []).map(source => <div key={source.url + "|" + source.postedAt}>
+      Result image posted: <a href={source.url} target="_blank" rel="noopener noreferrer">{format(source.postedAt)}</a>
     </div>)}
 
     {(r.sourceReportTimes || []).map(source => <div key={source.url}>
