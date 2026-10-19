@@ -2,8 +2,8 @@
   "tourId": "tour-62",
   "tour": "Wario vs. Waluigi Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with supported submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2022-01-26T06:00:00Z",
@@ -40,7 +40,16 @@
     "archive/wariowaluigi2022-discussion-image-integrity-index-20261013.json",
     "archive/wariowaluigi2022-source-build-recording-render-check-20261013.json",
     "archive/wariowaluigi2022-final-publication-audit-20261013.json",
-    "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json"
+    "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
+    "artifacts/wariowaluigi2022-final-known-source-date-duration-and9-video-review-20261019.json",
+    "artifacts/wariowaluigi2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/wariowaluigi2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/wariowaluigi2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/wariowaluigi2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/wariowaluigi2022-all9-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/wariowaluigi2022-all105-original-source-images-r2-preservation-20261019.json",
+    "artifacts/wariowaluigi2022-two-final-boards-literal-result-review-20261019.json",
+    "artifacts/wariowaluigi2022-isun-original-social-media-recovery-check-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/wario-waluigi-2022-reconciliation.json",
@@ -74,7 +83,8 @@
     "Three completed original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
     "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
-    "Nu11 original video-share clock remains unresolved; the February10 upload and January27 result submission are separate events."
+    "Nu11 original video-share clock remains unresolved; the February10 upload and January27 result submission are separate events.",
+    "Current date/duration review: all36 current worksheet totals have named dated evidence, with32 newly dated and four earlier dates retained. Both final boards were literally read from preserved files. Kirio\u2019s earlier original repost is used; late submissions remain eligible. All105 indexed/supplementary image files (104 distinct hashes) passed public full-byte and image-decode checks; two processed partial-lap context images are retained without claiming historical original-upload byte identity. All9 stored video files passed full bytes, SHA256, decode and206seeking checks: three completed runs and six partial clips. Both final WR recordings are preserved. Isun\u2019s original social post yielded no downloadable video; preserved caption and board retain the named1:16.93 report. No universal original-footage availability or private achievement dates are claimed."
   ],
   "validation": {
     "liveSnapshotRows": 279,
@@ -91,7 +101,7 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "sourceCommit": "8c56503249f556af547d9d2e1d182271f3305371",
-  "latestPublicationAudit": "archive/wariowaluigi2022-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/wariowaluigi2022-final-known-source-date-duration-and9-video-review-20261019.json",
   "videoPreservationReview": {
     "checkedAt": "2026-10-17T06:35:59.220Z",
     "audit": "artifacts/wariowaluigi2022-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
@@ -114,5 +124,22 @@
     "canonicalRecordedResultsWithSourceDateAndDurationChecks": 2,
     "previousBestDateGapsRemain": true,
     "historyComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/wariowaluigi2022-final-known-source-date-duration-and9-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/wariowaluigi2022-final-known-source-date-duration-and9-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 32,
+    "sourceRowsMatched": 36,
+    "sourceClockRowsVerified": 261,
+    "durationRowsVerified": 279,
+    "wrDurationClockCorrections": [],
+    "remainingUndatedSupportingRows": [],
+    "indexedSourceImageFiles": 105,
+    "totalPreservedSourceFiles": 105,
+    "distinctSourceHashes": 104,
+    "storedVideoObjects": 9,
+    "distinctStoredVideoHashes": 9,
+    "rawPublicationPatchesAdded": 38
   }
 }
