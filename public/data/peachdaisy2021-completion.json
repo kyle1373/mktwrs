@@ -2,7 +2,7 @@
   "tourId": "tour-37",
   "tour": "Peach vs. Daisy Tour",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -99,19 +99,88 @@
   "nextTourId": "tour-38",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/peachdaisy2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/peachdaisy2021-final-known-source-date-duration-and16-video-review-20261019.json",
   "sourceDispositionAudit": "archive/peachdaisy2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "84dbe9da4b3b88d8067959bb86fe9af7c10497b2",
   "videoPreservationReview": {
-    "checkedAt": "2026-10-17T03:52:27.876660+00:00",
-    "audit": "artifacts/peachdaisy2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-    "uniqueR2ObjectsVerified": 16,
-    "uniqueContentHashesVerified": 15,
-    "newOriginalUploads": 0,
-    "canonicalVideoKeysWithR2": 2,
-    "canonicalVideoKeysWithUnresolvedRecovery": 2,
-    "allPublicFileBytesMatchLocalSha256": true,
-    "youtubeUploadsPerformed": 0,
-    "exhaustiveVideoPreservationComplete": false
-  }
+    "audit": "artifacts/peachdaisy2021-all16-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "storedObjects": 16,
+    "uniqueContentHashes": 15,
+    "allFullPublicBytesDecodeAndRangeVerified": true,
+    "originalAudioRetainedForSunsetFinal": true,
+    "unresolvedOriginalSources": [
+      {
+        "key": "x:1362108231267610625",
+        "time": "1:18.27",
+        "playerId": "kazuo",
+        "status": "source-returned-no-downloadable-video-recovery-unresolved",
+        "sourceCheck": "yt-dlp: No video could be found in this tweet",
+        "alternativeRecoveryProvenExhaustive": false
+      },
+      {
+        "key": "youtube:srl6irmBbV4",
+        "time": "1:00.73",
+        "playerId": "nu11",
+        "status": "original-unavailable-no-r2-backup",
+        "sourceCheck": "yt-dlp with explicit Node runtime: This video is unavailable",
+        "alternativeRecoveryProvenExhaustive": false
+      }
+    ],
+    "originalRecoveryCheckDate": "2026-10-17",
+    "allReferencedOriginalVideosArchived": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/peachdaisy2021-final-known-source-date-duration-and16-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "audit": "artifacts/peachdaisy2021-final-known-source-date-duration-and16-video-review-20261019.json",
+    "sourceClockAudit": "artifacts/peachdaisy2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 95,
+    "sourceRowsMatched": 101,
+    "remainingSupportingSourceGaps": 49,
+    "remainingActualWorksheetResultGaps": 17,
+    "remainingWorksheetPlaceholders": 32,
+    "allWRDatesAndDurationsUnchanged": true,
+    "currentTourExactSourceClockMismatches": 0,
+    "lateSubmissionsIncluded": [
+      {
+        "id": "sheet-MY66",
+        "timestamp": "2021-02-24T09:10:51.430Z"
+      },
+      {
+        "id": "sheet-MY67",
+        "timestamp": "2021-02-24T07:20:49.873Z"
+      }
+    ],
+    "runnerReportedEarlierDateRetained": true
+  },
+  "sourceImagePreservationReview": {
+    "audit": "artifacts/peachdaisy2021-all305-original-source-images-r2-preservation-20261019.json",
+    "originalSourceImages": 305,
+    "allFullPublicBytesAndDecodeVerified": true
+  },
+  "unavailableChoco11787OriginalProofReview": {
+    "tourId": "tour-37",
+    "recordId": "896333812240355370",
+    "courseId": "n64-choco-mountain-r",
+    "playerId": "nu11",
+    "time": "1:17.87",
+    "checks": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/785125909446262814/814905995628642386/unknown.png",
+        "status": 404
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Eu-UQd2UYAUhImN.jpg:large",
+        "status": 404
+      }
+    ],
+    "preservedOriginalImageLocated": false,
+    "permanentLossClaimed": false,
+    "originalURLsRetainedInternally": true,
+    "publicProofLinkUsesDocumentedSource": true,
+    "noUnrelatedResultImageSubstituted": true,
+    "knownWRDateAndDurationUnchanged": true
+  },
+  "unavailableOriginalImageAudit": "artifacts/peachdaisy2021-choco11787-original-image-retrieval-check-20261019.json"
 }
