@@ -2,8 +2,8 @@
   "tourId": "tour-24",
   "tour": "Pirate Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Practical surviving-source review: original result images freshly compared; named contemporary reports reconcile supporting dates; exact source clocks and playable duration sums verified; originals preserved on R2.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-08-12T06:00:00Z",
@@ -42,7 +42,12 @@
     "archive/pirate2020-two-additional-completed-originals-r2-preservation-20261013.json",
     "archive/pirate2020-two-final-result-image-integrity-review-20261013.json",
     "archive/pirate2020-bowser-opening-day-policy-generation-check-20261013.json",
-    "archive/pirate2020-mario-opening-day-policy-generation-check-20261013.json"
+    "archive/pirate2020-mario-opening-day-policy-generation-check-20261013.json",
+    "artifacts/pirate2020-all321-original-source-images-r2-preservation-20261019.json",
+    "artifacts/pirate2020-reviewed-original-source-dates-and7-video-reconciliation-20261019.json",
+    "artifacts/pirate2020-final-source-clock-and-duration-audit-20261019.json",
+    "artifacts/pirate2020-final16-supporting-source-gap-dispositions-20261019.json",
+    "artifacts/pirate2020-seven-original-movies-current-access-review-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/pirate2020-discussion-review-progress.json",
@@ -56,13 +61,18 @@
     "additionalCompletedRecordingsPreservedOnR2": 2,
     "partialClipsPreservedOnR2": 1,
     "discussionImageDispositions": 321,
-    "discussionImageHashesVerified": 321
+    "discussionImageHashesVerified": 321,
+    "allOriginalSourceImagesPreservedOnR2": 321,
+    "originalVideosFullBytesDecodedAndRangeVerified": 7,
+    "fullRunOriginalVideos": 5,
+    "partialStrategyOriginalVideos": 2
   },
   "remainingLimitations": [
     "Final Bowser Castle 1R 1:00.29 and Mario Circuit 1 0:41.94 WR recordings unrecovered; Tomegome 1:00.31 and Wins 0:42.12 completed footage shown separately. Phillish 21.19 lap clip is partial.",
     "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
     "321 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
-    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
+    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.",
+    "16 supporting worksheet rows retained as source/identity gaps, including10 placeholders.92 matched sources recover90 dates and correct2source clocks. Private or unavailable originals remain unrecovered; no exhaustive history certification."
   ],
   "validation": {
     "liveSnapshotRows": 217,
@@ -77,7 +87,14 @@
   "nextTourId": "tour-25",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/pirate2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/pirate2020-final-known-source-date-duration-and7-video-review-20261019.json",
   "sourceDispositionAudit": "archive/pirate2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "ab2745caf9b66b37d92fe33b839f39c77db95af2"
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 90,
+  "remainingSupportingSourceGaps": 16,
+  "allSupportingSourcesResolved": false,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/pirate2020-final-known-source-date-duration-and7-video-review-live-receipt-20261019.json",
+  "latestSourceClockAndDurationAudit": "artifacts/pirate2020-final-source-clock-and-duration-audit-20261019.json",
+  "wholeGoalComplete": false,
+  "priorPublicationCommit": "ab2745caf9b66b37d92fe33b839f39c77db95af2"
 }
