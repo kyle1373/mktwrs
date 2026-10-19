@@ -1,0 +1,37 @@
+
+> mktwrs@0.1.0 build
+> node scripts/validate-published-archive.mjs && next build
+
+Reviewed archive validated: 142 courses, 1846 WR entries; publication does not regenerate source data.
+▲ Next.js 16.3.7 (Turbopack)
+✓ Running next.config.mjs took 9ms
+- Experiments (use with caution):
+  ⨯ turbopackFileSystemCacheForBuild
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1843ms
+  Running TypeScript ...
+  Finished TypeScript in 1ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/891) ...
+  Generating static pages using 7 workers (222/891)
+  Generating static pages using 7 workers (445/891)
+  Generating static pages using 7 workers (668/891)
+✓ Generating static pages using 7 workers (891/891) in 16.8s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[[...slug]]
+│ ├ ● /
+│ ├ ● /players
+│ ├ ● /rankings
+│ └ ● [+883 more paths]
+├ ƒ /health
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
