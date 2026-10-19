@@ -2,10 +2,10 @@
   "tourId": "tour-11",
   "tour": "Vancouver Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
-  "sourceCommit": "dd6ddac2a2b34b28321ac76f50306b19c3074a58",
+  "sourceCommit": "fe6c75e9ebf92ee7681b5e0dee135fabf34243fc",
   "window": {
     "start": "2020-02-12T06:00:00Z",
     "endExclusive": "2020-02-26T06:00:00Z"
@@ -69,11 +69,83 @@
     "freshSelectedRecordingReviews": 1,
     "finalResultImagesVerified": 1,
     "finalRunnerSummaryTextVerified": 0,
-    "openingWrGlobalLeaderCertified": false
+    "openingWrGlobalLeaderCertified": false,
+    "focusedClockAndPreservationTests": 8
   },
   "nextTourId": "tour-12",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/vancouver2020-final-publication-audit-20261013.json",
-  "sourceDispositionAudit": "archive/vancouver2020-final-choco-image-and-source-crosswalk-20261013.json"
+  "sourceDispositionAudit": "archive/vancouver2020-final-choco-image-and-source-crosswalk-20261013.json",
+  "latestDateDurationReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/vancouver2020-original-source-clock-and-duration-reconciliation-20261019.json",
+    "canonicalWRPostClocksReviewed": 2,
+    "originalSourceClockRowsRestored": 6,
+    "affectedDurationRowsIndependentlySummed": 4,
+    "knownPostingRowsWithSingleDateAndNumericDurationChecked": 46,
+    "undatedUnassignedWorksheetRowsRetained": 67,
+    "retrospectiveRainbowAnnouncementDateReviewed": true,
+    "originalRainbowRaceDateGapRetained": true,
+    "privateRaceClocksNotInvented": true
+  },
+  "currentVideoReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/vancouver2020-one-race-and-two-partial-videos-full-r2-hash-and-decode-verification-20261019.json",
+    "filesFullPublicHashAndDecodeVerified": 3,
+    "completeRainbowRecording": "1:04.72",
+    "finalRainbowWR": "0:59.94",
+    "partialChocoClips": [
+      {
+        "tourId": "tour-11",
+        "courseId": "snes-choco-island-2r",
+        "sourcePostId": "1231458689690693633",
+        "url": "https://media.mktwrs.com/assets/video/vancouver2020-choco-2r-tomegome-partial-b99b19d1aecf.mp4",
+        "originalUrl": "https://x.com/tomegome_g/status/1231458689690693633",
+        "sha256": "b99b19d1aecf824e6a1eb17d35e7a7f9d264492c32e59ba6a048550a514f331a",
+        "bytes": 5974289,
+        "credit": "Tomegome",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "videoScope": "partial-first-lap-footage",
+        "completedTotal": null,
+        "priorReviewArtifact": "archive/vancouver2020-two-partial-choco-clips-r2-and-visual-review-20261013.json",
+        "originalPublishedAt": "2020-02-23T06:00:05.675Z",
+        "reviewArtifact": "artifacts/vancouver2020-one-race-and-two-partial-videos-full-r2-hash-and-decode-verification-20261019.json"
+      },
+      {
+        "tourId": "tour-11",
+        "courseId": "snes-choco-island-2r",
+        "sourcePostId": "1232457642271838208",
+        "url": "https://media.mktwrs.com/assets/video/vancouver2020-choco-2r-astre-partial-47725a5f842c.mp4",
+        "originalUrl": "https://x.com/Astre_HD/status/1232457642271838208",
+        "sha256": "47725a5f842cf6aa5ce274145a21d2cb06994a4392f509a86533f127e17aa611",
+        "bytes": 4711860,
+        "credit": "Astre",
+        "kind": "r2-preserved-original",
+        "status": "available",
+        "videoScope": "partial-first-lap-footage",
+        "completedTotal": null,
+        "priorReviewArtifact": "archive/vancouver2020-two-partial-choco-clips-r2-and-visual-review-20261013.json",
+        "originalPublishedAt": "2020-02-26T00:09:34.530Z",
+        "reviewArtifact": "artifacts/vancouver2020-one-race-and-two-partial-videos-full-r2-hash-and-decode-verification-20261019.json"
+      }
+    ],
+    "partialClipsNotMappedToCompletedTimes": true,
+    "backupIndexMissingFragmentEntriesAdded": 2,
+    "uncutContinuityNotFreshlyCertified": true
+  },
+  "latestOriginalResultImageReview": {
+    "artifact": "artifacts/vancouver2020-original-final-proofs-recheck-and-preservation-20261019.json",
+    "choco04955RawOriginalPreserved": {
+      "url": "https://media.mktwrs.com/assets/proof/vancouver2020-astre-choco-island-2r-04955-original-6882062d7151.jpg",
+      "sourceURL": "https://x.com/Astre_HD/status/1232443621816688640",
+      "sha256": "6882062d71510f4025a31af5ab8c9decd5907dd9a49423f8509c88f5dae3e159",
+      "bytes": 97619,
+      "visualTotal": "0:49.55",
+      "previousBest": "0:49.65",
+      "reviewArtifact": "artifacts/vancouver2020-original-final-proofs-recheck-and-preservation-20261019.json"
+    },
+    "rainbowOriginalProofFreshHTTPStatus": 404
+  }
 }
