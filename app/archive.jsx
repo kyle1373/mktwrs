@@ -36,77 +36,6 @@ function Duration({ r }) {
     {r.durationDays == null ? "—" : format(r.durationDays)}
   </span>;
 }
-function EvidenceTimes({ r }) {
-  const format = value => value ? value.replace("T", " ").replace(/(?:\.\d+)?(?:Z|\+00:00)$/, " UTC") : null;
-  const shares = [...(r.videoShareEvents || [])];
-  if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
-    shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.correctedReceiptAt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.screenshotSourceTimes?.length && !r.recoveredSourcePost && !r.originalWorksheetProofUpload && !r.originalResultImageClock) return null;
-  return <details className="evidence-times">
-    <summary>Submission, report and video times</summary>
-    {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Source posting date used as the submission date. This retrospective post attributes the result to {r.tourDateRange ? `${r.tourDateRange.start} – ${r.tourDateRange.end}` : "the earlier tour"}.</div></div>}
-    {r.submittedAt && <div>{r.submissionClockIsReport ? "Original result post: " : "Submitted: "}{format(r.submittedAt)}</div>}
-    {r.correctedReceiptAt && <div>Corrected submission receipt: {format(r.correctedReceiptAt)}</div>}
-    {r.proofUploadedAt && <div>Evidence file uploaded: {format(r.proofUploadedAt)}</div>}
-    {(r.forumSourceTimes || []).map(source => <div key={source.url}>
-      Forum report: <a href={source.url} target="_blank" rel="noopener noreferrer">{source.forumPostedAtUTC ? format(source.forumPostedAtUTC) : source.forumPostedAtDisplayed}</a>
-      {source.forumPostedAtUTC && <div>Original forum display: {source.forumPostedAtDisplayed} (UTC{source.forumTimezoneOffset})</div>}
-      {source.forumTimezoneKnown !== true && " (timezone unknown)"}
-      {source.forumLastEditDisplayed && <div>Last forum edit: {source.forumLastEditUTC ? format(source.forumLastEditUTC) : source.forumLastEditDisplayed}{source.forumTimezoneKnown !== true && " (timezone unknown)"}</div>}
-      <div>Dates follow the surviving posts. Historical edit contents remain unconfirmed.</div>
-    </div>)}
-
-    {r.forumPostingDatePolicy && <div>Original forum report posting clock used as the submission date; exact race time and earlier video publication time remain unconfirmed.</div>}
-
-    {r.originalWorksheetProofUpload && <div>
-      Original worksheet proof uploaded: <a href={r.originalWorksheetProofUpload.reviewURL} target="_blank" rel="noopener noreferrer">{format(r.originalWorksheetProofUpload.uploadedAt)}</a>
-      <div>Date follows this original proof upload.</div>
-    </div>}
-    {r.originalResultImageClock && <div>
-      Result image clock: {r.originalResultImageClock.localMinute.replace("T", " ")}{r.originalResultImageClock.timezoneEstablished !== true && " (time zone unconfirmed)"}
-    </div>}
-
-    {(r.screenshotSourceTimes || []).map(source => <div key={source.url + "|" + source.postedAt}>
-      Result image posted: <a href={source.url} target="_blank" rel="noopener noreferrer">{format(source.postedAt)}</a>
-    </div>)}
-
-    {(r.sourceReportTimes || []).map(source => <div key={source.url}>
-      Discord report: <a href={source.url} target="_blank" rel="noopener noreferrer">{format(source.postedAt)}</a>
-      <div>Source posting date used as the submission date unless other evidence establishes a different date.</div>
-      {source.kind === "archived-cup-menu-image-post" && <div>Cup-menu result retained from prior image review; image contents have not been freshly verified. The poster does not establish the runner's identity.</div>}
-    </div>)}
-    {(r.resultReportTimes || []).map(report => <div key={report.url + "|" + report.reportedAt}>
-      {report.imageReport ? "Runner result image posted: " : report.originalRunnerSubmission ? "Runner result report: " : "Third-party result report: "}
-      <a href={report.url} target="_blank" rel="noopener noreferrer">{format(report.reportedAt)}</a>
-      {report.imageReport && report.writtenTotalExplicit === false && <div>The caption does not state the exact total; this post is linked to the archived result image.</div>}
-      <div>{r.forumPostingDatePolicy ? "Later report retained separately from the original forum posting date." : "Posting date used as the submission date."}</div>
-    </div>)}
-    {r.recoveredSourcePost && <div>
-      Original source posted: <a href={r.recoveredSourcePost.url} target="_blank" rel="noopener noreferrer">{format(r.recoveredSourcePost.postedAt)}</a>
-      <div>Post metadata recovered; image contents and result total remain unverified. Posting metadata supplies the default submission date; it does not verify the result.</div>
-    </div>}
-    {r.earlierSubmissionReceipt?.publishedAt && <div>Earlier submission receipt: <a href={r.earlierSubmissionReceipt.url} target="_blank" rel="noopener noreferrer">{format(r.earlierSubmissionReceipt.publishedAt)}</a>{r.earlierSubmissionReceipt.originalHumanMessageUnavailableInLiveWindow && <div>Original human submission time remains unverified.</div>}</div>}
-    {r.videoSubmittedAt && r.videoSubmittedAt !== r.submittedAt && <div>Video submitted: {r.videoSubmissionSource?.url ? <a href={r.videoSubmissionSource.url} target="_blank" rel="noopener noreferrer">{format(r.videoSubmittedAt)}</a> : format(r.videoSubmittedAt)}</div>}
-    {r.videoPublishedAt && <div>Video published: {format(r.videoPublishedAt)}</div>}
-    {r.videoRediscoveredAt && <div>Video rediscovered: {format(r.videoRediscoveredAt)}</div>}
-    {shares.map((event, index) => <div key={event.source?.url || index}>
-      Video shared: {event.source?.url ? <a href={event.source.url} target="_blank" rel="noopener noreferrer">{format(event.sharedAt)}</a> : format(event.sharedAt)}
-    </div>)}
-  </details>;
-}
-function SplitSourceNote({ r }) {
-  const review = r?.lapSourceDiscrepancyReview;
-  if (!review) return null;
-  const sheet = review.sheetLapOne || review.documentaryLapOne;
-  const other = review.originalPlayerForumLapOne || review.priorVideoOverlayLapOne;
-  if (!sheet || !other || sheet === other) return null;
-  const label = review.originalPlayerForumLapOne ? "Player report" : "Prior video review";
-  return <details className="evidence-times">
-    <summary>Split sources differ</summary>
-    <p className="table-note">First lap: WR-history sheet {sheet}; {label.toLowerCase()} {other}. Displayed splits retain the existing source choice.</p>
-    {review.source?.url && <p><a href={review.source.url} target="_blank" rel="noopener noreferrer">Player report</a></p>}
-  </details>;
-}
 function Time({ record: r }) {
   const photoReference = r?.videoReferenceReview?.kind === "archived-original-result-photo-post";
   const preserved = r?.videoAvailability === "unavailable" && r?.videoBackup?.status === "available" ? r.videoBackup.url : null;
@@ -339,7 +268,7 @@ function RecordTable({ records, players, events = [], showCourse = false, clean 
                     )}
                     <td>
                       <Time record={r} />
-                      <EvidenceTimes r={r} />
+
                     </td>
                     <td>
                       <Player id={r.playerId} players={players} />
@@ -551,7 +480,7 @@ function FastestVideo({ course: c, players }) {
           ? `Recovered video (${r.videoBackup.channel})`
           : r.videoBackup.kind?.startsWith("r2-") ? "Preserved video" : `Backup video (${r.videoBackup.channel || "SuperFX64"} · ${r.videoBackup.visibility || "unlisted"})`}</a></>}
       </p>
-      <EvidenceTimes r={r} />
+
       {r.recordingContinuityPending ? <p className="table-note">The prior review identifies the result, but uninterrupted start-to-finish race coverage still needs verification. This selection is provisional.</p> : !r.isCurrent && <p className="table-note">This footage shows the listed time; its WR status is shown separately.</p>}
     </> : <p className="table-note">No available video has been verified for this course yet.</p>}
   </section>;
@@ -564,49 +493,49 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
     {wr && <p>Archived tour WR: <strong>{wr.time}</strong> · <Player id={wr.playerId} players={players} /></p>}
     {(comparison.worldRecordTies || []).filter(tie => tie.id !== wr?.id).map(tie => <div key={tie.id}>
       <p>Archived tour WR tie: <strong>{tie.time}</strong> · <Player id={tie.playerId} players={players} />{tie.proofImageLocal && <> · <a href={tie.proofImageLocal} target="_blank" rel="noopener noreferrer">Image proof</a></>}</p>
-      <EvidenceTimes r={tie} />
+
     </div>)}
     {comparison.dateBoundaryNote && <p className="table-note">{comparison.dateBoundaryNote}</p>}
     {comparison.documentedRecording && comparison.documentedRecording.timeCs !== r?.timeCs && <>
       <p>Fastest documented available recording: <strong>{comparison.documentedRecording.time}</strong> · <Player id={comparison.documentedRecording.playerId} players={players} /> · <a href={comparison.documentedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.documentedRecording.videoBackup?.url && <> · <a href={comparison.documentedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The prior review identifies the result. Uninterrupted race coverage has not been freshly certified.</p>
-      <EvidenceTimes r={comparison.documentedRecording} />
+
     </>}
     {r ? <>
       <p>{r.recordingContinuityPending ? "Selected recording from prior review: " : "Fastest full-race recording in the reviewed evidence: "}<strong>{r.time}</strong> · <Player id={r.playerId} players={players} /></p>
       {r.recordingContinuityPending && <p className="table-note">The prior review identifies the result, but uninterrupted start-to-finish race coverage still needs verification. This selection is provisional.</p>}
       <p className="video-links">{r.video && <a href={r.video} target="_blank" rel="noopener noreferrer">Original video</a>}{r.videoBackup?.url && <> · <a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
-      <EvidenceTimes r={r} />
+
     </> : <p>No recording has an explicit full-race continuity certification in this archive.</p>}
     {comparison.reportedRecording && <>
       <p>{comparison.reportedRecordingLabel || "Available recording, using the uploader’s stated time: "}<strong>{comparison.reportedRecording.time}</strong> · <Player id={comparison.reportedRecording.playerId} players={players} /> · <a href={comparison.reportedRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.reportedRecording.videoBackup?.url && <> · <a href={comparison.reportedRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Backup video</a></>}</p>
       <p className="table-note">{comparison.reportedRecording.evidenceNote}</p>
-      <EvidenceTimes r={comparison.reportedRecording} />
+
     </>}
     {comparison.referenceRecording && <>
       <p>{comparison.referenceRecordingLabel || "Unavailable recording reference: "}<strong>{comparison.referenceRecording.time}</strong> · <Player id={comparison.referenceRecording.playerId} players={players} /> · <a href={comparison.referenceRecording.video || comparison.referenceRecording.videoReference} target="_blank" rel="noopener noreferrer">Original reference</a></p>
       <p className="table-note">{comparison.referenceRecording.evidenceNote}</p>
-      <EvidenceTimes r={comparison.referenceRecording} />
+
     </>}
     {[comparison.strategyReference, ...(comparison.strategyReferences || [])].filter(Boolean).map(ref => <div key={ref.video}>
       <p>{ref.referenceLabel || "Technique reference"} · <Player id={ref.playerId} players={players} /> · <a href={ref.video} target="_blank" rel="noopener noreferrer">Original source</a> · <a href={ref.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
       <p className="table-note">{ref.evidenceNote || "Technique footage is preserved separately and does not establish a completed record."}</p>
-      <EvidenceTimes r={ref} />
+
     </div>)}
     {[comparison.lapDemonstration, ...(comparison.lapDemonstrations || [])].filter(Boolean).map(lap => <div key={lap.video}>
       <p>Single-lap demonstration: <strong>{lap.time}</strong> · <Player id={lap.playerId} players={players} /> · <a href={lap.video} target="_blank" rel="noopener noreferrer">Original video</a> · <a href={lap.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></p>
       <p className="table-note">The uploader identifies one lap; this clip does not establish a whole-race time.</p>
-      <EvidenceTimes r={lap} />
+
     </div>)}
     {(comparison.sourceImages || []).map(image => <div key={image.url}>
       <p>Discussion screenshot · <Player id={image.playerId} players={players} /> · <a href={image.url} target="_blank" rel="noopener noreferrer">{image.preservedImageLabel || "Preserved original image"}</a> · <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Original post</a></p>
       <p className="table-note">{image.note}</p>
-      <EvidenceTimes r={{submittedAt: image.postedAt}} />
+
     </div>)}
     {comparison.lateStartRecording && <>
       <p>Available recording starts late: <strong>{comparison.lateStartRecording.time}</strong> · <Player id={comparison.lateStartRecording.playerId} players={players} /> · <a href={comparison.lateStartRecording.video} target="_blank" rel="noopener noreferrer">Original video</a>{comparison.lateStartRecording.videoBackup?.url && <> · <a href={comparison.lateStartRecording.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></>}</p>
       <p className="table-note">The finish and result are visible; the beginning of the race is missing.</p>
-      <EvidenceTimes r={comparison.lateStartRecording} />
+
     </>}
     {!!comparison.pendingRecordings?.length && <details className="sources">
       <summary>{r || comparison.documentedRecording ? "Faster video references awaiting verification" : "Video references awaiting verification"} ({comparison.pendingRecordings.length})</summary>
@@ -615,7 +544,7 @@ function HalloweenRecording({ comparison, players, tourLabel = "Halloween Tour (
         <p><strong>{candidate.time}</strong> · <Player id={candidate.playerId} players={players} /> · <a href={candidate.video || candidate.videoReference} target="_blank" rel="noopener noreferrer">Original video reference</a></p>
         {candidate.videoResultConflict && <p className="table-note">Unresolved video result: original post says {candidate.videoResultConflict.documentedTime}; automated reads of the linked video suggest {candidate.videoResultConflict.machineReadTime}. The video result still needs visual verification. The documented time is retained.</p>}
         {candidate.videoAvailability === "unavailable" && <p className="table-note">Original video currently unavailable; reference preserved.</p>}
-        <EvidenceTimes r={candidate} />
+
       </div>)}
     </details>}
     <p className="table-note">{completed ? "Practical tour review completed with documented gaps. " : "Tour review in progress. "}Unverified video references remain preserved in supporting results; recording continuity and unavailable originals retain their stated limitations.</p>
@@ -634,7 +563,7 @@ function HalloweenSupportingResults({ results, players }) {
         <td>{r.achievedAt ? date(r.achievedAt) : "Unknown; set during Halloween Tour"}{r.dateSourceDiscrepancyReview && <p className="table-note">Sheet day differs from reviewed WR-history day: <a href={r.dateSourceDiscrepancyReview.source.url} target="_blank" rel="noopener noreferrer">{r.dateSourceDiscrepancyReview.reviewedWrHistoryDay}</a>. Exact race time remains unconfirmed.</p>}</td>
         <td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}
           {(r.additionalSourceLinks || []).map(s => <div key={s.url}><a href={s.url} target="_blank" rel="noopener noreferrer">Additional source</a></div>)}
-          <EvidenceTimes r={r} />
+
         </td>
       </tr>)}</tbody>
     </table></div>
@@ -646,7 +575,7 @@ function ParisSupportingResults({ results, players, tourLabel = "Paris Tour (201
     <summary>{tourLabel} documented results ({results.length})</summary>
     <p className="table-note">Earlier results, rival times and personal bests are preserved here. They are not certified as world records. Opening day shows the fastest documented result. Dates use source posting dates unless the evidence establishes another date.</p>
     <div className="table-wrap"><table className="wr-table"><thead><tr><th>Time + video</th><th>Player</th><th>Documented day</th><th>Evidence</th></tr></thead>
-      <tbody>{results.map(r => <tr key={r.id}><td><Time record={r} />{r.videoBackup?.url && <div><a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></div>}</td><td><Player id={r.playerId} players={players} /></td><td>{date(r.achievedAt || r.chronologyDate || r.submittedAt || (r.source?.kind === "original-video-publication" ? r.videoPublishedAt : null))}</td><td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}{(r.proofImageLocal || (r.proofImageAvailability !== "unavailable" && r.proofImage)) && <> · <a href={r.proofImageLocal || r.proofImage} target="_blank" rel="noopener noreferrer">Image proof</a></>}{r.proofImageAvailability === "unavailable" && !r.proofImageLocal && <> · Image unavailable</>}{r.evidenceNote && <div className="table-note">{r.evidenceNote}</div>}<EvidenceTimes r={r} /></td></tr>)}</tbody>
+      <tbody>{results.map(r => <tr key={r.id}><td><Time record={r} />{r.videoBackup?.url && <div><a href={r.videoBackup.url} target="_blank" rel="noopener noreferrer">Preserved video</a></div>}</td><td><Player id={r.playerId} players={players} /></td><td>{date(r.achievedAt || r.chronologyDate || r.submittedAt || (r.source?.kind === "original-video-publication" ? r.videoPublishedAt : null))}</td><td>{r.source?.url && <a href={r.source.url} target="_blank" rel="noopener noreferrer">Primary source</a>}{(r.proofImageLocal || (r.proofImageAvailability !== "unavailable" && r.proofImage)) && <> · <a href={r.proofImageLocal || r.proofImage} target="_blank" rel="noopener noreferrer">Image proof</a></>}{r.proofImageAvailability === "unavailable" && !r.proofImageLocal && <> · Image unavailable</>}{r.evidenceNote && <div className="table-note">{r.evidenceNote}</div>}</td></tr>)}</tbody>
     </table></div>
   </details>;
 }
@@ -663,17 +592,16 @@ function CoursePage({ data: c, players, tours = [] }) {
       <h2>Best video</h2>
       <RecordTable records={[movie]} players={players} clean />
     </>}
-    {!!c.archivedTourRecordings?.length && <details className="sources">
-      <summary>Archived tour videos</summary>
+    {!!c.archivedTourRecordings?.length && <section className="archived-videos">
+      <h2>Archived tour videos</h2>
       {c.archivedTourRecordings.map(entry => <div key={entry.tourId}>
         <h3>{entry.name}</h3>
         <RecordTable records={[entry.record]} players={players} clean />
       </div>)}
-    </details>}
+    </section>}
     <CourseStats c={c} players={players} />
     <h2>History</h2>
     <RecordTable records={records} events={historyEvents({...c, records}, tours, "2026-09-30T06:00:00Z", {includeRecoveredLeaders:true,publishedRecords:true})} players={players} clean />
-    <p className="table-note">Dates use documented submissions or publications unless an earlier run date is established. Days count documented playable time and pause outside Time Trial tours. Submissions without a documented WR reign have 0 credited WR days.</p>
     <p className="archive-links"><a href={`/data/courses/${c.id}.json`} download>Archive data</a></p>
   </>;
 }
