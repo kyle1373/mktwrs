@@ -1,0 +1,740 @@
+{
+  "reviewedAt": "2026-10-19",
+  "sourceBaseCommit": "35d252182c21ae9c481a79b354d201615c18ed69",
+  "tourId": "tour-13",
+  "method": "Match source post IDs to documentary clocks, prefer the original public video publication to its repost, and sum only playable tour intervals.",
+  "sourceClockChanges": [
+    {
+      "id": "curated-rediscovered-1238054687355465728-original-video-reviewed",
+      "time": "1:02.56",
+      "previousDocumentedAt": "2020-03-12T10:50:14.000Z",
+      "originalPostClock": "2020-03-12T10:50:14.066Z",
+      "sourceURL": "https://twitter.com/tomegome_g/status/1238054687355465728",
+      "originalPostId": "1238054687355465728",
+      "privateRunClockNotEstablished": true,
+      "publicDateUnchanged": true,
+      "reviewArtifact": "artifacts/babyrosalina2020-original-post-date-duration-and-two-video-reconciliation-20261019.json"
+    },
+    {
+      "id": "curated-baby-rosalina-2020-heriawsity-6280-video",
+      "time": "1:02.80",
+      "previousDocumentedAt": "2020-03-24T03:02:04.385Z",
+      "originalPostClock": "2020-03-24T03:00:00.995Z",
+      "sourceURL": "https://twitter.com/heriawsity/status/1242285007546150912",
+      "originalPostId": "1242285007546150912",
+      "privateRunClockNotEstablished": true,
+      "publicDateUnchanged": true,
+      "reviewArtifact": "artifacts/babyrosalina2020-original-post-date-duration-and-two-video-reconciliation-20261019.json"
+    }
+  ],
+  "replacedPriorDateEvidencePreserved": [],
+  "knownSourceRows": [
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "records",
+      "id": "896332547393466368",
+      "time": "1:01.83",
+      "playerId": "nu11",
+      "finalDate": "2020-03-17",
+      "documentedAt": "2020-03-17T12:01:45.012Z",
+      "durationDays": 7.748784583333333,
+      "durationBounds": {
+        "minDays": 7.748784583333333,
+        "maxDays": 7.748784583333333,
+        "start": {
+          "earliest": "2020-03-17T12:01:45.012Z",
+          "latest": "2020-03-17T12:01:45.012Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "689443354756645002",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/689443354756645002",
+          "timestamp": "2020-03-17T12:01:45.012Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-baby-rosalina-2020-heriawsity-6280-video",
+      "time": "1:02.80",
+      "playerId": "heria",
+      "finalDate": "2020-03-24",
+      "documentedAt": "2020-03-24T03:00:00.995Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "1242285007546150912",
+          "url": "https://twitter.com/heriawsity/status/1242285007546150912",
+          "timestamp": "2020-03-24T03:00:00.995Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687253912084021260-687253911350149154-2020-proof-review",
+      "time": "1:04.72",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T11:01:41.201Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687253912084021260",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687253912084021260",
+          "timestamp": "2020-03-11T11:01:41.201Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687254591351554056-687254590458167317-2020-proof-review",
+      "time": "1:04.71",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T11:04:23.151Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687254591351554056",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687254591351554056",
+          "timestamp": "2020-03-11T11:04:23.151Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687272266769236117-687272266014130197-2020-proof-review",
+      "time": "1:04.26",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T12:14:37.299Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687272266769236117",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687272266769236117",
+          "timestamp": "2020-03-11T12:14:37.299Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687275478490546196-687275478083829768-2020-proof-review",
+      "time": "1:03.36",
+      "playerId": "deleted-user",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T12:27:23.033Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687275478490546196",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687275478490546196",
+          "timestamp": "2020-03-11T12:27:23.033Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687312053345583225-687312052863107110-2020-proof-review",
+      "time": "1:04.31",
+      "playerId": "kanthaplug",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T14:52:43.158Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687312053345583225",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687312053345583225",
+          "timestamp": "2020-03-11T14:52:43.158Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687325507066527744-687325506412216398-2020-proof-review",
+      "time": "1:02.95",
+      "playerId": "deleted-user",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T15:46:10.775Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687325507066527744",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687325507066527744",
+          "timestamp": "2020-03-11T15:46:10.775Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687405563512225792-687405563365031949-2020-proof-review",
+      "time": "1:04.07",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T21:04:17.719Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687405563512225792",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687405563512225792",
+          "timestamp": "2020-03-11T21:04:17.719Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687633674010755108-687633673478209597-2020-proof-review",
+      "time": "1:03.92",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-12",
+      "documentedAt": "2020-03-12T12:10:43.500Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687633674010755108",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687633674010755108",
+          "timestamp": "2020-03-12T12:10:43.500Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687673957591285837-687673957058740224-2020-proof-review",
+      "time": "1:03.60",
+      "playerId": "heriaw-sity",
+      "finalDate": "2020-03-12",
+      "documentedAt": "2020-03-12T14:50:47.854Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687673957591285837",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687673957591285837",
+          "timestamp": "2020-03-12T14:50:47.854Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687696761766412375-687696761401376770-2020-proof-review",
+      "time": "1:03.28",
+      "playerId": "heriaw-sity",
+      "finalDate": "2020-03-12",
+      "documentedAt": "2020-03-12T16:21:24.793Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687696761766412375",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687696761766412375",
+          "timestamp": "2020-03-12T16:21:24.793Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687706246802833427-687706246505431054-2020-proof-review",
+      "time": "1:03.24",
+      "playerId": "heriaw-sity",
+      "finalDate": "2020-03-12",
+      "documentedAt": "2020-03-12T16:59:06.202Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687706246802833427",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687706246802833427",
+          "timestamp": "2020-03-12T16:59:06.202Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-688184186972012595-688184186330415224-2020-proof-review",
+      "time": "1:03.26",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-14",
+      "documentedAt": "2020-03-14T00:38:16.018Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "688184186972012595",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/688184186972012595",
+          "timestamp": "2020-03-14T00:38:16.018Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-688498287447113939-688498287065825280-2020-proof-review",
+      "time": "1:02.92",
+      "playerId": "deleted-user",
+      "finalDate": "2020-03-14",
+      "documentedAt": "2020-03-14T21:26:23.407Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "688498287447113939",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/688498287447113939",
+          "timestamp": "2020-03-14T21:26:23.407Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-689437704051490853-689437703594442881-2020-proof-review",
+      "time": "1:04.80",
+      "playerId": "whiplash",
+      "finalDate": "2020-03-17",
+      "documentedAt": "2020-03-17T11:39:17.779Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "689437704051490853",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/689437704051490853",
+          "timestamp": "2020-03-17T11:39:17.779Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-baby-rosalina-2020-kaguya-10183-context",
+      "time": "1:01.83",
+      "playerId": "nu11",
+      "finalDate": "2020-03-17",
+      "documentedAt": "2020-03-17T12:01:45.012Z",
+      "durationDays": 7.748784583333333,
+      "durationBounds": {
+        "minDays": 7.748784583333333,
+        "maxDays": 7.748784583333333,
+        "start": {
+          "earliest": "2020-03-17T12:01:45.012Z",
+          "latest": "2020-03-17T12:01:45.012Z",
+          "basis": "documented-source-timestamp",
+          "exact": true
+        },
+        "end": {
+          "earliest": "2026-09-30T06:00:00.000Z",
+          "latest": "2026-09-30T06:00:00.000Z"
+        },
+        "basis": "documented-source-timestamp"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "689443354756645002",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/689443354756645002",
+          "timestamp": "2020-03-17T12:01:45.012Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687272266769236117-previous-10454-marchboundary2020-recheck",
+      "time": "1:04.54",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T12:14:37.299Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687272266769236117",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687272266769236117",
+          "timestamp": "2020-03-11T12:14:37.299Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687275478490546196-previous-10364-marchboundary2020-recheck",
+      "time": "1:03.64",
+      "playerId": "deleted-user",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T12:27:23.033Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687275478490546196",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687275478490546196",
+          "timestamp": "2020-03-11T12:27:23.033Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687312053345583225-previous-10521-marchboundary2020-recheck",
+      "time": "1:05.21",
+      "playerId": "kanthaplug",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T14:52:43.158Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687312053345583225",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687312053345583225",
+          "timestamp": "2020-03-11T14:52:43.158Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687325507066527744-previous-10302-marchboundary2020-recheck",
+      "time": "1:03.02",
+      "playerId": "deleted-user",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T15:46:10.775Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687325507066527744",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687325507066527744",
+          "timestamp": "2020-03-11T15:46:10.775Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687405563512225792-previous-10424-marchboundary2020-recheck",
+      "time": "1:04.24",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-11",
+      "documentedAt": "2020-03-11T21:04:17.719Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687405563512225792",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687405563512225792",
+          "timestamp": "2020-03-11T21:04:17.719Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-687673957591285837-previous-10420-marchboundary2020-recheck",
+      "time": "1:04.20",
+      "playerId": "heriaw-sity",
+      "finalDate": "2020-03-12",
+      "documentedAt": "2020-03-12T14:50:47.854Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "687673957591285837",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/687673957591285837",
+          "timestamp": "2020-03-12T14:50:47.854Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-688184186972012595-previous-10371-marchboundary2020-recheck",
+      "time": "1:03.71",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-14",
+      "documentedAt": "2020-03-14T00:38:16.018Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "688184186972012595",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/688184186972012595",
+          "timestamp": "2020-03-14T00:38:16.018Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-689437704051490853-previous-10573-hammer2020-recheck",
+      "time": "1:05.73",
+      "playerId": "whiplash",
+      "finalDate": "2020-03-17",
+      "documentedAt": "2020-03-17T11:39:17.779Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "689437704051490853",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/689437704051490853",
+          "timestamp": "2020-03-17T11:39:17.779Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-rediscovered-1238054687355465728-original-video-reviewed",
+      "time": "1:02.56",
+      "playerId": "tomegome",
+      "finalDate": "2020-03-12",
+      "documentedAt": "2020-03-12T10:50:14.066Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "1238054687355465728",
+          "url": "https://twitter.com/tomegome_g/status/1238054687355465728",
+          "timestamp": "2020-03-12T10:50:14.066Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-688212929916698651-babyrosalina2020-menu-result-reviewed",
+      "time": "1:06.37",
+      "playerId": "n3vermind",
+      "finalDate": "2020-03-14",
+      "documentedAt": "2020-03-14T02:32:28.870Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "688212929916698651",
+          "url": "https://discord.com/channels/629221606064914442/630496570869022740/688212929916698651",
+          "timestamp": "2020-03-14T02:32:28.870Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-690933424122363994-babyrosalina2020-carlos-menu-video-reviewed",
+      "time": "1:09.29",
+      "playerId": "carlos85",
+      "finalDate": "2020-03-21",
+      "documentedAt": "2020-03-21T14:42:45.233Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "690933424122363994",
+          "url": "https://discord.com/channels/629221606064914442/630496570869022740/690933424122363994",
+          "timestamp": "2020-03-21T14:42:45.233Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-babyrosalina2020-text-689453862297272391",
+      "time": "1:03.40",
+      "playerId": "zxflare",
+      "finalDate": "2020-03-17",
+      "documentedAt": "2020-03-17T12:43:30.205Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "689453862297272391",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/689453862297272391",
+          "timestamp": "2020-03-17T12:43:30.205Z"
+        }
+      ]
+    },
+    {
+      "courseId": "snes-mario-circuit-2r",
+      "collection": "submissions",
+      "id": "curated-babyrosalina2020-text-689448497556357132",
+      "time": "1:03.26",
+      "playerId": "brandonsg",
+      "finalDate": "2020-03-17",
+      "documentedAt": "2020-03-17T12:22:11.151Z",
+      "durationDays": 0,
+      "durationBounds": {
+        "minDays": 0,
+        "maxDays": 0,
+        "basis": "no-documented-wr-reign"
+      },
+      "matchingOriginalPostClocks": [
+        {
+          "postId": "689448497556357132",
+          "url": "https://discord.com/channels/629221606064914442/636461740162416640/689448497556357132",
+          "timestamp": "2020-03-17T12:22:11.151Z"
+        }
+      ]
+    }
+  ],
+  "canonicalWRs": 1,
+  "durationRowsChanged": 0,
+  "undatedSourceRows": 0,
+  "newSupportingVideoBackup": {
+    "url": "https://media.mktwrs.com/assets/video/babyrosalina2020-mario-circuit-2r-10280-34fd71f2cd5a.mp4",
+    "originalUrl": "https://x.com/heriawsity/status/1242285007546150912",
+    "kind": "r2-preserved-original",
+    "status": "available",
+    "sha256": "34fd71f2cd5aa833766c8884b005a7bb809ea72601b56659c719bf0a693976f4",
+    "bytes": 21814088,
+    "credit": "Heriawsity / galaxy",
+    "originalPublishedAt": "2020-03-24T03:00:00.995Z",
+    "sourceVariantBitrate": 2176000,
+    "freshOriginalSourceVariant": true,
+    "priorReviewedRemuxSHA256": "f5df0c053d84843835ec195a56b9803758e652a8108a8986ab9b49a8240a2954",
+    "byteIdentityWithPriorRemuxNotClaimed": true,
+    "reviewArtifact": "artifacts/babyrosalina2020-two-supporting-videos-full-r2-hash-and-decode-verification-20261019.json"
+  },
+  "originalWRVideoStillUnavailable": true,
+  "originalWRVideoSourceDOM": "artifacts/babyrosalina2020-original-wr-video-share-source-dom-20261019.json",
+  "knownWRPostingClockVerified": true,
+  "all30DocumentaryDatesAndNumericDurationsVerified": true,
+  "all141OtherCoursesUnchanged": true,
+  "allPublicDatesTimesLapsWRDurationsAndRunnerAttributionsPreserved": true,
+  "privateRaceDatesNotInvented": true,
+  "historyComplete": false,
+  "wholeGoalComplete": false
+}
