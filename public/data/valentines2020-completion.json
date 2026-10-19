@@ -2,10 +2,10 @@
   "tourId": "tour-10",
   "tour": "Valentine’s Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
-  "sourceCommit": "8c0c4a0e8703d315222fc27ce41ec29cab6e6043",
+  "sourceCommit": "9cc5b5036abe9b99773c0eee630d92ca3b9bb1ae",
   "window": {
     "start": "2020-01-29T06:00:00Z",
     "endExclusive": "2020-02-12T06:00:00Z"
@@ -70,11 +70,51 @@
     "freshSelectedRecordingReviews": 2,
     "finalResultImagesVerified": 1,
     "finalRunnerSummaryTextVerified": 0,
-    "openingWrGlobalLeaderCertified": false
+    "openingWrGlobalLeaderCertified": false,
+    "focusedClockAndPreservationTests": 8
   },
   "nextTourId": "tour-11",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/valentines2020-final-publication-audit-20261013.json",
-  "sourceDispositionAudit": "archive/valentines2020-final-toad-image-and-preserved-source-crosswalk-20261013.json"
+  "sourceDispositionAudit": "archive/valentines2020-final-toad-image-and-preserved-source-crosswalk-20261013.json",
+  "latestDateDurationReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/valentines2020-original-source-clock-and-duration-reconciliation-20261019.json",
+    "originalCanonicalWRPostClocksReviewed": 2,
+    "originalSourceClockRowsRestored": 10,
+    "affectedDurationRowsIndependentlySummed": 4,
+    "knownPostingRowsWithSingleDateAndNumericDurationChecked": 54,
+    "undatedUnassignedWorksheetRowsRetained": 36,
+    "retrospectiveBeachTieAnnouncementDateReviewed": true,
+    "originalBeachTieRaceDateGapRetained": true,
+    "privateRaceClocksNotInvented": true
+  },
+  "currentVideoReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/valentines2020-two-wr-and-supporting-videos-full-r2-hash-and-decode-verification-20261019.json",
+    "filesFullPublicHashAndDecodeVerified": 2,
+    "freshCountdownFirstLapAndFinishReviews": 2,
+    "fastestPreservedBeachRecording": "1:13.86",
+    "fastestPreservedToadRecording": "1:03.16",
+    "finalWRs": [
+      "1:13.83",
+      "1:03.09"
+    ],
+    "finalWRsNotLinkedToSlowerFootage": true,
+    "uncutContinuityNotFreshlyCertified": true
+  },
+  "latestOriginalResultImageReview": {
+    "artifact": "artifacts/valentines2020-original-final-proofs-recheck-and-preservation-20261019.json",
+    "toad10309RawOriginalPreserved": {
+      "url": "https://media.mktwrs.com/assets/proof/valentines2020-tome-toad-circuit-r-10309-original-23979115a9d3.jpg",
+      "sourceURL": "https://x.com/tomegome_g/status/1223759936540119040",
+      "sha256": "23979115a9d35baa5a06c6eafde7b686284719792b88fef88b109dc2cfef031b",
+      "bytes": 176526,
+      "visualTotal": "1:03.09",
+      "previousBest": "1:03.51",
+      "reviewArtifact": "artifacts/valentines2020-original-final-proofs-recheck-and-preservation-20261019.json"
+    },
+    "beachTieOriginalProofFreshHTTPStatus": 404
+  }
 }
