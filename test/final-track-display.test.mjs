@@ -2,6 +2,27 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {resolveFinalDate,applyFinalDates} from '../lib/final-dates.mjs';
 import {recordedBest} from '../lib/recorded-best.mjs';
+import {historyEvents} from '../public/history.mjs';
+import fs from 'node:fs';
+test('Daisy Circuit matched source alias does not invent a third tied holder',()=>{
+ const c=JSON.parse(fs.readFileSync('public/data/courses/wii-daisy-circuit.json'));
+ const before=structuredClone(c);
+ const holders=recordedBest(c).bestHolders;
+ assert.deepEqual(holders.map(r=>r.playerId),['kuri','p-en']);
+ assert.equal(holders[1].durationDays,c.records.find(r=>r.playerId==='p-en'&&r.timeCs===7800).durationDays);
+ assert.deepEqual(c,before);
+});
+test('distinct confirmed late ties remain in both the best list and history after tour end',()=>{
+ const c={records:[
+  {id:'early',playerId:'early',timeCs:7800,status:'community-wr',finalDate:'2026-08-04',documentedAt:'2026-08-04T10:00:00Z'},
+  {id:'late',playerId:'late',timeCs:7800,status:'community-wr',finalDate:'2026-08-06',documentedAt:'2026-08-06T10:00:00Z',durationDays:0},
+ ],submissions:[{id:'alias',playerId:'old-name',timeCs:7800,proofImageVerified:true,matchedPerformanceId:'late',finalDate:'2026-08-06'}],
+ appearances:[{tourId:'sunshine',startDate:'2026-07-22',endDate:'2026-08-05'}]};
+ assert.deepEqual(recordedBest(c).bestHolders.map(r=>r.playerId),['early','late']);
+ const events=historyEvents(c,[{id:'sunshine',name:'Sunshine'}],'2026-09-30',{publishedRecords:true});
+ assert.deepEqual(events.map(e=>e.id),['sunshine-start','early','sunshine-end','late']);
+ assert.equal(events.at(-1).record.durationDays,0);
+});
 test('posting date is definite while original clocks remain intact',()=>{
  const r={id:'a',playerId:'x',timeCs:9100,submittedAt:'2021-10-09T01:02:03Z'};
  const c={records:[r],submissions:[],candidates:[],appearances:[],currentHolders:[{...r}]};

@@ -2,7 +2,7 @@
   "tourId": "tour-23",
   "tour": "Wild West Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -13,8 +13,8 @@
     {
       "id": "gba-bowser-s-castle-2",
       "archivedWr": "1:19.65",
-      "fastestDocumentedAvailableRecording": "1:20.48",
-      "recordingPlayerId": "phillish"
+      "fastestDocumentedAvailableRecording": "1:19.98",
+      "recordingPlayerId": "saki7"
     },
     {
       "id": "snes-donut-plains-1r",
@@ -40,7 +40,13 @@
     "archive/wildwest2020-six-additional-completed-originals-r2-preservation-20261013.json",
     "archive/wildwest2020-two-final-result-image-integrity-review-20261013.json",
     "archive/wildwest2020-bowser-opening-day-policy-generation-check-20261013.json",
-    "archive/wildwest2020-donut-opening-day-policy-generation-check-20261013.json"
+    "archive/wildwest2020-donut-opening-day-policy-generation-check-20261013.json",
+    "artifacts/wildwest2020-all387-original-source-images-r2-preservation-20261019.json",
+    "artifacts/wildwest2020-reviewed-original-source-dates-and14-video-reconciliation-20261019.json",
+    "artifacts/wildwest2020-final-source-clock-and-duration-audit-20261019.json",
+    "artifacts/wildwest2020-final26-supporting-source-gap-dispositions-20261019.json",
+    "artifacts/wildwest2020-four-original-movies-current-access-review-20261019.json",
+    "artifacts/wildwest2020-saki11998-new-original-full-run-review-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/wildwest2020-discussion-review-progress.json",
@@ -54,13 +60,18 @@
     "additionalCompletedRecordingsPreservedOnR2": 6,
     "partialClipsPreservedOnR2": 1,
     "discussionImageDispositions": 387,
-    "discussionImageHashesVerified": 387
+    "discussionImageHashesVerified": 387,
+    "allOriginalSourceImagesPreservedOnR2": 387,
+    "originalVideosFullBytesDecodedAndRangeVerified": 14,
+    "fullRunOriginalVideos": 13,
+    "partialStrategyOriginalVideos": 1
   },
   "remainingLimitations": [
-    "Final Bowser Castle 2 1:19.65 and Donut Plains 1R 0:49.69 WR recordings unavailable; completed 1:20.48 and 0:50.67 footage shown separately. Nu11 shortcut clip is partial.",
+    "Final Bowser Castle2 1:19.65 and DonutPlains1R 0:49.69 recordings remain unavailable. Verified1:19.98 and0:50.67 completed footage shown separately. Nu11 shortcut clip is partial.",
     "Previous-best chronology and inaccessible original recordings remain unresolved; no unproven leaders inferred.",
     "387 prior discussion image visual reviews retained with fresh identities, hashes and source crosschecks.",
-    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification."
+    "Exact race dates and unavailable originals remain qualified. No exhaustive global history or uninterrupted-race certification.",
+    "26 supporting worksheet rows retained as documented source/identity gaps, including10 placeholders.113 source matches supply108 missing dates;4 earlier/unverified source clocks corrected. Named contemporary reports supply report dates; actual race dates are not invented.14 full or partial originals preserved."
   ],
   "validation": {
     "liveSnapshotRows": 420,
@@ -75,7 +86,14 @@
   "nextTourId": "tour-24",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/wildwest2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/wildwest2020-final-known-source-date-duration-and14-video-review-20261019.json",
   "sourceDispositionAudit": "archive/wildwest2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "bc5f75ea6bd5c89350278209a5e1d1c65bcdbd6c"
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 108,
+  "remainingSupportingSourceGaps": 26,
+  "allSupportingSourcesResolved": false,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/wildwest2020-final-known-source-date-duration-and14-video-review-live-receipt-20261019.json",
+  "latestSourceClockAndDurationAudit": "artifacts/wildwest2020-final-source-clock-and-duration-audit-20261019.json",
+  "wholeGoalComplete": false,
+  "priorPublicationCommit": "bc5f75ea6bd5c89350278209a5e1d1c65bcdbd6c"
 }
