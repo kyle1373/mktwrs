@@ -2,7 +2,7 @@
   "tourId": "tour-7",
   "tour": "Holiday Tour (2019)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard; preserved result, source and media reviews accepted with gaps stated.",
   "exhaustiveHistoryProven": false,
   "sourceCommit": "425b35779660e0255aa98902624c04ee97ba2e16",
@@ -46,8 +46,8 @@
   },
   "remainingLimitations": [
     "Original opening WR exchange remains uncertain; earliest slower day-one results stay in raw evidence without WR awards.",
-    "Prior3943-message date-search coverage does not certify all images, recordings or outside accounts. Current Discord session expired; preserved reviews retained.",
-    "DK Pass Nu11 original unavailable; Tomegome46.37 route clip is partial, no completed race time inferred.",
+    "Prior3943-message date-search coverage does not certify all images, recordings or outside accounts. Codex-browser session verified authenticated October19; original Meester source freshly checked.",
+    "DK Pass Nu11 original unavailable; Tomegome46.37 route clip is now preserved on R2 as partial footage; no completed lap or race time inferred.",
     "Periawsity Lagoon1:19.91 advertised original unavailable and unverified.",
     "Undated previous bests and missing/disputed splits retain uncertainty. Sampled frames and decode do not certify frame-by-frame continuity.",
     "Closing interval includes January1 before06UTC; score-mode and incomplete broadcasts do not establish TT runs."
@@ -66,5 +66,39 @@
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/holiday2019-final-publication-audit-20261013.json",
-  "sourceDispositionAudit": "archive/holiday2019-practical-source-disposition-consolidation-20261013.json"
+  "sourceDispositionAudit": "archive/holiday2019-practical-source-disposition-consolidation-20261013.json",
+  "priorDateDurationReviewCompletion": {
+    "completedAt": "2026-10-13",
+    "sourceCommit": "425b35779660e0255aa98902624c04ee97ba2e16",
+    "validation": {
+      "productionBuildPages": 891,
+      "liveSnapshotRows": 201,
+      "livePublicationDifferences": 0,
+      "renderedPreservedEvidenceLinksReadable": 29,
+      "freshSelectedRecordingReviews": 1,
+      "finalResultImagesVerified": 1,
+      "finalRunnerSummaryTextVerified": 0,
+      "openingWrGlobalLeaderCertified": false
+    }
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "latestDateDurationReview": {
+    "reviewedAt": "2026-10-19",
+    "canonicalWRPostClocksReviewed": 2,
+    "sourceClockRowsCorrected": 29,
+    "durationRowsRecalculated": 4,
+    "knownPostingRowsWithSupportedDateAndNumericDuration": 41,
+    "undatedUnassignedWorksheetRowsRetained": 53,
+    "sourceReviewURL": "https://media.mktwrs.com/assets/proof/holiday2019-original-source-clock-and-duration-reconciliation-20261019.json",
+    "finalLiveReceiptURL": "https://media.mktwrs.com/assets/proof/holiday2019-date-duration-and-full-wr-partial-video-review-final-live-receipt-20261019.json"
+  },
+  "currentVideoReview": {
+    "preservedFullWRRecordings": 1,
+    "preservedPartialRouteClips": 1,
+    "fullPublicHashAndDecodeVerifiedFiles": 2,
+    "partialRouteR2URL": "https://media.mktwrs.com/assets/video/holiday2019-dkpass-partial-route-46Xc33T3In4-777f0f31a127.mp4",
+    "sourceReviewURL": "https://media.mktwrs.com/assets/proof/holiday2019-full-wr-and-partial-route-r2-preservation-verification-20261019.json",
+    "meesterEarlierImageHTTPStatus": 404,
+    "earlierUnloadedImageNotUsedToInventDate": true
+  }
 }
