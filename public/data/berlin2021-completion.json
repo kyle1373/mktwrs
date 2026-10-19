@@ -2,7 +2,7 @@
   "tourId": "tour-35",
   "tour": "Berlin Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -88,18 +88,34 @@
   "nextTourId": "tour-36",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/berlin2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/berlin2021-final-known-source-date-duration-and13-video-review-20261019.json",
   "sourceDispositionAudit": "archive/berlin2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "5dc2d0d0b11e60b3f40464103d344e38d5ac98c9",
   "videoPreservationReview": {
-    "checkedAt": "2026-10-17T03:43:02.936146+00:00",
-    "audit": "artifacts/berlin2021-original-wr-video-preservation-and-integrity-review-20261016.json",
-    "uniqueR2FilesVerified": 13,
-    "newOriginalEncodingUploads": 1,
-    "canonicalVideoKeysWithR2": 2,
-    "canonicalVideoKeysWithoutR2": 1,
-    "allPublicFileBytesMatchLocalSha256": true,
-    "youtubeUploadsPerformed": 0,
-    "exhaustiveVideoPreservationComplete": false
+    "audit": "artifacts/berlin2021-all13-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "originalObjects": 13,
+    "allFullPublicBytesDecodeAndRangeVerified": true,
+    "unavailableOriginalVideo": "9EbXaIeSJO8",
+    "originalRecoveryCheckDate": "2026-10-17",
+    "allReferencedOriginalVideosArchived": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/berlin2021-final-known-source-date-duration-and13-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "audit": "artifacts/berlin2021-final-known-source-date-duration-and13-video-review-20261019.json",
+    "sourceClockAudit": "artifacts/berlin2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 79,
+    "sourceRowsMatched": 87,
+    "remainingSupportingSourceGaps": 32,
+    "remainingActualWorksheetResultGaps": 11,
+    "remainingWorksheetPlaceholders": 21,
+    "baseballClubOriginalSubmissionClockUnknown": true,
+    "currentTourExactSourceClockMismatches": 0
+  },
+  "sourceImagePreservationReview": {
+    "audit": "artifacts/berlin2021-all328-original-source-images-r2-preservation-20261019.json",
+    "originalSourceImages": 328,
+    "allFullPublicBytesAndDecodeVerified": true
   }
 }
