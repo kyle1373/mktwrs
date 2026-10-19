@@ -2,10 +2,10 @@
   "tourId": "tour-12",
   "tour": "Mario Bros. Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard; fresh selected-media review, preserved source dispositions and live publication verified, with chronology gaps stated.",
   "exhaustiveHistoryProven": false,
-  "sourceCommit": "b4d4389a4fad09a6b46695ff5ee0af51e5d2471b",
+  "sourceCommit": "d0c20b800a1eaf879ac7f53fa95f398f59f8b858",
   "window": {
     "start": "2020-02-26T06:00:00Z",
     "endExclusive": "2020-03-11T06:00:00Z"
@@ -54,7 +54,7 @@
     "proofImageUrlsPassed": 32
   },
   "remainingLimitations": [
-    "Final screenshots submitted before06UTC rollover; exact achievement dates and reigns remain unknown.",
+    "Original final-result submission posted 2020-03-11T04:56:53.458Z before the06UTC rollover; public dates use the original submission, while exact private achievement dates remain unproven.",
     "Previous-best values do not certify global WR succession; unavailable Adri originals and intermediary contenders remain qualified.",
     "Current source hash checks reuse prior visual dispositions rather than claiming a fresh complete-server-image review.",
     "Fresh video samples and full decode do not certify uninterrupted playback."
@@ -67,11 +67,41 @@
     "freshSelectedRecordingReviews": 2,
     "finalResultImagesVerified": 2,
     "finalRunnerSummaryTextVerified": 0,
-    "openingWrGlobalLeaderCertified": false
+    "openingWrGlobalLeaderCertified": false,
+    "focusedDateAndDurationTestsPassed": 31
   },
   "nextTourId": "tour-13",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "latestPublicationAudit": "archive/mariobros2020-final-publication-audit-20261013.json",
-  "sourceDispositionAudit": "archive/mariobros2020-two-final-images-and-source-crosswalk-20261013.json"
+  "sourceDispositionAudit": "archive/mariobros2020-two-final-images-and-source-crosswalk-20261013.json",
+  "latestDateDurationReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/mariobros2020-known-source-date-duration-and-previous-best-crosswalk-review-20261019.json",
+    "canonicalWRPostClocksReviewed": 3,
+    "knownPostingRowsWithSingleDateAndNumericDurationChecked": 61,
+    "originalSourceClockRowsChanged": 0,
+    "durationRowsChanged": 0,
+    "previousBestOriginalVideoSourceLinksReconciled": 2,
+    "undatedUnassignedWorksheetRowsRetained": 73,
+    "privateRaceDatesNotInvented": true
+  },
+  "currentVideoReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/mariobros2020-three-supporting-videos-full-r2-hash-and-decode-verification-20261019.json",
+    "filesFullPublicHashDecodeAndRangeVerified": 3,
+    "freshResultScreensReviewed": 3,
+    "fastestAvailableGhostRecording": "0:40.14",
+    "fastestAvailableRainbowRRecording": "1:00.57",
+    "slowerS7172Recording": "0:40.65",
+    "supportingVideosNotMappedToFasterWRs": true
+  },
+  "latestOriginalResultImageReview": {
+    "artifact": "artifacts/mariobros2020-two-original-final-result-images-r2-preservation-20261019.json",
+    "rawFinalOriginalImagesPreservedOnR2": 2,
+    "publicFinalProofLinksUseRawOriginals": true,
+    "previousBestRowsRetainDistinctRole": true,
+    "adri03996OriginalImageStatus": 404,
+    "adri03996OriginalImageReviewArtifact": "artifacts/mariobros2020-adri03996-original-image-availability-recheck-20261019.json"
+  }
 }
