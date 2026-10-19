@@ -56,8 +56,10 @@
     "basis": "Prior local review ledger retained; not freshly repeated or new exhaustive certification."
   },
   "coverage": {
-    "selectedRecordingsPreservedOnR2": 2,
-    "proofImageUrlsPassed": 258
+    "selectedRecordingsPreservedOnR2": 11,
+    "proofImageUrlsPassed": 258,
+    "partialClipsPreservedOnR2": 16,
+    "proofImageFullPublicHashesVerified": 262
   },
   "remainingLimitations": [
     "Tomegome 0:34.72 has an explicitly reported April 25 date, with unknown within-day clock and timezone; its duration bounds remain preserved.",
@@ -67,13 +69,8 @@
   ],
   "validation": {
     "productionBuildPages": 891,
-    "liveSnapshotRows": 728,
-    "livePublicationDifferences": 0,
-    "renderedPreservedEvidenceLinksReadable": 302,
-    "freshSelectedRecordingReviews": 2,
-    "finalResultImagesVerified": 0,
-    "finalRunnerSummaryTextVerified": 0,
-    "openingWrGlobalLeaderCertified": false
+    "focusedDateDurationAndHistoryTestsPassed": 33,
+    "liveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/trick2020-date-duration-and-27-video-review-final-live-receipt-20261019.json"
   },
   "nextTourId": "tour-17",
   "practicalReviewComplete": true,
@@ -89,8 +86,8 @@
   },
   "label": "Dates and durations reviewed",
   "dateDurationReviewComplete": true,
-  "dateDurationReviewCompletedAt": "2026-10-16",
-  "latestEvidenceReconciliation": "2026-10-16",
+  "dateDurationReviewCompletedAt": "2026-10-19",
+  "latestEvidenceReconciliation": "2026-10-19",
   "currentDateReview": {
     "checkedAt": "2026-10-16",
     "recordDatesVerified": 30,
@@ -135,5 +132,48 @@
     ],
     "datesAndDurationsUnchanged": true,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "sourceCommit": "6e61eba4dcd57227ab870f8fdcf98f02256ee478",
+  "latestDateDurationReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/trick2020-344-source-dates-duration-bounds-and-27-videos-reconciliation-20261019.json",
+    "knownDatedSourceRowsRevalidated": 344,
+    "originalSourceClocksVerified": 342,
+    "explicitReportedApril25PerformanceRetained": true,
+    "all727TwoCourseRowsNumericDurationBoundsIndependentlySummed": true,
+    "thirtyPriorTrickTourDurationContributionsVerified": true,
+    "allDatesAndDurationsUnchanged": true,
+    "privateRaceClocksNotInvented": true
+  },
+  "currentVideoReview": {
+    "reviewedAt": "2026-10-19",
+    "artifact": "artifacts/trick2020-27-videos-full-r2-preservation-decode-and-range-review-20261019.json",
+    "completedVideosFullPublicHashDecodeRangeVerified": 11,
+    "partialVideosFullPublicHashDecodeRangeVerified": 16,
+    "newR2VideosPreserved": 20,
+    "fastestAvailableRecordings": [
+      "1:23.88",
+      "0:34.62"
+    ],
+    "partialCompletedTotalsInferred": 0,
+    "allCompletedSampledResultsReviewed": true,
+    "uneditedOriginalFilesNotClaimed": true
+  },
+  "latestOriginalProofReview": {
+    "artifact": "artifacts/trick2020-262-proof-images-full-public-original-hash-verification-20261019.json",
+    "originalImageFullPublicHashesVerified": 262,
+    "allImagesDecoded": true,
+    "priorVisualQualificationsRetained": true
+  },
+  "laterTourWorksheetDateMetadataReview": "artifacts/trick2020-later-tour-worksheet-video-publication-clocks-20261019.json",
+  "priorValidation": {
+    "productionBuildPages": 891,
+    "liveSnapshotRows": 728,
+    "livePublicationDifferences": 0,
+    "renderedPreservedEvidenceLinksReadable": 302,
+    "freshSelectedRecordingReviews": 2,
+    "finalResultImagesVerified": 0,
+    "finalRunnerSummaryTextVerified": 0,
+    "openingWrGlobalLeaderCertified": false
   }
 }
