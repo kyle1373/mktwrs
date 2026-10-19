@@ -79,7 +79,7 @@ function EvidenceTimes({ r }) {
       {report.imageReport ? "Runner result image posted: " : report.originalRunnerSubmission ? "Runner result report: " : "Third-party result report: "}
       <a href={report.url} target="_blank" rel="noopener noreferrer">{format(report.reportedAt)}</a>
       {report.imageReport && report.writtenTotalExplicit === false && <div>The caption does not state the exact total; this post is linked to the archived result image.</div>}
-      <div>Posting date used as the submission date.</div>
+      <div>{r.forumPostingDatePolicy ? "Later report retained separately from the original forum posting date." : "Posting date used as the submission date."}</div>
     </div>)}
     {r.recoveredSourcePost && <div>
       Original source posted: <a href={r.recoveredSourcePost.url} target="_blank" rel="noopener noreferrer">{format(r.recoveredSourcePost.postedAt)}</a>

@@ -71,6 +71,7 @@ test('Nova date follows original forum posting while the later edit remains sepa
  assert.match(html,/2019-10-24 21:24:39 UTC/);
  assert.match(html,/Last forum edit: 2019-10-25 00:03:39 UTC/);
  assert.match(html,/Original forum report posting clock used as the submission date/);
+ assert.match(html,/Later report retained separately from the original forum posting date/);
  assert.match(html,/Historical edit contents remain unconfirmed/);
  assert.doesNotMatch(html,/Submitted:/);
 });
