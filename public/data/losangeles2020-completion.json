@@ -2,7 +2,7 @@
   "tourId": "tour-27",
   "tour": "Los Angeles Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, opening-day policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -51,10 +51,9 @@
     "discussionMessagesIndexed": 2520
   },
   "remainingLimitations": [
-    "Final DK Pass WR 1:31.56 recording preserved; earlier previous-best dates remain qualified.",
-    "Previous-best dates and unavailable originals remain unresolved.",
-    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
-    "Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+    "Nine worksheet source gaps retained: six placeholders plus unsupported ryu, Aruchan and Game_1909 source/identity.",
+    "Nu11 MKHxF4irr1c original unavailable; no surviving recording inferred.",
+    "Exact race instant remains unknown when only source publication is documented; sources retained internally."
   ],
   "validation": {
     "liveSnapshotRows": 185,
@@ -68,7 +67,75 @@
   "nextTourId": "tour-28",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/losangeles2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/losangeles2020-final-known-source-date-duration-and8-video-review-20261019.json",
   "sourceDispositionAudit": "archive/losangeles2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "5fdbaba77667927587041a1dd0d52fd1d126ec76"
+  "sourceCommit": "5fdbaba77667927587041a1dd0d52fd1d126ec76",
+  "priorRemainingLimitations": [
+    "Final DK Pass WR 1:31.56 recording preserved; earlier previous-best dates remain qualified.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Three technique clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+  ],
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 44,
+  "remainingSupportingSourceGaps": [
+    {
+      "id": "sheet-GT11",
+      "playerId": "kazuo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "id": "sheet-GT14",
+      "playerId": "jibacha",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "id": "sheet-GT15",
+      "playerId": "ryoma",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "id": "sheet-GT16",
+      "playerId": "tokushima",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "id": "sheet-GT20",
+      "playerId": "michinori",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "id": "sheet-GT21",
+      "playerId": "marumo",
+      "time": "1:59.99",
+      "reason": "Unverified worksheet placeholder"
+    },
+    {
+      "id": "sheet-GT43",
+      "playerId": "ryu",
+      "time": "1:36.40",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "id": "sheet-GT54",
+      "playerId": "aruchan",
+      "time": "1:35.33",
+      "reason": "Named dated source or attribution remains unsupported"
+    },
+    {
+      "id": "sheet-GT71",
+      "playerId": "game-1909",
+      "time": "1:33.59",
+      "reason": "Named dated source or attribution remains unsupported"
+    }
+  ],
+  "allOriginalSourceImagesPreservedOnR2": 170,
+  "originalVideoObjectsPreservedOnR2": 8,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/losangeles2020-final-known-source-date-duration-and8-video-review-live-receipt-20261019.json",
+  "wholeGoalComplete": false
 }
