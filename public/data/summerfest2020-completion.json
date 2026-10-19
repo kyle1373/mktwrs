@@ -2,8 +2,8 @@
   "tourId": "tour-25",
   "tour": "Summer Festival Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Practical surviving-source review: original result images freshly compared; named contemporary reports reconcile supporting dates; exact source clocks and playable duration sums verified; originals preserved on R2.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-08-26T06:00:00Z",
@@ -35,7 +35,12 @@
     "archive/summerfest2020-nine-context-clips-r2-preservation-20261013.json",
     "archive/summerfest2020-preserved-source-index-and-image-integrity-20261013.json",
     "archive/summerfest2020-discussion-image-source-publication-crosswalk-20261013.json",
-    "archive/summerfest2020-opening-day-policy-generation-check-20261013.json"
+    "archive/summerfest2020-opening-day-policy-generation-check-20261013.json",
+    "artifacts/summerfest2020-all314-original-source-images-r2-preservation-20261019.json",
+    "artifacts/summerfest2020-reviewed-original-source-dates-and18-video-reconciliation-20261019.json",
+    "artifacts/summerfest2020-final-source-clock-and-duration-audit-20261019.json",
+    "artifacts/summerfest2020-final18-supporting-source-gap-dispositions-20261019.json",
+    "artifacts/summerfest2020-six-original-movies-current-access-review-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/summerfest2020-discussion-review-progress.json",
@@ -50,13 +55,19 @@
     "resultScreenClipsPreservedOnR2": 2,
     "discussionImageDispositions": 314,
     "discussionImageHashesVerified": 314,
-    "discussionMessagesIndexed": 3425
+    "discussionMessagesIndexed": 3425,
+    "allOriginalSourceImagesPreservedOnR2": 314,
+    "originalVideoObjectsFullBytesDecodedAndRangeVerified": 18,
+    "fullRunOriginalVideos": 5,
+    "partialOriginalVideos": 9,
+    "resultMenuOriginalEncodings": 4
   },
   "remainingLimitations": [
     "Wins 0:47.87 final Choco Island 2 WR recording preserved. Mario Circuit 3R 1:06.41 WR recording unavailable; completed 1:06.53 footage shown separately.",
     "Previous-best dates and unavailable originals remain unresolved.",
     "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
-    "Seven technique and two result-screen clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+    "Seven technique and two result-screen clips are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified.",
+    "18 supporting worksheet rows retained as source/identity gaps including12placeholders.83 matching sources recover80dates and correct1wrong date source. Missing originals and private run clocks remain unsupported; no exhaustive history certification."
   ],
   "validation": {
     "liveSnapshotRows": 205,
@@ -70,9 +81,8 @@
   "nextTourId": "tour-26",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/summerfest2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/summerfest2020-final-known-source-date-duration-and18-video-review-20261019.json",
   "sourceDispositionAudit": "archive/summerfest2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "282385b3493bd6b83336c20d2fe6bea83e72c014",
   "additionalWrVideoPreservation": {
     "checkedAt": "2026-10-16",
     "newOriginalFullRunUploads": 1,
@@ -80,5 +90,13 @@
     "evidence": "artifacts/summerfest2020-three-original-video-r2-preservation-20261016.json",
     "datesAndDurationsUnchanged": true,
     "exhaustiveVideoPreservationComplete": false
-  }
+  },
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 80,
+  "remainingSupportingSourceGaps": 18,
+  "allSupportingSourcesResolved": false,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/summerfest2020-final-known-source-date-duration-and18-video-review-live-receipt-20261019.json",
+  "latestSourceClockAndDurationAudit": "artifacts/summerfest2020-final-source-clock-and-duration-audit-20261019.json",
+  "wholeGoalComplete": false,
+  "priorPublicationCommit": "282385b3493bd6b83336c20d2fe6bea83e72c014"
 }
