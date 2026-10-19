@@ -47,7 +47,9 @@
     "artifacts/kamek2021-original-video-publication-and-recovery-recheck-20261019.json",
     "artifacts/kamek2021-final-wins-late-submission-date-retained-20261019.json",
     "artifacts/kamek2021-final-late-submission-standing-clock-and-duration-correction-20261019.json",
-    "artifacts/kamek2021-vanilla-wr-submission-clock-duration-semantic-audit-20261019.json"
+    "artifacts/kamek2021-vanilla-wr-submission-clock-duration-semantic-audit-20261019.json",
+    "artifacts/kamek2021-kj-late-submission-date-and-proof-addendum-20261019.json",
+    "artifacts/kamek2021-kj-late-supplementary-original-image-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/kamek-2021-reconciliation.json",
@@ -93,7 +95,8 @@
     "Original result, upload and share clocks remain distinct.",
     "Eight partial technique/attempt clips preserved; no completed run inferred from them. Exact race dates and inaccessible originals remain qualified.",
     "All 17 R2 objects passed full SHA256 and byte-length checks, representing 15 distinct files: seven completed runs and eight partial clips. Both final WR recordings are preserved; exact race dates and deleted/private or unindexed source history remain qualified.",
-    "Fourteen worksheet entries lack supported dated source or identity matches. Final Wins1:02.44 was submitted after tour rollover and remains eligible, dated September8 by its documented submission. Earlier original race dates remain unresolved where not independently documented. Both final WR recordings are preserved; seven completed recordings and eight partial clips are represented by17 objects and15 distinct hashes. Clips remain separate from completed runs."
+    "Thirteen worksheet entries lack supported dated source or identity matches. Final Wins1:02.44 was submitted after tour rollover and remains eligible, dated September8 by its documented submission. Earlier original race dates remain unresolved where not independently documented. Both final WR recordings are preserved; seven completed recordings and eight partial clips are represented by17 objects and15 distinct hashes. Clips remain separate from completed runs.",
+    "KJ1:03.04 was posted September8 at06:01:03.654UTC, explicitly late; its Kamek worksheet date and original screenshot are reconciled without WR promotion."
   ],
   "validation": {
     "liveSnapshotRows": 341,
@@ -124,12 +127,12 @@
   },
   "knownWRReviewComplete": true,
   "latestDateDurationReview": "artifacts/kamek2021-final-known-source-date-duration-and17-video-review-20261019.json",
-  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/kamek2021-final-known-source-date-duration-and17-video-review-live-receipt-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/kamek2021-final-known-source-date-duration-and17-video-review-with-kj-live-receipt-20261019.json",
   "dateDurationAndMediaReview": {
-    "newWorksheetDatesRecovered": 40,
-    "sourceRowsMatched": 40,
+    "newWorksheetDatesRecovered": 41,
+    "sourceRowsMatched": 41,
     "worksheetDateCorrections": [],
-    "sourceClockRowsVerified": 289,
+    "sourceClockRowsVerified": 290,
     "durationRowsVerified": 340,
     "wrDurationClockCorrections": [
       {
@@ -312,13 +315,6 @@
       },
       {
         "courseId": "rmx-vanilla-lake-1",
-        "id": "sheet-WN32",
-        "playerId": "kj",
-        "time": "1:03.04",
-        "reason": "No supported named dated source or identity match; retain as internal source gap."
-      },
-      {
-        "courseId": "rmx-vanilla-lake-1",
         "id": "sheet-WN36",
         "playerId": "aioi",
         "time": "1:03.12",
@@ -335,6 +331,7 @@
     "preservedSourceImages": 164,
     "storedVideoObjects": 17,
     "distinctStoredVideoHashes": 15,
-    "sourceProofPreservationPatches": 40
+    "sourceProofPreservationPatches": 42,
+    "supplementarySourceImages": 1
   }
 }

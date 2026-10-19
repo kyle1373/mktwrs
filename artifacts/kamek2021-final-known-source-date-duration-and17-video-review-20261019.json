@@ -1,7 +1,7 @@
 {
   "tourId": "tour-51",
   "sourceCommit": "5b0d923220e937dab1277044a6ba91fe0734f893",
-  "newWorksheetDatesRecovered": 40,
+  "newWorksheetDatesRecovered": 41,
   "newDateRows": [
     {
       "courseId": "snes-rainbow-road-r",
@@ -242,9 +242,15 @@
       "id": "sheet-WN38",
       "time": "1:03.59",
       "timestamp": "2021-08-26T18:41:50.732Z"
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1",
+      "id": "sheet-WN32",
+      "time": "1:03.04",
+      "timestamp": "2021-09-08T06:01:03.654Z"
     }
   ],
-  "sourceRowsMatched": 40,
+  "sourceRowsMatched": 41,
   "worksheetDateCorrections": [],
   "wrDurationClockCorrections": [
     {
@@ -348,8 +354,8 @@
     }
   ],
   "sourceClockRowsCorrected": 0,
-  "sourceProofPreservationPatches": 40,
-  "rawPublicationPatchesAdded": 41,
+  "sourceProofPreservationPatches": 42,
+  "rawPublicationPatchesAdded": 43,
   "remainingUndatedSupportingRows": [
     {
       "courseId": "snes-rainbow-road-r",
@@ -430,13 +436,6 @@
     },
     {
       "courseId": "rmx-vanilla-lake-1",
-      "id": "sheet-WN32",
-      "playerId": "kj",
-      "time": "1:03.04",
-      "reason": "No supported named dated source or identity match; retain as internal source gap."
-    },
-    {
-      "courseId": "rmx-vanilla-lake-1",
       "id": "sheet-WN36",
       "playerId": "aioi",
       "time": "1:03.12",
@@ -454,7 +453,7 @@
   "storedVideoObjects": 17,
   "distinctStoredVideoHashes": 15,
   "previouslyVerifiedWorksheetAssociationCorrectionsAndRetrospectiveDurationBoundsRetained": true,
-  "supplementarySavedSourceImagesPreserved": 0,
+  "supplementarySavedSourceImagesPreserved": 1,
   "finalLateSubmissionDateRetained": true,
   "finalWrFootageFullyPreserved": true,
   "dateAudit": {
@@ -7728,7 +7727,7 @@
   "wholeGoalComplete": false,
   "lateSubmissionReview": "artifacts/kamek2021-final-wins-late-submission-date-retained-20261019.json",
   "laterTourSourceClockRowsDeferred": 2,
-  "sourceClockRowsVerified": 289,
+  "sourceClockRowsVerified": 290,
   "durationRowsVerified": 340,
   "independentClockAndDurationAudit": "artifacts/kamek2021-independent-source-clock-and-duration-audit-20261019.json",
   "freshOriginalSourceProofReview": "artifacts/kamek2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
@@ -7739,5 +7738,9 @@
   "selectedRecordingsAreSlowerThanFinalWrs": false,
   "retainedSourceGapPolicy": "Close known WR review with explicitly retained gaps; unsupported dates and anonymous identity assignments are not invented.",
   "lateSubmissionStandingClockReview": "artifacts/kamek2021-final-late-submission-standing-clock-and-duration-correction-20261019.json",
-  "independentSubmissionClockDurationSemanticAudit": "artifacts/kamek2021-vanilla-wr-submission-clock-duration-semantic-audit-20261019.json"
+  "independentSubmissionClockDurationSemanticAudit": "artifacts/kamek2021-vanilla-wr-submission-clock-duration-semantic-audit-20261019.json",
+  "kjLateSubmissionAddendum": "artifacts/kamek2021-kj-late-submission-date-and-proof-addendum-20261019.json",
+  "supplementaryImageAudit": "artifacts/kamek2021-kj-late-supplementary-original-image-r2-preservation-20261019.json",
+  "indexedOriginalSourceImagesPreserved": 164,
+  "totalOriginalSourceImagesPreservedIncludingSupplementary": 165
 }
