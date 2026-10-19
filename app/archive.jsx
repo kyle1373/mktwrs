@@ -41,7 +41,7 @@ function EvidenceTimes({ r }) {
   const shares = [...(r.videoShareEvents || [])];
   if (r.videoSharedAt && !shares.some(event => event.sharedAt === r.videoSharedAt))
     shares.unshift({sharedAt: r.videoSharedAt, source: r.videoShareSource});
-  if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.correctedReceiptAt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.screenshotSourceTimes?.length && !r.recoveredSourcePost) return null;
+  if (!(r.announcementOnlyProof && r.announcedAt) && !r.submittedAt && !r.earlierSubmissionReceipt && !r.correctedReceiptAt && !r.videoSubmittedAt && !r.videoPublishedAt && !shares.length && !r.forumSourceTimes?.length && !r.sourceReportTimes?.length && !r.resultReportTimes?.length && !r.screenshotSourceTimes?.length && !r.recoveredSourcePost && !r.originalWorksheetProofUpload && !r.originalResultImageClock) return null;
   return <details className="evidence-times">
     <summary>Submission, report and video times</summary>
     {r.announcementOnlyProof && r.announcedAt && <div>WR announcement: <a href={r.source?.url} target="_blank" rel="noopener noreferrer">{format(r.announcedAt)}</a><div>Source posting date used as the submission date. This retrospective post attributes the result to {r.tourDateRange ? `${r.tourDateRange.start} – ${r.tourDateRange.end}` : "the earlier tour"}.</div></div>}
@@ -55,6 +55,14 @@ function EvidenceTimes({ r }) {
       {source.forumLastEditDisplayed && <div>Last forum edit: {source.forumLastEditUTC ? format(source.forumLastEditUTC) : source.forumLastEditDisplayed}{source.forumTimezoneKnown !== true && " (timezone unknown)"}</div>}
       <div>Dates follow the surviving posts. Historical edit contents remain unconfirmed.</div>
     </div>)}
+
+    {r.originalWorksheetProofUpload && <div>
+      Original worksheet proof uploaded: <a href={r.originalWorksheetProofUpload.reviewURL} target="_blank" rel="noopener noreferrer">{format(r.originalWorksheetProofUpload.uploadedAt)}</a>
+      <div>Date follows this original proof upload.</div>
+    </div>}
+    {r.originalResultImageClock && <div>
+      Result image clock: {r.originalResultImageClock.localMinute.replace("T", " ")}{r.originalResultImageClock.timezoneEstablished !== true && " (time zone unconfirmed)"}
+    </div>}
 
     {(r.screenshotSourceTimes || []).map(source => <div key={source.url + "|" + source.postedAt}>
       Result image posted: <a href={source.url} target="_blank" rel="noopener noreferrer">{format(source.postedAt)}</a>

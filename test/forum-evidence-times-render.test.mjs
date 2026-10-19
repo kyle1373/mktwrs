@@ -83,3 +83,32 @@ test('Dark original image-post clocks render separately from its earlier capture
  assert.match(html,/639823450353041419/);
  assert.doesNotMatch(html,/Submitted:|Runner result/);
 });
+
+test('original worksheet uploads supply UTC dates without fabricating runner submission times',()=>{
+ for (const [course,id,date,at] of [
+  ['3ds-neo-bowser-city','curated-637479815665942539-3ds-neo-bowser-city','2019-10-24','2019-10-24T18:29:45.738Z'],
+  ['gcn-dino-dino-jungle','curated-637479815665942539-gcn-dino-dino-jungle','2019-10-26','2019-10-26T02:18:57.255Z'],
+ ]) {
+  const r=routeData(['course',course]).data.records.find(r=>r.id===id);
+  assert.equal(r.finalDate,date);assert.equal(r.documentedAt,at);
+  assert.equal(r.durationPrecision,'timestamp');
+  assert.equal(r.durationBounds.minDays,r.durationBounds.maxDays);
+  assert.equal(r.originalWorksheetProofUpload.uploadedAt,at);
+  const html=render(r);
+  assert.match(html,/Original worksheet proof uploaded:/);
+  assert.match(html,/Date follows this original proof upload/);
+  assert.match(html,/two-original-worksheet-proof-upload-clocks-reconciliation/);
+  assert.doesNotMatch(html,/Submitted:/);
+ }
+});
+test('Unreal original image clock stays distinct from its source upload clock',()=>{
+ const r=routeData(['course','3ds-neo-bowser-city']).data.records.find(r=>r.id==='curated-637479815665942539-3ds-neo-bowser-city');
+ const html=render(r);
+ assert.match(html,/2019-10-24 18:29:45 UTC/);
+ assert.match(html,/Result image clock: 2019-10-24 18:23 \(time zone unconfirmed\)/);
+});
+test('proof-upload-only evidence renders independently of submission and report clocks',()=>{
+ const html=render({originalWorksheetProofUpload:{uploadedAt:'2019-10-26T02:18:57.255Z',reviewURL:'https://media.mktwrs.com/review.json'}});
+ assert.match(html,/2019-10-26 02:18:57 UTC/);
+ assert.doesNotMatch(html,/Submitted:|Result image posted:|Forum report:/);
+});
