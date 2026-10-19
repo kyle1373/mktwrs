@@ -1071,7 +1071,7 @@
   "tour-45": {
     "status": "completed-with-documented-gaps",
     "label": "Completed with documented gaps",
-    "completedAt": "2026-10-13",
+    "completedAt": "2026-10-19",
     "evidenceUrl": "/data/wedding2021-completion.json",
     "priorPracticalReview": {
       "status": "completed-with-documented-gaps",
@@ -1080,9 +1080,35 @@
       "evidenceUrl": "/data/wedding2021-completion.json"
     },
     "historyComplete": false,
-    "auditedAt": "2026-10-12",
+    "auditedAt": "2026-10-19",
     "practicalReviewComplete": true,
-    "latestEvidenceReconciliation": "2026-10-13"
+    "latestEvidenceReconciliation": "2026-10-19",
+    "knownWRReviewComplete": true,
+    "archivedRecordingComparisonPublished": true,
+    "dateDurationReconciliation": {
+      "audit": "artifacts/wedding2021-final-known-source-date-duration-and21-video-review-20261019.json",
+      "sourceClockAudit": "artifacts/wedding2021-independent-source-clock-and-duration-audit-20261019.json",
+      "newWorksheetDatesRecovered": 34,
+      "sourceRowsMatched": 40,
+      "correctedPriorWorksheetDates": 0,
+      "remainingSupportingSourceGaps": 30,
+      "remainingActualWorksheetResultGaps": 7,
+      "remainingWorksheetPlaceholders": 23,
+      "currentTourExactSourceClockMismatches": 0,
+      "sourceClockRowsCorrected": 3,
+      "wrDurationClockCorrections": [
+        {
+          "courseId": "3ds-mario-circuit",
+          "id": "curated-wedding-2021-tome-twitter-1404728947196055555",
+          "time": "1:34.35",
+          "playerId": "tomegome",
+          "previousDurationDays": 0.8046087731481482,
+          "durationDays": 0.8046056481481482,
+          "deltaSeconds": -0.26999999999937074
+        }
+      ]
+    },
+    "latestPublicationAudit": "artifacts/wedding2021-final-known-source-date-duration-and21-video-review-20261019.json"
   },
   "tour-46": {
     "status": "completed-with-documented-gaps",

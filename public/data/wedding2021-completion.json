@@ -2,7 +2,7 @@
   "tourId": "tour-45",
   "tour": "Wedding Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, prior selected-video finish, R2 access, opening-day publication policy and live publication verified.",
   "exhaustiveHistoryProven": false,
   "window": {
@@ -100,7 +100,7 @@
   "nextTourId": "tour-46",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/wedding2021-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/wedding2021-final-known-source-date-duration-and21-video-review-20261019.json",
   "sourceDispositionAudit": "archive/wedding2021-practical-source-coverage-disposition-20261013.json",
   "sourceCommit": "6945bfde967d5ff330da80fd07441377b19b4540",
   "videoPreservationReview": {
@@ -116,5 +116,53 @@
     "finalWrFootageFullyPreserved": false,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "latestEvidenceReconciliation": "2026-10-19",
+  "knownWRReviewComplete": true,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/wedding2021-final-known-source-date-duration-and21-video-review-live-receipt-20261019.json",
+  "dateDurationReconciliation": {
+    "audit": "artifacts/wedding2021-final-known-source-date-duration-and21-video-review-20261019.json",
+    "sourceClockAudit": "artifacts/wedding2021-independent-source-clock-and-duration-audit-20261019.json",
+    "newWorksheetDatesRecovered": 34,
+    "sourceRowsMatched": 40,
+    "correctedPriorWorksheetDates": 0,
+    "remainingSupportingSourceGaps": 30,
+    "remainingActualWorksheetResultGaps": 7,
+    "remainingWorksheetPlaceholders": 23,
+    "currentTourExactSourceClockMismatches": 0,
+    "sourceClockRowsCorrected": 3,
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "3ds-mario-circuit",
+        "id": "curated-wedding-2021-tome-twitter-1404728947196055555",
+        "time": "1:34.35",
+        "playerId": "tomegome",
+        "previousDurationDays": 0.8046087731481482,
+        "durationDays": 0.8046056481481482,
+        "deltaSeconds": -0.26999999999937074
+      }
+    ]
+  },
+  "sourceImagePreservationReview": {
+    "audit": "artifacts/wedding2021-all166-original-source-images-r2-preservation-20261019.json",
+    "originalSourceImages": 166,
+    "allFullPublicBytesAndDecodeVerified": true
+  },
+  "latestVideoPreservationReview": {
+    "audit": "artifacts/wedding2021-all21-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "storedObjects": 21,
+    "distinctFileHashes": 20,
+    "byteIdenticalDuplicateObjects": 1,
+    "allFullPublicBytesDecodeAndRangeVerified": true,
+    "originalRecoveryCheckDate": "2026-10-17",
+    "allReferencedOriginalVideosArchived": false,
+    "selectedRecordingsAreSlowerThanFinalWrs": true,
+    "finalWrFootageFullyPreserved": false
+  },
+  "latestOriginalImageAvailabilityReview": {
+    "audit": "artifacts/wedding2021-unavailable-original-final-wr-image-source-review-20261019.json",
+    "unavailableOriginalProofReferences": 1,
+    "originalBytesRecovered": false,
+    "sourceReferenceRetained": true
   }
 }
