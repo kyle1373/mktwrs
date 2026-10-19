@@ -2,8 +2,8 @@
   "tourId": "tour-26",
   "tour": "Super Mario Kart Tour (2020)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior visual and adjacent-source reviews retained; preserved image hashes, source publication crosswalk, selected-video finish, R2 access, both opening-day policies and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Practical surviving-source review: original result images freshly compared; named contemporary reports reconcile supporting dates; exact source clocks and playable duration sums verified; originals preserved on R2.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2020-09-09T06:00:00Z",
@@ -13,16 +13,19 @@
     {
       "id": "snes-ghost-valley-1r",
       "archivedWr": "0:40.52",
-      "fastestDocumentedAvailableRecording": "0:40.89",
-      "recordingPlayerId": "heria",
-      "resultOnlyClipTime": "0:40.59"
+      "fastestDocumentedAvailableRecording": "0:40.59",
+      "recordingPlayerId": "superfx",
+      "resultOnlyClipTime": "0:40.59",
+      "recordingScope": "full-run"
     },
     {
       "id": "n64-royal-raceway",
       "archivedWr": "1:34.04",
-      "fastestDocumentedAvailableRecording": null,
+      "fastestDocumentedAvailableRecording": "1:34.87",
       "lateStartFootageTime": "1:34.87",
-      "lateStartFootagePlayerId": "superfx"
+      "lateStartFootagePlayerId": "superfx",
+      "recordingPlayerId": "superfx",
+      "recordingScope": "full-run"
     }
   ],
   "evidence": [
@@ -39,7 +42,12 @@
     "archive/supermario2020-eleven-context-clips-r2-preservation-20261013.json",
     "archive/supermario2020-preserved-source-index-and-image-integrity-20261013.json",
     "archive/supermario2020-discussion-image-source-publication-crosswalk-20261013.json",
-    "archive/supermario2020-opening-day-policy-generation-check-20261013.json"
+    "archive/supermario2020-opening-day-policy-generation-check-20261013.json",
+    "artifacts/supermario2020-all266-original-source-images-r2-preservation-20261019.json",
+    "artifacts/supermario2020-reviewed-original-source-dates-and22-video-reconciliation-20261019.json",
+    "artifacts/supermario2020-final-source-clock-and-duration-audit-20261019.json",
+    "artifacts/supermario2020-final18-supporting-source-gap-dispositions-20261019.json",
+    "artifacts/supermario2020-six-original-movies-current-access-review-20261019.json"
   ],
   "preservedLocalReview": {
     "source": "archive/supermario2020-discussion-review-progress.json",
@@ -49,20 +57,25 @@
   },
   "coverage": {
     "selectedRecordingsPreservedOnR2": 2,
-    "completedRunRecordingsPreservedOnR2": 1,
+    "completedRunRecordingsPreservedOnR2": 3,
     "lateStartRecordingsPreservedOnR2": 1,
-    "additionalCompletedRecordingsPreservedOnR2": 0,
-    "partialClipsPreservedOnR2": 10,
-    "resultScreenClipsPreservedOnR2": 1,
+    "additionalCompletedRecordingsPreservedOnR2": 1,
+    "partialClipsPreservedOnR2": 15,
+    "resultScreenClipsPreservedOnR2": 2,
     "discussionImageDispositions": 266,
     "discussionImageHashesVerified": 266,
-    "discussionMessagesIndexed": 3060
+    "discussionMessagesIndexed": 3060,
+    "allOriginalSourceImagesPreservedOnR2": 266,
+    "originalVideoObjectsFullBytesDecodedAndRangeVerified": 22,
+    "fullRunOriginalVideos": 5,
+    "partialOriginalVideos": 15,
+    "resultMenuOriginalEncodings": 2,
+    "distinctFullRunPerformances": 3
   },
   "remainingLimitations": [
-    "Both final WR recordings unavailable. Ghost Valley 0:40.89 completed footage and Royal Raceway 1:34.87 late-start footage shown separately.",
-    "Previous-best dates and unavailable originals remain unresolved.",
-    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
-    "Ten technique and one result-screen clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+    "Both final WR recordings remain unavailable. Full SuperFX40.59 and1:34.87 originals are preserved and separately published as best surviving footage.",
+    "18 supporting source gaps remain including11worksheet placeholders. Private race dates and missing originals are not invented.",
+    "18 supporting worksheet rows retained as source/identity gaps including11placeholders.81 matching sources recover80dates and correct1wrong date source. Missing originals and private run clocks remain unsupported; no exhaustive history certification."
   ],
   "validation": {
     "liveSnapshotRows": 489,
@@ -76,9 +89,8 @@
   "nextTourId": "tour-27",
   "practicalReviewComplete": true,
   "historyComplete": false,
-  "latestPublicationAudit": "archive/supermario2020-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/supermario2020-final-known-source-date-duration-and22-video-review-20261019.json",
   "sourceDispositionAudit": "archive/supermario2020-practical-source-coverage-disposition-20261013.json",
-  "sourceCommit": "e15115bdf015bcf5f23721a26d8965bebf347c4c",
   "additionalWrVideoPreservation": {
     "checkedAt": "2026-10-16",
     "newSuppliedOriginalUploads": 2,
@@ -87,5 +99,35 @@
     "evidence": "artifacts/supermario2020-two-supplied-originals-and-result-clip-r2-preservation-20261016.json",
     "datesAndDurationsUnchanged": true,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "priorRemainingLimitations": [
+    "Both final WR recordings unavailable. Ghost Valley 0:40.89 completed footage and Royal Raceway 1:34.87 late-start footage shown separately.",
+    "Previous-best dates and unavailable originals remain unresolved.",
+    "Prior visual review retained; identities and hashes freshly checked. No exhaustive history certification.",
+    "Ten technique and one result-screen clip are contextual evidence, not completed runs. Exact race dates and inaccessible originals remain qualified."
+  ],
+  "knownWRReviewComplete": true,
+  "newWorksheetDatesRecovered": 80,
+  "remainingSupportingSourceGaps": 18,
+  "allSupportingSourcesResolved": false,
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/supermario2020-final-known-source-date-duration-and22-video-review-live-receipt-20261019.json",
+  "latestSourceClockAndDurationAudit": "artifacts/supermario2020-final-source-clock-and-duration-audit-20261019.json",
+  "wholeGoalComplete": false,
+  "priorPublicationCommit": "e15115bdf015bcf5f23721a26d8965bebf347c4c",
+  "priorCoverage": {
+    "selectedRecordingsPreservedOnR2": 2,
+    "completedRunRecordingsPreservedOnR2": 1,
+    "lateStartRecordingsPreservedOnR2": 1,
+    "additionalCompletedRecordingsPreservedOnR2": 0,
+    "partialClipsPreservedOnR2": 10,
+    "resultScreenClipsPreservedOnR2": 1,
+    "discussionImageDispositions": 266,
+    "discussionImageHashesVerified": 266,
+    "discussionMessagesIndexed": 3060,
+    "allOriginalSourceImagesPreservedOnR2": 266,
+    "originalVideoObjectsFullBytesDecodedAndRangeVerified": 22,
+    "fullRunOriginalVideos": 5,
+    "partialOriginalVideos": 15,
+    "resultMenuOriginalEncodings": 2
   }
 }
