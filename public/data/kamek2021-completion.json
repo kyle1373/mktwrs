@@ -45,7 +45,9 @@
     "artifacts/kamek2021-all164-original-source-images-r2-preservation-20261019.json",
     "artifacts/kamek2021-all17-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
     "artifacts/kamek2021-original-video-publication-and-recovery-recheck-20261019.json",
-    "artifacts/kamek2021-final-wins-late-submission-date-retained-20261019.json"
+    "artifacts/kamek2021-final-wins-late-submission-date-retained-20261019.json",
+    "artifacts/kamek2021-final-late-submission-standing-clock-and-duration-correction-20261019.json",
+    "artifacts/kamek2021-vanilla-wr-submission-clock-duration-semantic-audit-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/kamek-2021-reconciliation.json",
@@ -79,7 +81,7 @@
     "Nu11 0:59.99, Wins 1:02.44 and Adrishi 1:00.16 original record dates remain unresolved.",
     "Tentative shiraui lap report remains in source notes; no guessed verified splits.",
     "Attachment 881577530358910996 was re-read at full resolution as 1:02.89, not 1:02.58; it is not a world record.",
-    "Six Discord technique clips (4–10 seconds) were downloaded and visually reviewed; they are not proof of completed runs.",
+    "Six Discord technique clips (4\u201310 seconds) were downloaded and visually reviewed; they are not proof of completed runs.",
     "Nu11 previous-best0:59.96 observed without independently dated WR chronology.",
     "Prior full recording review retained without fresh uninterrupted certification.",
     "Private, deleted and unindexed global material not proven fully recovered.",
@@ -129,7 +131,107 @@
     "worksheetDateCorrections": [],
     "sourceClockRowsVerified": 289,
     "durationRowsVerified": 340,
-    "wrDurationClockCorrections": [],
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-879997129387544609-10312",
+        "time": "1:03.12",
+        "playerId": "shiraui",
+        "previousDurationDays": 0,
+        "durationDays": 0.16050555555555557,
+        "deltaSeconds": 13867.68
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-880055294644858880-10302",
+        "time": "1:03.02",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 0.06740199074074074,
+        "deltaSeconds": 5823.532
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-880079718832042054-10291",
+        "time": "1:02.91",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 0.031989780092592596,
+        "deltaSeconds": 2763.9170000000004
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-880091313574395954-10279",
+        "time": "1:02.79",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 0.07666585648148148,
+        "deltaSeconds": 6623.93
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-880119094286905364-10272",
+        "time": "1:02.72",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 1.6989209953703703,
+        "deltaSeconds": 146786.774
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-880734763453935657-10267",
+        "time": "1:02.67",
+        "playerId": "dit",
+        "previousDurationDays": 0,
+        "durationDays": 0.05537950231481482,
+        "deltaSeconds": 4784.789
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-880754832552628254-10266",
+        "time": "1:02.66",
+        "playerId": "nu11",
+        "previousDurationDays": 0,
+        "durationDays": 2.0379745833333334,
+        "deltaSeconds": 176081.00400000002
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-881493370084663316-10264",
+        "time": "1:02.64",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 0.19995681712962962,
+        "deltaSeconds": 17276.269
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-881565832843493426-10259",
+        "time": "1:02.59",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 3.9166054166666666,
+        "deltaSeconds": 338394.708
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-882985162168733706-10254",
+        "time": "1:02.54",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 1.1138798958333334,
+        "deltaSeconds": 96239.223
+      },
+      {
+        "courseId": "rmx-vanilla-lake-1",
+        "id": "curated-kamek-2021-883388818756079666-10252",
+        "time": "1:02.52",
+        "playerId": "wins",
+        "previousDurationDays": 0,
+        "durationDays": 4.561253958333333,
+        "deltaSeconds": 394092.342
+      }
+    ],
     "remainingUndatedSupportingRows": [
       {
         "courseId": "snes-rainbow-road-r",
