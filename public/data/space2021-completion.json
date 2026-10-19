@@ -2,8 +2,8 @@
   "tourId": "tour-57",
   "tour": "Space Tour (2021)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
-  "standard": "User-authorized practical evidence standard: prior image dispositions retained; preserved originals checked by hash and source crosswalk; selected recording finishes freshly sampled and files decoded; opening-day policy and live publication verified.",
+  "completedAt": "2026-10-19",
+  "standard": "Known-source WR review with documented submission/publication clocks, independently recomputed playable durations, preserved available evidence and explicit source gaps.",
   "exhaustiveHistoryProven": false,
   "window": {
     "start": "2021-11-17T06:00:00Z",
@@ -41,7 +41,14 @@
     "archive/space2021-fresh-committed-source-publication-fidelity-reconciliation-20261013.json",
     "archive/space2021-final-publication-audit-20261013.json",
     "artifacts/space2021-preserved-media-full-integrity-and-original-recovery-review-20261016.json",
-    "artifacts/space2021-superfx8191-r2-backup-association-review-20261016.json"
+    "artifacts/space2021-superfx8191-r2-backup-association-review-20261016.json",
+    "artifacts/space2021-final-known-source-date-duration-and13-video-review-20261019.json",
+    "artifacts/space2021-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/space2021-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/space2021-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/space2021-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/space2021-all13-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/space2021-all147-original-source-images-r2-preservation-20261019.json"
   ],
   "priorTourSourceReview": {
     "source": "archive/space-2021-reconciliation.json",
@@ -79,7 +86,8 @@
     "Six full original recordings and six partial clips preserved on R2. Partial clips do not establish completed race totals.",
     "Two selected full recordings freshly sampled at course/gameplay/finish and completely decoded; no fresh frame-by-frame continuity certification or worldwide fastest-recording claim.",
     "Earlier global opening WR precedence and undated previous bests remain qualified; only final fastest documented opening-day leader/ties are publicly retained.",
-    "All twelve original R2 files passed full SHA256 and byte-length checks: six completed recordings and six partial clips. SuperFX 1:21.91 now has a linked lossless MP4 playback copy, whose encoded video/audio hashes match the preserved original MOV. Both files remain archived on R2; its original result and later share clocks remain unchanged. Exact race dates and deleted/private or unindexed source history remain qualified."
+    "All twelve original R2 files passed full SHA256 and byte-length checks: six completed recordings and six partial clips. SuperFX 1:21.91 now has a linked lossless MP4 playback copy, whose encoded video/audio hashes match the preserved original MOV. Both files remain archived on R2; its original result and later share clocks remain unchanged. Exact race dates and deleted/private or unindexed source history remain qualified.",
+    "41 of43 current worksheets have supported named publication dates:39 recovered and2 retained. Ryu0:58.55 and Sucha1:23.97 remain source gaps.147 preserved image paths include145 raw source files and2 processed screenshots whose original upload identity is qualified.13 video objects comprise6 full original runs,6 partial clips and one lossless playback copy of a full run. Both final WR recordings survive. Five rounded posting clocks were corrected to exact platform milliseconds;2 WR duration values changed. Faster verified recording evidence remains a valid standing end even when the recording is not published as a WR progression row."
   ],
   "validation": {
     "liveSnapshotRows": 505,
@@ -113,5 +121,52 @@
     "tourPartialClips": 6,
     "youtubeUploadsPerformed": 0,
     "exhaustiveVideoPreservationComplete": false
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/space2021-final-known-source-date-duration-and13-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/space2021-final-known-source-date-duration-and13-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 39,
+    "sourceRowsMatched": 41,
+    "sourceClockRowsVerified": 459,
+    "durationRowsVerified": 502,
+    "wrDurationClockCorrections": [
+      {
+        "courseId": "snes-koopa-troopa-beach-2",
+        "id": "896333626478821406",
+        "time": "0:57.59",
+        "priorDays": 12.696458379629629,
+        "correctedDays": 12.696461840277777
+      },
+      {
+        "courseId": "snes-koopa-troopa-beach-2",
+        "id": "919991500782305320",
+        "time": "0:57.51",
+        "priorDays": 13.840775462962963,
+        "correctedDays": 13.840772002314814
+      }
+    ],
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "snes-koopa-troopa-beach-2",
+        "id": "sheet-AAN31",
+        "playerId": "ryu",
+        "time": "0:58.55",
+        "reason": "No independently supported named dated source or identity crosswalk; retain internal source gap."
+      },
+      {
+        "courseId": "rmx-rainbow-road-2r",
+        "id": "sheet-AAV17",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "time": "1:23.97",
+        "reason": "No independently supported named dated source or identity crosswalk; retain internal source gap."
+      }
+    ],
+    "indexedSourceImageFiles": 143,
+    "totalPreservedSourceFiles": 147,
+    "distinctSourceHashes": 142,
+    "storedVideoObjects": 13,
+    "distinctStoredVideoHashes": 13,
+    "rawPublicationPatchesAdded": 86
   }
 }
