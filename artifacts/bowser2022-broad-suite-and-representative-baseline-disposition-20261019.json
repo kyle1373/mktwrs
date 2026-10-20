@@ -1,0 +1,37 @@
+{
+  "tourId": "tour-77",
+  "sourceCommit": "cd978af716cc9ee7e59838b17aa6b0aa5b406649",
+  "broadSuite": {
+    "tests": 810,
+    "passed": 453,
+    "failed": 357,
+    "fullSuiteGreen": false,
+    "logSHA256": "2412336ffa16dece6339d8695d1f6bc1e1080e4025cf4b5dc2ce52f3f74e0354"
+  },
+  "representativeBaseline": {
+    "tests": 6,
+    "passed": 1,
+    "failed": 5,
+    "sameFailureNames": [
+      "Animal 2023 carries faster documentary records rather than stale screening WRs",
+      "Available recording comparisons distinguish verified results from uploader-reported footage",
+      "Animal support uses source dates and only the fastest opening-day result",
+      "Animal strategy clips are preserved with posting clocks and no completed result",
+      "recovered videos enrich historical records without replacing original submission dates"
+    ],
+    "logSHA256": "5510f3095c45f06d8cd15b7ed48621c70f72aa0bc07db864a5cc22e32f5c3736",
+    "committedImplementationFilesVerified": [
+      "lib/data.mjs",
+      "lib/video.mjs",
+      "lib/opening-day.mjs",
+      "public/history.mjs"
+    ],
+    "unaffectedInputCourseFilesVerified": [
+      "n64-choco-mountain",
+      "n64-yoshi-valley-r",
+      "snes-ghost-valley-1r"
+    ]
+  },
+  "interpretation": "Five representative failures reproduced against unchanged committed implementation and unaffected course inputs. Legacy tests reference removed per-tour page properties or expect a preserved backup URL in the original-video column. Remaining broad failures were not individually diagnosed; global suite is not claimed green.",
+  "wholeGoalComplete": false
+}
