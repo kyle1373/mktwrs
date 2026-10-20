@@ -3,7 +3,7 @@
   "tour": "Space Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Surviving captured sources reconciled with good-enough documentary proof; exhaustive worldwide history is not certified.",
-  "completedAt": "2026-10-18",
+  "completedAt": "2026-10-20",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -27,7 +27,8 @@
         "durationEnd": "2025-01-14T13:48:12.670Z"
       },
       "worksheetRowsDated": 13,
-      "recordingReviewBasis": "Prior movie visual assessment retained by exact original hash; no fresh uninterrupted continuity certification."
+      "recordingReviewBasis": "Prior movie visual assessment retained by exact original hash; no fresh uninterrupted continuity certification.",
+      "datedTourHistory": []
     },
     {
       "courseId": "n64-kalimari-desert-2",
@@ -44,7 +45,17 @@
         "durationEnd": "2024-01-24T06:03:32.560Z"
       },
       "worksheetRowsDated": 18,
-      "recordingReviewBasis": "Prior movie visual assessment retained by exact original hash; no fresh uninterrupted continuity certification."
+      "recordingReviewBasis": "Prior movie visual assessment retained by exact original hash; no fresh uninterrupted continuity certification.",
+      "datedTourHistory": [
+        {
+          "id": "1204260087687024680",
+          "playerId": "kno2",
+          "time": "1:03.32",
+          "documentedAt": "2024-01-24T06:03:32.560Z",
+          "durationDays": 28,
+          "durationEnd": "2026-09-30T06:00:00.000Z"
+        }
+      ]
     }
   ],
   "coverage": {
@@ -93,7 +104,13 @@
     "artifacts/space2024-source-date-and-original-image-r2-integrity-20261018.json",
     "artifacts/space2024-two-preserved-videos-full-get-and-decode-review-20261018.json",
     "artifacts/space2024-wr-proof-and-recording-selection-validation-20261018.json",
-    "https://media.mktwrs.com/assets/proof/space2024-live-publication-verification-20261018.json"
+    "https://media.mktwrs.com/assets/proof/space2024-live-publication-verification-20261018.json",
+    "artifacts/space2024-final-known-source-date-duration-and2-video-review-20261020.json",
+    "artifacts/space2024-all32-worksheet-source-date-crosscheck-20261020.json",
+    "artifacts/space2024-all58-original-media-and-source-metadata-full-byte-decode-and-range-verification-20261020.json",
+    "artifacts/space2024-carried-summary-against-authoritative-course-review-20261020.json",
+    "artifacts/space2024-independent-known-wr-semantic-duration-review-20261020.json",
+    "artifacts/space2024-independent-source-clock-and-duration-audit-20261020.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless evidence establishes otherwise. Video publication and sharing clocks stay separate. Late posts keep their actual dates and documented tour attribution.",
   "remainingLimitations": [
@@ -103,7 +120,11 @@
     "All50 original image URLs, one qualified resized source, two carried proof representations and three source audits pass fullGET/SHA/bytes/MIME/directRange206. Both preserved movies fully decode.",
     "Cheep Cheep Island R archived WR and available movie are1:11.78; Kalimari archived WR1:03.32 and best available supported movie1:03.36 remain distinct.",
     "Prior visual assessments retained by exact hashes; no fresh full-frame continuity audit.",
-    "Global2019\u20132026 review remains in progress."
+    "Global2019–2026 review remains in progress.",
+    "Current revalidation independently crosschecks691 supported source timestamps,718 numeric duration rows and26 known WR reigns across both course histories.31of32 current worksheet source clocks match; Super Novar BLD17 retains its identity/date gap.26 older supporting rows remain undated without invented dates.",
+    "All53 original/supporting image representations, three metadata objects and two original movies pass full public R2 byte/hash, partial-download and decode checks.51 own-manifest references match verified bytes, including a qualified resized earlier-tour source and eight unassigned closing images. Both movies contain original audio. Prior assessments retained without fresh uninterrupted-race certification.",
+    "The two carried standings and the late attributed1:03.32 WR agree with independently checked source clocks and playable durations. The late WR remains in history with zero current-tour playable days and28 days across subsequent appearances. The completion summary explicitly lists this late WR alongside the carried standings.",
+    "Cheep Cheep Island R WR and recording remain1:11.78; Kalimari WR1:03.32 remains distinct from its available1:03.36 recording. Existing course dates, durations, identities and media links remain unchanged. Global2019–2026archive and exhaustive Discord coverage remain unproved."
   ],
   "validation": {
     "dateDurationAndProfileScopePassed": true,
@@ -197,5 +218,52 @@
       "id": "private-achievement-and-worldwide-history",
       "reason": "Documented submission or earlier supported publication dates do not certify private achievement dates or lost/unsubmitted worldwide history."
     }
-  ]
+  ],
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/space2024-final-known-source-date-duration-and2-video-review-20261020.json",
+  "latestPublicationAudit": "artifacts/space2024-final-known-source-date-duration-and2-video-review-20261020.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/space2024-final-known-source-date-duration-and2-video-review-live-receipt-20261020.json",
+  "dateDurationAndMediaReview": {
+    "tourId": "tour-113",
+    "sourceCommit": "2ebb27fd9acedf2f889d10008313162788268ff6",
+    "knownWRReviewComplete": true,
+    "livePublicationVerified": false,
+    "exactSourceClockRowsVerified": 691,
+    "durationRowsVerified": 718,
+    "knownWRReignsVerified": 26,
+    "currentTourWRReignsVerified": 1,
+    "lateWRCurrentTourPlayableDays": 0,
+    "carriedStandingsVerified": 2,
+    "worksheetRowsReviewed": 32,
+    "worksheetRowsDated": 31,
+    "currentWorksheetDateGaps": 1,
+    "retainedUndatedOtherTourSupportingRows": 26,
+    "originalImageRepresentationsVerified": 53,
+    "metadataObjectsVerified": 3,
+    "originalMoviesVerified": 2,
+    "currentCompletedMovies": 0,
+    "currentSingleLapMovies": 0,
+    "earlierCarriedWRMovies": 2,
+    "allOriginalMoviesContainAudio": true,
+    "existingCourseDatesAndDurationsUnchanged": true,
+    "allThreeCompletionSummariesMatchCourses": true,
+    "noFrameworkCodeChanged": true,
+    "freshLiteralVisualReviewClaimed": false,
+    "freshUninterruptedRaceCertificationClaimed": false,
+    "limitations": [
+      "31 of32 worksheet entries have supported exact source timestamps; Super Novar1:13.18 retains an attribution/date gap.",
+      "One late attributed WR and two carried standings have exact documentary dates and independently recomputed playable durations. No new WR IDs or account merges.",
+      "Kalimari1:03.32 was posted2024-01-24T06:03:32.560Z, after the06UTCreset, so it receives zero current-tour playable days and28days from later appearances.",
+      "All50 original image URLs, one qualified resized source, two carried proof representations and three source audits pass fullGET/SHA/bytes/MIME/directRange206. Both preserved movies fully decode.",
+      "Cheep Cheep Island R archived WR and available movie are1:11.78; Kalimari archived WR1:03.32 and best available supported movie1:03.36 remain distinct.",
+      "Prior visual assessments retained by exact hashes; no fresh full-frame continuity audit.",
+      "Global2019–2026 review remains in progress.",
+      "Current revalidation independently crosschecks691 supported source timestamps,718 numeric duration rows and26 known WR reigns across both course histories.31of32 current worksheet source clocks match; Super Novar BLD17 retains its identity/date gap.26 older supporting rows remain undated without invented dates.",
+      "All53 original/supporting image representations, three metadata objects and two original movies pass full public R2 byte/hash, partial-download and decode checks.51 own-manifest references match verified bytes, including a qualified resized earlier-tour source and eight unassigned closing images. Both movies contain original audio. Prior assessments retained without fresh uninterrupted-race certification.",
+      "The two carried standings and the late attributed1:03.32 WR agree with independently checked source clocks and playable durations. The late WR remains in history with zero current-tour playable days and28 days across subsequent appearances. The completion summary explicitly lists this late WR alongside the carried standings.",
+      "Cheep Cheep Island R WR and recording remain1:11.78; Kalimari WR1:03.32 remains distinct from its available1:03.36 recording. Existing course dates, durations, identities and media links remain unchanged. Global2019–2026archive and exhaustive Discord coverage remain unproved."
+    ],
+    "historyComplete": false,
+    "wholeGoalComplete": false
+  }
 }
