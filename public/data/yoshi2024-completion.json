@@ -3,7 +3,7 @@
   "tour": "Yoshi Tour (2024)",
   "status": "completed-with-documented-gaps",
   "standard": "Preserved captured sources reconciled with good-enough documentary proof.",
-  "completedAt": "2026-10-18",
+  "completedAt": "2026-10-20",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -27,7 +27,41 @@
         "durationEnd": "2024-04-16T12:30:00.958Z"
       },
       "worksheetRowsDated": 16,
-      "recordingReviewBasis": "Prior result assessments retained by exact original movie hashes; no new uninterrupted continuity certification."
+      "recordingReviewBasis": "Prior result assessments retained by exact original movie hashes; no new uninterrupted continuity certification.",
+      "datedTourHistory": [
+        {
+          "id": "curated-1229770775679078441-yoshi2024-discussion-image-reviewed",
+          "playerId": "wins",
+          "time": "1:31.41",
+          "documentedAt": "2024-04-16T12:30:00.958Z",
+          "durationDays": 0.023547060185185185,
+          "durationEnd": "2024-04-16T13:03:55.424Z"
+        },
+        {
+          "id": "curated-1229779308847829093-yoshi2024-discussion-image-reviewed",
+          "playerId": "wins",
+          "time": "1:31.34",
+          "documentedAt": "2024-04-16T13:03:55.424Z",
+          "durationDays": 0.06955373842592592,
+          "durationEnd": "2024-04-16T14:44:04.867Z"
+        },
+        {
+          "id": "curated-1229804749059260496-yoshi2024-image-reviewed",
+          "playerId": "wins",
+          "time": "1:31.26",
+          "documentedAt": "2024-04-16T14:44:04.867Z",
+          "durationDays": 0.6360547800925926,
+          "durationEnd": "2024-04-17T06:00:40.383Z"
+        },
+        {
+          "id": "1232480525512343592",
+          "playerId": "mb3",
+          "time": "1:31.19",
+          "documentedAt": "2024-04-17T06:00:40.383Z",
+          "durationDays": 13.353206018518518,
+          "durationEnd": "2025-04-15T14:28:37.000Z"
+        }
+      ]
     },
     {
       "courseId": "snes-donut-plains-2r",
@@ -45,7 +79,8 @@
       },
       "worksheetRowsDated": 4,
       "recordingReviewBasis": "Prior result assessments retained by exact original movie hashes; no new uninterrupted continuity certification.",
-      "laterResultReviewAudit": "archive/yoshi2025-carried-donut-video-result-and-lap-review-20261015.json"
+      "laterResultReviewAudit": "archive/yoshi2025-carried-donut-video-result-and-lap-review-20261015.json",
+      "datedTourHistory": []
     }
   ],
   "coverage": {
@@ -95,7 +130,14 @@
     "artifacts/yoshi2024-seven-preserved-videos-full-get-and-decode-review-20261018.json",
     "artifacts/yoshi2024-wr-proof-and-recording-selection-validation-20261018.json",
     "archive/yoshi2025-carried-donut-video-result-and-lap-review-20261015.json",
-    "https://media.mktwrs.com/assets/proof/yoshi2024-live-publication-verification-20261018.json"
+    "https://media.mktwrs.com/assets/proof/yoshi2024-live-publication-verification-20261018.json",
+    "artifacts/yoshi2024-all22-worksheet-source-date-crosscheck-20261020.json",
+    "artifacts/yoshi2024-all47-original-media-and-source-metadata-full-byte-decode-and-range-verification-20261020.json",
+    "artifacts/yoshi2024-carried-summary-against-authoritative-course-review-20261020.json",
+    "artifacts/yoshi2024-final-known-source-date-duration-and7-video-review-20261020.json",
+    "artifacts/yoshi2024-independent-known-wr-semantic-duration-review-20261020.json",
+    "artifacts/yoshi2024-independent-source-clock-and-duration-audit-20261020.json",
+    "artifacts/yoshi2024-unchanged-code-and-retained-regression-evidence-20261020.json"
   ],
   "submissionDatePolicy": "Source posting date is the submission date unless other evidence establishes a different date. Repost receipts and video sharing events retain their independent clocks.",
   "remainingLimitations": [
@@ -107,8 +149,12 @@
     "New Tokumei original screenshot shows1:03.74, previousbest1:06.53 and DonutPlains2R thresholds; original April18 post and bot receipt establish the date and attribution. No date inferred from screenshot filename.",
     "Four result-reviewed movies remain distinct from two strategy clips and one singlelap. Existing N1:00.08 sampled result/lap review supersedes the older uploader-only label by exact hash; no new continuity claim.",
     "Yoshi archived WR1:31.19 and available result recording1:31.26 remain distinct. DonutPlains2R1:00.08 result recording is preserved.",
-    "Late April17\u201318 submissions retain their actual public posting dates. Next Spring context is source-only and no private achievement date is inferred.",
-    "Two missing discussion originals remain documented. Global2019\u20132026 archive remains in progress."
+    "Late April17–18 submissions retain their actual public posting dates. Next Spring context is source-only and no private achievement date is inferred.",
+    "Two missing discussion originals remain documented. Global2019–2026 archive remains in progress.",
+    "The October20 revalidation checks513 exact source timestamps and single calendar dates,549 numeric duration rows and28 known WR reigns across both full course files.20of22 current worksheet source clocks match; BOV10/14 retain their attribution/date gaps.34 other-tour supporting entries remain undated without invented dates.",
+    "All35 original image entries, two carried proof representations, three source audit objects and seven original movies pass full public byte/hash, Range206 and decoding checks. All seven movies contain original audio. Four prior result-reviewed recordings remain distinct from two strategies and a singlelap; no fresh uninterrupted-race certification.",
+    "Both carried standings and all four current/late WR entries match independent source clocks and playable durations. The current and late WR summaries are explicitly retained alongside the carried standings. No existing course dates, durations, identities or media URLs changed. The late1:31.19 posting40seconds after reset remains eligible but receives no Yoshi2024 playable days.",
+    "The later original Tokumei image is revalidated by exact hash with its preserved source/receipt evidence. Two anonymous worksheet attribution/date gaps and two missing discussion originals remain explicit. The previous75 focused checks are retained after verifying all299 framework/runtime/generator/test files are byte-identical; current-tour semantic, media, build and page checks run separately."
   ],
   "validation": {
     "dateDurationAndProfileScopePassed": true,
@@ -181,8 +227,8 @@
       "Final mb3 1:31.19 post falls 40 seconds after rollover; actual submission date and documented tour attribution remain separate.",
       "One late Ninja original is source-only for this review.",
       "No fresh Discord census certification; preserved Codex-browser captures used.",
-      "Six late current-tour images retain actual April 17\u201318 posting dates. One Athens Dash 2 image is next-tour source-only.",
-      "Final Yoshi Circuit 1:31.19 has no available movie; Wins\u2019s 1:31.26 is the fastest documented available recording for this tour. N\u2019s carried Donut Plains 2R 1:00.08 movie is uploader-reported, without fresh visual result certification.",
+      "Six late current-tour images retain actual April 17–18 posting dates. One Athens Dash 2 image is next-tour source-only.",
+      "Final Yoshi Circuit 1:31.19 has no available movie; Wins’s 1:31.26 is the fastest documented available recording for this tour. N’s carried Donut Plains 2R 1:00.08 movie is uploader-reported, without fresh visual result certification.",
       "Preserved channel sources do not prove exhaustive worldwide history."
     ]
   },
@@ -219,5 +265,55 @@
       "id": "private-achievement-and-worldwide-history",
       "reason": "Documented public source dates cannot certify private achievement dates or lost/unsubmitted worldwide history. Targeted original post checks are not an exhaustive census."
     }
-  ]
+  ],
+  "latestDateDurationReview": "artifacts/yoshi2024-final-known-source-date-duration-and7-video-review-20261020.json",
+  "latestPublicationAudit": "artifacts/yoshi2024-final-known-source-date-duration-and7-video-review-20261020.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/yoshi2024-final-known-source-date-duration-and7-video-review-live-receipt-20261020.json",
+  "dateDurationAndMediaReview": {
+    "tourId": "tour-119",
+    "sourceCommit": "baffa90e68475b112af5206772b6720036e967b4",
+    "knownWRReviewComplete": true,
+    "livePublicationVerified": false,
+    "exactSourceClockRowsVerified": 513,
+    "durationRowsVerified": 549,
+    "knownWRReignsVerified": 28,
+    "currentTourWRReignsVerified": 3,
+    "lateAttributedWRReignsVerified": 1,
+    "carriedStandingsVerified": 2,
+    "worksheetRowsReviewed": 22,
+    "worksheetRowsDated": 20,
+    "currentWorksheetDateGaps": 2,
+    "retainedUndatedOtherTourSupportingRows": 34,
+    "originalImageEntriesVerified": 35,
+    "carriedProofRepresentationsVerified": 2,
+    "metadataObjectsVerified": 3,
+    "originalMoviesVerified": 7,
+    "currentCompletedMovies": 2,
+    "currentPartialOrSingleLapMovies": 3,
+    "earlierStandardRecordingMovies": 2,
+    "allOriginalMoviesContainAudio": true,
+    "existingCourseDatesAndDurationsUnchanged": true,
+    "allSixCompletionSummariesMatchCourses": true,
+    "noFrameworkCodeChanged": true,
+    "freshLiteralVisualReviewClaimed": false,
+    "freshUninterruptedRaceCertificationClaimed": false,
+    "limitations": [
+      "20 of22 worksheet entries have supported single dates. Anonymous mb3 matches1:31.89 and1:31.61 retain attribution/date gaps.",
+      "Three in-window WR entries, one late attributed WR and two carried standings have exact documented endpoints and independently recomputed playable durations. No new WR IDs or profile credits.",
+      "Wins1:31.26 original X publication2024-04-16T14:44:04.867Z precedes its bot submission14:45:00.843Z. Archive and duration clocks use the earlier publication.",
+      "mb3 final1:31.19 original post2024-04-17T06:00:40.383Z falls40seconds after06UTC rollover. The review retains Yoshi attribution and actual posting date; zero current-tour playable duration is verified.",
+      "All35 original images, two carried proof objects and three source audits pass full GET/SHA/bytes/MIME/directRange206. All seven movies fully decode.",
+      "New Tokumei original screenshot shows1:03.74, previousbest1:06.53 and DonutPlains2R thresholds; original April18 post and bot receipt establish the date and attribution. No date inferred from screenshot filename.",
+      "Four result-reviewed movies remain distinct from two strategy clips and one singlelap. Existing N1:00.08 sampled result/lap review supersedes the older uploader-only label by exact hash; no new continuity claim.",
+      "Yoshi archived WR1:31.19 and available result recording1:31.26 remain distinct. DonutPlains2R1:00.08 result recording is preserved.",
+      "Late April17–18 submissions retain their actual public posting dates. Next Spring context is source-only and no private achievement date is inferred.",
+      "Two missing discussion originals remain documented. Global2019–2026 archive remains in progress.",
+      "The October20 revalidation checks513 exact source timestamps and single calendar dates,549 numeric duration rows and28 known WR reigns across both full course files.20of22 current worksheet source clocks match; BOV10/14 retain their attribution/date gaps.34 other-tour supporting entries remain undated without invented dates.",
+      "All35 original image entries, two carried proof representations, three source audit objects and seven original movies pass full public byte/hash, Range206 and decoding checks. All seven movies contain original audio. Four prior result-reviewed recordings remain distinct from two strategies and a singlelap; no fresh uninterrupted-race certification.",
+      "Both carried standings and all four current/late WR entries match independent source clocks and playable durations. The current and late WR summaries are explicitly retained alongside the carried standings. No existing course dates, durations, identities or media URLs changed. The late1:31.19 posting40seconds after reset remains eligible but receives no Yoshi2024 playable days.",
+      "The later original Tokumei image is revalidated by exact hash with its preserved source/receipt evidence. Two anonymous worksheet attribution/date gaps and two missing discussion originals remain explicit. The previous75 focused checks are retained after verifying all299 framework/runtime/generator/test files are byte-identical; current-tour semantic, media, build and page checks run separately."
+    ],
+    "historyComplete": false,
+    "wholeGoalComplete": false
+  }
 }
