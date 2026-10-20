@@ -1,0 +1,42 @@
+{
+  "tourId": "tour-73",
+  "tour": "Bangkok Tour (2022)",
+  "sourceCommit": "b51cebf68bbaa7e79f21e1c84e65dbcd304d87ee",
+  "priorTourReceiptVerified": "https://media.mktwrs.com/assets/proof/metropolitan2022-final-known-source-date-duration-and10-video-review-live-receipt-20261019.json",
+  "targets": [
+    {
+      "courseId": "wii-coconut-mall",
+      "totalRows": 352,
+      "worksheetPrefixes": {
+        "ALP": 50,
+        "BAB": 36,
+        "BRH": 27,
+        "CZT": 4
+      },
+      "undatedWorksheetRowsByPrefix": {
+        "ALP": 11,
+        "BRH": 1
+      }
+    },
+    {
+      "courseId": "rmx-vanilla-lake-1r",
+      "totalRows": 167,
+      "worksheetPrefixes": {
+        "XL": 21,
+        "ALH": 32
+      },
+      "undatedWorksheetRowsByPrefix": {
+        "XL": 6,
+        "ALH": 30
+      }
+    }
+  ],
+  "status": "prepared-next-tour-handoff-only",
+  "nextActions": [
+    "Identify current-tour worksheet prefixes and saved original submission/standings date sources.",
+    "Archive and full-byte/decode/range verify available original media.",
+    "Independently reconcile all target date clocks and durations, retaining explicit unsupported gaps.",
+    "Run focused checks/build, isolate exact commit, verify Railway/live publication and R2 receipt before the next tour."
+  ],
+  "wholeGoalComplete": false
+}

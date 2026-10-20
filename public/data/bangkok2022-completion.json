@@ -2,11 +2,11 @@
   "tourId": "tour-73",
   "tour": "Bangkok Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
-  "standard": "User-authorized good-enough surviving evidence; reviewed original sources retained, files hashchecked, available recordings preserved on R2, exact report/share clocks kept separate and publication verified live.",
+  "standard": "Known-source WR review using supported report/publication dates, independently recomputed playable durations, archived available originals and explicit unavailable-source gaps.",
   "window": {
     "start": "2022-06-29T06:00:00Z",
     "endExclusive": "2022-07-13T06:00:00Z"
@@ -33,7 +33,9 @@
     "unfinishedTimerExclusions": 2,
     "originalCoconutMallSheetCommandsReviewed": 35,
     "recordingsPreservedOnR2": 3,
-    "staleTourCandidatesReconciled": 9
+    "staleTourCandidatesReconciled": 9,
+    "freshFullByteVerifiedSourceImagePaths": 97,
+    "freshFullByteDecodedVideoFiles": 3
   },
   "validation": {
     "liveRowsCompared": 490,
@@ -51,7 +53,8 @@
     "Some original image/receipt/identity followups remain pending in prior source audits. Prior legible result reviews retained under good-enough evidence standard.",
     "Known preserved source windows do not prove deleted/private/global source completeness.",
     "Selected recordings have reviewed result/split evidence and full local decoding; uninterrupted race continuity and worldwide fastest-recording exhaustiveness not certified.",
-    "Opening day shows only fastest documented results: Coconut Mall1:15.27 and RMX Vanilla Lake1R1:01.60. No transient opening WR profiles awarded."
+    "Opening day shows only fastest documented results: Coconut Mall1:15.27 and RMX Vanilla Lake1R1:01.60. No transient opening WR profiles awarded.",
+    "All82 current worksheet entries reviewed;80 have supported documentation dates,39 newly recovered. Dome1:15.01 and Nu111:14.08 retain attribution/date gaps. The Deleted User1:15.01 image is archived without assignment to Dome. Dit final Coconut Mall1:13.93 footage is unavailable; Y1461:14.36 remains the fastest documented available recording. All97 preserved original image files passed full public SHA/decode checks; all6 stored media files passed full public SHA and206seeking. Three completed-run objects passed full-file decoding; two proof images and one metadata JSON passed decoding/parsing. All519 row durations and11 known WR reigns independently match playable windows. Six older2021 and one later-tour worksheet dates remain unsupported outside this tour. Exhaustive deleted/private history and all original footage remain unproven."
   ],
   "evidence": [
     "archive/bangkok2022-final-practical-publication-audit-20261013.json",
@@ -63,7 +66,16 @@
     "archive/bangkok2022-recording-and-supporting-display-live-check-20261013.json",
     "archive/bangkok2022-preservation-reconciliation-20261008.json",
     "artifacts/bangkok2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
-    "artifacts/bangkok2022-source-date-duration-and-new-recording-recovery-review-20261017.json"
+    "artifacts/bangkok2022-source-date-duration-and-new-recording-recovery-review-20261017.json",
+    "artifacts/bangkok2022-final-known-source-date-duration-and3-video-review-20261019.json",
+    "artifacts/bangkok2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/bangkok2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/bangkok2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/bangkok2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/bangkok2022-all6-stored-files-three-video-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/bangkok2022-all96-original-source-images-r2-preservation-20261019.json",
+    "artifacts/bangkok2022-two-remaining-current-worksheet-gap-review-20261019.json",
+    "artifacts/bangkok2022-retained-current-worksheet-source-gaps-20261019.json"
   ],
   "nextTourId": "tour-74",
   "sourceCommit": "a3c3db363ce0ff0953097b4ea15b37e1f281f773",
@@ -383,5 +395,39 @@
     "newSlowerVideoNotPromotedToWr": true,
     "winsR2PlaybackRemainsAvailableDespiteNoOriginalSourceDownload": true,
     "evidence": "artifacts/bangkok2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/bangkok2022-final-known-source-date-duration-and3-video-review-20261019.json",
+  "latestPublicationAudit": "artifacts/bangkok2022-final-known-source-date-duration-and3-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/bangkok2022-final-known-source-date-duration-and3-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 39,
+    "sourceRowsMatched": 39,
+    "sourceClockRowsVerified": 510,
+    "durationRowsVerified": 519,
+    "wrDurationClockCorrections": [],
+    "standingClockPolicyCorrections": 0,
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "wii-coconut-mall",
+        "id": "sheet-ALP57",
+        "playerId": "dome-1909",
+        "time": "1:15.01",
+        "reason": "No exact same-player dated original or named standings report. Date remains unsupported; no private run date inferred."
+      },
+      {
+        "courseId": "wii-coconut-mall",
+        "id": "sheet-ALP59",
+        "playerId": "nu11",
+        "time": "1:14.08",
+        "reason": "No exact same-player dated original or named standings report. Date remains unsupported; no private run date inferred."
+      }
+    ],
+    "indexedSourceImageFiles": 96,
+    "totalPreservedSourceFiles": 97,
+    "distinctSourceHashes": 97,
+    "storedVideoObjects": 6,
+    "distinctStoredVideoHashes": 6,
+    "rawPublicationPatchesAdded": 39
   }
 }
