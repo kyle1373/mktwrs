@@ -2,7 +2,7 @@
   "tourId": "tour-84",
   "tour": "Peach vs. Bowser Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-18",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -109,7 +109,10 @@
     "Sucha1:26.81, Hahahha1:28.53 and kuRi1:27.40 use dated leaderboard observations; original achievement/submission clocks remain unproven.",
     "Late Retro, Fireball, Nekozuki and Mish posts retain actual posting/publication clocks after tour rollover.",
     "Available Sucha recordings are supporting non-WR footage. Start, lap and finish samples were visually reviewed; no full-frame continuity audit is claimed.",
-    "Final Peach1:26.60 and Royal1:33.97 footage remains unavailable. Worldwide unsubmitted or lost history is not proven complete."
+    "Final Peach1:26.60 and Royal1:33.97 footage remains unavailable. Worldwide unsubmitted or lost history is not proven complete.",
+    "Thirty undated supporting rows belong to other appearances; ASB28, ART12 and ART24 remain current worksheet source gaps.",
+    "Two earlier/reposted date-only supporting rows were checked against preserved originals and metadata without inventing exact UTC clocks.",
+    "Retained source/result assessments; byte and decoder checks do not freshly certify every-frame race continuity. Deleted/private and worldwide history remain unproved."
   ],
   "evidence": [
     "archive/peachbowser2022-practical-source-disposition-index-20261013.json",
@@ -129,7 +132,12 @@
     "artifacts/peachbowser2022-three-preserved-videos-full-get-and-decode-review-20261018.json",
     "artifacts/peachbowser2022-two-original-video-result-and-lap-review-20261018.json",
     "artifacts/peachbowser2022-retro-original-account-search-20261018.json",
-    "artifacts/peachbowser2022-hahahha12853-observed-leaderboard-20261018.json"
+    "artifacts/peachbowser2022-hahahha12853-observed-leaderboard-20261018.json",
+    "artifacts/peachbowser2022-final-known-source-date-duration-and3-video-review-20261019.json",
+    "artifacts/peachbowser2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/peachbowser2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/peachbowser2022-all70-source-and-proof-images-r2-preservation-20261019.json",
+    "artifacts/peachbowser2022-all75-stored-files-three-video-full-byte-decode-and-range-verification-20261019.json"
   ],
   "nextTourId": "tour-85",
   "knownWrReviewComplete": true,
@@ -208,5 +216,766 @@
       "reason": "Original dated result or named exact-time observation not recovered; do not borrow Deleted User or different-tour dates."
     }
   ],
-  "priorReviewSourceCommit": "fe6aab7f684f9751d8deca4ae949e882a0e45897"
+  "priorReviewSourceCommit": "fe6aab7f684f9751d8deca4ae949e882a0e45897",
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/peachbowser2022-final-known-source-date-duration-and3-video-review-20261019.json",
+  "latestPublicationAudit": "artifacts/peachbowser2022-final-known-source-date-duration-and3-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/peachbowser2022-final-known-source-date-duration-and3-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "tourId": "tour-84",
+    "sourceCommit": "6a869a69a07fb367bb386d393ad2b0c5bb3a2fa9",
+    "knownWRReviewComplete": true,
+    "livePublicationVerified": false,
+    "worksheetRowsReviewed": 67,
+    "worksheetRowsDated": 64,
+    "worksheetSourceGaps": 3,
+    "newWorksheetDatesRecovered": 0,
+    "rawPublicationPatchesAdded": 0,
+    "sourceClockRowsVerified": 638,
+    "boundedPublicationDayRowsVerified": 2,
+    "retainedUndatedOtherTourSupportingRows": 30,
+    "retainedCurrentWorksheetSourceGaps": 3,
+    "durationRowsVerified": 673,
+    "knownWRReignsVerified": 50,
+    "currentTourWRReignsVerified": 4,
+    "currentTourNewWRReignsVerified": 2,
+    "carriedWRReignsVerified": 2,
+    "earlierTourWRReignsVerified": 36,
+    "laterTourWRReignsVerified": 12,
+    "sourceAndProofImageFiles": 70,
+    "derivedVideoFrames": 4,
+    "sourceImagePaths": 66,
+    "distinctSourceHashes": 70,
+    "newlyPreservedPreviouslyCapturedImages": 39,
+    "storedMediaObjectsVerified": 75,
+    "metadataObjects": 2,
+    "videoFilesFullBytesDecodedAndSeekVerified": 3,
+    "distinctCompletedRunResults": 3,
+    "currentTourCompletedRunResults": 2,
+    "historicalCompletedRunResults": 1,
+    "additionalSameResultEncodings": 0,
+    "partialClipsPreserved": 0,
+    "allAvailableCurrentRecordingsPreserved": true,
+    "allCurrentFinalWRRecordingsRecovered": false,
+    "unavailableFinalFootageCourseIds": [
+      "ds-peach-gardens",
+      "n64-royal-raceway"
+    ],
+    "worksheetDateChecks": [
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB10",
+        "time": "1:39.17",
+        "playerId": "retro",
+        "date": "2022-12-01",
+        "timestamp": "2022-12-01T03:31:58.248Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047716663648321620",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB11",
+        "time": "1:39.53",
+        "playerId": "n",
+        "date": "2022-12-05",
+        "timestamp": "2022-12-05T11:26:47.202Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049285706444460113",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB12",
+        "time": "1:40.57",
+        "playerId": "hahahha",
+        "date": "2022-12-05",
+        "timestamp": "2022-12-05T23:52:23.972Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049473346057809930",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB13",
+        "time": "1:39.42",
+        "playerId": "goten",
+        "date": "2022-12-06",
+        "timestamp": "2022-12-06T12:51:04.030Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049669304183967794",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB14",
+        "time": "1:39.04",
+        "playerId": "starin",
+        "date": "2022-12-06",
+        "timestamp": "2022-12-06T13:49:54.682Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049684112811765891",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB15",
+        "time": "1:38.83",
+        "playerId": "starin",
+        "date": "2022-12-08",
+        "timestamp": "2022-12-08T13:56:25.890Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1050410529388245114",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB16",
+        "time": "1:39.64",
+        "playerId": "kuri",
+        "date": "2022-12-09",
+        "timestamp": "2022-12-09T04:21:11.256Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1050628152386392134",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB17",
+        "time": "1:39.76",
+        "playerId": "kei333",
+        "date": "2022-12-09",
+        "timestamp": "2022-12-09T10:33:10.010Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1050721764025573406",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB18",
+        "time": "1:39.40",
+        "playerId": "kirio",
+        "date": "2022-12-10",
+        "timestamp": "2022-12-10T12:20:29.938Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1051111162906943499",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB19",
+        "time": "1:38.92",
+        "playerId": "spartacurtyt",
+        "date": "2022-12-10",
+        "timestamp": "2022-12-10T15:03:34.664Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1051152203022356570",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB20",
+        "time": "1:39.48",
+        "playerId": "yukari",
+        "date": "2022-12-10",
+        "timestamp": "2022-12-10T15:15:46.507Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1051155272594378752",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB21",
+        "time": "1:39.27",
+        "playerId": "shine",
+        "date": "2022-12-12",
+        "timestamp": "2022-12-12T12:13:31.844Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1051834185024798800",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB22",
+        "time": "1:40.79",
+        "playerId": "raptor",
+        "date": "2022-12-13",
+        "timestamp": "2022-12-13T19:44:42.939Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052310117292441711",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB23",
+        "time": "1:39.66",
+        "playerId": "kei333",
+        "date": "2022-12-13",
+        "timestamp": "2022-12-13T19:08:05.544Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052300900749815828",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB24",
+        "time": "1:39.49",
+        "playerId": "kei333",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T01:22:08.656Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052395033984245842",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB25",
+        "time": "1:38.59",
+        "playerId": "n",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T03:59:31.763Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052434641245720586",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB26",
+        "time": "1:39.00",
+        "playerId": "rui",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T06:09:33.206Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052467362869301298",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB27",
+        "time": "1:39.23",
+        "playerId": "nekozuki",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T07:12:41.882Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052483253728186408",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-bowser-s-castle-r",
+        "id": "sheet-ASB28",
+        "time": "1:39.42",
+        "playerId": "dome-1909",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL10",
+        "time": "1:28.60",
+        "playerId": "kuri",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T23:12:22.278Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047651333295063142",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL11",
+        "time": "1:27.50",
+        "playerId": "starin",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T12:55:23.462Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047496065127039058",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL12",
+        "time": "1:26.87",
+        "playerId": "n",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T11:42:45.014Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047477784471162920",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL13",
+        "time": "1:30.07",
+        "playerId": "timael",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T10:29:32.324Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047459360193925150",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL14",
+        "time": "1:27.18",
+        "playerId": "saki7",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T08:19:13.472Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047426565551697920",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL15",
+        "time": "1:28.85",
+        "playerId": "maymusick",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T06:32:15.067Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047399644809941004",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL16",
+        "time": "1:27.43",
+        "playerId": "shine",
+        "date": "2022-12-01",
+        "timestamp": "2022-12-01T13:38:35.555Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047869325018665010",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL17",
+        "time": "1:28.86",
+        "playerId": "hahahha",
+        "date": "2022-12-02",
+        "timestamp": "2022-12-02T00:12:30.266Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048028854159167498",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL18",
+        "time": "1:27.26",
+        "playerId": "spartacurtyt",
+        "date": "2022-12-02",
+        "timestamp": "2022-12-02T03:04:11.951Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048072062557769760",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL19",
+        "time": "1:28.38",
+        "playerId": "kuri",
+        "date": "2022-12-02",
+        "timestamp": "2022-12-02T06:12:52.463Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048119544226512907",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL20",
+        "time": "1:27.61",
+        "playerId": "kuri",
+        "date": "2022-12-02",
+        "timestamp": "2022-12-02T10:15:55.073Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048180708125982740",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL21",
+        "time": "1:27.16",
+        "playerId": "starin",
+        "date": "2022-12-02",
+        "timestamp": "2022-12-02T13:37:35.514Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048231461054066800",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL22",
+        "time": "1:26.93",
+        "playerId": "troy",
+        "date": "2022-12-02",
+        "timestamp": "2022-12-02T17:39:08.382Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048292248548282390",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL23",
+        "time": "1:26.81",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": "2022-12-03",
+        "timestamp": "2022-12-03T17:02:25.842Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/1048645398291554394",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL24",
+        "time": "1:31.63",
+        "playerId": "numbermaniac",
+        "date": "2022-12-03",
+        "timestamp": "2022-12-03T06:56:34.767Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048492930832269344",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL25",
+        "time": "1:26.60",
+        "playerId": "troy",
+        "date": "2022-12-03",
+        "timestamp": "2022-12-03T08:23:46.168Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048514872918417458",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL26",
+        "time": "1:28.69",
+        "playerId": "hahahha",
+        "date": "2022-12-03",
+        "timestamp": "2022-12-03T12:11:46.330Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048572251676606504",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL27",
+        "time": "1:26.83",
+        "playerId": "spartacurtyt",
+        "date": "2022-12-03",
+        "timestamp": "2022-12-03T17:43:57.443Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1048655848823586816",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL28",
+        "time": "1:28.53",
+        "playerId": "hahahha",
+        "date": "2022-12-06",
+        "timestamp": "2022-12-06T14:37:06.729Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/1049695991277817866",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL29",
+        "time": "1:28.49",
+        "playerId": "hahahha",
+        "date": "2022-12-05",
+        "timestamp": "2022-12-05T23:53:54.348Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049473725122220042",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL30",
+        "time": "1:26.99",
+        "playerId": "starin",
+        "date": "2022-12-06",
+        "timestamp": "2022-12-06T13:47:35.262Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049683528041893913",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL31",
+        "time": "1:31.16",
+        "playerId": "ydtg230",
+        "date": "2022-12-07",
+        "timestamp": "2022-12-07T16:45:33.062Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1050090701846749204",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL32",
+        "time": "1:27.52",
+        "playerId": "kuri",
+        "date": "2022-12-09",
+        "timestamp": "2022-12-09T03:31:17.150Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1050615594195628113",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL33",
+        "time": "1:27.37",
+        "playerId": "kirio",
+        "date": "2022-12-10",
+        "timestamp": "2022-12-10T11:59:56.452Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1051105989291679814",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL34",
+        "time": "1:29.20",
+        "playerId": "angus",
+        "date": "2022-12-12",
+        "timestamp": "2022-12-12T01:42:36.401Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1051675407788818472",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL35",
+        "time": "1:27.30",
+        "playerId": "shine",
+        "date": "2022-12-12",
+        "timestamp": "2022-12-12T12:12:53.250Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1051834023149838436",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL36",
+        "time": "1:29.14",
+        "playerId": "raptor",
+        "date": "2022-12-13",
+        "timestamp": "2022-12-13T18:48:02.394Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052295854372966410",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL37",
+        "time": "1:26.73",
+        "playerId": "n",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T03:36:29.447Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052428843392192642",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL38",
+        "time": "1:27.40",
+        "playerId": "kuri",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T15:56:08.795Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/1052614983869026374",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL39",
+        "time": "1:28.06",
+        "playerId": "ryo",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T05:31:46.065Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052457853790732391",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL40",
+        "time": "1:27.31",
+        "playerId": "retro",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T06:03:51.469Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052465929520427058",
+        "gapRetained": false
+      },
+      {
+        "courseId": "ds-peach-gardens",
+        "id": "sheet-ARL41",
+        "time": "1:27.25",
+        "playerId": "fireball",
+        "date": "2022-12-15",
+        "timestamp": "2022-12-15T22:24:24.505Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1053075081024245870",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART10",
+        "time": "1:34.78",
+        "playerId": "wins",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T16:24:12.991Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047548617780637696",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART11",
+        "time": "1:35.86",
+        "playerId": "n",
+        "date": "2022-11-30",
+        "timestamp": "2022-11-30T07:05:44.515Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047408073045704745",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART12",
+        "time": "1:35.47",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART13",
+        "time": "1:34.80",
+        "playerId": "shine",
+        "date": "2022-12-01",
+        "timestamp": "2022-12-01T13:17:33.907Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1047864033283411999",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART14",
+        "time": "1:34.91",
+        "playerId": "spartacurtyt",
+        "date": "2022-12-04",
+        "timestamp": "2022-12-04T23:30:19.128Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049105401393729537",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART15",
+        "time": "1:34.23",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": "2022-12-05",
+        "timestamp": "2022-12-05T17:20:28.000Z",
+        "sourceURL": "https://www.youtube.com/watch?v=ppYIZhAzbyE",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART16",
+        "time": "1:36.84",
+        "playerId": "hahahha",
+        "date": "2022-12-05",
+        "timestamp": "2022-12-05T23:53:26.713Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049473609212637335",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART17",
+        "time": "1:34.09",
+        "playerId": "newyork",
+        "date": "2022-12-06",
+        "timestamp": "2022-12-06T09:08:09.001Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049613205246320682",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART18",
+        "time": "1:34.92",
+        "playerId": "starin",
+        "date": "2022-12-06",
+        "timestamp": "2022-12-06T13:48:03.027Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1049683644496744518",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART19",
+        "time": "1:35.65",
+        "playerId": "kuri",
+        "date": "2022-12-09",
+        "timestamp": "2022-12-09T03:42:03.555Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1050618305414692925",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART20",
+        "time": "1:35.39",
+        "playerId": "kuri",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T02:15:55.055Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052408566482485248",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART21",
+        "time": "1:34.97",
+        "playerId": "kuri",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T02:20:33.719Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052409735284011089",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART22",
+        "time": "1:34.41",
+        "playerId": "retro",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T06:03:51.469Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052465929520427058",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART23",
+        "time": "1:34.95",
+        "playerId": "nekozuki",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T07:13:54.515Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052483558373076994",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART24",
+        "time": "1:35.51",
+        "playerId": "dome-1909",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "n64-royal-raceway",
+        "id": "sheet-ART25",
+        "time": "1:36.14",
+        "playerId": "mish",
+        "date": "2022-12-14",
+        "timestamp": "2022-12-14T16:21:22.939Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1052621334649258055",
+        "gapRetained": false
+      }
+    ],
+    "displayCorrection": {
+      "archivedTourRecordingTablesRestored": true,
+      "carriedWRsRestoredToComparison": true,
+      "courses": [
+        {
+          "courseId": "3ds-bowser-s-castle-r",
+          "finalWR": "1:38.39",
+          "originalDocumentedDate": "2022-04-19",
+          "bestAvailableRecording": "1:38.39"
+        },
+        {
+          "courseId": "ds-peach-gardens",
+          "finalWR": "1:26.60",
+          "originalDocumentedDate": "2022-12-03",
+          "bestAvailableRecording": "1:27.35",
+          "recordingDocumentedDate": "2022-11-30"
+        },
+        {
+          "courseId": "n64-royal-raceway",
+          "finalWR": "1:33.97",
+          "originalDocumentedDate": "2020-11-08",
+          "bestAvailableRecording": "1:34.23",
+          "recordingDocumentedDate": "2022-12-05"
+        }
+      ],
+      "allCourseRecordDatesAndDurationsUnchanged": true,
+      "videoSelectorCorrected": true
+    },
+    "independentClockAndDurationAudit": "artifacts/peachbowser2022-independent-source-clock-and-duration-audit-20261019.json",
+    "independentKnownWRReignAudit": "artifacts/peachbowser2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "imagePreservationAudit": "artifacts/peachbowser2022-all70-source-and-proof-images-r2-preservation-20261019.json",
+    "storedMediaPreservationAudit": "artifacts/peachbowser2022-all75-stored-files-three-video-full-byte-decode-and-range-verification-20261019.json",
+    "limitations": [
+      "Three worksheet-only source gaps remain: Dome1909 BowserR1:39.42, Sucha Royal1:35.47 and Dome1909 Royal1:35.51. No date or identity is invented.",
+      "Sucha1:26.81, Hahahha1:28.53 and kuRi1:27.40 use dated leaderboard observations; original achievement/submission clocks remain unproven.",
+      "Late Retro, Fireball, Nekozuki and Mish posts retain actual posting/publication clocks after tour rollover.",
+      "Available Sucha recordings are supporting non-WR footage. Start, lap and finish samples were visually reviewed; no full-frame continuity audit is claimed.",
+      "Final Peach1:26.60 and Royal1:33.97 footage remains unavailable. Worldwide unsubmitted or lost history is not proven complete.",
+      "Thirty undated supporting rows belong to other appearances; ASB28, ART12 and ART24 remain current worksheet source gaps.",
+      "Two earlier/reposted date-only supporting rows were checked against preserved originals and metadata without inventing exact UTC clocks.",
+      "Retained source/result assessments; byte and decoder checks do not freshly certify every-frame race continuity. Deleted/private and worldwide history remain unproved."
+    ],
+    "historyComplete": false,
+    "wholeGoalComplete": false
+  }
 }
