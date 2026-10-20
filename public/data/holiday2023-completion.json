@@ -3,7 +3,7 @@
   "tour": "Holiday Tour (2023)",
   "status": "completed-with-documented-gaps",
   "standard": "Captured surviving sources reconciled with good-enough documentary proof; exhaustive worldwide history is not certified.",
-  "completedAt": "2026-10-18",
+  "completedAt": "2026-10-20",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -27,7 +27,8 @@
         "durationEnd": "2025-12-16T11:09:54.564Z"
       },
       "worksheetRowsDated": 12,
-      "recordingReviewBasis": "Existing sampled start/lap/result review retained; no new uninterrupted continuity certification."
+      "recordingReviewBasis": "Existing sampled start/lap/result review retained; no new uninterrupted continuity certification.",
+      "datedTourHistory": []
     },
     {
       "courseId": "vancouver-velocity-3",
@@ -44,7 +45,17 @@
         "durationEnd": "2023-12-17T17:43:10.516Z"
       },
       "worksheetRowsDated": 19,
-      "recordingReviewBasis": "Prior result/lap review retained by exact original movie hash."
+      "recordingReviewBasis": "Prior result/lap review retained by exact original movie hash.",
+      "datedTourHistory": [
+        {
+          "id": "1192533972043964436",
+          "playerId": "phillish",
+          "time": "1:15.96",
+          "documentedAt": "2023-12-17T17:43:10.516Z",
+          "durationDays": 19.11587425925926,
+          "durationEnd": "2024-12-20T20:30:02.052Z"
+        }
+      ]
     }
   ],
   "coverage": {
@@ -90,7 +101,13 @@
     "artifacts/holiday2023-source-date-and-original-image-r2-integrity-20261018.json",
     "artifacts/holiday2023-five-preserved-videos-full-get-and-decode-review-20261018.json",
     "artifacts/holiday2023-wr-proof-and-recording-selection-validation-20261018.json",
-    "https://media.mktwrs.com/assets/proof/holiday2023-live-publication-verification-20261018.json"
+    "https://media.mktwrs.com/assets/proof/holiday2023-live-publication-verification-20261018.json",
+    "artifacts/holiday2023-final-known-source-date-duration-and5-video-review-20261020.json",
+    "artifacts/holiday2023-all31-worksheet-source-date-crosscheck-20261020.json",
+    "artifacts/holiday2023-all47-original-media-and-source-metadata-full-byte-decode-and-range-verification-20261020.json",
+    "artifacts/holiday2023-carried-summary-against-authoritative-course-review-20261020.json",
+    "artifacts/holiday2023-independent-known-wr-semantic-duration-review-20261020.json",
+    "artifacts/holiday2023-independent-source-clock-and-duration-audit-20261020.json"
   ],
   "submissionDatePolicy": "Use source posting dates as submission dates unless other evidence establishes another date. Videos keep separate publication and observed sharing clocks. Late submissions keep actual posting dates.",
   "remainingLimitations": [
@@ -100,7 +117,11 @@
     "All36 original images, two carried proof representations and four source audits pass full GET/SHA/bytes/MIME/directRange206. Allfive preserved movies fully decode.",
     "Carried Snow68.42 now reflects the already published sampled start/lap/finish review from Holiday2022. Earlier uploader-report-only notes are retained in priorPracticalReview, not used as the current assessment.",
     "Prior result assessments are retained by exact hashes; no fresh full-frame continuity audit is claimed. No-items and single-lap footage remain separate support.",
-    "Global2019\u20132026 archive remains in progress."
+    "Global2019–2026 archive remains in progress.",
+    "Current revalidation independently crosschecks369 supported source timestamps,377 numeric duration rows and18 known WR reigns across both course histories. All31 current worksheet source clocks match; eight older supporting rows remain undated without invented dates.",
+    "All38 original/supporting image representations, four source metadata objects and five original movies pass full public R2 byte/hash, partial-download and decode checks.34 own-manifest image references match those bytes. All five movies contain original audio. Prior sampled result/image reviews retained; no fresh uninterrupted-race certification.",
+    "Both carried standings and the current Phillish1:15.96 WR agree with independently checked source clocks and playable duration intervals. The completion summary now explicitly lists the current WR alongside the carried standings. Existing course dates, durations, identities and media links remain unchanged.",
+    "Single-lap and no-items recordings retain their separate qualifications. Late supporting submissions remain dated to their actual posts. Global2019–2026archive and exhaustive Discord coverage remain unproved."
   ],
   "validation": {
     "dateDurationAndProfileScopePassed": true,
@@ -183,5 +204,51 @@
       "id": "exhaustive-worldwide-history",
       "reason": "Captured surviving sources reviewed; lost and unsubmitted worldwide history cannot be certified."
     }
-  ]
+  ],
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/holiday2023-final-known-source-date-duration-and5-video-review-20261020.json",
+  "latestPublicationAudit": "artifacts/holiday2023-final-known-source-date-duration-and5-video-review-20261020.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/holiday2023-final-known-source-date-duration-and5-video-review-live-receipt-20261020.json",
+  "dateDurationAndMediaReview": {
+    "tourId": "tour-111",
+    "sourceCommit": "2949554b78febc246e815bc9d1347d04b78117e8",
+    "knownWRReviewComplete": true,
+    "livePublicationVerified": false,
+    "exactSourceClockRowsVerified": 369,
+    "durationRowsVerified": 377,
+    "knownWRReignsVerified": 18,
+    "currentTourWRReignsVerified": 1,
+    "carriedStandingsVerified": 2,
+    "worksheetRowsReviewed": 31,
+    "worksheetRowsDated": 31,
+    "currentWorksheetDateGaps": 0,
+    "retainedUndatedOtherTourSupportingRows": 8,
+    "originalImageRepresentationsVerified": 38,
+    "metadataObjectsVerified": 4,
+    "originalMoviesVerified": 5,
+    "currentCompletedMovies": 2,
+    "currentSingleLapMovies": 1,
+    "earlierCarriedWRMovies": 2,
+    "allOriginalMoviesContainAudio": true,
+    "existingCourseDatesAndDurationsUnchanged": true,
+    "allThreeCompletionSummariesMatchCourses": true,
+    "noFrameworkCodeChanged": true,
+    "freshLiteralVisualReviewClaimed": false,
+    "freshUninterruptedRaceCertificationClaimed": false,
+    "limitations": [
+      "All31 worksheet dates match documented source posting timestamps, including actual late postings after the December27 reset.",
+      "One current WR and two carried WR durations match all playable course appearance windows, with exact documented endpoints. Existing WR IDs are preserved.",
+      "The worksheet Neko4221 entry is linked by the exact existing Discord account ID; no profile merge or new WR credit.",
+      "All36 original images, two carried proof representations and four source audits pass full GET/SHA/bytes/MIME/directRange206. Allfive preserved movies fully decode.",
+      "Carried Snow68.42 now reflects the already published sampled start/lap/finish review from Holiday2022. Earlier uploader-report-only notes are retained in priorPracticalReview, not used as the current assessment.",
+      "Prior result assessments are retained by exact hashes; no fresh full-frame continuity audit is claimed. No-items and single-lap footage remain separate support.",
+      "Global2019–2026 archive remains in progress.",
+      "Current revalidation independently crosschecks369 supported source timestamps,377 numeric duration rows and18 known WR reigns across both course histories. All31 current worksheet source clocks match; eight older supporting rows remain undated without invented dates.",
+      "All38 original/supporting image representations, four source metadata objects and five original movies pass full public R2 byte/hash, partial-download and decode checks.34 own-manifest image references match those bytes. All five movies contain original audio. Prior sampled result/image reviews retained; no fresh uninterrupted-race certification.",
+      "Both carried standings and the current Phillish1:15.96 WR agree with independently checked source clocks and playable duration intervals. The completion summary now explicitly lists the current WR alongside the carried standings. Existing course dates, durations, identities and media links remain unchanged.",
+      "Single-lap and no-items recordings retain their separate qualifications. Late supporting submissions remain dated to their actual posts. Global2019–2026archive and exhaustive Discord coverage remain unproved."
+    ],
+    "historyComplete": false,
+    "wholeGoalComplete": false
+  }
 }
