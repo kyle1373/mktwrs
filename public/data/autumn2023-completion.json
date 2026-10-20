@@ -2,7 +2,7 @@
   "tourId": "tour-108",
   "tour": "Autumn Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-18",
+  "completedAt": "2026-10-20",
   "standard": "User-authorized practical surviving proofs. Posting date is submission/archive date unless evidence establishes another date.",
   "practicalReviewComplete": true,
   "historyComplete": false,
@@ -25,8 +25,8 @@
           "time": "1:13.41",
           "postedAt": "2023-11-03T01:57:28.181Z",
           "archiveDate": "2023-11-03T01:57:00.000Z",
-          "documentedPlayableDays": 29.009040914351854,
-          "durationEnd": "2025-11-01T02:10:01.135Z"
+          "documentedPlayableDays": 29.007349537037037,
+          "durationEnd": "2025-11-01T02:07:35.000Z"
         }
       ],
       "fastestDocumentedAvailableRecording": "1:13.41",
@@ -45,8 +45,8 @@
           "playerId": "kuri",
           "time": "1:13.41",
           "documentedAt": "2023-11-03T01:57:00.000Z",
-          "durationDays": 29.009040914351854,
-          "durationEnd": "2025-11-01T02:10:01.135Z"
+          "durationDays": 29.007349537037037,
+          "durationEnd": "2025-11-01T02:07:35.000Z"
         }
       ]
     },
@@ -134,7 +134,12 @@
     "All44worksheet entries have supported original dates:41matching preserved source clocks and3original movie publication clocks. Five matching source/record rows use earlier original movie publication, while human posting clocks stay preserved.",
     "One new WR and two carried standings have exact playable durations independently matched to course appearance windows and checked lap sums. The two opening kuRi runs remain slower than carried Wins73.46; no day-one WR credit.",
     "All48original image URLs, including the identical corrected kuRi repost, and3dated-source audit objects pass full GET/SHA/bytes/MIME and direct Range206. Five completed-result movies fully decode. Prior hash-matched visual assessments retained; no fresh uninterrupted-race certification.",
-    "The recurring2022wiki title is labelled Autumn Tour(2023) for this November1–15occurrence. All140othercourse files and player profiles remain unchanged. Global2019–2026archive unfinished."
+    "The recurring2022wiki title is labelled Autumn Tour(2023) for this November1–15occurrence. All140othercourse files and player profiles remain unchanged. Global2019–2026archive unfinished.",
+    "Current revalidation independently crosschecks319 source clocks,331 numeric duration rows and17 WR reigns across both course histories. All44 current worksheet dates are supported, including three original movie-publication dates. Twelve undated supporting rows belong to other tours; no dates were invented.",
+    "All48 original-image references, three source-metadata objects and five original movies passed full public R2 byte/hash, partial-download and decode checks. All five movies contain audio. Corrected repost and prior/proxy assessments remain explicitly preserved without a fresh literal visual or uninterrupted-race certification.",
+    "kuRi’s final reign summary is corrected to the already-correct course clock: the next faster1:13.36 movie was published2025-11-01T02:07:35Z, before the later02:10:01.135Zannouncement. Documented playable duration29.007349537037037days. Course dates, durations and player credit are unchanged.",
+    "Sucha’s original1:13.42movie is preserved as that result, distinct from the erroneous1:13.41receipt. It is not a tied WR. The opening kuRi runs remain slower than carried Wins1:13.46 and receive no opening WR credit.",
+    "Global2019–2026archive and exhaustive Discord coverage remain unproved."
   ],
   "evidence": [
     "archive/autumn2023-complete-original-preservation-and-source-audit-20261014.json",
@@ -154,7 +159,13 @@
     "artifacts/autumn2023-source-date-and-original-image-r2-integrity-20261018.json",
     "artifacts/autumn2023-five-preserved-videos-full-get-and-decode-review-20261018.json",
     "artifacts/autumn2023-wr-proof-and-recording-selection-validation-20261018.json",
-    "https://media.mktwrs.com/assets/proof/autumn2023-live-publication-verification-20261018.json"
+    "https://media.mktwrs.com/assets/proof/autumn2023-live-publication-verification-20261018.json",
+    "artifacts/autumn2023-final-known-source-date-duration-and5-video-review-20261020.json",
+    "artifacts/autumn2023-all44-worksheet-source-date-crosscheck-20261020.json",
+    "artifacts/autumn2023-all56-original-media-and-source-metadata-full-byte-decode-and-range-verification-20261020.json",
+    "artifacts/autumn2023-final-summary-original-publication-duration-correction-20261020.json",
+    "artifacts/autumn2023-independent-known-wr-semantic-duration-review-20261020.json",
+    "artifacts/autumn2023-independent-source-clock-and-duration-audit-20261020.json"
   ],
   "nextTourId": "tour-109",
   "knownWrReviewComplete": true,
@@ -188,5 +199,58 @@
       "id": "earlier-video-share-clocks",
       "reason": "Original movie publication clocks are preserved; edited receipts do not establish missing earlier human share clocks."
     }
-  ]
+  ],
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/autumn2023-final-known-source-date-duration-and5-video-review-20261020.json",
+  "latestPublicationAudit": "artifacts/autumn2023-final-known-source-date-duration-and5-video-review-20261020.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/autumn2023-final-known-source-date-duration-and5-video-review-live-receipt-20261020.json",
+  "dateDurationAndMediaReview": {
+    "tourId": "tour-108",
+    "sourceCommit": "58e98040ddbdda52d465bea64b263ca1d3db4ba8",
+    "knownWRReviewComplete": true,
+    "livePublicationVerified": false,
+    "sourceClockRowsVerified": 319,
+    "durationRowsVerified": 331,
+    "knownWRReignsVerified": 17,
+    "newCurrentTourWRReigns": 1,
+    "carriedStandingsVerified": 2,
+    "worksheetRowsReviewed": 44,
+    "worksheetRowsDated": 44,
+    "currentWorksheetDateGaps": 0,
+    "retainedUndatedOtherTourSupportingRows": 12,
+    "originalImageEntriesVerified": 48,
+    "metadataObjectsVerified": 3,
+    "originalMoviesVerified": 5,
+    "currentResultMovies": 3,
+    "earlierCarriedWRMovies": 2,
+    "allOriginalMoviesContainAudio": true,
+    "existingCourseDatesAndDurationsUnchanged": true,
+    "finalSummaryDurationCorrection": "artifacts/autumn2023-final-summary-original-publication-duration-correction-20261020.json",
+    "noFrameworkCodeChanged": true,
+    "freshLiteralVisualReviewClaimed": false,
+    "freshUninterruptedRaceCertificationClaimed": false,
+    "limitations": [
+      "Existing kuRi73.41 WR retained and dated to earliest original Nov3 post; cancelled earliest receipt and byte-identical corrected repost do not erase source publication.",
+      "Two opening-day kuRi results retained as evidence; only final fastest73.54 shown in opening-day support, both slower than carried Wins73.46. No opening-day WR credit.",
+      "Ryo ten sources use accepted receipt association with existingryo; no account merge or WR credit.",
+      "Recovered Sucha original shows73.42 and contradicts73.41 receipt; candidate resolved as input error and preserved separately, no WR tie credit. Simon original JPG result74.32 freshly checked; old proxy preserved separately.",
+      "LA3 carried Sucha78.78 WR and movie retained; best reviewed2023 result78.80 is slower.",
+      "Movie publication clocks remain separate from human submission/share. Only Sucha first saved human share is known; edited receipts do not prove missing video-share clocks.",
+      "Previous bests and device dates are not invented submissions; worldwide exhaustive capture and fresh uninterrupted-race certification remain unproved.",
+      "All48 indexed originals and3 current-tour movies preserved and R2-verified;2 images are late Halloween posts and1 is a byte-identical repost.",
+      "Two previously unavailable original uploads recovered and freshly checked; the earlier Simon proxy remains separately labelled.",
+      "Two prior carried WR movies preserved and R2-verified.",
+      "All44worksheet entries have supported original dates:41matching preserved source clocks and3original movie publication clocks. Five matching source/record rows use earlier original movie publication, while human posting clocks stay preserved.",
+      "One new WR and two carried standings have exact playable durations independently matched to course appearance windows and checked lap sums. The two opening kuRi runs remain slower than carried Wins73.46; no day-one WR credit.",
+      "All48original image URLs, including the identical corrected kuRi repost, and3dated-source audit objects pass full GET/SHA/bytes/MIME and direct Range206. Five completed-result movies fully decode. Prior hash-matched visual assessments retained; no fresh uninterrupted-race certification.",
+      "The recurring2022wiki title is labelled Autumn Tour(2023) for this November1–15occurrence. All140othercourse files and player profiles remain unchanged. Global2019–2026archive unfinished.",
+      "Current revalidation independently crosschecks319 source clocks,331 numeric duration rows and17 WR reigns across both course histories. All44 current worksheet dates are supported, including three original movie-publication dates. Twelve undated supporting rows belong to other tours; no dates were invented.",
+      "All48 original-image references, three source-metadata objects and five original movies passed full public R2 byte/hash, partial-download and decode checks. All five movies contain audio. Corrected repost and prior/proxy assessments remain explicitly preserved without a fresh literal visual or uninterrupted-race certification.",
+      "kuRi’s final reign summary is corrected to the already-correct course clock: the next faster1:13.36 movie was published2025-11-01T02:07:35Z, before the later02:10:01.135Zannouncement. Documented playable duration29.007349537037037days. Course dates, durations and player credit are unchanged.",
+      "Sucha’s original1:13.42movie is preserved as that result, distinct from the erroneous1:13.41receipt. It is not a tied WR. The opening kuRi runs remain slower than carried Wins1:13.46 and receive no opening WR credit.",
+      "Global2019–2026archive and exhaustive Discord coverage remain unproved."
+    ],
+    "historyComplete": false,
+    "wholeGoalComplete": false
+  }
 }
