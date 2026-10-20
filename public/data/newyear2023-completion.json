@@ -2,7 +2,7 @@
   "tourId": "tour-86",
   "tour": "New Year's Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-18",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -184,7 +184,11 @@
     "Final Koopa13585 was posted after tour rollover. Tour attribution is retained as context; posting clock supplies documented duration boundaries without a guessed race date.",
     "Koopa13619/13595 and PPS12863/12853 previous-best leads remain undated, without additional invented dated WR intervals.",
     "Two Wins recordings and Sucha12940 have source/caption and extracted result/lap frames; no new full-frame continuity certification is claimed. Opening Wins12873 prior sampled review retained by hash.",
-    "Overall2019–2026 archive remains incomplete; unsubmitted or lost history is not proven exhaustive."
+    "Overall2019\u20132026 archive remains incomplete; unsubmitted or lost history is not proven exhaustive.",
+    "Twelve current worksheet source/date gaps and three other-tour undated supporting entries remain explicit. No unsupported date is assigned.",
+    "Koopa Cape final 1:35.85 was submitted after rollover on January 11; retained as tour final without backdating its WR clock. Its footage remains unavailable.",
+    "Piranha Plant Slide final 1:28.43 result was documented January 1; original video metadata reports January 11 publication after rollover. Both clocks retained separately.",
+    "Retained source/result assessments; byte and decoder checks do not freshly certify every-frame race continuity. Deleted/private and worldwide history remain unproved."
   ],
   "evidence": [
     "archive/newyear2023-practical-source-disposition-index-20261014.json",
@@ -205,7 +209,13 @@
     "artifacts/newyear2023-pps12866-original-leaderboard-observation-20261018.json",
     "artifacts/newyear2023-three-preserved-videos-full-get-and-decode-review-20261018.json",
     "artifacts/newyear2023-sucha12940-original-video-preservation-20261018.json",
-    "artifacts/newyear2023-source-date-and-video-frame-r2-integrity-20261018.json"
+    "artifacts/newyear2023-source-date-and-video-frame-r2-integrity-20261018.json",
+    "artifacts/newyear2023-final-known-source-date-duration-and4-video-review-20261019.json",
+    "artifacts/newyear2023-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/newyear2023-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/newyear2023-all33-source-and-proof-images-r2-preservation-20261019.json",
+    "artifacts/newyear2023-all38-stored-files-four-video-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/newyear2023-all26-preserved-original-image-crosscheck-20261019.json"
   ],
   "nextTourId": "tour-87",
   "priorPracticalReview": {
@@ -255,7 +265,7 @@
       "PPS final1:28.43 result was submitted January1UTC; matching uploader-reported footage published/shared January11afterrollover. These clocks are shown separately.",
       "Opening PPS1:28.73 video bytes match prior sampled review; no fresh pixels or full uninterrupted race certification. Two other videos match source/title, with no fresh visual certification.",
       "26originalimage references hash-checked;25insideactualwindow plus one late final Koopa image. Raw submissions and 14undated/textual leads retained; practical surviving-proof review is not exhaustive worldwide history.",
-      "Six slower or duplicate post-opening candidates removed with durable guards; all raw submissions retained. Overall2019–2026archive remains incomplete."
+      "Six slower or duplicate post-opening candidates removed with durable guards; all raw submissions retained. Overall2019\u20132026archive remains incomplete."
     ]
   },
   "knownWrReviewComplete": true,
@@ -332,5 +342,602 @@
       "playerId": "n",
       "time": "1:28.77"
     }
-  ]
+  ],
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/newyear2023-final-known-source-date-duration-and4-video-review-20261019.json",
+  "latestPublicationAudit": "artifacts/newyear2023-final-known-source-date-duration-and4-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/newyear2023-final-known-source-date-duration-and4-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "tourId": "tour-86",
+    "sourceCommit": "c9c9b96d73db4defba0999602070eaa10580c489",
+    "knownWRReviewComplete": true,
+    "livePublicationVerified": false,
+    "worksheetRowsReviewed": 51,
+    "worksheetRowsDated": 39,
+    "worksheetSourceGaps": 12,
+    "newWorksheetDatesRecovered": 0,
+    "rawPublicationPatchesAdded": 0,
+    "sourceClockRowsVerified": 255,
+    "boundedPublicationDayRowsVerified": 0,
+    "retainedUndatedOtherTourSupportingRows": 3,
+    "retainedCurrentWorksheetSourceGaps": 12,
+    "durationRowsVerified": 270,
+    "knownWRReignsVerified": 23,
+    "currentTourWRReignsVerified": 9,
+    "currentTourNewWRReignsVerified": 9,
+    "carriedWRReignsVerified": 0,
+    "earlierTourWRReignsVerified": 0,
+    "laterTourWRReignsVerified": 14,
+    "sourceAndProofImageFiles": 33,
+    "derivedVideoFrames": 6,
+    "sourceImagePaths": 27,
+    "distinctSourceHashes": 32,
+    "newlyPreservedPreviouslyCapturedImages": 0,
+    "preservedOriginalImageReferencesVerified": 26,
+    "storedMediaObjectsVerified": 38,
+    "metadataObjects": 1,
+    "videoFilesFullBytesDecodedAndSeekVerified": 4,
+    "distinctCompletedRunResults": 4,
+    "currentTourCompletedRunResults": 4,
+    "historicalCompletedRunResults": 0,
+    "additionalSameResultEncodings": 0,
+    "partialClipsPreserved": 0,
+    "allAvailableCurrentRecordingsPreserved": true,
+    "allCurrentFinalWRRecordingsRecovered": false,
+    "unavailableFinalFootageCourseIds": [
+      "wii-koopa-cape"
+    ],
+    "worksheetDateChecks": [
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH10",
+        "time": "1:36.21",
+        "playerId": "wins",
+        "date": "2022-12-29",
+        "timestamp": "2022-12-29T12:41:47.416Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058001890484420678",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH11",
+        "time": "1:37.29",
+        "playerId": "moara",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH12",
+        "time": "1:36.79",
+        "playerId": "starin",
+        "date": "2022-12-31",
+        "timestamp": "2022-12-31T03:06:13.988Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058581822520438825",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH13",
+        "time": "1:37.68",
+        "playerId": "dome-1909",
+        "date": "2023-01-03",
+        "timestamp": "2023-01-03T20:10:43.068Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1059926806125355048",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH14",
+        "time": "1:37.89",
+        "playerId": "napori",
+        "date": "2023-01-03",
+        "timestamp": "2023-01-03T20:49:20.779Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1059936527309864980",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH15",
+        "time": "1:36.61",
+        "playerId": "spartacurtyt",
+        "date": "2023-01-04",
+        "timestamp": "2023-01-04T03:39:46.135Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1060039813539049563",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH16",
+        "time": "1:36.83",
+        "playerId": "shine",
+        "date": "2023-01-04",
+        "timestamp": "2023-01-04T15:07:20.572Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1060212847189172294",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH17",
+        "time": "1:36.41",
+        "playerId": "spartacurtyt",
+        "date": "2023-01-05",
+        "timestamp": "2023-01-05T00:50:03.051Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1060359490454700152",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH18",
+        "time": "1:36.08",
+        "playerId": "wins",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T17:27:49.248Z",
+        "sourceURL": "https://twitter.com/winsmkt/status/1608877529749950465?s=46&t=m2UAyhe3S79Lp_idF4zUdg",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH19",
+        "time": "1:36.67",
+        "playerId": "n",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH20",
+        "time": "1:37.29",
+        "playerId": "dome-1909",
+        "date": "2023-01-05",
+        "timestamp": "2023-01-05T15:39:29.113Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1060583323942010941",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH21",
+        "time": "1:37.08",
+        "playerId": "kuri",
+        "date": "2023-01-09",
+        "timestamp": "2023-01-09T09:47:37.219Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1061944325702950962",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH22",
+        "time": "1:36.09",
+        "playerId": "nekozuki",
+        "date": "2023-01-09",
+        "timestamp": "2023-01-09T09:59:19.327Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1061947270557351976",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH23",
+        "time": "1:36.89",
+        "playerId": "y146",
+        "date": "2023-01-10",
+        "timestamp": "2023-01-10T04:57:11.061Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062233622964355082",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH24",
+        "time": "1:36.56",
+        "playerId": "newyork",
+        "date": "2023-01-10",
+        "timestamp": "2023-01-10T16:25:53.544Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062406942020096192",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH25",
+        "time": "1:36.92",
+        "playerId": "kuri",
+        "date": "2023-01-11",
+        "timestamp": "2023-01-11T03:32:22.347Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062574667216470127",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH26",
+        "time": "1:36.88",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH27",
+        "time": "1:36.70",
+        "playerId": "kuri",
+        "date": "2023-01-11",
+        "timestamp": "2023-01-11T04:18:18.147Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062586225879429180",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH28",
+        "time": "1:36.63",
+        "playerId": "y146",
+        "date": "2023-01-11",
+        "timestamp": "2023-01-11T05:10:57.739Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062599478168797225",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH29",
+        "time": "1:36.86",
+        "playerId": "retro",
+        "date": "2023-01-11",
+        "timestamp": "2023-01-11T05:47:33.581Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062608688197673011",
+        "gapRetained": false
+      },
+      {
+        "courseId": "wii-koopa-cape",
+        "id": "sheet-ATH30",
+        "time": "1:35.85",
+        "playerId": "nekozuki",
+        "date": "2023-01-11",
+        "timestamp": "2023-01-11T06:29:53.050Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062619339502665738",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ10",
+        "time": "1:28.66",
+        "playerId": "wins",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T08:34:48.284Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/1058302122405408798",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ11",
+        "time": "1:29.40",
+        "playerId": "fireball",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T08:34:48.284Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/1058302122405408798",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ12",
+        "time": "1:28.88",
+        "playerId": "troy",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T08:34:48.284Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/1058302122405408798",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ13",
+        "time": "1:28.92",
+        "playerId": "starin",
+        "date": "2022-12-29",
+        "timestamp": "2022-12-29T12:31:56.976Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1057999413999566908",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ14",
+        "time": "1:29.05",
+        "playerId": "n",
+        "date": "2022-12-29",
+        "timestamp": "2022-12-29T09:24:01.965Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1057952123175841843",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ15",
+        "time": "1:29.82",
+        "playerId": "kuri",
+        "date": "2022-12-28",
+        "timestamp": "2022-12-28T10:22:31.999Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1057604457459896330",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ16",
+        "time": "1:29.40",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": "2022-12-28",
+        "timestamp": "2022-12-28T09:40:26.000Z",
+        "sourceURL": "https://www.youtube.com/watch?v=MgGN6duD3Rs",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ17",
+        "time": "1:29.38",
+        "playerId": "spartacurtyt",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T08:34:48.284Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/636461740162416640/1058302122405408798",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ18",
+        "time": "1:28.61",
+        "playerId": "wins",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T20:44:22.127Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058485723210190948",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ19",
+        "time": "1:28.54",
+        "playerId": "wins",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T20:59:36.936Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058489560197246996",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ20",
+        "time": "1:29.18",
+        "playerId": "spartacurtyt",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ21",
+        "time": "1:29.45",
+        "playerId": "dome-1909",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ22",
+        "time": "1:29.20",
+        "playerId": "kuri",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ23",
+        "time": "1:29.04",
+        "playerId": "phillish",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T11:23:19.882Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058344533521334363",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ24",
+        "time": "1:29.01",
+        "playerId": "n",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T10:56:48.025Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058337856789164122",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ25",
+        "time": "1:28.94",
+        "playerId": "phillish",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T11:23:19.882Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058344533521334363",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ26",
+        "time": "1:28.91",
+        "playerId": "n",
+        "date": "2022-12-30",
+        "timestamp": "2022-12-30T11:29:31.034Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058346090245673020",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ27",
+        "time": "1:28.96",
+        "playerId": "spartacurtyt",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ28",
+        "time": "1:28.83",
+        "playerId": "troy",
+        "date": "2022-12-31",
+        "timestamp": "2022-12-31T09:20:26.753Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1058675996242489374",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ29",
+        "time": "1:28.43",
+        "playerId": "wins",
+        "date": "2023-01-11",
+        "timestamp": "2023-01-11T08:29:54.000Z",
+        "sourceURL": "https://twitter.com/winsmkt/status/1613090581793701890",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ30",
+        "time": "1:29.06",
+        "playerId": "malermarkus",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ31",
+        "time": "1:29.19",
+        "playerId": "dome-1909",
+        "date": "2023-01-03",
+        "timestamp": "2023-01-03T20:09:33.510Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1059926514377953290",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ32",
+        "time": "1:29.29",
+        "playerId": "napori",
+        "date": "2023-01-03",
+        "timestamp": "2023-01-03T20:48:31.948Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1059936322497826976",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ33",
+        "time": "1:29.10",
+        "playerId": "shine",
+        "date": "2023-01-04",
+        "timestamp": "2023-01-04T15:07:03.214Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1060212774384439326",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ34",
+        "time": "1:28.88",
+        "playerId": "malermarkus",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ35",
+        "time": "1:36.97",
+        "playerId": "syun",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ36",
+        "time": "1:28.85",
+        "playerId": "newyork",
+        "date": "2023-01-08",
+        "timestamp": "2023-01-08T01:49:35.056Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1061461636126347395",
+        "gapRetained": false
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ37",
+        "time": "1:28.80",
+        "playerId": "malermarkus",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ38",
+        "time": "1:28.77",
+        "playerId": "n",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "3ds-piranha-plant-slide",
+        "id": "sheet-ASZ39",
+        "time": "1:29.03",
+        "playerId": "retro",
+        "date": "2023-01-11",
+        "timestamp": "2023-01-11T05:48:20.012Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1062608882943397949",
+        "gapRetained": false
+      }
+    ],
+    "displayCorrection": {
+      "archivedTourRecordingTablesRestored": true,
+      "lateKoopaCapeFinalRetained": true,
+      "latePiranhaPlantSlideVideoRetained": true,
+      "courses": [
+        {
+          "courseId": "wii-koopa-cape",
+          "finalWR": "1:35.85",
+          "finalWRDocumentedDate": "2023-01-11",
+          "availableRecording": "1:36.21",
+          "recordingDocumentedDate": "2022-12-29"
+        },
+        {
+          "courseId": "3ds-piranha-plant-slide",
+          "finalWRAndAvailableRecording": "1:28.43",
+          "originalDocumentedDate": "2023-01-01"
+        }
+      ],
+      "allCourseRecordDatesAndDurationsUnchanged": true,
+      "videoSelectorUnchanged": false,
+      "noFrameworkCodeChanged": true
+    },
+    "independentClockAndDurationAudit": "artifacts/newyear2023-independent-source-clock-and-duration-audit-20261019.json",
+    "independentKnownWRReignAudit": "artifacts/newyear2023-independent-known-wr-semantic-duration-review-20261019.json",
+    "imagePreservationAudit": "artifacts/newyear2023-all33-source-and-proof-images-r2-preservation-20261019.json",
+    "storedMediaPreservationAudit": "artifacts/newyear2023-all38-stored-files-four-video-full-byte-decode-and-range-verification-20261019.json",
+    "limitations": [
+      "Twelve worksheet entries retain explicit original source/date gaps. No unrelated runner or later-tour date is borrowed.",
+      "Three matched entries use documented observations/previous-best fields and four additional named leaderboard observations are distinguished from original submissions. Sucha12940 uses earlier original video publication.",
+      "Final Koopa13585 was posted after tour rollover. Tour attribution is retained as context; posting clock supplies documented duration boundaries without a guessed race date.",
+      "Koopa13619/13595 and PPS12863/12853 previous-best leads remain undated, without additional invented dated WR intervals.",
+      "Two Wins recordings and Sucha12940 have source/caption and extracted result/lap frames; no new full-frame continuity certification is claimed. Opening Wins12873 prior sampled review retained by hash.",
+      "Overall2019\u20132026 archive remains incomplete; unsubmitted or lost history is not proven exhaustive.",
+      "Twelve current worksheet source/date gaps and three other-tour undated supporting entries remain explicit. No unsupported date is assigned.",
+      "Koopa Cape final 1:35.85 was submitted after rollover on January 11; retained as tour final without backdating its WR clock. Its footage remains unavailable.",
+      "Piranha Plant Slide final 1:28.43 result was documented January 1; original video metadata reports January 11 publication after rollover. Both clocks retained separately.",
+      "Retained source/result assessments; byte and decoder checks do not freshly certify every-frame race continuity. Deleted/private and worldwide history remain unproved."
+    ],
+    "historyComplete": false,
+    "wholeGoalComplete": false
+  }
 }
