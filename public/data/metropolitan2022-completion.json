@@ -2,11 +2,11 @@
   "tourId": "tour-72",
   "tour": "Metropolitan Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
-  "standard": "User-authorized good-enough surviving evidence; prior source reviews retained, original hashes checked, available media preserved, selected results sampled and decoded, publication verified live.",
+  "standard": "Known-source WR review using supported report/publication dates, independently recomputed playable durations, archived available originals and explicit unavailable-source gaps.",
   "window": {
     "start": "2022-06-15T06:00:00Z",
     "endExclusive": "2022-06-29T06:00:00Z"
@@ -33,8 +33,8 @@
     "exactWindowDiscussionMessagesIndexed": 33,
     "fullRaceRecordingsPreservedOnR2": 8,
     "partialClipsPreservedOnR2": 2,
-    "freshSampledFullRaceRecordingReviews": 8,
-    "pendingTourCandidatesRemaining": 0
+    "pendingTourCandidatesRemaining": 0,
+    "priorSavedSampledFullRaceRecordingReviews": 8
   },
   "validation": {
     "liveSnapshotRows": 245,
@@ -54,7 +54,8 @@
     "Only fastest documented opening-day results are shown: Nu11Amsterdam1:21.69 andBerlin1:14.88. Global opening WR succession remains unproved; raw intermediates preserved without WR profile awards.",
     "Eight full-race recordings and two partial clips preserved on R2. Seven original recordings and N discussionrecording sampled/decoded; SuperFXstrategyclip carries prior visual disposition. Every-frame continuity and worldwide fastest-recording exhaustiveness are not certified.",
     "Prior57original-image visual dispositions and final standings/command/receipt reviews retained; files hashchecked,33exact-window discussionmessages indexed. Unidentified/deleted original supporting sources and unindexed/private/global material may remain.",
-    "Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred."
+    "Undated previousbest results, including SuperFX1:14.71 and NHSpeedyBerlin1:14.76, remain supporting evidence without dates or WR awards. OlderNHSpeedyreview1:14.81 does not match current sampledpreviousbest; no dated run inferred.",
+    "All38 current worksheet entries have supported documentation dates,33 newly recovered. Four entries use exact named June29 final standings; earlier private race and individual submission evidence remain unsupported. No identity is inferred from another runner or a matching total alone. SuperFX final Berlin1:14.54 footage is unavailable; NHSpeedy1:14.69 remains the fastest documented available recording. All57 preserved original image files passed full public SHA/decode checks; all10 video files passed full public SHA, full decode and206seeking. Eight completed-run objects and two partial clips retain saved scope reviews, without a fresh visual claim. All248 row durations and11 known WR reigns independently match playable windows. Two older/future-tour supporting rows remain undated; none is a current Metropolitan worksheet entry. Exhaustive deleted/private history and all original footage remain unproven."
   ],
   "evidence": [
     "archive/metropolitan2022-additional-discussion-video-recovery-access-20261013.json",
@@ -78,10 +79,19 @@
     "archive/metropolitan2022-berlinbyways-june29-fifteen-rank-delayed-leader-reconciliation-20261010.json",
     "archive/metropolitan2022-preservation-reconciliation-20261008.json",
     "artifacts/metropolitan2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
-    "artifacts/metropolitan2022-source-date-duration-and-original-publication-review-20261017.json"
+    "artifacts/metropolitan2022-source-date-duration-and-original-publication-review-20261017.json",
+    "artifacts/metropolitan2022-final-known-source-date-duration-and10-video-review-20261019.json",
+    "artifacts/metropolitan2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/metropolitan2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/metropolitan2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/metropolitan2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/metropolitan2022-all10-stored-video-files-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/metropolitan2022-all57-original-source-images-r2-preservation-20261019.json",
+    "artifacts/metropolitan2022-four-final-named-standings-publication-date-review-20261019.json",
+    "artifacts/metropolitan2022-retained-current-worksheet-source-gaps-20261019.json"
   ],
   "sourceCommit": "2f9322dded2f854e85e5a5640899fc39d2dedcd5",
-  "latestPublicationAudit": "archive/metropolitan2022-final-publication-audit-20261013.json",
+  "latestPublicationAudit": "artifacts/metropolitan2022-final-known-source-date-duration-and10-video-review-20261019.json",
   "completionLabelLiveAudit": "archive/metropolitan2022-completion-label-live-check-20261013.json",
   "latestSourceAndDurationRevalidation": {
     "checkedAt": "2026-10-17T08:14:44.278556+00:00",
@@ -394,5 +404,23 @@
     "originalPublicationAndActualRepostSeparated": true,
     "newUploads": 0,
     "evidence": "artifacts/metropolitan2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json"
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/metropolitan2022-final-known-source-date-duration-and10-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/metropolitan2022-final-known-source-date-duration-and10-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 33,
+    "sourceRowsMatched": 33,
+    "sourceClockRowsVerified": 246,
+    "durationRowsVerified": 248,
+    "wrDurationClockCorrections": [],
+    "standingClockPolicyCorrections": 0,
+    "remainingUndatedSupportingRows": [],
+    "indexedSourceImageFiles": 57,
+    "totalPreservedSourceFiles": 57,
+    "distinctSourceHashes": 57,
+    "storedVideoObjects": 10,
+    "distinctStoredVideoHashes": 10,
+    "rawPublicationPatchesAdded": 34
   }
 }
