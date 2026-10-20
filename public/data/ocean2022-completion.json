@@ -2,11 +2,11 @@
   "tourId": "tour-75",
   "tour": "Ocean Tour (2022)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-13",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
-  "standard": "User-authorized good-enough surviving evidence; reviewed sources retained, preserved files hashchecked, available final video on R2, publication clocks separate from unknown achievement/submission clocks.",
+  "standard": "Known-source WR review using supported report/publication dates, independently recomputed playable durations, archived available originals and explicit unavailable-source gaps.",
   "window": {
     "start": "2022-07-27T06:00:00Z",
     "endExclusive": "2022-08-10T06:00:00Z"
@@ -35,7 +35,9 @@
     "staleCandidatesReconciled": 3,
     "duplicateProofLinksRepaired": 11,
     "finalVideoPreservedOnR2": true,
-    "recordingsPreservedOnR2": 3
+    "recordingsPreservedOnR2": 3,
+    "freshFullByteVerifiedSourceImagePaths": 41,
+    "freshFullByteDecodedVideoFiles": 4
   },
   "validation": {
     "liveSupportingEntries": 49,
@@ -53,7 +55,8 @@
     "NHSpeedy previous best1:21.41 and Nu11previous best1:21.30 remain undated leads.",
     "NJuly27 image shows an in-progress lap2 timer1:04.24, not a completed1:21.68. Sheet1:21.68 now uses July30T07:25:31.937Z leaderboard publication as its documented observation date; original submission and achievement remain unknown. No WR promotion. Opening display retains only fastest recovered same-day supporting result kuRi1:25.90.",
     "Prior legible screenshot/source reviews retained; deleted/private/global source completeness unproved. Known October 2026 repost retained from the Codex in-app browser source review; no native Discord access used.",
-    "Final result frame and full local decode verified; uninterrupted video continuity and global fastest-recording exhaustiveness not certified."
+    "Final result frame and full local decode verified; uninterrupted video continuity and global fastest-recording exhaustiveness not certified.",
+    "All30 current worksheet entries reviewed;29 have supported documentation dates,26 newly recovered. Perrier1:23.33 retains a date gap. Seven exact named standings supply public documentation dates; individual original submissions/private race dates remain unsupported. Original Nu11 video publication remains August9; its later Discord share does not replace that date. NHSpeedy\u2019s earlier faster recording bounds the carried record without inventing a WR announcement. All41 preserved original image paths passed full public SHA/decode checks; this includes seven retained next-tour transition images without claiming their reconciliation. All11 stored files passed public SHA/decode/parse and206seeking: two current original videos, one historical original recording, one playback copy, five images including an excluded unfinished timer, and two metadata files. All211 durations,209 exact source clocks, the current WR and carried-in reign independently match. One older worksheet date remains unsupported outside this tour. Exhaustive deleted/private history and all original footage remain unproven."
   ],
   "evidence": [
     "archive/ocean2022-final-practical-publication-audit-20261013.json",
@@ -66,7 +69,16 @@
     "archive/ocean2022-original-preservation-chronology-reconciliation-20261008.json",
     "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
     "artifacts/ocean2022-source-date-duration-and-original-recovery-review-20261017.json",
-    "artifacts/ocean2022-carried-wr-faster-recording-duration-end-review-20261017.json"
+    "artifacts/ocean2022-carried-wr-faster-recording-duration-end-review-20261017.json",
+    "artifacts/ocean2022-final-known-source-date-duration-and4-video-review-20261019.json",
+    "artifacts/ocean2022-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/ocean2022-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/ocean2022-selected-own-and-reviewed-peer-date-proofs-20261019.json",
+    "artifacts/ocean2022-all-indexed-and-supplementary-original-source-preservation-20261019.json",
+    "artifacts/ocean2022-all11-stored-files-four-video-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/ocean2022-all41-original-source-images-r2-preservation-20261019.json",
+    "artifacts/ocean2022-named-standings-publication-date-review-20261019.json",
+    "artifacts/ocean2022-retained-current-worksheet-source-gaps-20261019.json"
   ],
   "nextTourId": "tour-76",
   "sourceCommit": "e8a6dc722704632e36ab458e83124825589c1e87",
@@ -146,5 +158,32 @@
     "verificationUsedNoMediaBrowserTabs": true,
     "evidence": "artifacts/ocean2022-preserved-media-full-integrity-and-original-recovery-review-20261017.json",
     "unfinishedOpeningImagePreservedOnR2": true
+  },
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/ocean2022-final-known-source-date-duration-and4-video-review-20261019.json",
+  "latestPublicationAudit": "artifacts/ocean2022-final-known-source-date-duration-and4-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/ocean2022-final-known-source-date-duration-and4-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "newWorksheetDatesRecovered": 26,
+    "sourceRowsMatched": 26,
+    "sourceClockRowsVerified": 209,
+    "durationRowsVerified": 211,
+    "wrDurationClockCorrections": [],
+    "standingClockPolicyCorrections": 0,
+    "remainingUndatedSupportingRows": [
+      {
+        "courseId": "rmx-rainbow-road-2r",
+        "id": "sheet-AMF32",
+        "playerId": "perrier",
+        "time": "1:23.33",
+        "reason": "No exact same-player dated original or named standings report. Date remains unsupported; no private run date inferred."
+      }
+    ],
+    "indexedSourceImageFiles": 41,
+    "totalPreservedSourceFiles": 41,
+    "distinctSourceHashes": 41,
+    "storedVideoObjects": 11,
+    "distinctStoredVideoHashes": 11,
+    "rawPublicationPatchesAdded": 26
   }
 }
