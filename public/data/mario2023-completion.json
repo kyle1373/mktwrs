@@ -2,7 +2,7 @@
   "tourId": "tour-91",
   "tour": "Mario Tour (2023)",
   "status": "completed-with-documented-gaps",
-  "completedAt": "2026-10-18",
+  "completedAt": "2026-10-19",
   "practicalReviewComplete": true,
   "historyComplete": false,
   "exhaustiveHistoryProven": false,
@@ -112,11 +112,14 @@
         }
       ],
       "openingFinalFastest": "DIT 1:12.33",
-      "fastestRecoveredAvailableRecording": "1:12.43",
+      "fastestRecoveredAvailableRecording": null,
       "recordingPublishedAt": "2023-03-08T22:22:54.013Z",
-      "recordingBackupUrl": "https://media.mktwrs.com/assets/video/mario2023-b18c38d834d20a9da52f.mp4",
       "priorSampledVideoReviewRetained": true,
-      "freshVisualReview": false
+      "freshVisualReview": false,
+      "finishOnlyRecordingTime": "1:12.43",
+      "finishOnlyRecordingBackupUrl": "https://media.mktwrs.com/assets/video/mario2023-b18c38d834d20a9da52f.mp4",
+      "recordingScope": "finish-only",
+      "availableFullRunRecordingRecovered": false
     }
   ],
   "coverage": {
@@ -166,7 +169,11 @@
     "Wins72.43 clip contains lap-two ending and finish only. DIT72.20 full recording unavailable; no uninterrupted full-race certification.",
     "Only final fastest recovered opening-day runs retained publicly.",
     "Publication uses the earliest supported surviving posting/video clock. NeKo1:12.40 is dated only as a previous-best observation on2023-03-10, not a private achievement or WR claim.",
-    "Raptor0:59.52 remains an undated worksheet source gap; global2019–2026 archival remains unfinished."
+    "Raptor0:59.52 remains an undated worksheet source gap; global2019\u20132026 archival remains unfinished.",
+    "One current worksheet source/date gap and11 other-tour undated supporting entries remain explicit; no unsupported date is assigned.",
+    "Two completed Donut Plains recordings, one Luigi finish-only clip, and one failed attempt preserved separately. Incomplete recordings are not full-run selections.",
+    "DIT final Luigi1:12.20 footage remains unavailable. Earlier summary of Wins1:12.43 as a fastest available recording is corrected to finish-only footage, retaining the original summary as prior evidence.",
+    "Retained source/result assessments; full byte and decoder checks do not freshly certify every-frame race continuity. Deleted/private and worldwide history remain unproved."
   ],
   "evidence": [
     "archive/mario2023-practical-source-disposition-index-20261014.json",
@@ -190,7 +197,13 @@
     "artifacts/mario2023-retro-5880-original-author-source-20261018.json",
     "artifacts/mario2023-retro-opening-original-author-source-20261018.json",
     "artifacts/mario2023-jabasok-original-author-source-20261018.json",
-    "artifacts/mario2023-tankian-floyd-opening-original-author-source-20261018.json"
+    "artifacts/mario2023-tankian-floyd-opening-original-author-source-20261018.json",
+    "artifacts/mario2023-final-known-source-date-duration-and2-video-review-20261019.json",
+    "artifacts/mario2023-independent-source-clock-and-duration-audit-20261019.json",
+    "artifacts/mario2023-independent-known-wr-semantic-duration-review-20261019.json",
+    "artifacts/mario2023-all87-source-and-proof-images-r2-preservation-20261019.json",
+    "artifacts/mario2023-all98-stored-files-four-video-full-byte-decode-and-range-verification-20261019.json",
+    "artifacts/mario2023-all51-preserved-original-image-crosscheck-20261019.json"
   ],
   "nextTourId": "tour-92",
   "sourceCommit": "6a1557a462ad2edf897771cfd485d18f6be285c5",
@@ -222,5 +235,733 @@
       "time": "0:59.52",
       "reason": "Worksheet-only result has no recovered dated matching source; retained without invented date or WR credit."
     }
-  ]
+  ],
+  "knownWRReviewComplete": true,
+  "latestDateDurationReview": "artifacts/mario2023-final-known-source-date-duration-and2-video-review-20261019.json",
+  "latestPublicationAudit": "artifacts/mario2023-final-known-source-date-duration-and2-video-review-20261019.json",
+  "finalLiveVerificationReceiptURL": "https://media.mktwrs.com/assets/proof/mario2023-final-known-source-date-duration-and2-video-review-live-receipt-20261019.json",
+  "dateDurationAndMediaReview": {
+    "tourId": "tour-91",
+    "sourceCommit": "14e2e0594f9008a3cf10a656553b29731f5f5eb3",
+    "knownWRReviewComplete": true,
+    "livePublicationVerified": false,
+    "worksheetRowsReviewed": 53,
+    "worksheetRowsDated": 52,
+    "worksheetSourceGaps": 1,
+    "newWorksheetDatesRecovered": 0,
+    "rawPublicationPatchesAdded": 0,
+    "sourceClockRowsVerified": 318,
+    "boundedPublicationDayRowsVerified": 0,
+    "retainedUndatedOtherTourSupportingRows": 11,
+    "retainedCurrentWorksheetSourceGaps": 1,
+    "durationRowsVerified": 330,
+    "knownWRReignsVerified": 19,
+    "currentTourWRReignsVerified": 14,
+    "currentTourNewWRReignsVerified": 14,
+    "carriedWRReignsVerified": 0,
+    "earlierTourWRReignsVerified": 0,
+    "laterTourWRReignsVerified": 5,
+    "sourceAndProofImageFiles": 87,
+    "derivedVideoFrames": 0,
+    "sourceImagePaths": 87,
+    "distinctSourceHashes": 87,
+    "newlyPreservedPreviouslyCapturedImages": 0,
+    "preservedOriginalImageReferencesVerified": 51,
+    "priorOriginalImageReferences": 43,
+    "renewedOriginalImageReferences": 8,
+    "storedMediaObjectsVerified": 98,
+    "metadataObjects": 7,
+    "videoFilesFullBytesDecodedAndSeekVerified": 4,
+    "distinctCompletedRunResults": 2,
+    "currentTourCompletedRunResults": 2,
+    "historicalCompletedRunResults": 0,
+    "additionalSameResultEncodings": 0,
+    "partialClipsPreserved": 2,
+    "allAvailableCurrentRecordingsPreserved": true,
+    "allCurrentFinalWRRecordingsRecovered": false,
+    "unavailableFinalFootageCourseIds": [
+      "n64-luigi-raceway"
+    ],
+    "worksheetDateChecks": [
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR10",
+        "time": "0:59.59",
+        "playerId": "floyd",
+        "date": "2023-03-08",
+        "timestamp": "2023-03-08T19:13:13.616Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083105161473433611",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR11",
+        "time": "0:59.79",
+        "playerId": "retro",
+        "date": "2023-03-08",
+        "timestamp": "2023-03-08T09:51:33.678Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1082963813688688741",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR12",
+        "time": "0:58.94",
+        "playerId": "retro",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T11:16:22.835Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083347547025842176",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR13",
+        "time": "0:59.51",
+        "playerId": "starin",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T11:55:09.417Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083357305418043412",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR14",
+        "time": "0:58.86",
+        "playerId": "phillish",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T12:08:43.388Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083360719459848264",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR15",
+        "time": "0:58.67",
+        "playerId": "retro",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T12:35:44.482Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083367518820905051",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR16",
+        "time": "0:59.56",
+        "playerId": "neko4221",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T13:28:38.054Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083380829746634753",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR17",
+        "time": "0:57.69",
+        "playerId": "saki7",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T13:30:00.778Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083381176716251136",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR18",
+        "time": "0:57.52",
+        "playerId": "saki7",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T15:00:33.176Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083403961844895857",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR19",
+        "time": "0:58.45",
+        "playerId": "phillish",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T15:20:14.588Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083408917045977149",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR20",
+        "time": "0:58.43",
+        "playerId": "jabasok",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T17:06:27.127Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083435645411786813",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR21",
+        "time": "0:58.25",
+        "playerId": "phillish",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T18:23:17.542Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083454982893875340",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR22",
+        "time": "0:57.72",
+        "playerId": "nr",
+        "date": "2023-03-10",
+        "timestamp": "2023-03-10T05:06:34.672Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083616870990614579",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR23",
+        "time": "0:58.48",
+        "playerId": "starin",
+        "date": "2023-03-10",
+        "timestamp": "2023-03-10T11:44:10.563Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083716929849667584",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR24",
+        "time": "0:57.82",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": "2023-03-10",
+        "timestamp": "2023-03-10T12:53:33.773Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083734391618019349",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR25",
+        "time": "0:58.14",
+        "playerId": "phillish",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T15:04:56.932Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084129843848941639",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR26",
+        "time": "0:57.42",
+        "playerId": "saki7",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T14:31:13.432Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084121356674814063",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR27",
+        "time": "0:58.31",
+        "playerId": "kuri",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T13:10:25.537Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084101023129423922",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR28",
+        "time": "0:57.82",
+        "playerId": "phillish",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T18:04:06.254Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084174929773219860",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR29",
+        "time": "0:57.78",
+        "playerId": "kuri",
+        "date": "2023-03-12",
+        "timestamp": "2023-03-12T02:14:29.035Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084298337861255178",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR30",
+        "time": "0:57.30",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": "2023-03-12",
+        "timestamp": "2023-03-12T13:40:31.207Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084470984523927592",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR31",
+        "time": "0:57.13",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": "2023-03-14",
+        "timestamp": "2023-03-14T14:27:27.000Z",
+        "sourceURL": "https://www.youtube.com/watch?v=_l2OTgtMla8",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR32",
+        "time": "0:57.85",
+        "playerId": "spartacurtyt",
+        "date": "2023-03-15",
+        "timestamp": "2023-03-15T03:08:01.775Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1085398976666284122",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR33",
+        "time": "0:58.08",
+        "playerId": "starin",
+        "date": "2023-03-19",
+        "timestamp": "2023-03-19T05:29:22.863Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1086884100390015057",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR34",
+        "time": "0:59.52",
+        "playerId": "raptor",
+        "date": null,
+        "timestamp": null,
+        "sourceURL": null,
+        "gapRetained": true
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR35",
+        "time": "0:59.04",
+        "playerId": "raptor",
+        "date": "2023-03-20",
+        "timestamp": "2023-03-20T13:17:17.831Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087364243206189207",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR36",
+        "time": "0:58.62",
+        "playerId": "lionjin",
+        "date": "2023-03-20",
+        "timestamp": "2023-03-20T13:35:56.624Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087368935764148344",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR37",
+        "time": "0:58.51",
+        "playerId": "lionjin",
+        "date": "2023-03-21",
+        "timestamp": "2023-03-21T09:25:35.165Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087668319064162345",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR38",
+        "time": "0:58.35",
+        "playerId": "lionjin",
+        "date": "2023-03-21",
+        "timestamp": "2023-03-21T09:38:05.447Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087671465974972476",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR39",
+        "time": "0:57.77",
+        "playerId": "n",
+        "date": "2023-03-21",
+        "timestamp": "2023-03-21T09:43:47.629Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087672901190291497",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR40",
+        "time": "0:58.20",
+        "playerId": "floyd",
+        "date": "2023-03-21",
+        "timestamp": "2023-03-21T10:50:53.497Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087689786904551505",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR41",
+        "time": "0:58.27",
+        "playerId": "retro",
+        "date": "2023-03-22",
+        "timestamp": "2023-03-22T06:08:23.309Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087981080528826398",
+        "gapRetained": false
+      },
+      {
+        "courseId": "snes-donut-plains-3r",
+        "id": "sheet-AWR42",
+        "time": "0:58.79",
+        "playerId": "okusho",
+        "date": "2023-03-22",
+        "timestamp": "2023-03-22T07:43:31.518Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1088005022492667984",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ10",
+        "time": "1:12.40",
+        "playerId": "nekozuki",
+        "date": "2023-03-10",
+        "timestamp": "2023-03-10T14:08:12.307Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083753175951085579",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ11",
+        "time": "1:12.43",
+        "playerId": "wins",
+        "date": "2023-03-08",
+        "timestamp": "2023-03-08T22:22:54.013Z",
+        "sourceURL": "https://x.com/winsmkt/status/1633594163777220608",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ12",
+        "time": "1:12.33",
+        "playerId": "dit",
+        "date": "2023-03-08",
+        "timestamp": "2023-03-08T10:46:18.792Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1082977592455467018",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ13",
+        "time": "1:12.75",
+        "playerId": "n",
+        "date": "2023-03-08",
+        "timestamp": "2023-03-08T10:20:12.738Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1082971023948914729",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ14",
+        "time": "1:12.89",
+        "playerId": "starin",
+        "date": "2023-03-08",
+        "timestamp": "2023-03-08T09:47:48.238Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1082962868124786708",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ15",
+        "time": "1:12.95",
+        "playerId": "kuri",
+        "date": "2023-03-08",
+        "timestamp": "2023-03-08T07:21:09.643Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1082925964142592040",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ16",
+        "time": "1:12.60",
+        "playerId": "starin",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T11:55:35.610Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083357415279439872",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ17",
+        "time": "1:12.27",
+        "playerId": "dit",
+        "date": "2023-03-09",
+        "timestamp": "2023-03-09T07:57:27.792Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083297487827238932",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ18",
+        "time": "1:12.37",
+        "playerId": "nekozuki",
+        "date": "2023-03-10",
+        "timestamp": "2023-03-10T14:08:12.307Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083753175951085579",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ19",
+        "time": "1:12.80",
+        "playerId": "spartacurtyt",
+        "date": "2023-03-10",
+        "timestamp": "2023-03-10T11:19:05.451Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083710616952385566",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ20",
+        "time": "1:12.63",
+        "playerId": "jabasok",
+        "date": "2023-03-10",
+        "timestamp": "2023-03-10T18:39:13.415Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083821379981410335",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ21",
+        "time": "1:12.63",
+        "playerId": "spartacurtyt",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T02:13:30.231Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083935703353798766",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ22",
+        "time": "1:12.25",
+        "playerId": "dit",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T04:32:06.932Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083970586126061668",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ23",
+        "time": "1:12.58",
+        "playerId": "player-e381bde38288e4bd99",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T06:19:19.866Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1083997567806865428",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ24",
+        "time": "1:12.20",
+        "playerId": "dit",
+        "date": "2023-03-11",
+        "timestamp": "2023-03-11T15:25:27.292Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084135004352823346",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ25",
+        "time": "1:12.56",
+        "playerId": "player-e381bde38288e4bd99",
+        "date": "2023-03-12",
+        "timestamp": "2023-03-12T10:49:04.095Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1084427837248909342",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ26",
+        "time": "1:12.33",
+        "playerId": "nekozuki",
+        "date": "2023-03-14",
+        "timestamp": "2023-03-14T13:07:48.513Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1085187528119832650",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ27",
+        "time": "1:12.49",
+        "playerId": "player-e381bde38288e4bd99",
+        "date": "2023-03-19",
+        "timestamp": "2023-03-19T05:37:16.390Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1086886086506192898",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ28",
+        "time": "1:12.48",
+        "playerId": "n",
+        "date": "2023-03-21",
+        "timestamp": "2023-03-21T09:43:04.080Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087672718532558858",
+        "gapRetained": false
+      },
+      {
+        "courseId": "n64-luigi-raceway",
+        "id": "sheet-AWJ29",
+        "time": "1:12.67",
+        "playerId": "player-e38199e38184e3819df09f90ba",
+        "date": "2023-03-22",
+        "timestamp": "2023-03-22T05:46:16.738Z",
+        "sourceURL": "https://discord.com/channels/629221606064914442/875784780573184010/1087975516486783066",
+        "gapRetained": false
+      }
+    ],
+    "displayCorrection": {
+      "archivedTourRecordingTablesRestored": true,
+      "luigiFinishOnlyNotPresentedAsFullRun": true,
+      "courses": [
+        {
+          "courseId": "snes-donut-plains-3r",
+          "finalWRAndAvailableRecording": "0:57.13",
+          "originalDocumentedDate": "2023-03-14"
+        },
+        {
+          "courseId": "n64-luigi-raceway",
+          "finalWR": "1:12.20",
+          "finalWRDocumentedDate": "2023-03-11",
+          "availableFullRecording": null,
+          "finishOnlyClip": "1:12.43"
+        }
+      ],
+      "allCourseRecordDatesAndDurationsUnchanged": true,
+      "videoSelectorUnchanged": true,
+      "noFrameworkCodeChanged": true
+    },
+    "independentClockAndDurationAudit": "artifacts/mario2023-independent-source-clock-and-duration-audit-20261019.json",
+    "independentKnownWRReignAudit": "artifacts/mario2023-independent-known-wr-semantic-duration-review-20261019.json",
+    "imagePreservationAudit": "artifacts/mario2023-all87-source-and-proof-images-r2-preservation-20261019.json",
+    "storedMediaPreservationAudit": "artifacts/mario2023-all98-stored-files-four-video-full-byte-decode-and-range-verification-20261019.json",
+    "limitations": [
+      "Surviving result and accepted receipt evidence establishes recovered progression, not exhaustive history or private achievement instants.",
+      "Eight renewed accepted receipt proof images preserved without fresh visual certification. Prior image reviews retained by original hash.",
+      "Six old discussion images remain unresolved: three Aggron late images and three opening discussion images. Direct navigation and focused searches did not recover their current contents; this does not prove deletion.",
+      "Hypothetical57.2 discussion does not document a completed time. Undated previous personal bests are not dated WR reigns.",
+      "Wins72.43 clip contains lap-two ending and finish only. DIT72.20 full recording unavailable; no uninterrupted full-race certification.",
+      "Only final fastest recovered opening-day runs retained publicly.",
+      "Publication uses the earliest supported surviving posting/video clock. NeKo1:12.40 is dated only as a previous-best observation on2023-03-10, not a private achievement or WR claim.",
+      "Raptor0:59.52 remains an undated worksheet source gap; global2019\u20132026 archival remains unfinished.",
+      "One current worksheet source/date gap and11 other-tour undated supporting entries remain explicit; no unsupported date is assigned.",
+      "Two completed Donut Plains recordings, one Luigi finish-only clip, and one failed attempt preserved separately. Incomplete recordings are not full-run selections.",
+      "DIT final Luigi1:12.20 footage remains unavailable. Earlier summary of Wins1:12.43 as a fastest available recording is corrected to finish-only footage, retaining the original summary as prior evidence.",
+      "Retained source/result assessments; full byte and decoder checks do not freshly certify every-frame race continuity. Deleted/private and worldwide history remain unproved."
+    ],
+    "historyComplete": false,
+    "wholeGoalComplete": false,
+    "priorCourseRecordingSummary": [
+      {
+        "id": "snes-donut-plains-3r",
+        "firstTimeTrialAppearance": true,
+        "archivedWr": "0:57.13",
+        "wrPlayerId": "player-e38199e38184e3819df09f90ba",
+        "wrSubmittedAt": "2023-03-14T14:29:42.475Z",
+        "wrAnnouncedAt": "2023-03-26T17:53:26.650Z",
+        "recoveredProgression": [
+          {
+            "playerId": "tankian",
+            "time": "0:59.59",
+            "submittedAt": "2023-03-08T19:13:13.616Z"
+          },
+          {
+            "playerId": "retro",
+            "time": "0:58.94",
+            "submittedAt": "2023-03-09T11:16:22.835Z"
+          },
+          {
+            "playerId": "phillish",
+            "time": "0:58.86",
+            "submittedAt": "2023-03-09T12:08:43.388Z"
+          },
+          {
+            "playerId": "retro",
+            "time": "0:58.80",
+            "submittedAt": "2023-03-09T12:29:00.664Z"
+          },
+          {
+            "playerId": "retro",
+            "time": "0:58.67",
+            "submittedAt": "2023-03-09T12:35:44.482Z"
+          },
+          {
+            "playerId": "saki7",
+            "time": "0:57.69",
+            "submittedAt": "2023-03-09T13:30:00.778Z"
+          },
+          {
+            "playerId": "saki7",
+            "time": "0:57.52",
+            "submittedAt": "2023-03-09T15:00:33.176Z"
+          },
+          {
+            "playerId": "saki7",
+            "time": "0:57.42",
+            "submittedAt": "2023-03-11T14:31:13.432Z"
+          },
+          {
+            "playerId": "player-e38199e38184e3819df09f90ba",
+            "time": "0:57.30",
+            "submittedAt": "2023-03-12T13:40:31.207Z"
+          },
+          {
+            "playerId": "player-e38199e38184e3819df09f90ba",
+            "time": "0:57.13",
+            "submittedAt": "2023-03-14T14:29:42.475Z",
+            "documentedAt": "2023-03-14T14:27:27Z",
+            "documentedDateBasis": "reviewed-original-video-publication"
+          }
+        ],
+        "openingFinalFastest": "Tankian 0:59.59",
+        "fastestRecoveredAvailableRecording": "0:57.13",
+        "recordingPublishedAt": "2023-03-14T14:27:27Z",
+        "recordingBackupUrl": "https://media.mktwrs.com/assets/video/mario2023-3ab2e8e2e88e70423386.mp4",
+        "priorSampledVideoReviewRetained": true,
+        "freshVisualReview": false,
+        "wrDocumentedAt": "2023-03-14T14:27:27Z",
+        "wrDocumentedDateBasis": "reviewed-original-video-publication"
+      },
+      {
+        "id": "n64-luigi-raceway",
+        "firstTimeTrialAppearance": true,
+        "archivedWr": "1:12.20",
+        "wrPlayerId": "dit",
+        "wrSubmittedAt": "2023-03-11T15:25:27.292Z",
+        "wrAnnouncedAt": "2023-03-26T17:51:21.739Z",
+        "recoveredProgression": [
+          {
+            "playerId": "dit",
+            "time": "1:12.33",
+            "submittedAt": "2023-03-08T10:46:18.792Z"
+          },
+          {
+            "playerId": "dit",
+            "time": "1:12.27",
+            "submittedAt": "2023-03-09T07:57:27.792Z"
+          },
+          {
+            "playerId": "dit",
+            "time": "1:12.25",
+            "submittedAt": "2023-03-11T04:32:06.932Z"
+          },
+          {
+            "playerId": "dit",
+            "time": "1:12.20",
+            "submittedAt": "2023-03-11T15:25:27.292Z"
+          }
+        ],
+        "openingFinalFastest": "DIT 1:12.33",
+        "fastestRecoveredAvailableRecording": "1:12.43",
+        "recordingPublishedAt": "2023-03-08T22:22:54.013Z",
+        "recordingBackupUrl": "https://media.mktwrs.com/assets/video/mario2023-b18c38d834d20a9da52f.mp4",
+        "priorSampledVideoReviewRetained": true,
+        "freshVisualReview": false
+      }
+    ]
+  }
 }
